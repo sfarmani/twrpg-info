@@ -4121,7 +4121,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "droprate": "0.7%",
+    "droprate": "1%",
     "required_by": [
       "Staff of Madness",
       "Claws of Beriel",
