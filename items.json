@@ -5718,7 +5718,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "droprate": "??",
+    "droprate": "7.5%",
     "required_by": [
       "Tiny Essence of Storm",
       "Tiny Essence of Earth",
@@ -9101,7 +9101,8 @@
       "+420 Armor",
       "+670 Intelligence",
       "+7.5% Skill Damage",
-      "Active: Temporarily increase Int by 800"
+      "Active: Temporarily increase Int by 800",
+      "Cast Animation: 0 seconds"
     ]
   },
   {
@@ -9304,7 +9305,8 @@
       "+4,000 Mana",
       "+10% Skill Damage",
       "Active: Temporarily increases Int by 1000 and Skill damage by 7.5%",
-      "CD: 60 seconds"
+      "CD: 60 seconds",
+      "Cast Animation: 0 seconds"
     ]
   },
   {

@@ -735,7 +735,8 @@
             "Consumes 500 MP per second",
             "Armor increased by 400 & max HP and magic defense increased by 25%",
             "Changes skills partially",
-            "After 5 seconds, consumed MP increases by 50% and skill damage increases by 2% every second"
+            "After 5 seconds, consumed MP increases by 50% and skill damage increases by 2% every second",
+            "Transfomation time: 1 second"
         ]
     },
     {
@@ -1573,8 +1574,9 @@
         "icon": "ElementalistW",
         "active": [
             "Forms a contract with the elemental of water, which is specialized in healing and empowering allies.",
-            "Lasts 20 seconds",
-            "Invulnerable"
+            "HP = Elementalist Max HP X 125%",
+            "Armor = Elementalist Armor X 75%",
+            "Lasts 20 seconds"
         ]
     },
     {
@@ -1635,7 +1637,7 @@
         "icon": "ElementalistE_Pass1",
         "passive": [
             "Slowly charges electricity on each attack, and releases all of them at once.",
-            "Every attack deals summoner's INT X 3 bonus damage",
+            "Every attack deals summoner's INT X 4 bonus damage",
             "Every 4th attack deals summoner's INT X 12 damage and chains to 2 additional enemies"
         ]
     },
@@ -1661,7 +1663,7 @@
         "active": [
             "Releases contained lightning to fry enemies with high voltage.",
             "Consumes Max MP X 40% per second",
-            "Deals INT X 50 damage per second"
+            "Deals INT X 60 damage per second"
         ]
     },
     {
@@ -1991,10 +1993,9 @@
         "icon": "CrusaderR",
         "active": [
             "Dash forward with lightning speed, striking all enemies.",
-            "Skill Level X 2500 damage",
-            "STR X 55 bonus damage",
+            "Attack Damage X 2500% magic damage",
             "Enhance next Remains of Rage cast within 3 seconds",
-            "On cast, jump and slam down the target location, inflicting 300% damage and stunning for fixed 1 second",
+            "On cast, slams down to target location, inflicting 300% damage and stunning for 1 second",
             "Chain - 2nd Sword Dance: Sword"
         ]
     },
@@ -2006,8 +2007,7 @@
         "icon": "CrusaderR_R",
         "active": [
             "Release mana stored within the Execution Sword to attack all nearby enemies.",
-            "Skill Level X 3000 damage",
-            "STR X (30 + 10 X Skill Level) bonus damage",
+            "STR X (25 + 25 X Skill Level) magic damage",
             "Slow effect",
             "Empowers next Strike of Honor cast within 3 seconds",
             "Increases damage and stun duration by 100%, and increases target's damage taken by 10% for 8 seconds",
@@ -2461,7 +2461,7 @@
         "icon": "WindMageD",
         "active": [
             "Swiftly move by riding on the wind.",
-            "Moves at least 400 units",
+            "Moves at least 400 units (Max range 800 units)",
             "Increases movement speed and reduces damage taken by 40% for 2 seconds after casting",
             "Leaves behind a feather that you can recall back to"
         ]
@@ -2984,7 +2984,7 @@
         "icon": "BowMasterE",
         "passive": [
             "Summon a faithful guardian that follows Bow Master around.",
-            "Increases nearby hero's attack damage and main stat by 12%",
+            "Increases nearby hero's attack damage and main stat by 8%",
             "Supports every attack with Attack Damage X 50% + AGI X 2.5 bonus damage",
             "Can critically strike"
         ],
@@ -2992,7 +2992,7 @@
             "Send out the guardian to support your allies.",
             "Increases nearby allies' movement speed and HP regen by (Target's Max HP X 10%)",
             "Lasts up to a maximum of 4 seconds",
-            "Cooldown: 10 seconds"
+            "Cooldown: 12 seconds"
         ]
     },
     {
@@ -3017,8 +3017,8 @@
         "icon": "BowMasterT",
         "active": [
             "Summons countless magical arrows to bombard an area.",
-            "Each arrow deals Attack Damage X 100% damage",
-            "AGI X 6 bonus damage",
+            "Each arrow deals Attack Damage X 150% damage",
+            "AGI X 10 bonus damage",
             "If chained with Flame Shot, damage and radius increased by 50%",
             "If chained with Freezing Shot, freezes enemies hit for 2.5 seconds"
         ]
@@ -3031,8 +3031,8 @@
         "icon": "BowMasterT_2",
         "active": [
             "Bombard target area with heart-seeking arrows.",
-            "Each arrow deals Attack Damage X 1000% damage",
-            "AGI X 60 bonus damage",
+            "Each arrow deals Attack Damage X 1200% damage",
+            "AGI X 80 bonus damage",
             "Stuns targets hit for 5 seconds and decreases their armors",
             "Cooldown: 20 seconds"
         ]
