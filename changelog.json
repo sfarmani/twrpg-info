@@ -1,5 +1,27 @@
 [
     {
+        "name": "22s",
+        "changes": [
+            "> Compatible Version: v0.13c ~",
+            "# Bug Fixes",
+            "  • Removed ability to pick up melons",
+            "  • Fixed a bug that didn't allow players to enter Dragon's nest"
+        ]
+    },
+    {
+        "name": "22r",
+        "changes": [
+            "> Compatible Version: v0.13c ~",
+            "# Event",
+            "  • Changed to receive rewards even when dead near the boss",
+            "# Areas",
+            "  • Removed level restriction on picking fruits from uncle Van's farm",
+            "  • Removed dragon's nest entry limit / removed flame ornament",
+            "# Other",
+            "  • Level 410 ~ Level 420 EXP Rate 5% → 10%"
+        ]
+    },
+    {
         "name": "22q",
         "changes": [
             "> Compatible Version: v0.13c ~",
