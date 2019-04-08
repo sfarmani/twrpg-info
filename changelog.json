@@ -6,23 +6,23 @@
             "# Event",
             "  • End of event (You may use previous version up until April 8th 11:59:59 PM Forum time)",
             "# Bug Fixes",
-            "  • Fixed a bug that could cause a fatal error when casting Q after using costume",
+            "  • Fixed a bug that could cause a fatal error when casting phantom blade Q after using weird costume",
             "  • Fixed a bug where Lightning Mage - W could skip terrains",
             "# Items",
             "  * Uncle Van's Carrot *",
-            "    • Changed to level 400 or higher",
+            "    • Changed to have no effect when used by level 400 or higher character",
             "  * Magic Horn / Frozen Crystal *",
             "    • Droprate increased",
             "# Monsters",
             "  * Bone Dragon *",
             "    • Phoenix Summon",
             "      ⏵5 times for 3 seconds → 4 seconds",
-            "      ⏵No longer casts during transformation",
+            "      ⏵Changed to not be casted during rage",
             "      ⏵Phoenix",
             "        ↳ HP 2,080,000 → 1,080,000",
             "        ↳ Duration 50 seconds → 60 seconds",
             "# Other",
-            "  • Assassin - Fixed an error when using a costume"
+            "  • Assassin - Fixed weird costume being elementalist model instead of merchant"
         ]
     },
     {
