@@ -8626,7 +8626,7 @@
       "+2,500 Health",
       "+5% Skill Damage",
       "+5% Critical Chance",
-      "Passive: Every 6 seconds power up next attack with Corrupt Arrow (50x Agi AoE Damage, and heals you for 10% of max Health)"
+      "Passive: Every 6 seconds power up next attack with Corrupt Arrow (80x Agi AoE Damage (112x agi for sniper), and heals you for 10% of max Health)"
     ],
     "spec": [
       "Specialty - Heartseeker",
