@@ -4525,7 +4525,8 @@
       "+540 Strength",
       "+260 Agility",
       "+9% Damage Reduction",
-      "Passive: 'Flameshard' Activates when Health drops below 35%, healing for a % of your Max Health"
+      "Passive: 'Flameshard' Activates when HP below 35%, heals for 14% of Max HP, deals Str x25 Magic Damage to nearby enemies, increase Str by (120+5% bonus Str - only 5% bonus Str for Agi heroes) for 10 seconds",
+      "CD: 8 seconds"
     ]
   },
   {
@@ -9959,7 +9960,8 @@
       "+960 Strength",
       "+460 Agility",
       "+12% Damage Reduction",
-      "Passive: Activates Frostshard when HP drops below 40%"
+      "Passive: Activates Frostshard when HP drops below 40%, heal for 17.5% max HP, deals Str x40 Magic Damage to nearby enemies, increase Str by (240+10% bonus Str - only 10% bonus Str for Agi heroes) and DR by 7.5% for 12 seconds",
+      "CD: 8 seconds"
     ]
   },
   {
