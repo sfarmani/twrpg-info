@@ -8836,11 +8836,11 @@
       "Shining Fragment of Ruins"
     ],
     "stats": [
-      "+33,500 Damage",
+      "+28,500 Damage",
       "+2,150 Agility",
       "+40% Attack Speed",
-      "-15% Magic Resistance",
-      "Passive: 'Wind Fury' Fire 1 additional projectiles on every attack that deals 0.15x Attack Damage as Pure Damage. Wind Fury can Crit. Can trigger on attack effects"
+      "-15% Magic Defense",
+      "Passive: 'Poem of Wind' Fire 1 additional projectiles on every attack that deals 0.15x Attack Damage as Pure Damage. Poem of Wind can Crit. Can trigger on attack effects"
     ],
     "spec": [
       "Specialty - Curse of the Skies",
