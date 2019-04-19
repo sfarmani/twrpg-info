@@ -10061,8 +10061,8 @@
       "+1,125 Intelligence",
       "+8% Skill Damage",
       "+300 Mana Regeneration",
-      "Passive: Increase Int by 145 on skill cast. 50% chance to get 2 stacks on skill cast instead of one. (Stacks up to 4 times, lasts until you drop robe)",
-      "Active: 'Witch Time' Increase Int by 500. Gain 1 stack every second. On skill cast consume all stacks to deal (25x stacks)x Int damage in an AoE centered on a random nearby enemy, lasts 6 seconds and can trigger multiple times if you get more stacks during duration. (90 second CD)"
+      "Passive: On skill cast gives an orb. Each orb increases INT by 100 and 1% SD. 50% chance to get 2 orbs on skill cast instead of one. (Max 4 orbs)",
+      "Active: 'Witch Time' Increase Int by 500 and 6% skill damage. Gain 1 orb every second and passive can trigger more orbs. During buff, each skill cast will consume all current orbs to deal 25x Int damage per orb in an AoE centered on a random nearby enemy, lasts 6 seconds. (90 second CD)"
     ]
   },
   {
