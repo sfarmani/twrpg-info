@@ -8286,8 +8286,8 @@
       "+6,000 Health",
       "+0.30x Critical Multiplier",
       "Passive: Every 14th attack activates Wrath of Blood which deals 40 x main stat damage and heals 3000 + 0.6 x main stat",
-      "Passive: Chance to activate Blood Awakening on casting skill. Gives 600 AGI and empowers Wrath of Blood",
-      "Empowered Wrath of Blood: Deals 50 x main stat damage, heals 4500 + 0.9 x main stat (50% healing for allies)"
+      "Passive: 20% Chance to activate Blood Awakening on casting skill. Gives 800 AGI and empowers Wrath of Blood for 7.5 seconds",
+      "Empowered Wrath of Blood: Deals 50 x main stat damage, mini-stuns target and enemies near it, and heals 4500 + 0.9 x main stat (50% healing for allies). Procs changed to every 4th attack (CD: 15 seconds)"
     ]
   },
   {
