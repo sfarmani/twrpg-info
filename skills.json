@@ -58,7 +58,7 @@
             "Deals AGI X 15 damage per second",
             "Pushes enemies outward",
             "Gains maximum charges of lightning",
-            "Decreases damage dealt from outside the barrier up to 90% based on distance from attacker",
+            "Decreases damage dealt from outside the barrier up to 80% based on distance from attacker",
             "Lasts 12 seconds"
         ]
     },
