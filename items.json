@@ -507,7 +507,7 @@
     "type": "[Wings]",
     "color": 33023,
     "level": "75",
-    "droprate": "5%",
+    "droprate": "20%",
     "required_by": [
       "Wing of Sea"
     ],
