@@ -179,7 +179,7 @@
     "level": "15",
     "recipe": [
       "Acorn of Luck",
-      "Kobolt Magic Rod"
+      "Kobold Magic Rod"
     ],
     "stats": [
       "+30 All Stats",
@@ -190,9 +190,9 @@
     ]
   },
   {
-    "name": "Kobolt Magic Rod",
+    "name": "Kobold Magic Rod",
     "dropped_by": [
-      "Kobolt Leader"
+      "Kobold Leader"
     ],
     "type": "[Weapon]",
     "color": 16728064,
@@ -246,7 +246,7 @@
     ]
   },
   {
-    "name": "Kobolt War Tactics",
+    "name": "Kobold War Tactics",
     "dropped_by": [
       "Kobold Creeps"
     ],
@@ -286,6 +286,10 @@
     "type": "[Longsword]",
     "color": 16728064,
     "level": "15",
+    "recipe": [
+      "Silver Fang",
+      "Kobold War Tactics"
+    ],
     "stats": [
       "+175 Damage",
       "+20% Attack Speed",
@@ -6141,7 +6145,7 @@
     ],
     "recipe": [
       "Bag",
-      "3x Kobolt Bags"
+      "3x Kobold Bag"
     ],
     "stats": [
       "+100 Damage",
