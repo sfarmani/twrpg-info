@@ -112,45 +112,41 @@
         ]
     },
     {
-        "name": "Soul Mastery",
+        "name": "Soul Collector",
         "heroClass": "Soul Weaver",
         "color": 6318794,
         "hotkey": "[Passive]",
         "icon": "SoulWeaverPass",
         "passive": [
             "Expertise in black magic allows Soul Weaver to subjugate souls to her will.",
-            "Periodically spawns a soul",
-            "Spawn rate increased based on MP regen",
-            "Damage of Soul Weaver's skills increased based on the number of souls active"
+            "Creates 1 soul per second (12 + MP recovery / 100)",
+            "Max HP x 1% per soul absorption"
         ]
     },
     {
-        "name": "Soul Bolt",
+        "name": "Harvest",
+        "heroClass": "Soul Weaver",
+        "color": 6318794,
+        "hotkey": "[A]",
+        "icon": "SoulWeaverA",
+        "active": [
+            "Sends out a spinning scythe that harvests the souls of enemies.",
+            "Deals Attack Damage X 200% damage per second",
+            "Absorbs 5 souls (10 souls for boss) per second",
+            "Reduces target's healing received by 40% and movement speed by 80%"
+        ]
+    },
+    {
+        "name": "Unholy Blast",
         "heroClass": "Soul Weaver",
         "color": 6318794,
         "hotkey": "[Q]",
-        "icon": "SoulWeaverQ",
+        "icon": "SoulWeaverQ_new",
         "active": [
-            "Fire a soul missile that curses the target.",
-            "Skill Level X 250 damage",
-            "INT X 10 bonus damage",
-            "Slows target",
-            "Refunds HP and a soul if target dies while debuff is active",
-            "Chain: Curse Explosion"
-        ]
-    },
-    {
-        "name": "Curse Explosion",
-        "heroClass": "Soul Weaver",
-        "color": 6318794,
-        "hotkey": "[Q] → [Q]",
-        "icon": "SoulWeaverQ_Q",
-        "active": [
-            "Spread a powerful curse outward from the target.",
-            "Skill Level X 150 damage",
-            "INT X 10 bonus damage",
-            "Decreases hit targets' skill damage",
-            "Explodes in a radius of 600 AoE"
+            "Pierces through the souls of the living.",
+            "INT X 80 magic damage",
+            "Increases magic damage taken by enemies by 8% for 15 seconds",
+            "Increases magic defense of allies by 15% for 45 seconds"
         ]
     },
     {
@@ -160,89 +156,52 @@
         "hotkey": "[W]",
         "icon": "SoulWeaverW",
         "active": [
-            "Surround target ally with a soul-infused barrier.",
-            "Periodically deals INT X 4 damage to nearby enemies",
-            "Increases target's skill damage by 15%",
-            "Increased target's magic defense by 15%",
-            "Skill damage increased by 0.5% per 150 base INT",
-            "No Cooldown"
+            "Surrounds self and nearby allies with spiritual barriers.",
+            "Increases skill damage by 12% for 30 seconds",
+            "Regenerates Max HP X 4% per second"
         ]
     },
     {
-        "name": "Dead Spirit",
+        "name": "Soul Transfer",
         "heroClass": "Soul Weaver",
         "color": 6318794,
         "hotkey": "[E]",
-        "icon": "SoulWeaverE",
+        "icon": "SoulWeaverE_new",
         "active": [
-            "Summon a wrathful entity made from the binding of souls.",
-            "Summons Dead Spirit",
-            "Movement speed 750"
+            "Transfers souls to or from the target.",
+            "INT X 50 magic damage per second",
+            "Absorbs 15 soul per second",
+            "If ally, heals for INT X 2.5 per second",
+            "Consumes 40 soul per second"
         ]
     },
     {
-        "name": "Howling Soul",
-        "heroClass": "Soul Weaver",
-        "color": 6318794,
-        "hotkey": "[E] → [Q]",
-        "icon": "SoulWeaverE_Q",
-        "passive": [
-            "Curses nearby enemies with strong wailing.",
-            "Deals INT X (6 + 3 X Skill Level) damage per second to nearby enemies",
-            "Decrease attack speed and movement speed by 40%"
-        ]
-    },
-    {
-        "name": "Soul Requiem",
-        "heroClass": "Soul Weaver",
-        "color": 6318794,
-        "hotkey": "[E] → [W]",
-        "icon": "SoulWeaverE_W",
-        "passive": [
-            "Harvest nearby enemies' souls to mourn for the dead.",
-            "Upon expiration, deal INT X (30 + 3 X Skill Level) damage to nearby enemies",
-            "Deals upto (100 + 5 X Skill Damage Increase)% bonus damage based on target's missing HP"
-        ]
-    },
-    {
-        "name": "Possesion",
-        "heroClass": "Soul Weaver",
-        "color": 6318794,
-        "hotkey": "[E] → [E]",
-        "icon": "SoulWeaverE_E",
-        "active": [
-            "Possess target's body, preventing the living from interfering with the target.",
-            "Redirects all skills cast onto target to self",
-            "Lasts 2 seconds",
-            "Vanished after Possession is over"
-        ]
-    },
-    {
-        "name": "Unholy Blast",
+        "name": "Astral Walk",
         "heroClass": "Soul Weaver",
         "color": 6318794,
         "hotkey": "[R]",
-        "icon": "SoulWeaverR",
+        "icon": "SoulWeaverR_new",
         "active": [
-            "Release souls into dark fragments to bombard target area",
-            "Each fragment deals Skill Level X 200 damage",
-            "INT X 4.5 bonus damage",
-            "Stuns for 1.5 seconds",
-            "Increases target's magic damage taken by 12% for 12 seconds"
+            "Pierces through the souls of the living.",
+            "INT X 80 magic damage",
+            "Increases magic damage taken by enemies by 8% for 15 seconds",
+            "Increases magic defense of allies by 15% for 45 seconds"
         ]
     },
     {
-        "name": "Dead Spike",
+        "name": "Soul Cradle",
         "heroClass": "Soul Weaver",
         "color": 6318794,
         "hotkey": "[T]",
-        "icon": "SoulWeaverT",
+        "icon": "SoulWeaverT_new",
         "active": [
-            "Releases cursed souls to cover nearby grounds with deadly spikes.",
-            "Skill Level X 6000 damage",
-            "INT X 75 bonus damage",
-            "Applies Possession to self if Dead Spirit is summoned",
-            "Cooldown: 10 seconds"
+            "Summons a cradle that holds down the souls of the living.",
+            "INT X 60 magic damage per second",
+            "Periodically stuns for 1 second",
+            "Prevents nearby allies' HP from dropping below 1",
+            "On expiration, regenereates 25% of their max HP",
+            "Lasts 8 seconds",
+            "Consumes 60 souls"
         ]
     },
     {
@@ -252,10 +211,10 @@
         "hotkey": "[F]",
         "icon": "SoulWeaverF",
         "active": [
-            "\"Heh, it's a nightmarish hole that you can't escape from once you've entered it.\" - Soul Weaver",
-            "INT X 275 damage",
-            "Seals the use of skills",
-            "Temporarily boost the spawn rate of souls after casting"
+            "\"It's nightmare that you can't escape from !\" - Soul Weaver",
+            "Pulls enemies in and silences them for 5 seconds",
+            "On expiration, deals INT X 725 damage",
+            "Stuns for 2.5 seconds"
         ]
     },
     {
@@ -748,7 +707,7 @@
         "passive": [
             "Try to satisfy my hunger..",
             "Every attack deals INT X 4 damage",
-            "Every 4th attack splashes for 400% damage",
+            "Every 4th attack splashes for 400% damage and heals you for Max HP X 7.5%",
             "Every 16th attack activates Crucifixion"
         ]
     },
@@ -784,7 +743,7 @@
         "icon": "WitchT_W",
         "active": [
             "Surge forward to execute enemies.",
-            "INT X (30 + 6 X Skill Level) damage",
+            "INT X 100 magic damage",
             "Stuns for 1 second"
         ]
     },
@@ -798,7 +757,8 @@
             "\"Seems like the time to unleash my evil left hand has come..\" - Haran",
             "INT X 250 damage per second",
             "Roots nearby enemies",
-            "Lasts 3 seconds"
+            "Lasts 3 seconds",
+            "0.5 seconds to activate"
         ]
     },
     {
@@ -2463,7 +2423,8 @@
             "Swiftly move by riding on the wind.",
             "Moves at least 400 units (Max range 800 units)",
             "Increases movement speed and reduces damage taken by 40% for 2 seconds after casting",
-            "Leaves behind a feather that you can recall back to"
+            "Leaves behind a feather that you can recall back to",
+            "CD: 10 seconds - Available for 5 seconds to recall"
         ]
     },
     {
@@ -2481,7 +2442,8 @@
         ],
         "active": [
             "\"It's time to relax!\"",
-            "Switch to healing mode"
+            "Switch to healing mode",
+            "CD: 6 seconds"
         ]
     },
     {
@@ -2499,7 +2461,8 @@
         ],
         "active": [
             "\"It's time to attack!\"",
-            "Switch to attack mode"
+            "Switch to attack mode",
+            "CD: 6 seconds"
         ]
     },
     {
@@ -2513,7 +2476,8 @@
             "INT X 20 damage",
             "Heals allies for INT X 2",
             "Cooldown reset upon casting Feather of Aeolus",
-            "When two gentle winds combine, strong winds are formed for 4 seconds, dealing Attack Damage X 500% damage per second"
+            "When two gentle winds combine, strong winds are formed for 4 seconds, dealing Attack Damage X 500% damage per second",
+            "CD: 6 seconds"
         ]
     },
     {
@@ -2531,7 +2495,8 @@
             "Summon a mirror of eon to redirect harm back to attackers.",
             "For 9 seconds, absorbs 45% of damage taken by nearby allies",
             "Upon expiration or casting again, deals Target's Max HP X 7.5% + INT X 60 damage to nearby enemies",
-            "Knockbacks non-boss enemies"
+            "Knockbacks non-boss enemies",
+            "CD: 25 seconds"
         ]
     },
     {
@@ -2546,7 +2511,8 @@
             "Increases allies' max HP by 10%",
             "Increases allies' skill damage by 10%",
             "Duration is refreshed upon stacking",
-            "Lasts for 40 seconds"
+            "Lasts for 40 seconds",
+            "CD: 6 seconds"
         ]
     },
     {
@@ -2561,7 +2527,8 @@
             "Heals allies for INT X 2",
             "Slows enemies",
             "Removes debuffs from allies",
-            "Creates up to 6 pulses"
+            "Creates up to 6 pulses",
+            "CD: 60 seconds"
         ]
     },
     {
@@ -2682,7 +2649,7 @@
             "Heals for Skill Level X 400",
             "STR X 2 bonus heal",
             "Increases target's HP regen by (Target's Max HP X 3% + Your own HP Regen) for 8 seconds",
-            "Potion lasts 120 seconds, and you can maintain up to 3 potions at once"
+            "Potion lasts 300 seconds, and you can maintain up to 3 potions at once"
         ]
     },
     {

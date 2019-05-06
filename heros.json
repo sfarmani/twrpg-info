@@ -25,7 +25,7 @@
         "name": "Stella Livve",
         "heroClass": "Soul Weaver",
         "color": 6318794,
-        "icon": "SoulWeaverIcon",
+        "icon": "SoulWeaverIcon_new",
         "role": [
             "Int based buffer/debuffer"
         ],
@@ -34,8 +34,7 @@
             "Likes to study dark magic alone.."
         ],
         "spec": [
-            "Staff of Contagion - Howling Soul",
-            "Staff of Plague - Plague"
+            "No Specs!"
         ]
     },
     {
@@ -324,7 +323,7 @@
         "name": "Aisha",
         "heroClass": "Wind Mage",
         "color": 11465927,
-        "icon": "WindMageIcon",
+        "icon": "WindMageIcon_new",
         "role": [
             "AOE Healer"
         ],

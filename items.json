@@ -3990,6 +3990,22 @@
     ]
   },
   {
+    "name": "Spirit of Forest",
+    "dropped_by": [
+      "Spirit Beast"
+    ],
+    "type": "[Material]",
+    "color": 16777215,
+    "droprate": [
+      "2.5%"
+    ],
+    "required_by": [
+      "Vest of Cyclone",
+      "Benziena, the Earthen Soul",
+      "Bag of Mother Nature"
+    ]
+  },
+  {
     "name": "Spiritus, the Sword of Elements",
     "description": "Weapon infused with the force of ancient spirits",
     "dropped_by": [
@@ -4357,7 +4373,8 @@
       "Ring of Composure",
       "Ring of Fervor",
       "Ring of Intrusion",
-      "Wings of Blood Lord"
+      "Wings of Blood Lord",
+      "Vest of Cyclone"
     ]
   },
   {
@@ -4403,7 +4420,7 @@
       "Staff of Abyss",
       "Staff of Domination",
       "Hell Riser",
-      "Eye of Incarnation",
+      "Eye of the Flame Lord",
       "Creation of the Sky and Earth",
       "Benedict, the Crimson Armor of Blood",
       "Medea, the Robe of the Witch",
@@ -4435,7 +4452,8 @@
       "Soul of the Dead",
       "Cloak of the Fallen Shadows",
       "Nightmare Icon",
-      "Ring of Composure"
+      "Ring of Composure",
+      "Vest of Cyclone"
     ]
   },
   {
@@ -4896,11 +4914,12 @@
     "level": "380",
     "droprate": "0.50% (0.10%)",
     "required_by": [
-      "Benziena, the Earthen Soul",
       "Latea, the Ring of Overlord",
       "Hydro Buster",
       "Plates of Lightning",
-      "Ring of Fervor"
+      "Ring of Fervor",
+      "Nebula Rose",
+      "Vest of Storm"
     ],
     "stats": [
       "+930 All Stats",
@@ -4984,7 +5003,7 @@
       "Devil Chaser",
       "Ruinbringer",
       "Soulstalker",
-      "Eye of Incarnation",
+      "Eye of the Flame Lord",
       "Requiem, the Armor of Lamentation",
       "Benedict, the Crimson Armor of Blood",
       "Hellspike Armor",
@@ -5166,7 +5185,7 @@
       "Chronos, the Cannon of Time",
       "Hellflame",
       "Dragon Mask",
-      "Eye of Incarnation",
+      "Eye of the Flame Lord",
       "Hellspike Armor",
       "Hades, the Armor of Despair",
       "Maw of Greed",
@@ -5186,8 +5205,7 @@
     "required_by": [
       "Ethenos, the Staff of Space",
       "Triple Snow",
-      "Crimson Hatred",
-      "Bag of Mother Nature"
+      "Crimson Hatred"
     ],
     "stats": [
       "+19,000 Damage",
@@ -5242,7 +5260,10 @@
       "Halo of Judgment",
       "Bell of Light",
       "Seal of Deceiver",
-      "Plates of Lightning"
+      "Plates of Lightning",
+      "Cosmic Star",
+      "Nebula Rose",
+      "Vest of Storm"
     ]
   },
   {
@@ -5485,7 +5506,9 @@
       "Ring of Strike",
       "Seal of Deceiver",
       "Horn of God",
-      "Wings of Slayer"
+      "Wings of Slayer",
+      "Cosmic Star",
+      "Vest of Storm"
     ]
   },
   {
@@ -5616,7 +5639,8 @@
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Protection of the Fairies",
-      "Archangel Wings"
+      "Archangel Wings",
+      "Nebula Rose"
     ]
   },
   {
@@ -5662,7 +5686,9 @@
     "color": 12517504,
     "level": "380",
     "droprate": "1%",
-    "required_by": [],
+    "required_by": [
+      "Cosmic Star"
+    ],
     "stats": [
       "+560 Armor",
       "+880 Intelligence",
@@ -5881,13 +5907,13 @@
   {
     "name": "Aegis of Flame",
     "dropped_by": [
-      "Avatar Ignis"
+      "Ifrit"
     ],
     "type": "[Material]",
     "color": 16777215,
-    "droprate": "??",
+    "droprate": "0.75%",
     "required_by": [
-      "Eye of Incarnation",
+      "Eye of the Flame Lord",
       "Ring of Revival",
       "Protection of the Fairies",
       "Archangel Wings"
@@ -5896,23 +5922,25 @@
   {
     "name": "Essence of Flame",
     "dropped_by": [
-      "Avatar Ignis"
+      "Ifrit"
     ],
     "type": "[Material]",
     "color": 16777215,
-    "droprate": "??",
+    "droprate": "0.75%",
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Staff of Plague",
       "Crimson Hatred",
-      "Eye of Incarnation"
+      "Eye of the Flame Lord",
+      "Cosmic Star",
+      "Protection of the Fairies"
     ]
   },
   {
     "name": "Shining Fragment of Ruins",
     "dropped_by": [
-      "Avatar Ignis",
-      "Thunderhorn Valtora",
+      "Ifrit",
+      "Valtora",
       "Sea Elemental Lord",
       "Earth Elemental Lord"
     ],
@@ -5921,26 +5949,28 @@
     "droprate": "0.5%",
     "required_by": [
       "Pheles, the Bow of God",
-      "Horn of God"
+      "Horn of God",
+      "Cosmic Star"
     ]
   },
   {
     "name": "Aegis of Storm",
     "dropped_by": [
-      "Thunderhorn Valtora"
+      "Valtora"
     ],
     "type": "[Material]",
     "color": 16777215,
     "droprate": "0.75%",
     "required_by": [
       "Horn of Lightning God",
-      "Protection of the Fairies"
+      "Protection of the Fairies",
+      "Nebula Rose"
     ]
   },
   {
     "name": "Essence of Storm",
     "dropped_by": [
-      "Thunderhorn Valtora"
+      "Valtora"
     ],
     "type": "[Material]",
     "color": 16777215,
@@ -5949,14 +5979,15 @@
       "Atricia, the Sword of Dreams",
       "Pheles, the Bow of God",
       "Horn of Lightning God",
-      "Horn of God"
+      "Horn of God",
+      "Protection of the Fairies"
     ]
   },
   {
     "name": "Shackles of Heaven",
     "description": "Shackles used by the Lightning God to tie his cows",
     "dropped_by": [
-      "Thunderhorn Valtora"
+      "Valtora"
     ],
     "type": "[Ring]",
     "color": 12517376,
@@ -6047,6 +6078,19 @@
     "color": 16777215,
     "droprate": "??",
     "required_by": []
+  },
+  {
+    "name": "Volcanic Heart",
+    "dropped_by": [
+      "Ifrit"
+    ],
+    "type": "[Ring]",
+    "color": 12517376,
+    "level": "380",
+    "droprate": "0.5%",
+    "required_by": [
+      "Ring of Revival"
+    ]
   },
   {
     "name": "Rainbow Crystal Golem Token",
@@ -6488,7 +6532,7 @@
     "level": "380",
     "recipe": [
       "Bag of Life",
-      "Dragonic Rod",
+      "Spirit of Forest",
       "Embrace of Nature",
       "Spirit of Abyss",
       "Heart of Fire"
@@ -6496,7 +6540,7 @@
     "stats": [
       "+26,000 Damage",
       "+1,950 All Stats",
-      "+1,000 Health Regeneration",
+      "+1,200 Health Regeneration",
       "+200 Movement Speed"
     ],
     "spec": [
@@ -7471,9 +7515,9 @@
     "stats": [
       "+15,700 Damage",
       "+1,510 Intelligence",
-      "+10% Healing",
+      "+8% Damage Resistance",
       "+3% Earth Affinity",
-      "Active: 'Earthen Torsion' Shields self for 50% of Max Health and provides 2500 Health Regeneration for 6 seconds (30 second CD)"
+      "Active: Covers target area (450 radius) with roots that restore 10% HP per second to allies in it (45 second CD)"
     ],
     "spec": [
       "Specialties - Earth Mastery",
@@ -8459,23 +8503,21 @@
     "level": "380",
     "recipe": [
       "Benziena, the Earthen Pillar",
-      "Ring of the Storm",
+      "Spirit of Forest",
       "Spirit Orb",
       "Mana Orb",
-      "Soul Stone",
-      "5x Holy Powders",
-      "12x Green Powders"
+      "Soul Stone"
     ],
     "stats": [
       "+20,500 Damage",
-      "+2,190 Intelligence",
-      "+15% Healing",
+      "+1,980 Intelligence",
+      "+10% Damage Resistance",
       "+6% Earth Affinity",
-      "Active: 'Earthen Torsion' Shields self for 50% of Max Health and provides 5,000 Health Regeneration for 6 seconds (30 second CD)"
+      "Active: Covers target area (450 radius) with roots that restore 15% HP per second to allies in it (45 second CD)"
     ],
     "spec": [
       "Specialties - Earth Mastery",
-      "Alchemist - Improved Stone Golem: Increases the size and Health of Golem by 7500 + 20% and heals nearby allies for 4.2% Max Health per second. Applying immolation effect on golem removes the healing effect. Also increases Stone Golem's starting and max bonus armor (440 - 800)",
+      "Alchemist - Improved Stone Golem: Increases the size and Health of Golem by 7500 + 15% and heals nearby allies for 4.2% Max Health per second. Applying immolation effect on golem removes the healing effect. Also increases Stone Golem's starting and max bonus armor (440 - 800)",
       "Elementalist - Seal of Earth: Duration increased by 5 seconds",
       "Elementalist - Pulse of Protection: Cooldown reduced by 3 seconds"
     ]
@@ -8723,6 +8765,9 @@
     "type": "[Gun]",
     "color": 12517376,
     "level": "380",
+    "required_by": [
+      "Cosmic Star"
+    ],
     "recipe": [
       "Crimson Cross",
       "Trueblood Ring",
@@ -8735,13 +8780,12 @@
       "+20,000 Damage",
       "+850 Agility",
       "+1,870 Intelligence",
-      "+6,000 Health",
-      "Passive: Empowers allies upon healing them with 7.5% Skill Damage and 7.5% Healing Received.",
-      "Active: 'Bloody Baptism' - Deals 20 x AGI and heals for x INT in 3 waves of blood."
+      "Passive: Empowers allies upon healing them with 7.5% Skill Damage and Healing Received.",
+      "Active: Throws 3 waves of blood to target area each dealing INT X 20 damage and heals INT X 3 HP to allies"
     ],
     "spec": [
       "Specialty - Crimson Star",
-      "Shooter - Twin Star: Heals allies hit for (INT X 0.5 + Target's Max HP X 10%)",
+      "Shooter - Twin Star: Damage type is converted to magic, but damage is increased by 200% and heals allies hit for (INT X 0.5 + Target's Max HP X 10%)",
       "Shooter - Nanomachine Injection: Healing speed increased by 50% and duration increased by 200%."
     ]
   },
@@ -8760,14 +8804,12 @@
       "Fragment of Chaos"
     ],
     "stats": [
-      "+31,800 Damage",
-      "+1,180 Strength",
-      "+2,280 Agility",
-      "+15% Attack Speed",
-      "+9% Skill Damage",
-      "+9% Critical Chance",
-      "Passive: 'Hallucination' Gain 1 stack on skill cast. Nearby enemies take 3x Agi damage per second for each stack of Hallucination. Lasts for 10 seconds (Max 10 stacks)",
-      "Active: 'Dreamland' Consume all current stacks of Hallucination dealing 30x Agi for each stack to all nearby enemies. Become immune to debuffs and stuns and damage for (3+0.3x stacks) seconds (does not include instakills). (90 second CD)"
+      "+31,500 Damage",
+      "+1,775 Strength",
+      "+2,075 Agility",
+      "+7.5% Skill Damage and Crit Chance",
+      "Passive: On spellcast, empowers next attack to deal 6 X Mainstat pure damage, restore 3% MAX HP, and adds stacks. Can have up to 6 stacks",
+      "Active: Consumes all stacks and deals (50 X Mainstat X stack) damage to nearby enemies, stuns for 2 seconds, and gives 0.5 X stack seconds of CC immunity. (90 second CD)"
     ]
   },
   {
@@ -8786,16 +8828,15 @@
       "Antimatter"
     ],
     "stats": [
-      "+27,000 Damage",
+      "+22,500 Damage",
       "+2,480 Intelligence",
       "+30% Attack Speed",
       "+10% Skill Damage",
       "+10% Periodic Damage",
-      "Active: 'Ring of Plague' Infects the target and nearest unit for 8 seconds. Enemies have healing reduced by 20% and take 5x Int damage per second. Allies received 40% Magic Resistance and heal for 0.75x Int per second. Deals 50x Int damage in small AoE when it expires (20 second CD)"
-    ],
-    "spec": [
-      "Specialty - Plague",
-      "Soul Weaver - Curse Explosion: Decreases the enemy's magic resistance by 5% for 4 seconds. After 4 seconds, explodes and damages nearby enemies and restores one soul to Soul Weaver."
+      "Active: Infects target and nearby units for 8 seconds. (20 second CD)",
+      "  ↳ If target is ally: Gain 40% Magic Resistance and restore 1 X INT HP per second",
+      "  ↳ If target is enemy: Lose 10% healing taken and take 5 X INT damage per second",
+      "  ↳ After buff/debuff ends, target explodes dealing 40 X INT damage to nearby enemies"
     ]
   },
   {
@@ -8813,11 +8854,11 @@
       "God's Page"
     ],
     "stats": [
-      "+29,900 Damage",
+      "+25,000 Damage",
       "+2,350 Intelligence",
       "+8% Skill Damage",
-      "Passive: Increases Int by 250 & Increases Fire Affinity by 2.5% per skill cast for 5 seconds from last skill cast (Max Stack 5)",
-      "Active: 'Eye of Hatred' Launch 16 projectiles that deal 12.5x Int each to a single target and briefly stun them over 2 seconds. Damage increased by up to 250% based on amount of Health target has lost (75 second CD)"
+      "Passive: On skillcast adds 250 INT and 2.5% Flame Affinity stack. Up to 5 stacks for 5 seconds",
+      "Active: Over 2 seconds bombards target with 16 projectiles, each dealing 12.5 X INT damage and mini-stuns. Damage increases up to 2.5 times based on targets missing HP"
     ]
   },
   {
@@ -9119,7 +9160,7 @@
       "Dark Wings"
     ],
     "required_by": [
-      "Eye of Incarnation"
+      "Eye of the Flame Lord"
     ],
     "stats": [
       "+440 Armor",
@@ -9239,8 +9280,8 @@
     "stats": [
       "+590 Armor",
       "+570 Strength",
-      "+20% Damage Reduction",
-      "Passive: 25% chance to restore 2% of max HP when being hit (4 second CD)",
+      "+18% Damage Reduction",
+      "Passive: 25% chance to restore 2% HP and Mana on taking damage (4 second CD)",
       "Active: Increase nearby allies Magic Resistance by 40% for 12 seconds (90 second CD)"
     ]
   },
@@ -9267,10 +9308,11 @@
     ]
   },
   {
-    "name": "Eye of Incarnation",
+    "name": "Eye of the Flame Lord",
+    "description": "Don't stare into it directly or you'll go blind!!",
     "type": "[Hood]",
     "color": 12517376,
-    "level": "380",
+    "level": "400",
     "recipe": [
       "Void Eye",
       "Essence of Anger",
@@ -9281,10 +9323,9 @@
     "stats": [
       "+555 Armor",
       "+999 Intelligence",
-      "+10% Magic Resistance",
-      "Passive: Increases nearby allies Skill Damage by 6%",
-      "Passive: Increases nearby allies Attack Damage by 6%",
-      "Active: 'Muspelheim' Summons 2 Flame Giants"
+      "+10% Magic Defense",
+      "Passive: Increases nearby allies Skill Damage and Attack Damage by 6%",
+      "Active: Summons 2 Flame Giants"
     ]
   },
   {
@@ -9695,7 +9736,8 @@
     ],
     "required_by": [
       "Grandine, the Plates of Wraith",
-      "Plates of Lightning"
+      "Plates of Lightning",
+      "Vest of Cyclone"
     ],
     "stats": [
       "+580 Armor",
@@ -9864,8 +9906,8 @@
       "+520 Armor",
       "+920 Agility",
       "+9% Skill Damage",
-      "Passive: 'Gathering Blood' Stores 1% of damage dealt in Benedict, gaining it as max Health temporarily. (Capped at Agility X 2) After 8 seconds of dealing no damage lose the stored health and get healed for half the amount",
-      "Active: 'Blood Vengeance' Release stored health (triggers passive heal) dealing accumulated HP X 30 Pure Damage in 750 AoE and increasing Agi by 15% (no cap) and 5% Skill Damage for 12 seconds (120 second CD)"
+      "Passive: Per damage dealt, converts 1% of it into Max HP up to 2 X AGI and provides 1.25% HP regen in duration of passive",
+      "Active: Releases stored Max HP and deals amount X 30 pure damage to enemies in 750 radius of hero and stuns them for 1.5 seconds. Increases AGI by 15% and Skill damage by 5% for 12 seconds (120 second CD)"
     ]
   },
   {
@@ -10623,6 +10665,9 @@
     "type": "[Ring]",
     "color": 12517376,
     "level": "380",
+    "required_by": [
+      "Nebula Rose"
+    ],
     "recipe": [
       "Winter Rose",
       "Purified Water",
@@ -10679,19 +10724,18 @@
     "level": "380",
     "recipe": [
       "Trueblood Ring",
+      "Volcanic Heart",
       "Shroud of Perseverance",
       "Purified Water",
-      "Potion of Corruption",
-      "Aegis of Flame"
+      "Potion of Corruption"
     ],
     "stats": [
       "+1,020 All Stats",
-      "+7,500 Health",
-      "+7,500 Mana",
+      "+7,500 Health and Mana",
       "+125 Movement Speed",
       "+15% Healing Received",
       "Passive: Revive 2 seconds after death with 100% Health/Mana (240 second CD)",
-      "Active: Heal yourself for 50% Max Health/Mana and increase All Stats by 1000. Stat buff decreases by 100 per second. Lasts 10 seconds. (45 second CD)"
+      "Active: Heal yourself for 50% Max Health/Mana and increase Mainstat by 1000. Stat buff decreases by 100 per second. Lasts 10 seconds. (45 second CD)"
     ]
   },
   {
@@ -11245,7 +11289,7 @@
     ],
     "spec": [
       "Specialty - Soul Devour",
-      "Witch - Soul Whisper's restored HP amount is increased by 30%."
+      "Warlock - Soul Whisper's restored HP amount is increased by 30%."
     ]
   },
   {
@@ -11350,20 +11394,17 @@
     "recipe": [
       "Embrace of Nature",
       "Soul of the Dead",
-      "Aegis of Flame",
-      "Aegis of Sea",
-      "Aegis of Storm",
+      "Essence of Flame",
+      "Essence of Storm",
       "Proof of Purification",
       "Fragment of Chaos"
     ],
     "stats": [
-      "+1,060 All Stats",
-      "+150 Movement Speed",
-      "+15% Healing Received",
-      "+5% Fire Affinity",
-      "+5% Ice/Water Affinity",
-      "+5% Wind/Lightning Affinity",
-      "Passive: Resurrect nearby ally upon your death with 100% Health and 100% Mana. Ally is invincible for 4 seconds after revival. (300 second CD)"
+      "+1,160 All Stats",
+      "+160 Movement Speed",
+      "+15% Healing Received aura",
+      "+5% Fire/Water/Wind Affinity",
+      "Passive: Resurrect nearby ally upon your death with full HP and Mana. Ally is invincible for 4 seconds after revival. (180 second CD)"
     ]
   },
   {
@@ -11925,7 +11966,7 @@
     "spec": [
       "Specialties - Transmission of Darkness, Forbidden Grimoire",
       "Priest - Holy Aurora is replaced by Dark Aurora [Lv 1]",
-      "Witch - While Forbidden Magic is active, Soul Grimoire does not consume MP"
+      "Warlock - While Forbidden Magic is active, Soul Grimoire does not consume MP"
     ]
   },
   {
@@ -11952,7 +11993,100 @@
     "spec": [
       "Specialties - Transmission of Darkness, Forbidden Grimoire",
       "Priest - Holy Aurora is replaced by Dark Aurora [Lv 2]",
-      "Witch - While Forbidden Magic is active, Soul Grimoire does not consume MP and its damage is increased by 5%"
+      "Warlock - While Forbidden Magic is active, Soul Grimoire does not consume MP and its damage is increased by 5%"
+    ]
+  },
+  {
+    "name": "Vest of Cyclone",
+    "description": "Vest that bestows you with the speed of a cyclone.",
+    "type": "[Armor]",
+    "color": 12517376,
+    "level": "360",
+    "required_by": [
+      "Vest of Storm"
+    ],
+    "recipe": [
+      "Guardian Vest",
+      "Spirit of Forest",
+      "Spirit of Nightmare",
+      "Ancient Fragment of Ruins"
+    ],
+    "stats": [
+      "+630 Armor",
+      "+980 Agility",
+      "+7.5% Skill Damage",
+      "+5% Magic Defense",
+      "Passive: On spellcast activate Wind Fury for 6 seconds, giving 250 AGI and 75 Movespeed (goes past 500 limit) and makes next 3 attacks strike twice"
+    ]
+  },
+  {
+    "name": "Vest of Storm",
+    "description": "Vest that bestows you with the speed of a storm.",
+    "type": "[Armor]",
+    "color": 12517376,
+    "level": "380",
+    "recipe": [
+      "Vest of Cyclone",
+      "Ring of the Storm",
+      "Antimatter",
+      "Essence of Light"
+    ],
+    "stats": [
+      "+710 Armor",
+      "+1,180 Agility",
+      "+10% Skill Damage",
+      "+7.5% Magic Defense",
+      "Passive: On spellcast activate Storm Fury for 6 seconds, giving 400 AGI and 100 Movespeed (goes past 500 limit) and makes next 3 attacks strike twice"
+    ]
+  },
+  {
+    "name": "Nebula Rose",
+    "description": "A rose enveloped in cosmic powers.",
+    "type": "[Ring]",
+    "color": 12566272,
+    "level": "400",
+    "recipe": [
+      "Eternal Rose",
+      "Ring of the Storm",
+      "Aegis of Storm",
+      "Essence of Light",
+      "Fragment of Chaos"
+    ],
+    "stats": [
+      "+1,400 Intelligence",
+      "+5,000 HP",
+      "+125 Movement Speed",
+      "+10% Magic Defense aura",
+      "+6% Water/Wind Affinity",
+      "Active: Activates Cosmic Protection, which provides ((INT X 5) + (Max HP X 0.2)) shield to nearby allies for 5 seconds. Targets taking spell damage during shield will gain 6% damage output and 12% damage resistance for 30 seconds (45 seconds cooldown)"
+    ]
+  },
+  {
+    "name": "Cosmic Star",
+    "description": "...",
+    "type": "[Gun]",
+    "color": 12566272,
+    "level": "400",
+    "recipe": [
+      "Crimson Star",
+      "Eyes of the Watcher",
+      "Essence of Flame",
+      "Essence of Light",
+      "Antimatter",
+      "Shining Fragment of Ruins"
+    ],
+    "stats": [
+      "+22,500 Damage",
+      "+1,150 Agility",
+      "+2,170 Intelligence",
+      "+9,000 HP",
+      "Passive: Empowers healed allies with 9% Skill Damage and healing for 6 seconds.",
+      "Active: Throws 3 waves of light to target area (400 radius) each dealing INT X 40 damage and heals INT X 1.5 HP to allies (10 second CD)"
+    ],
+    "spec": [
+      "Specialty - Cosmic Star",
+      "Shooter - Twin Star: Damage type is converted to magic, but damage is increased by 300% and heals allies hit for (INT X 0.5 + Target's Max HP X 15%)",
+      "Shooter - Nanomachine Injection: Healing speed increased by 60% and duration increased by 200%; while buff is active, target is immune to debuffs"
     ]
   }
 ]
