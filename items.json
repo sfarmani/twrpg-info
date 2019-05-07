@@ -74,6 +74,16 @@
     "name": "Green Powder",
     "type": "[Material]",
     "color": 4227072,
+    "dropped_by": [
+      "Forest Spirit",
+      "Fairy Spirit",
+      "Dryad"
+    ],
+    "droprate": [
+      "0.5%",
+      "0.25%",
+      "0.5%"
+    ],
     "required_by": [
       "Blue Powder",
       "Tiny Essence of Earth"
@@ -368,7 +378,7 @@
   {
     "name": "Green Crystal Golem Token",
     "dropped_by": [
-      "Poisoned Tree"
+      "Protector of Nature"
     ],
     "type": "[Token]",
     "color": 565376,
@@ -380,7 +390,7 @@
   {
     "name": "Sword of Nature",
     "dropped_by": [
-      "Poisoned Tree"
+      "Protector of Nature"
     ],
     "type": "[Longsword]",
     "color": 33023,
@@ -395,7 +405,7 @@
   {
     "name": "Greatsword of Nature",
     "dropped_by": [
-      "Poisoned Tree"
+      "Protector of Nature"
     ],
     "type": "[Greatsword]",
     "color": 33023,
@@ -410,7 +420,7 @@
   {
     "name": "Gloves of Nature",
     "dropped_by": [
-      "Poisoned Tree"
+      "Protector of Nature"
     ],
     "type": "[Gloves]",
     "color": 33023,
@@ -425,7 +435,7 @@
   {
     "name": "Staff of Nature",
     "dropped_by": [
-      "Poisoned Tree"
+      "Protector of Nature"
     ],
     "type": "[Staff]",
     "color": 33023,
@@ -440,7 +450,7 @@
   {
     "name": "Bow of Nature",
     "dropped_by": [
-      "Poisoned Tree"
+      "Protector of Nature"
     ],
     "type": "[Bow]",
     "color": 33023,
@@ -455,7 +465,7 @@
   {
     "name": "Rifle of Nature",
     "dropped_by": [
-      "Poisoned Tree"
+      "Protector of Nature"
     ],
     "type": "[Gun]",
     "color": 33023,
@@ -473,7 +483,7 @@
   {
     "name": "Armor of Nature",
     "dropped_by": [
-      "Poisoned Tree"
+      "Protector of Nature"
     ],
     "type": "[Armor]",
     "color": 33023,
@@ -490,7 +500,7 @@
   {
     "name": "Robe of Nature",
     "dropped_by": [
-      "Poisoned Tree"
+      "Protector of Nature"
     ],
     "type": "[Robe]",
     "color": 33023,
@@ -506,7 +516,7 @@
   {
     "name": "Wings of Nature",
     "dropped_by": [
-      "Poisoned Tree"
+      "Protector of Nature"
     ],
     "type": "[Wings]",
     "color": 33023,
@@ -6089,11 +6099,18 @@
       "Ifrit"
     ],
     "type": "[Ring]",
+    "description": "으아아아아 터진다!!!!!!!!!!!!!!!!!!!",
     "color": 12517376,
     "level": "380",
     "droprate": "0.5%",
     "required_by": [
       "Ring of Revival"
+    ],
+    "stats": [
+      "+1,300 Main Stat",
+      "+125 Movement Speed",
+      "+10% Skill Damage",
+      "Active: After 1 second delay, causes an explosion that kills user, deals Mainstat X 250 damage to nearby enemies and stuns for 3 seconds. Damage dealt increases by 50% for every 5 seconds in combat up to 5 seconds (180 second CD)"
     ]
   },
   {
@@ -11408,12 +11425,13 @@
       "+160 Movement Speed",
       "+15% Healing Received aura",
       "+5% Fire/Water/Wind Affinity",
-      "Passive: Resurrect nearby ally upon your death with full HP and Mana. Ally is invincible for 4 seconds after revival. (180 second CD)"
+      "Active: Revives a fallen ally with full HP and Mana. (180 second CD)"
     ]
   },
   {
     "name": "Archangel Wings",
     "type": "[Wings]",
+    "description": "Wings blessed by archangels",
     "color": 12566272,
     "level": "400",
     "recipe": [
@@ -11426,13 +11444,12 @@
       "Sealed Archangel Wings"
     ],
     "stats": [
-      "+725 All Stats",
+      "+750 All Stats",
       "+250 Main Stat",
       "+300 HP regeneration",
       "+150 MP regeneration",
       "+15% Skill Damage",
-      "Passive: \"Archangel's Judgement\" On spell cast, 5% chance to reset the cooldown of all non-ultimate skills after 2 seconds of delay and gain 10% skill damage for 10 seconds (150 second CD)",
-      "Passive: \"Archangel's Blessing\" If HP drops below 1 (not including instant kills), restores 70% HP and Mana (300 second cooldown)"
+      "Passive: \"Archangel's Judgement\" On spell cast, 5% chance to reset the cooldown of all non-ultimate skills after 2 seconds of delay, gain 10% skill damage, and 50% damage resistance for 10 seconds (120 second CD)"
     ],
     "spec": [
       "Specialty - Heavenly Light",
