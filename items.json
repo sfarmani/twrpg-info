@@ -138,7 +138,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "droprate": "60%",
+    "droprate": "50%",
     "required_by": [
       "Warm Fur",
       "Precious Wind-Protection Clothing",
@@ -309,7 +309,7 @@
   {
     "name": "Corrupt Creations",
     "dropped_by": [
-      "Wallachia Spectre",
+      "Wallachia Wraith",
       "Giant Golem",
       "Corrupt Angel"
     ],
@@ -336,7 +336,7 @@
   {
     "name": "Ghostly Thread",
     "dropped_by": [
-      "Wallachia Spectre",
+      "Wallachia Wraith",
       "Mad Clown"
     ],
     "type": "[Material]",
@@ -783,7 +783,7 @@
     "type": "[Weapon All Classes]",
     "color": 8388736,
     "level": "240",
-    "droprate": "7.5%",
+    "droprate": "10%",
     "required_by": [
       "True Blood Cannon Tepes",
       "Aglaia, the Spear of Heavenly Flows",
@@ -807,7 +807,7 @@
     "type": "[Bastard Sword]",
     "color": 8388736,
     "level": "240",
-    "droprate": "7.5%",
+    "droprate": "12.5%",
     "required_by": [
       "Tepethia, the Crimson Sword of Requiem",
       "Bahanar, the Sword of Illusion",
@@ -830,7 +830,7 @@
     "type": "[Bow]",
     "color": 8388736,
     "level": "240",
-    "droprate": "7.5%",
+    "droprate": "12.5%",
     "required_by": [
       "Flame Explosion",
       "Everfrostbane"
@@ -847,12 +847,13 @@
     "name": "Mask of Blood",
     "description": "Time to feed..!",
     "dropped_by": [
-      "Blood Wraith"
+      "Blood Wraith",
+      "Wallachia Monstrosity"
     ],
     "type": "[Helm/Hood]",
     "color": 8388736,
     "level": "240",
-    "droprate": "7.5%",
+    "droprate": "10%",
     "required_by": [
       "Death Visage",
       "Bloodstone Plates"
@@ -869,13 +870,12 @@
     "name": "Cape of the Dead",
     "description": "As you approach death, your inner potentials will undoubtedly reveal themselves..",
     "dropped_by": [
-      "Blood Wraith",
-      "Wallachia Monstrosity"
+      "Blood Wraith"
     ],
     "type": "[Armor/Robe]",
     "color": 8388736,
     "level": "240",
-    "droprate": "7.5%",
+    "droprate": "12.5%",
     "required_by": [
       "Tunic of the Wraith",
       "Robe of the Necromancer",
@@ -901,7 +901,7 @@
     "type": "[Ring]",
     "color": 8388736,
     "level": "240",
-    "droprate": "7.5%",
+    "droprate": "10%",
     "required_by": [
       "Grim Visage",
       "Ring of the Reaper",
@@ -925,7 +925,7 @@
     "type": "[Gun]",
     "color": 8388736,
     "level": "240",
-    "droprate": "7.5%",
+    "droprate": "12.5%",
     "required_by": [
       "Devil Blaster"
     ],
@@ -943,7 +943,7 @@
     "type": "[Armor]",
     "color": 8388736,
     "level": "240",
-    "droprate": "7.5%",
+    "droprate": "12.5%",
     "required_by": [
       "Bloodstone Plates"
     ],
@@ -964,7 +964,7 @@
     "type": "[Wings]",
     "color": 8388736,
     "level": "240",
-    "droprate": "7.5%",
+    "droprate": "12.5%",
     "required_by": [
       "Hungry Bat Wings", "Horn of Devil"
     ],
@@ -1031,7 +1031,7 @@
     "type": "[Greatsword]",
     "color": 8388736,
     "level": "200",
-    "droprate": "7.5%",
+    "droprate": "12.5%",
     "required_by": [
       "Leoreus, the Greatsword of Explosion"
     ],
@@ -1050,7 +1050,7 @@
     "type": "[Gun]",
     "color": 8388736,
     "level": "200",
-    "droprate": "7.5%",
+    "droprate": "12.5%",
     "required_by": [
       "Monster Blaster"
     ],
@@ -1068,7 +1068,7 @@
     "type": "[Helm/Hood]",
     "color": 8388736,
     "level": "200",
-    "droprate": "7.5%",
+    "droprate": "12.5%",
     "required_by": [
       "Helm of Battle",
       "Crown of Rage"
@@ -1088,7 +1088,7 @@
     "type": "[Ring]",
     "color": 8388736,
     "level": "200",
-    "droprate": "7.5%",
+    "droprate": "12.5%",
     "required_by": [
       "Crimson Reaper",
       "Hellflame",
@@ -1110,7 +1110,7 @@
     "type": "[Ring]",
     "color": 8388736,
     "level": "200",
-    "droprate": "7.5%",
+    "droprate": "12.5%",
     "required_by": [
       "Staff of Void",
       "Crimson Pumpkin Rod",
@@ -4206,7 +4206,7 @@
     "type": "[Longsword]",
     "color": 12517567,
     "level": "360",
-    "droprate": "4%",
+    "droprate": "3%",
     "required_by": [
       "Corruptor Icon",
       "Laktrisha, the Illusional Sword of Poison"
@@ -4820,9 +4820,9 @@
     "type": "[Material]",
     "color": 16777215,
     "droprate": [
-      "0.30%",
+      "0.40%",
       "0.20% (0.04%)",
-      "0.025% (0.005%)"
+      "0.02% (0.005%)"
     ],
     "required_by": [
       "Spirit Dagger",
@@ -4841,15 +4841,15 @@
     "name": "Purified Water of Nature",
     "dropped_by": [
       "Ancient Ent",
-      "Giant Ent",
-      "Elder Ent"
+      "Elder Ent",
+      "Giant Ent"
     ],
     "type": "[Material]",
     "color": 16777215,
     "droprate": [
-      "0.30%",
-      "0.025% (0.005%)",
-      "0.20% (0.04%)"
+      "0.40%",
+      "0.20% (0.04%)",
+      "0.02% (0.005%)"
     ],
     "required_by": [
       "Espishu, the Sword of Eternity",
@@ -5894,7 +5894,7 @@
   {
     "name": "Key of Flame",
     "type": "[Misc]",
-    "description": "Not yet implemented",
+    "description": "Key that opens the pathway to the Room of Flame",
     "color": 16777215,
     "recipe": [
       "3x Tiny Essence of Flame"
@@ -5951,12 +5951,30 @@
     ]
   },
   {
+    "name": "Volcanic Heart",
+    "dropped_by": [
+      "Ifrit"
+    ],
+    "type": "[Ring]",
+    "description": "으아아아아 터진다!!!!!!!!!!!!!!!!!!!",
+    "color": 12517376,
+    "level": "380",
+    "droprate": "0.5%",
+    "required_by": [
+      "Ring of Revival"
+    ],
+    "stats": [
+      "+1,300 Main Stat",
+      "+125 Movement Speed",
+      "+10% Skill Damage",
+      "Active: After 1 second delay, causes an explosion that kills user, deals Mainstat X 250 damage to nearby enemies and stuns for 3 seconds. Damage dealt increases by 50% for every 5 seconds in combat up to 5 seconds (180 second CD)"
+    ]
+  },
+  {
     "name": "Shining Fragment of Ruins",
     "dropped_by": [
       "Ifrit",
-      "Valtora",
-      "Sea Elemental Lord",
-      "Earth Elemental Lord"
+      "Valtora"
     ],
     "type": "[Material]",
     "color": 16777215,
@@ -6021,6 +6039,7 @@
   },
   {
     "name": "Aegis of Sea",
+    "description": "Not yet implemented",
     "dropped_by": [
       "Sea Elemental Lord"
     ],
@@ -6033,6 +6052,7 @@
   },
   {
     "name": "Gem of Sea",
+    "description": "Not yet implemented",
     "dropped_by": [
       "Sea Elemental Lord"
     ],
@@ -6045,6 +6065,7 @@
   },
   {
     "name": "Aegis of Earth",
+    "description": "Not yet implemented",
     "dropped_by": [
       "Earth Elemental Lord"
     ],
@@ -6055,6 +6076,7 @@
   },
   {
     "name": "Gem of Earth",
+    "description": "Not yet implemented",
     "dropped_by": [
       "Earth Elemental Lord"
     ],
@@ -6065,6 +6087,7 @@
   },
   {
     "name": "Aether",
+    "description": "Not yet implemented",
     "dropped_by": [
       "Chaos Elemental Lord"
     ],
@@ -6075,6 +6098,7 @@
   },
   {
     "name": "Remains of Abyss",
+    "description": "Not yet implemented",
     "dropped_by": [
       "Chaos Elemental Lord"
     ],
@@ -6085,6 +6109,7 @@
   },
   {
     "name": "Twisted Fragment of Ruins",
+    "description": "Not yet implemented",
     "dropped_by": [
       "Chaos Elemental Lord"
     ],
@@ -6092,26 +6117,6 @@
     "color": 16777215,
     "droprate": "??",
     "required_by": []
-  },
-  {
-    "name": "Volcanic Heart",
-    "dropped_by": [
-      "Ifrit"
-    ],
-    "type": "[Ring]",
-    "description": "으아아아아 터진다!!!!!!!!!!!!!!!!!!!",
-    "color": 12517376,
-    "level": "380",
-    "droprate": "0.5%",
-    "required_by": [
-      "Ring of Revival"
-    ],
-    "stats": [
-      "+1,300 Main Stat",
-      "+125 Movement Speed",
-      "+10% Skill Damage",
-      "Active: After 1 second delay, causes an explosion that kills user, deals Mainstat X 250 damage to nearby enemies and stuns for 3 seconds. Damage dealt increases by 50% for every 5 seconds in combat up to 5 seconds (180 second CD)"
-    ]
   },
   {
     "name": "Rainbow Crystal Golem Token",
