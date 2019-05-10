@@ -82,7 +82,7 @@
             "      ⏵Damage: INT X 25 → INT X 20",
             "    • Astral Walk (R)",
             "      ⏵Damage: INT X 80 → INT X 60",
-            "      ⏵Self corrects position (??)",
+            "      ⏵Applies buff to self when used",
             "    • Soul Cradle (T)",
             "      ⏵HP recovery amount 25% → 50%",
             "# Other",
