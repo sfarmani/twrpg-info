@@ -1,6 +1,14 @@
 [
     {
         "name": "Yeti",
-        "limit": "1"
+        "limit": "1",
+        "timer": "30s",
+        "location": "Southern part of Frosty Snowfield two reside below The Magician's Tower",
+        "conditions": "Level 120",
+        "drops": [
+            "I030",
+            "I031",
+            "I08O"
+        ]
     }
 ]

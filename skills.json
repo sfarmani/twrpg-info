@@ -133,7 +133,8 @@
             "Sends out a spinning scythe that harvests the souls of enemies.",
             "Deals Attack Damage X 200% damage per second",
             "Absorbs 5 souls (10 souls for boss) per second",
-            "Reduces target's healing received by 40% and movement speed by 80%"
+            "Reduces target's healing received by 40% and movement speed by 80%",
+            "Affected by attack speed"
         ]
     },
     {
@@ -145,8 +146,9 @@
         "active": [
             "Pierces through the souls of the living.",
             "INT X 80 magic damage",
-            "Increases magic damage taken by enemies by 8% for 15 seconds",
-            "Increases magic defense of allies by 15% for 45 seconds"
+            "Increases magic damage taken by enemies by (5+ INT / 2500)% for 15 seconds",
+            "Increases magic defense of allies by 15% for 45 seconds",
+            "Lasts 5 seconds"
         ]
     },
     {
@@ -158,7 +160,7 @@
         "active": [
             "Surrounds self and nearby allies with spiritual barriers.",
             "Increases skill damage by 12% for 30 seconds",
-            "Regenerates Max HP X 4% per second"
+            "Regenerates INT X 0.2 per second"
         ]
     },
     {
@@ -214,7 +216,8 @@
             "\"It's nightmare that you can't escape from !\" - Soul Weaver",
             "Pulls enemies in and silences them for 5 seconds",
             "On expiration, deals INT X 725 damage",
-            "Stuns for 2.5 seconds"
+            "Stuns for 2.5 seconds",
+            "ACtivation delay: 0.5 seconds"
         ]
     },
     {
@@ -505,7 +508,8 @@
         "active": [
             "Summon a golem.",
             "Deals INT X 3 damage on attack",
-            "Attains special abilities based on level"
+            "Attains special abilities based on level",
+            "Movement speed: 400"
         ]
     },
     {
@@ -1411,9 +1415,10 @@
         "icon": "SwordsmanT",
         "active": [
             "Brutally slash everything in range with rapid movements.",
-            "Attack Damage X 2000% damage",
+            "Attack Damage X 3000% damage",
             "AGI X 125 bonus damage",
-            "Increases damage taken by target by 10% for 12 seconds"
+            "Increases damage taken by target by 10% for 12 seconds",
+            "Cooldown: 40 seconds"
         ]
     },
     {
@@ -1487,7 +1492,8 @@
         "active": [
             "Forms a contract with the spirit of flame, which specializes in powerful splashing melee attacks.",
             "HP = Elementalist's Max HP X 100%",
-            "Lasts 10 seconds"
+            "Lasts 15 seconds",
+            "Cooldown: 20 seconds"
         ]
     },
     {
@@ -1635,7 +1641,7 @@
         "active": [
             "Form a temporary contract with Spirit of Earth which is specialized at supporting and protecting allies.",
             "Summons Spirit of Earth",
-            "Lasts 30 seconds"
+            "Lasts 40 seconds"
         ]
     },
     {
@@ -1658,7 +1664,7 @@
         "passive": [
             "Blessed with the endurance of the earth.",
             "Resistant to all debuffs",
-            "Reduces damage taken by nearby allies by 30%"
+            "Reduces damage taken by self and nearby allies by 30%"
         ]
     },
     {
@@ -1684,7 +1690,8 @@
             "Provides 50% skill damage and damage reduction to target",
             "Provides immunity to instant death spells",
             "Heals for (Target's Max HP X 5%) per second",
-            "Forming links with some summons may provide an additional ability to Elementalist"
+            "Forming links with some summons may provide an additional ability to Elementalist",
+            "Cooldown: 3 seconds"
         ]
     },
     {
@@ -2321,7 +2328,7 @@
             "Allows all skills to critically strike",
             "Enters stealth if out of combat for 2.5 seconds",
             "Backstabbing enemies while stealthed deals AGI X 35 bonus damage",
-            "Reduces damage taken by 40% while stealthed",
+            "Reduces damage taken by 30% while stealthed",
             "TOGGLE ON: Do not automatically attack enemies while in stealth",
             "TOGGLE OFF: Automatically attack enemies while in stealth"
         ]
@@ -2392,8 +2399,7 @@
         "icon": "AssassinT",
         "active": [
             "Summon shadows from all directions and rush toward the target point.",
-            "Skill Level X 5000 damage",
-            "AGI X 45 bonus damage",
+            "AGI X 50 magic damage",
             "Summons 4 additional shadows to attack",
             "Empowers next Shadow Slash or Ambush"
         ]
@@ -3169,11 +3175,13 @@
         "icon": "DarkKnightQ",
         "active": [
             "Delivers a fierce strike that breaks the target's soul apart.",
-            "Attack Damage X 300% damage",
-            "STR X 30 bonus damage",
-            "For each 0.25 seconds channeled, damage is amplified by 40%",
+            "Attack Damage X 400%",
+            "Mainstat X 30 bonus damage",
+            "For each 0.25 seconds channeled, damage is amplified by 100%",
             "If channeled to maximum, rips out boss units' souls",
-            "If cast twice consecutively, removes channeling on next cast"
+            "If cast twice consecutively, removes channeling on next cast",
+            "Damage now scales additively instead of mutliplicatively",
+            "Max channeling time: 1 second"
         ]
     },
     {
@@ -3595,7 +3603,8 @@
         "icon": "PriestT",
         "active": [
             "Temporarily opens the gate of heaven to summon an angel bound to the Priest by an old contract",
-            "Summons Angel 'Raguel'"
+            "Summons Angel 'Raguel'",
+            "Immune to CC"
         ]
     },
     {
