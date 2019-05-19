@@ -8,8 +8,9 @@
         "active": [
             "Snipers always carry around emergency rations for scenarios where they have to stay hidden for a long time.",
             "Heals for max HP X 30%",
-            "Channel to additionally heal for max HP X 10% per second",
-            "Can be channeled up to 3 seconds",
+            "Channel to additionally heal for max HP X 15% per second",
+            "Recovery period 0.25 seconds",
+            "Can be channeled up to 2 seconds",
             "Cooldown: 20 seconds"
         ]
     },
@@ -59,7 +60,8 @@
             "Pushes enemies outward",
             "Gains maximum charges of lightning",
             "Decreases damage dealt from outside the barrier up to 80% based on distance from attacker",
-            "Lasts 12 seconds"
+            "Lasts 12 seconds",
+            "Cooldown: 25 seconds"
         ]
     },
     {
@@ -106,9 +108,9 @@
         "active": [
             "\"Ruthless? Evil beings need no mercy..\" - Sniper",
             "Each round deals AGI X 30 damage",
-            "Deals up to 60% bonus damage, based on target's missing health",
-            "Casting from distance deals a single AGI X 550 damage",
-            "Deals up to 20% bonus damage, based on target's missing health"
+            "Deals up to 40% bonus damage, based on target's missing health",
+            "Casting from distance moves yourself backwards into the air and does a long ranged attack",
+            "Passive from Snipe applied without condition"
         ]
     },
     {
@@ -677,7 +679,7 @@
         "icon": "WitchR",
         "passive": [
             "Amplify your magic with grimoire that is inscribed with ancient demons' powers.",
-            "Max HP and skill damage increased by 20%",
+            "Max HP and skill damage increased by 25%",
             "Increased MP regen by 250 + 100%"
         ],
         "active": [
@@ -1371,7 +1373,7 @@
             "AGI X 9 bonus damage",
             "Increases magic defense by 40% and movement speed for duration",
             "Lasts 6 seconds",
-            "Chain - Flash Step"
+            "Chain - Flash Step (available for 4 seconds)"
         ]
     },
     {
@@ -1529,7 +1531,8 @@
         "active": [
             "Explodes by overheating, dealing huge damage to nearby enemies.",
             "INT X 50 damage",
-            "Damage increased by 1% for each 1% of missing HP"
+            "Damage increased by 1% for each 1% of missing HP",
+            "Radius: 500"
         ]
     },
     {
@@ -1805,7 +1808,7 @@
         "active": [
             "Perform a kick with the speed of lightning.",
             "Attack Damage X 200% damage",
-            "INT X 20 additional damage",
+            "(AGI + INT) X 20 additional damage",
             "If used to activate Short Circuit, can be chained with an additional skill"
         ]
     },
@@ -1818,6 +1821,7 @@
         "active": [
             "Throws a punch with the speed of lightning.",
             "Attack Damage X (400 + 80 X Skill Level)% damage",
+            "AGI X 40 additional damage",
             "If used to activate Short Circuit, it can be chained with an additional skill"
         ]
     },
@@ -2918,6 +2922,7 @@
         "passive": [
             "The elven archers of ancient origin possess superior intellect and archery skills.",
             "Increased attack range",
+            "Movement speed increased by 100",
             "Every 5 seconds, empowers next attack with a magical explosion",
             "Next Flame Shot / Freezing Shot incurs no cooldown",
             "Has cooldown of 5 seconds"
@@ -2931,9 +2936,11 @@
         "icon": "BowMasterQ",
         "active": [
             "Dash back and shoot a powerful arrow of fire at the same time.",
-            "Skill Level X 250 damage",
+            "Attack Damage X 200% damage",
             "AGI X 25 bonus damage",
-            "Deals (50 + 4 X Skill Damage Increase)% bonus damage to stunned targets"
+            "Deals 150% bonus damage to stunned targets",
+            "Explosion radius: 325/325",
+            "Stun Duration: 1 second"
         ]
     },
     {
@@ -2944,7 +2951,7 @@
         "icon": "BowMasterW",
         "active": [
             "Fire multiple frozen arrows in a frontal cone.",
-            "Skill Level X 400 damage",
+            "Attack Damage X 300% damage",
             "AGI X 40 bonus damage",
             "Slows enemies"
         ]
@@ -2957,13 +2964,13 @@
         "icon": "BowMasterE",
         "passive": [
             "Summon a faithful guardian that follows Bow Master around.",
-            "Increases nearby hero's attack damage and main stat by 8%",
+            "Increases nearby hero's attack damage and main stat by 10%",
             "Supports every attack with Attack Damage X 50% + AGI X 2.5 bonus damage",
             "Can critically strike"
         ],
         "active": [
             "Send out the guardian to support your allies.",
-            "Increases nearby allies' movement speed and HP regen by (Target's Max HP X 10%)",
+            "Increases nearby allies' HP regen by (Target's Max HP X 10%)",
             "Lasts up to a maximum of 4 seconds",
             "Cooldown: 12 seconds"
         ]
@@ -2976,10 +2983,11 @@
         "icon": "BowMasterR",
         "active": [
             "Fire a magic-infused arrow to repeatedly strike down lightnings upon the targeted area.",
-            "Each strike deals Skill Level X 400 damage",
             "AGI X 20 bonus damage",
-            "Guardian's next attack on target deals pure damage",
-            "Lasts 3 seconds"
+            "Guardian's next attack on target deals 300% for 1 second",
+            "Lasts 3 seconds",
+            "Cooldown: 15 seconds",
+            "Radius: 375"
         ]
     },
     {
@@ -3509,8 +3517,7 @@
         "icon": "PriestQ",
         "active": [
             "Release holy mana in the shape of a line.",
-            "Skill Level X 400 damage",
-            "INT X 8 bonus damage",
+            "INT X 20 damage",
             "Heal allies in range"
         ]
     },
@@ -3588,8 +3595,7 @@
         "icon": "PriestR",
         "active": [
             "Convert targeted area's mana into holy energy, creating a holy explosion.",
-            "Skill Level X 1500 damage",
-            "INT X 35 bonus damage",
+            "INT X 75 damage",
             "Blinds enemies within area",
             "Grants barrier to allies within area",
             "Absorbs for INT X 6"
@@ -3604,6 +3610,7 @@
         "active": [
             "Temporarily opens the gate of heaven to summon an angel bound to the Priest by an old contract",
             "Summons Angel 'Raguel'",
+            "25% Magic Defense",
             "Immune to CC"
         ]
     },

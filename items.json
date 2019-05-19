@@ -5015,7 +5015,7 @@
     "type": "[Staff]",
     "color": 12517567,
     "level": "370",
-    "droprate": "1.5%",
+    "droprate": "1.25%",
     "required_by": [
       "Staff of Plague"
     ],
@@ -5039,7 +5039,7 @@
     "type": "[Helm/Hood]",
     "color": 12517567,
     "level": "360",
-    "droprate": "1.5%",
+    "droprate": "1.25%",
     "required_by": [
       "Hood of Apocrypha",
       "Soul of the Dead"
@@ -5062,7 +5062,7 @@
     "type": "[Wings]",
     "color": 12517376,
     "level": "370",
-    "droprate": "0.5%",
+    "droprate": "0.75%",
     "required_by": [
       "Blazing Heart",
       "Ring of Revival",
@@ -5073,7 +5073,7 @@
       "+980 Main Stat",
       "+5,000 Health",
       "+160 Movement Speed",
-      "+8% Damage Reduction",
+      "-12% Damage Taken",
       "Passive: On attack, 8% chance to heal 40% maximum hp instantly, and gain +100 Main Stat every second for 10 seconds"
     ]
   },
@@ -5508,7 +5508,7 @@
     "type": "[Wings]",
     "color": 12517376,
     "level": "380",
-    "droprate": "0.5%",
+    "droprate": "0.6%",
     "required_by": [
       "Archangel Wings"
     ],
@@ -5541,7 +5541,7 @@
     "dropped_by": [
       "Death Fiend"
     ],
-    "type": "[Weapon All Classes]",
+    "type": "[Bastard Sword]",
     "color": 12517376,
     "level": "380",
     "droprate": "0.2%",
@@ -9332,7 +9332,7 @@
       "+240 Main Stat",
       "+12% Skill Damage",
       "+12% Critical Chance",
-      "+10% Damage Taken",
+      "+8% Damage Taken",
       "Passive: 'Shocking Charge' After moving 3000 range, deal 30x Main Stat Pure Damage on next attack. (5 second CD)"
     ]
   },
@@ -10223,7 +10223,7 @@
       "+8% Skill Damage",
       "+300 Mana Regeneration",
       "Passive: On skill cast gives an orb. Each orb increases INT by 100 and 1% SD. 50% chance to get 2 orbs on skill cast instead of one. (Max 4 orbs)",
-      "Active: 'Witch Time' Increase Int by 500 and 6% skill damage. Gain 1 orb every second and passive can trigger more orbs. During buff, each skill cast will consume all current orbs to deal 25x Int damage per orb in an AoE centered on a random nearby enemy, lasts 6 seconds. (90 second CD)"
+      "Active: 'Witch Time' Increase Int by 500 and 6% skill damage. Gain 1 orb every second and passive can trigger more orbs. During buff, each skill cast will consume all current orbs to deal 25x Int damage per orb in an AoE centered on nearest boss (if no boss, nearest enemy), lasts 6 seconds. (90 second CD)"
     ]
   },
   {
@@ -10800,7 +10800,7 @@
       "+4,000 Health",
       "+75 Movement Speed",
       "+6% Ice/Water Affinity",
-      "Passive: Increase nearby allies Magical Resistance by 8%",
+      "Passive: Increase nearby allies Magical Resistance by 8% (Aura Range 1,200)",
       "Active: Shields nearby allies for (5x Int + 20% Health) damage for 5 seconds. (60 second CD)"
     ]
   },
@@ -10975,6 +10975,7 @@
       "+100 Mana Regeneration",
       "+200 Movement Speed",
       "Active: 'Darkness Ray' Nullify all damage taken for 3 seconds and then unleash damage taken in an AoE as magical damage (affected by Skill Damage)",
+      "  ↳ Reflected damage cannot exceed 1 million damage",
       "CD: 80 Seconds"
     ],
     "spec": [
@@ -12011,7 +12012,7 @@
       "+200 MP Regeneration",
       "+150 Movement Speed",
       "Passive: Casting single-target spells on enemies decreases their magic resistance by 6% for 12 seconds",
-      "Active: Deals 2.5% Max HP pure damage to debuffed enemy and freezes them for 2 seconds. Damage affected by Water/Ice Affinity. (25s CD)"
+      "Active: Deals 2.5% Max HP pure damage to debuffed enemy and freezes them for 2 seconds. Damage affected by Water/Ice Affinity. (30s CD)"
     ]
   },
   {
@@ -12175,8 +12176,8 @@
       "+1,400 Intelligence",
       "+5,000 HP",
       "+125 Movement Speed",
-      "+10% Magic Defense aura",
       "+6% Water/Wind Affinity",
+      "Passive: Increase nearby allies Magical Resistance by 10% (Aura Range 1,200)",
       "Active: Activates Cosmic Protection, which provides ((INT X 5) + (Max HP X 0.2)) shield to nearby allies for 5 seconds. Targets taking spell damage during shield will gain 6% damage output and 12% damage resistance for 30 seconds (45 seconds cooldown)"
     ]
   },
