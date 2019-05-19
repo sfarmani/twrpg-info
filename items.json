@@ -2185,6 +2185,7 @@
     ]
   },
   {
+    "id": "sfog",
     "name": "Yellow Crystal Golem Token",
     "dropped_by": [
       "Magical Ore Deposit (Jack-o-Lantern)"
@@ -2197,6 +2198,7 @@
     ]
   },
   {
+    "id": "I060",
     "name": "Orichalcum",
     "dropped_by": [
       "Magical Ore Deposit (Jack-o-Lantern)"
@@ -2231,6 +2233,7 @@
     ]
   },
   {
+    "id": "I07R",
     "name": "Dragonsword Lainhart",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "dropped_by": [
@@ -2250,6 +2253,7 @@
     ]
   },
   {
+    "id": "I09S",
     "name": "Dragonbow Aience",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "dropped_by": [
@@ -2269,6 +2273,7 @@
     ]
   },
   {
+    "id": "I07T",
     "name": "Dragonstaff Irave",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "dropped_by": [
@@ -2288,6 +2293,7 @@
     ]
   },
   {
+    "id": "I0F8",
     "name": "Dragon Cannon Belenus",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "dropped_by": [
@@ -2307,6 +2313,7 @@
     ]
   },
   {
+    "id": "I07U",
     "name": "Dragon Armor Magron",
     "description": "Don't be afraid to struggle. You can only grow stronger by driving away your fear.",
     "dropped_by": [
@@ -2328,6 +2335,7 @@
     ]
   },
   {
+    "id": "I07X",
     "name": "Dragon's Helm Agron",
     "description": "Don't you think it is foolish to defy me with magic, who is known as the creature of 'magic'??",
     "dropped_by": [
@@ -2347,6 +2355,7 @@
     ]
   },
   {
+    "id": "I06P",
     "name": "Dragon Bone",
     "dropped_by": [
       "Wings of Death"
@@ -2365,6 +2374,7 @@
     ]
   },
   {
+    "id": "I06Q",
     "name": "Dragon Scale",
     "dropped_by": [
       "Wings of Death"
@@ -2382,6 +2392,7 @@
     ]
   },
   {
+    "id": "I06O",
     "name": "Dragon Heart",
     "dropped_by": [
       "Wings of Death"
@@ -2402,6 +2413,7 @@
     ]
   },
   {
+    "id": "oli2",
     "name": "Wings of Death Token",
     "dropped_by": [
       "Wings of Death"
@@ -2411,6 +2423,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "I06F",
     "name": "Sealed Weapon",
     "dropped_by": [
       "Mage Lord"
@@ -2428,6 +2441,7 @@
     ]
   },
   {
+    "id": "I080",
     "name": "Irbeth, the Sword of Lightning",
     "description": "I'll show you what it means to controll the lightning",
     "dropped_by": [
@@ -2446,6 +2460,7 @@
     ]
   },
   {
+    "id": "I081",
     "name": "Leoreus, the Greatsword of Flame",
     "description": "Hellflame isn't the only thing that can burn everything up.",
     "dropped_by": [
@@ -2464,6 +2479,7 @@
     ]
   },
   {
+    "id": "I082",
     "name": "Benziena, the Rod of Earth",
     "description": "The Mother Nature embraces everything. In other words, it binds and controls everything.",
     "dropped_by": [
@@ -2486,6 +2502,7 @@
     ]
   },
   {
+    "id": "I09M",
     "name": "Pheles, the Bow of Wind",
     "description": "The gentle winds of east are said to guide travellers to a safe journey.",
     "dropped_by": [
@@ -2509,6 +2526,7 @@
     ]
   },
   {
+    "id": "I0F7",
     "name": "Retus, the Iron Bullet",
     "description": "All beings are equal in the face of a bullet!",
     "dropped_by": [
@@ -2527,6 +2545,7 @@
     ]
   },
   {
+    "id": "I083",
     "name": "Robe of the Mage",
     "description": "Magic doesn't work against me - the Mage Lord!",
     "dropped_by": [
@@ -2547,6 +2566,7 @@
     ]
   },
   {
+    "id": "I084",
     "name": "Hood of the Mage",
     "description": "Invisibility is a very useful magic.",
     "dropped_by": [
@@ -2568,6 +2588,7 @@
     ]
   },
   {
+    "id": "I0AZ",
     "name": "Ring of Resonance",
     "description": "Power is not important to magic. What matters is how many times you use it. - Mage Lord",
     "dropped_by": [
@@ -2590,6 +2611,7 @@
     ]
   },
   {
+    "id": "lnrn",
     "name": "Magical Token",
     "dropped_by": [
       "Mage Lord"
@@ -2612,6 +2634,7 @@
     ]
   },
   {
+    "id": "lnrn",
     "name": "Blue Crystal Golem Token",
     "dropped_by": [
       "Magical Ore Deposit (Mage Lord)"
@@ -2624,6 +2647,7 @@
     ]
   },
   {
+    "id": "I060",
     "name": "Mithril",
     "dropped_by": [
       "Magical Ore Deposit (Mage Lord)"
@@ -2654,6 +2678,7 @@
     ]
   },
   {
+    "id": "I0BJ",
     "name": "Guardian Ring",
     "description": "I vow my life to protect this sanctuary till my plates crumble away.",
     "dropped_by": [
@@ -2681,6 +2706,7 @@
     ]
   },
   {
+    "id": "I0FZ",
     "name": "Gatekeeper Icon",
     "dropped_by": [
       "Guardian Spirit, Avalon's Gatekeeper"
@@ -2696,6 +2722,7 @@
     ]
   },
   {
+    "id": "amrc",
     "name": "Guardian Token",
     "dropped_by": [
       "Guardian Spirit, Avalon's Gatekeeper"
@@ -2725,6 +2752,7 @@
     ]
   },
   {
+    "id": "I085",
     "name": "Klenetia, the Holy Staff",
     "description": "Blessing to the weak; judgment to the evil.",
     "dropped_by": [
@@ -4267,7 +4295,8 @@
       "Corruptor Icon",
       "Hood of Grim Reaper",
       "Ring of the Reaper",
-      "Seal of Deceiver"
+      "Seal of Deceiver",
+      "Deathbringer"
     ],
     "stats": [
       "+950 Strength",
