@@ -8055,7 +8055,7 @@
     "spec": [
       "Specialty - Improved Explosion",
       "Sniper - Explosive Shot: Recharge period reduced by 2 seconds",
-      "Sniper - Demolition: Close-range attack count increased by 3, far-range attack deals 9% bonus damage"
+      "Sniper - Demolition: Damage increased by 9%"
     ]
   },
   {
@@ -8875,7 +8875,7 @@
     "spec": [
       "Specialty - Improved Explosion",
       "Sniper - Explosive Shot: Recharge period reduced by 2 seconds",
-      "Sniper - Demolition: Close-Range attack count increased by 4, far-range attack deals 12% bonus damage"
+      "Sniper - Demolition: Damage increased by 12%"
     ]
   },
   {
