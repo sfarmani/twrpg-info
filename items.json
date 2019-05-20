@@ -5023,7 +5023,8 @@
     "type": "[Bastard Sword]",
     "color": 12517376,
     "level": "370",
-    "droprate": "0.75% (+0.0375% per player after 6 players and 0.15% on 10 players)",
+    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "droprate": "0.75%",
     "required_by": [
       "Claws of Beriel"
     ],
@@ -5046,7 +5047,8 @@
     "type": "[Staff]",
     "color": 12517376,
     "level": "370",
-    "droprate": "0.75% (+0.0375% per player after 6 players and 0.15% on 10 players)",
+    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "droprate": "0.75%",
     "required_by": [
       "Hell Riser",
       "Crimson Hatred"
@@ -5069,7 +5071,8 @@
     "type": "[Robe]",
     "color": 12517376,
     "level": "370",
-    "droprate": "1% (+0.05% per player after 6 players and 0.2% on 10 players)",
+    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "droprate": "1%",
     "required_by": [
       "Medea, the Robe of the Witch"
     ],
@@ -5090,7 +5093,8 @@
     "type": "[Ring]",
     "color": 12517376,
     "level": "370",
-    "droprate": "1% (+0.05% per player after 6 players and 0.2% on 10 players)",
+    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "droprate": "1%",
     "required_by": [
       "Cold Ring of Death"
     ],
@@ -5115,7 +5119,8 @@
     "type": "[Ring]",
     "color": 12517376,
     "level": "370",
-    "droprate": "1% (+0.05% per player after 6 players and 0.2% on 10 players)",
+    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "droprate": "1%",
     "required_by": [
       "Requiem, the Armor of Lamentation"
     ],
@@ -5135,7 +5140,8 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "droprate": "0.75% (+0.025% per player after 6 players and 0.1% on 10 players)",
+    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "droprate": "0.75%",
     "required_by": [
       "Claws of Beriel",
       "Crimson Reaper",
@@ -5160,7 +5166,8 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "droprate": "0.75% (+0.025% per player after 6 players and 0.1% on 10 players)",
+    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "droprate": "0.75%",
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -5187,7 +5194,8 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "droprate": "0.75% (+0.025% per player after 6 players and 0.1% on 10 players)",
+    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "droprate": "0.75%",
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -5210,7 +5218,8 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "droprate": "0.75% (+0.025% per player after 6 players and 0.1% on 10 players)",
+    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "droprate": "0.75%",
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
       "Chronos, the Cannon of Time",

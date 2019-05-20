@@ -686,10 +686,11 @@
     },
     {
         "id": "n02V",
-        "name": "Skeleton King",
+        "name": "Skeleton King Desperia",
         "limit": "6",
         "location": "In Prius Forward camp, the cave to the North",
         "conditions": "Level 400",
+        "notes": "If 6+ players, will have a 10% droprate increase per player except for token",
         "drops": [
             "ratc",
             "rat6",
