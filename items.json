@@ -2261,6 +2261,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "ore1",
     "name": "Magical Ore Deposit (Jack-o-Lantern)",
     "dropped_by": [
       "Jack-o-Lantern"
@@ -2710,6 +2711,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "ore2",
     "name": "Magical Ore Deposit (Mage Lord)",
     "dropped_by": [
       "Mage Lord"
@@ -3498,6 +3500,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "ore3",
     "name": "Magical Ore Deposit (Frostspider Lord)",
     "dropped_by": [
       "Frostspider Lord"
