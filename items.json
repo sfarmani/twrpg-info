@@ -192,6 +192,20 @@
     ]
   },
   {
+    "id": "srrc",
+    "name": "Magical Horn",
+    "dropped_by": [
+      "Murloc creeps"
+    ],
+    "type": "[Misc]",
+    "color": 8437759,
+    "droprate": "Droprate increases each 5 minutes that it does not drop",
+    "stats": [
+      "You can hear a rumbling inside.. maybe you should blow it.",
+      "Summons a field boss"
+    ]
+  },
+  {
     "id": "vddl",
     "name": "Hard Turtle Shell",
     "dropped_by": [
@@ -211,6 +225,20 @@
     ]
   },
   {
+    "id": "ankh",
+    "name": "Frozen Crystal",
+    "dropped_by": [
+      "Frosty Snowfield creeps"
+    ],
+    "type": "[Misc]",
+    "color": 8437759,
+    "droprate": "Droprate increases each 5 minutes that it does not drop",
+    "stats": [
+      "I want to break it!",
+      "Summons a field boss"
+    ]
+  },
+  {
     "name": "Bear Fur Cloak",
     "dropped_by": [
       "Polar Bear Giant"
@@ -227,6 +255,20 @@
     "stats": [
       "+50 All Stats",
       "+5% Skill Damage"
+    ]
+  },
+  {
+    "id": "mnst",
+    "name": "Mask of Blood (summon item)",
+    "dropped_by": [
+      "Duchy of Wallachia creeps"
+    ],
+    "type": "[Misc]",
+    "color": 8437759,
+    "droprate": "Droprate increases each 5 minutes that it does not drop",
+    "stats": [
+      "Mask cursed by Wallachia",
+      "Summons a field boss"
     ]
   },
   {
@@ -791,6 +833,23 @@
     "droprate": "0.01%"
   },
   {
+    "id": "I0CF",
+    "name": "Nightmare Rod",
+    "dropped_by": [
+      "Volcanic Lands creeps"
+    ],
+    "type": "[Misc]",
+    "color": 8437759,
+    "droprate": "Droprate increases each 5 minutes that it does not drop",
+    "stats": [
+      "Staff that can be used to start the Ritual of Nightmare",
+      "Summons a field boss",
+      "Red Powder x12 required",
+      "Brave adventurers may use it without powder",
+      "(Very powerful)"
+    ]
+  },
+  {
     "id": "I048",
     "name": "Sword of Crimson Flames",
     "dropped_by": [
@@ -1026,6 +1085,22 @@
     "type": "[Token]",
     "color": 565376,
     "droprate": "0.01%"
+  },
+  {
+    "id": "pnvu",
+    "name": "Orb of the Deep Sea",
+    "dropped_by": [
+      "Deep Sea creeps"
+    ],
+    "type": "[Misc]",
+    "color": 8437759,
+    "droprate": "Droprate increases each 5 minutes that it does not drop, 100% from Tentacle Lord",
+    "stats": [
+      "Treasure to be sacrificed at the altars of the deep sea",
+      "Summons a field boss",
+      "Green Powder x6 needed",
+      "Blue Powder x6 needed"
+    ]
   },
   {
     "id": "I0BL",
@@ -1314,6 +1389,20 @@
     "type": "[Token]",
     "color": 565376,
     "droprate": "0.01%"
+  },
+  {
+    "id": "woms",
+    "name": "Seal Breaking Gemstone",
+    "dropped_by": [
+      "Fairy Forest creeps"
+    ],
+    "type": "[Misc]",
+    "color": 8437759,
+    "droprate": "Droprate increases each 5 minutes that it does not drop",
+    "stats": [
+      "A stone with purifying power. Seems like it could possibly purify the corrupt mana surrounding the tower.",
+      "Can break seals"
+    ]
   },
   {
     "id": "I08X",
@@ -2773,6 +2862,7 @@
     ]
   },
   {
+    "id": "I0FA",
     "name": "Eana, the Holy Cannon",
     "description": "Blessing to the weak; judgment to the evil.",
     "dropped_by": [
@@ -2792,6 +2882,7 @@
     ]
   },
   {
+    "id": "I088",
     "name": "Sacred Armor",
     "description": "May eternal guidance and blessing be with you on your journey",
     "dropped_by": [
@@ -2813,6 +2904,7 @@
     ]
   },
   {
+    "id": "I089",
     "name": "Sacred Helm",
     "description": "그대가 가는 길에 언제나 축복과 가호가 함께 하리",
     "dropped_by": [
@@ -2832,6 +2924,7 @@
     ]
   },
   {
+    "id": "I06R",
     "name": "Fragment of Angel's Feather",
     "dropped_by": [
       "Guardian Angel"
@@ -2852,6 +2945,7 @@
     ]
   },
   {
+    "id": "I06T",
     "name": "A Page of the Bible",
     "dropped_by": [
       "Guardian Angel"
@@ -2874,6 +2968,7 @@
     ]
   },
   {
+    "id": "I0AT",
     "name": "Sealed Archangel Wings",
     "dropped_by": [
       "Guardian Angel",
@@ -2899,6 +2994,7 @@
     ]
   },
   {
+    "id": "tmmt",
     "name": "Guardian Angel Token",
     "dropped_by": [
       "Guardian Angel"
@@ -2908,6 +3004,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "I0C4",
     "name": "Skeris, the Unholy Helm",
     "description": "May chaos and destruction lead your path",
     "dropped_by": [
@@ -2929,6 +3026,7 @@
     ]
   },
   {
+    "id": "I086",
     "name": "Eximelia, the Unholy Sword",
     "description": "Immerse yourself in battle and war !! Walk the path of destruction !!",
     "dropped_by": [
@@ -2949,6 +3047,7 @@
     ]
   },
   {
+    "id": "I08C",
     "name": "Dekaros, the Unholy Armor",
     "description": "May chaos and destruction lead your path",
     "dropped_by": [
@@ -2971,6 +3070,7 @@
     ]
   },
   {
+    "id": "I09O",
     "name": "Alkate, the Unholy Bow",
     "description": "Leave none alive !! Pierce their hearts !!",
     "dropped_by": [
@@ -2991,6 +3091,7 @@
     ]
   },
   {
+    "id": "I06S",
     "name": "Fragment of Corrupt Angel's Feather",
     "dropped_by": [
       "Corrupt Angel"
@@ -3011,6 +3112,7 @@
     ]
   },
   {
+    "id": "I06U",
     "name": "A Page of the Unholy Book",
     "dropped_by": [
       "Corrupt Angel"
@@ -3036,6 +3138,7 @@
     ]
   },
   {
+    "id": "mnsf",
     "name": "Corrupt Angel Token",
     "dropped_by": [
       "Corrupt Angel"
@@ -3045,6 +3148,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "I08D",
     "name": "Robe of Everfrost",
     "description": "Fools that dare challenge me shall freeze for eternity.",
     "dropped_by": [
@@ -3066,6 +3170,7 @@
     ]
   },
   {
+    "id": "I08R",
     "name": "Helm of Everfrost",
     "description": "You lowly beings cannot even touch my skin !!",
     "dropped_by": [
@@ -3087,6 +3192,7 @@
     ]
   },
   {
+    "id": "I08E",
     "name": "Hood of Everfrost",
     "description": "You lowly beings cannot even touch my skin !!",
     "dropped_by": [
@@ -3107,6 +3213,7 @@
     ]
   },
   {
+    "id": "I097",
     "name": "Winter Rose",
     "description": "This lone rose shall accompany your road to victory.",
     "dropped_by": [
@@ -3130,6 +3237,7 @@
     ]
   },
   {
+    "id": "I06X",
     "name": "Frorist",
     "dropped_by": [
       "Frostspider Lord",
@@ -3151,6 +3259,7 @@
     ]
   },
   {
+    "id": "olig",
     "name": "Everfrost Token",
     "dropped_by": [
       "Lord of Everfrost"
@@ -3160,6 +3269,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "rhth",
     "name": "Okelanq, the Spear of Frost",
     "description": "Stone spear formed from gathering of frozen crystals",
     "dropped_by": [
@@ -3180,6 +3290,7 @@
     ]
   },
   {
+    "id": "I0D6",
     "name": "Okelanq, the Bow of Frost",
     "description": "Magical bow that shoots fragmented shards of ice.",
     "dropped_by": [
@@ -3200,6 +3311,7 @@
     ]
   },
   {
+    "id": "I0FE",
     "name": "Lord of Revolver",
     "description": "The secret weapon of Everfrost; it emits a chilling aura.",
     "dropped_by": [
@@ -3220,6 +3332,7 @@
     ]
   },
   {
+    "id": "I099",
     "name": "Frost Web Brooch",
     "description": "A meticulously woven brooch",
     "dropped_by": [
@@ -3241,6 +3354,7 @@
     ]
   },
   {
+    "id": "I06K",
     "name": "Frozen Cobweb",
     "dropped_by": [
       "Frostspider Lord",
@@ -3265,6 +3379,7 @@
     ]
   },
   {
+    "id": "stre",
     "name": "Spider Token",
     "dropped_by": [
       "Spider Queen Ilshenar"
@@ -3274,6 +3389,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "I067",
     "name": "Winter's Tear",
     "description": "A sword engulfed in chill, hidden from the eyes of humans for ages",
     "dropped_by": [
@@ -3296,6 +3412,7 @@
     ]
   },
   {
+    "id": "bspd",
     "name": "Frostbane",
     "description": "Can you feel the resonation of the souls trapped by everfrost?",
     "dropped_by": [
@@ -3323,6 +3440,7 @@
     ]
   },
   {
+    "id": "I098",
     "name": "Niflheim",
     "description": "This blank edge covered by mists can even severe souls of enemies.",
     "dropped_by": [
@@ -3344,6 +3462,7 @@
     ]
   },
   {
+    "id": "I096",
     "name": "Ripple Snow",
     "description": "Only the cold snow of winter will cover your corpse",
     "dropped_by": [
@@ -3369,6 +3488,7 @@
     ]
   },
   {
+    "id": "tst2",
     "name": "Frostspider Lord Token",
     "dropped_by": [
       "Frostspider Lord"
@@ -3391,6 +3511,7 @@
     ]
   },
   {
+    "id": "klmm",
     "name": "White Crystal Golem Token",
     "dropped_by": [
       "Magical Ore Deposit (Frostspider Lord)"
@@ -3403,6 +3524,7 @@
     ]
   },
   {
+    "id": "I061",
     "name": "Adamantium",
     "dropped_by": [
       "Magical Ore Deposit (Frostspider Lord)"
@@ -3437,6 +3559,7 @@
     ]
   },
   {
+    "id": "kysn",
     "name": "Claws of Destruction",
     "description": "You don't become exhausted but rather become filled with madness as you use it.",
     "dropped_by": [
@@ -3460,6 +3583,7 @@
     ]
   },
   {
+    "id": "I0FG",
     "name": "Bullet of Destruction",
     "description": "You don't become exhausted but rather become filled with madness as you use it.",
     "dropped_by": [
@@ -3482,6 +3606,7 @@
     ]
   },
   {
+    "id": "ktrm",
     "name": "Horn of Demon Lord",
     "description": "Devil's horn that gathers evil mana onto a single point",
     "dropped_by": [
@@ -3504,6 +3629,7 @@
     ]
   },
   {
+    "id": "ches",
     "name": "Eye of the Abyss",
     "description": "\"You can hear the scream of travellers when you stare into it\"",
     "dropped_by": [
@@ -3527,6 +3653,7 @@
     ]
   },
   {
+    "id": "dphe",
     "name": "Slayer Boots",
     "description": "Boots composed of demon hides that grants excellent mobility",
     "dropped_by": [
@@ -3549,6 +3676,7 @@
     ]
   },
   {
+    "id": "I08K",
     "name": "Dark Wings",
     "dropped_by": [
       "Demon Lord Beriel"
@@ -3576,6 +3704,7 @@
     ]
   },
   {
+    "id": "wswd",
     "name": "Demon Lord Token",
     "dropped_by": [
       "Demon Lord Beriel"
@@ -3585,7 +3714,8 @@
     "droprate": "0.01%"
   },
   {
-    "name": "Remnant of Darkness",
+    "id": "n03C",
+    "name": "Remnants of Darkness",
     "dropped_by": [
       "Demon Lord Beriel"
     ],
@@ -3598,6 +3728,7 @@
     ]
   },
   {
+    "id": "fgsk",
     "name": "Red Crystal Golem Token",
     "dropped_by": [
       "Remnant of Darkness"
@@ -3610,6 +3741,7 @@
     ]
   },
   {
+    "id": "I06W",
     "name": "Dark Matter",
     "dropped_by": [
       "Remnant of Darkness"
@@ -3641,6 +3773,7 @@
     ]
   },
   {
+    "id": "pmna",
     "name": "Shell Sword",
     "dropped_by": [
       "King Crab"
@@ -3661,6 +3794,7 @@
     ]
   },
   {
+    "id": "spsh",
     "name": "Crab Armor",
     "dropped_by": [
       "King Crab"
@@ -3680,6 +3814,7 @@
     ]
   },
   {
+    "id": "ciri",
     "name": "Sea Jewel",
     "dropped_by": [
       "King Crab",
@@ -3699,6 +3834,7 @@
     ]
   },
   {
+    "id": "mort",
     "name": "Waterfall Shoes",
     "dropped_by": [
       "King Crab",
@@ -3718,6 +3854,7 @@
     ]
   },
   {
+    "id": "I0DS",
     "name": "Ivory Cane",
     "dropped_by": [
       "Walrus"
@@ -3734,6 +3871,7 @@
     ]
   },
   {
+    "id": "I0DT",
     "name": "Walrus Skin Cloak",
     "dropped_by": [
       "Walrus"
@@ -3749,6 +3887,7 @@
     ]
   },
   {
+    "id": "wneg",
     "name": "Tusk Hunter",
     "dropped_by": [
       "Walrus"
@@ -3768,6 +3907,7 @@
     ]
   },
   {
+    "id": "prvt",
     "name": "Icicle Bow",
     "dropped_by": [
       "Mammoth"
@@ -3787,6 +3927,7 @@
     ]
   },
   {
+    "id": "ssil",
     "name": "Snowman Pendant",
     "dropped_by": [
       "Mammoth"
@@ -3803,6 +3944,7 @@
     ]
   },
   {
+    "id": "lgdh",
     "name": "Glacier Guard",
     "dropped_by": [
       "Mammoth",
@@ -3820,6 +3962,7 @@
     ]
   },
   {
+    "id": "hval",
     "name": "Wind-Protection Clothing",
     "dropped_by": [
       "Mammoth",
@@ -3841,6 +3984,7 @@
     ]
   },
   {
+    "id": "I0DU",
     "name": "King Kong's Claws",
     "dropped_by": [
       "King Kong"
@@ -3861,6 +4005,7 @@
     ]
   },
   {
+    "id": "I0DV",
     "name": "Meat Bag",
     "dropped_by": [
       "King Kong"
@@ -3882,6 +4027,7 @@
     ]
   },
   {
+    "id": "bfhr",
     "name": "Helm of Passion",
     "dropped_by": [
       "Evil Lava Spawn"
@@ -3902,6 +4048,7 @@
     ]
   },
   {
+    "id": "stwa",
     "name": "Crimson Stone",
     "dropped_by": [
       "Evil Lava Spawn"
@@ -3923,6 +4070,7 @@
     ]
   },
   {
+    "id": "rnec",
     "name": "Blaster",
     "dropped_by": [
       "Evil Lava Spawn"
@@ -3941,6 +4089,7 @@
     ]
   },
   {
+    "id": "blba",
     "name": "A Small Piece of Wrath",
     "dropped_by": [
       "Evil Lava Spawn"
@@ -3963,6 +4112,7 @@
     ]
   },
   {
+    "id": "shcw",
     "name": "Flamereaver",
     "dropped_by": [
       "Evil Lava Spawn"
@@ -3982,6 +4132,7 @@
     ]
   },
   {
+    "id": "I0BQ",
     "name": "Blade of Requiem",
     "description": "May the dead rest in peace..",
     "dropped_by": [
@@ -4005,6 +4156,7 @@
     ]
   },
   {
+    "id": "I0CB",
     "name": "Crossbow of Requiem",
     "description": "May the dead rest in peace..",
     "dropped_by": [
@@ -4027,6 +4179,7 @@
     ]
   },
   {
+    "id": "I0BR",
     "name": "Blood Orb",
     "description": "Suppresses the boiling blood within yourself, and controls its flow",
     "dropped_by": [
@@ -4052,6 +4205,7 @@
     ]
   },
   {
+    "id": "I0BS",
     "name": "Cape of the Dead",
     "description": "As you approach death, your inner potentials will undoubtedly reveal themselves..",
     "dropped_by": [
@@ -4077,6 +4231,7 @@
     ]
   },
   {
+    "id": "I0BT",
     "name": "Ring of the Dead",
     "description": "Ring of the dead that frees you from the cycle of life",
     "dropped_by": [
@@ -4102,6 +4257,7 @@
     ]
   },
   {
+    "id": "I0C3",
     "name": "Mask of Blood",
     "description": "Time to feed..!",
     "dropped_by": [
@@ -4125,6 +4281,7 @@
     ]
   },
   {
+    "id": "rspl",
     "name": "Demon Hunter",
     "description": "Monsters aren't dying in one hit ? Try out this handy dandy custom-made rifle!",
     "dropped_by": [
@@ -4143,6 +4300,7 @@
     ]
   },
   {
+    "id": "rhe1",
     "name": "Stone Plates",
     "description": "Fools, hitting rocks is meaningless !",
     "dropped_by": [
@@ -4164,6 +4322,7 @@
     ]
   },
   {
+    "id": "rspd",
     "name": "Bat Wings",
     "description": "Bats! Bats! Bats",
     "dropped_by": [
@@ -4185,6 +4344,7 @@
     ]
   },
   {
+    "id": "phlt",
     "name": "Corruptor",
     "description": "It is already too late if you've realized your corruption !",
     "dropped_by": [
@@ -4207,6 +4367,7 @@
     ]
   },
   {
+    "id": "rin1",
     "name": "Stalker",
     "description": "Do not miss them !! Make sure to end their life !!",
     "dropped_by": [
@@ -4234,6 +4395,7 @@
     ]
   },
   {
+    "id": "kpin",
     "name": "Avenger",
     "description": "I will take back my soul and flesh you've reaped from me..",
     "dropped_by": [
@@ -4260,6 +4422,7 @@
     ]
   },
   {
+    "id": "I0FH",
     "name": "Chaser",
     "description": "A single drop of corruption is enough to completely immerse you",
     "dropped_by": [
@@ -4282,6 +4445,7 @@
     ]
   },
   {
+    "id": "mcou",
     "name": "Skull Seal",
     "description": "An ornament emanating a grim aura",
     "dropped_by": [
@@ -4307,6 +4471,7 @@
     ]
   },
   {
+    "id": "evtl",
     "name": "Potion of Corruption",
     "description": "A dangerous potion that corrupts the user",
     "dropped_by": [
@@ -4337,6 +4502,7 @@
     ]
   },
   {
+    "id": "rwiz",
     "name": "Staff of Contagion",
     "description": "\" Fall into eternal oblivion and despair ! \"",
     "dropped_by": [
@@ -4363,6 +4529,7 @@
     ]
   },
   {
+    "id": "stpg",
     "name": "Essence of Corruption",
     "dropped_by": [
       "Corruptor Rectus"
@@ -4386,6 +4553,7 @@
     ]
   },
   {
+    "id": "whwd",
     "name": "Ancient Fragment of Ruins",
     "dropped_by": [
       "Corruptor Rectus"
@@ -4404,6 +4572,7 @@
     ]
   },
   {
+    "id": "rugt",
     "name": "Corrupt Token",
     "dropped_by": [
       "Corruptor Rectus"
@@ -4413,6 +4582,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "I0CA",
     "name": "Hatred",
     "description": "There is no weapon as strong as hatred.. only if you can control it.",
     "dropped_by": [
@@ -4435,6 +4605,7 @@
     ]
   },
   {
+    "id": "I0C6",
     "name": "Flameshard Armor",
     "description": "Why can't I hold all these heat?",
     "dropped_by": [
@@ -4459,6 +4630,7 @@
     ]
   },
   {
+    "id": "I0C8",
     "name": "Ring of Nightmare",
     "description": "Drown yourself in the sweet nightmare called power.",
     "dropped_by": [
@@ -4482,6 +4654,7 @@
     ]
   },
   {
+    "id": "ssan",
     "name": "Inferno",
     "description": "Unguided anger",
     "dropped_by": [
@@ -4503,6 +4676,7 @@
     ]
   },
   {
+    "id": "I0C7",
     "name": "Crown of Fervor",
     "description": "Holy crown that converts strength into pure magic",
     "dropped_by": [
@@ -4527,6 +4701,7 @@
     ]
   },
   {
+    "id": "rej1",
     "name": "Spirit of Nightmare",
     "dropped_by": [
       "Flame Nightmare"
@@ -4550,6 +4725,7 @@
     ]
   },
   {
+    "id": "I0CD",
     "name": "Essence of Anger",
     "dropped_by": [
       "Flame Nightmare",
@@ -4582,6 +4758,7 @@
     ]
   },
   {
+    "id": "shdt",
     "name": "Nightmare Token",
     "dropped_by": [
       "Flame Nightmare"
@@ -4591,6 +4768,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "I0CT",
     "name": "Shard of Anger",
     "dropped_by": [
       "Flame Nightmare"
@@ -4606,6 +4784,7 @@
     ]
   },
   {
+    "id": "skul",
     "name": "Water Cannon",
     "description": "Eat this cannon !!",
     "dropped_by": [
@@ -4631,6 +4810,7 @@
     ]
   },
   {
+    "id": "I0CR",
     "name": "Tunic of Subtlety",
     "description": "사용자의 의지와 무관하게 공격을 흘려보낸다.",
     "dropped_by": [
@@ -4653,6 +4833,7 @@
     ]
   },
   {
+    "id": "I0CG",
     "name": "Purified Water",
     "description": "It won't dry no matter how much you drink it",
     "dropped_by": [
@@ -4678,6 +4859,7 @@
     ]
   },
   {
+    "id": "I0CP",
     "name": "Scale Protector",
     "description": "Helm blessed by the sea",
     "dropped_by": [
@@ -4700,6 +4882,7 @@
     ]
   },
   {
+    "id": "crdt",
     "name": "Oath of Courage",
     "description": "Orb blessed with a warrior's will to protect his allies",
     "dropped_by": [
@@ -4726,6 +4909,7 @@
     ]
   },
   {
+    "id": "I0CJ",
     "name": "Pure Steel",
     "dropped_by": [
       "Turtle Lord"
@@ -4749,6 +4933,7 @@
     ]
   },
   {
+    "id": "sror",
     "name": "Mark of Storm",
     "dropped_by": [
       "Turtle Lord"
@@ -4770,6 +4955,7 @@
     ]
   },
   {
+    "id": "I0CK",
     "name": "Mana Orb",
     "dropped_by": [
       "Turtle Lord",
@@ -4799,6 +4985,7 @@
     ]
   },
   {
+    "id": "wshs",
     "name": "Turtle Token",
     "dropped_by": [
       "Turtle Lord"
@@ -4808,6 +4995,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "I0DL",
     "name": "Shard of Mana",
     "dropped_by": [
       "Turtle Lord"
@@ -4823,6 +5011,7 @@
     ]
   },
   {
+    "id": "ratc",
     "name": "Death Scythe",
     "description": "Weapon used by the grim reapers of despair",
     "dropped_by": [
@@ -4845,6 +5034,7 @@
     ]
   },
   {
+    "id": "rat6",
     "name": "Staff of Souls",
     "description": "Staff infused with countless souls that were taken away by the Skeletal King",
     "dropped_by": [
@@ -4867,6 +5057,7 @@
     ]
   },
   {
+    "id": "ward",
     "name": "Robe of the Reaper",
     "description": "A bizarre robe worn by the reaper.",
     "dropped_by": [
@@ -4887,6 +5078,7 @@
     ]
   },
   {
+    "id": "penr",
     "name": "Brooch of Darkness",
     "description": "The brooch of the Skeletal King that contains a pecular blessing",
     "dropped_by": [
@@ -4911,6 +5103,7 @@
     ]
   },
   {
+    "id": "rat9",
     "name": "Bone Necklace",
     "description": "Ornament with evil mana flowing through",
     "dropped_by": [
@@ -4932,6 +5125,7 @@
     ]
   },
   {
+    "id": "gsou",
     "name": "Spirit of Abyss",
     "dropped_by": [
       "Skeleton King Desperia"
@@ -4956,6 +5150,7 @@
     ]
   },
   {
+    "id": "nflg",
     "name": "Orb of Oblivion",
     "dropped_by": [
       "Skeleton King Desperia"
@@ -4982,6 +5177,7 @@
     ]
   },
   {
+    "id": "I0EK",
     "name": "Fragment of Oblivion",
     "dropped_by": [
       "Skeleton King Desperia"
@@ -5004,6 +5200,7 @@
     ]
   },
   {
+    "id": "I0EL",
     "name": "Skeleton Bone",
     "dropped_by": [
       "Skeleton King Desperia"
@@ -5027,6 +5224,7 @@
     ]
   },
   {
+    "id": "fgrg",
     "name": "Skeleton Token",
     "dropped_by": [
       "Skeleton King Desperia"
@@ -5036,6 +5234,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "belv",
     "name": "Parasitic Staff",
     "description": "You are already dead; you just haven't realized it!",
     "dropped_by": [
@@ -5060,6 +5259,7 @@
     ]
   },
   {
+    "id": "crys",
     "name": "Hood of the Fallen",
     "description": "You can feel the grudge of ones unable to die",
     "dropped_by": [
@@ -5083,6 +5283,7 @@
     ]
   },
   {
+    "id": "stel",
     "name": "Shroud of Perseverance",
     "description": "You can feel the obsession of Zombie Lord toward the immortality..",
     "dropped_by": [
@@ -5107,6 +5308,7 @@
     ]
   },
   {
+    "id": "rde1",
     "name": "Heart of Fire",
     "dropped_by": [
       "Zombie Lord"
@@ -5129,6 +5331,7 @@
     ]
   },
   {
+    "id": "I08P",
     "name": "Dark Crystal",
     "dropped_by": [
       "Zombie Lord"
@@ -5152,6 +5355,7 @@
     ]
   },
   {
+    "id": "I0AS",
     "name": "Proof of Purification",
     "dropped_by": [
       "Zombie Lord"
@@ -5175,6 +5379,7 @@
     ]
   },
   {
+    "id": "pomn",
     "name": "Zombie Token",
     "dropped_by": [
       "Zombie Lord"
@@ -5184,6 +5389,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "I0D2",
     "name": "Embrace of Nature",
     "description": "The grace of the Mother Nature that embraces all",
     "dropped_by": [
@@ -5209,6 +5415,7 @@
     ]
   },
   {
+    "id": "ofir",
     "name": "Purified Water of Nature",
     "dropped_by": [
       "Ancient Ent",
@@ -5242,6 +5449,7 @@
     ]
   },
   {
+    "id": "shtm",
     "name": "Fragment of the Wind",
     "dropped_by": [
       "Ancient Ent",
@@ -5269,6 +5477,7 @@
     ]
   },
   {
+    "id": "pres",
     "name": "Ent Token",
     "dropped_by": [
       "Ancient Ent"
@@ -5278,6 +5487,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "pgin",
     "name": "Griseus, the Sword of Protection",
     "description": "Sword protected by a mysterious power",
     "dropped_by": [
@@ -5300,6 +5510,7 @@
     ]
   },
   {
+    "id": "srtl",
     "name": "Ring of the Storm",
     "description": "Storm!",
     "dropped_by": [
@@ -5329,6 +5540,7 @@
     ]
   },
   {
+    "id": "kymn",
     "name": "Levante, the Sword of Love and Hate",
     "description": "I wished for a happiness together, not just alone..",
     "dropped_by": [
@@ -5349,6 +5561,7 @@
     ]
   },
   {
+    "id": "bzbf",
     "name": "Draconic Skin Rusalka",
     "description": "Mana-infused armor that is decorated with dragon's scales.",
     "dropped_by": [
@@ -5369,6 +5582,7 @@
     ]
   },
   {
+    "id": "shwd",
     "name": "Nephthys, the Engraved Ring",
     "description": "Dark ring that Empress Nephthys bestows upon her familiars",
     "dropped_by": [
@@ -5392,6 +5606,7 @@
     ]
   },
   {
+    "id": "mcri",
     "name": "Essence of Darkness",
     "dropped_by": [
       "Shadow Dragon Irberth"
@@ -5414,6 +5629,7 @@
     ]
   },
   {
+    "id": "I08N",
     "name": "Antimatter",
     "dropped_by": [
       "Shadow Dragon Irberth"
@@ -5436,6 +5652,7 @@
     ]
   },
   {
+    "id": "I09N",
     "name": "Frozen Debris",
     "dropped_by": [
       "Shadow Dragon Irberth",
@@ -5462,6 +5679,7 @@
     ]
   },
   {
+    "id": "shar",
     "name": "Token of Darkness",
     "dropped_by": [
       "Shadow Dragon Irberth"
@@ -5471,6 +5689,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "I0E5",
     "name": "Steel of God",
     "dropped_by": [
       "Archangel Samael"
@@ -5491,6 +5710,7 @@
     ]
   },
   {
+    "id": "I0E6",
     "name": "Essence of Light",
     "dropped_by": [
       "Archangel Samael"
@@ -5510,6 +5730,7 @@
     ]
   },
   {
+    "id": "I0E7",
     "name": "God's Page",
     "dropped_by": [
       "Archangel Samael"
@@ -5529,6 +5750,7 @@
     ]
   },
   {
+    "id": "I0EG",
     "name": "Guardian of the Skies",
     "description": "A beautiful set of wings worn by the Guardian of the Skies.",
     "dropped_by": [
@@ -5556,6 +5778,7 @@
     ]
   },
   {
+    "id": "sneg",
     "name": "Archangel Token",
     "dropped_by": [
       "Archangel Samael"
@@ -5565,6 +5788,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "srbd",
     "name": "The Ender",
     "description": "The weapon of Death Fiend, who reigns over death and brings demise",
     "dropped_by": [
@@ -5584,6 +5808,7 @@
     ]
   },
   {
+    "id": "oslo",
     "name": "Armor of Grudge",
     "description": "Cursed armor touched by death",
     "dropped_by": [
@@ -5605,6 +5830,7 @@
     ]
   },
   {
+    "id": "sprn",
     "name": "Eyes of the Watcher",
     "description": "I'm always watching you.. from far..",
     "dropped_by": [
@@ -5626,6 +5852,7 @@
     ]
   },
   {
+    "id": "ledg",
     "name": "Ring of Destruction",
     "description": "Ring bestowed with the power of the Destroyer",
     "dropped_by": [
@@ -5646,6 +5873,7 @@
     ]
   },
   {
+    "id": "I0DG",
     "name": "Spearhead of Death",
     "dropped_by": [
       "Death Fiend"
@@ -5660,6 +5888,7 @@
     ]
   },
   {
+    "id": "kygh",
     "name": "Fragment of Chaos",
     "dropped_by": [
       "Death Fiend"
@@ -5675,6 +5904,7 @@
     ]
   },
   {
+    "id": "infs",
     "name": "Fiend Token",
     "dropped_by": [
       "Death Fiend"
@@ -5701,6 +5931,7 @@
     ]
   },
   {
+    "id": "ocor",
     "name": "Shackles of Heaven",
     "description": "Shackles used by the Lightning God to tie his cows",
     "dropped_by": [
@@ -5723,6 +5954,7 @@
     ]
   },
   {
+    "id": "I0IG",
     "name": "Aegis of Storm",
     "dropped_by": [
       "Valtora"
@@ -5737,6 +5969,7 @@
     ]
   },
   {
+    "id": "I0IH",
     "name": "Essence of Storm",
     "dropped_by": [
       "Valtora"
@@ -5752,6 +5985,7 @@
     ]
   },
   {
+    "id": "phea",
     "name": "Shining Fragment of Ruins",
     "dropped_by": [
       "Valtora",
@@ -5767,6 +6001,7 @@
     ]
   },
   {
+    "id": "I0JS",
     "name": "Volcanic Heart",
     "dropped_by": [
       "Ifrit"
@@ -5787,6 +6022,7 @@
     ]
   },
   {
+    "id": "I0IE",
     "name": "Aegis of Flame",
     "dropped_by": [
       "Ifrit"
@@ -5802,6 +6038,7 @@
     ]
   },
   {
+    "id": "I0IF",
     "name": "Essence of Flame",
     "dropped_by": [
       "Ifrit"
@@ -5893,6 +6130,7 @@
     "required_by": []
   },
   {
+    "id": "sreg",
     "name": "Dragonic Rod",
     "description": "Weapon with magical runes that allows you to control a dragon",
     "dropped_by": [
@@ -5916,6 +6154,7 @@
     ]
   },
   {
+    "id": "pinv",
     "name": "Ancient Hourglass",
     "description": "A mystical artifact that occasionally reverses the flow of sand",
     "dropped_by": [
@@ -5939,6 +6178,7 @@
     ]
   },
   {
+    "id": "tret",
     "name": "Burning Bone Fragments",
     "dropped_by": [
       "Bone Dragon"
@@ -5957,6 +6197,7 @@
     ]
   },
   {
+    "id": "btst",
     "name": "Dragon's Eye",
     "dropped_by": [
       "Bone Dragon"
@@ -5977,6 +6218,7 @@
     ]
   },
   {
+    "id": "rre1",
     "name": "Bone Dragon Token",
     "dropped_by": [
       "Bone Dragon"
