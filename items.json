@@ -5023,7 +5023,7 @@
     "type": "[Bastard Sword]",
     "color": 12517376,
     "level": "370",
-    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
     "droprate": "0.75%",
     "required_by": [
       "Claws of Beriel"
@@ -5047,7 +5047,7 @@
     "type": "[Staff]",
     "color": 12517376,
     "level": "370",
-    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
     "droprate": "0.75%",
     "required_by": [
       "Hell Riser",
@@ -5071,7 +5071,7 @@
     "type": "[Robe]",
     "color": 12517376,
     "level": "370",
-    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
     "droprate": "1%",
     "required_by": [
       "Medea, the Robe of the Witch"
@@ -5093,7 +5093,7 @@
     "type": "[Ring]",
     "color": 12517376,
     "level": "370",
-    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
     "droprate": "1%",
     "required_by": [
       "Cold Ring of Death"
@@ -5119,7 +5119,7 @@
     "type": "[Ring]",
     "color": 12517376,
     "level": "370",
-    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
     "droprate": "1%",
     "required_by": [
       "Requiem, the Armor of Lamentation"
@@ -5140,7 +5140,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
     "droprate": "0.75%",
     "required_by": [
       "Claws of Beriel",
@@ -5166,7 +5166,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
     "droprate": "0.75%",
     "required_by": [
       "Espishu, the Sword of Eternity",
@@ -5194,7 +5194,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
     "droprate": "0.75%",
     "required_by": [
       "Espishu, the Sword of Eternity",
@@ -5218,7 +5218,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": "If 6+ players, will have a 10% droprate increase per player",
+    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
     "droprate": "0.75%",
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
@@ -5561,6 +5561,7 @@
     "type": "[Bastard Sword]",
     "color": 12517376,
     "level": "370",
+    "notes": "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%\n10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%",
     "droprate": "0.75%",
     "required_by": [],
     "stats": [
@@ -5582,6 +5583,7 @@
     "type": "[Armor/Robe]",
     "color": 12517567,
     "level": "370",
+    "notes": "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%\n10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%",
     "droprate": "1.5%",
     "required_by": [],
     "stats": [
@@ -5603,6 +5605,7 @@
     "type": "[Ring]",
     "color": 12517567,
     "level": "370",
+    "notes": "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%\n10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%",
     "droprate": "1.5%",
     "required_by": [
       "Ring of Time",
@@ -5625,6 +5628,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
+    "notes": "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%\n10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%",
     "droprate": "0.75%",
     "required_by": [
       "Crimson Reaper",
@@ -5648,6 +5652,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
+    "notes": "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%\n10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%",
     "droprate": "0.75%",
     "required_by": [
       "Staff of Plague",
@@ -5672,6 +5677,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
+    "notes": "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%\n10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%",
     "droprate": [
       "0.6%",
       "0.9%"

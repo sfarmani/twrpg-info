@@ -690,7 +690,7 @@
         "limit": "6",
         "location": "In Prius Forward camp, the cave to the North",
         "conditions": "Level 400",
-        "notes": "If 6+ players, will have a 10% droprate increase per player except for token",
+        "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.\nDoes not apply for Token",
         "drops": [
             "ratc",
             "rat6",
@@ -764,6 +764,7 @@
         "limit": "2",
         "location": "In Deep Snowfield",
         "conditions": "Level 420, Mage Lord defeated, and 12x Blue Powder given to Elder Paracelsus",
+        "notes": "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%\n10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%\nDoes not apply for Token",
         "drops": [
             "kymn",
             "bzbf",
