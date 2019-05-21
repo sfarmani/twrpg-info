@@ -178,7 +178,7 @@
     "dropped_by": [
       "Kobold Leader"
     ],
-    "type": "[Weapon All Classes]",
+    "type": "[Weapon all classes]",
     "color": 16728064,
     "droprate": "50%",
     "level": "15",
@@ -1561,7 +1561,7 @@
     "dropped_by": [
       "Spirit Beast"
     ],
-    "type": "[Weapon All Classes]",
+    "type": "[Weapon all classes]",
     "color": 12517567,
     "level": "360",
     "droprate": "3%",
@@ -2215,7 +2215,7 @@
     "dropped_by": [
       "Jack-o-Lantern"
     ],
-    "type": "[Weapon All Classes]",
+    "type": "[Weapon all classes]",
     "color": 8388736,
     "level": "260",
     "droprate": "7.5%",
@@ -4194,7 +4194,7 @@
       "Blood Wraith",
       "Wallachia Monstrosity"
     ],
-    "type": "[Weapon All Classes]",
+    "type": "[Weapon all classes]",
     "color": 8388736,
     "level": "240",
     "droprate": "10%",
@@ -5878,7 +5878,7 @@
     "dropped_by": [
       "Death Fiend"
     ],
-    "type": "[Bastard Sword]",
+    "type": "[Weapon non-bow/gun classes]",
     "color": 12517376,
     "level": "380",
     "droprate": "0.2%",
@@ -6220,7 +6220,7 @@
     "dropped_by": [
       "Bone Dragon"
     ],
-    "type": "[Weapon All Classes]",
+    "type": "[Weapon all classes]",
     "color": 12517376,
     "level": "380",
     "droprate": "0.66%",
@@ -8094,7 +8094,7 @@
   {
     "name": "Spirit Dagger",
     "description": "Weapon imbued with an ancient spirit",
-    "type": "[Weapon All Classes]",
+    "type": "[Weapon all classes]",
     "color": 12517376,
     "level": "360",
     "recipe": [

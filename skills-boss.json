@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Mad Howl",
+        "boss": "Mad Clown",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Darkness Wave",
+        "boss": [
+            "Mad Clown",
+            "Death Knight",
+            "Mage Lord"
+        ],
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Wrath of Nature",
+        "boss": "Protector of Nature",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Shackle of Nature",
+        "boss": "Protector of Nature",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Slaves of Trueflame",
+        "boss": "Ruler of Flames Ragnaar",
+        "color": 16763904,
+        "active": [
+            "Summons 4 Lava elementals to fight for Ragnaar",
+            "Lasts ?? seconds"
+        ]
+    },
+    {
+        "name": "Craze",
+        "boss": "Ruler of Flames Ragnaar",
+        "color": 16763904,
+        "active": [
+            "Increases movement and attack speed for ?? seconds"
+        ]
+    },
+    {
+        "name": "Hellflame Nova",
+        "boss": "Ruler of Flames Ragnaar",
+        "color": 16763904,
+        "active": [
+            "Creates pillars of fire around Ragnaar dealing ?? damage"
+        ]
+    },
+    {
+        "name": "Tentacle Spike",
+        "boss": "Tentacle Lord",
+        "color": 16763904,
+        "active": [
+            "Summons a spike from beneth the target and mini-stuns them"
+        ]
+    },
+    {
+        "name": "Tentacle Slam",
+        "boss": "Tentacle Lord",
+        "color": 16763904,
+        "active": [
+            "Around Tentacle Lord, creates rows of tentacles that spawn from underneath.",
+            "First time use: creates an inner circle, can be dodged by distancing yourself from Tentacle Lord",
+            "Second time use: creates an outer circle, can be dodged by getting closer to Tentacle Lord",
+            "If any hero is hit, it will kill them immediately and heal Tentacle Lord back to full health"
+        ]
+    },
+    {
+        "name": "Slimy Ball",
+        "boss": "Walrus",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Slippery Skin",
+        "boss": "Walrus",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Headbutt",
+        "boss": "Walrus",
+        "color": 16763904,
+        "active": [
+            "Dashes toward and knocks back target",
+            "Deals 1,250 damage"
+        ]
+    }
+]

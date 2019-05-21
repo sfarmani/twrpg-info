@@ -4,6 +4,14 @@
         "heroClass": "Sniper",
         "color": 9891226,
         "icon": "SniperIcon2",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Bow]",
+            "[Armor]",
+            "[Helm]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Long-range Burst DPS"
         ],
@@ -26,6 +34,15 @@
         "heroClass": "Soul Weaver",
         "color": 6318794,
         "icon": "SoulWeaverIcon_new",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Staff]",
+            "[Robe]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Int based buffer/debuffer"
         ],
@@ -42,6 +59,16 @@
         "heroClass": "Alchemist",
         "color": 16233365,
         "icon": "AlchemistIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Staff]",
+            "[Bastard Sword]",
+            "[Robe]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Versitile Invoker. Has DPS, DoT, Support, Buffs, Debuffs"
         ],
@@ -63,6 +90,16 @@
         "heroClass": "Warlock",
         "color": 5377478,
         "icon": "WitchIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Staff]",
+            "[Bastard Sword]",
+            "[Robe]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "DoT/DPS"
         ],
@@ -81,6 +118,19 @@
         "heroClass": "Blood Weaver",
         "color": 16737894,
         "icon": "BloodWeaverIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Staff]",
+            "[Greatsword]",
+            "[Bastard Sword]",
+            "[Armor]",
+            "[Robe]",
+            "[Helm]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Sustain/DoT/Tank"
         ],
@@ -99,6 +149,16 @@
         "heroClass": "Fire Mage",
         "color": 16217461,
         "icon": "FireMageIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Staff]",
+            "[Bastard Sword]",
+            "[Robe]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Combo Burst"
         ],
@@ -116,6 +176,16 @@
         "heroClass": "Shooter",
         "color": 5111747,
         "icon": "ShooterIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Gun]",
+            "[Armor]",
+            "[Robe]",
+            "[Helm]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Support Ranged Burst Damage Meme (Ask Giddo)"
         ],
@@ -139,6 +209,16 @@
         "heroClass": "Sword Enchanter",
         "color": 14671839,
         "icon": "SwordEnchanterIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Longsword]",
+            "[Bastard Sword]",
+            "[Armor]",
+            "[Helm]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Pure DoT/Slight Debuffer"
         ],
@@ -154,6 +234,14 @@
         "heroClass": "Gunner",
         "color": 14663327,
         "icon": "GunnerIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Gun]",
+            "[Armor]",
+            "[Helm]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "High Mobility with mid-ranged DoT DPS"
         ],
@@ -169,6 +257,16 @@
         "heroClass": "Swordsman",
         "color": 11320803,
         "icon": "SwordsmanIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Longsword]",
+            "[Bastard Sword]",
+            "[Armor]",
+            "[Helm]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "High sustained damage (DoT dps), and strong at disabling bosses"
         ],
@@ -187,6 +285,15 @@
         "heroClass": "Elementalist",
         "color": 6750176,
         "icon": "ElementalistIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Staff]",
+            "[Robe]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Summoner: Tank/Support/Debuff"
         ],
@@ -208,6 +315,15 @@
         "heroClass": "Lightning Mage",
         "color": 10075135,
         "icon": "LightningMageIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Staff]",
+            "[Robe]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Complicated Melee to Mid-ranged Burst DPS"
         ],
@@ -228,6 +344,16 @@
         "heroClass": "Crusader",
         "color": 16383672,
         "icon": "CrusaderIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Greatsword]",
+            "[Bastard Sword]",
+            "[Armor]",
+            "[Helm]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Survivability/DPS"
         ],
@@ -250,6 +376,17 @@
         "heroClass": "Martial Artist",
         "color": 9419919,
         "icon": "MartialArtistIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Longsword]",
+            "[Gloves]",
+            "[Bastard Sword]",
+            "[Armor]",
+            "[Helm]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Close-range burst DPS, decent DoT dps"
         ],
@@ -270,6 +407,16 @@
         "heroClass": "Lancer",
         "color": 8454016,
         "icon": "LancerIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Greatsword]",
+            "[Bastard Sword]",
+            "[Armor]",
+            "[Helm]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Shield Breaker/DPS/Medium survival"
         ],
@@ -289,6 +436,16 @@
         "heroClass": "Reaper",
         "color": 16751001,
         "icon": "ReaperIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Longsword]",
+            "[Bastard Sword]",
+            "[Armor]",
+            "[Helm]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Semi-Burst DPS"
         ],
@@ -305,6 +462,16 @@
         "heroClass": "Assassin",
         "color": 8355711,
         "icon": "AssassinIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Longsword]",
+            "[Bastard Sword]",
+            "[Armor]",
+            "[Helm]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Short Burst Melee DPS"
         ],
@@ -324,6 +491,15 @@
         "heroClass": "Wind Mage",
         "color": 11465927,
         "icon": "WindMageIcon_new",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Staff]",
+            "[Robe]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "AOE Healer"
         ],
@@ -347,6 +523,17 @@
         "heroClass": "Merchant",
         "color": 14540219,
         "icon": "MerchantIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Greatsword]",
+            "[Bag]",
+            "[Bastard Sword]",
+            "[Armor]",
+            "[Helm]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Tank Support"
         ],
@@ -373,6 +560,16 @@
         "heroClass": "Thunderer",
         "color": 16654593,
         "icon": "ThundererIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Longsword]",
+            "[Bastard Sword]",
+            "[Armor]",
+            "[Helm]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "DoT DPS with small Burst DPS"
         ],
@@ -389,6 +586,16 @@
         "heroClass": "Berserker",
         "color": 16744576,
         "icon": "BerserkerIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Greatsword]",
+            "[Bastard Sword]",
+            "[Armor]",
+            "[Helm]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "DPS/Survivability"
         ],
@@ -405,6 +612,14 @@
         "heroClass": "Bow Master",
         "color": 11984489,
         "icon": "BowMasterIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Bow]",
+            "[Armor]",
+            "[Helm]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Burst DPS, with small support"
         ],
@@ -425,6 +640,16 @@
         "heroClass": "Knight",
         "color": 6734591,
         "icon": "KnightIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Greatesword]",
+            "[Bastard Sword]",
+            "[Armor]",
+            "[Helm]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Sustain/DoT/Tank"
         ],
@@ -447,6 +672,19 @@
         "heroClass": "Dark Knight",
         "color": 9198335,
         "icon": "DarkKnightIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Greatsword]",
+            "[Staff]",
+            "[Bastard Sword]",
+            "[Armor]",
+            "[Robe]",
+            "[Helm]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "INT - Support DPS and AOE Healer",
             "STR - Burst DPS"
@@ -465,6 +703,15 @@
         "heroClass": "Arcane Mage",
         "color": 14135275,
         "icon": "ArcaneMageIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Staff]",
+            "[Robe]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Burst DPS/Semi-support"
         ],
@@ -481,6 +728,15 @@
         "heroClass": "Water Mage",
         "color": 8900346,
         "icon": "WaterMageIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Staff]",
+            "[Robe]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Support with Burst Capabilities"
         ],
@@ -499,6 +755,15 @@
         "heroClass": "Priest",
         "color": 16777088,
         "icon": "PriestIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Staff]",
+            "[Robe]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "Support"
         ],
@@ -522,6 +787,17 @@
         "heroClass": "Paladin",
         "color": 8087790,
         "icon": "PaladinIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Greatsword]",
+            "[Bastard Sword]",
+            "[Armor]",
+            "[Helm]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "DPS/Semi-Support"
         ],
@@ -544,6 +820,16 @@
         "heroClass": "Phantom Blade",
         "color": 10092475,
         "icon": "PBIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Longsword]",
+            "[Bastard Sword]",
+            "[Armor]",
+            "[Helm]",
+            "[Ring]",
+            "[Wings]"
+        ],
         "role": [
             "DoT/DPS"
         ],

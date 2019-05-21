@@ -81,18 +81,6 @@
         ]
     },
     {
-        "id": "n037",
-        "name": "Wallachia Wraith",
-        "limit": "1",
-        "timer": "450s",
-        "location": "In the Abandoned Graveyard",
-        "conditions": "Level 270",
-        "drops": [
-            "sora",
-            "I0AB"
-        ]
-    },
-    {
         "id": "n038",
         "name": "Mad Clown",
         "limit": "2",
@@ -695,8 +683,7 @@
         "conditions": "Level 400",
         "notes": [
             "Damage reduction per player after 6 players 10%",
-            "Droprate per player after 6 players 2.5%",
-            "Does not apply for Token"
+            "Droprate per player after 6 players 2.5% - Does not apply for Token"
         ],
         "drops": [
             "ratc",
@@ -777,7 +764,7 @@
         "notes": [
             "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%",
             "10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%",
-            "Does not apply for Token"
+            "Drop rate does not apply for Token"
         ],
         "drops": [
             "kymn",
@@ -798,8 +785,7 @@
         "notes": [
             "HP: 23,120,000",
             "Damage reduction per player after 6 players 10%",
-            "Droprate per player after 6 players 5%",
-            "Does not apply for Token"
+            "Droprate per player after 6 players 5% - Does not apply for Token"
         ],
         "drops": [
             "I0E5",
