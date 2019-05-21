@@ -73,10 +73,23 @@
         "boss": "Tentacle Lord",
         "color": 16763904,
         "active": [
-            "Around Tentacle Lord, creates rows of tentacles that spawn from underneath.",
-            "First time use: creates an inner circle, can be dodged by distancing yourself from Tentacle Lord",
-            "Second time use: creates an outer circle, can be dodged by getting closer to Tentacle Lord",
-            "If any hero is hit, it will kill them immediately and heal Tentacle Lord back to full health"
+            ""
+        ]
+    },
+    {
+        "name": "Tentacles",
+        "boss": "Tentacle Lord",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Unstoppable Force",
+        "boss": "Giant Golem",
+        "color": 16763904,
+        "active": [
+            ""
         ]
     },
     {

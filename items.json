@@ -2824,6 +2824,7 @@
     "droprate": "0.01%"
   },
   {
+    "id": "I085",
     "name": "Karonphniamm, the Holy Sword",
     "description": "Blessing to the weak; judgment to the evil.",
     "dropped_by": [
@@ -2844,7 +2845,7 @@
     ]
   },
   {
-    "id": "I085",
+    "id": "I087",
     "name": "Klenetia, the Holy Staff",
     "description": "Blessing to the weak; judgment to the evil.",
     "dropped_by": [
