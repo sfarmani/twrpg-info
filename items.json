@@ -2979,6 +2979,10 @@
     ],
     "type": "[Material]",
     "color": 16777215,
+    "notes": [
+      "Archangel Samael: Damage reduction per player after 6 players 10%",
+      "Archangel Samael: Droprate per player after 6 players 5%"
+    ],
     "droprate": [
       "0.22%",
       "1.2%"
@@ -5024,7 +5028,10 @@
     "type": "[Bastard Sword]",
     "color": 12517376,
     "level": "370",
-    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
+    "notes": [
+      "Damage reduction per player after 6 players 10%",
+      "Droprate per player after 6 players 2.5%"
+    ],
     "droprate": "0.75%",
     "required_by": [
       "Claws of Beriel"
@@ -5048,7 +5055,10 @@
     "type": "[Staff]",
     "color": 12517376,
     "level": "370",
-    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
+    "notes": [
+      "Damage reduction per player after 6 players 10%",
+      "Droprate per player after 6 players 2.5%"
+    ],
     "droprate": "0.75%",
     "required_by": [
       "Hell Riser",
@@ -5072,7 +5082,10 @@
     "type": "[Robe]",
     "color": 12517376,
     "level": "370",
-    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
+    "notes": [
+      "Damage reduction per player after 6 players 10%",
+      "Droprate per player after 6 players 2.5%"
+    ],
     "droprate": "1%",
     "required_by": [
       "Medea, the Robe of the Witch"
@@ -5094,7 +5107,10 @@
     "type": "[Ring]",
     "color": 12517376,
     "level": "370",
-    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
+    "notes": [
+      "Damage reduction per player after 6 players 10%",
+      "Droprate per player after 6 players 2.5%"
+    ],
     "droprate": "1%",
     "required_by": [
       "Cold Ring of Death"
@@ -5120,7 +5136,10 @@
     "type": "[Ring]",
     "color": 12517376,
     "level": "370",
-    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
+    "notes": [
+      "Damage reduction per player after 6 players 10%",
+      "Droprate per player after 6 players 2.5%"
+    ],
     "droprate": "1%",
     "required_by": [
       "Requiem, the Armor of Lamentation"
@@ -5141,7 +5160,10 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
+    "notes": [
+      "Damage reduction per player after 6 players 10%",
+      "Droprate per player after 6 players 2.5%"
+    ],
     "droprate": "0.75%",
     "required_by": [
       "Claws of Beriel",
@@ -5167,7 +5189,10 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
+    "notes": [
+      "Damage reduction per player after 6 players 10%",
+      "Droprate per player after 6 players 2.5%"
+    ],
     "droprate": "0.75%",
     "required_by": [
       "Espishu, the Sword of Eternity",
@@ -5195,7 +5220,10 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
+    "notes": [
+      "Damage reduction per player after 6 players 10%",
+      "Droprate per player after 6 players 2.5%"
+    ],
     "droprate": "0.75%",
     "required_by": [
       "Espishu, the Sword of Eternity",
@@ -5219,7 +5247,10 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": "If 6+ players, will have a 2.5% droprate increase per player for a total of 10% increase at 10 players.",
+    "notes": [
+      "Damage reduction per player after 6 players 10%",
+      "Droprate per player after 6 players 2.5%"
+    ],
     "droprate": "0.75%",
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
@@ -5557,12 +5588,15 @@
     "name": "Levante, the Sword of Love and Hate",
     "description": "I wished for a happiness together, not just alone..",
     "dropped_by": [
-      "Shadow Dragon Irberth"
+      "Shadow Dragon Irbert"
     ],
     "type": "[Bastard Sword]",
     "color": 12517376,
     "level": "370",
-    "notes": "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%\n10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%",
+    "notes": [
+      "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%",
+      "10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%"
+    ],
     "droprate": "0.75%",
     "required_by": [],
     "stats": [
@@ -5579,12 +5613,15 @@
     "name": "Draconic Skin Rusalka",
     "description": "Mana-infused armor that is decorated with dragon's scales.",
     "dropped_by": [
-      "Shadow Dragon Irberth"
+      "Shadow Dragon Irbert"
     ],
     "type": "[Armor/Robe]",
     "color": 12517567,
     "level": "370",
-    "notes": "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%\n10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%",
+    "notes": [
+      "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%",
+      "10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%"
+    ],
     "droprate": "1.5%",
     "required_by": [],
     "stats": [
@@ -5601,12 +5638,15 @@
     "name": "Nephthys, the Engraved Ring",
     "description": "Dark ring that Empress Nephthys bestows upon her familiars",
     "dropped_by": [
-      "Shadow Dragon Irberth"
+      "Shadow Dragon Irbert"
     ],
     "type": "[Ring]",
     "color": 12517567,
     "level": "370",
-    "notes": "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%\n10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%",
+    "notes": [
+      "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%",
+      "10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%"
+    ],
     "droprate": "1.5%",
     "required_by": [
       "Ring of Time",
@@ -5625,11 +5665,14 @@
     "id": "mcri",
     "name": "Essence of Darkness",
     "dropped_by": [
-      "Shadow Dragon Irberth"
+      "Shadow Dragon Irbert"
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%\n10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%",
+    "notes": [
+      "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%",
+      "10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%"
+    ],
     "droprate": "0.75%",
     "required_by": [
       "Crimson Reaper",
@@ -5649,11 +5692,14 @@
     "id": "I08N",
     "name": "Antimatter",
     "dropped_by": [
-      "Shadow Dragon Irberth"
+      "Shadow Dragon Irbert"
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%\n10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%",
+    "notes": [
+      "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%",
+      "10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%"
+    ],
     "droprate": "0.75%",
     "required_by": [
       "Staff of Plague",
@@ -5678,7 +5724,10 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%\n10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%",
+    "notes": [
+      "Shadow Dragon Irbert: 9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%",
+      "Shadow Dragon Irbert: 10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%"
+    ],
     "droprate": [
       "0.6%",
       "0.9%"
@@ -5701,7 +5750,7 @@
     "id": "shar",
     "name": "Token of Darkness",
     "dropped_by": [
-      "Shadow Dragon Irberth"
+      "Shadow Dragon Irbert"
     ],
     "type": "[Token]",
     "color": 565376,
@@ -5715,6 +5764,10 @@
     ],
     "type": "[Material]",
     "color": 16777215,
+    "notes": [
+      "Damage reduction per player after 6 players 10%",
+      "Droprate per player after 6 players 5%"
+    ],
     "droprate": "0.8%",
     "required_by": [
       "Claws of Beriel",
@@ -5736,6 +5789,10 @@
     ],
     "type": "[Material]",
     "color": 16777215,
+    "notes": [
+      "Damage reduction per player after 6 players 10%",
+      "Droprate per player after 6 players 5%"
+    ],
     "droprate": "0.8%",
     "required_by": [
       "Oceanus, the Sword of Light",
@@ -5756,6 +5813,10 @@
     ],
     "type": "[Material]",
     "color": 16777215,
+    "notes": [
+      "Damage reduction per player after 6 players 10%",
+      "Droprate per player after 6 players 5%"
+    ],
     "droprate": "0.8%",
     "required_by": [
       "Ruinbringer",
@@ -5776,6 +5837,10 @@
       "Archangel Samael"
     ],
     "type": "[Wings]",
+    "notes": [
+      "Damage reduction per player after 6 players 10%",
+      "Droprate per player after 6 players 5%"
+    ],
     "color": 12517376,
     "level": "380",
     "droprate": "0.6%",
