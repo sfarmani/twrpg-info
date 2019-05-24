@@ -251,7 +251,8 @@
         ],
         "active": [
             "Inscribe a fire transmutation circle to perform transmutations.",
-            "Chainable with fire-related transmutations"
+            "Chainable with fire-related transmutations",
+            "Cooldown: 8 seconds"
         ]
     },
     {
@@ -262,8 +263,7 @@
         "icon": "AlchemistQ_Q",
         "active": [
             "Fires a flame bullet.",
-            "Attack Damage X (200 X Skill Level)% damage",
-            "Stuns for 0.75 seconds"
+            "Attack Damage X (200 X Skill Level)% damage"
         ]
     },
     {
@@ -275,8 +275,7 @@
         "active": [
             "Draw forth magma from the grounds.",
             "Skill Level X 200 damage",
-            "INT X (10 + 5 X Skill Level) bonus damage",
-            "Deals 75% bonus damage to burning units"
+            "INT X 50 bonus damage"
         ]
     },
     {
@@ -305,7 +304,8 @@
             "Skill Level X 1000 damage",
             "INT X (25 + 5 X Skill Level) bonus damage",
             "Deals (30 + 3 X Skill Damage increase)% bonus damage to units stunned or resistant to stun effects",
-            "Has 3 second delay"
+            "Has 3 second delay",
+            "Range: 600"
         ]
     },
     {
@@ -360,7 +360,7 @@
         "icon": "AlchemistW_E",
         "active": [
             "Transmutates a row of icicles that travels outward.",
-            "Each icicle deals INT X (15 + 3 X Skill Level) magic damage",
+            "Each icicle deals INT X 75 magic damage and stun for 1.5 seconds",
             "Reduces enemies' movement speed by 80% for 3 seconds",
             "Chainable Skill: Ground Collapse"
         ]
@@ -403,7 +403,7 @@
             "Enchant target's hands with fire and wind.",
             "Increase target's attack damage by 20%",
             "Increase target's pure attack speed by 25%",
-            "Chance to activate Ignite on attack",
+            "15% Chance to activate Ignite on spell cast",
             "Chain: Blaze"
         ]
     },
@@ -471,7 +471,9 @@
             "Transmute a cannon to fire a powerful cannonball.",
             "Skill Level X 1200 damage",
             "INT X (30 + 7.5 X Skill Level) bonus damage",
-            "Cannon can be reused for a short duration on subsequent casts"
+            "Cannon can be reused for a short duration on subsequent casts",
+            "Recognition radius: 800",
+            "Re-cast based on distance from enemy"
         ]
     },
     {
@@ -896,7 +898,7 @@
         "active": [
             "Gather the element of fire into a single orb, and shoot it at the target.",
             "Skill Level X 600 damage",
-            "INT X 22.5 bonus damage",
+            "INT X 30 bonus damage",
             "Deals additional damage equal to 25% of the burn damage the target is currently taking"
         ]
     },
@@ -914,7 +916,7 @@
             "Summons a spirit of flame to engulf the target or the ground.",
             "Skill Level X 250 periodic damage",
             "INT X 10 bonus damage",
-            "Lasts 4 seconds",
+            "Lasts 5 seconds",
             "On ally: Removes debuffs, absorbs INT X 2 damage",
             "On ground: Stuns for 2 seconds, lasts 50% longer"
         ]
@@ -929,7 +931,7 @@
             "Create a fiery explosion by converting mana in the atmosphere into fire.",
             "Skill Level X 1500 damage",
             "INT X 100 bonus damage",
-            "Damage amplified by 60% each time it travels outward"
+            "Damage amplified by 50% each time it travels outward"
         ]
     },
     {
@@ -954,7 +956,8 @@
         "active": [
             "Calls down meteor fragments that are drifting around the atmosphere.",
             "Each fragment deals Skill Level X 1000 damage",
-            "Each fragment deals INT X 30 bonus damage"
+            "Each fragment deals INT X 30 bonus damage",
+            "Total of 12 meteor fragments"
         ]
     },
     {
@@ -1029,7 +1032,10 @@
             "Form protective barriers by driving nanomachines into a frenzy.",
             "Creates a barrier that absorbs damage up to 25% of max HP for 1 second",
             "Additionally absorbs for INT X 2.5",
-            "Removes target's debuffs"
+            "Gives 100 movement speed for duration",
+            "Removes target's debuffs",
+            "No casting delay",
+            "Duration: 2 seconds"
         ]
     },
     {
@@ -1115,7 +1121,8 @@
         "icon": "SwordEnchanterQ",
         "active": [
             "Takes some swords out from the treasury.",
-            "Projects 2 Enchanted Swords"
+            "Projects 2 Enchanted Swords",
+            "Cooldown: 7.5 seconds"
         ]
     },
     {
@@ -1154,7 +1161,7 @@
         "active": [
             "Reads a chant that boosts endurance.",
             "Projects 2 Enchanted Swords",
-            "Clears debuffs and reduces damage taken by 60% for 4 seconds",
+            "Clears debuffs and reduces damage taken by 50% for 3 seconds",
             "Sword Enchant - When taking damage from melee range, halvens the damage received and strikes back with an Enchanted Sword"
         ]
     },
@@ -1246,7 +1253,8 @@
             "AGI X 40 bonus damage",
             "Inflicts burn for 6 seconds that deals target's max HP X 1% damage per second",
             "If cast while tumbling, throws 3 additional bombs to nearby area",
-            "Will retain targetting mechanism while casting Tumble"
+            "Will retain targetting mechanism while casting Tumble",
+            "No casting delay"
         ]
     },
     {
@@ -1273,7 +1281,7 @@
             "Increases movement speed by 250 and breaks limit",
             "Increases reload speed by 300%",
             "Reduces related skills' cooldown by 66% and resets their cooldowns",
-            "Lasts 12 seconds"
+            "Duration: 10 seconds"
         ]
     },
     {
@@ -1607,7 +1615,7 @@
         "passive": [
             "Slowly charges electricity on each attack, and releases all of them at once.",
             "Every attack deals summoner's INT X 4 bonus damage",
-            "Every 4th attack deals summoner's INT X 12 damage and chains to 2 additional enemies"
+            "Every 4th attack deals summoner's INT X 20 damage and chains to 2 additional enemies"
         ]
     },
     {
@@ -1861,8 +1869,9 @@
         "icon": "LightningMageR",
         "active": [
             "Focus mana into a single point to call down a lightning strike.",
-            "INT X 125 damage",
-            "Creates 5 lightning orbs"
+            "INT X 150 damage",
+            "Creates 5 lightning orbs",
+            "1 second stun"
         ]
     },
     {
@@ -1890,9 +1899,10 @@
             "\"Disappear with the Lightning!\" - Mage",
             "Pauses unit for 1.5 seconds",
             "Refreshes duration of Short Circuit",
-            "Deals INT X 300 damage on expiration",
+            "Deals INT X 325 damage on expiration",
             "Damage and critical chance are increased up to 200% based on dash distance",
-            "Breaks shield effects"
+            "Breaks shield effects",
+            "Invincible while casting"
         ]
     },
     {
@@ -2201,7 +2211,9 @@
             "Skill Level X 5000 damage",
             "STR X 150 bonus damage",
             "Boosts STR of allies hit by 10% for 40 seconds",
-            "Recasting detonates spear to deal 50% damage to nearby enemies and stun for 2 seconds"
+            "Recasting detonates spear to deal 50% damage to nearby enemies and stun for 2 seconds",
+            "Range: 900",
+            "Cooldown: 30 seconds"
         ]
     },
     {
@@ -2299,8 +2311,8 @@
         "icon": "ReaperT",
         "passive": [
             "Clears your mind to focus on taking the life of the target.",
-            "5% chance on attack to enter focused state for 2 seconds",
-            "Reduces damage received by 40% and dodges attacks",
+            "5% chance on attack to enter focused state for 3 seconds",
+            "Reduces damage received by 30% and dodges attacks",
             "Death's Dash's damage is increased by 40%, and can be instantly cast once"
         ],
         "active": [
@@ -2317,8 +2329,9 @@
         "active": [
             "\"You are already dead. You just haven't caught up to it yet.\" - Reaper",
             "Increases your damage dealt to the target by 30% for 12 seconds",
-            "Increased up to 60% based on the target's missing HP",
-            "On finish, deals AGI X 525 damage to the target"
+            "Increased up to 50% based on the target's missing HP",
+            "On finish, deals AGI X 525 damage to the target",
+            "Re-use skill to manually finish"
         ]
     },
     {
@@ -2405,7 +2418,8 @@
             "Summon shadows from all directions and rush toward the target point.",
             "AGI X 50 magic damage",
             "Summons 4 additional shadows to attack",
-            "Empowers next Shadow Slash or Ambush"
+            "Empowers next Shadow Slash or Ambush",
+            "Duration: 8 seconds"
         ]
     },
     {
@@ -3327,7 +3341,8 @@
             "Skill Level X 1500 damage",
             "INT X 40 bonus damage",
             "Can be cast again within 3 seconds from the first cast",
-            "Chain: Magic Star"
+            "Chain: Magic Star",
+            "Remove unit collision for 3 seconds after cast"
         ]
     },
     {
@@ -3927,7 +3942,7 @@
         "hotkey": "[T]",
         "icon": "PBT",
         "active": [
-            "Removes all soul consumption for 10 seconds and reduces some skills' cooldowns",
+            "Removes all soul consumption for 8 seconds and reduces some skills' cooldowns",
             "Enables dash while active"
         ]
     },
@@ -3941,7 +3956,7 @@
             "Pauses enemies for a short time",
             "Delivers Attack Damage X 15000% damage at the end",
             "Stuns for 2.5 seconds",
-            "Deals up to 60% bonus damage based on target's missing HP"
+            "Deals up to 40% bonus damage based on target's missing HP"
         ]
     }
 ]

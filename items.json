@@ -4419,7 +4419,7 @@
       "Laktrisha, the Illusional Sword of Poison"
     ],
     "stats": [
-      "+22,500 Damage",
+      "+21,000 Damage",
       "+1,780 Agility",
       "+5% Skill Damage",
       "+5% Critical Chance",
@@ -7774,7 +7774,7 @@
     ],
     "spec": [
       "Specialty - Bloody Protection",
-      "Shooter - Nanomachine Injection: Healing speed increased by 50% and duration is increased by 100%."
+      "Shooter - Nanomachine Injection: Healing speed increased by 50%."
     ]
   },
   {
@@ -8564,7 +8564,7 @@
     ],
     "spec": [
       "Specialty - Bloody Protection",
-      "Shooter - Nanomachine Injection: Healing speed increased by 50% and duration increased by 200%.",
+      "Shooter - Nanomachine Injection: Healing speed increased by 50% and duration increased by 50%.",
       "Shooter - Twin Star: Damage type is converted to magic, but damage is increased by 200% and heals allies hit for (INT X 0.5 + Target's Max HP X 10%)"
     ]
   },
@@ -9261,7 +9261,7 @@
     "spec": [
       "Specialty - Crimson Star",
       "Shooter - Twin Star: Damage type is converted to magic, but damage is increased by 200% and heals allies hit for (INT X 0.5 + Target's Max HP X 10%)",
-      "Shooter - Nanomachine Injection: Healing speed increased by 50% and duration increased by 200%."
+      "Shooter - Nanomachine Injection: Healing speed increased by 50% and duration increased by 50%."
     ]
   },
   {
@@ -10381,7 +10381,7 @@
       "+520 Armor",
       "+920 Agility",
       "+9% Skill Damage",
-      "Passive: Per damage dealt, converts 1% of it into Max HP up to 2 X AGI and provides 1.25% HP regen in duration of passive",
+      "Passive: Per damage dealt, converts 1% of it into Max HP up to 2 X AGI and provides 1.5% HP regen in duration of passive",
       "Active: Releases stored Max HP and deals amount X 30 pure damage to enemies in 750 radius of hero and stuns them for 1.5 seconds. Increases AGI by 15% and Skill damage by 5% for 12 seconds (120 second CD)"
     ]
   },
@@ -12492,7 +12492,7 @@
       "+980 Agility",
       "+7.5% Skill Damage",
       "+5% Magic Defense",
-      "Passive: On spellcast activate Wind Fury for 1.5 seconds, giving increased Movespeed (goes past 500 limit) and makes next 3 attacks strike once"
+      "Passive: On spellcast activate Wind Fury for 1.5 seconds, giving increased Movespeed (goes past 500 limit), 150 AGI and makes next 3 attacks strike once for a bonus damage of Attack Damage X 50%"
     ]
   },
   {
@@ -12512,7 +12512,7 @@
       "+1,280 Agility",
       "+10% Skill Damage",
       "+7.5% Magic Defense",
-      "Passive: On spellcast activate Storm Fury for 1.5 seconds, giving increased Movespeed (goes past 500 limit) and makes next 3 attacks strike once"
+      "Passive: On spellcast activate Storm Fury for 1.5 seconds, giving increased Movespeed (goes past 500 limit), 300 AGI and makes next 3 attacks strike once for a bonus damage of Attack Damage X 50%"
     ]
   },
   {
@@ -12562,7 +12562,7 @@
     "spec": [
       "Specialty - Cosmic Star",
       "Shooter - Twin Star: Damage type is converted to magic, but damage is increased by 300% and heals allies hit for (INT X 0.5 + Target's Max HP X 15%)",
-      "Shooter - Nanomachine Injection: Healing speed increased by 60% and duration increased by 200%; while buff is active, target is immune to debuffs"
+      "Shooter - Nanomachine Injection: Healing speed increased by 60% and duration increased by 50%; while buff is active, target is immune to debuffs"
     ]
   },
   {

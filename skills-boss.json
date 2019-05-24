@@ -11,8 +11,7 @@
         "name": "Darkness Wave",
         "boss": [
             "Mad Clown",
-            "Death Knight",
-            "Mage Lord"
+            "Death Knight"
         ],
         "color": 16763904,
         "active": [
@@ -87,6 +86,399 @@
     {
         "name": "Unstoppable Force",
         "boss": "Giant Golem",
+        "color": 16763904,
+        "active": [
+            "Targets a place to run to (in the direction of a hero) and with full dedication rushes towards it",
+            "Any heroes in its path will immediately die"
+        ]
+    },
+    {
+        "name": "Crushing Slam",
+        "boss": "Giant Golem",
+        "color": 16763904,
+        "active": [
+            "Slams the ground causing a shockwave in the nearby area",
+            "Any heroes caught in it will be stunned for ?? seconds"
+        ]
+    },
+    {
+        "name": "Slow Blast",
+        "boss": "Mana Ancient",
+        "color": 16763904,
+        "active": [
+            "Targets beneath a hero's feet and creates an enclosing whirlpool of mana",
+            "Heroes caught will take ?? damage and their movement speed reduced for ?? seconds"
+        ]
+    },
+    {
+        "name": "Mana Explosion",
+        "boss": "Mana Ancient",
+        "color": 16763904,
+        "active": [
+            "Creates a vacuum beneath itself, sucking in any nearby heroes and finally exploding after a few seconds.",
+            "Can only be used once it reaches full mana"
+        ]
+    },
+    {
+        "name": "Ethereal Strike",
+        "boss": "Spirit Beast",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Spirit Echo",
+        "boss": "Spirit Beast",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Drag",
+        "boss": "Ruler of the Lav Sea Hydra",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Poisonous Tooth",
+        "boss": "Ruler of the Lav Sea Hydra",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Stomp",
+        "boss": "Ruler of the Lav Sea Hydra",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Tidal Wave",
+        "boss": "Ruler of the Lav Sea Hydra",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Hound of Berskubil",
+        "boss": "Count Wallachia",
+        "color": 16763904,
+        "active": [
+            "Releases his hound to attack the heroes",
+            "Attacks in a single line"
+        ]
+    },
+    {
+        "name": "Death Bind",
+        "boss": "Count Wallachia",
+        "color": 16763904,
+        "active": [
+            "Grabs a targetted hero and pulls them towards himself, stunning them for ?? seconds"
+        ]
+    },
+    {
+        "name": "Immortal Body",
+        "boss": "Count Wallachia",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Requiem of Blood",
+        "boss": "Count Wallachia",
+        "color": 16763904,
+        "active": [
+            "Blasts the area around him with a nova of blood"
+        ]
+    },
+    {
+        "name": "Unleash: True Form",
+        "boss": "Count Wallachia",
+        "color": 16763904,
+        "active": [
+            "Assumes his true form and gains an increased attack range, HP, attack and movement speed, and all stats"
+        ]
+    },
+    {
+        "name": "Pumpkin Body",
+        "boss": "Jack-o-Lantern",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Jack Impact",
+        "boss": "Jack-o-Lantern",
+        "color": 16763904,
+        "active": [
+            "Blasts the surrounding area with a nova. Deals ?? damage to any nearby heroes"
+        ]
+    },
+    {
+        "name": "Jack Wave",
+        "boss": "Jack-o-Lantern",
+        "color": 16763904,
+        "active": [
+            "Shoots a ball of mana in a straight line. Deal s?? damage to any heroes in the path"
+        ]
+    },
+    {
+        "name": "Flight",
+        "boss": "Wings of Death",
+        "color": 16763904,
+        "active": [
+            "Takes flight and attacks from the air",
+            "Becomes immune to magic attacks and has increased ??"
+        ]
+    },
+    {
+        "name": "Dragon Scale",
+        "boss": "Wings of Death",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Dragon Fear",
+        "boss": "Wings of Death",
+        "color": 16763904,
+        "active": [
+            "Takes a moment to howl, causing fear in the hearts of the any nearby heroes",
+            "Heroes affected by it will have decreased movement speed"
+        ]
+    },
+    {
+        "name": "Hell Flame",
+        "boss": "Wings of Death",
+        "color": 16763904,
+        "active": [
+            "Blasts fire all around him",
+            "Deals ?? damage to nearby heroes"
+        ]
+    },
+    {
+        "name": "Dragon Breath",
+        "boss": "Wings of Death",
+        "color": 16763904,
+        "active": [
+            "Blasts a beam of fire from his mouth in a straight line",
+            "Deals ?? damage to heroes in its path"
+        ]
+    },
+    {
+        "name": "Magic Body",
+        "boss": "Mage Lord",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Dark Star",
+        "boss": "Mage Lord",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Blizzard",
+        "boss": "Mage Lord",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Chain Lightning",
+        "boss": "Mage Lord",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Nanoscale Armor",
+        "boss": "Guardian Spirit, Avalon's Gatekeeper",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Genocide Sword",
+        "boss": "Guardian Spirit, Avalon's Gatekeeper",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Blessed Wings",
+        "boss": "Guardian Angel",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Sacred Conviction",
+        "boss": "Guardian Angel",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Holy Grab",
+        "boss": "Guardian Angel",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Sacred Judgment",
+        "boss": "Guardian Angel",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Judgment of Darkness",
+        "boss": "Corrupt Angel",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Craze",
+        "boss": "Corrupt Angel",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Dark Wings",
+        "boss": "Corrupt Angel",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Hell Finger",
+        "boss": "Corrupt Angel",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Hell Finger",
+        "boss": "Corrupt Angel",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Hellfrost Nova",
+        "boss": "Lord of Everfrost",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Frozen Soul",
+        "boss": "Lord of Everfrost",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Hellfrost Attack",
+        "boss": "Lord of Everfrost",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Frost Spike",
+        "boss": "Spider Queen Ilshenar",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Frost Aura",
+        "boss": "Spider Queen Ilshenar",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Spider Power",
+        "boss": "Frostspider Lord",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Ice Storm",
+        "boss": "Frostspider Lord",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Web Binding",
+        "boss": "Frostspider Lord",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Frozen Barrier",
+        "boss": "Frostspider Lord",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Frozen Shatter",
+        "boss": "Frostspider Lord",
+        "color": 16763904,
+        "active": [
+            ""
+        ]
+    },
+    {
+        "name": "Rage",
+        "boss": "Demon Lord Beriel",
         "color": 16763904,
         "active": [
             ""
