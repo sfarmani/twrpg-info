@@ -3958,5 +3958,18 @@
             "Stuns for 2.5 seconds",
             "Deals up to 40% bonus damage based on target's missing HP"
         ]
+    },
+    {
+        "name": "Obliterate",
+        "heroClass": "Hermit",
+        "color": 5221038,
+        "hotkey": "[D]",
+        "icon": "HermitD",
+        "passive": [
+            "Pauses enemies for a short time",
+            "Delivers Attack Damage X 15000% damage at the end",
+            "Stuns for 2.5 seconds",
+            "Deals up to 40% bonus damage based on target's missing HP"
+        ]
     }
 ]

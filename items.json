@@ -4531,10 +4531,6 @@
       "+25% Attack Speed",
       "+5% Skill Damage",
       "Active: Create a toxic pool at target AoE"
-    ],
-    "spec": [
-      "Specialty",
-      "Soul Weaver - Dead Spirit's Howling Soul: Gain one soul for each enemy hit."
     ]
   },
   {
@@ -11179,7 +11175,7 @@
       "+160 Movement Speed",
       "Passive: Increase the Armor by 300 and Max Health by 5,000 of all allies in 800 AoE",
       "Passive: 'Divine Light' Gain a stack on every skill cast. 8 second duration (Max 5 Stacks)",
-      "Active: 'Release Divine Light' Heal all allies in 600 AoE for [(Str + Agi + Int) x 0.25 x # of Divine Light stacks] (1 second CD)"
+      "Active: 'Release Divine Light' Heal all allies in 600 AoE for [(Str + Agi + Int) x 0.25 x # of Divine Light stacks] (10 second CD)"
     ],
     "spec": [
       "Specialties - Transmission of Light",

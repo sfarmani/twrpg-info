@@ -89,7 +89,7 @@
         "name": "Haran Tenebras",
         "heroClass": "Warlock",
         "color": 5377478,
-        "icon": "WitchIcon",
+        "icon": "WarlockIcon",
         "wearable": [
             "[Weapon all classes]",
             "[Weapon non-bow/gun classes]",
@@ -836,6 +836,60 @@
         ],
         "description": [
             "Unknown."
+        ],
+        "spec": [
+            "No Specs!"
+        ]
+    },
+    {
+        "name": "The Nameless One",
+        "heroClass": "Hermit",
+        "color": 5221038,
+        "icon": "HermitIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Longsword]",
+            "[Greatsword]",
+            "[Bastard Sword]",
+            "[Staff]",
+            "[Armor]",
+            "[Robe]",
+            "[Helm]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
+        "role": [
+            "DPS/Support"
+        ],
+        "description": [
+            "A young man who ran away from the civilization at a young age to live in the woods.",
+            "While living alone, he obtained the mystic arts of the nature.."
+        ],
+        "spec": [
+            "No Specs!"
+        ]
+    },
+    {
+        "name": "Yue Tenebras",
+        "heroClass": "Witch",
+        "color": 5221038,
+        "icon": "WitchIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Weapon non-bow/gun classes]",
+            "[Staff]",
+            "[Robe]",
+            "[Hood]",
+            "[Ring]",
+            "[Wings]"
+        ],
+        "role": [
+            "DPS/Support"
+        ],
+        "description": [
+            "Hey guys.. I have returned."
         ],
         "spec": [
             "No Specs!"
