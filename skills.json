@@ -144,7 +144,7 @@
         "heroClass": "Soul Weaver",
         "color": 6318794,
         "hotkey": "[Q]",
-        "icon": "SoulWeaverQ_new",
+        "icon": "SoulWeaverQ",
         "active": [
             "Pierces through the souls of the living.",
             "INT X 80 magic damage",
@@ -170,7 +170,7 @@
         "heroClass": "Soul Weaver",
         "color": 6318794,
         "hotkey": "[E]",
-        "icon": "SoulWeaverE_new",
+        "icon": "SoulWeaverE",
         "active": [
             "Transfers souls to or from the target.",
             "INT X 50 magic damage per second",
@@ -184,7 +184,7 @@
         "heroClass": "Soul Weaver",
         "color": 6318794,
         "hotkey": "[R]",
-        "icon": "SoulWeaverR_new",
+        "icon": "SoulWeaverR",
         "active": [
             "Pierces through the souls of the living.",
             "INT X 80 magic damage",
@@ -197,7 +197,7 @@
         "heroClass": "Soul Weaver",
         "color": 6318794,
         "hotkey": "[T]",
-        "icon": "SoulWeaverT_new",
+        "icon": "SoulWeaverT",
         "active": [
             "Summons a cradle that holds down the souls of the living.",
             "INT X 60 magic damage per second",
@@ -623,7 +623,7 @@
         "heroClass": "Warlock",
         "color": 5377478,
         "hotkey": "[Passive]",
-        "icon": "WitchPass",
+        "icon": "WarlockPass",
         "passive": [
             "A twisted magic that allows you to steal target's flows of life and mana.",
             "Deals INT X 3 damage on every attack",
@@ -635,7 +635,7 @@
         "heroClass": "Warlock",
         "color": 5377478,
         "hotkey": "[Q]",
-        "icon": "WitchQ",
+        "icon": "WarlockQ",
         "active": [
             "Call an evil spirit to rip apart dimension in the form of a cross.",
             "Consumes Max MP X 20%",
@@ -649,7 +649,7 @@
         "heroClass": "Warlock",
         "color": 5377478,
         "hotkey": "[W]",
-        "icon": "WitchW",
+        "icon": "WarlockW",
         "active": [
             "Create a gate in dimension that spews corrupt spirits to attack nearby enemies.",
             "Consumes Max MP X 30%",
@@ -664,7 +664,7 @@
         "heroClass": "Warlock",
         "color": 5377478,
         "hotkey": "[E]",
-        "icon": "WitchE",
+        "icon": "WarlockE",
         "active": [
             "Summon a vengeful spirit that absorbs damage and reflects them back at the attackers.",
             "INT X 60 magic damage",
@@ -678,7 +678,7 @@
         "heroClass": "Warlock",
         "color": 5377478,
         "hotkey": "[R]",
-        "icon": "WitchR",
+        "icon": "WarlockR",
         "passive": [
             "Amplify your magic with grimoire that is inscribed with ancient demons' powers.",
             "Max HP and skill damage increased by 25%",
@@ -696,7 +696,7 @@
         "heroClass": "Warlock",
         "color": 5377478,
         "hotkey": "[T]",
-        "icon": "WitchT",
+        "icon": "WarlockT",
         "active": [
             "Obtains a demon's body at the cost of one's own soul.",
             "Consumes 500 MP per second",
@@ -711,7 +711,7 @@
         "heroClass": "Warlock",
         "color": 5377478,
         "hotkey": "[T] → [Passive]",
-        "icon": "WitchT_Pass1",
+        "icon": "WarlockT_Pass1",
         "passive": [
             "Try to satisfy my hunger..",
             "Every attack deals INT X 4 damage",
@@ -724,7 +724,7 @@
         "heroClass": "Warlock",
         "color": 5377478,
         "hotkey": "[T] → [Passive]",
-        "icon": "WitchT_Pass2",
+        "icon": "WarlockT_Pass2",
         "passive": [
             "What can you do in the face of destruction?",
             "Dimension Collapse deals 40% increased damage",
@@ -736,7 +736,7 @@
         "heroClass": "Warlock",
         "color": 5377478,
         "hotkey": "[T] → [Q]",
-        "icon": "WitchT_Q",
+        "icon": "WarlockT_Q",
         "active": [
             "Embrace your end!",
             "Activates Crucifixion at target area",
@@ -748,7 +748,7 @@
         "heroClass": "Warlock",
         "color": 5377478,
         "hotkey": "[T] → [W]",
-        "icon": "WitchT_W",
+        "icon": "WarlockT_W",
         "active": [
             "Surge forward to execute enemies.",
             "INT X 100 magic damage",
@@ -760,7 +760,7 @@
         "heroClass": "Warlock",
         "color": 5377478,
         "hotkey": "[F]",
-        "icon": "WitchF",
+        "icon": "WarlockF",
         "active": [
             "\"Seems like the time to unleash my evil left hand has come..\" - Haran",
             "INT X 250 damage per second",
@@ -3960,16 +3960,256 @@
         ]
     },
     {
-        "name": "Obliterate",
+        "name": "Harmony",
         "heroClass": "Hermit",
         "color": 5221038,
         "hotkey": "[D]",
         "icon": "HermitD",
         "passive": [
-            "Pauses enemies for a short time",
-            "Delivers Attack Damage X 15000% damage at the end",
-            "Stuns for 2.5 seconds",
-            "Deals up to 40% bonus damage based on target's missing HP"
+            "Forms a harmonious balance between attacking and healing.",
+            "Every 4th attack heals you and 2 nearby allies",
+            "Heals for 50 + (STR + INT) X 0.15"
+        ]
+    },
+    {
+        "name": "Flowing Fist",
+        "heroClass": "Hermit",
+        "color": 5221038,
+        "hotkey": "[Q]",
+        "icon": "HermitQ",
+        "active": [
+            "Strikes target's weak points.",
+            "Attack Damage X 200% pure damage",
+            "Grants increased attack speed for 1.5 seconds",
+            "Deals Main Stat X 1 pure damage on each attack",
+            "If cast from melee range, deals 150% bonus damage and stuns for 0.5"
+        ]
+    },
+    {
+        "name": "Restoration",
+        "heroClass": "Hermit",
+        "color": 5221038,
+        "hotkey": "[W]",
+        "icon": "HermitW",
+        "active": [
+            "Heals target's wounds.",
+            "Instantly heals target for Main Stat X 2",
+            "Heals for (STR + INT) X 0.4 every second",
+            "Reduces damage taken by 20%",
+            "Lasts 12 seconds"
+        ]
+    },
+    {
+        "name": "Wind Walk",
+        "heroClass": "Hermit",
+        "color": 5221038,
+        "hotkey": "[E]",
+        "icon": "HermitE",
+        "passive": [
+            "Calms your mind and body by walking.",
+            "Restores HP 5% / 10 ki per second while walking"
+        ],
+        "active": [
+            "Increases movement speed and ignores collision for 0.6 seconds",
+            "Increases restored amounts by 300% while walking"
+        ]
+    },
+    {
+        "name": "Orb of Harmony",
+        "heroClass": "Hermit",
+        "color": 5221038,
+        "hotkey": "[R]",
+        "icon": "HermitR",
+        "active": [
+            "Summons an orb that heals allies.",
+            "Regenerates HP by Main Stat X 0.5 per second",
+            "Regenerates resource point by 5% per second",
+            "Lasts 1~6 seconds based on duration travelled"
+        ]
+    },
+    {
+        "name": "Purge",
+        "heroClass": "Hermit",
+        "color": 5221038,
+        "hotkey": "[T]",
+        "icon": "HermitT",
+        "active": [
+            "Purges inner evil within the soul.",
+            "Deals Main Stat X 150 magic damage to nearby enemies and stuns for 1.5 seconds",
+            "Grants shield absorbing Main Stat X 2.5 damage to nearby allies",
+            "Also activates from summoned orbs",
+            "Chain - Inner Release"
+        ]
+    },
+    {
+        "name": "Inner Release",
+        "heroClass": "Hermit",
+        "color": 5221038,
+        "hotkey": "[T] → [T]",
+        "icon": "HermitT",
+        "active": [
+            "Releases all of your power.",
+            "Knocks back nearby enemies and stuns them for 1.5 seconds"
+        ]
+    },
+    {
+        "name": "Purify",
+        "heroClass": "Hermit",
+        "color": 5221038,
+        "hotkey": "[F]",
+        "icon": "HermitF",
+        "active": [
+            "\"This water shall cleanse your body and soul.\" - Hermit",
+            "Deals Main Stat X 175 magic damage",
+            "Heals for Target's Max HP X 75% per second",
+            "Breaks barriers"
+        ]
+    },
+    {
+        "name": "Magical Broom",
+        "heroClass": "Witch",
+        "color": 11642578,
+        "hotkey": "[D]",
+        "icon": "WitchD",
+        "passive": [
+            "A broom filled with uncontrollable mana.",
+            "Every attack deals INT X 5 magic damage",
+            "On skill cast, gains explosive attack speed for 1.5 seconds"
+        ],
+        "active": [
+            "Hops onto your broom.",
+            "Increases movement speed by 500 for 1.5 seconds",
+            "Ignores unit collision"
+        ]
+    },
+    {
+        "name": "Death Bomb",
+        "heroClass": "Witch",
+        "color": 11642578,
+        "hotkey": "[Q]",
+        "icon": "WitchQ",
+        "active": [
+            "Explosion... is an art!",
+            "INT X 25 magic damage",
+            "Stuns for 0.5 seconds",
+            "Can be channeled up to 2 seconds, increasing damage by 300% and range/stun duration by 100% every second",
+            "Channeling speed can be increased by attack speed"
+        ]
+    },
+    {
+        "name": "Star Shower",
+        "heroClass": "Witch",
+        "color": 11642578,
+        "hotkey": "[W]",
+        "icon": "WitchW",
+        "active": [
+            "Shoots stars out of your broom.",
+            "INT X 30 magic damage",
+            "Heals for INT X 1.5",
+            "Refills 1 charge every 6 seconds",
+            "Can hold up to 4 charges"
+        ]
+    },
+    {
+        "name": "Mystical Cauldron",
+        "heroClass": "Witch",
+        "color": 11642578,
+        "hotkey": "[E]",
+        "icon": "WitchE",
+        "active": [
+            "Summons a cauldron filled with magical items.",
+            "Creates a potion every 2 seconds for 20 seconds",
+            "Potion lasts for 30 seconds and heals for INT X 3",
+            "Increases one of target's stats by 10% for 60 seconds"
+        ]
+    },
+    {
+        "name": "Hex",
+        "heroClass": "Witch",
+        "color": 11642578,
+        "hotkey": "[R]",
+        "icon": "WitchR",
+        "active": [
+            "A master of witchcraft can even stop the time itself.",
+            "Freezes enemies for 2 seconds",
+            "Grants immunity to harmful effects to allies for 2 seconds"
+        ]
+    },
+    {
+        "name": "Hell Gate",
+        "heroClass": "Witch",
+        "color": 11642578,
+        "hotkey": "[T]",
+        "icon": "WitchT",
+        "active": [
+            "Summons a fallen angel who has formed a contract with Witch a long time ago.",
+            "Summons Armaros"
+        ]
+    },
+    {
+        "name": "Fallen Power",
+        "heroClass": "Witch",
+        "color": 11642578,
+        "hotkey": "[T] → [D]",
+        "icon": "WitchT_D",
+        "passive": [
+            "A fallen angel cannot receive the blessings of the God.",
+            "Each attack deals INT X 7.5 magic damage",
+            "Magic defense increased by 25%",
+            "HP lost by 20% per second on Heaven Field"
+        ]
+    },
+    {
+        "name": "Arrow of Destruction",
+        "heroClass": "Witch",
+        "color": 11642578,
+        "hotkey": "[T] → [Q]",
+        "icon": "WitchT_Q",
+        "active": [
+            "INT X 150 magic damage",
+            "Breaks barriers"
+        ]
+    },
+    {
+        "name": "Mark of Power",
+        "heroClass": "Witch",
+        "color": 11642578,
+        "hotkey": "[T] → [W]",
+        "icon": "WitchT_W",
+        "active": [
+            "Brands the target with power.",
+            "Increases damage dealt by 7.5%",
+            "Reduces damage taken by 20%",
+            "Increases attack and movement speed by 50%",
+            "Lasts 45 seconds"
+        ]
+    },
+    {
+        "name": "Unleash",
+        "heroClass": "Witch",
+        "color": 11642578,
+        "hotkey": "[T] → [E]",
+        "icon": "WitchT_E",
+        "active": [
+            "Every 4th attack deals INT X 40 magic damage",
+            "Increases attack speed by 250%",
+            "Reduces damage taken by 20%",
+            "Increases movement speed by 300",
+            "Becomes immune to all harmful effects",
+            "Vanishes after 12 seconds"
+        ]
+    },
+    {
+        "name": "Death Field",
+        "heroClass": "Witch",
+        "color": 11642578,
+        "hotkey": "[F]",
+        "icon": "WitchF",
+        "active": [
+            "\"Get away from here. I will be using this zone as my lab..\" - Witch",
+            "Deals INT X 75 magic damage per second",
+            "Increases magic damage taken by 1.5% every second",
+            "Lasts 8 seconds"
         ]
     }
 ]

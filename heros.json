@@ -33,7 +33,7 @@
         "name": "Stella Livve",
         "heroClass": "Soul Weaver",
         "color": 6318794,
-        "icon": "SoulWeaverIcon_new",
+        "icon": "SoulWeaverIcon",
         "wearable": [
             "[Weapon all classes]",
             "[Weapon non-bow/gun classes]",
@@ -490,7 +490,7 @@
         "name": "Aisha",
         "heroClass": "Wind Mage",
         "color": 11465927,
-        "icon": "WindMageIcon_new",
+        "icon": "WindMageIcon",
         "wearable": [
             "[Weapon all classes]",
             "[Weapon non-bow/gun classes]",
@@ -874,7 +874,7 @@
     {
         "name": "Yue Tenebras",
         "heroClass": "Witch",
-        "color": 5221038,
+        "color": 11642578,
         "icon": "WitchIcon",
         "wearable": [
             "[Weapon all classes]",
