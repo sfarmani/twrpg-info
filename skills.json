@@ -4060,9 +4060,10 @@
         "icon": "HermitF",
         "active": [
             "\"This water shall cleanse your body and soul.\" - Hermit",
-            "Deals Main Stat X 175 magic damage",
+            "Deals Main Stat X 175 magic damage per second",
             "Heals for Target's Max HP X 75% per second",
-            "Breaks barriers"
+            "Breaks barriers",
+            "Lasts for 4.5 seconds"
         ]
     },
     {
