@@ -3909,7 +3909,7 @@
         "hotkey": "[E]",
         "icon": "PBE",
         "toggle": [
-            "30% chance to deal AGI X 40 bonus damage when delivering a slash"
+            "40% chance to deal AGI X 50 bonus damage when delivering a slash"
         ]
     },
     {
