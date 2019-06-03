@@ -6083,12 +6083,12 @@
   },
   {
     "id": "I0JS",
-    "name": "Volcanic Heart",
+    "name": "Heart of Volcano",
     "dropped_by": [
       "Ifrit"
     ],
     "type": "[Ring]",
-    "description": "으아아아아 터진다!!!!!!!!!!!!!!!!!!!",
+    "description": "I'm about to EXPLODE!!!!!!!!!!!!!!!!!!!",
     "color": 12517376,
     "level": "380",
     "droprate": "0.5%",
@@ -6099,7 +6099,7 @@
       "+1,300 Main Stat",
       "+125 Movement Speed",
       "+10% Skill Damage",
-      "Active: After 1 second delay, causes an explosion that kills user, deals Mainstat X 250 damage to nearby enemies and stuns for 3 seconds. Damage dealt increases by 50% for every 5 seconds in combat up to 5 seconds (180 second CD)"
+      "Active: After 1 second delay, causes an explosion that kills user, deals Mainstat X 250 damage to nearby enemies and stuns for 3 seconds. Damage dealt increases by 50% for every 5 seconds in combat up to 5 times (180 second CD)"
     ]
   },
   {
