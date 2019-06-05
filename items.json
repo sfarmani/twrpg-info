@@ -11757,7 +11757,7 @@
       "+6% Skill Damage",
       "+6% Magic Resistance",
       "Passive: Spawns 3 orbs every 5 seconds that heal you for 2.5% Health each (for a total of 7.5%) and (??%) max Mana total",
-      "Active: Release Souls (75x Int*(Current Mana/Max Mana) AoE Damage, Heals nearby allies for 40% max Health) (40 second CD)"
+      "Active: Release souls (75 X INT X (Current Mana/Max Mana) AoE Damage, Heals self and nearby allies for 40% max HP X (Current Mana/Max Mana)) (40 second CD)"
     ],
     "spec": [
       "Specialty - Soul Devour",
