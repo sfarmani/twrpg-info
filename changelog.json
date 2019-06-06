@@ -20,7 +20,7 @@
             "  • Fixed blood wraith spells glitching out if more than 2 summons are present",
             "  • Fixed wings of death sometimes getting summoned after teleporting bag to hero",
             "# Boss",
-            "  *Death Fiend*",
+            "  * Death Fiend *",
             "    • New effect: Mark of Death",
             "      ⏵Boss and summon attacks will mark a target for 15 seconds",
             "      ⏵Boss and summon can only maintain one mark",
