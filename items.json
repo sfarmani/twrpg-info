@@ -10549,8 +10549,6 @@
     ],
     "spec": [
       "Specialties - Maiden's Blessing",
-      "Priest - Heal: Heal amount increased by 15%",
-      "Priest - Holy Wave: Removes all debuffs from allies affected by Heal, heals them fully and grant 20% bonus HP for duration of Heal",
       "Lightning Mage - Removes all debuffs when discharge is used and heals 5% max HP for each lightning orb recharged",
       "Wind Mage - Restore 40% of Maximum HP when using Feather of Aeolus"
     ]
@@ -11183,7 +11181,7 @@
       "Paladin - Holy Grace: Effect radius increased by 50%",
       "Paladin - Divine Shield: Nearby allies are also affected by received damage reduction",
       "Priest - Holy Blessing: Affects all allies within 450 range from target",
-      "Priest - Holy Aurora: Effect radius increased by 50%",
+      "Priest - Holy Aurora: Effect radius increased by 20%",
       "Priest - Holy Field: Duration increased by 20%",
       "Wind Mage - Mirror of Aeolus gains 15% bonus damage reduction and 30% bonus radius."
     ]

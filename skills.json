@@ -3519,7 +3519,7 @@
         "icon": "PriestD",
         "active": [
             "Heal target's wounds",
-            "Heals missing HP X 12% per second",
+            "Heals missing HP X 5% per 0.5 seconds",
             "Reduces target's damage taken by 25% while active",
             "Lasts for 8 seconds"
         ]
@@ -3533,7 +3533,8 @@
         "active": [
             "Release holy mana in the shape of a line.",
             "INT X 20 damage",
-            "Heal allies in range"
+            "Heal allies in range",
+            "Cleanses and restores 100% HP of allies who are under the effects of Heal (D)"
         ]
     },
     {
@@ -3559,11 +3560,13 @@
         "passive": [
             "The priest's presence alone brings great support to her allies.",
             "Attack speed increased",
-            "Movement speed increased"
+            "Movement speed increased by 60"
         ],
         "active": [
             "Consecerate nearby ground to protect allies and bring down judgment on enemies.",
-            "Lasts 10 seconds"
+            "Bonus recovery: INT X 0.5",
+            "Lasts 10 seconds",
+            "Effect radius: 500"
         ]
     },
     {
@@ -3681,7 +3684,7 @@
         "icon": "PriestT_F",
         "active": [
             "Gift target with god's blessing.",
-            "Reduces damage taken by 80% for 6 seconds",
+            "Reduces damage taken by 50% for 3 seconds after resurrection",
             "If killed while active, revives the target after 2 seconds"
         ]
     },
@@ -3730,7 +3733,7 @@
         "icon": "PaladinD_W",
         "passive": [
             "An aspect of protector who defends his allies.",
-            "Increases nearby allies' magic defense by 18%",
+            "Increases nearby allies' magic defense by 15%",
             "Judgment - Grants shield that absorbs (STR + INT X 2) damage for 2 seconds and reduces damage dealt by target by 40% for 2 seconds",
             "Sigil - Grants shield for 4 seconds"
         ]
@@ -3739,8 +3742,8 @@
         "name": "Aura of Restoration",
         "heroClass": "Paladin",
         "color": 6734591,
-        "hotkey": "[D] → [D]",
-        "icon": "PaladinD_D",
+        "hotkey": "[D] → [E]",
+        "icon": "PaladinD_E",
         "passive": [
             "Aspect of priest that cures the inner wounds of allies.",
             "Increases nearby allies' HP regen by target's max HP X 1% + INT X 0.2",
@@ -3875,7 +3878,7 @@
         "passive": [
             "Restores 1 soul every 2 seconds",
             "Can hold up to 8 souls",
-            "Regenerates HP X 4% per second if holding 8 souls"
+            "Regenerates HP X 2% per second if holding 4 souls"
         ]
     },
     {
@@ -4062,7 +4065,7 @@
             "\"This water shall cleanse your body and soul.\" - Hermit",
             "Deals Main Stat X 175 magic damage per second",
             "Heals for Target's Max HP X 75% per second",
-            "Breaks barriers",
+            "Breaks barriers (once every 1 second)",
             "Lasts for 4.5 seconds"
         ]
     },
