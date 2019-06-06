@@ -4157,11 +4157,11 @@
       "Sanguiel, the Bloodspear of Requiem"
     ],
     "stats": [
-      "+9000 Damage",
-      "+690 Main Stat",
+      "+5,000 Damage",
+      "+490 Main Stat",
       "+25% Attack Speed",
       "+0.15x Critical Multiplier",
-      "Passive: 'Requiem' Activate one of 3 effects on every 14th attack (Blue Wraith heals you for 3000+1x Main Stat, Green wraith slows for 3 seconds and deals 12.5x Main Stat damage in an AoE, Red wraith deals 22.5x Main Stat in an AoE)"
+      "Passive: Activates Unleash every 14th attack (Blue Wraith heals you for 3000 + 1 X Main stat, Green wraith slows for 3 seconds and deals 12.5 X Main stat damage in an AoE, Red wraith deals 22.5 X Main stat in an AoE)"
     ]
   },
   {
@@ -4180,11 +4180,11 @@
       "Everfrostbane"
     ],
     "stats": [
-      "+9400 Damage",
-      "+690 Main Stat",
+      "+5,500 Damage",
+      "+490 Main Stat",
       "+15% Attack Speed",
       "+4% Skill Damage",
-      "Passive: 'Requiem' Activate one of 3 effects on every 14th attack (Blue Wraith heals you for 3000+1x Main Stat, Green wraith slows for 3 seconds and deals 12.5x Main Stat damage in an AoE, Red wraith deals 22.5x Main Stat in an AoE)"
+      "Passive: Activates Unleash every 14th attack (Blue Wraith heals you for 3000 + 1 X Main stat, Green wraith slows for 3 seconds and deals 12.5 X Main stat damage in an AoE, Red wraith deals 22.5 X Main stat in an AoE)"
     ]
   },
   {
@@ -4206,11 +4206,11 @@
       "Soul Drinker"
     ],
     "stats": [
-      "+800 Intelligence",
-      "+4,000 Health",
+      "+500 Intelligence",
+      "+3,000 Health",
       "+4% Skill Damage",
-      "Passive: Life Steal",
-      "Active: Gives 10% Skill Damage and 6% Spell Steal for 9 seconds (Spells heal Health based on amount of damage done temporarily)"
+      "Passive: Steals HP on attack",
+      "Active: Grants 10% skill damage and 6% life steal for skills for 9 seconds (Spells heal Health based on amount of damage done temporarily)"
     ]
   },
   {
@@ -4234,8 +4234,7 @@
       "+200 Armor",
       "+310 Main Stat",
       "+100 Movement Speed",
-      "+3% Skill Damage",
-      "+3% Critical Strike Chance",
+      "+3% Skill Damage and Critical Chance",
       "Passive: If HP drops low, gains 90% damage reduction for 3 seconds"
     ]
   },
@@ -4258,11 +4257,11 @@
       "Ring of Composure"
     ],
     "stats": [
-      "+380 Agility",
-      "+430 Intelligence",
+      "+280 Agility",
+      "+330 Intelligence",
       "+15% Attack Speed",
-      "+7.5% Skill Damage",
-      "Passive: Absorb 50 health from every creep and 300 health from every boss in 300 every 2 seconds"
+      "+5% Skill Damage",
+      "Passive: Periodically drains HP from nearby enemies (50 HP from creeps and 300 HP bosses)"
     ]
   },
   {
@@ -4282,11 +4281,11 @@
       "Bloodstone Plates"
     ],
     "stats": [
-      "+200 Armor",
-      "+2,000 Health",
+      "+160 Armor",
+      "+1,500 Health",
       "+4% Skill Damage",
       "+6% Damage Taken",
-      "Active: 'Bloodlust' Gives Bonus Attack Speed, Damage, and 100% Life Steal for 12 seconds (90 second CD)"
+      "Active: Activates Bloodlust giving bonus attack speed, damage, and 100% life steal for 12 seconds (90 second CD)"
     ]
   },
   {
@@ -4304,7 +4303,7 @@
       "Devil Blaster"
     ],
     "stats": [
-      "+13,500 Damage",
+      "+10,500 Damage",
       "+30% Attack Speed"
     ]
   },
@@ -4323,11 +4322,11 @@
       "Bloodstone Plates"
     ],
     "stats": [
-      "+380 Armor",
-      "+310 Strength",
-      "+310 Intelligence",
-      "+5% Damage Reduction",
-      "Active: 'Stone Form' Increase Health and Mana Regeneration by 5,000, gain 5% Main Stat, and get a shield for 3x Main Stat for 2 seconds (40 second CD)"
+      "+430 Armor",
+      "+340 Strength and Intelligence",
+      "+130 Agility",
+      "-6% Damage Taken",
+      "Active: Activates Bloodstone Form. Increases HP and mana regeneration by 5,000, gain 5% main stat, and get a shield for 3 X main stat for 2 seconds (40 second CD)"
     ]
   },
   {
@@ -4345,11 +4344,10 @@
       "Hungry Bat Wings", "Horn of Devil"
     ],
     "stats": [
-      "+230 Agility",
-      "+230 Intelligence",
-      "+2,500 Health",
+      "+200 Agility and Intelligence",
+      "+2,000 Health",
       "+100 Movespeed",
-      "Passive: 'Drain' Empower next attack after moving 400 range (including by teleport/dash) dealing bonus 50% of your Attack as Pure Damage and healing you for 10% Health (0.125s cd)"
+      "Passive: Upon moving 400 distance, activates Drain on next attack (including by teleport/dash) dealing bonus 50% of your Attack as Pure Damage and healing you for 10% Health (0.125s cd)"
     ]
   },
   {
