@@ -8558,8 +8558,7 @@
     ],
     "spec": [
       "Specialty - Bloody Protection",
-      "Shooter - Nanomachine Injection: Healing speed increased by 50% and duration increased by 50%.",
-      "Shooter - Twin Star: Damage type is converted to magic, but damage is increased by 200% and heals allies hit for (INT X 0.5 + Target's Max HP X 10%)"
+      "Shooter - Nanomachine Injection: Healing speed increased by 50% and duration increased by 50%."
     ]
   },
   {
