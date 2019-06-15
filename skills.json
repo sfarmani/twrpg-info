@@ -3353,18 +3353,6 @@
         "icon": "ArcaneMageT",
         "active": [
             "Fires magical missiles in all directions.",
-            "Skill Level X 1500 damage",
-            "INT X 10 bonus damage"
-        ]
-    },
-    {
-        "name": "Barrage",
-        "heroClass": "Arcane Mage",
-        "color": 14135275,
-        "hotkey": "[T]",
-        "icon": "ArcaneMageT",
-        "active": [
-            "Fires magical missiles in all directions.",
             "Skill Level X 2500 damage",
             "INT X 15 bonus damage"
         ]
