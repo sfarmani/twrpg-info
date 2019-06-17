@@ -318,8 +318,12 @@
         "wearable": [
             "[Weapon all classes]",
             "[Weapon non-bow/gun classes]",
+            "[Bastard Sword]",
+            "[Longsword]",
             "[Staff]",
+            "[Armor]",
             "[Robe]",
+            "[Helm]",
             "[Hood]",
             "[Ring]",
             "[Wings]"
