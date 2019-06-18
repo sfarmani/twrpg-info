@@ -1,5 +1,15 @@
 [
     {
+        "name": "24f2",
+        "changes": [
+            "Only two urgent bug fixes are applied in this version (no donor rewards/balance changes/etc.)",
+            "More changes will be done this weekend",
+            "# Bug Fixes",
+            "  • Dragon's nest - Fixed players that teleport into it not being able to pick up item drops",
+            "  • Ifrit - Fixed hp getting reset after wheel cast"
+        ]
+    },
+    {
         "name": "24f",
         "changes": [
             "> Compatible Version: v0.13c ~",
