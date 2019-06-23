@@ -1,5 +1,22 @@
 [
     {
+        "name": "24h",
+        "changes": [
+            "# Bug Fixes",
+            "  • Fixed a bug where some tokens were not enabled",
+            "# Heroes",
+            "  * Hermit *",
+            "    • Inner Release [T] → [T]",
+            "      ⏵Changed the color of the icon",
+            "  * Reaper *",
+            "    • Death Mark [T]",
+            "      ⏵Changed the color of the icon",
+            "  * Soul Weaver *",
+            "    • Infinite Void [F]",
+            "      ⏵Fixed mobs to not spin too much while dragging them"
+        ]
+    },
+    {
         "name": "24g",
         "changes": [
             "# Bug Fixes",
