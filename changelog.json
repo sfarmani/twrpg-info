@@ -3,7 +3,7 @@
         "name": "24g",
         "changes": [
             "# Bug Fixes",
-            "  • Swordsman - Fixed model getting stuck when using Genocide storm (F) after reviving",
+            "  • Swordsman - Fixed model getting stuck when revived after dying in Genocide storm (F)",
             "# Items",
             "  * Guardian Ring / True Guardian Ring *",
             "    • Knight special effect - radius increase of Seal of mana (T) 25% → 15%",
