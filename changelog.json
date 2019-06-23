@@ -1,5 +1,43 @@
 [
     {
+        "name": "24g",
+        "changes": [
+            "# Bug Fixes",
+            "  • Swordsman - Fixed model getting stuck when using Genocide storm (F) after reviving",
+            "# Items",
+            "  * Guardian Ring / True Guardian Ring *",
+            "    • Knight special effect - radius increase of Seal of mana (T) 25% → 15%",
+            "  * Ispion, the runed ring *",
+            "    • Knight special effect - radius increase of Seal of mana (T) 50% → 30%",
+            "  * Horn of God *",
+            "    • Healing delay: 1 second → instant",
+            "# Heroes",
+            "  * Thunderer *",
+            "    • Lightning Rush (W)",
+            "      ⏵Cooldown: 10 seconds → 8 seconds",
+            "  * Sniper *",
+            "    • Explosive Shot (R)",
+            "      ⏵Removed cast delay",
+            "  * Arcane Mage *",
+            "    • Flash Storm (W)",
+            "      ⏵Damage: max MP X 1000% → max MP X 1500%",
+            "    • Illusion (R)",
+            "      ⏵Explosion damage: INT X 50 → INT X 40",
+            "    • Barrage (T)",
+            "      ⏵Damage per orb: INT X 25 → INT X 30",
+            "      ⏵Orb explosion radius: 250 → 275",
+            "      ⏵Orb release time: 0.5 ~ 1 seconds → 0.25 ~ 0.5 seconds",
+            "  * Witch *",
+            "    • Death Field (F)",
+            "      ⏵Now counts as periodic damage",
+            "# Misc",
+            "  • Fixed some text errors",
+            "    ⏵Lancer - Empowered Pierce (Q) damage text changed from 45% to 50%",
+            "  • Removed Dragon's Nest portal",
+            "  • Volcanic Lands portal moved to be near bridge of Dragon's Nest"
+        ]
+    },
+    {
         "name": "24f2",
         "changes": [
             "Only two urgent bug fixes are applied in this version (no donor rewards/balance changes/etc.)",
