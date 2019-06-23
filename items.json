@@ -198,7 +198,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "droprate": 1,
+    "droprate": 1.0,
     "required_by": [
       "White Powder"
     ]
@@ -2517,7 +2517,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "droprate": 1,
+    "droprate": 1.0,
     "required_by": [
       "Glasses",
       "True Dragonsword Lainhart",
@@ -2996,7 +2996,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "droprate": 1,
+    "droprate": 1.0,
     "required_by": [
       "Glasses",
       "Mithril Pickaxe",
@@ -3828,7 +3828,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "droprate": 1,
+    "droprate": 1.0,
     "required_by": [
       "Glasses",
       "Crimson Pumpkin Rod",
@@ -4034,7 +4034,7 @@
     ],
     "type": "[Misc]",
     "color": 8437759,
-    "droprate": 1,
+    "droprate": 1.0,
     "drops": [
       "Red Crystal Golem Token",
       "Dark matter"
@@ -5184,7 +5184,7 @@
     "notes": [
       "Spawns in your bag inventory if you are over level 360 (appears in your bag bank if your bag is full)"
     ],
-    "droprate": 1,
+    "droprate": 1.0,
     "drops": [
       "10 second buff (maximizes attack speed)",
       "dealing 60000 (x your Skill Damage) damage",
@@ -5436,7 +5436,7 @@
     "notes": [
       "Spawns in your bag inventory if you are over level 360 (appears in your bag bank if your bag is full)"
     ],
-    "droprate": 1,
+    "droprate": 1.0,
     "drops": [
       "10 second debuff (Lose 20000 Mana a second)",
       "dealing 60000 (x your Skill Damage) damage",
