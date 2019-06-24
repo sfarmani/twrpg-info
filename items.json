@@ -364,7 +364,9 @@
       "Droprate increases every 5 minutes that it does not drop"
     ],
     "stats": {
-      "active": "Summons a field boss"
+      "active": [
+        "Summons a field boss"
+      ]
     }
   },
   {
@@ -400,7 +402,9 @@
       "Droprate increases every 5 minutes that it does not drop"
     ],
     "stats": {
-      "active": "Summons a field boss"
+      "active": [
+        "Summons a field boss"
+      ]
     }
   },
   {
