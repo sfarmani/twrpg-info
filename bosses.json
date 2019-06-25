@@ -81,23 +81,6 @@
         ]
     },
     {
-        "id": "n038",
-        "name": "Mad Clown",
-        "limit": "2",
-        "timer": "450s",
-        "location": "In the Abandoned Graveyard",
-        "conditions": "Level 270",
-        "drops": [
-            "I0AA",
-            "sor2",
-            "sora",
-            "ram1",
-            "soul",
-            "I0GA",
-            "wcyc"
-        ]
-    },
-    {
         "id": "o003",
         "name": "Protector of Nature",
         "limit": "3",
@@ -114,6 +97,103 @@
             "I0EV",
             "I0DW",
             "pclr"
+        ]
+    },
+    {
+        "id": "orai",
+        "name": "King Crab",
+        "limit": "2",
+        "summon": "South of Captial Prius in murloc area",
+        "conditions": "Level 80 and usage of Mystical Horn",
+        "drops": [
+            "pmna",
+            "spsh",
+            "ciri",
+            "mort"
+        ]
+    },
+    {
+        "id": "o004",
+        "name": "Walrus",
+        "limit": "2",
+        "summon": "South of Captial Prius in murloc area",
+        "conditions": "Level 80 and usage of Mystical Horn",
+        "drops": [
+            "I0DS",
+            "I0DT",
+            "wneg",
+            "ciri",
+            "mort"
+        ]
+    },
+    {
+        "id": "oshm",
+        "name": "Mammoth",
+        "limit": "2",
+        "summon": "In Frosty Snowfield",
+        "conditions": "Level 120 and usage of Frozen Crystal",
+        "drops": [
+            "prvt",
+            "ssil",
+            "lgdh",
+            "hval"
+        ]
+    },
+    {
+        "id": "o005",
+        "name": "King Kong",
+        "limit": "2",
+        "summon": "In Frosty Snowfield",
+        "conditions": "Level 120 and usage of Frozen Crystal",
+        "drops": [
+            "I0DU",
+            "I0DV",
+            "lgdh",
+            "hval"
+        ]
+    },
+    {
+        "id": "n02L",
+        "name": "Blood Wraith",
+        "limit": "2",
+        "summon": "In Duchy of Wallachia",
+        "conditions": "Level 160 and usage of Mask of Blood",
+        "drops": [
+            "I0BQ",
+            "I0CB",
+            "I0BR",
+            "I0BS",
+            "I0BT",
+            "I0C3"
+        ]
+    },
+    {
+        "id": "n03Y",
+        "name": "Wallachia Monstrosity",
+        "limit": "2",
+        "summon": "In Duchy of Wallachia",
+        "conditions": "Level 160 and usage of Mask of Blood",
+        "drops": [
+            "rspl",
+            "I0BR",
+            "rhe1",
+            "I0C3",
+            "I0BT",
+            "rspd"
+        ]
+    },
+    {
+        "id": "n02Z",
+        "name": "Evil Lava Spawn",
+        "limit": "2",
+        "summon": "In Volcanic Lands",
+        "conditions": "Level 200 and usage of Nightmare Rod",
+        "drops": [
+            "bfhr",
+            "stwa",
+            "rnec",
+            "blba",
+            "shcw"
         ]
     },
     {
@@ -201,42 +281,6 @@
             "I0AB",
             "I0G7",
             "dtsb"
-        ]
-    },
-    {
-        "id": "h010",
-        "name": "Mana Ancient",
-        "limit": "2",
-        "timer": "450s",
-        "location": "In Fairy Forest",
-        "conditions": "Level 350",
-        "drops": [
-            "I08X",
-            "I06D",
-            "I0AV",
-            "I06E",
-            "I0G9",
-            "grsl",
-            "envl"
-        ]
-    },
-    {
-        "id": "n02M",
-        "name": "Spirit Beast",
-        "limit": "4",
-        "location": "In Fairy Forest - Deep Forest",
-        "conditions": "Level 350",
-        "notes": [
-            "Restricted to only 5 players. Once a player enters they cannot be substitued with another player"
-        ],
-        "drops": [
-            "odef",
-            "rag1",
-            "afac",
-            "grsl",
-            "I0JT",
-            "I0G8",
-            "ccmd"
         ]
     },
     {
@@ -505,100 +549,56 @@
         ]
     },
     {
-        "id": "orai",
-        "name": "King Crab",
+        "id": "h010",
+        "name": "Mana Ancient",
         "limit": "2",
-        "summon": "South of Captial Prius in murloc area",
-        "conditions": "Level 80 and usage of Mystical Horn",
+        "timer": "450s",
+        "location": "In Fairy Forest",
+        "conditions": "Level 350",
         "drops": [
-            "pmna",
-            "spsh",
-            "ciri",
-            "mort"
+            "I08X",
+            "I06D",
+            "I0AV",
+            "I06E",
+            "I0G9",
+            "grsl",
+            "envl"
         ]
     },
     {
-        "id": "o004",
-        "name": "Walrus",
-        "limit": "2",
-        "summon": "South of Captial Prius in murloc area",
-        "conditions": "Level 80 and usage of Mystical Horn",
+        "id": "n02M",
+        "name": "Spirit Beast",
+        "limit": "4",
+        "location": "In Fairy Forest - Deep Forest",
+        "conditions": "Level 350",
+        "notes": [
+            "Restricted to only 5 players. Once a player enters they cannot be substitued with another player"
+        ],
         "drops": [
-            "I0DS",
-            "I0DT",
-            "wneg",
-            "ciri",
-            "mort"
+            "odef",
+            "rag1",
+            "afac",
+            "grsl",
+            "I0JT",
+            "I0G8",
+            "ccmd"
         ]
     },
     {
-        "id": "oshm",
-        "name": "Mammoth",
+        "id": "n038",
+        "name": "Mad Clown",
         "limit": "2",
-        "summon": "In Frosty Snowfield",
-        "conditions": "Level 120 and usage of Frozen Crystal",
+        "timer": "450s",
+        "location": "In the Abandoned Graveyard",
+        "conditions": "Level 270",
         "drops": [
-            "prvt",
-            "ssil",
-            "lgdh",
-            "hval"
-        ]
-    },
-    {
-        "id": "o005",
-        "name": "King Kong",
-        "limit": "2",
-        "summon": "In Frosty Snowfield",
-        "conditions": "Level 120 and usage of Frozen Crystal",
-        "drops": [
-            "I0DU",
-            "I0DV",
-            "lgdh",
-            "hval"
-        ]
-    },
-    {
-        "id": "n02Z",
-        "name": "Evil Lava Spawn",
-        "limit": "2",
-        "summon": "In Volcanic Lands",
-        "conditions": "Level 200 and usage of Nightmare Rod",
-        "drops": [
-            "bfhr",
-            "stwa",
-            "rnec",
-            "blba",
-            "shcw"
-        ]
-    },
-    {
-        "id": "n02L",
-        "name": "Blood Wraith",
-        "limit": "2",
-        "summon": "In Duchy of Wallachia",
-        "conditions": "Level 160 and usage of Mask of Blood",
-        "drops": [
-            "I0BQ",
-            "I0CB",
-            "I0BR",
-            "I0BS",
-            "I0BT",
-            "I0C3"
-        ]
-    },
-    {
-        "id": "n03Y",
-        "name": "Wallachia Monstrosity",
-        "limit": "2",
-        "summon": "In Duchy of Wallachia",
-        "conditions": "Level 160 and usage of Mask of Blood",
-        "drops": [
-            "rspl",
-            "I0BR",
-            "rhe1",
-            "I0C3",
-            "I0BT",
-            "rspd"
+            "I0AA",
+            "sor2",
+            "sora",
+            "ram1",
+            "soul",
+            "I0GA",
+            "wcyc"
         ]
     },
     {
@@ -677,45 +677,6 @@
         ]
     },
     {
-        "id": "n02V",
-        "name": "Skeleton King Desperia",
-        "limit": "6",
-        "location": "In Prius Forward camp, the cave to the North",
-        "conditions": "Level 400",
-        "notes": [
-            "Damage reduction per player after 6 players 10%",
-            "Droprate per player after 6 players 2.5% - Does not apply for Token"
-        ],
-        "drops": [
-            "ratc",
-            "rat6",
-            "ward",
-            "penr",
-            "rat9",
-            "gsou",
-            "nflg",
-            "I0EK",
-            "I0EL",
-            "fgrg"
-        ]
-    },
-    {
-        "id": "n033",
-        "name": "Zombie Lord",
-        "limit": "3",
-        "location": "In Prius Forward camp, the cave to the East",
-        "conditions": "Level 410",
-        "drops": [
-            "belv",
-            "crys",
-            "stel",
-            "rde1",
-            "I08P",
-            "I0AS",
-            "pomn"
-        ]
-    },
-    {
         "id": "n030",
         "name": "Ancient Ent",
         "limit": "2",
@@ -766,6 +727,79 @@
         ]
     },
     {
+        "id": "n02V",
+        "name": "Skeleton King Desperia",
+        "limit": "6",
+        "location": "In Prius Forward camp, the cave to the North",
+        "conditions": "Level 400",
+        "notes": [
+            "Damage reduction per player after 6 players 10%",
+            "Droprate per player after 6 players 2.5% - Does not apply for Token"
+        ],
+        "drops": [
+            "ratc",
+            "rat6",
+            "ward",
+            "penr",
+            "rat9",
+            "gsou",
+            "nflg",
+            "I0EK",
+            "I0EL",
+            "fgrg"
+        ]
+    },
+    {
+        "id": "n03S",
+        "name": "Bone Dragon",
+        "limit": "5",
+        "location": "To the Southeast inside of Dragon Nest",
+        "conditions": "Level 380",
+        "drops": [
+            "sreg",
+            "pinv",
+            "tret",
+            "btst",
+            "rre1"
+        ]
+    },
+    {
+        "id": "o000",
+        "name": "Archangel Samael",
+        "limit": "2",
+        "summon": "In Castle Avalon, fighting area of Guardian Angels",
+        "conditions": "Level 200, Guardian Angels defeated, and 3x Holy Powder",
+        "notes": [
+            "HP: 23,120,000",
+            "Damage reduction per player after 6 players 10%",
+            "Droprate per player after 6 players 5% - Does not apply for Token"
+        ],
+        "drops": [
+            "I0E5",
+            "I0E6",
+            "I0E7",
+            "I0EG",
+            "I0AT",
+            "sneg"
+        ]
+    },
+    {
+        "id": "n033",
+        "name": "Zombie Lord",
+        "limit": "3",
+        "location": "In Prius Forward camp, the cave to the East",
+        "conditions": "Level 410",
+        "drops": [
+            "belv",
+            "crys",
+            "stel",
+            "rde1",
+            "I08P",
+            "I0AS",
+            "pomn"
+        ]
+    },
+    {
         "id": "n02Y",
         "name": "Shadow Dragon Irbert",
         "limit": "2",
@@ -787,26 +821,6 @@
         ],
         "stats": [
             "HP: 31,821,000"
-        ]
-    },
-    {
-        "id": "o000",
-        "name": "Archangel Samael",
-        "limit": "2",
-        "summon": "In Castle Avalon, fighting area of Guardian Angels",
-        "conditions": "Level 200, Guardian Angels defeated, and 3x Holy Powder",
-        "notes": [
-            "HP: 23,120,000",
-            "Damage reduction per player after 6 players 10%",
-            "Droprate per player after 6 players 5% - Does not apply for Token"
-        ],
-        "drops": [
-            "I0E5",
-            "I0E6",
-            "I0E7",
-            "I0EG",
-            "I0AT",
-            "sneg"
         ]
     },
     {
@@ -853,20 +867,6 @@
             "I0IE",
             "I0IF",
             "phea"
-        ]
-    },
-    {
-        "id": "n03S",
-        "name": "Bone Dragon",
-        "limit": "5",
-        "location": "To the Southeast inside of Dragon Nest",
-        "conditions": "Level 380",
-        "drops": [
-            "sreg",
-            "pinv",
-            "tret",
-            "btst",
-            "rre1"
         ]
     }
 ]
