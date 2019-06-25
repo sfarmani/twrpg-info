@@ -4884,7 +4884,7 @@
       "hpregen": 225,
       "active": [
         "On use, transforms user for 12 seconds",
-        "Stat, HP rege & magic defense increased",
+        "Stat, HP regen & magic defense increased",
         "Cooldown: 120 seconds"
       ],
       "spec": [
