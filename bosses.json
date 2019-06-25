@@ -395,7 +395,7 @@
         "name": "Sealed Weapon",
         "limit": "1",
         "location": "Dropped by Mage Lord with a 6% chance",
-        "conditions": "Defeat Mage Lord, depending on what type of character, gives one of the drops",
+        "conditions": "On use, can select which weapon to un-seal",
         "drops": [
             "I080",
             "I081",
