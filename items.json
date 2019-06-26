@@ -5,7 +5,7 @@
     "dropped_by": [
       "All"
     ],
-    "type": "[Material]",
+    "type": "[Air]",
     "color": 16777215,
     "droprate": 0.999,
     "required_by": [
@@ -6783,7 +6783,7 @@
   },
   {
     "name": "White Powder",
-    "type": "[Material]",
+    "type": "[Powder]",
     "color": 8781735,
     "required_by": [
       "Green Powder",
@@ -6796,7 +6796,7 @@
   },
   {
     "name": "Green Powder",
-    "type": "[Material]",
+    "type": "[Powder]",
     "color": 4227072,
     "dropped_by": [
       "Forest Spirit",
@@ -6819,7 +6819,7 @@
   },
   {
     "name": "Blue Powder",
-    "type": "[Material]",
+    "type": "[Powder]",
     "color": 191,
     "required_by": [
       "Red Powder",
@@ -6832,7 +6832,7 @@
   },
   {
     "name": "Red Powder",
-    "type": "[Material]",
+    "type": "[Powder]",
     "color": 16711680,
     "required_by": [
       "Holy Powder",
@@ -6845,7 +6845,7 @@
   },
   {
     "name": "Holy Powder",
-    "type": "[Material]",
+    "type": "[Powder]",
     "color": 12566272,
     "required_by": [
       "Tiny Essence of Light"
@@ -7069,6 +7069,9 @@
     "name": "Slightly Sturdy Bag",
     "type": "[Bag]",
     "color": 8026746,
+    "notes": [
+      "The item 'Bag' can be bought at the potion/fruit seller in Alfon Village"
+    ],
     "level": 10,
     "required_by": [
       "Pretty Sturdy Bag"
@@ -12928,7 +12931,7 @@
   },
   {
     "name": "Rusty Pickaxe",
-    "type": "[Misc]",
+    "type": "[Pickaxe]",
     "color": 8026746,
     "required_by": [
       "Sturdy Pickaxe"
@@ -12943,7 +12946,7 @@
   },
   {
     "name": "Sturdy Pickaxe",
-    "type": "[Misc]",
+    "type": "[Pickaxe]",
     "color": 8437759,
     "recipe": [
       { "Rusty Pickaxe": 1 },
@@ -12963,7 +12966,7 @@
   },
   {
     "name": "Rusty Magical Pickaxe",
-    "type": "[Misc]",
+    "type": "[Pickaxe]",
     "color": 8026746,
     "required_by": [
       "Sturdy Magic Pickaxe"
@@ -12979,7 +12982,7 @@
   },
   {
     "name": "Sturdy Magic Pickaxe",
-    "type": "[Misc]",
+    "type": "[Pickaxe]",
     "color": 8437759,
     "recipe": [
       { "Rusty Magical Pickaxe": 1 },
@@ -13000,7 +13003,7 @@
   {
     "name": "Mithril Pickaxe",
     "description": "Mines ores",
-    "type": "[Misc]",
+    "type": "[Pickaxe]",
     "color": 8437759,
     "recipe": [
       { "Sturdy Pickaxe": 1 },
@@ -13019,7 +13022,7 @@
   {
     "name": "Abyssal Pickaxe",
     "description": "Mines magical stones",
-    "type": "[Misc]",
+    "type": "[Pickaxe]",
     "color": 8437759,
     "recipe": [
       { "Sturdy Magic Pickaxe": 1 },
