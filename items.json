@@ -7718,7 +7718,7 @@
     "color": 33023,
     "level": 240,
     "recipe": [
-      { "Deadly Poison Sword": 1 },
+      { "Sword of Deadly Poison": 1 },
       { "Iron Ore": 15 },
       { "Silver Ore": 3 }
     ],
@@ -7757,7 +7757,7 @@
     "color": 33023,
     "level": 240,
     "recipe": [
-      { "Deadly Poison Gloves": 1 },
+      { "Gloves of Deadly Poison": 1 },
       { "Iron Ore": 15 },
       { "Silver Ore": 3 }
     ],
@@ -7775,7 +7775,7 @@
     "color": 33023,
     "level": 240,
     "recipe": [
-      { "Deadly Poison Staff": 1 },
+      { "Staff of Deadly Poison": 1 },
       { "Iron Ore": 15 },
       { "Silver Ore": 3 }
     ],
@@ -7793,7 +7793,7 @@
     "color": 33023,
     "level": 240,
     "recipe": [
-      { "Deadly Poison Bow": 1 },
+      { "Bow of Deadly Poison": 1 },
       { "Iron Ore": 15 },
       { "Silver Ore": 3 }
     ],
@@ -7811,7 +7811,7 @@
     "color": 33023,
     "level": 240,
     "recipe": [
-      { "Deadly Poison Gun": 1 },
+      { "Rifle of Deadly Poison": 1 },
       { "Iron Ore": 15 },
       { "Silver Ore": 3 }
     ],
