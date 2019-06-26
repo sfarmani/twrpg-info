@@ -8156,7 +8156,7 @@
       { "Rifle of True Poison": 1 },
       { "Blaster": 1 },
       { "Infected Tentacle": 1 },
-      { "Lesser Magic Stones": 10 }
+      { "Lesser Magic Stone": 10 }
     ],
     "required_by": [
       "Dragon Blaster"
@@ -8232,7 +8232,7 @@
       { "Crimson Stone": 1 },
       { "Bloodstone": 1 },
       { "Adamantium": 1 },
-      { "Red Powders": 8 }
+      { "Red Powder": 8 }
     ],
     "required_by": [
       "Bloody Hatred"
@@ -8349,7 +8349,7 @@
       { "Blade of Requiem": 1 },
       { "Scarab Bone": 1 },
       { "Mithril": 1 },
-      { "Red Powders": 12 }
+      { "Red Powder": 12 }
     ],
     "required_by": [
       "Crimson Reaper"
@@ -8803,7 +8803,7 @@
       { "Pure Steel": 1 },
       { "Soul Stone": 1 },
       { "Scarab Bone": 1 },
-      { "Silver Ores": 40 }
+      { "Silver Ore": 40 }
     ],
     "required_by": [
       "Ruinbringer"
@@ -9073,7 +9073,7 @@
       { "Crimson Stone": 1 },
       { "Adamantium": 1 },
       { "Dark Matter": 1 },
-      { "Greater Magic Stones": 15 }
+      { "Greater Magic Stone": 15 }
     ],
     "stats": {
       "damage": 16500,
@@ -9274,7 +9274,7 @@
       { "Visvire, the Hammer of Storm": 1 },
       { "Ring of Nightmare": 1 },
       { "Spirit orb": 1 },
-      { "Greater Magic Stones": 50 }
+      { "Greater Magic Stone": 50 }
     ],
     "required_by": [
       "Blazing Heart"
@@ -9380,7 +9380,7 @@
       { "Skeleton Bone": 1 },
       { "Essence of Anger": 1 },
       { "Soul Stone": 1 },
-      { "Red Powders": 10}
+      { "Red Powder": 10}
     ],
     "stats": {
       "damage": 21500,
