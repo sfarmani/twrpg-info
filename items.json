@@ -6,7 +6,7 @@
       "All"
     ],
     "type": "[Air]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.999,
     "required_by": [
       "Nothing"
@@ -14,7 +14,7 @@
   },
   {
     "name": "Troll Giant Hide",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.5,
     "type": "[Misc]",
     "dropped_by": [
@@ -26,7 +26,7 @@
   },
   {
     "name": "Troll Lord Hide",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.5,
     "type": "[Misc]",
     "dropped_by": [
@@ -38,7 +38,7 @@
   },
   {
     "name": "Mystical Branch",
-    "color": 14596231,
+    "color": 9267259,
     "dropped_by": [
       "Forest Spirit"
     ],
@@ -127,7 +127,7 @@
       "Can be mined with a Rusty Magical Pickaxe, Sturdy Magic Pickaxe, or Abyssal Pickaxe in the cave below Mine Village"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "required_by": [
       "White Powder"
     ]
@@ -138,7 +138,7 @@
       "Can be mined with a Rusty Magical Pickaxe, Sturdy Magic Pickaxe, or Abyssal Pickaxe in the cave below Mine Village"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "required_by": [
       "Green Powder"
     ]
@@ -149,7 +149,7 @@
       "Can be mined with a Sturdy Magic Pickaxe or Abyssal Pickaxe in the cave below Mine Village"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "required_by": [
       "Blue Powder"
     ]
@@ -160,7 +160,7 @@
       "Can be mined with a Sturdy Magic Pickaxe or Abyssal Pickaxe in the cave below Mine Village"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "required_by": [
       "Red Powder",
       "Holy Powder"
@@ -172,7 +172,7 @@
       "Can be mined with a Rusty Pickaxe, Sturdy Pickaxe, or Mithril Pickaxe in the cave below Mine Village"
     ],
     "type": "[Material]",
-    "color": 14596231
+    "color": 9267259
   },
   {
     "name": "Silver Ore",
@@ -180,7 +180,7 @@
       "Can be mined with a Rusty Pickaxe, Sturdy Pickaxe, or Mithril Pickaxe in the cave below Mine Village"
     ],
     "type": "[Material]",
-    "color": 14596231
+    "color": 9267259
   },
   {
     "name": "Gold Ore",
@@ -188,7 +188,7 @@
       "Can be mined with a Rusty Pickaxe, Sturdy Pickaxe, or Mithril Pickaxe in the cave below Mine Village"
     ],
     "type": "[Material]",
-    "color": 14596231
+    "color": 9267259
   },
   {
     "id": "I030",
@@ -197,7 +197,7 @@
       "Yeti"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 1.0,
     "required_by": [
       "White Powder"
@@ -210,7 +210,7 @@
       "Yeti"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.5,
     "required_by": [
       "Warm Fur",
@@ -226,7 +226,7 @@
       "Yeti"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.005,
     "required_by": [
       "Monster Hunter",
@@ -415,7 +415,7 @@
       "Mad Clown"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": [
       0.001,
       0.02
@@ -437,7 +437,7 @@
       "Mad Clown"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": [
       0.001,
       0.02
@@ -460,7 +460,7 @@
       "Corrupt Angel"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": [
       0.0005,
       0.02,
@@ -516,7 +516,7 @@
       "Mad Clown"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.01,
     "required_by": [
       "Deathbringer",
@@ -544,7 +544,7 @@
       "Mad Clown"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.01,
     "required_by": [
       "Staff of Madness",
@@ -1401,7 +1401,7 @@
       "Tentacle Lord"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.03,
     "required_by": [
       "Parasitic Sword",
@@ -1716,7 +1716,7 @@
       "Giant Ent"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "notes": [
       "Failure to defeat Ancient Ent on the first try reduces Giant Ent's droprate by 85% (0.2% → 0.03%)"
     ],
@@ -1838,7 +1838,7 @@
       "Spirit Beast"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.025,
     "required_by": [
       "Vest of Cyclone",
@@ -1879,7 +1879,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.5,
     "required_by": [
       "Laksha, the Reigning Sword of Poison",
@@ -1894,7 +1894,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.5,
     "required_by": [
       "Fruit Candy Pouch",
@@ -2282,7 +2282,7 @@
       "Count Wallachia"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.1,
     "required_by": [
       "Tepethia, the Bloodsword of Domination",
@@ -2302,7 +2302,7 @@
       "Count Wallachia"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.1,
     "required_by": [
       "Bahanar, the Sword of Illusion",
@@ -2322,7 +2322,7 @@
       "Count Wallachia"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.05,
     "required_by": [
       "Bloody Hatred",
@@ -2341,7 +2341,7 @@
       "Mage Lord"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": [
       0.05,
       0.06,
@@ -2520,7 +2520,7 @@
       "Magical Ore Deposit (Jack-o-Lantern)"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 1.0,
     "required_by": [
       "Glasses",
@@ -2689,7 +2689,7 @@
       "Wings of Death"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.09,
     "required_by": [
       "True Dragonsword Lainhart",
@@ -2708,7 +2708,7 @@
       "Wings of Death"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.09,
     "required_by": [
       "Spirit Dagger",
@@ -2726,7 +2726,7 @@
       "Wings of Death"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.09,
     "required_by": [
       "Leoreus, the Greatsword of Explosion",
@@ -2985,8 +2985,8 @@
     "dropped_by": [
       "Magical Ore Deposit (Mage Lord)"
     ],
-    "type": "[Material]",
-    "color": 14596231,
+    "type": "[Token]",
+    "color": 565376,
     "droprate": 0.02,
     "required_by": [
       "Rainbow Crystal Golem Token"
@@ -2999,7 +2999,7 @@
       "Magical Ore Deposit (Mage Lord)"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 1.0,
     "required_by": [
       "Glasses",
@@ -3199,7 +3199,7 @@
       "Guardian Angel"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.03,
     "required_by": [
       "Staff of Void",
@@ -3220,7 +3220,7 @@
       "Guardian Angel"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.03,
     "required_by": [
       "Karonphniamm, the True Holy Sword",
@@ -3244,7 +3244,7 @@
       "Archangel Samael"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "notes": [
       "Archangel Samael: Droprate per player after 6 players 5%"
     ],
@@ -3374,7 +3374,7 @@
       "Corrupt Angel"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.08,
     "required_by": [
       "Staff of Void",
@@ -3395,7 +3395,7 @@
       "Corrupt Angel"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.08,
     "required_by": [
       "Staff of Madness",
@@ -3530,7 +3530,7 @@
       "Lord of Everfrost"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.075,
     "required_by": [
       "Icicle Storm",
@@ -3653,7 +3653,7 @@
       "Spider Queen Ilshenar"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.075,
     "required_by": [
       "Twin Snow",
@@ -3831,7 +3831,7 @@
       "Magical Ore Deposit (Frostspider Lord)"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 1.0,
     "required_by": [
       "Glasses",
@@ -3999,7 +3999,7 @@
       "Demon Lord Beriel"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.06,
     "required_by": [
       "Anger",
@@ -4064,7 +4064,7 @@
       "Remnant of Darkness"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.06,
     "required_by": [
       "Abyssal Pickaxe",
@@ -4925,7 +4925,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.03,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
@@ -4949,7 +4949,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.03,
     "required_by": [
       "Hydro Buster",
@@ -5117,7 +5117,7 @@
       "Flame Nightmare"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.03,
     "required_by": [
       "Laksha, the Ancient Sword of Poison",
@@ -5142,7 +5142,7 @@
       "Shard of Anger"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": [
       0.02,
       0.012
@@ -5350,7 +5350,7 @@
       "Turtle Lord"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.03,
     "required_by": [
       "Deathbringer",
@@ -5374,7 +5374,7 @@
       "Turtle Lord"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.03,
     "required_by": [
       "Storm Reaver",
@@ -5397,7 +5397,7 @@
       "Shard of Mana"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": [
       0.02,
       0.012
@@ -5608,7 +5608,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "notes": [
       "Droprate per player after 6 players 2.5%"
     ],
@@ -5636,7 +5636,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "notes": [
       "Droprate per player after 6 players 2.5%"
     ],
@@ -5666,7 +5666,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "notes": [
       "Droprate per player after 6 players 2.5%"
     ],
@@ -5692,7 +5692,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "notes": [
       "Droprate per player after 6 players 2.5%"
     ],
@@ -5820,7 +5820,7 @@
       "Zombie Lord"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.0075,
     "required_by": [
       "Crimson Reaper",
@@ -5843,7 +5843,7 @@
       "Zombie Lord"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.0075,
     "required_by": [
       "Bloody Hatred",
@@ -5867,7 +5867,7 @@
       "Zombie Lord"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.0075,
     "required_by": [
       "Oceanus, the Sword of Light",
@@ -5935,7 +5935,7 @@
       "Giant Ent"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "notes": [
       "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.20% → 0.04%, 0.02% → 0.004)"
     ],
@@ -5972,7 +5972,7 @@
       "Giant Ent"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "notes": [
       "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.20% → 0.04%, 0.02% → 0.004)"
     ],
@@ -6171,7 +6171,7 @@
       "Shadow Dragon Irbert"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "notes": [
       "9 players: Drop rate + 10%",
       "10 players: Drop rate + 20%"
@@ -6198,7 +6198,7 @@
       "Shadow Dragon Irbert"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "notes": [
       "9 players: Drop rate + 10%",
       "10 players: Drop rate + 20%"
@@ -6226,7 +6226,7 @@
       "Death Fiend"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "notes": [
       "Shadow Dragon Irbert - 9 players: Drop rate + 10%",
       "Shadow Dragon Irbert - 10 players: Drop rate + 20%"
@@ -6266,7 +6266,7 @@
       "Archangel Samael"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "notes": [
       "Droprate per player after 6 players 5%"
     ],
@@ -6290,7 +6290,7 @@
       "Archangel Samael"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "notes": [
       "Droprate per player after 6 players 5%"
     ],
@@ -6313,7 +6313,7 @@
       "Archangel Samael"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "notes": [
       "Droprate per player after 6 players 5%"
     ],
@@ -6484,7 +6484,7 @@
       "Death Fiend"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.006,
     "required_by": [
       "Staff of Plague",
@@ -6499,7 +6499,7 @@
       "Death Fiend"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.006,
     "required_by": [
       "Atricia, the Sword of Dreams",
@@ -6524,7 +6524,7 @@
       "Elemental of Chaos"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.075,
     "required_by": [
       "Tiny Essence of Storm",
@@ -6573,7 +6573,7 @@
       "Valtora"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.0075,
     "required_by": [
       "Horn of Lightning God",
@@ -6588,7 +6588,7 @@
       "Valtora"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.0075,
     "required_by": [
       "Atricia, the Sword of Dreams",
@@ -6605,7 +6605,7 @@
       "Ifrit"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.005,
     "required_by": [
       "Pheles, the Bow of God",
@@ -6649,7 +6649,7 @@
       "Ifrit"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.0075,
     "required_by": [
       "Eye of the Flame Lord",
@@ -6664,7 +6664,7 @@
       "Ifrit"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.0075,
     "required_by": [
       "Atricia, the Sword of Dreams",
@@ -6738,7 +6738,7 @@
       "Bone Dragon"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.01,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
@@ -6757,7 +6757,7 @@
       "Bone Dragon"
     ],
     "type": "[Material]",
-    "color": 14596231,
+    "color": 9267259,
     "droprate": 0.01,
     "required_by": [
       "Claws of Beriel",
@@ -6859,7 +6859,7 @@
     "name": "Tiny Essence of Storm",
     "type": "[Essence of Elemental]",
     "description": "Essence imbued with the spirit of storm.",
-    "color": 14596231,
+    "color": 9267259,
     "required_by": [
       "Key of Storm"
     ],
@@ -6879,7 +6879,7 @@
     "name": "Tiny Essence of Earth",
     "type": "[Essence of Elemental]",
     "description": "Essence imbued with the spirit of earth.",
-    "color": 14596231,
+    "color": 9267259,
     "required_by": [
       "Key of Earth"
     ],
@@ -6899,7 +6899,7 @@
     "name": "Tiny Essence of Sea",
     "type": "[Essence of Elemental]",
     "description": "An essence imbued with the power of sea.",
-    "color": 14596231,
+    "color": 9267259,
     "required_by": [
       "Key of Sea"
     ],
@@ -6919,7 +6919,7 @@
     "name": "Tiny Essence of Flame",
     "type": "[Essence of Elemental]",
     "description": "Essence imbued with the spirit of flame.",
-    "color": 14596231,
+    "color": 9267259,
     "required_by": [
       "Key of Flame"
     ],
@@ -6938,7 +6938,7 @@
     "name": "Tiny Essence of Light",
     "type": "[Essence of Elemental]",
     "description": "Essence imbued with the spirit of light.",
-    "color": 14596231,
+    "color": 9267259,
     "required_by": [
       "Key of Light"
     ],
@@ -6957,7 +6957,7 @@
     "name": "Tiny Essence of Chaos",
     "type": "[Essence of Elemental]",
     "description": "Essence imbued with the spirit of chaos.",
-    "color": 14596231,
+    "color": 9267259,
     "required_by": [
       "Key of Chaos"
     ],
@@ -6975,7 +6975,7 @@
     "name": "Key of Storm",
     "type": "[Misc]",
     "description": "Key that opens the pathway to the Room of Storm",
-    "color": 14596231,
+    "color": 9267259,
     "recipe": [
       { "Tiny Essence of Storm": 3 }
     ]
@@ -6984,7 +6984,7 @@
     "name": "Key of Flame",
     "type": "[Misc]",
     "description": "Key that opens the pathway to the Room of Flame",
-    "color": 14596231,
+    "color": 9267259,
     "recipe": [
       { "Tiny Essence of Flame": 3 }
     ]
@@ -7039,7 +7039,7 @@
   {
     "name": "Glasses",
     "type": "[Collectible]",
-    "color": 16777088,
+    "color": 12550399,
     "recipe": [
       { "Orichalcum": 1 },
       { "Mithril": 1 },
@@ -13335,7 +13335,7 @@
   {
     "name": "Wing Frame",
     "type": "[Frame]",
-    "color": 14596231,
+    "color": 9267259,
     "notes": [
       "General Recipe: Wing + Wing Frame"
     ],
