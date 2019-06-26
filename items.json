@@ -107,7 +107,7 @@
     "name": "Book of Death",
     "description": "Life is tiresome.. it shouldn't matter if I let it go a bit early..",
     "type": "[Misc]",
-    "color": 12517376,
+    "color": 14423100,
     "notes": [
       "Can be purchased for 500 gold by a sniper merchant near the Mine Cave entrance"
     ],
@@ -488,7 +488,7 @@
       "Mad Clown"
     ],
     "type": "[Ring]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 280,
     "droprate": [
       0.02,
@@ -1380,7 +1380,7 @@
       "Tentacle Lord"
     ],
     "type": "[Ring]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "droprate": 0.02,
     "required_by": [
@@ -1596,7 +1596,7 @@
       "Mana Ancient"
     ],
     "type": "[Armor]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 350,
     "droprate": 0.025,
     "required_by": [
@@ -1619,7 +1619,7 @@
       "Mana Ancient"
     ],
     "type": "[Armor]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 350,
     "droprate": 0.025,
     "required_by": [
@@ -1642,7 +1642,7 @@
       "Mana Ancient"
     ],
     "type": "[Robe]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 350,
     "droprate": 0.025,
     "required_by": [
@@ -1670,7 +1670,7 @@
       "Mana Ancient"
     ],
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 350,
     "droprate": 0.025,
     "required_by": [
@@ -1756,7 +1756,7 @@
       "Spirit Beast"
     ],
     "type": "[Weapon all classes]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -1786,7 +1786,7 @@
       "Spirit Beast"
     ],
     "type": "[Helm/Hood]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "droprate": 0.02,
     "required_by": [
@@ -1812,7 +1812,7 @@
       "Spirit Beast"
     ],
     "type": "[Greatsword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "droprate": 0.02,
     "required_by": [
@@ -2131,7 +2131,7 @@
       "Count Wallachia"
     ],
     "type": "[Longsword]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 250,
     "droprate": 0.075,
     "required_by": [
@@ -2153,7 +2153,7 @@
       "Count Wallachia"
     ],
     "type": "[Gun]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 260,
     "droprate": 0.075,
     "required_by": [
@@ -2260,7 +2260,7 @@
       "Count Wallachia"
     ],
     "type": "[Greatsword]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 250,
     "droprate": 0.075,
     "required_by": [
@@ -2389,7 +2389,7 @@
       "Jack-o-Lantern"
     ],
     "type": "[Helm]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 260,
     "droprate": 0.075,
     "required_by": [
@@ -2411,7 +2411,7 @@
       "Jack-o-Lantern"
     ],
     "type": "[Hood]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 260,
     "droprate": 0.075,
     "required_by": [
@@ -2432,7 +2432,7 @@
       "Jack-o-Lantern"
     ],
     "type": "[Weapon all classes]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 260,
     "droprate": 0.075,
     "required_by": [
@@ -2456,7 +2456,7 @@
       "Jack-o-Lantern"
     ],
     "type": "[Ring]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "droprate": 0.075,
     "required_by": [
@@ -2556,7 +2556,7 @@
       "Wings of Death"
     ],
     "type": "[Greatsword]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -2578,7 +2578,7 @@
       "Wings of Death"
     ],
     "type": "[Bow]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -2600,7 +2600,7 @@
       "Wings of Death"
     ],
     "type": "[Staff]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -2622,7 +2622,7 @@
       "Wings of Death"
     ],
     "type": "[Gun]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -2644,7 +2644,7 @@
       "Wings of Death"
     ],
     "type": "[Armor]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -2668,7 +2668,7 @@
       "Wings of Death"
     ],
     "type": "[Helm]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -2776,7 +2776,7 @@
       "Mage Lord (Sealed Weapon)"
     ],
     "type": "[Longsword]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 260,
     "required_by": [
       "Storm Reaver"
@@ -2797,7 +2797,7 @@
       "Mage Lord (Sealed Weapon)"
     ],
     "type": "[Greatsword]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 260,
     "required_by": [
       "Leoreus, the Greatsword of Explosion"
@@ -2818,7 +2818,7 @@
       "Mage Lord (Sealed Weapon)"
     ],
     "type": "[Staff]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 260,
     "required_by": [
       "Benziena, the Earthen Pillar"
@@ -2843,7 +2843,7 @@
       "Mage Lord (Sealed Weapon)"
     ],
     "type": "[Bow]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 260,
     "required_by": [
       "Pheles, the Bow of Skies"
@@ -2869,7 +2869,7 @@
       "Mage Lord (Sealed Weapon)"
     ],
     "type": "[Gun]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 300,
     "required_by": [
       "Retus, the Bullet of Judgment"
@@ -2890,7 +2890,7 @@
       "Mage Lord"
     ],
     "type": "[Robe]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -2913,7 +2913,7 @@
       "Mage Lord"
     ],
     "type": "[Hood]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -2937,7 +2937,7 @@
       "Mage Lord"
     ],
     "type": "[Ring]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 300,
     "droprate": 0.04,
     "required_by": [
@@ -3031,7 +3031,7 @@
       "Guardian Spirit, Avalon's Gatekeeper"
     ],
     "type": "[Ring]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 340,
     "droprate": 0.04,
     "required_by": [
@@ -3085,7 +3085,7 @@
       "Guardian Angel"
     ],
     "type": "[Greatsword]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 260,
     "droprate": 0.025,
     "required_by": [
@@ -3108,7 +3108,7 @@
       "Guardian Angel"
     ],
     "type": "[Staff]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 260,
     "droprate": 0.025,
     "required_by": [
@@ -3131,7 +3131,7 @@
       "Guardian Angel"
     ],
     "type": "[Gun]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 260,
     "droprate": 0.025,
     "required_by": [
@@ -3153,7 +3153,7 @@
       "Guardian Angel"
     ],
     "type": "[Armor]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 260,
     "droprate": 0.025,
     "required_by": [
@@ -3177,7 +3177,7 @@
       "Guardian Angel"
     ],
     "type": "[Helm]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 260,
     "droprate": 0.025,
     "required_by": [
@@ -3283,7 +3283,7 @@
       "Corrupt Angel"
     ],
     "type": "[Helm]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 260,
     "droprate": 0.08,
     "required_by": [
@@ -3304,7 +3304,7 @@
       "Corrupt Angel"
     ],
     "type": "[Longsword]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 260,
     "droprate": 0.08,
     "required_by": [
@@ -3327,7 +3327,7 @@
       "Corrupt Angel"
     ],
     "type": "[Armor]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 260,
     "droprate": 0.08,
     "required_by": [
@@ -3352,7 +3352,7 @@
       "Corrupt Angel"
     ],
     "type": "[Bow]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 260,
     "droprate": 0.08,
     "required_by": [
@@ -3432,7 +3432,7 @@
       "Lord of Everfrost"
     ],
     "type": "[Robe]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "droprate": 0.06,
     "required_by": [
@@ -3456,7 +3456,7 @@
       "Lord of Everfrost"
     ],
     "type": "[Helm]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "droprate": 0.06,
     "required_by": [
@@ -3480,7 +3480,7 @@
       "Lord of Everfrost"
     ],
     "type": "[Hood]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "droprate": 0.06,
     "required_by": [
@@ -3503,7 +3503,7 @@
       "Lord of Everfrost"
     ],
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 320,
     "droprate": 0.08,
     "required_by": [
@@ -3562,7 +3562,7 @@
       "Spider Queen Ilshenar"
     ],
     "type": "[Greatsword]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "droprate": 0.06,
     "required_by": [
@@ -3585,7 +3585,7 @@
       "Spider Queen Ilshenar"
     ],
     "type": "[Bow]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "droprate": 0.06,
     "required_by": [
@@ -3608,7 +3608,7 @@
       "Spider Queen Ilshenar"
     ],
     "type": "[Gun]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "droprate": 0.06,
     "required_by": [
@@ -3629,7 +3629,7 @@
       "Spider Queen Ilshenar"
     ],
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 320,
     "droprate": 0.08,
     "required_by": [
@@ -3688,7 +3688,7 @@
       "Frostspider Lord"
     ],
     "type": "[Bastard Sword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 350,
     "droprate": 0.025,
     "required_by": [
@@ -3713,7 +3713,7 @@
       "Frostspider Lord"
     ],
     "type": "[Bow]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 350,
     "droprate": 0.025,
     "required_by": [
@@ -3743,7 +3743,7 @@
       "Frostspider Lord"
     ],
     "type": "[Greatsword]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 320,
     "droprate": 0.05,
     "required_by": [
@@ -3767,7 +3767,7 @@
       "Frostspider Lord"
     ],
     "type": "[Staff]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 320,
     "droprate": 0.05,
     "required_by": [
@@ -3867,7 +3867,7 @@
       "Demon Lord Beriel"
     ],
     "type": "[Bastard Sword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 340,
     "droprate": 0.0175,
     "required_by": [
@@ -3895,7 +3895,7 @@
       "Demon Lord Beriel"
     ],
     "type": "[Gun]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "droprate": 0.0175,
     "required_by": [
@@ -3922,7 +3922,7 @@
       "Demon Lord Beriel"
     ],
     "type": "[Helm]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "droprate": 0.03,
     "required_by": [
@@ -3948,7 +3948,7 @@
       "Demon Lord Beriel"
     ],
     "type": "[Hood]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "droprate": 0.03,
     "required_by": [
@@ -3977,7 +3977,7 @@
       "Demon Lord Beriel"
     ],
     "type": "[Wings]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "droprate": 0.025,
     "required_by": [
@@ -4372,7 +4372,7 @@
       "Evil Lava Spawn"
     ],
     "type": "[Helm/Hood]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -4395,7 +4395,7 @@
       "Evil Lava Spawn"
     ],
     "type": "[Ring]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -4419,7 +4419,7 @@
       "Evil Lava Spawn"
     ],
     "type": "[Gun]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -4440,7 +4440,7 @@
       "Evil Lava Spawn"
     ],
     "type": "[Ring]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -4465,7 +4465,7 @@
       "Evil Lava Spawn"
     ],
     "type": "[Greatsword]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -4488,7 +4488,7 @@
       "Blood Wraith"
     ],
     "type": "[Bastard Sword]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "droprate": 0.125,
     "required_by": [
@@ -4517,7 +4517,7 @@
       "Blood Wraith"
     ],
     "type": "[Bow]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "droprate": 0.125,
     "required_by": [
@@ -4546,7 +4546,7 @@
       "Wallachia Monstrosity"
     ],
     "type": "[Weapon all classes]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "droprate": 0.1,
     "required_by": [
@@ -4575,7 +4575,7 @@
       "Blood Wraith"
     ],
     "type": "[Armor/Robe]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "droprate": 0.125,
     "required_by": [
@@ -4604,7 +4604,7 @@
       "Wallachia Monstrosity"
     ],
     "type": "[Ring]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "droprate": 0.1,
     "required_by": [
@@ -4632,7 +4632,7 @@
       "Wallachia Monstrosity"
     ],
     "type": "[Helm/Hood]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "droprate": 0.1,
     "required_by": [
@@ -4658,7 +4658,7 @@
       "Wallachia Monstrosity"
     ],
     "type": "[Gun]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "droprate": 0.125,
     "required_by": [
@@ -4677,7 +4677,7 @@
       "Wallachia Monstrosity"
     ],
     "type": "[Armor]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "droprate": 0.125,
     "required_by": [
@@ -4703,7 +4703,7 @@
       "Wallachia Monstrosity"
     ],
     "type": "[Wings]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "droprate": 0.125,
     "required_by": [
@@ -4728,7 +4728,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Greatsword]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -4753,7 +4753,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Bow]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -4783,7 +4783,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Longsword]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -4812,7 +4812,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Gun]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -4838,7 +4838,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -4866,7 +4866,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -4901,7 +4901,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Staff]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "droprate": 0.015,
     "required_by": [
@@ -4979,7 +4979,7 @@
       "Flame Nightmare"
     ],
     "type": "[Staff]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5009,7 +5009,7 @@
       "Flame Nightmare"
     ],
     "type": "[Armor]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5036,7 +5036,7 @@
       "Flame Nightmare"
     ],
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5063,7 +5063,7 @@
       "Flame Nightmare"
     ],
     "type": "[Gun]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5091,7 +5091,7 @@
       "Flame Nightmare"
     ],
     "type": "[Helm/Hood]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "droprate": 0.015,
     "required_by": [
@@ -5204,7 +5204,7 @@
       "Turtle Lord"
     ],
     "type": "[Gun]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5235,7 +5235,7 @@
       "Turtle Lord"
     ],
     "type": "[Armor]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5260,7 +5260,7 @@
       "Turtle Lord"
     ],
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5290,7 +5290,7 @@
       "Turtle Lord"
     ],
     "type": "[Helm]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5319,7 +5319,7 @@
       "Turtle Lord"
     ],
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "droprate": 0.015,
     "required_by": [
@@ -5456,7 +5456,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Bastard Sword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "notes": [
       "Droprate per player after 6 players 2.5%"
@@ -5489,7 +5489,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Staff]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "notes": [
       "Droprate per player after 6 players 2.5%"
@@ -5519,7 +5519,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Robe]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "notes": [
       "Droprate per player after 6 players 2.5%"
@@ -5547,7 +5547,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "notes": [
       "Droprate per player after 6 players 2.5%"
@@ -5575,7 +5575,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "notes": [
       "Droprate per player after 6 players 2.5%"
@@ -5730,7 +5730,7 @@
       "Zombie Lord"
     ],
     "type": "[Staff]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 370,
     "droprate": 0.0125,
     "required_by": [
@@ -5764,7 +5764,7 @@
       "Zombie Lord"
     ],
     "type": "[Helm/Hood]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.0125,
     "required_by": [
@@ -5791,7 +5791,7 @@
       "Zombie Lord"
     ],
     "type": "[Wings]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "droprate": 0.0075,
     "required_by": [
@@ -5902,7 +5902,7 @@
       "Ancient Ent"
     ],
     "type": "[Wings]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "droprate": 0.0075,
     "required_by": [
@@ -6012,7 +6012,7 @@
       "Elder Ent"
     ],
     "type": "[Greatsword]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 380,
     "notes": [
       "Elder Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%)"
@@ -6044,7 +6044,7 @@
       "Elder Ent"
     ],
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 380,
     "notes": [
       "Elder Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%)"
@@ -6083,7 +6083,7 @@
       "Shadow Dragon Irbert"
     ],
     "type": "[Bastard Sword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "notes": [
       "9 players: Drop rate + 10%",
@@ -6109,7 +6109,7 @@
       "Shadow Dragon Irbert"
     ],
     "type": "[Armor/Robe]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 370,
     "notes": [
       "9 players: Drop rate + 10%",
@@ -6141,7 +6141,7 @@
       "Shadow Dragon Irbert"
     ],
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 370,
     "notes": [
       "9 players: Drop rate + 10%",
@@ -6340,7 +6340,7 @@
     "notes": [
       "Droprate per player after 6 players 5%"
     ],
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "droprate": 0.006,
     "required_by": [
@@ -6387,7 +6387,7 @@
       "Death Fiend"
     ],
     "type": "[Weapon non-bow/gun classes]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "droprate": 0.002,
     "stats": {
@@ -6436,7 +6436,7 @@
       "Death Fiend"
     ],
     "type": "[Hood]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 380,
     "droprate": 0.01,
     "required_by": [
@@ -6462,7 +6462,7 @@
       "Death Fiend"
     ],
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "droprate": 0.01,
     "required_by": [
@@ -6543,7 +6543,7 @@
       "Valtora"
     ],
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "droprate": 0.005,
     "required_by": [
@@ -6621,7 +6621,7 @@
     ],
     "type": "[Ring]",
     "description": "I'm about to EXPLODE!!!!!!!!!!!!!!!!!!!",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "droprate": 0.005,
     "required_by": [
@@ -6683,7 +6683,7 @@
       "Bone Dragon"
     ],
     "type": "[Weapon all classes]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "droprate": 0.0066,
     "required_by": [
@@ -6709,7 +6709,7 @@
       "Bone Dragon"
     ],
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "droprate": 0.0066,
     "required_by": [
@@ -6846,7 +6846,7 @@
   {
     "name": "Holy Powder",
     "type": "[Powder]",
-    "color": 12566272,
+    "color": 10092441,
     "required_by": [
       "Tiny Essence of Light"
     ],
@@ -7167,7 +7167,7 @@
     "name": "Bag of Mighty Strength",
     "description": "Pretty heavy bag",
     "type": "[Bag]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "required_by": [
       "Bag of Mighty Strength +1"
@@ -7192,7 +7192,7 @@
     "name": "Bag of Mighty Strength +1",
     "description": "Very heavy bag",
     "type": "[Bag]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 320,
     "required_by": [
       "Bag of Hell"
@@ -7218,7 +7218,7 @@
     "name": "Bag of Hell",
     "description": "So.. heavy...",
     "type": "[Bag]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "required_by": [
       "Bag of Corruption"
@@ -7244,7 +7244,7 @@
     "name": "Bag of Corruption",
     "description": "Help.. me..",
     "type": "[Bag]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "required_by": [
       "Bag of Destruction"
@@ -7272,7 +7272,7 @@
     "name": "Bag of Destruction",
     "description": "He.. lp.. so... hea.. vy..",
     "type": "[Bag]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Bag of Corruption": 1 },
@@ -7358,7 +7358,7 @@
     "name": "Candy-filled Bag",
     "description": "Pretty light bag",
     "type": "[Bag]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "required_by": [
       "Candy-filled Bag +1"
@@ -7383,7 +7383,7 @@
     "name": "Candy-filled Bag +1",
     "description": "Very light bag",
     "type": "[Bag]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 320,
     "required_by": [
       "Bag of Heaven"
@@ -7409,7 +7409,7 @@
     "name": "Bag of Heaven",
     "description": "Bag filled with happiness",
     "type": "[Bag]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "required_by": [
       "Bag of Life"
@@ -7436,7 +7436,7 @@
     "name": "Bag of Life",
     "description": "Bag filled with life",
     "type": "[Bag]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "required_by": [
       "Bag of Mother Nature"
@@ -7464,7 +7464,7 @@
     "name": "Bag of Mother Nature",
     "description": "Bag imbued with the essence of mother nature",
     "type": "[Bag]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Bag of Life": 1 },
@@ -7830,7 +7830,7 @@
     "name": "True Dragonsword Lainhart",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Greatsword]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 300,
     "recipe": [
       { "Dragonsword Lainhart": 1 },
@@ -7855,7 +7855,7 @@
     "name": "True Dragonstaff Irave",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Staff]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 360,
     "recipe": [
       { "Dragonstaff Irave": 1 },
@@ -7881,7 +7881,7 @@
     "name": "True Dragonbow Aience",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Bow]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 300,
     "recipe": [
       { "Dragonbow Aience": 1 },
@@ -7904,7 +7904,7 @@
     "name": "True Dragon Cannon Belenus",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Gun]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 300,
     "recipe": [
       { "Dragon Cannon Belenus": 1 },
@@ -7928,7 +7928,7 @@
     "name": "Parasitic Sword",
     "description": "Wiggle wiggle..",
     "type": "[Bastard Sword]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "recipe": [
       { "Shell Sword": 1 },
@@ -7952,7 +7952,7 @@
     "name": "Staff of Tentacles",
     "description": "Wiggle.. wiggle?",
     "type": "[Staff]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "recipe": [
       { "Staff of Deep Sea": 1 },
@@ -7998,7 +7998,7 @@
     "name": "Laksha, the Reigning Sword of Poison",
     "description": "Sword fully imbued with Hydra's poison",
     "type": "[Longsword]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 260,
     "recipe": [
       { "Sword of Lethal Poison": 1 },
@@ -8020,7 +8020,7 @@
     "name": "Staff of Void",
     "description": "Bow blessed by the wind. It guides arrows toward target's weak spots.",
     "type": "[Staff]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 260,
     "recipe": [
       { "Staff of Tentacles": 1 },
@@ -8047,7 +8047,7 @@
     "name": "Maw of Monster",
     "description": "Right hand that eats up everything in its path",
     "type": "[Bastard Sword]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 260,
     "required_by": [
       "Maw of Greed"
@@ -8073,7 +8073,7 @@
     "name": "Tepethia, the Bloodsword of Domination",
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Longsword]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 300,
     "recipe": [
       { "Bloodsword Tepethia": 1 },
@@ -8096,7 +8096,7 @@
     "name": "Sanguiel, the Bloodspear of Domination",
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Greatsword]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 300,
     "recipe": [
       { "Sanguiel, the Bloodspear": 1 },
@@ -8120,7 +8120,7 @@
     "name": "Staff of Madness",
     "description": "The madness of Mad Clown runs deep within this staff",
     "type": "[Staff]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 300,
     "recipe": [
       { "Staff of Void": 1 },
@@ -8149,7 +8149,7 @@
   {
     "name": "Monster Blaster",
     "type": "[Gun]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 300,
     "recipe": [
       { "Monster Hunter": 1 },
@@ -8173,7 +8173,7 @@
     "name": "True Blood Cannon Tepes",
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Gun]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 300,
     "recipe": [
       { "Blood Cannon Tepes": 1 },
@@ -8198,7 +8198,7 @@
     "name": "Leoreus, the Greatsword of Explosion",
     "description": "One slain by this sword won't even leave ashes behind.",
     "type": "[Greatsword]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 320,
     "recipe": [
       { "Leoreus, the Greatsword of Flame": 1 },
@@ -8224,7 +8224,7 @@
     "name": "Crimson Pumpkin Rod",
     "description": "\"Hehe heh heh heh\"",
     "type": "[Staff]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 320,
     "recipe": [
       { "Pumpkin Rod": 1 },
@@ -8256,7 +8256,7 @@
     "name": "Dragon Blaster",
     "description": "The weapon of choice for dragon-hunting",
     "type": "[Gun]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 320,
     "recipe": [
       { "Monster Blaster": 1 },
@@ -8286,7 +8286,7 @@
     "name": "Red Cross",
     "description": "Do not forget the past written by blood.",
     "type": "[Gun]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 320,
     "recipe": [
       { "True Blood Cannon Tepes": 1 },
@@ -8317,7 +8317,7 @@
     "name": "Eximelia, the True Unholy Sword",
     "description": "Immerse yourself in battle and war !! Walk the path of destruction !!",
     "type": "[Longsword]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 260,
     "recipe": [
       { "Eximelia, the Unholy Sword": 1 },
@@ -8342,7 +8342,7 @@
     "name": "Tepethia, the Crimson Sword of Requiem",
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Longsword]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "recipe": [
       { "Tepethia, the Bloodsword of Domination": 1 },
@@ -8370,7 +8370,7 @@
     "name": "Storm Reaver",
     "description": "The Omen of Storm - Dagger that brings destruction",
     "type": "[Longsword]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "recipe": [
       { "Irbeth, the Sword of Lightning": 1 },
@@ -8395,7 +8395,7 @@
     "name": "Karonphniamm, the True Holy Sword",
     "description": "Blessing to the weak; judgment to the evil.",
     "type": "[Greatsword]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 260,
     "recipe": [
       { "Karonphniamm, the Holy Sword": 1 },
@@ -8422,7 +8422,7 @@
     "name": "Bahanar, the Sword of Illusion",
     "description": "An unstable sword that does not have a fixed shape.",
     "type": "[Greatsword]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "recipe": [
       { "Blade of Requiem": 1 },
@@ -8453,7 +8453,7 @@
     "name": "Flame Soul",
     "description": "Its intense heat brings out your inner strength",
     "type": "[Greatsword]",
-    "color": 12517567,
+    "color": 13047173,
     "notes": [
       "Currently gives 1675 STR but the description states 1475 STR"
     ],
@@ -8484,7 +8484,7 @@
     "name": "Sanguiel, the Bloodspear of Requiem",
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Greatsword]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "recipe": [
       { "Sanguiel, the Bloodspear of Domination": 1 },
@@ -8512,7 +8512,7 @@
     "name": "Klenetia, the True Holy Staff",
     "description": "Blessing to the weak; judgment to the evil.",
     "type": "[Staff]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 260,
     "recipe": [
       { "Klenetia, the Holy Staff": 1 },
@@ -8538,7 +8538,7 @@
     "name": "Benziena, the Earthen Pillar",
     "description": "Beyond the cruel face of Mother Nature, lies a warm face that embraces all.",
     "type": "[Staff]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "recipe": [
       { "Benziena, the Rod of Earth": 1 },
@@ -8572,7 +8572,7 @@
     "name": "Icicle Storm",
     "description": "Magical bow that brews a storm of icicles",
     "type": "[Bow]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "recipe": [
       { "Okelanq, the Bow of Frost": 1 },
@@ -8597,7 +8597,7 @@
     "name": "Alkate, the True Unholy Bow",
     "description": "Leave none alive !! Pierce their hearts !!",
     "type": "[Bow]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 260,
     "recipe": [
       { "Alkate, the Unholy Bow": 1 },
@@ -8622,7 +8622,7 @@
     "name": "Eana, the True Holy Cannon",
     "description": "Blessing to the weak; judgment to the evil.",
     "type": "[Gun]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 260,
     "recipe": [
       { "Eana, the Holy Cannon": 1 },
@@ -8649,7 +8649,7 @@
     "name": "Retus, the Bullet of Judgment",
     "description": "Your sin cannot be washed away.",
     "type": "[Gun]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "recipe": [
       { "Retus, the Iron Bullet": 1 },
@@ -8674,7 +8674,7 @@
     "name": "Spirit Dagger",
     "description": "Weapon imbued with an ancient spirit",
     "type": "[Weapon all classes]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Spiritus, the Sword of Elements": 1 },
@@ -8705,7 +8705,7 @@
     "name": "Laksha, the Ancient Sword of Poison",
     "description": "Break free from the binds of poison, and subjugate it to make it yours ..",
     "type": "[Longsword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Laksha, the Reigning Sword of Poison": 1 },
@@ -8736,7 +8736,7 @@
     "name": "Asmodeus, the Archdevil's Greatsword",
     "description": "The only truth is your strength.",
     "type": "[Bastard Sword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Karonphniamm, the True Holy Sword": 1, "Eximelia, the True Unholy Sword": 1 },
@@ -8764,7 +8764,7 @@
     "name": "Bahanar, the True Sword of Illusion",
     "description": "Strange magical sword that resonates and grows stronger as the user grows",
     "type": "[Greatsword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Bahanar, the Sword of Illusion": 1 },
@@ -8795,7 +8795,7 @@
     "name": "Deathbringer",
     "description": "Sword that attracts death",
     "type": "[Greatsword]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "recipe": [
       { "Niflheim": 1 },
@@ -8830,7 +8830,7 @@
     "name": "Anger",
     "description": "Let it go, if you can no longer control it.",
     "type": "[Greatsword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Corruptor": 1 },
@@ -8855,7 +8855,7 @@
     "name": "Aglaia, the Spear of Heavenly Flows",
     "description": "When the heavenly flows pass through you, you shall become flawless",
     "type": "[Greatsword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Okelanq, the Spear of Frost": 1 },
@@ -8883,7 +8883,7 @@
     "name": "Belius, the Archdevil's Staff",
     "description": "The only truth is your strength.",
     "type": "[Staff]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Klenetia, the True Holy Staff": 1 },
@@ -8910,7 +8910,7 @@
     "name": "Twin Snow",
     "description": "A beautiful yet deadly creation of ice.",
     "type": "[Staff]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Ripple Snow": 1 },
@@ -8948,7 +8948,7 @@
     "name": "Yggrect, the Archdevil's Bow",
     "description": "The only truth is your strength.",
     "type": "[Bow]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Alkate, the True Unholy Bow": 1 },
@@ -8975,7 +8975,7 @@
     "name": "Flame Explosion",
     "description": "\" Destruction is my only path!! \"",
     "type": "[Bow]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Crossbow of Requiem": 1 },
@@ -9006,7 +9006,7 @@
     "name": "Pheles, the Bow of Skies",
     "description": "Bow blessed by the wind. It guides arrows toward target's weak spots.",
     "type": "[Bow]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Pheles, the Bow of Wind": 1 },
@@ -9036,7 +9036,7 @@
     "name": "Alchatratz, the Archdevil's Cannon",
     "description": "The only truth is your strength.",
     "type": "[Gun]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Eana, the True Holy Cannon": 1 },
@@ -9063,7 +9063,7 @@
     "name": "Dragon Buster",
     "description": "Cannon specialized for hunting dragons",
     "type": "[Gun]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "required_by": [
       "Hydro Buster"
@@ -9091,7 +9091,7 @@
     "name": "Hydro Buster",
     "description": "CANNON BLASTAAaaaaaa",
     "type": "[Gun]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Dragon Buster": 1 },
@@ -9125,7 +9125,7 @@
     "name": "Devil Blaster",
     "description": "Be gone, evil !",
     "type": "[Gun]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "recipe": [
       { "Dragon Blaster": 1 },
@@ -9155,7 +9155,7 @@
     "name": "Bullet of Ruin",
     "description": "Your end is nigh !",
     "type": "[Gun]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Retus, the Bullet of Judgment": 1 },
@@ -9182,7 +9182,7 @@
     "name": "Crimson Cross",
     "description": "Shed your blood for the sake of present.",
     "type": "[Gun]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Red Cross": 1 },
@@ -9219,7 +9219,7 @@
     "name": "Claws of Beriel",
     "description": "Claws of the Demon Lord, capable of even slicing through dimensions",
     "type": "[Bastard Sword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "recipe": [
       { "Claws of Destruction": 1 },
@@ -9243,7 +9243,7 @@
     "name": "Espishu, the Sword of Eternity",
     "description": "The only truth is your strength.",
     "type": "[Bastard Sword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "recipe": [
       { "Asmodeus, the Archdevil's Greatsword": 1 },
@@ -9267,7 +9267,7 @@
     "name": "Blazing Soul",
     "description": "My inner power is burning up !!",
     "type": "[Greatsword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Flame Soul": 1 },
@@ -9300,7 +9300,7 @@
     "name": "Ethenos, the Staff of Space",
     "description": "The only truth is your strength.",
     "type": "[Staff]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "recipe": [
       { "Belius, the Archdevil's Staff": 1 },
@@ -9324,7 +9324,7 @@
     "name": "Griveddon, the Bow of Certain Destruction",
     "description": "The only truth is your strength.",
     "type": "[Bow]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "recipe": [
       { "Yggrect, the Archdevil's Bow": 1 },
@@ -9348,7 +9348,7 @@
     "name": "Chronos, the Cannon of Time",
     "description": "The only truth is your strength.",
     "type": "[Gun]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "recipe": [
       { "Alchatratz, the Archdevil's Cannon": 1 },
@@ -9372,7 +9372,7 @@
     "name": "Devil Chaser",
     "description": "Muzzle of judgment that no evil can escape from",
     "type": "[Gun]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "recipe": [
       { "Devil Blaster": 1 },
@@ -9402,7 +9402,7 @@
     "name": "Dante's Inferno",
     "description": "Abandon all hope.",
     "type": "[Gun]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "recipe": [
       { "Bullet of Ruin": 1 },
@@ -9430,7 +9430,7 @@
     "name": "Laktrisha, the Illusional Sword of Poison",
     "description": "I shall deliver you a marvelous death ..",
     "type": "[Longsword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Laksha, the Ancient Sword of Poison": 1 },
@@ -9466,7 +9466,7 @@
     "name": "Crimson Reaper",
     "description": "My sword thirsts for your blood !",
     "type": "[Longsword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Tepethia, the Crimson Sword of Requiem": 1 },
@@ -9495,7 +9495,7 @@
     "name": "Oceanus, the Sword of Light",
     "description": "An artifact with a legends that the user's body becomes like the light itself",
     "type": "[Bastard Sword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Griseus, the Sword of Protection": 1 },
@@ -9529,7 +9529,7 @@
     "name": "Winter's Heart",
     "description": "Reign over cold seasons, and become the winter of the world yourself !",
     "type": "[Greatsword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Winter's Tear": 1 },
@@ -9567,7 +9567,7 @@
     "name": "Meacronacer, the Sword of Thousand Illusions",
     "description": "A sword unreached by the light, engulfed with the Spirit of Abyss.",
     "type": "[Greatsword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Bahanar, the True Sword of Illusion": 1 },
@@ -9600,7 +9600,7 @@
     "name": "Tiberius, the Spear of Lightning",
     "description": "A weapon that is the symbol of deity's power and status.",
     "type": "[Greatsword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Sanguiel, the Bloodspear of Requiem": 1 },
@@ -9636,7 +9636,7 @@
     "name": "Blazing Heart",
     "description": "The everlasting, unwavering flame.",
     "type": "[Greatsword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Blazing Soul": 1 },
@@ -9669,7 +9669,7 @@
     "name": "Ruinbringer",
     "description": "Sword that calls forth ruin",
     "type": "[Greatsword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Deathbringer": 1 },
@@ -9704,7 +9704,7 @@
     "name": "Benziena, the Earthen Soul",
     "description": "Attain true knowledge by embracing the great Mother Nature",
     "type": "[Staff]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Benziena, the Earthen Pillar": 1 },
@@ -9735,7 +9735,7 @@
     "name": "Bloody Hatred",
     "description": "Hatred is what drives and excites me !",
     "type": "[Staff]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Hatred": 1 },
@@ -9768,7 +9768,7 @@
     "name": "Staff of Abyss",
     "description": "Staff drenched in the madness of the abyss",
     "type": "[Staff]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Staff of Madness": 1 },
@@ -9796,7 +9796,7 @@
     "name": "Staff of Domination",
     "description": "A desire rises within me to dominate everything !",
     "type": "[Staff]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Benziena, the Earthen Pillar": 1 },
@@ -9823,7 +9823,7 @@
     "name": "Hell Riser",
     "description": "Is it hope that flickers in front of those eyes? Or is it despair?",
     "type": "[Staff]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Staff of Souls": 1 },
@@ -9848,7 +9848,7 @@
     "name": "Triple Snow",
     "description": "Cold, beautiful yet deadly creation of ice",
     "type": "[Staff]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Twin Snow": 1 },
@@ -9879,7 +9879,7 @@
     "name": "Heartseeker",
     "description": "It wiggles toward the enemy's heart",
     "type": "[Bow]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Stalker": 1 },
@@ -9912,7 +9912,7 @@
     "name": "Soulstalker",
     "description": "My arrow shall hunt you down to the end of the Hell !",
     "type": "[Bow]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Stalker": 1 },
@@ -9940,7 +9940,7 @@
     "name": "Hellflame",
     "description": "\" I will burn your soul away as well !! \"",
     "type": "[Bow]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Flame Explosion": 1 },
@@ -9970,7 +9970,7 @@
     "name": "Everfrostbane",
     "description": "One with a pure soul, the cold spirits of everfrost shall assist you",
     "type": "[Bow]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Frostbane": 1 },
@@ -10001,7 +10001,7 @@
     "name": "Crimson Star",
     "description": "That blood shall become the soil for the future.",
     "type": "[Gun]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "required_by": [
       "Cosmic Star"
@@ -10035,7 +10035,7 @@
   {
     "name": "Atricia, the Sword of Dreams",
     "type": "[Longsword]",
-    "color": 12566272,
+    "color": 10092441,
     "level": 400,
     "recipe": [
       { "Laktrisha, the Illusional Sword of Poison": 1 },
@@ -10064,7 +10064,7 @@
     "name": "Staff of Plague",
     "description": "\" You shall not escape the hands of plague ..\"",
     "type": "[Staff]",
-    "color": 12566272,
+    "color": 10092441,
     "level": 400,
     "recipe": [
       { "Staff of Contagion": 1 },
@@ -10092,7 +10092,7 @@
   {
     "name": "Crimson Hatred",
     "type": "[Staff]",
-    "color": 12566272,
+    "color": 10092441,
     "level": 400,
     "recipe": [
       { "Bloody Hatred": 1 },
@@ -10119,7 +10119,7 @@
     "name": "Pheles, the Bow of God",
     "description": "A bow blessed by the God of Wind. It allows you to launch a rapid barrage of arrows.",
     "type": "[Bow]",
-    "color": 12566272,
+    "color": 10092441,
     "level": 400,
     "recipe": [
       { "Pheles, the Bow of Skies": 1 },
@@ -10148,7 +10148,7 @@
     "name": "Death Visage",
     "description": "Death is always nearby ..",
     "type": "[Helm]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 240,
     "recipe": [
       { "Jack Pumpkin Helm +1": 1 },
@@ -10174,7 +10174,7 @@
     "name": "Jack Pumpkin Helm +1",
     "description": "Enjoy the Halloween ~",
     "type": "[Helm]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 260,
     "recipe": [
       { "Jack Pumpkin Helm": 1 },
@@ -10195,7 +10195,7 @@
     "name": "Jack Pumpkin Hood +1",
     "description": "Enjoy the Halloween ~",
     "type": "[Hood]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 260,
     "recipe": [
       { "Jack Pumpkin Hood": 1 },
@@ -10215,7 +10215,7 @@
     "name": "Grim Visage",
     "description": "The face of death itself.",
     "type": "[Helm]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 280,
     "recipe": [
       { "Death Visage": 1 },
@@ -10242,7 +10242,7 @@
     "name": "Hood of Reaper",
     "description": "Death is always nearby ..",
     "type": "[Hood]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 280,
     "recipe": [
       { "Jack Pumpkin Hood +1": 1 },
@@ -10266,7 +10266,7 @@
     "name": "True Dragon Helm Agron",
     "description": "Using magic to defy me, the aspect of magic? Ironic, don't you think so?",
     "type": "[Helm]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 380,
     "recipe": [
       { "Dragon's Helm Agron": 1 },
@@ -10290,7 +10290,7 @@
     "name": "Hood of Grim Reaper",
     "description": "Overcome death, and become a reaper of life yourself !",
     "type": "[Hood]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "recipe": [
       { "Hood of Reaper": 1 },
@@ -10319,7 +10319,7 @@
     "name": "Helm of Battle",
     "description": "Follow me without hesitation! Charge!",
     "type": "[Helm/Hood]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "recipe": [
       { "True Dragon Helm Agron": 1 },
@@ -10349,7 +10349,7 @@
     "name": "Horns of Destruction",
     "description": "The wrath of the Great Demon Lord shall destroy all!",
     "type": "[Helm]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Horn of Demon Lord": 1 },
@@ -10377,7 +10377,7 @@
     "name": "Archangel Halo",
     "description": "Those that received salvation, shall be able to overcome hardships",
     "type": "[Helm]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Sacred Helm": 1 },
@@ -10406,7 +10406,7 @@
     "name": "Prophetia, the Source of Mana",
     "description": "Wellspring that provides a level of mana unreachable by mere intelligence.",
     "type": "[Hood]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Hood of the Mage": 1 },
@@ -10432,7 +10432,7 @@
     "name": "Void Eye",
     "description": "Fall into despair and perish.",
     "type": "[Hood]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Eye of the Abyss": 1 },
@@ -10459,7 +10459,7 @@
     "name": "Horn of Devil",
     "description": "Horn imbued with the essence of Devil",
     "type": "[Helm/Hood]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "recipe": [
       { "Horns of Destruction": 1 },
@@ -10486,7 +10486,7 @@
     "name": "Horn of Lightning God",
     "description": "Horn holding the wrath of the Lightning God",
     "type": "[Helm/Hood]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Horn of Devil": 1 },
@@ -10510,7 +10510,7 @@
     "name": "Dragon Mask",
     "description": "Through the eyes of dragon, everything seems so measly ..",
     "type": "[Helm]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Grim Visage": 1 },
@@ -10534,7 +10534,7 @@
     "name": "Eye of Wallachia",
     "description": "I can see your death ..",
     "type": "[Helm]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Death Visage": 1 },
@@ -10559,7 +10559,7 @@
     "name": "Protector's Will",
     "description": "Helm imbued with the will of a protector",
     "type": "[Helm]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Scale Protector": 1 },
@@ -10585,7 +10585,7 @@
     "name": "Halo of Judgment",
     "description": "Merciless judgment on the dreams and fantasies of the Demon Lord.",
     "type": "[Helm]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Archangel Halo": 1 },
@@ -10611,7 +10611,7 @@
     "name": "Eye of the Flame Lord",
     "description": "Don't stare into it directly or you'll go blind!!",
     "type": "[Hood]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 400,
     "recipe": [
       { "Void Eye": 1 },
@@ -10636,7 +10636,7 @@
     "name": "Prophetia, the Greater Source of Mana",
     "description": "Source that grants mana exceeding the levels mere mortals can achieve.",
     "type": "[Hood]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Prophetia, the Source of Mana": 1 },
@@ -10659,7 +10659,7 @@
     "name": "Hood of Apocrypha",
     "description": "You can feel the resentment of the forsaken emanating from this hood.",
     "type": "[Hood]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Hood of Grim Reaper": 1 },
@@ -10683,7 +10683,7 @@
     "name": "Crown of Serenity",
     "description": "The more you empty your mind, the fuller it becomes.",
     "type": "[Helm/Hood]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Storm Headdress": 1 },
@@ -10713,7 +10713,7 @@
     "name": "Crown of Rage",
     "description": "Crown infused with the wrath of the great Demon Lord",
     "type": "[Helm/Hood]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Crown of Fervor": 1 },
@@ -10739,7 +10739,7 @@
     "name": "Crown of Composure",
     "description": "Mystical crown that converts mana into a pure barrier",
     "type": "[Helm/Hood]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Crown of Fervor": 1 },
@@ -10763,7 +10763,7 @@
     "name": "Infected Crab Armor",
     "description": "Armor that looks like it will spew tentacles any moment",
     "type": "[Armor]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 240,
     "recipe": [
       { "Crab Armor": 1 },
@@ -10848,7 +10848,7 @@
     "name": "Bloodstone Plates",
     "description": "Armor that fuses with user's blood to form a hard carapace",
     "type": "[Armor]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 280,
     "recipe": [
       { "Stone Plates": 1 },
@@ -10875,7 +10875,7 @@
     "name": "True Dragon Armor Magron",
     "description": "Don't be afraid to struggle. You can only grow stronger by driving away your fear.",
     "type": "[Armor]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 300,
     "recipe": [
       { "Dragon Armor Magron": 1 },
@@ -10900,7 +10900,7 @@
     "name": "Reactive Armor",
     "description": "Armor of Sea that has been purified again. Reacts to all evil.",
     "type": "[Armor]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 320,
     "recipe": [
       { "Infected Crab Armor": 1 },
@@ -10925,7 +10925,7 @@
     "name": "Robe of the Sage",
     "description": "Magic doesn't work against me, the one that defeated Mage King!",
     "type": "[Robe]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 320,
     "recipe": [
       { "Robe of the Mage": 1 },
@@ -10952,7 +10952,7 @@
     "name": "True Bloodstone Plates",
     "description": "Armor that fuses with user's blood to form a hard carapace",
     "type": "[Armor]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Bloodstone Plates": 1 },
@@ -10983,7 +10983,7 @@
     "name": "Purelight Armor",
     "description": "You shall shine brighter under this brilliant aura.",
     "type": "[Armor]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Sacred Armor": 1 },
@@ -11008,7 +11008,7 @@
     "name": "Cruoris, the Armor of Blood",
     "description": "The blood and flesh of your foes will make you stronger",
     "type": "[Armor]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Dekaros, the Unholy Armor": 1 },
@@ -11037,7 +11037,7 @@
     "name": "Earthen Plates",
     "description": "You've shown me heroism and will worthy of my blessings.",
     "type": "[Armor]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "recipe": [
       { "Plates of Regeneration": 1 },
@@ -11066,7 +11066,7 @@
     "name": "Guardian Vest",
     "description": "You've shown me heroism and will worthy of my blessings.",
     "type": "[Armor]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "recipe": [
       { "Vest of Protection": 1 },
@@ -11095,7 +11095,7 @@
     "name": "Fairy Garment",
     "description": "You've shown me heroism and will worthy of my blessings.",
     "type": "[Robe]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "recipe": [
       { "Fairy Robe": 1 },
@@ -11123,7 +11123,7 @@
     "name": "Frozen Robe",
     "description": "The ancient cold spirit shall protect you from the hands of enemies.",
     "type": "[Robe]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Robe of Everfrost": 1 },
@@ -11153,7 +11153,7 @@
     "name": "Requiem, the Armor of Lamentation",
     "description": "Armor that laments for the souls of the dead",
     "type": "[Armor]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Purelight Armor": 1 },
@@ -11183,7 +11183,7 @@
     "name": "Creation of the Sky and Earth",
     "description": "Armor crafted by an image that embodies the beautiful world",
     "type": "[Armor]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Earthen Plates": 1 },
@@ -11215,7 +11215,7 @@
     "name": "Tunic of the Wraith",
     "description": "As you approach death, the power of the wraiths can be borrowed.",
     "type": "[Armor]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Tunic of Subtlety": 1 },
@@ -11243,7 +11243,7 @@
     "name": "Benedict, the Crimson Armor of Blood",
     "description": "It is as if the blood of God is dripping out of this armor.",
     "type": "[Armor]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Cruoris, the Armor of Blood": 1 },
@@ -11269,7 +11269,7 @@
     "name": "Grandine, the Plates of Wraith",
     "description": "The cost shall be your soul ..",
     "type": "[Armor]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Tunic of the Wraith": 1 },
@@ -11299,7 +11299,7 @@
     "name": "Hellspike Armor",
     "description": "Spiked armor of Hell that harms even the wearer",
     "type": "[Armor]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Reactive Armor": 1 },
@@ -11325,7 +11325,7 @@
     "name": "Bloodsoul Plates",
     "description": "Armor bound together with hideous amounts of blood and souls",
     "type": "[Armor]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "True Bloodstone Plates": 1 },
@@ -11352,7 +11352,7 @@
     "name": "Frostshard Armor",
     "description": "Armor covered with frozen spikes that provides absolute defense",
     "type": "[Armor]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Flameshard Armor": 1 },
@@ -11375,7 +11375,7 @@
     "name": "Robe of the Necromancer",
     "description": "I've mastered the usage of mana ..",
     "type": "[Robe]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Robe of the Sage": 1 },
@@ -11401,7 +11401,7 @@
     "name": "Winter Robe",
     "description": "Just wearing it is enough to bring down a winter around you.",
     "type": "[Robe]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Frozen Robe": 1 },
@@ -11428,7 +11428,7 @@
     "name": "Diana, the Robe of Holy Maiden",
     "description": "Dear Father, may your salvation be bestowed upon these innocent souls",
     "type": "[Robe]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Fairy Garment": 1 },
@@ -11459,7 +11459,7 @@
     "name": "Medea, the Robe of the Witch",
     "description": "All shall perish! Your body, and even my soul!",
     "type": "[Robe]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Robe of the Reaper": 1 },
@@ -11486,7 +11486,7 @@
     "name": "Hades, the Armor of Despair",
     "description": "Armor that calls the souls of the dead to itself",
     "type": "[Armor]",
-    "color": 12566272,
+    "color": 10092441,
     "level": 400,
     "recipe": [
       { "Requiem, the Armor of Lamentation": 1 },
@@ -11516,7 +11516,7 @@
     "name": "Fruit Candy Pouch",
     "description": "Pouch containing candies of various fruit flavors. The hide is also much more sturdy.",
     "type": "[Ring]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 240,
     "recipe": [
       { "Candy Bag": 1 },
@@ -11540,7 +11540,7 @@
     "name": "Tentacle Horn",
     "description": "Passed down from the legends.. here comes Tentacle Horn.",
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 240,
     "recipe": [
       { "Horn of Deep Sea": 1 },
@@ -11565,7 +11565,7 @@
     "name": "Teperua, the Ring of Blood",
     "description": "The night begins now!",
     "type": "[Ring]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 260,
     "recipe": [
       { "Count of Wallachia's Ring": 1},
@@ -11593,7 +11593,7 @@
     "name": "Mana Heart",
     "description": "A mystical gem that continuously emits mana.",
     "type": "[Ring]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 260,
     "recipe": [
       { "Dragon Heart": 1 },
@@ -11613,7 +11613,7 @@
     "name": "Mana Heart Large",
     "description": "0A mystical gem that continuously emits mana.",
     "type": "[Ring]",
-    "color": 8388736,
+    "color": 9662683,
     "level": 300,
     "recipe": [
       { "Mana Heart": 1 },
@@ -11634,7 +11634,7 @@
     "name": "Everfrost Gauntlet",
     "description": "Gloves made from ice that never melts.",
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 320,
     "recipe": [
       { "Winter Rose": 1, "Frost Web Brooch": 1 },
@@ -11656,7 +11656,7 @@
     "name": "Ring of Light",
     "description": "May the blessing of god be upon you",
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "recipe": [
       { "A Page of the Bible": 1 },
@@ -11680,7 +11680,7 @@
     "name": "Ring of Darkness",
     "description": "Corruption stems from the denial of existence.",
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "recipe": [
       { "A Page of the Unholy Book": 1 },
@@ -11702,7 +11702,7 @@
     "name": "Ring of the Sage",
     "description": "The wisdom of sage shall bend even the flow of time.",
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "recipe": [
       { "Ring of Resonance": 1 },
@@ -11727,7 +11727,7 @@
     "name": "Mana Heart Frost",
     "description": "A mystical gem that continuously emits mana and chill.",
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "recipe": [
       { "Mana Heart Large": 1 },
@@ -11752,7 +11752,7 @@
     "name": "True Guardian Ring",
     "description": "I vow my life to protect this sanctuary till my plates crumble away.",
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 340,
     "recipe": [
       { "Guardian Ring": 1 },
@@ -11780,7 +11780,7 @@
     "name": "Ring of the Reaper",
     "description": "One who controls death, may obtain infinite powers",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 340,
     "recipe": [
       { "Teperua, the Ring of Blood": 1 },
@@ -11807,7 +11807,7 @@
     "name": "Purefrost Gauntlet",
     "description": "Gauntlet composed of pure ice",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 350,
     "recipe": [
       { "Everfrost Gauntlet": 1 },
@@ -11832,7 +11832,7 @@
     "name": "Living Dragon Heart",
     "description": "Dragon's heart, overflowing with endless life energy.",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Lifestone": 1 },
@@ -11859,7 +11859,7 @@
     "name": "Ring of Holy Light",
     "description": "May your skills be blessed",
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "recipe": [
       { "Ring of Light": 1 },
@@ -11894,7 +11894,7 @@
     "name": "Demonis, the Devil Lord's Ring",
     "description": "If you fear the darkness, it will consume you",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Ring of Darkness": 1, "Ring of Light": 1 },
@@ -11917,7 +11917,7 @@
     "name": "Soul Drinker",
     "description": "A fragment that devours souls",
     "type": "[Ring]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "required_by": [
       "Soul Eater"
@@ -11944,7 +11944,7 @@
     "name": "Latea, the Ring of Chaos",
     "description": "Are you capable of ruling over this chaos?",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Demonis, the Devil Lord's Ring": 1 },
@@ -11968,7 +11968,7 @@
     "name": "Ring of Intrusion",
     "description": "You are already one with the ring. You just haven't realized it yet.",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Ring of the Sage": 1 },
@@ -11992,7 +11992,7 @@
     "name": "Heart of Ifrit",
     "description": "Magical crucible with a burning flame that never burns out",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Frost Web Brooch": 1 },
@@ -12020,7 +12020,7 @@
     "name": "Trueblood Ring",
     "description": "Ring that awakens your blood",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Teperua, the Ring of Blood": 1 },
@@ -12052,7 +12052,7 @@
     "name": "Azathos, the Pipe of Chaos",
     "description": "A mystical pipe, uncomprehensible with human's mere knowledge. It is alive.",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Living Dragon Heart": 1 },
@@ -12076,7 +12076,7 @@
     "name": "Eternal Rose",
     "description": "The everlasting ice will protect you from the evil",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "required_by": [
       "Nebula Rose"
@@ -12106,7 +12106,7 @@
     "name": "Bell of Light",
     "description": "May your soul be blessed",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Ring of Holy Light": 1 },
@@ -12141,7 +12141,7 @@
   {
     "name": "Ring of Revival",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Trueblood Ring": 1 },
@@ -12168,7 +12168,7 @@
     "name": "Ring of Strike",
     "description": "The only thing you can trust in this world is your own power.",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Ring of Nightmare": 1 },
@@ -12192,7 +12192,7 @@
     "name": "Ring of Time",
     "description": "Ring that frees you from the passage of time",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Ring of Intrusion": 1 },
@@ -12219,7 +12219,7 @@
     "name": "Ring of Healed",
     "description": "Ring that frees you from the passage of ||HEALED||",
     "type": "[HEALED]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Ring of Intrusion": 1 },
@@ -12246,7 +12246,7 @@
     "name": "Ispion, the Runed Ring",
     "description": "Ring engraved with ancient mana runes. It's mana can be released on will.",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "True Guardian Ring": 1 },
@@ -12278,7 +12278,7 @@
     "name": "Cold Ring of Death",
     "description": "A ring found on the corpse of a man who met a cold lone death.",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Brooch of Darkness": 1 },
@@ -12312,7 +12312,7 @@
     "name": "Seal of Deceiver",
     "description": "That light will also be stained by the darkness.",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Skull Seal": 1 },
@@ -12343,7 +12343,7 @@
     "name": "Heaven's Fist",
     "description": "Iron fist of mercy to those corrupted by evil !!",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Purefrost Gauntlet": 1 },
@@ -12375,7 +12375,7 @@
     "name": "Latea, the Ring of Overlord",
     "description": "The one who rules over chaos, is worthy of becoming the Overlord.",
     "type": "[Ring]",
-    "color": 12566272,
+    "color": 10092441,
     "level": 400,
     "recipe": [
       { "Latea, the Ring of Chaos": 1 },
@@ -12398,7 +12398,7 @@
     "name": "Horn of God",
     "description": "A misuse can result in the destruction of humanity",
     "type": "[Ring]",
-    "color": 12566272,
+    "color": 10092441,
     "level": 400,
     "recipe": [
       { "Azathos, the Pipe of Chaos": 1 },
@@ -12447,7 +12447,7 @@
     "name": "Dragon Wings",
     "description": "A magical creation imbued with dragon's breath",
     "type": "[Wings]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 260,
     "recipe": [
       { "Dragon Heart": 1 },
@@ -12471,7 +12471,7 @@
     "name": "Cape of the Count",
     "description": "Embrace the darkness, and become the ruler of the night!",
     "type": "[Wings]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 260,
     "recipe": [
       { "Count's Memento": 1 },
@@ -12496,7 +12496,7 @@
     "name": "Corrupt Crystal Wings",
     "description": "A pair of wings blasting out intense unholy energy",
     "type": "[Wings]",
-    "color": 8388863,
+    "color": 12211667,
     "level": 300,
     "recipe": [
       { "Corrupt Crystal Fragment": 1 },
@@ -12519,7 +12519,7 @@
     "name": "Cape of Corrupt Flame",
     "description": "The corrupt flame burns all with heat as strong as the corruption of its source.",
     "type": "[Wings]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 320,
     "recipe": [
       { "Corrupt Crystal Fragment": 1 },
@@ -12546,7 +12546,7 @@
     "name": "Frozen Heart",
     "description": "Only coldness shall guide you to victory.",
     "type": "[Wings]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 350,
     "recipe": [
       { "Frozen Cobweb": 1 },
@@ -12573,7 +12573,7 @@
     "name": "Fairy Wings",
     "description": "You shall be blessed with the dexterity and intellect of a fairy!",
     "type": "[Wings]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "recipe": [
       { "Dragon Wings": 1 },
@@ -12599,7 +12599,7 @@
     "name": "Wings of Fury",
     "description": "Control your inner emotions and become a ruler of power",
     "type": "[Wings]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Cape of the Count": 1 },
@@ -12626,7 +12626,7 @@
     "name": "Wanderer's Cape",
     "description": "You will be there, no matter where you are.",
     "type": "[Wings]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Slayer Boots": 1 },
@@ -12658,7 +12658,7 @@
     "name": "Frost Fairy Wings",
     "description": "You shall be blessed with the dexterity and intellect of a fairy!",
     "type": "[Wings]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Fairy Wings": 1 },
@@ -12683,7 +12683,7 @@
     "name": "Pure Crystal Wings",
     "description": "A set of wings endoused in powerful light",
     "type": "[Wings]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 370,
     "recipe": [
       { "Corrupt Crystal Wings": 1 },
@@ -12714,7 +12714,7 @@
     "name": "Wings of Phoenix",
     "description": "Wings emitting eternal flames",
     "type": "[Wings]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Wanderer's Cape": 1 },
@@ -12745,7 +12745,7 @@
     "name": "Soul Eater",
     "description": "All souls are merely my prey..",
     "type": "[Wings]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Soul Drinker": 1 },
@@ -12777,7 +12777,7 @@
     "name": "Soul of the Dead",
     "description": "Wings imbued with the spirits of the dead.",
     "type": "[Wings]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Cape of the Dead": 1 },
@@ -12806,7 +12806,7 @@
     "name": "Cloak of the Fallen Shadows",
     "description": "The corrupt shadow will envelop you, and overpower you with its mighty power.",
     "type": "[Wings]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Cape of Corrupt Flame": 1 },
@@ -12830,7 +12830,7 @@
     "name": "Grim Heart",
     "description": "Only cruelty shall guide you to victory.",
     "type": "[Wings]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Frozen Heart": 1 },
@@ -12855,7 +12855,7 @@
     "name": "Wings of Slayer",
     "description": "Unconstrained emotions can only bring calamity..",
     "type": "[Wings]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Wings of Fury": 1 },
@@ -12879,7 +12879,7 @@
   {
     "name": "Protection of the Fairies",
     "type": "[Wings]",
-    "color": 12566272,
+    "color": 10092441,
     "level": 400,
     "recipe": [
       { "Embrace of Nature": 1 },
@@ -12907,7 +12907,7 @@
     "name": "Archangel Wings",
     "type": "[Wings]",
     "description": "Wings blessed by archangels",
-    "color": 12566272,
+    "color": 10092441,
     "level": 400,
     "recipe": [
       { "Pure Crystal Wings": 1 },
@@ -13367,7 +13367,7 @@
     "name": "Ring of Fervor",
     "description": "아군을 보조하는게 너무 좋아!",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Ring of the Storm": 1 },
@@ -13393,7 +13393,7 @@
     "name": "Ring of Composure",
     "description": "....",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Ring of the Dead": 1 },
@@ -13419,7 +13419,7 @@
     "name": "Plates of Lightning",
     "description": "표면에 강한 전류가 흐르고 있다.",
     "type": "[Armor]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Earthen Plates": 1 },
@@ -13445,7 +13445,7 @@
     "name": "Maw of Greed",
     "description": "Nothing satiates my hunger !!",
     "type": "[Bastard Sword]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "recipe": [
       { "Maw of Monster": 1 },
@@ -13472,7 +13472,7 @@
     "name": "Ring of Deep Darkness",
     "description": "타락은 존재의 부정에서 부터 시작 된다.",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "required_by": [
       "Grimoire of Darkness"
@@ -13503,7 +13503,7 @@
     "name": "Grimoire of Darkness",
     "description": "인간의 손 안에서 모든 것은 타락한다.",
     "type": "[Ring]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Ring of Deep Darkness": 1 },
@@ -13532,7 +13532,7 @@
     "name": "Vest of Cyclone",
     "description": "Vest that bestows you with the speed of a cyclone.",
     "type": "[Armor]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 360,
     "required_by": [
       "Vest of Storm"
@@ -13557,7 +13557,7 @@
     "name": "Vest of Storm",
     "description": "Vest that bestows you with the speed of a storm.",
     "type": "[Armor]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 380,
     "recipe": [
       { "Vest of Cyclone": 1 },
@@ -13579,7 +13579,7 @@
     "name": "Nebula Rose",
     "description": "A rose enveloped in cosmic powers.",
     "type": "[Ring]",
-    "color": 12566272,
+    "color": 10092441,
     "level": 400,
     "recipe": [
       { "Eternal Rose": 1 },
@@ -13606,7 +13606,7 @@
     "name": "Cosmic Star",
     "description": "...",
     "type": "[Gun]",
-    "color": 12566272,
+    "color": 10092441,
     "level": 400,
     "recipe": [
       { "Crimson Star": 1 },
@@ -13638,7 +13638,7 @@
     "name": "Hungry Bat Wings",
     "description": "Tasty! Human!",
     "type": "[Wings]",
-    "color": 12517567,
+    "color": 13047173,
     "level": 360,
     "recipe": [
       { "Bat Wings": 1 },
@@ -13665,7 +13665,7 @@
     "name": "Wings of Blood Lord",
     "description": "Wash your sins away with your blood",
     "type": "[Wings]",
-    "color": 12517376,
+    "color": 14423100,
     "level": 400,
     "recipe": [
       { "Hungry Bat Wings": 1 },
