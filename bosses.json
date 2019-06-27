@@ -36,6 +36,17 @@
         ]
     },
     {
+        "name": "Kobold Creeps",
+        "limit": "1",
+        "timer": "10s ~ 15s",
+        "location": "In Kobolt Camp",
+        "conditions": "Level 10",
+        "drops": [
+            "I00V",
+            "lure"
+        ]
+    },
+    {
         "id": "n015",
         "name": "Dragon Turtle",
         "limit": "3",

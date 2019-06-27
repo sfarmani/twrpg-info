@@ -276,6 +276,19 @@
     }
   },
   {
+    "id": "I00V",
+    "name": "Kobold Bag",
+    "dropped_by": [
+      "Kobold Creeps"
+    ],
+    "type": "[Material]",
+    "color": 9267259,
+    "droprate": 0.3,
+    "required_by": [
+      "Slightly Sturdy Bag"
+    ]
+  },
+  {
     "id": "lure",
     "name": "Kobold War Tactics",
     "dropped_by": [
