@@ -608,7 +608,7 @@
       "damage": 680,
       "strength": 68,
       "passive": [
-        "Chance to reduce enemy armor by 25 on attack for 5 seconds"
+        "On attack, decreases target's armor by 25 for 5 seconds"
       ]
     }
   },
@@ -642,7 +642,7 @@
       "damage": 725,
       "agility": 68,
       "passive": [
-        "Chance to increase Agi by 25 on attack for 4 seconds"
+        "On attack, increases AGI by 25 for 4 seconds"
       ]
     }
   },
@@ -660,7 +660,7 @@
       "damage": 670,
       "agility": 67,
       "passive": [
-        "Poisons enemy for 2000 damage per second on attack"
+        "On attack, leaves a poison that deals 2000 damage per second"
       ]
     }
   },
@@ -677,9 +677,7 @@
     "stats": {
       "damage": 370,
       "intelligence": 81,
-      "passive": [
-        "Increased MP regen"
-      ]
+      "hpregen": 50
     }
   },
   {
@@ -698,7 +696,7 @@
       "agility": 55,
       "hp": 3250,
       "passive": [
-        "Block 75 damage every hit"
+        "Absorbs damage taken by 75"
       ]
     }
   },
@@ -715,8 +713,8 @@
     "stats": {
       "armor": 72,
       "intelligence": 65,
-      "skilldamagepercent": 0.04,
-      "mp": 3650
+      "mp": 3650,
+      "skilldamagepercent": 0.04
     }
   },
   {
@@ -753,10 +751,10 @@
     ],
     "stats": {
       "allstat": 60,
-      "movespeed": 75,
       "expgainpercent": 0.1,
+      "movespeed": 75,
       "active": [
-        "Teleport you to Alfon Village (first town)"
+        "On use, creates a portal that connects to Alfon Village"
       ]
     }
   },
@@ -787,7 +785,7 @@
       "Sword of Darkness"
     ],
     "stats": {
-      "damage": 1190,
+      "damage": 1590,
       "agility": 200
     }
   },
@@ -805,7 +803,7 @@
       "Greatsword of Darkness"
     ],
     "stats": {
-      "damage": 1400,
+      "damage": 1810,
       "strength": 155,
       "attackspeedpercent": -0.25
     }
@@ -824,7 +822,7 @@
       "Gloves of Darkness"
     ],
     "stats": {
-      "damage": 700,
+      "damage": 1400,
       "agility": 220,
       "attackspeedpercent": 0.2
     }
@@ -844,7 +842,7 @@
     ],
     "stats": {
       "damage": 980,
-      "intelligence": 240
+      "intelligence": 270
     }
   },
   {
@@ -861,7 +859,7 @@
       "Rifle of Darkness"
     ],
     "stats": {
-      "damage": 1740,
+      "damage": 1980,
       "agility": 132,
       "attackspeedpercent": -0.25
     }
@@ -956,7 +954,7 @@
       "Bow of Darkness"
     ],
     "stats": {
-      "damage": 1200,
+      "damage": 1500,
       "agility": 180
     }
   },
@@ -1024,7 +1022,7 @@
       "Sword of Pure Flame"
     ],
     "stats": {
-      "damage": 1470,
+      "damage": 1820,
       "agility": 245
     }
   },
@@ -1042,7 +1040,7 @@
       "Greatsword of Pure Flame"
     ],
     "stats": {
-      "damage": 1800,
+      "damage": 2050,
       "strength": 180,
       "attackspeedpercent": -0.25
     }
@@ -1061,7 +1059,7 @@
       "Gloves of Pure Flame"
     ],
     "stats": {
-      "damage": 900,
+      "damage": 1600,
       "agility": 250,
       "attackspeedpercent": 0.2
     }
@@ -1098,9 +1096,8 @@
       "Rifle of True Flame"
     ],
     "stats": {
-      "damage": 2160,
-      "agility": 156,
-      "attackspeedpercent": -0.25
+      "damage": 1880,
+      "agility": 210
     }
   },
   {
@@ -1193,7 +1190,7 @@
       "Bow of Pure Flame"
     ],
     "stats": {
-      "damage": 1600,
+      "damage": 1880,
       "agility": 210
     }
   },
@@ -1219,7 +1216,7 @@
       "intelligence": 70,
       "movespeed": 50,
       "passive": [
-        "Periodically deals magic damage to nearby enemies"
+        "Periodically deals 2400 magic damage to nearby enemies"
       ]
     }
   },
@@ -1283,7 +1280,7 @@
       "damage": 2620,
       "agility": 390,
       "passive": [
-        "Chance to deal splash damage on attack"
+        "~20.8% Chance to deal (1% * attack damage X 2) splash damage on attack"
       ]
     }
   },
@@ -1301,7 +1298,7 @@
       "damage": 1800,
       "agility": 360,
       "passive": [
-        "Chance to deal splash damage on attack"
+        "~20.8% Chance to deal (1% * attack damage X 2) splash damage on attack"
       ]
     }
   },
@@ -1319,7 +1316,7 @@
       "damage": 3100,
       "strength": 260,
       "passive": [
-        "Chance to deal splash damage on attack"
+        "~20.8% Chance to deal (1% * attack damage X 2) splash damage on attack"
       ]
     }
   },
@@ -1356,7 +1353,7 @@
       "damage": 2600,
       "agility": 290,
       "passive": [
-        "Chance to deal splash damage on attack"
+        "~20.8% Chance to deal (1% * attack damage X 2) splash damage on attack"
       ]
     }
   },
@@ -1377,7 +1374,7 @@
       "damage": 3900,
       "agility": 220,
       "passive": [
-        "Chance to deal splash damage on attack"
+        "~20.8% Chance to deal (1% * attack damage X 2) splash damage on attack"
       ]
     }
   },
@@ -1464,7 +1461,7 @@
       "damage": 3190,
       "agility": 410,
       "passive": [
-        "Chance to deal bonus damage on attack"
+        "10% Chance to deal 5000 bonus damage on attack"
       ]
     }
   },
@@ -1476,12 +1473,13 @@
     ],
     "type": "[Gloves]",
     "color": 49151,
+    "level": 280,
     "droprate": 0.05,
     "stats": {
-      "damage": 2300,
+      "damage": 2860,
       "agility": 410,
       "passive": [
-        "Chance to deal bonus damage on attack"
+        "10% Chance to deal 5000 bonus damage on attack"
       ]
     }
   },
@@ -1493,12 +1491,13 @@
     ],
     "type": "[Greatsword]",
     "color": 49151,
+    "level": 280,
     "droprate": 0.05,
     "stats": {
-      "damage": 3450,
-      "strength": 280,
+      "damage": 4450,
+      "strength": 330,
       "passive": [
-        "Chance to deal bonus damage on attack"
+        "10% Chance to deal 5000 bonus damage on attack"
       ]
     }
   },
@@ -1510,12 +1509,13 @@
     ],
     "type": "[Staff]",
     "color": 49151,
+    "level": 280,
     "droprate": 0.05,
     "stats": {
       "damage": 2690,
       "intelligence": 440,
       "passive": [
-        "Chance to deal bonus damage on attack"
+        "10% Chance to deal 5000 bonus damage on attack"
       ]
     }
   },
@@ -1527,12 +1527,13 @@
     ],
     "type": "[Bow]",
     "color": 49151,
+    "level": 280,
     "droprate": 0.05,
     "stats": {
-      "damage": 3000,
-      "agility": 310,
+      "damage": 3550,
+      "agility": 370,
       "passive": [
-        "Chance to deal bonus damage on attack"
+        "10% Chance to deal 5000 bonus damage on attack"
       ]
     }
   },
@@ -1544,12 +1545,13 @@
     ],
     "type": "[Gun]",
     "color": 49151,
+    "level": 280,
     "droprate": 0.05,
     "stats": {
       "damage": 4900,
       "agility": 290,
       "passive": [
-        "Chance to deal bonus damage on attack"
+        "10% Chance to deal 5000 bonus damage on attack"
       ]
     }
   },
@@ -1616,7 +1618,9 @@
       "strength": 650,
       "agility": 250,
       "passive": [
-        "Temporarily boosts HP regen when HP drops low"
+        "Temporarily boosts HP regen to 2500 HP per second when HP drops below 30% of max HP for 10 seconds",
+        "Cooldown: 55 seconds",
+        "Cannot be dropped during cooldown"
       ]
     }
   },
@@ -1663,7 +1667,10 @@
       "intelligence": 900,
       "hp": 4000,
       "active": [
-        "Summons fairy on use"
+        "Summons fairy on use. Has two spells:",
+        "Heals 40000 HP over 12 seconds",
+        "Reduces a target's defense by 820 for 10 seconds",
+        "Cooldown: 90 seconds"
       ],
       "spec": [
         "Specialty - Fairy Blessing",
@@ -1696,7 +1703,8 @@
       "allstat": 675,
       "passive": [
         "Increases allies' speed",
-        "Revives hero with 40% HP and 100% MP upon death (has cooldown of 3 minutes)"
+        "Activates revival on death (has cooldown of 3 minutes)",
+        "Cannot be dropped during cooldown"
       ]
     }
   },
@@ -1777,7 +1785,7 @@
       "attackspeedpercent": 0.15,
       "skilldamagepercent": 0.05,
       "passive": [
-        "Enables the use of Breath of Ancients every 5 seconds dealing (7.5 X (STR + AGI + INT)) damage on attack and reduces target's attack speed and movement speed"
+        "Enables the use of Breath of Ancients every 5 seconds dealing (7.5 X (STR + AGI + INT)) magic damage on attack and reduces target's movement speed by 20% for 3 seoncds"
       ],
       "spec": [
         "Specialties - Spiritus",
@@ -1832,7 +1840,9 @@
       "strength": 1850,
       "skilldamagepercent": 0.045,
       "passive": [
-        "Activates Source of Power on skill cast"
+        "Activates Source of Power on skill cast dealing (STR X 1.5) magic damage on next attack and increasing movement speed by 100% and STR by 425 for 6 seconds",
+        "Cooldown: 10 seconds",
+        "Cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty",
@@ -1970,8 +1980,8 @@
       "Gloves of Lethal Poison"
     ],
     "stats": {
-      "damage": 1500,
-      "agility": 350,
+      "damage": 3300,
+      "agility": 480,
       "passive": [
         "Inflicts poison that periodically deals 800 damage on attack"
       ]
@@ -1992,7 +2002,7 @@
     ],
     "stats": {
       "damage": 3210,
-      "intelligence": 400,
+      "intelligence": 510,
       "passive": [
         "Inflicts poison that periodically deals 800 damage on attack"
       ]
@@ -2012,8 +2022,8 @@
       "Bow of Lethal Poison"
     ],
     "stats": {
-      "damage": 2700,
-      "agility": 270,
+      "damage": 4400,
+      "agility": 390,
       "passive": [
         "Inflicts poison that periodically deals 800 damage on attack"
       ]
@@ -2141,7 +2151,7 @@
     ],
     "type": "[Longsword]",
     "color": 9662683,
-    "level": 250,
+    "level": 260,
     "droprate": 0.075,
     "required_by": [
       "Tepethia, the Bloodsword of Domination"
@@ -2172,7 +2182,7 @@
       "damage": 7100,
       "agility": 530,
       "passive": [
-        "On attack, drains 18% of damage dealt as life (up to 1500)"
+        "On attack, drains 10% of damage dealt as life (up to 800)"
       ]
     }
   },
