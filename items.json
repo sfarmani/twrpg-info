@@ -1718,7 +1718,7 @@
     "type": "[Material]",
     "color": 9267259,
     "notes": [
-      "Failure to defeat Ancient Ent on the first try reduces Giant Ent's droprate by 85% (0.2% → 0.03%)"
+      "Giant Ent: Upon failure, droprate is reduced by 80% (0.2% → 0.03%)"
     ],
     "droprate": [
       0.0005,
@@ -2444,7 +2444,7 @@
       "attackspeedpercent": 0.25,
       "active": [
         "On use, activates Throw Pumpkin dealing 1500 + 30 X INT magic damage. Stuns target for 2 seconds and heals yourself for 10000 HP (75 second cooldown)",
-        "Usuable on magic immune targets (still damage type magic)"
+        "Usable on magic immune targets (still damage type magic)"
       ]
     }
   },
@@ -6519,6 +6519,7 @@
     "droprate": 0.0001
   },
   {
+    "id": "I0IO",
     "name": "Chaos Magic Stone",
     "dropped_by": [
       "Elemental of Chaos"

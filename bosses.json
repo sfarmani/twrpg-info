@@ -85,7 +85,7 @@
         "name": "Protector of Nature",
         "limit": "3",
         "summon": "In Kalidi Forest where Giant Furblog spawns",
-        "conditions": "Level 30 and 3 Nature Powder",
+        "conditions": "Level 25 and 3 Nature Powder",
         "drops": [
             "I0EA",
             "I0EB",
@@ -104,7 +104,7 @@
         "name": "King Crab",
         "limit": "2",
         "summon": "South of Captial Prius in murloc area",
-        "conditions": "Level 80 and usage of Mystical Horn",
+        "conditions": "Level 60 and usage of Mystical Horn",
         "drops": [
             "pmna",
             "spsh",
@@ -625,7 +625,7 @@
         "name": "Flame Nightmare",
         "limit": "2",
         "summon": "In Volcanic Lands",
-        "conditions": "Level 200 and 12x Red Powder",
+        "conditions": "Level 200 and usage of Nightmare Rod with 12x Red Powder",
         "drops": [
             "I0CA",
             "I0C6",
@@ -653,7 +653,7 @@
         "name": "Turtle Lord",
         "limit": "2",
         "summon": "In Deep Sea in the far East where light shines from above",
-        "conditions": "Level 240, 6x Blue Powder and 6x Green powder",
+        "conditions": "Level 240 and usage of Orb of the Deep Sea with 6x Blue Powder and 6x Green powder",
         "drops": [
             "skul",
             "I0CR",
@@ -701,6 +701,9 @@
         "limit": "2",
         "location": "Spawned by Ancient Ent",
         "conditions": "Level 400",
+        "notes": [
+            "Elder Ent: Upon failure, droprate is reduced by 80%"
+        ],
         "drops": [
             "pgin",
             "srtl",
@@ -717,6 +720,9 @@
         "limit": "2",
         "location": "Spawned by Ancient Ent",
         "conditions": "Level 400",
+        "notes": [
+            "Giant Ent: Upon failure, droprate is reduced by 80%"
+        ],
         "drops": [
             "grsl",
             "ofir",
@@ -770,7 +776,6 @@
         "summon": "In Castle Avalon, fighting area of Guardian Angels",
         "conditions": "Level 200, Guardian Angels defeated, and 3x Holy Powder",
         "notes": [
-            "HP: 23,120,000",
             "Damage reduction per player after 6 players 10%",
             "Droprate per player after 6 players 5% - Does not apply for Token"
         ],
@@ -841,6 +846,16 @@
             "I0DG",
             "kygh",
             "infs"
+        ]
+    },
+    {
+        "id": "n043",
+        "name": "Elemental of Chaos",
+        "limit": "1",
+        "location": "Spawns near the exit of the Secluded Forest",
+        "conditions": "Level 420. Spawns begin a little bit after the first person to enter the area.",
+        "drops": [
+            "I0IO"
         ]
     },
     {
