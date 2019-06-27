@@ -7024,21 +7024,6 @@
     }
   },
   {
-    "name": "Golden Fang",
-    "type": "[Longsword]",
-    "color": 16744960,
-    "level": 15,
-    "recipe": [
-      { "Silver Fang": 1 },
-      { "Kobold War Tactics": 1 }
-    ],
-    "stats": {
-      "damage": 175,
-      "attackspeedpercent": 0.2,
-      "movespeed": 50
-    }
-  },
-  {
     "name": "Rainbow Crystal Golem Token",
     "type": "[Token]",
     "color": 565376,
@@ -7498,6 +7483,21 @@
         "Merchant - Throwing Healing Potion: Can be thrown twice in a row, number of placeable potions increased by 3, and reduces target's damage taken by 12%",
         "Merchant - Life Shield Scroll: Duration increased by 5 seconds and increases target's magic defense by 15%"
       ]
+    }
+  },
+  {
+    "name": "Golden Fang",
+    "type": "[Longsword]",
+    "color": 16744960,
+    "level": 15,
+    "recipe": [
+      { "Silver Fang": 1 },
+      { "Kobold War Tactics": 1 }
+    ],
+    "stats": {
+      "damage": 175,
+      "attackspeedpercent": 0.2,
+      "movespeed": 50
     }
   },
   {
