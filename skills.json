@@ -77,7 +77,8 @@
             "Recharges every 6 seconds, up to 4 charges",
             "Chain: Attack - Increases damage by 100%",
             "Chain: Skill - Increases stun duration by 200%",
-            "Chain: Glide - Decreases damage by 75% and adds splash effect"
+            "Chain: Glide - Decreases damage by 75% and adds splash effect",
+            "No casting delay"
         ]
     },
     {
@@ -204,7 +205,7 @@
             "Periodically stuns for 1 second",
             "Prevents nearby allies' HP from dropping below 1",
             "On expiration, regenereates 25% of their max HP",
-            "Lasts 8 seconds",
+            "Lasts 6 seconds",
             "Consumes 60 souls"
         ]
     },
@@ -1393,9 +1394,7 @@
         "active": [
             "Quickly approach the target, slicing everything on the way.",
             "Skill Level X 750 damage",
-            "AGI X 19 bonus damage",
-            "Damages enemies on travel path",
-            "Damage is increased up to a maximum of 50% based on travelled distance",
+            "AGI X (5 X Skill Level) bonus damage",
             "Can be cast upto 3 times in succession"
         ]
     },
@@ -2782,7 +2781,8 @@
             "Skill Level X 1000 damage",
             "(STR + AGI) X 40 bonus damage",
             "Stuns target for 1 second",
-            "Recharges Magnetic Field by 5% for each 200 distance travelled"
+            "Recharges Magnetic Field by 5% for each 200 distance travelled",
+            "Cooldown: 8 seconds"
         ]
     },
     {
@@ -3311,11 +3311,11 @@
         "hotkey": "[W]",
         "icon": "ArcaneMageW",
         "active": [
-            "Strike down a lightning upon target, creating a chain lightning.",
-            "Skill Level X 600 damage",
-            "(INT + Current MP X 15%) X 30 bonus damage",
-            "Damage increased by 20% on every chain",
-            "Exposes weak points of hit targets (Stacks up to 5 times)"
+            "Pulls down mana in the atmosphere as a shattering strike.",
+            "Max MP X 1500% magic damage",
+            "Stuns for 0.5 seconds",
+            "Increases magic damage taken from Mage by 4% for 30 seconds",
+            "Stacks up to 3 times"
         ]
     },
     {
@@ -3338,9 +3338,9 @@
         "icon": "ArcaneMageR",
         "active": [
             "Leap across dimension while leaving a magical illusion behind.",
-            "Skill Level X 1500 damage",
-            "INT X 40 bonus damage",
-            "Can be cast again within 3 seconds from the first cast",
+            "Skill Level X 3000 explosion damage",
+            "Becomes invisible and obtains 40% damage reduction for 3 seconds",
+            "Can be cast twice in a row",
             "Chain: Magic Star",
             "Remove unit collision for 3 seconds after cast"
         ]
@@ -3353,8 +3353,8 @@
         "icon": "ArcaneMageT",
         "active": [
             "Fires magical missiles in all directions.",
-            "Skill Level X 2500 damage",
-            "INT X 15 bonus damage"
+            "Each missile deals INT X 30 magic damage",
+            "Fires 8 missiles"
         ]
     },
     {
@@ -3507,9 +3507,10 @@
         "icon": "PriestD",
         "active": [
             "Heal target's wounds",
-            "Heals missing HP X 5% per 0.5 seconds",
-            "Reduces target's damage taken by 25% while active",
-            "Lasts for 8 seconds"
+            "Heals target's Max HP X 8% every second",
+            "Reduces target's damage taken by 20% while active",
+            "Lasts for 12 seconds",
+            "Cooldown: 6 seconds"
         ]
     },
     {
@@ -3520,9 +3521,9 @@
         "icon": "PriestQ",
         "active": [
             "Release holy mana in the shape of a line.",
-            "INT X 20 damage",
-            "Heal allies in range",
-            "Cleanses and restores 100% HP of allies who are under the effects of Heal (D)"
+            "INT X 20 magic damage",
+            "Heals allies for their Max HP X 12% + √(INT) X 180",
+            "If target is affected by Recovery, clears all debuffs"
         ]
     },
     {
@@ -3617,7 +3618,8 @@
             "Temporarily opens the gate of heaven to summon an angel bound to the Priest by an old contract",
             "Summons Angel 'Raguel'",
             "25% Magic Defense",
-            "Immune to CC"
+            "Immune to CC",
+            "Lasts for 100 seconds"
         ]
     },
     {
@@ -4027,7 +4029,7 @@
         "active": [
             "Purges inner evil within the soul.",
             "Deals Main Stat X 150 magic damage to nearby enemies and stuns for 1.5 seconds",
-            "Grants shield absorbing Main Stat X 2.5 damage to nearby allies",
+            "Clears debuffs and grants shield absorbing Main Stat X 2.5 damage to nearby allies",
             "Also activates from summoned orbs",
             "Chain - Inner Release"
         ]

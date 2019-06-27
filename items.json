@@ -497,16 +497,12 @@
     "name": "Corrupt Crystal Fragment",
     "description": "A shard that emanates a powerful evil aura",
     "dropped_by": [
-      "Giant Golem",
-      "Mad Clown"
+      "Giant Golem"
     ],
     "type": "[Ring]",
     "color": 9662683,
     "level": 280,
-    "droprate": [
-      0.02,
-      0.025
-    ],
+    "droprate": 0.03,
     "required_by": [
       "Maw of Monster",
       "Bullet of Ruin",
@@ -530,7 +526,7 @@
     ],
     "type": "[Material]",
     "color": 9267259,
-    "droprate": 0.01,
+    "droprate": 0.02,
     "required_by": [
       "Deathbringer",
       "Devil Chaser",
@@ -558,7 +554,7 @@
     ],
     "type": "[Material]",
     "color": 9267259,
-    "droprate": 0.01,
+    "droprate": 0.02,
     "required_by": [
       "Staff of Madness",
       "Claws of Beriel",
@@ -1395,7 +1391,7 @@
     "type": "[Ring]",
     "color": 9662683,
     "level": 240,
-    "droprate": 0.02,
+    "droprate": 0.03,
     "required_by": [
       "Tentacle Horn"
     ],
@@ -1611,7 +1607,7 @@
     "type": "[Armor]",
     "color": 13047173,
     "level": 350,
-    "droprate": 0.025,
+    "droprate": 0.03,
     "required_by": [
       "Earthen Plates"
     ],
@@ -1634,7 +1630,7 @@
     "type": "[Armor]",
     "color": 13047173,
     "level": 350,
-    "droprate": 0.025,
+    "droprate": 0.03,
     "required_by": [
       "Guardian Vest"
     ],
@@ -1657,7 +1653,7 @@
     "type": "[Robe]",
     "color": 13047173,
     "level": 350,
-    "droprate": 0.025,
+    "droprate": 0.03,
     "required_by": [
       "Fairy Garment",
       "Fairy Wings"
@@ -1685,7 +1681,7 @@
     "type": "[Ring]",
     "color": 13047173,
     "level": 350,
-    "droprate": 0.025,
+    "droprate": 0.03,
     "required_by": [
       "Benziena, the Earthen Pillar",
       "Laktrisha, the Illusional Sword of Poison",
@@ -3060,7 +3056,7 @@
       "hpregen": 75,
       "spec": [
         "Specialty",
-        "Knight - Improved Seal of Mana: Radius is increased by 25%, and duration is increased by 1 second."
+        "Knight - Improved Seal of Mana: Radius is increased by 15%, and duration is increased by 1 second."
       ]
     }
   },
@@ -9786,7 +9782,7 @@
     "level": 380,
     "recipe": [
       { "Staff of Madness": 1 },
-      { "Dark Crystal": 1 },
+      { "Dark Crystal": 1, "Dragonic Orb": 1 },
       { "Essence of Anger": 1 },
       { "Dark Matter": 1 },
       { "Spirit of Abyss": 1 },
@@ -11434,7 +11430,7 @@
       ],
       "spec": [
         "Specialty",
-        "Water Mage - Improved Frozen Emotion: Increases target's skill damage by additional 2%, and reduces target's damage taken by 15%."
+        "Water Mage - Improved Frozen Emotion: Increases target's skill damage by additional 2%, and reduces target's damage taken by 12%."
       ]
     }
   },
@@ -11786,7 +11782,7 @@
       "hpregen": 125,
       "spec": [
         "Specialty",
-        "Knight - Improved Seal of Mana: Radius is increased by 25%, and duration is increased by 1 second."
+        "Knight - Improved Seal of Mana: Radius is increased by 15%, and duration is increased by 1 second."
       ]
     }
   },
@@ -12284,7 +12280,7 @@
       ],
       "spec": [
         "Specialty",
-        "Knight - Improved Seal of Mana: Radius is increased by 50%, and duration is increased by 2 seconds."
+        "Knight - Improved Seal of Mana: Radius is increased by 30%, and duration is increased by 2 seconds."
       ]
     }
   },
