@@ -9537,7 +9537,7 @@
     ],
     "stats": {
       "damage": 23000,
-      "allstat": 2275,
+      "agility": 2275,
       "hp": 6000,
       "critmultiplier": 0.25,
       "passive": [
