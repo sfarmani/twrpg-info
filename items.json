@@ -1754,7 +1754,7 @@
     "droprate": [
       0.0005,
       0.025,
-      0.02
+      0.002
     ],
     "required_by": [
       "Pheles, the Bow of Skies",
