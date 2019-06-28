@@ -301,8 +301,6 @@
         "summon": "South of Capital Prius at wrecked ship in murloc area",
         "conditions": "Level 80 and 3 White Powder",
         "drops": [
-            "I068",
-            "I06I",
             "I06Y",
             "I070",
             "I06Z",
@@ -314,6 +312,8 @@
             "I075",
             "I076",
             "I073",
+            "I068",
+            "I06I",
             "oven"
         ]
     },
