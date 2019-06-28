@@ -327,6 +327,21 @@
     }
   },
   {
+    "id": "I0AK",
+    "name": "Kobold Ring",
+    "dropped_by": [
+      "Kobold Leader"
+    ],
+    "type": "[Ring]",
+    "color": 16744960,
+    "droprate": 0.5,
+    "level": 15,
+    "stats": {
+      "allstat": 25,
+      "expreceivedpercent": 0.05
+    }
+  },
+  {
     "id": "srrc",
     "name": "Magical Horn",
     "description": "You can hear a rumbling inside.. maybe you should blow it.",
@@ -750,7 +765,7 @@
     ],
     "stats": {
       "allstat": 60,
-      "expgainpercent": 0.1,
+      "expreceivedpercent": 0.1,
       "movespeed": 75,
       "active": [
         "On use, creates a portal that connects to Alfon Village"
@@ -6878,6 +6893,9 @@
     "name": "Tiny Essence of Storm",
     "type": "[Essence of Elemental]",
     "description": "Essence imbued with the spirit of storm.",
+    "notes": [
+      "Can be created using Alchemy with Jaina in the Magician's Tower"
+    ],
     "color": 16777215,
     "required_by": [
       "Key of Storm"
@@ -6898,6 +6916,9 @@
     "name": "Tiny Essence of Earth",
     "type": "[Essence of Elemental]",
     "description": "Essence imbued with the spirit of earth.",
+    "notes": [
+      "Can be created using Alchemy with Jaina in the Magician's Tower"
+    ],
     "color": 16777215,
     "required_by": [
       "Key of Earth"
@@ -6918,6 +6939,9 @@
     "name": "Tiny Essence of Sea",
     "type": "[Essence of Elemental]",
     "description": "An essence imbued with the power of sea.",
+    "notes": [
+      "Can be created using Alchemy with Jaina in the Magician's Tower"
+    ],
     "color": 16777215,
     "required_by": [
       "Key of Sea"
@@ -6938,6 +6962,9 @@
     "name": "Tiny Essence of Flame",
     "type": "[Essence of Elemental]",
     "description": "Essence imbued with the spirit of flame.",
+    "notes": [
+      "Can be created using Alchemy with Jaina in the Magician's Tower"
+    ],
     "color": 16777215,
     "required_by": [
       "Key of Flame"
@@ -6957,6 +6984,9 @@
     "name": "Tiny Essence of Light",
     "type": "[Essence of Elemental]",
     "description": "Essence imbued with the spirit of light.",
+    "notes": [
+      "Can be created using Alchemy with Jaina in the Magician's Tower"
+    ],
     "color": 16777215,
     "required_by": [
       "Key of Light"
@@ -6976,6 +7006,9 @@
     "name": "Tiny Essence of Chaos",
     "type": "[Essence of Elemental]",
     "description": "Essence imbued with the spirit of chaos.",
+    "notes": [
+      "Can be created using Alchemy with Jaina in the Magician's Tower"
+    ],
     "color": 16777215,
     "required_by": [
       "Key of Chaos"
@@ -6994,6 +7027,9 @@
     "name": "Key of Storm",
     "type": "[Misc]",
     "description": "Key that opens the pathway to the Room of Storm",
+    "notes": [
+      "Can be crafted by Blacksmith in Alfon Village or Captial Prius"
+    ],
     "color": 16777215,
     "recipe": [
       { "Tiny Essence of Storm": 3 }
@@ -7003,6 +7039,9 @@
     "name": "Key of Flame",
     "type": "[Misc]",
     "description": "Key that opens the pathway to the Room of Flame",
+    "notes": [
+      "Can be crafted by Blacksmith in Alfon Village or Captial Prius"
+    ],
     "color": 16777215,
     "recipe": [
       { "Tiny Essence of Flame": 3 }
