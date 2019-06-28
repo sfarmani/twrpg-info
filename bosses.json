@@ -42,8 +42,8 @@
         "location": "In Kobolt Camp",
         "conditions": "Level 10",
         "drops": [
-            "I00V",
-            "lure"
+            "lure",
+            "I00V"
         ]
     },
     {
