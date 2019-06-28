@@ -1,7 +1,31 @@
 [
     {
+        "name": "24k",
+        "changes": [
+            "> Compatible Version: v0.13c ~",
+            "# Monsters",
+            "  * Flame Nightmare *",
+            "    • Portal no longer stays open when revived",
+            "  * Death Fiend *",
+            "    • Death Huntress",
+            "      ⏵Arrow damage to bleeding target 999999 → Instant kill",
+            "      ⏵Arrow cooldown 8 seconds → 6 seconds",
+            "# Heroes",
+            "  * Berserker *",
+            "    • Berserk [T]",
+            "      ⏵Active: +125 movement speed on use",
+            "  * Marital Artist *",
+            "    • Inner Meditation [R]",
+            "      ⏵HP regen 1% + 300 → 2% + 300",
+            "  * Soul Weaver *",
+            "    • Infinite Void [F]",
+            "      ⏵Pulling speed increased"
+        ]
+    },
+    {
         "name": "24h",
         "changes": [
+            "> Compatible Version: v0.13c ~",
             "# Bug Fixes",
             "  • Fixed a bug where some tokens were not enabled",
             "# Heroes",
@@ -19,6 +43,7 @@
     {
         "name": "24g",
         "changes": [
+            "> Compatible Version: v0.13c ~",
             "# Bug Fixes",
             "  • Swordsman - Fixed model getting stuck when revived after dying in Genocide storm (F)",
             "# Items",
@@ -57,6 +82,7 @@
     {
         "name": "24f2",
         "changes": [
+            "> Compatible Version: v0.13c ~",
             "Only two urgent bug fixes are applied in this version (no donor rewards/balance changes/etc.)",
             "More changes will be done this weekend",
             "# Bug Fixes",
