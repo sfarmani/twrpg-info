@@ -6816,7 +6816,9 @@
     "droprate": 0.0001
   },
   {
+    "id": "I04U",
     "name": "White Powder",
+    "koreanname": "화이트 파우더",
     "type": "[Powder]",
     "color": 8947848,
     "required_by": [
@@ -6829,7 +6831,9 @@
     ]
   },
   {
+    "id": "I04W",
     "name": "Green Powder",
+    "koreanname": "그린 파우더",
     "type": "[Powder]",
     "color": 495881,
     "dropped_by": [
@@ -6852,7 +6856,9 @@
     ]
   },
   {
+    "id": "I04V",
     "name": "Blue Powder",
+    "koreanname": "블루 파우더",
     "type": "[Powder]",
     "color": 1271005,
     "required_by": [
@@ -6865,7 +6871,9 @@
     ]
   },
   {
+    "id": "I04X",
     "name": "Red Powder",
+    "koreanname": "레드 파우더",
     "type": "[Powder]",
     "color": 9844792,
     "required_by": [
@@ -6878,7 +6886,9 @@
     ]
   },
   {
+    "id": "I04Y",
     "name": "Holy Powder",
+    "koreanname": "홀리 파우더",
     "type": "[Powder]",
     "color": 8028456,
     "required_by": [
@@ -6890,7 +6900,9 @@
     ]
   },
   {
+    "id": "I0IU",
     "name": "Tiny Essence of Storm",
+    "koreanname": "작은 폭풍의 결정",
     "type": "[Essence of Elemental]",
     "description": "Essence imbued with the spirit of storm.",
     "notes": [
@@ -6913,7 +6925,9 @@
     }
   },
   {
+    "id": "I0IV",
     "name": "Tiny Essence of Earth",
+    "koreanname": "작은 대지의 결정",
     "type": "[Essence of Elemental]",
     "description": "Essence imbued with the spirit of earth.",
     "notes": [
@@ -6936,7 +6950,9 @@
     }
   },
   {
+    "id": "I0IT",
     "name": "Tiny Essence of Sea",
+    "koreanname": "작은 바다의 결정",
     "type": "[Essence of Elemental]",
     "description": "An essence imbued with the power of sea.",
     "notes": [
@@ -6959,7 +6975,9 @@
     }
   },
   {
+    "id": "I0IY",
     "name": "Tiny Essence of Flame",
+    "koreanname": "작은 화염의 결정",
     "type": "[Essence of Elemental]",
     "description": "Essence imbued with the spirit of flame.",
     "notes": [
@@ -6981,7 +6999,9 @@
     }
   },
   {
+    "id": "I0IW",
     "name": "Tiny Essence of Light",
+    "koreanname": "작은 빛의 결정",
     "type": "[Essence of Elemental]",
     "description": "Essence imbued with the spirit of light.",
     "notes": [
@@ -7003,7 +7023,9 @@
     }
   },
   {
+    "id": "I0IX",
     "name": "Tiny Essence of Chaos",
+    "koreanname": "작은 혼돈의 결정",
     "type": "[Essence of Elemental]",
     "description": "Essence imbued with the spirit of chaos.",
     "notes": [
@@ -7024,7 +7046,9 @@
     }
   },
   {
+    "id": "I0IZ",
     "name": "Key of Storm",
+    "koreanname": "폭풍의 열쇠",
     "type": "[Misc]",
     "description": "Key that opens the pathway to the Room of Storm",
     "notes": [
@@ -7036,7 +7060,9 @@
     ]
   },
   {
+    "id": "I0JQ",
     "name": "Key of Flame",
+    "koreanname": "화염의 열쇠",
     "type": "[Misc]",
     "description": "Key that opens the pathway to the Room of Flame",
     "notes": [
@@ -7048,7 +7074,9 @@
     ]
   },
   {
+    "id": "tpow",
     "name": "Acorn Bomb",
+    "koreanname": "도토리 폭탄",
     "type": "[Ring]",
     "color": 16744960,
     "level": 15,
@@ -7068,7 +7096,9 @@
     }
   },
   {
+    "id": "gldo",
     "name": "Rainbow Crystal Golem Token",
+    "koreanname": "레인보우 크리스탈 골렘 토큰",
     "type": "[Token]",
     "color": 14329120,
     "recipe": [
@@ -7080,7 +7110,9 @@
     ]
   },
   {
+    "id": "I0HJ",
     "name": "Glasses",
+    "koreanname": "안경",
     "type": "[Collectible]",
     "color": 6389660,
     "recipe": [
@@ -7096,7 +7128,9 @@
     }
   },
   {
+    "id": "tgrh",
     "name": "Bag",
+    "koreanname": "배낭",
     "type": "[Bag]",
     "color": 8421504,
     "level": 1,
@@ -7109,7 +7143,9 @@
     }
   },
   {
+    "id": "tlum",
     "name": "Slightly Sturdy Bag",
+    "koreanname": "조금 튼튼한 배낭",
     "type": "[Bag]",
     "color": 8421504,
     "notes": [
@@ -7129,7 +7165,9 @@
     }
   },
   {
+    "id": "tbar",
     "name": "Pretty Sturdy Bag",
+    "koreanname": "제법 튼튼한 배낭",
     "type": "[Bag]",
     "color": 2113776,
     "level": 30,
@@ -7148,7 +7186,9 @@
     }
   },
   {
+    "id": "tbsm",
     "name": "Sturdy Bag",
+    "koreanname": "튼튼한 배낭",
     "type": "[Bag]",
     "color": 16744960,
     "level": 80,
@@ -7166,7 +7206,9 @@
     }
   },
   {
+    "id": "tbak",
     "name": "Very Sturdy Bag",
+    "koreanname": "정말 튼튼한 배낭",
     "type": "[Bag]",
     "color": 16744960,
     "level": 120,
@@ -7184,7 +7226,9 @@
     }
   },
   {
+    "id": "tcas",
     "name": "Bag of Strength",
+    "koreanname": "힘의 배낭",
     "type": "[Bag]",
     "color": 49151,
     "level": 200,
@@ -7207,7 +7251,9 @@
     }
   },
   {
+    "id": "tfar",
     "name": "Bag of Mighty Strength",
+    "koreanname": "강력한 힘의 배낭",
     "description": "Pretty heavy bag",
     "type": "[Bag]",
     "color": 9662683,
@@ -7232,7 +7278,9 @@
     }
   },
   {
+    "id": "gemt",
     "name": "Bag of Mighty Strength +1",
+    "koreanname": "강력한 힘의 배낭 +1",
     "description": "Very heavy bag",
     "type": "[Bag]",
     "color": 12211667,
@@ -7258,7 +7306,9 @@
     }
   },
   {
+    "id": "frhg",
     "name": "Bag of Hell",
+    "koreanname": "지옥의 배낭",
     "description": "So.. heavy...",
     "type": "[Bag]",
     "color": 13047173,
@@ -7284,7 +7334,9 @@
     }
   },
   {
+    "id": "fwss",
     "name": "Bag of Corruption",
+    "koreanname": "타락의 배낭",
     "description": "Help.. me..",
     "type": "[Bag]",
     "color": 14423100,
@@ -7312,7 +7364,9 @@
     }
   },
   {
+    "id": "hslv",
     "name": "Bag of Destruction",
+    "koreanname": "파멸의 배낭",
     "description": "He.. lp.. so... hea.. vy..",
     "type": "[Bag]",
     "color": 14423100,
@@ -7338,7 +7392,9 @@
     }
   },
   {
+    "id": "frgd",
     "name": "Silky Bag",
+    "koreanname": "부드러운 배낭",
     "type": "[Bag]",
     "color": 16744960,
     "level": 80,
@@ -7356,7 +7412,9 @@
     }
   },
   {
+    "id": "rde0",
     "name": "Very Silky Bag",
+    "koreanname": "정말 부드러운 배낭",
     "type": "[Bag]",
     "color": 16744960,
     "level": 120,
@@ -7375,7 +7433,9 @@
     }
   },
   {
+    "id": "spro",
     "name": "Fruit-filled Bag",
+    "koreanname": "과일 담긴 배낭",
     "type": "[Bag]",
     "color": 49151,
     "level": 200,
@@ -7398,7 +7458,9 @@
     }
   },
   {
+    "id": "spre",
     "name": "Candy-filled Bag",
+    "koreanname": "사탕 담긴 배낭",
     "description": "Pretty light bag",
     "type": "[Bag]",
     "color": 9662683,
@@ -7423,7 +7485,9 @@
     }
   },
   {
+    "id": "fgun",
     "name": "Candy-filled Bag +1",
+    "koreanname": "사탕 담긴 배낭 +1",
     "description": "Very light bag",
     "type": "[Bag]",
     "color": 12211667,
@@ -7449,7 +7513,9 @@
     }
   },
   {
+    "id": "hlst",
     "name": "Bag of Heaven",
+    "koreanname": "천국의 배낭",
     "description": "Bag filled with happiness",
     "type": "[Bag]",
     "color": 13047173,
@@ -7476,7 +7542,9 @@
     }
   },
   {
+    "id": "rej3",
     "name": "Bag of Life",
+    "koreanname": "생명의 배낭",
     "description": "Bag filled with life",
     "type": "[Bag]",
     "color": 14423100,
@@ -7504,7 +7572,9 @@
     }
   },
   {
+    "id": "tmsc",
     "name": "Bag of Mother Nature",
+    "koreanname": "대자연의 배낭",
     "description": "Bag imbued with the essence of mother nature",
     "type": "[Bag]",
     "color": 14423100,
@@ -7530,7 +7600,9 @@
     }
   },
   {
+    "id": "tstr",
     "name": "Golden Fang",
+    "koreanname": "금빛 송곳니",
     "type": "[Longsword]",
     "color": 16744960,
     "level": 15,
@@ -7545,7 +7617,9 @@
     }
   },
   {
+    "id": "wlsd",
     "name": "Beast Hunter",
+    "koreanname": "비스트 헌터",
     "type": "[Gun]",
     "color": 49151,
     "level": 120,
@@ -7566,7 +7640,9 @@
     }
   },
   {
+    "id": "I05I",
     "name": "Sword of Darkness",
+    "koreanname": "암흑의 검",
     "type": "[Longsword]",
     "color": 49151,
     "level": 200,
@@ -7584,7 +7660,9 @@
     }
   },
   {
+    "id": "I05R",
     "name": "Greatsword of Darkness",
+    "koreanname": "암흑의 장검",
     "type": "[Greatsword]",
     "color": 49151,
     "level": 200,
@@ -7600,7 +7678,9 @@
     }
   },
   {
+    "id": "I05T",
     "name": "Gloves of Darkness",
+    "koreanname": "암흑의 장갑",
     "type": "[Gloves]",
     "color": 49151,
     "level": 200,
@@ -7616,7 +7696,9 @@
     }
   },
   {
+    "id": "I05S",
     "name": "Staff of Darkness",
+    "koreanname": "암흑의 지팡이",
     "type": "[Staff]",
     "color": 49151,
     "level": 200,
@@ -7634,7 +7716,9 @@
     }
   },
   {
+    "id": "I09G",
     "name": "Bow of Darkness",
+    "koreanname": "암흑의 활",
     "type": "[Bow]",
     "color": 49151,
     "level": 200,
@@ -7652,7 +7736,9 @@
     }
   },
   {
+    "id": "I0F0",
     "name": "Rifle of Darkness",
+    "koreanname": "암흑의 소총",
     "type": "[Gun]",
     "color": 49151,
     "level": 200,
@@ -7667,7 +7753,9 @@
     }
   },
   {
+    "id": "I05H",
     "name": "Sword of Pure Flame",
+    "koreanname": "극염의 검",
     "type": "[Longsword]",
     "color": 49151,
     "level": 220,
@@ -7685,7 +7773,9 @@
     }
   },
   {
+    "id": "I05U",
     "name": "Greatsword of Pure Flame",
+    "koreanname": "극염의 장검",
     "type": "[Greatsword]",
     "color": 49151,
     "level": 220,
@@ -7701,7 +7791,9 @@
     }
   },
   {
+    "id": "I05V",
     "name": "Gloves of Pure Flame",
+    "koreanname": "극염의 장갑",
     "type": "[Gloves]",
     "color": 49151,
     "level": 220,
@@ -7717,7 +7809,9 @@
     }
   },
   {
+    "id": "I05W",
     "name": "Staff of Pure Flame",
+    "koreanname": "극염의 지팡이",
     "type": "[Staff]",
     "color": 49151,
     "level": 220,
@@ -7735,7 +7829,9 @@
     }
   },
   {
+    "id": "I09E",
     "name": "Bow of Pure Flame",
+    "koreanname": "극염의 활",
     "type": "[Bow]",
     "color": 49151,
     "level": 220,
@@ -7753,7 +7849,9 @@
     }
   },
   {
+    "id": "I0F4",
     "name": "Rifle of True Flame",
+    "koreanname": "극염의 소총",
     "type": "[Gun]",
     "color": 49151,
     "level": 220,
@@ -7771,7 +7869,9 @@
     }
   },
   {
+    "id": "I077",
     "name": "Sword of Lethal Poison",
+    "koreanname": "극독의 검",
     "type": "[Longsword]",
     "color": 49151,
     "level": 240,
@@ -7792,7 +7892,9 @@
     }
   },
   {
+    "id": "I078",
     "name": "Greatsword of Lethal Poison",
+    "koreanname": "극독의 장검",
     "type": "[Greatsword]",
     "color": 49151,
     "level": 240,
@@ -7810,7 +7912,9 @@
     }
   },
   {
+    "id": "I079",
     "name": "Gloves of Lethal Poison",
+    "koreanname": "극독의 장갑",
     "type": "[Gloves]",
     "color": 49151,
     "level": 240,
@@ -7828,7 +7932,9 @@
     }
   },
   {
+    "id": "I07A",
     "name": "Staff of Lethal Poison",
+    "koreanname": "극독의 지팡이",
     "type": "[Staff]",
     "color": 49151,
     "level": 240,
@@ -7846,7 +7952,9 @@
     }
   },
   {
+    "id": "I09D",
     "name": "Bow of Lethal Poison",
+    "koreanname": "극독의 활",
     "type": "[Bow]",
     "color": 49151,
     "level": 240,
@@ -7864,7 +7972,9 @@
     }
   },
   {
+    "id": "I0F2",
     "name": "Rifle of True Poison",
+    "koreanname": "극독의 소총",
     "type": "[Gun]",
     "color": 49151,
     "level": 240,
@@ -7885,7 +7995,9 @@
     }
   },
   {
+    "id": "I07S",
     "name": "True Dragonsword Lainhart",
+    "koreanname": "진 용검 라인하르트",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Greatsword]",
     "color": 12211667,
@@ -7910,7 +8022,9 @@
     }
   },
   {
+    "id": "I07Q",
     "name": "True Dragonstaff Irave",
+    "koreanname": "진 용봉 이레이브",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Staff]",
     "color": 12211667,
@@ -7936,7 +8050,9 @@
     }
   },
   {
+    "id": "I09T",
     "name": "True Dragonbow Aience",
+    "koreanname": "진 용궁 에이엔스",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Bow]",
     "color": 12211667,
@@ -7959,7 +8075,9 @@
     }
   },
   {
+    "id": "I0F9",
     "name": "True Dragon Cannon Belenus",
+    "koreanname": "진 용포 벨레누스",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Gun]",
     "color": 12211667,
@@ -7983,7 +8101,9 @@
     }
   },
   {
+    "id": "I0C1",
     "name": "Parasitic Sword",
+    "koreanname": "기생의 검",
     "description": "Wiggle wiggle..",
     "type": "[Bastard Sword]",
     "color": 9662683,
@@ -8007,7 +8127,9 @@
     }
   },
   {
+    "id": "I0CC",
     "name": "Staff of Tentacles",
+    "koreanname": "촉수의 지팡이",
     "description": "Wiggle.. wiggle?",
     "type": "[Staff]",
     "color": 9662683,
@@ -8030,7 +8152,9 @@
     }
   },
   {
+    "id": "sman",
     "name": "Monster Hunter",
+    "koreanname": "몬스터 헌터",
     "type": "[Gun]",
     "color": 49151,
     "level": 250,
@@ -8053,7 +8177,9 @@
     }
   },
   {
+    "id": "I07B",
     "name": "Laksha, the Reigning Sword of Poison",
+    "koreanname": "독의 지배검 라크샤",
     "description": "Sword fully imbued with Hydra's poison",
     "type": "[Longsword]",
     "color": 9662683,
@@ -8075,7 +8201,9 @@
     }
   },
   {
+    "id": "sksh",
     "name": "Staff of Void",
+    "koreanname": "스태프 오브 보이드",
     "description": "Bow blessed by the wind. It guides arrows toward target's weak spots.",
     "type": "[Staff]",
     "color": 12211667,
@@ -8102,7 +8230,9 @@
     }
   },
   {
+    "id": "guvi",
     "name": "Maw of Monster",
+    "koreanname": "괴물의 손아귀",
     "description": "Right hand that eats up everything in its path",
     "type": "[Bastard Sword]",
     "color": 12211667,
@@ -8128,7 +8258,9 @@
     }
   },
   {
+    "id": "I07J",
     "name": "Tepethia, the Bloodsword of Domination",
+    "koreanname": "피의 지배검 테페시아",
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Longsword]",
     "color": 12211667,
@@ -8151,7 +8283,9 @@
     }
   },
   {
+    "id": "bgst",
     "name": "Sanguiel, the Bloodspear of Domination",
+    "koreanname": "진 혈포 체페슈",
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Greatsword]",
     "color": 12211667,
@@ -8175,7 +8309,9 @@
     }
   },
   {
+    "id": "ram4",
     "name": "Staff of Madness",
+    "koreanname": "스태프 오브 매드니스",
     "description": "The madness of Mad Clown runs deep within this staff",
     "type": "[Staff]",
     "color": 13047173,
@@ -8205,7 +8341,9 @@
     }
   },
   {
+    "id": "pman",
     "name": "Monster Blaster",
+    "koreanname": "몬스터 블래스터",
     "type": "[Gun]",
     "color": 9662683,
     "level": 300,
@@ -8228,7 +8366,9 @@
     }
   },
   {
+    "id": "I0FJ",
     "name": "True Blood Cannon Tepes",
+    "koreanname": "진 혈포 체페슈",
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Gun]",
     "color": 12211667,
@@ -8253,7 +8393,9 @@
     }
   },
   {
+    "id": "gmfr",
     "name": "Leoreus, the Greatsword of Explosion",
+    "koreanname": "작렬의 장검 리오레우스",
     "description": "One slain by this sword won't even leave ashes behind.",
     "type": "[Greatsword]",
     "color": 13047173,
@@ -8279,7 +8421,9 @@
     }
   },
   {
+    "id": "rde4",
     "name": "Crimson Pumpkin Rod",
+    "koreanname": "크림슨 펌킨 로드",
     "description": "\"Hehe heh heh heh\"",
     "type": "[Staff]",
     "color": 13047173,
@@ -8311,7 +8455,9 @@
     }
   },
   {
+    "id": "wneu",
     "name": "Dragon Blaster",
+    "koreanname": "드래곤 블래스터",
     "description": "The weapon of choice for dragon-hunting",
     "type": "[Gun]",
     "color": 12211667,
@@ -8341,7 +8487,9 @@
     }
   },
   {
+    "id": "I0FK",
     "name": "Red Cross",
+    "koreanname": "레드 크로스",
     "description": "Do not forget the past written by blood.",
     "type": "[Gun]",
     "color": 13047173,
@@ -8372,7 +8520,9 @@
     }
   },
   {
+    "id": "I08H",
     "name": "Eximelia, the True Unholy Sword",
+    "koreanname": "진 마검 엑시멜리아",
     "description": "Immerse yourself in battle and war !! Walk the path of destruction !!",
     "type": "[Longsword]",
     "color": 13047173,
@@ -8397,7 +8547,9 @@
     }
   },
   {
+    "id": "gopr",
     "name": "Tepethia, the Crimson Sword of Requiem",
+    "koreanname": "혈혼검 테페시아",
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Longsword]",
     "color": 13047173,
@@ -8425,7 +8577,9 @@
     }
   },
   {
+    "id": "I0CN",
     "name": "Storm Reaver",
+    "koreanname": "스톰 리버",
     "description": "The Omen of Storm - Dagger that brings destruction",
     "type": "[Longsword]",
     "color": 13047173,
@@ -8450,7 +8604,9 @@
     }
   },
   {
+    "id": "I08G",
     "name": "Karonphniamm, the True Holy Sword",
+    "koreanname": "진 성검 카론프니엠",
     "description": "Blessing to the weak; judgment to the evil.",
     "type": "[Greatsword]",
     "color": 13047173,
@@ -8477,7 +8633,9 @@
     }
   },
   {
+    "id": "horl",
     "name": "Bahanar, the Sword of Illusion",
+    "koreanname": "환검 바하나르",
     "description": "An unstable sword that does not have a fixed shape.",
     "type": "[Greatsword]",
     "color": 13047173,
@@ -8508,7 +8666,9 @@
     }
   },
   {
+    "id": "sehr",
     "name": "Flame Soul",
+    "koreanname": "플레임 소울",
     "description": "Its intense heat brings out your inner strength",
     "type": "[Greatsword]",
     "color": 13047173,
@@ -8539,7 +8699,9 @@
     }
   },
   {
+    "id": "ckng",
     "name": "Sanguiel, the Bloodspear of Requiem",
+    "koreanname": "피의 진혼창 상귀엘",
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Greatsword]",
     "color": 13047173,
@@ -8567,7 +8729,9 @@
     }
   },
   {
+    "id": "I08I",
     "name": "Klenetia, the True Holy Staff",
+    "koreanname": "진 성봉 클레네티아",
     "description": "Blessing to the weak; judgment to the evil.",
     "type": "[Staff]",
     "color": 13047173,
@@ -8593,7 +8757,9 @@
     }
   },
   {
+    "id": "I0DH",
     "name": "Benziena, the Earthen Pillar",
+    "koreanname": "대지의 기둥 벤지이나",
     "description": "Beyond the cruel face of Mother Nature, lies a warm face that embraces all.",
     "type": "[Staff]",
     "color": 13047173,
@@ -8627,7 +8793,9 @@
     }
   },
   {
+    "id": "skrt",
     "name": "Icicle Storm",
+    "koreanname": "아이시클 스톰",
     "description": "Magical bow that brews a storm of icicles",
     "type": "[Bow]",
     "color": 13047173,
@@ -8652,7 +8820,9 @@
     }
   },
   {
+    "id": "I09Q",
     "name": "Alkate, the True Unholy Bow",
+    "koreanname": "진 마궁 알카테",
     "description": "Leave none alive !! Pierce their hearts !!",
     "type": "[Bow]",
     "color": 13047173,
@@ -8677,7 +8847,9 @@
     }
   },
   {
+    "id": "I0FB",
     "name": "Eana, the True Holy Cannon",
+    "koreanname": "진 성포 이아나",
     "description": "Blessing to the weak; judgment to the evil.",
     "type": "[Gun]",
     "color": 13047173,
@@ -8704,7 +8876,9 @@
     }
   },
   {
+    "id": "I0FN",
     "name": "Retus, the Bullet of Judgment",
+    "koreanname": "심판의 탄환 레투스",
     "description": "Your sin cannot be washed away.",
     "type": "[Gun]",
     "color": 13047173,
@@ -8729,7 +8903,9 @@
     }
   },
   {
+    "id": "rej6",
     "name": "Spirit Dagger",
+    "koreanname": "정령의 비수",
     "description": "Weapon imbued with an ancient spirit",
     "type": "[Weapon all classes]",
     "color": 14423100,
@@ -8760,7 +8936,9 @@
     }
   },
   {
+    "id": "gobm",
     "name": "Laksha, the Ancient Sword of Poison",
+    "koreanname": "독의 고대검 라크샤",
     "description": "Break free from the binds of poison, and subjugate it to make it yours ..",
     "type": "[Longsword]",
     "color": 14423100,
@@ -8791,7 +8969,9 @@
     }
   },
   {
+    "id": "I08L",
     "name": "Asmodeus, the Archdevil's Greatsword",
+    "koreanname": "천 마검 아스모데우스",
     "description": "The only truth is your strength.",
     "type": "[Bastard Sword]",
     "color": 14423100,
@@ -8819,7 +8999,9 @@
     }
   },
   {
+    "id": "thdm",
     "name": "Bahanar, the True Sword of Illusion",
+    "koreanname": "진 환검 바하나르",
     "description": "Strange magical sword that resonates and grows stronger as the user grows",
     "type": "[Greatsword]",
     "color": 14423100,
@@ -8850,7 +9032,9 @@
     }
   },
   {
+    "id": "sorf",
     "name": "Deathbringer",
+    "koreanname": "데스브링어",
     "description": "Sword that attracts death",
     "type": "[Greatsword]",
     "color": 13047173,
@@ -8885,7 +9069,9 @@
     }
   },
   {
+    "id": "I0C9",
     "name": "Anger",
+    "koreanname": "분노",
     "description": "Let it go, if you can no longer control it.",
     "type": "[Greatsword]",
     "color": 14423100,
@@ -8910,7 +9096,9 @@
     }
   },
   {
+    "id": "hcun",
     "name": "Aglaia, the Spear of Heavenly Flows",
+    "koreanname": "천류의 창 아글라이아",
     "description": "When the heavenly flows pass through you, you shall become flawless",
     "type": "[Greatsword]",
     "color": 14423100,
@@ -8938,7 +9126,9 @@
     }
   },
   {
+    "id": "I08M",
     "name": "Belius, the Archdevil's Staff",
+    "koreanname": "천 마봉 벨리우스",
     "description": "The only truth is your strength.",
     "type": "[Staff]",
     "color": 14423100,
@@ -8965,7 +9155,9 @@
     }
   },
   {
+    "id": "I0CM",
     "name": "Twin Snow",
+    "koreanname": "트윈 스노우",
     "description": "A beautiful yet deadly creation of ice.",
     "type": "[Staff]",
     "color": 14423100,
@@ -9003,7 +9195,9 @@
     }
   },
   {
+    "id": "I09P",
     "name": "Yggrect, the Archdevil's Bow",
+    "koreanname": "천 마궁 이드렉트",
     "description": "The only truth is your strength.",
     "type": "[Bow]",
     "color": 14423100,
@@ -9030,7 +9224,9 @@
     }
   },
   {
+    "id": "I0CU",
     "name": "Flame Explosion",
+    "koreanname": "플레임 익스플로전",
     "description": "\" Destruction is my only path!! \"",
     "type": "[Bow]",
     "color": 14423100,
@@ -9061,7 +9257,9 @@
     }
   },
   {
+    "id": "sbok",
     "name": "Pheles, the Bow of Skies",
+    "koreanname": "신궁 피레스",
     "description": "Bow blessed by the wind. It guides arrows toward target's weak spots.",
     "type": "[Bow]",
     "color": 14423100,
@@ -9091,7 +9289,9 @@
     }
   },
   {
+    "id": "I0FF",
     "name": "Alchatratz, the Archdevil's Cannon",
+    "koreanname": "천 마포 알카트라츠",
     "description": "The only truth is your strength.",
     "type": "[Gun]",
     "color": 14423100,
@@ -9118,7 +9318,9 @@
     }
   },
   {
+    "id": "shas",
     "name": "Dragon Buster",
+    "koreanname": "드래곤 버스터",
     "description": "Cannon specialized for hunting dragons",
     "type": "[Gun]",
     "color": 13047173,
@@ -9146,7 +9348,9 @@
     }
   },
   {
+    "id": "tsct",
     "name": "Hydro Buster",
+    "koreanname": "하이드로 버스터",
     "description": "CANNON BLASTAAaaaaaa",
     "type": "[Gun]",
     "color": 14423100,
@@ -9180,7 +9384,9 @@
     }
   },
   {
+    "id": "I0FI",
     "name": "Devil Blaster",
+    "koreanname": "데블 블래스터",
     "description": "Be gone, evil !",
     "type": "[Gun]",
     "color": 13047173,
@@ -9210,7 +9416,9 @@
     }
   },
   {
+    "id": "I0FO",
     "name": "Bullet of Ruin",
+    "koreanname": "파멸의 탄환",
     "description": "Your end is nigh !",
     "type": "[Gun]",
     "color": 14423100,
@@ -9237,7 +9445,9 @@
     }
   },
   {
+    "id": "I0FL",
     "name": "Crimson Cross",
+    "koreanname": "크림슨 크로스",
     "description": "Shed your blood for the sake of present.",
     "type": "[Gun]",
     "color": 14423100,
@@ -9274,7 +9484,9 @@
     }
   },
   {
+    "id": "I0H2",
     "name": "Claws of Beriel",
+    "koreanname": "베리엘의 손톱",
     "description": "Claws of the Demon Lord, capable of even slicing through dimensions",
     "type": "[Bastard Sword]",
     "color": 14423100,
@@ -9283,6 +9495,7 @@
       { "Claws of Destruction": 1 },
       { "Death Scythe": 1 },
       { "Dragon's Eye": 1 },
+      { "Steel of God": 1 },
       { "Spirit of Abyss": 1 },
       { "Mad Symbol": 1 }
     ],
@@ -9298,7 +9511,9 @@
     }
   },
   {
+    "id": "I0GY",
     "name": "Espishu, the Sword of Eternity",
+    "koreanname": "영겁의 검 에스피슈",
     "description": "The only truth is your strength.",
     "type": "[Bastard Sword]",
     "color": 14423100,
@@ -9322,7 +9537,9 @@
     }
   },
   {
+    "id": "cnhn",
     "name": "Blazing Soul",
+    "koreanname": "블레이징 소울",
     "description": "My inner power is burning up !!",
     "type": "[Greatsword]",
     "color": 14423100,
@@ -9355,7 +9572,9 @@
     }
   },
   {
+    "id": "I0GZ",
     "name": "Ethenos, the Staff of Space",
+    "koreanname": "차원의 지팡이 에테노스",
     "description": "The only truth is your strength.",
     "type": "[Staff]",
     "color": 14423100,
@@ -9379,7 +9598,9 @@
     }
   },
   {
+    "id": "I0H0",
     "name": "Griveddon, the Bow of Certain Destruction",
+    "koreanname": "필멸의 활 그리베돈",
     "description": "The only truth is your strength.",
     "type": "[Bow]",
     "color": 14423100,
@@ -9403,7 +9624,9 @@
     }
   },
   {
+    "id": "I0H1",
     "name": "Chronos, the Cannon of Time",
+    "koreanname": "시공의 대포 크로노스",
     "description": "The only truth is your strength.",
     "type": "[Gun]",
     "color": 14423100,
@@ -9427,7 +9650,9 @@
     }
   },
   {
+    "id": "plcl",
     "name": "Devil Chaser",
+    "koreanname": "데블 체이서",
     "description": "Muzzle of judgment that no evil can escape from",
     "type": "[Gun]",
     "color": 14423100,
@@ -9457,7 +9682,9 @@
     }
   },
   {
+    "id": "silk",
     "name": "Dante's Inferno",
+    "koreanname": "단테스 인페르노",
     "description": "Abandon all hope.",
     "type": "[Gun]",
     "color": 14423100,
@@ -9485,7 +9712,9 @@
     }
   },
   {
+    "id": "rat3",
     "name": "Laktrisha, the Illusional Sword of Poison",
+    "koreanname": "독의 환상검 라크트리샤",
     "description": "I shall deliver you a marvelous death ..",
     "type": "[Longsword]",
     "color": 14423100,
@@ -9521,7 +9750,9 @@
     }
   },
   {
+    "id": "sor3",
     "name": "Crimson Reaper",
+    "koreanname": "크림슨 리퍼",
     "description": "My sword thirsts for your blood !",
     "type": "[Longsword]",
     "color": 14423100,
@@ -9550,7 +9781,9 @@
     }
   },
   {
+    "id": "I0E0",
     "name": "Oceanus, the Sword of Light",
+    "koreanname": "빛의 검 오케아노스",
     "description": "An artifact with a legends that the user's body becomes like the light itself",
     "type": "[Bastard Sword]",
     "color": 14423100,
@@ -9584,7 +9817,9 @@
     }
   },
   {
+    "id": "sor5",
     "name": "Winter's Heart",
+    "koreanname": "겨울의 심장",
     "description": "Reign over cold seasons, and become the winter of the world yourself !",
     "type": "[Greatsword]",
     "color": 14423100,
@@ -9622,7 +9857,9 @@
     }
   },
   {
+    "id": "arsh",
     "name": "Meacronacer, the Sword of Thousand Illusions",
+    "koreanname": "천영의 환검 미크로네이서",
     "description": "A sword unreached by the light, engulfed with the Spirit of Abyss.",
     "type": "[Greatsword]",
     "color": 14423100,
@@ -9655,7 +9892,9 @@
     }
   },
   {
+    "id": "I0DX",
     "name": "Tiberius, the Spear of Lightning",
+    "koreanname": "번개의 창 티베리우스",
     "description": "A weapon that is the symbol of deity's power and status.",
     "type": "[Greatsword]",
     "color": 14423100,
@@ -9691,7 +9930,9 @@
     }
   },
   {
+    "id": "I0FP",
     "name": "Blazing Heart",
+    "koreanname": "블레이징 하트",
     "description": "The everlasting, unwavering flame.",
     "type": "[Greatsword]",
     "color": 14423100,
@@ -9724,7 +9965,9 @@
     }
   },
   {
+    "id": "uflg",
     "name": "Ruinbringer",
+    "koreanname": "루인브링어",
     "description": "Sword that calls forth ruin",
     "type": "[Greatsword]",
     "color": 14423100,
@@ -9759,7 +10002,9 @@
     }
   },
   {
+    "id": "I0DI",
     "name": "Benziena, the Earthen Soul",
+    "koreanname": "대지의 영혼 벤지이나",
     "description": "Attain true knowledge by embracing the great Mother Nature",
     "type": "[Staff]",
     "color": 14423100,
@@ -9790,7 +10035,9 @@
     }
   },
   {
+    "id": "kybl",
     "name": "Bloody Hatred",
+    "koreanname": "선혈빛 증오",
     "description": "Hatred is what drives and excites me !",
     "type": "[Staff]",
     "color": 14423100,
@@ -9823,7 +10070,9 @@
     }
   },
   {
+    "id": "rej5",
     "name": "Staff of Abyss",
+    "koreanname": "스태프 오브 어비스",
     "description": "Staff drenched in the madness of the abyss",
     "type": "[Staff]",
     "color": 14423100,
@@ -9851,7 +10100,9 @@
     }
   },
   {
+    "id": "rej4",
     "name": "Staff of Domination",
+    "koreanname": "지배자의 지팡이",
     "description": "A desire rises within me to dominate everything !",
     "type": "[Staff]",
     "color": 14423100,
@@ -9878,7 +10129,9 @@
     }
   },
   {
+    "id": "I0E3",
     "name": "Hell Riser",
+    "koreanname": "헬 라이서",
     "description": "Is it hope that flickers in front of those eyes? Or is it despair?",
     "type": "[Staff]",
     "color": 14423100,
@@ -9903,7 +10156,9 @@
     }
   },
   {
+    "id": "flag",
     "name": "Triple Snow",
+    "koreanname": "트리플 스노우",
     "description": "Cold, beautiful yet deadly creation of ice",
     "type": "[Staff]",
     "color": 14423100,
@@ -9934,7 +10189,9 @@
     }
   },
   {
+    "id": "rde2",
     "name": "Heartseeker",
+    "koreanname": "심장추적자",
     "description": "It wiggles toward the enemy's heart",
     "type": "[Bow]",
     "color": 14423100,
@@ -9967,7 +10224,9 @@
     }
   },
   {
+    "id": "sor9",
     "name": "Soulstalker",
+    "koreanname": "소울스토커",
     "description": "My arrow shall hunt you down to the end of the Hell !",
     "type": "[Bow]",
     "color": 14423100,
@@ -9995,7 +10254,9 @@
     }
   },
   {
+    "id": "I081",
     "name": "Hellflame",
+    "koreanname": "불의 장검 리오레우스",
     "description": "\" I will burn your soul away as well !! \"",
     "type": "[Bow]",
     "color": 14423100,
@@ -10025,7 +10286,9 @@
     }
   },
   {
+    "id": "tkno",
     "name": "Everfrostbane",
+    "koreanname": "에버프로스트 베인",
     "description": "One with a pure soul, the cold spirits of everfrost shall assist you",
     "type": "[Bow]",
     "color": 14423100,
@@ -10056,7 +10319,9 @@
     }
   },
   {
+    "id": "I0FM",
     "name": "Crimson Star",
+    "koreanname": "크림슨 스타",
     "description": "That blood shall become the soil for the future.",
     "type": "[Gun]",
     "color": 14423100,
@@ -10091,7 +10356,9 @@
     }
   },
   {
+    "id": "I0JR",
     "name": "Atricia, the Sword of Dreams",
+    "koreanname": "몽환의 검 아트리샤",
     "type": "[Longsword]",
     "color": 10092441,
     "level": 400,
@@ -10119,7 +10386,9 @@
     }
   },
   {
+    "id": "ratf",
     "name": "Staff of Plague",
+    "koreanname": "역병의 지팡이",
     "description": "\" You shall not escape the hands of plague ..\"",
     "type": "[Staff]",
     "color": 10092441,
@@ -10148,7 +10417,9 @@
     }
   },
   {
+    "id": "I0JY",
     "name": "Crimson Hatred",
+    "koreanname": "선혈빛 증오",
     "type": "[Staff]",
     "color": 10092441,
     "level": 400,
@@ -10174,7 +10445,9 @@
     }
   },
   {
+    "id": "I0IQ",
     "name": "Pheles, the Bow of God",
+    "koreanname": "신궁 피레스",
     "description": "A bow blessed by the God of Wind. It allows you to launch a rapid barrage of arrows.",
     "type": "[Bow]",
     "color": 10092441,
@@ -10203,7 +10476,9 @@
     }
   },
   {
+    "id": "k3m1",
     "name": "Death Visage",
+    "koreanname": "데스 비사쥬",
     "description": "Death is always nearby ..",
     "type": "[Helm]",
     "color": 12211667,
@@ -10229,7 +10504,9 @@
     }
   },
   {
+    "id": "I07N",
     "name": "Jack Pumpkin Helm +1",
+    "koreanname": "잭 펌킨 투구 +1",
     "description": "Enjoy the Halloween ~",
     "type": "[Helm]",
     "color": 9662683,
@@ -10250,7 +10527,9 @@
     }
   },
   {
+    "id": "I07P",
     "name": "Jack Pumpkin Hood +1",
+    "koreanname": "잭 펌킨 후드 +1",
     "description": "Enjoy the Halloween ~",
     "type": "[Hood]",
     "color": 9662683,
@@ -10270,7 +10549,9 @@
     }
   },
   {
+    "id": "dthb",
     "name": "Grim Visage",
+    "koreanname": "그림 비사쥬",
     "description": "The face of death itself.",
     "type": "[Helm]",
     "color": 14423100,
@@ -10297,7 +10578,9 @@
     }
   },
   {
+    "id": "sor6",
     "name": "Hood of Reaper",
+    "koreanname": "후드 오브 리퍼",
     "description": "Death is always nearby ..",
     "type": "[Hood]",
     "color": 12211667,
@@ -10321,7 +10604,9 @@
     }
   },
   {
+    "id": "I07Y",
     "name": "True Dragon Helm Agron",
+    "koreanname": "진 용투 아그론",
     "description": "Using magic to defy me, the aspect of magic? Ironic, don't you think so?",
     "type": "[Helm]",
     "color": 12211667,
@@ -10345,7 +10630,9 @@
     }
   },
   {
+    "id": "sor7",
     "name": "Hood of Grim Reaper",
+    "koreanname": "후드 오브 그림 리퍼",
     "description": "Overcome death, and become a reaper of life yourself !",
     "type": "[Hood]",
     "color": 13047173,
@@ -10374,7 +10661,9 @@
     }
   },
   {
+    "id": "I0DY",
     "name": "Helm of Battle",
+    "koreanname": "전장의 투구",
     "description": "Follow me without hesitation! Charge!",
     "type": "[Helm/Hood]",
     "color": 13047173,
@@ -10404,7 +10693,9 @@
     }
   },
   {
+    "id": "I0B6",
     "name": "Horns of Destruction",
+    "koreanname": "파괴의 뿔",
     "description": "The wrath of the Great Demon Lord shall destroy all!",
     "type": "[Helm]",
     "color": 14423100,
@@ -10432,7 +10723,9 @@
     }
   },
   {
+    "id": "I0AD",
     "name": "Archangel Halo",
+    "koreanname": "대천사의 헤일로",
     "description": "Those that received salvation, shall be able to overcome hardships",
     "type": "[Helm]",
     "color": 14423100,
@@ -10461,7 +10754,9 @@
     }
   },
   {
+    "id": "I0AE",
     "name": "Prophetia, the Source of Mana",
+    "koreanname": "마력의 원천 프로피티아",
     "description": "Wellspring that provides a level of mana unreachable by mere intelligence.",
     "type": "[Hood]",
     "color": 14423100,
@@ -10487,7 +10782,9 @@
     }
   },
   {
+    "id": "rump",
     "name": "Void Eye",
+    "koreanname": "나락의 눈",
     "description": "Fall into despair and perish.",
     "type": "[Hood]",
     "color": 14423100,
@@ -10514,7 +10811,9 @@
     }
   },
   {
+    "id": "tint",
     "name": "Horn of Devil",
+    "koreanname": "악마의 뿔",
     "description": "Horn imbued with the essence of Devil",
     "type": "[Helm/Hood]",
     "color": 14423100,
@@ -10541,7 +10840,9 @@
     }
   },
   {
+    "id": "I0IR",
     "name": "Horn of Lightning God",
+    "koreanname": "뇌신의 뿔",
     "description": "Horn holding the wrath of the Lightning God",
     "type": "[Helm/Hood]",
     "color": 14423100,
@@ -10565,7 +10866,9 @@
     }
   },
   {
+    "id": "jdrn",
     "name": "Dragon Mask",
+    "koreanname": "드래곤 마스크",
     "description": "Through the eyes of dragon, everything seems so measly ..",
     "type": "[Helm]",
     "color": 14423100,
@@ -10589,7 +10892,9 @@
     }
   },
   {
+    "id": "rde3",
     "name": "Eye of Wallachia",
+    "koreanname": "왈라키아의 눈",
     "description": "I can see your death ..",
     "type": "[Helm]",
     "color": 14423100,
@@ -10614,7 +10919,9 @@
     }
   },
   {
+    "id": "esaz",
     "name": "Protector's Will",
+    "koreanname": "윌 오브 프로텍터",
     "description": "Helm imbued with the will of a protector",
     "type": "[Helm]",
     "color": 14423100,
@@ -10640,7 +10947,9 @@
     }
   },
   {
+    "id": "I0DZ",
     "name": "Halo of Judgment",
+    "koreanname": "심판의 헤일로",
     "description": "Merciless judgment on the dreams and fantasies of the Demon Lord.",
     "type": "[Helm]",
     "color": 14423100,
@@ -10666,7 +10975,9 @@
     }
   },
   {
+    "id": "I0IS",
     "name": "Eye of the Flame Lord",
+    "koreanname": "화신의 눈",
     "description": "Don't stare into it directly or you'll go blind!!",
     "type": "[Hood]",
     "color": 14423100,
@@ -10691,7 +11002,9 @@
     }
   },
   {
+    "id": "wtlg",
     "name": "Prophetia, the Greater Source of Mana",
+    "koreanname": "대마력의 원천 프로피티아",
     "description": "Source that grants mana exceeding the levels mere mortals can achieve.",
     "type": "[Hood]",
     "color": 14423100,
@@ -10714,7 +11027,9 @@
     }
   },
   {
+    "id": "I0E4",
     "name": "Hood of Apocrypha",
+    "koreanname": "후드 오브 아포크리파",
     "description": "You can feel the resentment of the forsaken emanating from this hood.",
     "type": "[Hood]",
     "color": 14423100,
@@ -10738,7 +11053,9 @@
     }
   },
   {
+    "id": "mgtk",
     "name": "Crown of Serenity",
+    "koreanname": "청명의 화관",
     "description": "The more you empty your mind, the fuller it becomes.",
     "type": "[Helm/Hood]",
     "color": 14423100,
@@ -10768,7 +11085,9 @@
     }
   },
   {
+    "id": "axas",
     "name": "Crown of Rage",
+    "koreanname": "진노의 화관",
     "description": "Crown infused with the wrath of the great Demon Lord",
     "type": "[Helm/Hood]",
     "color": 14423100,
@@ -10794,7 +11113,9 @@
     }
   },
   {
+    "id": "iwbr",
     "name": "Crown of Composure",
+    "koreanname": "냉정의 화관",
     "description": "Mystical crown that converts mana into a pure barrier",
     "type": "[Helm/Hood]",
     "color": 14423100,
@@ -10818,7 +11139,9 @@
     }
   },
   {
+    "id": "I0C0",
     "name": "Infected Crab Armor",
+    "koreanname": "감염된 크랩 아머",
     "description": "Armor that looks like it will spew tentacles any moment",
     "type": "[Armor]",
     "color": 9662683,
@@ -10842,7 +11165,9 @@
     }
   },
   {
+    "id": "I07K",
     "name": "Bloody Armor",
+    "koreanname": "블러디 아머",
     "type": "[Armor]",
     "color": 49151,
     "level": 250,
@@ -10861,7 +11186,9 @@
     }
   },
   {
+    "id": "I07L",
     "name": "Bloody Robe",
+    "koreanname": "블러디 로브",
     "type": "[Robe]",
     "color": 49151,
     "level": 250,
@@ -10878,7 +11205,9 @@
     }
   },
   {
+    "id": "will",
     "name": "Precious Wind-Protection Clothing",
+    "koreanname": "소중한 바람막이 털옷",
     "description": "A must-have for winter..",
     "type": "[Robe]",
     "color": 49151,
@@ -10903,7 +11232,9 @@
     }
   },
   {
+    "id": "gomn",
     "name": "Bloodstone Plates",
+    "koreanname": "혈석 갑주",
     "description": "Armor that fuses with user's blood to form a hard carapace",
     "type": "[Armor]",
     "color": 13047173,
@@ -10930,7 +11261,9 @@
     }
   },
   {
+    "id": "I07W",
     "name": "True Dragon Armor Magron",
+    "koreanname": "진 용갑 마그론",
     "description": "Don't be afraid to struggle. You can only grow stronger by driving away your fear.",
     "type": "[Armor]",
     "color": 12211667,
@@ -10955,7 +11288,9 @@
     }
   },
   {
+    "id": "I0CO",
     "name": "Reactive Armor",
+    "koreanname": "리액티브 아머",
     "description": "Armor of Sea that has been purified again. Reacts to all evil.",
     "type": "[Armor]",
     "color": 13047173,
@@ -10980,7 +11315,9 @@
     }
   },
   {
+    "id": "I0CS",
     "name": "Robe of the Sage",
+    "koreanname": "로브 오브 세이지",
     "description": "Magic doesn't work against me, the one that defeated Mage King!",
     "type": "[Robe]",
     "color": 13047173,
@@ -11007,7 +11344,9 @@
     }
   },
   {
+    "id": "rres",
     "name": "True Bloodstone Plates",
+    "koreanname": "진 혈석 갑주",
     "description": "Armor that fuses with user's blood to form a hard carapace",
     "type": "[Armor]",
     "color": 14423100,
@@ -11038,7 +11377,9 @@
     }
   },
   {
+    "id": "I0B3",
     "name": "Purelight Armor",
+    "koreanname": "퓨어라이트 아머",
     "description": "You shall shine brighter under this brilliant aura.",
     "type": "[Armor]",
     "color": 14423100,
@@ -11063,7 +11404,9 @@
     }
   },
   {
+    "id": "I0B2",
     "name": "Cruoris, the Armor of Blood",
+    "koreanname": "피의 갑주 크루오리스",
     "description": "The blood and flesh of your foes will make you stronger",
     "type": "[Armor]",
     "color": 14423100,
@@ -11092,7 +11435,9 @@
     }
   },
   {
+    "id": "sbch",
     "name": "Earthen Plates",
+    "koreanname": "대지의 각갑",
     "description": "You've shown me heroism and will worthy of my blessings.",
     "type": "[Armor]",
     "color": 13047173,
@@ -11121,7 +11466,9 @@
     }
   },
   {
+    "id": "clsd",
     "name": "Guardian Vest",
+    "koreanname": "수호의 도복",
     "description": "You've shown me heroism and will worthy of my blessings.",
     "type": "[Armor]",
     "color": 13047173,
@@ -11150,7 +11497,9 @@
     }
   },
   {
+    "id": "lhst",
     "name": "Fairy Garment",
+    "koreanname": "요정의 예복",
     "description": "You've shown me heroism and will worthy of my blessings.",
     "type": "[Robe]",
     "color": 13047173,
@@ -11178,7 +11527,9 @@
     }
   },
   {
+    "id": "I0B4",
     "name": "Frozen Robe",
+    "koreanname": "프로즌 로브",
     "description": "The ancient cold spirit shall protect you from the hands of enemies.",
     "type": "[Robe]",
     "color": 14423100,
@@ -11208,7 +11559,9 @@
     }
   },
   {
+    "id": "I0D9",
     "name": "Requiem, the Armor of Lamentation",
+    "koreanname": "탄식의 갑주 레퀴엠",
     "description": "Armor that laments for the souls of the dead",
     "type": "[Armor]",
     "color": 14423100,
@@ -11238,7 +11591,9 @@
     }
   },
   {
+    "id": "I0E2",
     "name": "Creation of the Sky and Earth",
+    "koreanname": "천지창조",
     "description": "Armor crafted by an image that embodies the beautiful world",
     "type": "[Armor]",
     "color": 14423100,
@@ -11270,7 +11625,9 @@
     }
   },
   {
+    "id": "jpnt",
     "name": "Tunic of the Wraith",
+    "koreanname": "망령의 튜닉",
     "description": "As you approach death, the power of the wraiths can be borrowed.",
     "type": "[Armor]",
     "color": 14423100,
@@ -11298,7 +11655,9 @@
     }
   },
   {
+    "id": "I0DQ",
     "name": "Benedict, the Crimson Armor of Blood",
+    "koreanname": "선혈의 갑주 베네딕트",
     "description": "It is as if the blood of God is dripping out of this armor.",
     "type": "[Armor]",
     "color": 14423100,
@@ -11324,7 +11683,9 @@
     }
   },
   {
+    "id": "I0EH",
     "name": "Grandine, the Plates of Wraith",
+    "koreanname": "망령의 갑주 그란디네",
     "description": "The cost shall be your soul ..",
     "type": "[Armor]",
     "color": 14423100,
@@ -11354,7 +11715,9 @@
     }
   },
   {
+    "id": "scul",
     "name": "Hellspike Armor",
+    "koreanname": "헬스파이크 아머",
     "description": "Spiked armor of Hell that harms even the wearer",
     "type": "[Armor]",
     "color": 14423100,
@@ -11380,7 +11743,9 @@
     }
   },
   {
+    "id": "vamp",
     "name": "Bloodsoul Plates",
+    "koreanname": "혈혼의 갑주",
     "description": "Armor bound together with hideous amounts of blood and souls",
     "type": "[Armor]",
     "color": 14423100,
@@ -11407,7 +11772,9 @@
     }
   },
   {
+    "id": "azhr",
     "name": "Frostshard Armor",
+    "koreanname": "프로스트샤드 아머",
     "description": "Armor covered with frozen spikes that provides absolute defense",
     "type": "[Armor]",
     "color": 14423100,
@@ -11430,7 +11797,9 @@
     }
   },
   {
+    "id": "sor8",
     "name": "Robe of the Necromancer",
+    "koreanname": "로브 오브 네크로맨서",
     "description": "I've mastered the usage of mana ..",
     "type": "[Robe]",
     "color": 14423100,
@@ -11456,7 +11825,9 @@
     }
   },
   {
+    "id": "dkfw",
     "name": "Winter Robe",
+    "koreanname": "태풍의 도복",
     "description": "Just wearing it is enough to bring down a winter around you.",
     "type": "[Robe]",
     "color": 14423100,
@@ -11483,7 +11854,9 @@
     }
   },
   {
+    "id": "I0DN",
     "name": "Diana, the Robe of Holy Maiden",
+    "koreanname": "성녀의 로브 다이아나",
     "description": "Dear Father, may your salvation be bestowed upon these innocent souls",
     "type": "[Robe]",
     "color": 14423100,
@@ -11514,7 +11887,9 @@
     }
   },
   {
+    "id": "I0DO",
     "name": "Medea, the Robe of the Witch",
+    "koreanname": "마녀의 로브 메데이아",
     "description": "All shall perish! Your body, and even my soul!",
     "type": "[Robe]",
     "color": 14423100,
@@ -11541,7 +11916,9 @@
     }
   },
   {
+    "id": "I0IP",
     "name": "Hades, the Armor of Despair",
+    "koreanname": "절망의 갑주 하데스",
     "description": "Armor that calls the souls of the dead to itself",
     "type": "[Armor]",
     "color": 10092441,
@@ -11571,7 +11948,9 @@
     }
   },
   {
+    "id": "shhn",
     "name": "Fruit Candy Pouch",
+    "koreanname": "과일맛 사탕 주머니",
     "description": "Pouch containing candies of various fruit flavors. The hide is also much more sturdy.",
     "type": "[Ring]",
     "color": 12211667,
@@ -11595,7 +11974,9 @@
     }
   },
   {
+    "id": "I0C2",
     "name": "Tentacle Horn",
+    "koreanname": "촉수의 뿔피리",
     "description": "Passed down from the legends.. here comes Tentacle Horn.",
     "type": "[Ring]",
     "color": 13047173,
@@ -11620,7 +12001,9 @@
     }
   },
   {
+    "id": "I03Z",
     "name": "Teperua, the Ring of Blood",
+    "koreanname": "피의 반지 테페루아",
     "description": "The night begins now!",
     "type": "[Ring]",
     "color": 9662683,
@@ -11648,7 +12031,9 @@
     }
   },
   {
+    "id": "I07V",
     "name": "Mana Heart",
+    "koreanname": "마나 하트",
     "description": "A mystical gem that continuously emits mana.",
     "type": "[Ring]",
     "color": 9662683,
@@ -11668,7 +12053,9 @@
     }
   },
   {
+    "id": "I07Z",
     "name": "Mana Heart Large",
+    "koreanname": "마나 하트 대",
     "description": "0A mystical gem that continuously emits mana.",
     "type": "[Ring]",
     "color": 9662683,
@@ -11689,7 +12076,9 @@
     }
   },
   {
+    "id": "I09A",
     "name": "Everfrost Gauntlet",
+    "koreanname": "에버프로스트 건틀릿",
     "description": "Gloves made from ice that never melts.",
     "type": "[Ring]",
     "color": 13047173,
@@ -11711,7 +12100,9 @@
     }
   },
   {
+    "id": "I08A",
     "name": "Ring of Light",
+    "koreanname": "빛의 반지 세인트",
     "description": "May the blessing of god be upon you",
     "type": "[Ring]",
     "color": 13047173,
@@ -11735,7 +12126,9 @@
     }
   },
   {
+    "id": "I08B",
     "name": "Ring of Darkness",
+    "koreanname": "어둠의 반지 다크니스",
     "description": "Corruption stems from the denial of existence.",
     "type": "[Ring]",
     "color": 13047173,
@@ -11757,7 +12150,9 @@
     }
   },
   {
+    "id": "I0B0",
     "name": "Ring of the Sage",
+    "koreanname": "현자의 반지",
     "description": "The wisdom of sage shall bend even the flow of time.",
     "type": "[Ring]",
     "color": 13047173,
@@ -11782,7 +12177,9 @@
     }
   },
   {
+    "id": "I08F",
     "name": "Mana Heart Frost",
+    "koreanname": "마나 하트 프로스트",
     "description": "A mystical gem that continuously emits mana and chill.",
     "type": "[Ring]",
     "color": 13047173,
@@ -11807,7 +12204,9 @@
     }
   },
   {
+    "id": "I0BK",
     "name": "True Guardian Ring",
+    "koreanname": "트루 가디언 링",
     "description": "I vow my life to protect this sanctuary till my plates crumble away.",
     "type": "[Ring]",
     "color": 13047173,
@@ -11835,7 +12234,9 @@
     }
   },
   {
+    "id": "I0C5",
     "name": "Ring of the Reaper",
+    "koreanname": "사신의 반지",
     "description": "One who controls death, may obtain infinite powers",
     "type": "[Ring]",
     "color": 14423100,
@@ -11862,7 +12263,9 @@
     }
   },
   {
+    "id": "I0CQ",
     "name": "Purefrost Gauntlet",
+    "koreanname": "퓨어프로스트 건틀릿",
     "description": "Gauntlet composed of pure ice",
     "type": "[Ring]",
     "color": 14423100,
@@ -11887,7 +12290,9 @@
     }
   },
   {
+    "id": "I092",
     "name": "Living Dragon Heart",
+    "koreanname": "리빙 드래곤 하트",
     "description": "Dragon's heart, overflowing with endless life energy.",
     "type": "[Ring]",
     "color": 14423100,
@@ -11914,7 +12319,9 @@
     }
   },
   {
+    "id": "brag",
     "name": "Ring of Holy Light",
+    "koreanname": "신성한 빛의 반지",
     "description": "May your skills be blessed",
     "type": "[Ring]",
     "color": 13047173,
@@ -11949,7 +12356,9 @@
     }
   },
   {
+    "id": "I08J",
     "name": "Demonis, the Devil Lord's Ring",
+    "koreanname": "마왕의 반지 데모니스",
     "description": "If you fear the darkness, it will consume you",
     "type": "[Ring]",
     "color": 14423100,
@@ -11972,7 +12381,9 @@
     }
   },
   {
+    "id": "rst1",
     "name": "Soul Drinker",
+    "koreanname": "소울 드링커",
     "description": "A fragment that devours souls",
     "type": "[Ring]",
     "color": 13047173,
@@ -11999,7 +12410,9 @@
     }
   },
   {
+    "id": "I0AN",
     "name": "Latea, the Ring of Chaos",
+    "koreanname": "혼돈의 반지 라테아",
     "description": "Are you capable of ruling over this chaos?",
     "type": "[Ring]",
     "color": 14423100,
@@ -12023,7 +12436,9 @@
     }
   },
   {
+    "id": "I0B1",
     "name": "Ring of Intrusion",
+    "koreanname": "잠식의 반지",
     "description": "You are already one with the ring. You just haven't realized it yet.",
     "type": "[Ring]",
     "color": 14423100,
@@ -12047,7 +12462,9 @@
     }
   },
   {
+    "id": "I0D5",
     "name": "Heart of Ifrit",
+    "koreanname": "이프리트의 심장",
     "description": "Magical crucible with a burning flame that never burns out",
     "type": "[Ring]",
     "color": 14423100,
@@ -12075,7 +12492,9 @@
     }
   },
   {
+    "id": "clfm",
     "name": "Trueblood Ring",
+    "koreanname": "트루블러드 링",
     "description": "Ring that awakens your blood",
     "type": "[Ring]",
     "color": 14423100,
@@ -12107,7 +12526,9 @@
     }
   },
   {
+    "id": "I0D8",
     "name": "Azathos, the Pipe of Chaos",
+    "koreanname": "혼돈의 파이프 아자토스",
     "description": "A mystical pipe, uncomprehensible with human's mere knowledge. It is alive.",
     "type": "[Ring]",
     "color": 14423100,
@@ -12131,7 +12552,9 @@
     }
   },
   {
+    "id": "sclp",
     "name": "Eternal Rose",
+    "koreanname": "이터널 로즈",
     "description": "The everlasting ice will protect you from the evil",
     "type": "[Ring]",
     "color": 14423100,
@@ -12161,7 +12584,9 @@
     }
   },
   {
+    "id": "dust",
     "name": "Bell of Light",
+    "koreanname": "빛의 종",
     "description": "May your soul be blessed",
     "type": "[Ring]",
     "color": 14423100,
@@ -12197,7 +12622,9 @@
     }
   },
   {
+    "id": "I0JX",
     "name": "Ring of Revival",
+    "koreanname": "소생의 반지",
     "type": "[Ring]",
     "color": 14423100,
     "level": 380,
@@ -12223,7 +12650,9 @@
     }
   },
   {
+    "id": "k3m2",
     "name": "Ring of Strike",
+    "koreanname": "일격의 반지",
     "description": "The only thing you can trust in this world is your own power.",
     "type": "[Ring]",
     "color": 14423100,
@@ -12247,7 +12676,9 @@
     }
   },
   {
+    "id": "anfg",
     "name": "Ring of Time",
+    "koreanname": "시간의 반지",
     "description": "Ring that frees you from the passage of time",
     "type": "[Ring]",
     "color": 14423100,
@@ -12301,7 +12732,9 @@
     }
   },
   {
+    "id": "rots",
     "name": "Ispion, the Runed Ring",
+    "koreanname": "룬의 반지 이스피온",
     "description": "Ring engraved with ancient mana runes. It's mana can be released on will.",
     "type": "[Ring]",
     "color": 14423100,
@@ -12333,7 +12766,9 @@
     }
   },
   {
+    "id": "I0E1",
     "name": "Cold Ring of Death",
+    "koreanname": "시린 죽음의 반지",
     "description": "A ring found on the corpse of a man who met a cold lone death.",
     "type": "[Ring]",
     "color": 14423100,
@@ -12367,7 +12802,9 @@
     }
   },
   {
+    "id": "I0EF",
     "name": "Seal of Deceiver",
+    "koreanname": "위장자의 인장",
     "description": "That light will also be stained by the darkness.",
     "type": "[Ring]",
     "color": 14423100,
@@ -12398,7 +12835,9 @@
     }
   },
   {
+    "id": "I0CH",
     "name": "Heaven's Fist",
+    "koreanname": "헤븐즈 피스트",
     "description": "Iron fist of mercy to those corrupted by evil !!",
     "type": "[Ring]",
     "color": 14423100,
@@ -12430,7 +12869,9 @@
     }
   },
   {
+    "id": "I0IB",
     "name": "Latea, the Ring of Overlord",
+    "koreanname": "지배자의 반지 라테아",
     "description": "The one who rules over chaos, is worthy of becoming the Overlord.",
     "type": "[Ring]",
     "color": 10092441,
@@ -12453,7 +12894,9 @@
     }
   },
   {
+    "id": "asbl",
     "name": "Horn of God",
+    "koreanname": "신의 뿔피리",
     "description": "A misuse can result in the destruction of humanity",
     "type": "[Ring]",
     "color": 10092441,
@@ -12479,7 +12922,9 @@
     }
   },
   {
+    "id": "gfor",
     "name": "Wing of Sea",
+    "koreanname": "바다의 날개",
     "type": "[Wings]",
     "color": 49151,
     "level": 100,
@@ -12502,7 +12947,9 @@
     }
   },
   {
+    "id": "modt",
     "name": "Dragon Wings",
+    "koreanname": "드래곤 윙",
     "description": "A magical creation imbued with dragon's breath",
     "type": "[Wings]",
     "color": 12211667,
@@ -12526,7 +12973,9 @@
     }
   },
   {
+    "id": "ofro",
     "name": "Cape of the Count",
+    "koreanname": "백작의 망토",
     "description": "Embrace the darkness, and become the ruler of the night!",
     "type": "[Wings]",
     "color": 12211667,
@@ -12551,7 +13000,9 @@
     }
   },
   {
+    "id": "I0AC",
     "name": "Corrupt Crystal Wings",
+    "koreanname": "타락한 크리스탈 날개",
     "description": "A pair of wings blasting out intense unholy energy",
     "type": "[Wings]",
     "color": 12211667,
@@ -12574,7 +13025,9 @@
     }
   },
   {
+    "id": "I0B5",
     "name": "Cape of Corrupt Flame",
+    "koreanname": "타락한 불꽃의 망토",
     "description": "The corrupt flame burns all with heat as strong as the corruption of its source.",
     "type": "[Wings]",
     "color": 14423100,
@@ -12601,7 +13054,9 @@
     }
   },
   {
+    "id": "I093",
     "name": "Frozen Heart",
+    "koreanname": "프로즌 하트",
     "description": "Only coldness shall guide you to victory.",
     "type": "[Wings]",
     "color": 14423100,
@@ -12628,7 +13083,9 @@
     }
   },
   {
+    "id": "I0BH",
     "name": "Fairy Wings",
+    "koreanname": "요정의 날개",
     "description": "You shall be blessed with the dexterity and intellect of a fairy!",
     "type": "[Wings]",
     "color": 13047173,
@@ -12654,7 +13111,9 @@
     }
   },
   {
+    "id": "I0CE",
     "name": "Wings of Fury",
+    "koreanname": "진노의 날개",
     "description": "Control your inner emotions and become a ruler of power",
     "type": "[Wings]",
     "color": 14423100,
@@ -12681,7 +13140,9 @@
     }
   },
   {
+    "id": "I0D4",
     "name": "Wanderer's Cape",
+    "koreanname": "방랑자의 망토",
     "description": "You will be there, no matter where you are.",
     "type": "[Wings]",
     "color": 14423100,
@@ -12713,7 +13174,9 @@
     }
   },
   {
+    "id": "I0D1",
     "name": "Frost Fairy Wings",
+    "koreanname": "서리 요정의 날개",
     "description": "You shall be blessed with the dexterity and intellect of a fairy!",
     "type": "[Wings]",
     "color": 14423100,
@@ -12738,7 +13201,9 @@
     }
   },
   {
+    "id": "k3m3",
     "name": "Pure Crystal Wings",
+    "koreanname": "퓨어 크리스탈 윙",
     "description": "A set of wings endoused in powerful light",
     "type": "[Wings]",
     "color": 14423100,
@@ -12769,7 +13234,9 @@
     }
   },
   {
+    "id": "oflg",
     "name": "Wings of Phoenix",
+    "koreanname": "불사조의 날개",
     "description": "Wings emitting eternal flames",
     "type": "[Wings]",
     "color": 14423100,
@@ -12800,7 +13267,9 @@
     }
   },
   {
+    "id": "bzbe",
     "name": "Soul Eater",
+    "koreanname": "소울 이터",
     "description": "All souls are merely my prey..",
     "type": "[Wings]",
     "color": 14423100,
@@ -12832,7 +13301,9 @@
     }
   },
   {
+    "id": "gcel",
     "name": "Soul of the Dead",
+    "koreanname": "망자의 영혼",
     "description": "Wings imbued with the spirits of the dead.",
     "type": "[Wings]",
     "color": 14423100,
@@ -12861,7 +13332,9 @@
     }
   },
   {
+    "id": "glsk",
     "name": "Cloak of the Fallen Shadows",
+    "koreanname": "타락한 그림자의 망토",
     "description": "The corrupt shadow will envelop you, and overpower you with its mighty power.",
     "type": "[Wings]",
     "color": 14423100,
@@ -12885,7 +13358,9 @@
     }
   },
   {
+    "id": "sor4",
     "name": "Grim Heart",
+    "koreanname": "그림 하트",
     "description": "Only cruelty shall guide you to victory.",
     "type": "[Wings]",
     "color": 14423100,
@@ -12910,7 +13385,9 @@
     }
   },
   {
+    "id": "I0FQ",
     "name": "Wings of Slayer",
+    "koreanname": "학살자의 날개",
     "description": "Unconstrained emotions can only bring calamity..",
     "type": "[Wings]",
     "color": 14423100,
@@ -12935,7 +13412,9 @@
     }
   },
   {
+    "id": "I0JW",
     "name": "Protection of the Fairies",
+    "koreanname": "요정의 가호",
     "type": "[Wings]",
     "color": 10092441,
     "level": 400,
@@ -12962,7 +13441,9 @@
     }
   },
   {
+    "id": "I0AU",
     "name": "Archangel Wings",
+    "koreanname": "대천사의 날개",
     "type": "[Wings]",
     "description": "Wings blessed by archangels",
     "color": 10092441,
@@ -12988,7 +13469,9 @@
     }
   },
   {
+    "id": "I002",
     "name": "Rusty Pickaxe",
+    "koreanname": "녹슨 곡괭이",
     "type": "[Pickaxe]",
     "color": 8421504,
     "required_by": [
@@ -13003,7 +13486,9 @@
     }
   },
   {
+    "id": "I05L",
     "name": "Sturdy Pickaxe",
+    "koreanname": "튼튼한 곡괭이",
     "type": "[Pickaxe]",
     "color": 8437759,
     "recipe": [
@@ -13023,7 +13508,9 @@
     }
   },
   {
+    "id": "I08Q",
     "name": "Rusty Magical Pickaxe",
+    "koreanname": "녹슨 마법 곡괭이",
     "type": "[Pickaxe]",
     "color": 8421504,
     "required_by": [
@@ -13039,7 +13526,9 @@
     }
   },
   {
+    "id": "I095",
     "name": "Sturdy Magic Pickaxe",
+    "koreanname": "튼튼한 마법 곡괭이",
     "type": "[Pickaxe]",
     "color": 8437759,
     "recipe": [
@@ -13059,7 +13548,9 @@
     }
   },
   {
+    "id": "I05X",
     "name": "Mithril Pickaxe",
+    "koreanname": "미스릴 곡괭이",
     "description": "Mines ores",
     "type": "[Pickaxe]",
     "color": 8437759,
@@ -13078,7 +13569,9 @@
     }
   },
   {
+    "id": "I0BI",
     "name": "Abyssal Pickaxe",
+    "koreanname": "심연의 곡괭이",
     "description": "Mines magical stones",
     "type": "[Pickaxe]",
     "color": 8437759,
@@ -13097,7 +13590,9 @@
     }
   },
   {
+    "id": "I0FU",
     "name": "Hydra Icon",
+    "koreanname": "하이드라 아이콘",
     "type": "[Icon]",
     "color": 32768,
     "recipe": [
@@ -13115,7 +13610,9 @@
     }
   },
   {
+    "id": "I0FV",
     "name": "Count Icon",
+    "koreanname": "백작 아이콘",
     "type": "[Icon]",
     "color": 32768,
     "recipe": [
@@ -13133,7 +13630,9 @@
     }
   },
   {
+    "id": "I0FW",
     "name": "Jack Icon",
+    "koreanname": "잭 아이콘",
     "type": "[Icon]",
     "color": 32768,
     "recipe": [
@@ -13151,7 +13650,9 @@
     }
   },
   {
+    "id": "I0FX",
     "name": "Mage Lord Icon",
+    "koreanname": "마법사 왕 아이콘",
     "type": "[Icon]",
     "color": 32768,
     "recipe": [
@@ -13170,7 +13671,9 @@
     }
   },
   {
+    "id": "I0FY",
     "name": "Wings of Death Icon",
+    "koreanname": "데드렉트 아이콘",
     "type": "[Icon]",
     "color": 32768,
     "recipe": [
@@ -13188,7 +13691,9 @@
     }
   },
   {
+    "id": "I0G0",
     "name": "Guardian Angel Icon",
+    "koreanname": "능천사 아이콘",
     "type": "[Icon]",
     "color": 32768,
     "recipe": [
@@ -13208,7 +13713,9 @@
     }
   },
   {
+    "id": "I0G1",
     "name": "Corrupt Angel Icon",
+    "koreanname": "타천사 아이콘",
     "type": "[Icon]",
     "color": 32768,
     "recipe": [
@@ -13228,7 +13735,9 @@
     }
   },
   {
+    "id": "I0G2",
     "name": "Everfrost Icon",
+    "koreanname": "서리한 아이콘",
     "type": "[Icon]",
     "color": 32768,
     "recipe": [
@@ -13249,7 +13758,9 @@
     }
   },
   {
+    "id": "I0G3",
     "name": "Spider Queen Icon",
+    "koreanname": "거미 여왕 아이콘",
     "type": "[Icon]",
     "color": 32768,
     "recipe": [
@@ -13271,7 +13782,9 @@
     }
   },
   {
+    "id": "I0G4",
     "name": "Demon Lord Icon",
+    "koreanname": "마왕 아이콘",
     "type": "[Icon]",
     "color": 32768,
     "recipe": [
@@ -13292,7 +13805,9 @@
     }
   },
   {
+    "id": "I0GV",
     "name": "Corruptor Icon",
+    "koreanname": "커럽터 아이콘",
     "type": "[Icon]",
     "color": 32768,
     "recipe": [
@@ -13318,7 +13833,9 @@
     }
   },
   {
+    "id": "I0GT",
     "name": "Turtle Lord Icon",
+    "koreanname": "터틀 로드 아이콘",
     "type": "[Icon]",
     "color": 32768,
     "recipe": [
@@ -13343,7 +13860,9 @@
     }
   },
   {
+    "id": "I0GU",
     "name": "Nightmare Icon",
+    "koreanname": "나이트메어 아이콘",
     "type": "[Icon]",
     "color": 32768,
     "recipe": [
@@ -13369,7 +13888,9 @@
     }
   },
   {
+    "id": "I0GW",
     "name": "Master Icon",
+    "koreanname": "마스터 아이콘",
     "type": "[Icon]",
     "color": 32768,
     "recipe": [
@@ -13422,7 +13943,9 @@
     ]
   },
   {
+    "id": "I0J9",
     "name": "Ring of Fervor",
+    "koreanname": "열정의 반지",
     "description": "아군을 보조하는게 너무 좋아!",
     "type": "[Ring]",
     "color": 14423100,
@@ -13448,7 +13971,9 @@
     }
   },
   {
+    "id": "I0JA",
     "name": "Ring of Composure",
+    "koreanname": "냉정의 반지",
     "description": "....",
     "type": "[Ring]",
     "color": 14423100,
@@ -13474,7 +13999,9 @@
     }
   },
   {
+    "id": "I0J6",
     "name": "Plates of Lightning",
+    "koreanname": "번개의 갑주",
     "description": "표면에 강한 전류가 흐르고 있다.",
     "type": "[Armor]",
     "color": 14423100,
@@ -13500,7 +14027,9 @@
     }
   },
   {
+    "id": "I0JB",
     "name": "Maw of Greed",
+    "koreanname": "탐욕의 손아귀",
     "description": "Nothing satiates my hunger !!",
     "type": "[Bastard Sword]",
     "color": 14423100,
@@ -13527,7 +14056,9 @@
     }
   },
   {
+    "id": "I0J7",
     "name": "Ring of Deep Darkness",
+    "koreanname": "깊은 어둠의 반지",
     "description": "타락은 존재의 부정에서 부터 시작 된다.",
     "type": "[Ring]",
     "color": 14423100,
@@ -13558,7 +14089,9 @@
     }
   },
   {
+    "id": "I0J8",
     "name": "Grimoire of Darkness",
+    "koreanname": "흑의 마도서",
     "description": "인간의 손 안에서 모든 것은 타락한다.",
     "type": "[Ring]",
     "color": 14423100,
@@ -13587,7 +14120,9 @@
     }
   },
   {
+    "id": "I0JU",
     "name": "Vest of Cyclone",
+    "koreanname": "태풍의 도복",
     "description": "Vest that bestows you with the speed of a cyclone.",
     "type": "[Armor]",
     "color": 14423100,
@@ -13612,7 +14147,9 @@
     }
   },
   {
+    "id": "I0JV",
     "name": "Vest of Storm",
+    "koreanname": "폭풍의 도복",
     "description": "Vest that bestows you with the speed of a storm.",
     "type": "[Armor]",
     "color": 14423100,
@@ -13634,7 +14171,9 @@
     }
   },
   {
+    "id": "I0JZ",
     "name": "Nebula Rose",
+    "koreanname": "네뷸라 로즈",
     "description": "A rose enveloped in cosmic powers.",
     "type": "[Ring]",
     "color": 10092441,
@@ -13661,7 +14200,9 @@
     }
   },
   {
+    "id": "I0K0",
     "name": "Cosmic Star",
+    "koreanname": "코즈믹 스타",
     "description": "...",
     "type": "[Gun]",
     "color": 10092441,
@@ -13693,7 +14234,9 @@
     }
   },
   {
+    "id": "schl",
     "name": "Hungry Bat Wings",
+    "koreanname": "굶주린 박쥐 날개",
     "description": "Tasty! Human!",
     "type": "[Wings]",
     "color": 13047173,
@@ -13720,7 +14263,9 @@
     }
   },
   {
+    "id": "I0JF",
     "name": "Wings of Blood Lord",
+    "koreanname": "피의 군주의 날개",
     "description": "Wash your sins away with your blood",
     "type": "[Wings]",
     "color": 14423100,
