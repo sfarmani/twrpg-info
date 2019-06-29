@@ -1633,8 +1633,7 @@
       "agility": 250,
       "passive": [
         "Temporarily boosts HP regen to 2500 HP per second when HP drops below 30% of max HP for 10 seconds",
-        "Cooldown: 55 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 55 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -1717,8 +1716,8 @@
       "allstat": 675,
       "passive": [
         "Increases allies' speed",
-        "Activates revival on death (has cooldown of 3 minutes)",
-        "Cannot be dropped during cooldown"
+        "Activates revival on death",
+        "Cooldown: 180 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -1855,8 +1854,7 @@
       "skilldamagepercent": 0.045,
       "passive": [
         "Activates Source of Power on skill cast dealing (STR X 1.5) magic damage on next attack and increasing movement speed by 100% and STR by 425 for 6 seconds",
-        "Cooldown: 10 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 10 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty",
@@ -5310,8 +5308,7 @@
       "skilldamagepercent": 0.05,
       "active": [
         "On use, restores (current MP + (max MP X 20%)) MP",
-        "Cooldown: 45 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -5339,8 +5336,7 @@
       ],
       "active": [
         "On use, increases max HP by 20000 and MP by 7500 for 15 seconds",
-        "Cooldown: 180 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 180 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -5509,8 +5505,7 @@
       "active": [
         "On use, activates Soul Reaper dealing (main stat X 150) magic damage and slowing target's movement speed by 50%",
         "Also gives +5% skill damage to user",
-        "Cooldown: 150 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 150 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -5539,8 +5534,7 @@
       "skilldamagepercent": 0.05,
       "active": [
         "On use, activates Dark Howl dealing (INT X 19.75) magic damage and stacks magic damage taken of target by 1.5% per wave",
-        "Cooldown: 75 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -5567,8 +5561,7 @@
       "skilldamagepercent": 0.05,
       "active": [
         "On use, activates Death Pact granting the user 850 INT for 11 seconds at the cost of max HP X 40%",
-        "Cooldown: 120 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -5629,8 +5622,7 @@
       ],
       "active": [
         "On use, temporarily activates all effects",
-        "Cooldown: 90 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -5780,8 +5772,7 @@
         "If target is an ally: grants target with +40% Magic Defense and heals for INT X 1 per tick for 5 seconds",
         "If target is self: grants target with +40% Magic Defense and heals for INT X 50% per tick for 5 seconds",
         "Upon expiration, will explode dealing INT X 40 splash damage",
-        "Cooldown: 25 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 25 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Squeeze Out",
@@ -5841,8 +5832,7 @@
       "passive": [
         "8% Chance to activate Perseverance on attack:",
         "Grants user with +50% Movement and Attack Speed, +100 main stat per tick for 10 seconds, and a (max HP X 40%) heal",
-        "Cooldown: 30 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -5954,8 +5944,7 @@
         "On use, temporarily increases nearby allies' max HP",
         "If self or summon: grants +6000 HP and +5% skill damage for 45 seconds",
         "If ally is a hero: grans +3000 HP for 45 seconds",
-        "Cooldown: 60 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -6063,9 +6052,7 @@
       "active": [
         "On use, activates Ethereal Strike which deals (max MP X 3) pure damage and destroys any shield effects on target enemy",
         "If an ally is hit: grants the target a (max HP X 20%) shield for 5 seconds",
-        "Cooldown: 30 seconds",
-        "Travel Range: 800",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -6099,8 +6086,7 @@
       ],
       "active": [
         "On use, summons a storm in a 325 radius above the user that deals (main stat X 12.5) magic damage per second for 4 seconds",
-        "Cooldown: 120 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty",
@@ -6156,8 +6142,7 @@
       "mp": 4000,
       "passive": [
         "10% Change to activate Dragonic Skin on being damaged which blocks any amount of damage and heals you for that amount",
-        "After blocking, goes on cooldown for 4 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 4 seconds, cannot be dropped during cooldown"
       ],
       "active": [
         "On use, blocks harmful magic every 3 minutes",
@@ -6393,8 +6378,7 @@
         "On use, activates Star of Creation:",
         "Deals main stat X 15 magic damage to all enemies in targetted area and stuns for 2 seconds",
         "Upon expiration, will explode dealing main stat X 115 magic damage and reduce enemy armor by 250",
-        "Cooldown: 150 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 150 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty",
@@ -6482,8 +6466,7 @@
       "mdpercent": 0.15,
       "active": [
         "On use, activates Death Gaze dealing main stat X 250 magic damage and increases damage taken of targets by 8% for 4 seconds",
-        "Cooldown: 120 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -6595,8 +6578,7 @@
         "Deals main stat X 25 for every 200 distance traveled",
         "Reduces damage output of shackled enemies by 50%",
         "Note: Shackles can be released if target is knockback immune or distance between user and target reaches 1500 or more range",
-        "Cooldown: 90 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -6671,8 +6653,7 @@
       "active": [
         "On use, activates Grand Explosion causing the user to explode and die after 1 second of delay.",
         "Deals (1 + stacks X 50%) X (main stat X 250) magic damage and stuns for 3 seconds",
-        "Cooldown: 180 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 180 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -6760,8 +6741,7 @@
       ],
       "active": [
         "On use, refreshes a random skill",
-        "Cooldown: 30 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -7245,8 +7225,8 @@
       "strength": 200,
       "dtpercent": -0.12,
       "spec": [
-        "Specialty - Heavy Bag",
-        "Merchant - Bag Slam: damage increased by 100%"
+        "Merchant Specialty - Heavy Bag",
+        "Bag Slam: damage increased by 100%"
       ]
     }
   },
@@ -7272,8 +7252,8 @@
       "skilldamagepercent": 0.05,
       "dtpercent": -0.15,
       "spec": [
-        "Specialty - Heavy Bag",
-        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's damage taken by 8% for 5 seconds"
+        "Merchant Specialty - Heavy Bag",
+        "Bag Slam: damage is increased by 150%, and it increases target's damage taken by 8% for 5 seconds"
       ]
     }
   },
@@ -7300,8 +7280,8 @@
       "skilldamagepercent": 0.05,
       "dtpercent": -0.15,
       "spec": [
-        "Specialty - Heavy Bag",
-        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds"
+        "Merchant Specialty - Heavy Bag",
+        "Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds"
       ]
     }
   },
@@ -7327,9 +7307,9 @@
       "strength": 1400,
       "skilldamagepercent": -0.18,
       "spec": [
-        "Specialty - Very Heavy Bag",
-        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds",
-        "Merchant - Throwing Healing Potion: Increases target's skill damage by 5%"
+        "Merchant Specialty - Very Heavy Bag",
+        "Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds",
+        "Throwing Healing Potion: Increases target's skill damage by 5%"
       ]
     }
   },
@@ -7357,9 +7337,9 @@
       "skilldamagepercent": 0.08,
       "dtpercent": -0.2,
       "spec": [
-        "Specialty - Very Heavy Bag",
-        "Merchant - Bag Slam: damage is increased by 300%, and it increases target's damage taken by 10% for 6 seconds",
-        "Merchant - Throwing Healing Potion: Increases target's skill damage by 5%"
+        "Merchant Specialty - Very Heavy Bag",
+        "Bag Slam: damage is increased by 300%, and it increases target's damage taken by 10% for 6 seconds",
+        "Throwing Healing Potion: Increases target's skill damage by 5%"
       ]
     }
   },
@@ -7384,10 +7364,10 @@
       "skilldamagepercent": 0.11,
       "dtpercent": -0.22,
       "spec": [
-        "Specialty - Very Heavy Bag",
-        "Merchant - Bag Slam: damage is increased by 400%, and it increases target's damage taken by 10% for 6 seconds",
-        "Merchant - Throwing Healing Potion: Increases target's skill damage by 8%",
-        "Merchant - Throw Money: Each coin stuns for 0.5 seconds"
+        "Merchant Specialty - Very Heavy Bag",
+        "Bag Slam: damage is increased by 400%, and it increases target's damage taken by 10% for 6 seconds",
+        "Throwing Healing Potion: Increases target's skill damage by 8%",
+        "Throw Money: Each coin stuns for 0.5 seconds"
       ]
     }
   },
@@ -7452,8 +7432,8 @@
       "allstat": 175,
       "movespeed": 200,
       "spec": [
-        "Specialty - Light Bag",
-        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once"
+        "Merchant Specialty - Light Bag",
+        "Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once"
       ]
     }
   },
@@ -7479,8 +7459,8 @@
       "movespeed": 200,
       "hpregen": 300,
       "spec": [
-        "Specialty - Light Bag",
-        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%"
+        "Merchant Specialty - Light Bag",
+        "Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%"
       ]
     }
   },
@@ -7507,8 +7487,8 @@
       "movespeed": 200,
       "hpregen": 400,
       "spec": [
-        "Specialty - Light Bag",
-        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%"
+        "Merchant Specialty - Light Bag",
+        "Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%"
       ]
     }
   },
@@ -7535,9 +7515,9 @@
       "movespeed": 200,
       "hpregen": 600,
       "spec": [
-        "Specialty - Very Light Bag",
-        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%",
-        "Merchant - Life Shield Scroll: Duration increased by 5 seconds"
+        "Merchant Specialty - Very Light Bag",
+        "Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%",
+        "Life Shield Scroll: Duration increased by 5 seconds"
       ]
     }
   },
@@ -7565,9 +7545,9 @@
       "movespeed": 200,
       "hpregen": 800,
       "spec": [
-        "Specialty - Very Light Bag",
-        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 12%",
-        "Merchant - Life Shield Scroll: Duration increased by 5 seconds"
+        "Merchant Specialty - Very Light Bag",
+        "Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 12%",
+        "Life Shield Scroll: Duration increased by 5 seconds"
       ]
     }
   },
@@ -7592,10 +7572,10 @@
       "movespeed": 200,
       "hpregen": 1200,
       "spec": [
-        "Specialty - Very Light Bag",
-        "Merchant - This Bag isn't a Decoration!: You can drink upto 2 potions at once",
-        "Merchant - Throwing Healing Potion: Can be thrown twice in a row, number of placeable potions increased by 3, and reduces target's damage taken by 12%",
-        "Merchant - Life Shield Scroll: Duration increased by 5 seconds and increases target's magic defense by 15%"
+        "Merchant Specialty - Very Light Bag",
+        "This Bag isn't a Decoration!: You can drink upto 2 potions at once",
+        "Throwing Healing Potion: Can be thrown twice in a row, number of placeable potions increased by 3, and reduces target's damage taken by 12%",
+        "Life Shield Scroll: Duration increased by 5 seconds and increases target's magic defense by 15%"
       ]
     }
   },
@@ -8044,8 +8024,7 @@
       "skilldamagepercent": 0.05,
       "active": [
         "On use, activates True Mana Cannon: shoots out a blast mana in a straight line dealing INT X 100 magic damage",
-        "Cooldown: 75 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -8449,8 +8428,7 @@
       "active": [
         "On use, activates Throw Crimson Pumpkin to hit target for (50000 + INT X 125) magic damage and stuns for 1.5 seconds",
         "Also heals user for 15000 HP",
-        "Cooldown: 75 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -8481,8 +8459,7 @@
       "skilldamagepercent": 0.04,
       "active": [
         "On use, activates Dragon Blast dealing (AGI X 125) magic damage and (max HP X 4%) bonus magic damage on collision",
-        "Cooldown: 60 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -8510,8 +8487,7 @@
       "hp": 4000,
       "active": [
         "On use, activates Blood Purge dealing (AGI X 25) magic damage and heals allies for (INT X 2.5)",
-        "Cooldown: 12 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 12 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Bloody Protection",
@@ -8782,8 +8758,7 @@
       "affinityearthpercent": 0.03,
       "active": [
         "On use, activates Twisting Earth in a selected area and restores 10% HP per second of allies within the area for 10 seconds",
-        "Cooldown: 45 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialties - Earth Mastery",
@@ -8963,8 +8938,7 @@
       ],
       "active": [
         "On use, activates Unleash, using all stacks gained dealing (AGI X (stacks X 12.5)) magic damage",
-        "Cooldown: 100 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 100 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -9059,8 +9033,7 @@
       "active": [
         "On use, activates Hand of Death dealing ((max HP X 7.5%) + ((STR X 25) + (INT X 50))) magic splash damage and stuns for 1 second",
         "Also grants user with 15000 attack damage and 650 STR and INT",
-        "Cooldown: 75 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Darkended Light",
@@ -9184,8 +9157,7 @@
       ],
       "active": [
         "On use, activates Frozen Storm freezing enemies in a targetted area for 4 seconds and dealing (((ice/water affinity X 100) / (INT X 56)) X 8) magic damage for the duration",
-        "Cooldown: 90 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Water Mastery",
@@ -9410,8 +9382,7 @@
       "skilldamagepercent": 0.06,
       "active": [
         "On use, activates Devil Blast, shooting a projectile at the targetted area dealing ((AGI X 175) + (max HP X 6%)) magic damage",
-        "Cooldown: 75 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -9474,8 +9445,7 @@
       ],
       "active": [
         "On use, activates Bloody Purge dealing (AGI X 25) magic damage to enemies and healing allies for (INT X 2.5) HP",
-        "Cooldown: 12 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 12 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Bloody Protection",
@@ -9744,8 +9714,7 @@
         "On use, activates Illusion on next attack received blocking any spells that deal more than 10% of max HP",
         "On block, reflects damage back to enemy and deals (2 X (min(1, damage dealt / (max HP + 10%))) X max HP) magic damage and stuns for 2 seconds",
         "Also grants user with: up to a max of +1250 AGI and +10% crit chance for 15 seconds",
-        "Cooldown: 105 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 105 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -9775,8 +9744,7 @@
         "Every 14th attack activates Wrath of Blood dealing (main stat X 40) magic splash damage and heals user for ((main stat X 60%) + 3000) HP",
         "~20.8% Chance to activate Blood Awakening on casting skill to increase AGI by 800 and empower Wrath of Blood for 7.5 seconds",
         "While empowered, Wrath of Blood deals (1.25 X main stat X 40) magic splash damage, heals user for ((main stat X 90%) + 4500) HP, and heals nearby allies for ((main stat X 45%) + 2250) HP",
-        "Blood Awakening cooldown: 15 seconds",
-        "Cannot be dropped during cooldown"
+        "Blood Awakening cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -9811,8 +9779,7 @@
       ],
       "active": [
         "On use, activates Trail of Light sending (stacks X 2) daggers to target. Each dagger deals (main stat X 12.5) magic damage",
-        "Cooldown: 80 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 80 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -9847,8 +9814,7 @@
       "active": [
         "On use, activates Frozen Break that launches a projectile that deals (max HP X 4.5) magic damage and breaking any shields in targetted area",
         "If projectile hits an ally, gives them a (max MP X 30%) shield for 5 seconds",
-        "Cooldown: 30 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Absolute Zero",
@@ -9882,8 +9848,7 @@
       ],
       "active": [
         "On use, activates Grand Forte slamming the ground 6 times around user dealing ((main stat X 130) / 12) magic damage and stunning for 0.125 seconds",
-        "Cooldown: 75 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Redemption",
@@ -9920,8 +9885,7 @@
       ],
       "active": [
         "On use, activates Spear of Deity sending (stacks X 2) spears to target. Each spear deals (main stat X 12.5) magic damage and stuns for 0.125 seconds",
-        "Cooldown: 80 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 80 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Tiberius, the Spear of Lightning",
@@ -9955,8 +9919,7 @@
         "First stack can only be gained by casting, every stack after is gained on attack",
         "While Burning Fervor is active, has a ~20.8% chance to gain another stack and deal ((((stack X 30%) + 1.5) X base attack damage) + (STR X 15)) magic damage on attack",
         "Damage is affected by flame affinity",
-        "Burning Fervor cooldown: 15 seconds",
-        "Cannot be dropped during cooldown"
+        "Burning Fervor cooldown: 15 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Improved Genesis",
@@ -9992,8 +9955,7 @@
       "active": [
         "On use, activates Ruinbringer dealing (((STR X 40) + (INT X 80)) + (max HP X 7.5%)) magic splash damage and stuns for 1 second",
         "Also grants the user max stacks, increasing stats accordingly",
-        "Cooldown: 60 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Darkened Light",
@@ -10023,8 +9985,7 @@
       "affinityearthpercent": 0.06,
       "active": [
         "On use, activates Twisting Earth healing all allies in targetted area for ((max HP X 15%) X 50%) HP over 10 seconds",
-        "Cooldown: 45 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialties - Earth Mastery",
@@ -10064,8 +10025,7 @@
       "active": [
         "On use, activates Eye of Hatred",
         "Every 0.125 seconds sends a projectile dealing (INT X 12.5) magic damage and stun for 0.5 seconds for a total of 16 projectiles", 
-        "Cooldown: 75 seconds",
-        "Cannot be dropped during cooldown"
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     }
   },
