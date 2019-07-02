@@ -1,5 +1,12 @@
 [
     {
+        "name": "24m",
+        "changes": [
+            "> Compatible Version: v0.13c ~",
+            "• No major changes applied (map is being prepared for summer event)"
+        ]
+    },
+    {
         "name": "24k",
         "changes": [
             "> Compatible Version: v0.13c ~",
