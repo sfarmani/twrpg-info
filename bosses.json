@@ -692,7 +692,7 @@
         "name": "Ancient Ent",
         "limit": "2",
         "location": "In Fairy Forest above Deep Forest entrance, where a statue resides",
-        "conditions": "Level 400, 1 Green Powder on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
+        "conditions": "Level 370, 1 Green Powder on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
         "notes": [
             "Restricted to only 8 players. Once a player enters they cannot be substitued with another player"
         ],
@@ -711,7 +711,7 @@
         "name": "Elder Ent",
         "limit": "2",
         "location": "Spawned by Ancient Ent",
-        "conditions": "Level 400",
+        "conditions": "Level 370",
         "notes": [
             "Elder Ent: Upon failure, droprate is reduced by 80%"
         ],
@@ -730,7 +730,7 @@
         "name": "Giant Ent",
         "limit": "2",
         "location": "Spawned by Ancient Ent",
-        "conditions": "Level 400",
+        "conditions": "Level 370",
         "notes": [
             "Giant Ent: Upon failure, droprate is reduced by 80%"
         ],
