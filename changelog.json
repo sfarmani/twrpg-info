@@ -1,5 +1,13 @@
 [
     {
+        "name": "24o",
+        "changes": [
+            "> Compatible Version: v0.13c ~",
+            "# Bug Fixes",
+            "  • Arcane mage - Fixed invincibility not ending after Starlight (F) cast"
+        ]
+    },
+    {
         "name": "24n",
         "changes": [
             "> Compatible Version: v0.13c ~",
