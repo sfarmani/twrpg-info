@@ -1874,7 +1874,8 @@
     "required_by": [
       "Vest of Cyclone",
       "Benziena, the Earthen Soul",
-      "Bag of Mother Nature"
+      "Bag of Mother Nature",
+      "Druid Mantle"
     ]
   },
   {
@@ -5302,7 +5303,8 @@
       "Eternal Rose",
       "Ring of Revival",
       "Bag of Life",
-      "Ring of Composure"
+      "Ring of Composure",
+      "Druid Mantle"
     ],
     "stats": {
       "allstat": 760,
@@ -5984,7 +5986,8 @@
       "Creation of the Sky and Earth",
       "Horn of God",
       "Frost Fairy Wings",
-      "Ring of Composure"
+      "Ring of Composure",
+      "Druid Mantle"
     ]
   },
   {
@@ -6706,7 +6709,8 @@
     "required_by": [
       "Ethenos, the Staff of Space",
       "Triple Snow",
-      "Crimson Hatred"
+      "Crimson Hatred",
+      "Druid Mantle"
     ],
     "stats": {
       "damage": 19000,
@@ -11471,7 +11475,8 @@
       { "Spirit Orb": 1 }
     ],
     "required_by": [
-      "Diana, the Robe of Holy Maiden"
+      "Diana, the Robe of Holy Maiden",
+      "Druid Mantle"
     ],
     "stats": {
       "armor": 480,
@@ -11755,6 +11760,35 @@
       "dtpercent": -0.12,
       "passive": [
         "Activates Frostshard when HP drops below 40%, heal for 17.5% max HP, deals Str x40 Magic Damage to nearby enemies, increase Str by (240+10% bonus Str - only 10% bonus Str for Agi heroes) and DR by 7.5% for 12 seconds"
+      ]
+    }
+  },
+  {
+    "id": "empty",
+    "name": "Druid Mantle",
+    "koreanname": "드루이드의 가운",
+    "type": "[Robe]",
+    "color": 14423100,
+    "level": 380,
+    "recipe": [
+      { "Fairy Garment": 1 },
+      { "Purified Water": 1 },
+      { "Dragonic Orb": 1 },
+      { "Spirit of Forest": 1 },
+      { "Purified Water of Nature": 1 }
+    ],
+    "stats": {
+      "armor": 570,
+      "intelligence": 1120,
+      "mdpercent": 0.12,
+      "passive": [
+        "Summons a forest spirit every 5 seconds in battle, each spirit provides 0.75% hp regeneration, can have up to 4 spirits"
+      ],
+      "active": [
+        "On active sends one spirit towards target",
+        "If target is enemy it deals 40 X int damage",
+        "If target is ally it restores 2.5 X int hp",
+        "Cannot target self, activates single-target effects"
       ]
     }
   },
@@ -12987,6 +13021,35 @@
     }
   },
   {
+    "id": "schl",
+    "name": "Hungry Bat Wings",
+    "koreanname": "굶주린 박쥐 날개",
+    "description": "Tasty! Human!",
+    "type": "[Wings]",
+    "color": 13047173,
+    "level": 360,
+    "recipe": [
+      { "Bat Wings": 1 },
+      { "Potion of Corruption": 1 },
+      { "Crimson Stone": 1 },
+      { "Mark of Storm": 1 },
+      { "Infected Tentacle": 1 }
+    ],
+    "required_by": [
+      "Wings of Blood Lord"
+    ],
+    "stats": {
+      "agility": 550,
+      "intelligence": 550,
+      "hp": 4000,
+      "movespeed": 125,
+      "passive": [
+        "'Drain' Empower next attack after moving 400 range (including by teleport/dash) dealing bonus 60% of your Attack as Pure Damage and healing you for 8% Health (0.125s cd)",
+        "Gain 150 Health regen on every proc up to 5 times for 2.5 seconds."
+      ]
+    }
+  },
+  {
     "id": "I0B5",
     "name": "Cape of Corrupt Flame",
     "koreanname": "타락한 불꽃의 망토",
@@ -13370,6 +13433,32 @@
       "passive": [
         "When casting a spell, empower next attack with Slayer's Fury (Does [10,000+3x Main Stat] Pure Damage and heals for 4% of your Max Health on next attack. 17.5% Chance to Crit, doing [25,000+7.5x Main Stat] Pure Damage and healing for 10% of your Max Health on next attack)",
         "Increases Agility by 70 for 8 seconds when Slayer's Fury activates. When you reach 10 stacks of \"Slayer's Fury\" Skill Damage is increased by 9% (Max 10 Stacks)"
+      ]
+    }
+  },
+  {
+    "id": "I0JF",
+    "name": "Wings of Blood Lord",
+    "koreanname": "피의 군주의 날개",
+    "description": "Wash your sins away with your blood",
+    "type": "[Wings]",
+    "color": 14423100,
+    "level": 400,
+    "recipe": [
+      { "Hungry Bat Wings": 1 },
+      { "Embrace of Nature": 1 },
+      { "Trueblood Ring": 1 },
+      { "Ancient Fragment of Ruins": 1 },
+      { "Dark Crystal": 1 },
+      { "Essence of Darkness": 1 }
+    ],
+    "stats": {
+      "allstat": 740,
+      "hp": 5000,
+      "movespeed": 150,
+      "passive": [
+        "Upon moving 400 distance, activates Bloody Bite on next attack.",
+        "On each proc, deal Attack Damage X 75% pure damage, heal Max HP X 8%, and for 2.5 seconds gain ATK +1500, MS +15, and HP Recovery Rate +250 (can overlap up to 5 times)"
       ]
     }
   },
@@ -14192,61 +14281,6 @@
         "Specialty - Cosmic Star",
         "Shooter - Twin Star: Damage type is converted to magic, but damage is increased by 300% and heals allies hit for (INT X 0.5 + Target's Max HP X 15%)",
         "Shooter - Nanomachine Injection: Healing speed increased by 60% and duration increased by 50%; while buff is active, target is immune to debuffs"
-      ]
-    }
-  },
-  {
-    "id": "schl",
-    "name": "Hungry Bat Wings",
-    "koreanname": "굶주린 박쥐 날개",
-    "description": "Tasty! Human!",
-    "type": "[Wings]",
-    "color": 13047173,
-    "level": 360,
-    "recipe": [
-      { "Bat Wings": 1 },
-      { "Potion of Corruption": 1 },
-      { "Crimson Stone": 1 },
-      { "Mark of Storm": 1 },
-      { "Infected Tentacle": 1 }
-    ],
-    "required_by": [
-      "Wings of Blood Lord"
-    ],
-    "stats": {
-      "agility": 550,
-      "intelligence": 550,
-      "hp": 4000,
-      "movespeed": 125,
-      "passive": [
-        "'Drain' Empower next attack after moving 400 range (including by teleport/dash) dealing bonus 60% of your Attack as Pure Damage and healing you for 8% Health (0.125s cd)",
-        "Gain 150 Health regen on every proc up to 5 times for 2.5 seconds."
-      ]
-    }
-  },
-  {
-    "id": "I0JF",
-    "name": "Wings of Blood Lord",
-    "koreanname": "피의 군주의 날개",
-    "description": "Wash your sins away with your blood",
-    "type": "[Wings]",
-    "color": 14423100,
-    "level": 400,
-    "recipe": [
-      { "Hungry Bat Wings": 1 },
-      { "Embrace of Nature": 1 },
-      { "Trueblood Ring": 1 },
-      { "Ancient Fragment of Ruins": 1 },
-      { "Dark Crystal": 1 },
-      { "Essence of Darkness": 1 }
-    ],
-    "stats": {
-      "allstat": 740,
-      "hp": 5000,
-      "movespeed": 150,
-      "passive": [
-        "Upon moving 400 distance, activates Bloody Bite on next attack.",
-        "On each proc, deal Attack Damage X 75% pure damage, heal Max HP X 8%, and for 2.5 seconds gain ATK +1500, MS +15, and HP Recovery Rate +250 (can overlap up to 5 times)"
       ]
     }
   }
