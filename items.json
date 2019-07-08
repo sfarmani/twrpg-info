@@ -6920,9 +6920,6 @@
       "Can be created using Alchemy with Jaina in the Magician's Tower"
     ],
     "color": 16777215,
-    "required_by": [
-      "Key of Earth"
-    ],
     "recipe": [
       { "Chaos Magic Stone": 1 },
       { "Green Powder": 1 }
@@ -6945,9 +6942,6 @@
       "Can be created using Alchemy with Jaina in the Magician's Tower"
     ],
     "color": 16777215,
-    "required_by": [
-      "Key of Sea"
-    ],
     "recipe": [
       { "Chaos Magic Stone": 1 },
       { "Blue Powder": 1 }
@@ -6994,9 +6988,6 @@
       "Can be created using Alchemy with Jaina in the Magician's Tower"
     ],
     "color": 16777215,
-    "required_by": [
-      "Key of Light"
-    ],
     "recipe": [
       { "Chaos Magic Stone": 1 },
       { "Holy Powder": 1 }
@@ -7018,9 +7009,6 @@
       "Can be created using Alchemy with Jaina in the Magician's Tower"
     ],
     "color": 16777215,
-    "required_by": [
-      "Key of Chaos"
-    ],
     "recipe": [
       { "Chaos Magic Stone": 5 }
     ],
