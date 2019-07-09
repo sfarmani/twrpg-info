@@ -1060,7 +1060,7 @@
         "icon": "ShooterR",
         "active": [
             "Disrupt nearby enemies by discharging powerful air waves from the probes.",
-            "INT X 60 damage",
+            "Main Stat X 60 damage",
             "Increases target's damage taken by 15% and reduces movement speed for 3 seconds",
             "Debuff duration extended by 1 second per 2500 INT",
             "Knockbacks nearby enemies if all probes are nearby"
@@ -1239,7 +1239,7 @@
             "AGI X 25 bonus damage",
             "If cast after Tumble, consumes 100% additional bullets",
             "Attack radius 525",
-            "Attack delay of 0.150 seconds (During Bullet Time 0.10 seconds)"
+            "Attack delay of 0.075 seconds"
         ]
     },
     {
@@ -2021,7 +2021,7 @@
         "icon": "CrusaderF",
         "active": [
             "\"Light that can be bestowed upon the weak - that is the true light.\" - Astarte",
-            "Each slash deals STR X 200 damage",
+            "Each slash deals STR X 225 damage",
             "Final slash deals STR X 475 damage",
             "Stun for 3 fixed seconds"
         ]
@@ -2035,12 +2035,12 @@
         "passive": [
             "A stance that reacts faster than the mind.",
             "Attack damage increased by 50%",
-            "Movement speed increased by 100"
+            "Movement speed increased by 125"
         ],
         "active": [
             "A stance that reacts faster than the mind.",
             "Evades next attack and moves back",
-            "On recast, launches a counter strike",
+            "On recast, launches a counter strike dealing (damage blocked X 7.5) damage",
             "Cooldown: 20 seconds"
         ]
     },
@@ -2091,7 +2091,7 @@
         "passive": [
             "Calm your mind and body to maintain control over yourself.",
             "Increased attack and movement speed",
-            "Chance to temporarily boost attack damage, armor and HP regen on attack"
+            "Chance to temporarily boost attack damage, damage resistance by 20% and HP regen on attack"
         ]
     },
     {
@@ -2146,9 +2146,8 @@
         "icon": "LancerQ",
         "active": [
             "Dash and skewer enemy with a single strike.",
-            "Attack Damage X 200% damage",
-            "STR X 15 bonus damage",
-            "Damage increased by up to 200% based on dash distance",
+            "Attack Damage X 100% damage",
+            "STR X 7.5 bonus pure damage",
             "Empowered: For 20 seconds, critical chance with spear attacks against the target is increased by 50%"
         ]
     },
@@ -2160,10 +2159,10 @@
         "icon": "LancerW",
         "active": [
             "Attack nearby enemies with a swift spear strike.",
-            "Attack Damage X 400% damage",
+            "Attack Damage X 600% damage",
             "STR X 30 bonus damage",
             "Resets duration of Oriental Spear Mastery",
-            "Empowered: Next Pierce's damage is reduced to 45% but does pure damage"
+            "Empowered: Next Pierce's damage is reduced to 150% but does pure damage"
         ]
     },
     {
@@ -2174,10 +2173,11 @@
         "icon": "LancerE",
         "active": [
             "Strikes target's vital point.",
-            "Attack Damage X 1500% damage",
-            "STR X 60 bonus damage",
-            "If target has barriers, breaks them and lands as a critical strike",
-            "Empowered: Increases target's damage taken by 6% for 40 seconds"
+            "Attack Damage X 800% damage",
+            "STR X 40 bonus damage",
+            "If target has barriers, breaks them and lands as a critical strike. If barrier cannot be broken, still lands a critical strike",
+            "Empowered: Increases target's damage taken by 5% for 40 seconds",
+            "Cooldown: 8 seconds"
         ]
     },
     {
@@ -2189,14 +2189,13 @@
         "passive": [
             "Replenish ki in preparation for a fierce battle.",
             "Restores 4% of ki every second",
-            "Having over 60% ki grants 30% skill damage bonus",
+            "Having over 60% ki grants 20% damage output bonus",
             "If ki is restored, HP is also restored for equal %"
         ],
         "active": [
             "Disengage and prepare for the next battle.",
             "Moves back 600 distance",
-            "Removes all debuffs",
-            "Reduces damage taken by 60% for 1.5 seconds"
+            "Reduces damage taken by 50% for 1.5 seconds"
         ]
     },
     {
@@ -2208,10 +2207,9 @@
         "active": [
             "Focus ki into spear and launch it forward.",
             "Skill Level X 5000 damage",
-            "STR X 150 bonus damage",
-            "Boosts STR of allies hit by 10% for 40 seconds",
-            "Recasting detonates spear to deal 50% damage to nearby enemies and stun for 2 seconds",
-            "Range: 900",
+            "STR X 175 bonus damage",
+            "Boosts all stats of allies hit by 10% for 30 seconds",
+            "Explosion deals 150% damage to nearby enemies and stun for 2 seconds",
             "Cooldown: 30 seconds"
         ]
     },
@@ -2223,9 +2221,10 @@
         "icon": "LancerF",
         "active": [
             "\"She disappeared the moment I saw her on the battlefield.. and then suddenly appeared at the center of the enemies' base, which formed a mountain of corpses.\" - Empire War Veteran",
-            "STR X 550 damage",
-            "Deals STR X 350 bonus damage to enemies within 250 radius from target point",
-            "Restores all ki"
+            "STR X 675 damage",
+            "Deals 75% bonus damage to enemies within 250 radius from target point",
+            "Restores all ki",
+            "Cooldown: 150 seconds"
         ]
     },
     {
@@ -2765,9 +2764,10 @@
         "icon": "ThundererPass_2",
         "passive": [
             "Put up a magnetic field to become less affected by gravity.",
-            "Increased armor",
             "On dealing damage or being damaged, stores portion of the damage to boost combat stats",
-            "Can store up to a maximum of 8% per second"
+            "Can store up to a maximum of 8% per second",
+            "Maximum attack damage: (STR X 2.5 + AGI X 2)",
+            "Maximum damage resistance: 20%"
         ]
     },
     {
@@ -2810,7 +2810,8 @@
             "Deliver a fatal blow by striking target's heart.",
             "40000 + Attack Damage X 2000% damage",
             "(STR + AGI) X 100 bonus damage",
-            "Consumes Magnetic Field to deal up to a maximum of 100% bonus damage"
+            "Consumes Magnetic Field to deal up to a maximum of 100% bonus damage",
+            "If 100% of Magnetic Field is consumed, breaks any barriers on the target"
         ]
     },
     {
@@ -2923,8 +2924,9 @@
         "active": [
             "\"It is not a human but rather a monster! A monster crazed by battle! How could she move like that.. It sends shivers down my spines just to think about running into her as enemies in a war.\" - Survivor of Empire War",
             "Each slash deals STR X 20 damage",
-            "Final slam deals STR X 375 damage",
-            "Fully restores HP after cast"
+            "Final slam deals STR X 475 damage",
+            "Fully restores HP after cast",
+            "Gain knockback immunity during cast"
         ]
     },
     {
@@ -3060,10 +3062,8 @@
         ],
         "active": [
             "Release mana to strengthen your body.",
-            "Increases max HP by 30%",
-            "Increases damage reduction by 15%",
-            "Converts restored MP into HP 75% of restored MP",
-            "Heals allies protected by Knight for Knight's max HP X 5% per second"
+            "Increases damage reduction by 20%",
+            "Converts restored MP into HP 75% of restored MP"
         ]
     },
     {
@@ -3076,7 +3076,8 @@
             "Perform a mighty slash with mana-infused sword.",
             "Attack Damage X 400% damage",
             "Consumed MP X 400% bonus damage",
-            "Reactivates with halved effectiveness on attack for 4 seconds"
+            "Reactivates with halved effectiveness on attack for 4 seconds",
+            "Cooldown: 1 second"
         ]
     },
     {
@@ -3167,11 +3168,12 @@
         "icon": "KnightF",
         "active": [
             "\"Corrupt evils that must not exist in this world! The end is nigh. O Holy sword, grant me victory over my foes!\" - Knight during the God-Devil War",
-            "STR X 375 damage",
+            "STR X 400 damage",
             "For each second channeled, size increased & damage increased by 25%",
             "Can be channeled up to a maximum of 4 seconds",
             "Grants 100% damage reduction and CC immunity to allies hit for 5 seconds",
-            "Cancels Release Mana"
+            "Cancels Release Mana",
+            "Cooldown: 150 seconds"
         ]
     },
     {
@@ -3271,11 +3273,10 @@
         "icon": "DarkKnightF",
         "active": [
             "\"Cry !\" - Dark Knight",
-            "Deals Main Stat X 675 damage over 3 seconds",
+            "Deals Main Stat X 775 damage over 3 seconds",
             "Invulnerable while active",
             "On finish, resets cooldowns on other skills",
-            "If STR is main stat, decreases target's movement speed and deals up to 50% bonus damage based on target's current HP",
-            "If INT is main stat, stuns target and deals up to 50% bonus damage based on target's missing HP"
+            "If INT or STR is main stat, stuns target and deals up to 50% bonus damage based on target's missing HP"
         ]
     },
     {
@@ -3815,7 +3816,8 @@
             "Summons a holy cross to bring down judgment on enemies.",
             "Attack Damage X 5000% magic damage",
             "Binds target's movement for 2 seconds",
-            "Deals 75% bonus damage if target is already bound or is below 40% HP"
+            "Deals 75% bonus damage if target is already bound or is below 40% HP",
+            "Cooldown: 30 seconds"
         ]
     },
     {
@@ -3961,7 +3963,7 @@
         "passive": [
             "Forms a harmonious balance between attacking and healing.",
             "Every 4th attack heals you and 2 nearby allies",
-            "Heals for 50 + (STR + INT) X 0.15"
+            "Heals for (max HP X 2%) + (INT X 0.4)"
         ]
     },
     {
@@ -3975,7 +3977,7 @@
             "Attack Damage X 200% pure damage",
             "Grants increased attack speed for 1.5 seconds",
             "Deals Main Stat X 1 pure damage on each attack",
-            "If cast from melee range, deals 150% bonus damage and stuns for 0.5"
+            "If cast from melee range, deals 100% bonus damage and stuns for 0.5"
         ]
     },
     {
@@ -3986,8 +3988,8 @@
         "icon": "HermitW",
         "active": [
             "Heals target's wounds.",
-            "Instantly heals target for Main Stat X 2",
-            "Heals for (STR + INT) X 0.4 every second",
+            "Instantly heals target for Main Stat X 1.5",
+            "Heals for (STR + INT) X 0.3 every second",
             "Reduces damage taken by 20%",
             "Lasts 12 seconds"
         ]
@@ -4017,7 +4019,8 @@
             "Summons an orb that heals allies.",
             "Regenerates HP by Main Stat X 0.5 per second",
             "Regenerates resource point by 5% per second",
-            "Lasts 1~6 seconds based on duration travelled"
+            "Grants 15% skill damage to allies in the orb",
+            "Lasts 2~6 seconds based on duration travelled"
         ]
     },
     {
@@ -4028,8 +4031,8 @@
         "icon": "HermitT",
         "active": [
             "Purges inner evil within the soul.",
-            "Deals Main Stat X 150 magic damage to nearby enemies and stuns for 1.5 seconds",
-            "Clears debuffs and grants shield absorbing Main Stat X 2.5 damage to nearby allies",
+            "Deals Main Stat X 150 magic damage to nearby enemies and stuns for 2 seconds",
+            "Clears debuffs and grants shield absorbing Main Stat X 3 damage to nearby allies",
             "Also activates from summoned orbs",
             "Chain - Inner Release"
         ]
@@ -4053,10 +4056,11 @@
         "icon": "HermitF",
         "active": [
             "\"This water shall cleanse your body and soul.\" - Hermit",
-            "Deals Main Stat X 175 magic damage per second",
-            "Heals for Target's Max HP X 75% per second",
-            "Breaks barriers (once every 1 second)",
-            "Lasts for 4.5 seconds"
+            "Deals Main Stat X 375 magic damage per second",
+            "Heals for Target's Max HP X 30% per second",
+            "Breaks barriers (once every 0.5 seconds)",
+            "HP of allies within the waves will not drop below 1 HP",
+            "Lasts for 3.5 seconds"
         ]
     },
     {
@@ -4114,7 +4118,8 @@
             "Summons a cauldron filled with magical items.",
             "Creates a potion every 2 seconds for 20 seconds",
             "Potion lasts for 30 seconds and heals for INT X 3",
-            "Increases one of target's stats by 10% for 60 seconds"
+            "Increases one of target's stats by 10% for 60 seconds",
+            "Cannot provide the same stat increase twice in a row"
         ]
     },
     {

@@ -6583,7 +6583,7 @@
         "Deals main stat X 25 for every 200 distance traveled",
         "Reduces damage output of shackled enemies by 50%",
         "Note: Shackles can be released if target is knockback immune or distance between user and target reaches 1500 or more range",
-        "Cooldown: 90 seconds, cannot be dropped during cooldown"
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -6698,7 +6698,7 @@
   {
     "id": "sreg",
     "name": "Dragonic Orb",
-    "description": "Weapon with magical runes that allows you to control a dragon",
+    "description": "An orb overflowing with mana enough to controll a dragon",
     "dropped_by": [
       "Bone Dragon"
     ],
@@ -6718,7 +6718,9 @@
       "skilldamagepercent": 0.075,
       "hpregen": 300,
       "active": [
-        "'Dragonic Power' Summons an Ancient Dragon for 15 seconds. You gain 90% Damage Reduction and Instakill immunity. Requires 1.5 second cast time and must be channeled. If you take action while channeling the Ancient Dragon will die immediately. (90 second CD)"
+        "On use, unleashes Draconic Power to summon a Dragon, grants the user 90% magic reduction and render the user invulnerable to intant deaths for 15 seconds.",
+        "Dragon skills:\n↳ Flame Breath [Q]: (main stat X 75) magic damage per second to enemies in target area\n↳ Dragon Scale [W]: Absorbs up to 30000 damage, +7500 HP regen, and lasts 2 seconds",
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -9085,10 +9087,6 @@
       "critchancepercent": 0.09,
       "passive": [
         "Activates Song of Glory on skill cast increasing STR by 125 and skill damage by 2.5% per stack for 5 seconds up to a max of 4 stacks"
-      ],
-      "spec": [
-        "Specialty - Heavenly Flows",
-        "Lancer - The heavenly flows imbue your Meteor Spear, causing it to deal 30% bonus damage and give bonus to every stats."
       ]
     }
   },
@@ -9866,10 +9864,9 @@
       { "Proof of Purification": 1 }
     ],
     "stats": {
-      "damage": 25000,
+      "damage": 31000,
       "strength": 2025,
-      "skilldamagepercent": 0.09,
-      "critchancepercent": 0.09,
+      "critchancepercent": 0.12,
       "passive": [
         "On skill cast, gain a stack and empower next attack with lightning (up to a max of 6 stacks)",
         "Non-empowered attacks have a ~12.8% chance to deal (main stat X ((stacks X 4) + 10)) pure damage",
@@ -9880,10 +9877,6 @@
       "active": [
         "On use, activates Spear of Deity sending (stacks X 2) spears to target. Each spear deals (main stat X 12.5) magic damage and stuns for 0.125 seconds",
         "Cooldown: 80 seconds, cannot be dropped during cooldown"
-      ],
-      "spec": [
-        "Specialty - Tiberius, the Spear of Lightning",
-        "Lancer - Meteor Spear's damage and stat bonus are increased by 30%."
       ]
     }
   },
@@ -10863,8 +10856,8 @@
     ],
     "stats": {
       "armor": 490,
-      "strength": 380,
       "agility": 610,
+      "hp": 3000,
       "skilldamagepercent": 0.075,
       "critchancepercent": 0.075,
       "passive": [
@@ -10948,10 +10941,11 @@
       "intelligence": 999,
       "mdpercent": 0.1,
       "passive": [
-        "Increases nearby allies Skill Damage and Attack Damage by 6%"
+        "Increases nearby allies Skill Damage and Attack Damage by 5%"
       ],
       "active": [
-        "Summons 2 Flame Giants"
+        "Summons 2 Flame Giants",
+        "Flame Giant magic defense: 50%"
       ]
     }
   },
@@ -11029,8 +11023,8 @@
       "affinitywlpercent": 0.075,
       "passive": [
         "Upon healing an ally, 15% chance to activate Serenity.",
-        "  ↳ Gives 5% skill damage for 5 seconds, regenerates Max HP X 2% of target + INT X 0.125 HP and 20% max mana while duration",
-        "  ↳ Activation chance affected by healing output"
+        "Grants 5% skill damage for 5 seconds, regenerates Max HP X 1% of target + INT X 0.125 HP and 20% max mana while duration",
+        "Activation chance affected by healing output"
       ],
       "spec": [
         "Specialty - Summary Judgement",
@@ -11414,8 +11408,7 @@
       ],
       "spec": [
         "Specialty - Bonds of Earth",
-        "Knight - Restores 12% of HP on casting Instincts, and becomes immune to stun/silence/knockback while active.",
-        "Lancer - Battle Recovery restores 12% of HP"
+        "Knight - Restores 12% of HP on casting Instincts, and becomes immune to stun/silence/knockback while active."
       ]
     }
   },
@@ -11574,8 +11567,7 @@
       ],
       "spec": [
         "Specialties - Bonds of Sky and Earth",
-        "Knight - Restores 12% of HP and MP on casting Instincts, and becomes immune to stun/silence/knockback while active.",
-        "Lancer - Battle Recovery restores 18%"
+        "Knight - Restores 12% of HP and MP on casting Instincts, and becomes immune to stun/silence/knockback while active."
       ]
     }
   },
@@ -11664,7 +11656,6 @@
       ],
       "spec": [
         "Specialty - Wraith Possession",
-        "Martial Artist - Movement Speed: Successful counter summons Wraith to do 40% bonus damage",
         "Martial Artist - Nameless Arts: Reduces damage taken by 20% while active and grants immunity to instant death spells."
       ]
     }
