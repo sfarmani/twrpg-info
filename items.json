@@ -2433,7 +2433,7 @@
       "armor": 200,
       "strength": 75,
       "agility": 100,
-      "dodgechangepercent": 0.12
+      "dodgechancepercent": 0.12
     }
   },
   {
