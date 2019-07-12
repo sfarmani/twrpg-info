@@ -122,8 +122,8 @@
         "icon": "SoulWeaverPass",
         "passive": [
             "Expertise in black magic allows Soul Weaver to subjugate souls to her will.",
-            "Creates 1 soul per second (12 + MP recovery / 100)",
-            "Max HP x 1% per soul absorption"
+            "Regenerates (12 + MP regen / 50) souls per second",
+            "Restores Max HP X 1% for each soul absorbed"
         ]
     },
     {
@@ -134,9 +134,9 @@
         "icon": "SoulWeaverA",
         "active": [
             "Sends out a spinning scythe that harvests the souls of enemies.",
-            "Deals Attack Damage X 200% damage per second",
-            "Absorbs 5 souls (10 souls for boss) per second",
-            "Reduces target's healing received by 40% and movement speed by 80%",
+            "Attack Damage X 200% physical damage per second (ignore's target's defense)",
+            "Absorbs 4 souls (10 souls for boss) per second",
+            "Reduces target's healing received by 15% and movement speed by 60%",
             "Affected by attack speed"
         ]
     },
@@ -147,10 +147,10 @@
         "hotkey": "[Q]",
         "icon": "SoulWeaverQ",
         "active": [
-            "Pierces through the souls of the living.",
-            "INT X 80 magic damage",
-            "Increases magic damage taken by enemies by (5+ INT / 2500)% for 15 seconds",
-            "Increases magic defense of allies by 15% for 45 seconds",
+            "Fires shards made from concentrated souls.",
+            "INT X 20 magic damage",
+            "Increases damage taken by (5 + INT / 2500)% and reduces speed by 40% for 5 seconds",
+            "On consecutive casts, fires additional shards and stuns for 0.5 seconds",
             "Lasts 5 seconds"
         ]
     },
@@ -163,7 +163,7 @@
         "active": [
             "Surrounds self and nearby allies with spiritual barriers.",
             "Increases skill damage by 12% for 30 seconds",
-            "Regenerates INT X 0.2 per second"
+            "Regenerates INT X 0.2 HP per second"
         ]
     },
     {
@@ -188,9 +188,9 @@
         "icon": "SoulWeaverR",
         "active": [
             "Pierces through the souls of the living.",
-            "INT X 80 magic damage",
+            "INT X 60 magic damage",
             "Increases magic damage taken by enemies by 8% for 15 seconds",
-            "Increases magic defense of allies by 15% for 45 seconds"
+            "Increases magic defense of you and allies by 15% for 45 "
         ]
     },
     {
@@ -204,7 +204,7 @@
             "INT X 60 magic damage per second",
             "Periodically stuns for 1 second",
             "Prevents nearby allies' HP from dropping below 1",
-            "On expiration, regenereates 25% of their max HP",
+            "On expiration, regenerates 50% of their max HP",
             "Lasts 6 seconds",
             "Consumes 60 souls"
         ]
