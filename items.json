@@ -2599,7 +2599,7 @@
       "damage": 7400,
       "strength": 620,
       "passive": [
-        "Chance to activate Dragon's Claw on attack dealing (4500 + (main stat X 2.5)) magic damage"
+        "~10.9% Chance to activate Dragon's Claw on attack dealing (4500 + (main stat X 2.5)) magic damage"
       ]
     }
   },
@@ -2621,7 +2621,7 @@
       "damage": 8400,
       "agility": 540,
       "passive": [
-        "Chance to activate Dragon's Claws on attack dealing (4500 + (main stat X 2.5)) magic damage on attack"
+        "~10.9% Chance to activate Dragon's Claws on attack dealing (4500 + (main stat X 2.5)) magic damage on attack"
       ]
     }
   },
@@ -2665,7 +2665,7 @@
       "damage": 12800,
       "agility": 570,
       "passive": [
-        "Chance to activate Dragon's Claws on attack dealing (4500 + (main stat X 2.5)) magic damage on attack"
+        "~10.9% Chance to activate Dragon's Claws on attack dealing (4500 + (main stat X 2.5)) magic damage on attack"
       ]
     }
   },
@@ -2687,9 +2687,9 @@
       "armor": 560,
       "strength": 200,
       "agility": 200,
+      "hpregen": 40,
       "passive": [
-        "Improved HP regen",
-        "Absorbs damage taken by 200"
+        "Absorbs damage taken by 300"
       ]
     }
   },
@@ -11743,9 +11743,10 @@
     }
   },
   {
-    "id": "empty",
+    "id": "I0L9",
     "name": "Druid Mantle",
     "koreanname": "드루이드의 가운",
+    "description": "자연의 섭리를 거스르지 말라.",
     "type": "[Robe]",
     "color": 14423100,
     "level": 380,
