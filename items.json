@@ -3550,7 +3550,7 @@
       "armor": 150,
       "intelligence": 700,
       "hp": 2500,
-      "affinityiwprecent": 0.03,
+      "affinityiwpercent": 0.03,
       "passive": [
         "Chance to temporarily boost INT on attack"
       ]
@@ -3628,7 +3628,7 @@
     "stats": {
       "damage": 13500,
       "agility": 1375,
-      "affinityiwprecent": 0.05,
+      "affinityiwpercent": 0.05,
       "passive": [
         "Chance to activate Frost effect on attack"
       ]
@@ -3811,7 +3811,7 @@
       "damage": 11500,
       "intelligence": 1550,
       "hp": 3000,
-      "affinityiwprecent": 0.03,
+      "affinityiwpercent": 0.03,
       "passive": [
         "On use, activates Frozen Shard which launches a ball of ice that freezes everything in its path"
       ],
@@ -8783,7 +8783,7 @@
     "stats": {
       "damage": 16500,
       "agility": 1625,
-      "affinityiwprecent": 0.075,
+      "affinityiwpercent": 0.075,
       "passive": [
         "Applies bonus (AGI X (0.75 ~ 1.25)) magic damage and a slow effect on attack for 0.75 seconds. Damage is affected by ice/water affinity",
         "~8.3% Chance to send out 5 icicles on attack each dealing (AGI X (4 ~ 6)) magic damage. Damage is affected by ice/water affinity"
@@ -9141,7 +9141,7 @@
       "damage": 15000,
       "intelligence": 2100,
       "hp": 5000,
-      "affinityiwprecent": 0.06,
+      "affinityiwpercent": 0.06,
       "passive": [
         "On skill cast, empowers next attack with ice to deal (INT X 7.5) magic damage and drenches enemy with wetness",
         "If target is already drenched with wetness, deals (INT X 15) magic damage instead",
@@ -10120,7 +10120,7 @@
       "damage": 18500,
       "intelligence": 2350,
       "hp": 6000,
-      "affinityiwprecent": 0.08,
+      "affinityiwpercent": 0.08,
       "passive": [
         "'Snowy Wrath' On skill cast, empower your next attack with frost dealing 20x Int Damage and slowing target"
       ],
@@ -10252,7 +10252,7 @@
       "strength": 1140,
       "agility": 2010,
       "skilldamagepercent": 0.09,
-      "affinityiwprecent": 0.09,
+      "affinityiwpercent": 0.09,
       "passive": [
         "Hit enemies with an icicle on every attack (1.5-2x Agi Damage [Damage is variable])",
         "'Ice Cyclone' 8% chance to activate on attack dealing AoE Damage (40-60x Agi Damage [Damage is variable] 9 second CD)"
@@ -11080,7 +11080,7 @@
       "allstat": 720,
       "movespeedpercent": 0.12,
       "skilldamagepercent": 0.075,
-      "affinityiwprecent": 0.075,
+      "affinityiwpercent": 0.075,
       "active": [
         "'Composure' Gain 7.5% Skill Damage and 375 All Stats on use for 12 seconds. 20% chance to microfreeze all enemies in 1000 AoE on skill cast for duration of buff. (100 second CD)"
       ]
@@ -12550,7 +12550,7 @@
       "intelligence": 1080,
       "hp": 4000,
       "movespeed": 75,
-      "affinityiwprecent": 0.06,
+      "affinityiwpercent": 0.06,
       "passive": [
         "Increase nearby allies Magical Resistance by 8% (Aura Range 1,200)"
       ],
@@ -13199,7 +13199,7 @@
       "mp": 12500,
       "movespeed": 125,
       "skilldamagepercent": 0.11,
-      "affinityiwprecent": 0.07,
+      "affinityiwpercent": 0.07,
       "active": [
         "Creates a portal between Capitol Prius and your current location"
       ]
@@ -13460,7 +13460,7 @@
     "stats": {
       "allstat": 1160,
       "movespeed": 160,
-      "affinityiwprecent": 0.05,
+      "affinityiwpercent": 0.05,
       "affinityflamepercent": 0.05,
       "affinitywlpercent": 0.05,
       "passive": [
@@ -14220,7 +14220,7 @@
       "intelligence": 1400,
       "hp": 5000,
       "movespeed": 125,
-      "affinityiwprecent": 0.06,
+      "affinityiwpercent": 0.06,
       "affinitywlpercent": 0.06,
       "passive": [
         "Increase nearby allies Magical Resistance by 10% (Aura Range 1,200)"
