@@ -417,24 +417,6 @@
     }
   },
   {
-    "id": "mnst",
-    "name": "Mask of Blood (summon item)",
-    "description": "Mask cursed by Wallachia",
-    "dropped_by": [
-      "Duchy of Wallachia creeps"
-    ],
-    "type": "[Misc]",
-    "color": 8437759,
-    "notes": [
-      "Droprate increases every 5 minutes that it does not drop"
-    ],
-    "stats": {
-      "active": [
-        "Summons a field boss"
-      ]
-    }
-  },
-  {
     "id": "sor2",
     "name": "Scarab Bone",
     "dropped_by": [
@@ -4681,6 +4663,24 @@
       "active": [
         "On use, activates Bloodlust granting bonus attack speed, damage, and 100% life steal for 12 seconds",
         "Cooldown: 90 seconds"
+      ]
+    }
+  },
+  {
+    "id": "mnst",
+    "name": "Mask of Blood (summon item)",
+    "description": "Mask cursed by Wallachia",
+    "dropped_by": [
+      "Duchy of Wallachia creeps"
+    ],
+    "type": "[Misc]",
+    "color": 8437759,
+    "notes": [
+      "Droprate increases every 5 minutes that it does not drop"
+    ],
+    "stats": {
+      "active": [
+        "Summons a field boss"
       ]
     }
   },
