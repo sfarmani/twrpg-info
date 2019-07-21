@@ -6418,7 +6418,6 @@
       "attackspeedpercent": 0.25,
       "passive": [
         "When attacking an enemy under 50% HP, increases damage output by 15% for 5 seconds",
-        "Deals 15% bonus damage to enemies under 50% HP for 5 seconds",
         "Empowers next attack for main stat X 125 magic damage every 12 seconds",
         "Cannot be dropped during cooldown"
       ]
