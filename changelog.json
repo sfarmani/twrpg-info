@@ -1,5 +1,30 @@
 [
     {
+        "name": "24r",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "# Bug Fixes",
+            "  • Druid mantle - Fixed shooters being unable to wear it",
+            "# Monsters",
+            "  * Archangel Samael *",
+            "    • Hp: 27,120,000 →  30,120,000",
+            "    • Armor: 910 → 1240",
+            "    • Protection of light",
+            "      ⏵Damage Resistance: 50% → 25%",
+            "    • Souls of Light",
+            "      ⏵Speed and radius increased",
+            "  * Valtora *",
+            "    • Tornado damage per second: 15% max HP → 10% max HP",
+            "# Misc",
+            "  • Added new bag to bag space for each player",
+            "    ⏵Has 12 slots",
+            "    ⏵Cannot move or teleport",
+            "    ⏵Can save same items as normal bag",
+            "  • Added new sections to closet for aura/mount items",
+            "  • Save code length increased"
+        ]
+    },
+    {
         "name": "24o",
         "changes": [
             "> Compatible Version: v0.13c ~",
