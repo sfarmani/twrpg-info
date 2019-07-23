@@ -44,7 +44,7 @@
             "[Wings]"
         ],
         "role": [
-            "Int based buffer/debuffer"
+            "Buffer/Debuffer"
         ],
         "description": [
             "A girl not so good with jokes and always tense with pressure. Cold like a keen edged sword.",
@@ -70,7 +70,7 @@
             "[Wings]"
         ],
         "role": [
-            "versatile Invoker. Has DPS, DoT, Support, Buffs, Debuffs"
+            "Versatile Invoker. Has DPS, DoT, Support, Buffs, Debuffs"
         ],
         "description": [
             "A youngster traveling through the Easts.",
@@ -160,7 +160,7 @@
             "[Wings]"
         ],
         "role": [
-            "Combo Burst"
+            "Combo Burster"
         ],
         "description": [
             "A prominent heir of Vagratia, an Empire renowned for its expertise in Magic.",
@@ -187,7 +187,8 @@
             "[Wings]"
         ],
         "role": [
-            "Support Ranged Burst Damage Meme (Ask Giddo)"
+            "INT: Support/Healer with medium damage",
+            "AGI: DPS with medium healing"
         ],
         "description": [
             "Her origin is Maz Empire, the 'Third Empire' that perished from the clashes of the Empire War.",
@@ -269,7 +270,7 @@
             "[Wings]"
         ],
         "role": [
-            "High sustained damage (DoT dps), and strong at disabling bosses"
+            "High sustained damage (DoT dps), and strong stunner"
         ],
         "description": [
             "He carries an exotic sword on his back.",
@@ -330,7 +331,7 @@
             "[Wings]"
         ],
         "role": [
-            "Complicated Melee to Mid-ranged Burst DPS"
+            "Melee to Mid-ranged Burst DPS"
         ],
         "description": [
             "An innocent troublemaker, who often shows up randomly at the corners of Prius, snatches a fruit or two from the markets and run off into the darkness.",
@@ -449,7 +450,7 @@
             "[Wings]"
         ],
         "role": [
-            "Semi-Burst DPS"
+            "Burst DPS"
         ],
         "description": [
             "A fearsom warrior known for her agility and expertise wielding large scythes.",
@@ -573,7 +574,7 @@
             "[Wings]"
         ],
         "role": [
-            "DoT DPS with small Burst DPS"
+            "Shield Breaker/DoT DPS with small Burst DPS"
         ],
         "description": [
             "A young girl who succeeds a prestigious bloodline, known for its mastery with lightning magic.",
@@ -653,7 +654,7 @@
             "[Wings]"
         ],
         "role": [
-            "Sustain/DoT/Tank"
+            "Shield Breaker/Sustain/DoT/Tank"
         ],
         "description": [
             "A girl with beatiful blue hair and amethyst colored eyes.",
@@ -688,8 +689,8 @@
             "[Wings]"
         ],
         "role": [
-            "INT - Support DPS and AOE Healer",
-            "STR - Burst DPS"
+            "INT: Support DPS and AOE Healer",
+            "STR: Burst DPS"
         ],
         "description": [
             "......"
@@ -767,7 +768,7 @@
             "[Wings]"
         ],
         "role": [
-            "Support"
+            "Support/Healer"
         ],
         "description": [
             "She's always blessed with luck and divine spirits.",
@@ -863,7 +864,7 @@
             "[Wings]"
         ],
         "role": [
-            "DPS/Support"
+            "Shield Breaker/DPS/Support depends on stat"
         ],
         "description": [
             "A young man who ran away from the civilization at a young age to live in the woods.",
@@ -888,7 +889,7 @@
             "[Wings]"
         ],
         "role": [
-            "DPS/Support"
+            "Shield Breaker/DPS/Support"
         ],
         "description": [
             "Hey guys.. I have returned."
