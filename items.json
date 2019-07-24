@@ -2775,38 +2775,21 @@
     "color": 8437759,
     "level": 300,
     "droprate": 0.06,
+    "notes": [
+      "The order of the drops below is the order of the menu to select"
+    ],
     "drops": [
-      "Irbeth, the Sword of Lightning",
       "Leoreus, the Greatsword of Flame",
-      "Benziena, the Rod of Earth",
+      "Irbeth, the Sword of Lightning",
       "Pheles, the Bow of Wind",
+      "Benziena, the Rod of Earth",
       "Retus, the Iron Bullet"
     ]
   },
   {
-    "id": "I080",
-    "name": "Irbeth, the Sword of Lightning",
-    "description": "I'll show you what it means to controll the lightning",
-    "dropped_by": [
-      "Mage Lord (Sealed Weapon)"
-    ],
-    "type": "[Longsword]",
-    "color": 12211667,
-    "level": 260,
-    "required_by": [
-      "Storm Reaver"
-    ],
-    "stats": {
-      "damage": 8500,
-      "agility": 800,
-      "passive": [
-        "Chance to strike down lightning on attack"
-      ]
-    }
-  },
-  {
     "id": "I081",
     "name": "Leoreus, the Greatsword of Flame",
+    "koreanname": "불의 장검 리오레우스",
     "description": "Hellflame isn't the only thing that can burn everything up.",
     "dropped_by": [
       "Mage Lord (Sealed Weapon)"
@@ -2826,33 +2809,31 @@
     }
   },
   {
-    "id": "I082",
-    "name": "Benziena, the Rod of Earth",
-    "description": "The Mother Nature embraces everything. In other words, it binds and controls everything.",
+    "id": "I080",
+    "name": "Irbeth, the Sword of Lightning",
+    "koreanname": "뇌전의 검 이르베스",
+    "description": "I'll show you what it means to controll the lightning",
     "dropped_by": [
       "Mage Lord (Sealed Weapon)"
     ],
-    "type": "[Staff]",
+    "type": "[Longsword]",
     "color": 12211667,
     "level": 260,
     "required_by": [
-      "Benziena, the Earthen Pillar"
+      "Storm Reaver"
     ],
     "stats": {
-      "damage": 7300,
-      "intelligence": 900,
-      "active": [
-        "On use, activates Earthen Rage which slows attack and movement speed of enemies in an AoE"
-      ],
-      "spec": [
-        "Specialty",
-        "Alchemist - Improved Stone Golem: Increases the size and health of Stone Golem by 15%"
+      "damage": 8500,
+      "agility": 800,
+      "passive": [
+        "Chance to strike down lightning on attack"
       ]
     }
   },
   {
     "id": "I09M",
     "name": "Pheles, the Bow of Wind",
+    "koreanname": "바람의 궁 피레스",
     "description": "The gentle winds of east are said to guide travellers to a safe journey.",
     "dropped_by": [
       "Mage Lord (Sealed Weapon)"
@@ -2877,8 +2858,35 @@
     }
   },
   {
+    "id": "I082",
+    "name": "Benziena, the Rod of Earth",
+    "koreanname": "대지의 봉 벤지이나",
+    "description": "The Mother Nature embraces everything. In other words, it binds and controls everything.",
+    "dropped_by": [
+      "Mage Lord (Sealed Weapon)"
+    ],
+    "type": "[Staff]",
+    "color": 12211667,
+    "level": 260,
+    "required_by": [
+      "Benziena, the Earthen Pillar"
+    ],
+    "stats": {
+      "damage": 7300,
+      "intelligence": 900,
+      "active": [
+        "On use, activates Earthen Rage which slows attack and movement speed of enemies in an AoE"
+      ],
+      "spec": [
+        "Specialty",
+        "Alchemist - Improved Stone Golem: Increases the size and health of Stone Golem by 15%"
+      ]
+    }
+  },
+  {
     "id": "I0F7",
     "name": "Retus, the Iron Bullet",
+    "koreanname": "강철의 탄환 레투스",
     "description": "All beings are equal in the face of a bullet!",
     "dropped_by": [
       "Mage Lord (Sealed Weapon)"
@@ -3008,7 +3016,7 @@
     ]
   },
   {
-    "id": "I060",
+    "id": "I062",
     "name": "Mithril",
     "dropped_by": [
       "Magical Ore Deposit (Mage Lord)"
