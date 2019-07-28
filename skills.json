@@ -657,7 +657,8 @@
             "Each attack deals Consumed MP X 600% damage",
             "Attack speed is affected by Witch's attack speed bonus",
             "Can maintain up to a maximum of 2 gates",
-            "Orb attacks prioritizes target witch is attacking if witch is nearby"
+            "Orb attacks prioritizes target witch is attacking if witch is nearby",
+            "Cooldown: 0 seconds"
         ]
     },
     {
@@ -859,7 +860,8 @@
         "active": [
             "Purify enemies with a ritual of blood.",
             "Max HP X 3500% damage",
-            "Pulls in enemies that are far away into 375 range of Blood Weaver"
+            "Pulls in enemies that are far away into 375 range of Blood Weaver",
+            "Cooldown: 30 seconds"
         ]
     },
     {
@@ -1990,7 +1992,7 @@
             "STR X (25 + 25 X Skill Level) magic damage",
             "Slow effect",
             "Empowers next Strike of Honor cast within 3 seconds",
-            "Increases damage and stun duration by 100%, and increases target's damage taken by 10% for 8 seconds",
+            "Increases damage and stun duration by 150%, and increases target's damage taken by 10% for 8 seconds",
             "Increases HP regen by (Crusader's Max HP X 10%) for 5 seconds"
         ]
     },
@@ -2980,7 +2982,7 @@
         "icon": "BowMasterE",
         "passive": [
             "Summon a faithful guardian that follows Bow Master around.",
-            "Increases nearby hero's attack damage and main stat by 10%",
+            "Increases nearby hero's attack damage and main stat by 8%",
             "Supports every attack with Attack Damage X 50% + AGI X 2.5 bonus damage",
             "Can critically strike"
         ],

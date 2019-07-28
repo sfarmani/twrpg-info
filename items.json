@@ -10891,7 +10891,7 @@
     "stats": {
       "armor": 590,
       "strength": 570,
-      "dtpercent": -0.18,
+      "dtpercent": -0.15,
       "passive": [
         "25% chance to restore 2% HP and Mana on taking damage (4 second CD)"
       ],
@@ -10921,7 +10921,7 @@
       "agility": 435,
       "passive": [
         "+15% Damage dealt by attack",
-        "'Angel of Judgement' Gain 1 stack every 0.2 seconds. Maximum of 5 stacks. Consumes 1 stack on attack to do (.75x Main Stat) pure damage on attack"
+        "'Angel of Judgement' Gain 1 stack every 0.2 seconds. Maximum of 5 stacks. Consumes 1 stack on attack to do (main stat X 1) pure damage on attack"
       ],
       "active": [
         "Anti-Magic Shield (self) (90 second CD)"
@@ -11563,12 +11563,9 @@
     ],
     "stats": {
       "armor": 725,
-      "strength": 825,
+      "strength": 975,
       "agility": 625,
       "mdpercent": 0.1,
-      "passive": [
-        "Increases Main Stat by 125 on skill cast for 5 seconds (stacks up to 4 times)"
-      ],
       "active": [
         "'La Pucelle' Anti-Magic Shield on you and all allies (600 AoE) and heal you for 100% Health over 5 seconds. (90 second CD)"
       ],
@@ -12619,7 +12616,7 @@
       { "Potion of Corruption": 1 }
     ],
     "stats": {
-      "allstat": 1020,
+      "allstat": 1170,
       "hp": 7500,
       "mp": 7500,
       "movespeed": 125,
@@ -12628,7 +12625,7 @@
         "Revive 2 seconds after death with 100% Health/Mana (240 second CD)"
       ],
       "active": [
-        "Heal yourself for 50% Max Health/Mana and increase Mainstat by 1000. Stat buff decreases by 100 per second. Lasts 10 seconds. (45 second CD)"
+        "Heal yourself for 50% Max Health/Mana. Lasts 10 seconds. (45 second CD)"
       ]
     }
   },
@@ -12867,7 +12864,7 @@
       { "Proof of Purification": 1 }
     ],
     "stats": {
-      "allstat": 1250,
+      "allstat": 1300,
       "movespeed": 175,
       "skilldamagepercent": 0.12,
       "passive": [
