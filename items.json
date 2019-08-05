@@ -6154,7 +6154,7 @@
       "hp": 4000,
       "mp": 4000,
       "passive": [
-        "10% Change to activate Dragonic Skin on being damaged which blocks any amount of damage and heals you for that amount",
+        "10% Chance to activate Dragonic Skin on being damaged which blocks any amount of damage and heals you for that amount",
         "Cooldown: 4 seconds, cannot be dropped during cooldown"
       ],
       "active": [
@@ -10855,7 +10855,7 @@
     "color": 14423100,
     "level": 380,
     "recipe": [
-      { "Death Visage": 1 },
+      { "Grim Visage": 1 },
       { "Count's Old Cape": 1 },
       { "Antimatter": 1 },
       { "Dark Crystal": 1 },
@@ -12650,9 +12650,10 @@
       "strength": 1110,
       "agility": 1030,
       "movespeed": 160,
+      "periodicdamagepercent": 0.25,
+      "healreceivedpercent": -0.25,
       "passive": [
-        "5% Chance to activate Strike on attack. (Next 3 hits deal (1x Damage) pure damage and you gain +20000 Damage and +1000 main stat for 6 seconds)",
-        "Periodic Damage +25%, Healing Received -25%"
+        "5% Chance to activate Strike on attack. (Next 3 hits deal (1x Damage) pure damage and you gain +20000 Damage and +1000 main stat for 6 seconds)"
       ]
     }
   },
