@@ -9984,7 +9984,7 @@
       ],
       "spec": [
         "Specialties - Earth Mastery",
-        "Alchemist - Improved Stone Golem: Increases the size and Health of Golem by 7500 + 15% and heals nearby allies for 4.2% Max Health per second. Applying immolation effect on golem removes the healing effect. Also increases Stone Golem's starting and max bonus armor (440 - 800)",
+        "Alchemist - Improved Stone Golem: Increases the size and Health of Golem by 7500 + 15% and heals nearby allies for 4.2% Max Health per second. Applying immolation effect on golem removes the healing effect. Also increases Stone Golem's starting and max bonus armor (440-800)",
         "Elementalist - Seal of Earth: Duration increased by 10 seconds",
         "Elementalist - Pulse of Protection: Cooldown reduced by 3 seconds"
       ]
@@ -11743,7 +11743,7 @@
       "agility": 460,
       "dtpercent": -0.12,
       "passive": [
-        "Activates Frostshard when HP drops below 40%, heal for 17.5% max HP, deals Str x40 Magic Damage to nearby enemies, increase Str by (240+10% bonus Str - only 10% bonus Str for Agi heroes) and DR by 7.5% for 12 seconds"
+        "Activates Frostshard when HP drops below 40%, heal for 17.5% max HP, deals Str x40 Magic Damage to nearby enemies, increase Str by (240 + 10% bonus Str, only 10% bonus Str for Agi heroes) and DR by 7.5% for 12 seconds"
       ]
     }
   },
@@ -12777,7 +12777,7 @@
       "spec": [
         "Specialties - Cold Ring of Death",
         "Swordsman - Quick Draw: Damage increased by 15%",
-        "Swordsman - Sword Storm - Can Flash Step 1 more time.",
+        "Swordsman - Sword Storm: Can Flash Step 1 more time.",
         "Assassin - Shadow Rush: Clones increased by 1",
         "Assassin - Shadow Slash: Damage increased by 75%"
       ]
