@@ -1857,7 +1857,7 @@
       "Vest of Cyclone",
       "Benziena, the Earthen Soul",
       "Bag of Mother Nature",
-      "Druid Mantle"
+      "Druid's Mantle"
     ]
   },
   {
@@ -5312,7 +5312,7 @@
       "Ring of Revival",
       "Bag of Life",
       "Ring of Composure",
-      "Druid Mantle"
+      "Druid's Mantle"
     ],
     "stats": {
       "allstat": 760,
@@ -5995,7 +5995,7 @@
       "Horn of God",
       "Frost Fairy Wings",
       "Ring of Composure",
-      "Druid Mantle"
+      "Druid's Mantle"
     ]
   },
   {
@@ -6717,7 +6717,7 @@
       "Ethenos, the Staff of Space",
       "Triple Snow",
       "Crimson Hatred",
-      "Druid Mantle",
+      "Druid's Mantle",
       "Staff of Abyss"
     ],
     "stats": {
@@ -11465,7 +11465,7 @@
     ],
     "required_by": [
       "Diana, the Robe of Holy Maiden",
-      "Druid Mantle"
+      "Druid's Mantle"
     ],
     "stats": {
       "armor": 480,
@@ -11749,7 +11749,7 @@
   },
   {
     "id": "I0L9",
-    "name": "Druid Mantle",
+    "name": "Druid's Mantle",
     "koreanname": "드루이드의 가운",
     "description": "자연의 섭리를 거스르지 말라.",
     "type": "[Robe]",
