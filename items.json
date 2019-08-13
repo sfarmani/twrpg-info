@@ -9091,8 +9091,7 @@
     "stats": {
       "damage": 22000,
       "strength": 1875,
-      "skilldamagepercent": 0.09,
-      "critchancepercent": 0.09,
+      "skilldamagepercent": 0.1,
       "passive": [
         "Activates Song of Glory on skill cast increasing STR by 125 and skill damage by 2.5% per stack for 5 seconds up to a max of 4 stacks"
       ]
@@ -13058,7 +13057,7 @@
       "strength": 850,
       "agility": 325,
       "intelligence": 325,
-      "mdpercent": 0.12,
+      "mdpercent": 0.09,
       "passive": [
         "Dealing single-target skill damage inflicts target with corrupt flame, dealing 15% additional damage over 3 seconds (effect stacks)"
       ]
@@ -13362,7 +13361,7 @@
       "strength": 1040,
       "agility": 540,
       "intelligence": 540,
-      "mdpercent": 0.15,
+      "mdpercent": 0.12,
       "passive": [
         "Dealing single-target skill damage inflicts target with corruption giving -4% MR debuff and dealing bonus damage over time (Does 20% of the abilities damage over 2 seconds, effect stacks)"
       ]

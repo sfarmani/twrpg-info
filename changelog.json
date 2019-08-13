@@ -1,5 +1,134 @@
 [
     {
+        "name": "25h",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "# Misc",
+            "  • Added -title command temporarily",
+            "    ⏵This command allows players to test how their title looks in game",
+            "    ⏵It can be done by writing -title <hex code> <title>",
+            "    ⏵Example: -title ff0000 Jerk",
+            "Titles will still be added manually, this command is only for testing your title choices."
+        ]
+    },
+    {
+        "name": "25g",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "EVENT IS OVER IN THIS VERSION BUT YOU MAY CONTINUE PLAYING KOREAN OR ENGLISH 0.25f ",
+            "VERSION TO OBTAIN EVENT REWARDS UNTIL AUGUST 12TH 23:59:59 UTC",
+            "# Event",
+            "  • Summer event ends",
+            "# Misc",
+            "  • Disabled Mark of Rebirth costume for Thunderer"
+        ]
+    },
+    {
+        "name": "25f",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "# Event",
+            "  • Lucky beach ball",
+            "    ⏵Changed seals to be invincible",
+            "    ⏵Changed seals to be stun-immune",
+            "    ⏵Added player color to seals",
+            "    ⏵Seal teleport (Q) cooldown: 7.5 seconds → 10 seconds",
+            "# Misc",
+            "  * Crimson Star *",
+            "    • Changed active projectiles to ignore terrain"
+        ]
+    },
+    {
+        "name": "25e",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "# Event",
+            "  • Reworked lucky beach ball",
+            "    ⏵Changed to ignore terrain and objects again",
+            "    ⏵When ball spawns, each player gets a seal that can move through terrian and teleport with (Q); Slippers removed",
+            "    ⏵Beach balls no longer collide with heroes. Can only collide with seals"
+        ]
+    },
+    {
+        "name": "25d",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "# Event",
+            "  • Added ticket/ball drop chance to more bosses",
+            "    ⏵Item bosses",
+            "    ⏵Death Knight, Ragnaar, Giant Golem, Tentacle Lord, Mana Ancient, Mad Clown",
+            "  • Added ball drop chance to Guardian Angels, Corrupt Angel (was ticket only before)",
+            "  • Lucky beach ball changed to bounce off of terrian and objects; Max amount of bounces: 20 → 15",
+            "  • Reduced damage of enemies in Seasea Caves",
+            "# Bug Fixes",
+            "  • Gunner - Fixed not being able to craft summer costume",
+            "  • Blue Lotus Aura - Fixed not replacing some ring effects",
+            "# Monsters",
+            "  * Ancient Ent *",
+            "    • Changed to be revivable after Ancient Ent and all Elder Ents are dead"
+        ]
+    },
+    {
+        "name": "25c",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "# Event",
+            "  • Seasea ticket droprate increased by 50%",
+            "  • Event item droprate from seasea red/green pouches decreased by 33%",
+            "  • limited ticket/beach ball drops to these bosses:",
+            "    ⏵Death Fiend, Valtora, Ifrit, Skeleton King, Zombie Lord, Ancient Ent, Samael, Shadow Dragon, Frostspider Lord, Demon Lord Beriel, Corruptor Rectus, Flame Nightmare, Turtle Lord, Hydra, Count, Jack, Wings of Death, Mage Lord, Spirit Beast, Bone Dragon, Guardian Angels (no ball), Corrupt Angel (No ball)",
+            "  • Droprate reduction per 10 obtained shining seashells reduced",
+            "# Bug Fixes",
+            "  • Blue Lotus Aura - Fixed not showing properly",
+            "  • Rudolph - Fixed not showing properly",
+            "# Misc",
+            "  * Ancient Ent *",
+            "    • No longer revivable if Elder Ent still alive"
+        ]
+    },
+    {
+        "name": "25b",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "# Event",
+            "  • Shining Seashells - Droprate decrease after obtaining 10 reduced",
+            "  • Lucky beachballs - Changed to only bounce off of dark borders and max bounce amount: 30 → 20",
+            "# Bug Fixes",
+            "  • Shining Seashells - Fixed being unsavable (Obtained seashells will be auto-recovered. If you already used them on some crafts, please discard the auto-recovered seashells)"
+        ]
+    },
+    {
+        "name": "25a",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "Summer event starts in this version, for participation rules please read this post: https://twrpg.com/viewtopic.php?f=44&t=5233",
+            "# Event",
+            "  • Summer event will last from july 29th to august 12th 23:59:59 UTC",
+            "# Bug Fixes",
+            "  • Fiend Token: Fixed cosmetic spell not being usable",
+            "# Items",
+            "  * Aglaia, the Spear of Heavenly Flows *",
+            "    • Skill damage: 9% → 10%",
+            "    • Crit chance: 9% → 0%",
+            "  * Cape of Corrupt Flame *",
+            "    • Magic Defense: 12% → 9%",
+            "  * Cloak of Fallen Shadows *",
+            "    • Magic Defense: 15% → 12%",
+            "# Monsters",
+            "  * Spirit Beast *",
+            "    • Removed player limit",
+            "  * Ancient Ent *",
+            "    • Removed player limit",
+            "# Heroes",
+            "  * Swordsman *",
+            "    • Sword Storm (E)",
+            "      ⏵Changed to count as periodic damage",
+            "  * Soul Weaver *",
+            "    • Harvest (A)",
+            "      ⏵Changed to not proc single-target effects"
+        ]
+    },
+    {
         "name": "24s",
         "changes": [
             "> Compatible Version: v0.24c ~",
