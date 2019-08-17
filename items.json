@@ -7256,7 +7256,7 @@
       "dtpercent": -0.15,
       "spec": [
         "Merchant Specialty - Heavy Bag",
-        "Bag Slam: damage is increased by 150%, and it increases target's damage taken by 8% for 5 seconds"
+        "Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds."
       ]
     }
   },
