@@ -2850,10 +2850,6 @@
       "attackspeedpercent": 0.25,
       "active": [
         "On use, activates Sylph's Blessing"
-      ],
-      "spec": [
-        "Specialty - Blessing of Wind",
-        "Bow Master - Purestorm Shot: duration increased by 1 second."
       ]
     }
   },
@@ -4004,7 +4000,8 @@
     "level": 340,
     "droprate": 0.025,
     "required_by": [
-      "Wanderer's Cape"
+      "Wanderer's Cape",
+      "Storm"
     ],
     "stats": {
       "damage": 4000,
@@ -5713,7 +5710,6 @@
       "Hellflame",
       "Everfrostbane",
       "Hood of Apocrypha",
-      "Bloodsoul Plates",
       "Bell of Light",
       "Ispion, the Runed Ring",
       "Frost Fairy Wings",
@@ -5975,7 +5971,7 @@
     "droprate": [
       0.004,
       0.002,
-      0.0002
+      0.0004
     ],
     "required_by": [
       "Espishu, the Sword of Eternity",
@@ -6088,7 +6084,8 @@
       "Plates of Lightning",
       "Ring of Fervor",
       "Nebula Rose",
-      "Vest of Storm"
+      "Vest of Storm",
+      "Storm"
     ],
     "stats": {
       "allstat": 930,
@@ -6245,7 +6242,8 @@
       "Horn of God",
       "Wings of Slayer",
       "Cosmic Star",
-      "Vest of Storm"
+      "Vest of Storm",
+      "Storm"
     ]
   },
   {
@@ -6333,7 +6331,8 @@
       "Plates of Lightning",
       "Cosmic Star",
       "Nebula Rose",
-      "Vest of Storm"
+      "Vest of Storm",
+      "Storm"
     ]
   },
   {
@@ -6516,7 +6515,8 @@
     "required_by": [
       "Staff of Plague",
       "Crimson Hatred",
-      "Pheles, the Bow of God"
+      "Pheles, the Bow of God",
+      "Atricia, the Sword of Dreams"
     ]
   },
   {
@@ -6532,7 +6532,8 @@
       "Atricia, the Sword of Dreams",
       "Protection of the Fairies",
       "Archangel Wings",
-      "Nebula Rose"
+      "Nebula Rose",
+      "Storm"
     ]
   },
   {
@@ -6605,7 +6606,8 @@
     "required_by": [
       "Horn of Lightning God",
       "Protection of the Fairies",
-      "Nebula Rose"
+      "Nebula Rose",
+      "Storm"
     ]
   },
   {
@@ -6637,7 +6639,8 @@
     "required_by": [
       "Pheles, the Bow of God",
       "Horn of God",
-      "Cosmic Star"
+      "Cosmic Star",
+      "Storm"
     ]
   },
   {
@@ -6717,7 +6720,8 @@
       "Triple Snow",
       "Crimson Hatred",
       "Druid's Mantle",
-      "Staff of Abyss"
+      "Staff of Abyss",
+      "Bloodsoul Plates"
     ],
     "stats": {
       "damage": 19000,
@@ -9244,7 +9248,7 @@
       "Pheles, the Bow of God"
     ],
     "stats": {
-      "damage": 25000,
+      "damage": 23000,
       "agility": 1900,
       "attackspeedpercent": 0.3,
       "mdpercent": -0.05,
@@ -10254,7 +10258,7 @@
       { "Frozen Debris": 1 }
     ],
     "stats": {
-      "damage": 24000,
+      "damage": 28000,
       "strength": 1140,
       "agility": 2010,
       "skilldamagepercent": 0.09,
@@ -10322,7 +10326,7 @@
       { "Essence of Storm": 1 },
       { "Essence of Darkness": 1 },
       { "Steel of God": 1 },
-      { "Fragment of Chaos": 1 }
+      { "Fragment of Chaos": 1, "Spearhead of Death": 1 }
     ],
     "stats": {
       "damage": 31500,
@@ -11701,8 +11705,8 @@
     "recipe": [
       { "True Bloodstone Plates": 1 },
       { "Flameshard Armor": 1 },
-      { "Burning Bone Fragments": 1 },
-      { "Fragment of Oblivion": 1, "Orb of Oblivion": 1 },
+      { "Burning Bone Fragments": 1, "Dragonic Orb": 1 },
+      { "Orb of Oblivion": 1 },
       { "Mana Orb": 1 }
     ],
     "stats": {
@@ -11764,7 +11768,7 @@
       "intelligence": 1120,
       "mdpercent": 0.12,
       "passive": [
-        "Summons a forest spirit every 5 seconds in battle, each spirit provides 0.75% hp regeneration, can have up to 4 spirits"
+        "Summons a forest spirit every 5 seconds, each spirit provides 0.75% hp regeneration, can have up to 4 spirits"
       ],
       "active": [
         "On active sends one spirit towards target",
@@ -12773,7 +12777,6 @@
       ],
       "spec": [
         "Specialties - Cold Ring of Death",
-        "Swordsman - Quick Draw: Damage increased by 15%",
         "Swordsman - Sword Storm: Can Flash Step 1 more time.",
         "Assassin - Shadow Rush: Clones increased by 1",
         "Assassin - Shadow Slash: Damage increased by 75%"
@@ -13499,6 +13502,34 @@
       "mpregen": 150,
       "passive": [
         "\"Archangel's Judgement\" On spell cast, 5% chance to reset the cooldown of all non-ultimate skills after 2 seconds of delay, gain 10% skill damage, and 50% damage resistance for 10 seconds (120 second CD)"
+      ]
+    }
+  },
+  {
+    "id": "ram3",
+    "name": "Storm",
+    "koreanname": "스톰",
+    "type": "[Wings]",
+    "description": "휘몰아쳐라 ! 빈틈은 곳 죽음으로 이어진다 .",
+    "color": 10092441,
+    "level": 400,
+    "recipe": [
+      { "Slayer Boots": 1 },
+      { "Ring of the Storm": 1 },
+      { "Essence of Light": 1 },
+      { "Antimatter": 1 },
+      { "Aegis of Storm": 1 },
+      { "Fragment of Chaos": 1 },
+      { "Shining Fragment of Ruins": 1 }
+    ],
+    "stats": {
+      "damage": 4000,
+      "mainstat": 500,
+      "allstat": 450,
+      "movespeed": 200,
+      "critmultiplier": 0.2,
+      "passive": [
+        "On spell cast, increases skill damage and crit chance by 4% for 6 seconds. Stacks up to 3 times"
       ]
     }
   },

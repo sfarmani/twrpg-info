@@ -658,6 +658,7 @@
             "Attack speed is affected by Witch's attack speed bonus",
             "Can maintain up to a maximum of 2 gates",
             "Orb attacks prioritizes target witch is attacking if witch is nearby",
+            "Base attack cycle: 4 seconds",
             "Cooldown: 0 seconds"
         ]
     },
@@ -671,7 +672,7 @@
             "Summon a vengeful spirit that absorbs damage and reflects them back at the attackers.",
             "INT X 60 magic damage",
             "Absorbs own damage taken by 70% and allies' damage taken by 35%",
-            "On expiration, reflects 1000% of absorbed damage as pure damage at nearby enemies",
+            "On expiration, reflects 2000% of absorbed damage as pure damage at nearby enemies",
             "Lasts 3 seconds"
         ]
     },
@@ -688,9 +689,11 @@
         ],
         "active": [
             "Unleash the grimoire and let your magic run wild.",
-            "Consume Max MP X 20% per second",
+            "Consume Max MP X 25% per second",
             "Focus attacks of Dimension Collapse onto targeted area",
-            "Orbs have 500% increased attack speed for channeled duration"
+            "Orbs have 500% increased attack speed for channeled duration",
+            "Duration: 4 seconds",
+            "Channeling does not end when MP depleted if in Demonic Fury transformation"
         ]
     },
     {
@@ -705,7 +708,9 @@
             "Armor increased by 400 & max HP and magic defense increased by 25%",
             "Changes skills partially",
             "After 5 seconds, consumed MP increases by 50% and skill damage increases by 2% every second",
-            "Transfomation time: 1 second"
+            "After 15 seconds, skill damage increase stops",
+            "Transfomation time: 1 second",
+            "Does not end if Soul Grimoire is channeling"
         ]
     },
     {
@@ -755,6 +760,17 @@
             "Surge forward to execute enemies.",
             "INT X 100 magic damage",
             "Stuns for 1 second"
+        ]
+    },
+    {
+        "name": "Soul Offering",
+        "heroClass": "Warlock",
+        "color": 5377478,
+        "hotkey": "[T] → [F]",
+        "icon": "WarlockT_F",
+        "active": [
+            "Dedicate everything to the devil.",
+            "Reduces empower cycle 1 second to 0.25 seconds"
         ]
     },
     {
@@ -848,7 +864,7 @@
             "Increases attack damage and HP by 20% for (6 + INT X 0.0003) seconds",
             "50% chance to refill 1 blood gauge on attack",
             "Rose Dance's cast time is removed and cooldown is reduced to 0.5 seconds while active",
-            "Cooldown: 17.5 seconds"
+            "Cooldown: 15 seconds"
         ]
     },
     {
@@ -1310,7 +1326,7 @@
         "passive": [
             "Focus ki into every action to perform powerful attacks.",
             "Attack hits all enemies within radius",
-            "On skill cast, empower next attack to deal (Attack Damage X 60% + AGI X 3) bonus damage",
+            "On skill cast, empower next attack to deal (Attack Damage X 80% + AGI X 4) bonus damage",
             "Can critically strike",
             "Base attack speed decreased"
         ]
@@ -1375,10 +1391,6 @@
         "color": 11320803,
         "hotkey": "[E]",
         "icon": "SwordsmanE",
-        "passive": [
-            "Engulfs your body with a wind storm.",
-            "Gains 20% damage reduction for 1.5 seconds when casting a skill"
-        ],
         "active": [
             "Skill Level X 200 damage per second",
             "AGI X 9 bonus damage",
@@ -1441,7 +1453,7 @@
         "active": [
             "\"I couldn't see anything. Only the corpses of my comrades were left at where he slashed through.\" - A Survivor of Empire War",
             "Each slash deals AGI X 25 damage",
-            "Final slash deals AGI X 300 damage",
+            "Final slash deals AGI X 400 damage",
             "A total of 20 slashes"
         ]
     },
@@ -1578,7 +1590,7 @@
         "icon": "ElementalistW_Pass2",
         "passive": [
             "Quenches nearby allies' thirst.",
-            "Regenerates nearby allies HP and MP by 4% every second",
+            "Regenerates nearby allies and self HP and MP by 4% every second",
             "Increases all stats by 12% for 15 seconds"
         ]
     },
@@ -1805,7 +1817,8 @@
             "Create an orb of lightning and fling it forward.",
             "INT X 20 damage",
             "Explodes after 6 seconds to deal INT X 20 damage",
-            "Energy Consumption: 40 ~ 30"
+            "Energy Consumption: 40 ~ 30",
+            "Bypasses terrain"
         ]
     },
     {
@@ -1872,7 +1885,8 @@
             "Focus mana into a single point to call down a lightning strike.",
             "INT X 150 damage",
             "Creates 5 lightning orbs",
-            "1 second stun"
+            "1 second stun",
+            "Cooldown: 15 seconds"
         ]
     },
     {
@@ -1887,7 +1901,8 @@
             "Short stun effect",
             "Invulnerable while active",
             "If used while charged, damage is increased by 100%",
-            "If channeled for 3 seconds, refreshes energy and skill cooldowns"
+            "If channeled for 3 seconds, refreshes energy and skill cooldowns",
+            "cooldown: 40 seconds"
         ]
     },
     {
@@ -2879,7 +2894,7 @@
         ],
         "toggle": [
             "Drowns in blood to bring out full combat abilities.",
-            "Consumes max HP X 15% per second",
+            "Consumes max HP X 30% per second",
             "Ignores all healing received"
         ]
     },
@@ -3016,7 +3031,7 @@
         "icon": "BowMasterT",
         "active": [
             "Summons countless magical arrows to bombard an area.",
-            "Each arrow deals Attack Damage X 150% damage",
+            "Each arrow deals Attack Damage X 100% damage",
             "AGI X 10 bonus damage",
             "If chained with Flame Shot, damage and radius increased by 50%",
             "If chained with Freezing Shot, freezes enemies hit for 2.5 seconds"
@@ -3030,7 +3045,7 @@
         "icon": "BowMasterT_2",
         "active": [
             "Bombard target area with heart-seeking arrows.",
-            "Each arrow deals Attack Damage X 1200% damage",
+            "Each arrow deals Attack Damage X 800% damage",
             "AGI X 80 bonus damage",
             "Stuns targets hit for 5 seconds and decreases their armors",
             "Cooldown: 20 seconds"
@@ -3291,7 +3306,8 @@
             "Restore injuries with mana in the atmosphere.",
             "Restores HP & MP 35%",
             "Refreshes cooldowns",
-            "Increases skill damage by 4% for 5 seconds"
+            "Increases skill damage by 4% for 5 seconds",
+            "Cooldown: 12 seconds"
         ]
     },
     {
@@ -3872,7 +3888,7 @@
         "passive": [
             "Restores 1 soul every 2 seconds",
             "Can hold up to 8 souls",
-            "Regenerates HP X 2% per second if holding 4 souls"
+            "Regenerates HP X 0.5% per second for every soul held"
         ]
     },
     {
