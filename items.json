@@ -9775,8 +9775,8 @@
       "attackspeedpercent": 0.2,
       "passive": [
         "On skill cast, gain a stack and empower next attack with light (up to a max of 6 stacks)",
-        "Non-empowered attacks have ~9% chance to deal (main stat X ((stacks X 4) + 15)) magic damage",
-        "Empowered attacks deal (main stat X ((stacks X 4) + 15)) pure damage and has a ~30.7% chance to crit for 2.5x the normal amount",
+        "Non-empowered attacks have ~9% chance to deal ((15 + stacks X 4) X main stat) magic damage",
+        "Empowered attacks deal (2.5 X main stat + 15000) pure damage and has a ~30.7% chance to crit for 2.5x the normal amount",
         "Empowered attacks also heal user for 3% of damage dealt (affected by crit damage)"
       ],
       "active": [
@@ -11507,11 +11507,11 @@
       "skilldamagepercent": 0.05,
       "mdpercent": 0.05,
       "active": [
-        "'Frozen Protection' Absorbs up to (1.2 X max Mana + 5 X Int) damage (75 second CD)"
+        "'Frozen Protection' Absorbs up to (0.75 X max MP + 6 X Int) damage (75 second CD)"
       ],
       "spec": [
         "Specialty",
-        "Water Mage - Improved Frozen Emotion: Reduces target's damage taken by 10%."
+        "Water Mage - Improved Frozen Emotion: Reduces target's damage taken by 12%."
       ]
     }
   },
@@ -11827,7 +11827,7 @@
       "skilldamagepercent": 0.1,
       "mdpercent": 0.1,
       "active": [
-        "'Everfrost Soul' Forms a shield that blocks damage equal to (1.2 x Max Mana + 5 x INT) (45 second CD)"
+        "'Everfrost Soul' Forms a shield that blocks damage equal to (0.75 X max MP + 6 X INT) (45 second CD)"
       ],
       "spec": [
         "Specialty",
