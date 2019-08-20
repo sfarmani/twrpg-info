@@ -1,5 +1,14 @@
 [
     {
+        "name": "26b",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "# Bug Fixes",
+            "  • Fixed a bug where the game kept crashing while fighting Death Fiend",
+            "  • Warlock - Fixed a bug that made the screen keep shaking even after end channeling of Soul Grimoire (R)"
+        ]
+    },
+    {
         "name": "26a",
         "changes": [
             "> Compatible Version: v0.24c ~",
