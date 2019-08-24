@@ -1,5 +1,12 @@
 [
     {
+        "name": "26c",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "No major changes"
+        ]
+    },
+    {
         "name": "26b",
         "changes": [
             "> Compatible Version: v0.24c ~",
