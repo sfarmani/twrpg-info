@@ -7664,7 +7664,7 @@
       "dtpercent": -0.12,
       "spec": [
         "Merchant Specialty - Heavy Bag",
-        "Bag Slam: damage increased by 100%"
+        "Merchant - Bag Slam: damage increased by 100%"
       ]
     }
   },
@@ -7697,7 +7697,7 @@
       "dtpercent": -0.15,
       "spec": [
         "Merchant Specialty - Heavy Bag",
-        "Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds."
+        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds."
       ]
     }
   },
@@ -7733,7 +7733,7 @@
       "dtpercent": -0.15,
       "spec": [
         "Merchant Specialty - Heavy Bag",
-        "Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds"
+        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds"
       ]
     }
   },
@@ -7768,8 +7768,8 @@
       "skilldamagepercent": -0.18,
       "spec": [
         "Merchant Specialty - Very Heavy Bag",
-        "Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds",
-        "Throwing Healing Potion: Increases target's skill damage by 5%"
+        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds",
+        "Merchant - Throwing Healing Potion: Increases target's skill damage by 5%"
       ]
     }
   },
@@ -7808,8 +7808,8 @@
       "dtpercent": -0.2,
       "spec": [
         "Merchant Specialty - Very Heavy Bag",
-        "Bag Slam: damage is increased by 300%, and it increases target's damage taken by 10% for 6 seconds",
-        "Throwing Healing Potion: Increases target's skill damage by 5%"
+        "Merchant - Bag Slam: damage is increased by 300%, and it increases target's damage taken by 10% for 6 seconds",
+        "Merchant - Throwing Healing Potion: Increases target's skill damage by 5%"
       ]
     }
   },
@@ -7845,9 +7845,9 @@
       "dtpercent": -0.22,
       "spec": [
         "Merchant Specialty - Very Heavy Bag",
-        "Bag Slam: damage is increased by 400%, and it increases target's damage taken by 10% for 6 seconds",
-        "Throwing Healing Potion: Increases target's skill damage by 8%",
-        "Throw Money: Each coin stuns for 0.5 seconds"
+        "Merchant - Bag Slam: damage is increased by 400%, and it increases target's damage taken by 10% for 6 seconds",
+        "Merchant - Throwing Healing Potion: Increases target's skill damage by 8%",
+        "Merchant - Throw Money: Each coin stuns for 0.5 seconds"
       ]
     }
   },
@@ -7929,7 +7929,7 @@
       "movespeed": 200,
       "spec": [
         "Merchant Specialty - Light Bag",
-        "Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once"
+        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once"
       ]
     }
   },
@@ -7962,7 +7962,7 @@
       "hpregen": 300,
       "spec": [
         "Merchant Specialty - Light Bag",
-        "Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%"
+        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%"
       ]
     }
   },
@@ -7998,7 +7998,7 @@
       "hpregen": 400,
       "spec": [
         "Merchant Specialty - Light Bag",
-        "Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%"
+        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%"
       ]
     }
   },
@@ -8034,8 +8034,8 @@
       "hpregen": 600,
       "spec": [
         "Merchant Specialty - Very Light Bag",
-        "Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%",
-        "Life Shield Scroll: Duration increased by 5 seconds"
+        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%",
+        "Merchant - Life Shield Scroll: Duration increased by 5 seconds"
       ]
     }
   },
@@ -8074,8 +8074,8 @@
       "hpregen": 800,
       "spec": [
         "Merchant Specialty - Very Light Bag",
-        "Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 12%",
-        "Life Shield Scroll: Duration increased by 5 seconds"
+        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 12%",
+        "Merchant - Life Shield Scroll: Duration increased by 5 seconds"
       ]
     }
   },
@@ -8111,9 +8111,9 @@
       "hpregen": 1200,
       "spec": [
         "Merchant Specialty - Very Light Bag",
-        "This Bag isn't a Decoration!: You can drink upto 2 potions at once",
-        "Throwing Healing Potion: Can be thrown twice in a row, number of placeable potions increased by 3, and reduces target's damage taken by 12%",
-        "Life Shield Scroll: Duration increased by 5 seconds and increases target's magic defense by 15%"
+        "Merchant - This Bag isn't a Decoration!: You can drink upto 2 potions at once",
+        "Merchant - Throwing Healing Potion: Can be thrown twice in a row, number of placeable potions increased by 3, and reduces target's damage taken by 12%",
+        "Merchant - Life Shield Scroll: Duration increased by 5 seconds and increases target's magic defense by 15%"
       ]
     }
   },
