@@ -11962,8 +11962,7 @@
       }
     ],
     "required_by": [
-      "Grim Visage",
-      "Eye of Wallachia"
+      "Grim Visage"
     ],
     "stats": {
       "armor": 290,
@@ -12059,7 +12058,8 @@
       }
     ],
     "required_by": [
-      "Dragon Mask"
+      "Dragon Mask",
+      "Eye of Wallachia"
     ],
     "stats": {
       "armor": 380,
