@@ -212,7 +212,7 @@
         "id": "h00T",
         "name": "Death Knight",
         "limit": "5",
-        "timer": "450s",
+        "timer": "300s",
         "location": "In Duchy of Wallachia",
         "conditions": "Level 160",
         "drops": [
@@ -235,7 +235,7 @@
         "id": "n01J",
         "name": "Ruler of Flames Ragnaar",
         "limit": "5",
-        "timer": "450s",
+        "timer": "300s",
         "location": "In Volcanic Lands",
         "conditions": "Level 200",
         "drops": [
@@ -259,7 +259,7 @@
         "id": "h014",
         "name": "Tentacle Lord",
         "limit": "5",
-        "timer": "450s",
+        "timer": "300s",
         "location": "In the Deep Sea",
         "conditions": "Level 240",
         "drops": [
@@ -279,7 +279,7 @@
         "id": "h00Y",
         "name": "Giant Golem",
         "limit": "8",
-        "timer": "450s",
+        "timer": "300s",
         "location": "In the Mine Cave",
         "conditions": "Level 280",
         "drops": [
@@ -322,6 +322,7 @@
         "id": "H00F",
         "name": "Count Wallachia",
         "limit": "5",
+        "manacost": "1",
         "summon": "East area of Duchy of Wallachi at wrecked church near Death Knight",
         "conditions": "Level 160 and 2x White Powder, 2x Red Powder",
         "drops": [
@@ -344,6 +345,7 @@
         "id": "n01W",
         "name": "Jack-o-Lantern",
         "limit": "4",
+        "manacost": "1",
         "summon": "East area of Capital Prius at Fountain",
         "conditions": "Level 80 and 3x Red Powder",
         "drops": [
@@ -370,6 +372,7 @@
         "id": "n01K",
         "name": "Wings of Death",
         "limit": "4",
+        "manacost": "1",
         "summon": "In Volcanic Lands in the Volcano where Ragnaar spawns",
         "conditions": "Level 200 and 4x Green Powder",
         "drops": [
@@ -390,6 +393,7 @@
         "id": "h01B",
         "name": "Mage Lord",
         "limit": "4",
+        "manacost": "1",
         "summon": "South area of Frosty Snowfield between two snowmen near Yetis'",
         "conditions": "Level 120 and 4x Red Powder",
         "drops": [
@@ -431,6 +435,7 @@
         "id": "H00V",
         "name": "Guardian Spirit, Avalon's Gatekeeper",
         "limit": "1",
+        "manacost": "1",
         "location": "Before the entrance of Guardian Angels",
         "conditions": "Level 200 and Angels summoned",
         "drops": [
@@ -443,6 +448,7 @@
         "id": "n01N",
         "name": "Guardian Angel",
         "limit": "3",
+        "manacost": "1",
         "summon": "In mining cave located in the west part of Mining Town",
         "conditions": "Level 200 and 2x Holy Powder",
         "drops": [
@@ -461,6 +467,7 @@
         "id": "n01O",
         "name": "Corrupt Angel",
         "limit": "3",
+        "manacost": "1",
         "location": "In Frosty Snowfield summoned after 1 minute of summoning Guardian Angel",
         "conditions": "Level 200 and Angels summoned",
         "drops": [
@@ -478,6 +485,7 @@
         "id": "n023",
         "name": "Lord of Everfrost",
         "limit": "2",
+        "manacost": "1",
         "location": "Summoned during waves of Frostspider Lord",
         "conditions": "Level 300 and Frostspider Lord summoned",
         "drops": [
@@ -493,6 +501,7 @@
         "id": "H01F",
         "name": "Spider Queen Ilshenar",
         "limit": "2",
+        "manacost": "1",
         "location": "Summoned during waves of Frostspider Lord",
         "conditions": "Level 300 and Frostspider Lord summoned",
         "drops": [
@@ -508,6 +517,7 @@
         "id": "h034",
         "name": "Frostspider Lord",
         "limit": "7",
+        "manacost": "2",
         "summon": "In Frost Cave where 3 Pruis Magicians are gathered",
         "conditions": "Level 300 and 2x Holy Powder, 4x Blue Powder",
         "drops": [
@@ -536,6 +546,7 @@
         "id": "n01Y",
         "name": "Demon Lord Beriel",
         "limit": "2",
+        "manacost": "2",
         "summon": "In Duchy of Wallachia in a pile of skulls South of where Death Knight spawns",
         "conditions": "Level 160, 8x Red Powder, and Waves defeated without killing the gate or letting the monsters kill the King in top-left side of Capital Prius",
         "drops": [
@@ -564,7 +575,7 @@
         "id": "h010",
         "name": "Mana Ancient",
         "limit": "2",
-        "timer": "450s",
+        "timer": "300s",
         "location": "In Fairy Forest",
         "conditions": "Level 350",
         "drops": [
@@ -581,6 +592,7 @@
         "id": "n02M",
         "name": "Spirit Beast",
         "limit": "4",
+        "manacost": "2",
         "location": "In Fairy Forest - Deep Forest",
         "conditions": "Level 350",
         "notes": [
@@ -600,7 +612,7 @@
         "id": "n038",
         "name": "Mad Clown",
         "limit": "2",
-        "timer": "450s",
+        "manacost": "2",
         "location": "In the Abandoned Graveyard",
         "conditions": "Level 270",
         "drops": [
@@ -616,6 +628,7 @@
         "id": "hmpr",
         "name": "Corruptor Rectus",
         "limit": "3",
+        "manacost": "2",
         "location": "In Fairy Forest - Plagued Tower",
         "conditions": "Level 350",
         "drops": [
@@ -635,6 +648,7 @@
         "id": "n02N",
         "name": "Flame Nightmare",
         "limit": "2",
+        "manacost": "2",
         "summon": "In Volcanic Lands",
         "conditions": "Level 200 and usage of Nightmare Rod with 12x Red Powder",
         "drops": [
@@ -663,6 +677,7 @@
         "id": "h018",
         "name": "Turtle Lord",
         "limit": "2",
+        "manacost": "2",
         "summon": "In Deep Sea in the far East where light shines from above",
         "conditions": "Level 240 and usage of Orb of the Deep Sea with 6x Blue Powder and 6x Green powder",
         "drops": [
@@ -691,6 +706,7 @@
         "id": "n030",
         "name": "Ancient Ent",
         "limit": "2",
+        "manacost": "4",
         "location": "In Fairy Forest above Deep Forest entrance, where a statue resides",
         "conditions": "Level 370, 1 Green Powder on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
         "notes": [
@@ -747,12 +763,9 @@
         "id": "n02V",
         "name": "Skeleton King Desperia",
         "limit": "6",
+        "manacost": "4",
         "location": "In Prius Forward camp, the cave to the North",
         "conditions": "Level 400",
-        "notes": [
-            "Damage reduction per player after 6 players 10%",
-            "Droprate per player after 6 players 2.5% - Does not apply for Token"
-        ],
         "drops": [
             "ratc",
             "rat6",
@@ -770,6 +783,7 @@
         "id": "n03S",
         "name": "Bone Dragon",
         "limit": "5",
+        "manacost": "4",
         "location": "To the Southeast inside of Dragon Nest",
         "conditions": "Level 380",
         "drops": [
@@ -784,12 +798,9 @@
         "id": "o000",
         "name": "Archangel Samael",
         "limit": "2",
+        "manacost": "4",
         "summon": "In Castle Avalon, fighting area of Guardian Angels",
         "conditions": "Level 200, Guardian Angels defeated, and 3x Holy Powder",
-        "notes": [
-            "Damage reduction per player after 6 players 10%",
-            "Droprate per player after 6 players 5% - Does not apply for Token"
-        ],
         "drops": [
             "I0E5",
             "I0E6",
@@ -803,6 +814,7 @@
         "id": "n033",
         "name": "Zombie Lord",
         "limit": "3",
+        "manacost": "4",
         "location": "In Prius Forward camp, the cave to the East",
         "conditions": "Level 410",
         "drops": [
@@ -819,13 +831,9 @@
         "id": "n02Y",
         "name": "Shadow Dragon Irbert",
         "limit": "2",
+        "manacost": "6",
         "location": "In Deep Snowfield",
         "conditions": "Level 420, Mage Lord defeated, and 12x Blue Powder given to Elder Paracelsus",
-        "notes": [
-            "9 players: Damage + 15%, Damage reduction rate + 20%, Drop rate + 10%",
-            "10 players: Damage + 25%, Damage reduction rate + 35%, Drop rate + 20%",
-            "Drop rate does not apply for Token"
-        ],
         "drops": [
             "kymn",
             "bzbf",
@@ -843,6 +851,7 @@
         "id": "h01K",
         "name": "Death Fiend",
         "limit": "1 for Death Fiend himself (token only), 4 for the Treasures of Death",
+        "manacost": "6",
         "summon": "In Abandoned Graveyard, at spawn of Mad Clown",
         "conditions": "Level 270 and 20x Red Powder",
         "notes": [
@@ -873,6 +882,7 @@
         "id": "h04O",
         "name": "Valtora",
         "limit": "2",
+        "manacost": "6",
         "summon": "The North-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 420 and Key of Storm crafted",
         "drops": [
@@ -886,6 +896,7 @@
         "id": "h060",
         "name": "Ifrit",
         "limit": "2",
+        "manacost": "6",
         "summon": "The West-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 420 and Key of Flame crafted",
         "drops": [

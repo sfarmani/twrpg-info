@@ -285,8 +285,7 @@
       "Golden Fang"
     ],
     "stats": {
-      "damage": 75,
-      "movespeed": 50
+      "damage": 75
     }
   },
   {
@@ -810,7 +809,6 @@
     "stats": {
       "allstat": 60,
       "expreceivedpercent": 0.1,
-      "movespeed": 75,
       "active": [
         "On use, creates a portal that connects to Alfon Village"
       ]
@@ -1299,7 +1297,6 @@
       "strength": 130,
       "agility": 70,
       "intelligence": 70,
-      "movespeed": 50,
       "passive": [
         "Periodically deals 2400 magic damage to nearby enemies"
       ]
@@ -3138,7 +3135,6 @@
     ],
     "stats": {
       "allstat": 280,
-      "movespeed": 100,
       "skilldamagepercent": 0.03,
       "active": [
         "On use, activates Resonance, refreshing the cooldown of the last skill used",
@@ -3238,7 +3234,6 @@
       "armor": 140,
       "strength": 400,
       "agility": 320,
-      "movespeed": 50,
       "mdpercent": 0.1,
       "hpregen": 75,
       "spec": [
@@ -3452,9 +3447,6 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": [
-      "Archangel Samael: Droprate per player after 6 players 5%"
-    ],
     "droprate": [
       0.0022,
       0.012
@@ -4227,7 +4219,6 @@
       "damage": 4000,
       "strength": 350,
       "agility": 500,
-      "movespeed": 140,
       "skilldamagepercent": 0.04,
       "critmultiplier": 0.1
     },
@@ -4376,7 +4367,6 @@
     "stats": {
       "armor": 140,
       "hp": 2400,
-      "movespeed": 50,
       "passive": [
         "Reflects damage back at attacker"
       ]
@@ -4422,7 +4412,6 @@
     ],
     "stats": {
       "allstat": 60,
-      "movespeed": 75,
       "passive": [
         "Chance to temporarily increase EXP gain and MP regen on monster kill"
       ]
@@ -4667,7 +4656,6 @@
     "stats": {
       "strength": 225,
       "intelligence": 300,
-      "movespeed": 50,
       "passive": [
         "On skill cast, increases HP regen by 300 and skill damage by 6% for 3 seconds"
       ]
@@ -4714,7 +4702,6 @@
     "stats": {
       "strength": 300,
       "agility": 275,
-      "movespeed": 50,
       "critmultiplier": 0.2,
       "passive": [
         "Chance to activate Wrath on skill cast"
@@ -4855,7 +4842,6 @@
     "stats": {
       "armor": 200,
       "mainstat": 310,
-      "movespeed": 100,
       "skilldamagepercent": 0.03,
       "critchancepercent": 0.03,
       "passive": [
@@ -5006,7 +4992,6 @@
       "agility": 200,
       "intelligence": 200,
       "hp": 2000,
-      "movespeed": 100,
       "passive": [
         "Upon moving 400 distance, activates Drain on next attack dealing bonus attack damage X 50% pure damage and heal for HP X 10%",
         "cooldown: 0.125 seconds"
@@ -5024,7 +5009,7 @@
     "type": "[Greatsword]",
     "color": 13047173,
     "level": 360,
-    "droprate": 0.03,
+    "droprate": 0.02,
     "required_by": [
       "Corruptor Icon",
       "Anger"
@@ -5050,7 +5035,7 @@
     "type": "[Bow]",
     "color": 13047173,
     "level": 360,
-    "droprate": 0.03,
+    "droprate": 0.02,
     "required_by": [
       "Corruptor Icon",
       "Heartseeker",
@@ -5081,7 +5066,7 @@
     "type": "[Longsword]",
     "color": 13047173,
     "level": 360,
-    "droprate": 0.03,
+    "droprate": 0.02,
     "required_by": [
       "Corruptor Icon",
       "Laktrisha, the Illusional Sword of Poison"
@@ -5111,7 +5096,7 @@
     "type": "[Gun]",
     "color": 13047173,
     "level": 360,
-    "droprate": 0.03,
+    "droprate": 0.02,
     "required_by": [
       "Corruptor Icon",
       "Devil Chaser"
@@ -5138,7 +5123,7 @@
     "type": "[Ring]",
     "color": 13047173,
     "level": 360,
-    "droprate": 0.03,
+    "droprate": 0.02,
     "required_by": [
       "Corruptor Icon",
       "Hood of Grim Reaper",
@@ -5149,7 +5134,6 @@
     "stats": {
       "strength": 950,
       "intelligence": 850,
-      "movespeed": 100,
       "skilldamagepercent": 0.075,
       "passive": [
         "On being healed, converts excess amount into max HP"
@@ -5167,7 +5151,7 @@
     "type": "[Ring]",
     "color": 13047173,
     "level": 360,
-    "droprate": 0.03,
+    "droprate": 0.02,
     "required_by": [
       "Corruptor Icon",
       "Soul Drinker",
@@ -5227,7 +5211,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "droprate": 0.03,
+    "droprate": 0.02,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
       "Chronos, the Cannon of Time",
@@ -5252,7 +5236,7 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "droprate": 0.03,
+    "droprate": 0.02,
     "required_by": [
       "Hydro Buster",
       "Plates of Lightning",
@@ -5353,7 +5337,6 @@
     "stats": {
       "strength": 910,
       "agility": 840,
-      "movespeed": 125,
       "periodicdamagepercent": 0.25,
       "healreceivedpercent": -0.25,
       "passive": [
@@ -5559,7 +5542,6 @@
     "stats": {
       "armor": 410,
       "agility": 590,
-      "movespeed": 50,
       "skilldamagepercent": 0.07,
       "passive": [
         "Dodges upto 3 attacks every 20 seconds"
@@ -5648,7 +5630,6 @@
     ],
     "stats": {
       "allstat": 865,
-      "movespeed": 125,
       "skilldamagepercent": 0.05,
       "passive": [
         "Increases nearby allies magic defense by 8%"
@@ -5780,9 +5761,6 @@
     "type": "[Bastard Sword]",
     "color": 14423100,
     "level": 370,
-    "notes": [
-      "Droprate per player after 6 players 2.5%"
-    ],
     "droprate": 0.0075,
     "required_by": [
       "Claws of Beriel"
@@ -5813,9 +5791,6 @@
     "type": "[Staff]",
     "color": 14423100,
     "level": 370,
-    "notes": [
-      "Droprate per player after 6 players 2.5%"
-    ],
     "droprate": 0.0075,
     "required_by": [
       "Hell Riser",
@@ -5843,9 +5818,6 @@
     "type": "[Robe]",
     "color": 14423100,
     "level": 370,
-    "notes": [
-      "Droprate per player after 6 players 2.5%"
-    ],
     "droprate": 0.01,
     "required_by": [
       "Medea, the Robe of the Witch"
@@ -5871,16 +5843,12 @@
     "type": "[Ring]",
     "color": 14423100,
     "level": 370,
-    "notes": [
-      "Droprate per player after 6 players 2.5%"
-    ],
     "droprate": 0.01,
     "required_by": [
       "Cold Ring of Death"
     ],
     "stats": {
       "mainstat": 1300,
-      "movespeed": 160,
       "skilldamagepercent": 0.12,
       "spec": [
         "Specialties",
@@ -5900,9 +5868,6 @@
     "type": "[Ring]",
     "color": 14423100,
     "level": 370,
-    "notes": [
-      "Droprate per player after 6 players 2.5%"
-    ],
     "droprate": 0.01,
     "required_by": [
       "Requiem, the Armor of Lamentation"
@@ -5932,9 +5897,6 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": [
-      "Droprate per player after 6 players 2.5%"
-    ],
     "droprate": 0.0075,
     "required_by": [
       "Claws of Beriel",
@@ -5944,7 +5906,6 @@
       "Crimson Star",
       "Hood of Apocrypha",
       "Grandine, the Plates of Wraith",
-      "Ring of Time",
       "Ispion, the Runed Ring",
       "Seal of Deceiver",
       "Soul of the Dead",
@@ -5961,9 +5922,6 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": [
-      "Droprate per player after 6 players 2.5%"
-    ],
     "droprate": 0.0075,
     "required_by": [
       "Espishu, the Sword of Eternity",
@@ -5980,7 +5938,8 @@
       "Bloodsoul Plates",
       "Frost Fairy Wings",
       "Pure Crystal Wings",
-      "Ring of Composure"
+      "Ring of Composure",
+      "Ring of Time"
     ],
     "koreanname": "망각의 구슬"
   },
@@ -5992,9 +5951,6 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": [
-      "Droprate per player after 6 players 2.5%"
-    ],
     "droprate": 0.0075,
     "required_by": [
       "Espishu, the Sword of Eternity",
@@ -6018,9 +5974,6 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": [
-      "Droprate per player after 6 players 2.5%"
-    ],
     "droprate": 0.0075,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
@@ -6131,7 +6084,6 @@
     "stats": {
       "mainstat": 980,
       "hp": 5000,
-      "movespeed": 160,
       "dtpercent": -0.12,
       "passive": [
         "8% Chance to activate Perseverance on attack:",
@@ -6245,7 +6197,6 @@
     "stats": {
       "strength": 1040,
       "intelligence": 1040,
-      "movespeed": 50,
       "mdpercent": 0.18,
       "healreceivedpercent": 0.15,
       "hpregen": 275,
@@ -6396,7 +6347,6 @@
     ],
     "stats": {
       "allstat": 930,
-      "movespeed": 125,
       "passive": [
         "On skill cast, increases skill damage by 3% for 6 seconds (stacks up to 4 times)"
       ],
@@ -6421,10 +6371,6 @@
     "type": "[Bastard Sword]",
     "color": 14423100,
     "level": 370,
-    "notes": [
-      "9 players: Drop rate + 10%",
-      "10 players: Drop rate + 20%"
-    ],
     "droprate": 0.0075,
     "stats": {
       "damage": 25500,
@@ -6448,10 +6394,6 @@
     "type": "[Armor/Robe]",
     "color": 13047173,
     "level": 370,
-    "notes": [
-      "9 players: Drop rate + 10%",
-      "10 players: Drop rate + 20%"
-    ],
     "droprate": 0.015,
     "stats": {
       "armor": 600,
@@ -6480,10 +6422,6 @@
     "type": "[Ring]",
     "color": 13047173,
     "level": 370,
-    "notes": [
-      "9 players: Drop rate + 10%",
-      "10 players: Drop rate + 20%"
-    ],
     "droprate": 0.015,
     "required_by": [
       "Ring of Time",
@@ -6510,10 +6448,6 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": [
-      "9 players: Drop rate + 10%",
-      "10 players: Drop rate + 20%"
-    ],
     "droprate": 0.0075,
     "required_by": [
       "Crimson Reaper",
@@ -6538,10 +6472,6 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": [
-      "9 players: Drop rate + 10%",
-      "10 players: Drop rate + 20%"
-    ],
     "droprate": 0.0075,
     "required_by": [
       "Staff of Plague",
@@ -6568,10 +6498,6 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": [
-      "Shadow Dragon Irbert - 9 players: Drop rate + 10%",
-      "Shadow Dragon Irbert - 10 players: Drop rate + 20%"
-    ],
     "droprate": [
       0.006,
       0.009
@@ -6610,9 +6536,6 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": [
-      "Droprate per player after 6 players 5%"
-    ],
     "droprate": 0.008,
     "required_by": [
       "Claws of Beriel",
@@ -6635,9 +6558,6 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": [
-      "Droprate per player after 6 players 5%"
-    ],
     "droprate": 0.008,
     "required_by": [
       "Oceanus, the Sword of Light",
@@ -6660,9 +6580,6 @@
     ],
     "type": "[Material]",
     "color": 16777215,
-    "notes": [
-      "Droprate per player after 6 players 5%"
-    ],
     "droprate": 0.008,
     "required_by": [
       "Ruinbringer",
@@ -6684,9 +6601,6 @@
       "Archangel Samael"
     ],
     "type": "[Wings]",
-    "notes": [
-      "Droprate per player after 6 players 5%"
-    ],
     "color": 14423100,
     "level": 380,
     "droprate": 0.006,
@@ -6696,7 +6610,6 @@
     "stats": {
       "strength": 840,
       "agility": 940,
-      "movespeed": 125,
       "skilldamagepercent": 0.075,
       "mdpercent": 0.075,
       "passive": [
@@ -6820,7 +6733,6 @@
     "stats": {
       "mainstat": 420,
       "allstat": 980,
-      "movespeed": 150,
       "passive": [
         "15% chance to do 40% bonus damage upon dealing damage"
       ]
@@ -6910,7 +6822,6 @@
     ],
     "stats": {
       "mainstat": 1200,
-      "movespeed": 160,
       "dtpercent": -0.15,
       "active": [
         "On use, activates Shackles of Heaven:",
@@ -6991,7 +6902,6 @@
     ],
     "stats": {
       "mainstat": 1300,
-      "movespeed": 125,
       "skilldamagepercent": 0.1,
       "passive": [
         "Gain one stack after 5 seconds of attacking, for a max of 5 stacks and 25 seconds of attacking"
@@ -7089,7 +6999,6 @@
     "stats": {
       "mainstat": 1120,
       "attackspeedpercent": 0.1,
-      "movespeed": 125,
       "passive": [
         "Every 3 seconds, your next attack strikes for 2 additional times"
       ],
@@ -7872,7 +7781,7 @@
     "stats": {
       "damage": 450,
       "allstat": 60,
-      "movespeed": 200
+      "movespeed": 50
     }
   },
   {
@@ -7898,8 +7807,7 @@
     ],
     "stats": {
       "damage": 1200,
-      "allstat": 90,
-      "movespeed": 200
+      "allstat": 90
     }
   },
   {
@@ -7926,7 +7834,6 @@
     "stats": {
       "damage": 2500,
       "allstat": 175,
-      "movespeed": 200,
       "spec": [
         "Merchant Specialty - Light Bag",
         "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once"
@@ -7958,7 +7865,6 @@
     "stats": {
       "damage": 6000,
       "allstat": 525,
-      "movespeed": 200,
       "hpregen": 300,
       "spec": [
         "Merchant Specialty - Light Bag",
@@ -7994,7 +7900,7 @@
     "stats": {
       "damage": 11000,
       "allstat": 800,
-      "movespeed": 200,
+      "movespeed": 50,
       "hpregen": 400,
       "spec": [
         "Merchant Specialty - Light Bag",
@@ -8030,7 +7936,7 @@
     "stats": {
       "damage": 16000,
       "allstat": 1200,
-      "movespeed": 200,
+      "movespeed": 75,
       "hpregen": 600,
       "spec": [
         "Merchant Specialty - Very Light Bag",
@@ -8070,7 +7976,6 @@
     "stats": {
       "damage": 23000,
       "allstat": 1550,
-      "movespeed": 200,
       "hpregen": 800,
       "spec": [
         "Merchant Specialty - Very Light Bag",
@@ -8107,7 +8012,7 @@
     "stats": {
       "damage": 26000,
       "allstat": 1950,
-      "movespeed": 200,
+      "movespeed": 75,
       "hpregen": 1200,
       "spec": [
         "Merchant Specialty - Very Light Bag",
@@ -8134,8 +8039,7 @@
     ],
     "stats": {
       "damage": 175,
-      "attackspeedpercent": 0.2,
-      "movespeed": 50
+      "attackspeedpercent": 0.2
     }
   },
   {
@@ -9077,7 +8981,6 @@
       "damage": 15300,
       "intelligence": 1890,
       "hp": 4500,
-      "movespeed": 50,
       "passive": [
         "On skill cast, empower nearby allies for 6 seconds. Allies receive:",
         "+7.5% skill damage",
@@ -11407,7 +11310,6 @@
       "damage": 18300,
       "intelligence": 2210,
       "hp": 6000,
-      "movespeed": 75,
       "passive": [
         "On skill cast, empowers nearby allies with +10% skill damage and +250 HP regen for 8 seconds"
       ],
@@ -12098,7 +12000,6 @@
       "armor": 240,
       "strength": 160,
       "intelligence": 270,
-      "movespeed": 50,
       "passive": [
         "'Possession' Triggers when Health is low healing you and giving Int for a brief period (20 second CD)"
       ]
@@ -12170,7 +12071,6 @@
       "armor": 340,
       "strength": 310,
       "intelligence": 490,
-      "movespeed": 75,
       "passive": [
         "'Possession' Triggers when Health is low healing you and giving 750 Int for a brief period (20 second CD)"
       ],
@@ -12864,7 +12764,6 @@
     "stats": {
       "armor": 380,
       "strength": 450,
-      "movespeed": 50,
       "passive": [
         "10% chance to reflect 5 X STR Pure Damage and 90% chance to return 0.5 X STR Pure Damage",
         "Improved HP regen"
@@ -13360,7 +13259,7 @@
       "skilldamagepercent": 0.05,
       "mdpercent": 0.05,
       "active": [
-        "'Frozen Protection' Absorbs up to (0.75 X max MP + 6 X Int) damage (75 second CD)"
+        "'Frozen Protection' Absorbs up to (6 X Int) damage (75 second CD)"
       ],
       "spec": [
         "Specialty",
@@ -13486,7 +13385,6 @@
       "armor": 450,
       "strength": 180,
       "agility": 740,
-      "movespeed": 75,
       "critchancepercent": 0.07,
       "passive": [
         "Reduces damage taken by 90% for 3 seconds and heals you for 25% of max Health when Health is low (60 second CD)"
@@ -13798,10 +13696,10 @@
       "armor": 670,
       "intelligence": 1240,
       "hp": 3000,
-      "skilldamagepercent": 0.1,
-      "mdpercent": 0.1,
+      "skilldamagepercent": 0.08,
+      "mdpercent": 0.08,
       "active": [
-        "'Everfrost Soul' Forms a shield that blocks damage equal to (0.75 X max MP + 6 X INT) (45 second CD)"
+        "'Everfrost Soul' Forms a shield that blocks damage equal to (8 X INT) (45 second CD)"
       ],
       "spec": [
         "Specialty",
@@ -14003,7 +13901,6 @@
     "stats": {
       "allstat": 390,
       "hp": 3500,
-      "movespeed": 20,
       "skilldamagepercent": 0.08,
       "active": [
         "Spawns tentacles around the caster throwing units into the air, stunning them and healing the caster"
@@ -14123,7 +14020,6 @@
     ],
     "stats": {
       "allstat": 725,
-      "movespeed": 75,
       "skilldamagepercent": 0.05,
       "dtpercent": -0.1
     }
@@ -14156,7 +14052,6 @@
     ],
     "stats": {
       "allstat": 500,
-      "movespeed": 125,
       "passive": [
         "'Holy Wings' Increase nearby allies armor by 200"
       ]
@@ -14190,7 +14085,6 @@
     ],
     "stats": {
       "allstat": 550,
-      "movespeed": 100,
       "skilldamagepercent": 0.04
     }
   },
@@ -14222,7 +14116,6 @@
     ],
     "stats": {
       "allstat": 490,
-      "movespeed": 125,
       "skilldamagepercent": 0.04,
       "active": [
         "Resets the last ability cast, and gain increased Mana Regeneration for 18 seconds (Does not apply to ultimate skill or items) (135 second CD)"
@@ -14291,7 +14184,6 @@
       "armor": 200,
       "strength": 780,
       "agility": 650,
-      "movespeed": 100,
       "mdpercent": 0.15,
       "hpregen": 125,
       "spec": [
@@ -14362,7 +14254,6 @@
     "stats": {
       "armor": 150,
       "allstat": 775,
-      "movespeed": 125,
       "skilldamagepercent": 0.06,
       "dtpercent": -0.12,
       "passive": [
@@ -14439,7 +14330,6 @@
     ],
     "stats": {
       "allstat": 700,
-      "movespeed": 140,
       "passive": [
         "Increase nearby allies Armor by 200 and Max Health by 3,000",
         "'Divine Light' Gain a stack on every skill cast. 8 second duration (Max 5 Stacks)"
@@ -14481,7 +14371,6 @@
     ],
     "stats": {
       "allstat": 900,
-      "movespeed": 125,
       "skilldamagepercent": 0.07,
       "passive": [
         "Increase nearby allies Armor by 300"
@@ -14553,7 +14442,6 @@
     ],
     "stats": {
       "allstat": 1125,
-      "movespeed": 160,
       "skilldamagepercent": 0.1,
       "passive": [
         "Decreases nearby enemies' armor by 75",
@@ -14588,7 +14476,6 @@
     ],
     "stats": {
       "allstat": 810,
-      "movespeed": 160,
       "skilldamagepercent": 0.06,
       "active": [
         "Resets the last ability cast (Does not apply to ultimate skill or items) and gives you 1200 mana regeneration for 10 seconds. (105 seconds CD)"
@@ -14630,7 +14517,6 @@
     "stats": {
       "strength": 1075,
       "agility": 1075,
-      "movespeed": 160,
       "skilldamagepercent": 0.09,
       "passive": [
         "Chance to reduce enemy armor by 225 on attack"
@@ -14670,7 +14556,6 @@
     "stats": {
       "allstat": 920,
       "hp": 7500,
-      "movespeed": 125,
       "healreceivedpercent": 0.15,
       "active": [
         "Heals for 30% of Max Health"
@@ -14749,7 +14634,6 @@
     "stats": {
       "intelligence": 1080,
       "hp": 4000,
-      "movespeed": 75,
       "affinityiwpercent": 0.06,
       "passive": [
         "Increase nearby allies Magical Resistance by 8% (Aura Range 1,200)"
@@ -14789,7 +14673,6 @@
     ],
     "stats": {
       "allstat": 950,
-      "movespeed": 160,
       "passive": [
         "Increase the Armor by 300 and Max Health by 5,000 of all allies in 800 AoE",
         "'Divine Light' Gain a stack on every skill cast. 8 second duration (Max 5 Stacks)"
@@ -14837,7 +14720,6 @@
       "allstat": 1170,
       "hp": 7500,
       "mp": 7500,
-      "movespeed": 125,
       "healreceivedpercent": 0.15,
       "passive": [
         "Revive 2 seconds after death with 100% Health/Mana (240 second CD)"
@@ -14878,7 +14760,6 @@
     "stats": {
       "strength": 1110,
       "agility": 1030,
-      "movespeed": 160,
       "periodicdamagepercent": 0.25,
       "healreceivedpercent": -0.25,
       "passive": [
@@ -14908,7 +14789,7 @@
         "Steel of God": 1
       },
       {
-        "Spirit of Abyss": 1
+        "Orb of Oblivion": 1
       },
       {
         "Heart of Fire": 1
@@ -14916,7 +14797,6 @@
     ],
     "stats": {
       "allstat": 960,
-      "movespeed": 200,
       "skilldamagepercent": 0.08,
       "passive": [
         "If HP drops below 1, Heals HP x 40%, then deals the damage that procc'd the effect (CD: 300 Seconds)",
@@ -14955,7 +14835,7 @@
     ],
     "stats": {
       "allstat": 99999,
-      "movespeed": 0,
+      "movespeed": -500,
       "skilldamagepercent": 0.008,
       "passive": [
         "If HP drops below 1, Gives you a text that says HEALED but thats it."
@@ -14999,7 +14879,6 @@
       "strength": 1410,
       "agility": 580,
       "intelligence": 580,
-      "movespeed": 160,
       "dtpercent": -0.09,
       "passive": [
         "Reduces damage received of nearby allies 6% and healing received by 12%"
@@ -15044,7 +14923,6 @@
     "stats": {
       "mainstat": 1425,
       "attackspeedpercent": 0.2,
-      "movespeed": 200,
       "skilldamagepercent": 0.145,
       "hpregen": 200,
       "mpregen": 100,
@@ -15091,7 +14969,6 @@
     "stats": {
       "strength": 1240,
       "intelligence": 1160,
-      "movespeed": 160,
       "skilldamagepercent": 0.12,
       "passive": [
         "\"Disguiser's Seal\" Store 1% of damage dealt as max Health and Mana (10% of Max Health and Max Mana Cap) Wears off 6 seconds after the last time you deal damage"
@@ -15137,7 +15014,6 @@
       "damage": 6000,
       "mainstat": 250,
       "allstat": 750,
-      "movespeed": 125,
       "skilldamagepercent": 0.075,
       "dtpercent": -0.075,
       "passive": [
@@ -15178,7 +15054,6 @@
     ],
     "stats": {
       "allstat": 1300,
-      "movespeed": 175,
       "skilldamagepercent": 0.12,
       "passive": [
         "20% chance of 20% additional damage",
@@ -15249,7 +15124,6 @@
     ],
     "stats": {
       "allstat": 135,
-      "movespeed": 100,
       "expreceivedpercent": 0.1,
       "passive": [
         "'Revelation' Chance to temporarily increase Experience Gain and Mana Regeneration on kill"
@@ -15321,7 +15195,6 @@
     "stats": {
       "strength": 475,
       "agility": 425,
-      "movespeed": 50,
       "dodgechancepercent": 0.1,
       "passive": [
         "When casting a spell, empower next attack with darkness (5,000 + 2x Main Stat damage and heal for 2.5% max hp)"
@@ -15391,7 +15264,6 @@
       "agility": 550,
       "intelligence": 550,
       "hp": 4000,
-      "movespeed": 125,
       "passive": [
         "'Drain' Empower next attack after moving 400 range (including by teleport/dash) dealing bonus 60% of your Attack as Pure Damage and healing you for 8% Health (0.125s cd)",
         "Gain 150 Health regen on every proc up to 5 times for 2.5 seconds."
@@ -15507,7 +15379,6 @@
       "intelligence": 715,
       "hp": 4000,
       "mp": 7500,
-      "movespeed": 125,
       "skilldamagepercent": 0.08,
       "active": [
         "Creates a portal between Capitol Prius and your current location"
@@ -15545,7 +15416,6 @@
     "stats": {
       "strength": 675,
       "agility": 625,
-      "movespeed": 75,
       "skilldamagepercent": 0.05,
       "passive": [
         "When casting a spell, empower next attack with Fury (Does [7,500+2.5x Main Stat] Pure Damage and heals for 3% of your Max Health on next attack. 1/8 Chance to crit, doing [15,000+6x Main Stat] Pure Damage and healing for 7.5% of your Max Health on next attack)",
@@ -15588,7 +15458,6 @@
       "damage": 6000,
       "strength": 425,
       "agility": 625,
-      "movespeed": 160,
       "dtpercent": -0.07,
       "active": [
         "Creates a portal between Capitol Prius and your current location"
@@ -15629,7 +15498,6 @@
       "intelligence": 945,
       "hp": 4000,
       "mp": 12500,
-      "movespeed": 125,
       "skilldamagepercent": 0.11,
       "affinityiwpercent": 0.07,
       "active": [
@@ -15716,7 +15584,6 @@
       "damage": 9000,
       "strength": 750,
       "agility": 750,
-      "movespeed": 150,
       "dtpercent": -0.07,
       "hpregen": 300,
       "active": [
@@ -15759,7 +15626,6 @@
     "stats": {
       "strength": 690,
       "intelligence": 1340,
-      "movespeed": 75,
       "skilldamagepercent": 0.06,
       "mdpercent": 0.06,
       "passive": [
@@ -15812,7 +15678,6 @@
     "stats": {
       "allstat": 910,
       "hp": 4000,
-      "movespeed": 125,
       "passive": [
         "Resurrect upon death with 40% Health and 100% Mana (180 second CD)",
         "Respawn time reduced by 40%",
@@ -15928,7 +15793,6 @@
     "stats": {
       "strength": 875,
       "agility": 775,
-      "movespeed": 100,
       "skilldamagepercent": 0.06,
       "passive": [
         "When casting a spell, empower next attack with Slayer's Fury (Does [10,000+3x Main Stat] Pure Damage and heals for 4% of your Max Health on next attack. 17.5% Chance to Crit, doing [25,000+7.5x Main Stat] Pure Damage and healing for 10% of your Max Health on next attack)",
@@ -15967,7 +15831,6 @@
     "stats": {
       "allstat": 740,
       "hp": 5000,
-      "movespeed": 150,
       "passive": [
         "Upon moving 400 distance, activates Bloody Bite on next attack.",
         "On each proc, deal Attack Damage X 75% pure damage, heal Max HP X 8%, and for 2.5 seconds gain ATK +1500, MS +15, and HP Recovery Rate +250 (can overlap up to 5 times)"
@@ -16003,7 +15866,6 @@
     ],
     "stats": {
       "allstat": 1160,
-      "movespeed": 160,
       "affinityiwpercent": 0.05,
       "affinityflamepercent": 0.05,
       "affinitywlpercent": 0.05,
@@ -16092,7 +15954,6 @@
       "damage": 4000,
       "mainstat": 500,
       "allstat": 450,
-      "movespeed": 200,
       "critmultiplier": 0.2,
       "passive": [
         "On spell cast, increases skill damage and crit chance by 4% for 6 seconds. Stacks up to 3 times"
@@ -16799,7 +16660,6 @@
     ],
     "stats": {
       "allstat": 960,
-      "movespeed": 150,
       "hpregen": 400,
       "passive": [
         "Casting single-target spells on ally increases target's damage by 7.5% for 12 seconds"
@@ -16839,7 +16699,6 @@
     ],
     "stats": {
       "allstat": 1010,
-      "movespeed": 150,
       "mpregen": 200,
       "passive": [
         "Casting single-target spells on enemies decreases their magic resistance by 6% for 12 seconds"
@@ -16963,7 +16822,6 @@
     "stats": {
       "allstat": 700,
       "mp": 7500,
-      "movespeed": 140,
       "skilldamagepercent": 0.04,
       "active": [
         "Consumes 50% of Max Mana and for 8s grants (mana consumed/80) Main Stat and 30% Attack Speed (30s cd)"
@@ -17006,7 +16864,6 @@
     "stats": {
       "allstat": 950,
       "mp": 12500,
-      "movespeed": 160,
       "skilldamagepercent": 0.06,
       "active": [
         "Consumes 50% of Max Mana and for 10s grants (mana consumed/60) Main Stat and 50% Attack Speed (30s cd)"
@@ -17113,7 +16970,6 @@
     "stats": {
       "intelligence": 1400,
       "hp": 5000,
-      "movespeed": 125,
       "affinityiwpercent": 0.06,
       "affinitywlpercent": 0.06,
       "passive": [

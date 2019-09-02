@@ -151,6 +151,7 @@
             "INT X 20 magic damage",
             "Increases damage taken by (5 + INT / 2500)% and reduces speed by 40% for 5 seconds",
             "On consecutive casts, fires additional shards and stuns for 0.5 seconds",
+            "Projectile bypasses terrain",
             "Lasts 5 seconds"
         ]
     },
@@ -387,7 +388,7 @@
         "icon": "AlchemistE",
         "passive": [
             "Affinity with air grants vitality.",
-            "Air-related transmutation grants 40% attack speed and movement speed for 6 seconds"
+            "Air-related transmutation grants 40% attack speed for 6 seconds"
         ],
         "active": [
             "Create a transmutation circle of air to cast skills.",
@@ -1067,7 +1068,8 @@
             "Fire a charged magic bullet, and disengage using the recoil.",
             "Attack Damage X 380% damage",
             "AGI X 24 bonus damage",
-            "Deals up to (400 + 2 X Skill Damage increase)% damage based on knockback distance"
+            "Deals up to (400 + 2 X Skill Damage increase)% damage based on knockback distance",
+            "Cooldown: 10 seconds"
         ]
     },
     {
@@ -1366,10 +1368,10 @@
         "icon": "SwordsmanW",
         "active": [
             "Swiftly approach to attack, drawing a crescent slash.",
-            "Skill Level X 300 damage",
-            "AGI X 16.5 bonus damage",
+            "AGI X 25 bonus damage",
             "For 4 seconds, Quick Draw lands as critical strikes against the target",
-            "Chain - Wind Slash"
+            "Chain - Wind Slash",
+            "Cooldown: 8 seconds"
         ]
     },
     {
@@ -1391,11 +1393,16 @@
         "color": 11320803,
         "hotkey": "[E]",
         "icon": "SwordsmanE",
+        "passive": [
+            "Engulfs your body with a wind storm.",
+            "Gains 20% damage reduction for 1.5 seconds when casting a skill"
+        ],
         "active": [
-            "Skill Level X 200 damage per second",
-            "AGI X 9 bonus damage",
-            "Increases magic defense by 40% and movement speed for duration",
+            "Creates a wind storm.",
+            "AGI X 10 bonus damage",
+            "Increases magic defense by 40% for duration",
             "Lasts 6 seconds",
+            "Cooldown: 15 seconds",
             "Chain - Flash Step (available for 4 seconds)"
         ]
     },
@@ -1491,8 +1498,7 @@
         "icon": "ElementalistD_Pass2",
         "passive": [
             "Makes movement light as wind.",
-            "Increases nearby summons' attack speed by 50%",
-            "Increases nearby allies' movement speed by 50%"
+            "Increases nearby summons' attack speed by 50%"
         ]
     },
     {
@@ -2023,7 +2029,7 @@
         ],
         "active": [
             "Summons an angel using your own body as a vessel to break the limits on the Execution Sword.",
-            "Attack speed increased by 160% and movement speed increased to maximum",
+            "Attack speed increased by 160% increased to maximum",
             "Heals for Max HP X 30% every second",
             "15% chance to activate Heaven's Sword on attack",
             "Attack Damage X 10 + STR X 20 damage",
@@ -2107,7 +2113,7 @@
         "icon": "MartialArtistPass",
         "passive": [
             "Calm your mind and body to maintain control over yourself.",
-            "Increased attack and movement speed",
+            "Increased attack speed",
             "Chance to temporarily boost attack damage, damage resistance by 20% and HP regen on attack"
         ]
     },
@@ -2134,6 +2140,7 @@
             "Chance to activate Martial Arts increased",
             "Gains immunity to debuffs and CC effects",
             "Gains acceleration",
+            "Increase attack range by 50",
             "Ignores unit collision"
         ]
     },
@@ -2402,7 +2409,6 @@
         "icon": "AssassinE",
         "active": [
             "Becomes one with the shadow to avoid being seen by enemies.",
-            "Obtains maximum movement speed for 12 seconds",
             "Deals Attack Damage X 600% magic damage on next attack",
             "AGI X 40 bonus damage",
             "If struck from behind, damage increased by 100%"
@@ -2461,7 +2467,7 @@
         "active": [
             "Swiftly move by riding on the wind.",
             "Moves at least 400 units (Max range 800 units)",
-            "Increases movement speed and reduces damage taken by 40% for 2 seconds after casting",
+            "Reduces damage taken by 40% for 2 seconds after casting",
             "Leaves behind a feather that you can recall back to",
             "CD: 10 seconds - Available for 5 seconds to recall"
         ]
@@ -2516,7 +2522,8 @@
             "Heals allies for INT X 2",
             "Cooldown reset upon casting Feather of Aeolus",
             "When two gentle winds combine, strong winds are formed for 4 seconds, dealing Attack Damage X 500% damage per second",
-            "CD: 6 seconds"
+            "CD: 6 seconds",
+            "Projectile speed: 400"
         ]
     },
     {
@@ -2742,7 +2749,7 @@
         "active": [
             "\"Damn it.. there goes my rarest scroll! If I wasn't a merchant dealing with customer relationships, I'd never have used it for him.. \" - Merchant",
             "Empowers target with Indomitable Strength for 12 seconds",
-            "Increases attack speed and movement speed by 100%",
+            "Increases attack speed by 100%",
             "Increases damage dealt by target by 40%",
             "Decreases damage taken by target by 60%",
             "Heals for Max HP X 30% per second",
@@ -2851,9 +2858,10 @@
         "icon": "BerserkerPass",
         "passive": [
             "Drowns in enemies' blood to become immersed in battle.",
-            "Heals for Max HP X 5% on each attack",
-            "10% chance to leave bleeding on each attack",
-            "Deals Attack Damage X 200% damage per second"
+            "Heals for Max HP X 6% on each attack",
+            "15% chance to leave bleeding on each attack",
+            "Deals Attack Damage X 200% damage per second",
+            "Duration: 4 seconds"
         ]
     },
     {
@@ -2894,8 +2902,9 @@
         ],
         "toggle": [
             "Drowns in blood to bring out full combat abilities.",
-            "Consumes max HP X 30% per second",
-            "Ignores all healing received"
+            "Consumes current HP X 30% per second",
+            "Ignores all healing received",
+            "Max efficiency threshold: 20% HP"
         ]
     },
     {
@@ -2907,9 +2916,10 @@
         "active": [
             "검을 피로 감싸 나아가며 적을 분쇄한다.",
             "Consumes HP X 20%",
-            "Attack Damage X 400% damage per second",
-            "STR X 40 bonus damage",
-            "Deals (75 + Skill Damage Bonus)% bonus damage to bleeding targets"
+            "Attack Damage X 500% damage per second",
+            "STR X 50 bonus damage",
+            "Deals 100% bonus damage to bleeding targets and resets bleed duration",
+            "Duration: 2 seconds"
         ]
     },
     {
@@ -2928,7 +2938,7 @@
             "Driven by madness, Berserker becomes a killing machine whose sole purpose is to battle.",
             "Consumes HP X 80%",
             "Attack Damage X 400% damage per second",
-            "Increases attack speed and movement speed by 100% for 12 seconds",
+            "Increases attack speed by 100% for 12 seconds",
             "Evades death for the duration"
         ]
     },
@@ -2955,7 +2965,6 @@
         "passive": [
             "The elven archers of ancient origin possess superior intellect and archery skills.",
             "Increased attack range",
-            "Movement speed increased by 100",
             "Every 5 seconds, empowers next attack with a magical explosion",
             "Next Flame Shot / Freezing Shot incurs no cooldown",
             "Has cooldown of 5 seconds"
@@ -3124,7 +3133,7 @@
         ],
         "active": [
             "Focus keenly to maximize instincts.",
-            "Movement speed is maximized and becomes immune to debuff for 2 seconds",
+            "Becomes immune to debuff for 2 seconds",
             "Evades next attack",
             "Chain - Assault"
         ]
@@ -3190,7 +3199,7 @@
             "Can be channeled up to a maximum of 4 seconds",
             "Grants 100% damage reduction and CC immunity to allies hit for 5 seconds",
             "Cancels Release Mana",
-            "Cooldown: 150 seconds"
+            "Cooldown: 100 seconds"
         ]
     },
     {
@@ -3346,7 +3355,8 @@
         "active": [
             "Damage and slow enemies by amplifying the gravity.",
             "Skill Level X 200 damage",
-            "INT X 4 bonus damage"
+            "INT X 4 bonus damage",
+            "Cooldown: 10 seconds"
         ]
     },
     {
@@ -3372,8 +3382,9 @@
         "icon": "ArcaneMageT",
         "active": [
             "Fires magical missiles in all directions.",
-            "Each missile deals INT X 30 magic damage",
-            "Fires 8 missiles"
+            "Each missile deals INT X 40 magic damage",
+            "Fires 8 missiles",
+            "Cooldown: 15 seconds"
         ]
     },
     {
@@ -3567,8 +3578,7 @@
         "icon": "PriestE",
         "passive": [
             "The priest's presence alone brings great support to her allies.",
-            "Attack speed increased",
-            "Movement speed increased by 60"
+            "Attack speed increased"
         ],
         "active": [
             "Consecerate nearby ground to protect allies and bring down judgment on enemies.",
@@ -3768,7 +3778,7 @@
         "icon": "PaladinD_R",
         "passive": [
             "An aspect of paragon who awakens his allies.",
-            "Increases nearby allies' movement speed",
+            "Increases nearby allies' movement speed past the limit by 50",
             "Judgment - Stuns target for 0.5 seconds",
             "Sigil - Removes debuffs"
         ]
@@ -4197,7 +4207,7 @@
             "Brands the target with power.",
             "Increases damage dealt by 7.5%",
             "Reduces damage taken by 20%",
-            "Increases attack and movement speed by 50%",
+            "Increases attack by 50%",
             "Lasts 45 seconds"
         ]
     },
@@ -4211,7 +4221,6 @@
             "Every 4th attack deals INT X 40 magic damage",
             "Increases attack speed by 250%",
             "Reduces damage taken by 20%",
-            "Increases movement speed by 300",
             "Becomes immune to all harmful effects",
             "Vanishes after 12 seconds"
         ]
