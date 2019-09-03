@@ -1862,6 +1862,9 @@
       "Diana, the Robe of Holy Maiden",
       "Pure Crystal Wings"
     ],
+    "recipe": [
+      { "Proof of Endeavor": 6 }
+    ],
     "koreanname": "정령의 구슬"
   },
   {
@@ -1976,6 +1979,9 @@
       "Benziena, the Earthen Soul",
       "Bag of Mother Nature",
       "Druid's Mantle"
+    ],
+    "recipe": [
+      { "Proof of Endeavor": 6 }
     ],
     "koreanname": "숲의 기운"
   },
@@ -5226,6 +5232,9 @@
       "Bag of Corruption",
       "Maw of Greed"
     ],
+    "recipe": [
+      { "Proof of Endeavor": 6 }
+    ],
     "koreanname": "타락의 결정"
   },
   {
@@ -5245,6 +5254,9 @@
       "Ring of Intrusion",
       "Wings of Blood Lord",
       "Vest of Cyclone"
+    ],
+    "recipe": [
+      { "Proof of Endeavor": 6 }
     ],
     "koreanname": "낡은 유적의 조각"
   },
@@ -5425,6 +5437,9 @@
       "Ring of Composure",
       "Vest of Cyclone"
     ],
+    "recipe": [
+      { "Proof of Endeavor": 6 }
+    ],
     "koreanname": "악몽의 기운"
   },
   {
@@ -5458,6 +5473,9 @@
       "Nightmare Icon",
       "Bag of Life",
       "Ring of Fervor"
+    ],
+    "recipe": [
+      { "Proof of Endeavor": 6 }
     ],
     "koreanname": "분노의 결정"
   },
@@ -5664,6 +5682,9 @@
       "Turtle Lord Icon",
       "Maw of Greed"
     ],
+    "recipe": [
+      { "Proof of Endeavor": 6 }
+    ],
     "koreanname": "순수의 강철"
   },
   {
@@ -5686,6 +5707,9 @@
       "Crown of Rage",
       "Turtle Lord Icon",
       "Plates of Lightning"
+    ],
+    "recipe": [
+      { "Proof of Endeavor": 6 }
     ],
     "koreanname": "폭풍의 문장"
   },
@@ -5717,6 +5741,9 @@
       "Ring of Intrusion",
       "Heart of Ifrit",
       "Turtle Lord Icon"
+    ],
+    "recipe": [
+      { "Proof of Endeavor": 6 }
     ],
     "koreanname": "마나 오브"
   },
@@ -7062,6 +7089,29 @@
     "color": 14329120,
     "droprate": 0.0001,
     "koreanname": "본 드래곤 토큰"
+  },
+  {
+    "id": "I0LN",
+    "name": "Proof of Endeavor",
+    "koreanname": "노력의 잔해",
+    "type": "[Material]",
+    "color": 16777215,
+    "notes": [
+      "Only aquired by dissasembling any Epic items dropped by the following bosses:",
+      "Rectus / Spirit Beast / Flame Nightmare / Turtle Lord",
+      "Gather 6 to forge a material from one of the bosses listed above."
+    ],
+    "required_by": [
+      "Essence of Corruption",
+      "Ancient Fragment of Ruins",
+      "Spirit Orb",
+      "Spirit of Forest",
+      "Essence of Anger",
+      "Spirit of Nightmare",
+      "Orb of Mana",
+      "Mark of Storm",
+      "Pure Steel"
+    ]
   },
   {
     "id": "I04U",
