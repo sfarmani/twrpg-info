@@ -300,7 +300,7 @@
         "name": "Ruler of the Lav Sea Hydra",
         "limit": "12",
         "summon": "South of Capital Prius at wrecked ship in murloc area",
-        "conditions": "Level 80 and 3 White Powder",
+        "conditions": "Level 80 and 2 White Powder",
         "drops": [
             "I06Y",
             "I070",
@@ -324,7 +324,7 @@
         "limit": "5",
         "manacost": "1",
         "summon": "East area of Duchy of Wallachi at wrecked church near Death Knight",
-        "conditions": "Level 160 and 2x White Powder, 2x Red Powder",
+        "conditions": "Level 160 and 2x White Powder, 1x Red Powder",
         "drops": [
             "I07I",
             "moon",
@@ -347,7 +347,7 @@
         "limit": "4",
         "manacost": "1",
         "summon": "East area of Capital Prius at Fountain",
-        "conditions": "Level 80 and 3x Red Powder",
+        "conditions": "Level 80 and 2x Red Powder",
         "drops": [
             "I07O",
             "I07M",
@@ -374,7 +374,7 @@
         "limit": "4",
         "manacost": "1",
         "summon": "In Volcanic Lands in the Volcano where Ragnaar spawns",
-        "conditions": "Level 200 and 4x Green Powder",
+        "conditions": "Level 200 and 3x Green Powder",
         "drops": [
             "I07R",
             "I09S",
@@ -395,7 +395,7 @@
         "limit": "4",
         "manacost": "1",
         "summon": "South area of Frosty Snowfield between two snowmen near Yetis'",
-        "conditions": "Level 120 and 4x Red Powder",
+        "conditions": "Level 120 and 3x Red Powder",
         "drops": [
             "I06F",
             "I083",
@@ -519,7 +519,7 @@
         "limit": "7",
         "manacost": "2",
         "summon": "In Frost Cave where 3 Pruis Magicians are gathered",
-        "conditions": "Level 300 and 2x Holy Powder, 4x Blue Powder",
+        "conditions": "Level 300 and 1x Holy Powder, 4x Blue Powder",
         "drops": [
             "I067",
             "bspd",
@@ -679,7 +679,7 @@
         "limit": "2",
         "manacost": "2",
         "summon": "In Deep Sea in the far East where light shines from above",
-        "conditions": "Level 240 and usage of Orb of the Deep Sea with 6x Blue Powder and 6x Green powder",
+        "conditions": "Level 240 and usage of Orb of the Deep Sea with 4x Blue Powder and 4x Green powder",
         "drops": [
             "skul",
             "I0CR",
