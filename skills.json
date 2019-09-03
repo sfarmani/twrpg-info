@@ -149,7 +149,7 @@
         "active": [
             "Fires shards made from concentrated souls.",
             "INT X 20 magic damage",
-            "Increases damage taken by (5 + INT / 2500)% and reduces speed by 40% for 5 seconds",
+            "Increases damage taken by 5% and reduces speed by 40% for 5 seconds",
             "On consecutive casts, fires additional shards and stuns for 0.5 seconds",
             "Projectile bypasses terrain",
             "Lasts 5 seconds"
@@ -163,7 +163,7 @@
         "icon": "SoulWeaverW",
         "active": [
             "Surrounds self and nearby allies with spiritual barriers.",
-            "Increases skill damage by 12% for 30 seconds",
+            "Increases skill damage by (5 + INT / 1000)% for 30 seconds",
             "Regenerates INT X 0.2 HP per second"
         ]
     },
@@ -1079,11 +1079,11 @@
         "hotkey": "[R]",
         "icon": "ShooterR",
         "active": [
-            "Disrupt nearby enemies by discharging powerful air waves from the probes.",
-            "Main Stat X 60 damage",
-            "Increases target's damage taken by 15% and reduces movement speed for 3 seconds",
-            "Debuff duration extended by 1 second per 2500 INT",
-            "Knockbacks nearby enemies if all probes are nearby"
+            "Fires a bullet that can distort dimensions.",
+            "Main Stat X 50 magic damage",
+            "Increases target's damage taken by 10% and reduces its movement speed for 3 seconds",
+            "Knocksback target if cast consecutively",
+            "Recharges every 12 seconds"
         ]
     },
     {
@@ -1094,13 +1094,13 @@
         "icon": "ShooterT",
         "passive": [
             "Enhance probes' attacks.",
-            "Upon landing a magic bullet, assists by firing an additional magic bullet that deals (Attack Damage X 120% + Main Stat X 8) damage",
+            "Upon landing a magic bullet, assists by firing an additional magic bullet that deals (Attack Damage X 100% + Main Stat X 7.5) damage",
             "Pierces non-boss enemies"
         ],
         "active": [
             "Relentlessly fire magic bullets together with the probes.",
             "Channeled up to a maximum of 4 seconds",
-            "Affected by attack speed"
+            "Each 1% increase in attack speed increases fire count by 0.5%"
         ]
     },
     {
@@ -2140,7 +2140,7 @@
             "Chance to activate Martial Arts increased",
             "Gains immunity to debuffs and CC effects",
             "Gains acceleration",
-            "Increase attack range by 50",
+            "Increases attack range by 50",
             "Ignores unit collision"
         ]
     },
@@ -2914,12 +2914,12 @@
         "hotkey": "[R]",
         "icon": "BerserkerR",
         "active": [
-            "검을 피로 감싸 나아가며 적을 분쇄한다.",
+            "Rushes forward with a spinning blade of death.",
             "Consumes HP X 20%",
             "Attack Damage X 500% damage per second",
             "STR X 50 bonus damage",
             "Deals 100% bonus damage to bleeding targets and resets bleed duration",
-            "Duration: 2 seconds"
+            "Lasts 2 seconds"
         ]
     },
     {
@@ -3778,7 +3778,7 @@
         "icon": "PaladinD_R",
         "passive": [
             "An aspect of paragon who awakens his allies.",
-            "Increases nearby allies' movement speed past the limit by 50",
+            "Increases nearby allies' movement speed by 50",
             "Judgment - Stuns target for 0.5 seconds",
             "Sigil - Removes debuffs"
         ]
