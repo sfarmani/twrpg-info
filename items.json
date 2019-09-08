@@ -3020,7 +3020,7 @@
     "stats": {
       "damage": 10000,
       "agility": 750,
-      "attackspeedpercent": 0.25,
+      "attackspeedpercent": 0.1,
       "active": [
         "On use, activates Sylph's Blessing"
       ]
@@ -3948,7 +3948,7 @@
     ],
     "stats": {
       "damage": 16500,
-      "strength": 900,
+      "strength": 950,
       "agility": 1575,
       "skilldamagepercent": 0.025,
       "passive": [
@@ -3957,7 +3957,7 @@
       "spec": [
         "Specialty",
         "Bow Master - Improved Freezing Shot: Casting it consecutively allows you to fire a powerful ice arrow.",
-        "  ↳ Freezing Shot bonus damage: Agi X 80 X Water/Ice Affinity"
+        "  ↳ Freezing Shot bonus damage: 400% attack damage + Agi X 80 X Water/Ice Affinity"
       ]
     },
     "koreanname": "프로스트베인"
@@ -10275,8 +10275,8 @@
     "stats": {
       "damage": 23000,
       "agility": 1900,
-      "attackspeedpercent": 0.3,
-      "mdpercent": -0.05,
+      "attackspeedpercent": 0.2,
+      "mdpercent": -0.075,
       "passive": [
         "On attack, activates Poem of Wind, firing an additional projectile that deals (attack damage X 15%) pure damage",
         "Damage is affected by wind/lightning affinity"
@@ -11665,8 +11665,7 @@
       "spec": [
         "Specialty",
         "Bow Master - Improved Freezing Shot: Casting it consecutively allows you to fire a more powerful ice arrow.",
-        "  ↳ Primary Damage: Agi X 80 X Water/Ice Affinity",
-        "  ↳ Secondary Damage: Agi X 40 X Water/Ice Affinity"
+        "  ↳ Freezing Shot bonus Damage: 400% attack damage + Agi X 112 ~ 128 X Water/Ice Affinity"
       ]
     }
   },
@@ -13755,7 +13754,7 @@
       ],
       "spec": [
         "Specialty",
-        "Water Mage - Improved Frozen Emotion: Increases target's skill damage by additional 2%, and reduces target's damage taken by 12%."
+        "Water Mage - Improved Frozen Emotion: Reduces target's damage taken by 12%."
       ]
     }
   },
@@ -15516,7 +15515,7 @@
       ],
       "spec": [
         "Specialty - Wanderer",
-        "Martial Artist - Nameless Art's cast time is reduced by 0.5 seconds and duration is increased by 1 second."
+        "Martial Artist - Nameless Art's cast time is reduced by 1 seconds."
       ]
     }
   },
@@ -15643,7 +15642,7 @@
       ],
       "spec": [
         "Specialty - Phoenix",
-        "Martial Artist - Nameless Art's cast time is removed and duration is increased by 1 second. Also revives hero with 75% HP after 2 seconds if killed while active."
+        "Martial Artist - Nameless Art's cast time is removed. Also revives hero with 75% HP after 2 seconds if killed while active."
       ]
     }
   },

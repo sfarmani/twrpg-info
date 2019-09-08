@@ -1908,7 +1908,7 @@
             "Invulnerable while active",
             "If used while charged, damage is increased by 100%",
             "If channeled for 3 seconds, refreshes energy and skill cooldowns",
-            "cooldown: 40 seconds"
+            "Cooldown: 40 seconds"
         ]
     },
     {
@@ -2045,7 +2045,7 @@
         "active": [
             "\"Light that can be bestowed upon the weak - that is the true light.\" - Astarte",
             "Each slash deals STR X 225 damage",
-            "Final slash deals STR X 475 damage",
+            "Final slash deals STR X 550 damage",
             "Stun for 3 fixed seconds"
         ]
     },
@@ -2141,7 +2141,8 @@
             "Gains immunity to debuffs and CC effects",
             "Gains acceleration",
             "Increases attack range by 50",
-            "Ignores unit collision"
+            "Ignores unit collision",
+            "Lasts 8 seconds"
         ]
     },
     {
@@ -3042,7 +3043,7 @@
             "Summons countless magical arrows to bombard an area.",
             "Each arrow deals Attack Damage X 100% damage",
             "AGI X 10 bonus damage",
-            "If chained with Flame Shot, damage and radius increased by 50%",
+            "If chained with Flame Shot, radius increased by 50%",
             "If chained with Freezing Shot, freezes enemies hit for 2.5 seconds"
         ]
     },
@@ -3288,7 +3289,8 @@
             "Main Stat X 125 damage",
             "Each soul deals Main Stat X 75 bonus damage",
             "Seals target's abilities for 2 seconds",
-            "If INT is main stat, increases nearby allies HP regen by INT X 1 and magic defense by 60% for 6 seconds"
+            "If INT is main stat, increases nearby allies HP regen by INT X 1 and magic defense by 60% for 6 seconds",
+            "Cooldown: 30 seconds"
         ]
     },
     {
@@ -3302,7 +3304,8 @@
             "Deals Main Stat X 775 damage over 3 seconds",
             "Invulnerable while active",
             "On finish, resets cooldowns on other skills",
-            "If INT or STR is main stat, stuns target and deals up to 50% bonus damage based on target's missing HP"
+            "If INT or STR is main stat, stuns target and deals up to 50% bonus damage based on target's missing HP",
+            "Lasts 2.5 seconds"
         ]
     },
     {
@@ -3514,7 +3517,8 @@
             "\"Looking at you all reminds me of ice sculptures. Well, not that one captures my attention.\" - Mage",
             "Freezes nearby enemies for 6 0seconds",
             "Upon expiration, deals (INT X 150 + damage taken while frozen X 10%) pure damage",
-            "Reduces damage dealt by targets for 50% while active"
+            "Reduces damage dealt by targets for 50% while active",
+            "Lasts 5 seconds"
         ]
     },
     {
@@ -3778,7 +3782,7 @@
         "icon": "PaladinD_R",
         "passive": [
             "An aspect of paragon who awakens his allies.",
-            "Increases nearby allies' movement speed by 50",
+            "Increases nearby allies' movement speed by 75",
             "Judgment - Stuns target for 0.5 seconds",
             "Sigil - Removes debuffs"
         ]
@@ -3805,7 +3809,6 @@
         "icon": "PaladinW",
         "passive": [
             "Summons holy spirits that boosts your mobility.",
-            "When holy spirits are summoned, you can move faster",
             "Summons every 8 seconds (up to 3 spirits)"
         ],
         "active": [
