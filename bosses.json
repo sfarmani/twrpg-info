@@ -427,7 +427,7 @@
         "location": "Dropped by Mage Lord with a 7.5% chance",
         "conditions": "Defeat Mage Lord",
         "drops": [
-            "lnrn",
+            "cosl",
             "I062"
         ]
     },
