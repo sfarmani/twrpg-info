@@ -2,6 +2,7 @@
     {
         "name": "Lyrio Farn",
         "heroClass": "Sniper",
+        "mainstat": "AGI",
         "color": 9891226,
         "icon": "SniperIcon2",
         "wearable": [
@@ -32,6 +33,7 @@
     {
         "name": "Stella Livve",
         "heroClass": "Soul Weaver",
+        "mainstat": "INT",
         "color": 6318794,
         "icon": "SoulWeaverIcon",
         "wearable": [
@@ -57,6 +59,7 @@
     {
         "name": "Elric",
         "heroClass": "Alchemist",
+        "mainstat": "INT",
         "color": 16233365,
         "icon": "AlchemistIcon",
         "wearable": [
@@ -87,6 +90,7 @@
     {
         "name": "Haran Tenebras",
         "heroClass": "Warlock",
+        "mainstat": "INT",
         "color": 5377478,
         "icon": "WarlockIcon",
         "wearable": [
@@ -115,6 +119,7 @@
     {
         "name": "Loriro Livve",
         "heroClass": "Blood Weaver",
+        "mainstat": "INT",
         "color": 16737894,
         "icon": "BloodWeaverIcon",
         "wearable": [
@@ -146,6 +151,7 @@
     {
         "name": "Rin T.",
         "heroClass": "Fire Mage",
+        "mainstat": "INT",
         "color": 16217461,
         "icon": "FireMageIcon",
         "wearable": [
@@ -173,6 +179,7 @@
     {
         "name": "Rainbow R.",
         "heroClass": "Shooter",
+        "mainstat": "AGI",
         "color": 5111747,
         "icon": "ShooterIcon",
         "wearable": [
@@ -208,6 +215,7 @@
     {
         "name": "Shiro",
         "heroClass": "Sword Enchanter",
+        "mainstat": "AGI",
         "color": 14671839,
         "icon": "SwordEnchanterIcon",
         "wearable": [
@@ -233,6 +241,7 @@
     {
         "name": "Lucicree",
         "heroClass": "Gunner",
+        "mainstat": "AGI",
         "color": 14663327,
         "icon": "GunnerIcon",
         "wearable": [
@@ -256,6 +265,7 @@
     {
         "name": "Louis Arcienne",
         "heroClass": "Swordsman",
+        "mainstat": "AGI",
         "color": 11320803,
         "icon": "SwordsmanIcon",
         "wearable": [
@@ -284,6 +294,7 @@
     {
         "name": "Dorothy de Merrian",
         "heroClass": "Elementalist",
+        "mainstat": "INT",
         "color": 6750176,
         "icon": "ElementalistIcon",
         "wearable": [
@@ -314,6 +325,7 @@
     {
         "name": "Sasuke",
         "heroClass": "Lightning Mage",
+        "mainstat": "INT",
         "color": 10075135,
         "icon": "LightningMageIcon",
         "wearable": [
@@ -347,6 +359,7 @@
     {
         "name": "Astarte",
         "heroClass": "Crusader",
+        "mainstat": "STR",
         "color": 16383672,
         "icon": "CrusaderIcon",
         "wearable": [
@@ -379,6 +392,7 @@
     {
         "name": "Kenneth Deracoon",
         "heroClass": "Martial Artist",
+        "mainstat": "AGI",
         "color": 9419919,
         "icon": "MartialArtistIcon",
         "wearable": [
@@ -410,6 +424,7 @@
     {
         "name": "Naomi Mercedes",
         "heroClass": "Lancer",
+        "mainstat": "STR",
         "color": 8454016,
         "icon": "LancerIcon",
         "wearable": [
@@ -436,6 +451,7 @@
     {
         "name": "Aurelia",
         "heroClass": "Reaper",
+        "mainstat": "AGI",
         "color": 16751001,
         "icon": "ReaperIcon",
         "wearable": [
@@ -462,6 +478,7 @@
     {
         "name": "Ayame",
         "heroClass": "Assassin",
+        "mainstat": "AGI",
         "color": 8355711,
         "icon": "AssassinIcon",
         "wearable": [
@@ -491,6 +508,7 @@
     {
         "name": "Aisha",
         "heroClass": "Wind Mage",
+        "mainstat": "INT",
         "color": 11465927,
         "icon": "WindMageIcon",
         "wearable": [
@@ -523,6 +541,7 @@
     {
         "name": "Catherine Yoi",
         "heroClass": "Merchant",
+        "mainstat": "STR",
         "color": 14540219,
         "icon": "MerchantIcon",
         "wearable": [
@@ -560,6 +579,7 @@
     {
         "name": "Esteria",
         "heroClass": "Thunderer",
+        "mainstat": "AGI",
         "color": 16654593,
         "icon": "ThundererIcon",
         "wearable": [
@@ -586,6 +606,7 @@
     {
         "name": "Elena",
         "heroClass": "Berserker",
+        "mainstat": "STR",
         "color": 16744576,
         "icon": "BerserkerIcon",
         "wearable": [
@@ -612,6 +633,7 @@
     {
         "name": "Iris Millen",
         "heroClass": "Bow Master",
+        "mainstat": "AGI",
         "color": 11984489,
         "icon": "BowMasterIcon",
         "wearable": [
@@ -639,6 +661,7 @@
     {
         "name": "Isabelle che Nyderre",
         "heroClass": "Knight",
+        "mainstat": "STR",
         "color": 6734591,
         "icon": "KnightIcon",
         "wearable": [
@@ -671,6 +694,7 @@
     {
         "name": "Karad Erin",
         "heroClass": "Dark Knight",
+        "mainstat": "STR",
         "color": 9198335,
         "icon": "DarkKnightIcon",
         "wearable": [
@@ -702,6 +726,7 @@
     {
         "name": "Eustia",
         "heroClass": "Arcane Mage",
+        "mainstat": "INT",
         "color": 14135275,
         "icon": "ArcaneMageIcon",
         "wearable": [
@@ -727,6 +752,7 @@
     {
         "name": "Sherry P.",
         "heroClass": "Water Mage",
+        "mainstat": "INT",
         "color": 8900346,
         "icon": "WaterMageIcon",
         "wearable": [
@@ -754,6 +780,7 @@
     {
         "name": "Alice Dorneea",
         "heroClass": "Priest",
+        "mainstat": "INT",
         "color": 16777088,
         "icon": "PriestIcon",
         "wearable": [
@@ -784,6 +811,7 @@
     {
         "name": "Frederic Kassia",
         "heroClass": "Paladin",
+        "mainstat": "STR",
         "color": 8087790,
         "icon": "PaladinIcon",
         "wearable": [
@@ -818,6 +846,7 @@
     {
         "name": "Harang",
         "heroClass": "Phantom Blade",
+        "mainstat": "AGI",
         "color": 10092475,
         "icon": "PBIcon",
         "wearable": [
@@ -843,6 +872,7 @@
     {
         "name": "The Nameless One",
         "heroClass": "Hermit",
+        "mainstat": "AGI",
         "color": 5221038,
         "icon": "HermitIcon",
         "wearable": [
@@ -873,6 +903,7 @@
     {
         "name": "Yue Tenebras",
         "heroClass": "Witch",
+        "mainstat": "INT",
         "color": 11642578,
         "icon": "WitchIcon",
         "wearable": [
