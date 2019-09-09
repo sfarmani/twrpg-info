@@ -3536,7 +3536,7 @@
     {
         "name": "Heal",
         "heroClass": "Priest",
-        "color": 16777088,
+        "color": 16775885,
         "hotkey": "[D]",
         "icon": "PriestD",
         "active": [
@@ -3550,7 +3550,7 @@
     {
         "name": "Holy Wave",
         "heroClass": "Priest",
-        "color": 16777088,
+        "color": 16775885,
         "hotkey": "[Q]",
         "icon": "PriestQ",
         "active": [
@@ -3563,7 +3563,7 @@
     {
         "name": "Holy Blessing",
         "heroClass": "Priest",
-        "color": 16777088,
+        "color": 16775885,
         "hotkey": "[W]",
         "icon": "PriestW",
         "active": [
@@ -3577,7 +3577,7 @@
     {
         "name": "Holy Aurora",
         "heroClass": "Priest",
-        "color": 16777088,
+        "color": 16775885,
         "hotkey": "[E]",
         "icon": "PriestE",
         "passive": [
@@ -3594,7 +3594,7 @@
     {
         "name": "Dark Aurora [Lv 1]",
         "heroClass": "Priest",
-        "color": 16777088,
+        "color": 16775885,
         "hotkey": "[E]",
         "icon": "PriestE_2",
         "passive": [
@@ -3612,7 +3612,7 @@
     {
         "name": "Dark Aurora [Lv 2]",
         "heroClass": "Priest",
-        "color": 16777088,
+        "color": 16775885,
         "hotkey": "[E]",
         "icon": "PriestE_2",
         "passive": [
@@ -3630,7 +3630,7 @@
     {
         "name": "Divine Light",
         "heroClass": "Priest",
-        "color": 16777088,
+        "color": 16775885,
         "hotkey": "[R]",
         "icon": "PriestR",
         "active": [
@@ -3644,7 +3644,7 @@
     {
         "name": "Heaven's Gate",
         "heroClass": "Priest",
-        "color": 16777088,
+        "color": 16775885,
         "hotkey": "[T]",
         "icon": "PriestT",
         "active": [
@@ -3658,7 +3658,7 @@
     {
         "name": "Strike of Repentance",
         "heroClass": "Priest",
-        "color": 16777088,
+        "color": 16775885,
         "hotkey": "[T] → [Passive]",
         "icon": "PriestT_Pass",
         "passive": [
@@ -3669,7 +3669,7 @@
     {
         "name": "Recall",
         "heroClass": "Priest",
-        "color": 16777088,
+        "color": 16775885,
         "hotkey": "[T] → [D]",
         "icon": "Recall",
         "active": [
@@ -3679,7 +3679,7 @@
     {
         "name": "Holy Light",
         "heroClass": "Priest",
-        "color": 16777088,
+        "color": 16775885,
         "hotkey": "[T] → [Q]",
         "icon": "PriestT_Q",
         "active": [
@@ -3691,7 +3691,7 @@
     {
         "name": "Leap of Faith",
         "heroClass": "Priest",
-        "color": 16777088,
+        "color": 16775885,
         "hotkey": "[T] → [W]",
         "icon": "PriestT_W",
         "active": [
@@ -3702,7 +3702,7 @@
     {
         "name": "God's Blessing",
         "heroClass": "Priest",
-        "color": 16777088,
+        "color": 16775885,
         "hotkey": "[T] → [F]",
         "icon": "PriestT_F",
         "active": [
@@ -3714,7 +3714,7 @@
     {
         "name": "Heaven Field",
         "heroClass": "Priest",
-        "color": 16777088,
+        "color": 16775885,
         "hotkey": "[F]",
         "icon": "PriestF",
         "active": [

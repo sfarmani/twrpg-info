@@ -3,7 +3,7 @@
         "name": "Lyrio Farn",
         "heroClass": "Sniper",
         "mainstat": "AGI",
-        "color": 9891226,
+        "color": 10680175,
         "icon": "SniperIcon2",
         "wearable": [
             "[Weapon all classes]",
@@ -34,7 +34,7 @@
         "name": "Stella Livve",
         "heroClass": "Soul Weaver",
         "mainstat": "INT",
-        "color": 6318794,
+        "color": 3835698,
         "icon": "SoulWeaverIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -60,7 +60,7 @@
         "name": "Elric",
         "heroClass": "Alchemist",
         "mainstat": "INT",
-        "color": 16233365,
+        "color": 12894361,
         "icon": "AlchemistIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -91,7 +91,7 @@
         "name": "Haran Tenebras",
         "heroClass": "Warlock",
         "mainstat": "INT",
-        "color": 5377478,
+        "color": 12829665,
         "icon": "WarlockIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -152,7 +152,7 @@
         "name": "Rin T.",
         "heroClass": "Fire Mage",
         "mainstat": "INT",
-        "color": 16217461,
+        "color": 14987183,
         "icon": "FireMageIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -180,7 +180,7 @@
         "name": "Rainbow R.",
         "heroClass": "Shooter",
         "mainstat": "AGI",
-        "color": 5111747,
+        "color": 10092509,
         "icon": "ShooterIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -266,7 +266,7 @@
         "name": "Louis Arcienne",
         "heroClass": "Swordsman",
         "mainstat": "AGI",
-        "color": 11320803,
+        "color": 8822226,
         "icon": "SwordsmanIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -295,7 +295,7 @@
         "name": "Dorothy de Merrian",
         "heroClass": "Elementalist",
         "mainstat": "INT",
-        "color": 6750176,
+        "color": 16738740,
         "icon": "ElementalistIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -326,7 +326,7 @@
         "name": "Sasuke",
         "heroClass": "Lightning Mage",
         "mainstat": "INT",
-        "color": 10075135,
+        "color": 12188152,
         "icon": "LightningMageIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -360,7 +360,7 @@
         "name": "Astarte",
         "heroClass": "Crusader",
         "mainstat": "STR",
-        "color": 16383672,
+        "color": 16252056,
         "icon": "CrusaderIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -393,7 +393,7 @@
         "name": "Kenneth Deracoon",
         "heroClass": "Martial Artist",
         "mainstat": "AGI",
-        "color": 9419919,
+        "color": 12632256,
         "icon": "MartialArtistIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -425,7 +425,7 @@
         "name": "Naomi Mercedes",
         "heroClass": "Lancer",
         "mainstat": "STR",
-        "color": 8454016,
+        "color": 8714706,
         "icon": "LancerIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -452,7 +452,7 @@
         "name": "Aurelia",
         "heroClass": "Reaper",
         "mainstat": "AGI",
-        "color": 16751001,
+        "color": "FF9999",
         "icon": "ReaperIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -781,7 +781,7 @@
         "name": "Alice Dorneea",
         "heroClass": "Priest",
         "mainstat": "INT",
-        "color": 16777088,
+        "color": 16775885,
         "icon": "PriestIcon",
         "wearable": [
             "[Weapon all classes]",
