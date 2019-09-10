@@ -6,7 +6,7 @@
       "All"
     ],
     "type": "[Air]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.999,
     "required_by": [
       "Nothing"
@@ -16,7 +16,7 @@
     "id": "I018",
     "name": "Troll Giant Hide",
     "koreanname": "트롤 자이언트의 가죽",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.5,
     "type": "[Misc]",
     "dropped_by": [
@@ -30,7 +30,7 @@
     "id": "I020",
     "name": "Troll Lord Hide",
     "koreanname": "트롤 로드의 가죽",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.5,
     "type": "[Misc]",
     "dropped_by": [
@@ -44,7 +44,7 @@
     "id": "I06C",
     "name": "Mystical Branch",
     "koreanname": "신비의 나뭇가지",
-    "color": 16777215,
+    "color": "FFFFFF",
     "dropped_by": [
       "Forest Spirit"
     ],
@@ -60,7 +60,7 @@
     "koreanname": "반 아저씨의 과일",
     "description": "Illegally exported from Eloren by Uncle Van..",
     "type": "[Food]",
-    "color": 16761035,
+    "color": "FFC0CB",
     "required_by": [
       "Fruit Candy Pouch",
       "Fruit-filled Bag"
@@ -77,7 +77,7 @@
     "koreanname": "반 아저씨의 메론",
     "description": "This heavenly taste is possible due to being well taken care of.",
     "type": "[Food]",
-    "color": 16761035,
+    "color": "FFC0CB",
     "stats": {
       "active": [
         "Increase skill damage by 12% for 60 seconds"
@@ -90,7 +90,7 @@
     "koreanname": "반 아저씨의 호박",
     "description": "Sweet and good for your health",
     "type": "[Food]",
-    "color": 16761035,
+    "color": "FFC0CB",
     "required_by": [
       "Fruit Candy Pouch"
     ],
@@ -106,7 +106,7 @@
     "koreanname": "반 아저씨의 당근",
     "description": "Tasty carrot!",
     "type": "[Food]",
-    "color": 16761035,
+    "color": "FFC0CB",
     "required_by": [
       "Fruit Candy Pouch"
     ],
@@ -123,7 +123,7 @@
     "koreanname": "죽음의 책",
     "description": "Life is tiresome.. it shouldn't matter if I let it go a bit early..",
     "type": "[Deadly]",
-    "color": 14423100,
+    "color": "DC143C",
     "notes": [
       "Can be purchased for 500 gold by a sniper merchant near the Mine Cave entrance"
     ],
@@ -144,7 +144,7 @@
       "Can be mined with a Rusty Magical Pickaxe, Sturdy Magic Pickaxe, or Abyssal Pickaxe in the cave below Mine Village"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "required_by": [
       "White Powder"
     ]
@@ -157,7 +157,7 @@
       "Can be mined with a Rusty Magical Pickaxe, Sturdy Magic Pickaxe, or Abyssal Pickaxe in the cave below Mine Village"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "required_by": [
       "Green Powder"
     ]
@@ -170,7 +170,7 @@
       "Can be mined with a Sturdy Magic Pickaxe or Abyssal Pickaxe in the cave below Mine Village"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "required_by": [
       "Blue Powder"
     ]
@@ -183,7 +183,7 @@
       "Can be mined with a Sturdy Magic Pickaxe or Abyssal Pickaxe in the cave below Mine Village"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "required_by": [
       "Red Powder",
       "Holy Powder"
@@ -197,7 +197,7 @@
       "Can be mined with a Rusty Pickaxe, Sturdy Pickaxe, or Mithril Pickaxe in the cave below Mine Village"
     ],
     "type": "[Material]",
-    "color": 16777215
+    "color": "FFFFFF"
   },
   {
     "id": "I05Q",
@@ -207,7 +207,7 @@
       "Can be mined with a Rusty Pickaxe, Sturdy Pickaxe, or Mithril Pickaxe in the cave below Mine Village"
     ],
     "type": "[Material]",
-    "color": 16777215
+    "color": "FFFFFF"
   },
   {
     "id": "I05P",
@@ -217,7 +217,7 @@
       "Can be mined with a Rusty Pickaxe, Sturdy Pickaxe, or Mithril Pickaxe in the cave below Mine Village"
     ],
     "type": "[Material]",
-    "color": 16777215
+    "color": "FFFFFF"
   },
   {
     "id": "I030",
@@ -227,7 +227,7 @@
       "Yeti"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 1.0,
     "required_by": [
       "White Powder"
@@ -241,7 +241,7 @@
       "Yeti"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.5,
     "required_by": [
       "Warm Fur",
@@ -258,7 +258,7 @@
       "Yeti"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.005,
     "required_by": [
       "Monster Hunter",
@@ -278,7 +278,7 @@
       "Silverback Wolf"
     ],
     "type": "[Longsword]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 5,
     "droprate": 0.5,
     "required_by": [
@@ -296,7 +296,7 @@
       "Silverback Wolf"
     ],
     "type": "[Ring]",
-    "color": 16744960,
+    "color": "FF8200",
     "droprate": 0.5,
     "level": 5,
     "required_by": [
@@ -318,7 +318,7 @@
       "Kobold Creeps"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.3,
     "required_by": [
       "Slightly Sturdy Bag"
@@ -332,7 +332,7 @@
       "Kobold Creeps"
     ],
     "type": "[Ring]",
-    "color": 2113776,
+    "color": "2040F0",
     "level": 15,
     "droprate": 0.04,
     "required_by": [
@@ -353,7 +353,7 @@
       "Kobold Leader"
     ],
     "type": "[Weapon all classes]",
-    "color": 16744960,
+    "color": "FF8200",
     "droprate": 0.5,
     "level": 15,
     "required_by": [
@@ -373,7 +373,7 @@
       "Kobold Leader"
     ],
     "type": "[Ring]",
-    "color": 16744960,
+    "color": "FF8200",
     "droprate": 0.5,
     "level": 15,
     "stats": {
@@ -390,7 +390,7 @@
       "Murloc creeps"
     ],
     "type": "[Misc]",
-    "color": 8437759,
+    "color": "80BFFF",
     "notes": [
       "Droprate increases every 5 minutes that it does not drop"
     ],
@@ -408,7 +408,7 @@
       "Dragon Turtle"
     ],
     "type": "[Wings]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 80,
     "droprate": 0.1,
     "required_by": [
@@ -429,7 +429,7 @@
       "Frosty Snowfield creeps"
     ],
     "type": "[Misc]",
-    "color": 8437759,
+    "color": "80BFFF",
     "notes": [
       "Droprate increases every 5 minutes that it does not drop"
     ],
@@ -447,7 +447,7 @@
       "Polar Bear Giant"
     ],
     "type": "[Wings]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 124,
     "droprate": 0.08,
     "required_by": [
@@ -469,7 +469,7 @@
       "Mad Clown"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": [
       0.001,
       0.02
@@ -492,7 +492,7 @@
       "Mad Clown"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": [
       0.001,
       0.02
@@ -516,7 +516,7 @@
       "Corrupt Angel"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": [
       0.0005,
       0.02,
@@ -544,7 +544,7 @@
       "Giant Golem"
     ],
     "type": "[Ring]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 280,
     "droprate": 0.03,
     "required_by": [
@@ -570,7 +570,7 @@
       "Mad Clown"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.02,
     "required_by": [
       "Deathbringer",
@@ -599,7 +599,7 @@
       "Mad Clown"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.02,
     "required_by": [
       "Staff of Madness",
@@ -622,7 +622,7 @@
       "Mad Clown"
     ],
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "droprate": 0.0015,
     "required_by": [
       "Nightmare Icon"
@@ -639,7 +639,7 @@
       "Mad Clown"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001
   },
   {
@@ -650,7 +650,7 @@
       "Protector of Nature"
     ],
     "type": "[Greatsword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 75,
     "droprate": 0.2,
     "stats": {
@@ -669,7 +669,7 @@
       "Protector of Nature"
     ],
     "type": "[Longsword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 75,
     "droprate": 0.2,
     "stats": {
@@ -686,7 +686,7 @@
       "Protector of Nature"
     ],
     "type": "[Gloves]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 75,
     "droprate": 0.2,
     "stats": {
@@ -705,7 +705,7 @@
       "Protector of Nature"
     ],
     "type": "[Bow]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 75,
     "droprate": 0.2,
     "stats": {
@@ -724,7 +724,7 @@
       "Protector of Nature"
     ],
     "type": "[Staff]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 75,
     "droprate": 0.2,
     "stats": {
@@ -741,7 +741,7 @@
       "Protector of Nature"
     ],
     "type": "[Armor]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 75,
     "droprate": 0.2,
     "stats": {
@@ -762,7 +762,7 @@
       "Protector of Nature"
     ],
     "type": "[Robe]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 75,
     "droprate": 0.2,
     "stats": {
@@ -780,7 +780,7 @@
       "Protector of Nature"
     ],
     "type": "[Gun]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 75,
     "droprate": 0.2,
     "required_by": [
@@ -800,7 +800,7 @@
       "Protector of Nature"
     ],
     "type": "[Wings]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 75,
     "droprate": 0.2,
     "required_by": [
@@ -822,7 +822,7 @@
       "Protector of Nature"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.01,
     "required_by": [
       "Rainbow Crystal Golem Token"
@@ -836,7 +836,7 @@
       "Wallachia Death Knight"
     ],
     "type": "[Longsword]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -855,7 +855,7 @@
       "Wallachia Death Knight"
     ],
     "type": "[Greatsword]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -875,7 +875,7 @@
       "Wallachia Death Knight"
     ],
     "type": "[Gloves]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -895,7 +895,7 @@
       "Wallachia Death Knight"
     ],
     "type": "[Staff]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -914,7 +914,7 @@
       "Wallachia Death Knight"
     ],
     "type": "[Gun]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -934,7 +934,7 @@
       "Wallachia Death Knight"
     ],
     "type": "[Armor]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 200,
     "droprate": 0.125,
     "stats": {
@@ -951,7 +951,7 @@
       "Wallachia Death Knight"
     ],
     "type": "[Robe]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 200,
     "droprate": 0.125,
     "stats": {
@@ -967,7 +967,7 @@
       "Wallachia Death Knight"
     ],
     "type": "[Helm]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 200,
     "droprate": 0.125,
     "stats": {
@@ -982,7 +982,7 @@
       "Wallachia Death Knight"
     ],
     "type": "[Hood]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 200,
     "droprate": 0.125,
     "stats": {
@@ -998,7 +998,7 @@
       "Wallachia Death Knight"
     ],
     "type": "[Ring]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 200,
     "droprate": 0.125,
     "stats": {
@@ -1015,7 +1015,7 @@
       "Wallachia Death Knight"
     ],
     "type": "[Bow]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -1034,7 +1034,7 @@
       "Wallachia Death Knight"
     ],
     "type": "[Helm/Hood]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 200,
     "droprate": 0.075,
     "required_by": [
@@ -1054,7 +1054,7 @@
       "Wallachia Death Knight"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001
   },
   {
@@ -1066,7 +1066,7 @@
       "Volcanic Lands creeps"
     ],
     "type": "[Misc]",
-    "color": 8437759,
+    "color": "80BFFF",
     "notes": [
       "Droprate increases every 5 minutes that it does not drop"
     ],
@@ -1087,7 +1087,7 @@
       "Ruler of Flames Ragnaar"
     ],
     "type": "[Longsword]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 220,
     "droprate": 0.125,
     "required_by": [
@@ -1106,7 +1106,7 @@
       "Ruler of Flames Ragnaar"
     ],
     "type": "[Greatsword]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 220,
     "droprate": 0.125,
     "required_by": [
@@ -1126,7 +1126,7 @@
       "Ruler of Flames Ragnaar"
     ],
     "type": "[Gloves]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 220,
     "droprate": 0.125,
     "required_by": [
@@ -1146,7 +1146,7 @@
       "Ruler of Flames Ragnaar"
     ],
     "type": "[Staff]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 220,
     "droprate": 0.125,
     "required_by": [
@@ -1165,7 +1165,7 @@
       "Ruler of Flames Ragnaar"
     ],
     "type": "[Gun]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 220,
     "droprate": 0.125,
     "required_by": [
@@ -1184,7 +1184,7 @@
       "Ruler of Flames Ragnaar"
     ],
     "type": "[Armor]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 220,
     "droprate": 0.125,
     "stats": {
@@ -1201,7 +1201,7 @@
       "Ruler of Flames Ragnaar"
     ],
     "type": "[Robe]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 220,
     "droprate": 0.125,
     "stats": {
@@ -1217,7 +1217,7 @@
       "Ruler of Flames Ragnaar"
     ],
     "type": "[Helm]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 220,
     "droprate": 0.125,
     "stats": {
@@ -1232,7 +1232,7 @@
       "Ruler of Flames Ragnaar"
     ],
     "type": "[Hood]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 220,
     "droprate": 0.125,
     "stats": {
@@ -1248,7 +1248,7 @@
       "Ruler of Flames Ragnaar"
     ],
     "type": "[Ring]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 220,
     "droprate": 0.125,
     "stats": {
@@ -1265,7 +1265,7 @@
       "Ruler of Flames Ragnaar"
     ],
     "type": "[Bow]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 220,
     "droprate": 0.125,
     "required_by": [
@@ -1284,7 +1284,7 @@
       "Ruler of Flames Ragnaar"
     ],
     "type": "[Wings]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 220,
     "droprate": 0.075,
     "required_by": [
@@ -1310,7 +1310,7 @@
       "Ruler of Flames Ragnaar"
     ],
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "droprate": 0.0015,
     "required_by": [
       "Wings of Death Icon"
@@ -1327,7 +1327,7 @@
       "Ruler of Flames Ragnaar"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001
   },
   {
@@ -1339,7 +1339,7 @@
       "Deep Sea creeps"
     ],
     "type": "[Misc]",
-    "color": 8437759,
+    "color": "80BFFF",
     "notes": [
       "Droprate increases each 5 minutes that it does not drop, 100% from Tentacle Lord"
     ],
@@ -1359,7 +1359,7 @@
       "Tentacle Lord"
     ],
     "type": "[Longsword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.05,
     "stats": {
@@ -1378,7 +1378,7 @@
       "Tentacle Lord"
     ],
     "type": "[Gloves]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.05,
     "stats": {
@@ -1397,7 +1397,7 @@
       "Tentacle Lord"
     ],
     "type": "[Greatsword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.05,
     "stats": {
@@ -1416,7 +1416,7 @@
       "Tentacle Lord"
     ],
     "type": "[Staff]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.05,
     "required_by": [
@@ -1436,7 +1436,7 @@
       "Tentacle Lord"
     ],
     "type": "[Bow]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.05,
     "stats": {
@@ -1454,7 +1454,7 @@
       "Tentacle Lord"
     ],
     "type": "[Gun]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.05,
     "required_by": [
@@ -1477,7 +1477,7 @@
       "Tentacle Lord"
     ],
     "type": "[Ring]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "droprate": 0.03,
     "required_by": [
@@ -1499,7 +1499,7 @@
       "Tentacle Lord"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.03,
     "required_by": [
       "Parasitic Sword",
@@ -1521,7 +1521,7 @@
       "Tentacle Lord"
     ],
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "droprate": 0.0015,
     "required_by": [
       "Spider Queen Icon"
@@ -1538,7 +1538,7 @@
       "Tentacle Lord"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "촉수의 토큰"
   },
@@ -1549,7 +1549,7 @@
       "Giant Golem"
     ],
     "type": "[Longsword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 280,
     "droprate": 0.05,
     "stats": {
@@ -1568,7 +1568,7 @@
       "Giant Golem"
     ],
     "type": "[Gloves]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 280,
     "droprate": 0.05,
     "stats": {
@@ -1587,7 +1587,7 @@
       "Giant Golem"
     ],
     "type": "[Greatsword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 280,
     "droprate": 0.05,
     "stats": {
@@ -1606,7 +1606,7 @@
       "Giant Golem"
     ],
     "type": "[Staff]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 280,
     "droprate": 0.05,
     "stats": {
@@ -1625,7 +1625,7 @@
       "Giant Golem"
     ],
     "type": "[Bow]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 280,
     "droprate": 0.05,
     "stats": {
@@ -1644,7 +1644,7 @@
       "Giant Golem"
     ],
     "type": "[Gun]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 280,
     "droprate": 0.05,
     "stats": {
@@ -1663,7 +1663,7 @@
       "Giant Golem"
     ],
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "droprate": 0.0015,
     "required_by": [
       "Corrupt Angel Icon"
@@ -1680,7 +1680,7 @@
       "Giant Golem"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "빅 골렘 토큰"
   },
@@ -1692,7 +1692,7 @@
       "Fairy Forest creeps"
     ],
     "type": "[Misc]",
-    "color": 8437759,
+    "color": "80BFFF",
     "notes": [
       "Droprate increases every 5 minutes that it does not drop"
     ],
@@ -1711,7 +1711,7 @@
       "Mana Ancient"
     ],
     "type": "[Armor]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 350,
     "droprate": 0.03,
     "required_by": [
@@ -1736,7 +1736,7 @@
       "Mana Ancient"
     ],
     "type": "[Armor]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 350,
     "droprate": 0.03,
     "required_by": [
@@ -1760,7 +1760,7 @@
       "Mana Ancient"
     ],
     "type": "[Robe]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 350,
     "droprate": 0.03,
     "required_by": [
@@ -1792,7 +1792,7 @@
       "Mana Ancient"
     ],
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 350,
     "droprate": 0.03,
     "required_by": [
@@ -1822,7 +1822,7 @@
       "Mana Ancient"
     ],
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "droprate": 0.0015,
     "required_by": [
       "Everfrost Icon"
@@ -1841,7 +1841,7 @@
       "Giant Ent"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "notes": [
       "Giant Ent: Upon failure, droprate is reduced by 80% (0.2% → 0.03%)"
     ],
@@ -1874,7 +1874,7 @@
       "Mana Ancient"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "에인션트 토큰"
   },
@@ -1886,7 +1886,7 @@
       "Spirit Beast"
     ],
     "type": "[Weapon all classes]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -1917,7 +1917,7 @@
       "Spirit Beast"
     ],
     "type": "[Helm/Hood]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "droprate": 0.02,
     "required_by": [
@@ -1944,7 +1944,7 @@
       "Spirit Beast"
     ],
     "type": "[Greatsword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "droprate": 0.02,
     "required_by": [
@@ -1972,7 +1972,7 @@
       "Spirit Beast"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.025,
     "required_by": [
       "Vest of Cyclone",
@@ -1992,7 +1992,7 @@
       "Spirit Beast"
     ],
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "droprate": 0.0015,
     "required_by": [
       "Corruptor Icon"
@@ -2009,7 +2009,7 @@
       "Spirit Beast"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "비스트 토큰"
   },
@@ -2020,7 +2020,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.5,
     "required_by": [
       "Laksha, the Reigning Sword of Poison",
@@ -2036,7 +2036,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.5,
     "required_by": [
       "Fruit Candy Pouch",
@@ -2055,7 +2055,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Longsword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.1,
     "required_by": [
@@ -2077,7 +2077,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Greatsword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.1,
     "required_by": [
@@ -2099,7 +2099,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Gloves]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.1,
     "required_by": [
@@ -2121,7 +2121,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Staff]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.1,
     "required_by": [
@@ -2143,7 +2143,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Bow]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.1,
     "required_by": [
@@ -2165,7 +2165,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Gun]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.1,
     "required_by": [
@@ -2187,7 +2187,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Armor]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.1,
     "required_by": [
@@ -2207,7 +2207,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Robe]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.1,
     "stats": {
@@ -2223,7 +2223,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Helm]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.1,
     "stats": {
@@ -2238,7 +2238,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Hood]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.1,
     "stats": {
@@ -2254,7 +2254,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Ring]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "droprate": 0.1,
     "required_by": [
@@ -2274,7 +2274,7 @@
       "Ruler of the Lav Sea, Hydra"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "하이드라의 토큰"
   },
@@ -2286,7 +2286,7 @@
       "Count Wallachia"
     ],
     "type": "[Longsword]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "droprate": 0.075,
     "required_by": [
@@ -2309,7 +2309,7 @@
       "Count Wallachia"
     ],
     "type": "[Gun]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "droprate": 0.075,
     "required_by": [
@@ -2331,7 +2331,7 @@
       "Count Wallachia"
     ],
     "type": "[Armor]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 250,
     "droprate": 0.075,
     "required_by": [
@@ -2351,7 +2351,7 @@
       "Count Wallachia"
     ],
     "type": "[Robe]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 250,
     "droprate": 0.075,
     "required_by": [
@@ -2370,7 +2370,7 @@
       "Count Wallachia"
     ],
     "type": "[Helm]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 250,
     "droprate": 0.075,
     "stats": {
@@ -2385,7 +2385,7 @@
       "Count Wallachia"
     ],
     "type": "[Hood]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 250,
     "droprate": 0.075,
     "stats": {
@@ -2401,7 +2401,7 @@
       "Count Wallachia"
     ],
     "type": "[Ring]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 250,
     "droprate": 0.075,
     "required_by": [
@@ -2422,7 +2422,7 @@
       "Count Wallachia"
     ],
     "type": "[Greatsword]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 250,
     "droprate": 0.075,
     "required_by": [
@@ -2445,7 +2445,7 @@
       "Count Wallachia"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.1,
     "required_by": [
       "Tepethia, the Bloodsword of Domination",
@@ -2466,7 +2466,7 @@
       "Count Wallachia"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.1,
     "required_by": [
       "Bahanar, the Sword of Illusion",
@@ -2487,7 +2487,7 @@
       "Count Wallachia"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.05,
     "required_by": [
       "Bloody Hatred",
@@ -2507,7 +2507,7 @@
       "Mage Lord"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": [
       0.05,
       0.06,
@@ -2546,7 +2546,7 @@
       "Count Wallachia"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "백작의 토큰"
   },
@@ -2558,7 +2558,7 @@
       "Jack-o-Lantern"
     ],
     "type": "[Helm]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "droprate": 0.075,
     "required_by": [
@@ -2581,7 +2581,7 @@
       "Jack-o-Lantern"
     ],
     "type": "[Hood]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "droprate": 0.075,
     "required_by": [
@@ -2603,7 +2603,7 @@
       "Jack-o-Lantern"
     ],
     "type": "[Weapon all classes]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "droprate": 0.075,
     "required_by": [
@@ -2628,7 +2628,7 @@
       "Jack-o-Lantern"
     ],
     "type": "[Ring]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "droprate": 0.075,
     "required_by": [
@@ -2656,7 +2656,7 @@
       "Jack-o-Lantern"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "잭 펌킨 토큰"
   },
@@ -2667,7 +2667,7 @@
       "Jack-o-Lantern"
     ],
     "type": "[Ore Deposit]",
-    "color": 16711935,
+    "color": "FF00FF",
     "droprate": 0.075,
     "drops": [
       "Yellow Crystal Golem Token",
@@ -2682,7 +2682,7 @@
       "Magical Ore Deposit (Jack-o-Lantern)"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.02,
     "required_by": [
       "Rainbow Crystal Golem Token"
@@ -2696,7 +2696,7 @@
       "Magical Ore Deposit (Jack-o-Lantern)"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 1.0,
     "required_by": [
       "Glasses",
@@ -2733,7 +2733,7 @@
       "Wings of Death"
     ],
     "type": "[Greatsword]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -2756,7 +2756,7 @@
       "Wings of Death"
     ],
     "type": "[Bow]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -2779,7 +2779,7 @@
       "Wings of Death"
     ],
     "type": "[Staff]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -2802,7 +2802,7 @@
       "Wings of Death"
     ],
     "type": "[Gun]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -2825,7 +2825,7 @@
       "Wings of Death"
     ],
     "type": "[Armor]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -2850,7 +2850,7 @@
       "Wings of Death"
     ],
     "type": "[Helm]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -2872,7 +2872,7 @@
       "Wings of Death"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.09,
     "required_by": [
       "True Dragonsword Lainhart",
@@ -2892,7 +2892,7 @@
       "Wings of Death"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.09,
     "required_by": [
       "Spirit Dagger",
@@ -2911,7 +2911,7 @@
       "Wings of Death"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.09,
     "required_by": [
       "Leoreus, the Greatsword of Explosion",
@@ -2933,7 +2933,7 @@
       "Wings of Death"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "데드렉트의 토큰"
   },
@@ -2944,7 +2944,7 @@
       "Mage Lord"
     ],
     "type": "[Misc]",
-    "color": 8437759,
+    "color": "80BFFF",
     "level": 300,
     "droprate": 0.06,
     "notes": [
@@ -2968,7 +2968,7 @@
       "Mage Lord (Sealed Weapon)"
     ],
     "type": "[Greatsword]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 260,
     "required_by": [
       "Leoreus, the Greatsword of Explosion"
@@ -2990,7 +2990,7 @@
       "Mage Lord (Sealed Weapon)"
     ],
     "type": "[Longsword]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 260,
     "required_by": [
       "Storm Reaver"
@@ -3012,7 +3012,7 @@
       "Mage Lord (Sealed Weapon)"
     ],
     "type": "[Bow]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 260,
     "required_by": [
       "Pheles, the Bow of Skies"
@@ -3035,7 +3035,7 @@
       "Mage Lord (Sealed Weapon)"
     ],
     "type": "[Staff]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 260,
     "required_by": [
       "Benziena, the Earthen Pillar"
@@ -3061,7 +3061,7 @@
       "Mage Lord (Sealed Weapon)"
     ],
     "type": "[Gun]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 300,
     "required_by": [
       "Retus, the Bullet of Judgment"
@@ -3082,7 +3082,7 @@
       "Mage Lord"
     ],
     "type": "[Robe]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -3106,7 +3106,7 @@
       "Mage Lord"
     ],
     "type": "[Hood]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 260,
     "droprate": 0.06,
     "required_by": [
@@ -3131,7 +3131,7 @@
       "Mage Lord"
     ],
     "type": "[Ring]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 300,
     "droprate": 0.04,
     "required_by": [
@@ -3156,7 +3156,7 @@
       "Mage Lord"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "마법의 토큰"
   },
@@ -3167,7 +3167,7 @@
       "Mage Lord"
     ],
     "type": "[Ore Deposit]",
-    "color": 16711935,
+    "color": "FF00FF",
     "droprate": 0.075,
     "drops": [
       "Blue Crystal Golem Token",
@@ -3182,7 +3182,7 @@
       "Magical Ore Deposit (Mage Lord)"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.02,
     "required_by": [
       "Rainbow Crystal Golem Token"
@@ -3196,7 +3196,7 @@
       "Magical Ore Deposit (Mage Lord)"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 1.0,
     "required_by": [
       "Glasses",
@@ -3229,7 +3229,7 @@
       "Guardian Spirit, Avalon's Gatekeeper"
     ],
     "type": "[Ring]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 340,
     "droprate": 0.04,
     "required_by": [
@@ -3256,7 +3256,7 @@
       "Guardian Spirit, Avalon's Gatekeeper"
     ],
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "droprate": 0.0015,
     "required_by": [
       "Guardian Angel Icon"
@@ -3273,7 +3273,7 @@
       "Guardian Spirit, Avalon's Gatekeeper"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "문지기 토큰"
   },
@@ -3285,7 +3285,7 @@
       "Guardian Angel"
     ],
     "type": "[Greatsword]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 260,
     "droprate": 0.025,
     "required_by": [
@@ -3309,7 +3309,7 @@
       "Guardian Angel"
     ],
     "type": "[Staff]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 260,
     "droprate": 0.025,
     "required_by": [
@@ -3333,7 +3333,7 @@
       "Guardian Angel"
     ],
     "type": "[Gun]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 260,
     "droprate": 0.025,
     "required_by": [
@@ -3356,7 +3356,7 @@
       "Guardian Angel"
     ],
     "type": "[Armor]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 260,
     "droprate": 0.025,
     "required_by": [
@@ -3381,7 +3381,7 @@
       "Guardian Angel"
     ],
     "type": "[Helm]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 260,
     "droprate": 0.025,
     "required_by": [
@@ -3404,7 +3404,7 @@
       "Guardian Angel"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.03,
     "required_by": [
       "Staff of Void",
@@ -3426,7 +3426,7 @@
       "Guardian Angel"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.03,
     "required_by": [
       "Karonphniamm, the True Holy Sword",
@@ -3452,7 +3452,7 @@
       "Archangel Samael"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": [
       0.0022,
       0.012
@@ -3478,7 +3478,7 @@
       "Guardian Angel"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "능천사의 토큰"
   },
@@ -3490,7 +3490,7 @@
       "Corrupt Angel"
     ],
     "type": "[Helm]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 260,
     "droprate": 0.08,
     "required_by": [
@@ -3512,7 +3512,7 @@
       "Corrupt Angel"
     ],
     "type": "[Longsword]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 260,
     "droprate": 0.08,
     "required_by": [
@@ -3536,7 +3536,7 @@
       "Corrupt Angel"
     ],
     "type": "[Armor]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 260,
     "droprate": 0.08,
     "required_by": [
@@ -3562,7 +3562,7 @@
       "Corrupt Angel"
     ],
     "type": "[Bow]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 260,
     "droprate": 0.08,
     "required_by": [
@@ -3585,7 +3585,7 @@
       "Corrupt Angel"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.08,
     "required_by": [
       "Staff of Void",
@@ -3607,7 +3607,7 @@
       "Corrupt Angel"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.08,
     "required_by": [
       "Staff of Madness",
@@ -3634,7 +3634,7 @@
       "Corrupt Angel"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "타천사의 토큰"
   },
@@ -3646,7 +3646,7 @@
       "Lord of Everfrost"
     ],
     "type": "[Robe]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "droprate": 0.06,
     "required_by": [
@@ -3671,7 +3671,7 @@
       "Lord of Everfrost"
     ],
     "type": "[Helm]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "droprate": 0.06,
     "required_by": [
@@ -3696,7 +3696,7 @@
       "Lord of Everfrost"
     ],
     "type": "[Hood]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "droprate": 0.06,
     "required_by": [
@@ -3720,7 +3720,7 @@
       "Lord of Everfrost"
     ],
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 320,
     "droprate": 0.08,
     "required_by": [
@@ -3748,7 +3748,7 @@
       "Lord of Everfrost"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.075,
     "required_by": [
       "Icicle Storm",
@@ -3769,7 +3769,7 @@
       "Lord of Everfrost"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "서리의 토큰"
   },
@@ -3781,7 +3781,7 @@
       "Spider Queen Ilshenar"
     ],
     "type": "[Greatsword]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "droprate": 0.06,
     "required_by": [
@@ -3805,7 +3805,7 @@
       "Spider Queen Ilshenar"
     ],
     "type": "[Bow]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "droprate": 0.06,
     "required_by": [
@@ -3829,7 +3829,7 @@
       "Spider Queen Ilshenar"
     ],
     "type": "[Gun]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "droprate": 0.06,
     "required_by": [
@@ -3851,7 +3851,7 @@
       "Spider Queen Ilshenar"
     ],
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 320,
     "droprate": 0.08,
     "required_by": [
@@ -3876,7 +3876,7 @@
       "Spider Queen Ilshenar"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.075,
     "required_by": [
       "Twin Snow",
@@ -3901,7 +3901,7 @@
       "Spider Queen Ilshenar"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "스파이더 토큰"
   },
@@ -3913,7 +3913,7 @@
       "Frostspider Lord"
     ],
     "type": "[Bastard Sword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 350,
     "droprate": 0.025,
     "required_by": [
@@ -3939,7 +3939,7 @@
       "Frostspider Lord"
     ],
     "type": "[Bow]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 350,
     "droprate": 0.025,
     "required_by": [
@@ -3970,7 +3970,7 @@
       "Frostspider Lord"
     ],
     "type": "[Greatsword]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 320,
     "droprate": 0.05,
     "required_by": [
@@ -3995,7 +3995,7 @@
       "Frostspider Lord"
     ],
     "type": "[Staff]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 320,
     "droprate": 0.05,
     "required_by": [
@@ -4023,7 +4023,7 @@
       "Frostspider Lord"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "서리거미 제왕 토큰"
   },
@@ -4034,7 +4034,7 @@
       "Frostspider Lord"
     ],
     "type": "[Ore Deposit]",
-    "color": 16711935,
+    "color": "FF00FF",
     "droprate": 0.075,
     "drops": [
       "White Crystal Golem Token",
@@ -4049,7 +4049,7 @@
       "Magical Ore Deposit (Frostspider Lord)"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.02,
     "required_by": [
       "Rainbow Crystal Golem Token"
@@ -4063,7 +4063,7 @@
       "Magical Ore Deposit (Frostspider Lord)"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 1.0,
     "required_by": [
       "Glasses",
@@ -4100,7 +4100,7 @@
       "Demon Lord Beriel"
     ],
     "type": "[Bastard Sword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 340,
     "droprate": 0.0175,
     "required_by": [
@@ -4129,7 +4129,7 @@
       "Demon Lord Beriel"
     ],
     "type": "[Gun]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "droprate": 0.0175,
     "required_by": [
@@ -4157,7 +4157,7 @@
       "Demon Lord Beriel"
     ],
     "type": "[Helm]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "droprate": 0.03,
     "required_by": [
@@ -4184,7 +4184,7 @@
       "Demon Lord Beriel"
     ],
     "type": "[Hood]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "droprate": 0.03,
     "required_by": [
@@ -4214,7 +4214,7 @@
       "Demon Lord Beriel"
     ],
     "type": "[Wings]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "droprate": 0.025,
     "required_by": [
@@ -4237,7 +4237,7 @@
       "Demon Lord Beriel"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.06,
     "required_by": [
       "Anger",
@@ -4266,7 +4266,7 @@
       "Demon Lord Beriel"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "마왕의 토큰"
   },
@@ -4277,7 +4277,7 @@
       "Demon Lord Beriel"
     ],
     "type": "[Misc]",
-    "color": 8437759,
+    "color": "80BFFF",
     "droprate": 1.0,
     "drops": [
       "Red Crystal Golem Token",
@@ -4292,7 +4292,7 @@
       "Remnant of Darkness"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.001,
     "required_by": [
       "Rainbow Crystal Golem Token"
@@ -4306,7 +4306,7 @@
       "Remnant of Darkness"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.06,
     "required_by": [
       "Abyssal Pickaxe",
@@ -4339,7 +4339,7 @@
       "King Crab"
     ],
     "type": "[Bastard Sword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 100,
     "droprate": 0.25,
     "required_by": [
@@ -4363,7 +4363,7 @@
       "King Crab"
     ],
     "type": "[Armor]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 100,
     "droprate": 0.25,
     "required_by": [
@@ -4387,7 +4387,7 @@
       "Walrus"
     ],
     "type": "[Ring]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 100,
     "droprate": 0.25,
     "required_by": [
@@ -4410,7 +4410,7 @@
       "Walrus"
     ],
     "type": "[Wings]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 100,
     "droprate": 0.25,
     "required_by": [
@@ -4431,7 +4431,7 @@
       "Walrus"
     ],
     "type": "[Staff]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 100,
     "droprate": 0.25,
     "stats": {
@@ -4451,7 +4451,7 @@
       "Walrus"
     ],
     "type": "[Armor]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 100,
     "droprate": 0.25,
     "stats": {
@@ -4469,7 +4469,7 @@
       "Walrus"
     ],
     "type": "[Gun]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 100,
     "droprate": 0.25,
     "required_by": [
@@ -4490,7 +4490,7 @@
       "Mammoth"
     ],
     "type": "[Bow]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 150,
     "droprate": 0.25,
     "required_by": [
@@ -4513,7 +4513,7 @@
       "Mammoth"
     ],
     "type": "[Ring]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 150,
     "droprate": 0.25,
     "stats": {
@@ -4534,7 +4534,7 @@
       "King Kong"
     ],
     "type": "[Helm]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 150,
     "droprate": 0.25,
     "stats": {
@@ -4555,7 +4555,7 @@
       "King Kong"
     ],
     "type": "[Robe]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 150,
     "droprate": 0.25,
     "required_by": [
@@ -4579,7 +4579,7 @@
       "King Kong"
     ],
     "type": "[Bastard Sword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 150,
     "droprate": 0.25,
     "required_by": [
@@ -4603,7 +4603,7 @@
       "King Kong"
     ],
     "type": "[Ring]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 150,
     "droprate": 0.25,
     "required_by": [
@@ -4627,7 +4627,7 @@
       "Evil Lava Spawn"
     ],
     "type": "[Helm/Hood]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -4651,7 +4651,7 @@
       "Evil Lava Spawn"
     ],
     "type": "[Ring]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -4675,7 +4675,7 @@
       "Evil Lava Spawn"
     ],
     "type": "[Gun]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -4697,7 +4697,7 @@
       "Evil Lava Spawn"
     ],
     "type": "[Ring]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -4722,7 +4722,7 @@
       "Evil Lava Spawn"
     ],
     "type": "[Greatsword]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 200,
     "droprate": 0.125,
     "required_by": [
@@ -4746,7 +4746,7 @@
       "Blood Wraith"
     ],
     "type": "[Bastard Sword]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "droprate": 0.125,
     "required_by": [
@@ -4776,7 +4776,7 @@
       "Blood Wraith"
     ],
     "type": "[Bow]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "droprate": 0.125,
     "required_by": [
@@ -4806,7 +4806,7 @@
       "Wallachia Monstrosity"
     ],
     "type": "[Weapon all classes]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "droprate": 0.1,
     "required_by": [
@@ -4836,7 +4836,7 @@
       "Blood Wraith"
     ],
     "type": "[Armor/Robe]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "droprate": 0.125,
     "required_by": [
@@ -4865,7 +4865,7 @@
       "Wallachia Monstrosity"
     ],
     "type": "[Ring]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "droprate": 0.1,
     "required_by": [
@@ -4894,7 +4894,7 @@
       "Wallachia Monstrosity"
     ],
     "type": "[Helm/Hood]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "droprate": 0.1,
     "required_by": [
@@ -4921,7 +4921,7 @@
       "Duchy of Wallachia creeps"
     ],
     "type": "[Misc]",
-    "color": 8437759,
+    "color": "80BFFF",
     "notes": [
       "Droprate increases every 5 minutes that it does not drop"
     ],
@@ -4940,7 +4940,7 @@
       "Wallachia Monstrosity"
     ],
     "type": "[Gun]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "droprate": 0.125,
     "required_by": [
@@ -4960,7 +4960,7 @@
       "Wallachia Monstrosity"
     ],
     "type": "[Armor]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "droprate": 0.125,
     "required_by": [
@@ -4987,7 +4987,7 @@
       "Wallachia Monstrosity"
     ],
     "type": "[Wings]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "droprate": 0.125,
     "required_by": [
@@ -5013,7 +5013,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Greatsword]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.02,
     "required_by": [
@@ -5039,7 +5039,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Bow]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.02,
     "required_by": [
@@ -5070,7 +5070,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Longsword]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.02,
     "required_by": [
@@ -5100,7 +5100,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Gun]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.02,
     "required_by": [
@@ -5127,7 +5127,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.02,
     "required_by": [
@@ -5155,7 +5155,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.02,
     "required_by": [
@@ -5191,7 +5191,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Staff]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "droprate": 0.015,
     "required_by": [
@@ -5216,7 +5216,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.02,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
@@ -5244,7 +5244,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.02,
     "required_by": [
       "Hydro Buster",
@@ -5267,7 +5267,7 @@
       "Corruptor Rectus"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "타락의 토큰"
   },
@@ -5279,7 +5279,7 @@
       "Flame Nightmare"
     ],
     "type": "[Staff]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5310,7 +5310,7 @@
       "Flame Nightmare"
     ],
     "type": "[Armor]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5338,7 +5338,7 @@
       "Flame Nightmare"
     ],
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5365,7 +5365,7 @@
       "Flame Nightmare"
     ],
     "type": "[Gun]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5394,7 +5394,7 @@
       "Flame Nightmare"
     ],
     "type": "[Helm/Hood]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "droprate": 0.015,
     "required_by": [
@@ -5421,7 +5421,7 @@
       "Flame Nightmare"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.03,
     "required_by": [
       "Laksha, the Ancient Sword of Poison",
@@ -5450,7 +5450,7 @@
       "Shard of Anger"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": [
       0.02,
       0.012
@@ -5486,7 +5486,7 @@
       "Flame Nightmare"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "나이트메어 토큰"
   },
@@ -5497,7 +5497,7 @@
       "Flame Nightmare"
     ],
     "type": "[Misc]",
-    "color": 8437759,
+    "color": "80BFFF",
     "notes": [
       "Spawns in your bag inventory if you are over level 360 (appears in your bag bank if your bag is full)"
     ],
@@ -5518,7 +5518,7 @@
       "Turtle Lord"
     ],
     "type": "[Gun]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5550,7 +5550,7 @@
       "Turtle Lord"
     ],
     "type": "[Armor]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5575,7 +5575,7 @@
       "Turtle Lord"
     ],
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5606,7 +5606,7 @@
       "Turtle Lord"
     ],
     "type": "[Helm]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.03,
     "required_by": [
@@ -5635,7 +5635,7 @@
       "Turtle Lord"
     ],
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "droprate": 0.015,
     "required_by": [
@@ -5666,7 +5666,7 @@
       "Turtle Lord"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.03,
     "required_by": [
       "Deathbringer",
@@ -5694,7 +5694,7 @@
       "Turtle Lord"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.03,
     "required_by": [
       "Storm Reaver",
@@ -5721,7 +5721,7 @@
       "Shard of Mana"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": [
       0.02,
       0.012
@@ -5754,7 +5754,7 @@
       "Turtle Lord"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "터틀 토큰"
   },
@@ -5765,7 +5765,7 @@
       "Turtle Lord"
     ],
     "type": "[Misc]",
-    "color": 8437759,
+    "color": "80BFFF",
     "notes": [
       "Spawns in your bag inventory if you are over level 360 (appears in your bag bank if your bag is full)"
     ],
@@ -5786,7 +5786,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Bastard Sword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "droprate": 0.0075,
     "required_by": [
@@ -5816,7 +5816,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Staff]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "droprate": 0.0075,
     "required_by": [
@@ -5843,7 +5843,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Robe]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "droprate": 0.01,
     "required_by": [
@@ -5868,7 +5868,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "droprate": 0.01,
     "required_by": [
@@ -5893,7 +5893,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "droprate": 0.01,
     "required_by": [
@@ -5923,7 +5923,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
       "Claws of Beriel",
@@ -5949,7 +5949,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
       "Espishu, the Sword of Eternity",
@@ -5978,7 +5978,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
       "Espishu, the Sword of Eternity",
@@ -6001,7 +6001,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
@@ -6026,7 +6026,7 @@
       "Skeleton King Desperia"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "스켈레톤 토큰"
   },
@@ -6038,7 +6038,7 @@
       "Zombie Lord"
     ],
     "type": "[Staff]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 370,
     "droprate": 0.0125,
     "required_by": [
@@ -6072,7 +6072,7 @@
       "Zombie Lord"
     ],
     "type": "[Helm/Hood]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.0125,
     "required_by": [
@@ -6100,7 +6100,7 @@
       "Zombie Lord"
     ],
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "droprate": 0.0075,
     "required_by": [
@@ -6128,7 +6128,7 @@
       "Zombie Lord"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
       "Crimson Reaper",
@@ -6152,7 +6152,7 @@
       "Zombie Lord"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
       "Bloody Hatred",
@@ -6177,7 +6177,7 @@
       "Zombie Lord"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
       "Oceanus, the Sword of Light",
@@ -6202,7 +6202,7 @@
       "Zombie Lord"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "좀비 토큰"
   },
@@ -6214,7 +6214,7 @@
       "Ancient Ent"
     ],
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "droprate": 0.0075,
     "required_by": [
@@ -6246,7 +6246,7 @@
       "Giant Ent"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "notes": [
       "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.20% → 0.04%, 0.02% → 0.004)"
     ],
@@ -6285,7 +6285,7 @@
       "Giant Ent"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "notes": [
       "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.20% → 0.04%, 0.02% → 0.004)"
     ],
@@ -6315,7 +6315,7 @@
       "Ancient Ent"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "엔트 토큰"
   },
@@ -6327,7 +6327,7 @@
       "Elder Ent"
     ],
     "type": "[Greatsword]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 380,
     "notes": [
       "Elder Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%)"
@@ -6358,7 +6358,7 @@
       "Elder Ent"
     ],
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 380,
     "notes": [
       "Elder Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%)"
@@ -6397,7 +6397,7 @@
       "Shadow Dragon Irbert"
     ],
     "type": "[Bastard Sword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "droprate": 0.0075,
     "stats": {
@@ -6420,7 +6420,7 @@
       "Shadow Dragon Irbert"
     ],
     "type": "[Armor/Robe]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 370,
     "droprate": 0.015,
     "stats": {
@@ -6448,7 +6448,7 @@
       "Shadow Dragon Irbert"
     ],
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 370,
     "droprate": 0.015,
     "required_by": [
@@ -6475,7 +6475,7 @@
       "Shadow Dragon Irbert"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
       "Crimson Reaper",
@@ -6499,7 +6499,7 @@
       "Shadow Dragon Irbert"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
       "Staff of Plague",
@@ -6525,7 +6525,7 @@
       "Death Fiend"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": [
       0.006,
       0.009
@@ -6552,7 +6552,7 @@
       "Shadow Dragon Irbert"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "암흑의 토큰"
   },
@@ -6563,7 +6563,7 @@
       "Archangel Samael"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.008,
     "required_by": [
       "Claws of Beriel",
@@ -6585,7 +6585,7 @@
       "Archangel Samael"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.008,
     "required_by": [
       "Oceanus, the Sword of Light",
@@ -6607,7 +6607,7 @@
       "Archangel Samael"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.008,
     "required_by": [
       "Ruinbringer",
@@ -6629,7 +6629,7 @@
       "Archangel Samael"
     ],
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "droprate": 0.006,
     "required_by": [
@@ -6664,7 +6664,7 @@
       "Archangel Samael"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "주천사의 토큰"
   },
@@ -6676,7 +6676,7 @@
       "Death Fiend"
     ],
     "type": "[Weapon non-bow/gun classes]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "droprate": 0.002,
     "stats": {
@@ -6699,7 +6699,7 @@
       "Death Fiend"
     ],
     "type": "[Armor]",
-    "color": 12517504,
+    "color": "BF0080",
     "level": 380,
     "droprate": 0.0075,
     "required_by": [
@@ -6726,7 +6726,7 @@
       "Death Fiend"
     ],
     "type": "[Hood]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 380,
     "droprate": 0.01,
     "required_by": [
@@ -6752,7 +6752,7 @@
       "Death Fiend"
     ],
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "droprate": 0.01,
     "required_by": [
@@ -6774,7 +6774,7 @@
       "Death Fiend"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.006,
     "required_by": [
       "Staff of Plague",
@@ -6791,7 +6791,7 @@
       "Death Fiend"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.006,
     "required_by": [
       "Atricia, the Sword of Dreams",
@@ -6809,7 +6809,7 @@
       "Death Fiend"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "핀드 토큰"
   },
@@ -6820,7 +6820,7 @@
       "Elemental of Chaos"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.075,
     "required_by": [
       "Tiny Essence of Storm",
@@ -6840,7 +6840,7 @@
       "Valtora"
     ],
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "droprate": 0.005,
     "required_by": [
@@ -6869,7 +6869,7 @@
       "Valtora"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
       "Horn of Lightning God",
@@ -6886,7 +6886,7 @@
       "Valtora"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
       "Atricia, the Sword of Dreams",
@@ -6904,7 +6904,7 @@
       "Ifrit"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.005,
     "required_by": [
       "Pheles, the Bow of God",
@@ -6922,7 +6922,7 @@
     ],
     "type": "[Ring]",
     "description": "I'm about to EXPLODE!!!!!!!!!!!!!!!!!!!",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "droprate": 0.005,
     "required_by": [
@@ -6949,7 +6949,7 @@
       "Ifrit"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
       "Eye of the Flame Lord",
@@ -6965,7 +6965,7 @@
       "Ifrit"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
       "Atricia, the Sword of Dreams",
@@ -6984,7 +6984,7 @@
       "Bone Dragon"
     ],
     "type": "[Weapon all classes]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "droprate": 0.0066,
     "required_by": [
@@ -7016,7 +7016,7 @@
       "Bone Dragon"
     ],
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "droprate": 0.0066,
     "required_by": [
@@ -7044,7 +7044,7 @@
       "Bone Dragon"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.01,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
@@ -7064,7 +7064,7 @@
       "Bone Dragon"
     ],
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "droprate": 0.01,
     "required_by": [
       "Claws of Beriel",
@@ -7086,7 +7086,7 @@
       "Bone Dragon"
     ],
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "본 드래곤 토큰"
   },
@@ -7095,7 +7095,7 @@
     "name": "Proof of Endeavor",
     "koreanname": "노력의 잔해",
     "type": "[Material]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "notes": [
       "Only aquired by dissasembling any Epic items dropped by the following bosses:",
       "Rectus / Spirit Beast / Flame Nightmare / Turtle Lord",
@@ -7119,7 +7119,7 @@
     "name": "White Powder",
     "koreanname": "화이트 파우더",
     "type": "[Powder]",
-    "color": 8947848,
+    "color": "888888",
     "required_by": [
       "Green Powder",
       "Tiny Essence of Storm"
@@ -7138,7 +7138,7 @@
     "name": "Green Powder",
     "koreanname": "그린 파우더",
     "type": "[Powder]",
-    "color": 495881,
+    "color": "079109",
     "dropped_by": [
       "Forest Spirit",
       "Fairy Spirit",
@@ -7167,7 +7167,7 @@
     "name": "Blue Powder",
     "koreanname": "블루 파우더",
     "type": "[Powder]",
-    "color": 1271005,
+    "color": "1364DD",
     "required_by": [
       "Red Powder",
       "Tiny Essence of Sea"
@@ -7186,7 +7186,7 @@
     "name": "Red Powder",
     "koreanname": "레드 파우더",
     "type": "[Powder]",
-    "color": 9844792,
+    "color": "963838",
     "required_by": [
       "Holy Powder",
       "Tiny Essence of Flame"
@@ -7205,7 +7205,7 @@
     "name": "Holy Powder",
     "koreanname": "홀리 파우더",
     "type": "[Powder]",
-    "color": 8028456,
+    "color": "7A8128",
     "required_by": [
       "Tiny Essence of Light"
     ],
@@ -7227,7 +7227,7 @@
     "notes": [
       "Can be created using Alchemy with Jaina in the Magician's Tower"
     ],
-    "color": 16777215,
+    "color": "FFFFFF",
     "required_by": [
       "Key of Storm"
     ],
@@ -7256,7 +7256,7 @@
     "notes": [
       "Can be created using Alchemy with Jaina in the Magician's Tower"
     ],
-    "color": 16777215,
+    "color": "FFFFFF",
     "recipe": [
       {
         "Chaos Magic Stone": 1
@@ -7282,7 +7282,7 @@
     "notes": [
       "Can be created using Alchemy with Jaina in the Magician's Tower"
     ],
-    "color": 16777215,
+    "color": "FFFFFF",
     "recipe": [
       {
         "Chaos Magic Stone": 1
@@ -7308,7 +7308,7 @@
     "notes": [
       "Can be created using Alchemy with Jaina in the Magician's Tower"
     ],
-    "color": 16777215,
+    "color": "FFFFFF",
     "required_by": [
       "Key of Flame"
     ],
@@ -7336,7 +7336,7 @@
     "notes": [
       "Can be created using Alchemy with Jaina in the Magician's Tower"
     ],
-    "color": 16777215,
+    "color": "FFFFFF",
     "recipe": [
       {
         "Chaos Magic Stone": 1
@@ -7361,7 +7361,7 @@
     "notes": [
       "Can be created using Alchemy with Jaina in the Magician's Tower"
     ],
-    "color": 16777215,
+    "color": "FFFFFF",
     "recipe": [
       {
         "Chaos Magic Stone": 5
@@ -7383,7 +7383,7 @@
     "notes": [
       "Can be crafted by Blacksmith in Alfon Village or Captial Prius"
     ],
-    "color": 16777215,
+    "color": "FFFFFF",
     "recipe": [
       {
         "Tiny Essence of Storm": 3
@@ -7399,7 +7399,7 @@
     "notes": [
       "Can be crafted by Blacksmith in Alfon Village or Captial Prius"
     ],
-    "color": 16777215,
+    "color": "FFFFFF",
     "recipe": [
       {
         "Tiny Essence of Flame": 3
@@ -7411,7 +7411,7 @@
     "name": "Acorn Bomb",
     "koreanname": "도토리 폭탄",
     "type": "[Ring]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 15,
     "recipe": [
       {
@@ -7437,7 +7437,7 @@
     "name": "Rainbow Crystal Golem Token",
     "koreanname": "레인보우 크리스탈 골렘 토큰",
     "type": "[Token]",
-    "color": 14329120,
+    "color": "DAA520",
     "recipe": [
       {
         "Red Crystal Golem Token": 1
@@ -7461,7 +7461,7 @@
     "name": "Glasses",
     "koreanname": "안경",
     "type": "[Collectible]",
-    "color": 6389660,
+    "color": "617F9C",
     "recipe": [
       {
         "Orichalcum": 1
@@ -7487,7 +7487,7 @@
     "name": "Bag",
     "koreanname": "배낭",
     "type": "[Bag]",
-    "color": 8421504,
+    "color": "808080",
     "level": 1,
     "required_by": [
       "Slightly Sturdy Bag"
@@ -7502,7 +7502,7 @@
     "name": "Slightly Sturdy Bag",
     "koreanname": "조금 튼튼한 배낭",
     "type": "[Bag]",
-    "color": 8421504,
+    "color": "808080",
     "notes": [
       "The item 'Bag' can be bought at the potion/fruit seller in Alfon Village"
     ],
@@ -7528,7 +7528,7 @@
     "name": "Pretty Sturdy Bag",
     "koreanname": "제법 튼튼한 배낭",
     "type": "[Bag]",
-    "color": 2113776,
+    "color": "2040F0",
     "level": 30,
     "required_by": [
       "Sturdy Bag",
@@ -7555,7 +7555,7 @@
     "name": "Sturdy Bag",
     "koreanname": "튼튼한 배낭",
     "type": "[Bag]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 80,
     "required_by": [
       "Very Sturdy Bag"
@@ -7579,7 +7579,7 @@
     "name": "Very Sturdy Bag",
     "koreanname": "정말 튼튼한 배낭",
     "type": "[Bag]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 120,
     "required_by": [
       "Bag of Strength"
@@ -7603,7 +7603,7 @@
     "name": "Bag of Strength",
     "koreanname": "힘의 배낭",
     "type": "[Bag]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 200,
     "required_by": [
       "Bag of Mighty Strength"
@@ -7635,7 +7635,7 @@
     "koreanname": "강력한 힘의 배낭",
     "description": "Pretty heavy bag",
     "type": "[Bag]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "required_by": [
       "Bag of Mighty Strength +1"
@@ -7668,7 +7668,7 @@
     "koreanname": "강력한 힘의 배낭 +1",
     "description": "Very heavy bag",
     "type": "[Bag]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 320,
     "required_by": [
       "Bag of Hell"
@@ -7704,7 +7704,7 @@
     "koreanname": "지옥의 배낭",
     "description": "So.. heavy...",
     "type": "[Bag]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "required_by": [
       "Bag of Corruption"
@@ -7740,7 +7740,7 @@
     "koreanname": "타락의 배낭",
     "description": "Help.. me..",
     "type": "[Bag]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "required_by": [
       "Bag of Destruction"
@@ -7780,7 +7780,7 @@
     "koreanname": "파멸의 배낭",
     "description": "He.. lp.. so... hea.. vy..",
     "type": "[Bag]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -7817,7 +7817,7 @@
     "name": "Silky Bag",
     "koreanname": "부드러운 배낭",
     "type": "[Bag]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 80,
     "required_by": [
       "Very Silky Bag"
@@ -7841,7 +7841,7 @@
     "name": "Very Silky Bag",
     "koreanname": "정말 부드러운 배낭",
     "type": "[Bag]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 120,
     "required_by": [
       "Fruit-filled Bag"
@@ -7867,7 +7867,7 @@
     "name": "Fruit-filled Bag",
     "koreanname": "과일 담긴 배낭",
     "type": "[Bag]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 200,
     "required_by": [
       "Candy-filled Bag"
@@ -7898,7 +7898,7 @@
     "koreanname": "사탕 담긴 배낭",
     "description": "Pretty light bag",
     "type": "[Bag]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "required_by": [
       "Candy-filled Bag +1"
@@ -7930,7 +7930,7 @@
     "koreanname": "사탕 담긴 배낭 +1",
     "description": "Very light bag",
     "type": "[Bag]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 320,
     "required_by": [
       "Bag of Heaven"
@@ -7966,7 +7966,7 @@
     "koreanname": "천국의 배낭",
     "description": "Bag filled with happiness",
     "type": "[Bag]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "required_by": [
       "Bag of Life"
@@ -8003,7 +8003,7 @@
     "koreanname": "생명의 배낭",
     "description": "Bag filled with life",
     "type": "[Bag]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "required_by": [
       "Bag of Mother Nature"
@@ -8042,7 +8042,7 @@
     "koreanname": "대자연의 배낭",
     "description": "Bag imbued with the essence of mother nature",
     "type": "[Bag]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -8079,7 +8079,7 @@
     "name": "Golden Fang",
     "koreanname": "금빛 송곳니",
     "type": "[Longsword]",
-    "color": 16744960,
+    "color": "FF8200",
     "level": 15,
     "recipe": [
       {
@@ -8099,7 +8099,7 @@
     "name": "Beast Hunter",
     "koreanname": "비스트 헌터",
     "type": "[Gun]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 120,
     "recipe": [
       {
@@ -8130,7 +8130,7 @@
     "name": "Sword of Darkness",
     "koreanname": "암흑의 검",
     "type": "[Longsword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 200,
     "recipe": [
       {
@@ -8156,7 +8156,7 @@
     "name": "Greatsword of Darkness",
     "koreanname": "암흑의 장검",
     "type": "[Greatsword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 200,
     "recipe": [
       {
@@ -8180,7 +8180,7 @@
     "name": "Gloves of Darkness",
     "koreanname": "암흑의 장갑",
     "type": "[Gloves]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 200,
     "recipe": [
       {
@@ -8204,7 +8204,7 @@
     "name": "Staff of Darkness",
     "koreanname": "암흑의 지팡이",
     "type": "[Staff]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 200,
     "recipe": [
       {
@@ -8230,7 +8230,7 @@
     "name": "Bow of Darkness",
     "koreanname": "암흑의 활",
     "type": "[Bow]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 200,
     "recipe": [
       {
@@ -8256,7 +8256,7 @@
     "name": "Rifle of Darkness",
     "koreanname": "암흑의 소총",
     "type": "[Gun]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 200,
     "recipe": [
       {
@@ -8279,7 +8279,7 @@
     "name": "Sword of Pure Flame",
     "koreanname": "극염의 검",
     "type": "[Longsword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 220,
     "recipe": [
       {
@@ -8305,7 +8305,7 @@
     "name": "Greatsword of Pure Flame",
     "koreanname": "극염의 장검",
     "type": "[Greatsword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 220,
     "recipe": [
       {
@@ -8329,7 +8329,7 @@
     "name": "Gloves of Pure Flame",
     "koreanname": "극염의 장갑",
     "type": "[Gloves]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 220,
     "recipe": [
       {
@@ -8353,7 +8353,7 @@
     "name": "Staff of Pure Flame",
     "koreanname": "극염의 지팡이",
     "type": "[Staff]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 220,
     "recipe": [
       {
@@ -8379,7 +8379,7 @@
     "name": "Bow of Pure Flame",
     "koreanname": "극염의 활",
     "type": "[Bow]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 220,
     "recipe": [
       {
@@ -8405,7 +8405,7 @@
     "name": "Rifle of True Flame",
     "koreanname": "극염의 소총",
     "type": "[Gun]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 220,
     "recipe": [
       {
@@ -8431,7 +8431,7 @@
     "name": "Sword of Lethal Poison",
     "koreanname": "극독의 검",
     "type": "[Longsword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "recipe": [
       {
@@ -8460,7 +8460,7 @@
     "name": "Greatsword of Lethal Poison",
     "koreanname": "극독의 장검",
     "type": "[Greatsword]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "recipe": [
       {
@@ -8486,7 +8486,7 @@
     "name": "Gloves of Lethal Poison",
     "koreanname": "극독의 장갑",
     "type": "[Gloves]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "recipe": [
       {
@@ -8512,7 +8512,7 @@
     "name": "Staff of Lethal Poison",
     "koreanname": "극독의 지팡이",
     "type": "[Staff]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "recipe": [
       {
@@ -8538,7 +8538,7 @@
     "name": "Bow of Lethal Poison",
     "koreanname": "극독의 활",
     "type": "[Bow]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "recipe": [
       {
@@ -8564,7 +8564,7 @@
     "name": "Rifle of True Poison",
     "koreanname": "극독의 소총",
     "type": "[Gun]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 240,
     "recipe": [
       {
@@ -8594,7 +8594,7 @@
     "koreanname": "진 용검 라인하르트",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Greatsword]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 300,
     "recipe": [
       {
@@ -8629,7 +8629,7 @@
     "koreanname": "진 용봉 이레이브",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Staff]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 360,
     "recipe": [
       {
@@ -8664,7 +8664,7 @@
     "koreanname": "진 용궁 에이엔스",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Bow]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 300,
     "recipe": [
       {
@@ -8697,7 +8697,7 @@
     "koreanname": "진 용포 벨레누스",
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Gun]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 300,
     "recipe": [
       {
@@ -8731,7 +8731,7 @@
     "koreanname": "기생의 검",
     "description": "Wiggle wiggle..",
     "type": "[Bastard Sword]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "recipe": [
       {
@@ -8763,7 +8763,7 @@
     "koreanname": "촉수의 지팡이",
     "description": "Wiggle.. wiggle?",
     "type": "[Staff]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "recipe": [
       {
@@ -8793,7 +8793,7 @@
     "name": "Monster Hunter",
     "koreanname": "몬스터 헌터",
     "type": "[Gun]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 250,
     "recipe": [
       {
@@ -8829,7 +8829,7 @@
     "koreanname": "독의 지배검 라크샤",
     "description": "Sword fully imbued with Hydra's poison",
     "type": "[Longsword]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "recipe": [
       {
@@ -8859,7 +8859,7 @@
     "koreanname": "스태프 오브 보이드",
     "description": "Bow blessed by the wind. It guides arrows toward target's weak spots.",
     "type": "[Staff]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 260,
     "recipe": [
       {
@@ -8898,7 +8898,7 @@
     "koreanname": "괴물의 손아귀",
     "description": "Right hand that eats up everything in its path",
     "type": "[Bastard Sword]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 260,
     "required_by": [
       "Maw of Greed"
@@ -8936,7 +8936,7 @@
     "koreanname": "피의 지배검 테페시아",
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Longsword]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 300,
     "recipe": [
       {
@@ -8969,7 +8969,7 @@
     "koreanname": "진 혈포 체페슈",
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Greatsword]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 300,
     "recipe": [
       {
@@ -9003,7 +9003,7 @@
     "koreanname": "스태프 오브 매드니스",
     "description": "The madness of Mad Clown runs deep within this staff",
     "type": "[Staff]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 300,
     "recipe": [
       {
@@ -9045,7 +9045,7 @@
     "name": "Monster Blaster",
     "koreanname": "몬스터 블래스터",
     "type": "[Gun]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 300,
     "recipe": [
       {
@@ -9081,7 +9081,7 @@
     "koreanname": "진 혈포 체페슈",
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Gun]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 300,
     "recipe": [
       {
@@ -9116,7 +9116,7 @@
     "koreanname": "작렬의 장검 리오레우스",
     "description": "One slain by this sword won't even leave ashes behind.",
     "type": "[Greatsword]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 320,
     "recipe": [
       {
@@ -9152,7 +9152,7 @@
     "koreanname": "크림슨 펌킨 로드",
     "description": "\"Hehe heh heh heh\"",
     "type": "[Staff]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 320,
     "recipe": [
       {
@@ -9197,7 +9197,7 @@
     "koreanname": "드래곤 블래스터",
     "description": "The weapon of choice for dragon-hunting",
     "type": "[Gun]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 320,
     "recipe": [
       {
@@ -9236,7 +9236,7 @@
     "koreanname": "레드 크로스",
     "description": "Do not forget the past written by blood.",
     "type": "[Gun]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 320,
     "recipe": [
       {
@@ -9276,7 +9276,7 @@
     "koreanname": "진 마검 엑시멜리아",
     "description": "Immerse yourself in battle and war !! Walk the path of destruction !!",
     "type": "[Longsword]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 260,
     "recipe": [
       {
@@ -9313,7 +9313,7 @@
     "koreanname": "혈혼검 테페시아",
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Longsword]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "recipe": [
       {
@@ -9353,7 +9353,7 @@
     "koreanname": "스톰 리버",
     "description": "The Omen of Storm - Dagger that brings destruction",
     "type": "[Longsword]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "recipe": [
       {
@@ -9384,7 +9384,7 @@
     "koreanname": "진 성검 카론프니엠",
     "description": "Blessing to the weak; judgment to the evil.",
     "type": "[Greatsword]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 260,
     "recipe": [
       {
@@ -9423,7 +9423,7 @@
     "koreanname": "환검 바하나르",
     "description": "An unstable sword that does not have a fixed shape.",
     "type": "[Greatsword]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "recipe": [
       {
@@ -9468,7 +9468,7 @@
     "koreanname": "플레임 소울",
     "description": "Its intense heat brings out your inner strength",
     "type": "[Greatsword]",
-    "color": 13047173,
+    "color": "C71585",
     "notes": [
       "Currently gives 1675 STR but the description states 1475 STR"
     ],
@@ -9513,7 +9513,7 @@
     "koreanname": "피의 진혼창 상귀엘",
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Greatsword]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "recipe": [
       {
@@ -9553,7 +9553,7 @@
     "koreanname": "진 성봉 클레네티아",
     "description": "Blessing to the weak; judgment to the evil.",
     "type": "[Staff]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 260,
     "recipe": [
       {
@@ -9591,7 +9591,7 @@
     "koreanname": "대지의 기둥 벤지이나",
     "description": "Beyond the cruel face of Mother Nature, lies a warm face that embraces all.",
     "type": "[Staff]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "recipe": [
       {
@@ -9636,7 +9636,7 @@
     "koreanname": "아이시클 스톰",
     "description": "Magical bow that brews a storm of icicles",
     "type": "[Bow]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "recipe": [
       {
@@ -9671,7 +9671,7 @@
     "koreanname": "진 마궁 알카테",
     "description": "Leave none alive !! Pierce their hearts !!",
     "type": "[Bow]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 260,
     "recipe": [
       {
@@ -9708,7 +9708,7 @@
     "koreanname": "진 성포 이아나",
     "description": "Blessing to the weak; judgment to the evil.",
     "type": "[Gun]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 260,
     "recipe": [
       {
@@ -9747,7 +9747,7 @@
     "koreanname": "심판의 탄환 레투스",
     "description": "Your sin cannot be washed away.",
     "type": "[Gun]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "recipe": [
       {
@@ -9784,7 +9784,7 @@
     "koreanname": "정령의 비수",
     "description": "Weapon imbued with an ancient spirit",
     "type": "[Weapon all classes]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -9827,7 +9827,7 @@
     "koreanname": "독의 고대검 라크샤",
     "description": "Break free from the binds of poison, and subjugate it to make it yours ..",
     "type": "[Longsword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -9869,7 +9869,7 @@
     "koreanname": "천 마검 아스모데우스",
     "description": "The only truth is your strength.",
     "type": "[Bastard Sword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -9912,7 +9912,7 @@
     "koreanname": "진 환검 바하나르",
     "description": "Strange magical sword that resonates and grows stronger as the user grows",
     "type": "[Greatsword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -9957,7 +9957,7 @@
     "koreanname": "데스브링어",
     "description": "Sword that attracts death",
     "type": "[Greatsword]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "recipe": [
       {
@@ -10005,7 +10005,7 @@
     "koreanname": "분노",
     "description": "Let it go, if you can no longer control it.",
     "type": "[Greatsword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -10042,7 +10042,7 @@
     "koreanname": "천류의 창 아글라이아",
     "description": "When the heavenly flows pass through you, you shall become flawless",
     "type": "[Greatsword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -10079,7 +10079,7 @@
     "koreanname": "천 마봉 벨리우스",
     "description": "The only truth is your strength.",
     "type": "[Staff]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -10120,7 +10120,7 @@
     "koreanname": "트윈 스노우",
     "description": "A beautiful yet deadly creation of ice.",
     "type": "[Staff]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -10169,7 +10169,7 @@
     "koreanname": "천 마궁 이드렉트",
     "description": "The only truth is your strength.",
     "type": "[Bow]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -10210,7 +10210,7 @@
     "koreanname": "플레임 익스플로전",
     "description": "\" Destruction is my only path!! \"",
     "type": "[Bow]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -10253,7 +10253,7 @@
     "koreanname": "신궁 피레스",
     "description": "Bow blessed by the wind. It guides arrows toward target's weak spots.",
     "type": "[Bow]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -10293,7 +10293,7 @@
     "koreanname": "천 마포 알카트라츠",
     "description": "The only truth is your strength.",
     "type": "[Gun]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -10334,7 +10334,7 @@
     "koreanname": "드래곤 버스터",
     "description": "Cannon specialized for hunting dragons",
     "type": "[Gun]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "required_by": [
       "Hydro Buster"
@@ -10374,7 +10374,7 @@
     "koreanname": "하이드로 버스터",
     "description": "CANNON BLASTAAaaaaaa",
     "type": "[Gun]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -10422,7 +10422,7 @@
     "koreanname": "데블 블래스터",
     "description": "Be gone, evil !",
     "type": "[Gun]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "recipe": [
       {
@@ -10465,7 +10465,7 @@
     "koreanname": "파멸의 탄환",
     "description": "Your end is nigh !",
     "type": "[Gun]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -10504,7 +10504,7 @@
     "koreanname": "크림슨 크로스",
     "description": "Shed your blood for the sake of present.",
     "type": "[Gun]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -10554,7 +10554,7 @@
     "koreanname": "베리엘의 손톱",
     "description": "Claws of the Demon Lord, capable of even slicing through dimensions",
     "type": "[Bastard Sword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "recipe": [
       {
@@ -10593,7 +10593,7 @@
     "koreanname": "영겁의 검 에스피슈",
     "description": "The only truth is your strength.",
     "type": "[Bastard Sword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "recipe": [
       {
@@ -10630,7 +10630,7 @@
     "koreanname": "블레이징 소울",
     "description": "My inner power is burning up !!",
     "type": "[Greatsword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -10675,7 +10675,7 @@
     "koreanname": "차원의 지팡이 에테노스",
     "description": "The only truth is your strength.",
     "type": "[Staff]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "recipe": [
       {
@@ -10712,7 +10712,7 @@
     "koreanname": "필멸의 활 그리베돈",
     "description": "The only truth is your strength.",
     "type": "[Bow]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "recipe": [
       {
@@ -10751,7 +10751,7 @@
     "koreanname": "시공의 대포 크로노스",
     "description": "The only truth is your strength.",
     "type": "[Gun]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "recipe": [
       {
@@ -10790,7 +10790,7 @@
     "koreanname": "데블 체이서",
     "description": "Muzzle of judgment that no evil can escape from",
     "type": "[Gun]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "recipe": [
       {
@@ -10834,7 +10834,7 @@
     "koreanname": "단테스 인페르노",
     "description": "Abandon all hope.",
     "type": "[Gun]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "recipe": [
       {
@@ -10874,7 +10874,7 @@
     "koreanname": "독의 환상검 라크트리샤",
     "description": "I shall deliver you a marvelous death ..",
     "type": "[Longsword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -10923,7 +10923,7 @@
     "koreanname": "크림슨 리퍼",
     "description": "My sword thirsts for your blood !",
     "type": "[Longsword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -10967,7 +10967,7 @@
     "koreanname": "빛의 검 오케아노스",
     "description": "An artifact with a legends that the user's body becomes like the light itself",
     "type": "[Bastard Sword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11012,7 +11012,7 @@
     "koreanname": "겨울의 심장",
     "description": "Reign over cold seasons, and become the winter of the world yourself !",
     "type": "[Greatsword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11065,7 +11065,7 @@
     "koreanname": "천영의 환검 미크로네이서",
     "description": "A sword unreached by the light, engulfed with the spirit of the abyss.",
     "type": "[Greatsword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11111,7 +11111,7 @@
     "koreanname": "번개의 창 티베리우스",
     "description": "A weapon that is the symbol of deity's power and status.",
     "type": "[Greatsword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11153,7 +11153,7 @@
     "koreanname": "블레이징 하트",
     "description": "The everlasting, unwavering flame.",
     "type": "[Greatsword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11197,7 +11197,7 @@
     "koreanname": "루인브링어",
     "description": "Sword that calls forth ruin",
     "type": "[Greatsword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11245,7 +11245,7 @@
     "koreanname": "대지의 영혼 벤지이나",
     "description": "Attain true knowledge by embracing the great Mother Nature",
     "type": "[Staff]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11287,7 +11287,7 @@
     "koreanname": "선혈빛 증오",
     "description": "Hatred is what drives and excites me !",
     "type": "[Staff]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11335,7 +11335,7 @@
     "koreanname": "스태프 오브 어비스",
     "description": "Staff drenched in the madness of the abyss",
     "type": "[Staff]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11377,7 +11377,7 @@
     "koreanname": "지배자의 지팡이",
     "description": "A desire rises within me to dominate everything !",
     "type": "[Staff]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11418,7 +11418,7 @@
     "koreanname": "헬 라이서",
     "description": "Is it hope that flickers in front of those eyes? Or is it despair?",
     "type": "[Staff]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11455,7 +11455,7 @@
     "koreanname": "트리플 스노우",
     "description": "Cold, beautiful yet deadly creation of ice",
     "type": "[Staff]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11496,7 +11496,7 @@
     "koreanname": "심장추적자",
     "description": "It wiggles toward the enemy's heart",
     "type": "[Bow]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11545,7 +11545,7 @@
     "koreanname": "소울스토커",
     "description": "My arrow shall hunt you down to the end of the Hell !",
     "type": "[Bow]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11588,7 +11588,7 @@
     "koreanname": "불의 장검 리오레우스",
     "description": "\" I will burn your soul away as well !! \"",
     "type": "[Bow]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11632,7 +11632,7 @@
     "koreanname": "에버프로스트 베인",
     "description": "One with a pure soul, the cold spirits of everfrost shall assist you",
     "type": "[Bow]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -11675,7 +11675,7 @@
     "koreanname": "크림슨 스타",
     "description": "That blood shall become the soil for the future.",
     "type": "[Gun]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "required_by": [
       "Cosmic Star"
@@ -11723,7 +11723,7 @@
     "name": "Atricia, the Sword of Dreams",
     "koreanname": "몽환의 검 아트리샤",
     "type": "[Bastard Sword]",
-    "color": 10092441,
+    "color": "99FF99",
     "level": 400,
     "recipe": [
       {
@@ -11769,7 +11769,7 @@
     "koreanname": "역병의 지팡이",
     "description": "\" You shall not escape the hands of plague ..\"",
     "type": "[Staff]",
-    "color": 10092441,
+    "color": "99FF99",
     "level": 400,
     "recipe": [
       {
@@ -11813,7 +11813,7 @@
     "name": "Crimson Hatred",
     "koreanname": "선혈빛 증오",
     "type": "[Staff]",
-    "color": 10092441,
+    "color": "99FF99",
     "level": 400,
     "recipe": [
       {
@@ -11856,7 +11856,7 @@
     "koreanname": "신궁 피레스",
     "description": "A bow blessed by the God of Wind. It allows you to launch a rapid barrage of arrows.",
     "type": "[Bow]",
-    "color": 10092441,
+    "color": "99FF99",
     "level": 400,
     "recipe": [
       {
@@ -11901,7 +11901,7 @@
     "koreanname": "데스 비사쥬",
     "description": "Death is always nearby ..",
     "type": "[Helm]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 240,
     "recipe": [
       {
@@ -11934,7 +11934,7 @@
     "koreanname": "잭 펌킨 투구 +1",
     "description": "Enjoy the Halloween ~",
     "type": "[Helm]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "recipe": [
       {
@@ -11963,7 +11963,7 @@
     "koreanname": "잭 펌킨 후드 +1",
     "description": "Enjoy the Halloween ~",
     "type": "[Hood]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "recipe": [
       {
@@ -11991,7 +11991,7 @@
     "koreanname": "그림 비사쥬",
     "description": "The face of death itself.",
     "type": "[Helm]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 280,
     "recipe": [
       {
@@ -12031,7 +12031,7 @@
     "koreanname": "후드 오브 리퍼",
     "description": "Death is always nearby ..",
     "type": "[Hood]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 280,
     "recipe": [
       {
@@ -12062,7 +12062,7 @@
     "koreanname": "진 용투 아그론",
     "description": "Using magic to defy me, the aspect of magic? Ironic, don't you think so?",
     "type": "[Helm]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 380,
     "recipe": [
       {
@@ -12096,7 +12096,7 @@
     "koreanname": "후드 오브 그림 리퍼",
     "description": "Overcome death, and become a reaper of life yourself !",
     "type": "[Hood]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "recipe": [
       {
@@ -12136,7 +12136,7 @@
     "koreanname": "전장의 투구",
     "description": "Follow me without hesitation! Charge!",
     "type": "[Helm/Hood]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "recipe": [
       {
@@ -12178,7 +12178,7 @@
     "koreanname": "파괴의 뿔",
     "description": "The wrath of the Great Demon Lord shall destroy all!",
     "type": "[Helm]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -12216,7 +12216,7 @@
     "koreanname": "대천사의 헤일로",
     "description": "Those that received salvation, shall be able to overcome hardships",
     "type": "[Helm]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -12259,7 +12259,7 @@
     "koreanname": "마력의 원천 프로피티아",
     "description": "Wellspring that provides a level of mana unreachable by mere intelligence.",
     "type": "[Hood]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -12299,7 +12299,7 @@
     "koreanname": "나락의 눈",
     "description": "Fall into despair and perish.",
     "type": "[Hood]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -12336,7 +12336,7 @@
     "koreanname": "악마의 뿔",
     "description": "Horn imbued with the essence of Devil",
     "type": "[Helm/Hood]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "recipe": [
       {
@@ -12375,7 +12375,7 @@
     "koreanname": "뇌신의 뿔",
     "description": "Horn holding the wrath of the Lightning God",
     "type": "[Helm/Hood]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -12410,7 +12410,7 @@
     "koreanname": "드래곤 마스크",
     "description": "Through the eyes of dragon, everything seems so measly ..",
     "type": "[Helm]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -12448,7 +12448,7 @@
     "koreanname": "왈라키아의 눈",
     "description": "I can see your death ..",
     "type": "[Helm]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -12487,7 +12487,7 @@
     "koreanname": "윌 오브 프로텍터",
     "description": "Helm imbued with the will of a protector",
     "type": "[Helm]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -12527,7 +12527,7 @@
     "koreanname": "심판의 헤일로",
     "description": "Merciless judgment on the dreams and fantasies of the Demon Lord.",
     "type": "[Helm]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -12565,7 +12565,7 @@
     "koreanname": "화신의 눈",
     "description": "Don't stare into it directly or you'll go blind!!",
     "type": "[Hood]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 400,
     "recipe": [
       {
@@ -12604,7 +12604,7 @@
     "koreanname": "대마력의 원천 프로피티아",
     "description": "Source that grants mana exceeding the levels mere mortals can achieve.",
     "type": "[Hood]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -12639,7 +12639,7 @@
     "koreanname": "후드 오브 아포크리파",
     "description": "You can feel the resentment of the forsaken emanating from this hood.",
     "type": "[Hood]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -12676,7 +12676,7 @@
     "koreanname": "청명의 화관",
     "description": "The more you empty your mind, the fuller it becomes.",
     "type": "[Helm/Hood]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -12718,7 +12718,7 @@
     "koreanname": "진노의 화관",
     "description": "Crown infused with the wrath of the great Demon Lord",
     "type": "[Helm/Hood]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -12760,7 +12760,7 @@
     "koreanname": "냉정의 화관",
     "description": "Mystical crown that converts mana into a pure barrier",
     "type": "[Helm/Hood]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -12796,7 +12796,7 @@
     "koreanname": "감염된 크랩 아머",
     "description": "Armor that looks like it will spew tentacles any moment",
     "type": "[Armor]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 240,
     "recipe": [
       {
@@ -12826,7 +12826,7 @@
     "name": "Bloody Armor",
     "koreanname": "블러디 아머",
     "type": "[Armor]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 250,
     "recipe": [
       {
@@ -12852,7 +12852,7 @@
     "name": "Bloody Robe",
     "koreanname": "블러디 로브",
     "type": "[Robe]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 250,
     "recipe": [
       {
@@ -12877,7 +12877,7 @@
     "koreanname": "소중한 바람막이 털옷",
     "description": "A must-have for winter..",
     "type": "[Robe]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 260,
     "recipe": [
       {
@@ -12912,7 +12912,7 @@
     "koreanname": "혈석 갑주",
     "description": "Armor that fuses with user's blood to form a hard carapace",
     "type": "[Armor]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 280,
     "recipe": [
       {
@@ -12951,7 +12951,7 @@
     "koreanname": "진 용갑 마그론",
     "description": "Don't be afraid to struggle. You can only grow stronger by driving away your fear.",
     "type": "[Armor]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 300,
     "recipe": [
       {
@@ -12986,7 +12986,7 @@
     "koreanname": "리액티브 아머",
     "description": "Armor of Sea that has been purified again. Reacts to all evil.",
     "type": "[Armor]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 320,
     "recipe": [
       {
@@ -13021,7 +13021,7 @@
     "koreanname": "로브 오브 세이지",
     "description": "Magic doesn't work against me, the one that defeated Mage King!",
     "type": "[Robe]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 320,
     "recipe": [
       {
@@ -13058,7 +13058,7 @@
     "koreanname": "진 혈석 갑주",
     "description": "Armor that fuses with user's blood to form a hard carapace",
     "type": "[Armor]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -13101,7 +13101,7 @@
     "koreanname": "퓨어라이트 아머",
     "description": "You shall shine brighter under this brilliant aura.",
     "type": "[Armor]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -13136,7 +13136,7 @@
     "koreanname": "피의 갑주 크루오리스",
     "description": "The blood and flesh of your foes will make you stronger",
     "type": "[Armor]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -13179,7 +13179,7 @@
     "koreanname": "대지의 각갑",
     "description": "You've shown me heroism and will worthy of my blessings.",
     "type": "[Armor]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "recipe": [
       {
@@ -13213,7 +13213,7 @@
     "koreanname": "수호의 도복",
     "description": "You've shown me heroism and will worthy of my blessings.",
     "type": "[Armor]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "recipe": [
       {
@@ -13248,7 +13248,7 @@
     "koreanname": "요정의 예복",
     "description": "You've shown me heroism and will worthy of my blessings.",
     "type": "[Robe]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "recipe": [
       {
@@ -13282,7 +13282,7 @@
     "koreanname": "프로즌 로브",
     "description": "The ancient cold spirit shall protect you from the hands of enemies.",
     "type": "[Robe]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -13324,7 +13324,7 @@
     "koreanname": "탄식의 갑주 레퀴엠",
     "description": "Armor that laments for the souls of the dead",
     "type": "[Armor]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -13365,7 +13365,7 @@
     "koreanname": "천지창조",
     "description": "Armor crafted by an image that embodies the beautiful world",
     "type": "[Armor]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -13407,7 +13407,7 @@
     "koreanname": "망령의 튜닉",
     "description": "As you approach death, the power of the wraiths can be borrowed.",
     "type": "[Armor]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -13448,7 +13448,7 @@
     "koreanname": "선혈의 갑주 베네딕트",
     "description": "It is as if the blood of God is dripping out of this armor.",
     "type": "[Armor]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -13489,7 +13489,7 @@
     "koreanname": "망령의 갑주 그란디네",
     "description": "The cost shall be your soul ..",
     "type": "[Armor]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -13532,7 +13532,7 @@
     "koreanname": "헬스파이크 아머",
     "description": "Spiked armor of Hell that harms even the wearer",
     "type": "[Armor]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -13570,7 +13570,7 @@
     "koreanname": "혈혼의 갑주",
     "description": "Armor bound together with hideous amounts of blood and souls",
     "type": "[Armor]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -13610,7 +13610,7 @@
     "koreanname": "프로스트샤드 아머",
     "description": "Armor covered with frozen spikes that provides absolute defense",
     "type": "[Armor]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -13645,7 +13645,7 @@
     "koreanname": "드루이드의 가운",
     "description": "Do not go against the nature.",
     "type": "[Robe]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -13685,7 +13685,7 @@
     "koreanname": "로브 오브 네크로맨서",
     "description": "I've mastered the usage of mana ..",
     "type": "[Robe]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -13727,7 +13727,7 @@
     "koreanname": "태풍의 도복",
     "description": "Just wearing it is enough to bring down a winter around you.",
     "type": "[Robe]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -13764,7 +13764,7 @@
     "koreanname": "성녀의 로브 다이아나",
     "description": "Dear Father, may your salvation be bestowed upon these innocent souls",
     "type": "[Robe]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -13809,7 +13809,7 @@
     "koreanname": "마녀의 로브 메데이아",
     "description": "All shall perish! Your body, and even my soul!",
     "type": "[Robe]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -13850,7 +13850,7 @@
     "koreanname": "절망의 갑주 하데스",
     "description": "Armor that calls the souls of the dead to itself",
     "type": "[Armor]",
-    "color": 10092441,
+    "color": "99FF99",
     "level": 400,
     "recipe": [
       {
@@ -13894,7 +13894,7 @@
     "koreanname": "과일맛 사탕 주머니",
     "description": "Pouch containing candies of various fruit flavors. The hide is also much more sturdy.",
     "type": "[Ring]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 240,
     "recipe": [
       {
@@ -13930,7 +13930,7 @@
     "koreanname": "촉수의 뿔피리",
     "description": "Passed down from the legends.. here comes Tentacle Horn.",
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 240,
     "recipe": [
       {
@@ -13964,7 +13964,7 @@
     "koreanname": "피의 반지 테페루아",
     "description": "The night begins now!",
     "type": "[Ring]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "recipe": [
       {
@@ -13998,7 +13998,7 @@
     "koreanname": "마나 하트",
     "description": "A mystical gem that continuously emits mana.",
     "type": "[Ring]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 260,
     "recipe": [
       {
@@ -14024,7 +14024,7 @@
     "koreanname": "마나 하트 대",
     "description": "0A mystical gem that continuously emits mana.",
     "type": "[Ring]",
-    "color": 9662683,
+    "color": "9370DB",
     "level": 300,
     "recipe": [
       {
@@ -14051,7 +14051,7 @@
     "koreanname": "에버프로스트 건틀릿",
     "description": "Gloves made from ice that never melts.",
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 320,
     "recipe": [
       {
@@ -14081,7 +14081,7 @@
     "koreanname": "빛의 반지 세인트",
     "description": "May the blessing of god be upon you",
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "recipe": [
       {
@@ -14114,7 +14114,7 @@
     "koreanname": "어둠의 반지 다크니스",
     "description": "Corruption stems from the denial of existence.",
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "recipe": [
       {
@@ -14145,7 +14145,7 @@
     "koreanname": "현자의 반지",
     "description": "The wisdom of sage shall bend even the flow of time.",
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "recipe": [
       {
@@ -14179,7 +14179,7 @@
     "koreanname": "마나 하트 프로스트",
     "description": "A mystical gem that continuously emits mana and chill.",
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "recipe": [
       {
@@ -14212,7 +14212,7 @@
     "koreanname": "트루 가디언 링",
     "description": "I vow my life to protect this sanctuary till my plates crumble away.",
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 340,
     "recipe": [
       {
@@ -14249,7 +14249,7 @@
     "koreanname": "사신의 반지",
     "description": "One who controls death, may obtain infinite powers",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 340,
     "recipe": [
       {
@@ -14286,7 +14286,7 @@
     "koreanname": "퓨어프로스트 건틀릿",
     "description": "Gauntlet composed of pure ice",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 350,
     "recipe": [
       {
@@ -14318,7 +14318,7 @@
     "koreanname": "리빙 드래곤 하트",
     "description": "Dragon's heart, overflowing with endless life energy.",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -14357,7 +14357,7 @@
     "koreanname": "신성한 빛의 반지",
     "description": "May your skills be blessed",
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "recipe": [
       {
@@ -14403,7 +14403,7 @@
     "koreanname": "마왕의 반지 데모니스",
     "description": "If you fear the darkness, it will consume you",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -14434,7 +14434,7 @@
     "koreanname": "소울 드링커",
     "description": "A fragment that devours souls",
     "type": "[Ring]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "required_by": [
       "Soul Eater"
@@ -14475,7 +14475,7 @@
     "koreanname": "혼돈의 반지 라테아",
     "description": "Are you capable of ruling over this chaos?",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -14506,7 +14506,7 @@
     "koreanname": "잠식의 반지",
     "description": "You are already one with the ring. You just haven't realized it yet.",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -14539,7 +14539,7 @@
     "koreanname": "이프리트의 심장",
     "description": "Magical crucible with a burning flame that never burns out",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -14580,7 +14580,7 @@
     "koreanname": "트루블러드 링",
     "description": "Ring that awakens your blood",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -14623,7 +14623,7 @@
     "koreanname": "혼돈의 파이프 아자토스",
     "description": "A mystical pipe, uncomprehensible with human's mere knowledge. It is alive.",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -14657,7 +14657,7 @@
     "koreanname": "이터널 로즈",
     "description": "The everlasting ice will protect you from the evil",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "required_by": [
       "Nebula Rose"
@@ -14700,7 +14700,7 @@
     "koreanname": "빛의 종",
     "description": "May your soul be blessed",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -14748,7 +14748,7 @@
     "name": "Ring of Revival",
     "koreanname": "소생의 반지",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -14786,7 +14786,7 @@
     "koreanname": "일격의 반지",
     "description": "The only thing you can trust in this world is your own power.",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -14824,7 +14824,7 @@
     "koreanname": "시간의 반지",
     "description": "Ring that frees you from the passage of time",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -14862,7 +14862,7 @@
     "name": "Ring of Healed",
     "description": "Ring that frees you from the passage of ||HEALED||",
     "type": "[HEALED]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -14903,7 +14903,7 @@
     "koreanname": "룬의 반지 이스피온",
     "description": "Ring engraved with ancient mana runes. It's mana can be released on will.",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -14949,7 +14949,7 @@
     "koreanname": "시린 죽음의 반지",
     "description": "A ring found on the corpse of a man who met a cold lone death.",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -14995,7 +14995,7 @@
     "koreanname": "위장자의 인장",
     "description": "That light will also be stained by the darkness.",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -15039,7 +15039,7 @@
     "koreanname": "헤븐즈 피스트",
     "description": "Iron fist of mercy to those corrupted by evil !!",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -15084,7 +15084,7 @@
     "koreanname": "지배자의 반지 라테아",
     "description": "The one who rules over chaos, is worthy of becoming the Overlord.",
     "type": "[Ring]",
-    "color": 10092441,
+    "color": "99FF99",
     "level": 400,
     "recipe": [
       {
@@ -15118,7 +15118,7 @@
     "koreanname": "신의 뿔피리",
     "description": "A misuse can result in the destruction of humanity",
     "type": "[Ring]",
-    "color": 10092441,
+    "color": "99FF99",
     "level": 400,
     "recipe": [
       {
@@ -15157,7 +15157,7 @@
     "name": "Wing of Sea",
     "koreanname": "바다의 날개",
     "type": "[Wings]",
-    "color": 49151,
+    "color": "00BFFF",
     "level": 100,
     "recipe": [
       {
@@ -15190,7 +15190,7 @@
     "koreanname": "드래곤 윙",
     "description": "A magical creation imbued with dragon's breath",
     "type": "[Wings]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 260,
     "recipe": [
       {
@@ -15224,7 +15224,7 @@
     "koreanname": "백작의 망토",
     "description": "Embrace the darkness, and become the ruler of the night!",
     "type": "[Wings]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 260,
     "recipe": [
       {
@@ -15258,7 +15258,7 @@
     "koreanname": "타락한 크리스탈 날개",
     "description": "A pair of wings blasting out intense unholy energy",
     "type": "[Wings]",
-    "color": 12211667,
+    "color": "BA55D3",
     "level": 300,
     "recipe": [
       {
@@ -15289,7 +15289,7 @@
     "koreanname": "굶주린 박쥐 날개",
     "description": "Tasty! Human!",
     "type": "[Wings]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "recipe": [
       {
@@ -15327,7 +15327,7 @@
     "koreanname": "타락한 불꽃의 망토",
     "description": "The corrupt flame burns all with heat as strong as the corruption of its source.",
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 320,
     "recipe": [
       {
@@ -15366,7 +15366,7 @@
     "koreanname": "프로즌 하트",
     "description": "Only coldness shall guide you to victory.",
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 350,
     "recipe": [
       {
@@ -15407,7 +15407,7 @@
     "koreanname": "요정의 날개",
     "description": "You shall be blessed with the dexterity and intellect of a fairy!",
     "type": "[Wings]",
-    "color": 13047173,
+    "color": "C71585",
     "level": 360,
     "recipe": [
       {
@@ -15442,7 +15442,7 @@
     "koreanname": "진노의 날개",
     "description": "Control your inner emotions and become a ruler of power",
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -15480,7 +15480,7 @@
     "koreanname": "방랑자의 망토",
     "description": "You will be there, no matter where you are.",
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -15525,7 +15525,7 @@
     "koreanname": "서리 요정의 날개",
     "description": "You shall be blessed with the dexterity and intellect of a fairy!",
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -15562,7 +15562,7 @@
     "koreanname": "퓨어 크리스탈 윙",
     "description": "A set of wings endoused in powerful light",
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 370,
     "recipe": [
       {
@@ -15606,7 +15606,7 @@
     "koreanname": "불사조의 날개",
     "description": "Wings emitting eternal flames",
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -15652,7 +15652,7 @@
     "koreanname": "소울 이터",
     "description": "All souls are merely my prey..",
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -15697,7 +15697,7 @@
     "koreanname": "망자의 영혼",
     "description": "Wings imbued with the spirits of the dead.",
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -15742,7 +15742,7 @@
     "koreanname": "타락한 그림자의 망토",
     "description": "The corrupt shadow will envelop you, and overpower you with its mighty power.",
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -15780,7 +15780,7 @@
     "koreanname": "그림 하트",
     "description": "Only cruelty shall guide you to victory.",
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -15819,7 +15819,7 @@
     "koreanname": "학살자의 날개",
     "description": "Unconstrained emotions can only bring calamity..",
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -15857,7 +15857,7 @@
     "koreanname": "피의 군주의 날개",
     "description": "Wash your sins away with your blood",
     "type": "[Wings]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 400,
     "recipe": [
       {
@@ -15893,7 +15893,7 @@
     "name": "Protection of the Fairies",
     "koreanname": "요정의 가호",
     "type": "[Wings]",
-    "color": 10092441,
+    "color": "99FF99",
     "level": 400,
     "recipe": [
       {
@@ -15934,7 +15934,7 @@
     "koreanname": "대천사의 날개",
     "type": "[Wings]",
     "description": "Wings blessed by archangels",
-    "color": 10092441,
+    "color": "99FF99",
     "level": 400,
     "recipe": [
       {
@@ -15976,7 +15976,7 @@
     "koreanname": "스톰",
     "type": "[Wings]",
     "description": "휘몰아쳐라 ! 빈틈은 곳 죽음으로 이어진다 .",
-    "color": 10092441,
+    "color": "99FF99",
     "level": 400,
     "recipe": [
       {
@@ -16016,7 +16016,7 @@
     "name": "Rusty Pickaxe",
     "koreanname": "녹슨 곡괭이",
     "type": "[Pickaxe]",
-    "color": 8421504,
+    "color": "808080",
     "required_by": [
       "Sturdy Pickaxe"
     ],
@@ -16033,7 +16033,7 @@
     "name": "Sturdy Pickaxe",
     "koreanname": "튼튼한 곡괭이",
     "type": "[Pickaxe]",
-    "color": 8437759,
+    "color": "80BFFF",
     "recipe": [
       {
         "Rusty Pickaxe": 1
@@ -16061,7 +16061,7 @@
     "name": "Rusty Magical Pickaxe",
     "koreanname": "녹슨 마법 곡괭이",
     "type": "[Pickaxe]",
-    "color": 8421504,
+    "color": "808080",
     "required_by": [
       "Sturdy Magic Pickaxe"
     ],
@@ -16078,7 +16078,7 @@
     "name": "Sturdy Magic Pickaxe",
     "koreanname": "튼튼한 마법 곡괭이",
     "type": "[Pickaxe]",
-    "color": 8437759,
+    "color": "80BFFF",
     "recipe": [
       {
         "Rusty Magical Pickaxe": 1
@@ -16104,7 +16104,7 @@
     "koreanname": "미스릴 곡괭이",
     "description": "Mines ores",
     "type": "[Pickaxe]",
-    "color": 8437759,
+    "color": "80BFFF",
     "recipe": [
       {
         "Sturdy Pickaxe": 1
@@ -16130,7 +16130,7 @@
     "koreanname": "심연의 곡괭이",
     "description": "Mines magical stones",
     "type": "[Pickaxe]",
-    "color": 8437759,
+    "color": "80BFFF",
     "recipe": [
       {
         "Sturdy Magic Pickaxe": 1
@@ -16155,7 +16155,7 @@
     "name": "Hydra Icon",
     "koreanname": "하이드라 아이콘",
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "recipe": [
       {
         "Ring of Deadly Poison": 1
@@ -16185,7 +16185,7 @@
     "name": "Count Icon",
     "koreanname": "백작 아이콘",
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "recipe": [
       {
         "Hydra Icon": 1
@@ -16215,7 +16215,7 @@
     "name": "Jack Icon",
     "koreanname": "잭 아이콘",
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "recipe": [
       {
         "Count Icon": 1
@@ -16245,7 +16245,7 @@
     "name": "Mage Lord Icon",
     "koreanname": "마법사 왕 아이콘",
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "recipe": [
       {
         "Jack Icon": 1
@@ -16276,7 +16276,7 @@
     "name": "Wings of Death Icon",
     "koreanname": "데드렉트 아이콘",
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "recipe": [
       {
         "Ragnaar Icon": 1
@@ -16304,7 +16304,7 @@
     "name": "Guardian Angel Icon",
     "koreanname": "능천사 아이콘",
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "recipe": [
       {
         "Gatekeeper Icon": 1
@@ -16338,7 +16338,7 @@
     "name": "Corrupt Angel Icon",
     "koreanname": "타천사 아이콘",
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "recipe": [
       {
         "Giant Golem Icon": 1
@@ -16372,7 +16372,7 @@
     "name": "Everfrost Icon",
     "koreanname": "서리한 아이콘",
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "recipe": [
       {
         "Mage Lord Icon": 1
@@ -16407,7 +16407,7 @@
     "name": "Spider Queen Icon",
     "koreanname": "거미 여왕 아이콘",
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "recipe": [
       {
         "Everfrost Icon": 1
@@ -16443,7 +16443,7 @@
     "name": "Demon Lord Icon",
     "koreanname": "마왕 아이콘",
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "recipe": [
       {
         "Guardian Angel Icon": 1
@@ -16478,7 +16478,7 @@
     "name": "Corruptor Icon",
     "koreanname": "커럽터 아이콘",
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "recipe": [
       {
         "Demon Lord Icon": 1
@@ -16526,7 +16526,7 @@
     "name": "Turtle Lord Icon",
     "koreanname": "터틀 로드 아이콘",
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "recipe": [
       {
         "Spider Queen Icon": 1
@@ -16571,7 +16571,7 @@
     "name": "Nightmare Icon",
     "koreanname": "나이트메어 아이콘",
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "recipe": [
       {
         "Wings of Death Icon": 1
@@ -16621,7 +16621,7 @@
     "name": "Master Icon",
     "koreanname": "마스터 아이콘",
     "type": "[Icon]",
-    "color": 32768,
+    "color": "008000",
     "recipe": [
       {
         "Corruptor Icon": 1
@@ -16652,7 +16652,7 @@
     "id": "I0HN",
     "name": "Wing Frame",
     "type": "[Frame]",
-    "color": 16777215,
+    "color": "FFFFFF",
     "notes": [
       "General Recipe: Wing + Wing Frame"
     ],
@@ -16687,7 +16687,7 @@
     "koreanname": "열정의 반지",
     "description": "아군을 보조하는게 너무 좋아!",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -16726,7 +16726,7 @@
     "koreanname": "냉정의 반지",
     "description": "....",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -16765,7 +16765,7 @@
     "koreanname": "번개의 갑주",
     "description": "표면에 강한 전류가 흐르고 있다.",
     "type": "[Armor]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -16807,7 +16807,7 @@
     "koreanname": "탐욕의 손아귀",
     "description": "Nothing satiates my hunger !!",
     "type": "[Bastard Sword]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "recipe": [
       {
@@ -16848,7 +16848,7 @@
     "koreanname": "깊은 어둠의 반지",
     "description": "타락은 존재의 부정에서 부터 시작 된다.",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "required_by": [
       "Grimoire of Darkness"
@@ -16890,7 +16890,7 @@
     "koreanname": "흑의 마도서",
     "description": "인간의 손 안에서 모든 것은 타락한다.",
     "type": "[Ring]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -16932,7 +16932,7 @@
     "koreanname": "태풍의 도복",
     "description": "Vest that bestows you with the speed of a cyclone.",
     "type": "[Armor]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 360,
     "required_by": [
       "Vest of Storm"
@@ -16967,7 +16967,7 @@
     "koreanname": "폭풍의 도복",
     "description": "Vest that bestows you with the speed of a storm.",
     "type": "[Armor]",
-    "color": 14423100,
+    "color": "DC143C",
     "level": 380,
     "recipe": [
       {
@@ -16999,7 +16999,7 @@
     "koreanname": "네뷸라 로즈",
     "description": "A rose enveloped in cosmic powers.",
     "type": "[Ring]",
-    "color": 10092441,
+    "color": "99FF99",
     "level": 400,
     "recipe": [
       {
@@ -17037,7 +17037,7 @@
     "koreanname": "코즈믹 스타",
     "description": "...",
     "type": "[Gun]",
-    "color": 10092441,
+    "color": "99FF99",
     "level": 400,
     "recipe": [
       {

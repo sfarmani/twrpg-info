@@ -2,7 +2,7 @@
     {
         "name": "Emergency Rations",
         "heroClass": "Sniper",
-        "color": 9891226,
+        "color": "96ed9a",
         "hotkey": "[D]",
         "icon": "SniperD",
         "active": [
@@ -17,7 +17,7 @@
     {
         "name": "Storm Shaft",
         "heroClass": "Sniper",
-        "color": 9891226,
+        "color": "96ed9a",
         "hotkey": "[Q]",
         "icon": "SniperQ",
         "passive": [
@@ -36,7 +36,7 @@
     {
         "name": "Glide",
         "heroClass": "Sniper",
-        "color": 9891226,
+        "color": "dbfda8",
         "hotkey": "[W]",
         "icon": "SniperW",
         "active": [
@@ -51,7 +51,7 @@
     {
         "name": "Storm Aegis",
         "heroClass": "Sniper",
-        "color": 9891226,
+        "color": "62f9c8",
         "hotkey": "[E]",
         "icon": "SniperE",
         "active": [
@@ -67,7 +67,7 @@
     {
         "name": "Explosive Shot",
         "heroClass": "Sniper",
-        "color": 9891226,
+        "color": "c9f227",
         "hotkey": "[R]",
         "icon": "SniperR",
         "active": [
@@ -84,7 +84,7 @@
     {
         "name": "Snipe",
         "heroClass": "Sniper",
-        "color": 9891226,
+        "color": "96ed9a",
         "hotkey": "[T]",
         "icon": "SniperT",
         "passive": [
@@ -103,7 +103,7 @@
     {
         "name": "Demolition",
         "heroClass": "Sniper",
-        "color": 9891226,
+        "color": "b22222",
         "hotkey": "[F]",
         "icon": "SniperF",
         "active": [
@@ -117,7 +117,7 @@
     {
         "name": "Soul Collector",
         "heroClass": "Soul Weaver",
-        "color": 6318794,
+        "color": "108f13",
         "hotkey": "[Passive]",
         "icon": "SoulWeaverPass",
         "passive": [
@@ -129,7 +129,7 @@
     {
         "name": "Harvest",
         "heroClass": "Soul Weaver",
-        "color": 6318794,
+        "color": "3e7942",
         "hotkey": "[A]",
         "icon": "SoulWeaverA",
         "active": [
@@ -143,7 +143,7 @@
     {
         "name": "Unholy Blast",
         "heroClass": "Soul Weaver",
-        "color": 6318794,
+        "color": "acd2aa",
         "hotkey": "[Q]",
         "icon": "SoulWeaverQ",
         "active": [
@@ -158,7 +158,7 @@
     {
         "name": "Soul Materia",
         "heroClass": "Soul Weaver",
-        "color": 6318794,
+        "color": "acd2aa",
         "hotkey": "[W]",
         "icon": "SoulWeaverW",
         "active": [
@@ -170,7 +170,7 @@
     {
         "name": "Soul Transfer",
         "heroClass": "Soul Weaver",
-        "color": 6318794,
+        "color": "58bb4a",
         "hotkey": "[E]",
         "icon": "SoulWeaverE",
         "active": [
@@ -184,7 +184,7 @@
     {
         "name": "Astral Walk",
         "heroClass": "Soul Weaver",
-        "color": 6318794,
+        "color": "58bb4a",
         "hotkey": "[R]",
         "icon": "SoulWeaverR",
         "active": [
@@ -197,7 +197,7 @@
     {
         "name": "Soul Cradle",
         "heroClass": "Soul Weaver",
-        "color": 6318794,
+        "color": "487913",
         "hotkey": "[T]",
         "icon": "SoulWeaverT",
         "active": [
@@ -213,7 +213,7 @@
     {
         "name": "Infinite Void",
         "heroClass": "Soul Weaver",
-        "color": 6318794,
+        "color": "2d2d2d",
         "hotkey": "[F]",
         "icon": "SoulWeaverF",
         "active": [
@@ -227,7 +227,7 @@
     {
         "name": "Infusion",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "d8f5ef",
         "hotkey": "[D]",
         "icon": "AlchemistD",
         "passive": [
@@ -244,7 +244,7 @@
     {
         "name": "Conjure Fire",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "ecca82",
         "hotkey": "[Q]",
         "icon": "AlchemistQ",
         "passive": [
@@ -260,7 +260,7 @@
     {
         "name": "Blaze",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "ff8080",
         "hotkey": "[Q] → [Q]",
         "icon": "AlchemistQ_Q",
         "active": [
@@ -271,7 +271,7 @@
     {
         "name": "Magma Explosion",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "ff8080",
         "hotkey": "[Q] → [W]",
         "icon": "AlchemistQ_W",
         "active": [
@@ -283,7 +283,7 @@
     {
         "name": "Flamer",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "ff8080",
         "hotkey": "[Q] → [E]",
         "icon": "AlchemistQ_E",
         "active": [
@@ -298,7 +298,7 @@
     {
         "name": "Boulder Strike",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "ff8080",
         "hotkey": "[Q] → [R]",
         "icon": "AlchemistQ_R",
         "active": [
@@ -313,7 +313,7 @@
     {
         "name": "Conjure Water",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "a2c6fb",
         "hotkey": "[W]",
         "icon": "AlchemistW",
         "passive": [
@@ -328,7 +328,7 @@
     {
         "name": "Water Bomb",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "adbffc",
         "hotkey": "[W] → [Q]",
         "icon": "AlchemistW_Q",
         "active": [
@@ -343,7 +343,7 @@
     {
         "name": "Water Stream",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "adbffc",
         "hotkey": "[W] → [W]",
         "icon": "AlchemistW_W",
         "active": [
@@ -357,7 +357,7 @@
     {
         "name": "Icicle Transmutation",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "adbffc",
         "hotkey": "[W] → [E]",
         "icon": "AlchemistW_E",
         "active": [
@@ -370,7 +370,7 @@
     {
         "name": "Healing Rain",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "adbffc",
         "hotkey": "[W] → [R]",
         "icon": "AlchemistW_R",
         "active": [
@@ -383,7 +383,7 @@
     {
         "name": "Conjure Air",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "ddf8cd",
         "hotkey": "[E]",
         "icon": "AlchemistE",
         "passive": [
@@ -398,7 +398,7 @@
     {
         "name": "Burning Hand",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "ff8080",
         "hotkey": "[E] → [Q]",
         "icon": "AlchemistE_Q",
         "active": [
@@ -412,7 +412,7 @@
     {
         "name": "Eye of the Storm",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "d0dab1",
         "hotkey": "[E] → [W]",
         "icon": "AlchemistE_W",
         "active": [
@@ -425,7 +425,7 @@
     {
         "name": "Wind Blast",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "d0dab1",
         "hotkey": "[E] → [E]",
         "icon": "AlchemistE_E",
         "active": [
@@ -438,7 +438,7 @@
     {
         "name": "Rock storm",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "d0dab1",
         "hotkey": "[E] → [R]",
         "icon": "AlchemistE_R",
         "active": [
@@ -451,7 +451,7 @@
     {
         "name": "Conjure Earth",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "afeb8c",
         "hotkey": "[R]",
         "icon": "AlchemistR",
         "passive": [
@@ -466,7 +466,7 @@
     {
         "name": "Conjure Cannon",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "c5aa83",
         "hotkey": "[R] → [Q]",
         "icon": "AlchemistR_Q",
         "active": [
@@ -481,7 +481,7 @@
     {
         "name": "Potion Transmutation",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "ff8080",
         "hotkey": "[R] → [W]",
         "icon": "AlchemistR_W",
         "active": [
@@ -492,9 +492,9 @@
         ]
     },
     {
-        "name": "Earth Tremble",
+        "name": "Ground Collapse",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "c5aa83",
         "hotkey": "[R] → [E]",
         "icon": "AlchemistR_E",
         "active": [
@@ -508,7 +508,7 @@
     {
         "name": "Stone Golem",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "c5aa83",
         "hotkey": "[R] → [R]",
         "icon": "AlchemistR_R",
         "active": [
@@ -521,7 +521,7 @@
     {
         "name": "Earth Protection",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "afeb8c",
         "icon": "AlchemistSummonPass",
         "hotkey": "[R] → [R] → [Passive]",
         "passive": [
@@ -534,7 +534,7 @@
     {
         "name": "Recall",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "52E252",
         "hotkey": "[R] → [R] → [D]",
         "icon": "Recall",
         "active": [
@@ -544,7 +544,7 @@
     {
         "name": "Taunt",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "afeb8c",
         "hotkey": "[R] → [R] → [Q]",
         "icon": "AlchemistR_R_Q",
         "active": [
@@ -554,7 +554,7 @@
     {
         "name": "Rolling Golem",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "c5aa83",
         "hotkey": "[R] → [R] → [W]",
         "icon": "AlchemistR_R_W",
         "active": [
@@ -567,7 +567,7 @@
     {
         "name": "Power Slam",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "c5aa83",
         "hotkey": "[R] → [R] → [E]",
         "icon": "AlchemistR_R_E",
         "active": [
@@ -580,7 +580,7 @@
     {
         "name": "Philosopher's Stone",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "ddb3f7P",
         "hotkey": "[T]",
         "icon": "AlchemistT",
         "passive": [
@@ -598,7 +598,7 @@
     {
         "name": "Gate of Truth",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "f7b395",
         "hotkey": "[F]",
         "icon": "AlchemistF",
         "active": [
@@ -612,7 +612,7 @@
     {
         "name": "Obtain Truth",
         "heroClass": "Alchemist",
-        "color": 16233365,
+        "color": "80ffff",
         "hotkey": "[F] → [F]",
         "icon": "AlchemistF_F",
         "active": [
@@ -623,7 +623,7 @@
     {
         "name": "Dark Whisper",
         "heroClass": "Warlock",
-        "color": 5377478,
+        "color": "520dc6",
         "hotkey": "[Passive]",
         "icon": "WarlockPass",
         "passive": [
@@ -635,7 +635,7 @@
     {
         "name": "Crucifixion",
         "heroClass": "Warlock",
-        "color": 5377478,
+        "color": "520dc6",
         "hotkey": "[Q]",
         "icon": "WarlockQ",
         "active": [
@@ -649,7 +649,7 @@
     {
         "name": "Dimension Collapse",
         "heroClass": "Warlock",
-        "color": 5377478,
+        "color": "520dc6",
         "hotkey": "[W]",
         "icon": "WarlockW",
         "active": [
@@ -666,7 +666,7 @@
     {
         "name": "Vengeance",
         "heroClass": "Warlock",
-        "color": 5377478,
+        "color": "520dc6",
         "hotkey": "[E]",
         "icon": "WarlockE",
         "active": [
@@ -680,7 +680,7 @@
     {
         "name": "Soul Grimoire",
         "heroClass": "Warlock",
-        "color": 5377478,
+        "color": "520dc6",
         "hotkey": "[R]",
         "icon": "WarlockR",
         "passive": [
@@ -700,7 +700,7 @@
     {
         "name": "Demonic Fury",
         "heroClass": "Warlock",
-        "color": 5377478,
+        "color": "520dc6",
         "hotkey": "[T]",
         "icon": "WarlockT",
         "active": [
@@ -717,7 +717,7 @@
     {
         "name": "Hunger",
         "heroClass": "Warlock",
-        "color": 5377478,
+        "color": "520dc6",
         "hotkey": "[T] → [Passive]",
         "icon": "WarlockT_Pass1",
         "passive": [
@@ -730,7 +730,7 @@
     {
         "name": "Flames of Ruin",
         "heroClass": "Warlock",
-        "color": 5377478,
+        "color": "520dc6",
         "hotkey": "[T] → [Passive]",
         "icon": "WarlockT_Pass2",
         "passive": [
@@ -742,7 +742,7 @@
     {
         "name": "Destruction",
         "heroClass": "Warlock",
-        "color": 5377478,
+        "color": "520dc6",
         "hotkey": "[T] → [Q]",
         "icon": "WarlockT_Q",
         "active": [
@@ -754,7 +754,7 @@
     {
         "name": "Leap of Execution",
         "heroClass": "Warlock",
-        "color": 5377478,
+        "color": "520dc6",
         "hotkey": "[T] → [W]",
         "icon": "WarlockT_W",
         "active": [
@@ -766,7 +766,7 @@
     {
         "name": "Soul Offering",
         "heroClass": "Warlock",
-        "color": 5377478,
+        "color": "520dc6",
         "hotkey": "[T] → [F]",
         "icon": "WarlockT_F",
         "active": [
@@ -777,7 +777,7 @@
     {
         "name": "Apocalypse",
         "heroClass": "Warlock",
-        "color": 5377478,
+        "color": "520dc6",
         "hotkey": "[F]",
         "icon": "WarlockF",
         "active": [
@@ -791,7 +791,7 @@
     {
         "name": "Blood Mastery",
         "heroClass": "Blood Weaver",
-        "color": 16737894,
+        "color": "ff6666",
         "hotkey": "[Passive]",
         "icon": "BloodWeaverPass",
         "passive": [
@@ -804,7 +804,7 @@
     {
         "name": "Blood Claw",
         "heroClass": "Blood Weaver",
-        "color": 16737894,
+        "color": "ff1a1a",
         "hotkey": "[Q]",
         "icon": "BloodWeaverQ",
         "passive": [
@@ -821,7 +821,7 @@
     {
         "name": "Rose Dance",
         "heroClass": "Blood Weaver",
-        "color": 16737894,
+        "color": "ff4d94",
         "hotkey": "[W]",
         "icon": "BloodWeaverW",
         "active": [
@@ -834,7 +834,7 @@
     {
         "name": "Life Drain",
         "heroClass": "Blood Weaver",
-        "color": 16737894,
+        "color": "ff4d4d",
         "hotkey": "[E]",
         "icon": "BloodWeaverE",
         "passive": [
@@ -853,7 +853,7 @@
     {
         "name": "Blood Boil",
         "heroClass": "Blood Weaver",
-        "color": 16737894,
+        "color": "cc0000",
         "hotkey": "[R]",
         "icon": "BloodWeaverR",
         "passive": [
@@ -871,7 +871,7 @@
     {
         "name": "Crimson Pillar",
         "heroClass": "Blood Weaver",
-        "color": 16737894,
+        "color": "990000",
         "hotkey": "[T]",
         "icon": "BloodWeaverT",
         "active": [
@@ -884,7 +884,7 @@
     {
         "name": "Sacrifice",
         "heroClass": "Blood Weaver",
-        "color": 16737894,
+        "color": "990000",
         "hotkey": "[F]",
         "icon": "BloodWeaverF",
         "active": [
@@ -898,7 +898,7 @@
     {
         "name": "Flame Mastery",
         "heroClass": "Fire Mage",
-        "color": 16217461,
+        "color": "f77575",
         "hotkey": "[Passive]",
         "icon": "FireMagePass",
         "passive": [
@@ -912,7 +912,7 @@
     {
         "name": "Fireball",
         "heroClass": "Fire Mage",
-        "color": 16217461,
+        "color": "8b0000",
         "hotkey": "[Q]",
         "icon": "FireMageQ",
         "active": [
@@ -925,7 +925,7 @@
     {
         "name": "Flame Spirit",
         "heroClass": "Fire Mage",
-        "color": 16217461,
+        "color": "8b0000",
         "hotkey": "[W]",
         "icon": "FireMageW",
         "passive": [
@@ -944,7 +944,7 @@
     {
         "name": "Flame Nova",
         "heroClass": "Fire Mage",
-        "color": 16217461,
+        "color": "8b0000",
         "hotkey": "[E]",
         "icon": "FireMageE",
         "active": [
@@ -957,7 +957,7 @@
     {
         "name": "Flame Combustion",
         "heroClass": "Fire Mage",
-        "color": 16217461,
+        "color": "8b0000",
         "hotkey": "[R]",
         "icon": "FireMageR",
         "active": [
@@ -970,7 +970,7 @@
     {
         "name": "Meteor Fragment",
         "heroClass": "Fire Mage",
-        "color": 16217461,
+        "color": "8b0000",
         "hotkey": "[T]",
         "icon": "FireMageT",
         "active": [
@@ -983,7 +983,7 @@
     {
         "name": "Meteor Strike",
         "heroClass": "Fire Mage",
-        "color": 16217461,
+        "color": "b22222",
         "hotkey": "[F]",
         "icon": "FireMageF",
         "active": [
@@ -995,7 +995,7 @@
     {
         "name": "Probe",
         "heroClass": "Shooter",
-        "color": 5111747,
+        "color": "cc99ff",
         "hotkey": "[D]",
         "icon": "ShooterD",
         "passive": [
@@ -1012,7 +1012,7 @@
     {
         "name": "Twin Star",
         "heroClass": "Shooter",
-        "color": 5111747,
+        "color": "ccccff",
         "hotkey": "[Q]",
         "icon": "ShooterQ",
         "active": [
@@ -1025,7 +1025,7 @@
     {
         "name": "Water Bullet",
         "heroClass": "Shooter",
-        "color": 5111747,
+        "color": "96b8f5",
         "hotkey": "[Q]",
         "icon": "ShooterQ_2",
         "active": [
@@ -1040,7 +1040,7 @@
     {
         "name": "Nanomachine Injection",
         "heroClass": "Shooter",
-        "color": 5111747,
+        "color": "b3fff0",
         "hotkey": "[W]",
         "icon": "ShooterW",
         "passive": [
@@ -1061,7 +1061,7 @@
     {
         "name": "Break Shot",
         "heroClass": "Shooter",
-        "color": 5111747,
+        "color": "e6f2ff",
         "hotkey": "[E]",
         "icon": "ShooterE",
         "active": [
@@ -1075,7 +1075,7 @@
     {
         "name": "Distortion",
         "heroClass": "Shooter",
-        "color": 5111747,
+        "color": "80ccff",
         "hotkey": "[R]",
         "icon": "ShooterR",
         "active": [
@@ -1089,7 +1089,7 @@
     {
         "name": "Stardust Rain",
         "heroClass": "Shooter",
-        "color": 5111747,
+        "color": "4dffc3",
         "hotkey": "[T]",
         "icon": "ShooterT",
         "passive": [
@@ -1106,7 +1106,7 @@
     {
         "name": "Comet Storm",
         "heroClass": "Shooter",
-        "color": 5111747,
+        "color": "b3ffe6",
         "hotkey": "[F]",
         "icon": "ShooterF",
         "active": [
@@ -1120,7 +1120,7 @@
     {
         "name": "Sword Enchant",
         "heroClass": "Sword Enchanter",
-        "color": 14671839,
+        "color": "dfdfdf",
         "hotkey": "[D]",
         "icon": "SwordEnchanterD",
         "passive": [
@@ -1137,7 +1137,7 @@
     {
         "name": "Weapon Enchant",
         "heroClass": "Sword Enchanter",
-        "color": 14671839,
+        "color": "dfdfdf",
         "hotkey": "[Q]",
         "icon": "SwordEnchanterQ",
         "active": [
@@ -1149,7 +1149,7 @@
     {
         "name": "Speed Enchant",
         "heroClass": "Sword Enchanter",
-        "color": 14671839,
+        "color": "dfdfdf",
         "hotkey": "[W]",
         "icon": "SwordEnchanterW",
         "active": [
@@ -1163,7 +1163,7 @@
     {
         "name": "Power Enchant",
         "heroClass": "Sword Enchanter",
-        "color": 14671839,
+        "color": "dfdfdf",
         "hotkey": "[E]",
         "icon": "SwordEnchanterE",
         "active": [
@@ -1176,7 +1176,7 @@
     {
         "name": "Guard Enchant",
         "heroClass": "Sword Enchanter",
-        "color": 14671839,
+        "color": "dfdfdf",
         "hotkey": "[R]",
         "icon": "SwordEnchanterR",
         "active": [
@@ -1189,7 +1189,7 @@
     {
         "name": "Enchant Mastery",
         "heroClass": "Sword Enchanter",
-        "color": 14671839,
+        "color": "dfdfdf",
         "hotkey": "[T]",
         "icon": "SwordEnchanterT",
         "passive": [
@@ -1205,7 +1205,7 @@
     {
         "name": "Ultimate Enchant",
         "heroClass": "Sword Enchanter",
-        "color": 14671839,
+        "color": "dfdfdf",
         "hotkey": "[F]",
         "icon": "SwordEnchanterF",
         "active": [
@@ -1218,7 +1218,7 @@
     {
         "name": "Beyond the Horizon",
         "heroClass": "Gunner",
-        "color": 14663327,
+        "color": "dfbe9f",
         "hotkey": "[D]",
         "icon": "GunnerD",
         "passive": [
@@ -1235,7 +1235,7 @@
     {
         "name": "Tumble",
         "heroClass": "Gunner",
-        "color": 14663327,
+        "color": "dfbe9f",
         "hotkey": "[Q]",
         "icon": "GunnerQ",
         "active": [
@@ -1249,7 +1249,7 @@
     {
         "name": "Outlaw",
         "heroClass": "Gunner",
-        "color": 14663327,
+        "color": "dfbe9f",
         "hotkey": "[W]",
         "icon": "GunnerW",
         "active": [
@@ -1265,7 +1265,7 @@
     {
         "name": "HE Bomb",
         "heroClass": "Gunner",
-        "color": 14663327,
+        "color": "dfbe9f",
         "hotkey": "[E]",
         "icon": "GunnerE",
         "active": [
@@ -1281,7 +1281,7 @@
     {
         "name": "Fanning",
         "heroClass": "Gunner",
-        "color": 14663327,
+        "color": "dfbe9f",
         "hotkey": "[R]",
         "icon": "GunnerR",
         "active": [
@@ -1293,7 +1293,7 @@
     {
         "name": "Bullet Time",
         "heroClass": "Gunner",
-        "color": 14663327,
+        "color": "dfbe9f",
         "hotkey": "[T]",
         "icon": "GunnerT",
         "active": [
@@ -1308,7 +1308,7 @@
     {
         "name": "Deadeye",
         "heroClass": "Gunner",
-        "color": 14663327,
+        "color": "dfbe9f",
         "hotkey": "[F]",
         "icon": "GunnerF",
         "active": [
@@ -1322,7 +1322,7 @@
     {
         "name": "Quick Draw",
         "heroClass": "Swordsman",
-        "color": 11320803,
+        "color": "acbde3",
         "hotkey": "[Passive]",
         "icon": "SwordsmanPass",
         "passive": [
@@ -1336,7 +1336,7 @@
     {
         "name": "Rising Dragon Strike",
         "heroClass": "Swordsman",
-        "color": 11320803,
+        "color": "bad5fc",
         "hotkey": "[Q]",
         "icon": "SwordsmanQ",
         "active": [
@@ -1350,7 +1350,7 @@
     {
         "name": "Slice",
         "heroClass": "Swordsman",
-        "color": 11320803,
+        "color": "929efa",
         "hotkey": "[Q] → [W]",
         "icon": "SwordsmanQ_W",
         "active": [
@@ -1363,7 +1363,7 @@
     {
         "name": "Crescent Slash",
         "heroClass": "Swordsman",
-        "color": 11320803,
+        "color": "7eaffa",
         "hotkey": "[W]",
         "icon": "SwordsmanW",
         "active": [
@@ -1377,7 +1377,7 @@
     {
         "name": "Wind Slash",
         "heroClass": "Swordsman",
-        "color": 11320803,
+        "color": "8eaffd",
         "hotkey": "[W] → [E]",
         "icon": "SwordsmanW_E",
         "active": [
@@ -1390,7 +1390,7 @@
     {
         "name": "Sword Storm",
         "heroClass": "Swordsman",
-        "color": 11320803,
+        "color": "8eaffd",
         "hotkey": "[E]",
         "icon": "SwordsmanE",
         "passive": [
@@ -1409,7 +1409,7 @@
     {
         "name": "Flash Step",
         "heroClass": "Swordsman",
-        "color": 11320803,
+        "color": "fdbf82",
         "hotkey": "[E] → [Q]",
         "icon": "SwordsmanE_Q",
         "active": [
@@ -1422,7 +1422,7 @@
     {
         "name": "Sword of Illusion",
         "heroClass": "Swordsman",
-        "color": 11320803,
+        "color": "6f83d2",
         "hotkey": "[R]",
         "icon": "SwordsmanR",
         "passive": [
@@ -1440,7 +1440,7 @@
     {
         "name": "Illusal Dance",
         "heroClass": "Swordsman",
-        "color": 11320803,
+        "color": "89a8f8",
         "hotkey": "[T]",
         "icon": "SwordsmanT",
         "active": [
@@ -1454,7 +1454,7 @@
     {
         "name": "Genocide Storm",
         "heroClass": "Swordsman",
-        "color": 11320803,
+        "color": "c71585",
         "hotkey": "[F]",
         "icon": "SwordsmanF",
         "active": [
@@ -1467,7 +1467,7 @@
     {
         "name": "Seal of Wind",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "66ffe0",
         "hotkey": "[D]",
         "icon": "ElementalistD",
         "active": [
@@ -1481,7 +1481,7 @@
     {
         "name": "Jump",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "b3fff0",
         "hotkey": "[D] → [Passive]",
         "icon": "ElementalistD_Pass1",
         "passive": [
@@ -1493,7 +1493,7 @@
     {
         "name": "Wind Booster",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "b3fff0",
         "hotkey": "[D] → [Passive]",
         "icon": "ElementalistD_Pass2",
         "passive": [
@@ -1504,7 +1504,7 @@
     {
         "name": "Protection of Wind",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "b3fff0",
         "hotkey": "[D] → [Passive]",
         "icon": "ElementalistD_Pass3",
         "passive": [
@@ -1515,7 +1515,7 @@
     {
         "name": "Seal of Flame",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "ff8080",
         "hotkey": "[Q]",
         "icon": "ElementalistQ",
         "active": [
@@ -1526,9 +1526,9 @@
         ]
     },
     {
-        "name": "Burning Touch",
+        "name": "Burning Reach",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "ff8080",
         "hotkey": "[Q] → [Passive]",
         "icon": "ElementalistQ_Pass1",
         "passive": [
@@ -1539,7 +1539,7 @@
     {
         "name": "Fervor",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "ff8080",
         "hotkey": "[Q] → [Passive]",
         "icon": "ElementalistQ_Pass2",
         "passive": [
@@ -1552,7 +1552,7 @@
     {
         "name": "Explosion",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "ff8080",
         "hotkey": "[Q] → [Q]",
         "icon": "ElementalistQ_Q",
         "active": [
@@ -1565,7 +1565,7 @@
     {
         "name": "Seal of Water",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "b9cdfa",
         "hotkey": "[W]",
         "icon": "ElementalistW",
         "active": [
@@ -1578,7 +1578,7 @@
     {
         "name": "Water Bolt",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "adbffc",
         "hotkey": "[W] → [Passive]",
         "icon": "ElementalistW_Pass1",
         "passive": [
@@ -1591,7 +1591,7 @@
     {
         "name": "Refreshing Well",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "b3e0ff",
         "hotkey": "[W] → [Passive]",
         "icon": "ElementalistW_Pass2",
         "passive": [
@@ -1603,7 +1603,7 @@
     {
         "name": "Water Beam",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "b9cdfa",
         "hotkey": "[W] → [Q]",
         "icon": "ElementalistW_Q",
         "active": [
@@ -1615,7 +1615,7 @@
     {
         "name": "Seal of Lightning",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "c39beb",
         "hotkey": "[E]",
         "icon": "ElementalistE",
         "active": [
@@ -1628,7 +1628,7 @@
     {
         "name": "Shock",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "c39beb",
         "hotkey": "[E] → [Passive]",
         "icon": "ElementalistE_Pass1",
         "passive": [
@@ -1640,7 +1640,7 @@
     {
         "name": "Charge",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "c39beb",
         "hotkey": "[E] → [Passive]",
         "icon": "ElementalistE_Pass2",
         "passive": [
@@ -1653,7 +1653,7 @@
     {
         "name": "Lightning Beam",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "c39beb",
         "hotkey": "[E] → [Q]",
         "icon": "ElementalistE_Q",
         "active": [
@@ -1665,7 +1665,7 @@
     {
         "name": "Seal of Earth",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "afeb8c",
         "hotkey": "[R]",
         "icon": "ElementalistR",
         "active": [
@@ -1675,9 +1675,9 @@
         ]
     },
     {
-        "name": "Earthen Pillar",
+        "name": "Pillar of Earth",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "dfbf9f",
         "hotkey": "[R] → [Passive]",
         "icon": "ElementalistR_Pass1",
         "passive": [
@@ -1688,7 +1688,7 @@
     {
         "name": "Earthen Protection",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "dfbf9f",
         "hotkey": "[R] → [Passive]",
         "icon": "ElementalistR_Pass2",
         "passive": [
@@ -1700,7 +1700,7 @@
     {
         "name": "Pulse of Protection",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "ff8080",
         "hotkey": "[R] → [Q]",
         "icon": "ElementalistR_Q",
         "passive": [
@@ -1712,7 +1712,7 @@
     {
         "name": "Elemental Link",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "ffff80",
         "hotkey": "[T]",
         "icon": "ElementalistT",
         "passive": [
@@ -1727,7 +1727,7 @@
     {
         "name": "Seal of Chaos",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "800040",
         "hotkey": "[F]",
         "icon": "ElementalistF",
         "active": [
@@ -1740,7 +1740,7 @@
     {
         "name": "Dark Reach",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "800040",
         "hotkey": "[F] → [Passive]",
         "icon": "ElementalistF_Pass1",
         "passive": [
@@ -1753,7 +1753,7 @@
     {
         "name": "Power of Chaos",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "800040",
         "hotkey": "[F] → [Passive]",
         "icon": "ElementalistF_Pass2",
         "passive": [
@@ -1764,7 +1764,7 @@
     {
         "name": "Abyss Walk",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "800040",
         "hotkey": "[F] → [Q]",
         "icon": "ElementalistF_Q",
         "active": [
@@ -1776,7 +1776,7 @@
     {
         "name": "Collapse Dimension",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "800040",
         "hotkey": "[F] → [W]",
         "icon": "ElementalistF_W",
         "active": [
@@ -1790,7 +1790,7 @@
     {
         "name": "Eye of Chaos",
         "heroClass": "Elementalist",
-        "color": 6750176,
+        "color": "800040",
         "hotkey": "[F] → [E]",
         "icon": "ElementalistF_E",
         "active": [
@@ -1801,7 +1801,7 @@
     {
         "name": "Short Circuit",
         "heroClass": "Lightning Mage",
-        "color": 10075135,
+        "color": "99bbff",
         "hotkey": "[Passive]",
         "icon": "LightningMagePass",
         "passive": [
@@ -1816,7 +1816,7 @@
     {
         "name": "Lightning Bolt",
         "heroClass": "Lightning Mage",
-        "color": 10075135,
+        "color": "99ebff",
         "hotkey": "[Q]",
         "icon": "LightningMageQ",
         "active": [
@@ -1830,7 +1830,7 @@
     {
         "name": "Static Sweep",
         "heroClass": "Lightning Mage",
-        "color": 10075135,
+        "color": "3385ff",
         "hotkey": "[W]",
         "icon": "LightningMageW",
         "active": [
@@ -1841,9 +1841,9 @@
         ]
     },
     {
-        "name": "Lightning Punch",
+        "name": "Breaker",
         "heroClass": "Lightning Mage",
-        "color": 10075135,
+        "color": "3385ff",
         "hotkey": "[W] → [W]",
         "icon": "LightningMageW_W",
         "active": [
@@ -1856,7 +1856,7 @@
     {
         "name": "Static Burst",
         "heroClass": "Lightning Mage",
-        "color": 10075135,
+        "color": "3385ff",
         "hotkey": "[W] → [W] → [W]",
         "icon": "LightningMageW_W_W",
         "active": [
@@ -1869,7 +1869,7 @@
     {
         "name": "Discharge",
         "heroClass": "Lightning Mage",
-        "color": 10075135,
+        "color": "b3f0ff",
         "hotkey": "[E]",
         "icon": "LightningMageE",
         "toggle": [
@@ -1884,7 +1884,7 @@
     {
         "name": "Lightning Strike",
         "heroClass": "Lightning Mage",
-        "color": 10075135,
+        "color": "3385ff",
         "hotkey": "[R]",
         "icon": "LightningMageR",
         "active": [
@@ -1898,7 +1898,7 @@
     {
         "name": "Hypercharge",
         "heroClass": "Lightning Mage",
-        "color": 10075135,
+        "color": "4ddbff",
         "hotkey": "[T]",
         "icon": "LightningMageT",
         "active": [
@@ -1914,7 +1914,7 @@
     {
         "name": "Lightning Blade",
         "heroClass": "Lightning Mage",
-        "color": 10075135,
+        "color": "99ffff",
         "hotkey": "[F]",
         "icon": "LightningMageF",
         "active": [
@@ -1930,7 +1930,7 @@
     {
         "name": "Execution Sword",
         "heroClass": "Crusader",
-        "color": 16383672,
+        "color": "f9feb8",
         "hotkey": "[D]",
         "icon": "CrusaderD",
         "passive": [
@@ -1947,7 +1947,7 @@
     {
         "name": "Remains of Rage",
         "heroClass": "Crusader",
-        "color": 16383672,
+        "color": "f9feb8",
         "hotkey": "[Q]",
         "icon": "CrusaderQ",
         "active": [
@@ -1960,7 +1960,7 @@
     {
         "name": "Flash of Immortality",
         "heroClass": "Crusader",
-        "color": 16383672,
+        "color": "f9feb8",
         "hotkey": "[W]",
         "icon": "CrusaderW",
         "passive": [
@@ -1977,7 +1977,7 @@
     {
         "name": "Strike of Honor",
         "heroClass": "Crusader",
-        "color": 16383672,
+        "color": "f9feb8",
         "hotkey": "[E]",
         "icon": "CrusaderE",
         "active": [
@@ -1991,7 +1991,7 @@
     {
         "name": "1st Sword Dance: Strike",
         "heroClass": "Crusader",
-        "color": 16383672,
+        "color": "f9feb8",
         "hotkey": "[R]",
         "icon": "CrusaderR",
         "active": [
@@ -2005,7 +2005,7 @@
     {
         "name": "2nd Sword Dance: Sword",
         "heroClass": "Crusader",
-        "color": 16383672,
+        "color": "f9feb8",
         "hotkey": "[R] → [R]",
         "icon": "CrusaderR_R",
         "active": [
@@ -2020,7 +2020,7 @@
     {
         "name": "Max Amplication: Execution Sword",
         "heroClass": "Crusader",
-        "color": 16383672,
+        "color": "f9feb8",
         "hotkey": "[T]",
         "icon": "CrusaderT",
         "passive": [
@@ -2039,7 +2039,7 @@
     {
         "name": "Original Sin",
         "heroClass": "Crusader",
-        "color": 16383672,
+        "color": "f9feb8",
         "hotkey": "[F]",
         "icon": "CrusaderF",
         "active": [
@@ -2052,7 +2052,7 @@
     {
         "name": "Footwalk",
         "heroClass": "Martial Artist",
-        "color": 9419919,
+        "color": "8fbc8f",
         "hotkey": "[D]",
         "icon": "MartialArtistD",
         "passive": [
@@ -2070,7 +2070,7 @@
     {
         "name": "Emperor's Strikes",
         "heroClass": "Martial Artist",
-        "color": 9419919,
+        "color": "8fbc8f",
         "hotkey": "[Q]",
         "icon": "MartialArtistPass",
         "passive": [
@@ -2083,7 +2083,7 @@
     {
         "name": "Eight Palm Strike",
         "heroClass": "Martial Artist",
-        "color": 9419919,
+        "color": "98fb98",
         "hotkey": "[W]",
         "icon": "MartialArtistPass",
         "passive": [
@@ -2096,7 +2096,7 @@
     {
         "name": "Vacuum Palm",
         "heroClass": "Martial Artist",
-        "color": 9419919,
+        "color": "9acd32",
         "hotkey": "[E]",
         "icon": "MartialArtistPass",
         "passive": [
@@ -2108,7 +2108,7 @@
     {
         "name": "Inner Meditation",
         "heroClass": "Martial Artist",
-        "color": 9419919,
+        "color": "2e8b57",
         "hotkey": "[R]",
         "icon": "MartialArtistPass",
         "passive": [
@@ -2120,7 +2120,7 @@
     {
         "name": "Heavenly Emperor's Strikes",
         "heroClass": "Martial Artist",
-        "color": 9419919,
+        "color": "20b2aa",
         "hotkey": "[T]",
         "icon": "MartialArtistPass",
         "passive": [
@@ -2132,7 +2132,7 @@
     {
         "name": "Nameless Arts",
         "heroClass": "Martial Artist",
-        "color": 9419919,
+        "color": "80ffff",
         "hotkey": "[F]",
         "icon": "MartialArtistPass",
         "active": [
@@ -2148,7 +2148,7 @@
     {
         "name": "Oriental Spear Mastery",
         "heroClass": "Lancer",
-        "color": 8454016,
+        "color": "e2f9ae",
         "hotkey": "[D]",
         "icon": "LancerD",
         "passive": [
@@ -2166,7 +2166,7 @@
     {
         "name": "Pierce",
         "heroClass": "Lancer",
-        "color": 8454016,
+        "color": "f0e388",
         "hotkey": "[Q]",
         "icon": "LancerQ",
         "active": [
@@ -2179,7 +2179,7 @@
     {
         "name": "Flash Strike",
         "heroClass": "Lancer",
-        "color": 8454016,
+        "color": "e9f08e",
         "hotkey": "[W]",
         "icon": "LancerW",
         "active": [
@@ -2193,7 +2193,7 @@
     {
         "name": "Nerve Strike",
         "heroClass": "Lancer",
-        "color": 8454016,
+        "color": "86ea64",
         "hotkey": "[E]",
         "icon": "LancerE",
         "active": [
@@ -2208,7 +2208,7 @@
     {
         "name": "Battle Recovery",
         "heroClass": "Lancer",
-        "color": 8454016,
+        "color": "80ff80",
         "hotkey": "[R]",
         "icon": "LancerR",
         "passive": [
@@ -2226,7 +2226,7 @@
     {
         "name": "Meteor Spear",
         "heroClass": "Lancer",
-        "color": 8454016,
+        "color": "ffcbc1",
         "hotkey": "[T]",
         "icon": "LancerT",
         "active": [
@@ -2241,7 +2241,7 @@
     {
         "name": "Dragon Slam",
         "heroClass": "Lancer",
-        "color": 8454016,
+        "color": "df4040",
         "hotkey": "[F]",
         "icon": "LancerF",
         "active": [
@@ -2255,7 +2255,7 @@
     {
         "name": "Scythe Mastery",
         "heroClass": "Reaper",
-        "color": 16751001,
+        "color": "ff9999",
         "hotkey": "[D]",
         "icon": "ReaperD",
         "passive": [
@@ -2272,7 +2272,7 @@
     {
         "name": "Whirl of Death",
         "heroClass": "Reaper",
-        "color": 16751001,
+        "color": "ff9999",
         "hotkey": "[Q]",
         "icon": "ReaperQ",
         "active": [
@@ -2285,7 +2285,7 @@
     {
         "name": "Consecutive Strikes",
         "heroClass": "Reaper",
-        "color": 16751001,
+        "color": "ff9999",
         "hotkey": "[W]",
         "icon": "ReaperW",
         "passive": [
@@ -2302,7 +2302,7 @@
     {
         "name": "Death's Dash",
         "heroClass": "Reaper",
-        "color": 16751001,
+        "color": "ff9999",
         "hotkey": "[E]",
         "icon": "ReaperE",
         "active": [
@@ -2316,7 +2316,7 @@
     {
         "name": "Death's Slash",
         "heroClass": "Reaper",
-        "color": 16751001,
+        "color": "ff9999",
         "hotkey": "[R]",
         "icon": "ReaperR",
         "active": [
@@ -2329,7 +2329,7 @@
     {
         "name": "Extreme Focus",
         "heroClass": "Reaper",
-        "color": 16751001,
+        "color": "ff9999",
         "hotkey": "[T]",
         "icon": "ReaperT",
         "passive": [
@@ -2346,7 +2346,7 @@
     {
         "name": "Death Mark",
         "heroClass": "Reaper",
-        "color": 16751001,
+        "color": "ff9999",
         "hotkey": "[F]",
         "icon": "ReaperF",
         "active": [
@@ -2360,7 +2360,7 @@
     {
         "name": "Dark Shroud",
         "heroClass": "Assassin",
-        "color": 8355711,
+        "color": "606aca",
         "hotkey": "[D]",
         "icon": "AssassinD",
         "passive": [
@@ -2376,7 +2376,7 @@
     {
         "name": "Shadow Slash",
         "heroClass": "Assassin",
-        "color": 8355711,
+        "color": "7f7f7f",
         "hotkey": "[Q]",
         "icon": "AssassinQ",
         "active": [
@@ -2391,7 +2391,7 @@
     {
         "name": "Ambush",
         "heroClass": "Assassin",
-        "color": 8355711,
+        "color": "8080c0",
         "hotkey": "[W]",
         "icon": "AssassinW",
         "active": [
@@ -2405,7 +2405,7 @@
     {
         "name": "Shadow Walk",
         "heroClass": "Assassin",
-        "color": 8355711,
+        "color": "7f7f7f",
         "hotkey": "[E]",
         "icon": "AssassinE",
         "active": [
@@ -2418,7 +2418,7 @@
     {
         "name": "Smoke Bomb",
         "heroClass": "Assassin",
-        "color": 8355711,
+        "color": "8080c0",
         "hotkey": "[R]",
         "icon": "AssassinR",
         "active": [
@@ -2433,7 +2433,7 @@
     {
         "name": "Shadow Rush",
         "heroClass": "Assassin",
-        "color": 8355711,
+        "color": "6e6eaa",
         "hotkey": "[T]",
         "icon": "AssassinT",
         "active": [
@@ -2447,7 +2447,7 @@
     {
         "name": "Night Fury",
         "heroClass": "Assassin",
-        "color": 8355711,
+        "color": "8080ff",
         "hotkey": "[F]",
         "icon": "AssassinF",
         "active": [
@@ -2462,7 +2462,7 @@
     {
         "name": "Feather of Aeolus",
         "heroClass": "Wind Mage",
-        "color": 11465927,
+        "color": "aef4c7",
         "hotkey": "[D]",
         "icon": "WindMageD",
         "active": [
@@ -2476,7 +2476,7 @@
     {
         "name": "Arrow of Zephyrus",
         "heroClass": "Wind Mage",
-        "color": 11465927,
+        "color": "aef4c7",
         "hotkey": "[Q]",
         "icon": "WindMageQ_1",
         "passive": [
@@ -2495,7 +2495,7 @@
     {
         "name": "Grace of Zephyrus",
         "heroClass": "Wind Mage",
-        "color": 11465927,
+        "color": "aef4c7",
         "hotkey": "[Q]",
         "icon": "WindMageQ_2",
         "passive": [
@@ -2514,7 +2514,7 @@
     {
         "name": "Gentle Winds",
         "heroClass": "Wind Mage",
-        "color": 11465927,
+        "color": "aef4c7",
         "hotkey": "[W]",
         "icon": "WindMageW",
         "active": [
@@ -2530,7 +2530,7 @@
     {
         "name": "Mirror of Aeolus",
         "heroClass": "Wind Mage",
-        "color": 11465927,
+        "color": "aef4c7",
         "hotkey": "[E]",
         "icon": "WindMageE",
         "passive": [
@@ -2549,7 +2549,7 @@
     {
         "name": "Light Breeze",
         "heroClass": "Wind Mage",
-        "color": 11465927,
+        "color": "aef4c7",
         "hotkey": "[R]",
         "icon": "WindMageR",
         "active": [
@@ -2565,7 +2565,7 @@
     {
         "name": "Horn of Notus",
         "heroClass": "Wind Mage",
-        "color": 11465927,
+        "color": "aef4c7",
         "hotkey": "[T]",
         "icon": "WindMageT",
         "active": [
@@ -2581,7 +2581,7 @@
     {
         "name": "Guardian of Wind",
         "heroClass": "Wind Mage",
-        "color": 11465927,
+        "color": "aef4c7",
         "hotkey": "[F]",
         "icon": "WindMageF",
         "active": [
@@ -2593,7 +2593,7 @@
     {
         "name": "Wind Guardian",
         "heroClass": "Wind Mage",
-        "color": 11465927,
+        "color": "aef4c7",
         "hotkey": "[F] → [Passive]",
         "icon": "WindMageF_Pass",
         "passive": [
@@ -2607,7 +2607,7 @@
     {
         "name": "Gift",
         "heroClass": "Wind Mage",
-        "color": 11465927,
+        "color": "aef4c7",
         "hotkey": "[F] → [Q]",
         "icon": "WindMageF_Q",
         "active": [
@@ -2620,7 +2620,7 @@
     {
         "name": "Anger",
         "heroClass": "Wind Mage",
-        "color": 11465927,
+        "color": "aef4c7",
         "hotkey": "[F] → [W]",
         "icon": "WindMageF_W",
         "active": [
@@ -2632,7 +2632,7 @@
     {
         "name": "Blessing of Vayu",
         "heroClass": "Wind Mage",
-        "color": 11465927,
+        "color": "aef4c7",
         "hotkey": "[F] → [E]",
         "icon": "WindMageF_E",
         "active": [
@@ -2645,7 +2645,7 @@
     {
         "name": "Judgment of Vayu",
         "heroClass": "Wind Mage",
-        "color": 11465927,
+        "color": "aef4c7",
         "hotkey": "[F] → [R]",
         "icon": "WindMageF_R",
         "active": [
@@ -2658,7 +2658,7 @@
     {
         "name": "This Bag isn't a Decoration!",
         "heroClass": "Merchant",
-        "color": 14540219,
+        "color": "ddddbb",
         "hotkey": "[D]",
         "icon": "MerchantD",
         "passive": [
@@ -2675,7 +2675,7 @@
     {
         "name": "Bag Slam",
         "heroClass": "Merchant",
-        "color": 14540219,
+        "color": "ddddbb",
         "hotkey": "[Q]",
         "icon": "MerchantQ",
         "active": [
@@ -2688,7 +2688,7 @@
     {
         "name": "Throwing Healing Potion",
         "heroClass": "Merchant",
-        "color": 14540219,
+        "color": "ddddbb",
         "hotkey": "[W]",
         "icon": "MerchantW",
         "active": [
@@ -2702,7 +2702,7 @@
     {
         "name": "Life Shield Scroll",
         "heroClass": "Merchant",
-        "color": 14540219,
+        "color": "ddddbb",
         "hotkey": "[E]",
         "icon": "MerchantE",
         "active": [
@@ -2716,7 +2716,7 @@
     {
         "name": "Throw Money",
         "heroClass": "Merchant",
-        "color": 14540219,
+        "color": "ddddbb",
         "hotkey": "[R]",
         "icon": "MerchantR",
         "active": [
@@ -2730,7 +2730,7 @@
     {
         "name": "Holy Water of Resurrection",
         "heroClass": "Merchant",
-        "color": 14540219,
+        "color": "ddddbb",
         "hotkey": "[T]",
         "icon": "MerchantT",
         "active": [
@@ -2744,7 +2744,7 @@
     {
         "name": "Scroll of God's Blessing",
         "heroClass": "Merchant",
-        "color": 14540219,
+        "color": "ddddbb",
         "hotkey": "[F]",
         "icon": "MerchantF",
         "active": [
@@ -2760,7 +2760,7 @@
     {
         "name": "Swift Strike",
         "heroClass": "Thunderer",
-        "color": 16654593,
+        "color": "fe2101",
         "hotkey": "[Passive]",
         "icon": "ThundererPass_1",
         "passive": [
@@ -2772,7 +2772,7 @@
     {
         "name": "Three Talon Strike",
         "heroClass": "Thunderer",
-        "color": 16654593,
+        "color": "fe2101",
         "hotkey": "[Q]",
         "icon": "ThundererQ",
         "active": [
@@ -2784,7 +2784,7 @@
     {
         "name": "Magnetic Field",
         "heroClass": "Thunderer",
-        "color": 16654593,
+        "color": "fe2101",
         "hotkey": "[Passive]",
         "icon": "ThundererPass_2",
         "passive": [
@@ -2798,7 +2798,7 @@
     {
         "name": "Lightning Rush",
         "heroClass": "Thunderer",
-        "color": 16654593,
+        "color": "fe2101",
         "hotkey": "[W]",
         "icon": "ThundererW",
         "active": [
@@ -2813,7 +2813,7 @@
     {
         "name": "Thunder Shield",
         "heroClass": "Thunderer",
-        "color": 16654593,
+        "color": "fe2101",
         "hotkey": "[E]",
         "icon": "ThundererE",
         "active": [
@@ -2828,7 +2828,7 @@
     {
         "name": "Heart Break",
         "heroClass": "Thunderer",
-        "color": 16654593,
+        "color": "fe2101",
         "hotkey": "[R]",
         "icon": "ThundererR",
         "active": [
@@ -2842,7 +2842,7 @@
     {
         "name": "Thunderfury",
         "heroClass": "Thunderer",
-        "color": 16654593,
+        "color": "fe2101",
         "hotkey": "[F]",
         "icon": "ThundererF",
         "active": [
@@ -2854,7 +2854,7 @@
     {
         "name": "Bloodbath",
         "heroClass": "Berserker",
-        "color": 16744576,
+        "color": "ff8080",
         "hotkey": "[Passive]",
         "icon": "BerserkerPass",
         "passive": [
@@ -2868,7 +2868,7 @@
     {
         "name": "Brandish",
         "heroClass": "Berserker",
-        "color": 16744576,
+        "color": "8b0000",
         "hotkey": "[Q]",
         "icon": "BerserkerQ",
         "active": [
@@ -2880,7 +2880,7 @@
     {
         "name": "Howling",
         "heroClass": "Berserker",
-        "color": 16744576,
+        "color": "8b0000",
         "hotkey": "[W]",
         "icon": "BerserkerW",
         "active": [
@@ -2893,7 +2893,7 @@
     {
         "name": "Blood Fury",
         "heroClass": "Berserker",
-        "color": 16744576,
+        "color": "ff0000",
         "hotkey": "[E]",
         "icon": "BerserkerE",
         "passive": [
@@ -2911,7 +2911,7 @@
     {
         "name": "Blade Rush",
         "heroClass": "Berserker",
-        "color": 16744576,
+        "color": "ff0000",
         "hotkey": "[R]",
         "icon": "BerserkerR",
         "active": [
@@ -2926,7 +2926,7 @@
     {
         "name": "Berserk",
         "heroClass": "Berserker",
-        "color": 16744576,
+        "color": "8b0000",
         "hotkey": "[T]",
         "icon": "BerserkerT",
         "passive": [
@@ -2946,7 +2946,7 @@
     {
         "name": "Rabid Storm",
         "heroClass": "Berserker",
-        "color": 16744576,
+        "color": "FF0000",
         "hotkey": "[F]",
         "icon": "BerserkerF",
         "active": [
@@ -2960,7 +2960,7 @@
     {
         "name": "Elven Arrow",
         "heroClass": "Bow Master",
-        "color": 11984489,
+        "color": "b6de69",
         "hotkey": "[Passive]",
         "icon": "BowMasterPass",
         "passive": [
@@ -2974,7 +2974,7 @@
     {
         "name": "Flame Shot",
         "heroClass": "Bow Master",
-        "color": 11984489,
+        "color": "4682b4",
         "hotkey": "[Q]",
         "icon": "BowMasterQ",
         "active": [
@@ -2989,7 +2989,7 @@
     {
         "name": "Freezing Shot",
         "heroClass": "Bow Master",
-        "color": 11984489,
+        "color": "4682b4",
         "hotkey": "[W]",
         "icon": "BowMasterW",
         "active": [
@@ -3002,7 +3002,7 @@
     {
         "name": "Guardian Scout",
         "heroClass": "Bow Master",
-        "color": 11984489,
+        "color": "bf81d3",
         "hotkey": "[E]",
         "icon": "BowMasterE",
         "passive": [
@@ -3021,7 +3021,7 @@
     {
         "name": "Purestorm Shot",
         "heroClass": "Bow Master",
-        "color": 11984489,
+        "color": "ddf45b",
         "hotkey": "[R]",
         "icon": "BowMasterR",
         "active": [
@@ -3036,7 +3036,7 @@
     {
         "name": "Arrow Rain",
         "heroClass": "Bow Master",
-        "color": 11984489,
+        "color": "80ff80",
         "hotkey": "[T]",
         "icon": "BowMasterT",
         "active": [
@@ -3050,7 +3050,7 @@
     {
         "name": "Heartseeker",
         "heroClass": "Bow Master",
-        "color": 11984489,
+        "color": "80ff80",
         "hotkey": "[T]",
         "icon": "BowMasterT_2",
         "active": [
@@ -3064,7 +3064,7 @@
     {
         "name": "Magic Ballista",
         "heroClass": "Bow Master",
-        "color": 11984489,
+        "color": "88f0e6",
         "hotkey": "[F]",
         "icon": "BowMasterF",
         "active": [
@@ -3079,7 +3079,7 @@
     {
         "name": "Release Mana",
         "heroClass": "Knight",
-        "color": 6734591,
+        "color": "66c2ff",
         "hotkey": "[D]",
         "icon": "KnightD",
         "passive": [
@@ -3096,7 +3096,7 @@
     {
         "name": "Grand Sword",
         "heroClass": "Knight",
-        "color": 6734591,
+        "color": "00bfff",
         "hotkey": "[Q]",
         "icon": "KnightQ",
         "active": [
@@ -3110,7 +3110,7 @@
     {
         "name": "Blitz",
         "heroClass": "Knight",
-        "color": 6734591,
+        "color": "afaff5",
         "hotkey": "[W]",
         "icon": "KnightW",
         "active": [
@@ -3124,7 +3124,7 @@
     {
         "name": "Instincts",
         "heroClass": "Knight",
-        "color": 6734591,
+        "color": "4169e1",
         "hotkey": "[E]",
         "icon": "KnightE",
         "passive": [
@@ -3142,7 +3142,7 @@
     {
         "name": "Assault",
         "heroClass": "Knight",
-        "color": 6734591,
+        "color": "66c2ff",
         "hotkey": "[E] → [E]",
         "icon": "KnightE_2",
         "active": [
@@ -3156,7 +3156,7 @@
     {
         "name": "Mana Blaster",
         "heroClass": "Knight",
-        "color": 6734591,
+        "color": "73b9ff",
         "hotkey": "[R]",
         "icon": "KnightR",
         "passive": [
@@ -3171,7 +3171,7 @@
     {
         "name": "Seal of Mana",
         "heroClass": "Knight",
-        "color": 6734591,
+        "color": "73b9ff",
         "hotkey": "[T]",
         "icon": "KnightT",
         "passive": [
@@ -3190,7 +3190,7 @@
     {
         "name": "Excalibur",
         "heroClass": "Knight",
-        "color": 6734591,
+        "color": "ffff00",
         "hotkey": "[F]",
         "icon": "KnightF",
         "active": [
@@ -3206,7 +3206,7 @@
     {
         "name": "Deathblade",
         "heroClass": "Dark Knight",
-        "color": 9198335,
+        "color": "8c1aff",
         "hotkey": "[Passive]",
         "icon": "DarkKnightPass",
         "passive": [
@@ -3221,7 +3221,7 @@
     {
         "name": "Soul Break",
         "heroClass": "Dark Knight",
-        "color": 9198335,
+        "color": "8080ff",
         "hotkey": "[Q]",
         "icon": "DarkKnightQ",
         "active": [
@@ -3238,7 +3238,7 @@
     {
         "name": "Abyssal Slam",
         "heroClass": "Dark Knight",
-        "color": 9198335,
+        "color": "8080ff",
         "hotkey": "[W]",
         "icon": "DarkKnightW",
         "active": [
@@ -3253,7 +3253,7 @@
     {
         "name": "Unholy Light",
         "heroClass": "Dark Knight",
-        "color": 9198335,
+        "color": "520dc6",
         "hotkey": "[E]",
         "icon": "DarkKnightE",
         "active": [
@@ -3268,7 +3268,7 @@
     {
         "name": "Culling",
         "heroClass": "Dark Knight",
-        "color": 9198335,
+        "color": "520dc6",
         "hotkey": "[R]",
         "icon": "DarkKnightR",
         "active": [
@@ -3281,7 +3281,7 @@
     {
         "name": "Requiem",
         "heroClass": "Dark Knight",
-        "color": 9198335,
+        "color": "6600cc",
         "hotkey": "[T]",
         "icon": "DarkKnightT",
         "active": [
@@ -3296,7 +3296,7 @@
     {
         "name": "Unholy Tempest",
         "heroClass": "Dark Knight",
-        "color": 9198335,
+        "color": "8080c0",
         "hotkey": "[F]",
         "icon": "DarkKnightF",
         "active": [
@@ -3311,7 +3311,7 @@
     {
         "name": "Moonlight Link",
         "heroClass": "Arcane Mage",
-        "color": 14135275,
+        "color": "d7afeb",
         "hotkey": "[D]",
         "icon": "ArcaneMageD",
         "active": [
@@ -3325,7 +3325,7 @@
     {
         "name": "Magic Star",
         "heroClass": "Arcane Mage",
-        "color": 14135275,
+        "color": "82e1ff",
         "hotkey": "[Q]",
         "icon": "ArcaneMageQ",
         "active": [
@@ -3338,7 +3338,7 @@
     {
         "name": "Flash Storm",
         "heroClass": "Arcane Mage",
-        "color": 14135275,
+        "color": "91b9e1",
         "hotkey": "[W]",
         "icon": "ArcaneMageW",
         "active": [
@@ -3352,7 +3352,7 @@
     {
         "name": "Gravity Field",
         "heroClass": "Arcane Mage",
-        "color": 14135275,
+        "color": "d79bff",
         "hotkey": "[E]",
         "icon": "ArcaneMageE",
         "active": [
@@ -3365,7 +3365,7 @@
     {
         "name": "Illusion",
         "heroClass": "Arcane Mage",
-        "color": 14135275,
+        "color": "91b9e1",
         "hotkey": "[R]",
         "icon": "ArcaneMageR",
         "active": [
@@ -3380,7 +3380,7 @@
     {
         "name": "Barrage",
         "heroClass": "Arcane Mage",
-        "color": 14135275,
+        "color": "4bebaf",
         "hotkey": "[T]",
         "icon": "ArcaneMageT",
         "active": [
@@ -3393,7 +3393,7 @@
     {
         "name": "Starlight",
         "heroClass": "Arcane Mage",
-        "color": 14135275,
+        "color": "80ffff",
         "hotkey": "[F]",
         "icon": "ArcaneMageF",
         "active": [
@@ -3407,7 +3407,7 @@
     {
         "name": "Protection of Stars",
         "heroClass": "Arcane Mage",
-        "color": 14135275,
+        "color": "80ffff",
         "hotkey": "[F] → [F]",
         "icon": "ArcaneMageF_F",
         "active": [
@@ -3420,7 +3420,7 @@
     {
         "name": "Water Blast",
         "heroClass": "Water Mage",
-        "color": 8900346,
+        "color": "87cefa",
         "hotkey": "[D]",
         "icon": "WaterMageD",
         "active": [
@@ -3432,7 +3432,7 @@
     {
         "name": "Ice Shard",
         "heroClass": "Water Mage",
-        "color": 8900346,
+        "color": "87cefa",
         "hotkey": "[Q]",
         "icon": "WaterMageQ",
         "active": [
@@ -3447,7 +3447,7 @@
     {
         "name": "Frozen Emotion",
         "heroClass": "Water Mage",
-        "color": 8900346,
+        "color": "87cefa",
         "hotkey": "[W]",
         "icon": "WaterMageW",
         "passive": [
@@ -3467,7 +3467,7 @@
     {
         "name": "Tidal Riding",
         "heroClass": "Water Mage",
-        "color": 8900346,
+        "color": "87cefa",
         "hotkey": "[E]",
         "icon": "WaterMageE",
         "active": [
@@ -3480,7 +3480,7 @@
     {
         "name": "Frost Nova",
         "heroClass": "Water Mage",
-        "color": 8900346,
+        "color": "87cefa",
         "hotkey": "[R]",
         "icon": "WaterMageR",
         "active": [
@@ -3495,7 +3495,7 @@
     {
         "name": "Glacier Orb",
         "heroClass": "Water Mage",
-        "color": 8900346,
+        "color": "87cefa",
         "hotkey": "[T]",
         "icon": "WaterMageT",
         "active": [
@@ -3510,7 +3510,7 @@
     {
         "name": "Ice Age",
         "heroClass": "Water Mage",
-        "color": 8900346,
+        "color": "4682b4",
         "hotkey": "[F]",
         "icon": "WaterMageF",
         "active": [
@@ -3524,7 +3524,7 @@
     {
         "name": "Shatter",
         "heroClass": "Water Mage",
-        "color": 8900346,
+        "color": "c2c8f5",
         "hotkey": "[F] → [F]",
         "icon": "WaterMageF_F",
         "active": [
@@ -3536,7 +3536,7 @@
     {
         "name": "Heal",
         "heroClass": "Priest",
-        "color": 16775885,
+        "color": "faf4b6",
         "hotkey": "[D]",
         "icon": "PriestD",
         "active": [
@@ -3550,7 +3550,7 @@
     {
         "name": "Holy Wave",
         "heroClass": "Priest",
-        "color": 16775885,
+        "color": "f0e68c",
         "hotkey": "[Q]",
         "icon": "PriestQ",
         "active": [
@@ -3563,7 +3563,7 @@
     {
         "name": "Holy Blessing",
         "heroClass": "Priest",
-        "color": 16775885,
+        "color": "fffacd",
         "hotkey": "[W]",
         "icon": "PriestW",
         "active": [
@@ -3577,7 +3577,7 @@
     {
         "name": "Holy Aurora",
         "heroClass": "Priest",
-        "color": 16775885,
+        "color": "b6de69",
         "hotkey": "[E]",
         "icon": "PriestE",
         "passive": [
@@ -3594,43 +3594,43 @@
     {
         "name": "Dark Aurora [Lv 1]",
         "heroClass": "Priest",
-        "color": 16775885,
+        "color": "8000ff",
         "hotkey": "[E]",
         "icon": "PriestE_2",
         "passive": [
-            "타락한 기운으로 주변 적의 내성을 낮춘다.",
-            "Decrease magic resistance of nearby enemies by 3%"
+            "Harms nearby enemies with evil aura.",
+            "Decreases nearby enemies' magic defense by 3%"
         ],
         "active": [
-            "대상 지면을 사악한 기운으로 뒤덮어 큰 피해를 가한다.",
-            "INT X 60 damage per second",
-            "Max HP X 3% bonus damage to target",
-            "Can be channeled for 3 seconds",
-            "Reduced attack cycle in proportion to attack speed"
+            "Drenches target area with evil aura to inflict great harm.",
+            "Deals INT X 60 magic damage per second",
+            "Target's max HP X 3% bonus damage",
+            "Can be channeled up to 3 seconds",
+            "Damage period reduced based on attack speed"
         ]
     },
     {
         "name": "Dark Aurora [Lv 2]",
         "heroClass": "Priest",
-        "color": 16775885,
+        "color": "8000ff",
         "hotkey": "[E]",
         "icon": "PriestE_2",
         "passive": [
-            "타락한 기운으로 주변 적의 내성을 낮춘다.",
-            "Decrease magic resistance of nearby enemies by 5%"
+            "Harms nearby enemies with evil aura.",
+            "Decreases nearby enemies' magic defense by 5%"
         ],
         "active": [
-            "대상 지면을 사악한 기운으로 뒤덮어 큰 피해를 가한다.",
-            "INT X 80 damage per second",
-            "Max HP X 3% bonus damage to target",
-            "Can be channeled for 3 seconds",
-            "Reduced attack cycle in proportion to attack speed"
+            "Drenches target area with evil aura to inflict great harm.",
+            "Deals INT X 80 magic damage per second",
+            "Target's max HP X 3% bonus damage",
+            "Can be channeled up to 3 seconds",
+            "Damage period reduced based on attack speed"
         ]
     },
     {
         "name": "Divine Light",
         "heroClass": "Priest",
-        "color": 16775885,
+        "color": "f0e68c",
         "hotkey": "[R]",
         "icon": "PriestR",
         "active": [
@@ -3644,7 +3644,7 @@
     {
         "name": "Heaven's Gate",
         "heroClass": "Priest",
-        "color": 16775885,
+        "color": "fffacd",
         "hotkey": "[T]",
         "icon": "PriestT",
         "active": [
@@ -3656,20 +3656,22 @@
         ]
     },
     {
-        "name": "Strike of Repentance",
+        "name": "Holy Powder",
         "heroClass": "Priest",
-        "color": 16775885,
+        "color": "ffff99",
         "hotkey": "[T] → [Passive]",
         "icon": "PriestT_Pass",
         "passive": [
-            "Cleanse multiple enemies borrowing the God's strength.",
-            "Attacks up to 3 additional targets"
+            "Cleanses multiple enemies using power bestowed by the god.",
+            "Attacks all nearby targets at once",
+            "Magic defense increased by 25%",
+            "Immune to CC effects"
         ]
     },
     {
         "name": "Recall",
         "heroClass": "Priest",
-        "color": 16775885,
+        "color": "52E252",
         "hotkey": "[T] → [D]",
         "icon": "Recall",
         "active": [
@@ -3679,7 +3681,7 @@
     {
         "name": "Holy Light",
         "heroClass": "Priest",
-        "color": 16775885,
+        "color": "ffff80",
         "hotkey": "[T] → [Q]",
         "icon": "PriestT_Q",
         "active": [
@@ -3691,7 +3693,7 @@
     {
         "name": "Leap of Faith",
         "heroClass": "Priest",
-        "color": 16775885,
+        "color": "ffff80",
         "hotkey": "[T] → [W]",
         "icon": "PriestT_W",
         "active": [
@@ -3702,7 +3704,7 @@
     {
         "name": "God's Blessing",
         "heroClass": "Priest",
-        "color": 16775885,
+        "color": "ffff80",
         "hotkey": "[T] → [F]",
         "icon": "PriestT_F",
         "active": [
@@ -3714,7 +3716,7 @@
     {
         "name": "Heaven Field",
         "heroClass": "Priest",
-        "color": 16775885,
+        "color": "ffff00",
         "hotkey": "[F]",
         "icon": "PriestF",
         "active": [
@@ -3726,7 +3728,7 @@
     {
         "name": "Holy Aura",
         "heroClass": "Paladin",
-        "color": 6734591,
+        "color": "b9faff",
         "hotkey": "[D]",
         "icon": "PaladinD",
         "active": [
@@ -3738,7 +3740,7 @@
     {
         "name": "Aura of Retribution",
         "heroClass": "Paladin",
-        "color": 6734591,
+        "color": "ff8080",
         "hotkey": "[D] → [Q]",
         "icon": "PaladinD_Q",
         "passive": [
@@ -3751,7 +3753,7 @@
     {
         "name": "Aura of Protection",
         "heroClass": "Paladin",
-        "color": 6734591,
+        "color": "ffff80",
         "hotkey": "[D] → [W]",
         "icon": "PaladinD_W",
         "passive": [
@@ -3764,7 +3766,7 @@
     {
         "name": "Aura of Restoration",
         "heroClass": "Paladin",
-        "color": 6734591,
+        "color": "ffff80",
         "hotkey": "[D] → [E]",
         "icon": "PaladinD_E",
         "passive": [
@@ -3777,7 +3779,7 @@
     {
         "name": "Aura of Awakening",
         "heroClass": "Paladin",
-        "color": 6734591,
+        "color": "b9faff",
         "hotkey": "[D] → [R]",
         "icon": "PaladinD_R",
         "passive": [
@@ -3790,7 +3792,7 @@
     {
         "name": "Holy Divide",
         "heroClass": "Paladin",
-        "color": 6734591,
+        "color": "f5f59b",
         "hotkey": "[Q]",
         "icon": "PaladinQ",
         "active": [
@@ -3804,7 +3806,7 @@
     {
         "name": "Divine Spirit",
         "heroClass": "Paladin",
-        "color": 6734591,
+        "color": "ecca82",
         "hotkey": "[W]",
         "icon": "PaladinW",
         "passive": [
@@ -3822,7 +3824,7 @@
     {
         "name": "Holy Grace",
         "heroClass": "Paladin",
-        "color": 6734591,
+        "color": "f9d544",
         "hotkey": "[E]",
         "icon": "PaladinE",
         "passive": [
@@ -3840,7 +3842,7 @@
     {
         "name": "Divine Cross",
         "heroClass": "Paladin",
-        "color": 6734591,
+        "color": "fafac8",
         "hotkey": "[R]",
         "icon": "PaladinR",
         "active": [
@@ -3854,7 +3856,7 @@
     {
         "name": "Divine Shield",
         "heroClass": "Paladin",
-        "color": 6734591,
+        "color": "fafac8",
         "hotkey": "[T]",
         "icon": "PaladinT",
         "active": [
@@ -3867,7 +3869,7 @@
     {
         "name": "Genesis",
         "heroClass": "Paladin",
-        "color": 6734591,
+        "color": "ffd700",
         "hotkey": "[F]",
         "icon": "PaladinF",
         "active": [
@@ -3881,7 +3883,7 @@
     {
         "name": "Slash",
         "heroClass": "Phantom Blade",
-        "color": 10092475,
+        "color": "c8f9dd",
         "hotkey": "[A]",
         "icon": "PBA",
         "passive": [
@@ -3895,7 +3897,7 @@
     {
         "name": "Soul",
         "heroClass": "Phantom Blade",
-        "color": 10092475,
+        "color": "c8f9dd",
         "hotkey": "[D]",
         "icon": "PBD",
         "passive": [
@@ -3907,7 +3909,7 @@
     {
         "name": "Crescent",
         "heroClass": "Phantom Blade",
-        "color": 10092475,
+        "color": "c8f9dd",
         "hotkey": "[Q]",
         "icon": "PBQ",
         "active": [
@@ -3919,7 +3921,7 @@
     {
         "name": "Daze",
         "heroClass": "Phantom Blade",
-        "color": 10092475,
+        "color": "c8f9dd",
         "hotkey": "[W]",
         "icon": "PBW",
         "active": [
@@ -3931,7 +3933,7 @@
     {
         "name": "Alacrity",
         "heroClass": "Phantom Blade",
-        "color": 10092475,
+        "color": "c8f9dd",
         "hotkey": "[E]",
         "icon": "PBE",
         "toggle": [
@@ -3941,7 +3943,7 @@
     {
         "name": "Deactivate Alacrity",
         "heroClass": "Phantom Blade",
-        "color": 10092475,
+        "color": "c8f9dd",
         "hotkey": "[E] → [E]",
         "icon": "PBE_2",
         "toggle": [
@@ -3951,7 +3953,7 @@
     {
         "name": "Harmony",
         "heroClass": "Phantom Blade",
-        "color": 10092475,
+        "color": "c8f9dd",
         "hotkey": "[R]",
         "icon": "PBR",
         "active": [
@@ -3964,7 +3966,7 @@
     {
         "name": "Release",
         "heroClass": "Phantom Blade",
-        "color": 10092475,
+        "color": "c8f9dd",
         "hotkey": "[T]",
         "icon": "PBT",
         "active": [
@@ -3975,7 +3977,7 @@
     {
         "name": "Obliterate",
         "heroClass": "Phantom Blade",
-        "color": 10092475,
+        "color": "c8f9dd",
         "hotkey": "[F]",
         "icon": "PBF",
         "active": [
@@ -3988,7 +3990,7 @@
     {
         "name": "Perfect Harmony",
         "heroClass": "Hermit",
-        "color": 5221038,
+        "color": "71d7bb",
         "hotkey": "[D]",
         "icon": "HermitD",
         "passive": [
@@ -4000,7 +4002,7 @@
     {
         "name": "Flowing Fist",
         "heroClass": "Hermit",
-        "color": 5221038,
+        "color": "acddbd",
         "hotkey": "[Q]",
         "icon": "HermitQ",
         "active": [
@@ -4014,7 +4016,7 @@
     {
         "name": "Restoration",
         "heroClass": "Hermit",
-        "color": 5221038,
+        "color": "94b9f8",
         "hotkey": "[W]",
         "icon": "HermitW",
         "active": [
@@ -4028,7 +4030,7 @@
     {
         "name": "Wind Walk",
         "heroClass": "Hermit",
-        "color": 5221038,
+        "color": "cffae8",
         "hotkey": "[E]",
         "icon": "HermitE",
         "passive": [
@@ -4043,7 +4045,7 @@
     {
         "name": "Orb of Harmony",
         "heroClass": "Hermit",
-        "color": 5221038,
+        "color": "b9f9e6",
         "hotkey": "[R]",
         "icon": "HermitR",
         "active": [
@@ -4057,7 +4059,7 @@
     {
         "name": "Purge",
         "heroClass": "Hermit",
-        "color": 5221038,
+        "color": "9abfed",
         "hotkey": "[T]",
         "icon": "HermitT",
         "active": [
@@ -4071,7 +4073,7 @@
     {
         "name": "Inner Release",
         "heroClass": "Hermit",
-        "color": 5221038,
+        "color": "bee7fc",
         "hotkey": "[T] → [T]",
         "icon": "HermitT",
         "active": [
@@ -4082,7 +4084,7 @@
     {
         "name": "Purify",
         "heroClass": "Hermit",
-        "color": 5221038,
+        "color": "bee7fc",
         "hotkey": "[F]",
         "icon": "HermitF",
         "active": [
@@ -4097,7 +4099,7 @@
     {
         "name": "Magical Broom",
         "heroClass": "Witch",
-        "color": 11642578,
+        "color": "e1b8fa",
         "hotkey": "[D]",
         "icon": "WitchD",
         "passive": [
@@ -4114,7 +4116,7 @@
     {
         "name": "Death Bomb",
         "heroClass": "Witch",
-        "color": 11642578,
+        "color": "9f7ee2",
         "hotkey": "[Q]",
         "icon": "WitchQ",
         "active": [
@@ -4128,7 +4130,7 @@
     {
         "name": "Star Shower",
         "heroClass": "Witch",
-        "color": 11642578,
+        "color": "efcdf3",
         "hotkey": "[W]",
         "icon": "WitchW",
         "active": [
@@ -4142,7 +4144,7 @@
     {
         "name": "Mystical Cauldron",
         "heroClass": "Witch",
-        "color": 11642578,
+        "color": "bb8be2",
         "hotkey": "[E]",
         "icon": "WitchE",
         "active": [
@@ -4156,7 +4158,7 @@
     {
         "name": "Hex",
         "heroClass": "Witch",
-        "color": 11642578,
+        "color": "bba8e1",
         "hotkey": "[R]",
         "icon": "WitchR",
         "active": [
@@ -4168,7 +4170,7 @@
     {
         "name": "Hell Gate",
         "heroClass": "Witch",
-        "color": 11642578,
+        "color": "ab0c0c",
         "hotkey": "[T]",
         "icon": "WitchT",
         "active": [
@@ -4179,7 +4181,7 @@
     {
         "name": "Fallen Power",
         "heroClass": "Witch",
-        "color": 11642578,
+        "color": "8b3636",
         "hotkey": "[T] → [D]",
         "icon": "WitchT_D",
         "passive": [
@@ -4192,7 +4194,7 @@
     {
         "name": "Arrow of Destruction",
         "heroClass": "Witch",
-        "color": 11642578,
+        "color": "6045c9",
         "hotkey": "[T] → [Q]",
         "icon": "WitchT_Q",
         "active": [
@@ -4203,7 +4205,7 @@
     {
         "name": "Mark of Power",
         "heroClass": "Witch",
-        "color": 11642578,
+        "color": "6045c9",
         "hotkey": "[T] → [W]",
         "icon": "WitchT_W",
         "active": [
@@ -4217,7 +4219,7 @@
     {
         "name": "Unleash",
         "heroClass": "Witch",
-        "color": 11642578,
+        "color": "6045c9",
         "hotkey": "[T] → [E]",
         "icon": "WitchT_E",
         "active": [
@@ -4231,7 +4233,7 @@
     {
         "name": "Death Field",
         "heroClass": "Witch",
-        "color": 11642578,
+        "color": "a498e9",
         "hotkey": "[F]",
         "icon": "WitchF",
         "active": [

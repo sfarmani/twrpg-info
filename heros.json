@@ -479,7 +479,7 @@
         "name": "Ayame",
         "heroClass": "Assassin",
         "mainstat": "AGI",
-        "color": 8355711,
+        "color": "ffff80",
         "icon": "AssassinIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -509,7 +509,7 @@
         "name": "Aisha",
         "heroClass": "Wind Mage",
         "mainstat": "INT",
-        "color": 11465927,
+        "color": "caffca",
         "icon": "WindMageIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -542,7 +542,7 @@
         "name": "Catherine Yoi",
         "heroClass": "Merchant",
         "mainstat": "STR",
-        "color": 14540219,
+        "color": "c3c388",
         "icon": "MerchantIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -580,7 +580,7 @@
         "name": "Esteria",
         "heroClass": "Thunderer",
         "mainstat": "AGI",
-        "color": 16654593,
+        "color": "fe2101",
         "icon": "ThundererIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -607,7 +607,7 @@
         "name": "Elena",
         "heroClass": "Berserker",
         "mainstat": "STR",
-        "color": 16744576,
+        "color": "f75b40",
         "icon": "BerserkerIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -634,7 +634,7 @@
         "name": "Iris Millen",
         "heroClass": "Bow Master",
         "mainstat": "AGI",
-        "color": 11984489,
+        "color": "d9bfa8",
         "icon": "BowMasterIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -662,7 +662,7 @@
         "name": "Isabelle che Nyderre",
         "heroClass": "Knight",
         "mainstat": "STR",
-        "color": 6734591,
+        "color": "87cefa",
         "icon": "KnightIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -695,7 +695,7 @@
         "name": "Karad Erin",
         "heroClass": "Dark Knight",
         "mainstat": "STR",
-        "color": 9198335,
+        "color": "bc8bf1",
         "icon": "DarkKnightIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -727,7 +727,7 @@
         "name": "Eustia",
         "heroClass": "Arcane Mage",
         "mainstat": "INT",
-        "color": 14135275,
+        "color": "f9cdfe",
         "icon": "ArcaneMageIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -753,7 +753,7 @@
         "name": "Sherry P.",
         "heroClass": "Water Mage",
         "mainstat": "INT",
-        "color": 8900346,
+        "color": "bec6fa",
         "icon": "WaterMageIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -781,7 +781,7 @@
         "name": "Alice Dorneea",
         "heroClass": "Priest",
         "mainstat": "INT",
-        "color": 16775885,
+        "color": "fffacd",
         "icon": "PriestIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -812,7 +812,7 @@
         "name": "Frederic Kassia",
         "heroClass": "Paladin",
         "mainstat": "STR",
-        "color": 8087790,
+        "color": "7b68ee",
         "icon": "PaladinIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -847,7 +847,7 @@
         "name": "Harang",
         "heroClass": "Phantom Blade",
         "mainstat": "AGI",
-        "color": 10092475,
+        "color": "99ffbb",
         "icon": "PBIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -873,7 +873,7 @@
         "name": "The Nameless One",
         "heroClass": "Hermit",
         "mainstat": "AGI",
-        "color": 5221038,
+        "color": "4faaae",
         "icon": "HermitIcon",
         "wearable": [
             "[Weapon all classes]",
@@ -904,7 +904,7 @@
         "name": "Yue Tenebras",
         "heroClass": "Witch",
         "mainstat": "INT",
-        "color": 11642578,
+        "color": "b1a6d2",
         "icon": "WitchIcon",
         "wearable": [
             "[Weapon all classes]",
