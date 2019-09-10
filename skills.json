@@ -2368,7 +2368,9 @@
             "Allows all skills to critically strike",
             "Enters stealth if out of combat for 2.5 seconds",
             "Backstabbing enemies while stealthed deals AGI X 35 bonus damage",
-            "Reduces damage taken by 30% while stealthed",
+            "Reduces damage taken by 30% while stealthed"
+        ],
+        "toggle": [
             "TOGGLE ON: Do not automatically attack enemies while in stealth",
             "TOGGLE OFF: Automatically attack enemies while in stealth"
         ]
