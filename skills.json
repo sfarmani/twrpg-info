@@ -213,7 +213,7 @@
     {
         "name": "Infinite Void",
         "heroClass": "Soul Weaver",
-        "color": "2d2d2d",
+        "color": "487913",
         "hotkey": "[F]",
         "icon": "SoulWeaverF",
         "active": [
@@ -623,7 +623,7 @@
     {
         "name": "Dark Whisper",
         "heroClass": "Warlock",
-        "color": "520dc6",
+        "color": "9465e2",
         "hotkey": "[Passive]",
         "icon": "WarlockPass",
         "passive": [
@@ -635,7 +635,7 @@
     {
         "name": "Crucifixion",
         "heroClass": "Warlock",
-        "color": "520dc6",
+        "color": "9465e2",
         "hotkey": "[Q]",
         "icon": "WarlockQ",
         "active": [
@@ -649,7 +649,7 @@
     {
         "name": "Dimension Collapse",
         "heroClass": "Warlock",
-        "color": "520dc6",
+        "color": "9465e2",
         "hotkey": "[W]",
         "icon": "WarlockW",
         "active": [
@@ -666,7 +666,7 @@
     {
         "name": "Vengeance",
         "heroClass": "Warlock",
-        "color": "520dc6",
+        "color": "9465e2",
         "hotkey": "[E]",
         "icon": "WarlockE",
         "active": [
@@ -680,7 +680,7 @@
     {
         "name": "Soul Grimoire",
         "heroClass": "Warlock",
-        "color": "520dc6",
+        "color": "9465e2",
         "hotkey": "[R]",
         "icon": "WarlockR",
         "passive": [
@@ -700,7 +700,7 @@
     {
         "name": "Demonic Fury",
         "heroClass": "Warlock",
-        "color": "520dc6",
+        "color": "9465e2",
         "hotkey": "[T]",
         "icon": "WarlockT",
         "active": [
@@ -717,7 +717,7 @@
     {
         "name": "Hunger",
         "heroClass": "Warlock",
-        "color": "520dc6",
+        "color": "9465e2",
         "hotkey": "[T] → [Passive]",
         "icon": "WarlockT_Pass1",
         "passive": [
@@ -730,7 +730,7 @@
     {
         "name": "Flames of Ruin",
         "heroClass": "Warlock",
-        "color": "520dc6",
+        "color": "9465e2",
         "hotkey": "[T] → [Passive]",
         "icon": "WarlockT_Pass2",
         "passive": [
@@ -742,7 +742,7 @@
     {
         "name": "Destruction",
         "heroClass": "Warlock",
-        "color": "520dc6",
+        "color": "9465e2",
         "hotkey": "[T] → [Q]",
         "icon": "WarlockT_Q",
         "active": [
@@ -754,7 +754,7 @@
     {
         "name": "Leap of Execution",
         "heroClass": "Warlock",
-        "color": "520dc6",
+        "color": "9465e2",
         "hotkey": "[T] → [W]",
         "icon": "WarlockT_W",
         "active": [
@@ -766,7 +766,7 @@
     {
         "name": "Soul Offering",
         "heroClass": "Warlock",
-        "color": "520dc6",
+        "color": "9465e2",
         "hotkey": "[T] → [F]",
         "icon": "WarlockT_F",
         "active": [
@@ -777,7 +777,7 @@
     {
         "name": "Apocalypse",
         "heroClass": "Warlock",
-        "color": "520dc6",
+        "color": "9465e2",
         "hotkey": "[F]",
         "icon": "WarlockF",
         "active": [
@@ -912,7 +912,7 @@
     {
         "name": "Fireball",
         "heroClass": "Fire Mage",
-        "color": "8b0000",
+        "color": "b22222",
         "hotkey": "[Q]",
         "icon": "FireMageQ",
         "active": [
@@ -925,7 +925,7 @@
     {
         "name": "Flame Spirit",
         "heroClass": "Fire Mage",
-        "color": "8b0000",
+        "color": "b22222",
         "hotkey": "[W]",
         "icon": "FireMageW",
         "passive": [
@@ -944,7 +944,7 @@
     {
         "name": "Flame Nova",
         "heroClass": "Fire Mage",
-        "color": "8b0000",
+        "color": "b22222",
         "hotkey": "[E]",
         "icon": "FireMageE",
         "active": [
@@ -957,7 +957,7 @@
     {
         "name": "Flame Combustion",
         "heroClass": "Fire Mage",
-        "color": "8b0000",
+        "color": "b22222",
         "hotkey": "[R]",
         "icon": "FireMageR",
         "active": [
@@ -970,7 +970,7 @@
     {
         "name": "Meteor Fragment",
         "heroClass": "Fire Mage",
-        "color": "8b0000",
+        "color": "b22222",
         "hotkey": "[T]",
         "icon": "FireMageT",
         "active": [
@@ -1727,7 +1727,7 @@
     {
         "name": "Seal of Chaos",
         "heroClass": "Elementalist",
-        "color": "800040",
+        "color": "#ce2b7d",
         "hotkey": "[F]",
         "icon": "ElementalistF",
         "active": [
@@ -1740,7 +1740,7 @@
     {
         "name": "Dark Reach",
         "heroClass": "Elementalist",
-        "color": "800040",
+        "color": "#ce2b7d",
         "hotkey": "[F] → [Passive]",
         "icon": "ElementalistF_Pass1",
         "passive": [
@@ -1753,7 +1753,7 @@
     {
         "name": "Power of Chaos",
         "heroClass": "Elementalist",
-        "color": "800040",
+        "color": "#ce2b7d",
         "hotkey": "[F] → [Passive]",
         "icon": "ElementalistF_Pass2",
         "passive": [
@@ -1764,7 +1764,7 @@
     {
         "name": "Abyss Walk",
         "heroClass": "Elementalist",
-        "color": "800040",
+        "color": "#ce2b7d",
         "hotkey": "[F] → [Q]",
         "icon": "ElementalistF_Q",
         "active": [
@@ -1776,7 +1776,7 @@
     {
         "name": "Collapse Dimension",
         "heroClass": "Elementalist",
-        "color": "800040",
+        "color": "#ce2b7d",
         "hotkey": "[F] → [W]",
         "icon": "ElementalistF_W",
         "active": [
@@ -1790,7 +1790,7 @@
     {
         "name": "Eye of Chaos",
         "heroClass": "Elementalist",
-        "color": "800040",
+        "color": "#ce2b7d",
         "hotkey": "[F] → [E]",
         "icon": "ElementalistF_E",
         "active": [
@@ -3206,7 +3206,7 @@
     {
         "name": "Deathblade",
         "heroClass": "Dark Knight",
-        "color": "8c1aff",
+        "color": "8080ff",
         "hotkey": "[Passive]",
         "icon": "DarkKnightPass",
         "passive": [
@@ -3253,7 +3253,7 @@
     {
         "name": "Unholy Light",
         "heroClass": "Dark Knight",
-        "color": "520dc6",
+        "color": "8080ff",
         "hotkey": "[E]",
         "icon": "DarkKnightE",
         "active": [
@@ -3268,7 +3268,7 @@
     {
         "name": "Culling",
         "heroClass": "Dark Knight",
-        "color": "520dc6",
+        "color": "8080ff",
         "hotkey": "[R]",
         "icon": "DarkKnightR",
         "active": [
@@ -3281,7 +3281,7 @@
     {
         "name": "Requiem",
         "heroClass": "Dark Knight",
-        "color": "6600cc",
+        "color": "8080ff",
         "hotkey": "[T]",
         "icon": "DarkKnightT",
         "active": [
