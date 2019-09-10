@@ -2371,8 +2371,8 @@
             "Reduces damage taken by 30% while stealthed"
         ],
         "toggle": [
-            "TOGGLE ON: Do not automatically attack enemies while in stealth",
-            "TOGGLE OFF: Automatically attack enemies while in stealth"
+            "TOGGLE OFF: Automatically attack enemies while in stealth",
+            "TOGGLE ON: Do not automatically attack enemies while in stealth"
         ]
     },
     {
