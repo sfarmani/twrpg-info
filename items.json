@@ -332,7 +332,7 @@
       "Kobold Creeps"
     ],
     "type": "[Ring]",
-    "color": "2040F0",
+    "color": "435ce4",
     "level": 15,
     "droprate": 0.04,
     "required_by": [
@@ -7528,7 +7528,7 @@
     "name": "Pretty Sturdy Bag",
     "koreanname": "제법 튼튼한 배낭",
     "type": "[Bag]",
-    "color": "2040F0",
+    "color": "435ce4",
     "level": 30,
     "required_by": [
       "Sturdy Bag",
