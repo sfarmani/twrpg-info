@@ -3087,7 +3087,7 @@
         "passive": [
             "Prolonged training allows knight to never run out of mana.",
             "Increases max MP by (STR + INT) X 5",
-            "Restores max MP X 4% per second"
+            "Restores max MP X 8% per second"
         ],
         "active": [
             "Release mana to strengthen your body.",
