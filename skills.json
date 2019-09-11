@@ -3997,8 +3997,8 @@
         "icon": "HermitD",
         "passive": [
             "Forms a harmonious balance between attacking and healing.",
-            "Every 4th attack heals you and 2 nearby allies",
-            "Heals for (max HP X 2%) + (INT X 0.4)"
+            "Every 4th attack heals you and 1 nearby ally",
+            "Heals for target's max HP X 2% + INT X 0.4"
         ]
     },
     {
