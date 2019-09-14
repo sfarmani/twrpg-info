@@ -7764,7 +7764,7 @@
       }
     ],
     "stats": {
-      "damage": 26000,
+      "damage": 20000,
       "strength": 1800,
       "skilldamagepercent": 0.08,
       "dtpercent": -0.2,
@@ -7801,7 +7801,7 @@
       }
     ],
     "stats": {
-      "damage": 30000,
+      "damage": 24000,
       "strength": 2100,
       "skilldamagepercent": 0.11,
       "dtpercent": -0.22,
@@ -7860,7 +7860,8 @@
     ],
     "stats": {
       "damage": 1200,
-      "allstat": 90
+      "allstat": 90,
+      "movespeed": 50
     }
   },
   {
@@ -7887,6 +7888,7 @@
     "stats": {
       "damage": 2500,
       "allstat": 175,
+      "movespeed": 50,
       "spec": [
         "Merchant Specialty - Light Bag",
         "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once"
@@ -7919,6 +7921,7 @@
       "damage": 6000,
       "allstat": 525,
       "hpregen": 300,
+      "movespeed": 50,
       "spec": [
         "Merchant Specialty - Light Bag",
         "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%"
@@ -7951,10 +7954,10 @@
       }
     ],
     "stats": {
-      "damage": 11000,
+      "damage": 9000,
       "allstat": 800,
-      "movespeed": 50,
       "hpregen": 400,
+      "movespeed": 50,
       "spec": [
         "Merchant Specialty - Light Bag",
         "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%"
@@ -7987,10 +7990,10 @@
       }
     ],
     "stats": {
-      "damage": 16000,
+      "damage": 12000,
       "allstat": 1200,
-      "movespeed": 75,
       "hpregen": 600,
+      "movespeed": 75,
       "spec": [
         "Merchant Specialty - Very Light Bag",
         "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%",
@@ -8027,9 +8030,10 @@
       }
     ],
     "stats": {
-      "damage": 23000,
+      "damage": 16000,
       "allstat": 1550,
       "hpregen": 800,
+      "movespeed": 75,
       "spec": [
         "Merchant Specialty - Very Light Bag",
         "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 12%",
@@ -8063,10 +8067,10 @@
       }
     ],
     "stats": {
-      "damage": 26000,
+      "damage": 19000,
       "allstat": 1950,
-      "movespeed": 75,
       "hpregen": 1200,
+      "movespeed": 75,
       "spec": [
         "Merchant Specialty - Very Light Bag",
         "Merchant - This Bag isn't a Decoration!: You can drink upto 2 potions at once",
