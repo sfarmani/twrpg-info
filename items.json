@@ -7726,7 +7726,8 @@
     "stats": {
       "damage": 19000,
       "strength": 1400,
-      "skilldamagepercent": -0.18,
+      "skilldamagepercent": 0.06,
+      "dtpercent": -0.18,
       "spec": [
         "Merchant Specialty - Very Heavy Bag",
         "Merchant - Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds",
