@@ -1,5 +1,76 @@
 [
     {
+        "name": "26p",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "# Bug Fixes",
+            "  • Powder box - Fixed having 2 of each powder on hero selection load (for real this time)"
+        ]
+    },
+    {
+        "name": "26m",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "# Bug Fixes",
+            "  • Powder box - fixed having 2 of each powder on hero selection/load"
+        ]
+    },
+    {
+        "name": "26k",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "# Bug Fixes",
+            "  • Fixed a bug that prevented the Ice Shard quest to be turned in",
+            "  • Ifrit - Fixed Seeds of Flame getting removed by greater debuff cleanse",
+            "# Items",
+            "  * Benedict, the Crimson Armor of Blood *",
+            "    • When max HP is accumulated: HP recovery per second → HP Regen",
+            "  * Eye of the Abyss / Void Eye / Eye of the Flame Lord *",
+            "    • Changed to also apply skill damage aura to summons",
+            "# Monsters",
+            "  • Difficulty scaling restricted to the bosses named below:",
+            "    ▪ Skeleton King Desperia",
+            "    ▪ Zombie Lord",
+            "    ▪ Ancient Ent",
+            "    ▪ Archangel Samael",
+            "    ▪ Shadow Dragon Irbert",
+            "    ▪ Death Fiend",
+            "    ▪ Valtora",
+            "    ▪ Ifrit",
+            "  * Tentacle Lord *",
+            "    • Horn of Deep Sea / Infested Tentacle droprate: 3% → 5%",
+            "  * Giant Golem *",
+            "    • Corrupted Crystal Fragment / Corrupt Creations droprate: 3% → 5%",
+            "  * Mad Clown *",
+            "    • Material droprate: 2% → 3%",
+            "  * Shadow Dragon *",
+            "    • Removed Mage Lord summoning requirements",
+            "  * Ifrit *",
+            "    • Disabled mounts in arena",
+            "# Heroes",
+            "  * Phantom Blade *",
+            "    • Release (T)",
+            "      ▪ No longer costs souls",
+            "      ▪ Adds full HP regen effect of Soul (D) for duration",
+            "    • Obliterate (F)",
+            "      ▪ Soul cost: 7 → 4",
+            "  * Arcane Mage *",
+            "    • Barrage (T)",
+            "      ▪ Healing Turtles in Turtle Lord fight are now considered as bosses by this spell",
+            "# Misc",
+            "  • Descreased speed of corpses dissapearing",
+            "  • Changed powder box to fill up when hero is selected/loaded",
+            "  • Bags",
+            "    ▪ Increased inventory size",
+            "      ↳ Base: 23 → 24",
+            "      ↳ Token (except some) 24 → 30",
+            "    ▪ Adjust movespeed",
+            "      ↳ Base: 350 → 250",
+            "      ↳ Tokens (except some) 450 → 500",
+            "  • Bags are now able to drop items with Patrol (p) (cannot pickup same way)"
+        ]
+    },
+    {
         "name": "26h",
         "changes": [
             "> Compatible Version: v0.24c ~",

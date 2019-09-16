@@ -472,7 +472,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.001,
-      0.02
+      0.03
     ],
     "required_by": [
       "Tepethia, the Crimson Sword of Requiem",
@@ -495,7 +495,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.001,
-      0.02
+      0.03
     ],
     "required_by": [
       "Sanguiel, the Bloodspear of Requiem",
@@ -519,7 +519,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.0005,
-      0.02,
+      0.05,
       0.08
     ],
     "required_by": [
@@ -546,7 +546,7 @@
     "type": "[Ring]",
     "color": "9370DB",
     "level": 280,
-    "droprate": 0.03,
+    "droprate": 0.05,
     "required_by": [
       "Maw of Monster",
       "Bullet of Ruin",
@@ -571,7 +571,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.03,
     "required_by": [
       "Deathbringer",
       "Devil Chaser",
@@ -600,7 +600,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.03,
     "required_by": [
       "Staff of Madness",
       "Claws of Beriel",
@@ -1479,7 +1479,7 @@
     "type": "[Ring]",
     "color": "9370DB",
     "level": 240,
-    "droprate": 0.03,
+    "droprate": 0.05,
     "required_by": [
       "Tentacle Horn"
     ],
@@ -1500,7 +1500,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.03,
+    "droprate": 0.05,
     "required_by": [
       "Parasitic Sword",
       "Staff of Tentacles",

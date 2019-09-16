@@ -3973,7 +3973,8 @@
         "icon": "PBT",
         "active": [
             "Removes all soul consumption for 8 seconds and reduces some skills' cooldowns",
-            "Enables dash while active"
+            "Enables dash while active",
+            "Effects of max Soul is enabled while active"
         ]
     },
     {
