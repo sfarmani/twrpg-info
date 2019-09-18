@@ -412,6 +412,9 @@
         "limit": "1",
         "location": "Dropped by Mage Lord with a 6% chance",
         "conditions": "On use, can select which weapon to un-seal",
+        "notes": [
+            "The order below is the order of the menu to select when in game"
+        ],
         "drops": [
             "I080",
             "I081",

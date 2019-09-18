@@ -1366,7 +1366,7 @@
       "damage": 2620,
       "agility": 390,
       "passive": [
-        "~20.8% Chance to deal (1% * attack damage X 2) splash damage on attack"
+        "~20.8% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
       ]
     }
   },
@@ -1385,7 +1385,7 @@
       "damage": 1800,
       "agility": 360,
       "passive": [
-        "~20.8% Chance to deal (1% * attack damage X 2) splash damage on attack"
+        "~20.8% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
       ]
     }
   },
@@ -1404,7 +1404,7 @@
       "damage": 3100,
       "strength": 260,
       "passive": [
-        "~20.8% Chance to deal (1% * attack damage X 2) splash damage on attack"
+        "~20.8% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
       ]
     }
   },
@@ -1443,7 +1443,7 @@
       "damage": 2600,
       "agility": 290,
       "passive": [
-        "~20.8% Chance to deal (1% * attack damage X 2) splash damage on attack"
+        "~20.8% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
       ]
     }
   },
@@ -1464,7 +1464,7 @@
       "damage": 3900,
       "agility": 220,
       "passive": [
-        "~20.8% Chance to deal (1% * attack damage X 2) splash damage on attack"
+        "~20.8% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
       ]
     },
     "koreanname": "심해의 소총"
@@ -1955,7 +1955,8 @@
       "strength": 1850,
       "skilldamagepercent": 0.045,
       "passive": [
-        "Activates Source of Power on skill cast dealing (STR X 1.5) magic damage on next attack and increasing movement speed by 100% and STR by 425 for 6 seconds",
+        "Activates Source of Power on skill cast dealing (STR X 1.5) magic damage on next attack",
+        "Also increases movement speed by 100% and STR by 425 for 6 seconds",
         "Cooldown: 10 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -2614,8 +2615,10 @@
       "intelligence": 760,
       "attackspeedpercent": 0.25,
       "active": [
-        "On use, activates Throw Pumpkin dealing 1500 + 30 X INT magic damage. Stuns target for 2 seconds and heals yourself for 10000 HP (75 second cooldown)",
-        "Usable on magic immune targets (still damage type magic)"
+        "On use, activates Throw Pumpkin dealing (7500 + INT X 40) magic damage.",
+        "Stuns target for 1 second and heals caster for 10000 HP",
+        "Usable on magic immune targets (still damage type magic)",
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     },
     "koreanname": "펌킨 로드"
@@ -2743,7 +2746,7 @@
       "damage": 7400,
       "strength": 620,
       "passive": [
-        "~10.9% Chance to activate Dragon's Claw on attack dealing (4500 + (main stat X 2.5)) magic damage"
+        "~10.9% Chance to activate Dragon's Claw on attack dealing (4500 + MAIN STAT X 2.5) magic damage"
       ]
     },
     "koreanname": "용검 라인하르트"
@@ -2766,7 +2769,7 @@
       "damage": 8400,
       "agility": 540,
       "passive": [
-        "~10.9% Chance to activate Dragon's Claws on attack dealing (4500 + (main stat X 2.5)) magic damage on attack"
+        "~10.9% Chance to activate Dragon's Claws on attack dealing (4500 + MAIN STAT X 2.5) magic damage on attack"
       ]
     },
     "koreanname": "용궁 에이엔스"
@@ -2789,7 +2792,8 @@
       "damage": 6000,
       "intelligence": 810,
       "active": [
-        "On use, activates Mana Cannon dealing 40 X INT magic damage in a line (60 second cooldown)"
+        "On use, activates Mana Cannon dealing (75 X INT) magic damage in a linear path",
+        "Cooldown: 60 seconds"
       ]
     },
     "koreanname": "용봉 이레이브"
@@ -2812,7 +2816,7 @@
       "damage": 12800,
       "agility": 570,
       "passive": [
-        "~10.9% Chance to activate Dragon's Claws on attack dealing (4500 + (main stat X 2.5)) magic damage on attack"
+        "~10.9% Chance to activate Dragon's Claws on attack dealing (4500 + MAIN STAT X 2.5) magic damage on attack"
       ]
     },
     "koreanname": "용포 벨레누스"
@@ -2948,7 +2952,7 @@
     "level": 300,
     "droprate": 0.06,
     "notes": [
-      "The order of the drops below is the order of the menu to select"
+      "The order below is the order of the menu to select when in game"
     ],
     "drops": [
       "Leoreus, the Greatsword of Flame",
@@ -2977,7 +2981,8 @@
       "damage": 9500,
       "strength": 700,
       "passive": [
-        "Chance to create Flame Explosion on attack"
+        "~10.9% Chance to create Flame Explosion on attack dealing (12000 + STR X 9) magic damage",
+        "Damage is affected by flame affinity"
       ]
     }
   },
@@ -2999,7 +3004,8 @@
       "damage": 8500,
       "agility": 800,
       "passive": [
-        "Chance to strike down lightning on attack"
+        "~10.9% Chance to strike down lightning on attack dealing (12000 + AGI X 5) magic damage",
+        "Damage is affected by wind/lightning affinity"
       ]
     }
   },
@@ -3022,7 +3028,8 @@
       "agility": 750,
       "attackspeedpercent": 0.1,
       "active": [
-        "On use, activates Sylph's Blessing"
+        "On use, activates Sylph's Blessing in a 550 AoE radius healing all allies for 20% max HP and 25% max MP",
+        "Cooldown: 50 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -3044,7 +3051,7 @@
       "damage": 7300,
       "intelligence": 900,
       "active": [
-        "On use, activates Earthen Rage which slows attack and movement speed of enemies in an AoE"
+        "On use, activates Earthen Rage in a 800 AoE radius dealing (45 X INT) magic damage"
       ],
       "spec": [
         "Specialty",
@@ -3070,7 +3077,8 @@
       "damage": 10500,
       "agility": 650,
       "passive": [
-        "Empowers next attack with Iron Bullet every 8 seconds"
+        "Empowers next attack with Iron Bullet every 8 seconds",
+        "Empowered attacks deal (50 X AGI) magic damage and stuns for 0.375 seconds"
       ]
     }
   },
@@ -3144,7 +3152,8 @@
       "skilldamagepercent": 0.03,
       "active": [
         "On use, activates Resonance, refreshing the cooldown of the last skill used",
-        "Does not apply to ultimate skill or items"
+        "Does not apply to ultimate skill or items",
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     },
     "koreanname": "공명의 반지"
@@ -3296,7 +3305,8 @@
       "damage": 9000,
       "strength": 850,
       "passive": [
-        "10% Chance to activate Holy Strike on attack dealing 7.5 X STR damage"
+        "IF main stat is STR: ~10.9% Chance to activate Holy Strike on attack dealing (12 X STR) magic damage",
+        "IF main stat is AGI or INT: ~10.9% Chance to activate Holy Strike on attack dealing (12 X AGI) magic damage"
       ]
     },
     "koreanname": "성검 카론프니엠"
@@ -3320,7 +3330,7 @@
       "damage": 8500,
       "intelligence": 1190,
       "active": [
-        "On use, activates Holy Explosion dealing 30 X INT damage and stuns for 2-3 seconds in a large AoE around user"
+        "On use, activates Holy Explosion in a 750 AoE radius dealing (75 X INT) magic damage and stunning for 1 second"
       ]
     },
     "koreanname": "성봉 클레네티아"
@@ -3343,7 +3353,8 @@
       "damage": 11000,
       "agility": 740,
       "passive": [
-        "Chance to activate Holy Bullet on attack"
+        "IF main stat is STR: ~10.9% Chance to activate Holy Bullet on attack dealing (12 X STR) magic damage",
+        "IF main stat is AGI or INT: ~10.9% Chance to activate Holy Bullet on attack dealing (12 X AGI) magic damage"
       ]
     },
     "koreanname": "성포 이아나"
@@ -3368,7 +3379,8 @@
       "strength": 400,
       "agility": 400,
       "passive": [
-        "Chance to create a barrier on being hit"
+        "~10.9% Chance to create a barrier of 10000 armor on being hit for 4 seconds",
+        "Cooldown: 12 seconds"
       ]
     },
     "koreanname": "성갑 홀리오스"
@@ -3523,7 +3535,7 @@
       "damage": 8500,
       "agility": 900,
       "passive": [
-        "10% Chance to activate Dark Strike on attack dealing 7.5 X AGI damage"
+        "~10.9% Chance to activate Dark Strike on attack dealing (12 X AGI) magic damage"
       ]
     },
     "koreanname": "마검 엑시멜리아"
@@ -3549,7 +3561,7 @@
       "agility": 500,
       "skilldamagepercent": 0.025,
       "passive": [
-        "Chance to reduce attacker's armor on being hit"
+        "~12.9% Chance to reduce attacker's armor by 125 for 5 seconds on being hit"
       ]
     },
     "koreanname": "마갑 데카로스"
@@ -3573,7 +3585,7 @@
       "damage": 9500,
       "agility": 850,
       "passive": [
-        "10% Chance to activate Dark Spike on attack dealing 7.5 X AGI damage"
+        "~10.9% Chance to activate Dark Spike on attack dealing (12 X AGI) magic damage"
       ]
     },
     "koreanname": "마궁 알카테"
@@ -15150,10 +15162,14 @@
       "hp": 12500,
       "skilldamagepercent": 0.06,
       "passive": [
-        "Increases the Attack Damage of nearby allies by 1x Int, the Health Regeneration by 400, and Attack and Movement Speed by 25%"
+        "Empowers nearby allies within 750 AoE radius, increasing their attack damage by wielder's INT, their attack speed by 25%, and HP regen by 400"
       ],
       "active": [
-        "'Cleanse' Heal target ally for 10% Health every second, removes any debuffs, and prevents their Health from dropping below 1 for 3 seconds. (20 second CD)"
+        "'Cleanse' Heal target ally for 10% Health every second, removes any debuffs, and prevents their Health from dropping below 1 for 3 seconds. (20 second CD)",
+        "On use, activates Purification on targeted ally, granting them the following effects for 3 seconds:",
+        "Prevents HP from dropping below 1",
+        "Heals 0.10 X target's max HP and removes any debuffs each second",
+        "Cooldown: 20 seconds, cannot be dropped during cooldown"
       ]
     }
   },
