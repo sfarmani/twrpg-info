@@ -8600,7 +8600,7 @@
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Greatsword]",
     "color": "BA55D3",
-    "level": 300,
+    "level": 260,
     "recipe": [
       {
         "Dragonsword Lainhart": 1
@@ -8635,7 +8635,7 @@
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Staff]",
     "color": "BA55D3",
-    "level": 360,
+    "level": 260,
     "recipe": [
       {
         "Dragonstaff Irave": 1
@@ -8670,7 +8670,7 @@
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Bow]",
     "color": "BA55D3",
-    "level": 300,
+    "level": 260,
     "recipe": [
       {
         "Dragonbow Aience": 1
@@ -8703,7 +8703,7 @@
     "description": "If you desire strength, desparately strive for it, for you shall earn it.",
     "type": "[Gun]",
     "color": "BA55D3",
-    "level": 300,
+    "level": 260,
     "recipe": [
       {
         "Dragon Cannon Belenus": 1
@@ -12957,7 +12957,7 @@
     "description": "Don't be afraid to struggle. You can only grow stronger by driving away your fear.",
     "type": "[Armor]",
     "color": "BA55D3",
-    "level": 300,
+    "level": 260,
     "recipe": [
       {
         "Dragon Armor Magron": 1
