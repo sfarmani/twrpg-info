@@ -1068,7 +1068,8 @@
     "type": "[Misc]",
     "color": "80BFFF",
     "notes": [
-      "Droprate increases every 5 minutes that it does not drop"
+      "Droprate increases every 5 minutes that it does not drop",
+      "Can only be dropped once per game"
     ],
     "stats": {
       "active": [
@@ -3670,7 +3671,8 @@
       "armor": 450,
       "intelligence": 750,
       "passive": [
-        "Chance to activate Frost Armor on being hit"
+        "10% Chance to activate Frost Armor on being hit",
+        "Grants 400 armor for 15 seconds"
       ]
     },
     "koreanname": "서리한의 로브 켈투자드"
@@ -3695,7 +3697,7 @@
       "strength": 150,
       "agility": 175,
       "passive": [
-        "Chance to freeze attacker on being attacked"
+        "10% Chance to freeze attacker for 1.5 seconds on being attacked"
       ]
     },
     "koreanname": "서리한의 투구 프로스트"
@@ -3719,7 +3721,7 @@
       "armor": 310,
       "intelligence": 300,
       "passive": [
-        "Chance to freeze attacker on being attacked"
+        "10% Chance to freeze attacker for 1.5 seconds on being attacked"
       ]
     },
     "koreanname": "서리한의 후드 프로스트"
@@ -3747,7 +3749,8 @@
       "hp": 2500,
       "affinityiwpercent": 0.03,
       "passive": [
-        "Chance to temporarily boost INT on attack"
+        "10% Chance to temporarily boost INT by 250 on attack for 6 seconds",
+        "Does not stack"
       ]
     },
     "koreanname": "윈터 로즈"
@@ -3804,7 +3807,8 @@
       "strength": 1250,
       "critmultiplier": 0.15,
       "passive": [
-        "Chance to activate Frost effect on attack"
+        "~13.9% Chance to activate Frost effect on attack",
+        "Deals (12 X MAIN STAT) magic damage and reduces enemy's movement speed by 20% for 3 seconds"
       ]
     },
     "koreanname": "빙결의 창 오켈렌크"
@@ -3828,7 +3832,8 @@
       "agility": 1375,
       "affinityiwpercent": 0.05,
       "passive": [
-        "Chance to activate Frost effect on attack"
+        "~13.9% Chance to activate Frost effect on attack",
+        "Deals (12 X MAIN STAT) magic damage and reduces enemy's movement speed by 20% for 3 seconds"
       ]
     },
     "koreanname": "빙결의 활 오켈렌크"
@@ -3874,8 +3879,8 @@
       "agility": 700,
       "hp": 2500,
       "passive": [
-        "+10% Damage dealt on attack",
-        "Chance to reduce target's armor on attack"
+        "+10% damage dealt on attack",
+        "8% Chance to reduce target's armor by 175 on attack for 5 seconds"
       ]
     },
     "koreanname": "프로스트 웹 브로치"
@@ -3938,7 +3943,9 @@
       "agility": 1500,
       "passive": [
         "Slows enemies on attack",
-        "Every 8th attack unleashes Chilling Strike that ignores all resistance"
+        "Every 8th attack unleashes Chilling Strike that ignores all resistance",
+        "Deals (1.8 X STR + 1.5 X AGI) pure damage",
+        "Damage is affected by ice/water affinity"
       ]
     },
     "koreanname": "겨울의 눈물"
@@ -3964,7 +3971,7 @@
       "agility": 1575,
       "skilldamagepercent": 0.025,
       "passive": [
-        "Chance to slow on attack"
+        "15% Chance to deal (7.5 ~ 10 X AGI) magic damage and slow for 0.75 seconds on attack"
       ],
       "spec": [
         "Specialty",
@@ -3994,7 +4001,8 @@
       "attackspeedpercent": -0.5,
       "critchancepercent": 0.1,
       "active": [
-        "On use, increases attack damage by 12000 and STR by 1000 for 8 seconds"
+        "On use, increases attack damage by 15000 and STR by 1000 for 8 seconds",
+        "Cooldown: 25 seconds"
       ]
     },
     "koreanname": "니플하임"
@@ -4019,7 +4027,9 @@
       "hp": 3000,
       "affinityiwpercent": 0.03,
       "passive": [
-        "On use, activates Frozen Shard which launches a ball of ice that freezes everything in its path"
+        "On use, activates Frozen Shard, launching a ball of frost to targeted location",
+        "In 275 AoE radius, deals (60 X INT) magic damage and freezes enemies in 425 AoE radius for 2 seconds",
+        "Damage is affected by ice/water affinity"
       ],
       "spec": [
         "Specialty - Water Mastery",
@@ -4126,7 +4136,7 @@
       "agility": 1500,
       "critmultiplier": 0.25,
       "passive": [
-        "Chance to activate Doomsday on attack dealing (42 X (STR + AGI)) + (9 X attack damage) damage",
+        "(1 + (0.125 X HIT COUNT))% Chance to activate Doomsday on attack dealing (42 X (STR + AGI)) + (8 X ATTACK) magic splash damage and stuns for 0.1 seconds",
         "Scales with user's stats",
         "Failing to proc increase proc chance on subsequent attacks"
       ]
@@ -4154,7 +4164,7 @@
       "agility": 1400,
       "critmultiplier": 0.2,
       "passive": [
-        "Chance to activate Doomsday on attack dealing (42 X (STR + AGI)) + (7 X attack damage) damage",
+        "(1 + (0.125 X HIT COUNT))% Chance to activate Doomsday on attack dealing (42 X (STR + AGI)) + (8 X ATTACK) magic splash damage and stuns for 0.1 seconds",
         "Scales with user's stats",
         "Failing to proc increase proc chance on subsequent attacks"
       ]
@@ -4183,7 +4193,8 @@
       "dtpercent": -0.075,
       "passive": [
         "Steals target's soul on use for 5 seconds",
-        "If target dies while draining, grants 350 AGI for 15 minutes"
+        "If target dies while draining, grants 350 AGI for 15 minutes",
+        "Cooldown: 150 seconds, cannot be dropped during cooldown"
       ]
     },
     "koreanname": "마왕의 뿔"
