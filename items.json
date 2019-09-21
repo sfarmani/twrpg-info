@@ -6315,7 +6315,7 @@
     "droprate": [
       0.004,
       0.002,
-      0.0002
+      0.0004
     ],
     "required_by": [
       "Spirit Dagger",
