@@ -221,7 +221,7 @@
             "Pulls enemies in and silences them for 5 seconds",
             "On expiration, deals INT X 725 damage",
             "Stuns for 2.5 seconds",
-            "ACtivation delay: 0.5 seconds"
+            "Activation delay: 0.5 seconds"
         ]
     },
     {
