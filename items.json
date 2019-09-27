@@ -1864,7 +1864,9 @@
       "Pure Crystal Wings"
     ],
     "recipe": [
-      { "Proof of Endeavor": 6 }
+      {
+        "Proof of Endeavor": 6
+      }
     ],
     "koreanname": "정령의 구슬"
   },
@@ -1983,7 +1985,9 @@
       "Druid's Mantle"
     ],
     "recipe": [
-      { "Proof of Endeavor": 6 }
+      {
+        "Proof of Endeavor": 6
+      }
     ],
     "koreanname": "숲의 기운"
   },
@@ -3254,7 +3258,7 @@
       "hpregen": 75,
       "spec": [
         "Specialty",
-        "Knight - Improved Seal of Mana: Radius is increased by 15%, and duration is increased by 1 second."
+        "Knight - Improved Seal of Mana: Radius is increased by 15%."
       ]
     },
     "koreanname": "가디언 링"
@@ -5256,7 +5260,9 @@
       "Maw of Greed"
     ],
     "recipe": [
-      { "Proof of Endeavor": 6 }
+      {
+        "Proof of Endeavor": 6
+      }
     ],
     "koreanname": "타락의 결정"
   },
@@ -5279,7 +5285,9 @@
       "Vest of Cyclone"
     ],
     "recipe": [
-      { "Proof of Endeavor": 6 }
+      {
+        "Proof of Endeavor": 6
+      }
     ],
     "koreanname": "낡은 유적의 조각"
   },
@@ -5461,7 +5469,9 @@
       "Vest of Cyclone"
     ],
     "recipe": [
-      { "Proof of Endeavor": 6 }
+      {
+        "Proof of Endeavor": 6
+      }
     ],
     "koreanname": "악몽의 기운"
   },
@@ -5498,7 +5508,9 @@
       "Ring of Fervor"
     ],
     "recipe": [
-      { "Proof of Endeavor": 6 }
+      {
+        "Proof of Endeavor": 6
+      }
     ],
     "koreanname": "분노의 결정"
   },
@@ -5706,7 +5718,9 @@
       "Maw of Greed"
     ],
     "recipe": [
-      { "Proof of Endeavor": 6 }
+      {
+        "Proof of Endeavor": 6
+      }
     ],
     "koreanname": "순수의 강철"
   },
@@ -5732,7 +5746,9 @@
       "Plates of Lightning"
     ],
     "recipe": [
-      { "Proof of Endeavor": 6 }
+      {
+        "Proof of Endeavor": 6
+      }
     ],
     "koreanname": "폭풍의 문장"
   },
@@ -5766,7 +5782,9 @@
       "Turtle Lord Icon"
     ],
     "recipe": [
-      { "Proof of Endeavor": 6 }
+      {
+        "Proof of Endeavor": 6
+      }
     ],
     "koreanname": "마나 오브"
   },
@@ -11083,7 +11101,7 @@
       ],
       "spec": [
         "Specialty - Absolute Zero",
-        "Knight - Excalibur is enhanced by the Frozen Break Effect"
+        "Knight - Excalibur is enhanced with Shield Break"
       ]
     }
   },
@@ -14267,7 +14285,7 @@
       "hpregen": 125,
       "spec": [
         "Specialty",
-        "Knight - Improved Seal of Mana: Radius is increased by 15%, and duration is increased by 1 second."
+        "Knight - Improved Seal of Mana: Radius is increased by 15%."
       ]
     }
   },
@@ -14868,7 +14886,8 @@
         "Steel of God": 1
       },
       {
-        "Orb of Oblivion": 1, "Spirit of Abyss": 1
+        "Orb of Oblivion": 1,
+        "Spirit of Abyss": 1
       },
       {
         "Heart of Fire": 1
@@ -14967,7 +14986,7 @@
       ],
       "spec": [
         "Specialty",
-        "Knight - Improved Seal of Mana: Radius is increased by 30%, and duration is increased by 2 seconds."
+        "Knight - Improved Seal of Mana: Radius is increased by 30%."
       ]
     }
   },

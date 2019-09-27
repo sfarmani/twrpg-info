@@ -2864,7 +2864,7 @@
             "Heals for Max HP X 6% on each attack",
             "15% chance to leave bleeding on each attack",
             "Deals Attack Damage X 200% damage per second",
-            "Duration: 4 seconds"
+            "Duration: 5 seconds"
         ]
     },
     {
@@ -2907,7 +2907,8 @@
             "Drowns in blood to bring out full combat abilities.",
             "Consumes current HP X 30% per second",
             "Ignores all healing received",
-            "Max efficiency threshold: 20% HP"
+            "Max efficiency threshold: 20% HP",
+            "Provides silence immunity when toggled ON"
         ]
     },
     {
@@ -3087,12 +3088,12 @@
         "passive": [
             "Prolonged training allows knight to never run out of mana.",
             "Increases max MP by (STR + INT) X 5",
-            "Restores max MP X 8% per second"
+            "Restores max MP X 10% per second"
         ],
         "active": [
             "Release mana to strengthen your body.",
             "Increases damage reduction by 20%",
-            "Converts restored MP into HP 75% of restored MP"
+            "Converts restored MP into HP 50% of restored MP"
         ]
     },
     {
@@ -3120,7 +3121,7 @@
             "STR X 25 damage",
             "Knockbacks enemies toward charge direction",
             "Colliding from far distance breaks barriers and deals consumed MP X (400 + 3 X charge distance)% bonus damage",
-            "Release Mana ON: Pierces through enemies, and redirects damage taken by collided allies toward Knight for 6 seconds"
+            "Release Mana ON: Pierces through enemies, and provides (max MP X damage reduction) shield to allies for 3 seconds"
         ]
     },
     {
@@ -3184,7 +3185,7 @@
         ],
         "active": [
             "Inscribe seal of mana onto the ground to protect allies from damage.",
-            "Absorbs allies' damage taken by (30 + Knight's damage reduction / 2)%",
+            "Shares damage reduction and HP recovery with allies",
             "Restores Knight's MP by 10% per second",
             "Lasts 6 seconds"
         ]
@@ -3197,12 +3198,12 @@
         "icon": "KnightF",
         "active": [
             "\"Corrupt evils that must not exist in this world! The end is nigh. O Holy sword, grant me victory over my foes!\" - Knight during the God-Devil War",
-            "STR X 400 damage",
+            "STR X 475 damage",
             "For each second channeled, size increased & damage increased by 25%",
             "Can be channeled up to a maximum of 4 seconds",
             "Grants 100% damage reduction and CC immunity to allies hit for 5 seconds",
             "Cancels Release Mana",
-            "Cooldown: 100 seconds"
+            "Cooldown: 60 seconds"
         ]
     },
     {
@@ -3455,7 +3456,7 @@
         "passive": [
             "Converts mana into a frozen barrier to surround yourself.",
             "Creates a barrier that absorbs INT X 1 damage",
-            "Increases skill damage by 12%",
+            "Increases skill damage by 12% (applied even when shield has depleted)",
             "Recharges 10% of shield every second",
             "Recharges 30% of shield when hit with Water Blast"
         ],
@@ -3749,7 +3750,7 @@
             "An aspect of crusader who calls down retribution on his foes.",
             "Increase nearby allies' attack damage by 12%",
             "Judgment - Deals pure damage",
-            "Sigil - Increases skill damage by 12% for 15 seconds"
+            "Sigil - Increases skill damage by 10% for 15 seconds"
         ]
     },
     {
@@ -3985,7 +3986,7 @@
         "icon": "PBF",
         "active": [
             "Pauses enemies for a short time",
-            "Delivers Attack Damage X 15000% damage at the end",
+            "Delivers Attack Damage X 17500% damage at the end",
             "Stuns for 2.5 seconds",
             "Deals up to 40% bonus damage based on target's missing HP"
         ]
@@ -4094,7 +4095,7 @@
             "\"This water shall cleanse your body and soul.\" - Hermit",
             "Deals Main Stat X 375 magic damage per second",
             "Heals for Target's Max HP X 30% per second",
-            "Breaks barriers (once every 0.5 seconds)",
+            "Breaks barriers (once every 0.75 seconds)",
             "HP of allies within the waves will not drop below 1 HP",
             "Lasts for 3.5 seconds"
         ]
