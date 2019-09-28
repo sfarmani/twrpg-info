@@ -1,5 +1,39 @@
 [
     {
+        "name": "26u",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "# Bug Fixes",
+            "  • Knight - Fixed Winter's heart increasing duration of Excalibur (F) buff by 1 second",
+            "  • Knight - Fixed Excalibur (F) breaking shields of allies",
+            "  • Knight - Fixed Excalibur (F) cooldown being 100 seconds instead of 60 seconds",
+            "  • Berserker - Fixed not being immune to silence when Blood fury (E) is toggled ON",
+            "  • Bone dragon - Fixed ways to dodge explosion of Crazy hellspike without hiding behind other Hellspikes",
+            "  • Death fiend - Fixed Death hounds not dissapearing on fight reset",
+            "# Monsters",
+            "  * Zombie Lord *",
+            "    • HP: 12,541,930 → 11,541,930",
+            "# Heroes",
+            "  • Cooldowns changed from 150 seconds to 120 seconds for following characters",
+            "    ▪ Berserker",
+            "    ▪ Dark Knight",
+            "    ▪ Paladin",
+            "    ▪ Crusader",
+            "    ▪ Lancer",
+            "    ▪ Phantom Blade",
+            "    ▪ Swordsman",
+            "    ▪ Blood Weaver",
+            "    ▪ Alchemist",
+            "    ▪ Soul Weaver",
+            "    ▪ Warlock",
+            "    ▪ Witch",
+            "  * Swordsman *",
+            "    • Final slash damage: AGI X 400 → AGI X 475",
+            "# Misc",
+            "  • Made knockback end if affected unit dies"
+        ]
+    },
+    {
         "name": "26s",
         "changes": [
             "> Compatible Version: v0.24c ~",
@@ -959,7 +993,7 @@
             "    • Restoration (W)",
             "      ▪ Healing: main stat X 2 → main stat X 1.5",
             "      ▪ Healing per second: 0.4 X (STR + INT) → 0.3 X (STR + INT)",
-            "    • Orb of Harmony",
+            "    • Orb of Harmony (R)",
             "      ▪ Radius: 375 → 400",
             "      ▪ Increased orb speed",
             "      ▪ Now gives 15% skill damage increase to allies in orb",
