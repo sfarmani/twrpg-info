@@ -221,7 +221,8 @@
             "Pulls enemies in and silences them for 5 seconds",
             "On expiration, deals INT X 725 damage",
             "Stuns for 2.5 seconds",
-            "Activation delay: 0.5 seconds"
+            "Activation delay: 0.5 seconds",
+            "Cooldown: 120 seconds"
         ]
     },
     {
@@ -606,7 +607,8 @@
             "Consumes Max HP X (5 + 0.50 X elapsed seconds)% per second",
             "Increases INT by 2% on every second and on every skill cast (up to 30 times)",
             "Reduces damage taken by 40%",
-            "On expiration, deals INT X 400 damage to nearby enemies and stuns for 2.5 seconds"
+            "On expiration, deals INT X 400 damage to nearby enemies and stuns for 2.5 seconds",
+            "Cooldown: 120 seconds"
         ]
     },
     {
@@ -785,7 +787,8 @@
             "INT X 250 damage per second",
             "Roots nearby enemies",
             "Lasts 3 seconds",
-            "0.5 seconds to activate"
+            "0.5 seconds to activate",
+            "Cooldown: 120 seconds"
         ]
     },
     {
@@ -892,7 +895,8 @@
             "Each spear deals Attack Damage X 700% damage",
             "Max HP X 350% bonus damage",
             "Deals 40% bonus damage to enemies under 40% HP",
-            "You will be immune to CC while casting"
+            "You will be immune to CC while casting",
+            "Cooldown: 120 seconds"
         ]
     },
     {
@@ -1460,8 +1464,9 @@
         "active": [
             "\"I couldn't see anything. Only the corpses of my comrades were left at where he slashed through.\" - A Survivor of Empire War",
             "Each slash deals AGI X 25 damage",
-            "Final slash deals AGI X 400 damage",
-            "A total of 20 slashes"
+            "Final slash deals AGI X 475 damage",
+            "A total of 20 slashes",
+            "Cooldown: 120 seconds"
         ]
     },
     {
@@ -2046,7 +2051,8 @@
             "\"Light that can be bestowed upon the weak - that is the true light.\" - Astarte",
             "Each slash deals STR X 225 damage",
             "Final slash deals STR X 550 damage",
-            "Stun for 3 fixed seconds"
+            "Stun for 3 fixed seconds",
+            "Cooldown: 120 seconds"
         ]
     },
     {
@@ -2249,7 +2255,7 @@
             "STR X 675 damage",
             "Deals 75% bonus damage to enemies within 250 radius from target point",
             "Restores all ki",
-            "Cooldown: 150 seconds"
+            "Cooldown: 120 seconds"
         ]
     },
     {
@@ -2957,7 +2963,8 @@
             "Each slash deals STR X 20 damage",
             "Final slam deals STR X 475 damage",
             "Fully restores HP after cast",
-            "Gain knockback immunity during cast"
+            "Gain knockback immunity during cast",
+            "Cooldown: 120 seconds"
         ]
     },
     {
@@ -3308,7 +3315,8 @@
             "Invulnerable while active",
             "On finish, resets cooldowns on other skills",
             "If INT or STR is main stat, stuns target and deals up to 50% bonus damage based on target's missing HP",
-            "Lasts 2.5 seconds"
+            "Lasts 2.5 seconds",
+            "Cooldown: 120 seconds"
         ]
     },
     {
@@ -3880,7 +3888,8 @@
             "Releases a pulse every second to deal STR X 100 magic damage",
             "Releases a flash every second to deal STR X 20 magic damage",
             "Each flash also heals an ally for INT X 10",
-            "Lasts 5 seconds"
+            "Lasts 5 seconds",
+            "Cooldown: 120 seconds"
         ]
     },
     {
@@ -3988,7 +3997,8 @@
             "Pauses enemies for a short time",
             "Delivers Attack Damage X 17500% damage at the end",
             "Stuns for 2.5 seconds",
-            "Deals up to 40% bonus damage based on target's missing HP"
+            "Deals up to 40% bonus damage based on target's missing HP",
+            "Cooldown: 120 seconds"
         ]
     },
     {
@@ -4244,7 +4254,8 @@
             "\"Get away from here. I will be using this zone as my lab..\" - Witch",
             "Deals INT X 75 magic damage per second",
             "Increases magic damage taken by 1.5% every second",
-            "Lasts 8 seconds"
+            "Lasts 8 seconds",
+            "Cooldown: 120 seconds"
         ]
     }
 ]
