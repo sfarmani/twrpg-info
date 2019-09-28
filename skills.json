@@ -3245,12 +3245,12 @@
         "hotkey": "[W]",
         "icon": "DarkKnightW",
         "active": [
-            "Slam down the ground with strength powerful enough to awaken dormant souls lying within the grounds.",
-            "Attack Damage X 450% damage",
-            "(STR + INT) X 40 bonus damage",
+            "Slams down with strength powerful enough to awaken dormant souls lying beneath the grounds.",
+            "Attack Damage X 500% damage",
+            "(STR + INT) X 50 bonus damage",
             "Activates Deathblade",
             "If STR is main stat, deals pure damage and creates 4 souls",
-            "If INT is main stat, corrupts target area for 12 seconds, reducing magic defense of enemies on it by (5 + INT / 750)%"
+            "If INT is main stat, corrupts target area for 12 seconds, increasing magic damage taken by enemies for (5 + INT / 750)%"
         ]
     },
     {
