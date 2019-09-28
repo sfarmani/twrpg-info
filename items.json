@@ -4684,7 +4684,8 @@
     "required_by": [
       "Staff of Void",
       "Crimson Pumpkin Rod",
-      "Dragon Buster"
+      "Dragon Buster",
+      "Hungry Bat Wings"
     ],
     "stats": {
       "strength": 225,
@@ -5192,7 +5193,8 @@
       "Cloak of the Fallen Shadows",
       "Bag of Corruption",
       "Grimoire of Darkness",
-      "Ring of Fervor"
+      "Ring of Fervor",
+      "Hungry Bat Wings"
     ],
     "stats": {
       "allstat": 825,
@@ -5743,7 +5745,8 @@
       "Horn of Devil",
       "Crown of Rage",
       "Turtle Lord Icon",
-      "Plates of Lightning"
+      "Plates of Lightning",
+      "Hungry Bat Wings"
     ],
     "recipe": [
       {
