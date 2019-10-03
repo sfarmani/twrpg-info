@@ -2691,6 +2691,9 @@
     ],
     "type": "[Token]",
     "color": "DAA520",
+    "notes": [
+      "This item is dropped by Magical Ore Deposit, which has a 7.5% chance of being dropped by Jack-o-Lantern."
+    ],
     "droprate": 0.02,
     "required_by": [
       "Rainbow Crystal Golem Token"
@@ -2705,6 +2708,9 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
+    "notes": [
+      "This item is dropped by Magical Ore Deposit, which has a 7.5% chance of being dropped by Jack-o-Lantern."
+    ],
     "droprate": 1.0,
     "required_by": [
       "Glasses",
@@ -3197,6 +3203,9 @@
     ],
     "type": "[Token]",
     "color": "DAA520",
+    "notes": [
+      "This item is dropped by Magical Ore Deposit, which has a 7.5% chance of being dropped by Mage Lord."
+    ],
     "droprate": 0.02,
     "required_by": [
       "Rainbow Crystal Golem Token"
@@ -3211,6 +3220,9 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
+    "notes": [
+      "This item is dropped by Magical Ore Deposit, which has a 7.5% chance of being dropped by Mage Lord."
+    ],
     "droprate": 1.0,
     "required_by": [
       "Glasses",
@@ -4076,6 +4088,9 @@
     ],
     "type": "[Token]",
     "color": "DAA520",
+    "notes": [
+      "This item is dropped by Magical Ore Deposit, which has a 7.5% chance of being dropped by Frostspider Lord."
+    ],
     "droprate": 0.02,
     "required_by": [
       "Rainbow Crystal Golem Token"
@@ -4090,6 +4105,9 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
+    "notes": [
+      "This item is dropped by Magical Ore Deposit, which has a 7.5% chance of being dropped by Frostspider Lord."
+    ],
     "droprate": 1.0,
     "required_by": [
       "Glasses",
@@ -4305,6 +4323,9 @@
     ],
     "type": "[Misc]",
     "color": "80BFFF",
+    "notes": [
+      "This item is dropped by Remnants of Darkness, which always appears on the corpse of Demon Lord Beriel when defeated."
+    ],
     "droprate": 1.0,
     "drops": [
       "Red Crystal Golem Token",
@@ -4316,10 +4337,13 @@
     "id": "fgsk",
     "name": "Red Crystal Golem Token",
     "dropped_by": [
-      "Remnant of Darkness"
+      "Remnants of Darkness"
     ],
     "type": "[Token]",
     "color": "DAA520",
+    "notes": [
+      "This item is dropped by Remnants of Darkness, which always appears on the corpse of Demon Lord Beriel when defeated."
+    ],
     "droprate": 0.001,
     "required_by": [
       "Rainbow Crystal Golem Token"
