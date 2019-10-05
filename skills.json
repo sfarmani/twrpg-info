@@ -3526,10 +3526,9 @@
         "icon": "WaterMageF",
         "active": [
             "\"Looking at you all reminds me of ice sculptures. Well, not that one captures my attention.\" - Mage",
-            "Freezes nearby enemies for 6 0seconds",
+            "Freezes nearby enemies for 5 seconds",
             "Upon expiration, deals (INT X 150 + damage taken while frozen X 10%) pure damage",
-            "Reduces damage dealt by targets for 50% while active",
-            "Lasts 5 seconds"
+            "Reduces damage dealt by targets for 50% while active"
         ]
     },
     {
