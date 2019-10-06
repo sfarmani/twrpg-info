@@ -813,7 +813,7 @@
         "passive": [
             "Unleash blades made from the spilled blood of your enemies.",
             "Activates on every 4th attack",
-            "Attack Damage X 250% damage"
+            "Attack Damage X 300% damage"
         ],
         "active": [
             "Focus blood into the tips of your nails.",
@@ -829,7 +829,7 @@
         "icon": "BloodWeaverW",
         "active": [
             "Swiftly move by transforming into bats.",
-            "Consumes Max HP X 30%",
+            "Consumes Max HP X 25%",
             "Max HP X 700% damage",
             "Invulnerable while travelling"
         ]
@@ -850,7 +850,8 @@
             "Continually deals Max HP X 200% damage",
             "INT X 25 bonus damage",
             "Heals for Max HP X 10% for each damage",
-            "Dragging Speed: 750"
+            "Dragging Speed: 750",
+            "Minimum duration: 0.75 seconds"
         ]
     },
     {
@@ -1087,7 +1088,7 @@
             "Main Stat X 50 magic damage",
             "Increases target's damage taken by 10% and reduces its movement speed for 3 seconds",
             "Knocksback target if cast consecutively",
-            "Recharges every 12 seconds"
+            "Recharges every (15 - PURE ATTACK SPEED / 15) seconds"
         ]
     },
     {
@@ -2490,9 +2491,10 @@
         "passive": [
             "Fierce spirits that chase the master's enemies.",
             "Deals Attack Damage X 150% + INT X 15 damage per spirit",
-            "Summons a spirit with 30% chance on attack, and with 15% chance on being hit",
+            "Summons a spirit with 30% chance on attack, and summons 1 spirit when moving 400 distance",
             "Critical attacks summons a spirit with 100% chance",
-            "Upon gathering more than 3 spirits, send out 3 spirits on next attack"
+            "Upon gathering more than 3 spirits, send out 3 spirits on next attack",
+            "Max of 3 spirts summoned"
         ],
         "active": [
             "\"It's time to relax!\"",
@@ -2508,10 +2510,11 @@
         "icon": "WindMageQ_2",
         "passive": [
             "Warm spirits that heal the master's allies.",
-            "Heals for INT X 0.7 per spirit",
-            "Summons a spirit with 30% chance on attack, and with 15% chance on being hit",
+            "Heals for 150 + 0.75 X INT per spirit",
+            "Summons a spirit with 30% chance on attack, and summons 1 spirit when moving 400 distance",
             "Critical attacks summons a spirit with 100% chance",
-            "Upon gathering more than 3 spirits, send out 3 spirits on next attack"
+            "Upon gathering more than 3 spirits, send out 3 spirits on next attack",
+            "Max of 3 spirts summoned"
         ],
         "active": [
             "\"It's time to attack!\"",
@@ -2527,7 +2530,7 @@
         "icon": "WindMageW",
         "active": [
             "Send out gentle winds infused with mana.",
-            "INT X 20 damage",
+            "INT X 25 damage",
             "Heals allies for INT X 2",
             "Cooldown reset upon casting Feather of Aeolus",
             "When two gentle winds combine, strong winds are formed for 4 seconds, dealing Attack Damage X 500% damage per second",
@@ -2659,7 +2662,7 @@
         "active": [
             "Consumes all remaining mana to unleash series of fierce attacks to bring down judgment on enemies.",
             "Each attack deals (AGI + INT) X 75 damage",
-            "Performs a total of (3 + remaining MP / 15) attacks",
+            "Performs a total of (5 + remaining MP / 20) attacks",
             "Vanishes after cast"
         ]
     },
@@ -2929,6 +2932,8 @@
             "Attack Damage X 500% damage per second",
             "STR X 50 bonus damage",
             "Deals 100% bonus damage to bleeding targets and resets bleed duration",
+            "When near enemies and Blade Rush is active, sets movement speed to 500",
+            "Ignores unit collision while active",
             "Lasts 2 seconds"
         ]
     },
@@ -4123,7 +4128,8 @@
         "active": [
             "Hops onto your broom.",
             "Increases movement speed by 500 for 1.5 seconds",
-            "Ignores unit collision"
+            "Ignores unit collision",
+            "Flight height of 225"
         ]
     },
     {
@@ -4151,7 +4157,8 @@
             "INT X 30 magic damage",
             "Heals for INT X 1.5",
             "Refills 1 charge every 6 seconds",
-            "Can hold up to 4 charges"
+            "Can hold up to 4 charges",
+            "Can pierce enemies"
         ]
     },
     {
@@ -4225,7 +4232,7 @@
             "Brands the target with power.",
             "Increases damage dealt by 7.5%",
             "Reduces damage taken by 20%",
-            "Increases attack by 50%",
+            "Increases attack speed by 50%",
             "Lasts 45 seconds"
         ]
     },

@@ -3477,15 +3477,11 @@
     "id": "I0AT",
     "name": "Sealed Archangel Wings",
     "dropped_by": [
-      "Guardian Angel",
-      "Archangel Samael"
+      "Guardian Angel"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": [
-      0.0022,
-      0.012
-    ],
+    "droprate": 0.005,
     "required_by": [
       "Bahanar, the True Sword of Illusion",
       "Oceanus, the Sword of Light",
@@ -6124,10 +6120,6 @@
         "If target is self: grants target with +40% Magic Defense and heals for INT X 50% per tick for 5 seconds",
         "Upon expiration, will explode dealing INT X 40 splash damage",
         "Cooldown: 25 seconds, cannot be dropped during cooldown"
-      ],
-      "spec": [
-        "Specialty - Squeeze Out",
-        "Blood Weaver - Life Drain's minimum duration is increased by 0.5 seconds."
       ]
     },
     "koreanname": "기생의 지팡이"
@@ -6632,7 +6624,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.009,
     "required_by": [
       "Claws of Beriel",
       "Tiberius, the Spear of Lightning",
@@ -6654,7 +6646,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.009,
     "required_by": [
       "Oceanus, the Sword of Light",
       "Halo of Judgment",
@@ -6676,7 +6668,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.009,
     "required_by": [
       "Ruinbringer",
       "Hell Riser",
@@ -10353,10 +10345,6 @@
       "passive": [
         "On attack, activates Poem of Wind, firing an additional projectile that deals (attack damage X 15%) pure damage",
         "Damage is affected by wind/lightning affinity"
-      ],
-      "spec": [
-        "Specialty - Curse of the Skies",
-        "Sniper - Storm Shaft's damage is reduced by 20%."
       ]
     }
   },
@@ -11961,10 +11949,6 @@
       "mdpercent": -0.15,
       "passive": [
         "'Poem of Wind' Fire 1 additional projectiles on every attack that deals 0.15x Attack Damage as Pure Damage. Poem of Wind can Crit. Can trigger on attack effects"
-      ],
-      "spec": [
-        "Specialty - Curse of the Skies",
-        "Sniper - Storm Shaft's damage is reduced by 20%."
       ]
     }
   },
