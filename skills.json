@@ -1709,7 +1709,7 @@
         "color": "ff8080",
         "hotkey": "[R] → [Q]",
         "icon": "ElementalistR_Q",
-        "passive": [
+        "active": [
             "Slams down the ground to call forth protective earth spirits hiding underneath.",
             "Grants shields to nearby allies that absorb (Target's Max HP X 20% + Summoner's INT X 2) damage",
             "Lasts 3 seconds"

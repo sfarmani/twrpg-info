@@ -13848,7 +13848,7 @@
       "intelligence": 1095,
       "hp": 6000,
       "passive": [
-        "'Salvation' Increases nearby allies Skill Damage by 6% and Magic Resistance by 8% (overrides EotA/Void Eye aura)"
+        "'Salvation' Increases nearby allies Skill Damage by 6% and Magic Resistance by 8%"
       ],
       "active": [
         "'Prayer of the Priest' Fires 6 waves of beams that spiral outward from your hero followed by an explosion on the 7th wave, 750 AoE dealing Intelligence x200 total. All nearby allies are healed for 1.5x Int per wave. Character cannot move during active but can still cast other spells and are protected by a shield that blocks 15,000 + 5x Int damage and lasts for duration"
