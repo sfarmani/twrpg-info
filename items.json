@@ -15206,7 +15206,6 @@
         "Empowers nearby allies within 750 AoE radius, increasing their attack damage by wielder's INT, their attack speed by 25%, and HP regen by 400"
       ],
       "active": [
-        "'Cleanse' Heal target ally for 10% Health every second, removes any debuffs, and prevents their Health from dropping below 1 for 3 seconds. (20 second CD)",
         "On use, activates Purification on targeted ally, granting them the following effects for 3 seconds:",
         "Prevents HP from dropping below 1",
         "Heals 0.10 X target's max HP and removes any debuffs each second",
