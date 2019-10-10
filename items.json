@@ -1932,7 +1932,6 @@
       "armor": 450,
       "allstat": 410,
       "critchancepercent": 0.075,
-      "movespeedpercent": 0.12,
       "passive": [
         "On crit, strike down a lightning dealing (3 X (STR + AGI + INT)) damage with a 15% chance to deal 5 times the original amount (2 second cooldown)"
       ]
@@ -5458,7 +5457,6 @@
     "stats": {
       "armor": 400,
       "allstat": 380,
-      "movespeedpercent": 0.12,
       "skilldamagepercent": 0.05,
       "affinityflamepercent": 0.04,
       "passive": [
@@ -12755,7 +12753,6 @@
     "stats": {
       "armor": 570,
       "allstat": 790,
-      "movespeedpercent": 0.12,
       "critchancepercent": 0.1,
       "affinitywlpercent": 0.075,
       "passive": [
@@ -12803,7 +12800,6 @@
     "stats": {
       "armor": 310,
       "allstat": 630,
-      "movespeedpercent": 0.15,
       "skilldamagepercent": 0.06,
       "affinityflamepercent": 0.05,
       "active": [
@@ -12839,7 +12835,6 @@
     "stats": {
       "armor": 640,
       "allstat": 720,
-      "movespeedpercent": 0.12,
       "skilldamagepercent": 0.075,
       "affinityiwpercent": 0.075,
       "active": [
