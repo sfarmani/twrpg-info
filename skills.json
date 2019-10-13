@@ -2765,7 +2765,8 @@
             "Increases damage dealt by target by 40%",
             "Decreases damage taken by target by 60%",
             "Heals for Max HP X 30% per second",
-            "Except for self, the target cannot be affected by Indomitable Strength again for 300 seconds"
+            "Except for self, the target cannot be affected by Indomitable Strength again for 300 seconds",
+            "Cast range: 750"
         ]
     },
     {
@@ -3653,7 +3654,8 @@
             "INT X 75 damage",
             "Blinds enemies within area",
             "Grants barrier to allies within area",
-            "Absorbs for INT X 6"
+            "Absorbs for INT X 6",
+            "Stuns for 0.01 seconds"
         ]
     },
     {
