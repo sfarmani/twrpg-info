@@ -1,5 +1,21 @@
 [
     {
+        "name": "26y",
+        "changes": [
+            "> Compatible Version: v0.24c ~",
+            "# Bug Fixes",
+            "  • Witch - Fixed Star shower (W) not dealing damage to enemies it pierces",
+            "  • General - Fixed various bugs",
+            "# Heroes",
+            "  * Priest *",
+            "    • Divine Light (R)",
+            "      ▪ Added 0.01 seconds stun",
+            "  * Merchant *",
+            "    • Scroll of God's Blessing (F)",
+            "      ▪ Cast range: 600 → 750"
+        ]
+    },
+    {
         "name": "26w",
         "changes": [
             "> Compatible Version: v0.24c ~",
