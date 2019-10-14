@@ -6230,7 +6230,7 @@
         ],
         "items": [
             {
-                "name": "Item Notes",
+                "name": "Item notes",
                 "changes": [
                     "Weapons added in the future will be scaled down according to these changes"
                 ]
@@ -7581,7 +7581,7 @@
         ],
         "items": [
             {
-                "name": "Item Notes",
+                "name": "Item notes",
                 "changes": [
                     "Elixir cooldown 240 seconds → 120 seconds"
                 ]
