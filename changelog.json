@@ -2889,72 +2889,78 @@
                     [
                         "Shield duration when summoned 30 seconds → 10 seconds",
                         "Summons now appear on top/bottom of area instead of under boss"
-                    ],
-                    "Death Devourer",
+                    ]
+                ]
+            },
+            {
+                "name": "Death Fiend - Death Devourer",
+                "changes": [
+                    "Soul Absorbtion",
                     [
-                        "Soul Absorbtion",
-                        [
-                            "Reduced recovery amount by 100% → 25% + (5% increase per second)",
-                            "Damage per second 4000 → Max HP X 5% + 0.5% increase per second",
-                            "Once outside of aura range, extra healing taken reduction and damage stacks will be reset",
-                            "Removed 0.6% hp regen per second to nearby allies part of aura"
-                        ],
-                        "Howl",
-                        [
-                            "Casting time 2 seconds → 1.5 seconds; Changed to be interruptable by all stun effects, including freeze",
-                            "Movement speed of souls reduced; They will disappear and deal 7500 magic damage if they are absorbed by a hero or restore 15% HP if they are absorbed by devourer",
-                            "New effect: Periodically souls appear at random locations in area and fly towards devourer"
-                        ],
-                        "Charge",
-                        [
-                            "Can target both marked and unmarked heroes",
-                            "Marks a target",
-                            "Destroy terrain when it touches it and continue charge towards target",
-                            "Reduced inital speed and made it increase over duration",
-                            "Changed cooldown to be shorter if non-marked hero was targetted"
-                        ]
+                        "Reduced recovery amount by 100% → 25% + (5% increase per second)",
+                        "Damage per second 4000 → Max HP X 5% + 0.5% increase per second",
+                        "Once outside of aura range, extra healing taken reduction and damage stacks will be reset",
+                        "Removed 0.6% hp regen per second to nearby allies part of aura"
                     ],
-                    "Death Huntress",
+                    "Howl",
                     [
-                        "Arrow",
-                        [
-                            "Can target both marked and unmarked heroes",
-                            "Damage: 100,000 → 15,000 + Max HP X 40% of the target / Insta-kills bleeding targets",
-                            "Added bleeding debuff that increases damage target receives by 30% and reduces speed by 30% for 30 seconds (cannot be cleansed)",
-                            "Fly at constant speed after cast → slow cast time, showing trajectory during casting and flying at high speed after casting"
-                        ],
-                        "Vortex",
-                        [
-                            "Duration: 45 seconds → 30 seconds",
-                            "Radius increase per stacked vortex reduced and removed duratin reset if vortexes overlap",
-                            "Pulling speed reduced and stunned units no longer get pulled",
-                            "Explosion radius: 150% → 100%"
-                        ],
-                        "Death Hound",
-                        [
-                            "HP: 5,130,190 → 4,130,190",
-                            "Number of hounds generated per vortex 3 → 2"
-                        ]
+                        "Casting time 2 seconds → 1.5 seconds; Changed to be interruptable by all stun effects, including freeze",
+                        "Movement speed of souls reduced; They will disappear and deal 7500 magic damage if they are absorbed by a hero or restore 15% HP if they are absorbed by devourer",
+                        "New effect: Periodically souls appear at random locations in area and fly towards devourer"
                     ],
-                    "Death Weaver",
+                    "Charge",
                     [
-                        "Swipe",
-                        [
-                            "Stun Duration: 0.15 seconds → 0.2 seconds"
-                        ],
-                        "Wave",
-                        [
-                            "Damage: 90,000 per wave → 40,000; Insta-kills marked targets",
-                            "Stun for 3 seconds when hit",
-                            "Wave travel distance: 600 → Infinite; Reduced movement speed of waves",
-                            "Directions are now random"
-                        ],
-                        "Blink",
-                        [
-                            "Can target both marked and unmarked heroes",
-                            "Marks a target",
-                            "Increased stun duration/delay until next spell cast by 0.5 seconds"
-                        ]
+                        "Can target both marked and unmarked heroes",
+                        "Marks a target",
+                        "Destroy terrain when it touches it and continue charge towards target",
+                        "Reduced inital speed and made it increase over duration",
+                        "Changed cooldown to be shorter if non-marked hero was targetted"
+                    ]
+                ]
+            },
+            {
+                "name": "Death Fiend - Death Huntress",
+                "changes": [
+                    "Arrow",
+                    [
+                        "Can target both marked and unmarked heroes",
+                        "Damage: 100,000 → 15,000 + Max HP X 40% of the target / Insta-kills bleeding targets",
+                        "Added bleeding debuff that increases damage target receives by 30% and reduces speed by 30% for 30 seconds (cannot be cleansed)",
+                        "Fly at constant speed after cast → slow cast time, showing trajectory during casting and flying at high speed after casting"
+                    ],
+                    "Vortex",
+                    [
+                        "Duration: 45 seconds → 30 seconds",
+                        "Radius increase per stacked vortex reduced and removed duratin reset if vortexes overlap",
+                        "Pulling speed reduced and stunned units no longer get pulled",
+                        "Explosion radius: 150% → 100%"
+                    ],
+                    "Death Hound",
+                    [
+                        "HP: 5,130,190 → 4,130,190",
+                        "Number of hounds generated per vortex 3 → 2"
+                    ]
+                ]
+            },
+            {
+                "name": "Death Fiend - Death Weaver",
+                "changes": [
+                    "Swipe",
+                    [
+                        "Stun Duration: 0.15 seconds → 0.2 seconds"
+                    ],
+                    "Wave",
+                    [
+                        "Damage: 90,000 per wave → 40,000; Insta-kills marked targets",
+                        "Stun for 3 seconds when hit",
+                        "Wave travel distance: 600 → Infinite; Reduced movement speed of waves",
+                        "Directions are now random"
+                    ],
+                    "Blink",
+                    [
+                        "Can target both marked and unmarked heroes",
+                        "Marks a target",
+                        "Increased stun duration/delay until next spell cast by 0.5 seconds"
                     ]
                 ]
             }
