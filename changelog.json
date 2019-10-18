@@ -2135,7 +2135,12 @@
                         "Damage resistance reduction: 6% → 5%",
                         "Damage will now crit even if it does not break a shield",
                         "Cooldown: 10 seconds → 8 seconds"
-                    ],
+                    ]
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
                     "Battle Recovery (R)",
                     [
                         "When above 60 Ki, increases skill damage by 30% → increases damage output by 20%",
