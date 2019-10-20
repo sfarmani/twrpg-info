@@ -1,5 +1,15 @@
 [
     {
+        "name": "26z2",
+        "notes": [
+            "Released on: October 20th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Ifrit - Fixed bugs related to boss fight"
+        ]
+    },
+    {
         "name": "26z",
         "notes": [
             "Released on: October 20th, 2019",
