@@ -1,5 +1,13 @@
 [
     {
+        "name": "26z",
+        "notes": [
+            "Released on: October 20th, 2019",
+            "Compatible Version: v0.24c ~",
+            "Minor changes to prepare for future content"
+        ]
+    },
+    {
         "name": "26y",
         "notes": [
             "Released on: October 12th, 2019",
