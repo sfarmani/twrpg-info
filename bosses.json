@@ -471,7 +471,7 @@
         "name": "Corrupt Angel",
         "limit": "3",
         "manacost": "1",
-        "location": "In Frosty Snowfield summoned after 1 minute of summoning Guardian Angel",
+        "location": "In Frosty Snowfield summoned after 2 minute of summoning Guardian Angel",
         "conditions": "Level 200 and Angels summoned",
         "drops": [
             "I0C4",
