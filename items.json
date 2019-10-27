@@ -4209,8 +4209,8 @@
       "agility": 180,
       "dtpercent": -0.075,
       "passive": [
-        "Steals target's soul on use for 5 seconds",
-        "If target dies while draining, grants 350 AGI for 15 minutes",
+        "Steals target's soul on use for 5 seconds, healing hero for (max HP / 7.5) and deals (MAIN STAT X 8 + max HP / 7.5) magic damage to target",
+        "If target dies while draining, grants 350 AGI for 5 minutes",
         "Cooldown: 150 seconds, cannot be dropped during cooldown"
       ]
     },
@@ -4237,11 +4237,12 @@
       "armor": 333,
       "intelligence": 666,
       "passive": [
-        "+4% to nearby allies' skill damage"
+        "Nearby allies' skill damage +4%"
       ],
       "active": [
         "On use, summons 4 monsters",
-        "INT increase is lowered by half while on cooldown"
+        "INT increase is lowered by half while on cooldown",
+        "Cooldown: 100 seconds, cannot be dropped during cooldown"
       ]
     },
     "koreanname": "심연의 눈"
@@ -11152,10 +11153,10 @@
       "agility": 1000,
       "skilldamagepercent": 0.12,
       "passive": [
-        "((hit count + 20%) + 8)% Chance to activate Grace Tear on attack dealing ((main stat X 32.5) + (attack damage X 7.5)) magic splash damage and stuns for 0.1 seconds"
+        "(HIT COUNT X 0.2) + 8)% chance to activate Grace Tear on attack dealing ((MAIN STAT X 32.5) + (ATTACK DAMAGE X 7.5)) magic splash damage and stuns for 0.1 seconds"
       ],
       "active": [
-        "On use, activates Grand Forte slamming the ground 6 times around user dealing ((main stat X 130) / 12) magic damage and stunning for 0.125 seconds",
+        "On use, activates Grand Forte slamming the ground 6 times around user dealing ((MAIN STAT X 130) / 12) magic damage and stunning for 0.125 seconds",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
