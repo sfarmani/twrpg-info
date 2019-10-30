@@ -3655,7 +3655,7 @@
             "Blinds enemies within area",
             "Grants barrier to allies within area",
             "Absorbs for INT X 6",
-            "Stuns for 0.01 seconds"
+            "Stuns for 0.5 seconds"
         ]
     },
     {

@@ -1,5 +1,56 @@
 [
     {
+        "name": "27a",
+        "notes": [
+            "Released on: October 30th, 2019",
+            "Compatible Version: v0.24c ~",
+            "HALLOWEEN EVENT: Active until November 10th, 2019 23:59:59 UTC"
+        ],
+        "bugs": [
+            "Winter's Heart - Fixed Excalibur having at cooldown of 120 seconds instead of 60 seconds when equipped"
+        ],
+        "items": [
+            {
+                "name": "Cosmic Star",
+                "changes": [
+                    "Shooter spec - Twin Star (Q) Damage increase 300% → 250%"
+                ]
+            },
+            {
+                "name": "Pure Crystal Wings",
+                "changes": [
+                    "Arcane Mage spec - removed"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Archangel Samael",
+                "changes": [
+                    "HP increased by 2 million",
+                    "Judgment (wheel) iterations 10/10 → 8/8"
+                ]
+            },
+            {
+                "name": "Skull King Desperia",
+                "changes": [
+                    "Fixed issue with units getting stuck in terrain"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Priest",
+                "changes": [
+                    "Divine Light (R)",
+                    [
+                        "Stun duration: 0.01 seconds → 0.5 seconds"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "26z2",
         "notes": [
             "Released on: October 20th, 2019",

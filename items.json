@@ -15650,10 +15650,6 @@
       "mpregen": 125,
       "passive": [
         "On skill cast, 5% chance to reset all cooldowns (except ultimate), effect triggers 2 seconds after the skill that initiates it (150 second CD)"
-      ],
-      "spec": [
-        "Specialty",
-        "Arcane Mage - Improved Starlight: Starlight's missle damage increased by 8%"
       ]
     }
   },
@@ -17129,7 +17125,7 @@
       ],
       "spec": [
         "Specialty - Cosmic Star",
-        "Shooter - Twin Star: Damage type is converted to magic, but damage is increased by 300% and heals allies hit for (INT X 0.5 + Target's Max HP X 15%)",
+        "Shooter - Twin Star: Damage type is converted to magic, but damage is increased by 250% and heals allies hit for (INT X 0.5 + Target's Max HP X 15%)",
         "Shooter - Nanomachine Injection: Healing speed increased by 60% and duration increased by 50%; while buff is active, target is immune to debuffs"
       ]
     }
