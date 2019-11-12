@@ -13767,7 +13767,7 @@
       "strength": 380,
       "intelligence": 1080,
       "skilldamagepercent": 0.08,
-      "mpregen": 125,
+      "mpregen": 80,
       "active": [
         "Aoe Magic barrier (200 AoE, 40% MR to nearby allies, magic immunity to self)"
       ]
@@ -13887,7 +13887,7 @@
       "armor": 595,
       "intelligence": 1125,
       "skilldamagepercent": 0.08,
-      "mpregen": 300,
+      "mpregen": 150,
       "passive": [
         "On skill cast gives an orb. Each orb increases INT by 100 and 1% SD. 50% chance to get 2 orbs on skill cast instead of one. (Max 4 orbs)"
       ],
