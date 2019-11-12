@@ -1,5 +1,35 @@
 [
     {
+        "name": "27b",
+        "notes": [
+            "Released on: ",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fixed a bug that could unbind items"
+        ],
+        "items": [
+            {
+                "name": "Ring of Time",
+                "changes": [
+                    "Removed Spirit of Abyss from recipe"
+                ]
+            },
+            {
+                "name": "Bloodsoul Plates",
+                "changes": [
+                    "Removed Burning Bone Fragments from recipe"
+                ]
+            }
+        ],
+        "misc": [
+            "Halloween Event",
+            [
+                "End of event (You may use the previous version until 11/11 23:59:59, but you must verify all event repalys before that)"
+            ]
+        ]
+    },
+    {
         "name": "27a",
         "notes": [
             "Released on: October 30th, 2019",
