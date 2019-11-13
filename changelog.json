@@ -1,6 +1,10 @@
 [
     {
         "name": "27c",
+        "notes": [
+            "Released on: November 12th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
         "bugs": [
             "Fixed boss lazer visual effects not showing"
         ]
@@ -8,7 +12,7 @@
     {
         "name": "27b",
         "notes": [
-            "Released on: ",
+            "Released on: November 11th, 2019",
             "Compatible Version: v0.24c ~"
         ],
         "bugs": [
