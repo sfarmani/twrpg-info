@@ -1,5 +1,11 @@
 [
     {
+        "name": "27c",
+        "bugs": [
+            "Fixed boss lazer visual effects not showing"
+        ]
+    },
+    {
         "name": "27b",
         "notes": [
             "Released on: ",
