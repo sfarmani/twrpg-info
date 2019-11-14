@@ -885,7 +885,7 @@
         "name": "Valtora",
         "limit": "2",
         "manacost": "6",
-        "summon": "The North-most portal in the tower located east of the Secluded Forest",
+        "summon": "The Left-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 420 and Key of Storm crafted",
         "drops": [
             "ocor",
@@ -899,7 +899,7 @@
         "name": "Ifrit",
         "limit": "2",
         "manacost": "6",
-        "summon": "The West-most portal in the tower located east of the Secluded Forest",
+        "summon": "The Right-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 420 and Key of Flame crafted",
         "drops": [
             "I0JS",
