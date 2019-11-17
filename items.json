@@ -16800,13 +16800,13 @@
       }
     ],
     "stats": {
-      "allstat": 1010,
+      "allstat": 1060,
       "mpregen": 200,
       "passive": [
         "Casting single-target spells on enemies decreases their magic resistance by 6% for 12 seconds"
       ],
       "active": [
-        "Deals 2.5% Max HP pure damage to debuffed enemy and freezes them for 2 seconds. Damage affected by Water/Ice Affinity. (30s CD)"
+        "Deals 2% Max HP pure damage to debuffed enemy and freezes them for 2 seconds. Damage affected by Water/Ice Affinity. (30s CD)"
       ]
     }
   },
@@ -16973,7 +16973,7 @@
       "spec": [
         "Specialties - Transmission of Darkness, Forbidden Grimoire",
         "Priest - Holy Aurora is replaced by Dark Aurora [Lv 2]",
-        "Warlock - While Forbidden Magic is active, Soul Grimoire does not consume MP and its damage is increased by 5%"
+        "Warlock - While Forbidden Magic is active, Soul Grimoire does not consume MP"
       ]
     }
   },

@@ -1,5 +1,65 @@
 [
     {
+        "name": "27d",
+        "notes": [
+            "Released on: November 17th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fixed map download issues",
+            "Fixed visual effects for wings on some characters",
+            "Staff of Plague - Fixed bug where attack speed was increased by 30% instead of 35%"
+        ],
+        "items": [
+            {
+                "name": "Grimoire of Darkness",
+                "changes": [
+                    "Warlock spec - Damage is increased by 5% → 0%"
+                ]
+            },
+            {
+                "name": "Ring of Composure",
+                "changes": [
+                    "All Stats: 1010 → 1060",
+                    "Active damage: Max HP X 2.5% → Max HP X 2%"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Ancient Ent",
+                "changes": [
+                    "Amount of orbs summoned increased by 66%, damage dealt by orb: 10000 → 250"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Mana Blaster (R)",
+                    [
+                        "Summon 1 orb → 3 (if you have enought MP)",
+                        "Summon orb cooldown: 0.3s → 1s"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Wind Walk (E)",
+                    [
+                        "Duration 0.6 seconds → 1 second",
+                        "Heal amount increased by while walking: 300% → 200%"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "First round of titles applied"
+        ]
+    },
+    {
         "name": "27c",
         "notes": [
             "Released on: November 12th, 2019",

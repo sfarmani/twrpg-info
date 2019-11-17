@@ -4058,8 +4058,8 @@
             "Restores HP 5% / 10 ki per second while walking"
         ],
         "active": [
-            "Increases movement speed and ignores collision for 0.6 seconds",
-            "Increases restored amounts by 300% while walking"
+            "Increases movement speed and ignores collision for 1 seconds",
+            "Increases restored amounts by 200% while walking"
         ]
     },
     {
