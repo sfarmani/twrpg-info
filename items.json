@@ -11857,7 +11857,7 @@
     "stats": {
       "damage": 22500,
       "intelligence": 2480,
-      "attackspeedpercent": 0.3,
+      "attackspeedpercent": 0.35,
       "skilldamagepercent": 0.1,
       "periodicdamagepercent": 0.1,
       "active": [
