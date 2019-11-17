@@ -4208,7 +4208,7 @@
       "strength": 240,
       "agility": 180,
       "dtpercent": -0.075,
-      "passive": [
+      "active": [
         "Steals target's soul on use for 5 seconds, healing hero for (max HP / 7.5) and deals (MAIN STAT X 8 + max HP / 7.5) magic damage to target",
         "If target dies while draining, grants 350 AGI for 5 minutes",
         "Cooldown: 150 seconds, cannot be dropped during cooldown"
@@ -4263,7 +4263,7 @@
       "Storm"
     ],
     "stats": {
-      "damage": 4000,
+      "damage": 4500,
       "strength": 350,
       "agility": 500,
       "skilldamagepercent": 0.04,
@@ -4398,7 +4398,8 @@
       "strength": 70,
       "agility": 75,
       "passive": [
-        "Chance to deal splash damage on attack"
+        "25% Chance to deal pure splash damage on attack",
+        "Damage depends on hero's attack damage"
       ]
     },
     "koreanname": "쉘 소드"
@@ -4421,7 +4422,10 @@
       "armor": 140,
       "hp": 2400,
       "passive": [
-        "Reflects damage back at attacker"
+        "Reflects damage if attacked",
+        "Reflected damage depends on user's base attack damage:",
+        "If base attack damage is more than 300, damage reflected is 1200 pure damage",
+        "If base attack damage is 300 and less, damage reflected is (base attack damage X 4) pure damage"
       ]
     },
     "koreanname": "크랩 아머"
@@ -4443,8 +4447,11 @@
     "stats": {
       "allstat": 85,
       "mpregen": 7.5,
-      "passive": [
-        "Calls a refreshing wave upon use healing all allies and self hit by the wave for 6000 HP"
+      "active": [
+        "Calls a refreshing wave upon use",
+        "If unit hit with wave is ally, heals for 3000 HP",
+        "If unit hit with wave is enemy, deals (MAIN STAT X 25) + 4000 magic damage",
+        "Cooldown: 120 seconds"
       ]
     },
     "koreanname": "바다의 진주"
@@ -4466,7 +4473,7 @@
     "stats": {
       "allstat": 60,
       "passive": [
-        "Chance to temporarily increase EXP gain and MP regen on monster kill"
+        "On kill, 8% chance to temporarily boost EXP gain by 12% and MP regen by 15% for 30 seconds"
       ]
     },
     "koreanname": "워터폴 슈즈"
@@ -4486,7 +4493,7 @@
       "intelligence": 85,
       "attackspeedpercent": 0.1,
       "passive": [
-        "Deal 1500 bonus damage on attack"
+        "Deal 1500 bonus magic damage on attack"
       ]
     },
     "koreanname": "상아 지팡이"
@@ -4548,7 +4555,9 @@
       "agility": 160,
       "attackspeedpercent": 0.2,
       "passive": [
-        "Applies bonus magic damage and a slow effect on attack"
+        "Applies bonus magic damage and a slow effect on attack",
+        "Each attack deals a bonus of (Water/Ice affinity X 800 ~ 1500) magic damage",
+        "Slow effect lasts for 0.75 seconds"
       ]
     },
     "koreanname": "아이시클 보우"
@@ -4567,8 +4576,10 @@
       "intelligence": 210,
       "hp": 2000,
       "skilldamagepercent": 0.04,
-      "passive": [
-        "Summons Snowman on use"
+      "active": [
+        "Summons Snowman on use that deals (INT X 15) + 5000 magic damage upon landing on an enemy",
+        "Each snowman's attack applies a slow effect to target and has a 15% chance to deal (INT X 2.5) + 2500 magic damage",
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     },
     "koreanname": "스노우맨 펜던트"
@@ -6000,8 +6011,7 @@
       "Seal of Deceiver",
       "Soul of the Dead",
       "Bag of Mother Nature",
-      "Grimoire of Darkness",
-      "Ring of Time"
+      "Grimoire of Darkness"
     ],
     "koreanname": "심연의 기운"
   },
@@ -7109,7 +7119,6 @@
       "Griveddon, the Bow of Certain Destruction",
       "Ruinbringer",
       "Hellspike Armor",
-      "Bloodsoul Plates",
       "Wings of Phoenix",
       "Archangel Wings",
       "Bag of Destruction"
