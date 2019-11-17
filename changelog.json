@@ -29,7 +29,7 @@
             {
                 "name": "Ancient Ent",
                 "changes": [
-                    "Amount of orbs summoned increased by 66%, damage dealt by orb: 10000 → 250"
+                    "Amount of orbs summoned increased by 66%, damage dealt by orb: 10000 → 2500 magic damage"
                 ]
             }
         ],
