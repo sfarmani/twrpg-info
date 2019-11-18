@@ -658,7 +658,7 @@
             "Create a gate in dimension that spews corrupt spirits to attack nearby enemies.",
             "Consumes Max MP X 30%",
             "Each attack deals Consumed MP X 600% damage",
-            "Attack speed is affected by Witch's attack speed bonus",
+            "Attack speed is affected by Warlock's attack speed bonus",
             "Can maintain up to a maximum of 2 gates",
             "Orb attacks prioritizes target witch is attacking if witch is nearby",
             "Base attack cycle: 4 seconds",
@@ -750,7 +750,7 @@
         "active": [
             "Embrace your end!",
             "Activates Crucifixion at target area",
-            "Activation count is increased base on Witch's attack speed"
+            "Activation count is increased base on Warlock's attack speed"
         ]
     },
     {

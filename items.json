@@ -4600,7 +4600,8 @@
       "strength": 100,
       "agility": 85,
       "passive": [
-        "Chance to freeze nearby enemies on being hit"
+        "10% Chance to freeze nearby enemies on being hit and deal 30000 magic damage",
+        "Freeze lasts for 1.5 seconds"
       ]
     },
     "koreanname": "글래시어 가드"
@@ -4625,7 +4626,8 @@
       "intelligence": 240,
       "skilldamagepercent": 0.03,
       "passive": [
-        "Allows you to dodge a fatal damage every 90 seconds"
+        "Allows you to dodge a fatal damage if damage dealt makes HP drop below 40.5% every 90 seconds",
+        "Cannot be dropped during cooldown"
       ]
     },
     "koreanname": "바람막이 털옷"
@@ -4649,7 +4651,8 @@
       "agility": 155,
       "passive": [
         "+10% damage dealt by attack",
-        "Deals double damage when attacking same target"
+        "Deals double damage when attacking same target",
+        "Second attack applied is pure damage"
       ]
     },
     "koreanname": "킹콩의 손톱"
@@ -4673,7 +4676,7 @@
       "hp": 3500,
       "mp": 3500,
       "passive": [
-        "On use, activates Restore Stamina healing you for 2000 HP and increases attack and movement speed for 5 seconds (20 second cooldown)"
+        "On use, activates Restore Stamina, restoring HP and MP for 2000 and increasing attack speed by 15%"
       ]
     },
     "koreanname": "고기 주머니"
@@ -4697,7 +4700,7 @@
       "mainstat": 100,
       "allstat": 100,
       "passive": [
-        "Increases nearby allies' speed"
+        "Increases nearby allies' movement speed by 20% and attack speed by 10%"
       ]
     },
     "koreanname": "열정의 투구"
@@ -4744,7 +4747,7 @@
       "damage": 6500,
       "agility": 410,
       "passive": [
-        "Chance to activate Explosion on attack"
+        "~14.9% Chance to activate Explosion on attack dealing (AGI X 10) magic splash damage"
       ]
     },
     "koreanname": "블래스터"
@@ -4769,7 +4772,7 @@
       "agility": 275,
       "critmultiplier": 0.2,
       "passive": [
-        "Chance to activate Wrath on skill cast"
+        "12.5% Chance to activate Wrath on skill cast dealing (MAIN STAT X 40) magic splash damage and stuns for 1 second"
       ]
     },
     "koreanname": "작은 분노의 조각"
@@ -4792,7 +4795,8 @@
       "strength": 460,
       "skilldamagepercent": 0.03,
       "passive": [
-        "Grants 2% chance to inflict STR X 50 damage on attack"
+        "Grants 2% chance to inflict STR X 50 magic damage on attack",
+        "Damage is affected by flame affinity"
       ]
     },
     "koreanname": "플레임리버"
@@ -4820,9 +4824,9 @@
       "critmultiplier": 0.15,
       "passive": [
         "Activates Unleash every 14th attack",
-        "Red Wrath: deals (main stat X 22.5) magic splash damage",
-        "Green Wrath: reduces target movement and attack speed by 66% for 3 seconds, deals (main stat X 12.5) magic splash damage, and stuns non-boss units for 0.25 seconds",
-        "Blue Wrath: heals user for (main stat + 3000) HP and (current mana + (max mana X 15%)) MP"
+        "Red Wrath: deals (MAIN STAT X 22.5) magic splash damage",
+        "Green Wrath: reduces target movement and attack speed by 66% for 3 seconds, deals (MAIN STAT X 12.5) magic splash damage, and stuns non-boss units for 0.25 seconds",
+        "Blue Wrath: heals user for (MAIN STAT + 3000) HP and (current MP + (max MP X 15%)) MP"
       ]
     },
     "koreanname": "진혼검"
@@ -4849,9 +4853,9 @@
       "skilldamagepercent": 0.04,
       "passive": [
         "Activates Unleash every 14th attack",
-        "Red Wrath: deals (main stat X 22.5) magic splash damage",
-        "Green Wrath: reduces target movement and attack speed by 66% for 3 seconds, deals (main stat X 12.5) magic splash damage, and stuns non-boss units for 0.25 seconds",
-        "Blue Wrath: heals user for (main stat + 3000) HP and (current mana + (max mana X 15%)) MP"
+        "Red Wrath: deals (MAIN STAT X 22.5) magic splash damage",
+        "Green Wrath: reduces target movement and attack speed by 66% for 3 seconds, deals (MAIN STAT X 12.5) magic splash damage, and stuns non-boss units for 0.25 seconds",
+        "Blue Wrath: heals user for (MAIN STAT + 3000) HP and (current MP + (max MP X 15%)) MP"
       ]
     },
     "koreanname": "진혼궁"
