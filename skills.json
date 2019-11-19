@@ -660,7 +660,7 @@
             "Each attack deals Consumed MP X 600% damage",
             "Attack speed is affected by Warlock's attack speed bonus",
             "Can maintain up to a maximum of 2 gates",
-            "Orb attacks prioritizes target witch is attacking if witch is nearby",
+            "Orb attacks prioritizes Warlock's target if Warlock is nearby",
             "Base attack cycle: 4 seconds",
             "Cooldown: 0 seconds"
         ]
