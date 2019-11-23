@@ -1723,7 +1723,7 @@
         "icon": "ElementalistT",
         "passive": [
             "Forms a spiritual link with summon, granting it various stat bonuses. The link breaks if the summon strays too far from the summoner.",
-            "Provides 50% skill damage and damage reduction to target",
+            "Provides 40% skill damage and 50% damage reduction to target",
             "Provides immunity to instant death spells",
             "Heals for (Target's Max HP X 5%) per second",
             "Forming links with some summons may provide an additional ability to Elementalist",
