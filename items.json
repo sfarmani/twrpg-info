@@ -4914,7 +4914,7 @@
       "skilldamagepercent": 0.03,
       "critchancepercent": 0.03,
       "passive": [
-        "If HP drops low, gains 90% damage reduction for 3 seconds"
+        "If HP drops below 15%, gains 90% damage reduction for 3 seconds"
       ]
     },
     "koreanname": "망자의 옷"
@@ -4970,8 +4970,8 @@
       "skilldamagepercent": 0.04,
       "dtpercent": 0.06,
       "active": [
-        "On use, activates Bloodlust granting bonus attack speed, damage, and 100% life steal for 12 seconds",
-        "Cooldown: 90 seconds"
+        "On use, activates Bloodlust granting 30% life steal, 400 main stat, and 100% bonus attack and movement speed for 8 seconds",
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     },
     "koreanname": "피의 가면"
@@ -5030,14 +5030,14 @@
       "Bloodstone Plates"
     ],
     "stats": {
-      "armor": 430,
-      "strength": 340,
-      "intelligence": 340,
-      "agility": 130,
-      "dtpercent": -0.06,
+      "armor": 300,
+      "strength": 250,
+      "intelligence": 250,
+      "dtpercent": -0.05,
       "active": [
-        "On use, activates Stone Form which increases HP and MP regen by 5000, main stat by 5%, and a shield for main stat X 3 for 2 seconds",
-        "Cooldown: 40 seconds"
+        "On use, activates Stone Form",
+        "Grants the user with an 8000 shield for 2 seconds and 4000 bonus HP and MP regen", 
+        "Cooldown: 40 seconds, cannot be dropped during cooldown"
       ]
     },
     "koreanname": "돌갑주"
@@ -5062,7 +5062,7 @@
       "intelligence": 200,
       "hp": 2000,
       "passive": [
-        "Upon moving 400 distance, activates Drain on next attack dealing bonus attack damage X 50% pure damage and heal for HP X 10%",
+        "Upon moving 400 distance, activates Drain on next attack dealing bonus (ATTACK DAMAGE X 50%) pure damage and heal for 6% HP",
         "cooldown: 0.125 seconds"
       ]
     },
@@ -5089,7 +5089,7 @@
       "attackspeedpercent": 0.2,
       "skilldamagepercent": 0.03,
       "passive": [
-        "Chance to corrupt enemies in frontal cone on attack"
+        "~14.9% Chance to corrupt enemies in frontal cone on attack dealing (STR X 15) magic damage"
       ]
     },
     "koreanname": "커럽터"
