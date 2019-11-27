@@ -11984,7 +11984,8 @@
         "On spellcast, empowers next attack to deal Mainstat X 7.5 pure damage, restore Mainstat X 0.15, and adds stacks. Can have up to 6 stacks"
       ],
       "active": [
-        "Consumes all stacks and deals (50 X Mainstat X stack) damage to nearby enemies, stuns for 2 seconds, and gives 0.5 X stack seconds of CC immunity. (90 second CD)"
+        "Consumes all stacks and deals (50 X Mainstat X stack) damage to nearby enemies, stuns for 2 seconds, and gives 0.5 X stack seconds of 100% damage reduction and CC immunity",
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
   },
