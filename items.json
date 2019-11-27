@@ -3476,11 +3476,15 @@
     "id": "I0AT",
     "name": "Sealed Archangel Wings",
     "dropped_by": [
-      "Guardian Angel"
+      "Guardian Angel",
+      "Archangel Samael"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.005,
+    "droprate": [
+      0.005,
+      0.018
+    ],
     "required_by": [
       "Bahanar, the True Sword of Illusion",
       "Oceanus, the Sword of Light",
@@ -4871,7 +4875,7 @@
     "type": "[Weapon all classes]",
     "color": "9370DB",
     "level": 240,
-    "droprate": 0.1,
+    "droprate": 0.125,
     "required_by": [
       "True Blood Cannon Tepes",
       "Aglaia, the Spear of Heavenly Flows",
@@ -4930,7 +4934,7 @@
     "type": "[Ring]",
     "color": "9370DB",
     "level": 240,
-    "droprate": 0.1,
+    "droprate": 0.125,
     "required_by": [
       "Grim Visage",
       "Ring of the Reaper",
@@ -4959,7 +4963,7 @@
     "type": "[Helm/Hood]",
     "color": "9370DB",
     "level": 240,
-    "droprate": 0.1,
+    "droprate": 0.125,
     "required_by": [
       "Death Visage",
       "Bloodstone Plates"
@@ -6067,7 +6071,8 @@
       "Ispion, the Runed Ring",
       "Frost Fairy Wings",
       "Pure Crystal Wings",
-      "Wings of Slayer"
+      "Wings of Slayer",
+      "Oblivion"
     ],
     "koreanname": "망각의 파편"
   },
@@ -6214,7 +6219,8 @@
       "Ring of Time",
       "Ispion, the Runed Ring",
       "Soul Eater",
-      "Bag of Mother Nature"
+      "Bag of Mother Nature",
+      "Splitting of Sky and Earth"
     ],
     "koreanname": "불로의 심장"
   },
@@ -6239,7 +6245,8 @@
       "Crown of Rage",
       "Bag of Destruction",
       "Plates of Lightning",
-      "Wings of Blood Lord"
+      "Wings of Blood Lord",
+      "Oblivion"
     ],
     "koreanname": "다크 크리스탈"
   },
@@ -6444,7 +6451,8 @@
       "Ring of Fervor",
       "Nebula Rose",
       "Vest of Storm",
-      "Storm"
+      "Storm",
+      "Oblivion"
     ],
     "stats": {
       "allstat": 930,
@@ -6586,7 +6594,9 @@
       "Wings of Slayer",
       "Cosmic Star",
       "Vest of Storm",
-      "Storm"
+      "Storm",
+      "Splitting of Sky and Earth",
+      "Robe of Archlight"
     ],
     "koreanname": "안티 매터"
   },
@@ -6647,7 +6657,8 @@
       "Creation of the Sky and Earth",
       "Benedict, the Crimson Armor of Blood",
       "Ring of Time",
-      "Horn of God"
+      "Horn of God",
+      "Robe of Archlight"
     ],
     "koreanname": "신의 금속"
   },
@@ -6853,7 +6864,8 @@
       "Staff of Plague",
       "Crimson Hatred",
       "Pheles, the Bow of God",
-      "Atricia, the Sword of Dreams"
+      "Atricia, the Sword of Dreams",
+      "Splitting of Sky and Earth"
     ],
     "koreanname": "죽음의 창두"
   },
@@ -6948,7 +6960,8 @@
       "Horn of Lightning God",
       "Protection of the Fairies",
       "Nebula Rose",
-      "Storm"
+      "Storm",
+      "Splitting of Sky and Earth"
     ],
     "koreanname": "폭풍의 가호"
   },
@@ -6965,7 +6978,8 @@
       "Atricia, the Sword of Dreams",
       "Pheles, the Bow of God",
       "Horn of Lightning God",
-      "Horn of God"
+      "Horn of God",
+      "Ring of Fate"
     ],
     "koreanname": "폭풍의 결정"
   },
@@ -6974,7 +6988,8 @@
     "name": "Shining Fragment of Ruins",
     "dropped_by": [
       "Valtora",
-      "Ifrit"
+      "Ifrit",
+      "Nereid"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
@@ -6983,7 +6998,9 @@
       "Pheles, the Bow of God",
       "Horn of God",
       "Cosmic Star",
-      "Storm"
+      "Storm",
+      "Splitting of Sky and Earth",
+      "Robe of Archlight"
     ],
     "koreanname": "빛나는 유적의 조각"
   },
@@ -6999,7 +7016,8 @@
     "level": 380,
     "droprate": 0.005,
     "required_by": [
-      "Ring of Revival"
+      "Ring of Revival",
+      "Robe of Archlight"
     ],
     "stats": {
       "mainstat": 1300,
@@ -7045,9 +7063,63 @@
       "Staff of Plague",
       "Crimson Hatred",
       "Eye of the Flame Lord",
-      "Cosmic Star"
+      "Cosmic Star",
+      "Ring of Fate"
     ],
     "koreanname": "화염의 결정"
+  },
+  {
+    "id": "I0LX",
+    "name": "Grail of Eternity",
+    "dropped_by": [
+      "Nereid"
+    ],
+    "type": "[Ring]",
+    "description": "무한히 흘러넘치는 잔",
+    "color": "DC143C",
+    "level": 400,
+    "droprate": 0.005,
+    "required_by": [
+      "Ring of Revival",
+      "Robe of Archlight"
+    ],
+    "stats": {
+      "allstat": 1200,
+      "skilldamagepercent": 0.075,
+      "mdpercent": 0.075,
+      "passive": [
+        "Every second, create a water shield"
+      ]
+    },
+    "koreanname": "영원의 잔"
+  },
+  {
+    "id": "I0II",
+    "name": "Aegis of Sea",
+    "dropped_by": [
+      "Nereid"
+    ],
+    "type": "[Material]",
+    "color": "FFFFFF",
+    "droprate": 0.0075,
+    "required_by": [
+      "Robe of Archlight"
+    ],
+    "koreanname": "바다의 가호"
+  },
+  {
+    "id": "I0IJ",
+    "name": "Essence of Sea",
+    "dropped_by": [
+      "Nereid"
+    ],
+    "type": "[Material]",
+    "color": "FFFFFF",
+    "droprate": 0.0075,
+    "required_by": [
+      "Ring of Fate"
+    ],
+    "koreanname": "바다의 결정"
   },
   {
     "id": "sreg",
@@ -7147,7 +7219,8 @@
       "Hellspike Armor",
       "Hades, the Armor of Despair",
       "Maw of Greed",
-      "Ring of Fervor"
+      "Ring of Fervor",
+      "Oblivion"
     ],
     "koreanname": "용의 눈"
   },
@@ -7355,6 +7428,9 @@
       "Can be created using Alchemy with Jaina in the Magician's Tower"
     ],
     "color": "FFFFFF",
+    "required_by": [
+      "Key of Sea"
+    ],
     "recipe": [
       {
         "Chaos Magic Stone": 1
@@ -7475,6 +7551,22 @@
     "recipe": [
       {
         "Tiny Essence of Flame": 3
+      }
+    ]
+  },
+  {
+    "id": "I0LS",
+    "name": "Key of Sea",
+    "koreanname": "바다의 열쇠",
+    "type": "[Misc]",
+    "description": "Key that opens the pathway to the Room of Sea",
+    "notes": [
+      "Can be crafted by Blacksmith in Alfon Village or Captial Prius"
+    ],
+    "color": "FFFFFF",
+    "recipe": [
+      {
+        "Tiny Essence of Sea": 3
       }
     ]
   },
@@ -10083,7 +10175,13 @@
     "description": "Let it go, if you can no longer control it.",
     "type": "[Greatsword]",
     "color": "DC143C",
+    "notes": [
+      "In order to stop the active effect, press ESC"
+    ],
     "level": 360,
+    "required_by": [
+      "Oblivion"
+    ],
     "recipe": [
       {
         "Corruptor": 1
@@ -10106,10 +10204,13 @@
       "strength": 1850,
       "skilldamagepercent": 0.05,
       "passive": [
-        "15% Chance to activate Devastation on attack causing enemies within a frontal cone area to take (STR X 20) magic splash damage"
+        "25% Chance to activate Devastation on attack causing enemies within a frontal cone area to take (STR X 60) magic damage and reduce their armor by 200 for 6 seconds",
+        "Cooldown: 5 seconds"
       ],
       "active": [
-        "On use, activates Rage granting the user with 100 STR and 1% skill damage per tick while draining user's HP"
+        "On use, activates Rage granting the user with 100 STR and 1% skill damage per 1 ~ 0.5 seconds while draining user's HP",
+        "Stacks up to 10 times and drains (800 + seconds elapsed X 400) HP per second",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -10121,6 +10222,9 @@
     "type": "[Greatsword]",
     "color": "DC143C",
     "level": 360,
+    "required_by": [
+      "Splitting of Sky and Earth"
+    ],
     "recipe": [
       {
         "Okelanq, the Spear of Frost": 1
@@ -11080,6 +11184,50 @@
     }
   },
   {
+    "id": "I0LT",
+    "name": "Oblivion",
+    "koreanname": "망각",
+    "description": "망각의 힘에 의해 비로소 인간은 인간이 된다.",
+    "type": "[Greatsword]",
+    "color": "DC143C",
+    "notes": [
+      "In order to stop the active effect, press ESC"
+    ],
+    "level": 380,
+    "recipe": [
+      {
+        "Anger": 1
+      },
+      {
+        "Ring of the Storm": 1
+      },
+      {
+        "Dragon's Eye": 1
+      },
+      {
+        "Fragment of Oblivion": 1
+      },
+      {
+        "Dark Crystal": 1
+      }
+    ],
+    "stats": {
+      "damage": 25000,
+      "strength": 2050,
+      "skilldamagepercent": 0.075,
+      "passive": [
+        "25% Chance to activate Devastation on attack causing enemies within a frontal cone area to take (STR X 80) magic damage",
+        "Reduces armor by 225 and magic defense by 2% for 6 seconds",
+        "Cooldown: 5 seconds"
+      ],
+      "active": [
+        "On use, activates Rage granting the user with 150 STR and 1.5% skill damage per 1 ~ 0.5 seconds while draining user's HP",
+        "Stacks up to 10 times and drains (1500 + seconds elapsed X 500) HP per second",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
     "id": "sor5",
     "name": "Winter's Heart",
     "koreanname": "겨울의 심장",
@@ -11185,6 +11333,9 @@
     "description": "A weapon that is the symbol of deity's power and status.",
     "type": "[Greatsword]",
     "color": "DC143C",
+    "required_by": [
+      "Splitting of Sky and Earth"
+    ],
     "level": 380,
     "recipe": [
       {
@@ -11795,6 +11946,7 @@
     "id": "I0JR",
     "name": "Atricia, the Sword of Dreams",
     "koreanname": "몽환의 검 아트리샤",
+    "description": "I will lead you to the eternal slumber.",
     "type": "[Bastard Sword]",
     "color": "99FF99",
     "level": 400,
@@ -11833,6 +11985,51 @@
       ],
       "active": [
         "Consumes all stacks and deals (50 X Mainstat X stack) damage to nearby enemies, stuns for 2 seconds, and gives 0.5 X stack seconds of CC immunity. (90 second CD)"
+      ]
+    }
+  },
+  {
+    "id": "pams",
+    "name": "Splitting of Sky and Earth",
+    "koreanname": "천지개벽",
+    "description": "개벽의 별이여, 악을 종말하고 새로운 시작을 알리라 !",
+    "type": "[Greatsword]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Aglaia, the Spear of Heavenly Flows": 1
+      },
+      {
+        "Tiberius, the Spear of Lightning": 1
+      },
+      {
+        "Heart of Fire": 1
+      },
+      {
+        "Antimatter": 1
+      },
+      {
+        "Spearhead of Death": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      },
+      {
+        "Aegis of Storm": 1
+      }
+    ],
+    "stats": {
+      "damage": 32500,
+      "strength": 2350,
+      "skilldamagepercent": 0.15,
+      "passive": [
+        "On spellcast, increases STR by 250 and skill damage by 2.5% for 5 seconds.",
+        "Stacks up to a max of 4 times. Once max is reached, cannot refresh duration of buff."
+      ],
+      "active": [
+        "On use, provides user with max stacks, passive, and damage output is increased by 10% for 10 seconds.",
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -13737,7 +13934,7 @@
         "Summons a forest spirit every 5 seconds, each spirit provides 0.75% hp regeneration, can have up to 4 spirits"
       ],
       "active": [
-        "On active sends one spirit towards target",
+        "On use, sends one spirit towards target",
         "If target is enemy it deals 40 X int damage",
         "If target is ally it restores 2.5 X int hp",
         "Cannot target self, activates single-target effects"
@@ -13752,6 +13949,9 @@
     "type": "[Robe]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Robe of Archlight"
+    ],
     "recipe": [
       {
         "Robe of the Sage": 1
@@ -13944,12 +14144,53 @@
       "intelligence": 540,
       "attackspeedpercent": -0.75,
       "passive": [
-        "Increases nearby allies stats by 8% in 800 AoE(Including self)",
+        "Increases nearby allies stats by 6% in 800 AoE(Including self)",
         "'Despair of the Damned' Every 6 seconds deal 20x All Stats magic damage to all nearby enemies and increase the damage they take by 4% for 6 seconds. Heal for 6% Max Health the next time you attack"
       ],
       "spec": [
         "Specialty - Eternal Lamentation",
         "Dark Knight - After Requiem is cast, 4 additional souls are spawned."
+      ]
+    }
+  },
+  {
+    "id": "I0LV",
+    "name": "Robe of Archlight",
+    "koreanname": "로브 오브 아크리치",
+    "description": "일생을 마법을 위해 바친 자의 원념이 깃든 로브",
+    "type": "[Robe]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Robe of the Necromancer": 1
+      },
+      {
+        "Heart of Volcano": 1
+      },
+      {
+        "Antimatter": 1
+      },
+      {
+        "Steel of God": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      },
+      {
+        "Aegis of Sea": 1
+      }
+    ],
+    "stats": {
+      "armor": 630,
+      "strength": 480,
+      "intelligence": 1200,
+      "mpregen": 125,
+      "skilldamagepercent": 0.1,
+      "active": [
+        "On use, grants user with magic and CC immunity, as well as 40% magic resistance to allies in a 500 radius around user.",
+        "Restores 5% HP and MP per second to all affected units",
+        "Cooldown: 100 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -14891,6 +15132,9 @@
     "type": "[Ring]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Ring of Fate"
+    ],
     "recipe": [
       {
         "Ring of Intrusion": 1
@@ -15217,6 +15461,45 @@
         "Prevents HP from dropping below 1",
         "Heals 0.10 X target's max HP and removes any debuffs each second",
         "Cooldown: 20 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0LW",
+    "name": "Ring of Fate",
+    "koreanname": "운명의 반지",
+    "description": "운명의 굴레로부터 벗어나게 해주는 반지",
+    "type": "[Ring]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Ring of Time": 1
+      },
+      {
+        "Grail of Eternity": 1
+      },
+      {
+        "Essence of Storm": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Essence of Sea": 1
+      }
+    ],
+    "stats": {
+      "allstat": 1300,
+      "skilldamagepercent": 0.1,
+      "passive": [
+        "On taking fatal damage, restores HP to 100%",
+        "Cooldown: 300 seconds"
+      ],
+      "active": [
+        "On use, resets cooldown of last non-ultimate spell used",
+        "Also increases MP regen by 2500 and provides immunity to stuns, silences, and knockbacks for 10 seconds",
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     }
   },

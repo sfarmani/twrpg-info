@@ -522,7 +522,7 @@
         "limit": "7",
         "manacost": "2",
         "summon": "In Frost Cave where 3 Pruis Magicians are gathered",
-        "conditions": "Level 300 and 1x Holy Powder, 4x Blue Powder",
+        "conditions": "Level 300 and 1x Holy Powder, 3x Blue Powder",
         "drops": [
             "I067",
             "bspd",
@@ -650,7 +650,7 @@
     {
         "id": "n02N",
         "name": "Flame Nightmare",
-        "limit": "2",
+        "limit": "3",
         "manacost": "2",
         "summon": "In Volcanic Lands",
         "conditions": "Level 200 and usage of Nightmare Rod with 12x Red Powder",
@@ -679,7 +679,7 @@
     {
         "id": "h018",
         "name": "Turtle Lord",
-        "limit": "2",
+        "limit": "3",
         "manacost": "2",
         "summon": "In Deep Sea in the far East where light shines from above",
         "conditions": "Level 240 and usage of Orb of the Deep Sea with 4x Blue Powder and 4x Green powder",
@@ -809,6 +809,7 @@
             "I0E6",
             "I0E7",
             "I0EG",
+            "I0AT",
             "sneg"
         ]
     },
@@ -905,6 +906,20 @@
             "I0JS",
             "I0IE",
             "I0IF",
+            "phea"
+        ]
+    },
+    {
+        "id": "h06T",
+        "name": "Nereid",
+        "limit": "2",
+        "manacost": "6",
+        "summon": "The Top-most portal in the tower located east of the Secluded Forest",
+        "conditions": "Level 420 and Key of Sea crafted",
+        "drops": [
+            "I0LX",
+            "I0II",
+            "I0IJ",
             "phea"
         ]
     }

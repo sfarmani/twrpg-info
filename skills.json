@@ -164,7 +164,7 @@
         "active": [
             "Surrounds self and nearby allies with spiritual barriers.",
             "Increases skill damage by (5 + INT / 1000)% for 30 seconds",
-            "Regenerates INT X 0.2 HP per second"
+            "Regenerates INT X 0.15 HP per second"
         ]
     },
     {
@@ -207,7 +207,8 @@
             "Prevents nearby allies' HP from dropping below 1",
             "On expiration, regenerates 50% of their max HP",
             "Lasts 6 seconds",
-            "Consumes 60 souls"
+            "Consumes 60 souls",
+            "Activation delay: 0 seconds"
         ]
     },
     {
@@ -336,7 +337,7 @@
             "Fire a water bomb that expands with steam.",
             "Skill Level X 150 damage",
             "INT X (7.5 + 1.5 X Skill Level) bonus damage",
-            "Deals 15% additional damage per second travelled",
+            "Deals 15% additional damage per second travelled (up to 5 seconds)",
             "Deals 100% bonus damage to burning targets",
             "Chain: Healing Rain"
         ]
@@ -994,7 +995,7 @@
         "active": [
             "\"Imagine a huge rock falling through the atmosphere onto the ground. Don't worry, the Earth won't be destroyed. It's not that big, and only you will be engulfed in the explosion..  \" - Mage",
             "INT X 400 damage",
-            "Summons little meteor fragments each dealing INT X 7.5 damage"
+            "Summons 16 meteor fragments each dealing INT X 15 damage"
         ]
     },
     {
@@ -1307,6 +1308,7 @@
             "Increases movement speed by 250 and breaks limit",
             "Increases reload speed by 300%",
             "Reduces related skills' cooldown by 66% and resets their cooldowns",
+            "Reloads all bullets on cast",
             "Duration: 10 seconds"
         ]
     },
@@ -2209,7 +2211,8 @@
             "STR X 40 bonus damage",
             "If target has barriers, breaks them and lands as a critical strike. If barrier cannot be broken, still lands a critical strike",
             "Empowered: Increases target's damage taken by 5% for 40 seconds",
-            "Cooldown: 8 seconds"
+            "Cooldown: 8 seconds",
+            "Shield break efficiency: 40%"
         ]
     },
     {
@@ -2476,7 +2479,7 @@
         "icon": "WindMageD",
         "active": [
             "Swiftly move by riding on the wind.",
-            "Moves at least 400 units (Max range 800 units)",
+            "Moves at least 300 units (Max range 900 units)",
             "Reduces damage taken by 40% for 2 seconds after casting",
             "Leaves behind a feather that you can recall back to",
             "CD: 10 seconds - Available for 5 seconds to recall"
@@ -2511,7 +2514,7 @@
         "passive": [
             "Warm spirits that heal the master's allies.",
             "Heals for 150 + 0.75 X INT per spirit",
-            "Summons a spirit with 30% chance on attack, and summons 1 spirit when moving 400 distance",
+            "Summons a spirit with 30% chance on attack, and summons 1 spirit when moving 300 distance",
             "Critical attacks summons a spirit with 100% chance",
             "Upon gathering more than 3 spirits, send out 3 spirits on next attack",
             "Max of 3 spirts summoned"
@@ -2552,7 +2555,7 @@
         "active": [
             "Summon a mirror of eon to redirect harm back to attackers.",
             "For 9 seconds, absorbs 45% of damage taken by nearby allies",
-            "Upon expiration or casting again, deals Target's Max HP X 7.5% + INT X 60 damage to nearby enemies",
+            "Upon expiration or casting again, deals Target's Max HP X 7.5% + INT X 60 damage to nearby enemies and stuns for 0.5 seconds",
             "Knockbacks non-boss enemies",
             "CD: 25 seconds"
         ]
@@ -2586,6 +2589,7 @@
             "Slows enemies",
             "Removes debuffs from allies",
             "Creates up to 6 pulses",
+            "Cast time removed",
             "CD: 60 seconds"
         ]
     },
@@ -2650,7 +2654,8 @@
             "Bestows the blessing of life.",
             "Consumes 60 MP",
             "Revives a dead ally nearby",
-            "Restores Max HP X 40% after revival"
+            "Restores Max HP X 40% after revival",
+            "Revived allies spawn near guardian"
         ]
     },
     {
@@ -2762,10 +2767,11 @@
             "\"Damn it.. there goes my rarest scroll! If I wasn't a merchant dealing with customer relationships, I'd never have used it for him.. \" - Merchant",
             "Empowers target with Indomitable Strength for 12 seconds",
             "Increases attack speed by 100%",
-            "Increases damage dealt by target by 40%",
+            "Increases damage dealt by target by 35%",
             "Decreases damage taken by target by 60%",
             "Heals for Max HP X 30% per second",
-            "Except for self, the target cannot be affected by Indomitable Strength again for 300 seconds",
+            "The target cannot be affected by Indomitable Strength again for 300 seconds",
+            "Self has a cooldown of 180 seconds",
             "Cast range: 750"
         ]
     },
@@ -3133,7 +3139,7 @@
             "Quickly dash across the battlefield.",
             "STR X 25 damage",
             "Knockbacks enemies toward charge direction",
-            "Colliding from far distance breaks barriers and deals consumed MP X (400 + 3 X charge distance)% bonus damage",
+            "Colliding from far distance breaks barriers and deals consumed MP X (1000 + 5 X charge distance)% bonus damage",
             "Release Mana ON: Pierces through enemies, and provides (max MP X damage reduction) shield to allies for 3 seconds"
         ]
     },
@@ -3177,7 +3183,7 @@
         "icon": "KnightR",
         "passive": [
             "Reduce magical effects imposed upon Knight.",
-            "Each orb increases magic defense by 10%",
+            "Each orb increases magic defense by 5%",
             "One orb is generated automatically every 3 seconds"
         ],
         "active": [
@@ -3211,7 +3217,7 @@
         "icon": "KnightF",
         "active": [
             "\"Corrupt evils that must not exist in this world! The end is nigh. O Holy sword, grant me victory over my foes!\" - Knight during the God-Devil War",
-            "STR X 475 damage",
+            "STR X 500 damage",
             "For each second channeled, size increased & damage increased by 25%",
             "Can be channeled up to a maximum of 4 seconds",
             "Grants 100% damage reduction and CC immunity to allies hit for 5 seconds",
@@ -4145,7 +4151,7 @@
             "INT X 25 magic damage",
             "Stuns for 0.5 seconds",
             "Can be channeled up to 2 seconds, increasing damage by 300% and range/stun duration by 100% every second",
-            "Channeling speed can be increased by attack speed"
+            "Channeling speed can be increased per 2% attack speed"
         ]
     },
     {
@@ -4171,7 +4177,7 @@
         "icon": "WitchE",
         "active": [
             "Summons a cauldron filled with magical items.",
-            "Creates a potion every 2 seconds for 20 seconds",
+            "Creates a potion every 1.5 seconds for 18 seconds",
             "Potion lasts for 30 seconds and heals for INT X 3",
             "Increases one of target's stats by 10% for 60 seconds",
             "Cannot provide the same stat increase twice in a row"
@@ -4248,7 +4254,7 @@
             "Every 4th attack deals INT X 40 magic damage",
             "Increases attack speed by 250%",
             "Reduces damage taken by 20%",
-            "Becomes immune to all harmful effects",
+            "Becomes immune to all CC and harmful effects",
             "Vanishes after 12 seconds"
         ]
     },

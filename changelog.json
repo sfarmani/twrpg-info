@@ -1,5 +1,228 @@
 [
     {
+        "name": "29a",
+        "notes": [
+            "Released on: November 27th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Graves - Fixed sometimes not showing position of body properly",
+            "Damage - Fixed damage instances not overlapping correctly"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New recipes",
+                    [
+                        "Oblivion",
+                        "Splitting of Sky and Earth",
+                        "Robe of Archlich",
+                        "Ring of Fate"
+                    ]
+                ]
+            },
+            {
+                "name": "Anger / Oblivion",
+                "changes": [
+                    "To stop the active effect of the item, drop the item on the ground → press ESC"
+                ]
+            },
+            {
+                "name": "Hades, the Armor of Despair",
+                "changes": [
+                    "Aura: All stats +8% → +6%"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "New boss added: Sea Lord Nereid",
+                    "Drops the following",
+                    [
+                        "Grail of Eternity",
+                        "Essence of Sea",
+                        "Aegis of Sea",
+                        "Shining Fragment of Ruins"
+                    ]
+                ]
+            },
+            {
+                "name": "Flame Nightmare",
+                "changes": [
+                    "Drop limit: 2 → 3"
+                ]
+            },
+            {
+                "name": "Turtle Lord",
+                "changes": [
+                    "Drop limit: 2 → 3",
+                    "Healing turtles no longer deal damage to nearby units on death"
+                ]
+            },
+            {
+                "name": "Archangel Samael",
+                "changes": [
+                    "Re-added Sealed Archangel Wings to the drop table with a 1.8% chance to drop"
+                ]
+            },
+            {
+                "name": "Frostspider Lord",
+                "changes": [
+                    "Blue powder requirement: 4 → 3"
+                ]
+            },
+            {
+                "name": "Valtora",
+                "changes": [
+                    "Blue Orbs",
+                    [
+                        "Decreased amount of orbs spawned and their speed",
+                        "Impact damage: 7500 + 15% max HP → 10000"
+                    ]
+                ]
+            },
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "Changed meteors to telegraph landing point on lava's surface instead of underneath it"
+                ]
+            },
+            {
+                "name": "Item bosses",
+                "changes": [
+                    "Increased droprate of summon items",
+                    "Droprates of bosses summoned by Mask of Blood: 12.5%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Blitz (W)",
+                    [
+                        "Long dash damage bonus: consumed MP X (400 + 3 X dash distance)% (up to 3200%) → consumed MP X (1000 + 5 X dash distance)% (up to 5000%)"
+                    ],
+                    "Mana Blaster (R)",
+                    [
+                        "Magic resistance per ball: 10% → 5%",
+                        "Cooldown: 1 second → 1.5 seconds"
+                    ],
+                    "Excalibur (F)",
+                    [
+                        "Damage: STR X 475 → STR X 500"
+                    ]
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Nerve Strike (E)",
+                    [
+                        "Shield break efficiency: 30% → 40%"
+                    ]
+                ]
+            },
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Scroll of God's Blessing (F)",
+                    [
+                        "Damage output increase: 40% → 35%",
+                        "Personal cooldown: 300 seconds → 180 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Bullet Time (T)",
+                    [
+                        "Now reloads all bullets on cast"
+                    ]
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Meteor Strike (F)",
+                    [
+                        "Summon 32 meteor framgents dealing INT X 7.5 damage each → 16 meteor fragments dealing INT X 15 damage each"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Feather of Aeolus (D)",
+                    [
+                        "Cast range: 400 ~ 800 → 300 ~ 900"
+                    ],
+                    "Grace of Zephyrus (Q)",
+                    [
+                        "Summon 1 spirit when moving 400 distance → 300 distance"
+                    ],
+                    "Mirror of Aeolus (E)",
+                    [
+                        "Added 0.5 seconds stun to explosion"
+                    ],
+                    "Horn of Notus (T)",
+                    [
+                        "Removed cast time"
+                    ],
+                    "Guardian of Wind (F) - Blessing of Vayu (E)",
+                    [
+                        "Revived heroes now spawn near guardian"
+                    ]
+                ]
+            },
+            {
+                "name": "Soul Weaver",
+                "changes": [
+                    "Soul Materia (W)",
+                    [
+                        "HP regen: INT X 0.2 → INT X 0.15"
+                    ],
+                    "Soul Cradle (T)",
+                    [
+                        "Removed activation delay"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Death Bomb (Q)",
+                    [
+                        "Channeling speed increase per 1% attack speed → per 2% attack speed"
+                    ],
+                    "Mystical Cauldron (E)",
+                    [
+                        "Potion spawn interval: 2 seconds → 1.5 seconds",
+                        "Duration and cooldown: 20 seconds → 18 seconds",
+                        "Attempted spawn of potions in out of bounds will be spawned near cauldron instead"
+                    ],
+                    "Hell Gate (T) - Unleash (E)",
+                    [
+                        "Added CC immunity"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Conjure Water (W) - Water Bomb (Q)",
+                    [
+                        "Bonus damage: up to 250% over 10 seconds → up to 175% over 5 seconds"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "27d",
         "notes": [
             "Released on: November 17th, 2019",
@@ -3477,7 +3700,7 @@
                     [
                         "Heal: INT X 3 → INT X 1.5"
                     ],
-                    "Mysterious Cauldron (E)",
+                    "Mystical Cauldron (E)",
                     [
                         "Heal: INT X 5 → INT X 3"
                     ],
