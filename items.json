@@ -6596,7 +6596,7 @@
       "Vest of Storm",
       "Storm",
       "Splitting of Sky and Earth",
-      "Robe of Archlight"
+      "Robe of Archlich"
     ],
     "koreanname": "안티 매터"
   },
@@ -6658,7 +6658,7 @@
       "Benedict, the Crimson Armor of Blood",
       "Ring of Time",
       "Horn of God",
-      "Robe of Archlight"
+      "Robe of Archlich"
     ],
     "koreanname": "신의 금속"
   },
@@ -7000,7 +7000,7 @@
       "Cosmic Star",
       "Storm",
       "Splitting of Sky and Earth",
-      "Robe of Archlight"
+      "Robe of Archlich"
     ],
     "koreanname": "빛나는 유적의 조각"
   },
@@ -7017,7 +7017,7 @@
     "droprate": 0.005,
     "required_by": [
       "Ring of Revival",
-      "Robe of Archlight"
+      "Robe of Archlich"
     ],
     "stats": {
       "mainstat": 1300,
@@ -7081,7 +7081,7 @@
     "droprate": 0.005,
     "required_by": [
       "Ring of Revival",
-      "Robe of Archlight"
+      "Robe of Archlich"
     ],
     "stats": {
       "allstat": 1200,
@@ -7103,7 +7103,7 @@
     "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
-      "Robe of Archlight"
+      "Robe of Archlich"
     ],
     "koreanname": "바다의 가호"
   },
@@ -13950,7 +13950,7 @@
     "color": "DC143C",
     "level": 380,
     "required_by": [
-      "Robe of Archlight"
+      "Robe of Archlich"
     ],
     "recipe": [
       {
@@ -14155,7 +14155,7 @@
   },
   {
     "id": "I0LV",
-    "name": "Robe of Archlight",
+    "name": "Robe of Archlich",
     "koreanname": "로브 오브 아크리치",
     "description": "일생을 마법을 위해 바친 자의 원념이 깃든 로브",
     "type": "[Robe]",
