@@ -7080,15 +7080,14 @@
     "level": 400,
     "droprate": 0.005,
     "required_by": [
-      "Ring of Revival",
-      "Robe of Archlich"
+      "Ring of Fate"
     ],
     "stats": {
       "allstat": 1200,
       "skilldamagepercent": 0.075,
       "mdpercent": 0.075,
       "passive": [
-        "Creates Water Barrier every 8 seconds"
+        "Creates Water Barrier that absorbs up to 10000 damage and provies 1% HP and MP regen every 8 seconds"
       ]
     },
     "koreanname": "영원의 잔"
