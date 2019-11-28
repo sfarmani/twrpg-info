@@ -7075,7 +7075,7 @@
       "Nereid"
     ],
     "type": "[Ring]",
-    "description": "무한히 흘러넘치는 잔",
+    "description": "A grail that overflows endlessly",
     "color": "DC143C",
     "level": 400,
     "droprate": 0.005,
@@ -7088,7 +7088,7 @@
       "skilldamagepercent": 0.075,
       "mdpercent": 0.075,
       "passive": [
-        "Every second, create a water shield"
+        "Creates Water Barrier every 8 seconds"
       ]
     },
     "koreanname": "영원의 잔"
@@ -11187,7 +11187,7 @@
     "id": "I0LT",
     "name": "Oblivion",
     "koreanname": "망각",
-    "description": "망각의 힘에 의해 비로소 인간은 인간이 된다.",
+    "description": "\"Man will desire oblivion rather than not desire at all\"",
     "type": "[Greatsword]",
     "color": "DC143C",
     "notes": [
@@ -11221,7 +11221,7 @@
         "Cooldown: 5 seconds"
       ],
       "active": [
-        "On use, activates Rage granting the user with 150 STR and 1.5% skill damage per 1 ~ 0.5 seconds while draining user's HP",
+        "On use, activates Oblivion granting the user with 150 STR and 1.5% skill damage per 1 ~ 0.5 seconds while draining user's HP",
         "Stacks up to 10 times and drains (1500 + seconds elapsed X 500) HP per second",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
@@ -11993,7 +11993,7 @@
     "id": "pams",
     "name": "Splitting of Sky and Earth",
     "koreanname": "천지개벽",
-    "description": "개벽의 별이여, 악을 종말하고 새로운 시작을 알리라 !",
+    "description": "O star of creation, vanquish evil and let the new age begin !",
     "type": "[Greatsword]",
     "color": "99FF99",
     "level": 400,
@@ -12025,11 +12025,11 @@
       "strength": 2350,
       "skilldamagepercent": 0.15,
       "passive": [
-        "On spellcast, increases STR by 250 and skill damage by 2.5% for 5 seconds.",
+        "On skill cast, activates Song of Glory increasing STR by 250 and skill damage by 2.5% for 5 seconds.",
         "Stacks up to a max of 4 times. Once max is reached, cannot refresh duration of buff."
       ],
       "active": [
-        "On use, provides user with max stacks, passive, and damage output is increased by 10% for 10 seconds.",
+        "On use, activates Light of Creation which provides user with max stacks, passive, and damage output is increased by 10% for 10 seconds.",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -14158,7 +14158,7 @@
     "id": "I0LV",
     "name": "Robe of Archlich",
     "koreanname": "로브 오브 아크리치",
-    "description": "일생을 마법을 위해 바친 자의 원념이 깃든 로브",
+    "description": "A robe infused with spirit of the one who has devoted his life to magic",
     "type": "[Robe]",
     "color": "99FF99",
     "level": 400,
@@ -14189,7 +14189,7 @@
       "mpregen": 125,
       "skilldamagepercent": 0.1,
       "active": [
-        "On use, grants user with magic and CC immunity, as well as 40% magic resistance to allies in a 500 radius around user.",
+        "On use, summons Magic Field granting the user with magic and CC immunity, as well as 40% magic resistance to allies in a 500 radius around user.",
         "Restores 5% HP and MP per second to all affected units",
         "Cooldown: 100 seconds, cannot be dropped during cooldown"
       ]
@@ -15469,7 +15469,7 @@
     "id": "I0LW",
     "name": "Ring of Fate",
     "koreanname": "운명의 반지",
-    "description": "운명의 굴레로부터 벗어나게 해주는 반지",
+    "description": "Ring that frees you from your fate",
     "type": "[Ring]",
     "color": "99FF99",
     "level": 400,
@@ -15494,11 +15494,11 @@
       "allstat": 1300,
       "skilldamagepercent": 0.1,
       "passive": [
-        "On taking fatal damage, restores HP to 100%",
+        "If HP drops below 1, activates Time Reversal, restoring HP to 100%",
         "Cooldown: 300 seconds"
       ],
       "active": [
-        "On use, resets cooldown of last non-ultimate spell used",
+        "On use, activates Time Distortion, resetting the cooldown of the last non-ultimate spell used",
         "Also increases MP regen by 2500 and provides immunity to stuns, silences, and knockbacks for 10 seconds",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
