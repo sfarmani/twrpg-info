@@ -2377,8 +2377,7 @@
             "Allows all skills to critically strike",
             "Enters stealth if out of combat for 2.5 seconds",
             "Backstabbing enemies while stealthed deals AGI X 35 bonus damage",
-            "Reduces damage taken by 30% while stealthed",
-            "Ignores unit collision"
+            "Reduces damage taken by 30% while stealthed"
         ],
         "toggle": [
             "TOGGLE OFF: Enable invisibility",
@@ -2482,7 +2481,8 @@
             "Moves at least 300 units (Max range 900 units)",
             "Reduces damage taken by 40% for 2 seconds after casting",
             "Leaves behind a feather that you can recall back to",
-            "CD: 10 seconds - Available for 5 seconds to recall"
+            "CD: 10 seconds - Available for 5 seconds to recall",
+            "Range: 1000"
         ]
     },
     {
@@ -2535,7 +2535,8 @@
             "Heals allies for INT X 2",
             "Cooldown reset upon casting Feather of Aeolus",
             "When two gentle winds combine, strong winds are formed for 4 seconds, dealing Attack Damage X 500% damage per second",
-            "CD: 6 seconds"
+            "CD: 6 seconds",
+            "Rnage: 1500"
         ]
     },
     {
@@ -2598,7 +2599,8 @@
         "active": [
             "(Aisha) \"Dear divine beings! I thank you for bestowing all these blessings upon me !\"\n(Guardian) Grrrgrgrgr (it's because you're too cute)",
             "Summons a Guardian",
-            "Lasts 45 seconds"
+            "Lasts 45 seconds",
+            "MP cost: 50"
         ]
     },
     {
@@ -2768,7 +2770,7 @@
             "Heals for Max HP X 30% per second",
             "The target cannot be affected by Indomitable Strength again for 300 seconds",
             "Self has a cooldown of 180 seconds",
-            "Cast range: 750"
+            "Cast range: 1000"
         ]
     },
     {
@@ -3587,7 +3589,7 @@
         "active": [
             "Assists allies by summoning a holy orb.",
             "Summons an orb that can be controlled for 12 seconds",
-            "Deals INT X 15 magic damage to enemies hit",
+            "Deals INT X 30 magic damage to enemies hit",
             "Increases allies' movement speed by 200 and regenerates their HP by 4% per second",
             "Chain - Holy Wave"
         ]
@@ -3999,7 +4001,7 @@
             "Removes all soul consumption for 8 seconds and reduces some skills' cooldowns",
             "Enables dash while active",
             "Effects of max Soul is enabled while active",
-            "Duration: 10 seconds"
+            "Duration: 9 seconds"
         ]
     },
     {

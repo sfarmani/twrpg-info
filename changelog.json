@@ -1,5 +1,110 @@
 [
     {
+        "name": "29c",
+        "notes": [
+            "Released on: December 1st, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fixed bug where powder bags die",
+            "Corruptor Rectus - Fixed bug where killing tracker with Lancer F / Check F still caused damage",
+            "Assassin - Fixed bug with Dark Shroud (D)",
+            "Paladin - Divine Shield (T) will now reset Q cooldown properly",
+            "Priest - Fixed an issue that could cause Holy Wave to be cast when casting Dark Aurora after equipping Ring of Deek Darkness / Grimoire of Darknkess",
+            "Alchemist - Fixed Water Bomb damage still being same (should have been nerfed)"
+        ],
+        "items": [
+            {
+                "name": "Ring of Holy Light / Bell of Light",
+                "changes": [
+                    "Holy Blessing (W) becoming AoE skill → Divine Orb duration increased by 25%"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Removed dodge chance from all bosses"
+                ]
+            },
+            {
+                "name": "Frostspider Lord",
+                "changes": [
+                    "HP: 9401040 → 8801040",
+                    "Blizzard range slightly increased / changed to look more clear",
+                    "Instant kill swipe cone angle: 270 → 225",
+                    "Frozen barrier duration: 6 seconds → 5 seconds"
+                ]
+            },
+            {
+                "name": "Demon Lord Beriel",
+                "changes": [
+                    "Damage Reduction Per Player Increase: 15% → 12.5%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Scroll of God's Blessing (F)",
+                    [
+                        "Range: 750 → 1000"
+                    ]
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Dark Shroud (D)",
+                    [
+                        "Changed to not ignore unit collision (will put it back later if it can be added without bugs)"
+                    ]
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Release (T)",
+                    [
+                        "Duration: 10 seconds → 9 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Divine Orb (W)",
+                    [
+                        "Damage: INT X 15 → INT X 30"
+                    ],
+                    "Heaven's Gate (T)",
+                    [
+                        "Raguel's Attack Speed ​​Increased by 20%"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Feather of Aeolus (D)",
+                    [
+                        "Range: 900 → 1000"
+                    ],
+                    "Gentle Winds (W)",
+                    [
+                        "Range: 1200 → 1500"
+                    ],
+                    "Guardian of Wind (F)",
+                    [
+                        "MP cost: 60 → 50"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "29b",
         "notes": [
             "Released on: November 30th, 2019",
