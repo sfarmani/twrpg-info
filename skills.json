@@ -2020,7 +2020,7 @@
             "Release mana stored within the Execution Sword to attack all nearby enemies.",
             "STR X (25 + 25 X Skill Level) magic damage",
             "Slow effect",
-            "Empowers next Strike of Honor cast within 3 seconds",
+            "Empowers next Strike of Honor cast within 4 seconds",
             "Increases damage and stun duration by 150%, and increases target's damage taken by 10% for 8 seconds",
             "Increases HP regen by (Crusader's Max HP X 10%) for 5 seconds"
         ]
@@ -2084,7 +2084,6 @@
         "icon": "MartialArtistPass",
         "passive": [
             "A martial art that strengthens the fist, passed down from the Shaolins of the orients.",
-            "Critical chance increased by 10%",
             "12% chance to deal Skill Level X 300 damage on attack",
             "AGI X 15 bonus damage"
         ]
@@ -2135,7 +2134,7 @@
         "passive": [
             "An improved version of Emperor's strikes that boasts fearsome power.",
             "Chance to deal Skill Level X 5000 damage on attack",
-            "AGI X 50 bonus damage"
+            "AGI X 62.5 bonus damage"
         ]
     },
     {
@@ -2378,11 +2377,12 @@
             "Allows all skills to critically strike",
             "Enters stealth if out of combat for 2.5 seconds",
             "Backstabbing enemies while stealthed deals AGI X 35 bonus damage",
-            "Reduces damage taken by 30% while stealthed"
+            "Reduces damage taken by 30% while stealthed",
+            "Ignores unit collision"
         ],
         "toggle": [
-            "TOGGLE OFF: Automatically attack enemies while in stealth",
-            "TOGGLE ON: Do not automatically attack enemies while in stealth"
+            "TOGGLE OFF: Enable invisibility",
+            "TOGGLE ON: Disable invisibility"
         ]
     },
     {
@@ -2493,16 +2493,14 @@
         "icon": "WindMageQ_1",
         "passive": [
             "Fierce spirits that chase the master's enemies.",
-            "Deals Attack Damage X 150% + INT X 15 damage per spirit",
-            "Summons a spirit with 30% chance on attack, and summons 1 spirit when moving 400 distance",
-            "Critical attacks summons a spirit with 100% chance",
-            "Upon gathering more than 3 spirits, send out 3 spirits on next attack",
-            "Max of 3 spirts summoned"
+            "Summons a spirit with 30% chance on attack, and with every 300 distance travelled",
+            "When 3 spirits are summoned, your next attack sends them out to deal Attack Damage X 150% + INT X 15 magic damage per spirit",
+            "Pierces enemies"
         ],
         "active": [
             "\"It's time to relax!\"",
             "Switch to healing mode",
-            "CD: 6 seconds"
+            "CD: 1.5 seconds"
         ]
     },
     {
@@ -2533,12 +2531,11 @@
         "icon": "WindMageW",
         "active": [
             "Send out gentle winds infused with mana.",
-            "INT X 25 damage",
+            "INT X 30 magic damage",
             "Heals allies for INT X 2",
             "Cooldown reset upon casting Feather of Aeolus",
             "When two gentle winds combine, strong winds are formed for 4 seconds, dealing Attack Damage X 500% damage per second",
-            "CD: 6 seconds",
-            "Projectile speed: 400"
+            "CD: 6 seconds"
         ]
     },
     {
@@ -2584,12 +2581,11 @@
         "icon": "WindMageT",
         "active": [
             "Blow a horn gifted with divine powers.",
-            "Each pulse deals INT X 30 damage",
+            "Each pulse deals INT X 40 magic damage",
             "Heals allies for INT X 2",
             "Slows enemies",
             "Removes debuffs from allies",
             "Creates up to 6 pulses",
-            "Cast time removed",
             "CD: 60 seconds"
         ]
     },
@@ -3583,17 +3579,17 @@
         ]
     },
     {
-        "name": "Holy Blessing",
+        "name": "Divine Orb",
         "heroClass": "Priest",
         "color": "fffacd",
         "hotkey": "[W]",
         "icon": "PriestW",
         "active": [
-            "Enhances target's battle stats by filling them with holy mana.",
-            "Increases hero's attack damage by 8%",
-            "Increases armor",
-            "Increases all stats",
-            "Stat increase is capped at (Target's Level X 5)"
+            "Assists allies by summoning a holy orb.",
+            "Summons an orb that can be controlled for 12 seconds",
+            "Deals INT X 15 magic damage to enemies hit",
+            "Increases allies' movement speed by 200 and regenerates their HP by 4% per second",
+            "Chain - Holy Wave"
         ]
     },
     {
@@ -3604,13 +3600,16 @@
         "icon": "PriestE",
         "passive": [
             "The priest's presence alone brings great support to her allies.",
-            "Attack speed increased"
+            "Increases nearby allies' attack damage by 8% and all stats by (Priest's INT X 0.05)",
+            "Effect radius: 900",
+            "Buff linger time: 60 seconds"
         ],
         "active": [
             "Consecerate nearby ground to protect allies and bring down judgment on enemies.",
-            "Bonus recovery: INT X 0.5",
+            "Deals target's Max HP X 1.5% + INT X 5 magic damage per second",
+            "Heals nearby allies HP by 450 + INT X 0.5 per second",
             "Lasts 10 seconds",
-            "Effect radius: 500"
+            "Cooldown: 20 seconds"
         ]
     },
     {
@@ -3620,15 +3619,15 @@
         "hotkey": "[E]",
         "icon": "PriestE_2",
         "passive": [
-            "Harms nearby enemies with evil aura.",
-            "Decreases nearby enemies' magic defense by 3%"
+            "The priest's presence alone brings great support to her allies.",
+            "Increases nearby allies' attack damage by 8% and all stats by (Priest's INT X 0.05)"
         ],
         "active": [
-            "Drenches target area with evil aura to inflict great harm.",
-            "Deals INT X 60 magic damage per second",
+            "Devastates target ground with corrupt energy to cause havoc.",
+            "Deals INT X 60 damage per second",
             "Target's max HP X 3% bonus damage",
             "Can be channeled up to 3 seconds",
-            "Damage period reduced based on attack speed"
+            "Damage interval decreases based on attack speed"
         ]
     },
     {
@@ -3638,15 +3637,15 @@
         "hotkey": "[E]",
         "icon": "PriestE_2",
         "passive": [
-            "Harms nearby enemies with evil aura.",
-            "Decreases nearby enemies' magic defense by 5%"
+            "The priest's presence alone brings great support to her allies.",
+            "Increases nearby allies' attack damage by 8% and all stats by (Priest's INT X 0.05)"
         ],
         "active": [
-            "Drenches target area with evil aura to inflict great harm.",
+            "Devastates target ground with corrupt energy to cause havoc.",
             "Deals INT X 80 magic damage per second",
             "Target's max HP X 3% bonus damage",
             "Can be channeled up to 3 seconds",
-            "Damage period reduced based on attack speed"
+            "Damage interval decreases based on attack speed"
         ]
     },
     {
@@ -3744,8 +3743,9 @@
         "icon": "PriestF",
         "active": [
             "\"As my body suddenly start bursting out light, I've felt like I could keep on fighting without ever growing tired. It was only later that I realized the Priest had arrived.\" - Soldier of Empire Army",
-            "Increases nearby allies' stats",
-            "Empowers the attacks of Raguel"
+            "Increases nearby allies' damage dealt by 5%, armor by 500, and regenerates 10% of their HP every second",
+            "Empowers Raguel's attacks",
+            "Lasts 30 seconds"
         ]
     },
     {
@@ -3939,7 +3939,8 @@
         "active": [
             "Attack Damage X 400% damage",
             "AGI X 20 bonus damage",
-            "Pulls in non-boss enemies and stuns them for 0.25 seconds"
+            "Pulls in non-boss enemies and stuns them for 0.25 seconds",
+            "Castable while casting other spells"
         ]
     },
     {
@@ -3951,7 +3952,8 @@
         "active": [
             "Attack Damage X 600% damage",
             "AGI X 40 bonus damage",
-            "Lands as critical strike on boss units"
+            "Lands as critical strike on boss units",
+            "Castable while casting other spells"
         ]
     },
     {
@@ -3996,7 +3998,8 @@
         "active": [
             "Removes all soul consumption for 8 seconds and reduces some skills' cooldowns",
             "Enables dash while active",
-            "Effects of max Soul is enabled while active"
+            "Effects of max Soul is enabled while active",
+            "Duration: 10 seconds"
         ]
     },
     {

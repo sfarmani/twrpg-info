@@ -1,5 +1,290 @@
 [
     {
+        "name": "29b",
+        "notes": [
+            "Released on: November 30th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Oblivion - Fixed icon being invisible to other players",
+            "Portals - Fixed portal menu sometimes re-appearing after teleporting",
+            "Damage reduction - Fixed damage reduction affecting critical hits twice",
+            [
+                "Example 1: 0% damage reduction = critical hits deal (200% attack damage) damage",
+                "Example 2: 50% damage reduction = critical hits deal (150% attack damage) damage"
+            ]
+        ],
+        "items": [
+            {
+                "name": "Anger / Oblivion",
+                "changes": [
+                    "Cancelling active effect with ESC no longer summons bag"
+                ]
+            },
+            {
+                "name": "Flame Cloak",
+                "changes": [
+                    "Immolation radius and damage increased"
+                ]
+            },
+            {
+                "name": "Griseus, the Sword of Protection / Winter's Heart",
+                "changes": [
+                    "Damage taken: -10% → -8%"
+                ]
+            },
+            {
+                "name": "Jack Pumpkin Helm / Jack Pumpkin Hood",
+                "changes": [
+                    "Dodge chance changed to HP / MP regen increase"
+                ]
+            },
+            {
+                "name": "Scale Protector",
+                "changes": [
+                    "Damage taken: -12% → -8%"
+                ]
+            },
+            {
+                "name": "Protector's Will",
+                "changes": [
+                    "Armor: 570 → 670",
+                    "Damage taken: -15% → -12%"
+                ]
+            },
+            {
+                "name": "Yeti Hide",
+                "changes": [
+                    "Removed (also removed from recipes it was used in)"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Changed powder requirements to summon raid bosses",
+                    [
+                        "Ruler of the Lav Sea Hydra → 2 White Powders",
+                        "Jack-o-Lantern → 2 White Powders",
+                        "Count Wallachia → 2 Green Powders",
+                        "Mage Lord → 2 Blue Powders",
+                        "Wings of Death → 2 Red Powders",
+                        "Guardian Angels → 2 Holy Powders",
+                        "Frostspider Lord → 6 Blue Powders",
+                        "Demon Lord → 8 Red Powders"
+                    ],
+                    "Changed minimal level requirement to gain EXP from raid bosses to Level 160",
+                    [
+                        "Item bosses and quest EXP gain range: Level 1 ~ 400",
+                        "Raid bosses EXP gain range: Level 160 ~ 420"
+                    ],
+                    "Boss kill rewards now apply to nearby dead heroes"
+                ]
+            },
+            {
+                "name": "Yeti",
+                "changes": [
+                    "Warm Fur droprate: 0.5% → 3%"
+                ]
+            },
+            {
+                "name": "Ruler of the Lav Sea Hydra / Jack-o-Lantern",
+                "changes": [
+                    "Item level requirement: 240 → 160"
+                ]
+            },
+            {
+                "name": "Mage Lord / Wings of Death",
+                "changes": [
+                    "Item level requirement: 240 → 200"
+                ]
+            },
+            {
+                "name": "Corruptor Rectus",
+                "changes": [
+                    "Stalker death explosion damage no longer hurt lancers/swordsmen/etc. if they kill them with ulti"
+                ]
+            },
+            {
+                "name": "Archangel Samael",
+                "changes": [
+                    "Holy powder requirement: 3 → 2"
+                ]
+            },
+            {
+                "name": "Shadow Dragon Irbert",
+                "changes": [
+                    "Link",
+                    [
+                        "Target recognition radius for secondary target increased"
+                    ]
+                ]
+            },
+            {
+                "name": "Valtora",
+                "changes": [
+                    "No longer casts any skills for 2 seconds after phase transition"
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
+                    "HP: 50824000 → 48824000",
+                    "No longer casts any skills for 2 seconds after phase transition",
+                    "Bubbles now only affect heroes"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Hero notes",
+                "changes": [
+                    "Removed all remaining % movespeed increase effects"
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "1st Sword Dance: Strike (R) - 2nd Sword Dance: Sword (R)",
+                    [
+                        "Slow duration: 3 seconds → 4 seconds"
+                    ],
+                    "Max Amplication: Execution Sword (T)",
+                    [
+                        "Duration pauses when hero is paused while casting (similar to Thunderer's Heart Breat (R))"
+                    ]
+                ]
+            },
+            {
+                "name": "Matrial Artist",
+                "changes": [
+                    "Emperor's Strikes (Q)",
+                    [
+                        "10% crit chance removed"
+                    ],
+                    "Heavenly Emperor's Strikes (T)",
+                    [
+                        "Damage: AGI X 50 → AGI X 62.5"
+                    ]
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Dark Shroud (D)",
+                    [
+                        "Now ignores unit collision when invisible",
+                        "Toggle ON: Turn off auto attack while invisible → disable invisiblity"
+                    ]
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Cresent (Q) / Daze (W)",
+                    [
+                        "Now castable while casting other spells"
+                    ],
+                    "Release (T)",
+                    [
+                        "Duration: 8 seconds → 10 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Restoration (W)",
+                    [
+                        "Now able to be cast on enemies (effect will apply to ally closest to target enemy)"
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Frozen Emotion (W)",
+                    [
+                        "Now able to be cast on ground or enemies (effect will apply to ally closest to target ground or enemy)"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Arrow of Zephyrus (Q)",
+                    [
+                        "Now pierces enemies",
+                        "Mode switch cooldown: 5 seconds → 1.5 seconds"
+                    ],
+                    "Gentle Winds (W)",
+                    [
+                        "Damage: INT X 25 → INT X 30",
+                        "Range / speed slightly increased"
+                    ],
+                    "Horn of Notus (T)",
+                    [
+                        "Total damage: INT X 180 → INT X 240"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Overall skill cast delay reduced",
+                    "Holy Wave (Q)",
+                    [
+                        "Width increase based on distance reduced"
+                    ],
+                    "Holy Blessing (W) (name changed to Divine Orb (W))",
+                    [
+                        "Spell reworked"
+                    ],
+                    "Holy Aurora (E)",
+                    [
+                        "Passive",
+                        [
+                            "Increases attack speed of nearby allies by 30% → increases attack damage of nearby allies by 8% and all stats by 2/3rd of Holy Orb (W)",
+                            "Removed movement speed increase for priest",
+                            "Radius: 750 → 900",
+                            "Buff linger time: 0.5 seconds → 60 seconds"
+                        ]
+                    ],
+                    "Heaven's Gate (T)",
+                    [
+                        "Raguel changed to count as flying unit"
+                    ],
+                    "Heaven's Field (F)",
+                    [
+                        "Added 5% damage output increase",
+                        "Attack speed increase: 100% → 50%"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Memory stone",
+            [
+                "Max MP now increases based on amount of players",
+                [
+                    "1 ~ 4 players: 12 (can feed holy powders 3 times)",
+                    "5 ~ 7 players: 16 (can feed holy powders 4 times)",
+                    "8 ~ 10 players: 20 (can feed holy powders 5 times)"
+                ],
+                "Mana restored per holy powder: 3 → 4",
+                "Added \"Playername has revived Bossname\" text to briefly appear after a boss is revived",
+                "Added extra page to memory stone boss options"
+            ],
+            "Removed cooldowns from ship tickets / Removed clickboxes from ships",
+            "Reduced time critical hit numbers linger for",
+            "Relocated some quest giver NPCs",
+            "Added notifications and visual effects to raid boss summon spots",
+            "Increased base vision radius for all heroes",
+            "Added command that lets you repick your hero (doesn't work if you saved or loaded a hero)"
+        ]
+    },
+    {
         "name": "29a",
         "notes": [
             "Released on: November 27th, 2019",

@@ -234,23 +234,6 @@
     ]
   },
   {
-    "id": "I031",
-    "name": "Yeti Hide",
-    "koreanname": "설인의 가죽",
-    "dropped_by": [
-      "Yeti"
-    ],
-    "type": "[Material]",
-    "color": "FFFFFF",
-    "droprate": 0.5,
-    "required_by": [
-      "Warm Fur",
-      "Precious Wind-Protection Clothing",
-      "Very Silky Bag",
-      "Very Sturdy Bag"
-    ]
-  },
-  {
     "id": "I08O",
     "name": "Warm Fur",
     "koreanname": "따뜻한 털가죽",
@@ -259,15 +242,10 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.005,
+    "droprate": 0.03,
     "required_by": [
       "Monster Hunter",
       "Precious Wind-Protection Clothing"
-    ],
-    "recipe": [
-      {
-        "Yeti Hide": 30
-      }
     ]
   },
   {
@@ -2574,7 +2552,8 @@
       "armor": 200,
       "strength": 75,
       "agility": 100,
-      "dodgechancepercent": 0.12
+      "hpregen": 50,
+      "mpregen": 50
     },
     "koreanname": "잭 펌킨 투구"
   },
@@ -5691,7 +5670,7 @@
     "stats": {
       "armor": 460,
       "strength": 390,
-      "dtpercent": -0.12,
+      "dtpercent": -0.08,
       "passive": [
         "12.5% Chance to restore (max HP X 2.5%) HP on being hit"
       ],
@@ -6421,7 +6400,7 @@
       "damage": 20500,
       "strength": 1550,
       "intelligence": 950,
-      "dtpercent": -0.1,
+      "dtpercent": -0.08,
       "active": [
         "On use, activates Ethereal Strike which deals (max MP X 3) pure damage and destroys any shield effects on target enemy",
         "If an ally is hit: grants the target a (max HP X 20%) shield for 5 seconds",
@@ -7750,9 +7729,6 @@
     "recipe": [
       {
         "Crab Armor": 1
-      },
-      {
-        "Yeti Hide": 3
       }
     ],
     "stats": {
@@ -8016,9 +7992,6 @@
       },
       {
         "Wind-Protection Clothing": 1
-      },
-      {
-        "Yeti Hide": 3
       }
     ],
     "stats": {
@@ -11262,7 +11235,7 @@
       "strength": 2230,
       "agility": 1240,
       "intelligence": 1240,
-      "dtpercent": -0.1,
+      "dtpercent": -0.08,
       "passive": [
         "Every 8th attack activates Everfrost Blast dealing ((STR X 5) + (AGI X 4)) pure splash damage",
         "Damage is affected by ice/water affinity",
@@ -12778,7 +12751,7 @@
     "stats": {
       "armor": 590,
       "strength": 570,
-      "dtpercent": -0.15,
+      "dtpercent": -0.12,
       "passive": [
         "25% chance to restore 2% HP and Mana on taking damage (4 second CD)"
       ],
@@ -13151,9 +13124,6 @@
       },
       {
         "Warm Fur": 1
-      },
-      {
-        "Yeti Hide": 8
       }
     ],
     "required_by": [

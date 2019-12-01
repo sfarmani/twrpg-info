@@ -8,7 +8,6 @@
         "conditions": "Level 120",
         "drops": [
             "I030",
-            "I031",
             "I08O"
         ]
     },
@@ -300,7 +299,7 @@
         "name": "Ruler of the Lav Sea Hydra",
         "limit": "12",
         "summon": "South of Capital Prius at wrecked ship in murloc area",
-        "conditions": "Level 80 and 2 White Powder",
+        "conditions": "Level 80 and 2x White Powders",
         "drops": [
             "I06Y",
             "I070",
@@ -324,7 +323,7 @@
         "limit": "5",
         "manacost": "1",
         "summon": "East area of Duchy of Wallachi at wrecked church near Death Knight",
-        "conditions": "Level 160 and 2x White Powder, 1x Red Powder",
+        "conditions": "Level 160 and 2x Green Powders",
         "drops": [
             "I07I",
             "moon",
@@ -347,7 +346,7 @@
         "limit": "4",
         "manacost": "1",
         "summon": "East area of Capital Prius at Fountain",
-        "conditions": "Level 80 and 2x Red Powder",
+        "conditions": "Level 80 and 2x White Powders",
         "drops": [
             "I07O",
             "I07M",
@@ -374,7 +373,7 @@
         "limit": "4",
         "manacost": "1",
         "summon": "In Volcanic Lands in the Volcano where Ragnaar spawns",
-        "conditions": "Level 200 and 3x Green Powder",
+        "conditions": "Level 200 and 2x Red Powders",
         "drops": [
             "I07R",
             "I09S",
@@ -395,7 +394,7 @@
         "limit": "4",
         "manacost": "1",
         "summon": "South area of Frosty Snowfield between two snowmen near Yetis'",
-        "conditions": "Level 120 and 3x Red Powder",
+        "conditions": "Level 120 and 2x Blue Powders",
         "drops": [
             "I06F",
             "I083",
@@ -453,7 +452,7 @@
         "limit": "3",
         "manacost": "1",
         "summon": "In mining cave located in the west part of Mining Town",
-        "conditions": "Level 200 and 2x Holy Powder",
+        "conditions": "Level 200 and 2x Holy Powders",
         "drops": [
             "I085",
             "I087",
@@ -522,7 +521,7 @@
         "limit": "7",
         "manacost": "2",
         "summon": "In Frost Cave where 3 Pruis Magicians are gathered",
-        "conditions": "Level 300 and 1x Holy Powder, 3x Blue Powder",
+        "conditions": "Level 300 and 6x Blue Powders",
         "drops": [
             "I067",
             "bspd",
@@ -551,7 +550,7 @@
         "limit": "2",
         "manacost": "2",
         "summon": "In Duchy of Wallachia in a pile of skulls South of where Death Knight spawns",
-        "conditions": "Level 160, 8x Red Powder, and Waves defeated without killing the gate or letting the monsters kill the King in top-left side of Capital Prius",
+        "conditions": "Level 160, 8x Red Powders, and Waves defeated without killing the gate or letting the monsters kill the King in top-left side of Capital Prius",
         "drops": [
             "kysn",
             "I0FG",
@@ -803,7 +802,7 @@
         "limit": "2",
         "manacost": "4",
         "summon": "In Castle Avalon, fighting area of Guardian Angels",
-        "conditions": "Level 200, Guardian Angels defeated, and 3x Holy Powder",
+        "conditions": "Level 200, Guardian Angels defeated, and 2x Holy Powders",
         "drops": [
             "I0E5",
             "I0E6",
