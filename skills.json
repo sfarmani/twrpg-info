@@ -712,7 +712,7 @@
             "Armor increased by 400 & max HP and magic defense increased by 25%",
             "Changes skills partially",
             "After 5 seconds, consumed MP increases by 50% and skill damage increases by 2% every second",
-            "After 15 seconds, skill damage increase stops",
+            "After 15 seconds, skill damage is decreased by 10%",
             "Transfomation time: 1 second",
             "Does not end if Soul Grimoire is channeling"
         ]
