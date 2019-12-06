@@ -1,5 +1,110 @@
 [
     {
+        "name": "29e",
+        "notes": [
+            "Released on: December 5th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "items": [
+            {
+                "name": "Cosmic Star",
+                "changes": [
+                    "HP: 9000 → 7500"
+                ]
+            },
+            {
+                "name": "Horn of God",
+                "changes": [
+                    "INT: 1350 → 1450",
+                    "HP: 12500 → 1000",
+                    "Damage: 8888 → INT X 1 (up to 8888)"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Water",
+                    [
+                        "Instant death → Drains 66.66% max HP per second and instant death if HP drops below 1"
+                    ],
+                    "Knockback",
+                    [
+                        "Now has 1 second activation delay (cast call-out will be !!!!!)"
+                    ],
+                    "Water Torrent",
+                    [
+                        "Stun: 3 seconds → 2 seconds"
+                    ],
+                    "Beads",
+                    [
+                        "Instant death → deals 150000 damage"
+                    ],
+                    "Baptism",
+                    [
+                        "Text call out changed",
+                        "Damage: 30000 + 30% max HP → 30000 + 45% max HP"
+                    ],
+                    "Tide call",
+                    [
+                        "Healing per second: 0.33% max HP → 0.05% max HP",
+                        "Healing now gets 50% stronger per consecutive second hitting and 100% weaker per consecutive second not hitting (MIN: 0%, MAX: 400%)",
+                        "Damage per second: reduced by 33%",
+                        "Giant viper no longer casts spells during phase 1",
+                        "Giant viper can now be stunned (can't be knocked back)",
+                        "Giant viper summon HP threshold: every 20% lost → every 25% lost",
+                        "Duration: 30 seconds → 25 seconds"
+                    ],
+                    "Protection of the Ocean",
+                    [
+                        "Magic defense: 50% → 33%",
+                        "Now activates at start of battle, start of phase 1, and end of phase 2 (will activate at least 4 times instead of at least 7)"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Mana Blaster (R)",
+                    [
+                        "Magic defense per orb: 5% → 8%",
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Distortion (R)",
+                    [
+                        "Debuff duration: 3 seconds → 2 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Death Bomb (Q)",
+                    [
+                        "Base damage: INT X 25 → INT X 45",
+                        "Damage increase per second of channel: 300% → 200%"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Horn of Notus (T)",
+                    [
+                        "Cooldown: 60 seconds → 45 seconds"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "29d",
         "notes": [
             "Released on: December 4th, 2019",

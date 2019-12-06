@@ -1087,7 +1087,7 @@
         "active": [
             "Fires a bullet that can distort dimensions.",
             "Main Stat X 50 magic damage",
-            "Increases target's damage taken by 10% and reduces its movement speed for 3 seconds",
+            "Increases target's damage taken by 10% and reduces its movement speed for 2 seconds",
             "Knocksback target if cast consecutively",
             "Recharges every (15 - PURE ATTACK SPEED / 15) seconds"
         ]
@@ -2587,7 +2587,7 @@
             "Slows enemies",
             "Removes debuffs from allies",
             "Creates up to 6 pulses",
-            "CD: 60 seconds"
+            "CD: 45 seconds"
         ]
     },
     {
@@ -3181,7 +3181,7 @@
         "icon": "KnightR",
         "passive": [
             "Reduce magical effects imposed upon Knight.",
-            "Each orb increases magic defense by 5%",
+            "Each orb increases magic defense by 8%",
             "One orb is generated automatically every 3 seconds"
         ],
         "active": [
@@ -4154,9 +4154,9 @@
         "icon": "WitchQ",
         "active": [
             "Explosion... is an art!",
-            "INT X 25 magic damage",
+            "INT X 45 magic damage",
             "Stuns for 0.5 seconds",
-            "Can be channeled up to 2 seconds, increasing damage by 300% and range/stun duration by 100% every second",
+            "Can be channeled up to 2 seconds, increasing damage by 200% and range/stun duration by 100% every second",
             "Channeling speed can be increased per 2% attack speed"
         ]
     },
