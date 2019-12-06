@@ -6801,7 +6801,7 @@
       "skilldamagepercent": 0.05,
       "mdpercent": 0.15,
       "active": [
-        "On use, activates Death Gaze dealing main stat X 250 magic damage and increases damage taken of targets by 8% for 4 seconds",
+        "On use, activates Death Gaze dealing MAIN STAT X 250 magic damage and increasing magic damage taken by enemies (Type-A) by 8% for 4 seconds",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     },
@@ -15424,7 +15424,7 @@
       "hp": 12500,
       "skilldamagepercent": 0.06,
       "passive": [
-        "Empowers nearby allies within 750 AoE radius, increasing their attack damage by wielder's INT, their attack speed by 25%, and HP regen by 400"
+        "Empowers nearby allies within 750 AoE radius, increasing their attack damage by 8888, their attack speed by 25%, and HP regen by 400"
       ],
       "active": [
         "On use, activates Purification on targeted ally, granting them the following effects for 3 seconds:",

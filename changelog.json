@@ -1,5 +1,151 @@
 [
     {
+        "name": "29d",
+        "notes": [
+            "Released on: December 4th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Phantom Blade - Fixed Soul (D) being recognized as last spell casted for ring of time active and similar effects",
+            "Phantom Blade - Fixed Obliterate (F) not showing damage numbers with halloween costume enabled",
+            "Corruptor Rectus - Fixed stalker explosion on death causing various bugs",
+            "Ring of Fate - Fixed passive effect and stats not working",
+            "Jack-o-Lantern - Fixed still having dodge chance",
+            "Nereid - Fixed spells being casted after it dies",
+            "Nereid - Fixed healing for same amount as damage taken during phase 2"
+        ],
+        "items": [
+            {
+                "name": "Eyes of the Watcher",
+                "changes": [
+                    "Active",
+                    [
+                        "Reduces damage resistance → reduces magic resistance (type-A)"
+                    ]
+                ]
+            },
+            {
+                "name": "Horn of God",
+                "changes": [
+                    "Passive",
+                    [
+                        "Damage increase: INT X 1 → 8888"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Nereid",
+                "changes": [
+                    "HP: 48824000 → 45824000",
+                    "Attack splash damage: 5000 → 12500",
+                    "Bubbles",
+                    [
+                        "Can now be dispelled by debuff / knockback immunity",
+                        "Number of targets: 1 ~ 2 → 2"
+                    ],
+                    "Water Torrent",
+                    [
+                        "Added 3 second stun"
+                    ],
+                    "Beads",
+                    [
+                        "Spawn time: 4 seconds → 1.5 seconds",
+                        "Gathering time: 8 seconds → 7.5 seconds",
+                        "Cooldown: 7.5 seconds → 9 seconds"
+                    ],
+                    "Waves",
+                    [
+                        "Spawn cycle: 5 ~ 2.5 seconds → 5 seconds",
+                        "Width and length: reduced by 1/6"
+                    ],
+                    "Baptism",
+                    [
+                        "Damage type: 100% magic damage → 50% magic damage + 50% pure damage",
+                        "Total damage: 30000 + 60% max HP → 30000 + 30% max HP",
+                        "Invincible while casting"
+                    ],
+                    "Tidal Call",
+                    [
+                        "Viper summoning cycle: 10 ~ 5 seconds → 7.5 seconds",
+                        "Healing per second: 0.5% → 0.33%",
+                        "Now summons 1 giant viper for every 20% HP lost",
+                        "Summoning and viper spellcasts can no longer be interrupted in phase 1"
+                    ],
+                    "Phase 1",
+                    [
+                        "Initial damage radius: 400 → 750",
+                        "Ends instantly when battle ends",
+                        "Will now be activated at least 2 times during battle",
+                        "Cooldown: 45 seconds → 75 seconds"
+                    ],
+                    "Phase 2",
+                    [
+                        "All summoned beads now dissapear when it starts",
+                        "Damage increase: 50% over 60 seconds → 30% over 90 seconds",
+                        "Damage increase now starts after cast, not during it"
+                    ],
+                    "Added new spell - Protection of the Ocean",
+                    [
+                        "Activates on battle start and phase start/end",
+                        "For 6 seconds restores 1% max HP per second and provides 50% magic resistance"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Abyssal Slam (W)",
+                    [
+                        "Debuff changed to Type-D",
+                        "Magic defense reduction: (INT + 5 / 750)% → (INT + 5 / 1000)%",
+                        "Debuff field duration: 12 seconds → 8 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Restoration (W)",
+                    [
+                        "No longer affects bags/memory stone"
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Frozen Emotion (W)",
+                    [
+                        "No longer affects bags/memory stone"
+                    ]
+                ]
+            },
+            {
+                "name": "Soul Weaver",
+                "changes": [
+                    "Astral Walk (R)",
+                    [
+                        "Debuff type: Type-C"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Death Field (F)",
+                    [
+                        "Debuff type: Type-D",
+                        "Reduces magic defense by up to 12% over 8 seconds → instantly reduces magic defense by 12%"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "29c",
         "notes": [
             "Released on: December 1st, 2019",

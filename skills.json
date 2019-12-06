@@ -190,7 +190,7 @@
         "active": [
             "Pierces through the souls of the living.",
             "INT X 60 magic damage",
-            "Increases magic damage taken by enemies by 8% for 15 seconds",
+            "Increases magic damage taken by enemies (Type-C) by 8% for 15 seconds",
             "Increases magic defense of you and allies by 15% for 45 "
         ]
     },
@@ -3267,7 +3267,8 @@
             "(STR + INT) X 50 bonus damage",
             "Activates Deathblade",
             "If STR is main stat, deals pure damage and creates 4 souls",
-            "If INT is main stat, corrupts target area for 12 seconds, increasing magic damage taken by enemies for (5 + INT / 750)%"
+            "If INT is main stat, corrupts target area for 12 seconds, increasing magic damage taken by enemies (Type-D) for (5 + INT / 1000)%",
+            "Field lasts for 8 seconds"
         ]
     },
     {
@@ -4272,7 +4273,7 @@
         "active": [
             "\"Get away from here. I will be using this zone as my lab..\" - Witch",
             "Deals INT X 75 magic damage per second",
-            "Increases magic damage taken by 1.5% every second",
+            "Increases magic damage taken (Type-D) by 12%",
             "Lasts 8 seconds",
             "Cooldown: 120 seconds"
         ]
