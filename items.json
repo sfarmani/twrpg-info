@@ -7125,7 +7125,7 @@
       "hpregen": 300,
       "active": [
         "On use, unleashes Draconic Power to summon a Dragon, grants the user 90% magic reduction and render the user invulnerable to intant deaths for 15 seconds.",
-        "Dragon skills:\\n↳ Flame Breath [Q]: (main stat X 75) magic damage per second to enemies in target area\\n↳ Dragon Scale [W]: Absorbs up to 30000 damage, +7500 HP regen, and lasts 2 seconds",
+        "Dragon skills:\n↳ Flame Breath [Q]: (main stat X 75) magic damage per second to enemies in target area\n↳ Dragon Scale [W]: Absorbs up to 30000 damage, +7500 HP regen, and lasts 2 seconds",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     },
