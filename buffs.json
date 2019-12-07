@@ -1,0 +1,133 @@
+[
+    {
+        "type": "Type-A",
+        "suffix": "Fixed",
+        "bufftype": "Attack Damage",
+        "names": [
+            "Azathos, the Pipe of Chaos (Aura)",
+            "Horn of God (Aura)"
+        ]
+    },
+    {
+        "type": "Type-B",
+        "suffix": "Percentage",
+        "bufftype": "Attack Damage",
+        "names": [
+            "Sword Enchanter - Power Enchant [E] (Buff) - 25%",
+            "Blood Weaver - Blood Boil [R] (Buff) - 20%"
+        ]
+    },
+    {
+        "type": "Type-C",
+        "suffix": "Percentage",
+        "bufftype": "Attack Damage",
+        "names": [
+            "Paladin - Aura of Retribution [D] → [Q] - 10%",
+            "Bow Master - Guardian Scout [E] - 10%"
+        ]
+    },
+    {
+        "type": "Type-D",
+        "suffix": "Percentage",
+        "bufftype": "Attack Damage",
+        "names": [
+            "Eye of the Flame Lord (Aura) - 5%"
+        ]
+    },
+    {
+        "type": "Type-A",
+        "suffix": "None",
+        "bufftype": "Attack Speed",
+        "names": [
+            "Lifestone (Aura)"
+        ]
+    },
+    {
+        "type": "Type-B",
+        "suffix": "None",
+        "bufftype": "Attack Speed",
+        "names": [
+            "Azathos, the Pipe of Chaos (Aura)",
+            "Horn of God (Aura)"
+        ]
+    },
+    {
+        "type": "Type-B",
+        "suffix": "None",
+        "bufftype": "Skill Damage",
+        "names": [
+            "Staff of Void (Buff)",
+            "Staff of Madness (Buff)",
+            "Staff of Abyss (Buff)",
+            "Red Cross (Buff)",
+            "Crimson Cross (Buff)",
+            "Crimson Star (Buff)",
+            "Cosmic Star (Buff)"
+        ]
+    },
+    {
+        "type": "Type-C",
+        "suffix": "None",
+        "bufftype": "Skill Damage",
+        "names": [
+            "Eye of the Abyss (Aura)",
+            "Void Eye (Aura)",
+            "Eye of the Flame Lord (Aura)"
+        ]
+    },
+    {
+        "type": "Type-A",
+        "suffix": "None",
+        "bufftype": "Magic Defense",
+        "names": [
+            "Diana, the Robe of Holy Maiden (Aura) - 8%",
+            "Oath of Courage (Aura) - 8%",
+            "Eternal Rose (Aura) - 8%",
+            "Nebula Rose (Aura) - 10%"
+        ]
+    },
+    {
+        "type": "Type-A",
+        "suffix": "None",
+        "bufftype": "Reduced damage received",
+        "names": [
+            "Ispion, the Runed Ring (Aura) - 6%"
+        ]
+    },
+    {
+        "type": "Type-A",
+        "suffix": "None",
+        "bufftype": "Healing Received",
+        "names": [
+            "Ispion, the Runed Ring (Aura) - 12%",
+            "Protection of the Fairies (Aura) - 15%"
+        ]
+    },
+    {
+        "type": "Type-A",
+        "suffix": "None",
+        "bufftype": "All Stats",
+        "names": [
+            "Purelight Armor (Aura) - 4%",
+            "Requiem, the Armor of Lamentation (Aura) - 5%",
+            "Hades, the Armor of Despair (Aura) - 6%"
+        ]
+    },
+    {
+        "type": "Type-B",
+        "suffix": "None",
+        "bufftype": "All Stats",
+        "names": [
+            "Elementalist - Refreshing Well [W] → [Passive] (Aura)"
+        ]
+    },
+    {
+        "type": "Type-A",
+        "suffix": "None",
+        "bufftype": "HP Regen",
+        "names": [
+            "Azathos, the Pipe of Chaos (Aura)",
+            "Horn of God (Aura)"
+        ]
+    }
+]
