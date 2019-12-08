@@ -286,7 +286,12 @@
                         "Damage type: 100% magic damage → 50% magic damage + 50% pure damage",
                         "Total damage: 30000 + 60% max HP → 30000 + 30% max HP",
                         "Invincible while casting"
-                    ],
+                    ]
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
                     "Tidal Call",
                     [
                         "Viper summoning cycle: 10 ~ 5 seconds → 7.5 seconds",
