@@ -1,5 +1,121 @@
 [
     {
+        "name": "29f",
+        "notes": [
+            "Released on: December 8th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Avalon - Fixed corrupt angel still having dodge chance"
+        ],
+        "items": [
+            {
+                "name": "Staff of Plague",
+                "changes": [
+                    "Recipe: Antimatter → Antimatter / Dark Crystal (Antimatter will be removed from recipe in about 3 months)"
+                ]
+            },
+            {
+                "name": "Vest of Storm",
+                "changes": [
+                    "Recipe: Antimatter → Antimatter / Frozen Debris (Antimatter will be removed from recipe in about 3 months)"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Removed drop limit from early game bosses"
+                ]
+            },
+            {
+                "name": "Ruler of the Lav Sea Hydra",
+                "changes": [
+                    "Hydra's Poisonous Tooth / Hydra Scale droprate: 50% → 25%"
+                ]
+            },
+            {
+                "name": "Count Wallachia",
+                "changes": [
+                    "Count's Memento / Bloodstone droprate: 10% → 12.5%",
+                    "Count's Old Cape droprate: 5% → 12.5%",
+                    "Ancient Writings droprate: 5% → 7.5%"
+                ]
+            },
+            {
+                "name": "Wings of Death",
+                "changes": [
+                    "Item droprate: 6% → 7.5%",
+                    "Dragon Bone / Dragon Heart / Dragon Scale droprate: 9% → 12.5%"
+                ]
+            },
+            {
+                "name": "Mage Lord",
+                "changes": [
+                    "Item droprate: 6/4% → 7.5%"
+                ]
+            },
+            {
+                "name": "Guardian Angel",
+                "changes": [
+                    "Material droprate: 3% → 4%"
+                ]
+            },
+            {
+                "name": "Corrupt Angel",
+                "changes": [
+                    "Material droprate: 8% → 12.5%"
+                ]
+            },
+            {
+                "name": "Gatekeeper",
+                "changes": [
+                    "Guardian Ring droprate: 4% → 5%"
+                ]
+            },
+            {
+                "name": "Demon Lord",
+                "changes": [
+                    "Claws of Destruction / Bullet of Destruction droprate: 1.75% → 2%",
+                    "Slayer Boots droprate: 2.5% → 3%"
+                ]
+            },
+            {
+                "name": "Skeleton King Desperia / Zombie Lord",
+                "changes": [
+                    "Material droprate: 0.75% → 1%"
+                ]
+            },
+            {
+                "name": "Ancient Ent",
+                "changes": [
+                    "Elder Ent HP: 15000000 → 12500000",
+                    "Storm delay: 2.5 seconds → 2.25 seconds",
+                    "Material drop rate: 0.4% / 0.2% / 0.04% → 0.5% / 0.25% / 0.05%"
+                ]
+            },
+            {
+                "name": "Archangel Samael",
+                "changes": [
+                    "Material droprate: 0.9% → 1%"
+                ]
+            },
+            {
+                "name": "Bone Dragon",
+                "changes": [
+                    "Item droprate: 0.66% → 0.75%"
+                ]
+            },
+            {
+                "name": "Shadow Dragon Irbert",
+                "changes": [
+                    "Material droprate: 0.75% / 0.6% → 0.9% / 0.75%"
+                ]
+            }
+        ]
+    },
+    {
         "name": "29e",
         "notes": [
             "Released on: December 5th, 2019",

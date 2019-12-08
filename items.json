@@ -498,7 +498,7 @@
     "droprate": [
       0.0005,
       0.05,
-      0.08
+      0.125
     ],
     "required_by": [
       "Red Cross",
@@ -2004,7 +2004,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.5,
+    "droprate": 0.25,
     "required_by": [
       "Laksha, the Reigning Sword of Poison",
       "Maw of Monster",
@@ -2020,7 +2020,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.5,
+    "droprate": 0.25,
     "required_by": [
       "Fruit Candy Pouch",
       "Mana Heart",
@@ -2429,7 +2429,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.1,
+    "droprate": 0.125,
     "required_by": [
       "Tepethia, the Bloodsword of Domination",
       "Sanguiel, the Bloodspear of Domination",
@@ -2450,7 +2450,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.1,
+    "droprate": 0.125,
     "required_by": [
       "Bahanar, the Sword of Illusion",
       "True Blood Cannon Tepes",
@@ -2471,7 +2471,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.05,
+    "droprate": 0.125,
     "required_by": [
       "Bloody Hatred",
       "Eye of Wallachia",
@@ -2492,7 +2492,7 @@
     "type": "[Material]",
     "color": "FFFFFF",
     "droprate": [
-      0.05,
+      0.075,
       0.06,
       0.075
     ],
@@ -2727,7 +2727,7 @@
     "type": "[Greatsword]",
     "color": "9370DB",
     "level": 260,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "True Dragonsword Lainhart"
     ],
@@ -2750,7 +2750,7 @@
     "type": "[Bow]",
     "color": "9370DB",
     "level": 260,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "True Dragonbow Aience"
     ],
@@ -2773,7 +2773,7 @@
     "type": "[Staff]",
     "color": "9370DB",
     "level": 260,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "True Dragonstaff Irave"
     ],
@@ -2797,7 +2797,7 @@
     "type": "[Gun]",
     "color": "9370DB",
     "level": 260,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "True Dragon Cannon Belenus"
     ],
@@ -2820,7 +2820,7 @@
     "type": "[Armor]",
     "color": "9370DB",
     "level": 260,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "True Dragon Armor Magron"
     ],
@@ -2845,7 +2845,7 @@
     "type": "[Helm]",
     "color": "9370DB",
     "level": 260,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "True Dragon Helm Agron"
     ],
@@ -2866,7 +2866,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.09,
+    "droprate": 0.125,
     "required_by": [
       "True Dragonsword Lainhart",
       "True Dragonstaff Irave",
@@ -2886,7 +2886,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.09,
+    "droprate": 0.125,
     "required_by": [
       "Spirit Dagger",
       "True Dragon Helm Agron",
@@ -2905,7 +2905,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.09,
+    "droprate": 0.125,
     "required_by": [
       "Leoreus, the Greatsword of Explosion",
       "Heartseeker",
@@ -2939,7 +2939,7 @@
     "type": "[Misc]",
     "color": "80BFFF",
     "level": 300,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "notes": [
       "The order below is the order of the menu to select when in game"
     ],
@@ -3081,7 +3081,7 @@
     "type": "[Robe]",
     "color": "BA55D3",
     "level": 260,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "Mage Lord Icon",
       "Robe of the Sage"
@@ -3105,7 +3105,7 @@
     "type": "[Hood]",
     "color": "BA55D3",
     "level": 260,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "Mage Lord Icon",
       "Hood of Grim Reaper",
@@ -3130,7 +3130,7 @@
     "type": "[Ring]",
     "color": "BA55D3",
     "level": 300,
-    "droprate": 0.04,
+    "droprate": 0.075,
     "required_by": [
       "Mage Lord Icon",
       "Ring of the Sage",
@@ -3235,7 +3235,7 @@
     "type": "[Ring]",
     "color": "9370DB",
     "level": 340,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "True Guardian Ring",
       "Ring of Holy Light"
@@ -3412,7 +3412,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.03,
+    "droprate": 0.04,
     "required_by": [
       "Staff of Void",
       "Bahanar, the Sword of Illusion",
@@ -3434,7 +3434,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.03,
+    "droprate": 0.04,
     "required_by": [
       "Karonphniamm, the True Holy Sword",
       "Klenetia, the True Holy Staff",
@@ -3593,7 +3593,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.08,
+    "droprate": 0.125,
     "required_by": [
       "Staff of Void",
       "Flame Soul",
@@ -3615,7 +3615,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.08,
+    "droprate": 0.125,
     "required_by": [
       "Staff of Madness",
       "Eximelia, True Unholy Sword",
@@ -4124,7 +4124,7 @@
     "type": "[Bastard Sword]",
     "color": "DC143C",
     "level": 340,
-    "droprate": 0.0175,
+    "droprate": 0.02,
     "required_by": [
       "Demon Lord Icon",
       "Claws of Beriel",
@@ -4153,7 +4153,7 @@
     "type": "[Gun]",
     "color": "DC143C",
     "level": 360,
-    "droprate": 0.0175,
+    "droprate": 0.02,
     "required_by": [
       "Demon Lord Icon",
       "Bullet of Ruin"
@@ -4240,7 +4240,7 @@
     "type": "[Wings]",
     "color": "C71585",
     "level": 340,
-    "droprate": 0.025,
+    "droprate": 0.03,
     "required_by": [
       "Wanderer's Cape",
       "Storm"
@@ -5985,7 +5985,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.01,
     "required_by": [
       "Claws of Beriel",
       "Crimson Reaper",
@@ -6010,7 +6010,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.01,
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -6039,7 +6039,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.01,
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -6063,7 +6063,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.01,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
       "Chronos, the Cannon of Time",
@@ -6310,9 +6310,9 @@
       "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.20% → 0.04%, 0.02% → 0.004)"
     ],
     "droprate": [
-      0.004,
-      0.002,
-      0.0004
+      0.005,
+      0.0025,
+      0.0005
     ],
     "required_by": [
       "Espishu, the Sword of Eternity",
@@ -6349,9 +6349,9 @@
       "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.20% → 0.04%, 0.02% → 0.004)"
     ],
     "droprate": [
-      0.004,
-      0.002,
-      0.0004
+      0.005,
+      0.0025,
+      0.0005
     ],
     "required_by": [
       "Spirit Dagger",
@@ -6536,7 +6536,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.009,
     "required_by": [
       "Crimson Reaper",
       "Ruinbringer",
@@ -6560,7 +6560,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.009,
     "required_by": [
       "Staff of Plague",
       "Pheles, the Bow of God",
@@ -6589,7 +6589,7 @@
     "type": "[Material]",
     "color": "FFFFFF",
     "droprate": [
-      0.006,
+      0.0075,
       0.009
     ],
     "required_by": [
@@ -6626,7 +6626,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.009,
+    "droprate": 0.01,
     "required_by": [
       "Claws of Beriel",
       "Tiberius, the Spear of Lightning",
@@ -6649,7 +6649,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.009,
+    "droprate": 0.01,
     "required_by": [
       "Oceanus, the Sword of Light",
       "Halo of Judgment",
@@ -6671,7 +6671,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.009,
+    "droprate": 0.01,
     "required_by": [
       "Ruinbringer",
       "Hell Riser",
@@ -7109,7 +7109,7 @@
     "type": "[Weapon all classes]",
     "color": "DC143C",
     "level": 380,
-    "droprate": 0.0066,
+    "droprate": 0.0075,
     "required_by": [
       "Ethenos, the Staff of Space",
       "Triple Snow",
@@ -7141,7 +7141,7 @@
     "type": "[Ring]",
     "color": "DC143C",
     "level": 380,
-    "droprate": 0.0066,
+    "droprate": 0.0075,
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ring of Time",
@@ -12034,7 +12034,7 @@
         "Spearhead of Death": 1
       },
       {
-        "Antimatter": 1
+        "Antimatter": 1, "Dark Crystal": 1
       }
     ],
     "stats": {
@@ -17294,7 +17294,7 @@
         "Ring of the Storm": 1
       },
       {
-        "Antimatter": 1
+        "Antimatter": 1, "Frozen Debris": 1
       },
       {
         "Essence of Light": 1
