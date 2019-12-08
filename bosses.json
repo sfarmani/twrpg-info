@@ -2,7 +2,7 @@
     {
         "id": "n01D",
         "name": "Yeti",
-        "limit": "1",
+        "limit": "None",
         "timer": "30s",
         "location": "Southern part of Frosty Snowfield two reside below The Magician's Tower",
         "conditions": "Level 120",
@@ -297,7 +297,7 @@
     {
         "id": "n022",
         "name": "Ruler of the Lav Sea Hydra",
-        "limit": "12",
+        "limit": "None",
         "summon": "South of Capital Prius at wrecked ship in murloc area",
         "conditions": "Level 80 and 2x White Powders",
         "drops": [
@@ -320,7 +320,7 @@
     {
         "id": "H00F",
         "name": "Count Wallachia",
-        "limit": "5",
+        "limit": "None",
         "manacost": "1",
         "summon": "East area of Duchy of Wallachi at wrecked church near Death Knight",
         "conditions": "Level 160 and 2x Green Powders",
@@ -343,7 +343,7 @@
     {
         "id": "n01W",
         "name": "Jack-o-Lantern",
-        "limit": "4",
+        "limit": "None",
         "manacost": "1",
         "summon": "East area of Capital Prius at Fountain",
         "conditions": "Level 80 and 2x White Powders",
@@ -370,7 +370,7 @@
     {
         "id": "n01K",
         "name": "Wings of Death",
-        "limit": "4",
+        "limit": "None",
         "manacost": "1",
         "summon": "In Volcanic Lands in the Volcano where Ragnaar spawns",
         "conditions": "Level 200 and 2x Red Powders",
@@ -391,7 +391,7 @@
     {
         "id": "h01B",
         "name": "Mage Lord",
-        "limit": "4",
+        "limit": "None",
         "manacost": "1",
         "summon": "South area of Frosty Snowfield between two snowmen near Yetis'",
         "conditions": "Level 120 and 2x Blue Powders",
@@ -436,7 +436,7 @@
     {
         "id": "H00V",
         "name": "Guardian Spirit, Avalon's Gatekeeper",
-        "limit": "1",
+        "limit": "None",
         "manacost": "1",
         "location": "Before the entrance of Guardian Angels",
         "conditions": "Level 200 and Angels summoned",
@@ -449,7 +449,7 @@
     {
         "id": "n01N",
         "name": "Guardian Angel",
-        "limit": "3",
+        "limit": "None",
         "manacost": "1",
         "summon": "In mining cave located in the west part of Mining Town",
         "conditions": "Level 200 and 2x Holy Powders",
@@ -468,7 +468,7 @@
     {
         "id": "n01O",
         "name": "Corrupt Angel",
-        "limit": "3",
+        "limit": "None",
         "manacost": "1",
         "location": "In Frosty Snowfield summoned after 2 minute of summoning Guardian Angel",
         "conditions": "Level 200 and Angels summoned",
@@ -486,7 +486,7 @@
     {
         "id": "n023",
         "name": "Lord of Everfrost",
-        "limit": "2",
+        "limit": "None",
         "manacost": "1",
         "location": "Summoned during waves of Frostspider Lord",
         "conditions": "Level 300 and Frostspider Lord summoned",
@@ -502,7 +502,7 @@
     {
         "id": "H01F",
         "name": "Spider Queen Ilshenar",
-        "limit": "2",
+        "limit": "None",
         "manacost": "1",
         "location": "Summoned during waves of Frostspider Lord",
         "conditions": "Level 300 and Frostspider Lord summoned",
@@ -518,7 +518,7 @@
     {
         "id": "h034",
         "name": "Frostspider Lord",
-        "limit": "7",
+        "limit": "None",
         "manacost": "2",
         "summon": "In Frost Cave where 3 Pruis Magicians are gathered",
         "conditions": "Level 300 and 6x Blue Powders",
@@ -547,7 +547,7 @@
     {
         "id": "n01Y",
         "name": "Demon Lord Beriel",
-        "limit": "2",
+        "limit": "None",
         "manacost": "2",
         "summon": "In Duchy of Wallachia in a pile of skulls South of where Death Knight spawns",
         "conditions": "Level 160, 8x Red Powders, and Waves defeated without killing the gate or letting the monsters kill the King in top-left side of Capital Prius",
@@ -815,7 +815,7 @@
     {
         "id": "n033",
         "name": "Zombie Lord",
-        "limit": "3",
+        "limit": "None",
         "manacost": "4",
         "location": "In Prius Forward camp, the cave to the East",
         "conditions": "Level 410",
@@ -883,7 +883,7 @@
     {
         "id": "h04O",
         "name": "Valtora",
-        "limit": "2",
+        "limit": "None",
         "manacost": "6",
         "summon": "The Left-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 420 and Key of Storm crafted",
@@ -897,7 +897,7 @@
     {
         "id": "h060",
         "name": "Ifrit",
-        "limit": "2",
+        "limit": "None",
         "manacost": "6",
         "summon": "The Right-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 420 and Key of Flame crafted",
@@ -911,7 +911,7 @@
     {
         "id": "h06T",
         "name": "Nereid",
-        "limit": "2",
+        "limit": "None",
         "manacost": "6",
         "summon": "The Top-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 420 and Key of Sea crafted",
