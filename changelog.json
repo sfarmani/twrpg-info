@@ -132,7 +132,7 @@
                 "name": "Horn of God",
                 "changes": [
                     "INT: 1350 → 1450",
-                    "HP: 12500 → 1000",
+                    "HP: 12500 → 10000",
                     "Damage: 8888 → INT X 1 (up to 8888)"
                 ]
             }
