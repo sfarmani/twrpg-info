@@ -1,5 +1,32 @@
 [
     {
+        "name": "29g",
+        "notes": [
+            "Released on: December 10th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Gunner - Fixed Hermit's Orb of Harmony (R) causing bullet-related bugs"
+        ],
+        "monsters": [
+            {
+                "name": "Turtle Lord",
+                "changes": [
+                    "Mini turtles no longer damage upon spawning"
+                ]
+            },
+            {
+                "name": "Bone Dragon",
+                "changes": [
+                    "Phoenix spawning projectile damage: 12500 → 7500"
+                ]
+            }
+        ],
+        "misc": [
+            "Changed powder bag model (players repicked hero couldn't see old model)"
+        ]
+    },
+    {
         "name": "29f",
         "notes": [
             "Released on: December 8th, 2019",
