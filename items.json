@@ -11723,9 +11723,8 @@
     "stats": {
       "damage": 29000,
       "agility": 1800,
-      "hp": 2500,
+      "hp": 4000,
       "skilldamagepercent": 0.05,
-      "critchancepercent": 0.05,
       "passive": [
         "Every 6 seconds power up next attack with Corrupt Arrow (80x Agi AoE Damage (112x agi for sniper), and heals you for 10% of max Health)"
       ],
