@@ -5099,7 +5099,8 @@
       "attackspeedpercent": -0.25,
       "critchancepercent": 0.075,
       "passive": [
-        "Chance to activate Corrupt Explosion on attack"
+        "9% Chance to activate Corrupt Explosion on attack",
+        "Deals (1.5 X AGI X 10) magic damage and deals (AGI X 10) magic damage to enemies around target"
       ],
       "spec": [
         "Specialty",
@@ -5129,7 +5130,12 @@
       "skilldamagepercent": 0.05,
       "critchancepercent": 0.05,
       "active": [
-        "On use, activates Vengeance on being damaged next time"
+        "On use, activates Vengeance on being damaged next time within 6 seconds",
+        "If HP drops below 10%, but isn't enough to kill user, grants the user with (base AGI X ((15% damage dealt / max HP) + 0.1)) AGI for 15 seconds and stuns the enemy for 2 seconds",
+        "If HP drops below 1, increases user's AGI by 25% for 15 seconds and stuns the enemy for 2 seconds",
+        "After blocking damage, user also gains 25% movement speed",
+        "Max added AGI is 1000",
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty",
@@ -5160,7 +5166,8 @@
       "skilldamagepercent": 0.05,
       "active": [
         "On use, activates Chaser spawning 6 projectiles around user for 6-8 seconds",
-        "On the next 6 attacks, one projectile per attack gets released and deals AGI X 15 splash damage to target."
+        "On the next 6 attacks, one projectile per attack gets released and deals (AGI X 17.5) magic splash damage to target.",
+        "Cooldown: 20 seconds, cannot be dropped during cooldown"
       ]
     },
     "koreanname": "체이서"
@@ -5188,7 +5195,8 @@
       "intelligence": 850,
       "skilldamagepercent": 0.075,
       "passive": [
-        "On being healed, converts excess amount into max HP"
+        "On being healed, converts 10% of excess amount into max HP",
+        "Max bonus HP is 7500"
       ]
     },
     "koreanname": "해골 인장"
@@ -5217,11 +5225,11 @@
     "stats": {
       "allstat": 825,
       "skilldamagepercent": 0.06,
-      "hpregen": 225,
+      "hpregen": 175,
       "active": [
         "On use, transforms user for 12 seconds",
-        "Stat, HP regen & magic defense increased",
-        "Cooldown: 120 seconds"
+        "Grants the user with 250 all stats, increase magic defense by 60%, and heals 1% of max HP per second over duration",
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Mad Alchemist",
@@ -5251,7 +5259,9 @@
       "attackspeedpercent": 0.25,
       "skilldamagepercent": 0.05,
       "active": [
-        "On use, creats a poisonous field at the target location"
+        "On use, creates a poisonous field at the target location for 8 seconds",
+        "Deals (INT X 125) total magic damage in a 375 AoE over duration",
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     },
     "koreanname": "전염의 지팡이"
