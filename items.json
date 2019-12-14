@@ -7946,7 +7946,7 @@
       "dtpercent": -0.22,
       "spec": [
         "Merchant Specialty - Very Heavy Bag",
-        "Merchant - Bag Slam: damage is increased by 400%, and it increases target's damage taken by 10% for 6 seconds",
+        "Merchant - Bag Slam: damage is increased by 400%, and it increases target's damage taken by 8% for 6 seconds",
         "Merchant - Throwing Healing Potion: Increases target's skill damage by 8%",
         "Merchant - Throw Money: Each coin stuns for 0.5 seconds"
       ]
@@ -15301,10 +15301,15 @@
       "intelligence": 1160,
       "skilldamagepercent": 0.12,
       "passive": [
-        "\"Disguiser's Seal\" Store 1% of damage dealt as max Health and Mana (10% of Max Health and Max Mana Cap) Wears off 6 seconds after the last time you deal damage"
+        "Converts 0.5% of dealt damage into max HP and MP with a cap of (base STR X 1.5) for HP and (base INT X 1.5) for MP",
+        "Lasts 6 seconds after the last time you deal damage"
       ],
       "active": [
-        "'Consume the Light' Deal 15x (Stored Health + Stored Mana) for 4 seconds in 500 AoE. Then deal 77.5x (Stored Health+Stored Mana) in 500 AoE and apply Suppression (reduces damage by 100%, silences, and greatly reduces movement speed for 1.5 seconds) to all enemies hit. (120 second CD)"
+        "On use, activates Dark Light, consuming all stored HP and MP",
+        "Every second for 5 seconds, deals ((12 X stored HP) + (20 X stored MP)) magic damage in a 500 radius around user",
+        "Reduces movement speed and damage by 50% and silences on affected enemies for 1.5 seconds",
+        "On the last second, deals a final damage of ((60 X stored HP) + (100 X stored MP)) magic damage in a 500 radius around user and stuns for 1 second",
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Power of Inversion",
