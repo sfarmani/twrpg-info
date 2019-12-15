@@ -2017,7 +2017,7 @@
             "STR X (25 + 25 X Skill Level) magic damage",
             "Slow effect",
             "Empowers next Strike of Honor cast within 4 seconds",
-            "Increases damage and stun duration by 150%, and increases target's damage taken by 10% for 8 seconds",
+            "Increases damage and stun duration by 150%, and increases target's damage taken by 12% for 8 seconds",
             "Increases HP regen by (Crusader's Max HP X 10%) for 5 seconds"
         ]
     },
