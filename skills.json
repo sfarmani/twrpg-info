@@ -1163,7 +1163,8 @@
             "Projects 2 Enchanted Swords",
             "Increases movement speed by 50% & dodge chance by 60% for 6 seconds",
             "Additionally increases movement speed by 400 temporarily (this bonus can break the movement speed limit)",
-            "Sword Enchant - Projects an Enchanted Sword for every 200 distance travelled"
+            "Sword Enchant - Projects an Enchanted Sword for every 200 distance travelled",
+            "Ignores unit collision while active (only for self)"
         ]
     },
     {
@@ -1400,16 +1401,11 @@
         "color": "8eaffd",
         "hotkey": "[E]",
         "icon": "SwordsmanE",
-        "passive": [
-            "Engulfs your body with a wind storm.",
-            "Gains 20% damage reduction for 1.5 seconds when casting a skill"
-        ],
         "active": [
-            "Creates a wind storm.",
-            "AGI X 10 bonus damage",
-            "Increases magic defense by 40% for duration",
+            "Surrounds yourself with a fierce bladestorm.",
+            "GI X 10 magic damage per second",
+            "Increases movement speed by 200 and magic defense by 40%",
             "Lasts 6 seconds",
-            "Cooldown: 15 seconds",
             "Chain - Flash Step (available for 4 seconds)"
         ]
     },
@@ -2085,7 +2081,7 @@
         "passive": [
             "A martial art that strengthens the fist, passed down from the Shaolins of the orients.",
             "12% chance to deal Skill Level X 300 damage on attack",
-            "AGI X 15 bonus damage"
+            "AGI X 30 bonus damage"
         ]
     },
     {
@@ -2134,7 +2130,7 @@
         "passive": [
             "An improved version of Emperor's strikes that boasts fearsome power.",
             "Chance to deal Skill Level X 5000 damage on attack",
-            "AGI X 62.5 bonus damage"
+            "AGI X 80 bonus damage"
         ]
     },
     {
@@ -2181,7 +2177,7 @@
             "Dash and skewer enemy with a single strike.",
             "Attack Damage X 100% damage",
             "STR X 7.5 bonus pure damage",
-            "Empowered: For 20 seconds, critical chance with spear attacks against the target is increased by 50%"
+            "Empowered: For 30 seconds, critical chance with spear attacks against the target is increased by 50%"
         ]
     },
     {
@@ -2849,10 +2845,11 @@
         "icon": "ThundererR",
         "active": [
             "Deliver a fatal blow by striking target's heart.",
-            "40000 + Attack Damage X 2000% damage",
-            "(STR + AGI) X 100 bonus damage",
+            "Attack Damage X 2500% magic damage",
+            "(STR + AGI) X 150 bonus damage",
             "Consumes Magnetic Field to deal up to a maximum of 100% bonus damage",
-            "If 100% of Magnetic Field is consumed, breaks any barriers on the target"
+            "Breaks barriers at max usage",
+            "Cast time: 0.75 seconds"
         ]
     },
     {
@@ -2863,7 +2860,9 @@
         "icon": "ThundererF",
         "active": [
             "\"Disappear with the thunder!\" - Thunderer",
-            "Each lightning deals Highest Stat X 20 damage",
+            "Each lightning deals Highest Stat X 25 damage",
+            "Stuns for 1 second",
+            "Restores 25% of Magnetic Field every second",
             "Binds nearby enemies' movements"
         ]
     },
@@ -3110,7 +3109,8 @@
         "active": [
             "Release mana to strengthen your body.",
             "Increases damage reduction by 20%",
-            "Converts restored MP into HP 50% of restored MP"
+            "Converts restored MP into HP 50% of restored MP",
+            "Cooldown: 10 seconds"
         ]
     },
     {
@@ -4169,7 +4169,7 @@
         "active": [
             "Shoots stars out of your broom.",
             "INT X 30 magic damage",
-            "Heals for INT X 1.5",
+            "Heals for INT X 1.5 (50% effectiveness for self)",
             "Refills 1 charge every 6 seconds",
             "Can hold up to 4 charges",
             "Can pierce enemies"

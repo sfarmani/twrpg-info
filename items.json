@@ -96,7 +96,8 @@
     ],
     "stats": {
       "active": [
-        "Restore HP, MP +40%"
+        "Restore HP, MP +40%",
+        "Effectiveness reduced at higher levels"
       ]
     }
   },
@@ -1046,8 +1047,7 @@
     "type": "[Misc]",
     "color": "80BFFF",
     "notes": [
-      "Droprate increases every 5 minutes that it does not drop",
-      "Can only be dropped once per game"
+      "Droprate increases every 5 minutes that it does not drop"
     ],
     "stats": {
       "active": [
@@ -1340,7 +1340,7 @@
     "type": "[Longsword]",
     "color": "00BFFF",
     "level": 240,
-    "droprate": 0.05,
+    "droprate": 0.1,
     "stats": {
       "damage": 2620,
       "agility": 390,
@@ -1359,7 +1359,7 @@
     "type": "[Gloves]",
     "color": "00BFFF",
     "level": 240,
-    "droprate": 0.05,
+    "droprate": 0.1,
     "stats": {
       "damage": 1800,
       "agility": 360,
@@ -1378,7 +1378,7 @@
     "type": "[Greatsword]",
     "color": "00BFFF",
     "level": 240,
-    "droprate": 0.05,
+    "droprate": 0.1,
     "stats": {
       "damage": 3100,
       "strength": 260,
@@ -1397,7 +1397,7 @@
     "type": "[Staff]",
     "color": "00BFFF",
     "level": 240,
-    "droprate": 0.05,
+    "droprate": 0.1,
     "required_by": [
       "Staff of Tentacles"
     ],
@@ -1417,7 +1417,7 @@
     "type": "[Bow]",
     "color": "00BFFF",
     "level": 240,
-    "droprate": 0.05,
+    "droprate": 0.1,
     "stats": {
       "damage": 2600,
       "agility": 290,
@@ -1435,7 +1435,7 @@
     "type": "[Gun]",
     "color": "00BFFF",
     "level": 240,
-    "droprate": 0.05,
+    "droprate": 0.1,
     "required_by": [
       "Monster Hunter"
     ],
@@ -1458,7 +1458,7 @@
     "type": "[Ring]",
     "color": "9370DB",
     "level": 240,
-    "droprate": 0.05,
+    "droprate": 0.1,
     "required_by": [
       "Tentacle Horn"
     ],
@@ -1530,7 +1530,7 @@
     "type": "[Longsword]",
     "color": "00BFFF",
     "level": 280,
-    "droprate": 0.05,
+    "droprate": 0.1,
     "stats": {
       "damage": 3190,
       "agility": 410,
@@ -1549,7 +1549,7 @@
     "type": "[Gloves]",
     "color": "00BFFF",
     "level": 280,
-    "droprate": 0.05,
+    "droprate": 0.1,
     "stats": {
       "damage": 2860,
       "agility": 410,
@@ -1568,7 +1568,7 @@
     "type": "[Greatsword]",
     "color": "00BFFF",
     "level": 280,
-    "droprate": 0.05,
+    "droprate": 0.1,
     "stats": {
       "damage": 4450,
       "strength": 330,
@@ -1587,7 +1587,7 @@
     "type": "[Staff]",
     "color": "00BFFF",
     "level": 280,
-    "droprate": 0.05,
+    "droprate": 0.1,
     "stats": {
       "damage": 2690,
       "intelligence": 440,
@@ -1606,7 +1606,7 @@
     "type": "[Bow]",
     "color": "00BFFF",
     "level": 280,
-    "droprate": 0.05,
+    "droprate": 0.1,
     "stats": {
       "damage": 3550,
       "agility": 370,
@@ -1625,7 +1625,7 @@
     "type": "[Gun]",
     "color": "00BFFF",
     "level": 280,
-    "droprate": 0.05,
+    "droprate": 0.1,
     "stats": {
       "damage": 4900,
       "agility": 290,
@@ -8226,6 +8226,56 @@
     }
   },
   {
+    "id": "I0LU",
+    "name": "Bag of Universe",
+    "koreanname": "만물의 배낭",
+    "description": "Bag infused with the spirit of universe",
+    "type": "[Bag]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Bag of Mother Nature": 1
+      },
+      {
+        "Dragonic Orb": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Essence of Light": 1
+      },
+      {
+        "Essence of Darkness": 1
+      },
+      {
+        "Fragment of Chaos": 1
+      }
+    ],
+    "stats": {
+      "damage": 23000,
+      "allstat": 2200,
+      "hpregen": 1500,
+      "movespeed": 100,
+      "active": [
+        "On use, throws Elixir",
+        "Elixir clears debuffs on consumption",
+        "Lasts 30 seconds on ground",
+        "Cooldown: 15 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Merchant Specialty - Very Light Bag",
+        "Merchant - This Bag isn't a Decoration!: You can drink up to 2 potions at once.",
+        "Merchant - Throwing Healing Potion: Can be thrown twice in a row, number of placeable potions increased by 6, and reduces target's damage taken by 15%.",
+        "Merchant - Life Shield Scroll: Duration increased by 5 seconds and increases target's magic defense by 15%."
+      ]
+    }
+  },
+  {
     "id": "tstr",
     "name": "Golden Fang",
     "koreanname": "금빛 송곳니",
@@ -12061,6 +12111,52 @@
     }
   },
   {
+    "id": "I0M1",
+    "name": "Soul of Abyss",
+    "koreanname": "소울 오브 어비스",
+    "description": "If you stare into the abyss, the abyss stares back at you",
+    "type": "[Staff]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Staff of Abyss": 1
+      },
+      {
+        "Spearhead of Death": 1
+      },
+      {
+        "Shackles of Heaven": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Essence of Light": 1
+      },
+      {
+        "Essence of Darkness": 1
+      }
+    ],
+    "stats": {
+      "damage": 22500,
+      "intelligence": 2450,
+      "hp": 7500,
+      "passive": [
+        "On skill cast, activates Power of Abyss",
+        "Grants the user with 12% skill damage and 300 HP regen for allies in 375 radius for 8 seconds"
+      ],
+      "active": [
+        "On use, activates Call of Abyss",
+        "Grants a targetted ally 8% damage dealt and 15% HP regen for 10 seconds",
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
     "id": "I0JY",
     "name": "Crimson Hatred",
     "koreanname": "선혈빛 증오",
@@ -12137,7 +12233,7 @@
       "damage": 28500,
       "agility": 2150,
       "attackspeedpercent": 0.4,
-      "mdpercent": -0.15,
+      "mdpercent": -0.1,
       "passive": [
         "'Poem of Wind' Fire 1 additional projectiles on every attack that deals 0.15x Attack Damage as Pure Damage. Poem of Wind can Crit. Can trigger on attack effects"
       ]
@@ -12202,7 +12298,8 @@
       "armor": 250,
       "strength": 100,
       "agility": 125,
-      "dodgechancepercent": 0.15
+      "hpregen": 75,
+      "mpregen": 75
     }
   },
   {

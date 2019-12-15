@@ -1,5 +1,255 @@
 [
     {
+        "name": "29p",
+        "notes": [
+            "Released on: December 4th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fixed issue with memory stone dying"
+        ],
+        "heroes": {
+            "name": "Crusader",
+            "changes": [
+                "1st Sword Dance: Strike (R) - 2nd Sword Dance: Sword (R)",
+                [
+                    "Increases target's damage taken: 10% → 12%"
+                ]
+            ]
+        }
+    },
+    {
+        "name": "29o",
+        "notes": [
+            "Released on: December 4th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fixed bug where boss could not be summoned from memory stone"
+        ]
+    },
+    {
+        "name": "29m",
+        "notes": [
+            "Released on: December 4th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Collectible (closet) items in your bag will automatically activate and be registered before saving",
+                    "Added new recipe",
+                    [
+                        "Bag of Universe",
+                        "Soul of Abyss"
+                    ]
+                ]
+            },
+            {
+                "name": "Uncle Van's Pumpkin",
+                "changes": [
+                    "Efficiency reduced as level goes up"
+                ]
+            },
+            {
+                "name": "Pheles, the Bow of God",
+                "changes": [
+                    "Magic defense: -15% → -10%"
+                ]
+            },
+            {
+                "name": "Nightmare Rod",
+                "changes": [
+                    "Can be dropped more than once now"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Tentacle Lord / Giant Golem",
+                "changes": [
+                    "Weapon droprate: 5% → 10%"
+                ]
+            },
+            {
+                "name": "Yeti",
+                "changes": [
+                    "No longer drops Frozen Crystal"
+                ]
+            },
+            {
+                "name": "Demon Lord Beriel",
+                "changes": [
+                    "Red Powders: 8 → 6",
+                    "Changed to summon multiple remains"
+                ]
+            },
+            {
+                "name": "Wings of Death",
+                "changes": [
+                    "2x Red Powders → 2x Green Powders"
+                ]
+            },
+            {
+                "name": "Corruptor Rectus",
+                "changes": [
+                    "Avenger aura damage per second: 4000 → 2500"
+                ]
+            },
+            {
+                "name": "Spirit Beast",
+                "changes": [
+                    "Wave",
+                    [
+                        "Damage: Target HP X 37.5% + 5000 → Target HP X 25% + 5000"
+                    ],
+                    "Lightning",
+                    [
+                        "Damage: 10000 → 5000",
+                        "Fall delay: 1 second → 1.5 seconds"
+                    ],
+                    "Removed regional entry restrictions"
+                ]
+            },
+            {
+                "name": "Flame Nightmare",
+                "changes": [
+                    "Red Powders: 12 → 8",
+                    "Chase",
+                    [
+                        "Activation HP: 38% → 25%",
+                        "Activation condition reset HP: 43% → 50%"
+                    ],
+                    "Hatred sphere: Damage + 100% for HP + 2500 → 99% HP for target"
+                ]
+            },
+            {
+                "name": "Turtle Lord",
+                "changes": [
+                    "Armor decrease debuff: Max stacks 15 → 10, duration: 8 seconds → 5 seconds",
+                    "Turtles no longer get stuck in terrain"
+                ]
+            },
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "Flame Seed debuff will automatically be cleared when Ifrit dies"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Release Mana (D)",
+                    [
+                        "Cooldown: 10 seconds → 2 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Pierce (Q)",
+                    [
+                        "Debuff duration: 20 seconds → 30 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Emperor's Strikes (Q)",
+                    [
+                        "Damage: AGI X 15 → AGI X 30"
+                    ],
+                    "Heavenly Emperor's Strikes (T)",
+                    [
+                        "Damage: AGI X 62.5 → AGI X 80"
+                    ]
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Speed Enchant (W)",
+                    [
+                        "Ignore unit conflicts when enabled (only self)"
+                    ],
+                    "Enchant Mastery (T)",
+                    [
+                        "Effect radius: 600 → 750"
+                    ]
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Heart Break (R)",
+                    [
+                        "Damage X 2000% + (STR + AGI) X 100 → Damage X 2500% + (STR + AGI) X 150",
+                        "Stun / sheild break effect is now AoE",
+                        "Shield Break percentage 70% → 60% (on Ifrit)",
+                        "Cast time: 1.25 seconds → 0.75 seconds"
+                    ],
+                    "Thunderfury (F)",
+                    [
+                        "Damage increased by 25%",
+                        "Hit radius increased",
+                        "Movement bind → Stuns for 1 second",
+                        "Grants 25% magnetic field recovery per second"
+                    ]
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Sword Storm (E)",
+                    [
+                        "Increase movement speed by 200"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Star Shower (W)",
+                    [
+                        "Now heals yourself for 50%"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Memory Stone",
+            [
+                "MP according to players readjusted",
+                [
+                    "1 - 3 players: 12 MP",
+                    "4 - 5 players: 16 MP",
+                    "6 - 7 players: 20 MP",
+                    "8 - 10 players: 24 MP"
+                ],
+                "Now has vision at all times",
+                "Now can be used by hero from anywhere on the map",
+                "MP is updated even if other players select character after Memory Stone is placed"
+            ],
+            "Hero respawn time reduced from 40 seconds → 30 seconds (based on Level 420)",
+            "Changed powder generated from Shard of Anger / Shard of Mana to not be bound to you",
+            "Storage inventory size: 12 → 24",
+            "Changed backback's A Skill",
+            [
+                "Roll Dice (A) - Roll the dice for the target item",
+                "Please use your storage to open your closet from now on"
+            ],
+            "Added F skill to backpack",
+            [
+                "Inspect Recipes (F) - View the recipes associated with the target item"
+            ]
+        ]
+    },
+    {
         "name": "29g",
         "notes": [
             "Released on: December 10th, 2019",
@@ -7210,7 +7460,7 @@
                 ]
             },
             {
-                "name": "Swordmaster",
+                "name": "Swordsman",
                 "changes": [
                     "Genocide Storm (F)",
                     [
@@ -7343,7 +7593,7 @@
                 ]
             },
             {
-                "name": "Swordmaster",
+                "name": "Swordsman",
                 "changes": [
                     "Changed walking animation"
                 ]

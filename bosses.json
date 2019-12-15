@@ -373,7 +373,7 @@
         "limit": "None",
         "manacost": "1",
         "summon": "In Volcanic Lands in the Volcano where Ragnaar spawns",
-        "conditions": "Level 200 and 2x Red Powders",
+        "conditions": "Level 200 and 2x Green Powders",
         "drops": [
             "I07R",
             "I09S",
@@ -550,7 +550,7 @@
         "limit": "None",
         "manacost": "2",
         "summon": "In Duchy of Wallachia in a pile of skulls South of where Death Knight spawns",
-        "conditions": "Level 160, 8x Red Powders, and Waves defeated without killing the gate or letting the monsters kill the King in top-left side of Capital Prius",
+        "conditions": "Level 160, 6x Red Powders, and Waves defeated without killing the gate or letting the monsters kill the King in top-left side of Capital Prius",
         "drops": [
             "kysn",
             "I0FG",
@@ -652,7 +652,7 @@
         "limit": "3",
         "manacost": "2",
         "summon": "In Volcanic Lands",
-        "conditions": "Level 200 and usage of Nightmare Rod with 12x Red Powder",
+        "conditions": "Level 200 and usage of Nightmare Rod with 8x Red Powder",
         "drops": [
             "I0CA",
             "I0C6",
