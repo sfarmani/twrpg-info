@@ -8,15 +8,17 @@
         "bugs": [
             "Fixed issue with memory stone dying"
         ],
-        "heroes": {
-            "name": "Crusader",
-            "changes": [
-                "1st Sword Dance: Strike (R) - 2nd Sword Dance: Sword (R)",
-                [
-                    "Increases target's damage taken: 10% → 12%"
+        "heroes": [
+            {
+                "name": "Crusader",
+                "changes": [
+                    "1st Sword Dance: Strike (R) - 2nd Sword Dance: Sword (R)",
+                    [
+                        "Increases target's damage taken: 10% → 12%"
+                    ]
                 ]
-            ]
-        }
+            }
+        ]
     },
     {
         "name": "29o",
