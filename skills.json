@@ -2022,7 +2022,7 @@
         ]
     },
     {
-        "name": "Max Amplication: Execution Sword",
+        "name": "Max Amplification: Execution Sword",
         "heroClass": "Crusader",
         "color": "f9feb8",
         "hotkey": "[T]",
@@ -2033,11 +2033,10 @@
         ],
         "active": [
             "Summons an angel using your own body as a vessel to break the limits on the Execution Sword.",
-            "Attack speed increased by 160% increased to maximum",
+            "For 12 seconds, gains max attack speed and CC immunity",
             "Heals for Max HP X 30% every second",
-            "15% chance to activate Heaven's Sword on attack",
-            "Attack Damage X 10 + STR X 20 damage",
-            "Lasts 12 seconds"
+            "Empowers Execution Sword into Heaven's Sword, dealing Attack Damage X 10 + STR X 30 magic damage",
+            "Cast Time: 0 seconds"
         ]
     },
     {

@@ -96,8 +96,8 @@
     ],
     "stats": {
       "active": [
-        "Restore HP, MP +40%",
-        "Effectiveness reduced at higher levels"
+        "Restores HP by 30%",
+        "Restores MP by 5000"
       ]
     }
   },
@@ -11641,7 +11641,7 @@
       ],
       "spec": [
         "Specialty - Dark Healing",
-        "Priest - All heals to allies give Mad Enhancement buff. If a summon is healed, their next attack becomes empowered by Mad Enhancement"
+        "Priest - Empowers the attacks of your allies or your summons when healing them."
       ]
     }
   },
@@ -12165,12 +12165,16 @@
       "hp": 7500,
       "passive": [
         "On skill cast, activates Power of Abyss",
-        "Grants the user with 12% skill damage and 300 HP regen for allies in 375 radius for 8 seconds"
+        "Grants the user with 12% skill damage (Type-B) and 300 HP regen for allies in 375 radius for 8 seconds"
       ],
       "active": [
         "On use, activates Call of Abyss",
-        "Grants a targetted ally 8% damage dealt and 15% HP regen for 10 seconds",
+        "Grants a targetted ally 8% damage output and 15% HP regen for 10 seconds",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialty - Dark Healing",
+        "Priest - Empowers the attacks of your allies or your summons when healing them."
       ]
     }
   },
@@ -15533,7 +15537,8 @@
         "Azathos, the Pipe of Chaos": 1
       },
       {
-        "Purified Water of Nature": 1
+        "Purified Water of Nature": 1,
+        "Fragment of the Wind": 1
       },
       {
         "Antimatter": 1

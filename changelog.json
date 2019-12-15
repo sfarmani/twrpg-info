@@ -1,5 +1,53 @@
 [
     {
+        "name": "29r",
+        "notes": [
+            "Released on: December 5th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Sword Enchanter - Fixed an issue where Speed Enchant (W) unit collision ignore buff was removed when casting another skill",
+            "Demon lord - Fixed a bug that caused strange item to spawn when using Remnants of darkness",
+            "Memory Stone - Fixed an issue where it would sometimes select backpack instead of your hero"
+        ],
+        "items": [
+            {
+                "name": "Horn of God",
+                "changes": [
+                    "Recipe: Purified Water of Nature → Purified Water of Nature / Fragment of the Wind (In 3 months, Purified Water of Nature will be removed from the recipe)"
+                ]
+            },
+            {
+                "name": "Uncle Van's Pumpkin",
+                "changes": [
+                    "40% HP / MP recovery (based on hero level) → 30% HP and 5000 MP recovery (not based on hero level)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Max Amplification: Execution Sword (T)",
+                    [
+                        "Cast time removed",
+                        "Sets attack speed to max and provides CC immunity for duration",
+                        "Heaven's Sword proc chance: 15% → 20% (same as Execution Sword (D))",
+                        "Heaven's Sword damage: 1000% attack damage + STR X 20 → 1000% attack damage X STR + 30"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Super Reversal",
+            [
+                "Cost: 200000 gold → 100000 gold"
+            ],
+            "Corrected incorrect powder descriptions on Demon Lord Beriel summoning spot / Nightmare Rod",
+            "Made some visual effects of Nereid spells more clearly distinguishable"
+        ]
+    },
+    {
         "name": "29p",
         "notes": [
             "Released on: December 4th, 2019",
@@ -922,7 +970,7 @@
                     [
                         "Slow duration: 3 seconds → 4 seconds"
                     ],
-                    "Max Amplication: Execution Sword (T)",
+                    "Max Amplification: Execution Sword (T)",
                     [
                         "Duration pauses when hero is paused while casting (similar to Thunderer's Heart Breat (R))"
                     ]
@@ -3192,7 +3240,7 @@
                     [
                         "Damage and stun duration from Strike of Honor (E): 100% → 150%"
                     ],
-                    "Max Amplication: Execution Sword (T)",
+                    "Max Amplification: Execution Sword (T)",
                     [
                         "Healing per second: 20% → 30%"
                     ]
