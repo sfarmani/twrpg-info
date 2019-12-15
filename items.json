@@ -6558,7 +6558,9 @@
       "Latea, the Ring of Overlord",
       "Cloak of the Fallen Shadows",
       "Grim Heart",
-      "Wings of Blood Lord"
+      "Wings of Blood Lord",
+      "Bag of Universe",
+      "Soul of Abyss"
     ],
     "koreanname": "암흑의 결정"
   },
@@ -6669,7 +6671,9 @@
       "Cosmic Star",
       "Nebula Rose",
       "Vest of Storm",
-      "Storm"
+      "Storm",
+      "Bag of Universe",
+      "Soul of Abyss"
     ],
     "koreanname": "빛의 결정"
   },
@@ -6854,7 +6858,8 @@
       "Crimson Hatred",
       "Pheles, the Bow of God",
       "Atricia, the Sword of Dreams",
-      "Splitting of Sky and Earth"
+      "Splitting of Sky and Earth",
+      "Soul of Abyss"
     ],
     "koreanname": "죽음의 창두"
   },
@@ -6872,7 +6877,8 @@
       "Protection of the Fairies",
       "Archangel Wings",
       "Nebula Rose",
-      "Storm"
+      "Storm",
+      "Bag of Universe"
     ],
     "koreanname": "혼돈이 깃든 파편"
   },
@@ -6920,7 +6926,8 @@
     "required_by": [
       "Staff of Plague",
       "Heaven's Fist",
-      "Archangel Wings"
+      "Archangel Wings",
+      "Soul of Abyss"
     ],
     "stats": {
       "mainstat": 1200,
@@ -7053,7 +7060,9 @@
       "Crimson Hatred",
       "Eye of the Flame Lord",
       "Cosmic Star",
-      "Ring of Fate"
+      "Ring of Fate",
+      "Bag of Universe",
+      "Soul of Abyss"
     ],
     "koreanname": "화염의 결정"
   },
@@ -7105,7 +7114,9 @@
     "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
-      "Ring of Fate"
+      "Ring of Fate",
+      "Bag of Universe",
+      "Soul of Abyss"
     ],
     "koreanname": "바다의 결정"
   },
@@ -7126,7 +7137,8 @@
       "Crimson Hatred",
       "Druid's Mantle",
       "Staff of Abyss",
-      "Bloodsoul Plates"
+      "Bloodsoul Plates",
+      "Bag of Universe"
     ],
     "stats": {
       "damage": 19000,
@@ -8195,6 +8207,9 @@
     "type": "[Bag]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Bag of Universe"
+    ],
     "recipe": [
       {
         "Bag of Life": 1
@@ -11593,6 +11608,9 @@
     "type": "[Staff]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Soul of Abyss"
+    ],
     "recipe": [
       {
         "Staff of Madness": 1
@@ -12123,10 +12141,10 @@
         "Staff of Abyss": 1
       },
       {
-        "Spearhead of Death": 1
+        "Shackles of Heaven": 1
       },
       {
-        "Shackles of Heaven": 1
+        "Spearhead of Death": 1
       },
       {
         "Essence of Flame": 1
