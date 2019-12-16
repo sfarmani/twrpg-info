@@ -190,7 +190,7 @@
         "active": [
             "Pierces through the souls of the living.",
             "INT X 60 magic damage",
-            "Increases magic damage taken by enemies (Type-C) by 8% for 15 seconds",
+            "Increases magic damage taken by enemies (Type-C) by 5% for 15 seconds",
             "Increases magic defense of you and allies by 15% for 45 "
         ]
     },
@@ -205,7 +205,6 @@
             "INT X 60 magic damage per second",
             "Periodically stuns for 1 second",
             "Prevents nearby allies' HP from dropping below 1",
-            "On expiration, regenerates 50% of their max HP",
             "Lasts 6 seconds",
             "Consumes 60 souls",
             "Activation delay: 0 seconds"
@@ -2250,7 +2249,7 @@
         "icon": "LancerF",
         "active": [
             "\"She disappeared the moment I saw her on the battlefield.. and then suddenly appeared at the center of the enemies' base, which formed a mountain of corpses.\" - Empire War Veteran",
-            "STR X 675 damage",
+            "STR X 725 damage",
             "Deals 75% bonus damage to enemies within 250 radius from target point",
             "Restores all ki",
             "Cooldown: 120 seconds"
@@ -2948,7 +2947,7 @@
         "icon": "BerserkerT",
         "passive": [
             "Shroud your sword with madness.",
-            "While below 30% HP, your attacks have 20% chance to proc bonus damage",
+            "While below 35% HP, your attacks have 20% chance to proc bonus damage",
             "Casting Brandish empowers next 3 attacks with bonus damage",
             "Deals Attack Damage X 200% + STR X 20 bonus damage"
         ],
@@ -3602,7 +3601,7 @@
         "icon": "PriestE",
         "passive": [
             "The priest's presence alone brings great support to her allies.",
-            "Increases nearby allies' attack damage by 8% and all stats by (Priest's INT X 0.05)",
+            "Increases nearby allies' attack damage by 5% and all stats by (Priest's INT X 0.05)",
             "Effect radius: 900",
             "Buff linger time: 60 seconds"
         ],

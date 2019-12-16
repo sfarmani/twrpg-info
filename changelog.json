@@ -1,5 +1,99 @@
 [
     {
+        "name": "29s",
+        "notes": [
+            "Released on: December 5th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Crusader - Fixed Execution Sword (D) and Max Amplification: Execution Sword (T) skill location change",
+            "Ifrit - Fixed summons sometimes not spawning"
+        ],
+        "items": [
+            {
+                "name": "Anger / Oblivion",
+                "changes": [
+                    "Added attack speed increase to active effects (Anger: 50%, Oblivion: 100%)"
+                ]
+            },
+            {
+                "name": "Nebula Rose",
+                "changes": [
+                    "Damage output increase if shield from active blocked damage: 6% → 4%"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Field Damage - Max HP X 66.66% per second (can survive 1.5 seconds) → Max HP X 100% (can survive 1 second)",
+                    "Protection of the Ocean - Magic defense: 33% → 40%",
+                    "Changed some visual effects",
+                    [
+                        "Water bolt from pink to red",
+                        "Removed screen flashes caused by waves"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Berserk [T]",
+                    [
+                        "Proc HP threshold: 30% → 35%"
+                    ]
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Dragon Slam (F)",
+                    [
+                        "Damage: STR X 675 → STR X 725"
+                    ]
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Heart Break (R)",
+                    [
+                        "Shield break efficiency: 60% → 50%"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Divine Orb (W)",
+                    [
+                        "Now affects summons"
+                    ],
+                    "Holy Aurora (E)",
+                    [
+                        "Attack damage: 8% → 5%"
+                    ]
+                ]
+            },
+            {
+                "name": "Soul Weaver",
+                "changes": [
+                    "Astral Walk (R)",
+                    [
+                        "Magic damage taken increase: 8% → 5%"
+                    ],
+                    "Soul Cradle (T)",
+                    [
+                        "Removed healing on spell end"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "29r",
         "notes": [
             "Released on: December 5th, 2019",
