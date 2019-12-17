@@ -5352,13 +5352,13 @@
       "intelligence": 2000,
       "mpregen": 75,
       "passive": [
-        "Converts port of damage dealt into INT"
+        "Converts 0.035% of damage dealt into INT for a max of 600 INT (can be released)"
       ],
       "active": [
-        "On use, can release the stored INT from passive",
-        "Cooldown: 75 seconds",
-        "Cast range: 900",
-        "AoE range: 275"
+        "On use, can release stored INT that deals ((0.5 + ( stored INT - 300 ) / 600) X 90 X INT) magic damage to enemies in a 450 radius around user",
+        "Stuns for 1.5 seconds",
+        "At least 300 stored INT required to use",
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     },
     "koreanname": "증오"
@@ -5385,8 +5385,12 @@
       "agility": 260,
       "dtpercent": -0.09,
       "passive": [
-        "Activates Flameshard when HP drops below 35% which heals 14% HP, deals STR X 25 magic damage to nearby enemies, and increases STR by 120 + STR X 5% for 10 seconds",
-        "Cooldown: 8 seconds"
+        "Activates Flameshard when HP drops below 35%",
+        "Restores 1% HP per second for a total of 14% max HP",
+        "Increases STR by 5% for 10 seconds",
+        "Deals (STR X 25) magic damage to enemies in a 325 radius around user and reduce their attack and movement speed by 75% for 1.5 seconds",
+        "Damage is affected by flame affinity",
+        "Cooldown: 8 seconds, cannot be dropped during cooldown"
       ]
     },
     "koreanname": "플레임샤드 아머"
@@ -5413,7 +5417,8 @@
       "periodicdamagepercent": 0.25,
       "healreceivedpercent": -0.25,
       "passive": [
-        "5% Chance to activate Nightmare on attack to temporarily gain 15000 attack damage, 900 main stat, and 1000 HP regen"
+        "5% Chance to activate Nightmare on attack",
+        "Gain 15000 attack damage, 900 main stat, and 1000 HP regen for 6 seconds"
       ]
     },
     "koreanname": "악몽의 반지"
@@ -5438,11 +5443,10 @@
       "agility": 1800,
       "critchancepercent": 0.05,
       "passive": [
-        "20% Chance to activate Burning Wrath on attack that causes 5 explosions over 2.5 seconds",
-        "Each explosion heals for Max HP X 5%",
-        "Each explosion deals AGI X 20",
-        "Cooldown: 10 seconds",
-        "Damage radius: 325"
+        "~20.8% Chance to activate Burning Wrath on attack that causes 5 explosions on target over 2.5 seconds",
+        "Each explosion deals (AGI X 20) magic damage to enemies in a 325 radius around target",
+        "Restores 1% HP per explosion for a total of 5% max HP",
+        "Cooldown: 10 seconds, cannot be dropped during cooldown"
       ]
     },
     "koreanname": "인페르노"
@@ -5594,10 +5598,9 @@
       "intelligence": 1700,
       "healingpercent": 0.1,
       "active": [
-        "On use, releases Water Beam dealing INT X 25 per second and pushes all enemies hit",
+        "On use, releases Water Beam dealing (INT X 25) magic damage per 0.125 seconds and pushes all enemies hit",
         "Damage is affected by Ice/Water Affinity",
-        "Cooldown: 30 seconds",
-        "Cast range: 1000"
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Purging Water",
