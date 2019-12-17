@@ -1,5 +1,54 @@
 [
     {
+        "name": "29t",
+        "notes": [
+            "Released on: December 16th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Nereid - Fixed waves not working properly"
+        ],
+        "items": [
+            {
+                "name": "Oblivion",
+                "changes": [
+                    "Attack speed from active: 100% → 75%"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Corrputor Rectus / Spirit Beast / Flame Nightmare / Turtle Lord are now affected by difficulty scaling"
+                ]
+            },
+            {
+                "name": "Spirit Beast",
+                "changes": [
+                    "HP: 16,252,000 → 15,252,000"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Reduced spell MP costs"
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Max Amplification: Execution Sword (T)",
+                    [
+                        "Heaven's Sword proc damage: 1000% attack damage + STR X 30 → 1000% attack damage + STR X 20 (reverted)"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "29s",
         "notes": [
             "Released on: December 15th, 2019",

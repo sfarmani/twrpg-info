@@ -11268,7 +11268,7 @@
         "Cooldown: 5 seconds"
       ],
       "active": [
-        "On use, activates Oblivion granting the user with 100% attack speed, 150 STR, and 1.5% skill damage per 1 ~ 0.5 seconds while draining user's HP",
+        "On use, activates Oblivion granting the user with 75% attack speed, 150 STR, and 1.5% skill damage per 1 ~ 0.5 seconds while draining user's HP",
         "Stacks up to 10 times and drains (1500 + seconds elapsed X 500) HP per second",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
