@@ -9836,7 +9836,7 @@
       "dtpercent": -0.08,
       "affinityearthpercent": 0.03,
       "active": [
-        "On use, activates Twisting Earth in a selected area and restores 10% HP per second of allies within the area for 10 seconds",
+        "On use, activates Twisting Earth in a selected 450 radius and restores 10% max HP per 0.5 seconds of allies within the area for 10 seconds",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -11541,7 +11541,7 @@
       "dtpercent": -0.1,
       "affinityearthpercent": 0.06,
       "active": [
-        "On use, activates Twisting Earth healing all allies in targetted area for ((max HP X 15%) X 50%) HP over 10 seconds",
+        "On use, activates Twisting Earth in a selected 450 radius and restores 15% max HP per 0.5 seconds of allies within the area for 10 seconds",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
