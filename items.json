@@ -12027,13 +12027,13 @@
       }
     ],
     "stats": {
-      "damage": 31500,
+      "damage": 32500,
       "strength": 1775,
       "agility": 2075,
       "skilldamagepercent": 0.075,
       "critchancepercent": 0.075,
       "passive": [
-        "On spellcast, empowers next attack to deal Mainstat X 7.5 pure damage, restore Mainstat X 0.15, and adds stacks. Can have up to 6 stacks"
+        "On spellcast, empowers next attack to deal (MAIN STAT X 8) pure damage, restore (MAIN STAT X 0.15), and adds stacks. Can have up to 6 stacks"
       ],
       "active": [
         "Consumes all stacks and deals (50 X Mainstat X stack) damage to nearby enemies, stuns for 2 seconds, and gives 0.5 X stack seconds of 100% damage reduction and CC immunity",
@@ -12081,7 +12081,7 @@
         "Stacks up to a max of 4 times. Once max is reached, cannot refresh duration of buff."
       ],
       "active": [
-        "On use, activates Light of Creation which provides user with max stacks, passive, and damage output is increased by 10% for 10 seconds.",
+        "On use, activates Light of Creation which provides user with max stacks, passive, and damage output is increased by 7.5% for 10 seconds.",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }

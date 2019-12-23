@@ -1,5 +1,70 @@
 [
     {
+        "name": "30a",
+        "notes": [
+            "Released on: December 23rd, 2019",
+            "Compatible Version: v0.24c ~",
+            "Christmast Event",
+            [
+                "Christmas Event in progress. Details listed in: https://twrpg.com/viewtopic.php?f=44&t=5666"
+            ]
+        ],
+        "bugs": [
+            "Fixed a bug that would cause players to drop from the air when a skill was unlocked: Gunner T, Warlock T, etc",
+            "Bag of Universe - Fixed a bug where Merchant's D was not enhanced"
+        ],
+        "items": [
+            {
+                "name": "Splitting of Sky and Earth",
+                "changes": [
+                    "Active - Damage increase: 10% → 7.5%"
+                ]
+            },
+            {
+                "name": "Atricia, the Sword of Dreams", 
+                "changes": [
+                    "Damage: 31500 → 32500",
+                    "Passive - Proc damage: main stat X 7.5 → main stat X 8"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Turtle Lord",
+                "changes": [
+                    "Orb of deep sea changed to count powders in powder box when summoning boss"
+                ]
+            },
+            {
+                "name": "Flame Nightmare",
+                "changes": [
+                    "Nightmare rod changed to count powders in powder box when summoning boss"
+                ]
+            },
+            {
+                "name": "Archangel Samael",
+                "changes": [
+                    "Portal to town 4 opens upon defeating Samael"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Release (T)",
+                    [
+                        "Duration: 9 seconds → 8 seconds"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Recipe command reverted to show all materials as before",
+            "CC immunity now also works on slowing effects"
+        ]
+    },
+    {
         "name": "29t",
         "notes": [
             "Released on: December 16th, 2019",
