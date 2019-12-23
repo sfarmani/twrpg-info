@@ -1,8 +1,22 @@
 [
     {
+        "name": "30b",
+        "notes": [
+            "Released on: December 22nd, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "misc": [
+            "Christmas Event",
+            [
+                "Fixed some bosses not dropping winter festival tickets",
+                "Winter festival ticket droprate buffed and drop cooldown removed"
+            ]
+        ]
+    },
+    {
         "name": "30a",
         "notes": [
-            "Released on: December 23rd, 2019",
+            "Released on: December 22rd, 2019",
             "Compatible Version: v0.24c ~",
             "Christmast Event",
             [
