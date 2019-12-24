@@ -1,5 +1,37 @@
 [
     {
+        "name": "30d",
+        "notes": [
+            "Released on: December 23rd, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fixed bug where receiving costumes did not work properly"
+        ],
+        "misc": [
+            "Winter Event",
+            [
+                "Santa sleigh removed",
+                "Invitation drop rate increased",
+                "Winner and loser gap: 5 - 14 → 9 - 14",
+                "Snowball game",
+                [
+                    "Damage per second after 30 seconds: 1 → (Elapsed time / 30)"
+                ],
+                "Snowman games",
+                [
+                    "Reduced chance to generate coins"
+                ],
+                "Billiards game",
+                [
+                    "Players can continue even if penguin dies",
+                    "Last survival bonus removed",
+                    "Suicide is recognized as being killed"
+                ]
+            ]
+        ]
+    },
+    {
         "name": "30c",
         "notes": [
             "Released on: December 22nd, 2019",
