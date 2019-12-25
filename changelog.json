@@ -1,5 +1,35 @@
 [
     {
+        "name": "30e",
+        "notes": [
+            "Released on: December 24th, 2019",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Costumes - Fixed bugs related to witch costume",
+            "Zombie lord - Fixed game softlocking after 2 fail cinematics",
+            "Ifrit - Fixed wheel start position and initial rotation being reversed"
+        ],
+        "monsters": [
+            {
+                "name": "Corruptor Rectus",
+                "changes": [
+                    "Infection duration: 18 seconds → 12 seconds"
+                ]
+            }
+        ],
+        "misc": [
+            "Winter Event",
+            [
+                "Ticket droprate from Ancient Ent / Skeleton King / Archangel Samael / Zombie Lord / Shadow Dragon Irbert: 25% → 30%",
+                "Winter survival minigame",
+                [
+                    "Modified to make it easier for players to distinguish which unit they control on start"
+                ]
+            ]
+        ]
+    },
+    {
         "name": "30d",
         "notes": [
             "Released on: December 23rd, 2019",
