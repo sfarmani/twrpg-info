@@ -10,7 +10,7 @@
             "Zombie lord - Fixed game softlocking after 2 fail cinematics",
             "Ifrit - Fixed wheel start position and initial rotation being reversed"
         ],
-        "event": [
+        "events": [
             {
                 "name": "Winter Event",
                 "changes": [
@@ -40,7 +40,7 @@
         "bugs": [
             "Fixed bug where receiving costumes did not work properly"
         ],
-        "event": [
+        "events": [
             {
                 "name": "Winter Event",
                 "changes": [
@@ -71,7 +71,7 @@
             "Released on: December 22nd, 2019",
             "Compatible Version: v0.24c ~"
         ],
-        "event": [
+        "events": [
             {
                 "name": "Winter Event",
                 "changes": [
@@ -91,7 +91,7 @@
             "Fixed a bug that would cause players to drop from the air when a skill was unlocked: Gunner T, Warlock T, etc",
             "Bag of Universe - Fixed a bug where Merchant's D was not enhanced"
         ],
-        "event": [
+        "events": [
             {
                 "name": "Winter Event",
                 "changes": [
@@ -1688,7 +1688,7 @@
         "bugs": [
             "Fixed a bug that could unbind items"
         ],
-        "event": [
+        "events": [
             {
                 "name": "Halloween Event",
                 "changes": [
@@ -1720,7 +1720,7 @@
         "bugs": [
             "Winter's Heart - Fixed Excalibur having at cooldown of 120 seconds instead of 60 seconds when equipped"
         ],
-        "event": [
+        "events": [
             {
                 "name": "Halloween Event",
                 "changes": [
@@ -3288,7 +3288,7 @@
             "EVENT IS OVER IN THIS VERSION BUT YOU MAY CONTINUE PLAYING KOREAN OR ENGLISH 0.25f",
             "VERSION TO OBTAIN EVENT REWARDS UNTIL AUGUST 12TH 23:59:59 UTC"
         ],
-        "event": [
+        "events": [
             {
                 "name": "Summer Event",
                 "changes": [
@@ -3306,7 +3306,7 @@
             "Released on: August 4th, 2019",
             "Compatible Version: v0.24c ~"
         ],
-        "event": [
+        "events": [
             {
                 "name": "Summer Event",
                 "changes": [
@@ -3335,7 +3335,7 @@
             "Released on: August 3rd, 2019",
             "Compatible Version: v0.24c ~"
         ],
-        "event": [
+        "events": [
             {
                 "name": "Summer Event",
                 "changes": [
@@ -3359,7 +3359,7 @@
             "Gunner - Fixed not being able to craft summer costume",
             "Blue Lotus Aura - Fixed not replacing some ring effects"
         ],
-        "event": [
+        "events": [
             {
                 "name": "Event notes",
                 "changes": [
@@ -3393,7 +3393,7 @@
             "Blue Lotus Aura - Fixed not showing properly",
             "Rudolph - Fixed not showing properly"
         ],
-        "event": [
+        "events": [
             {
                 "name": "Summer Event",
                 "changes": [
