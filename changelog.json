@@ -10,6 +10,18 @@
             "Zombie lord - Fixed game softlocking after 2 fail cinematics",
             "Ifrit - Fixed wheel start position and initial rotation being reversed"
         ],
+        "event": [
+            {
+                "name": "Winter Event",
+                "changes": [
+                    "Ticket droprate from Ancient Ent / Skeleton King / Archangel Samael / Zombie Lord / Shadow Dragon Irbert: 25% → 30%",
+                    "Winter survival minigame",
+                    [
+                        "Modified to make it easier for players to distinguish which unit they control on start"
+                    ]
+                ]
+            }
+        ],
         "monsters": [
             {
                 "name": "Corruptor Rectus",
@@ -17,16 +29,6 @@
                     "Infection duration: 18 seconds → 12 seconds"
                 ]
             }
-        ],
-        "misc": [
-            "Winter Event",
-            [
-                "Ticket droprate from Ancient Ent / Skeleton King / Archangel Samael / Zombie Lord / Shadow Dragon Irbert: 25% → 30%",
-                "Winter survival minigame",
-                [
-                    "Modified to make it easier for players to distinguish which unit they control on start"
-                ]
-            ]
         ]
     },
     {
@@ -38,27 +40,29 @@
         "bugs": [
             "Fixed bug where receiving costumes did not work properly"
         ],
-        "misc": [
-            "Winter Event",
-            [
-                "Santa sleigh removed",
-                "Invitation drop rate increased",
-                "Winner and loser gap: 5 - 14 → 9 - 14",
-                "Snowball game",
-                [
-                    "Damage per second after 30 seconds: 1 → (Elapsed time / 30)"
-                ],
-                "Snowman games",
-                [
-                    "Increased chance to generate coins"
-                ],
-                "Billiards game",
-                [
-                    "Players can continue even if penguin dies",
-                    "Last survival bonus removed",
-                    "Suicide is recognized as being killed"
+        "event": [
+            {
+                "name": "Winter Event",
+                "changes": [
+                    "Santa sleigh removed",
+                    "Invitation drop rate increased",
+                    "Winner and loser gap: 5 - 14 → 9 - 14",
+                    "Snowball game",
+                    [
+                        "Damage per second after 30 seconds: 1 → (Elapsed time / 30)"
+                    ],
+                    "Snowman games",
+                    [
+                        "Increased chance to generate coins"
+                    ],
+                    "Billiards game",
+                    [
+                        "Players can continue even if penguin dies",
+                        "Last survival bonus removed",
+                        "Suicide is recognized as being killed"
+                    ]
                 ]
-            ]
+            }
         ]
     },
     {
@@ -67,27 +71,33 @@
             "Released on: December 22nd, 2019",
             "Compatible Version: v0.24c ~"
         ],
-        "misc": [
-            "Christmas Event",
-            [
-                "Fixed some bosses not dropping winter festival tickets",
-                "Winter festival ticket droprate buffed and drop cooldown removed"
-            ]
+        "event": [
+            {
+                "name": "Winter Event",
+                "changes": [
+                    "Fixed some bosses not dropping winter festival tickets",
+                    "Winter festival ticket droprate buffed and drop cooldown removed"
+                ]
+            }
         ]
     },
     {
         "name": "30a",
         "notes": [
             "Released on: December 22rd, 2019",
-            "Compatible Version: v0.24c ~",
-            "Christmast Event",
-            [
-                "Christmas Event in progress. Details listed in: https://twrpg.com/viewtopic.php?f=44&t=5666"
-            ]
+            "Compatible Version: v0.24c ~"
         ],
         "bugs": [
             "Fixed a bug that would cause players to drop from the air when a skill was unlocked: Gunner T, Warlock T, etc",
             "Bag of Universe - Fixed a bug where Merchant's D was not enhanced"
+        ],
+        "event": [
+            {
+                "name": "Winter Event",
+                "changes": [
+                    "Winter Event in progress. Details listed in: https://twrpg.com/viewtopic.php?f=44&t=5666"
+                ]
+            }
         ],
         "items": [
             {
@@ -1678,6 +1688,14 @@
         "bugs": [
             "Fixed a bug that could unbind items"
         ],
+        "event": [
+            {
+                "name": "Halloween Event",
+                "changes": [
+                    "End of event (You may use the previous version until 11/11 23:59:59, but you must verify all event repalys before that)"
+                ]
+            }
+        ],
         "items": [
             {
                 "name": "Ring of Time",
@@ -1691,24 +1709,25 @@
                     "Removed Burning Bone Fragments from recipe"
                 ]
             }
-        ],
-        "misc": [
-            "Halloween Event",
-            [
-                "End of event (You may use the previous version until 11/11 23:59:59, but you must verify all event repalys before that)"
-            ]
         ]
     },
     {
         "name": "27a",
         "notes": [
             "Released on: October 30th, 2019",
-            "Compatible Version: v0.24c ~",
-            "HALLOWEEN EVENT: Active until November 10th, 2019 23:59:59 UTC",
-            "Check out https://twrpg.com/viewtopic.php?f=44&t=5536 for more details!"
+            "Compatible Version: v0.24c ~"
         ],
         "bugs": [
             "Winter's Heart - Fixed Excalibur having at cooldown of 120 seconds instead of 60 seconds when equipped"
+        ],
+        "event": [
+            {
+                "name": "Halloween Event",
+                "changes": [
+                    "Active until November 10th, 2019 23:59:59 UTC",
+                    "Check out https://twrpg.com/viewtopic.php?f=44&t=5536 for more details!"
+                ]
+            }
         ],
         "items": [
             {
@@ -3266,14 +3285,18 @@
         "notes": [
             "Released on: August 10th, 2019",
             "Compatible Version: v0.24c ~",
-            "EVENT IS OVER IN THIS VERSION BUT YOU MAY CONTINUE PLAYING KOREAN OR ENGLISH 0.25f ",
+            "EVENT IS OVER IN THIS VERSION BUT YOU MAY CONTINUE PLAYING KOREAN OR ENGLISH 0.25f",
             "VERSION TO OBTAIN EVENT REWARDS UNTIL AUGUST 12TH 23:59:59 UTC"
         ],
+        "event": [
+            {
+                "name": "Summer Event",
+                "changes": [
+                    "End of Summer Event"
+                ]
+            }
+        ],
         "misc": [
-            "Event",
-            [
-                "Summer event ends"
-            ],
             "Disabled Mark of Rebirth costume for Thunderer"
         ]
     },
@@ -3283,6 +3306,20 @@
             "Released on: August 4th, 2019",
             "Compatible Version: v0.24c ~"
         ],
+        "event": [
+            {
+                "name": "Summer Event",
+                "changes": [
+                    "Lucky beach ball",
+                    [
+                        "Changed seals to be invincible",
+                        "Changed seals to be stun-immune",
+                        "Added player color to seals",
+                        "Seal teleport (Q) cooldown: 7.5 seconds → 10 seconds"
+                    ]
+                ]
+            }
+        ],
         "items": [
             {
                 "name": "Crimson Star",
@@ -3290,18 +3327,6 @@
                     "Changed active projectiles to ignore terrain"
                 ]
             }
-        ],
-        "misc": [
-            "Event",
-            [
-                "Lucky beach ball",
-                [
-                    "Changed seals to be invincible",
-                    "Changed seals to be stun-immune",
-                    "Added player color to seals",
-                    "Seal teleport (Q) cooldown: 7.5 seconds → 10 seconds"
-                ]
-            ]
         ]
     },
     {
@@ -3310,16 +3335,18 @@
             "Released on: August 3rd, 2019",
             "Compatible Version: v0.24c ~"
         ],
-        "misc": [
-            "Event",
-            [
-                "Reworked lucky beach ball",
-                [
-                    "Changed to ignore terrain and objects again",
-                    "When ball spawns, each player gets a seal that can move through terrian and teleport with (Q); Slippers removed",
-                    "Beach balls no longer collide with heroes. Can only collide with seals"
+        "event": [
+            {
+                "name": "Summer Event",
+                "changes": [
+                    "Reworked lucky beach ball",
+                    [
+                        "Changed to ignore terrain and objects again",
+                        "When ball spawns, each player gets a seal that can move through terrian and teleport with (Q); Slippers removed",
+                        "Beach balls no longer collide with heroes. Can only collide with seals"
+                    ]
                 ]
-            ]
+            }
         ]
     },
     {
@@ -3332,6 +3359,21 @@
             "Gunner - Fixed not being able to craft summer costume",
             "Blue Lotus Aura - Fixed not replacing some ring effects"
         ],
+        "event": [
+            {
+                "name": "Event notes",
+                "changes": [
+                    "Added ticket/ball drop chance to more bosses",
+                    [
+                        "Item bosses",
+                        "Death Knight, Ragnaar, Giant Golem, Tentacle Lord, Mana Ancient, Mad Clown"
+                    ],
+                    "Added ball drop chance to Guardian Angels, Corrupt Angel (was ticket only before)",
+                    "Lucky beach ball changed to bounce off of terrian and objects; Max amount of bounces: 20 → 15",
+                    "Reduced damage of enemies in Seasea Caves"
+                ]
+            }
+        ],
         "monsters": [
             {
                 "name": "Ancient Ent",
@@ -3339,19 +3381,6 @@
                     "Changed to be revivable after Ancient Ent and all Elder Ents are dead"
                 ]
             }
-        ],
-        "misc": [
-            "Event",
-            [
-                "Added ticket/ball drop chance to more bosses",
-                [
-                    "Item bosses",
-                    "Death Knight, Ragnaar, Giant Golem, Tentacle Lord, Mana Ancient, Mad Clown"
-                ],
-                "Added ball drop chance to Guardian Angels, Corrupt Angel (was ticket only before)",
-                "Lucky beach ball changed to bounce off of terrian and objects; Max amount of bounces: 20 → 15",
-                "Reduced damage of enemies in Seasea Caves"
-            ]
         ]
     },
     {
@@ -3364,6 +3393,20 @@
             "Blue Lotus Aura - Fixed not showing properly",
             "Rudolph - Fixed not showing properly"
         ],
+        "event": [
+            {
+                "name": "Summer Event",
+                "changes": [
+                    "Seasea ticket droprate increased by 50%",
+                    "Event item droprate from seasea red/green pouches decreased by 33%",
+                    "limited ticket/beach ball drops to these bosses:",
+                    [
+                        "Death Fiend, Valtora, Ifrit, Skeleton King, Zombie Lord, Ancient Ent, Samael, Shadow Dragon, Frostspider Lord, Demon Lord Beriel, Corruptor Rectus, Flame Nightmare, Turtle Lord, Hydra, Count, Jack, Wings of Death, Mage Lord, Spirit Beast, Bone Dragon, Guardian Angels (no ball), Corrupt Angel (No ball)"
+                    ],
+                    "Droprate reduction per 10 obtained shining seashells reduced"
+                ]
+            }
+        ],
         "monsters": [
             {
                 "name": " Ancient Ent",
@@ -3371,18 +3414,6 @@
                     "No longer revivable if Elder Ent still alive"
                 ]
             }
-        ],
-        "misc": [
-            "Event",
-            [
-                "Seasea ticket droprate increased by 50%",
-                "Event item droprate from seasea red/green pouches decreased by 33%",
-                "limited ticket/beach ball drops to these bosses:",
-                [
-                    "Death Fiend, Valtora, Ifrit, Skeleton King, Zombie Lord, Ancient Ent, Samael, Shadow Dragon, Frostspider Lord, Demon Lord Beriel, Corruptor Rectus, Flame Nightmare, Turtle Lord, Hydra, Count, Jack, Wings of Death, Mage Lord, Spirit Beast, Bone Dragon, Guardian Angels (no ball), Corrupt Angel (No ball)"
-                ],
-                "Droprate reduction per 10 obtained shining seashells reduced"
-            ]
         ]
     },
     {
