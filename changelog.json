@@ -3425,12 +3425,14 @@
         "bugs": [
             "Shining Seashells - Fixed being unsavable (Obtained seashells will be auto-recovered. If you already used them on some crafts, please discard the auto-recovered seashells)"
         ],
-        "misc": [
-            "Event",
-            [
-                "Shining Seashells - Droprate decrease after obtaining 10 reduced",
-                "Lucky beachballs - Changed to only bounce off of dark borders and max bounce amount: 30 → 20"
-            ]
+        "events": [
+            {
+                "name": "Summer Event",
+                "changes": [
+                    "Shining Seashells - Droprate decrease after obtaining 10 reduced",
+                    "Lucky beachballs - Changed to only bounce off of dark borders and max bounce amount: 30 → 20"
+                ]
+            }
         ]
     },
     {
@@ -3442,6 +3444,14 @@
         ],
         "bugs": [
             "Fiend Token: Fixed cosmetic spell not being usable"
+        ],
+        "events": [
+            {
+                "name": "Summer Event",
+                "changes": [
+                    "Summer event will last from july 29th to august 12th 23:59:59 UTC"
+                ]
+            }
         ],
         "items": [
             {
@@ -3491,12 +3501,6 @@
                     ]
                 ]
             }
-        ],
-        "misc": [
-            "Event",
-            [
-                "Summer event will last from july 29th to august 12th 23:59:59 UTC"
-            ]
         ]
     },
     {
@@ -3512,6 +3516,14 @@
             [
                 "Hell Riser damage: 26000 → 28000"
             ]
+        ],
+        "events": [
+            {
+                "name": "Summer Event",
+                "changes": [
+                    "Summer event starts in next version"
+                ]
+            }
         ],
         "items": [
             {
@@ -3602,8 +3614,7 @@
         ],
         "misc": [
             "Changed heroes to get auto-selected when picked or loaded",
-            "Powder bag slots changed from 5 → 6",
-            "Summer event starts in next version"
+            "Powder bag slots changed from 5 → 6"
         ]
     },
     {
@@ -6441,6 +6452,14 @@
             "Fixed a bug that could cause a fatal error when casting phantom blade Q after using weird costume",
             "Fixed a bug where Lightning Mage - W could skip terrains"
         ],
+        "events": [
+            {
+                "name": "Weird Event",
+                "changes": [
+                    "End of event (You may use previous version up until April 8th 11:59:59 PM Forum time)"
+                ]
+            }
+        ],
         "items": [
             {
                 "name": "Uncle Van's Carrot",
@@ -6473,10 +6492,6 @@
             }
         ],
         "misc": [
-            "Event",
-            [
-                "End of event (You may use previous version up until April 8th 11:59:59 PM Forum time)"
-            ],
             "Assassin - Fixed weird costume being elementalist model instead of merchant"
         ]
     },
@@ -6485,6 +6500,14 @@
         "notes": [
             "Released on: April 3rd, 2019",
             "Compatible Version: v0.13c ~"
+        ],
+        "events": [
+            {
+                "name": "Weird Event",
+                "changes": [
+                    "Changed to receive rewards even when dead near the boss"
+                ]
+            }
         ],
         "bugs": [
             "Removed ability to pick up melons",
@@ -6498,10 +6521,6 @@
             "Compatible Version: v0.13c ~"
         ],
         "misc": [
-            "Event",
-            [
-                "Changed to receive rewards even when dead near the boss"
-            ],
             "Areas",
             [
                 "Removed level restriction on picking fruits from uncle Van's farm",
@@ -6515,6 +6534,14 @@
         "notes": [
             "Released on: March 31st, 2019",
             "Compatible Version: v0.13c ~"
+        ],
+        "events": [
+            {
+                "name": "Weird Event",
+                "changes": [
+                    "Weird event has started! Runs from March 31st to April 8th"
+                ]
+            }
         ],
         "items": [
             {
@@ -6631,12 +6658,6 @@
                     ]
                 ]
             }
-        ],
-        "misc": [
-            "Event",
-            [
-                "Weird event has started! Runs from March 31st to April 8th"
-            ]
         ]
     },
     {
@@ -8594,6 +8615,14 @@
             "Released on: January 4th, 2019",
             "Compatible Version: v0.13c ~"
         ],
+        "events": [
+            {
+                "name": "Winter Event",
+                "changes": [
+                    "End of Winter Event. Crafting with snow crystals also disabled"
+                ]
+            }
+        ],
         "items": [
             {
                 "name": "Bag of Destruction / Bag of Corruption",
@@ -8673,10 +8702,6 @@
             }
         ],
         "misc": [
-            "Winter Event",
-            [
-                "End of Winter Event. Crafting with snow crystals also disabled"
-            ],
             "If an item is crafted and character does not have anymore space for it in inventory, it will go directly to bag"
         ]
     },
@@ -8700,11 +8725,15 @@
             "Released on: December 27th, 2018",
             "Compatible Version: v0.13c ~"
         ],
+        "events": [
+            {
+                "name": "Winter Event",
+                "changes": [
+                    "Multiple penguins in Snowball Fight dying at the same time now assigns them the lowest possible rankings instead of the highest possible rankings"
+                ]
+            }
+        ],
         "misc": [
-            "Winter Event",
-            [
-                "Multiple penguins in Snowball Fight dying at the same time now assigns them the lowest possible rankings instead of the highest possible rankings"
-            ],
             "Fixed issue with Lightning Mage's Halloween Costume name"
         ]
     },
@@ -8716,6 +8745,14 @@
         ],
         "bugs": [
             "Fixed issue where AoE skills would sometimes fail to affect a couple of targets"
+        ],
+        "events": [
+            {
+                "name": "Winter Event",
+                "changes": [
+                    "Now active!"
+                ]
+            }
         ],
         "items": [
             {
@@ -8790,12 +8827,6 @@
                     ]
                 ]
             }
-        ],
-        "misc": [
-            "Winter Event",
-            [
-                "Now active!"
-            ]
         ]
     },
     {
@@ -9338,6 +9369,14 @@
         "bugs": [
             "Fixed Halloween Costume of witch crashing the game"
         ],
+        "events": [
+            {
+                "name": "Halloween Event",
+                "changes": [
+                    "Ended, any items gained in the previous version will be invalid"
+                ]
+            }
+        ],
         "items": [
             {
                 "name": "Ring of Destruction",
@@ -9374,10 +9413,6 @@
             }
         ],
         "misc": [
-            "Halloween Event",
-            [
-                "Ended, any items gained in the previous version will be invalid"
-            ],
             "Removed being able to get onto hills",
             "Summons will be teleported to owner if owner enters a PvP area",
             "Fixed some spell description typos"
@@ -9452,6 +9487,14 @@
             "Applied some fixes to reduce the number of random deaths occurring on Blood Weaver/Paladin",
             "Bow Master's Arrow Rain (T) bug fixed"
         ],
+        "events": [
+            {
+                "name": "Halloween Event",
+                "changes": [
+                    "All models implemented"
+                ]
+            }
+        ],
         "items": [
             {
                 "name": "Bow Master",
@@ -9461,10 +9504,6 @@
             }
         ],
         "misc": [
-            "Halloween Event",
-            [
-                "All models implemented"
-            ],
             "Hydro Buster SFX removed"
         ]
     },
@@ -9473,6 +9512,14 @@
         "notes": [
             "Released on: October 22nd, 2018",
             "Compatible Version: v0.13c ~"
+        ],
+        "events": [
+            {
+                "name": "Event notes",
+                "changes": [
+                    "Active until November 4th, 2018"
+                ]
+            }
         ],
         "monsters": [
             {
@@ -9528,12 +9575,6 @@
                     ]
                 ]
             }
-        ],
-        "misc": [
-            "Halloween Event",
-            [
-                "Active until November 4th, 2018"
-            ]
         ]
     }
 ]
