@@ -6212,7 +6212,7 @@
       "Ispion, the Runed Ring",
       "Soul Eater",
       "Bag of Mother Nature",
-      "Splitting of Sky and Earth"
+      "Splitting of the Sky and Earth"
     ],
     "koreanname": "불로의 심장"
   },
@@ -6589,7 +6589,7 @@
       "Cosmic Star",
       "Vest of Storm",
       "Storm",
-      "Splitting of Sky and Earth",
+      "Splitting of the Sky and Earth",
       "Robe of Archlich"
     ],
     "koreanname": "안티 매터"
@@ -6861,7 +6861,7 @@
       "Crimson Hatred",
       "Pheles, the Bow of God",
       "Atricia, the Sword of Dreams",
-      "Splitting of Sky and Earth",
+      "Splitting of the Sky and Earth",
       "Soul of Abyss"
     ],
     "koreanname": "죽음의 창두"
@@ -6960,7 +6960,7 @@
       "Protection of the Fairies",
       "Nebula Rose",
       "Storm",
-      "Splitting of Sky and Earth"
+      "Splitting of the Sky and Earth"
     ],
     "koreanname": "폭풍의 가호"
   },
@@ -6998,7 +6998,7 @@
       "Horn of God",
       "Cosmic Star",
       "Storm",
-      "Splitting of Sky and Earth",
+      "Splitting of the Sky and Earth",
       "Robe of Archlich"
     ],
     "koreanname": "빛나는 유적의 조각"
@@ -10273,7 +10273,7 @@
     "color": "DC143C",
     "level": 360,
     "required_by": [
-      "Splitting of Sky and Earth"
+      "Splitting of the Sky and Earth"
     ],
     "recipe": [
       {
@@ -11384,7 +11384,7 @@
     "type": "[Greatsword]",
     "color": "DC143C",
     "required_by": [
-      "Splitting of Sky and Earth"
+      "Splitting of the Sky and Earth"
     ],
     "level": 380,
     "recipe": [
@@ -12043,7 +12043,7 @@
   },
   {
     "id": "pams",
-    "name": "Splitting of Sky and Earth",
+    "name": "Splitting of the Sky and Earth",
     "koreanname": "천지개벽",
     "description": "O star of creation, vanquish evil and let the new age begin !",
     "type": "[Greatsword]",
