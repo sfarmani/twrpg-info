@@ -1,5 +1,21 @@
 [
     {
+        "name": "31a",
+        "notes": [
+            "Released on: January 5th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "events": [
+            {
+                "name": "Winter Event",
+                "changes": [
+                    "Event ends!",
+                    "You may use the previous version until 1/5 23:59:59, but please complete the event replay verification before that"
+                ]
+            }
+        ]
+    },
+    {
         "name": "30f",
         "notes": [
             "Released on: December 30th",
