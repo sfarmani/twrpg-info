@@ -14789,11 +14789,15 @@
     "stats": {
       "allstat": 700,
       "passive": [
-        "Increase nearby allies Armor by 200 and Max Health by 3,000",
-        "'Divine Light' Gain a stack on every skill cast. 8 second duration (Max 5 Stacks)"
+        "Increases nearby allies' Armor by 200 and HP by 3000",
+        "On skill cast, gathers Holy Light",
+        "Stacks for a max of 5",
+        "Lasts for 8 seconds"
       ],
       "active": [
-        "'Release Divine Light' Heal all allies in 600 AoE for [(Str + Agi + Int) x 0.2 x # of Divine Light stacks] (1 second CD)"
+        "On use, releases Holy Light and heals all allies in a 600 radius",
+        "Heals (0.20 X (STR + AGI + INT) X stacks) HP",
+        "Cooldown: 10 seconds"
       ],
       "spec": [
         "Specialties - Transmission of Light",
