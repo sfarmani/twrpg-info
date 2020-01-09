@@ -404,7 +404,7 @@
         "icon": "AlchemistE_Q",
         "active": [
             "Enchant target's hands with fire and wind.",
-            "Increase target's attack damage by 20%",
+            "Increase target's attack damage by 15%",
             "Increase target's pure attack speed by 25%",
             "15% Chance to activate Ignite on spell cast",
             "Chain: Blaze"
@@ -2646,8 +2646,9 @@
             "Bestows the blessing of life.",
             "Consumes 60 MP",
             "Revives a dead ally nearby",
-            "Restores Max HP X 40% after revival",
-            "Revived allies spawn near guardian"
+            "Restores Max HP X 50% after revival",
+            "Revived allies spawn near guardian",
+            "Cooldown: 10 seconds"
         ]
     },
     {
@@ -2817,7 +2818,8 @@
             "(STR + AGI) X 40 bonus damage",
             "Stuns target for 1 second",
             "Recharges Magnetic Field by 5% for each 200 distance travelled",
-            "Cooldown: 8 seconds"
+            "Cooldown: 8 seconds",
+            "Lasts 2 seconds"
         ]
     },
     {

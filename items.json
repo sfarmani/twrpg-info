@@ -1839,7 +1839,8 @@
       "Fairy Garment",
       "Requiem, the Armor of Lamentation",
       "Diana, the Robe of Holy Maiden",
-      "Pure Crystal Wings"
+      "Pure Crystal Wings",
+      "Ancient Ent Icon"
     ],
     "recipe": [
       {
@@ -3474,7 +3475,8 @@
       "Heaven's Fist",
       "Pure Crystal Wings",
       "Archangel Wings",
-      "Guardian Angel Icon"
+      "Guardian Angel Icon",
+      "Archangel Icon"
     ],
     "koreanname": "봉인된 대천사의 날개"
   },
@@ -5864,7 +5866,8 @@
     "level": 370,
     "droprate": 0.0075,
     "required_by": [
-      "Claws of Beriel"
+      "Claws of Beriel",
+      "Skeleton King Icon"
     ],
     "stats": {
       "damage": 23500,
@@ -5895,7 +5898,8 @@
     "droprate": 0.0075,
     "required_by": [
       "Hell Riser",
-      "Crimson Hatred"
+      "Crimson Hatred",
+      "Skeleton King Icon"
     ],
     "stats": {
       "damage": 19000,
@@ -5921,7 +5925,8 @@
     "level": 370,
     "droprate": 0.01,
     "required_by": [
-      "Medea, the Robe of the Witch"
+      "Medea, the Robe of the Witch",
+      "Skeleton King Icon"
     ],
     "stats": {
       "armor": 430,
@@ -5946,7 +5951,8 @@
     "level": 370,
     "droprate": 0.01,
     "required_by": [
-      "Cold Ring of Death"
+      "Cold Ring of Death",
+      "Skeleton King Icon"
     ],
     "stats": {
       "mainstat": 1300,
@@ -5971,7 +5977,8 @@
     "level": 370,
     "droprate": 0.01,
     "required_by": [
-      "Requiem, the Armor of Lamentation"
+      "Requiem, the Armor of Lamentation",
+      "Skeleton King Icon"
     ],
     "stats": {
       "allstat": 1125,
@@ -6011,7 +6018,8 @@
       "Seal of Deceiver",
       "Soul of the Dead",
       "Bag of Mother Nature",
-      "Grimoire of Darkness"
+      "Grimoire of Darkness",
+      "Skeleton King Icon"
     ],
     "koreanname": "심연의 기운"
   },
@@ -6040,7 +6048,8 @@
       "Frost Fairy Wings",
       "Pure Crystal Wings",
       "Ring of Composure",
-      "Ring of Time"
+      "Ring of Time",
+      "Skeleton King Icon"
     ],
     "koreanname": "망각의 구슬"
   },
@@ -6064,7 +6073,8 @@
       "Frost Fairy Wings",
       "Pure Crystal Wings",
       "Wings of Slayer",
-      "Oblivion"
+      "Oblivion",
+      "Skeleton King Icon"
     ],
     "koreanname": "망각의 파편"
   },
@@ -6089,7 +6099,8 @@
       "Hellspike Armor",
       "Hades, the Armor of Despair",
       "Soul of the Dead",
-      "Bag of Destruction"
+      "Bag of Destruction",
+      "Skeleton King Icon"
     ],
     "koreanname": "스켈레톤 본"
   },
@@ -6116,7 +6127,8 @@
     "level": 370,
     "droprate": 0.0125,
     "required_by": [
-      "Staff of Plague"
+      "Staff of Plague",
+      "Zombie Lord Icon"
     ],
     "stats": {
       "damage": 19500,
@@ -6147,7 +6159,8 @@
     "droprate": 0.0125,
     "required_by": [
       "Hood of Apocrypha",
-      "Soul of the Dead"
+      "Soul of the Dead",
+      "Zombie Lord Icon"
     ],
     "stats": {
       "armor": 440,
@@ -6177,7 +6190,8 @@
       "Blazing Heart",
       "Ring of Revival",
       "Wings of Phoenix",
-      "Wings of Slayer"
+      "Wings of Slayer",
+      "Zombie Lord Icon"
     ],
     "stats": {
       "mainstat": 980,
@@ -6212,7 +6226,8 @@
       "Ispion, the Runed Ring",
       "Soul Eater",
       "Bag of Mother Nature",
-      "Splitting of the Sky and Earth"
+      "Splitting of the Sky and Earth",
+      "Zombie Lord Icon"
     ],
     "koreanname": "불로의 심장"
   },
@@ -6238,7 +6253,8 @@
       "Bag of Destruction",
       "Plates of Lightning",
       "Wings of Blood Lord",
-      "Oblivion"
+      "Oblivion",
+      "Zombie Lord Icon"
     ],
     "koreanname": "다크 크리스탈"
   },
@@ -6263,7 +6279,8 @@
       "Protection of the Fairies",
       "Grimoire of Darkness",
       "Ring of Fervor",
-      "Hydro Buster"
+      "Hydro Buster",
+      "Zombie Lord Icon"
     ],
     "koreanname": "정화의 증표"
   },
@@ -6292,7 +6309,8 @@
     "required_by": [
       "Protection of the Fairies",
       "Bag of Mother Nature",
-      "Wings of Blood Lord"
+      "Wings of Blood Lord",
+      "Ancient Ent Icon"
     ],
     "stats": {
       "strength": 1040,
@@ -6344,7 +6362,8 @@
       "Horn of God",
       "Frost Fairy Wings",
       "Ring of Composure",
-      "Druid's Mantle"
+      "Druid's Mantle",
+      "Ancient Ent Icon"
     ],
     "koreanname": "대자연의 정수"
   },
@@ -6377,7 +6396,8 @@
       "Ispion, the Runed Ring",
       "Soul Eater",
       "Bag of Destruction",
-      "Horn of God"
+      "Horn of God",
+      "Ancient Ent Icon"
     ],
     "koreanname": "바람의 조각"
   },
@@ -6408,7 +6428,8 @@
     "droprate": 0.005,
     "required_by": [
       "Oceanus, the Sword of Light",
-      "Winter's Heart"
+      "Winter's Heart",
+      "Ancient Ent Icon"
     ],
     "stats": {
       "damage": 20500,
@@ -6445,7 +6466,8 @@
       "Nebula Rose",
       "Vest of Storm",
       "Storm",
-      "Oblivion"
+      "Oblivion",
+      "Ancient Ent Icon"
     ],
     "stats": {
       "allstat": 930,
@@ -6474,6 +6496,9 @@
     "color": "DC143C",
     "level": 370,
     "droprate": 0.0075,
+    "required_by": [
+      "Shadow Dragon Icon"
+    ],
     "stats": {
       "damage": 25500,
       "strength": 1675,
@@ -6497,6 +6522,9 @@
     "color": "C71585",
     "level": 370,
     "droprate": 0.015,
+    "required_by": [
+      "Shadow Dragon Icon"
+    ],
     "stats": {
       "armor": 600,
       "mainstat": 790,
@@ -6528,7 +6556,8 @@
     "required_by": [
       "Ring of Time",
       "Ispion, the Runed Ring",
-      "Seal of Deceiver"
+      "Seal of Deceiver",
+      "Shadow Dragon Icon"
     ],
     "stats": {
       "allstat": 975,
@@ -6564,7 +6593,8 @@
       "Grim Heart",
       "Wings of Blood Lord",
       "Bag of Universe",
-      "Soul of Abyss"
+      "Soul of Abyss",
+      "Shadow Dragon Icon"
     ],
     "koreanname": "암흑의 결정"
   },
@@ -6591,7 +6621,8 @@
       "Vest of Storm",
       "Storm",
       "Splitting of the Sky and Earth",
-      "Robe of Archlich"
+      "Robe of Archlich",
+      "Shadow Dragon Icon"
     ],
     "koreanname": "안티 매터"
   },
@@ -6619,7 +6650,8 @@
       "Winter Robe",
       "Medea, the Robe of the Witch",
       "Hades, the Armor of Despair",
-      "Cold Ring of Death"
+      "Cold Ring of Death",
+      "Shadow Dragon Icon"
     ],
     "koreanname": "한기의 조각"
   },
@@ -6653,7 +6685,8 @@
       "Benedict, the Crimson Armor of Blood",
       "Ring of Time",
       "Horn of God",
-      "Robe of Archlich"
+      "Robe of Archlich",
+      "Archangel Icon"
     ],
     "koreanname": "신의 금속"
   },
@@ -6677,7 +6710,8 @@
       "Vest of Storm",
       "Storm",
       "Bag of Universe",
-      "Soul of Abyss"
+      "Soul of Abyss",
+      "Archangel Icon"
     ],
     "koreanname": "빛의 결정"
   },
@@ -6698,7 +6732,8 @@
       "Hood of Apocrypha",
       "Grandine, the Plates of Wraith",
       "Cold Ring of Death",
-      "Grimoire of Darkness"
+      "Grimoire of Darkness",
+      "Archangel Icon"
     ],
     "koreanname": "위서의 한 페이지"
   },
@@ -6714,7 +6749,8 @@
     "level": 380,
     "droprate": 0.006,
     "required_by": [
-      "Archangel Wings"
+      "Archangel Wings",
+      "Archangel Icon"
     ],
     "stats": {
       "strength": 840,
@@ -7227,6 +7263,23 @@
       "Oblivion"
     ],
     "koreanname": "용의 눈"
+  },
+  {
+    "id": "I0M7",
+    "name": "Bone Dragon Icon",
+    "koreanname": "본 드래곤 아이콘",
+    "dropped_by": [
+      "Bone Dragon"
+    ],
+    "type": "[Icon]",
+    "color": "008000",
+    "droprate": 0.0015,
+    "required_by": [
+      "Shadow Dragon Icon"
+    ],
+    "stats": {
+      "damagedealtpercent": 0.005
+    }
   },
   {
     "id": "rre1",
@@ -16785,7 +16838,8 @@
       }
     ],
     "required_by": [
-      "Demon Lord Icon"
+      "Demon Lord Icon",
+      "Archangel Icon"
     ],
     "stats": {
       "allstat": 40,
@@ -16971,7 +17025,8 @@
       }
     ],
     "required_by": [
-      "Master Icon"
+      "Master Icon",
+      "Zombie Lord Icon"
     ],
     "stats": {
       "allstat": 75,
@@ -17016,7 +17071,8 @@
       }
     ],
     "required_by": [
-      "Master Icon"
+      "Master Icon",
+      "Ancient Ent Icon"
     ],
     "stats": {
       "allstat": 75,
@@ -17067,7 +17123,8 @@
       }
     ],
     "required_by": [
-      "Master Icon"
+      "Master Icon",
+      "Skeleton King Icon"
     ],
     "stats": {
       "allstat": 75,
@@ -17095,6 +17152,9 @@
         "Acorn of Luck": 1
       }
     ],
+    "required_by": [
+      "Grandmaster Icon"
+    ],
     "stats": {
       "allstat": 75,
       "skilldamagepercent": 0.01,
@@ -17105,6 +17165,240 @@
       "mp": 500,
       "hpregen": 15,
       "mpregen": 15
+    }
+  },
+  {
+    "id": "I0M8",
+    "name": "Skeleton King Icon",
+    "koreanname": "해골 왕 아이콘",
+    "type": "[Icon]",
+    "color": "008000",
+    "recipe": [
+      {
+        "Nightmare Icon": 1
+      },
+      {
+        "Death Scythe": 1
+      },
+      {
+        "Staff of Souls": 1
+      },
+      {
+        "Robe of the Reaper": 1
+      },
+      {
+        "Brooch of Darkness": 1
+      },
+      {
+        "Bone Necklace": 1
+      },
+      {
+        "Spirit of Abyss": 1
+      },
+      {
+        "Orb of Oblivion": 1
+      },
+      {
+        "Fragment of Oblivion": 1
+      },
+      {
+        "Skeleton Bone": 1
+      }
+    ],
+    "required_by": [
+      "Grandmaster Icon"
+    ],
+    "stats": {
+      "allstat": 100,
+      "hp": 900,
+      "hpregen": 25
+    }
+  },
+  {
+    "id": "I0M9",
+    "name": "Zombie Lord Icon",
+    "koreanname": "좀비 로드 아이콘",
+    "type": "[Icon]",
+    "color": "008000",
+    "recipe": [
+      {
+        "Corruptor Icon": 1
+      },
+      {
+        "Parasitic Staff": 1
+      },
+      {
+        "Hood of the Fallen": 1
+      },
+      {
+        "Shroud of Perseverance": 1
+      },
+      {
+        "Heart of Fire": 1
+      },
+      {
+        "Dark Crystal": 1
+      },
+      {
+        "Proof of Purification": 1
+      }
+    ],
+    "required_by": [
+      "Grandmaster Icon"
+    ],
+    "stats": {
+      "allstat": 100,
+      "attackspeedpercent": 0.05,
+      "critchancepercent": 0.02,
+      "drpercent": 0.02
+    }
+  },
+  {
+    "id": "I0MA",
+    "name": "Ancient Ent Icon",
+    "koreanname": "에인션트 엔트 아이콘",
+    "type": "[Icon]",
+    "color": "008000",
+    "recipe": [
+      {
+        "Turtle Lord Icon": 1
+      },
+      {
+        "Embrace of Nature": 1
+      },
+      {
+        "Purified Water of Nature": 1
+      },
+      {
+        "Fragment of the Wind": 1
+      },
+      {
+        "Griseus, the Sword of Protection": 1
+      },
+      {
+        "Ring of the Storm": 1
+      },
+      {
+        "Spirit Orb": 1
+      }
+    ],
+    "required_by": [
+      "Grandmaster Icon"
+    ],
+    "stats": {
+      "allstat": 125,
+      "skilldamagepercent": 0.015,
+      "mp": 600,
+      "mpregen": 20
+    }
+  },
+  {
+    "id": "I0MB",
+    "name": "Archangel Icon",
+    "koreanname": "주천사 아이콘",
+    "type": "[Icon]",
+    "color": "008000",
+    "recipe": [
+      {
+        "Guardian Angel Icon": 1
+      },
+      {
+        "Guardian of the Skies": 1
+      },
+      {
+        "Sealed Archangel Wings": 1
+      },
+      {
+        "Steel of God": 1
+      },
+      {
+        "Essence of Light": 1
+      },
+      {
+        "God's Page": 1
+      }
+    ],
+    "required_by": [
+      "Grandmaster Icon"
+    ],
+    "stats": {
+      "allstat": 125,
+      "drpercent": 0.02
+    }
+  },
+  {
+    "id": "I0MC",
+    "name": "Shadow Dragon Icon",
+    "koreanname": "암흑룡 아이콘",
+    "type": "[Icon]",
+    "color": "008000",
+    "recipe": [
+      {
+        "Bone Dragon Icon": 1
+      },
+      {
+        "Levante, the Sword of Love and Hate": 1
+      },
+      {
+        "Draconic Skin Rusalka": 1
+      },
+      {
+        "Nephthys, the Engraved Ring": 1
+      },
+      {
+        "Essence of Darkness": 1
+      },
+      {
+        "Antimatter": 1
+      },
+      {
+        "Frozen Debris": 1
+      }
+    ],
+    "required_by": [
+      "Grandmaster Icon"
+    ],
+    "stats": {
+      "damagedealtpercent": 0.01
+    }
+  },
+  {
+    "id": "I0MD",
+    "name": "Grandmaster Icon",
+    "koreanname": "그랜드마스터 아이콘",
+    "type": "[Icon]",
+    "color": "008000",
+    "recipe": [
+      {
+        "Master Icon": 1
+      },
+      {
+        "Skeleton King Icon": 1
+      },
+      {
+        "Zombie Lord Icon": 1
+      },
+      {
+        "Ancient Ent Icon": 1
+      },
+      {
+        "Archangel Icon": 1
+      },
+      {
+        "Shadow Dragon Icon": 1
+      }
+    ],
+    "stats": {
+      "allstat": 125,
+      "attackspeedpercent": 0.05,
+      "skilldamagepercent": 0.02,
+      "critchancepercent": 0.02,
+      "drpercent": 0.02,
+      "damagedealtpercent": 0.02,
+      "hp": 800,
+      "mp": 800,
+      "hpregen": 25,
+      "mpregen": 25
     }
   },
   {

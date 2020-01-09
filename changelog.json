@@ -1,5 +1,91 @@
 [
     {
+        "name": "31b",
+        "notes": [
+            "Released on: January 8th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Elder ent - Fixed killing elder ent with aoe damage causing nearby enemies to not take damage",
+            "Shooter - Fixed spells of another heroes / bosses in fight (like paladin's Divine spirit (W) / death weaver's wave) breaking if Comet storm (F) gets blocked by terrain",
+            "Priest - Fixed raguel being able to pull immovable units"
+        ],
+        "items": [
+            {
+                "name": "Hades, the Armor of Despair",
+                "changes": [
+                    "Damage from passive effect now counts as periodic damage"
+                ]
+            },
+            {
+                "name": "Icons",
+                "changes": [
+                    "Added new icons",
+                    [
+                        "Bone Dragon Icon",
+                        "Skeleton King Icon",
+                        "Zombie Lord Icon",
+                        "Ancient Ent Icon",
+                        "Archangel Samael Icon",
+                        "Shadow Dragon Icon",
+                        "Grandmaster Icon"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "Wheel now only deals damage to heroes"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Death's Dash (W)",
+                    [
+                        "Changed to always deal damage to main target"
+                    ]
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Lightning Rush (W)",
+                    [
+                        "Now lasts up to 2 seconds maximum (to prevent being stuck in entrances like mage tower stairs, etc.)"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Guardian of Wind (F) - Blessing of Vayu (E)",
+                    [
+                        "HP of respawned target: 40% → 50%",
+                        "Cooldown: 20 seconds → 10 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Conjure Air (E) - Burning Hand (Q)",
+                    [
+                        "Attack damage bonus: 25% → 15%"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Mount no longer dissappears if owner deals periodic damage to enemies",
+            "Removed cooldown on entry button for Avalon"
+        ]
+    },
+    {
         "name": "31a",
         "notes": [
             "Released on: January 5th, 2020",
