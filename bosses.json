@@ -793,8 +793,8 @@
             "pinv",
             "tret",
             "btst",
-            "rre1",
-            "I0M7"
+            "I0M7",
+            "rre1"
         ]
     },
     {
