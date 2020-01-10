@@ -5250,7 +5250,7 @@
     "type": "[Staff]",
     "color": "DC143C",
     "level": 360,
-    "droprate": 0.015,
+    "droprate": 0.02,
     "required_by": [
       "Corruptor Icon",
       "Staff of Plague"
@@ -5463,7 +5463,7 @@
     "type": "[Helm/Hood]",
     "color": "DC143C",
     "level": 360,
-    "droprate": 0.015,
+    "droprate": 0.02,
     "required_by": [
       "Nightmare Icon",
       "Crown of Rage",
@@ -5706,7 +5706,7 @@
     "type": "[Ring]",
     "color": "DC143C",
     "level": 360,
-    "droprate": 0.015,
+    "droprate": 0.02,
     "required_by": [
       "Turtle Lord Icon",
       "Blazing Heart",
@@ -10901,7 +10901,7 @@
       "agility": 1500,
       "skilldamagepercent": 0.09,
       "passive": [
-        "~12.8% Chance to activate Chaos Strike on attack dealing ((STR + AGI) X 30) magic damage"
+        "10% Chance to activate Chaos Strike on attack dealing ((STR + AGI) X 37.5) magic damage"
       ]
     }
   },
@@ -11061,7 +11061,7 @@
       "agility": 2000,
       "skilldamagepercent": 0.06,
       "passive": [
-        "~12.8% Chance to activate Chaos Strike on attack dealing ((STR + AGI) X 30) magic damage"
+        "10% Chance to activate Chaos Strike on attack dealing ((STR + AGI) X 37.5) magic damage"
       ]
     }
   },

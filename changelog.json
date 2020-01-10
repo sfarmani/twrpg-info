@@ -1,5 +1,60 @@
 [
     {
+        "name": "31c",
+        "notes": [
+            "Released on: January 9th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Players with master icon will now be able to obtain Corruptor / Nightmare / Turtle Lord icons from Weird Magician NPC in Alfon village, if they don't have them"
+                ]
+            },
+            {
+                "name": "Staff of Contagion / Crown of Fervor / Oath of Courage",
+                "changes": [
+                    "Droprate: 1.5% → 2%"
+                ]
+            },
+            {
+                "name": "Espishu, the Sword of Eternity / Chronos, the Cannon of Time",
+                "changes": [
+                    "Chance to activate and damage: 12% chance to deal (30 X (STR + AGI)) magic damage → 10% chance to deal (37.5 X (STR + AGI)) magic damage"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Spirit Beast / Corruptor Rectus / Flame Nightmare / Turtle Lord",
+                "changes": [
+                    "Difficulty setting: Applies from 7th player (up to 30% droprate / damage resistance increase) → Applies from 5th player (up to 45% droprate / damage resistance increase)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Emperor's Strikes (Q)",
+                    [
+                        "Activation chance: 20% → 15%"
+                    ],
+                    "Eight Palm Strike (W)",
+                    [
+                        "Activation chance: 6% → 8%",
+                        "Damage: AGI X 15 → AGI X 40"
+                    ],
+                    "Nameless Arts (F)",
+                    [
+                        "Activation chance increase removed (only changed description since it didn't increase proc chance at all)"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "31b",
         "notes": [
             "Released on: January 8th, 2020",

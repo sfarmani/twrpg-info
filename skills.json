@@ -2078,7 +2078,7 @@
         "icon": "MartialArtistPass",
         "passive": [
             "A martial art that strengthens the fist, passed down from the Shaolins of the orients.",
-            "12% chance to deal Skill Level X 300 damage on attack",
+            "15% chance to deal Skill Level X 300 damage on attack",
             "AGI X 30 bonus damage"
         ]
     },
@@ -2091,8 +2091,8 @@
         "passive": [
             "Martial art that allows striking multiple foes on a single attack.",
             "Adds splash effect to attack",
-            "Chance to deal Skill Level X 500 damage to nearby enemies on attack",
-            "AGI X 15 bonus damage"
+            "8% Chance to deal Skill Level X 500 damage to nearby enemies on attack",
+            "AGI X 40 bonus damage"
         ]
     },
     {
@@ -2139,7 +2139,6 @@
         "icon": "MartialArtistPass",
         "active": [
             "\"None can match the skills of the martial artists of Eloren. Having obtained the knowledge of all advanced martial arts, each one of their techniques is deadly.\" - A Continent Traveller",
-            "Chance to activate Martial Arts increased",
             "Gains immunity to debuffs and CC effects",
             "Gains acceleration",
             "Increases attack range by 50",
