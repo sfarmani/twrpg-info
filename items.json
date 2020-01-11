@@ -15279,7 +15279,7 @@
       "periodicdamagepercent": 0.25,
       "healreceivedpercent": -0.25,
       "passive": [
-        "7.5% Chance to activate Absolute Strike on attack. (Next 3 hits deal (1x Damage) pure damage and you gain +20000 Damage and +1000 main stat for 6 seconds)",
+        "7.5% Chance to activate Absolute Strike on attack",
         "Gain 20000 attack damage, 1000 main stat, and 1000 HP regen for 7.5 seconds",
         "The next 4 hits deal pure damage",
         "Absolute Strike cooldown: 15 seconds, cannot be dropped during cooldown"
