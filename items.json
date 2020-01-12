@@ -5998,14 +5998,24 @@
     "koreanname": "본 네크리스"
   },
   {
-    "id": "gsou",
-    "name": "Spirit of Abyss",
+    "id": "I0MH",
+    "name": "Sealed Spirit of Abyss",
     "dropped_by": [
       "Skeleton King Desperia"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.01,
+    "droprate": 0.015,
+    "required_by": [
+      "Spirit of Abyss"
+    ],
+    "koreanname": "봉인된 심연의 기운"
+  },
+  {
+    "id": "gsou",
+    "name": "Spirit of Abyss",
+    "type": "[Material]",
+    "color": "FFFFFF",
     "required_by": [
       "Claws of Beriel",
       "Crimson Reaper",
@@ -6021,17 +6031,32 @@
       "Grimoire of Darkness",
       "Skeleton King Icon"
     ],
+    "recipe": [
+      {
+        "Sealed Spirit of Abyss": 2
+      }
+    ],
     "koreanname": "심연의 기운"
   },
   {
-    "id": "nflg",
-    "name": "Orb of Oblivion",
+    "id": "I0MG",
+    "name": "Sealed Orb of Oblivion",
     "dropped_by": [
       "Skeleton King Desperia"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.01,
+    "droprate": 0.015,
+    "required_by": [
+      "Orb of Oblivion"
+    ],
+    "koreanname": "봉인된 망각의 구슬"
+  },
+  {
+    "id": "nflg",
+    "name": "Orb of Oblivion",
+    "type": "[Material]",
+    "color": "FFFFFF",
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -6051,17 +6076,32 @@
       "Ring of Time",
       "Skeleton King Icon"
     ],
+    "recipe": [
+      {
+        "Sealed Orb of Oblivion": 2
+      }
+    ],
     "koreanname": "망각의 구슬"
   },
   {
-    "id": "I0EK",
-    "name": "Fragment of Oblivion",
+    "id": "I0ME",
+    "name": "Sealed Fragment of Oblivion",
     "dropped_by": [
       "Skeleton King Desperia"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.01,
+    "droprate": 0.015,
+    "required_by": [
+      "Fragment of Oblivion"
+    ],
+    "koreanname": "봉인된 망각의 파편"
+  },
+  {
+    "id": "I0EK",
+    "name": "Fragment of Oblivion",
+    "type": "[Material]",
+    "color": "FFFFFF",
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -6076,17 +6116,32 @@
       "Oblivion",
       "Skeleton King Icon"
     ],
+    "recipe": [
+      {
+        "Sealed Fragment of Oblivion": 2
+      }
+    ],
     "koreanname": "망각의 파편"
   },
   {
-    "id": "I0EL",
-    "name": "Skeleton Bone",
+    "id": "I0MF",
+    "name": "Sealed Skeleton Bone",
     "dropped_by": [
       "Skeleton King Desperia"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.01,
+    "droprate": 0.015,
+    "required_by": [
+      "Skeleton Bone"
+    ],
+    "koreanname": "봉인된 스켈레톤 본"
+  },
+  {
+    "id": "I0EL",
+    "name": "Skeleton Bone",
+    "type": "[Material]",
+    "color": "FFFFFF",
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
       "Chronos, the Cannon of Time",
@@ -6101,6 +6156,11 @@
       "Soul of the Dead",
       "Bag of Destruction",
       "Skeleton King Icon"
+    ],
+    "recipe": [
+      {
+        "Sealed Skeleton Bone": 2
+      }
     ],
     "koreanname": "스켈레톤 본"
   },
@@ -6206,14 +6266,24 @@
     "koreanname": "집념의 장막"
   },
   {
-    "id": "rde1",
-    "name": "Heart of Fire",
+    "id": "I0MJ",
+    "name": "Sealed Heart of Fire",
     "dropped_by": [
       "Zombie Lord"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.015,
+    "required_by": [
+      "Heart of Fire"
+    ],
+    "koreanname": "봉인된 불로의 심장"
+  },
+  {
+    "id": "rde1",
+    "name": "Heart of Fire",
+    "type": "[Material]",
+    "color": "FFFFFF",
     "required_by": [
       "Crimson Reaper",
       "Winter's Heart",
@@ -6229,17 +6299,32 @@
       "Splitting of the Sky and Earth",
       "Zombie Lord Icon"
     ],
+    "recipe": [
+      {
+        "Sealed Heart of Fire": 2
+      }
+    ],
     "koreanname": "불로의 심장"
   },
   {
-    "id": "I08P",
-    "name": "Dark Crystal",
+    "id": "I0MK",
+    "name": "Sealed Dark Crystal",
     "dropped_by": [
       "Zombie Lord"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.015,
+    "required_by": [
+      "Dark Crystal"
+    ],
+    "koreanname": "봉인된 다크 크리스탈"
+  },
+  {
+    "id": "I08P",
+    "name": "Dark Crystal",
+    "type": "[Material]",
+    "color": "FFFFFF",
     "required_by": [
       "Bloody Hatred",
       "Staff of Abyss",
@@ -6256,17 +6341,32 @@
       "Oblivion",
       "Zombie Lord Icon"
     ],
+    "recipe": [
+      {
+        "Sealed Dark Crystal": 2
+      }
+    ],
     "koreanname": "다크 크리스탈"
   },
   {
-    "id": "I0AS",
-    "name": "Proof of Purification",
+    "id": "I0MI",
+    "name": "Sealed Proof of Purification",
     "dropped_by": [
       "Zombie Lord"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.015,
+    "required_by": [
+      "Proof of Purification"
+    ],
+    "koreanname": "봉인된 정화의 증표"
+  },
+  {
+    "id": "I0AS",
+    "name": "Proof of Purification",
+    "type": "[Material]",
+    "color": "FFFFFF",
     "required_by": [
       "Oceanus, the Sword of Light",
       "Tiberius, the Spear of Lightning",
@@ -6281,6 +6381,11 @@
       "Ring of Fervor",
       "Hydro Buster",
       "Zombie Lord Icon"
+    ],
+    "recipe": [
+      {
+        "Sealed Proof of Purification": 2
+      }
     ],
     "koreanname": "정화의 증표"
   },
@@ -6328,8 +6433,8 @@
     "koreanname": "대자연의 포옹"
   },
   {
-    "id": "ofir",
-    "name": "Purified Water of Nature",
+    "id": "I0MM",
+    "name": "Sealed Purified Water of Nature",
     "dropped_by": [
       "Ancient Ent",
       "Elder Ent",
@@ -6338,13 +6443,23 @@
     "type": "[Material]",
     "color": "FFFFFF",
     "notes": [
-      "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.20% → 0.04%, 0.02% → 0.004)"
+      "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%, 0.05% → 0.01%)"
     ],
     "droprate": [
       0.005,
-      0.0025,
+      0.005,
       0.0005
     ],
+    "required_by": [
+      "Purified Water of Nature"
+    ],
+    "koreanname": "봉인된 대자연의 정수"
+  },
+  {
+    "id": "ofir",
+    "name": "Purified Water of Nature",
+    "type": "[Material]",
+    "color": "FFFFFF",
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -6365,11 +6480,16 @@
       "Druid's Mantle",
       "Ancient Ent Icon"
     ],
+    "recipe": [
+      {
+        "Sealed Purified Water of Nature": 2
+      }
+    ],
     "koreanname": "대자연의 정수"
   },
   {
-    "id": "shtm",
-    "name": "Fragment of the Wind",
+    "id": "I0ML",
+    "name": "Sealed Fragment of the Wind",
     "dropped_by": [
       "Ancient Ent",
       "Elder Ent",
@@ -6378,13 +6498,23 @@
     "type": "[Material]",
     "color": "FFFFFF",
     "notes": [
-      "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.20% → 0.04%, 0.02% → 0.004)"
+      "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%, 0.05% → 0.01%)"
     ],
     "droprate": [
       0.005,
-      0.0025,
+      0.005,
       0.0005
     ],
+    "required_by": [
+      "Fragment of the Wind"
+    ],
+    "koreanname": "봉인된 바람의 조각"
+  },
+  {
+    "id": "shtm",
+    "name": "Fragment of the Wind",
+    "type": "[Material]",
+    "color": "FFFFFF",
     "required_by": [
       "Spirit Dagger",
       "Pheles, the Bow of Skies",
@@ -6398,6 +6528,11 @@
       "Bag of Destruction",
       "Horn of God",
       "Ancient Ent Icon"
+    ],
+    "recipe": [
+      {
+        "Sealed Fragment of the Wind": 2
+      }
     ],
     "koreanname": "바람의 조각"
   },
@@ -6572,14 +6707,24 @@
     "koreanname": "각인의 반지 네프티스"
   },
   {
-    "id": "mcri",
-    "name": "Essence of Darkness",
+    "id": "I0MQ",
+    "name": "Sealed Essence of Darkness",
     "dropped_by": [
       "Shadow Dragon Irbert"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.009,
+    "droprate": 0.012,
+    "required_by": [
+      "Essence of Darkness"
+    ],
+    "koreanname": "봉인된 암흑의 결정"
+  },
+  {
+    "id": "mcri",
+    "name": "Essence of Darkness",
+    "type": "[Material]",
+    "color": "FFFFFF",
     "required_by": [
       "Crimson Reaper",
       "Ruinbringer",
@@ -6596,17 +6741,32 @@
       "Soul of Abyss",
       "Shadow Dragon Icon"
     ],
+    "recipe": [
+      {
+        "Sealed Essence of Darkness": 2
+      }
+    ],
     "koreanname": "암흑의 결정"
   },
   {
-    "id": "I08N",
-    "name": "Antimatter",
+    "id": "I0MR",
+    "name": "Sealed Antimatter",
     "dropped_by": [
       "Shadow Dragon Irbert"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.009,
+    "droprate": 0.012,
+    "required_by": [
+      "Antimatter"
+    ],
+    "koreanname": "봉인된 안티 매터"
+  },
+  {
+    "id": "I08N",
+    "name": "Antimatter",
+    "type": "[Material]",
+    "color": "FFFFFF",
     "required_by": [
       "Staff of Plague",
       "Pheles, the Bow of God",
@@ -6624,21 +6784,36 @@
       "Robe of Archlich",
       "Shadow Dragon Icon"
     ],
+    "recipe": [
+      {
+        "Sealed Antimatter": 2
+      }
+    ],
     "koreanname": "안티 매터"
+  },
+  {
+    "id": "I0MS",
+    "name": "Sealed Frozen Debris",
+    "dropped_by": [
+      "Shadow Dragon Irbert"
+    ],
+    "type": "[Material]",
+    "color": "FFFFFF",
+    "droprate": 0.009,
+    "required_by": [
+      "Frozen Debris"
+    ],
+    "koreanname": "봉인된 한기의 조각"
   },
   {
     "id": "I09N",
     "name": "Frozen Debris",
     "dropped_by": [
-      "Shadow Dragon Irbert",
       "Death Fiend"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": [
-      0.0075,
-      0.009
-    ],
+    "droprate": 0.009,
     "required_by": [
       "Winter's Heart",
       "Meacronacer, the Sword of Thousand Illusions",
@@ -6652,6 +6827,11 @@
       "Hades, the Armor of Despair",
       "Cold Ring of Death",
       "Shadow Dragon Icon"
+    ],
+    "recipe": [
+      {
+        "Sealed Frozen Debris": 2
+      }
     ],
     "koreanname": "한기의 조각"
   },
@@ -6667,14 +6847,24 @@
     "koreanname": "암흑의 토큰"
   },
   {
-    "id": "I0E5",
-    "name": "Steel of God",
+    "id": "I0MN",
+    "name": "Sealed Steel of God",
     "dropped_by": [
       "Archangel Samael"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.01,
+    "droprate": 0.012,
+    "required_by": [
+      "Steel of God"
+    ],
+    "koreanname": "봉인된 신의 금속"
+  },
+  {
+    "id": "I0E5",
+    "name": "Steel of God",
+    "type": "[Material]",
+    "color": "FFFFFF",
     "required_by": [
       "Claws of Beriel",
       "Tiberius, the Spear of Lightning",
@@ -6688,17 +6878,32 @@
       "Robe of Archlich",
       "Archangel Icon"
     ],
+    "recipe": [
+      {
+        "Sealed Steel of God": 2
+      }
+    ],
     "koreanname": "신의 금속"
   },
   {
-    "id": "I0E6",
-    "name": "Essence of Light",
+    "id": "I0MP",
+    "name": "Sealed Essence of Light",
     "dropped_by": [
       "Archangel Samael"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.01,
+    "droprate": 0.012,
+    "required_by": [
+      "Essence of Light"
+    ],
+    "koreanname": "봉인된 빛의 결정"
+  },
+  {
+    "id": "I0E6",
+    "name": "Essence of Light",
+    "type": "[Material]",
+    "color": "FFFFFF",
     "required_by": [
       "Oceanus, the Sword of Light",
       "Halo of Judgment",
@@ -6713,17 +6918,32 @@
       "Soul of Abyss",
       "Archangel Icon"
     ],
+    "recipe": [
+      {
+        "Sealed Essence of Light": 2
+      }
+    ],
     "koreanname": "빛의 결정"
   },
   {
-    "id": "I0E7",
-    "name": "God's Page",
+    "id": "I0MO",
+    "name": "Sealed God's Page",
     "dropped_by": [
       "Archangel Samael"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.01,
+    "droprate": 0.012,
+    "required_by": [
+      "God's Page"
+    ],
+    "koreanname": "봉인된 위서의 한 페이지"
+  },
+  {
+    "id": "I0E7",
+    "name": "God's Page",
+    "type": "[Material]",
+    "color": "FFFFFF",
     "required_by": [
       "Ruinbringer",
       "Hell Riser",
@@ -6734,6 +6954,11 @@
       "Cold Ring of Death",
       "Grimoire of Darkness",
       "Archangel Icon"
+    ],
+    "recipe": [
+      {
+        "Sealed God's Page": 2
+      }
     ],
     "koreanname": "위서의 한 페이지"
   },

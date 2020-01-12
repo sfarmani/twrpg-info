@@ -1,5 +1,119 @@
 [
     {
+        "name": "31e",
+        "notes": [
+            "Released on: January 11th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fixed a bug that caused Bone Dragon to not die"
+        ]
+    },
+    {
+        "name": "31d",
+        "notes": [
+            "Released on: January 11th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "monsters": [
+            {
+                "name": "Bone Dragon",
+                "changes": [
+                    "Item droprate: 0.75% → 1%",
+                    "Material droprate: 1% → 1.25%",
+                    "Changed to be able to drop below 50% hp in rage mode"
+                ]
+            },
+            {
+                "name": "Skeletal King Desperia",
+                "changes": [
+                    "Drop limit removed",
+                    "Materials",
+                    [
+                        "Droprate: 1% → 1.5%",
+                        "Changed to be split into two fragments (can fuse them together to obtain the material)"
+                    ],
+                    "Movement speed: 400 → 300",
+                    "Stomp",
+                    [
+                        "Added 2.5 seconds activation delay",
+                        "Reduces damage output of all units in area by 40% for 4 seconds → Gains 50% damage resistance for 2.5 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Zombie Lord",
+                "changes": [
+                    "Drop limit removed",
+                    "Materials",
+                    [
+                        "Droprate: 1% → 1.5%",
+                        "Changed to be split into two fragments (can fuse them together to obtain the material)"
+                    ]
+                ]
+            },
+            {
+                "name": "Ancient Ent",
+                "changes": [
+                    "Drop limit removed",
+                    "Fragment of the Wind / Purified Water of Nature now drop as two split fragments"
+                ]
+            },
+            {
+                "name": "Elder Ent",
+                "changes": [
+                    "Fragment of the Wind / Purfied Water of Nature droprate: 0.25% → 0.5%"
+                ]
+            },
+            {
+                "name": "Giant Ent",
+                "changes": [
+                    "Spirit Orb droprate: 0.2% → 0.25%"
+                ]
+            },
+            {
+                "name": "Archangel Samael",
+                "changes": [
+                    "Drop limit removed",
+                    "Essence of Light / Steel of God / God's Page",
+                    [
+                        "Droprate: 1% → 1.2%",
+                        "Changed to be split into two fragments (can fuse them together to obtain the material)"
+                    ]
+                ]
+            },
+            {
+                "name": "Shadow Dragon Irbert",
+                "changes": [
+                    "Drop limit removed",
+                    "Essence of Darkness / Antimatter droprate: 0.9% → 1.2%",
+                    "Frozen Debris droprate: 0.75% → 0.9%",
+                    "Materials changed to be split into two fragments (can fuse them together to obtain the material)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Comet Storm (F)",
+                    [
+                        "Projectile count: 20 → 15 (same total damage)"
+                    ]
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Meteor Fragment (T)",
+                    [
+                        "Projectile count: 12 → 8 (same total damage)"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "31c",
         "notes": [
             "Released on: January 9th, 2020",

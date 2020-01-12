@@ -982,7 +982,7 @@
             "Calls down meteor fragments that are drifting around the atmosphere.",
             "Each fragment deals Skill Level X 1000 damage",
             "Each fragment deals INT X 30 bonus damage",
-            "Total of 12 meteor fragments"
+            "Total of 8 meteor fragments"
         ]
     },
     {
@@ -1118,7 +1118,7 @@
             "\"Justice rains from the sky!\" - Shooter",
             "Each bullet deals Attack Damage X 6 damage",
             "Main Stat X 30 bonus damage",
-            "A total of 20 bullets are fired",
+            "A total of 15 bullets are fired",
             "Binds target's actions for 2 seconds"
         ]
     },
