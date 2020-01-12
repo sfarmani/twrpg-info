@@ -7395,7 +7395,7 @@
     "type": "[Weapon all classes]",
     "color": "DC143C",
     "level": 380,
-    "droprate": 0.0075,
+    "droprate": 0.01,
     "required_by": [
       "Ethenos, the Staff of Space",
       "Triple Snow",
@@ -7428,7 +7428,7 @@
     "type": "[Ring]",
     "color": "DC143C",
     "level": 380,
-    "droprate": 0.0075,
+    "droprate": 0.01,
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ring of Time",
@@ -7455,7 +7455,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.01,
+    "droprate": 0.0125,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
       "Ruinbringer",
@@ -7474,7 +7474,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.01,
+    "droprate": 0.0125,
     "required_by": [
       "Claws of Beriel",
       "Chronos, the Cannon of Time",
