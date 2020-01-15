@@ -2185,10 +2185,11 @@
         "icon": "LancerW",
         "active": [
             "Attack nearby enemies with a swift spear strike.",
-            "Attack Damage X 600% damage",
+            "Attack Damage X 600% magic damage",
             "STR X 30 bonus damage",
+            "Temporarily slows target",
             "Resets duration of Oriental Spear Mastery",
-            "Empowered: Next Pierce's damage is reduced to 150% but does pure damage"
+            "Empowered: Next Pierce deals 150% bonus damage to target"
         ]
     },
     {
@@ -2529,7 +2530,7 @@
             "Cooldown reset upon casting Feather of Aeolus",
             "When two gentle winds combine, strong winds are formed for 4 seconds, dealing Attack Damage X 500% damage per second",
             "CD: 6 seconds",
-            "Rnage: 1500"
+            "Range: 1500"
         ]
     },
     {
