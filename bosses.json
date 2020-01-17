@@ -836,7 +836,7 @@
         "limit": "None",
         "manacost": "6",
         "location": "In Deep Snowfield",
-        "conditions": "Level 420, Mage Lord defeated, and 12x Blue Powder given to Elder Paracelsus",
+        "conditions": "Level 420 and 12x Blue Powder given to Elder Paracelsus",
         "drops": [
             "kymn",
             "bzbf",
