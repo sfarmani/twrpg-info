@@ -163,8 +163,8 @@
         "icon": "SoulWeaverW",
         "active": [
             "Surrounds self and nearby allies with spiritual barriers.",
-            "Increases skill damage by (5 + INT / 1000)% for 30 seconds",
-            "Regenerates INT X 0.15 HP per second"
+            "Increases skill damage by (4 + INT / 1250)% for 30 seconds",
+            "Regenerates INT X 0.10 HP per second"
         ]
     },
     {
@@ -710,10 +710,7 @@
             "Consumes 500 MP per second",
             "Armor increased by 400 & max HP and magic defense increased by 25%",
             "Changes skills partially",
-            "After 5 seconds, consumed MP increases by 50% and skill damage increases by 2% every second",
-            "After 15 seconds, skill damage is decreased by 10%",
-            "Transfomation time: 1 second",
-            "Does not end if Soul Grimoire is channeling"
+            "After 5 seconds, consumed MP increases by 50% and skill damage increases by 1.5% every second"
         ]
     },
     {
@@ -4071,7 +4068,8 @@
         ],
         "active": [
             "Increases movement speed and ignores collision for 1 seconds",
-            "Increases restored amounts by 200% while walking"
+            "Increases restored amounts by 200% while walking",
+            "While in effect, deals 100% bonus damage"
         ]
     },
     {
@@ -4085,7 +4083,7 @@
             "Regenerates HP by Main Stat X 0.5 per second",
             "Regenerates resource point by 5% per second",
             "Grants 15% skill damage to allies in the orb",
-            "Lasts 2~6 seconds based on duration travelled"
+            "Lasts 4~8 seconds based on duration travelled"
         ]
     },
     {

@@ -1,5 +1,82 @@
 [
     {
+        "name": "31f",
+        "notes": [
+            "Released on: January 17th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Yeti - Fixed teeth not stacking more than 5 times"
+        ],
+        "items": [
+            {
+                "name": "Wings of Phoenix",
+                "changes": [
+                    "Martial Artist spec - Now limited to 3 respawns per Nameless Arts (F) cast"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Skeleton King Desperia",
+                "changes": [
+                    "Stomp",
+                    [
+                        "Damage resistance gain: 50% → 66.66%",
+                        "Delay: 2.5 seconds → 2 seconds"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Flowing Fist (Q)",
+                    [
+                        "Empower applies when casting from melee range → Empower applies when casting from melee range or under effect of Wind Walk (E)"
+                    ],
+                    "Restoration (W)",
+                    [
+                        "Unit / ground point targetting → Unit targetting"
+                    ],
+                    "Orb of Harmony (R)",
+                    [
+                        "Duration: 2 - 6 seconds → 4 - 8 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Frozen Emotion (W)",
+                    [
+                        "Unit / ground point targetting → Unit targetting"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Demonic Fury (T)",
+                    [
+                        "Skill damage gain per second: 2% → 1.5%"
+                    ]
+                ]
+            },
+            {
+                "name": "Soul Weaver",
+                "changes": [
+                    "Soul Materia (W)",
+                    [
+                        "Skill damage increase: (5 + INT / 1000)% → (4 + INT / 1250)%",
+                        "HP regen increase: INT X 0.15 → INT X 0.10"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "31e",
         "notes": [
             "Released on: January 11th, 2020",
@@ -3508,7 +3585,7 @@
                     "Demonic Fury (T)",
                     [
                         "No longer exits transformed form if Soul Grimoire (R) is channeling",
-                        "Removed additional 10% skill damage increase after 15 seconds of duration",
+                        "Removed additional 10% skill damage decrease after 15 seconds of duration",
                         "Added new spell when active - Soul Offering (T): Reduces empower cycle 1 second to 0.25 seconds"
                     ]
                 ]
