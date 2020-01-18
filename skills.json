@@ -1113,8 +1113,8 @@
         "icon": "ShooterF",
         "active": [
             "\"Justice rains from the sky!\" - Shooter",
-            "Each bullet deals Attack Damage X 6 damage",
-            "Main Stat X 30 bonus damage",
+            "Each bullet deals Attack Damage X 8 magic damage",
+            "Main Stat X 40 bonus damage",
             "A total of 15 bullets are fired",
             "Binds target's actions for 2 seconds"
         ]
