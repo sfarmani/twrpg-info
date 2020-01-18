@@ -1052,9 +1052,8 @@
     "stats": {
       "active": [
         "Summons a field boss",
-        "Red Powder x12 required",
-        "Brave adventurers may use it without powder",
-        "(Very powerful)"
+        "May be used without powder",
+        "However if used together with 8 Red Powder, it summons a powerful boss"
       ]
     }
   },
