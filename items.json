@@ -16623,7 +16623,7 @@
       "hp": 5000,
       "passive": [
         "Upon moving 400 distance, activates Bloody Bite on next attack.",
-        "On each proc, deal Attack Damage X 75% pure damage, heal Max HP X 8%, and for 2.5 seconds gain ATK +1500, MS +15, and HP Recovery Rate +250 (can overlap up to 5 times)"
+        "On each proc, deal Attack Damage X 75% pure damage, heal Max HP X 8%, and for 4 seconds gain ATK +1500, MS +15, and HP Recovery Rate +250 (can overlap up to 5 times)"
       ]
     }
   },
