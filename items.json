@@ -15627,10 +15627,11 @@
       "intelligence": 580,
       "dtpercent": -0.09,
       "passive": [
-        "Reduces damage received of nearby allies 6% and healing received by 12%"
+        "Increases nearby allies' damage reduction by 6%, healing received by 12%"
       ],
       "active": [
-        "'Rune Field' Heal allies for 6000 and yourself for 12000 health every 1.5 seconds in 500 AoE for 7.5 seconds. (60 second CD)"
+        "On use, activates Rune Field, placing a 500 radius field around the user that restores 10% max HP per 0.5 seconds of all allies on the field for 5 seconds",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty",
