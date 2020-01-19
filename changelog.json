@@ -6422,26 +6422,31 @@
                         "Vest of Cyclone",
                         [
                             "Vest of Guardian + Spirit of Forest + Spirit of Nightmare + Ancient Fragment of Ruins"
-                        ],
-                        "Vest of Storm",
-                        [
-                            "Vest of Cyclone + Ring of the Storm + Antimatter + Essence of Light"
-                        ],
-                        "Ring of Revival",
-                        [
-                            "Trueblood Ring + Volcanic Heart + Shroud of Perseverance + Purified Water + Potion of Corruption"
-                        ],
-                        "Nebula Rose",
-                        [
-                            "Eternal Rose + Ring of the Storm + Aegis of Storm + Essence of Light + Fragment of Chaos"
-                        ],
-                        "Protection of the Fairies",
-                        [
-                            "Embrace of Nature + Soul of the Dead + Essence of Flame + Essence of Storm + Proof of Purification + Fragment of Chaos"
                         ]
                     ]
                 ]
             },
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Vest of Storm",
+                    [
+                        "Vest of Cyclone + Ring of the Storm + Antimatter + Essence of Light"
+                    ],
+                    "Ring of Revival",
+                    [
+                        "Trueblood Ring + Volcanic Heart + Shroud of Perseverance + Purified Water + Potion of Corruption"
+                    ],
+                    "Nebula Rose",
+                    [
+                        "Eternal Rose + Ring of the Storm + Aegis of Storm + Essence of Light + Fragment of Chaos"
+                    ],
+                    "Protection of the Fairies",
+                    [
+                        "Embrace of Nature + Soul of the Dead + Essence of Flame + Essence of Storm + Proof of Purification + Fragment of Chaos"
+                    ]
+                ]
+            }
             {
                 "name": "Benziena, the Earthen Pillar",
                 "changes": [
