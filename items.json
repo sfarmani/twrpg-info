@@ -11639,7 +11639,7 @@
     "stats": {
       "damage": 33000,
       "strength": 2150,
-      "agility": 1000,
+      "agility": 1080,
       "skilldamagepercent": 0.12,
       "passive": [
         "(HIT COUNT X 0.2) + 8)% chance to activate Grace Tear on attack dealing ((MAIN STAT X 32.5) + (ATTACK DAMAGE X 7.5)) magic splash damage and stuns for 0.1 seconds"
@@ -14276,7 +14276,11 @@
       "agility": 460,
       "dtpercent": -0.12,
       "passive": [
-        "Activates Frostshard when HP drops below 40%, heal for 17.5% max HP, deals Str x40 Magic Damage to nearby enemies, increase Str by (240 + 10% bonus Str, only 10% bonus Str for Agi heroes) and DR by 7.5% for 12 seconds"
+        "Activates Frostshard when HP drops below 40%",
+        "Grants 10% STR, 7.5% damage reduction and restores 17.5% max HP per second for 12 seconds",
+        "Deals (STR X 40) magic damage around user in a 325 radius (damage is affected by water affinity)",
+        "Reduces movement and attack speed of affected enemies by 75% for 2 seconds",
+        "Cooldown: 8 seconds, cannot be dropped during cooldown"
       ]
     }
   },
