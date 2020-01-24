@@ -1,5 +1,46 @@
 [
     {
+        "name": "31g",
+        "notes": [
+            "Released on: January 22nd, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Winter's Heart - Fixed still providing 10% damage resistance instead of listed 8%",
+            "Embrace of Nature - Fixed not applying active effect properly to some summons",
+            "Martial Artist - Fixed Inner meditation (R) proc still increasing movespeed",
+            "Soul Weaver - Fixed Soul cradle (T) stun activating later than intended",
+            "Hermit - Fixed minimal duration of Orb of harmony (R) still being 3 seconds instead of listed 4 seconds",
+            "Elementalist - Fixed Seal of chaos (F) icon changing position when casted with New years costume enabled",
+            "Flight - Changed so that transformed units don't drop to ground if transformation wears off mid-flight",
+            "Loading - Fixed hero dissapearing if you select another hero mid-load"
+        ],
+        "heroes": [
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Restoration (W)",
+                    [
+                        "Can no longer be casted on enemies"
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Water Blast (D)",
+                    [
+                        "Frozen Emotion (W) shield recovery: 30% → 50%"
+                    ],
+                    "Frozen Emotion (W)",
+                    [
+                        "Can no longer be casted on enemies"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "31f",
         "notes": [
             "Released on: January 17th, 2020",

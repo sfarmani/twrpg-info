@@ -3474,7 +3474,7 @@
             "Creates a barrier that absorbs INT X 1 damage",
             "Increases skill damage by 12% (applied even when shield has depleted)",
             "Recharges 10% of shield every second",
-            "Recharges 30% of shield when hit with Water Blast"
+            "Recharges 50% of shield when hit with Water Blast"
         ],
         "active": [
             "Sends a frozen spirit to bestow a frozen barrier to the target.",
