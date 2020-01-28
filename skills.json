@@ -3388,12 +3388,11 @@
         "hotkey": "[R]",
         "icon": "ArcaneMageR",
         "active": [
-            "Leap across dimension while leaving a magical illusion behind.",
-            "Skill Level X 3000 explosion damage",
-            "Becomes invisible and obtains 40% damage reduction for 3 seconds",
+            "Dashes forward leaving a magical illusion behind.",
+            "Illusion explodes after 3 seconds, dealing INT X 40 magic damage",
+            "Becomes invisible and takes 40% reduced damage",
             "Can be cast twice in a row",
-            "Chain: Magic Star",
-            "Remove unit collision for 3 seconds after cast"
+            "Chain: Magic Star"
         ]
     },
     {
