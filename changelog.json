@@ -1,5 +1,23 @@
 [
     {
+        "name": "32a",
+        "notes": [
+            "Released on: January 28th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Elementals of Chaos near elemental tower no longer count as boss units"
+                ]
+            }
+        ],
+        "misc": [
+            "Added -convert *name* command (only usable in warcraft reforged to let players set nicknames without battletag; please use it for your own name only)"
+        ]
+    },
+    {
         "name": "31g",
         "notes": [
             "Released on: January 22nd, 2020",
