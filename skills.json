@@ -4038,7 +4038,7 @@
             "Attack Damage X 200% pure damage",
             "Grants increased attack speed for 1.5 seconds",
             "Deals Main Stat X 1 pure damage on each attack",
-            "If cast from melee range, deals 100% bonus damage and stuns for 0.5"
+            "If cast from melee range or while Wind Walk is active, deals 100% bonus damage and stuns for 0.5 seconds"
         ]
     },
     {
@@ -4067,8 +4067,7 @@
         ],
         "active": [
             "Increases movement speed and ignores collision for 1 seconds",
-            "Increases restored amounts by 200% while walking",
-            "While in effect, deals 100% bonus damage"
+            "Increases passive's restoration by 200%"
         ]
     },
     {
