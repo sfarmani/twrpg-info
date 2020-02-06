@@ -7970,12 +7970,6 @@
         "bugs": [
             "Fixed a bug where wallachia spectre and mad clown would ignore damage if paused"
         ],
-        "items": [
-            {
-                "name": "Item notes",
-                "changes": []
-            }
-        ],
         "monsters": [
             {
                 "name": "Mad Clown",
@@ -9816,12 +9810,6 @@
                 "changes": [
                     "Active CD 50 seconds → 60 seconds"
                 ]
-            }
-        ],
-        "monsters": [
-            {
-                "name": "Monster notes",
-                "changes": []
             }
         ],
         "heroes": [
