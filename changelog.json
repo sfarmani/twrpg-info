@@ -1,5 +1,74 @@
 [
     {
+        "name": "32b",
+        "notes": [
+            "Released on: February 9th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Commands - Fixed -convert command not working properly if another player loads before one that used -convert does",
+            "Characters - Fixed being able to choose a character more than once"
+        ],
+        "monsters": [
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "HP: 36,821,000 → 40,821,000"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Meteor Spear (T)",
+                    [
+                        "Damage: STR X 175 → STR X 200"
+                    ],
+                    "Dragon Slam (F)",
+                    [
+                        "Damage: STR X 725 → 825"
+                    ]
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Quick Draw (D)",
+                    [
+                        "Damage: 80% attack damage + AGI X 4 → 100% attack damage + AGI X 5"
+                    ],
+                    "Genocide Storm (F)",
+                    [
+                        "Final Slash damage: AGI X 475 → AGI X 575"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Nanomachine Injection (W)",
+                    [
+                        "Healing: 2% target max HP + INT X 0.3 → 2% target max HP + INT X 0.2"
+                    ]
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Flame Spirit (W)",
+                    [
+                        "Cooldown: 12 seconds → 10 seconds"
+                    ],
+                    "Flame Nova (E)",
+                    [
+                        "Cooldown: 15 seconds → 12 seconds"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "32a",
         "notes": [
             "Released on: January 28th, 2020",

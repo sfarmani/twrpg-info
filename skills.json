@@ -940,7 +940,8 @@
             "INT X 10 bonus damage",
             "Lasts 5 seconds",
             "On ally: Removes debuffs, absorbs INT X 2 damage",
-            "On ground: Stuns for 2 seconds, lasts 50% longer"
+            "On ground: Stuns for 2 seconds, lasts 50% longer",
+            "Cooldown: 10 seconds"
         ]
     },
     {
@@ -953,7 +954,8 @@
             "Create a fiery explosion by converting mana in the atmosphere into fire.",
             "Skill Level X 1500 damage",
             "INT X 100 bonus damage",
-            "Damage amplified by 50% each time it travels outward"
+            "Damage amplified by 50% each time it travels outward",
+            "Cooldown: 12 seconds"
         ]
     },
     {
@@ -1048,7 +1050,7 @@
         "passive": [
             "Heal allies using microscopic machines.",
             "Probes heal allies for 2% of their max HP per second",
-            "Additionally heals for INT X 0.3"
+            "Additionally heals for INT X 0.2"
         ],
         "active": [
             "Form protective barriers by driving nanomachines into a frenzy.",
@@ -1332,7 +1334,7 @@
         "passive": [
             "Focus ki into every action to perform powerful attacks.",
             "Attack hits all enemies within radius",
-            "On skill cast, empower next attack to deal (Attack Damage X 80% + AGI X 4) bonus damage",
+            "On skill cast, empower next attack to deal (Attack Damage X 100% + AGI X 5) bonus damage",
             "Can critically strike",
             "Base attack speed decreased"
         ]
@@ -1459,7 +1461,7 @@
         "active": [
             "\"I couldn't see anything. Only the corpses of my comrades were left at where he slashed through.\" - A Survivor of Empire War",
             "Each slash deals AGI X 25 damage",
-            "Final slash deals AGI X 475 damage",
+            "Final slash deals AGI X 575 damage",
             "A total of 20 slashes",
             "Cooldown: 120 seconds"
         ]
@@ -2232,7 +2234,7 @@
         "active": [
             "Focus ki into spear and launch it forward.",
             "Skill Level X 5000 damage",
-            "STR X 175 bonus damage",
+            "STR X 200 bonus damage",
             "Boosts all stats of allies hit by 10% for 30 seconds",
             "Explosion deals 150% damage to nearby enemies and stun for 2 seconds",
             "Cooldown: 30 seconds"
@@ -2246,7 +2248,7 @@
         "icon": "LancerF",
         "active": [
             "\"She disappeared the moment I saw her on the battlefield.. and then suddenly appeared at the center of the enemies' base, which formed a mountain of corpses.\" - Empire War Veteran",
-            "STR X 725 damage",
+            "STR X 825 damage",
             "Deals 75% bonus damage to enemies within 250 radius from target point",
             "Restores all ki",
             "Cooldown: 120 seconds"
