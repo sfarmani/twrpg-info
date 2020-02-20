@@ -1,5 +1,113 @@
 [
     {
+        "name": "32d",
+        "notes": [
+            "Released on: February 17, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "misc": [
+            "Fixed reward-related bugs"
+        ]
+    },
+    {
+        "name": "32c",
+        "notes": [
+            "Released on: February 17, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Knight - Blitz (W) Fixed having cooldown on max level"
+        ],
+        "monsters": [
+            {
+                "name": "Mad Clown",
+                "changes": [
+                    "MP required to resummon: 2 → 1"
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Protection of the Ocean",
+                    [
+                        "Magic defense increase 40% → 50%",
+                        "HP recovery per second: 1% → 0.5%",
+                        "Duration: 6 seconds → 5 seconds",
+                        "Now has CC immunity for duration"
+                    ],
+                    "Barrier",
+                    [
+                        "Shield amount: max HP X 20% → max HP X 25%",
+                        "Changed to activate Protection of the Ocean after the end"
+                    ],
+                    "Giant Viper damage: up to HP X 50% per second → max HP X 30%"
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Bubbles no longer dissapear if CC immunity effect is applied",
+                    "Baptism",
+                    [
+                        "Min HP trigger: 80% → 90%",
+                        "Changed to trigger immediately when not in frozen / stun / silence state",
+                        "Changed to be used at least 5 seconds apart from knockback",
+                        "Cooldown: 20 seconds → 25 - 30 seconds"
+                    ],
+                    "Knockback",
+                    [
+                        "Min HP trigger: 80% → 75%",
+                        "Changed to trigger immediately when not in frozen / stun / silence state",
+                        "Changed to be used at least 5 seconds apart from Baptism",
+                        "Cooldown: 30 seconds → 30 - 40 seconds"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Abyssal Slam (W)",
+                    [
+                        "Magic defense decrease: (5 + INT / 1000)% → (4 + INT / 1250)%"
+                    ]
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Pierce (Q)",
+                    [
+                        "Units struck with pierce debuff now appear slightly yellow to the user"
+                    ]
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Blood Bath (D)",
+                    [
+                        "Bleeding damage now only shows to user",
+                        "Bleeding damage and efects can now stack with other Berserker users"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Probe (D)",
+                    [
+                        "Reduced HP bar size to distinguish from heroes"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Memory stone now summons in starting village"
+        ]
+    },
+    {
         "name": "32b",
         "notes": [
             "Released on: February 9th, 2020",
