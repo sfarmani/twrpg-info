@@ -2876,6 +2876,7 @@
             "Heals for Max HP X 6% on each attack",
             "15% chance to leave bleeding on each attack",
             "Deals Attack Damage X 200% damage per second",
+            "Bleeding damage stacks with other Berserker players",
             "Duration: 5 seconds"
         ]
     },
@@ -3266,7 +3267,7 @@
             "(STR + INT) X 50 bonus damage",
             "Activates Deathblade",
             "If STR is main stat, deals pure damage and creates 4 souls",
-            "If INT is main stat, corrupts target area for 12 seconds, increasing magic damage taken by enemies (Type-D) for (5 + INT / 1000)%",
+            "If INT is main stat, corrupts target area for 12 seconds, increasing magic damage taken by enemies (Type-D) for (4 + INT / 1250)%",
             "Field lasts for 8 seconds"
         ]
     },

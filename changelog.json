@@ -86,7 +86,7 @@
             {
                 "name": "Berserker",
                 "changes": [
-                    "Blood Bath (D)",
+                    "Bloodbath (D)",
                     [
                         "Bleeding damage now only shows to user",
                         "Bleeding damage and efects can now stack with other Berserker users"

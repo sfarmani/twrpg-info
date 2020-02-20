@@ -614,7 +614,7 @@
         "id": "n038",
         "name": "Mad Clown",
         "limit": "2",
-        "manacost": "2",
+        "manacost": "1",
         "location": "In the Abandoned Graveyard",
         "conditions": "Level 270",
         "drops": [
