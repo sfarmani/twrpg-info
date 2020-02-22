@@ -11498,7 +11498,6 @@
       "damage": 29000,
       "strength": 1775,
       "agility": 1875,
-      "attackspeedpercent": 0.2,
       "passive": [
         "On skill cast, gain a stack and empower next attack with light (up to a max of 6 stacks)",
         "Non-empowered attacks have ~9% chance to deal ((15 + stacks X 4) X main stat) magic damage",

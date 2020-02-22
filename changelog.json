@@ -1,5 +1,72 @@
 [
     {
+        "name": "32e",
+        "notes": [
+            "Released on: February 21st, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Death fiend - Fixed not restricting players from entering wallachia cemetery when alive"
+        ],
+        "items": [
+            {
+                "name": "Oceanus, the Sword of Light",
+                "changes": [
+                    "Removed 20% attack speed"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Bead damage: 150,000 → 50,000 and slow effect removed",
+                    "Bubble size slightly reduced and made units in bubbles clickable"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Brandish (Q)",
+                    [
+                        "Cooldown: 8 seconds → 6 seconds"
+                    ],
+                    "Rabid Storm (F)",
+                    [
+                        "Final slash damage: STR X 475 → STR X 675"
+                    ]
+                ]
+            },
+            {
+                "name": "Knight",
+                "changes": [
+                    "Excalibur (F)",
+                    [
+                        "Changed from providing CC immunity to providing debuff immunity"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Emperor's Strikes (Q)",
+                    [
+                        "Damage: 900 + AGI X 30 → AGI X 30"
+                    ],
+                    "Heavenly Emperor's Strikes (T)",
+                    [
+                        "Damage: 15000 + AGI X 80 → 200% attack damage + AGI X 60"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Memory stone owner changed to first player on statusboard"
+        ]
+    },
+    {
         "name": "32d",
         "notes": [
             "Released on: February 17, 2020",

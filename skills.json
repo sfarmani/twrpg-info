@@ -2077,7 +2077,6 @@
         "icon": "MartialArtistPass",
         "passive": [
             "A martial art that strengthens the fist, passed down from the Shaolins of the orients.",
-            "15% chance to deal Skill Level X 300 damage on attack",
             "AGI X 30 bonus damage"
         ]
     },
@@ -2126,8 +2125,8 @@
         "icon": "MartialArtistPass",
         "passive": [
             "An improved version of Emperor's strikes that boasts fearsome power.",
-            "Chance to deal Skill Level X 5000 damage on attack",
-            "AGI X 80 bonus damage"
+            "Chance to deal 200% attack damage on attack",
+            "AGI X 60 bonus damage"
         ]
     },
     {
@@ -2889,7 +2888,8 @@
         "active": [
             "Slash nearby targets, knocking them back.",
             "Consumes HP X 10%",
-            "Attack Damage X 250% pure damage"
+            "Attack Damage X 250% pure damage",
+            "Cooldown: 6 seconds"
         ]
     },
     {
@@ -2970,7 +2970,7 @@
         "active": [
             "\"It is not a human but rather a monster! A monster crazed by battle! How could she move like that.. It sends shivers down my spines just to think about running into her as enemies in a war.\" - Survivor of Empire War",
             "Each slash deals STR X 20 damage",
-            "Final slam deals STR X 475 damage",
+            "Final slam deals STR X 675 damage",
             "Fully restores HP after cast",
             "Gain knockback immunity during cast",
             "Cooldown: 120 seconds"
@@ -3218,7 +3218,7 @@
             "STR X 500 damage",
             "For each second channeled, size increased & damage increased by 25%",
             "Can be channeled up to a maximum of 4 seconds",
-            "Grants 100% damage reduction and CC immunity to allies hit for 5 seconds",
+            "Grants 100% damage reduction and debuff immunity to allies hit for 5 seconds",
             "Cancels Release Mana",
             "Cooldown: 60 seconds"
         ]
