@@ -2077,7 +2077,7 @@
         "icon": "MartialArtistPass",
         "passive": [
             "A martial art that strengthens the fist, passed down from the Shaolins of the orients.",
-            "AGI X 30 bonus damage"
+            "15% chance to deal AGI X 30 damage on attack"
         ]
     },
     {
