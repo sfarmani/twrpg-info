@@ -2781,7 +2781,7 @@
       "damage": 6000,
       "intelligence": 810,
       "active": [
-        "On use, activates Mana Cannon dealing (75 X INT) magic damage in a linear path",
+        "On use, activates Mana Cannon dealing (INT X 75) magic damage in a linear path",
         "Cooldown: 60 seconds"
       ]
     },
@@ -3040,7 +3040,7 @@
       "damage": 7300,
       "intelligence": 900,
       "active": [
-        "On use, activates Earthen Rage in a 800 AoE radius dealing (45 X INT) magic damage"
+        "On use, activates Earthen Rage in a 800 AoE radius dealing (INT X 45) magic damage"
       ],
       "spec": [
         "Specialty",
@@ -3300,8 +3300,8 @@
       "damage": 9000,
       "strength": 850,
       "passive": [
-        "IF main stat is STR: ~10.9% Chance to activate Holy Strike on attack dealing (12 X STR) magic damage",
-        "IF main stat is AGI or INT: ~10.9% Chance to activate Holy Strike on attack dealing (12 X AGI) magic damage"
+        "IF main stat is STR: ~10.9% Chance to activate Holy Strike on attack dealing (STR X 12) magic damage",
+        "IF main stat is AGI or INT: ~10.9% Chance to activate Holy Strike on attack dealing (AGI X 12) magic damage"
       ]
     },
     "koreanname": "성검 카론프니엠"
@@ -3325,7 +3325,7 @@
       "damage": 8500,
       "intelligence": 1190,
       "active": [
-        "On use, activates Holy Explosion in a 750 AoE radius dealing (75 X INT) magic damage and stunning for 1 second"
+        "On use, activates Holy Explosion in a 750 AoE radius dealing (INT X 75) magic damage and stunning for 1 second"
       ]
     },
     "koreanname": "성봉 클레네티아"
@@ -3348,8 +3348,8 @@
       "damage": 11000,
       "agility": 740,
       "passive": [
-        "IF main stat is STR: ~10.9% Chance to activate Holy Bullet on attack dealing (12 X STR) magic damage",
-        "IF main stat is AGI or INT: ~10.9% Chance to activate Holy Bullet on attack dealing (12 X AGI) magic damage"
+        "IF main stat is STR: ~10.9% Chance to activate Holy Bullet on attack dealing (STR X 12) magic damage",
+        "IF main stat is AGI or INT: ~10.9% Chance to activate Holy Bullet on attack dealing (AGI X 12) magic damage"
       ]
     },
     "koreanname": "성포 이아나"
@@ -3581,7 +3581,7 @@
       "damage": 9500,
       "agility": 850,
       "passive": [
-        "~10.9% Chance to activate Dark Spike on attack dealing (12 X AGI) magic damage"
+        "~10.9% Chance to activate Dark Spike on attack dealing (AGI X 12) magic damage"
       ]
     },
     "koreanname": "마궁 알카테"
@@ -3803,7 +3803,7 @@
       "critmultiplier": 0.15,
       "passive": [
         "~13.9% Chance to activate Frost effect on attack",
-        "Deals (12 X MAIN STAT) magic damage and reduces enemy's movement speed by 20% for 3 seconds"
+        "Deals (main stat X 12) magic damage and reduces enemy's movement speed by 20% for 3 seconds"
       ]
     },
     "koreanname": "빙결의 창 오켈렌크"
@@ -3828,7 +3828,7 @@
       "affinityiwpercent": 0.05,
       "passive": [
         "~13.9% Chance to activate Frost effect on attack",
-        "Deals (12 X MAIN STAT) magic damage and reduces enemy's movement speed by 20% for 3 seconds"
+        "Deals (main stat X 12) magic damage and reduces enemy's movement speed by 20% for 3 seconds"
       ]
     },
     "koreanname": "빙결의 활 오켈렌크"
@@ -3939,7 +3939,7 @@
       "passive": [
         "Slows enemies on attack",
         "Every 8th attack unleashes Chilling Strike that ignores all resistance",
-        "Deals (1.8 X STR + 1.5 X AGI) pure damage",
+        "Deals (STR X 1.8 + AGI X 1.5) pure damage",
         "Damage is affected by ice/water affinity"
       ]
     },
@@ -3966,7 +3966,7 @@
       "agility": 1575,
       "skilldamagepercent": 0.025,
       "passive": [
-        "15% Chance to deal (7.5 ~ 10 X AGI) magic damage and slow for 0.75 seconds on attack"
+        "15% Chance to deal (AGI X 7.5 ~ 10) magic damage and slow for 0.75 seconds on attack"
       ],
       "spec": [
         "Specialty",
@@ -4023,7 +4023,7 @@
       "affinityiwpercent": 0.03,
       "passive": [
         "On use, activates Frozen Shard, launching a ball of frost to targeted location",
-        "In 275 AoE radius, deals (60 X INT) magic damage and freezes enemies in 425 AoE radius for 2 seconds",
+        "In 275 AoE radius, deals (INT X 60) magic damage and freezes enemies in 425 AoE radius for 2 seconds",
         "Damage is affected by ice/water affinity"
       ],
       "spec": [
@@ -5356,7 +5356,7 @@
         "Converts 0.035% of damage dealt into INT for a max of 600 INT (can be released)"
       ],
       "active": [
-        "On use, can release stored INT that deals ((0.5 + ( stored INT - 300 ) / 600) X 90 X INT) magic damage to enemies in a 450 radius around user",
+        "On use, can release stored INT that deals ((0.5 + ( stored INT - 300 ) / 600) X INT X 90) magic damage to enemies in a 450 radius around user",
         "Stuns for 1.5 seconds",
         "At least 300 stored INT required to use",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
@@ -5613,7 +5613,7 @@
   {
     "id": "I0CR",
     "name": "Tunic of Subtlety",
-    "description": "사용자의 의지와 무관하게 공격을 흘려보낸다.",
+    "description": "Negates attacks aimed at the user.",
     "dropped_by": [
       "Turtle Lord"
     ],
@@ -5660,7 +5660,7 @@
       "mp": 4000,
       "skilldamagepercent": 0.05,
       "active": [
-        "On use, restores (current MP + (max MP X 20%)) MP",
+        "On use, restores 20% MP",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
     },
@@ -5686,7 +5686,7 @@
       "strength": 390,
       "dtpercent": -0.08,
       "passive": [
-        "12.5% Chance to restore (max HP X 2.5%) HP on being hit"
+        "12.5% Chance to restore 2.5% HP on being hit"
       ],
       "active": [
         "On use, increases max HP by 20000 and MP by 7500 for 15 seconds",
@@ -5722,6 +5722,7 @@
       ],
       "active": [
         "On use, consumes HP to activate Blessing",
+        "Creates a shield for all allies within 400 radius",
         "Cooldown: 60 seconds"
       ]
     },
@@ -5932,7 +5933,7 @@
       "intelligence": 920,
       "skilldamagepercent": 0.05,
       "active": [
-        "On use, activates Death Pact granting the user 850 INT for 11 seconds at the cost of max HP X 40%",
+        "On use, activates Death Pact granting the user 850 INT for 11 seconds at the cost of 40% HP",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     },
@@ -6196,10 +6197,10 @@
       "mdpercent": 0.12,
       "active": [
         "On use, activate Parasite:",
-        "If target is an enemy: deals INT X 5 magic damage per tick for 5 seconds",
+        "If target is an enemy: deals (INT X 5) magic damage per tick for 5 seconds",
         "If target is an ally: grants target with +40% Magic Defense and heals for INT X 1 per tick for 5 seconds",
         "If target is self: grants target with +40% Magic Defense and heals for INT X 50% per tick for 5 seconds",
-        "Upon expiration, will explode dealing INT X 40 splash damage",
+        "Upon expiration, will explode dealing (INT X 40) splash damage",
         "Cooldown: 25 seconds, cannot be dropped during cooldown"
       ]
     },
@@ -6228,7 +6229,8 @@
       "hp": 5000,
       "revivaltimepercent": -0.4,
       "passive": [
-        "Activates Hands of Fallen on death explodes dealing main stat X 275 magic damage to enemies nearby",
+        "Activates Hands of Fallen on death",
+        "Explodes dealing (main stat X 275) magic damage to enemies nearby",
         "Scales with user's stats"
       ]
     },
@@ -6257,8 +6259,8 @@
       "hp": 5000,
       "dtpercent": -0.12,
       "passive": [
-        "8% Chance to activate Perseverance on attack:",
-        "Grants user with +50% Movement and Attack Speed, +100 main stat per tick for 10 seconds, and a (max HP X 40%) heal",
+        "8% Chance to activate Perseverance on attack",
+        "Grants user with +50% Movement and Attack Speed, +100 main stat per tick for 10 seconds, and a 40% heal",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     },
@@ -6425,7 +6427,7 @@
       "active": [
         "On use, temporarily increases nearby allies' max HP",
         "If self or summon: grants +6000 HP and +5% skill damage for 45 seconds",
-        "If ally is a hero: grans +3000 HP for 45 seconds",
+        "If ally is a hero: grants +3000 HP for 45 seconds",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     },
@@ -6639,7 +6641,7 @@
       "agility": 1900,
       "skilldamagepercent": 0.05,
       "passive": [
-        "Resonates with nearby allies to become stronger:",
+        "Resonates with nearby allies to become stronger",
         "For each ally nearby, the user gains +1750 attack damage and +1% skill damage"
       ]
     },
@@ -6982,13 +6984,13 @@
       "skilldamagepercent": 0.075,
       "mdpercent": 0.075,
       "passive": [
-        "Activates Power of Skies on casting skill dealing main stat X 1 pure damage, increase the user's movement speed by 5%, and main stat by 275 for 4 seconds",
+        "Activates Power of Skies on casting skill dealing (main stat X 1) pure damage, increase the user's movement speed by 5%, and main stat by 275 for 4 seconds",
         "Cooldown: 16 seconds"
       ],
       "active": [
-        "On use, activates Star of Creation:",
-        "Deals main stat X 15 magic damage to all enemies in targetted area and stuns for 2 seconds",
-        "Upon expiration, will explode dealing main stat X 115 magic damage and reduce enemy armor by 250",
+        "On use, activates Star of Creation",
+        "Deals (main stat X 15) magic damage to all enemies in targetted area and stuns for 2 seconds",
+        "Upon expiration, will explode dealing (main stat X 115) magic damage and reduce enemy armor by 250",
         "Cooldown: 150 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -7026,7 +7028,7 @@
       "attackspeedpercent": 0.25,
       "passive": [
         "When attacking an enemy under 50% HP, increases damage output by 15% for 5 seconds",
-        "Empowers next attack for main stat X 125 magic damage every 12 seconds",
+        "Empowers next attack for (main stat X 125) magic damage every 12 seconds",
         "Cannot be dropped during cooldown"
       ]
     },
@@ -7052,8 +7054,8 @@
       "hp": 5000,
       "healreceivedpercent": -0.15,
       "passive": [
-        "Releases Grudge every 6 seconds:",
-        "Spikes protrude outwards from user in a 275 AoE dealing attack damage X 7.5",
+        "Releases Grudge every 6 seconds",
+        "Spikes protrude outwards from user in a 275 AoE dealing (attack damage X 7.5) magic damage",
         "Also increases attack damage by 20000 for 1.5 seconds"
       ]
     },
@@ -7079,7 +7081,7 @@
       "skilldamagepercent": 0.05,
       "mdpercent": 0.15,
       "active": [
-        "On use, activates Death Gaze dealing MAIN STAT X 250 magic damage and increasing magic damage taken by enemies (Type-A) by 8% for 4 seconds",
+        "On use, activates Death Gaze dealing (main stat X 250) magic damage and increasing magic damage taken by enemies (Type-A) by 8% for 4 seconds",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     },
@@ -7199,7 +7201,7 @@
       "active": [
         "On use, activates Shackles of Heaven:",
         "Latches onto all enemies in targetted area dragging them for 5 seconds",
-        "Deals main stat X 25 for every 200 distance traveled",
+        "Deals (main stat X 25) for every 200 distance traveled",
         "Reduces damage output of shackled enemies by 50%",
         "Note: Shackles can be released if target is knockback immune or distance between user and target reaches 1500 or more range",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
@@ -7667,7 +7669,7 @@
     ],
     "stats": {
       "active": [
-        "Deals max HP X 20% pure damage to the target and stuns for 1 second",
+        "Deals (max HP X 20%) pure damage to the target and stuns for 1 second",
         "Works only if user level is greater than or equal to target's level",
         "Cooldown: 180 seconds"
       ]
@@ -8718,7 +8720,7 @@
       "damage": 1360,
       "intelligence": 360,
       "passive": [
-        "Increased Mana Regeneration"
+        "Increased MP regen"
       ]
     }
   },
@@ -8867,7 +8869,7 @@
       "damage": 1730,
       "intelligence": 445,
       "passive": [
-        "Increased Mana Regeneration"
+        "Increased MP regen"
       ]
     }
   },
@@ -9150,7 +9152,8 @@
       "intelligence": 1330,
       "skilldamagepercent": 0.05,
       "active": [
-        "On use, activates True Mana Cannon: shoots out a blast mana in a straight line dealing INT X 100 magic damage",
+        "On use, activates True Mana Cannon",
+        "Shoots out a blast mana in a straight line dealing (INT X 100) magic damage",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -11164,7 +11167,7 @@
       "skilldamagepercent": 0.075,
       "passive": [
         "~20.8% Chance to activate Fervor on casting skill gaining one stack",
-        "Increases attack damage by 2500 per stack and deals (((1 + stack X 20%) X attack damage) + (STR X 10)) magic damage",
+        "Increases attack damage by 2500 per stack and deals (attack damage X (1 + stack X 20%) + (STR X 10)) magic damage",
         "Damage is affected by flame affinity",
         "Stacks expire after 7.5 seconds of not casting a skill"
       ],
@@ -11500,7 +11503,7 @@
       "agility": 1875,
       "passive": [
         "On skill cast, gain a stack and empower next attack with light (up to a max of 6 stacks)",
-        "Non-empowered attacks have ~9% chance to deal ((15 + stacks X 4) X main stat) magic damage",
+        "Non-empowered attacks have ~9% chance to deal (main stat X (15 + stacks X 4)) magic damage",
         "Empowered attacks deal (2.5 X main stat + 15000) pure damage and has a ~30.7% chance to crit for 2.5x the normal amount",
         "Empowered attacks also heal user for 3% of damage dealt (affected by crit damage)"
       ],
@@ -12402,9 +12405,9 @@
       "periodicdamagepercent": 0.1,
       "active": [
         "Infects target and nearby units for 8 seconds. (20 second CD)",
-        "  ↳ If target is ally: Gain 40% Magic Resistance and restore 1 X INT HP per second",
-        "  ↳ If target is enemy: Lose 10% healing taken and take 5 X INT damage per second",
-        "  ↳ After buff/debuff ends, target explodes dealing 40 X INT damage to nearby enemies"
+        "  ↳ If target is ally: Gain 40% Magic Resistance and restore (INT X 1) HP per second",
+        "  ↳ If target is enemy: Lose 10% healing taken and take (INT X 5) damage per second",
+        "  ↳ After buff/debuff ends, target explodes dealing (INT X 40) damage to nearby enemies"
       ]
     }
   },
@@ -13460,7 +13463,7 @@
       "armor": 380,
       "strength": 450,
       "passive": [
-        "10% chance to reflect 5 X STR Pure Damage and 90% chance to return 0.5 X STR Pure Damage",
+        "10% chance to reflect (STR X 5) Pure Damage and 90% chance to return (STR X 0.5) Pure Damage",
         "Improved HP regen"
       ]
     }
@@ -17822,7 +17825,7 @@
         "20% chance to attack enemies surrounding target once more and restore 2500 hp"
       ],
       "active": [
-        "Pulls nearby enemies in 300~800 range around you, deals (40 X Attack Damage) damage to them and stuns for 2 seconds (60s cd)"
+        "Pulls nearby enemies in 300~800 range around you, deals (attack damage X 40) damage to them and stuns for 2 seconds (60s cd)"
       ]
     }
   },
