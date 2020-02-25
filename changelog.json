@@ -1,5 +1,123 @@
 [
     {
+        "name": "32f",
+        "notes": [
+            "Released on: February 24th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Witch - Fixed being able to go past 100 fatigue",
+            "Heart of Volcano - Fixed stacks for active not dissapearing when unequipped"
+        ],
+        "items": [
+            {
+                "name": "Staff of Souls",
+                "changes": [
+                    "Active - Magic damage taken increase: 6% → 4%"
+                ]
+            },
+            {
+                "name": "Hell Riser",
+                "changes": [
+                    "Attack damage: 28000 → 24000",
+                    "Active - Magic damage taken increase: 8% → 6%"
+                ]
+            },
+            {
+                "name": "The Ender",
+                "changes": [
+                    "Attack damage: 35000 → 33000",
+                    "Main stat: 2810 → 2710"
+                ]
+            },
+            {
+                "name": "Azathos, the Pipe of Chaos",
+                "changes": [
+                    "Attack damage aura: 6666 → 4000"
+                ]
+            },
+            {
+                "name": "Ring of Fervor",
+                "changes": [
+                    "Passive - Damage output increase: 7.5% → 5%"
+                ]
+            },
+            {
+                "name": "Horn of God",
+                "changes": [
+                    "Attack damage increase: INT X 1 (8888 max) → INT X 0.6 (6000 max)"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Count Wallachia",
+                "changes": [
+                    "Removed dodge chance"
+                ]
+            },
+            {
+                "name": "Death Fiend - Death Weaver",
+                "changes": [
+                    "Claw damage: 2500 ~ 12500 → 3000 ~ 12000"
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Splash attack damage: 12500 → 20000",
+                    "Splash range: 275 → 325",
+                    "Bead damage: 50000 → 60000 and slow effect re-added for 2nd phase",
+                    "Phase 1 now triggers even if boss is paused",
+                    "Vipers on longer die when phase 2 starts (but won't use beams during it)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Excalibur (F)",
+                    [
+                        "Provides debuff immunity → provides debuff / silence immunity"
+                    ]
+                ]
+            },
+            {
+                "name": "Sniper",
+                "changes": [
+                    "Explosive Shot (R)",
+                    [
+                        "Cooldown reset effects now restore all stacks"
+                    ]
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Rose Dance (W)",
+                    [
+                        "Damage: 700% max HP → 1000% max HP"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Mystical Cauldron (E)",
+                    [
+                        "Potion main stat increase: 10% → 7.5%"
+                    ],
+                    "Death Field (F)",
+                    [
+                        "Damage per second: INT X 75 → INT X 100",
+                        "Magic damage taken increase: 12% → 10%"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "32e",
         "notes": [
             "Released on: February 21st, 2020",

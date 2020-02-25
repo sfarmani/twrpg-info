@@ -5907,7 +5907,7 @@
       "mp": 7500,
       "skilldamagepercent": 0.05,
       "active": [
-        "On use, activates Dark Howl dealing (INT X 19.75) magic damage and stacks magic damage taken of target by 1.5% per wave",
+        "On use, activates Dark Howl dealing (INT X 19.75) magic damage and stacks magic damage taken of target by 1% per wave for 4 waves",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     },
@@ -7023,8 +7023,8 @@
     "level": 380,
     "droprate": 0.002,
     "stats": {
-      "damage": 35000,
-      "mainstat": 2810,
+      "damage": 33000,
+      "mainstat": 2710,
       "attackspeedpercent": 0.25,
       "passive": [
         "When attacking an enemy under 50% HP, increases damage output by 15% for 5 seconds",
@@ -11995,14 +11995,14 @@
       }
     ],
     "stats": {
-      "damage": 28000,
+      "damage": 24000,
       "intelligence": 2325,
       "skilldamagepercent": 0.08,
       "passive": [
         "'Source of Death' On skill cast gives 375 Int and 10,000 Damage for 4 seconds (12 second CD)"
       ],
       "active": [
-        "'Song of Despair' Do 15x Attack Damage + 75x Int damage and lowers Magic Resistance of enemies by 8% for 8 seconds in an AoE"
+        "'Song of Despair' Do 15x Attack Damage + 75x Int damage and lowers Magic Resistance of enemies by 6% for 8 seconds in an AoE"
       ]
     }
   },
@@ -15342,7 +15342,7 @@
       "hp": 8500,
       "skilldamagepercent": 0.04,
       "passive": [
-        "Increase nearby allies' movement and attack speed, damage and HP regen"
+        "Increase nearby allies' attack speed by 20%, damage by 4000, and HP regen by 200"
       ]
     }
   },
@@ -15853,7 +15853,7 @@
       "hp": 10000,
       "skilldamagepercent": 0.06,
       "passive": [
-        "Empowers nearby allies within 750 AoE radius, increasing their attack damage by INT X 1 (up to a max of 8888), their attack speed by 25%, and HP regen by 400"
+        "Empowers nearby allies within 750 AoE radius, increasing their attack damage by INT X 0.6 (up to a max of 6000), their attack speed by 25%, and HP regen by 400"
       ],
       "active": [
         "On use, activates Purification on targeted ally, granting them the following effects for 3 seconds:",
@@ -17700,7 +17700,7 @@
       "allstat": 960,
       "hpregen": 400,
       "passive": [
-        "Casting single-target spells on ally increases target's damage by 7.5% for 12 seconds"
+        "Casting single-target spells on ally increases target's damage by 5% for 12 seconds"
       ],
       "active": [
         "Restores 40% HP of allies affected by passive (30 second cooldown)"

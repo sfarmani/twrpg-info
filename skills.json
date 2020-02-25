@@ -78,7 +78,8 @@
             "Chain: Attack - Increases damage by 100%",
             "Chain: Skill - Increases stun duration by 200%",
             "Chain: Glide - Decreases damage by 75% and adds splash effect",
-            "No casting delay"
+            "No casting delay",
+            "Stacks restored when cooldown is reset (from item effects)"
         ]
     },
     {
@@ -827,7 +828,7 @@
         "active": [
             "Swiftly move by transforming into bats.",
             "Consumes Max HP X 25%",
-            "Max HP X 700% damage",
+            "Max HP X 1000% damage",
             "Invulnerable while travelling"
         ]
     },
@@ -3218,7 +3219,7 @@
             "STR X 500 damage",
             "For each second channeled, size increased & damage increased by 25%",
             "Can be channeled up to a maximum of 4 seconds",
-            "Grants 100% damage reduction and debuff immunity to allies hit for 5 seconds",
+            "Grants debuff and silence immunity to allies hit for 5 seconds",
             "Cancels Release Mana",
             "Cooldown: 60 seconds"
         ]
@@ -4184,7 +4185,7 @@
             "Summons a cauldron filled with magical items.",
             "Creates a potion every 1.5 seconds for 18 seconds",
             "Potion lasts for 30 seconds and heals for INT X 3",
-            "Increases one of target's stats by 10% for 60 seconds",
+            "Increases one of target's stats by 7.5% for 60 seconds",
             "Cannot provide the same stat increase twice in a row"
         ]
     },
@@ -4271,8 +4272,8 @@
         "icon": "WitchF",
         "active": [
             "\"Get away from here. I will be using this zone as my lab..\" - Witch",
-            "Deals INT X 75 magic damage per second",
-            "Increases magic damage taken (Type-D) by 12%",
+            "Deals INT X 100 magic damage per second",
+            "Increases magic damage taken (Type-D) by 10%",
             "Lasts 8 seconds",
             "Cooldown: 120 seconds"
         ]
