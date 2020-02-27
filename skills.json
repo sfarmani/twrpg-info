@@ -3199,7 +3199,7 @@
             "Inscribe seal of mana onto enemies to amplify magic taken.",
             "On landing hit with a skill, applies Seal of Mana (up to 6 stacks)",
             "On landing hit with another skill of Knight, consumes all stacks of Seal of Mana",
-            "For each stack consumed, deals 15% bonus damage and restores max MP X 2% (max MP X 4% for boss)"
+            "For each stack consumed, deals 20% bonus damage and restores max MP X 2% (max MP X 4% for boss)"
         ],
         "active": [
             "Inscribe seal of mana onto the ground to protect allies from damage.",

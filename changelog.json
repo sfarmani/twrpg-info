@@ -1,5 +1,36 @@
 [
     {
+        "name": "32g",
+        "notes": [
+            "Released on: February 26th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fixed various bugs"
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Instincts (E) - Assualt (E)",
+                    [
+                        "Attack speed increased"
+                    ],
+                    "Seal of Mana (T)",
+                    [
+                        "For each stack consumed, deals 15% bonus damage → For each stack consumed, deals 20% bonus damage"
+                    ]
+                ]
+            },
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "Slight decrease in cast delay"
+                ]
+            }
+        ]
+    },
+    {
         "name": "32f",
         "notes": [
             "Released on: February 24th, 2020",
