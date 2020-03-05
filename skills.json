@@ -940,7 +940,7 @@
             "Skill Level X 250 periodic damage",
             "INT X 10 bonus damage",
             "Lasts 5 seconds",
-            "On ally: Removes debuffs, absorbs INT X 2 damage",
+            "On ally: Removes debuffs",
             "On ground: Stuns for 2 seconds, lasts 50% longer",
             "Cooldown: 10 seconds"
         ]
