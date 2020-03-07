@@ -695,8 +695,8 @@
             "Unleash the grimoire and let your magic run wild.",
             "Consume Max MP X 25% per second",
             "Focus attacks of Dimension Collapse onto targeted area",
-            "Orbs have 500% increased attack speed for channeled duration",
-            "Duration: 4 seconds",
+            "Orbs have 400% increased attack speed for channeled duration",
+            "Duration: 5 seconds",
             "Channeling does not end when MP depleted if in Demonic Fury transformation"
         ]
     },
@@ -799,7 +799,7 @@
             "Manipulate blood through black magic.",
             "Increases max HP by INT X 4",
             "Periodically charges blood gauge",
-            "On next attack, consumes blood gauge to deal Max HP X 35% damage and heal for Max HP X 5%"
+            "On next attack, consumes blood gauge to deal Max HP X 40% damage and heal for Max HP X 5%"
         ]
     },
     {
@@ -866,7 +866,7 @@
             "Rally allies by stimulating their blood.",
             "Increases attack damage and HP by 20% for (6 + INT X 0.0003) seconds",
             "50% chance to refill 1 blood gauge on attack",
-            "Rose Dance's cast time is removed and cooldown is reduced to 0.5 seconds while active",
+            "Rose Dance's cast time is removed, next 3 casts will not consume HP, and cooldown is reduced to 0.5 seconds while active",
             "Cooldown: 15 seconds"
         ]
     },
@@ -878,7 +878,7 @@
         "icon": "BloodWeaverT",
         "active": [
             "Purify enemies with a ritual of blood.",
-            "Max HP X 3500% damage",
+            "Max HP X 4000% damage",
             "Pulls in enemies that are far away into 375 range of Blood Weaver",
             "Cooldown: 30 seconds"
         ]
@@ -2445,7 +2445,8 @@
             "AGI X 50 magic damage",
             "Summons 4 additional shadows to attack",
             "Empowers next Shadow Slash or Ambush",
-            "Duration: 8 seconds"
+            "Duration: 8 seconds",
+            "Cooldown: 30 seconds"
         ]
     },
     {

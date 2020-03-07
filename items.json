@@ -6954,6 +6954,7 @@
       "Grandine, the Plates of Wraith",
       "Cold Ring of Death",
       "Grimoire of Darkness",
+      "Ring of Time",
       "Archangel Icon"
     ],
     "recipe": [
@@ -11204,7 +11205,7 @@
       }
     ],
     "stats": {
-      "damage": 22500,
+      "damage": 24000,
       "strength": 1200,
       "intelligence": 2400,
       "skilldamagepercent": 0.12,
@@ -11995,7 +11996,7 @@
       }
     ],
     "stats": {
-      "damage": 24000,
+      "damage": 26000,
       "intelligence": 2325,
       "skilldamagepercent": 0.08,
       "passive": [
@@ -15538,7 +15539,8 @@
         "Ancient Hourglass": 1
       },
       {
-        "Steel of God": 1
+        "Steel of God": 1,
+        "God's Page": 1
       },
       {
         "Orb of Oblivion": 1

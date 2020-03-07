@@ -1,5 +1,109 @@
 [
     {
+        "name": "32m",
+        "notes": [
+            "Released on: March 5th",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Elementalist - Seal of earth (R) - Earthen Protection (Passive) now provides intended 30% damage resistance instead of bugged 20%"
+        ],
+        "items": [
+            {
+                "name": "Ethenos, the Staff of Space",
+                "changes": [
+                    "Attack damage: 22500 → 24000"
+                ]
+            },
+            {
+                "name": "Hell Riser",
+                "changes": [
+                    "Attack damage: 24000 → 26000"
+                ]
+            },
+            {
+                "name": "Ring of Time",
+                "changes": [
+                    "Recipe: Steel of God → Steel of God / God's Page (Steel of God will be removed from recipe in the future)"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Demon Lord Beriel",
+                "changes": [
+                    "Splash damage changed to be affected by armor of secondary targets instead of armor of main target (to prevent summons with 0 armor from dealing too much damage to nearby heroes through it)"
+                ]
+            },
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "Flame Spirits changed to be able to target invisible heroes if there's no other valid target"
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Vipers now activate 2 seconds after phase 1/2 ends",
+                    "Added 1 second stun to beads"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Howling (W)",
+                    [
+                        "Area of effect changed from 1~500 based on consumed HP → 400"
+                    ]
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Shadow Rush (T)",
+                    [
+                        "Cooldown: 25 seconds → 30 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Mastery (D)",
+                    [
+                        "Damage: 35% max HP → 40% max HP"
+                    ],
+                    "Rose Dance (W)",
+                    [
+                        "Cast time reduced"
+                    ],
+                    "Blood Boil (R)",
+                    [
+                        "now makes next 3 Rose Dance (W) casts not consume HP after use"
+                    ],
+                    "Crimson Pillar (T)",
+                    [
+                        "Damage: 3500% max HP → 4000% max HP"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Soul Grimoire (R)",
+                    [
+                        "4 second duration with 500% increased attack speed → 5 second duration with 400% increased attack speed"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "New hero and content are being worked on, will likely be released in April"
+        ]
+    },
+    {
         "name": "32g",
         "notes": [
             "Released on: February 26th, 2020",
