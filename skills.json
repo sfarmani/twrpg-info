@@ -91,7 +91,7 @@
         "passive": [
             "Captures enemies' weak points precisely from a far range.",
             "Enhanced vision",
-            "Deals 40% bonus damage to enemies that are more than 800 distance away"
+            "Deals up to 40% bonus damage based on distance from target (up to 800 distance)"
         ],
         "active": [
             "Finishes off an enemy from a far range.",

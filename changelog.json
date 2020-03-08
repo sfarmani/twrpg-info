@@ -1,8 +1,74 @@
 [
     {
+        "name": "32p",
+        "notes": [
+            "Released on: March 8th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Blood weaver - Fixed not being able to cast Rose dance (W) when it would not consume hp",
+            "Items - Fixed item binding by area not working sometimes",
+            "Rifle of deadly poison - Fixed description being outdated"
+        ],
+        "monsters": [
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Waves changed to only knockback hero units"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Sniper",
+                "changes": [
+                    "Snipe (T)",
+                    [
+                        "Passive - Increases damage done to enemies in 800 or farther range by 40% → Increases damage done to enemies based on distance between hero and enemy (up to 40% at 800 distance or farther distance; bonus damage text will only appear at max bonus)"
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Spell delay reduced",
+                    "Tidal Riding (E)",
+                    [
+                        "Cooldown: 12 seconds → 8 seconds",
+                    ],
+                    "Glacier Orb (T)",
+                    [
+                        "Cooldown: 40 seconds → 30 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Discharge (E)",
+                    [
+                        "Now automatically toggles off when Lightning Mage is stunned / silenced during it"
+                    ]
+                ]
+            },
+            {
+                "name": "Soul Weaver",
+                "changes": [
+                    "Soul Tranfer (E)",
+                    [
+                        "Removed screen flash visual effects"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Changed unit order when selecting a group of units to be \"Spell Summon\" → \"Item Summon\" → \"Hero\""
+        ]
+    },
+    {
         "name": "32m",
         "notes": [
-            "Released on: March 5th",
+            "Released on: March 5th, 2020",
             "Compatible Version: v0.24c ~"
         ],
         "bugs": [
