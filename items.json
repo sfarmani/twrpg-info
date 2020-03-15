@@ -1691,7 +1691,7 @@
     "type": "[Armor]",
     "color": "C71585",
     "level": 350,
-    "droprate": 0.03,
+    "droprate": 0.05,
     "required_by": [
       "Earthen Plates"
     ],
@@ -1716,7 +1716,7 @@
     "type": "[Armor]",
     "color": "C71585",
     "level": 350,
-    "droprate": 0.03,
+    "droprate": 0.05,
     "required_by": [
       "Guardian Vest"
     ],
@@ -1740,7 +1740,7 @@
     "type": "[Robe]",
     "color": "C71585",
     "level": 350,
-    "droprate": 0.03,
+    "droprate": 0.05,
     "required_by": [
       "Fairy Garment",
       "Fairy Wings"
@@ -1772,7 +1772,7 @@
     "type": "[Ring]",
     "color": "C71585",
     "level": 350,
-    "droprate": 0.03,
+    "droprate": 0.05,
     "required_by": [
       "Benziena, the Earthen Pillar",
       "Laktrisha, the Illusional Sword of Poison",

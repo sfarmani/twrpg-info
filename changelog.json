@@ -1,5 +1,103 @@
 [
     {
+        "name": "32w",
+        "notes": [
+            "Released on: March 14th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "items": [
+            {
+                "name": "Oceanus, the Sword of Light / Tiberius, the Spear of Lightning",
+                "changes": [
+                    "Active - Remove screen flash"
+                ]
+            },
+            {
+                "name": "Protection of the Fairies",
+                "changes": [
+                    "Active",
+                    [
+                        "Resurrection time: 1 second → 2 seconds",
+                        "Cooldown: 180 seconds → 360 seconds"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Field boss respawn timer: 5 minutes → 3 minutes"
+                ]
+            },
+            {
+                "name": "Mana Ancient",
+                "changes": [
+                    "Equipment droprates: 3% → 5%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Execution Sword (D)",
+                    [
+                        "Removed 30% attack speed increase",
+                        "Proc damage: Attack Damage X 5 + STR X 10 → Attack Damage X 3 + STR X 10"
+                    ],
+                    "Flash of Immortality (W)",
+                    [
+                        "Passive - Damage received reduced by 25% → 20%",
+                        "Active - Reduces damage taken by 60% → 40%"
+                    ],
+                    "Max Amplification: Execution Sword (T)",
+                    [
+                        "Heals for Max HP X 30% → Max HP X 15%"
+                    ]
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Blood Fury (E)",
+                    [
+                        "Buff duration: 4 seconds → 6 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Bag Slam (Q)",
+                    [
+                        "Range: 500 → 800"
+                    ],
+                    "Throw Money (R)",
+                    [
+                        "Duration: 5 seconds → 8 seconds"
+                    ],
+                    "Holy Water of Resurrection (T)",
+                    [
+                        "No longer gets wasted when used not near a dead ally",
+                        "Heals Max HP / MP X 50% → 100%",
+                        "Recognition radius: 450 → 600",
+                        "Resurrection time: 2 seconds → 1 second"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Discharge (E)",
+                    [
+                        "Ignores silence and stuns"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "32p",
         "notes": [
             "Released on: March 8th, 2020",

@@ -211,7 +211,7 @@
         "id": "h00T",
         "name": "Death Knight",
         "limit": "5",
-        "timer": "300s",
+        "timer": "180s",
         "location": "In Duchy of Wallachia",
         "conditions": "Level 160",
         "drops": [
@@ -234,7 +234,7 @@
         "id": "n01J",
         "name": "Ruler of Flames Ragnaar",
         "limit": "5",
-        "timer": "300s",
+        "timer": "180s",
         "location": "In Volcanic Lands",
         "conditions": "Level 200",
         "drops": [
@@ -258,7 +258,7 @@
         "id": "h014",
         "name": "Tentacle Lord",
         "limit": "5",
-        "timer": "300s",
+        "timer": "180s",
         "location": "In the Deep Sea",
         "conditions": "Level 240",
         "drops": [
@@ -278,7 +278,7 @@
         "id": "h00Y",
         "name": "Giant Golem",
         "limit": "8",
-        "timer": "300s",
+        "timer": "180s",
         "location": "In the Mine Cave",
         "conditions": "Level 280",
         "drops": [
@@ -577,7 +577,7 @@
         "id": "h010",
         "name": "Mana Ancient",
         "limit": "2",
-        "timer": "300s",
+        "timer": "180s",
         "location": "In Fairy Forest",
         "conditions": "Level 350",
         "drops": [

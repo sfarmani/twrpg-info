@@ -1881,7 +1881,8 @@
             "Deals up to INT X 80 damage based on dash distance",
             "Reduces damage taken by 80%",
             "Upon absorbing a lightning orb, becomes Charged for 0.75 seconds which removes energy consumption",
-            "Toggle again to deactivate the discharge"
+            "Toggle again to deactivate the discharge",
+            "Ignores silence and stuns"
         ]
     },
     {
@@ -1938,8 +1939,7 @@
         "icon": "CrusaderD",
         "passive": [
             "Holy sword that brings down judgment upon the evil. Mana concentrates around the blade to give the sword a vibrant form.",
-            "Increases attack speed by 30%",
-            "Attack Damage X 5 + STR X 10 damage"
+            "Attack Damage X 3 + STR X 10 damage"
         ],
         "active": [
             "Sends down a flow of mana into the sword, awakening its true potential.",
@@ -1969,11 +1969,11 @@
         "passive": [
             "The blessing of god allows crusader to become a persevering light amidst her battles.",
             "All stats increased by (10 + 2%) X Skill Level",
-            "Damage received reduced by 25% if HP is below 50%"
+            "Damage received reduced by 20% if HP is below 50%"
         ],
         "active": [
             "The blessing of god gifts crusader with a divine protection.",
-            "Reduces damage taken by 60%",
+            "Reduces damage taken by 40%",
             "Lasts 5 seconds"
         ]
     },
@@ -2033,7 +2033,7 @@
         "active": [
             "Summons an angel using your own body as a vessel to break the limits on the Execution Sword.",
             "For 12 seconds, gains max attack speed and CC immunity",
-            "Heals for Max HP X 30% every second",
+            "Heals for Max HP X 15% every second",
             "Empowers Execution Sword into Heaven's Sword, dealing Attack Damage X 10 + STR X 20 magic damage",
             "Cast Time: 0 seconds"
         ]
@@ -2691,7 +2691,8 @@
             "Pummels enemy down with a bag filled with many things.",
             "Attack Damage X 500% damage",
             "STR X 25 bonus damage",
-            "Stuns for 1 second"
+            "Stuns for 1 second",
+            "Range: 800"
         ]
     },
     {
@@ -2732,7 +2733,7 @@
             "Throws money with great force, inflicting tetanus on enemies hit.",
             "Each coin deals Skill Level X 1000 damage",
             "STR X 10 bonus damage",
-            "Reduces healing taken by 20% and deals STR X 7.5 damage per second for 5 seconds",
+            "Reduces healing taken by 20% and deals STR X 7.5 damage per second for 8 seconds",
             "Throws up to 10 coins"
         ]
     },
@@ -2745,9 +2746,10 @@
         "active": [
             "Revives an ally by using a bottle of holy water, which is very rare.",
             "Revives a nearby ally",
-            "Heals Max HP/MP X 50%",
+            "Heals Max HP/MP X 100%",
             "Revived ally cannot die for 5 seconds",
-            "If killed while not on cooldown, it is used for yourself"
+            "If killed while not on cooldown, it is used for yourself",
+            "Range: 600"
         ]
     },
     {
@@ -2916,7 +2918,7 @@
         "passive": [
             "As the hunger for blood increases, so do berserker's combat abilities.",
             "Increases attack damage up to (STR X 6), skill damage up to 40% based on missing HP",
-            "Each attack increases STR by 6%, attack speed by 15% for 4 seconds (stacks up to 5 times)"
+            "Each attack increases STR by 6%, attack speed by 15% for 6 seconds (stacks up to 5 times)"
         ],
         "toggle": [
             "Drowns in blood to bring out full combat abilities.",
