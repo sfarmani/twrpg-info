@@ -6,7 +6,7 @@
             "Compatible Version: v0.24c ~"
         ],
         "bugs": [
-            "Crusader - Fixed a bug where Execution Sword (D) only dealth Attack damage X 0.5, not Damage X 3 + STR X 10 damage",
+            "Crusader - Fixed a bug where Execution Sword (D) only dealt Attack damage X 0.5, not Damage X 3 + STR X 10 damage",
             "Merchant - Fixed the bugged field of view when using Holy Water of Resurrection (T)",
             "Fixed some hotkeys not working"
         ]
