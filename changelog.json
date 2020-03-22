@@ -1,5 +1,23 @@
 [
     {
+        "name": "32z",
+        "notes": [
+            "Released on: March 22nd, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Warlock - Soul Grimore (R) - Fixed active effect to no longer last more than 5 seconds"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Using the Recipe skill from bag on a Sealed material will show the unsealed material's recipe"
+                ]
+            }
+        ]
+    },
+    {
         "name": "32x",
         "notes": [
             "Released on: March 14th, 2020",
