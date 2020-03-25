@@ -5998,20 +5998,6 @@
     "koreanname": "본 네크리스"
   },
   {
-    "id": "I0MH",
-    "name": "Sealed Spirit of Abyss",
-    "dropped_by": [
-      "Skeleton King Desperia"
-    ],
-    "type": "[Material]",
-    "color": "FFFFFF",
-    "droprate": 0.015,
-    "required_by": [
-      "Spirit of Abyss"
-    ],
-    "koreanname": "봉인된 심연의 기운"
-  },
-  {
     "id": "gsou",
     "name": "Spirit of Abyss",
     "type": "[Material]",
@@ -6039,8 +6025,8 @@
     "koreanname": "심연의 기운"
   },
   {
-    "id": "I0MG",
-    "name": "Sealed Orb of Oblivion",
+    "id": "I0MH",
+    "name": "Sealed Spirit of Abyss",
     "dropped_by": [
       "Skeleton King Desperia"
     ],
@@ -6048,9 +6034,9 @@
     "color": "FFFFFF",
     "droprate": 0.015,
     "required_by": [
-      "Orb of Oblivion"
+      "Spirit of Abyss"
     ],
-    "koreanname": "봉인된 망각의 구슬"
+    "koreanname": "봉인된 심연의 기운"
   },
   {
     "id": "nflg",
@@ -6084,8 +6070,8 @@
     "koreanname": "망각의 구슬"
   },
   {
-    "id": "I0ME",
-    "name": "Sealed Fragment of Oblivion",
+    "id": "I0MG",
+    "name": "Sealed Orb of Oblivion",
     "dropped_by": [
       "Skeleton King Desperia"
     ],
@@ -6093,9 +6079,9 @@
     "color": "FFFFFF",
     "droprate": 0.015,
     "required_by": [
-      "Fragment of Oblivion"
+      "Orb of Oblivion"
     ],
-    "koreanname": "봉인된 망각의 파편"
+    "koreanname": "봉인된 망각의 구슬"
   },
   {
     "id": "I0EK",
@@ -6124,8 +6110,8 @@
     "koreanname": "망각의 파편"
   },
   {
-    "id": "I0MF",
-    "name": "Sealed Skeleton Bone",
+    "id": "I0ME",
+    "name": "Sealed Fragment of Oblivion",
     "dropped_by": [
       "Skeleton King Desperia"
     ],
@@ -6133,9 +6119,9 @@
     "color": "FFFFFF",
     "droprate": 0.015,
     "required_by": [
-      "Skeleton Bone"
+      "Fragment of Oblivion"
     ],
-    "koreanname": "봉인된 스켈레톤 본"
+    "koreanname": "봉인된 망각의 파편"
   },
   {
     "id": "I0EL",
@@ -6163,6 +6149,20 @@
       }
     ],
     "koreanname": "스켈레톤 본"
+  },
+  {
+    "id": "I0MF",
+    "name": "Sealed Skeleton Bone",
+    "dropped_by": [
+      "Skeleton King Desperia"
+    ],
+    "type": "[Material]",
+    "color": "FFFFFF",
+    "droprate": 0.015,
+    "required_by": [
+      "Skeleton Bone"
+    ],
+    "koreanname": "봉인된 스켈레톤 본"
   },
   {
     "id": "fgrg",
@@ -6267,20 +6267,6 @@
     "koreanname": "집념의 장막"
   },
   {
-    "id": "I0MJ",
-    "name": "Sealed Heart of Fire",
-    "dropped_by": [
-      "Zombie Lord"
-    ],
-    "type": "[Material]",
-    "color": "FFFFFF",
-    "droprate": 0.015,
-    "required_by": [
-      "Heart of Fire"
-    ],
-    "koreanname": "봉인된 불로의 심장"
-  },
-  {
     "id": "rde1",
     "name": "Heart of Fire",
     "type": "[Material]",
@@ -6308,8 +6294,8 @@
     "koreanname": "불로의 심장"
   },
   {
-    "id": "I0MK",
-    "name": "Sealed Dark Crystal",
+    "id": "I0MJ",
+    "name": "Sealed Heart of Fire",
     "dropped_by": [
       "Zombie Lord"
     ],
@@ -6317,9 +6303,9 @@
     "color": "FFFFFF",
     "droprate": 0.015,
     "required_by": [
-      "Dark Crystal"
+      "Heart of Fire"
     ],
-    "koreanname": "봉인된 다크 크리스탈"
+    "koreanname": "봉인된 불로의 심장"
   },
   {
     "id": "I08P",
@@ -6350,8 +6336,8 @@
     "koreanname": "다크 크리스탈"
   },
   {
-    "id": "I0MI",
-    "name": "Sealed Proof of Purification",
+    "id": "I0MK",
+    "name": "Sealed Dark Crystal",
     "dropped_by": [
       "Zombie Lord"
     ],
@@ -6359,9 +6345,9 @@
     "color": "FFFFFF",
     "droprate": 0.015,
     "required_by": [
-      "Proof of Purification"
+      "Dark Crystal"
     ],
-    "koreanname": "봉인된 정화의 증표"
+    "koreanname": "봉인된 다크 크리스탈"
   },
   {
     "id": "I0AS",
@@ -6389,6 +6375,20 @@
       }
     ],
     "koreanname": "정화의 증표"
+  },
+  {
+    "id": "I0MI",
+    "name": "Sealed Proof of Purification",
+    "dropped_by": [
+      "Zombie Lord"
+    ],
+    "type": "[Material]",
+    "color": "FFFFFF",
+    "droprate": 0.015,
+    "required_by": [
+      "Proof of Purification"
+    ],
+    "koreanname": "봉인된 정화의 증표"
   },
   {
     "id": "pomn",
@@ -6434,29 +6434,6 @@
     "koreanname": "대자연의 포옹"
   },
   {
-    "id": "I0MM",
-    "name": "Sealed Purified Water of Nature",
-    "dropped_by": [
-      "Ancient Ent",
-      "Elder Ent",
-      "Giant Ent"
-    ],
-    "type": "[Material]",
-    "color": "FFFFFF",
-    "notes": [
-      "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%, 0.05% → 0.01%)"
-    ],
-    "droprate": [
-      0.005,
-      0.005,
-      0.0005
-    ],
-    "required_by": [
-      "Purified Water of Nature"
-    ],
-    "koreanname": "봉인된 대자연의 정수"
-  },
-  {
     "id": "ofir",
     "name": "Purified Water of Nature",
     "type": "[Material]",
@@ -6487,6 +6464,29 @@
       }
     ],
     "koreanname": "대자연의 정수"
+  },
+  {
+    "id": "I0MM",
+    "name": "Sealed Purified Water of Nature",
+    "dropped_by": [
+      "Ancient Ent",
+      "Elder Ent",
+      "Giant Ent"
+    ],
+    "type": "[Material]",
+    "color": "FFFFFF",
+    "notes": [
+      "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%, 0.05% → 0.01%)"
+    ],
+    "droprate": [
+      0.005,
+      0.005,
+      0.0005
+    ],
+    "required_by": [
+      "Purified Water of Nature"
+    ],
+    "koreanname": "봉인된 대자연의 정수"
   },
   {
     "id": "shtm",
@@ -6708,20 +6708,6 @@
     "koreanname": "각인의 반지 네프티스"
   },
   {
-    "id": "I0MQ",
-    "name": "Sealed Essence of Darkness",
-    "dropped_by": [
-      "Shadow Dragon Irbert"
-    ],
-    "type": "[Material]",
-    "color": "FFFFFF",
-    "droprate": 0.012,
-    "required_by": [
-      "Essence of Darkness"
-    ],
-    "koreanname": "봉인된 암흑의 결정"
-  },
-  {
     "id": "mcri",
     "name": "Essence of Darkness",
     "type": "[Material]",
@@ -6750,8 +6736,8 @@
     "koreanname": "암흑의 결정"
   },
   {
-    "id": "I0MR",
-    "name": "Sealed Antimatter",
+    "id": "I0MQ",
+    "name": "Sealed Essence of Darkness",
     "dropped_by": [
       "Shadow Dragon Irbert"
     ],
@@ -6759,9 +6745,9 @@
     "color": "FFFFFF",
     "droprate": 0.012,
     "required_by": [
-      "Antimatter"
+      "Essence of Darkness"
     ],
-    "koreanname": "봉인된 안티 매터"
+    "koreanname": "봉인된 암흑의 결정"
   },
   {
     "id": "I08N",
@@ -6793,18 +6779,18 @@
     "koreanname": "안티 매터"
   },
   {
-    "id": "I0MS",
-    "name": "Sealed Frozen Debris",
+    "id": "I0MR",
+    "name": "Sealed Antimatter",
     "dropped_by": [
       "Shadow Dragon Irbert"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.009,
+    "droprate": 0.012,
     "required_by": [
-      "Frozen Debris"
+      "Antimatter"
     ],
-    "koreanname": "봉인된 한기의 조각"
+    "koreanname": "봉인된 안티 매터"
   },
   {
     "id": "I09N",
@@ -6837,6 +6823,20 @@
     "koreanname": "한기의 조각"
   },
   {
+    "id": "I0MS",
+    "name": "Sealed Frozen Debris",
+    "dropped_by": [
+      "Shadow Dragon Irbert"
+    ],
+    "type": "[Material]",
+    "color": "FFFFFF",
+    "droprate": 0.009,
+    "required_by": [
+      "Frozen Debris"
+    ],
+    "koreanname": "봉인된 한기의 조각"
+  },
+  {
     "id": "shar",
     "name": "Token of Darkness",
     "dropped_by": [
@@ -6846,20 +6846,6 @@
     "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "암흑의 토큰"
-  },
-  {
-    "id": "I0MN",
-    "name": "Sealed Steel of God",
-    "dropped_by": [
-      "Archangel Samael"
-    ],
-    "type": "[Material]",
-    "color": "FFFFFF",
-    "droprate": 0.012,
-    "required_by": [
-      "Steel of God"
-    ],
-    "koreanname": "봉인된 신의 금속"
   },
   {
     "id": "I0E5",
@@ -6887,8 +6873,8 @@
     "koreanname": "신의 금속"
   },
   {
-    "id": "I0MP",
-    "name": "Sealed Essence of Light",
+    "id": "I0MN",
+    "name": "Sealed Steel of God",
     "dropped_by": [
       "Archangel Samael"
     ],
@@ -6896,9 +6882,9 @@
     "color": "FFFFFF",
     "droprate": 0.012,
     "required_by": [
-      "Essence of Light"
+      "Steel of God"
     ],
-    "koreanname": "봉인된 빛의 결정"
+    "koreanname": "봉인된 신의 금속"
   },
   {
     "id": "I0E6",
@@ -6927,8 +6913,8 @@
     "koreanname": "빛의 결정"
   },
   {
-    "id": "I0MO",
-    "name": "Sealed God's Page",
+    "id": "I0MP",
+    "name": "Sealed Essence of Light",
     "dropped_by": [
       "Archangel Samael"
     ],
@@ -6936,9 +6922,9 @@
     "color": "FFFFFF",
     "droprate": 0.012,
     "required_by": [
-      "God's Page"
+      "Essence of Light"
     ],
-    "koreanname": "봉인된 위서의 한 페이지"
+    "koreanname": "봉인된 빛의 결정"
   },
   {
     "id": "I0E7",
@@ -6963,6 +6949,20 @@
       }
     ],
     "koreanname": "위서의 한 페이지"
+  },
+  {
+    "id": "I0MO",
+    "name": "Sealed God's Page",
+    "dropped_by": [
+      "Archangel Samael"
+    ],
+    "type": "[Material]",
+    "color": "FFFFFF",
+    "droprate": 0.012,
+    "required_by": [
+      "God's Page"
+    ],
+    "koreanname": "봉인된 위서의 한 페이지"
   },
   {
     "id": "I0EG",
