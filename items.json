@@ -6489,29 +6489,6 @@
     "koreanname": "대자연의 정수"
   },
   {
-    "id": "I0ML",
-    "name": "Sealed Fragment of the Wind",
-    "dropped_by": [
-      "Ancient Ent",
-      "Elder Ent",
-      "Giant Ent"
-    ],
-    "type": "[Material]",
-    "color": "FFFFFF",
-    "notes": [
-      "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%, 0.05% → 0.01%)"
-    ],
-    "droprate": [
-      0.005,
-      0.005,
-      0.0005
-    ],
-    "required_by": [
-      "Fragment of the Wind"
-    ],
-    "koreanname": "봉인된 바람의 조각"
-  },
-  {
     "id": "shtm",
     "name": "Fragment of the Wind",
     "type": "[Material]",
@@ -6536,6 +6513,29 @@
       }
     ],
     "koreanname": "바람의 조각"
+  },
+  {
+    "id": "I0ML",
+    "name": "Sealed Fragment of the Wind",
+    "dropped_by": [
+      "Ancient Ent",
+      "Elder Ent",
+      "Giant Ent"
+    ],
+    "type": "[Material]",
+    "color": "FFFFFF",
+    "notes": [
+      "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%, 0.05% → 0.01%)"
+    ],
+    "droprate": [
+      0.005,
+      0.005,
+      0.0005
+    ],
+    "required_by": [
+      "Fragment of the Wind"
+    ],
+    "koreanname": "봉인된 바람의 조각"
   },
   {
     "id": "pres",
