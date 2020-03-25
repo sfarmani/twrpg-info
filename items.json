@@ -11601,8 +11601,8 @@
         "Counts as a single target"
       ],
       "active": [
-        "On use, activates Frozen Break that launches a projectile that deals (max HP X 4.5) magic damage and breaking any shields in targetted area",
-        "If projectile hits an ally, gives them a (max MP X 30%) shield for 5 seconds",
+        "On use, activates Frozen Break that launches a projectile that deals (max MP X 4.5) magic damage and breaking any shields in targetted area",
+        "If projectile hits an ally, gives them a (max HP X 30%) shield for 5 seconds",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
