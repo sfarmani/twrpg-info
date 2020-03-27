@@ -3222,7 +3222,7 @@
             "STR X 500 damage",
             "For each second channeled, size increased & damage increased by 25%",
             "Can be channeled up to a maximum of 4 seconds",
-            "Grants debuff and silence immunity to allies hit for 5 seconds",
+            "Grants 100% damage reduction and immunity to debuffs/CC effects to allies hit for 5 seconds",
             "Cancels Release Mana",
             "Cooldown: 60 seconds"
         ]
