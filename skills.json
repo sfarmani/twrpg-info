@@ -2761,12 +2761,11 @@
         "active": [
             "\"Damn it.. there goes my rarest scroll! If I wasn't a merchant dealing with customer relationships, I'd never have used it for him.. \" - Merchant",
             "Empowers target with Indomitable Strength for 12 seconds",
-            "Increases attack speed by 100%",
+            "Increases attack speed and movement speed by 100%",
             "Increases damage dealt by target by 35%",
             "Decreases damage taken by target by 60%",
             "Heals for Max HP X 30% per second",
-            "The target cannot be affected by Indomitable Strength again for 300 seconds",
-            "Self has a cooldown of 180 seconds",
+            "Except for self, the target cannot be affected by Indomitable Strength again for 180 seconds",
             "Cast range: 1000"
         ]
     },
