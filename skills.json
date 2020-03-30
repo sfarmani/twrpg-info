@@ -3750,7 +3750,8 @@
             "\"As my body suddenly start bursting out light, I've felt like I could keep on fighting without ever growing tired. It was only later that I realized the Priest had arrived.\" - Soldier of Empire Army",
             "Increases nearby allies' damage dealt by 5%, armor by 500, and regenerates 10% of their HP every second",
             "Empowers Raguel's attacks",
-            "Lasts 30 seconds"
+            "Lasts 30 seconds",
+            "Cooldown: 120 seconds"
         ]
     },
     {
