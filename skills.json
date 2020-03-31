@@ -1260,9 +1260,8 @@
         "icon": "GunnerW",
         "active": [
             "Barrages nearby area with bullets.",
-            "Consumes 3 bullets",
-            "Each bullet deals X 250% damage",
-            "AGI X 25 bonus damage",
+            "Each bullet deals X 250% magic damage",
+            "AGI X 15 bonus damage",
             "If cast after Tumble, consumes 100% additional bullets",
             "Attack radius 525",
             "Attack delay of 0.075 seconds"
@@ -1928,7 +1927,8 @@
             "Deals INT X 325 damage on expiration",
             "Damage and critical chance are increased up to 200% based on dash distance",
             "Breaks shield effects",
-            "Invincible while casting"
+            "Invincible while casting",
+            "Range: 1200"
         ]
     },
     {
@@ -1939,7 +1939,7 @@
         "icon": "CrusaderD",
         "passive": [
             "Holy sword that brings down judgment upon the evil. Mana concentrates around the blade to give the sword a vibrant form.",
-            "Attack Damage X 3 + STR X 10 damage"
+            "Attack Damage X 3 + STR X 15 magic damage"
         ],
         "active": [
             "Sends down a flow of mana into the sword, awakening its true potential.",
@@ -2342,7 +2342,8 @@
         ],
         "active": [
             "Enters focused state immediately",
-            "Lasts 5 seconds"
+            "Lasts 5 seconds",
+            "Cooldown: 30 seconds"
         ]
     },
     {
@@ -2672,13 +2673,13 @@
         "icon": "MerchantD",
         "passive": [
             "Slaps enemy hard with a bag filled with many things.",
-            "On attack, deals Attack Damage X 25% bonus magic damage",
-            "STR X 2 bonus damage"
+            "On attack, deals Attack Damage X 50% bonus magic damage",
+            "STR X 2.5 bonus damage"
         ],
         "active": [
             "Takes a random thing out of the bag to use it.",
             "Healing Potion - Heals for Max HP X 40%",
-            "Speed Potion - Increases speed by 100% for 10 seconds"
+            "Speed Potion - Increases attack speed by 100% and movement speed by 100 for 6 seconds"
         ]
     },
     {
@@ -2765,7 +2766,7 @@
             "Increases damage dealt by target by 35%",
             "Decreases damage taken by target by 60%",
             "Heals for Max HP X 30% per second",
-            "Except for self, the target cannot be affected by Indomitable Strength again for 180 seconds",
+            "Except for self, the target cannot be affected by Indomitable Strength again for 120 seconds",
             "Cast range: 1000"
         ]
     },
@@ -3449,7 +3450,7 @@
         "icon": "WaterMageD",
         "active": [
             "Creates a watery explosion to drench enemies in water.",
-            "INT X 30 damage",
+            "INT X 40 damage",
             "Drenches enemies in wetness for 6 seconds, slowing their speeds"
         ]
     },
@@ -3462,7 +3463,7 @@
         "active": [
             "Reconstruct water into a frozen shard of a suitable size and fire it at the target.",
             "Skill Level X 200 damage",
-            "INT X 20 bonus damage",
+            "INT X 25 bonus damage",
             "Freezes for 0.5 seconds",
             "If frozen, consumes it to increase damage by 400%",
             "If slowed, consumes it to increase freeze duration by 200%"
@@ -3513,7 +3514,9 @@
             "INT X 80 bonus damage",
             "Freezes for 2 seconds",
             "If slowed, consumes it and increases damage by 200%",
-            "If frozen, increases freeze duration by 100%"
+            "If frozen, increases freeze duration by 100%",
+            "Range: 575",
+            "Cooldown: 15 seconds"
         ]
     },
     {
@@ -3540,7 +3543,7 @@
         "active": [
             "\"Looking at you all reminds me of ice sculptures. Well, not that one captures my attention.\" - Mage",
             "Freezes nearby enemies for 5 seconds",
-            "Upon expiration, deals (INT X 150 + damage taken while frozen X 10%) pure damage",
+            "Upon expiration, deals (INT X 200 + damage taken while frozen X 10%) pure damage",
             "Reduces damage dealt by targets for 50% while active"
         ]
     },
@@ -4042,9 +4045,9 @@
         "icon": "HermitQ",
         "active": [
             "Strikes target's weak points.",
-            "Attack Damage X 200% pure damage",
+            "Attack Damage X 250% pure damage",
             "Grants increased attack speed for 1.5 seconds",
-            "Deals Main Stat X 1 pure damage on each attack",
+            "Deals Main Stat X 1.5 pure damage on each attack",
             "If cast from melee range or while Wind Walk is active, deals 100% bonus damage and stuns for 0.5 seconds"
         ]
     },
@@ -4099,10 +4102,11 @@
         "icon": "HermitT",
         "active": [
             "Purges inner evil within the soul.",
-            "Deals Main Stat X 150 magic damage to nearby enemies and stuns for 2 seconds",
-            "Clears debuffs and grants shield absorbing Main Stat X 3 damage to nearby allies",
+            "Deals Main Stat X 250 magic damage to nearby enemies and stuns for 2 seconds",
+            "Clears debuffs and grants shield absorbing Main Stat X 5 damage to nearby allies",
             "Also activates from summoned orbs",
-            "Chain - Inner Release"
+            "Chain - Inner Release",
+            "Cooldown: 15 seconds"
         ]
     },
     {
@@ -4139,7 +4143,7 @@
         "icon": "WitchD",
         "passive": [
             "A broom filled with uncontrollable mana.",
-            "Every attack deals INT X 5 magic damage",
+            "Every attack deals INT X 7 magic damage",
             "On skill cast, gains explosive attack speed for 1.5 seconds"
         ],
         "active": [
@@ -4157,7 +4161,7 @@
         "icon": "WitchQ",
         "active": [
             "Explosion... is an art!",
-            "INT X 45 magic damage",
+            "INT X 50 magic damage",
             "Stuns for 0.5 seconds",
             "Can be channeled up to 2 seconds, increasing damage by 200% and range/stun duration by 100% every second",
             "Channeling speed can be increased per 2% attack speed"
@@ -4188,7 +4192,7 @@
             "Summons a cauldron filled with magical items.",
             "Creates a potion every 1.5 seconds for 18 seconds",
             "Potion lasts for 30 seconds and heals for INT X 3",
-            "Increases one of target's stats by 7.5% for 60 seconds",
+            "Increases a target's main stat by 6% for 30 seconds",
             "Cannot provide the same stat increase twice in a row"
         ]
     },

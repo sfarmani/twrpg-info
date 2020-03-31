@@ -1,5 +1,157 @@
 [
     {
+        "name": "33b",
+        "notes": [
+            "Released on: March 30th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Some misc bug fixes",
+            "Nereid - Fixed a bug where phase 2 skill was avoided on some terrains"
+        ],
+        "events": [
+            {
+                "name": "Weird Event",
+                "changes": [
+                    "Currently active!!"
+                ]
+            }
+        ],
+        "items": [
+            {
+                "name": "Light Bag series",
+                "changes": [
+                    "Movement speed increase → Magic defense increase"
+                ]
+            },
+            {
+                "name": "Protection of the Fairies",
+                "changes": [
+                    "Active - Cooldown: 360 seconds → 300 seconds"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Execution Sword (D)",
+                    [
+                        "Damage: Attack damage X 3 + STR X 10 → Attack damage X 3 + STR X 15"
+                    ]
+                ]
+            },
+            {
+                "name": "Merchant",
+                "changes": [
+                    "This Bag isn't a Decoration! (D)",
+                    [
+                        "Damage: Attack damage X 20% + STR X 2 → Attack damage X 50% + STR X 2.5",
+                        "Speed potion - Increase attack speed by 100% for 10 seconds → Increase attack speed by 100% and movement speed by 100 for 6 seconds"
+                    ],
+                    "Scroll of God's Blessing (F)",
+                    [
+                        "Re-apply same target cooldown: 180 seconds → 120 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Outlaw (W)",
+                    [
+                        "Bullet Time (T) changes so that there is no ammo consumption / Cast time during casting"
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Extreme Focus (T)",
+                    [
+                        "Cooldown: 45 seconds → 30 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Flowing Fist (Q)",
+                    [
+                        "Damage: Attack damage X 200% → Attack damage X 250%",
+                        "Bonus damage per attack: Primary stat X 1 → Primary stat X 1.25"
+                    ],
+                    "Purge (T)",
+                    [
+                        "Damage: Main stat X 150 → Main stat X 250",
+                        "Shield amount: Main stat X 3 → Main stat X 5",
+                        "Cooldown: 20 seconds → 15 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Water Blast (D)",
+                    [
+                        "Damage: INT X 30 → INT X 40"
+                    ],
+                    "Ice Shard (Q)",
+                    [
+                        "Damage: INT X 20 → INT X 25"
+                    ],
+                    "Frost Nova (R)",
+                    [
+                        "AoE Range: 475 → 575",
+                        "Cooldown: 20 seconds → 15 seconds"
+                    ],
+                    "Glacier Orb (T)",
+                    [
+                        "No longer stops the channel"
+                    ],
+                    "Ice Age (F)",
+                    [
+                        "Pure damage: INT X 150 → INT X 200"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Lightning Blade (F)",
+                    [
+                        "Range: 1000 → 1200 (max damage is triggered at 1000 range as before)"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Magical Broom (D)",
+                    [
+                        "Bonus damage: INT X 5 → INT X 7"
+                    ],
+                    "Death Bomb (Q)",
+                    [
+                        "Damage: INT X 45 → INT X 50",
+                        "Charge speed per 1% attack speed increased by 2% → by 4%"
+                    ],
+                    "Mystical Cauldron (E)",
+                    [
+                        "Random stat increased by 7.5% for 60 seconds → primary stat increased by 6% for 30 seconds"
+                    ],
+                    "Hell Gate (T)",
+                    [
+                        "Shorten summon delay"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Due to size issues, Spirit Elementalist (summer costume) changed. If you have it, you can exchange it for another costume through the NPC at town"
+        ]
+    },
+    {
         "name": "32z",
         "notes": [
             "Released on: March 22nd, 2020",

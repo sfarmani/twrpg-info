@@ -8330,7 +8330,7 @@
     "stats": {
       "damage": 2500,
       "allstat": 175,
-      "movespeed": 50,
+      "mdpercent": 0.10,
       "spec": [
         "Merchant Specialty - Light Bag",
         "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once"
@@ -8363,7 +8363,7 @@
       "damage": 6000,
       "allstat": 525,
       "hpregen": 300,
-      "movespeed": 50,
+      "mdpercent": 0.10,
       "spec": [
         "Merchant Specialty - Light Bag",
         "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%"
@@ -8399,7 +8399,7 @@
       "damage": 9000,
       "allstat": 800,
       "hpregen": 400,
-      "movespeed": 50,
+      "mdpercent": 0.10,
       "spec": [
         "Merchant Specialty - Light Bag",
         "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%"
@@ -8435,7 +8435,7 @@
       "damage": 12000,
       "allstat": 1200,
       "hpregen": 600,
-      "movespeed": 75,
+      "mdpercent": 0.12,
       "spec": [
         "Merchant Specialty - Very Light Bag",
         "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%",
@@ -8475,7 +8475,7 @@
       "damage": 16000,
       "allstat": 1550,
       "hpregen": 800,
-      "movespeed": 75,
+      "mdpercent": 0.12,
       "spec": [
         "Merchant Specialty - Very Light Bag",
         "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 12%",
@@ -8515,7 +8515,7 @@
       "damage": 19000,
       "allstat": 1950,
       "hpregen": 1200,
-      "movespeed": 75,
+      "mdpercent": 0.12,
       "spec": [
         "Merchant Specialty - Very Light Bag",
         "Merchant - This Bag isn't a Decoration!: You can drink upto 2 potions at once",
@@ -8559,7 +8559,7 @@
       "damage": 23000,
       "allstat": 2200,
       "hpregen": 1500,
-      "movespeed": 100,
+      "mdpercent": 0.12,
       "active": [
         "On use, throws Elixir",
         "Elixir clears debuffs on consumption",
@@ -16641,6 +16641,7 @@
     "name": "Protection of the Fairies",
     "koreanname": "요정의 가호",
     "type": "[Wings]",
+    "description": "The fairies surround you.",
     "color": "99FF99",
     "level": 400,
     "recipe": [
@@ -16672,7 +16673,8 @@
         "Healing received by nearby allies +15%"
       ],
       "active": [
-        "Revives a fallen ally with full HP and Mana. (180 second CD)"
+        "On use, revives a fallen ally with full HP and MP",
+        "Cooldown: 300 seconds, cannot be dropped during cooldown"
       ]
     }
   },
