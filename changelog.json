@@ -1,5 +1,21 @@
 [
     {
+        "name": "33c",
+        "notes": [
+            "Released on: March 31st, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Gunner - Fixed issue where W would get cancelled if Q-W is casted consecutively",
+            "Gunner - Fixed issue where T would increase selection circle size after casting T",
+            "Evil Lava Spawn - Fixed issue where FX would remain on ground if missle hits terrain",
+            "Event - Fixed issue where SK / Samael spawning could lock their spawn zones"
+        ],
+        "misc": [
+            "Knight / Lightning Mage - Cosmetic FX on Weird Costume is now much smaller"
+        ]
+    },
+    {
         "name": "33b",
         "notes": [
             "Released on: March 30th, 2020",
