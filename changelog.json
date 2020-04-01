@@ -1,5 +1,15 @@
 [
     {
+        "name": "33d",
+        "notes": [
+            "Released on: March 31st, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Event - Fixed a bug where Shadow Dragon did not have a drop rate bonus like the other sub bosses, but rather had an HP / Damage increase rate that should not have been applied."
+        ]
+    },
+    {
         "name": "33c",
         "notes": [
             "Released on: March 31st, 2020",
