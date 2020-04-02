@@ -18020,7 +18020,7 @@
       ],
       "active": [
         "Activates Cosmic Protection, which provides ((INT X 5) + (Max HP X 0.2)) shield to nearby allies for 5 seconds",
-        "Targets taking spell damage during shield will gain 5% damage output and 12% damage resistance for 30 seconds",
+        "Targets taking spell damage during shield will gain 4% damage output and 12% damage resistance for 30 seconds",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
     }
