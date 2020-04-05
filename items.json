@@ -12266,7 +12266,9 @@
         "Empowers allies upon healing them with 7.5% Skill Damage and Healing Received."
       ],
       "active": [
-        "Throws 3 waves of blood to target area each dealing INT X 20 damage and heals INT X 3 HP to allies"
+        "On use, activates Bloody Baptism.",
+        "Throws 3 waves of blood to target area, each dealing INT X 20 damage and heals INT X 1.5 HP per second for 2 seconds",
+        "Cooldown: 12 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Crimson Star",
