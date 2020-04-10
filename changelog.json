@@ -1,5 +1,18 @@
 [
     {
+        "name": "33e",
+        "notes": [
+            "Released on: April 10th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Skeleton King Desperia / Archangel Samael - Fixed some spells not working properly and areas not locking properly when revived with memory stone"
+        ],
+        "misc": [
+            "Dev note: More content will be added into map after event ends"
+        ]
+    },
+    {
         "name": "33d",
         "notes": [
             "Released on: March 31st, 2020",
