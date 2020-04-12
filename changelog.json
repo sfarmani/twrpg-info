@@ -1,5 +1,20 @@
 [
     {
+        "name": "34a",
+        "notes": [
+            "Released on: April 12th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "events": [
+            {
+                "name": "Weird Event",
+                "changes": [
+                    "Event ends!"
+                ]
+            }
+        ]
+    },
+    {
         "name": "33e",
         "notes": [
             "Released on: April 10th, 2020",
@@ -52,7 +67,7 @@
             {
                 "name": "Weird Event",
                 "changes": [
-                    "Currently active!!"
+                    "Currently active until until 4/12 23:59:59 UTC Time!!"
                 ]
             }
         ],
