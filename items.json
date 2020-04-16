@@ -11250,7 +11250,7 @@
       "agility": 2100,
       "skilldamagepercent": 0.08,
       "passive": [
-        "~12.8% Chance to activate Chaos Strike on attack dealing ((STR + AGI) X 30) magic damage"
+        "10% Chance to activate Chaos Strike on attack dealing ((STR + AGI) X 37.5) magic damage"
       ]
     }
   },
@@ -15423,11 +15423,14 @@
     "stats": {
       "allstat": 950,
       "passive": [
-        "Increase the Armor by 300 and Max Health by 5,000 of all allies in 800 AoE",
-        "'Divine Light' Gain a stack on every skill cast. 8 second duration (Max 5 Stacks)"
+        "Increases nearby allies' armor by 300 and HP by 5000",
+        "On skill cast, gathers Holy Light up to 5 times.",
+        "Stacks last for 8 seconds"
       ],
       "active": [
-        "'Release Divine Light' Heal all allies in 600 AoE for [(Str + Agi + Int) x 0.25 x # of Divine Light stacks] (10 second CD)"
+        "On use, releases Holy Light",
+        "Heals all allies within 600 radius for (stacks X 0.30 X (STR + AGI + INT)) HP",
+        "Cooldown: 10 seconds"
       ],
       "spec": [
         "Specialties - Transmission of Light",
