@@ -6196,11 +6196,11 @@
       "periodicdamagepercent": 0.2,
       "mdpercent": 0.12,
       "active": [
-        "On use, activate Parasite:",
-        "If target is an enemy: deals (INT X 5) magic damage per tick for 5 seconds",
-        "If target is an ally: grants target with +40% Magic Defense and heals for INT X 1 per tick for 5 seconds",
-        "If target is self: grants target with +40% Magic Defense and heals for INT X 50% per tick for 5 seconds",
-        "Upon expiration, will explode dealing (INT X 40) splash damage",
+        "On use, activate Parasite for 5 seconds",
+        "If target is an enemy: deals (INT X 5) magic damage per second and lose 10% heal received",
+        "If target is an ally: grants target with 40% magic defense and heals for INT X 1 per second",
+        "If target is self: grants target with 40% magic defense and heals for INT X 0.5 per second",
+        "Upon expiration, will explode dealing (INT X 40) magic splash damage",
         "Cooldown: 25 seconds, cannot be dropped during cooldown"
       ]
     },
@@ -12407,10 +12407,12 @@
       "skilldamagepercent": 0.1,
       "periodicdamagepercent": 0.1,
       "active": [
-        "Infects target and nearby units for 8 seconds. (20 second CD)",
-        "  ↳ If target is ally: Gain 40% Magic Resistance and restore (INT X 1) HP per second",
-        "  ↳ If target is enemy: Lose 10% healing taken and take (INT X 5) damage per second",
-        "  ↳ After buff/debuff ends, target explodes dealing (INT X 40) damage to nearby enemies"
+        "On use, activates Chain of Plague for 8 seconds",
+        "If target is an enemy: deals (INT X 5) magic damage per second and lose 10% heal received",
+        "If target is an ally: grants target with 40% magic defense and heals for INT X 1 per second",
+        "If target is self: grants target with 40% magic defense and heals for INT X 0.5 per second",
+        "Upon expiration, will explode dealing (INT X 40) magic splash damage",
+        "Cooldown: 20 seconds, cannot be dropped during cooldown"
       ]
     }
   },
