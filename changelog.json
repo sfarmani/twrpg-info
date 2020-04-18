@@ -1,5 +1,18 @@
 [
     {
+        "name": "34b",
+        "notes": [
+            "Released on: April 17th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fixed a bug where Weird Costume was still active"
+        ],
+        "misc": [
+            "The new character \"Fighter\" will be released in 34c"
+        ]
+    },
+    {
         "name": "34a",
         "notes": [
             "Released on: April 12th, 2020",
