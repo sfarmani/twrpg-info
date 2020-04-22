@@ -5988,7 +5988,7 @@
         "Every 8 seconds, activates one of the following:",
         "Anger: +10% skill damage",
         "Oblivion: +16% damage reduction",
-        "Obession: (main stat X 20%) HP regen"
+        "Obsession: (main stat X 20%) HP regen"
       ],
       "active": [
         "On use, temporarily activates all effects",
@@ -10906,7 +10906,7 @@
       }
     ],
     "stats": {
-      "damage": 22400,
+      "damage": 20500,
       "intelligence": 2040,
       "healingpercent": 0.12,
       "passive": [
