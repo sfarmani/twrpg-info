@@ -15518,7 +15518,8 @@
       "healreceivedpercent": -0.25,
       "passive": [
         "7.5% Chance to activate Absolute Strike on attack",
-        "Gain 20000 attack damage, 1000 main stat, and 1000 HP regen for 7.5 seconds",
+        "Next 4 hits will ignore armor",
+        "Also gain 20000 attack damage, 1000 main stat, and 1000 HP regen for 7.5 seconds",
         "Absolute Strike cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
