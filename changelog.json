@@ -1,5 +1,42 @@
 [
     {
+        "name": "34c",
+        "notes": [
+            "Released on: April 25th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Gunner - Fixed a bug where Outlaw (W) did not proc when casting a skill while using Bullet Time (T)",
+            "Blood Weaver - Fixed aura effect when wearing Weird Weird costume (X for Wings)",
+            "Bag of Universe - Fixed a bug where Magic defense bonus was not applied"
+        ],
+        "monsters": [
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Droplets do not apply to debuff immune units → debuff or CC immune units",
+                    "Damage take per second during phase 1: Max HP X (number of stacks X 2)% → Max HP X 12.5% (overlapping effect removed)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "New character added - STR Mainstat",
+                    "Weapon: One-handed, Two-handed, Gloves"
+                ]
+            }
+        ],
+        "misc": [
+            "Skin changes:",
+            [
+                "Berserker Summer costume → Paladin Summer costume",
+                "Knight Summer costume → Crusader Summer costume"
+            ]
+        ]
+    },
+    {
         "name": "34b",
         "notes": [
             "Released on: April 17th, 2020",
