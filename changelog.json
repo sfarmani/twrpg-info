@@ -1,5 +1,61 @@
 [
     {
+        "name": "34e",
+        "notes": [
+            "Released on: April 26th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fighter - Fixed Takedown (F) causing hero to get stuck in some areas",
+            "Fighter - Fixed wing visual effect not showing on hero model"
+        ],
+        "items": [
+            {
+                "name": "King Kong Claws",
+                "changes": [
+                    "Bonus damage nerfed from 100% attack damage to 2500 damage"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Combo Mastery (D)",
+                    [
+                        "Attack damage increase per stack: 20% → 15%"
+                    ],
+                    "Swing (A)",
+                    [
+                        "Damage: 100% attack damage → 75% attack damage",
+                        "3rd attack damage: 200% → 150%"
+                    ],
+                    "Skull Pounder (Q)",
+                    [
+                        "Damage: 400% attack damage + STR X 25 → 500% attack damage + STR X 30",
+                        "SHATTERED consumption damage: 300% → 250%",
+                        "Chance to apply SHATTERED when empowered: 30% → 40%",
+                        "SHATTERED duration: 6 seconds → 5 seconds",
+                        "Cast delay reduced"
+                    ],
+                    "Chain Blow (E)",
+                    [
+                        "Damage output increase per stack: 4% → 5%",
+                        "Proc chance: 25% → 30%",
+                        "Damage: 1250% attack damage → 750% attack damage + STR X 40",
+                        "Cooldown: 0.15 seconds → 0.25 seconds",
+                        "(Changed description only) Damage per second from empowered effect: STR X 10 → STR X 15"
+                    ],
+                    "Dragon Fist (T)",
+                    [
+                        "Damage: 3000% attack damage + STR X 200 → 2000% attack damage + STR X 150",
+                        "Damage when empowered: 200% → 300%"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "34d",
         "notes": [
             "Released on: April 26th, 2020",

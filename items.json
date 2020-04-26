@@ -4635,7 +4635,7 @@
       "agility": 155,
       "passive": [
         "+10% damage dealt by attack",
-        "Deals double damage when attacking same target",
+        "Deals 2500 when attacking same target",
         "Second attack applied is pure damage"
       ]
     },
