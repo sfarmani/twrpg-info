@@ -6,7 +6,7 @@
             "Compatible Version: v0.24c ~"
         ],
         "bugs": [
-            "Fighter - Fixed Takedown (F) causing hero to get stuck in some areas",
+            "Fighter - Fixed Takedown (F) causing crashes",
             "Fighter - Fixed wing visual effect not showing on hero model"
         ],
         "items": [
