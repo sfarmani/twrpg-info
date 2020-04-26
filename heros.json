@@ -664,7 +664,7 @@
         "wearable": [
             "[Weapon all classes]",
             "[Weapon non-bow/gun classes]",
-            "[Greatesword]",
+            "[Greatsword]",
             "[Bastard Sword]",
             "[Armor]",
             "[Helm]",
@@ -920,6 +920,29 @@
         ],
         "description": [
             "Hey guys.. I have returned."
+        ],
+        "spec": [
+            "No Specs!"
+        ]
+    },
+    {
+        "name": "Noface",
+        "heroClass": "Fighter",
+        "mainstat": "STR",
+        "color": "995c00",
+        "icon": "FighterIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Longsword]",
+            "[Greatsword]",
+            "[Gloves]",
+            "[Bastard Sword]"
+        ],
+        "role": [
+            "Pure DPS"
+        ],
+        "description": [
+            ""
         ],
         "spec": [
             "No Specs!"

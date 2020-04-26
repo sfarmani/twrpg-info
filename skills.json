@@ -1401,7 +1401,7 @@
         "icon": "SwordsmanE",
         "active": [
             "Surrounds yourself with a fierce bladestorm.",
-            "GI X 10 magic damage per second",
+            "AGI X 10 magic damage per second",
             "Increases movement speed by 200 and magic defense by 40%",
             "Lasts 6 seconds",
             "Chain - Flash Step (available for 4 seconds)"
@@ -4283,6 +4283,122 @@
             "Increases magic damage taken (Type-D) by 10%",
             "Lasts 8 seconds",
             "Cooldown: 120 seconds"
+        ]
+    },
+    {
+        "name": "Combo Mastery",
+        "heroClass": "Fighter",
+        "color": "c1c6c9",
+        "hotkey": "[D]",
+        "icon": "FighterD",
+        "passive": [
+            "Lands your attacks with a flow.",
+            "Landing 3 hits in a row restores 1 energy and activates a special effect",
+            "If same move was repeated: Increases attack damage by 20% for 4 seconds (stacks up to 3 times)",
+            "If no move was repeated in a row: Empowers next move"
+        ]
+    },
+    {
+        "name": "Swing",
+        "heroClass": "Fighter",
+        "color": "f1ae9d",
+        "hotkey": "[A]",
+        "icon": "FighterA",
+        "active": [
+            "Attack once, ignoring 50% of target's armor",
+            "3rd hit deals 200% damage",
+            "Empowered: Restores 1 energy"
+        ]
+    },
+    {
+        "name": "Skull Pounder",
+        "heroClass": "Fighter",
+        "color": "9e8e83",
+        "hotkey": "[Q]",
+        "icon": "FighterQ",
+        "active": [
+            "Strikes down hard with a force strong enough to crack skulls.",
+            "Attack Damage X 400% magic damage",
+            "STR X 25 bonus damage",
+            "If target is CRACKED, cooldown is reset",
+            "If target is SHATTERED, consumes it to deal 300% damage",
+            "Empowered: Deals 400% damage and if target is CRACKED, has 30% chance to leave it SHATTERED for 6 seconds"
+        ]
+    },
+    {
+        "name": "Footwork",
+        "heroClass": "Fighter",
+        "color": "c2d4df",
+        "hotkey": "[W]",
+        "icon": "FighterW",
+        "active": [
+            "Quickly steps back.",
+            "Moves 300 distance back",
+            "Next attack allows you to dash to target and ignore 100% of its armor",
+            "Reduce target's movement speed by 75% for 2 seconds",
+            "Does not activate 'on skill cast' effects",
+            "Empowered: Deals 200% damage and has 20% chance to leave target CRACKED for 6 seconds"
+        ]
+    },
+    {
+        "name": "Chain Blow",
+        "heroClass": "Fighter",
+        "color": "efcd5c",
+        "hotkey": "[E]",
+        "icon": "FighterE",
+        "passive": [
+            "Attacks your target relentlessly.",
+            "If activating a combo different from before, your skills deal 4% increased damage for 5 seconds (stacks up to 10 times)",
+            "25% chance to enable casting the active skill once during next combo",
+            "If target is SHATTERED, you can cast the active skill infinitely without losing your stacks"
+        ],
+        "active": [
+            "Attack Damage X 1250% magic damage",
+            "Empowered: Increases target's damage taken by 5% for 15 seconds and deal STR X 10 magic damage every second"
+        ]
+    },
+    {
+        "name": "Iron Body",
+        "heroClass": "Fighter",
+        "color": "9e8e83",
+        "hotkey": "[R]",
+        "icon": "FighterR",
+        "passive": [
+            "Strengthens your body.",
+            "Reduces damage taken by 30%"
+        ],
+        "active": [
+            "Temporarily hardens your muscle as strong as steel.",
+            "Absorbs 70% of damage taken up to 1.5 seconds",
+            "HP does not drop below 1",
+            "Immune to CC effects"
+        ]
+    },
+    {
+        "name": "Dragon Fist",
+        "heroClass": "Fighter",
+        "color": "ff7e6a",
+        "hotkey": "[T]",
+        "icon": "FighterT",
+        "active": [
+            "Gathers energy into your fist to release a powerful strike.",
+            "Attack Damage X 3000% magic damage",
+            "STR X 200 bonus damage",
+            "Empowered: Deals up to 200% damage based on travelled distance"
+        ]
+    },
+    {
+        "name": "Takedown",
+        "heroClass": "Fighter",
+        "color": "d15e2c",
+        "hotkey": "[F]",
+        "icon": "FighterF",
+        "active": [
+            "\"Let's wrestle!\" -Fighter",
+            "Hurls your body forward and latches onto a boss enemy",
+            "Each hit deals STR X 25 magic damage",
+            "Final hit deals STR X 425 magic damage",
+            "Pauses target while active"
         ]
     }
 ]

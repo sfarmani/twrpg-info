@@ -1,5 +1,44 @@
 [
     {
+        "name": "34d",
+        "notes": [
+            "Released on: April 26th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fighter",
+            [
+                "Fixed having reduced vision range",
+                "Fixed icons of Dragon fist (T) and Takedown (F) being swapped",
+                "Fixed actions being interrupted and hero running away when taking damage",
+                "Fixed Skull pounder (Q) being able to apply SHATTERED debuff when not empowered",
+                "Fixed screen turning yellow without Chain blow (E) spell being learned"
+            ]
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Swing (A)",
+                    [
+                        "Changed to be castable even when silenced",
+                        "Is now a non-targetting spell (last enemy hit will take priority when casted, if no enemy was hit closest enemy will take priority)",
+                        "Enemies can still be manually attaked with Combo Mastery (D) or right-clicking"
+                    ],
+                    "Footwork (W)",
+                    [
+                        "No longer activates on-spellcast effects (added to spells description)"
+                    ],
+                    "Iron Body (R)",
+                    [
+                        "Duration buffed from 1 second to 1.5 seconds",
+                        "Can now be casted again to end effect manually"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "34c",
         "notes": [
             "Released on: April 25th, 2020",
