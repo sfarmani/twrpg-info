@@ -1,5 +1,37 @@
 [
     {
+        "name": "34f",
+        "notes": [
+            "Released on: April 27th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fighter - Extra fix for desyncs"
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Skull Pounder (Q)",
+                    [
+                        "Damage: Attack damage X 5 + STR X 30 → Attack damage X 5 + STR X 25",
+                        "Debuff consumption: 250% → 200%"
+                    ],
+                    "Chain Blow (E)",
+                    [
+                        "Damage: Attack damage X 7.5 + STR X 40 → Attack damage X 4 + STR X 40",
+                        "Activation change: 30% → 25%",
+                        "Can only be activated once during the next combo → Can be activated once for 2.5 seconds"
+                    ],
+                    "Takedown (F)",
+                    [
+                        "Final damage: STR X 425 → STR X 525"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "34e",
         "notes": [
             "Released on: April 26th, 2020",
