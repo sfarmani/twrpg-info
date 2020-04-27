@@ -4319,9 +4319,9 @@
         "active": [
             "Strikes down hard with a force strong enough to crack skulls.",
             "Attack Damage X 500% magic damage",
-            "STR X 30 bonus damage",
+            "STR X 25 bonus damage",
             "If target is CRACKED, cooldown is reset",
-            "If target is SHATTERED, consumes it to deal 250% damage",
+            "If target is SHATTERED, consumes it to deal 200% damage",
             "Empowered: Deals 400% damage and if target is CRACKED, has 40% chance to leave it SHATTERED for 5 seconds"
         ]
     },
@@ -4349,11 +4349,11 @@
         "passive": [
             "Attacks your target relentlessly.",
             "If activating a combo different from before, your skills deal 5% increased damage for 5 seconds (stacks up to 10 times)",
-            "30% chance to enable casting the active skill once during next combo",
-            "If target is SHATTERED, you can cast the active skill infinitely without losing your stacks"
+            "25% chance to enable activation once within next 2.5 seconds",
+            "If target is SHATTERED, you can continuously activate the skill without losing stacks"
         ],
         "active": [
-            "Attack Damage X 750% magic damage",
+            "Attack Damage X 400% magic damage",
             "STR X 40 bonus damage",
             "Empowered: Increases target's damage taken by 5% for 15 seconds and deal STR X 15 magic damage every second",
             "Cooldown: 0.25 seconds"
@@ -4399,7 +4399,7 @@
             "\"Let's wrestle!\" -Fighter",
             "Hurls your body forward and latches onto a boss enemy",
             "Each hit deals STR X 25 magic damage",
-            "Final hit deals STR X 425 magic damage",
+            "Final hit deals STR X 525 magic damage",
             "Pauses target while active"
         ]
     }
