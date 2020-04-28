@@ -3189,7 +3189,10 @@
             "One orb is generated automatically every 3 seconds"
         ],
         "active": [
-            "Materialize mana into an orb."
+            "Materialize mana into an orb.",
+            "If 3 orbs are charged, it sends all 3 orbs to target location with each orb dealing 400% max MP",
+            "If Release Mana is toggled on, each orb slows target movement speed by 50% for 3 seconds",
+            "If Release Mana is toggled off, each orb stuns target."
         ]
     },
     {
