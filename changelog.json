@@ -1,5 +1,24 @@
 [
     {
+        "name": "34h",
+        "notes": [
+            "Released on: April 29th",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fighter - Fixed a gap bug",
+            "Fighter - Sound effects temporarily disabled"
+        ],
+        "items": [
+            {
+                "name": "Griseus, the Sword of Protection",
+                "changes": [
+                    "Greatsword → Bastard Sword"
+                ]
+            }
+        ]
+    },
+    {
         "name": "34g",
         "notes": [
             "Released on: April 28th, 2020",
