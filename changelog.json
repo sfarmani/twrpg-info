@@ -1,5 +1,80 @@
 [
     {
+        "name": "34g",
+        "notes": [
+            "Released on: April 28th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fighter - Fixed a bug where text and skill effects remained when multiple Figthers were in the same game",
+            "Desync issues caused by Fighter are still happening. In the event that a desync happens to you, it would be very helpful if you posted the replay as that would help with solving the issues"
+        ],
+        "items": [
+            {
+                "name": "Griseus, the Sword of Protection",
+                "changes": [
+                    "Reworked"
+                ]
+            },
+            {
+                "name": "Atricia, the Sword of Dreams",
+                "changes": [
+                    "Fragment of Chaos removed from recipe"
+                ]
+            },
+            {
+                "name": "Horn of God",
+                "changes": [
+                    "Purified Water of Nature removed from recipe"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Elder Ent",
+                "changes": [
+                    "Ring of the Storm / Griseus, the Sword of Protection droprate: 0.5% → 0.75%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Swing (A)",
+                    [
+                        "Damage taken: 75% → 50%",
+                        "3 hit damage: 150% → 200%"
+                    ],
+                    "Combo Mastery (D)",
+                    [
+                        "Attack damage per stack: 15% → 20%",
+                        "If you do not meet of othe two conditions specified in the description, recover energy and activate Chain Blow's effect"
+                    ],
+                    "Footwork (W)",
+                    [
+                        "Empowered damage: 200% → 300%"
+                    ],
+                    "Chain Blow (E)",
+                    [
+                        "Empowered debuff",
+                        [
+                            "Damage: 5% → 6%",
+                            "Damage per second: STR X 15 → STR X 20, sustained damage increases and Chain Blow's passive skill damage increases",
+                            "Duration: 15 seconds → 12 seconds"
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Wallachia area",
+            [
+                "Added a shortcut to castle"
+            ]
+        ]
+    },
+    {
         "name": "34f",
         "notes": [
             "Released on: April 27th, 2020",

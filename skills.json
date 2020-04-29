@@ -4296,8 +4296,8 @@
         "icon": "FighterD",
         "passive": [
             "Lands your attacks with a flow.",
-            "Landing 3 hits in a row restores 1 energy and activates a special effect",
-            "If same move was repeated: Increases attack damage by 15% for 4 seconds (stacks up to 3 times)",
+            "If you land 3 hits in a row and fulfill one of the conditions below, restores 1 energy and activates combo effect",
+            "If same move was repeated: Increases attack damage by 20% for 4 seconds (stacks up to 3 times)",
             "If no move was repeated in a row: Empowers next move"
         ]
     },
@@ -4308,9 +4308,9 @@
         "hotkey": "[A]",
         "icon": "FighterA",
         "active": [
-            "Attack once, ignoring 50% of target's armor",
-            "3rd hit deals 150% damage",
-            "Empowered: Restores 1 energy"
+            "Attack Damage X 50% physical damage",
+            "Ignores 100% of target's armor",
+            "Empowered: Deals 300% damage and has 20% chance to leave target CRACKED for 6 seconds"
         ]
     },
     {
@@ -4340,7 +4340,7 @@
             "Next attack allows you to dash to target and ignore 100% of its armor",
             "Reduce target's movement speed by 75% for 2 seconds",
             "Does not activate 'on skill cast' effects",
-            "Empowered: Deals 200% damage and has 20% chance to leave target CRACKED for 6 seconds"
+            "Empowered: Deals 300% damage and has 20% chance to leave target CRACKED for 6 seconds"
         ]
     },
     {
@@ -4358,7 +4358,7 @@
         "active": [
             "Attack Damage X 400% magic damage",
             "STR X 40 bonus damage",
-            "Empowered: Increases target's damage taken by 5% for 15 seconds and deal STR X 15 magic damage every second",
+            "Empowered: Increases target's damage taken by 6% for 12 seconds and deal STR X 20 magic damage every second",
             "Cooldown: 0.25 seconds"
         ]
     },

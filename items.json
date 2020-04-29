@@ -6452,7 +6452,6 @@
       "Prophetia, the Greater Source of Mana",
       "Crown of Rage",
       "Creation of the Sky and Earth",
-      "Horn of God",
       "Frost Fairy Wings",
       "Ring of Composure",
       "Druid's Mantle",
@@ -6559,23 +6558,23 @@
     "color": "C71585",
     "level": 380,
     "notes": [
-      "Elder Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%)"
+      "Elder Ent: Upon failure, droprate is reduced by 80% (0.75% → 0.15%)"
     ],
-    "droprate": 0.005,
+    "droprate": 0.0075,
     "required_by": [
       "Oceanus, the Sword of Light",
       "Winter's Heart",
       "Ancient Ent Icon"
     ],
     "stats": {
-      "damage": 20500,
-      "strength": 1550,
-      "intelligence": 950,
+      "damage": 21500,
+      "mainstat": 800,
+      "allstat": 800,
       "dtpercent": -0.08,
       "active": [
-        "On use, activates Ethereal Strike which deals (max MP X 3) pure damage and destroys any shield effects on target enemy",
-        "If an ally is hit: grants the target a (max HP X 20%) shield for 5 seconds",
-        "Cooldown: 30 seconds, cannot be dropped during cooldown"
+        "On use, activates Ethereal Strike that (max MP X 2) magic damage and stuns for 1 second if target is enemy",
+        "If an ally is hit: heals the target for (max HP X 25%)",
+        "Cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     },
     "koreanname": "수호의 검 그리세우스"
@@ -6591,9 +6590,9 @@
     "color": "C71585",
     "level": 380,
     "notes": [
-      "Elder Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%)"
+      "Elder Ent: Upon failure, droprate is reduced by 80% (0.75% → 0.15%)"
     ],
-    "droprate": 0.005,
+    "droprate": 0.0075,
     "required_by": [
       "Latea, the Ring of Overlord",
       "Hydro Buster",
@@ -7140,7 +7139,6 @@
     "color": "FFFFFF",
     "droprate": 0.006,
     "required_by": [
-      "Atricia, the Sword of Dreams",
       "Protection of the Fairies",
       "Archangel Wings",
       "Nebula Rose",
@@ -12305,7 +12303,6 @@
         "Steel of God": 1
       },
       {
-        "Fragment of Chaos": 1,
         "Spearhead of Death": 1
       }
     ],
@@ -15841,7 +15838,6 @@
         "Azathos, the Pipe of Chaos": 1
       },
       {
-        "Purified Water of Nature": 1,
         "Fragment of the Wind": 1
       },
       {
