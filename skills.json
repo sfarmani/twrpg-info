@@ -4308,9 +4308,11 @@
         "hotkey": "[A]",
         "icon": "FighterA",
         "active": [
+            "Swings your arm forward.",
             "Attack Damage X 50% physical damage",
-            "Ignores 100% of target's armor",
-            "Empowered: Deals 300% damage and has 20% chance to leave target CRACKED for 6 seconds"
+            "Ignores 50% of target's armor",
+            "3rd hit deals 200% damage",
+            "Empowered: Restores 1 energy"
         ]
     },
     {

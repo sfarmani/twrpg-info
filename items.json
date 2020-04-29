@@ -6572,7 +6572,7 @@
       "allstat": 800,
       "dtpercent": -0.08,
       "active": [
-        "On use, activates Ethereal Strike that (max MP X 2) magic damage and stuns for 1 second if target is enemy",
+        "On use, activates Ethereal Strike that (max MP X 2) pure damage and stuns for 1 second if target is enemy",
         "If an ally is hit: heals the target for (max HP X 25%)",
         "Cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
