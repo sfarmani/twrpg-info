@@ -1344,7 +1344,7 @@
       "damage": 2620,
       "agility": 390,
       "passive": [
-        "~20.8% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
+        "20% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
       ]
     }
   },
@@ -1363,7 +1363,7 @@
       "damage": 1800,
       "agility": 360,
       "passive": [
-        "~20.8% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
+        "20% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
       ]
     }
   },
@@ -1382,7 +1382,7 @@
       "damage": 3100,
       "strength": 260,
       "passive": [
-        "~20.8% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
+        "20% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
       ]
     }
   },
@@ -1421,7 +1421,7 @@
       "damage": 2600,
       "agility": 290,
       "passive": [
-        "~20.8% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
+        "20% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
       ]
     }
   },
@@ -1442,7 +1442,7 @@
       "damage": 3900,
       "agility": 220,
       "passive": [
-        "~20.8% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
+        "20% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
       ]
     },
     "koreanname": "심해의 소총"
@@ -2735,7 +2735,7 @@
       "damage": 7400,
       "strength": 620,
       "passive": [
-        "~10.9% Chance to activate Dragon's Claw on attack dealing (4500 + MAIN STAT X 2.5) magic damage"
+        "10% Chance to activate Dragon's Claw on attack dealing (4500 + MAIN STAT X 2.5) magic damage"
       ]
     },
     "koreanname": "용검 라인하르트"
@@ -2758,7 +2758,7 @@
       "damage": 8400,
       "agility": 540,
       "passive": [
-        "~10.9% Chance to activate Dragon's Claws on attack dealing (4500 + MAIN STAT X 2.5) magic damage on attack"
+        "10% Chance to activate Dragon's Claws on attack dealing (4500 + MAIN STAT X 2.5) magic damage on attack"
       ]
     },
     "koreanname": "용궁 에이엔스"
@@ -2805,7 +2805,7 @@
       "damage": 12800,
       "agility": 570,
       "passive": [
-        "~10.9% Chance to activate Dragon's Claws on attack dealing (4500 + MAIN STAT X 2.5) magic damage on attack"
+        "10% Chance to activate Dragon's Claws on attack dealing (4500 + MAIN STAT X 2.5) magic damage on attack"
       ]
     },
     "koreanname": "용포 벨레누스"
@@ -2970,7 +2970,7 @@
       "damage": 9500,
       "strength": 700,
       "passive": [
-        "~10.9% Chance to create Flame Explosion on attack dealing (12000 + STR X 9) magic damage",
+        "10% Chance to create Flame Explosion on attack dealing (12000 + STR X 9) magic damage",
         "Damage is affected by flame affinity"
       ]
     }
@@ -2993,7 +2993,7 @@
       "damage": 8500,
       "agility": 800,
       "passive": [
-        "~10.9% Chance to strike down lightning on attack dealing (12000 + AGI X 5) magic damage",
+        "10% Chance to strike down lightning on attack dealing (12000 + AGI X 5) magic damage",
         "Damage is affected by wind/lightning affinity"
       ]
     }
@@ -3300,8 +3300,8 @@
       "damage": 9000,
       "strength": 850,
       "passive": [
-        "IF main stat is STR: ~10.9% Chance to activate Holy Strike on attack dealing (STR X 12) magic damage",
-        "IF main stat is AGI or INT: ~10.9% Chance to activate Holy Strike on attack dealing (AGI X 12) magic damage"
+        "IF main stat is STR: 10% Chance to activate Holy Strike on attack dealing (STR X 12) magic damage",
+        "IF main stat is AGI or INT: 10% Chance to activate Holy Strike on attack dealing (AGI X 12) magic damage"
       ]
     },
     "koreanname": "성검 카론프니엠"
@@ -3348,8 +3348,8 @@
       "damage": 11000,
       "agility": 740,
       "passive": [
-        "IF main stat is STR: ~10.9% Chance to activate Holy Bullet on attack dealing (STR X 12) magic damage",
-        "IF main stat is AGI or INT: ~10.9% Chance to activate Holy Bullet on attack dealing (AGI X 12) magic damage"
+        "IF main stat is STR: 10% Chance to activate Holy Bullet on attack dealing (STR X 12) magic damage",
+        "IF main stat is AGI or INT: 10% Chance to activate Holy Bullet on attack dealing (AGI X 12) magic damage"
       ]
     },
     "koreanname": "성포 이아나"
@@ -3374,7 +3374,7 @@
       "strength": 400,
       "agility": 400,
       "passive": [
-        "~10.9% Chance to create a barrier of 10000 armor on being hit for 4 seconds",
+        "10% Chance to create a barrier of 10000 armor on being hit for 4 seconds",
         "Cooldown: 12 seconds"
       ]
     },
@@ -3531,7 +3531,7 @@
       "damage": 8500,
       "agility": 900,
       "passive": [
-        "~10.9% Chance to activate Dark Strike on attack dealing (12 X AGI) magic damage"
+        "10% Chance to activate Dark Strike on attack dealing (12 X AGI) magic damage"
       ]
     },
     "koreanname": "마검 엑시멜리아"
@@ -3557,7 +3557,7 @@
       "agility": 500,
       "skilldamagepercent": 0.025,
       "passive": [
-        "~12.9% Chance to reduce attacker's armor by 125 for 5 seconds on being hit"
+        "12% Chance to reduce attacker's armor by 125 for 5 seconds on being hit"
       ]
     },
     "koreanname": "마갑 데카로스"
@@ -3581,7 +3581,7 @@
       "damage": 9500,
       "agility": 850,
       "passive": [
-        "~10.9% Chance to activate Dark Spike on attack dealing (AGI X 12) magic damage"
+        "12% Chance to activate Dark Spike on attack dealing (AGI X 12) magic damage"
       ]
     },
     "koreanname": "마궁 알카테"
@@ -3802,7 +3802,7 @@
       "strength": 1250,
       "critmultiplier": 0.15,
       "passive": [
-        "~13.9% Chance to activate Frost effect on attack",
+        "13% Chance to activate Frost effect on attack",
         "Deals (main stat X 12) magic damage and reduces enemy's movement speed by 20% for 3 seconds"
       ]
     },
@@ -3827,7 +3827,7 @@
       "agility": 1375,
       "affinityiwpercent": 0.05,
       "passive": [
-        "~13.9% Chance to activate Frost effect on attack",
+        "13% Chance to activate Frost effect on attack",
         "Deals (main stat X 12) magic damage and reduces enemy's movement speed by 20% for 3 seconds"
       ]
     },
@@ -4731,7 +4731,7 @@
       "damage": 6500,
       "agility": 410,
       "passive": [
-        "~14.9% Chance to activate Explosion on attack dealing (AGI X 10) magic splash damage"
+        "14% Chance to activate Explosion on attack dealing (AGI X 10) magic splash damage"
       ]
     },
     "koreanname": "블래스터"
@@ -5073,7 +5073,7 @@
       "attackspeedpercent": 0.2,
       "skilldamagepercent": 0.03,
       "passive": [
-        "~14.9% Chance to corrupt enemies in frontal cone on attack dealing (STR X 15) magic damage"
+        "14% Chance to corrupt enemies in frontal cone on attack dealing (STR X 15) magic damage"
       ]
     },
     "koreanname": "커럽터"
@@ -5444,7 +5444,7 @@
       "agility": 1800,
       "critchancepercent": 0.05,
       "passive": [
-        "~20.8% Chance to activate Burning Wrath on attack that causes 5 explosions on target over 2.5 seconds",
+        "20% Chance to activate Burning Wrath on attack that causes 5 explosions on target over 2.5 seconds",
         "Each explosion deals (AGI X 20) magic damage to enemies in a 325 radius around target",
         "Restores 1% HP per explosion for a total of 5% max HP",
         "Cooldown: 10 seconds, cannot be dropped during cooldown"
@@ -5875,7 +5875,7 @@
       "agility": 1675,
       "critmultiplier": 0.2,
       "passive": [
-        "~12.9% Chance to activate Strike of Malice on attack dealing (main stat X 35) magic damage"
+        "12% Chance to activate Strike of Malice on attack dealing (main stat X 35) magic damage"
       ],
       "active": [
         "On use, activates Soul Reaper dealing (main stat X 150) magic damage and slowing target's movement speed by 50%",
@@ -9117,7 +9117,7 @@
       "strength": 1020,
       "skilldamagepercent": 0.04,
       "passive": [
-        "~10.9% Chance to activate Dragon's Strike on attack dealing (15000 + main stat X 10) magic damage"
+        "10% Chance to activate Dragon's Strike on attack dealing (15000 + main stat X 10) magic damage"
       ]
     }
   },
@@ -9186,7 +9186,7 @@
       "damage": 12800,
       "agility": 940,
       "passive": [
-        "~10.9% Chance to activate Dragon's Strike on each attack dealing (15000 + main stat X 10) magic damage"
+        "10% Chance to activate Dragon's Strike on each attack dealing (15000 + main stat X 10) magic damage"
       ]
     }
   },
@@ -9220,7 +9220,7 @@
       "agility": 960,
       "skilldamagepercent": 0.04,
       "passive": [
-        "~10.9% Chance to activate Dragon's Breath on attack dealing (15000 + main stat X 10) magic damage"
+        "10% Chance to activate Dragon's Breath on attack dealing (15000 + main stat X 10) magic damage"
       ]
     }
   },
@@ -9385,9 +9385,7 @@
       "intelligence": 1240,
       "hp": 3000,
       "passive": [
-        "On skill cast, empower nearby allies for 4 seconds. Allies receive:",
-        "+6% skill damage",
-        "+150 HP regen"
+        "On skill cast, empower nearby allies with 6% skill damage and 150 HP regen for 4 seconds"
       ]
     }
   },
@@ -9425,7 +9423,7 @@
       "agility": 790,
       "hpregen": 100,
       "passive": [
-        "20% Chance to activate Devour on attack dealing (attack damage X 2) damage and heals user 1000 HP"
+        "20% Chance to activate Devour on attack causing your attack to hit twice in a splash radius and as pure damage"
       ]
     }
   },
@@ -9436,7 +9434,7 @@
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Longsword]",
     "color": "BA55D3",
-    "level": 300,
+    "level": 200,
     "recipe": [
       {
         "Bloodsword Tepethia": 1
@@ -9458,7 +9456,7 @@
       "damage": 7600,
       "agility": 840,
       "passive": [
-        "On attack, drains 18% of damage dealt as life (up to 1500)"
+        "On attack, heals for 18% of damage dealt (max 1500)"
       ]
     }
   },
@@ -9469,7 +9467,7 @@
     "description": "Resignation is what kills people. Once they've rejected resignation, humans gain the privilege of making humanity their footpath.",
     "type": "[Greatsword]",
     "color": "BA55D3",
-    "level": 300,
+    "level": 200,
     "recipe": [
       {
         "Sanguiel, the Bloodspear": 1
@@ -9492,7 +9490,7 @@
       "strength": 680,
       "attackspeedpercent": 0.15,
       "passive": [
-        "On attack, drains 14% of damage dealt as life (up to 1250)"
+        "On attack, heals 14% of damage dealt (max 1250)"
       ]
     }
   },
@@ -9533,9 +9531,7 @@
       "intelligence": 1890,
       "hp": 4500,
       "passive": [
-        "On skill cast, empower nearby allies for 6 seconds. Allies receive:",
-        "+7.5% skill damage",
-        "+200 HP regen"
+        "On skill cast, empower nearby allies with 7.5% skill damage and 200 HP regen for 6 seconds"
       ]
     }
   },
@@ -9605,7 +9601,7 @@
       "intelligence": 610,
       "hp": 2500,
       "passive": [
-        "On attack, drains 18% of damage dealt as life (up to 1500)"
+        "On attack, heals 18% of damage dealt (max 1500)"
       ]
     }
   },
@@ -9640,8 +9636,7 @@
       "attackspeedpercent": -0.15,
       "skilldamagepercent": 0.045,
       "passive": [
-        "~10.9% Chance to activate Conflgration on attack dealing (16000 + STR X 12) magic damage",
-        "Damage is affected by flame affinity"
+        "10% Chance to activate Conflagration on attack dealing ((16000 + STR X 12) X flame affinity) magic damage"
       ]
     }
   },
@@ -9802,7 +9797,7 @@
       "agility": 1450,
       "skilldamagepercent": 0.035,
       "passive": [
-        "~10.9% Chance to activate Dark Strike on attack dealing AGI X 12 magic damage"
+        "10% Chance to activate Dark Strike on attack dealing AGI X 12 magic damage"
       ]
     }
   },
