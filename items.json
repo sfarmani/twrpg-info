@@ -5073,7 +5073,7 @@
       "attackspeedpercent": 0.2,
       "skilldamagepercent": 0.03,
       "passive": [
-        "14% Chance to corrupt enemies in frontal cone on attack dealing (STR X 15) magic damage"
+        "25% Chance to corrupt enemies in frontal cone on attack dealing (STR X 40) magic damage and reducing their armor by 175 for 6 seconds"
       ]
     },
     "koreanname": "커럽터"
@@ -6641,7 +6641,8 @@
       "skilldamagepercent": 0.05,
       "passive": [
         "Resonates with nearby allies to become stronger",
-        "For each ally nearby, the user gains +1750 attack damage and +1% skill damage"
+        "For each ally nearby, the user gains +1750 attack damage and +1% skill damage",
+        "12% chance to deal (main stat X 37.5) magic damage"
       ]
     },
     "koreanname": "애증의 검 르반테"

@@ -23,12 +23,12 @@
         "passive": [
             "Infuses the spirit of lightning into your arrows.",
             "On every 4th attack, deals AGI X 20 magic damage and stores a charge of lightning",
-            "Increases AGI by 5% and attack speed by 15% for 8 seconds",
+            "Increases AGI by 5% and attack speed by 15% for 10 seconds",
             "Stacks up to 4 times"
         ],
         "active": [
             "Fires an arrow that pierces the wind.",
-            "Attack Damage X 1000% damage",
+            "Attack Damage X 750% damage",
             "Reduces target's movement speed by 50% for 2 seconds",
             "Consumes lightning charges to deal 75% bonus damage per consumed charge"
         ]
