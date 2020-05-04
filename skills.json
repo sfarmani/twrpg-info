@@ -60,7 +60,7 @@
             "Pushes enemies outward",
             "Gains maximum charges of lightning",
             "Decreases damage dealt from outside the barrier up to 80% based on distance from attacker",
-            "Lasts 12 seconds",
+            "Lasts 5 seconds",
             "Cooldown: 25 seconds"
         ]
     },
