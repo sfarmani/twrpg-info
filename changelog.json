@@ -1,5 +1,44 @@
 [
     {
+        "name": "34j",
+        "notes": [
+            "Released on: May 4th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fighter - Fixed some more desync/crash-related bugs"
+        ],
+        "monsters": [
+            {
+                "name": "Guardian Angels",
+                "changes": [
+                    "Summon cost: 2 holy powders → 1 holy powder"
+                ]
+            },
+            {
+                "name": "Archangel Samael",
+                "changes": [
+                    "Summon cost: 2 holy powders → 3 holy powders"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Combo Mastery (D)",
+                    [
+                        "Attack damage: buff duration: 4 seconds → 5 seconds (same as Chain Blow (E) buff duration)"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Slightly reduced size of Bone Dragon's Hellspikes",
+            "Corrected some item descriptions"
+        ]
+    },
+    {
         "name": "34h",
         "notes": [
             "Released on: April 29th",

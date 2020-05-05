@@ -452,7 +452,7 @@
         "limit": "None",
         "manacost": "1",
         "summon": "In mining cave located in the west part of Mining Town",
-        "conditions": "Level 200 and 2x Holy Powders",
+        "conditions": "Level 200 and 1x Holy Powders",
         "drops": [
             "I085",
             "I087",
@@ -803,7 +803,7 @@
         "limit": "None",
         "manacost": "4",
         "summon": "In Castle Avalon, fighting area of Guardian Angels",
-        "conditions": "Level 200, Guardian Angels defeated, and 2x Holy Powders",
+        "conditions": "Level 200, Guardian Angels defeated, and 3x Holy Powders",
         "drops": [
             "I0MN",
             "I0MP",

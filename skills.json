@@ -4297,7 +4297,7 @@
         "passive": [
             "Lands your attacks with a flow.",
             "If you land 3 hits in a row and fulfill one of the conditions below, restores 1 energy and activates combo effect",
-            "If same move was repeated: Increases attack damage by 20% for 4 seconds (stacks up to 3 times)",
+            "If same move was repeated: Increases attack damage by 20% for 5 seconds (stacks up to 3 times)",
             "If no move was repeated in a row: Empowers next move"
         ]
     },
