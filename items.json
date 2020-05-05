@@ -10827,7 +10827,7 @@
       "agility": 1675,
       "skilldamagepercent": 0.03,
       "passive": [
-        "~15.8% Chance to activate Chaos Bullet on attack dealing (AGI X 15) magic damage"
+        "15% Chance to activate Chaos Bullet on attack dealing ((AGI + STR) X 15) magic damage"
       ]
     }
   },
