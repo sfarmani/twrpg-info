@@ -2735,7 +2735,7 @@
       "damage": 7400,
       "strength": 620,
       "passive": [
-        "10% Chance to activate Dragon's Claw on attack dealing (4500 + MAIN STAT X 2.5) magic damage"
+        "10% Chance to activate Dragon's Claw on attack dealing (4500 + main stat X 2.5) magic damage"
       ]
     },
     "koreanname": "용검 라인하르트"
@@ -2758,7 +2758,7 @@
       "damage": 8400,
       "agility": 540,
       "passive": [
-        "10% Chance to activate Dragon's Claws on attack dealing (4500 + MAIN STAT X 2.5) magic damage on attack"
+        "10% Chance to activate Dragon's Claws on attack dealing (4500 + main stat X 2.5) magic damage on attack"
       ]
     },
     "koreanname": "용궁 에이엔스"
@@ -2805,7 +2805,7 @@
       "damage": 12800,
       "agility": 570,
       "passive": [
-        "10% Chance to activate Dragon's Claws on attack dealing (4500 + MAIN STAT X 2.5) magic damage on attack"
+        "10% Chance to activate Dragon's Claws on attack dealing (4500 + main stat X 2.5) magic damage on attack"
       ]
     },
     "koreanname": "용포 벨레누스"
@@ -4193,7 +4193,7 @@
       "agility": 180,
       "dtpercent": -0.075,
       "active": [
-        "Steals target's soul on use for 5 seconds, healing hero for (max HP / 7.5) and deals (MAIN STAT X 8 + max HP / 7.5) magic damage to target",
+        "Steals target's soul on use for 5 seconds, healing hero for (max HP / 7.5) and deals (main stat X 8 + max HP / 7.5) magic damage to target",
         "If target dies while draining, grants 350 AGI for 5 minutes",
         "Cooldown: 150 seconds, cannot be dropped during cooldown"
       ]
@@ -4434,7 +4434,7 @@
       "active": [
         "Calls a refreshing wave upon use",
         "If unit hit with wave is ally, heals for 3000 HP",
-        "If unit hit with wave is enemy, deals (MAIN STAT X 25) + 4000 magic damage",
+        "If unit hit with wave is enemy, deals (main stat X 25) + 4000 magic damage",
         "Cooldown: 120 seconds"
       ]
     },
@@ -4756,7 +4756,7 @@
       "agility": 275,
       "critmultiplier": 0.2,
       "passive": [
-        "12.5% Chance to activate Wrath on skill cast dealing (MAIN STAT X 40) magic splash damage and stuns for 1 second"
+        "12.5% Chance to activate Wrath on skill cast dealing (main stat X 40) magic splash damage and stuns for 1 second"
       ]
     },
     "koreanname": "작은 분노의 조각"
@@ -4808,9 +4808,9 @@
       "critmultiplier": 0.15,
       "passive": [
         "Activates Unleash every 14th attack",
-        "Red Wrath: deals (MAIN STAT X 22.5) magic splash damage",
-        "Green Wrath: reduces target movement and attack speed by 66% for 3 seconds, deals (MAIN STAT X 12.5) magic splash damage, and stuns non-boss units for 0.25 seconds",
-        "Blue Wrath: heals user for (MAIN STAT + 3000) HP and (current MP + (max MP X 15%)) MP"
+        "Red Wrath: deals (main stat X 22.5) magic splash damage",
+        "Green Wrath: reduces target movement and attack speed by 66% for 3 seconds, deals (main stat X 12.5) magic splash damage, and stuns non-boss units for 0.25 seconds",
+        "Blue Wrath: heals user for (main stat + 3000) HP and (current MP + (max MP X 15%)) MP"
       ]
     },
     "koreanname": "진혼검"
@@ -4837,9 +4837,9 @@
       "skilldamagepercent": 0.04,
       "passive": [
         "Activates Unleash every 14th attack",
-        "Red Wrath: deals (MAIN STAT X 22.5) magic splash damage",
-        "Green Wrath: reduces target movement and attack speed by 66% for 3 seconds, deals (MAIN STAT X 12.5) magic splash damage, and stuns non-boss units for 0.25 seconds",
-        "Blue Wrath: heals user for (MAIN STAT + 3000) HP and (current MP + (max MP X 15%)) MP"
+        "Red Wrath: deals (main stat X 22.5) magic splash damage",
+        "Green Wrath: reduces target movement and attack speed by 66% for 3 seconds, deals (main stat X 12.5) magic splash damage, and stuns non-boss units for 0.25 seconds",
+        "Blue Wrath: heals user for (main stat + 3000) HP and (current MP + (max MP X 15%)) MP"
       ]
     },
     "koreanname": "진혼궁"
@@ -11639,10 +11639,10 @@
       "agility": 1080,
       "skilldamagepercent": 0.12,
       "passive": [
-        "(HIT COUNT X 0.2) + 8)% chance to activate Grace Tear on attack dealing ((MAIN STAT X 32.5) + (ATTACK DAMAGE X 7.5)) magic splash damage and stuns for 0.1 seconds"
+        "(HIT COUNT X 0.2) + 8)% chance to activate Grace Tear on attack dealing ((main stat X 32.5) + (ATTACK DAMAGE X 7.5)) magic splash damage and stuns for 0.1 seconds"
       ],
       "active": [
-        "On use, activates Grand Forte slamming the ground 6 times around user dealing ((MAIN STAT X 130) / 12) magic damage and stunning for 0.125 seconds",
+        "On use, activates Grand Forte slamming the ground 6 times around user dealing ((main stat X 130) / 12) magic damage and stunning for 0.125 seconds",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -12082,7 +12082,10 @@
       "hp": 4000,
       "skilldamagepercent": 0.05,
       "passive": [
-        "Every 6 seconds power up next attack with Corrupt Arrow (80x Agi AoE Damage (112x agi for sniper), and heals you for 10% of max Health)"
+        "Empowers next attack with Corrupt Arrow every 6 seconds",
+        "Corrupt Arrow deals (AGI X 120) magic damage to target and (AGI X 80) magic damage to enemies around the target",
+        "Also it heals user for 15% max HP",
+        "Cooldown: 20 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Heartseeker",
@@ -12125,7 +12128,7 @@
       "hp": 3250,
       "skilldamagepercent": 0.09,
       "passive": [
-        "'Soul Rip' 1/13 chance to activate on attack dealing (50x AGI [70 x AGI for Snipers]) magic damage"
+        "10% Chance to activate Soul Reaping on attack dealing (main stat X 50) magic damage"
       ],
       "spec": [
         "Specialty - Cursed Arrow",
@@ -12134,7 +12137,7 @@
     }
   },
   {
-    "id": "I081",
+    "id": "kgal",
     "name": "Hellflame",
     "koreanname": "불의 장검 리오레우스",
     "description": "\" I will burn your soul away as well !! \"",
@@ -12168,7 +12171,11 @@
       "skilldamagepercent": 0.07,
       "affinityflamepercent": 0.05,
       "passive": [
-        "'Hellflame' 15% chance to activate on attack dealing (10x Agi) damage per second for 10 seconds and lowers Armor and Magic Resistance by 20 and 0.3% respectively per second for 5 seconds. Armor and MR debuff last the whole 10 seconds"
+        "15% Chance to activate Hellflame on attack that burns the target",
+        "Deals (AGI X 15) magic damage per second for 10 seconds",
+        "Reduces armor by 20 per second for 5 seconds",
+        "Reduces magic defense by 0.4% per second for 5 seconds",
+        "Debuffs last for 10 seconds"
       ],
       "spec": [
         "Specialty - Improved Explosion",
@@ -12309,7 +12316,7 @@
       "skilldamagepercent": 0.075,
       "critchancepercent": 0.075,
       "passive": [
-        "On spellcast, empowers next attack to deal (MAIN STAT X 8) pure damage, restore (MAIN STAT X 0.15), and adds stacks. Can have up to 6 stacks"
+        "On spellcast, empowers next attack to deal (main stat X 8) pure damage, restore (main stat X 0.15), and adds stacks. Can have up to 6 stacks"
       ],
       "active": [
         "Consumes all stacks and deals (50 X Mainstat X stack) damage to nearby enemies, stuns for 2 seconds, and gives 0.5 X stack seconds of 100% damage reduction and CC immunity",
@@ -12854,7 +12861,7 @@
       "skilldamagepercent": 0.06,
       "dtpercent": 0.06,
       "active": [
-        "Emanates a destructive beam with 900 range, 325 radius (Deals 100x Main Stat damage) and reduces affected enemies armor by 8% for 12 seconds (Does not stack) (150 second CD)"
+        "Emanates a destructive beam with 900 range, 325 radius (Deals 100x main stat damage) and reduces affected enemies armor by 8% for 12 seconds (Does not stack) (150 second CD)"
       ]
     }
   },
@@ -13013,7 +13020,7 @@
       "critchancepercent": 0.06,
       "dtpercent": 0.06,
       "passive": [
-        "'Flaming Charge' After moving 3000 range, deal 20x Main Stat Pure Damage on next attack. (5 second CD)"
+        "'Flaming Charge' After moving 3000 range, deal 20x main stat Pure Damage on next attack. (5 second CD)"
       ]
     }
   },
@@ -13048,7 +13055,7 @@
       "critchancepercent": 0.12,
       "dtpercent": 0.08,
       "passive": [
-        "'Shocking Charge' After moving 3000 range, deal 30x Main Stat Pure Damage on next attack. (5 second CD)"
+        "'Shocking Charge' After moving 3000 range, deal 30x main stat Pure Damage on next attack. (5 second CD)"
       ]
     }
   },
@@ -13125,7 +13132,7 @@
       "skilldamagepercent": 0.075,
       "critchancepercent": 0.075,
       "passive": [
-        "20% chance on attack to give +0.20x Critical Multiplier, 15% attack damage, and 750 Agility 1 second after proc for 6 seconds"
+        "25% chance on attack to give +0.20x Critical Multiplier, 15% attack damage, and 750 Agility 1 second after proc for 6 seconds"
       ]
     }
   },
@@ -13396,7 +13403,7 @@
       "skilldamagepercent": 0.06,
       "affinityflamepercent": 0.05,
       "active": [
-        "Consume 40% of Current Health to gain 1.25% All Stats and 2.5% Main Stat of Health consumed and increased Fire Affinity by 5% during for 15 seconds (30 second CD)"
+        "Consume 40% of Current Health to gain 1.25% All Stats and 2.5% main stat of Health consumed and increased Fire Affinity by 5% during for 15 seconds (30 second CD)"
       ]
     }
   },
@@ -13583,7 +13590,7 @@
       "intelligence": 340,
       "dtpercent": -0.06,
       "active": [
-        "'Bloodstone Form' Increase Health and Mana Regeneration by 7,500, gain 7.5% Main Stat, and get a shield for 4x Main Stat for 2 seconds (40 second CD)"
+        "'Bloodstone Form' Increase Health and Mana Regeneration by 7,500, gain 7.5% main stat, and get a shield for 4x main stat for 2 seconds (40 second CD)"
       ]
     }
   },
@@ -13733,7 +13740,7 @@
         "Block 250 Damage every hit"
       ],
       "active": [
-        "'Bloodstone Form' Increase Health and Mana Regeneration by 7,500, gain 7.5% Main Stat, and get a shield for 4x Main Stat for 2 seconds (40 second CD)"
+        "'Bloodstone Form' Increase Health and Mana Regeneration by 7,500, gain 7.5% main stat, and get a shield for 4x main stat for 2 seconds (40 second CD)"
       ]
     }
   },
@@ -14241,7 +14248,7 @@
       "dtpercent": -0.06,
       "dt": -250,
       "active": [
-        "'Blood Armor' Absorb up to (10,000 + Max Health x 20%) Damage over next 5 seconds. When damage is absorbed does 100x Main Stat to enemy, heals 20% Max Health and heals mana equal to absorbed damage. (20 second CD)"
+        "'Blood Armor' Absorb up to (10,000 + Max Health x 20%) Damage over next 5 seconds. When damage is absorbed does 100x main stat to enemy, heals 20% Max Health and heals mana equal to absorbed damage. (20 second CD)"
       ]
     }
   },
@@ -15999,7 +16006,7 @@
       "agility": 425,
       "dodgechancepercent": 0.1,
       "passive": [
-        "When casting a spell, empower next attack with darkness (5,000 + 2x Main Stat damage and heal for 2.5% max hp)"
+        "When casting a spell, empower next attack with darkness (5,000 + 2x main stat damage and heal for 2.5% max hp)"
       ]
     }
   },
@@ -16220,7 +16227,7 @@
       "agility": 625,
       "skilldamagepercent": 0.05,
       "passive": [
-        "When casting a spell, empower next attack with Fury (Does [7,500+2.5x Main Stat] Pure Damage and heals for 3% of your Max Health on next attack. 1/8 Chance to crit, doing [15,000+6x Main Stat] Pure Damage and healing for 7.5% of your Max Health on next attack)",
+        "When casting a spell, empower next attack with Fury (Does [7,500+2.5x main stat] Pure Damage and heals for 3% of your Max Health on next attack. 1/8 Chance to crit, doing [15,000+6x main stat] Pure Damage and healing for 7.5% of your Max Health on next attack)",
         "Increases Agility by 60 for 7 seconds when Fury activates"
       ]
     }
@@ -16385,7 +16392,7 @@
       "dtpercent": -0.07,
       "hpregen": 300,
       "active": [
-        "'Flame Flight' Charge to target point (Max Range 900) dealing (75x Main Stat + 5x Damage) damage to all enemies within 300 AoE of destination and stun them for 0.5 seconds (45 second CD)"
+        "'Flame Flight' Charge to target point (Max Range 900) dealing (75x main stat + 5x Damage) damage to all enemies within 300 AoE of destination and stun them for 0.5 seconds (45 second CD)"
       ],
       "spec": [
         "Specialty - Phoenix",
@@ -16479,7 +16486,7 @@
       "passive": [
         "Resurrect upon death with 40% Health and 100% Mana (180 second CD)",
         "Respawn time reduced by 40%",
-        "On death, deals 275x Main Stat to nearby enemies"
+        "On death, deals 275x main stat to nearby enemies"
       ]
     }
   },
@@ -16593,7 +16600,7 @@
       "agility": 775,
       "skilldamagepercent": 0.06,
       "passive": [
-        "When casting a spell, empower next attack with Slayer's Fury (Does [10,000+3x Main Stat] Pure Damage and heals for 4% of your Max Health on next attack. 17.5% Chance to Crit, doing [25,000+7.5x Main Stat] Pure Damage and healing for 10% of your Max Health on next attack)",
+        "When casting a spell, empower next attack with Slayer's Fury (Does [10,000+3x main stat] Pure Damage and heals for 4% of your Max Health on next attack. 17.5% Chance to Crit, doing [25,000+7.5x main stat] Pure Damage and healing for 10% of your Max Health on next attack)",
         "Increases Agility by 70 for 8 seconds when Slayer's Fury activates. When you reach 10 stacks of \"Slayer's Fury\" Skill Damage is increased by 9% (Max 10 Stacks)"
       ]
     }
@@ -17865,7 +17872,7 @@
       "mp": 7500,
       "skilldamagepercent": 0.04,
       "active": [
-        "Consumes 50% of Max Mana and for 8s grants (mana consumed/80) Main Stat and 30% Attack Speed (30s cd)"
+        "Consumes 50% of Max Mana and for 8s grants (mana consumed/80) main stat and 30% Attack Speed (30s cd)"
       ],
       "spec": [
         "Specialties - Transmission of Darkness, Forbidden Grimoire",
@@ -17907,7 +17914,7 @@
       "mp": 12500,
       "skilldamagepercent": 0.06,
       "active": [
-        "Consumes 50% of Max Mana and for 10s grants (mana consumed/60) Main Stat and 50% Attack Speed (30s cd)"
+        "Consumes 50% of Max Mana and for 10s grants (mana consumed/60) main stat and 50% Attack Speed (30s cd)"
       ],
       "spec": [
         "Specialties - Transmission of Darkness, Forbidden Grimoire",
