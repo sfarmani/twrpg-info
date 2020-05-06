@@ -20,6 +20,15 @@
                 ]
             }
         ],
+        "monsters": [
+            {
+                "name": "Chaos Elemental",
+                "changes": [
+                    "Slightly moved summoning portal below elemental tower (to prevent spawning out of bounds)",
+                    "Chaos magic stone droprate: 7.5% → 10%"
+                ]
+            }
+        ],
         "heroes": [
             {
                 "name": "Fighter",

@@ -7167,7 +7167,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.075,
+    "droprate": 0.1,
     "required_by": [
       "Tiny Essence of Storm",
       "Tiny Essence of Earth",
