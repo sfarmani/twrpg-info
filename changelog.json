@@ -1,5 +1,47 @@
 [
     {
+        "name": "34k",
+        "notes": [
+            "Released on: May 5th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Halo of judgment - Fixed stacks not working properly",
+            "Fighter - Fixed Dragon fist (T) not being usable on magic immune targets",
+            "Reaper - Fixed empowered Deaths dash (E) not procing on-spellcast effects",
+            "Death fiend - Adjusted clickbox",
+            "Death fiend - Fixed Death weavers Wave spell being invisible with Reforged graphics"
+        ],
+        "items": [
+            {
+                "name": "Splitting of Sky and Earth",
+                "changes": [
+                    "Skill damage: 15% → 12%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Chain Blow (E)",
+                    [
+                        "Passive stacks can now be reset even if target is SHATTERED"
+                    ]
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Bullet Time (T)",
+                    [
+                        "Duratio: 10 seconds → 12 seconds"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "34j",
         "notes": [
             "Released on: May 4th, 2020",
