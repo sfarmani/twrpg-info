@@ -12470,6 +12470,7 @@
     "id": "I0JY",
     "name": "Crimson Hatred",
     "koreanname": "선혈빛 증오",
+    "description": "My hatred can only be quelled by your blood ..",
     "type": "[Staff]",
     "color": "99FF99",
     "level": 400,
@@ -12501,10 +12502,11 @@
       "intelligence": 2350,
       "skilldamagepercent": 0.08,
       "passive": [
-        "On skillcast adds 250 INT and 2.5% Flame Affinity stack. Up to 5 stacks for 5 seconds"
+        "On skill cast, temporarily increases INT by 250 and flame affinity by 2.5% (stacks up to 5 times) for 5 seconds"
       ],
       "active": [
-        "Over 2 seconds bombards target with 16 projectiles, each dealing 12.5 X INT damage and mini-stuns. Damage increases up to 2.5 times based on targets missing HP"
+        "On use, activates Beam of Hatred that bombards target every 0.125 seconds dealing (INT X 15.625 X fire affinity) magic damage and stuns for 0.5 seconds for a total of 16 projectiles",
+        "Damage is increased up to 2 times based on target's missing HP"
       ]
     }
   },
