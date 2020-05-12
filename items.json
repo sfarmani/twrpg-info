@@ -7255,7 +7255,11 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.005,
+    "droprate": [
+      0.005,
+      0.0075,
+      0.01
+    ],
     "required_by": [
       "Pheles, the Bow of God",
       "Horn of God",
@@ -8561,7 +8565,7 @@
       "mdpercent": 0.12,
       "active": [
         "On use, throws Elixir",
-        "Elixir clears debuffs on consumption",
+        "Elixir restores 100% of max HP and clears debuffs on consumption",
         "Lasts 30 seconds on ground",
         "Cooldown: 15 seconds, cannot be dropped during cooldown"
       ],
@@ -10783,7 +10787,6 @@
       "damage": 23000,
       "agility": 1900,
       "attackspeedpercent": 0.2,
-      "mdpercent": -0.075,
       "passive": [
         "On attack, activates Poem of Wind, firing an additional projectile that deals (attack damage X 15%) pure damage",
         "Damage is affected by wind/lightning affinity"
@@ -11332,6 +11335,43 @@
     }
   },
   {
+    "id": "I0MY",
+    "name": "Fiend Chaser",
+    "koreanname": "핀드 체이서",
+    "description": "준비되었다. 이제 데스 핀드를 쫓으러 가자.",
+    "type": "[Gun]",
+    "color": "DC143C",
+    "level": 380,
+    "recipe": [
+      {
+        "Devil Chaser": 1
+      },
+      {
+        "Dragon's Eye": 1
+      },
+      {
+        "Dark Crsytal": 1
+      },
+      {
+        "God's Page": 1
+      },
+      {
+        "Essence of Darkness": 1
+      }
+    ],
+    "stats": {
+      "damage": 25500,
+      "agility": 2150,
+      "intelligence": 1140,
+      "attackspeedpercent": 0.3,
+      "skilldamagepercent": 0.1,
+      "active": [
+        "On use activates Fiend Chaser, a wave that breaks shields and deals (AGI X 250 + 7.5% target's max HP) magic damage",
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
     "id": "silk",
     "name": "Dante's Inferno",
     "koreanname": "단테스 인페르노",
@@ -11357,17 +11397,57 @@
       }
     ],
     "stats": {
-      "damage": 29000,
+      "damage": 26000,
       "agility": 2025,
       "critmultiplier": 0.25,
       "passive": [
-        "Empowers next attack with Bullet of Ruin every 6 seconds dealing (((AGI X 50) + (attack damage X 4)) X (1 + (stack - 1) X 50%)) magic damage and stun for 0.375 seconds",
+        "Empowers next attack with Bullet of Ruin every 6 seconds dealing ((AGI X 50) + (attack damage X 4)) magic damage per bullet and stuns for 0.25 seconds",
         "Up to 2 additional bullets may be loaded"
       ],
       "spec": [
         "Specialties - Abandon All Hope",
         "Shooter - Casting Break Shot loads one Bullet of Destruction",
         "Gunner - Casting Outlaw loads one Bullet of Destruction"
+      ]
+    }
+  },
+  {
+    "id": "I0N0",
+    "name": "Punisher",
+    "koreanname": "퍼니셔",
+    "description": "그 죄, 죽음으로 속죄하거라.",
+    "type": "[Gun]",
+    "color": "DC143C",
+    "level": 380,
+    "recipe": [
+      {
+        "Dante's Inferno": 1
+      },
+      {
+        "Dragon's Eye": 1
+      },
+      {
+        "Heart of Fire": 1
+      },
+      {
+        "Steel of God": 1
+      },
+      {
+        "Essence of Darkness": 1
+      }
+    ],
+    "stats": {
+      "damage": 30000,
+      "agility": 2300,
+      "critmultiplier": 0.3,
+      "passive": [
+        "Empowers next attack with Bullet of Punishment every 6 seconds dealing ((AGI X 50) + (attack damage X 6)) magic damage per bullet and stuns for 0.25 seconds",
+        "Up to 3 additional bullets may be loaded"
+      ],
+      "spec": [
+        "Specialties - Abandon All Hope",
+        "Shooter - Casting Break Shot loads one Bullet of Punishment",
+        "Gunner - Casting Outlaw loads one Bullet of Punishment"
       ]
     }
   },
@@ -11461,6 +11541,52 @@
         "~20.8% Chance to activate Blood Awakening on casting skill to increase AGI by 800 and empower Wrath of Blood for 7.5 seconds",
         "While empowered, Wrath of Blood deals (1.25 X main stat X 40) magic splash damage, heals user for ((main stat X 90%) + 4500) HP, and heals nearby allies for ((main stat X 45%) + 2250) HP",
         "Blood Awakening cooldown: 15 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0MZ",
+    "name": "Cosmic Reaper",
+    "koreanname": "코즈믹 리퍼",
+    "description": "A dagger with the power of the universe",
+    "type": "[Longsword]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Crimson Reaper": 1
+      },
+      {
+        "Levante, the Sword of Love and Hate": 1
+      },
+      {
+        "Spearhead of Death": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Essence of Storm": 1
+      },
+      {
+        "Essence of Light": 1
+      },
+      {
+        "Antimatter": 1
+      }
+    ],
+    "stats": {
+      "damage": 27500,
+      "agility": 2600,
+      "hp": 7500,
+      "critmultiplier": 0.35,
+      "passive": [
+        "Every 12th attack deals (main stat X 50) magic damage to target and enemies around it"
+      ],
+      "active": [
+        "On spellcast increases AGI by 1250 and regenerates 10% max Hp per second for 7.5 seconds",
+        "If user is NOT Martial Artist: Changes passive to be every 4th attack",
+        "Cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -12311,12 +12437,12 @@
     ],
     "stats": {
       "damage": 32500,
-      "strength": 1775,
-      "agility": 2075,
+      "strength": 1975,
+      "agility": 2125,
       "skilldamagepercent": 0.075,
       "critchancepercent": 0.075,
       "passive": [
-        "On spellcast, empowers next attack to deal (main stat X 8) pure damage, restore (main stat X 0.15), and adds stacks. Can have up to 6 stacks"
+        "On spellcast, empowers next attack to deal (main stat X 9) pure damage, restore (main stat X 0.15), and adds stacks. Can have up to 6 stacks"
       ],
       "active": [
         "Consumes all stacks and deals (50 X Mainstat X stack) damage to nearby enemies, stuns for 2 seconds, and gives 0.5 X stack seconds of 100% damage reduction and CC immunity",
@@ -12545,7 +12671,6 @@
       "damage": 28500,
       "agility": 2150,
       "attackspeedpercent": 0.4,
-      "mdpercent": -0.1,
       "passive": [
         "'Poem of Wind' Fire 1 additional projectiles on every attack that deals 0.15x Attack Damage as Pure Damage. Poem of Wind can Crit. Can trigger on attack effects"
       ]
@@ -16566,6 +16691,50 @@
       ],
       "active": [
         "'Grim Howl' Restores 33% of Max Health and stuns nearby enemies for 1 second while decreasing their Attack Damage for 8 seconds. (-Healing does not stack with others) (40 second CD)"
+      ]
+    }
+  },
+  {
+    "id": "I0N1",
+    "name": "Brave Heart",
+    "koreanname": "브레이브 하트",
+    "description": "Courage will lead you to victory",
+    "type": "[Wings]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Grim Heart": 1
+      },
+      {
+        "Shroud of Perseverance": 1
+      },
+      {
+        "Guardian of the Skies": 1
+      },
+      {
+        "Aegis of Storm": 1
+      },
+      {
+        "Aegis of Flame": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "allstat": 1460,
+      "mdpercent": 0.2,
+      "passive": [
+        "Slows nearby enemies"
+      ],
+      "active": [
+        "On use activates Valor, restoring 40% max HP of self and 20% max HP of nearby allies",
+        "Stuns nearby enemies for 1.5 seconds",
+        "Cooldown: 40 seconds, cannot be dropped during cooldown"
       ]
     }
   },

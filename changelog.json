@@ -1,5 +1,153 @@
 [
     {
+        "name": "34n",
+        "notes": [
+            "Released on: May 11th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Map - Fixed loading related bugs"
+        ]
+    },
+    {
+        "name": "34m",
+        "notes": [
+            "Released on: May 11th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fighter - Fixed Swing (A) not getting casted with right-click if allied target is close to enemy target",
+            "Flame soul - Fixed description error"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Added new item crafts",
+                    [
+                        "Fiend Chaser",
+                        "Punisher",
+                        "Cosmic Reaper",
+                        "Brave Heart",
+                        "Protection of the Fairies Frame"
+                    ]
+                ]
+            },
+            {
+                "name": "Bag of Universe",
+                "changes": [
+                    "Active - Potion now restores 100% of targets max HP"
+                ]
+            },
+            {
+                "name": "Atricia, the Sword of Dreams",
+                "changes": [
+                    "STR: 1775 → 1975",
+                    "AGI: 2075 → 2125",
+                    "Proc damage: (main stat X 8) pure damage → (main stat X 9) pure damage"
+                ]
+            },
+            {
+                "name": "Dante's Inferno",
+                "changes": [
+                    "Attack damage: 29000 → 26000",
+                    "Passive - Stacks changed to proc one-by-one"
+                ]
+            },
+            {
+                "name": "Pheles, the Bow of Skies / Pheles, the Bow of God",
+                "changes": [
+                    "Magic resistance reduction removed"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "Lava elementals now explode with 0.5 seconds delay after death",
+                    "Shining Fragment of Ruins droprate: 0.5% → 0.75%"
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Shining Fragment of Ruins droprate: 0.5% → 1%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Max Amplification: Execution Sword (T)",
+                    [
+                        "Proc damage: 1000% attack damage + STR X 20 → 1500% attack damage + STR X 30"
+                    ]
+                ]
+            },
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Skull Pounder (Q)",
+                    [
+                        "Cast delay slightly reduced",
+                        "Cooldown: 6 seconds → 5 seconds"
+                    ],
+                    "Chain Blow (E)",
+                    [
+                        "Proc chance: 25% → 33%",
+                        "Max stack amount: 10 → 7",
+                        "Damage output increase per stack: 5% → 10%",
+                        "Stack duration: 5 seconds → 7 seconds"
+                    ],
+                    "Takedown (F)",
+                    [
+                        "Final hit damage: STR X 525 → STR X 575",
+                        "Cooldown: 150 seconds → 120 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Skill cast delay removed"
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Alacrity (E)",
+                    [
+                        "Damage: AGI X 50 → AGI X 40"
+                    ]
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Enchant Mastery (T)",
+                    [
+                        "Proc chance: 10% → 12%"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Dimension Collapse (W)",
+                    [
+                        "Damage: 600% consumed MP → 500% consumed MP"
+                    ],
+                    "Apocalypse (F)",
+                    [
+                        "Total damage: INT X 750 → INT X 975"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "34k",
         "notes": [
             "Released on: May 5th, 2020",

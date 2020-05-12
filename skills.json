@@ -658,7 +658,7 @@
         "active": [
             "Create a gate in dimension that spews corrupt spirits to attack nearby enemies.",
             "Consumes Max MP X 30%",
-            "Each attack deals Consumed MP X 600% damage",
+            "Each attack deals Consumed MP X 500% damage",
             "Attack speed is affected by Warlock's attack speed bonus",
             "Can maintain up to a maximum of 2 gates",
             "Orb attacks prioritizes Warlock's target if Warlock is nearby",
@@ -782,7 +782,7 @@
         "icon": "WarlockF",
         "active": [
             "\"Seems like the time to unleash my evil left hand has come..\" - Haran",
-            "INT X 250 damage per second",
+            "INT X 325 damage per second",
             "Roots nearby enemies",
             "Lasts 3 seconds",
             "0.5 seconds to activate",
@@ -1200,7 +1200,7 @@
         "icon": "SwordEnchanterT",
         "passive": [
             "Profound mastery allows Sword Enchanter to disintegrate the armors of her enemies.",
-            "10% chance to activate Disenchant when activating Enchanted Sword",
+            "12% chance to activate Disenchant when activating Enchanted Sword",
             "Increases damage taken by Enchanted Sword by 50% for 5 seconds"
         ],
         "active": [
@@ -2034,7 +2034,7 @@
             "Summons an angel using your own body as a vessel to break the limits on the Execution Sword.",
             "For 12 seconds, gains max attack speed and CC immunity",
             "Heals for Max HP X 15% every second",
-            "Empowers Execution Sword into Heaven's Sword, dealing Attack Damage X 10 + STR X 20 magic damage",
+            "Empowers Execution Sword into Heaven's Sword, dealing Attack Damage X 15 + STR X 30 magic damage",
             "Cast Time: 0 seconds"
         ]
     },
@@ -3975,7 +3975,7 @@
         "hotkey": "[E]",
         "icon": "PBE",
         "toggle": [
-            "40% chance to deal AGI X 50 bonus damage when delivering a slash"
+            "40% chance to deal AGI X 40 bonus damage when delivering a slash"
         ]
     },
     {
@@ -4327,7 +4327,8 @@
             "STR X 25 bonus damage",
             "If target is CRACKED, cooldown is reset",
             "If target is SHATTERED, consumes it to deal 200% damage",
-            "Empowered: Deals 400% damage and if target is CRACKED, has 40% chance to leave it SHATTERED for 5 seconds"
+            "Empowered: Deals 400% damage and if target is CRACKED, has 40% chance to leave it SHATTERED for 5 seconds",
+            "Cooldown: 5 seconds"
         ]
     },
     {
@@ -4353,8 +4354,8 @@
         "icon": "FighterE",
         "passive": [
             "Attacks your target relentlessly.",
-            "If activating a combo different from before, your skills deal 5% increased damage for 5 seconds (stacks up to 10 times)",
-            "25% chance to enable activation once within next 2.5 seconds",
+            "If activating a combo different from before, your skills deal 10% increased damage for 7 seconds (stacks up to 7 times)",
+            "33% chance to enable activation once within next 2.5 seconds",
             "If target is SHATTERED, you can continuously activate the skill without losing stacks"
         ],
         "active": [
@@ -4404,8 +4405,9 @@
             "\"Let's wrestle!\" -Fighter",
             "Hurls your body forward and latches onto a boss enemy",
             "Each hit deals STR X 25 magic damage",
-            "Final hit deals STR X 525 magic damage",
-            "Pauses target while active"
+            "Final hit deals STR X 575 magic damage",
+            "Pauses target while active",
+            "Cooldown: 120 seconds"
         ]
     }
 ]
