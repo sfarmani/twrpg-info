@@ -6252,6 +6252,7 @@
       "Ring of Revival",
       "Wings of Phoenix",
       "Wings of Slayer",
+      "Brave Heart",
       "Zombie Lord Icon"
     ],
     "stats": {
@@ -6284,6 +6285,7 @@
       "Soul Eater",
       "Bag of Mother Nature",
       "Splitting of the Sky and Earth",
+      "Punisher",
       "Zombie Lord Icon"
     ],
     "recipe": [
@@ -6326,7 +6328,8 @@
       "Plates of Lightning",
       "Wings of Blood Lord",
       "Oblivion",
-      "Zombie Lord Icon"
+      "Zombie Lord Icon",
+      "Fiend Chaser"
     ],
     "recipe": [
       {
@@ -6632,6 +6635,7 @@
     "level": 370,
     "droprate": 0.0075,
     "required_by": [
+      "Cosmic Reaper",
       "Shadow Dragon Icon"
     ],
     "stats": {
@@ -6726,6 +6730,8 @@
       "Wings of Blood Lord",
       "Bag of Universe",
       "Soul of Abyss",
+      "Fiend Chaser",
+      "Punisher",
       "Shadow Dragon Icon"
     ],
     "recipe": [
@@ -6769,6 +6775,7 @@
       "Storm",
       "Splitting of the Sky and Earth",
       "Robe of Archlich",
+      "Cosmic Reaper",
       "Shadow Dragon Icon"
     ],
     "recipe": [
@@ -6863,6 +6870,7 @@
       "Ring of Time",
       "Horn of God",
       "Robe of Archlich",
+      "Punisher",
       "Archangel Icon"
     ],
     "recipe": [
@@ -6903,6 +6911,7 @@
       "Storm",
       "Bag of Universe",
       "Soul of Abyss",
+      "Cosmic Reaper",
       "Archangel Icon"
     ],
     "recipe": [
@@ -6941,6 +6950,7 @@
       "Cold Ring of Death",
       "Grimoire of Darkness",
       "Ring of Time",
+      "Fiend Chaser",
       "Archangel Icon"
     ],
     "recipe": [
@@ -6977,6 +6987,7 @@
     "droprate": 0.006,
     "required_by": [
       "Archangel Wings",
+      "Brave Heart",
       "Archangel Icon"
     ],
     "stats": {
@@ -7126,6 +7137,7 @@
       "Pheles, the Bow of God",
       "Atricia, the Sword of Dreams",
       "Splitting of the Sky and Earth",
+      "Cosmic Reaper",
       "Soul of Abyss"
     ],
     "koreanname": "죽음의 창두"
@@ -7223,7 +7235,8 @@
       "Protection of the Fairies",
       "Nebula Rose",
       "Storm",
-      "Splitting of the Sky and Earth"
+      "Splitting of the Sky and Earth",
+      "Brave Heart"
     ],
     "koreanname": "폭풍의 가호"
   },
@@ -7241,7 +7254,8 @@
       "Pheles, the Bow of God",
       "Horn of Lightning God",
       "Horn of God",
-      "Ring of Fate"
+      "Ring of Fate",
+      "Cosmic Reaper"
     ],
     "koreanname": "폭풍의 결정"
   },
@@ -7266,7 +7280,8 @@
       "Cosmic Star",
       "Storm",
       "Splitting of the Sky and Earth",
-      "Robe of Archlich"
+      "Robe of Archlich",
+      "Brave Heart"
     ],
     "koreanname": "빛나는 유적의 조각"
   },
@@ -7311,7 +7326,8 @@
     "required_by": [
       "Eye of the Flame Lord",
       "Protection of the Fairies",
-      "Archangel Wings"
+      "Archangel Wings",
+      "Brave Heart"
     ],
     "koreanname": "화염의 가호"
   },
@@ -7332,7 +7348,8 @@
       "Cosmic Star",
       "Ring of Fate",
       "Bag of Universe",
-      "Soul of Abyss"
+      "Soul of Abyss",
+      "Cosmic Reaper"
     ],
     "koreanname": "화염의 결정"
   },
@@ -7370,7 +7387,8 @@
     "color": "FFFFFF",
     "droprate": 0.0075,
     "required_by": [
-      "Robe of Archlich"
+      "Robe of Archlich",
+      "Brave Heart"
     ],
     "koreanname": "바다의 가호"
   },
@@ -7490,7 +7508,9 @@
       "Hades, the Armor of Despair",
       "Maw of Greed",
       "Ring of Fervor",
-      "Oblivion"
+      "Oblivion",
+      "Fiend Chaser",
+      "Punisher"
     ],
     "koreanname": "용의 눈"
   },
@@ -11298,6 +11318,9 @@
     "type": "[Gun]",
     "color": "DC143C",
     "level": 370,
+    "required_by": [
+      "Fiend Chaser"
+    ],
     "recipe": [
       {
         "Devil Blaster": 1
@@ -11379,6 +11402,9 @@
     "type": "[Gun]",
     "color": "DC143C",
     "level": 370,
+    "required_by": [
+      "Punisher"
+    ],
     "recipe": [
       {
         "Bullet of Ruin": 1
@@ -11508,6 +11534,9 @@
     "type": "[Longsword]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Cosmic Reaper"
+    ],
     "recipe": [
       {
         "Tepethia, the Crimson Sword of Requiem": 1
@@ -16663,6 +16692,9 @@
     "type": "[Wings]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Brave Heart"
+    ],
     "recipe": [
       {
         "Frozen Heart": 1
