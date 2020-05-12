@@ -11610,11 +11610,9 @@
       "hp": 7500,
       "critmultiplier": 0.35,
       "passive": [
-        "Every 12th attack deals (main stat X 50) magic damage to target and enemies around it"
-      ],
-      "active": [
+        "Every 12th attack deals (main stat X 50) magic damage to target and enemies around it",
         "On spellcast increases AGI by 1250 and regenerates 10% max Hp per second for 7.5 seconds",
-        "If user is NOT Martial Artist: Changes passive to be every 4th attack",
+        "If user is NOT Martial Artist: On-attack activates every 4th attack for duration",
         "Cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
