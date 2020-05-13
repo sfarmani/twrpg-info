@@ -2034,7 +2034,7 @@
             "Summons an angel using your own body as a vessel to break the limits on the Execution Sword.",
             "For 12 seconds, gains max attack speed and CC immunity",
             "Heals for Max HP X 15% every second",
-            "Empowers Execution Sword into Heaven's Sword, dealing Attack Damage X 15 + STR X 30 magic damage",
+            "Empowers Execution Sword into Heaven's Sword, dealing Attack Damage X 7.5 + STR X 37.5 magic damage",
             "Cast Time: 0 seconds"
         ]
     },
