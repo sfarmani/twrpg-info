@@ -2039,7 +2039,7 @@
     ],
     "type": "[Longsword]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "droprate": 0.1,
     "required_by": [
       "Sword of Lethal Poison"
@@ -2061,7 +2061,7 @@
     ],
     "type": "[Greatsword]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "droprate": 0.1,
     "required_by": [
       "Greatsword of Lethal Poison"
@@ -2083,7 +2083,7 @@
     ],
     "type": "[Gloves]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "droprate": 0.1,
     "required_by": [
       "Gloves of Lethal Poison"
@@ -2105,7 +2105,7 @@
     ],
     "type": "[Staff]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "droprate": 0.1,
     "required_by": [
       "Staff of Lethal Poison"
@@ -2127,7 +2127,7 @@
     ],
     "type": "[Bow]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "droprate": 0.1,
     "required_by": [
       "Bow of Lethal Poison"
@@ -2149,7 +2149,7 @@
     ],
     "type": "[Gun]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "droprate": 0.1,
     "required_by": [
       "Rifle of True Poison"
@@ -2171,7 +2171,7 @@
     ],
     "type": "[Armor]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "droprate": 0.1,
     "required_by": [
       "Bloodstone Plates"
@@ -2191,7 +2191,7 @@
     ],
     "type": "[Robe]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "droprate": 0.1,
     "stats": {
       "armor": 230,
@@ -2207,7 +2207,7 @@
     ],
     "type": "[Helm]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "droprate": 0.1,
     "stats": {
       "armor": 200
@@ -2222,7 +2222,7 @@
     ],
     "type": "[Hood]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "droprate": 0.1,
     "stats": {
       "armor": 140,
@@ -2238,7 +2238,7 @@
     ],
     "type": "[Ring]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "droprate": 0.1,
     "required_by": [
       "Hydra Icon"
@@ -8955,7 +8955,7 @@
     "koreanname": "극독의 검",
     "type": "[Longsword]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "recipe": [
       {
         "Sword of Deadly Poison": 1
@@ -8984,7 +8984,7 @@
     "koreanname": "극독의 장검",
     "type": "[Greatsword]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "recipe": [
       {
         "Greatsword of Deadly Poison": 1
@@ -9010,7 +9010,7 @@
     "koreanname": "극독의 장갑",
     "type": "[Gloves]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "recipe": [
       {
         "Gloves of Deadly Poison": 1
@@ -9036,7 +9036,7 @@
     "koreanname": "극독의 지팡이",
     "type": "[Staff]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "recipe": [
       {
         "Staff of Deadly Poison": 1
@@ -9062,7 +9062,7 @@
     "koreanname": "극독의 활",
     "type": "[Bow]",
     "color": "00BFFF",
-    "level": 240,
+    "level": 160,
     "recipe": [
       {
         "Bow of Deadly Poison": 1
@@ -13324,7 +13324,7 @@
     ],
     "stats": {
       "armor": 590,
-      "strength": 570,
+      "strength": 670,
       "dtpercent": -0.12,
       "passive": [
         "25% chance to restore 2% HP and Mana on taking damage (4 second CD)"

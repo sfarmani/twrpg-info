@@ -2325,7 +2325,7 @@
             "Relentlessly slashes the target.",
             "Attacks with Attack Damage X 10% every 0.05 seconds",
             "While active, reduces damage taken by 80% and becomes immune to CC effects",
-            "Can be maintained up to 1.5 second(s)"
+            "Can be maintained up to 1 second"
         ]
     },
     {
@@ -4023,7 +4023,7 @@
         "active": [
             "Pauses enemies for a short time",
             "Delivers Attack Damage X 17500% damage at the end",
-            "Stuns for 2.5 seconds",
+            "Stuns for 2 seconds",
             "Deals up to 40% bonus damage based on target's missing HP",
             "Cooldown: 120 seconds"
         ]

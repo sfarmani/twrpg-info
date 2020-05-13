@@ -1,5 +1,140 @@
 [
     {
+        "name": "34o",
+        "notes": [
+            "Released on: May 13th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Cosmic Reaper - Fixed missing visual effects when on ground",
+            "Crimson Pumpkin Rod - Fixed active effect not being usable on magic immune targets",
+            "Bow of Deadly Poison / Bow of Lethal Poison - Fixed Level requirements being higher than intended",
+            "Purefrost Gauntlet - Fixed passive effect not working for Fighter's attacks",
+            "Punisher - Fixed Shooter / Gunner specs not working",
+            "Fighter - Fixed Swing (A) not getting casted with right-click if target overlaps with another unit",
+            "Hermit - Fixed Perfect Harmony (D) showing as Flame Mastery (D) in status",
+            "Auras - Fixed transformation / de-transformation making auras disappear"
+        ],
+        "monsters": [
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "HP: 40,821,000 → 42,821,000",
+                    "Lavalings",
+                    [
+                        "Will no longer restore HP when touching Ifrit during wheel",
+                        "Will no longer die when spawning"
+                    ],
+                    "Meteors",
+                    [
+                        "Direct hit damage: 50,000 → 100,000",
+                        "Now only one flame patter will be able to hit a unit per meteor"
+                    ],
+                    "Lava Elementals",
+                    [
+                        "Explosion delay: 0.5 seconds → 0 seconds",
+                        "Now only one flame pattern will be able to hit a unit per explosion"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Original Sin (F)",
+                    [
+                        "Cast delay reduced by 1 second"
+                    ]
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Rabid Storm (F)",
+                    [
+                        "Cast delay reduced by 1 second"
+                    ]
+                ]
+            },
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Takedown (F)",
+                    [
+                        "Cast delay reduced by 1 second"
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Death's Slash",
+                    [
+                        "Max duration: 1.25 seconds → 1 second"
+                    ]
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Obliterate (F)",
+                    [
+                        "Pause time: 2.5 seconds → 2 seconds",
+                        "Cast delay reduced by 1 second"
+                    ]
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Spell cast delay: 0.275 → 0.2 seconds"
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Spell cast delay: 0.225 → 0.2 seconds"
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Spell cast delay: 0.4 → 0.2 seconds",
+                    "Meteor Strike (F)",
+                    [
+                        "Cast delay reduced by 1 second",
+                        "Meteor fragment spawn rate increased"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Spell cast delay: 0.4 → 0.25 seconds"
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Spell cast delay: 0.4 → 0.25 seconds"
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Spell cast delay removed"
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Spell cast delay: 0.8 → 0.5 seconds"
+                ]
+            }
+        ]
+    },
+    {
         "name": "34n",
         "notes": [
             "Released on: May 11th, 2020",
@@ -2969,7 +3104,7 @@
             {
                 "name": "Protector's Will",
                 "changes": [
-                    "Armor: 570 → 670",
+                    "STR: 570 → 670",
                     "Damage taken: -15% → -12%"
                 ]
             },
