@@ -11391,6 +11391,10 @@
       "active": [
         "On use activates Fiend Chaser, a wave that breaks shields and deals (AGI X 250 + 7.5% target's max HP) magic damage",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialty - Fiend Chaser",
+        "Shooter - Break Shot: Pierces non-boss units, and deals 2x damage to enemies below 30% HP."
       ]
     }
   },
