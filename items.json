@@ -11361,7 +11361,7 @@
     "id": "I0MY",
     "name": "Fiend Chaser",
     "koreanname": "핀드 체이서",
-    "description": "준비되었다. 이제 데스 핀드를 쫓으러 가자.",
+    "description": "I'm ready to hunt Death Fiend now!",
     "type": "[Gun]",
     "color": "DC143C",
     "level": 380,
@@ -11393,7 +11393,7 @@
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
-        "Specialty - Fiend Chaser",
+        "Specialty - Evil Chaser",
         "Shooter - Break Shot: Pierces non-boss units, and deals 2x damage to enemies below 30% HP."
       ]
     }
@@ -11445,7 +11445,7 @@
     "id": "I0N0",
     "name": "Punisher",
     "koreanname": "퍼니셔",
-    "description": "그 죄, 죽음으로 속죄하거라.",
+    "description": "Your sin shall be purged with your death.",
     "type": "[Gun]",
     "color": "DC143C",
     "level": 380,
@@ -11584,7 +11584,7 @@
     "id": "I0MZ",
     "name": "Cosmic Reaper",
     "koreanname": "코즈믹 리퍼",
-    "description": "A dagger with the power of the universe",
+    "description": "Dagger infused with cosmic power",
     "type": "[Longsword]",
     "color": "99FF99",
     "level": 400,
@@ -11617,8 +11617,8 @@
       "hp": 7500,
       "critmultiplier": 0.35,
       "passive": [
-        "Every 12th attack deals (main stat X 50) magic damage to target and enemies around it",
-        "On spellcast increases AGI by 1250 and regenerates 10% max Hp per second for 7.5 seconds",
+        "On every 12th attack, activates Dimension Cut. Deals (main stat X 50) magic damage to target and enemies around it",
+        "On skill cast, activates Awakening. Increases AGI by 1250 and regenerates 10% max Hp per second for 7.5 seconds",
         "If user is NOT Martial Artist: On-attack activates every 4th attack for duration",
         "Spellcast Cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
@@ -16735,7 +16735,7 @@
     "id": "I0N1",
     "name": "Brave Heart",
     "koreanname": "브레이브 하트",
-    "description": "Courage will lead you to victory",
+    "description": "Bravery shall lead you to victory",
     "type": "[Wings]",
     "color": "99FF99",
     "level": 400,
@@ -16769,7 +16769,7 @@
         "Slows nearby enemies"
       ],
       "active": [
-        "On use activates Valor, restoring 40% max HP of self and 20% max HP of nearby allies",
+        "On use activates Bravery, restoring 40% max HP of self and 20% max HP of nearby allies",
         "Stuns nearby enemies for 1.5 seconds",
         "Cooldown: 40 seconds, cannot be dropped during cooldown"
       ]
