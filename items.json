@@ -11571,8 +11571,11 @@
       "critmultiplier": 0.25,
       "passive": [
         "Every 14th attack activates Wrath of Blood dealing (main stat X 40) magic splash damage and heals user for ((main stat X 60%) + 3000) HP",
-        "~20.8% Chance to activate Blood Awakening on casting skill to increase AGI by 800 and empower Wrath of Blood for 7.5 seconds",
-        "While empowered, Wrath of Blood deals (1.25 X main stat X 40) magic splash damage, heals user for ((main stat X 90%) + 4500) HP, and heals nearby allies for ((main stat X 45%) + 2250) HP",
+        "20% Chance to activate Blood Awakening on casting skill to increase AGI by 800 and empower Wrath of Blood for 7.5 seconds",
+        "While empowered, Every 5th attack activates Empowered Wrath of Blood:",
+        "Deals (1.25 X main stat X 40) magic splash damage",
+        "Heals user for ((main stat X 90%) + 4500) HP",
+        "Heals nearby allies for ((main stat X 45%) + 2250) HP",
         "Blood Awakening cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
