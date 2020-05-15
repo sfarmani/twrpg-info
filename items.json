@@ -9661,7 +9661,7 @@
       "attackspeedpercent": -0.15,
       "skilldamagepercent": 0.045,
       "passive": [
-        "10% Chance to activate Conflagration on attack dealing ((16000 + STR X 12) X flame affinity) magic damage"
+        "10% Chance to activate Conflagration on attack. Deals ((16000 + STR X 12) X flame affinity) magic damage"
       ]
     }
   },
@@ -9704,7 +9704,7 @@
         "On skill cast, increase INT by 50, flame affinity by 1.5% for 4 seconds (stacks up to 5 times)"
       ],
       "active": [
-        "On use, activates Throw Crimson Pumpkin to hit target for (50000 + INT X 125) magic damage and stuns for 1.5 seconds",
+        "On use, activates Throw Crimson Pumpkin. Hits target for (50000 + INT X 125) magic damage and stuns for 1.5 seconds",
         "Also heals user for 15000 HP",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
