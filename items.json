@@ -16724,7 +16724,7 @@
       "allstat": 1245,
       "mdpercent": 0.18,
       "passive": [
-        "'Fear' Slows Nearby Enemies"
+        "Reduces movement and attack speed by 20% of nearby enemies"
       ],
       "active": [
         "'Grim Howl' Restores 33% of Max Health and stuns nearby enemies for 1 second while decreasing their Attack Damage for 8 seconds. (-Healing does not stack with others) (40 second CD)"
@@ -16766,7 +16766,7 @@
       "allstat": 1460,
       "mdpercent": 0.2,
       "passive": [
-        "Slows nearby enemies"
+        "Reduces movement and attack speed by 25% of nearby enemies"
       ],
       "active": [
         "On use activates Bravery, restoring 40% max HP of self and 20% max HP of nearby allies",
