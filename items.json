@@ -13438,7 +13438,7 @@
       "mp": 4000,
       "skilldamagepercent": 0.1,
       "active": [
-        "Temporarily increases Int by 1000 and Skill damage by 5%"
+        "Temporarily increases INT by 1000 and skill damage by 5% on use"
       ]
     }
   },
