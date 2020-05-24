@@ -1616,6 +1616,17 @@
         ]
     },
     {
+        "name": "Surfing",
+        "heroClass": "Elementalist",
+        "color": "b3e0ff",
+        "hotkey": "[W] → [W]",
+        "icon": "WaterMageE",
+        "active": [
+            "Liquidifies the elemental to allow it to travel rapidly to target location.",
+            "Heals allies hit for (target's max HP X 20%)"
+        ]
+    },
+    {
         "name": "Seal of Lightning",
         "heroClass": "Elementalist",
         "color": "c39beb",
@@ -1663,6 +1674,16 @@
             "Releases contained lightning to fry enemies with high voltage.",
             "Consumes Max MP X 40% per second",
             "Deals INT X 60 damage per second"
+        ]
+    },
+    {
+        "name": "Blink",
+        "heroClass": "Elementalist",
+        "color": "b3ccff",
+        "hotkey": "[E] → [E]",
+        "icon": "ElementalistE_E",
+        "active": [
+            "Travels at high speeds to reach the selected location"
         ]
     },
     {
@@ -4226,11 +4247,21 @@
         ]
     },
     {
-        "name": "Fallen Power",
+        "name": "Recall",
         "heroClass": "Witch",
         "color": "8b3636",
         "hotkey": "[T] → [D]",
-        "icon": "WitchT_D",
+        "icon": "Recall",
+        "passive": [
+            "Teleport to summoner's position."
+        ]
+    },
+    {
+        "name": "Fallen Power",
+        "heroClass": "Witch",
+        "color": "8b3636",
+        "hotkey": "[T] → [Passive]",
+        "icon": "WitchT_Passive",
         "passive": [
             "A fallen angel cannot receive the blessings of the God.",
             "Each attack deals INT X 7.5 magic damage",
