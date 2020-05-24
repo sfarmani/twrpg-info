@@ -13096,7 +13096,7 @@
       "intelligence": 670,
       "skilldamagepercent": 0.075,
       "active": [
-        "Temporarily increases INT by 750 and max mana by 5000 on use for 8 seconds"
+        "Temporarily increases INT by 750 and max MP by 5000 on use for 8 seconds"
       ]
     }
   },
