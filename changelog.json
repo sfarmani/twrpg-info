@@ -1,5 +1,193 @@
 [
     {
+        "name": "35a",
+        "notes": [
+            "Released on: May 24th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Gunner - Fixed Tumble (Q) changing roll direction if casted when stunned",
+            "Reaper - Fixed Scythe mastery (D) changing dash direction if casted when stunned",
+            "Witch - Fixed Death bomb (Q) getting blocked by some terrain"
+        ],
+        "items": [
+            {
+                "name": "Avenger",
+                "changes": [
+                    "Active",
+                    [
+                        "On use, for 6 seconds blocks all spell-inflicted damage and increases AGI by 1000 for 15 seconds"
+                    ],
+                    "Assassin spec removed"
+                ]
+            },
+            {
+                "name": "Halo of Judgment",
+                "changes": [
+                    "Stack generation cycle: 0.2 seconds → 0.15 seconds"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Mad Clown",
+                "changes": [
+                    "Material droprate: 3% → 4%"
+                ]
+            },
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "Spearhead of Death / Fragment of Chaos droprate: 0.6% → 0.75%",
+                    "Frozen Debris droprate: 0.9% → 1.25%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Flash Strike (W)",
+                    [
+                        "Empowered effect is no longer shared with other lancers"
+                    ],
+                    "Dragon Slam (F)",
+                    [
+                        "Damage: STR X 825 → STR X 775"
+                    ]
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Aura (D) - Aura of Retribution (Q)",
+                    [
+                        "Sigil duration: 15 seconds → 20 seconds"
+                    ],
+                    "Divine Spirit (W)",
+                    [
+                        "Spirit generation cycle: 8 seconds → 6 seconds"
+                    ],
+                    "Divine Cross (R)",
+                    [
+                        "Cooldown: 30 seconds → 25 seconds"
+                    ],
+                    "Genesis (F)",
+                    [
+                        "Cast time: 1 second → 0.5 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Skull Pounder (Q)",
+                    [
+                        "Empowered damage: 400% → 300%"
+                    ],
+                    "Chain Blow (E)",
+                    [
+                        "Stack duration: 7 seconds → 10 seconds"
+                    ],
+                    "Takedown (F)",
+                    [
+                        "Final hit now applies SHATTERED to target for 5 seconds",
+                        "Now resets duration of Combo Mastery (D) stacks on cast"
+                    ]
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Obliterate (F)",
+                    [
+                        "Pause duration: 1.3 seconds → 1.8 seconds (reverted from last change)"
+                    ]
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Deadeye (F)",
+                    [
+                        "Changed to be castable with one bullet loaded (but bullets are reset after cast)",
+                        "Gunner no longer runs away on taking damage when casting"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Break Shot (E)",
+                    [
+                        "Fixed being able to hit non-boss units twice",
+                        "Devil Chaser / Fiend Chaser specs changed: Spell now deals double damage to non-boss units regardless of their HP"
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Whirl of Death (Q)",
+                    [
+                        "Re-activation damage: 50% → 25%"
+                    ],
+                    "Death's Slash (R)",
+                    [
+                        "Duration: 1 second → 1.25 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Glacier Orb (T)",
+                    [
+                        "When chained with Ice Shard (Q) it will always deal bonus damage as if target is frozen"
+                    ]
+                ]
+            },
+            {
+                "name": "Arcane Mage",
+                "changes": [
+                    "Spell cast delay removed",
+                    "Moonlight Link (D)",
+                    [
+                        "Skill damage per stack: 4% per stack → 5% static"
+                    ],
+                    "Illusion (R) / Barrage (T)",
+                    [
+                        "Cooldown: 15 seconds → 12 seconds"
+                    ],
+                    "Starlight (F)",
+                    [
+                        "Cast time: 1.25 seconds → 0.75 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Death Bomb (Q)",
+                    [
+                        "When Star Shower (W) is cast during channeling Death Bomb, both will be shot to target point"
+                    ],
+                    "Mystical Cauldron (E)",
+                    [
+                        "Potion throw radius: 325 ~ 475 → 300 ~ 600",
+                        "Potion buff duration: 30 seconds → 60 seconds"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Elemental Tower",
+            [
+                "Added NPC for Alchemy and Crafting"
+            ]
+        ]
+    },
+    {
         "name": "34o",
         "notes": [
             "Released on: May 13th, 2020",
@@ -69,7 +257,7 @@
             {
                 "name": "Reaper",
                 "changes": [
-                    "Death's Slash",
+                    "Death's Slash (R)",
                     [
                         "Max duration: 1.25 seconds → 1 second"
                     ]

@@ -451,7 +451,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.001,
-      0.03
+      0.04
     ],
     "required_by": [
       "Tepethia, the Crimson Sword of Requiem",
@@ -474,7 +474,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.001,
-      0.03
+      0.04
     ],
     "required_by": [
       "Sanguiel, the Bloodspear of Requiem",
@@ -550,7 +550,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.03,
+    "droprate": 0.04,
     "required_by": [
       "Deathbringer",
       "Devil Chaser",
@@ -579,7 +579,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.03,
+    "droprate": 0.04,
     "required_by": [
       "Staff of Madness",
       "Claws of Beriel",
@@ -5131,16 +5131,8 @@
       "skilldamagepercent": 0.05,
       "critchancepercent": 0.05,
       "active": [
-        "On use, activates Vengeance on being damaged next time within 6 seconds",
-        "If HP drops below 10%, but isn't enough to kill user, grants the user with (base AGI X ((15% damage dealt / max HP) + 0.1)) AGI for 15 seconds and stuns the enemy for 2 seconds",
-        "If HP drops below 1, increases user's AGI by 25% for 15 seconds and stuns the enemy for 2 seconds",
-        "After blocking damage, user also gains 25% movement speed",
-        "Max added AGI is 1000",
+        "On use, activates Vengeance blocking all spell-inflicted damage for 6 seconds and increases AGI by 1000 for 15 seconds",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
-      ],
-      "spec": [
-        "Specialty",
-        "Assassin - Improved Ambush: If your HP is below 20%, heals for Max HP X 15%. Also increases attack damage gained by 12%, and buff grants additional 6% skill damage."
       ]
     },
     "koreanname": "복수자"
@@ -6807,7 +6799,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.009,
+    "droprate": 0.0125,
     "required_by": [
       "Winter's Heart",
       "Meacronacer, the Sword of Thousand Illusions",
@@ -7130,7 +7122,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.006,
+    "droprate": 0.0075,
     "required_by": [
       "Staff of Plague",
       "Crimson Hatred",
@@ -11353,7 +11345,7 @@
       ],
       "spec": [
         "Specialty - Evil Chaser",
-        "Shooter - Break Shot: Pierces non-boss units, and deals 2x damage to enemies below 25% HP."
+        "Shooter - Break Shot: Pierces non-boss units and deals 2x damage."
       ]
     }
   },
@@ -11394,7 +11386,7 @@
       ],
       "spec": [
         "Specialty - Evil Chaser",
-        "Shooter - Break Shot: Pierces non-boss units, and deals 2x damage to enemies below 30% HP."
+        "Shooter - Break Shot: Pierces non-boss units and deals 2x damage."
       ]
     }
   },
@@ -13367,11 +13359,12 @@
       "strength": 525,
       "agility": 435,
       "passive": [
-        "+15% Damage dealt by attack",
-        "'Angel of Judgement' Gain 1 stack every 0.2 seconds. Maximum of 5 stacks. Consumes 1 stack on attack to do (main stat X 1) pure damage on attack"
+        "Damage dealt by attack +15%",
+        "On attack, activates Judgment, adding 1 stack every 0.15 seconds with a max stack of 5",
+        "Consume 1 stack on attack to do (main stat X 1) pure damage on attack"
       ],
       "active": [
-        "Anti-Magic Shield (self) (90 second CD)"
+        "Block magic every 1 minute and 30 seconds"
       ]
     }
   },

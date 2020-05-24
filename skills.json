@@ -1322,6 +1322,7 @@
             "Consumes all bullets",
             "Attack Damage X 7500% damage",
             "AGI X 500 bonus damage",
+            "Can be casted with one bullet loaded (but bullets are reset after cast)",
             "Stuns for 1 second"
         ]
     },
@@ -2248,7 +2249,7 @@
         "icon": "LancerF",
         "active": [
             "\"She disappeared the moment I saw her on the battlefield.. and then suddenly appeared at the center of the enemies' base, which formed a mountain of corpses.\" - Empire War Veteran",
-            "STR X 825 damage",
+            "STR X 775 damage",
             "Deals 75% bonus damage to enemies within 250 radius from target point",
             "Restores all ki",
             "Cooldown: 120 seconds"
@@ -2281,7 +2282,7 @@
             "Attacks nearby enemies by spinning your scythe.",
             "Attack Damage X 200% damage",
             "AGI X 20 bonus damage",
-            "On next 3 attack(s), reactivates with 50% damage"
+            "On next 3 attack(s), reactivates with 25% damage"
         ]
     },
     {
@@ -2325,7 +2326,7 @@
             "Relentlessly slashes the target.",
             "Attacks with Attack Damage X 10% every 0.05 seconds",
             "While active, reduces damage taken by 80% and becomes immune to CC effects",
-            "Can be maintained up to 1 second"
+            "Can be maintained up to 1.25 second"
         ]
     },
     {
@@ -3347,7 +3348,7 @@
             "Restore injuries with mana in the atmosphere.",
             "Restores HP & MP 35%",
             "Refreshes cooldowns",
-            "Increases skill damage by 4% for 5 seconds",
+            "Increases skill damage by 5%",
             "Cooldown: 12 seconds"
         ]
     },
@@ -3402,7 +3403,8 @@
             "Illusion explodes after 3 seconds, dealing INT X 40 magic damage",
             "Becomes invisible and takes 40% reduced damage",
             "Can be cast twice in a row",
-            "Chain: Magic Star"
+            "Chain: Magic Star",
+            "Cooldown: 12 seconds"
         ]
     },
     {
@@ -3415,7 +3417,7 @@
             "Fires magical missiles in all directions.",
             "Each missile deals INT X 40 magic damage",
             "Fires 8 missiles",
-            "Cooldown: 15 seconds"
+            "Cooldown: 12 seconds"
         ]
     },
     {
@@ -3782,7 +3784,7 @@
             "An aspect of crusader who calls down retribution on his foes.",
             "Increase nearby allies' attack damage by 12%",
             "Judgment - Deals pure damage",
-            "Sigil - Increases skill damage by 10% for 15 seconds"
+            "Sigil - Increases skill damage by 10% for 20 seconds"
         ]
     },
     {
@@ -3846,7 +3848,7 @@
         "icon": "PaladinW",
         "passive": [
             "Summons holy spirits that boosts your mobility.",
-            "Summons every 8 seconds (up to 3 spirits)"
+            "Summons every 6 seconds (up to 3 spirits)"
         ],
         "active": [
             "Merges with the holy spirit to move at the speed of light.",
@@ -3885,7 +3887,7 @@
             "Attack Damage X 5000% magic damage",
             "Binds target's movement for 2 seconds",
             "Deals 75% bonus damage if target is already bound or is below 40% HP",
-            "Cooldown: 30 seconds"
+            "Cooldown: 25 seconds"
         ]
     },
     {
@@ -4021,7 +4023,7 @@
         "hotkey": "[F]",
         "icon": "PBF",
         "active": [
-            "Pauses enemies for a short time",
+            "Pauses enemies for 1.8 seconds",
             "Delivers Attack Damage X 17500% damage at the end",
             "Stuns for 2 seconds",
             "Deals up to 40% bonus damage based on target's missing HP",
@@ -4167,6 +4169,7 @@
             "INT X 50 magic damage",
             "Stuns for 0.5 seconds",
             "Can be channeled up to 2 seconds, increasing damage by 200% and range/stun duration by 100% every second",
+            "Star Shower can be cast during channeling",
             "Channeling speed can be increased per 2% attack speed"
         ]
     },
@@ -4195,7 +4198,7 @@
             "Summons a cauldron filled with magical items.",
             "Creates a potion every 1.5 seconds for 18 seconds",
             "Potion lasts for 30 seconds and heals for INT X 3",
-            "Increases a target's main stat by 6% for 30 seconds",
+            "Increases a target's main stat by 6% for 60 seconds",
             "Cannot provide the same stat increase twice in a row"
         ]
     },
@@ -4327,7 +4330,7 @@
             "STR X 25 bonus damage",
             "If target is CRACKED, cooldown is reset",
             "If target is SHATTERED, consumes it to deal 200% damage",
-            "Empowered: Deals 400% damage and if target is CRACKED, has 40% chance to leave it SHATTERED for 5 seconds",
+            "Empowered: Deals 300% damage and if target is CRACKED, has 40% chance to leave it SHATTERED for 5 seconds",
             "Cooldown: 5 seconds"
         ]
     },
@@ -4354,7 +4357,7 @@
         "icon": "FighterE",
         "passive": [
             "Attacks your target relentlessly.",
-            "If activating a combo different from before, your skills deal 10% increased damage for 7 seconds (stacks up to 7 times)",
+            "If activating a combo different from before, your skills deal 10% increased damage for 10 seconds (stacks up to 7 times)",
             "33% chance to enable activation once within next 2.5 seconds",
             "If target is SHATTERED, you can continuously activate the skill without losing stacks"
         ],
@@ -4405,7 +4408,8 @@
             "\"Let's wrestle!\" -Fighter",
             "Hurls your body forward and latches onto a boss enemy",
             "Each hit deals STR X 25 magic damage",
-            "Final hit deals STR X 575 magic damage",
+            "Final hit deals STR X 575 magic damage and applies SHATTERED to target for 5 seconds",
+            "Resets duration of Combo Mastery",
             "Pauses target while active",
             "Cooldown: 120 seconds"
         ]
