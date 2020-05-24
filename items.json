@@ -7142,7 +7142,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.006,
+    "droprate": 0.0075,
     "required_by": [
       "Protection of the Fairies",
       "Archangel Wings",
@@ -13097,7 +13097,7 @@
       "intelligence": 670,
       "skilldamagepercent": 0.075,
       "active": [
-        "Temporarily increase Int by 800"
+        "Increase Int by 750 and max mana by 5000 for 8 seconds"
       ]
     }
   },
@@ -13438,7 +13438,7 @@
       "mp": 4000,
       "skilldamagepercent": 0.1,
       "active": [
-        "Temporarily increases Int by 1000 and Skill damage by 5%"
+        "Increase Int by 1000 and Skill damage by 5% for 8 seconds"
       ]
     }
   },
@@ -14438,7 +14438,7 @@
       "dtpercent": -0.12,
       "passive": [
         "Activates Frostshard when HP drops below 40%",
-        "Grants 10% STR, 7.5% damage reduction and restores 17.5% max HP per second for 12 seconds",
+        "Grants 10% STR, 7.5% damage reduction and restores 17.5% max HP for 12 seconds",
         "Deals (STR X 40) magic damage around user in a 325 radius (damage is affected by water affinity)",
         "Reduces movement and attack speed of affected enemies by 75% for 2 seconds",
         "Cooldown: 8 seconds, cannot be dropped during cooldown"
@@ -16677,6 +16677,7 @@
       "agility": 540,
       "intelligence": 540,
       "mdpercent": 0.12,
+      "hpregen": -250,
       "passive": [
         "Dealing single-target skill damage inflicts target with corruption giving -4% MR debuff and dealing bonus damage over time (Does 20% of the abilities damage over 2 seconds, effect stacks)"
       ]
