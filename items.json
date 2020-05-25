@@ -5131,7 +5131,7 @@
       "skilldamagepercent": 0.05,
       "critchancepercent": 0.05,
       "active": [
-        "On use, activates Vengeance blocking all spell-inflicted damage for 6 seconds and increases AGI by 1000 for 15 seconds",
+        "On use, activates Vengeance blocking the next spell-inflicted damage instance for 6 seconds and increases AGI by 1000 for 15 seconds",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     },
@@ -11344,7 +11344,7 @@
       ],
       "spec": [
         "Specialty - Evil Chaser",
-        "Shooter - Break Shot: Pierces non-boss units and deals 2x damage."
+        "Shooter - Break Shot: Pierces non-boss units and deals 2x damage. Deals 2x damage to boss units that are below 25% HP"
       ]
     }
   },
@@ -11385,7 +11385,7 @@
       ],
       "spec": [
         "Specialty - Evil Chaser",
-        "Shooter - Break Shot: Pierces non-boss units and deals 2x damage."
+        "Shooter - Break Shot: Pierces non-boss units and deals 2x damage. Deals 2x damage to boss units that are below 30% HP"
       ]
     }
   },
