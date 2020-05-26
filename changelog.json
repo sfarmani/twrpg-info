@@ -1,5 +1,53 @@
 [
     {
+        "name": "35c",
+        "notes": [
+            "Released on: May 25th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Reaper - Fixed Whirl of Death (Q) dealing 140% attack damage + AGI X 14 damage instead of intended 200% attack damage + AGI X 20",
+            "Gunner - Fixed Dante's Inferno / Punisher special effect not working during Bullet time (T)"
+        ],
+        "monsters": [
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Added new boss",
+                    [
+                        "You can fight him if you destroy the demonic portal during the Hell Invasion"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Difficulty system now updates in real time if a player leaves the game",
+            "Removed some mechanics",
+            [
+                "Shard of Anger",
+                "Shard of Mana",
+                "Proof of Endeavor"
+            ],
+            "Added new mechanic - Prius Silver Coins",
+            [
+                "All existing Proof of Endeavors will be converted into coins in a 1:1 ratio",
+                "How to obtain coins",
+                [
+                    "When Corruptor Rectus / Spirit Beast / Flame Nightmare / Turtle Lord dies there's a (2 X number of players participated in fight)% chance for all of said players to gain a number of coins",
+                    "Selling equipment and materials dropped by the bosses above to a collector NPC, you will receive a number of coins"
+                ],
+                "How to use Coins",
+                [
+                    "Collector NPC sells some items for a number of coins",
+                    [
+                        "All Corruptor Rectus / Spirit Beast / Flame Nightmare / Turtle Lord items",
+                        "Some other items"
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
         "name": "35a",
         "notes": [
             "Released on: May 24th, 2020",

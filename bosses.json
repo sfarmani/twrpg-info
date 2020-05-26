@@ -607,7 +607,8 @@
             "grsl",
             "I0JT",
             "I0G8",
-            "ccmd"
+            "ccmd",
+            "I0LN"
         ]
     },
     {
@@ -643,7 +644,8 @@
             "rwiz",
             "stpg",
             "whwd",
-            "rugt"
+            "rugt",
+            "I0LN"
         ]
     },
     {
@@ -662,17 +664,7 @@
             "rej1",
             "I0CD",
             "shdt",
-            "I0CT"
-        ]
-    },
-    {
-        "id": "I0CT",
-        "name": "Shard of Anger",
-        "limit": "1",
-        "location": "Dropped by Flame Nightmare",
-        "conditions": "Defeat Flame Nightmare, will appear in your bank",
-        "drops": [
-            "I0CD"
+            "I0LN"
         ]
     },
     {
@@ -691,17 +683,8 @@
             "I0CJ",
             "sror",
             "I0CK",
-            "wshs"
-        ]
-    },
-    {
-        "id": "I0DL",
-        "name": "Shard of Mana",
-        "limit": "1",
-        "location": "Dropped by Turtle Lord",
-        "conditions": "Defeat Turtle Lord, will appear in your bank",
-        "drops": [
-            "I0CK"
+            "wshs",
+            "I0LN"
         ]
     },
     {
@@ -921,6 +904,20 @@
             "I0II",
             "I0IJ",
             "phea"
+        ]
+    },
+    {
+        "id": "h077",
+        "name": "Underlord Agareth",
+        "limit": "None",
+        "manacost": "6",
+        "summon": "Destroy the demonic portal during the Hell Invasion",
+        "conditions": "Level 420, Demon Lord summoned, and Demoic portal destroyed",
+        "drops": [
+            "I0O3",
+            "I0NV",
+            "I0NU",
+            "I0NW"
         ]
     }
 ]

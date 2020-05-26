@@ -1841,9 +1841,10 @@
       "Pure Crystal Wings",
       "Ancient Ent Icon"
     ],
+    "worth": 2,
     "recipe": [
       {
-        "Proof of Endeavor": 6
+        "Prius Silver Coin": 9
       }
     ],
     "koreanname": "정령의 구슬"
@@ -1872,6 +1873,12 @@
     "droprate": 0.03,
     "required_by": [
       "Spirit Dagger"
+    ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
     ],
     "stats": {
       "damage": 15000,
@@ -1906,6 +1913,12 @@
       "Horn of Devil",
       "Crown of Serenity"
     ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
+    ],
     "stats": {
       "armor": 450,
       "allstat": 410,
@@ -1929,6 +1942,12 @@
     "droprate": 0.02,
     "required_by": [
       "Blazing Soul"
+    ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
     ],
     "stats": {
       "damage": 19000,
@@ -1961,9 +1980,10 @@
       "Bag of Mother Nature",
       "Druid's Mantle"
     ],
+    "worth": 2,
     "recipe": [
       {
-        "Proof of Endeavor": 6
+        "Prius Silver Coin": 9
       }
     ],
     "koreanname": "숲의 기운"
@@ -5067,6 +5087,12 @@
       "Corruptor Icon",
       "Anger"
     ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
+    ],
     "stats": {
       "damage": 20000,
       "strength": 1700,
@@ -5093,6 +5119,12 @@
       "Corruptor Icon",
       "Heartseeker",
       "Soulstalker"
+    ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
     ],
     "stats": {
       "damage": 22500,
@@ -5125,6 +5157,12 @@
       "Corruptor Icon",
       "Laktrisha, the Illusional Sword of Poison"
     ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
+    ],
     "stats": {
       "damage": 21000,
       "agility": 1780,
@@ -5151,6 +5189,12 @@
     "required_by": [
       "Corruptor Icon",
       "Devil Chaser"
+    ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
     ],
     "stats": {
       "damage": 19500,
@@ -5182,6 +5226,12 @@
       "Ring of the Reaper",
       "Seal of Deceiver",
       "Deathbringer"
+    ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
     ],
     "stats": {
       "strength": 950,
@@ -5215,6 +5265,12 @@
       "Ring of Fervor",
       "Hungry Bat Wings"
     ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
+    ],
     "stats": {
       "allstat": 825,
       "skilldamagepercent": 0.06,
@@ -5245,6 +5301,12 @@
     "required_by": [
       "Corruptor Icon",
       "Staff of Plague"
+    ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
     ],
     "stats": {
       "damage": 18500,
@@ -5282,9 +5344,10 @@
       "Bag of Corruption",
       "Maw of Greed"
     ],
+    "worth": 1,
     "recipe": [
       {
-        "Proof of Endeavor": 6
+        "Prius Silver Coin": 9
       }
     ],
     "koreanname": "타락의 결정"
@@ -5307,9 +5370,10 @@
       "Wings of Blood Lord",
       "Vest of Cyclone"
     ],
+    "worth": 1,
     "recipe": [
       {
-        "Proof of Endeavor": 6
+        "Prius Silver Coin": 9
       }
     ],
     "koreanname": "낡은 유적의 조각"
@@ -5339,6 +5403,12 @@
     "required_by": [
       "Nightmare Icon",
       "Bloody Hatred"
+    ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
     ],
     "stats": {
       "damage": 18500,
@@ -5372,6 +5442,12 @@
       "Bloodsoul Plates",
       "Frostshard Armor"
     ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
+    ],
     "stats": {
       "armor": 620,
       "strength": 540,
@@ -5403,6 +5479,12 @@
       "Blazing Soul",
       "Ring of Strike"
     ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
+    ],
     "stats": {
       "strength": 910,
       "agility": 840,
@@ -5429,6 +5511,12 @@
     "required_by": [
       "Nightmare Icon",
       "Dante's Inferno"
+    ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
     ],
     "stats": {
       "damage": 23500,
@@ -5458,6 +5546,12 @@
       "Nightmare Icon",
       "Crown of Rage",
       "Crown of Composure"
+    ],
+    "worth": 2,
+    "recipe": [
+      {
+        "Prius Silver Coin": 9
+      }
     ],
     "stats": {
       "armor": 400,
@@ -5493,9 +5587,10 @@
       "Ring of Composure",
       "Vest of Cyclone"
     ],
+    "worth": 2,
     "recipe": [
       {
-        "Proof of Endeavor": 6
+        "Prius Silver Coin": 9
       }
     ],
     "koreanname": "악몽의 기운"
@@ -5504,15 +5599,11 @@
     "id": "I0CD",
     "name": "Essence of Anger",
     "dropped_by": [
-      "Flame Nightmare",
-      "Shard of Anger"
+      "Flame Nightmare"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": [
-      0.02,
-      0.012
-    ],
+    "droprate": 0.02,
     "required_by": [
       "Anger",
       "Flame Explosion",
@@ -5532,9 +5623,10 @@
       "Bag of Life",
       "Ring of Fervor"
     ],
+    "worth": 2,
     "recipe": [
       {
-        "Proof of Endeavor": 6
+        "Prius Silver Coin": 9
       }
     ],
     "koreanname": "분노의 결정"
@@ -5551,26 +5643,6 @@
     "koreanname": "나이트메어 토큰"
   },
   {
-    "id": "I0CT",
-    "name": "Shard of Anger",
-    "dropped_by": [
-      "Flame Nightmare"
-    ],
-    "type": "[Misc]",
-    "color": "80BFFF",
-    "notes": [
-      "Spawns in your bag inventory if you are over level 360 (appears in your bag bank if your bag is full)"
-    ],
-    "droprate": 1.0,
-    "drops": [
-      "10 second buff (maximizes attack speed)",
-      "dealing 60000 (x your Skill Damage) damage",
-      "Red Powder",
-      "Essence of Anger"
-    ],
-    "koreanname": "분노의 조각"
-  },
-  {
     "id": "skul",
     "name": "Water Cannon",
     "description": "Eat this cannon !!",
@@ -5584,6 +5656,12 @@
     "required_by": [
       "Turtle Lord Icon",
       "Hydro Buster"
+    ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
     ],
     "stats": {
       "damage": 15500,
@@ -5616,6 +5694,12 @@
       "Turtle Lord Icon",
       "Tunic of the Wraith"
     ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
+    ],
     "stats": {
       "armor": 410,
       "agility": 590,
@@ -5646,6 +5730,12 @@
       "Ring of Composure",
       "Druid's Mantle"
     ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
+    ],
     "stats": {
       "allstat": 760,
       "mp": 4000,
@@ -5671,6 +5761,12 @@
     "required_by": [
       "Turtle Lord Icon",
       "Protector's Will"
+    ],
+    "worth": 1,
+    "recipe": [
+      {
+        "Prius Silver Coin": 6
+      }
     ],
     "stats": {
       "armor": 460,
@@ -5704,6 +5800,12 @@
       "Bell of Light",
       "Ispion, the Runed Ring",
       "Heaven's Fist"
+    ],
+    "worth": 2,
+    "recipe": [
+      {
+        "Prius Silver Coin": 9
+      }
     ],
     "stats": {
       "allstat": 865,
@@ -5742,9 +5844,10 @@
       "Turtle Lord Icon",
       "Maw of Greed"
     ],
+    "worth": 2,
     "recipe": [
       {
-        "Proof of Endeavor": 6
+        "Prius Silver Coin": 9
       }
     ],
     "koreanname": "순수의 강철"
@@ -5771,9 +5874,10 @@
       "Plates of Lightning",
       "Hungry Bat Wings"
     ],
+    "worth": 2,
     "recipe": [
       {
-        "Proof of Endeavor": 6
+        "Prius Silver Coin": 9
       }
     ],
     "koreanname": "폭풍의 문장"
@@ -5782,15 +5886,11 @@
     "id": "I0CK",
     "name": "Mana Orb",
     "dropped_by": [
-      "Turtle Lord",
-      "Shard of Mana"
+      "Turtle Lord"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": [
-      0.02,
-      0.012
-    ],
+    "droprate": 0.02,
     "required_by": [
       "Spirit Dagger",
       "Twin Snow",
@@ -5807,9 +5907,10 @@
       "Heart of Ifrit",
       "Turtle Lord Icon"
     ],
+    "worth": 2,
     "recipe": [
       {
-        "Proof of Endeavor": 6
+        "Prius Silver Coin": 9
       }
     ],
     "koreanname": "마나 오브"
@@ -5824,26 +5925,6 @@
     "color": "DAA520",
     "droprate": 0.0001,
     "koreanname": "터틀 토큰"
-  },
-  {
-    "id": "I0DL",
-    "name": "Shard of Mana",
-    "dropped_by": [
-      "Turtle Lord"
-    ],
-    "type": "[Misc]",
-    "color": "80BFFF",
-    "notes": [
-      "Spawns in your bag inventory if you are over level 360 (appears in your bag bank if your bag is full)"
-    ],
-    "droprate": 1.0,
-    "drops": [
-      "10 second debuff (Lose 20000 Mana a second)",
-      "dealing 60000 (x your Skill Damage) damage",
-      "Blue Powder",
-      "Mana Orb"
-    ],
-    "koreanname": "마나의 조각"
   },
   {
     "id": "ratc",
@@ -7535,27 +7616,112 @@
   },
   {
     "id": "I0LN",
-    "name": "Proof of Endeavor",
-    "koreanname": "노력의 잔해",
+    "name": "Prius Silver Coin",
+    "koreanname": "프리우스 은화",
     "type": "[Material]",
     "color": "FFFFFF",
     "notes": [
-      "Only aquired by dissasembling any Epic items dropped by the following bosses:",
-      "Rectus / Spirit Beast / Flame Nightmare / Turtle Lord",
-      "Gather 6 to forge a material from one of the bosses listed above.",
-      "Epic items can be dissasembled with Jaina at the Magic Tower. Forging can be done at any Blacksmith."
+      "Droprate is determined by the amount of players involved in the fight when the boss dies",
+      "(2 X players in fight)% chance for all players involved to get N number of coins",
+      "Proof of Endeavor can be exchanged for a Silver Coin at the Collector NPC",
+      "You can also purchase items from the Collector NPC",
+      "Any item in the 'Used In' section can also be sold to the Collector NPC for Silver Coins"
+    ],
+    "dropped_by": [
+      "Corruptor Rectus",
+      "Spirit Beast",
+      "Flame Nightmare",
+      "Turtle Lord"
     ],
     "required_by": [
+      "Corruptor",
+      "Stalker",
+      "Avenger",
+      "Chaser",
+      "Potion of Corruption",
+      "Staff of Contagion",
       "Essence of Corruption",
       "Ancient Fragment of Ruins",
+      "Spiritus, the Sword of Elements",
+      "Storm Headdress",
+      "Visvire, the Hammer of Storm",
       "Spirit Orb",
       "Spirit of Forest",
-      "Essence of Anger",
+      "Hatred",
+      "Flameshard Armor",
+      "Ring of Nightmare",
+      "Inferno",
+      "Crown of Fervor",
       "Spirit of Nightmare",
-      "Mana Orb",
+      "Essence of Anger",
+      "Water Cannon",
+      "Tunic of Subtlety",
+      "Purified Water",
+      "Scale Protector",
+      "Oath of Courage",
+      "Pure Steel",
       "Mark of Storm",
-      "Pure Steel"
+      "Mana Orb"
     ]
+  },
+  {
+    "id": "I0O3",
+    "name": "Curse of Avarice",
+    "description": "인간의 욕심은 끝이 없구나",
+    "dropped_by": [
+      "Underlord Agareth"
+    ],
+    "type": "[Wing]",
+    "color": "DC143C",
+    "level": 400,
+    "droprate": 0.01,
+    "stats": {
+      "mainstat": 1350,
+      "hp": 7500,
+      "mp": 7500,
+      "healreceivedpercent": -0.25,
+      "passive": [
+        "On attack inflicts Greed",
+        "When in combat for 5 seconds, increases attack speed and damage output by 1%",
+        "Also reduces damage taken by 2%",
+        "Can be stacked up to 25 times",
+        "Cooldown: 1 second"
+      ]
+    },
+    "koreanname": "탐욕의 저주"
+  },
+  {
+    "id": "I0NV",
+    "name": "Fragment of Soul",
+    "dropped_by": [
+      "Underlord Agareth"
+    ],
+    "type": "[Material]",
+    "color": "FFFFFF",
+    "droprate": 0.015,
+    "koreanname": "영혼의 파편"
+  },
+  {
+    "id": "I0NU",
+    "name": "Fragment of Hell",
+    "dropped_by": [
+      "Underlord Agareth"
+    ],
+    "type": "[Material]",
+    "color": "FFFFFF",
+    "droprate": 0.015,
+    "koreanname": "지옥의 파편"
+  },
+  {
+    "id": "I0NW",
+    "name": "Mark of Lord",
+    "dropped_by": [
+      "Underlord Agareth"
+    ],
+    "type": "[Material]",
+    "color": "FFFFFF",
+    "droprate": 0.015,
+    "koreanname": "군주의 징표"
   },
   {
     "id": "I04U",
