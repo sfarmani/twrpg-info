@@ -14898,8 +14898,10 @@
       "mpregen": 125,
       "skilldamagepercent": 0.1,
       "active": [
-        "On use, summons Magic Field granting the user with magic and CC immunity, as well as 40% magic resistance to allies in a 500 radius around user.",
+        "On use, summons Magic Field granting the user with magic and CC immunity.",
+        "Also provides a 40% magic resistance to allies in a 500 radius around user",
         "Restores 5% HP and MP per second to all affected units",
+        "Lasts 8 seconds",
         "Cooldown: 100 seconds, cannot be dropped during cooldown"
       ]
     }
