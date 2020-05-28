@@ -12492,8 +12492,7 @@
         "15% Chance to activate Hellflame on attack that burns the target",
         "Deals (AGI X 15) magic damage per second for 10 seconds",
         "Reduces armor by 20 per second for 5 seconds",
-        "Reduces magic defense by 0.4% per second for 5 seconds",
-        "Debuffs last for 10 seconds"
+        "Reduces magic defense by 0.4% per second for 5 seconds"
       ],
       "spec": [
         "Specialty - Improved Explosion",
