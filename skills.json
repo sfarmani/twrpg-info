@@ -2729,7 +2729,7 @@
             "Heals for Skill Level X 400",
             "STR X 2 bonus heal",
             "Increases target's HP regen by (Target's Max HP X 3% + Your own HP Regen) for 8 seconds",
-            "Potion lasts 300 seconds, and you can maintain up to 3 potions at once"
+            "Potion lasts 300 seconds, and you can maintain up to 5 potions at once"
         ]
     },
     {
@@ -3213,8 +3213,8 @@
         "active": [
             "Materialize mana into an orb.",
             "If 3 orbs are charged, it sends all 3 orbs to target location with each orb dealing 400% max MP",
-            "If Release Mana is toggled on, each orb slows target movement speed by 50% for 3 seconds",
-            "If Release Mana is toggled off, each orb stuns target."
+            "If Release Mana is toggled on, each orb stuns target",
+            "If Release Mana is toggled off, each orb slows target movement speed by 50% for 3 seconds"
         ]
     },
     {
