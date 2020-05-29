@@ -1,18 +1,5 @@
 [
   {
-    "name": "Essence of Air",
-    "description": "\"then suffer\"",
-    "dropped_by": [
-      "All"
-    ],
-    "type": "[Air]",
-    "color": "FFFFFF",
-    "droprate": 0.999,
-    "required_by": [
-      "Nothing"
-    ]
-  },
-  {
     "id": "I018",
     "name": "Troll Giant Hide",
     "koreanname": "트롤 자이언트의 가죽",
@@ -15890,45 +15877,6 @@
     }
   },
   {
-    "name": "Ring of Healed",
-    "description": "Ring that frees you from the passage of ||HEALED||",
-    "type": "[HEALED]",
-    "color": "DC143C",
-    "level": 380,
-    "recipe": [
-      {
-        "Ring of Intrusion": 1
-      },
-      {
-        "Nephthys, the Engraved Ring": 1
-      },
-      {
-        "Ancient Hourglass": 1
-      },
-      {
-        "Steel of God": 1
-      },
-      {
-        "Spirit of Abyss": 1
-      },
-      {
-        "Heart of Fire": 1
-      }
-    ],
-    "stats": {
-      "allstat": 99999,
-      "movespeed": -500,
-      "skilldamagepercent": 0.008,
-      "passive": [
-        "If HP drops below 1, Gives you a text that says HEALED but thats it."
-      ],
-      "active": [
-        "On use, activates Time Distortion resetting it's own cooldown, but only once.",
-        "Cannot be dropped"
-      ]
-    }
-  },
-  {
     "id": "rots",
     "name": "Ispion, the Runed Ring",
     "koreanname": "룬의 반지 이스피온",
@@ -18446,5 +18394,57 @@
         "Shooter - Nanomachine Injection: Healing speed increased by 60% and duration increased by 50%; while buff is active, target is immune to debuffs"
       ]
     }
+  },
+  {
+    "name": "Ring of Healed",
+    "description": "Ring that frees you from the passage of ||HEALED||",
+    "type": "[HEALED]",
+    "color": "DC143C",
+    "level": 380,
+    "recipe": [
+      {
+        "Ring of Intrusion": 1
+      },
+      {
+        "Nephthys, the Engraved Ring": 1
+      },
+      {
+        "Ancient Hourglass": 1
+      },
+      {
+        "Steel of God": 1
+      },
+      {
+        "Spirit of Abyss": 1
+      },
+      {
+        "Heart of Fire": 1
+      }
+    ],
+    "stats": {
+      "allstat": 99999,
+      "movespeed": -500,
+      "skilldamagepercent": 0.008,
+      "passive": [
+        "If HP drops below 1, Gives you a text that says HEALED but thats it."
+      ],
+      "active": [
+        "On use, activates Time Distortion resetting it's own cooldown, but only once.",
+        "Cannot be dropped"
+      ]
+    }
+  },
+  {
+    "name": "Essence of Air",
+    "description": "\"then suffer\"",
+    "dropped_by": [
+      "All"
+    ],
+    "type": "[Air]",
+    "color": "FFFFFF",
+    "droprate": 0.999,
+    "required_by": [
+      "Nothing"
+    ]
   }
 ]
