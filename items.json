@@ -10036,7 +10036,7 @@
       "attackspeedpercent": 0.15,
       "movespeedpercent": 0.15,
       "passive": [
-        "Slams down lightning on attack with an ~11.1% chance to deal (20000 + AGI x 10) magic damage",
+        "Slams down lightning on attack with an ~11.1% chance to deal (20000 + AGI X 10) magic damage",
         "On skill cast, ~11.1% chance to Awaken, increasing movement and attack speed by 50% for 6 seconds",
         "Whilst Awakened, attacks have a ~33.3% chance to deal (30000 + AGI X 15) magic damage"
       ]
@@ -16707,7 +16707,7 @@
         "Spawns 3 orbs every 5 seconds that heal you for 2.5% HP and 3% MP each (for a total of 7.5% HP and 9% MP)"
       ],
       "active": [
-        "Release souls dealing (75 X INT X (0.5 + (0.5 X Current Mana/Max Mana)) AoE Magic Damage, and also heals self and nearby allies for 40% max HP X (Current Mana/Max Mana)) (40 second CD)"
+        "Release souls dealing (75 X INT X (0.5 + (0.5 X Current Mana/Max Mana)) AoE Magic Damage, and also heal self and nearby allies for 40% max HP X (Current Mana/Max Mana)) (40 second CD)"
       ],
       "spec": [
         "Specialty - Soul Devour",
