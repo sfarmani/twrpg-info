@@ -15883,7 +15883,7 @@
         "7.5% Chance to activate Frenzy on attack",
         "Next 5 hits will ignore armor",
         "Also gain 25000 attack damage, 1500 main stat and HP regen for 7.5 seconds",
-        "Absolute Strike cooldown: 15 seconds, cannot be dropped during cooldown"
+        "Frenzy cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
   },
