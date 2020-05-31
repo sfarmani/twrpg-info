@@ -1,5 +1,222 @@
 [
     {
+        "name": "35f",
+        "notes": [
+            "Released on: May 30th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Phantom Blade T - Fixed a bug that caused the map to move strangely",
+            "Soul Weaver F - Fixed a bug",
+            "Vest of Cyclone / Vest of Storm - Fixed a bug where movement speed was not being applied"
+        ]
+    },
+    {
+        "name": "35e",
+        "notes": [
+            "Released on: May 30th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Hermit E - Fixed a bug where movement speed increase was not applied",
+            "Phantom Blade T - Fixed a bug where movement speed increase was not applied",
+            "Witch D - Fixed a bug where movement speed increase was not applied",
+            "Wings of Blood Lord - Fixed a bug where movement speed increase was not applied",
+            "Death Fiend - Changed to apply link to summons"
+        ],
+        "heroes": [
+            {
+                "name": "Soul Weaver",
+                "changes": [
+                    "Harvest (A)",
+                    [
+                        "Damage per second: Attack damage X 200% → Attack damage X 150%"
+                    ],
+                    "Soul Collector [D]",
+                    [
+                        "Soul absorbtion: HP recovery per 1% → 0.5%"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "35d",
+        "notes": [
+            "Released on: May 30th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Swordsman - Fixed Genocide Storm (F) being able to pass through some terrain",
+            "Prius Silver Coin - Fixed an issue where Mark of Storm was not being purchased",
+            "Prius Silver Coin - Fixed a bug where rewards might not be properly paid"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New recipes added",
+                    [
+                        "Ring of Insanity",
+                        "Ring of Hope",
+                        "Ring of Despair"
+                    ]
+                ]
+            },
+            {
+                "name": "Mask of Blood",
+                "changes": [
+                    "Changed name to Cursed Mask"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Corruptor Rectus / Flame Nightmare / Turtle Lord / Spirit Beast",
+                "changes": [
+                    "Prius Silver Coin droprate: (2 X number of players)% (0% ~ 20%) → 2% per person up to 5 players, 1% for 6 players and up (0% ~ 15%)"
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Target of giant wavecallers will now be indicated by red arrow above their heads"
+                ]
+            },
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Soul Crystal",
+                    [
+                        "HP: 12,500,000 → 10,000,000",
+                        "Orbs - Damage: max HP X 25% → max HP X 33%",
+                        "Shield amount: 50% → 33%",
+                        "Recovery - Changed not to trigger during phase 3"
+                    ],
+                    "Hell Gate",
+                    [
+                        "Changed to not become invincible while casting"
+                    ],
+                    "Soul Maze",
+                    [
+                        "Max HP per second is reduced by 5 after 60 seconds inside"
+                    ],
+                    "Absorbtion",
+                    [
+                        "Changed to not recover HP when absorbing player's summons"
+                    ]
+                ]
+            },
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Fear",
+                    [
+                        "Cooldown now starts after skill cast ends",
+                        "Radius of affected unit's movement limited"
+                    ],
+                    "Crystal Links",
+                    [
+                        "Sphere activation: 1.5 seconds → 1 second",
+                        "Connection time: 2.5 seconds → 4 seconds",
+                        "Activation cycle 15 seconds → 17.5 seconds"
+                    ],
+                    "Armageddon",
+                    [
+                        "Damage: Max HP X 125% ~ 300% → max HP X 100% ~ 300%"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Berserker",
+                "changes": [
+                    "20% chance to deal bonus damage when attacking below 35% → 25% chance to deal bonus damage in proportion to lost HP (max HP 20%)"
+                ]
+            },
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Throw Money (R)",
+                    [
+                        "Changed to not affect or stack with other Merchant R"
+                    ]
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Sword Enchant (D)",
+                    [
+                        "Changed the stack to initialize upon death"
+                    ],
+                    "Guard Enchant (R)",
+                    [
+                        "Changed to stack with Power / Speed Enchant"
+                    ]
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Obliterate (F)",
+                    [
+                        "Deals up to 40% bonus damage based on target's missing HP → Deals up to 20% bonus damage based on target's missing HP"
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Death Mark",
+                    [
+                        "Increased up to 50% based on the target's missing HP → Increased up to 20% based on the target's missing HP"
+                    ]
+                ]
+            },
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "Collision damage: AGI X 100 → AGI X 125",
+                    "Explosion damage: AGI X 225 → AGI X 375"
+                ]
+            },
+            {
+                "name": "Sniper",
+                "changes": [
+                    "Demolition (F)",
+                    [
+                        "AGI X 550 → AGI X 675",
+                        "Deals up to 40% bonus damage, based on target's missing health → Deals up to 20% bonus damage, based on target's missing health"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Conjure Air (E)",
+                    [
+                        "Air-related transmutation grants 40% attack speed for 6 seconds → Air-related transmutation grants 50 movement speed for 6 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Elemental Link (T)",
+                    [
+                        "No longer triggers 'on cast' item effects"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Removed dissasembly skill from Jaina",
+            "When selecting multiple units, bag will now always be before powder bag in unit order"
+        ]
+    },
+    {
         "name": "35c",
         "notes": [
             "Released on: May 25th, 2020",

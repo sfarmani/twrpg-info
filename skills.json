@@ -109,10 +109,9 @@
         "icon": "SniperF",
         "active": [
             "\"Ruthless? Evil beings need no mercy..\" - Sniper",
-            "Each round deals AGI X 30 damage",
-            "Deals up to 40% bonus damage, based on target's missing health",
-            "Casting from distance moves yourself backwards into the air and does a long ranged attack",
-            "Passive from Snipe applied without condition"
+            "Deals |c00f8ae9cAGI X 550 |c0080ff00magic damage",
+            "Deals up to 40% bonus damage, based on target's missing health (20% max HP)",
+            "If cast from melee range, leaps before firing"
         ]
     },
     {
@@ -124,7 +123,7 @@
         "passive": [
             "Expertise in black magic allows Soul Weaver to subjugate souls to her will.",
             "Regenerates (12 + MP regen / 50) souls per second",
-            "Restores Max HP X 1% for each soul absorbed"
+            "Restores Max HP X 0.5% for each soul absorbed"
         ]
     },
     {
@@ -135,7 +134,7 @@
         "icon": "SoulWeaverA",
         "active": [
             "Sends out a spinning scythe that harvests the souls of enemies.",
-            "Attack Damage X 200% physical damage per second (ignore's target's defense)",
+            "Attack Damage X 150% physical damage per second (ignore's target's defense)",
             "Absorbs 4 souls (10 souls for boss) per second",
             "Reduces target's healing received by 15% and movement speed by 60%",
             "Affected by attack speed"
@@ -390,7 +389,7 @@
         "icon": "AlchemistE",
         "passive": [
             "Affinity with air grants vitality.",
-            "Air-related transmutation grants 40% attack speed for 6 seconds"
+            "Air-related transmutation grants 50 movement speed for 6 seconds"
         ],
         "active": [
             "Create a transmutation circle of air to cast skills.",
@@ -2377,7 +2376,7 @@
         "active": [
             "\"You are already dead. You just haven't caught up to it yet.\" - Reaper",
             "Increases your damage dealt to the target by 30% for 12 seconds",
-            "Increased up to 50% based on the target's missing HP",
+            "Increased up to 50% based on the target's missing HP (20% max HP)",
             "On finish, deals AGI X 525 damage to the target",
             "Re-use skill to manually finish"
         ]
@@ -2975,7 +2974,7 @@
         "icon": "BerserkerT",
         "passive": [
             "Shroud your sword with madness.",
-            "While below 35% HP, your attacks have 20% chance to proc bonus damage",
+            "While below 35% HP, your attacks have 25% chance to proc bonus damage proportional to missing HP",
             "Casting Brandish empowers next 3 attacks with bonus damage",
             "Deals Attack Damage X 200% + STR X 20 bonus damage"
         ],
@@ -3114,9 +3113,9 @@
         "icon": "BowMasterF",
         "active": [
             "\"Without a warning, our enemies were swept across like dust by a magical arrow she shot.\" - A soldier of battlefield",
-            "AGI X 100 damage",
+            "AGI X 125 damage",
             "Each arrow deals AGI X 5 damage",
-            "Explosion deals AGI X 225 damage",
+            "Explosion deals AGI X 375 damage",
             "Stacks Elven Arrow every second for 6 seconds",
             "Stacks are usable for 15 seconds"
         ]
@@ -4047,7 +4046,7 @@
             "Pauses enemies for 1.8 seconds",
             "Delivers Attack Damage X 17500% damage at the end",
             "Stuns for 2 seconds",
-            "Deals up to 40% bonus damage based on target's missing HP",
+            "Deals up to 40% bonus damage based on target's missing HP (20% max HP)",
             "Cooldown: 120 seconds"
         ]
     },

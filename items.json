@@ -4969,7 +4969,7 @@
   },
   {
     "id": "mnst",
-    "name": "Mask of Blood (summon item)",
+    "name": "Cursed Mask",
     "description": "Mask cursed by Wallachia",
     "dropped_by": [
       "Duchy of Wallachia creeps"
@@ -4984,7 +4984,7 @@
         "Summons a field boss"
       ]
     },
-    "koreanname": "피의 가면"
+    "koreanname": "저주받은 가면"
   },
   {
     "id": "rspl",
@@ -7609,8 +7609,7 @@
     "color": "FFFFFF",
     "notes": [
       "Droprate is determined by the amount of players involved in the fight when the boss dies",
-      "(2 X players in fight)% chance for all players involved to get N number of coins",
-      "Proof of Endeavor can be exchanged for a Silver Coin at the Collector NPC",
+      "2% per player up to 5 players, 1% for 6 and up chance for all players involved to get N number of coins",
       "You can also purchase items from the Collector NPC",
       "Any item in the 'Used In' section can also be sold to the Collector NPC for Silver Coins"
     ],
