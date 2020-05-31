@@ -36,7 +36,8 @@
         "suffix": "None",
         "debufftype": "Magic Defense Reduction",
         "names": [
-            "Ring of Composure(Passive)",
+            "Ring of Composure (Passive)",
+            "Ring of Despair (Passive)",
             "Cloak of the Fallen Shadows (Passive)"
         ]
     },

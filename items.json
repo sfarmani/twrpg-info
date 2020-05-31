@@ -7170,7 +7170,8 @@
     "level": 360,
     "droprate": 0.01,
     "required_by": [
-      "Latea, the Ring of Overlord"
+      "Latea, the Ring of Overlord",
+      "Ring of Insanity"
     ],
     "stats": {
       "mainstat": 420,
@@ -7295,7 +7296,8 @@
       "Nebula Rose",
       "Storm",
       "Splitting of the Sky and Earth",
-      "Brave Heart"
+      "Brave Heart",
+      "Ring of Insanity"
     ],
     "koreanname": "폭풍의 가호"
   },
@@ -7340,7 +7342,9 @@
       "Storm",
       "Splitting of the Sky and Earth",
       "Robe of Archlich",
-      "Brave Heart"
+      "Brave Heart",
+      "Ring of Hope",
+      "Ring of Despair"
     ],
     "koreanname": "빛나는 유적의 조각"
   },
@@ -7463,7 +7467,10 @@
     "required_by": [
       "Ring of Fate",
       "Bag of Universe",
-      "Soul of Abyss"
+      "Soul of Abyss",
+      "Ring of Hope",
+      "Ring of Despair",
+      "Ring of Insanity"
     ],
     "koreanname": "바다의 결정"
   },
@@ -7662,6 +7669,9 @@
     "color": "DC143C",
     "level": 400,
     "droprate": 0.01,
+    "required_by": [
+      "Ring of Insanity"
+    ],
     "stats": {
       "mainstat": 1350,
       "hp": 7500,
@@ -7682,6 +7692,10 @@
     "name": "Fragment of Soul",
     "dropped_by": [
       "Underlord Agareth"
+    ],
+    "required_by": [
+      "Ring of Hope",
+      "Ring of Despair"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
@@ -15709,6 +15723,9 @@
     "type": "[Ring]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Ring of Hope"
+    ],
     "recipe": [
       {
         "Ring of Holy Light": 1
@@ -15798,6 +15815,9 @@
     "type": "[Ring]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Ring of Insanity"
+    ],
     "recipe": [
       {
         "Ring of Nightmare": 1
@@ -15827,6 +15847,44 @@
         "7.5% Chance to activate Absolute Strike on attack",
         "Next 4 hits will ignore armor",
         "Also gain 20000 attack damage, 1000 main stat, and 1000 HP regen for 7.5 seconds",
+        "Absolute Strike cooldown: 15 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0NM",
+    "name": "Ring of Insanity",
+    "koreanname": "광기의 반지",
+    "description": "이걸 끼다니 자네 제정신인가?",
+    "type": "[Ring]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Ring of Strike": 1
+      },
+      {
+        "Ring of Destruction": 1
+      },
+      {
+        "Curse of Greed": 1
+      },
+      {
+        "Aegis of Storm": 1
+      },
+      {
+        "Essence of Sea": 1
+      }
+    ],
+    "stats": {
+      "strength": 1340,
+      "agility": 1260,
+      "periodicdamagepercent": 0.35,
+      "healreceivedpercent": -0.35,
+      "passive": [
+        "7.5% Chance to activate Frenzy on attack",
+        "Next 5 hits will ignore armor",
+        "Also gain 25000 attack damage, 1500 main stat and HP regen for 7.5 seconds",
         "Absolute Strike cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -18008,6 +18066,9 @@
     "type": "[Ring]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Ring of Hope"
+    ],
     "recipe": [
       {
         "Ring of the Storm": 1
@@ -18032,10 +18093,52 @@
       "allstat": 960,
       "hpregen": 400,
       "passive": [
-        "Casting single-target spells on ally increases target's damage by 5% for 12 seconds"
+        "Casting single-target spells on ally applies Fervor",
+        "Increases target's damage by 5% for 12 seconds"
       ],
       "active": [
-        "Restores 40% HP of allies affected by passive (30 second cooldown)"
+        "On use, activates Joy",
+        "Restores 40% HP of allies affected by Fervor",
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0NK",
+    "name": "Ring of Hope",
+    "koreanname": "희망의 반지",
+    "description": "모든 게 너무 좋아!",
+    "type": "[Ring]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Ring of Fervor": 1
+      },
+      {
+        "Bell of Light": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Fragment of Soul": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "strength": 1200,
+      "hpregen": 600,
+      "passive": [
+        "Casting single-target spells on ally applies Passion",
+        "Increases target's damage by 10% and HP regen by 400 for 12 seconds"
+      ],
+      "active": [
+        "On use, activates Hope",
+        "Cleanses debuffs from allies and restores 50% max HP of allies affected by Passion",
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -18047,6 +18150,9 @@
     "type": "[Ring]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Ring of Despair"
+    ],
     "recipe": [
       {
         "Ring of the Dead": 1
@@ -18071,10 +18177,50 @@
       "allstat": 1060,
       "mpregen": 200,
       "passive": [
-        "Casting single-target spells on enemies decreases their magic resistance by 6% for 12 seconds"
+        "Casting single-target spells on enemies decreases their magic resistance by 6% (Type-B) for 12 seconds"
       ],
       "active": [
-        "Deals 2% Max HP pure damage to debuffed enemy and freezes them for 2 seconds. Damage affected by Water/Ice Affinity. (30s CD)"
+        "Deals 2% Max HP pure damage to debuffed enemy and freezes them for 2 seconds",
+        "Damage affected by Water/Ice Affinity",
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0NL",
+    "name": "Ring of Despair",
+    "koreanname": "절망의 반지",
+    "description": "모든 것을 저주한다.",
+    "type": "[Ring]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Ring of Composure": 1
+      },
+      {
+        "Grimoire of Darkness": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Fragment of Soul": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "allstat": 1250,
+      "mpregen": 400,
+      "passive": [
+        "Casting single-target spells on enemies decreases their magic resistance by 7.5% (Type-B) for 12 seconds"
+      ],
+      "active": [
+        "Deals 2.5% Max HP pure damage to debuffed enemy, freezes for 2 seconds, and increases allies' damage dealt by 5% for 2 seconds.",
+        "Damage affected by Water/Ice Affinity",
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -18211,6 +18357,9 @@
     "type": "[Ring]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Ring of Despair"
+    ],
     "recipe": [
       {
         "Ring of Deep Darkness": 1
