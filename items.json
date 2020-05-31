@@ -18129,7 +18129,7 @@
       }
     ],
     "stats": {
-      "strength": 1200,
+      "allstat": 1200,
       "hpregen": 600,
       "passive": [
         "Casting single-target spells on ally applies Passion",
