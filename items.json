@@ -18131,7 +18131,7 @@
       "hpregen": 600,
       "passive": [
         "Casting single-target spells on ally applies Passion",
-        "Increases target's damage by 10% and HP regen by 400 for 12 seconds"
+        "Increases target's damage by 7.5% and main stat by 400 for 12 seconds"
       ],
       "active": [
         "On use, activates Hope",
@@ -18216,7 +18216,7 @@
         "Casting single-target spells on enemies decreases their magic resistance by 7.5% (Type-B) for 12 seconds"
       ],
       "active": [
-        "Deals 2.5% Max HP pure damage to debuffed enemy, freezes for 2 seconds, and increases allies' damage dealt by 5% for 2 seconds.",
+        "Deals 2.5% Max HP pure damage to debuffed enemy, freezes for 2 seconds, and increases allies' damage dealt to it by 5% for 2 seconds",
         "Damage affected by Water/Ice Affinity",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
