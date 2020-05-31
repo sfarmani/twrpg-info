@@ -7390,7 +7390,8 @@
       "Eye of the Flame Lord",
       "Protection of the Fairies",
       "Archangel Wings",
-      "Brave Heart"
+      "Brave Heart",
+      "Ring of Insanity"
     ],
     "koreanname": "화염의 가호"
   },
@@ -7669,9 +7670,6 @@
     "color": "DC143C",
     "level": 400,
     "droprate": 0.01,
-    "required_by": [
-      "Ring of Insanity"
-    ],
     "stats": {
       "mainstat": 1350,
       "hp": 7500,
@@ -15867,7 +15865,7 @@
         "Ring of Destruction": 1
       },
       {
-        "Curse of Greed": 1
+        "Aegis of Flame": 1
       },
       {
         "Aegis of Storm": 1
