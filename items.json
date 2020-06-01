@@ -1263,7 +1263,7 @@
       "agility": 70,
       "intelligence": 70,
       "passive": [
-        "Periodically deals 2400 magic damage to nearby enemies"
+        "Periodically deals 5000 magic damage to nearby enemies"
       ]
     }
   },
@@ -4905,7 +4905,7 @@
       "skilldamagepercent": 0.03,
       "critchancepercent": 0.03,
       "passive": [
-        "If HP drops below 15%, gains 90% damage reduction for 3 seconds"
+        "If HP drops below 15%, gain 90% damage reduction for 3 seconds (90 second CD)"
       ]
     },
     "koreanname": "망자의 옷"
@@ -7662,7 +7662,7 @@
   {
     "id": "I0O3",
     "name": "Curse of Greed",
-    "description": "인간의 욕심은 끝이 없구나",
+    "description": "Human greed knows no limits.",
     "dropped_by": [
       "Underlord Agareth"
     ],
@@ -10016,7 +10016,7 @@
       "hp": 2500,
       "critmultiplier": 0.2,
       "passive": [
-        "Activates Blood Release on every 14th attack",
+        "Activates Blood Release on every 14th attack, healing the user for (2500 + (main stat X 0.6)) HP and proccing a random Wrath effect",
         "Red Wrath: deals (main stat X 27.5) magic splash damage",
         "Green Wrath: reduces target movement and attack speed by 66% for 3 seconds, deals (main stat X 15) magic splash damage, and stuns non-boss units for 0.25 seconds"
       ]
@@ -10216,7 +10216,7 @@
       "skilldamagepercent": 0.05,
       "periodicdamagepercent": 0.15,
       "passive": [
-        "Activates Blood Release on every 14th attack",
+        "Activates Blood Release on every 14th attack, healing the user for (2500 + (main stat X 0.6)) HP and proccing a random Wrath effect",
         "Red Wrath: deals (main stat X 27.5) magic splash damage",
         "Green Wrath: reduces target movement and attack speed by 66% for 3 seconds, deals (main stat X 15) magic splash damage, and stuns non-boss units for 0.25 seconds"
       ]
@@ -14484,7 +14484,9 @@
       "skilldamagepercent": 0.09,
       "critchancepercent": 0.09,
       "passive": [
-        "Reduces damage taken and heals you when Health is low (60 second CD)"
+        "If HP drops below 20%, gain 90% damage reduction for 3 seconds and instantly heal for 35% max HP",
+        "For the next 3 seconds, heal 6% max HP per second",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Wraith Possession",

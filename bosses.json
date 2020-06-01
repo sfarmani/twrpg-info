@@ -910,9 +910,9 @@
         "id": "h077",
         "name": "Underlord Agareth",
         "limit": "None",
-        "manacost": "6",
+        "manacost": "10",
         "summon": "Destroy the demonic portal during the Hell Invasion",
-        "conditions": "Level 420, Demon Lord summoned, and Demoic portal destroyed",
+        "conditions": "Level 420, Demon Lord summoned, and Demonic portal destroyed",
         "drops": [
             "I0O3",
             "I0NV",
