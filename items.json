@@ -4905,7 +4905,8 @@
       "skilldamagepercent": 0.03,
       "critchancepercent": 0.03,
       "passive": [
-        "If HP drops below 15%, gain 90% damage reduction for 3 seconds (90 second CD)"
+        "If HP drops below 15%, gain 90% damage reduction for 3 seconds",
+        "Cooldown: 90 seconds"
       ]
     },
     "koreanname": "망자의 옷"
@@ -14484,7 +14485,8 @@
       "skilldamagepercent": 0.09,
       "critchancepercent": 0.09,
       "passive": [
-        "If HP drops below 20%, gain 90% damage reduction for 3 seconds and instantly heal for 35% max HP",
+        "Activates Grandine when HP drops below 20%",
+        "Gain 90% damage reduction for 3 seconds and instantly heal for 35% max HP",
         "For the next 3 seconds, heal 6% max HP per second",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ],
