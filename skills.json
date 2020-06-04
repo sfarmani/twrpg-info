@@ -109,7 +109,7 @@
         "icon": "SniperF",
         "active": [
             "\"Ruthless? Evil beings need no mercy..\" - Sniper",
-            "Deals |c00f8ae9cAGI X 550 |c0080ff00magic damage",
+            "Deals AGI X 550 magic damage",
             "Deals up to 40% bonus damage, based on target's missing health (20% max HP)",
             "If cast from melee range, leaps before firing"
         ]
