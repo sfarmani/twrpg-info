@@ -2733,7 +2733,7 @@
     },
     {
         "name": "Throw Bomb",
-        "heroClass": "Merchant",
+        "heroClass": "Merchant|Hermit",
         "color": "ddddbb",
         "hotkey": "[W]",
         "icon": "MerchantW2",
@@ -2743,7 +2743,8 @@
             "Inflicts a chain epxlosion to nearby bombs that adds a 0.5 second stun and increase damage by 100% (up to 4 times)",
             "Explodes after 30 seconds",
             "Up to 10 can be placed on the ground at the same time",
-            "1 charge per second (up to 5)"
+            "If Hermit, cooldown: 2 seconds",
+            "If Merchant, 1 charge per second (up to 5)"
         ]
     },
     {
@@ -2797,6 +2798,7 @@
         "icon": "MerchantT2",
         "active": [
             "Plant very dangerous explosives.",
+            "Allies can attack explosives when planted",
             "Explodes after 15 seconds, dealing STR X 100 + damage taken X 7.5% pure damage",
             "Stuns for 3 seconds",
             "Cooldown: 60 seconds"

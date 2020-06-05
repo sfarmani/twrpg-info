@@ -8499,14 +8499,14 @@
       "damage": 26000,
       "strength": 2250,
       "skilldamagepercent": 0.16,
-      "dtpercent": 0.8,
+      "dtpercent": 0.08,
       "active": [
         "On use, obtains Throw Bomb",
         "Replaces Throwing Healing Potion with Throw Bomb. Use again to revert back",
         "Cooldown: 1 second"
       ],
       "spec": [
-        "Merchant Specialty - Very Heavy Bag",
+        "Merchant Specialty - Dangerous Bag",
         "Merchant - Throw Bomb: Changed to be rechargeable (one charge per second; up to 5)",
         "Merchant - Holy Water of Resurrection: Replaced with Dangerous Explosives"
       ]
@@ -14696,7 +14696,7 @@
       "strength": 1320,
       "skilldamagepercent": 0.10,
       "passive": [
-        "On absorbing enough damage, empowers next Hellspike",
+        "On absorbing 100% max HP worth of damage, empowers next Hellspike",
         "Empowered Hellspike deals 5000% max HP around user and stuns for 2 seconds",
         "Can accumulate up to 50% max HP damage from one damage instance",
         "Cooldown: 5 seconds before accumulating again"
@@ -17205,8 +17205,8 @@
       ],
       "active": [
         "On use, activates Star of Destruction",
-        "Deals ((STR + AGI) X 250) magic damage to enemies around user and reduces their armor by 300 for 10 seconds",
-        "stuns for 2.5 seconds",
+        "Deals ((STR + AGI) X 250) magic damage to enemies at target location and reduces their armor by 300 for 10 seconds",
+        "Stuns for 2.5 seconds",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
