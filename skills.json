@@ -387,10 +387,9 @@
         "icon": "AlchemistW_E",
         "order": 10,
         "active": [
-            "Transmutates a row of icicles that travels outward.",
-            "Each icicle deals INT X 75 magic damage and stun for 1.5 seconds",
-            "Reduces enemies' movement speed by 80% for 3 seconds",
-            "Chainable Skill: Ground Collapse"
+            "Transmutes an icicle.",
+            "INT X (25 X Skill Level) magic damage",
+            "Freezes target for 1.5 seconds"
         ]
     },
     {
@@ -4269,12 +4268,23 @@
         ]
     },
     {
+        "name": "Deactivate Alacrity",
+        "heroClass": "Phantom Blade",
+        "color": "c8f9dd",
+        "hotkey": "[Q] → [Q]",
+        "icon": "PBQ_2",
+        "order": 4,
+        "toggle": [
+            "Disables the usage."
+        ]
+    },
+    {
         "name": "Crescent",
         "heroClass": "Phantom Blade",
         "color": "c8f9dd",
         "hotkey": "[W]",
         "icon": "PBW",
-        "order": 4,
+        "order": 5,
         "active": [
             "Attack Damage X 400% damage",
             "AGI X 20 bonus damage",
@@ -4288,23 +4298,12 @@
         "color": "c8f9dd",
         "hotkey": "[E]",
         "icon": "PBE",
-        "order": 5,
+        "order": 6,
         "active": [
             "Attack Damage X 600% damage",
             "AGI X 40 bonus damage",
             "Lands as critical strike on boss units",
             "Castable while casting other spells"
-        ]
-    },
-    {
-        "name": "Deactivate Alacrity",
-        "heroClass": "Phantom Blade",
-        "color": "c8f9dd",
-        "hotkey": "[E] → [E]",
-        "icon": "PBE_2",
-        "order": 6,
-        "toggle": [
-            "Disables the usage."
         ]
     },
     {
