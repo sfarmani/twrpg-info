@@ -413,6 +413,7 @@
             "Wings of Phoenix - Phoenix",
             "Guardian Vest - Improved Nameless Arts",
             "Grandine, the Plates of Wraith - Wraith Possession",
+            "Athanasia, the Armor of the Reaper - Reaper Possession",
             "Heaven's Fist - Holy Arts"
         ]
     },
@@ -562,6 +563,7 @@
             "Bag of Hell - Very Heavy Bag",
             "Bag of Corruption - Very Heavy Bag",
             "Bag of Destruction - Very Heavy Bag",
+            "Bag of Explosion - Very Heavy Bag",
             "Fruit-filled Bag - Light Bag",
             "Candy-filled Bag - Light Bag",
             "Candy-filled Bag +1 - Light Bag",
@@ -596,7 +598,8 @@
             "She is now seeking revenge on an evil spirit that wiped out her bloodline."
         ],
         "spec": [
-            "Guardian of the Skies - Improved Magnetic Field"
+            "Guardian of the Skies - Improved Magnetic Field",
+            "Ruler of the Skies - Improved Magnetic Field"
         ]
     },
     {

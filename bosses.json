@@ -96,7 +96,7 @@
         "name": "Protector of Nature",
         "limit": "3",
         "summon": "In Kalidi Forest where Giant Furblog spawns",
-        "conditions": "Level 25 and 3 Nature Powder",
+        "conditions": "Level 25 and 2 Nature Powder",
         "drops": [
             "I0EA",
             "I0EB",

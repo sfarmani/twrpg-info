@@ -2732,6 +2732,21 @@
         ]
     },
     {
+        "name": "Throw Bomb",
+        "heroClass": "Merchant",
+        "color": "ddddbb",
+        "hotkey": "[W]",
+        "icon": "MerchantW2",
+        "active": [
+            "Throws an explosive bomb at the enemy.",
+            "STR X 30 magic damage",
+            "Inflicts a chain epxlosion to nearby bombs that adds a 0.5 second stun and increase damage by 100% (up to 4 times)",
+            "Explodes after 30 seconds",
+            "Up to 10 can be placed on the ground at the same time",
+            "1 charge per second (up to 5)"
+        ]
+    },
+    {
         "name": "Life Shield Scroll",
         "heroClass": "Merchant",
         "color": "ddddbb",
@@ -2772,6 +2787,19 @@
             "Revived ally cannot die for 5 seconds",
             "If killed while not on cooldown, it is used for yourself",
             "Range: 600"
+        ]
+    },
+    {
+        "name": "Dangerous Explosives",
+        "heroClass": "Merchant",
+        "color": "ddddbb",
+        "hotkey": "[T]",
+        "icon": "MerchantT2",
+        "active": [
+            "Plant very dangerous explosives.",
+            "Explodes after 15 seconds, dealing STR X 100 + damage taken X 7.5% pure damage",
+            "Stuns for 3 seconds",
+            "Cooldown: 60 seconds"
         ]
     },
     {
@@ -2927,7 +2955,8 @@
             "Consumes life to let out a fierce roar.",
             "Consumes HP X 30%",
             "Max HP X 500% pure damage",
-            "Reduces target's armor by 10% for 10 seconds"
+            "Reduces target's armor by 10% for 10 seconds",
+            "Cooldown: 8 seconds"
         ]
     },
     {
@@ -3213,7 +3242,8 @@
             "Materialize mana into an orb.",
             "If 3 orbs are charged, it sends all 3 orbs to target location with each orb dealing 400% max MP",
             "If Release Mana is toggled on, each orb stuns target",
-            "If Release Mana is toggled off, each orb slows target movement speed by 50% for 3 seconds"
+            "If Release Mana is toggled off, each orb slows target movement speed by 50% for 3 seconds",
+            "If less than 3 orbs were charges, does not go on cooldown"
         ]
     },
     {
@@ -3965,11 +3995,21 @@
         ]
     },
     {
-        "name": "Crescent",
+        "name": "Alacrity",
         "heroClass": "Phantom Blade",
         "color": "c8f9dd",
         "hotkey": "[Q]",
         "icon": "PBQ",
+        "toggle": [
+            "40% chance to deal AGI X 40 bonus damage when delivering a slash"
+        ]
+    },
+    {
+        "name": "Crescent",
+        "heroClass": "Phantom Blade",
+        "color": "c8f9dd",
+        "hotkey": "[W]",
+        "icon": "PBW",
         "active": [
             "Attack Damage X 400% damage",
             "AGI X 20 bonus damage",
@@ -3981,23 +4021,13 @@
         "name": "Daze",
         "heroClass": "Phantom Blade",
         "color": "c8f9dd",
-        "hotkey": "[W]",
-        "icon": "PBW",
+        "hotkey": "[E]",
+        "icon": "PBE",
         "active": [
             "Attack Damage X 600% damage",
             "AGI X 40 bonus damage",
             "Lands as critical strike on boss units",
             "Castable while casting other spells"
-        ]
-    },
-    {
-        "name": "Alacrity",
-        "heroClass": "Phantom Blade",
-        "color": "c8f9dd",
-        "hotkey": "[E]",
-        "icon": "PBE",
-        "toggle": [
-            "40% chance to deal AGI X 40 bonus damage when delivering a slash"
         ]
     },
     {
@@ -4230,8 +4260,9 @@
         "icon": "WitchR",
         "active": [
             "A master of witchcraft can even stop the time itself.",
-            "Freezes enemies for 2 seconds",
-            "Grants immunity to harmful effects to allies for 2 seconds"
+            "Freezes enemies for 1.5 seconds",
+            "Grants immunity to harmful effects to allies for 2 seconds",
+            "Cooldown: 20 seconds"
         ]
     },
     {
@@ -4285,11 +4316,14 @@
         "color": "6045c9",
         "hotkey": "[T] → [W]",
         "icon": "WitchT_W",
-        "active": [
-            "Brands the target with power.",
+        "passive": [
+            "Armaros's Power",
             "Increases damage dealt by 7.5%",
             "Reduces damage taken by 20%",
-            "Increases attack speed by 50%",
+            "Increases attack speed by 50%"
+        ],
+        "active": [
+            "Brands the target with power.",
             "Lasts 45 seconds"
         ]
     },

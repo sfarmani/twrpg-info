@@ -1,5 +1,189 @@
 [
     {
+        "name": "35g",
+        "notes": [
+            "Released on: June 4th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Wing mage - Fixed Feather of Aeolus (D) being able to jump through some terrain"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Added new crafts",
+                    "Bag of Explosion",
+                    "Felspike Armor",
+                    "Athanasia, the Armor of the Reaper",
+                    "Rulers of the skies"
+                ]
+            },
+            {
+                "name": "Winter's Heart",
+                "changes": [
+                    "Slow effect on attack removed"
+                ]
+            },
+            {
+                "name": "Guardian of the Skies",
+                "changes": [
+                    "Passive: Increases main stat by 275 → increases all stat by 250"
+                ]
+            },
+            {
+                "name": "Fruit Candy Pouch",
+                "changes": [
+                    "Removed Uncle Van's Carrot / Uncle Van's Pumpkin from recipe"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Protector of Nature",
+                "changes": [
+                    "Nature powder requirement: 3 → 2"
+                ]
+            },
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "HP: 60,824,000 → 52,860,000",
+                    "Soul Crystal",
+                    [
+                        "Orb healing taken reduction: 100% → 80%"
+                    ],
+                    "Flame",
+                    [
+                        "Damage per second per stack: 2.5% max HP → 1% max HP"
+                    ],
+                    "Orbs",
+                    [
+                        "Damage: 33% max HP → 25% max HP",
+                        "Now pierces through units"
+                    ],
+                    "Skewer",
+                    [
+                        "Now can only apply one stack of purple / green flame",
+                        "Now insta-kills a unit if they are hit by Skewer twice within 15 seconds"
+                    ],
+                    "Finger of Death",
+                    [
+                        "Now slightly indicates target of each jump"
+                    ]
+                ]
+            },
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Hellgate",
+                    [
+                        "Insta-kill effects cycle: 6.66 seconds → 10 seconds",
+                        "Summons now decrease hellgate's size at 33% speed of heroes do",
+                        "Summoning cycle now decreases based on hellgate's size",
+                        "Hellspawn attack damage and aggro range increased"
+                    ],
+                    "Miasma",
+                    [
+                        "Damage per second removed",
+                        "Now ends after 20 seconds of duration"
+                    ],
+                    "Line",
+                    [
+                        "Damage per 0.5 seconds: 25000 → 7500",
+                        "Stun duration: 0.25 seconds → 0.1 seconds"
+                    ],
+                    "Fear",
+                    [
+                        "Umbra dance can no longer be cast immediately after Fear is casted",
+                        "Stun duration: 4 seconds → 2.5 seconds",
+                        "Cooldown: 20 seconds → 15 seconds",
+                        "Added passive effect on 3rd phase",
+                        [
+                            "If any hero has 3 or more allies in 400 radius within them, they lose 5% damage resistance per second (10% per second once reduction reaches 50%)"
+                        ]
+                    ],
+                    "Armageddon",
+                    [
+                        "Fear cooldown is paused while Armageddon is active"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Mana Blaster (R)",
+                    [
+                        "No longer goes on cooldown if less than 3 orbs were created"
+                    ]
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Howling (W)",
+                    [
+                        "Cooldown: 12 seconds → 8 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Cresent (Q)",
+                    [
+                        "Changed to be W spell"
+                    ],
+                    "Daze (W)",
+                    [
+                        "Changed to be E spell"
+                    ],
+                    "Alacrity (E)",
+                    [
+                        "Changed to be Q spell"
+                    ]
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Elemental Link (T)",
+                    [
+                        "Can proc on-spell cast effects again (only if link is established successfully)"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Hex (R)",
+                    [
+                        "Freeze duration: 2 seconds → 1.5 seconds",
+                        "Cooldown: 30 seconds → 20 seconds"
+                    ],
+                    "Hell Gate (T) - Mark of Power (W)",
+                    [
+                        "Changed to passively apply to Armaros"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Separated Alchemy option on Jaina",
+            [
+                "Standard Alchemy (Q): can create White / Green / Blue / Red Powders",
+                "Advanced Alchemy (W): can create Holy Powders and Tiny Essences"
+            ],
+            "Added new portal location",
+            [
+                "Elemental Tower"
+            ],
+            "Fixed ring visual effect being too large on Blood Weaver's Weird costume"
+        ]
+    },
+    {
         "name": "35f",
         "notes": [
             "Released on: May 30th, 2020",

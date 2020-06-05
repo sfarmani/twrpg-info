@@ -6160,6 +6160,7 @@
       "Pure Crystal Wings",
       "Wings of Slayer",
       "Oblivion",
+      "Bag of Explosion",
       "Skeleton King Icon"
     ],
     "recipe": [
@@ -6346,6 +6347,7 @@
       "Bag of Mother Nature",
       "Splitting of the Sky and Earth",
       "Punisher",
+      "Felspike Armor",
       "Zombie Lord Icon"
     ],
     "recipe": [
@@ -6430,6 +6432,7 @@
       "Grimoire of Darkness",
       "Ring of Fervor",
       "Hydro Buster",
+      "Bag of Explosion",
       "Zombie Lord Icon"
     ],
     "recipe": [
@@ -6518,6 +6521,8 @@
       "Frost Fairy Wings",
       "Ring of Composure",
       "Druid's Mantle",
+      "Bag of Explosion",
+      "Ruler of the Skies",
       "Ancient Ent Icon"
     ],
     "recipe": [
@@ -6880,6 +6885,7 @@
       "Medea, the Robe of the Witch",
       "Hades, the Armor of Despair",
       "Cold Ring of Death",
+      "Ruler of the Skies",
       "Shadow Dragon Icon"
     ],
     "recipe": [
@@ -7048,6 +7054,7 @@
     "required_by": [
       "Archangel Wings",
       "Brave Heart",
+      "Ruler of the Skies",
       "Archangel Icon"
     ],
     "stats": {
@@ -7118,7 +7125,9 @@
     "level": 380,
     "droprate": 0.0075,
     "required_by": [
-      "Hades, the Armor of Despair"
+      "Hades, the Armor of Despair",
+      "Athanasia, the Armor of the Reaper",
+      "Felspike Armor"
     ],
     "stats": {
       "armor": 740,
@@ -7217,7 +7226,8 @@
       "Archangel Wings",
       "Nebula Rose",
       "Storm",
-      "Bag of Universe"
+      "Bag of Universe",
+      "Ruler of the Skies"
     ],
     "koreanname": "혼돈이 깃든 파편"
   },
@@ -7266,7 +7276,8 @@
       "Staff of Plague",
       "Heaven's Fist",
       "Archangel Wings",
-      "Soul of Abyss"
+      "Soul of Abyss",
+      "Ruler of the Skies"
     ],
     "stats": {
       "mainstat": 1200,
@@ -7298,7 +7309,8 @@
       "Storm",
       "Splitting of the Sky and Earth",
       "Brave Heart",
-      "Ring of Insanity"
+      "Ring of Insanity",
+      "Athanasia, the Armor of the Reaper"
     ],
     "koreanname": "폭풍의 가호"
   },
@@ -7345,7 +7357,10 @@
       "Robe of Archlich",
       "Brave Heart",
       "Ring of Hope",
-      "Ring of Despair"
+      "Ring of Despair",
+      "Athanasia, the Armor of the Reaper",
+      "Felspike Armor",
+      "Ruler of the Skies"
     ],
     "koreanname": "빛나는 유적의 조각"
   },
@@ -7362,7 +7377,8 @@
     "droprate": 0.005,
     "required_by": [
       "Ring of Revival",
-      "Robe of Archlich"
+      "Robe of Archlich",
+      "Felspike Armor"
     ],
     "stats": {
       "mainstat": 1300,
@@ -7453,7 +7469,9 @@
     "droprate": 0.0075,
     "required_by": [
       "Robe of Archlich",
-      "Brave Heart"
+      "Brave Heart",
+      "Athanasia, the Armor of the Reaper",
+      "Felspike Armor"
     ],
     "koreanname": "바다의 가호"
   },
@@ -7472,7 +7490,8 @@
       "Soul of Abyss",
       "Ring of Hope",
       "Ring of Despair",
-      "Ring of Insanity"
+      "Ring of Insanity",
+      "Ruler of the Skies"
     ],
     "koreanname": "바다의 결정"
   },
@@ -7578,7 +7597,8 @@
       "Ring of Fervor",
       "Oblivion",
       "Fiend Chaser",
-      "Punisher"
+      "Punisher",
+      "Bag of Explosion"
     ],
     "koreanname": "용의 눈"
   },
@@ -7667,7 +7687,7 @@
     "dropped_by": [
       "Underlord Agareth"
     ],
-    "type": "[Wing]",
+    "type": "[Wings]",
     "color": "DC143C",
     "level": 400,
     "droprate": 0.01,
@@ -7706,6 +7726,9 @@
     "name": "Fragment of Hell",
     "dropped_by": [
       "Underlord Agareth"
+    ],
+    "required_by": [
+      "Athanasia, the Armor of the Reaper"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
@@ -8041,6 +8064,9 @@
     "type": "[Ring]",
     "color": "FF8200",
     "level": 15,
+    "required_by": [
+      "Bag of Explosion"
+    ],
     "recipe": [
       {
         "Acorn of Luck": 1
@@ -8408,6 +8434,9 @@
     "type": "[Bag]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Bag of Explosion"
+    ],
     "recipe": [
       {
         "Bag of Corruption": 1
@@ -8435,6 +8464,51 @@
         "Merchant - Bag Slam: damage is increased by 400%, and it increases target's damage taken by 8% for 6 seconds",
         "Merchant - Throwing Healing Potion: Increases target's skill damage by 8%",
         "Merchant - Throw Money: Each coin stuns for 0.5 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I0NT",
+    "name": "Bag of Explosion",
+    "koreanname": "폭발의 배낭",
+    "description": "DANGER DANGER DANGER",
+    "type": "[Bag]",
+    "color": "DC143C",
+    "level": 380,
+    "recipe": [
+      {
+        "Bag of Destruction": 1
+      },
+      {
+        "Acorn Bomb": 1
+      },
+      {
+        "Dragon's Eye": 1
+      },
+      {
+        "Proof of Purification": 1
+      },
+      {
+        "Fragment of Oblivion": 1
+      },
+      {
+        "Purified Water of Nature": 1
+      }
+    ],
+    "stats": {
+      "damage": 26000,
+      "strength": 2250,
+      "skilldamagepercent": 0.16,
+      "dtpercent": 0.8,
+      "active": [
+        "On use, obtains Throw Bomb",
+        "Replaces Throwing Healing Potion with Throw Bomb. Use again to revert back",
+        "Cooldown: 1 second"
+      ],
+      "spec": [
+        "Merchant Specialty - Very Heavy Bag",
+        "Merchant - Throw Bomb: Changed to be rechargeable (one charge per second; up to 5)",
+        "Merchant - Holy Water of Resurrection: Replaced with Dangerous Explosives"
       ]
     }
   },
@@ -14458,6 +14532,9 @@
     "type": "[Armor]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Athanasia, the Armor of the Reaper"
+    ],
     "recipe": [
       {
         "Tunic of the Wraith": 1
@@ -14497,6 +14574,55 @@
     }
   },
   {
+    "id": "I0NJ",
+    "name": "Athanasia, the Armor of the Reaper",
+    "koreanname": "사신의 갑주 아타나시아",
+    "description": "Did you think you could kill death itself?",
+    "type": "[Armor]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Grandine, the Plates of Wraith": 1
+      },
+      {
+        "Armor of Grudge": 1
+      },
+      {
+        "Cold Ring of Death": 1
+      },
+      {
+        "Aegis of Storm": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Fragment of Hell": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "armor": 780,
+      "strength": 590,
+      "agility": 1290,
+      "skilldamagepercent": 0.12,
+      "critchancepercent": 0.12,
+      "passive": [
+        "If HP drops below 20%, summons Reaper",
+        "Reaper prevents HP from dropping below 1 for 6 seconds",
+        "After 6 seconds deals (main stat X 100 ~ 200) pure damage based on missing HP of targets around user and restores HP to 100%",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialty - Reaper Possession",
+        "Martial Artist - Nameless Arts: Reduces damage taken by 20% while active and grants immunity to instant death spells."
+      ]
+    }
+  },
+  {
     "id": "scul",
     "name": "Hellspike Armor",
     "koreanname": "헬스파이크 아머",
@@ -14504,6 +14630,9 @@
     "type": "[Armor]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Felspike Armor"
+    ],
     "recipe": [
       {
         "Reactive Armor": 1
@@ -14531,6 +14660,51 @@
       ],
       "active": [
         "'Hellspike' Deal 20% of your Max HP to yourself and 100% of Max Health as pure damage to nearby enemies . (3 second CD)"
+      ]
+    }
+  },
+  {
+    "id": "I0NH",
+    "name": "Felspike Armor",
+    "koreanname": "펠스파이크 아머",
+    "description": "Cursed armor that has been forged with the flames of hell",
+    "type": "[Armor]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Hellspike Armor": 1
+      },
+      {
+        "Armor of Grudge": 1
+      },
+      {
+        "Heart of Fire": 1
+      },
+      {
+        "Heart of Volcano": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "armor": 840,
+      "strength": 1320,
+      "skilldamagepercent": 0.10,
+      "passive": [
+        "On absorbing enough damage, empowers next Hellspike",
+        "Empowered Hellspike deals 5000% max HP around user and stuns for 2 seconds",
+        "Can accumulate up to 50% max HP damage from one damage instance",
+        "Cooldown: 5 seconds before accumulating again"
+      ],
+      "active": [
+        "On use, activates Hellspike",
+        "Deals 2000% max HP to enemies around user and increases attack damage by 5000 for 2.5 seconds",
+        "Cooldown: 7.5 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -15990,6 +16164,9 @@
     "type": "[Ring]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Athanasia, the Armor of the Reaper"
+    ],
     "recipe": [
       {
         "Brooch of Darkness": 1
@@ -16985,6 +17162,59 @@
         "Increases Agility by 70 for 8 seconds when Slayer's Fury activates. When you reach 10 stacks of \"Slayer's Fury\" Skill Damage is increased by 9% (Max 10 Stacks)"
       ]
     }
+  },
+  {
+    "id": "I0NP",
+    "name": "Ruler of the Skies",
+    "description": "The wings of one that rules over the grand sky",
+    "type": "[Wings]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Guardian of the Skies": 1
+      },
+      {
+        "Shackles of Heaven": 1
+      },
+      {
+        "Purified Water of Nature": 1
+      },
+      {
+        "Fragment of Chaos": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Frozen Debris": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "strength": 1150,
+      "agility": 1250,
+      "skilldamagepercent": 0.10,
+      "mdpercent": 0.10,
+      "passive": [
+        "On skill cast, activates Power of Skies",
+        "Increases all stats by 500 and deals (main stat X 1.25) pure damage per attack for 5 seconds",
+        "Cooldown: 15 seconds"
+      ],
+      "active": [
+        "On use, activates Star of Destruction",
+        "Deals ((STR + AGI) X 250) magic damage to enemies around user and reduces their armor by 300 for 10 seconds",
+        "stuns for 2.5 seconds",
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialty",
+        "Thunderer - Improved Magnetic Field: When passive is triggered, restores 33% of Magnetic Shield."
+      ]
+    },
+    "koreanname": "창공의 지배자"
   },
   {
     "id": "I0JF",
