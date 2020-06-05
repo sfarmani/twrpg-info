@@ -8395,7 +8395,8 @@
     "color": "DC143C",
     "level": 360,
     "required_by": [
-      "Bag of Destruction"
+      "Bag of Destruction",
+      "Bag of Explosion"
     ],
     "recipe": [
       {
@@ -8434,9 +8435,6 @@
     "type": "[Bag]",
     "color": "DC143C",
     "level": 380,
-    "required_by": [
-      "Bag of Explosion"
-    ],
     "recipe": [
       {
         "Bag of Corruption": 1
@@ -8477,7 +8475,7 @@
     "level": 380,
     "recipe": [
       {
-        "Bag of Destruction": 1
+        "Bag of Corruption": 1
       },
       {
         "Acorn Bomb": 1
