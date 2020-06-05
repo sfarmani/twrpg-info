@@ -116,7 +116,7 @@
         "order": 7,
         "active": [
             "\"Ruthless? Evil beings need no mercy..\" - Sniper",
-            "Deals AGI X 550 magic damage",
+            "Deals AGI X 675 magic damage",
             "Deals up to 40% bonus damage, based on target's missing health (20% max HP)",
             "If cast from melee range, leaps before firing"
         ]
