@@ -1,5 +1,25 @@
 [
     {
+        "name": "35h",
+        "notes": [
+            "Released on: June 4th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Felspike Armor - Fixed a bug with formulas",
+            "Bag of Explosion - Fixed an issue where T damage was magic damage rather than pure damage",
+            "Heart of Volcano - Fixed a bug where passive effects would not trigger when switching during combat"
+        ],
+        "items": [
+            {
+                "name": "Ring of Strike / Ring of Insanity",
+                "changes": [
+                    "Passive - The next X attacks ignore the target's armor → The next X attacks deals additional damage equal to 100% attack damage"
+                ]
+            }
+        ]
+    },
+    {
         "name": "35g",
         "notes": [
             "Released on: June 4th, 2020",

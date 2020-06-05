@@ -16021,7 +16021,7 @@
       "healreceivedpercent": -0.25,
       "passive": [
         "7.5% Chance to activate Absolute Strike on attack",
-        "Next 4 hits will ignore armor",
+        "Next 4 hits will deal an additional 100% attack damage",
         "Also gain 20000 attack damage, 1000 main stat, and 1000 HP regen for 7.5 seconds",
         "Absolute Strike cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
@@ -16059,7 +16059,7 @@
       "healreceivedpercent": -0.35,
       "passive": [
         "7.5% Chance to activate Frenzy on attack",
-        "Next 5 hits will ignore armor",
+        "Next 5 hits will deal an additional 100% attack damage",
         "Also gain 25000 attack damage, 1500 main stat and HP regen for 7.5 seconds",
         "Frenzy cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
