@@ -1709,6 +1709,7 @@
         "passive": [
             "Quenches nearby allies' thirst.",
             "Regenerates nearby allies and self HP and MP by 4% every second",
+            "Rengerates nearby summons by 4% but allies' summons by 1% every second",
             "Increases all stats by 12% for 15 seconds"
         ]
     },

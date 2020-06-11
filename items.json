@@ -10745,7 +10745,7 @@
       ],
       "spec": [
         "Specialty - Darkended Light",
-        "Paladin - Holy Divide deals 125% bonus damage."
+        "Paladin - Holy Divide deals 150% bonus damage."
       ]
     }
   },
@@ -12173,7 +12173,7 @@
       ],
       "spec": [
         "Specialty - Darkened Light",
-        "Paladin - Holy Divide deals 175% bonus damage."
+        "Paladin - Holy Divide deals 200% bonus damage."
       ]
     }
   },
@@ -13294,7 +13294,10 @@
       "skilldamagepercent": 0.06,
       "dtpercent": 0.06,
       "active": [
-        "Emanates a destructive beam with 900 range, 325 radius (Deals 100x main stat damage) and reduces affected enemies armor by 8% for 12 seconds (Does not stack) (150 second CD)"
+        "On use, discharges a powerful beam of destruction dealing (main stat X 100) magic damage",
+        "Reduces armor of hit targets by 200 (Type-A)",
+        "Stuns for 1 second",
+        "Cooldown: 150 seconds, cannot be dropped during cooldown"
       ]
     }
   },

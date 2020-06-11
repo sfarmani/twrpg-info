@@ -1,5 +1,48 @@
 [
     {
+        "name": "36c",
+        "notes": [
+            "Released on: June 11th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Assassin - Fixed a bug that let assassin kill teammates",
+            "Reaper - Death's Slash (R) - bug fix",
+            "Sniper - Fixed weapons not binding with a cooldown after using ultimate",
+            "Zombie Lord - Fixed instant kill spell was not displaying correctly",
+            "Death Fiend - Fixed the treasure not being summoned after death of all summons (no matter the order)",
+            "Other misc bug fixes"
+        ],
+        "items": [
+            {
+                "name": "Deathbringer / Ruinbringer",
+                "changes": [
+                    "Paladin spec - Increased Q damage: 125% / 175% → 150% / 200%"
+                ]
+            },
+            {
+                "name": "Horns of Destruction",
+                "changes": [
+                    "Defense reduced by 8% (Type-B) → Defense decreased by 200 (Type-A)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Seal of Water (W) - Refreshing Well (D)",
+                    [
+                        "Summons also recover 4% MP per second"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Corrected some wrong descriptions"
+        ]
+    },
+    {
         "name": "36b",
         "notes": [
             "Released on: June 10th, 2020",
