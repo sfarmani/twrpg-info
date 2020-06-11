@@ -12,7 +12,7 @@
             "Channel to additionally heal for max HP X 15% per second",
             "Recovery period 0.25 seconds",
             "Can be channeled up to 2 seconds",
-            "Cooldown: 20 seconds"
+            "Cooldown: 15 seconds"
         ]
     },
     {
@@ -65,7 +65,7 @@
             "Gains maximum charges of lightning",
             "Decreases damage dealt from outside the barrier up to 80% based on distance from attacker",
             "Lasts 5 seconds",
-            "Cooldown: 25 seconds"
+            "Cooldown: 15 seconds"
         ]
     },
     {
@@ -77,14 +77,12 @@
         "order": 5,
         "active": [
             "Loads next attack with explosive shells.",
-            "Each arrow deals AGI X 50 bonus magic damage",
+            "Each arrow deals AGI X 100 bonus magic damage",
             "Stuns enemies for 0.5 seconds",
-            "Recharges every 6 seconds, up to 4 charges",
-            "Chain: Attack - Increases damage by 100%",
-            "Chain: Skill - Increases stun duration by 200%",
-            "Chain: Glide - Decreases damage by 75% and adds splash effect",
-            "No casting delay",
-            "Stacks restored when cooldown is reset (from item effects)"
+            "Recharges every 8 seconds, up to 4 charges",
+            "Recharge cycle affected by flame affinity: (8 / (1 + 2 X flame affinity)) seconds",
+            "Chain: Skill - Increases damage by 25% and stun duration by 200%",
+            "Chain: Glide - Decreases damage by 75% and adds splash effect"
         ]
     },
     {
@@ -97,7 +95,7 @@
         "passive": [
             "Captures enemies' weak points precisely from a far range.",
             "Enhanced vision",
-            "Deals up to 40% bonus damage based on distance from target (up to 800 distance)"
+            "Deals up to 20~60% bonus damage based on distance from target (0~1500 distance)"
         ],
         "active": [
             "Finishes off an enemy from a far range.",
@@ -116,7 +114,7 @@
         "order": 7,
         "active": [
             "\"Ruthless? Evil beings need no mercy..\" - Sniper",
-            "Deals AGI X 675 magic damage",
+            "Deals AGI X 625 magic damage",
             "Deals up to 40% bonus damage, based on target's missing health (20% max HP)",
             "If cast from melee range, leaps before firing"
         ]
@@ -867,7 +865,7 @@
         "passive": [
             "Unleash blades made from the spilled blood of your enemies.",
             "Activates on every 4th attack",
-            "Attack Damage X 300% damage"
+            "Attack Damage X 250% damage"
         ],
         "active": [
             "Focus blood into the tips of your nails.",
@@ -969,7 +967,7 @@
         "passive": [
             "Her expertise in magic allows her to bend flames to her will.",
             "Attacks and skills burn target",
-            "After casting skill, leaves a trail of fire on travel path for 2 seconds",
+            "After casting skill, envelops feet in a trail of flame to increase movement speed by 250 for 1.5 seconds",
             "Burning unit will explode on death",
             "Movement speed bonus 250"
         ]
@@ -1299,8 +1297,8 @@
         "order": 7,
         "active": [
             "\"I'll show you the most powerful sword I have in my treasury !!\" - Sword Enchanter",
-            "AGI X 725 damage",
-            "Stuns for 2 seconds",
+            "AGI X 825 damage",
+            "Stuns for 3 seconds",
             "Applies Disenchant and reduces healing taken by 20% for 6 seconds"
         ]
     },
@@ -1426,7 +1424,7 @@
         "passive": [
             "Focus ki into every action to perform powerful attacks.",
             "Attack hits all enemies within radius",
-            "On skill cast, empower next attack to deal (Attack Damage X 100% + AGI X 5) bonus damage",
+            "On skill cast, empower next attack to deal (Attack Damage X 75% + AGI X 5) bonus damage",
             "Can critically strike",
             "Base attack speed decreased"
         ]
@@ -1548,7 +1546,7 @@
             "Brutally slash everything in range with rapid movements.",
             "Attack Damage X 3000% damage",
             "AGI X 125 bonus damage",
-            "Increases damage taken by target by 10% for 12 seconds",
+            "Increases damage taken by target by 10% for 6 seconds",
             "Cooldown: 40 seconds"
         ]
     },
@@ -1839,7 +1837,7 @@
         "passive": [
             "Blessed with the endurance of the earth.",
             "Resistant to all debuffs",
-            "Reduces damage taken by self and nearby allies by 30%"
+            "Reduces damage taken by self and nearby allies by 20%"
         ]
     },
     {
@@ -2510,9 +2508,9 @@
         "order": 5,
         "active": [
             "Relentlessly slashes the target.",
-            "Attacks with Attack Damage X 10% every 0.05 seconds",
+            "Attacks with Attack Damage X 15% every 0.05 seconds",
             "While active, reduces damage taken by 80% and becomes immune to CC effects",
-            "Can be maintained up to 1.25 second"
+            "Can be maintained up to 1 second"
         ]
     },
     {
@@ -2524,13 +2522,13 @@
         "order": 6,
         "passive": [
             "Clears your mind to focus on taking the life of the target.",
-            "5% chance on attack to enter focused state for 3 seconds",
+            "5% chance on attack to enter focused state for 4 seconds",
             "Reduces damage received by 30% and dodges attacks",
             "Death's Dash's damage is increased by 40%, and can be instantly cast once"
         ],
         "active": [
             "Enters focused state immediately",
-            "Lasts 5 seconds",
+            "Lasts 4 seconds",
             "Cooldown: 30 seconds"
         ]
     },
@@ -2543,8 +2541,8 @@
         "order": 7,
         "active": [
             "\"You are already dead. You just haven't caught up to it yet.\" - Reaper",
-            "Increases your damage dealt to the target by 30% for 12 seconds",
-            "Increased up to 50% based on the target's missing HP (20% max HP)",
+            "Increases your damage dealt to the target by 20% for 12 seconds",
+            "Increased up to 40% based on the target's missing HP (20% max HP)",
             "On finish, deals AGI X 525 damage to the target",
             "Re-use skill to manually finish"
         ]
@@ -2642,7 +2640,7 @@
             "Summons 4 additional shadows to attack",
             "Empowers next Shadow Slash or Ambush",
             "Duration: 8 seconds",
-            "Cooldown: 30 seconds"
+            "Cooldown: 25 seconds"
         ]
     },
     {
@@ -2749,7 +2747,7 @@
         "active": [
             "Summon a mirror of eon to redirect harm back to attackers.",
             "For 9 seconds, absorbs 45% of damage taken by nearby allies",
-            "Upon expiration or casting again, deals Target's Max HP X 7.5% + INT X 60 damage to nearby enemies and stuns for 0.5 seconds",
+            "Upon expiration or casting again, deals INT X 60 damage to nearby enemies and stuns for 0.5 seconds",
             "Knockbacks non-boss enemies",
             "CD: 25 seconds"
         ]
@@ -2969,17 +2967,16 @@
         ]
     },
     {
-        "name": "Dangerous Explosives",
+        "name": "Dangerous Explosive",
         "heroClass": "Merchant",
         "color": "ddddbb",
         "hotkey": "[T]",
         "icon": "MerchantT2",
         "order": 8,
         "active": [
-            "Plant very dangerous explosives.",
-            "Allies can attack explosives when planted",
-            "Explodes after 15 seconds, dealing STR X 100 + damage taken X 7.5% pure damage",
-            "Stuns for 3 seconds",
+            "Plants a very dangerous explosive.",
+            "Plants an explosive that can be damaged",
+            "After 12 seconds, explodes dealing STR X 100 + damage taken X 7.5% pure damage and stunning for 3 seconds",
             "Cooldown: 60 seconds"
         ]
     },
@@ -3147,8 +3144,8 @@
             "Consumes life to let out a fierce roar.",
             "Consumes HP X 30%",
             "Max HP X 500% pure damage",
-            "Reduces target's armor by 10% for 10 seconds",
-            "Cooldown: 8 seconds"
+            "Increases magic damage taken by target by 10% for 3 seconds",
+            "Cooldown: 5 seconds"
         ]
     },
     {
@@ -3219,8 +3216,9 @@
         "order": 7,
         "active": [
             "\"It is not a human but rather a monster! A monster crazed by battle! How could she move like that.. It sends shivers down my spines just to think about running into her as enemies in a war.\" - Survivor of Empire War",
-            "Each slash deals STR X 20 damage",
+            "Each slash deals STR X 30 damage",
             "Final slam deals STR X 675 damage",
+            "Total of 10 slashes",
             "Fully restores HP after cast",
             "Gain knockback immunity during cast",
             "Cooldown: 120 seconds"
@@ -3238,7 +3236,7 @@
             "Increased attack range",
             "Every 5 seconds, empowers next attack with a magical explosion",
             "Next Flame Shot / Freezing Shot incurs no cooldown",
-            "Has cooldown of 5 seconds"
+            "Cooldown: 4 seconds"
         ]
     },
     {
@@ -3316,9 +3314,10 @@
         "order": 6,
         "active": [
             "Summons countless magical arrows to bombard an area.",
-            "Each arrow deals Attack Damage X 100% damage",
-            "AGI X 10 bonus damage",
-            "If chained with Flame Shot, radius increased by 50%",
+            "Summons 24 arrows",
+            "Each arrow deals Attack Damage X 250% magic damage",
+            "AGI X 25 bonus damage",
+            "If chained with Flame Shot, explosion radius increased by 50%",
             "If chained with Freezing Shot, freezes enemies hit for 2.5 seconds"
         ]
     },
@@ -3690,8 +3689,8 @@
         "order": 6,
         "active": [
             "Fires magical missiles in all directions.",
-            "Each missile deals INT X 40 magic damage",
-            "Fires 8 missiles",
+            "Each missile deals INT X 50 magic damage",
+            "Fires 6 missiles",
             "Cooldown: 12 seconds"
         ]
     },
@@ -3704,9 +3703,8 @@
         "order": 7,
         "active": [
             "\"It's not an ordinary spell. This parade of stars that formed from the harmony of mana will captivate anyone's mind who sees it.\" - Mage",
-            "Summons 6 stars that periodically fire missiles",
-            "Each missile deals INT X 7.5 damage",
-            "Fire missiles that deal 200% damage at targets hit by Magic Star",
+            "Summons 5 stars that fires missiles every second and when you hit Magic Star",
+            "Each missile deals INT X 15 magic damage",
             "Resets cooldown on Moonlight Link"
         ]
     },
@@ -3908,7 +3906,7 @@
         ],
         "active": [
             "Consecerate nearby ground to protect allies and bring down judgment on enemies.",
-            "Deals target's Max HP X 1.5% + INT X 5 magic damage per second",
+            "Deals INT X 5 magic damage per second",
             "Heals nearby allies HP by 450 + INT X 0.5 per second",
             "Lasts 10 seconds",
             "Cooldown: 20 seconds"
@@ -3923,13 +3921,13 @@
         "order": 5,
         "passive": [
             "The priest's presence alone brings great support to her allies.",
-            "Increases nearby allies' attack damage by 8% and all stats by (Priest's INT X 0.05)"
+            "Increases nearby allies' attack damage by 5% and all stats by (Priest's INT X 0.05)"
         ],
         "active": [
             "Devastates target ground with corrupt energy to cause havoc.",
-            "Deals INT X 60 damage per second",
-            "Target's max HP X 3% bonus damage",
-            "Can be channeled up to 3 seconds",
+            "Deals INT X 60 magic damage per second",
+            "Target's max HP X 1.5 bonus damage",
+            "Can be channeled for 3 seconds",
             "Damage interval decreases based on attack speed"
         ]
     },
@@ -3942,13 +3940,13 @@
         "order": 6,
         "passive": [
             "The priest's presence alone brings great support to her allies.",
-            "Increases nearby allies' attack damage by 8% and all stats by (Priest's INT X 0.05)"
+            "Increases nearby allies' attack damage by 5% and all stats by (Priest's INT X 0.05)"
         ],
         "active": [
             "Devastates target ground with corrupt energy to cause havoc.",
             "Deals INT X 80 magic damage per second",
-            "Target's max HP X 3% bonus damage",
-            "Can be channeled up to 3 seconds",
+            "Target's max HP X 1.5 bonus damage",
+            "Can be channeled for 3 seconds",
             "Damage interval decreases based on attack speed"
         ]
     },
@@ -4405,11 +4403,12 @@
         "active": [
             "Throws an explosive bomb at the enemy.",
             "STR X 30 magic damage",
-            "Inflicts a chain epxlosion to nearby bombs that adds a 0.5 second stun and increase damage by 100% (up to 4 times)",
-            "Explodes after 30 seconds",
-            "Up to 10 can be placed on the ground at the same time",
+            "Causes chain explosion on nearby bombs, adding 0.5 seconds stun and 100% damage (stacks up to 4 times)",
+            "Explodes after 30 seconds or if thrown into another bomb",
+            "Up to 10 bombs can be planted at once",
             "If Hermit, cooldown: 2 seconds",
-            "If Merchant, 1 charge per second (up to 5)"
+            "If Merchant, Recharges 1 per second (up to 5)",
+            "Throw range: 1200"
         ]
     },
     {

@@ -4345,7 +4345,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "Abyssal Pickaxe",
       "Asmodeus, the Archdevil's Greatsword",
@@ -5591,7 +5591,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.03,
     "required_by": [
       "Anger",
       "Flame Explosion",
@@ -5878,7 +5878,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.03,
     "required_by": [
       "Spirit Dagger",
       "Twin Snow",
@@ -6314,6 +6314,7 @@
       "Wings of Phoenix",
       "Wings of Slayer",
       "Brave Heart",
+      "Eternal Flame",
       "Zombie Lord Icon"
     ],
     "stats": {
@@ -7181,7 +7182,8 @@
     "droprate": 0.01,
     "required_by": [
       "Latea, the Ring of Overlord",
-      "Ring of Insanity"
+      "Ring of Insanity",
+      "Eternal Flame"
     ],
     "stats": {
       "mainstat": 420,
@@ -7360,7 +7362,8 @@
       "Ring of Despair",
       "Athanasia, the Armor of the Reaper",
       "Felspike Armor",
-      "Ruler of the Skies"
+      "Ruler of the Skies",
+      "Eternal Flame"
     ],
     "koreanname": "빛나는 유적의 조각"
   },
@@ -7378,7 +7381,8 @@
     "required_by": [
       "Ring of Revival",
       "Robe of Archlich",
-      "Felspike Armor"
+      "Felspike Armor",
+      "Eternal Flame"
     ],
     "stats": {
       "mainstat": 1300,
@@ -7446,7 +7450,8 @@
     "level": 400,
     "droprate": 0.005,
     "required_by": [
-      "Ring of Fate"
+      "Ring of Fate",
+      "Eternal Flame"
     ],
     "stats": {
       "allstat": 1200,
@@ -7690,7 +7695,7 @@
     "type": "[Wings]",
     "color": "DC143C",
     "level": 400,
-    "droprate": 0.01,
+    "droprate": 0.0075,
     "stats": {
       "mainstat": 1350,
       "hp": 7500,
@@ -7718,7 +7723,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.015,
+    "droprate": 0.01,
     "koreanname": "영혼의 파편"
   },
   {
@@ -7727,12 +7732,9 @@
     "dropped_by": [
       "Underlord Agareth"
     ],
-    "required_by": [
-      "Athanasia, the Armor of the Reaper"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.015,
+    "droprate": 0.01,
     "koreanname": "지옥의 파편"
   },
   {
@@ -7743,7 +7745,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.015,
+    "droprate": 0.01,
     "koreanname": "군주의 징표"
   },
   {
@@ -8501,7 +8503,7 @@
       "active": [
         "On use, obtains Throw Bomb",
         "Replaces Throwing Healing Potion with Throw Bomb. Use again to revert back",
-        "Cooldown: 1 second"
+        "Cooldown: 2 second"
       ],
       "spec": [
         "Merchant Specialty - Dangerous Bag",
@@ -8811,11 +8813,11 @@
       "damage": 23000,
       "allstat": 2200,
       "hpregen": 1500,
-      "mdpercent": 0.12,
+      "mdpercent": 0.15,
       "active": [
         "On use, throws Elixir",
         "Elixir restores 100% of max HP and clears debuffs on consumption",
-        "Lasts 30 seconds on ground",
+        "Lasts 60 seconds on ground",
         "Cooldown: 15 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -10743,7 +10745,7 @@
       ],
       "spec": [
         "Specialty - Darkended Light",
-        "Paladin - Holy Divide: deals bonus damage equal to target's Max HP X 0.75%."
+        "Paladin - Holy Divide deals 125% bonus damage."
       ]
     }
   },
@@ -10996,14 +10998,9 @@
       "damage": 22500,
       "strength": 620,
       "agility": 1850,
-      "skilldamagepercent": 0.05,
+      "affinityflamepercent": 0.1,
       "passive": [
         "12.5% Chance to activate Destruction on attack dealing (AGI X 5) magic damage and reduces amor of target by 20 for 10 seconds"
-      ],
-      "spec": [
-        "Specialty - Improved Explosion",
-        "Sniper - Explosive Shot: Recharge period reduced by 2 seconds",
-        "Sniper - Demolition: Damage increased by 9%"
       ]
     }
   },
@@ -11469,6 +11466,9 @@
     "type": "[Bow]",
     "color": "DC143C",
     "level": 370,
+    "required_by": [
+      "Eternal Flame"
+    ],
     "recipe": [
       {
         "Yggrect, the Archdevil's Bow": 1
@@ -11800,7 +11800,7 @@
       "critmultiplier": 0.25,
       "passive": [
         "Every 14th attack activates Wrath of Blood dealing (main stat X 40) magic splash damage and heals user for ((main stat X 60%) + 3000) HP",
-        "20% Chance to activate Blood Awakening on casting skill to increase AGI by 800 and empower Wrath of Blood for 7.5 seconds",
+        "30% Chance to activate Blood Awakening on casting skill to increase AGI by 800 and empower Wrath of Blood for 7.5 seconds",
         "While empowered, Every 5th attack activates Empowered Wrath of Blood:",
         "Deals (1.25 X main stat X 40) magic splash damage",
         "Heals user for ((main stat X 90%) + 4500) HP",
@@ -11844,10 +11844,10 @@
       "damage": 27500,
       "agility": 2600,
       "hp": 7500,
-      "critmultiplier": 0.35,
+      "critmultiplier": 0.4,
       "passive": [
         "On every 12th attack, activates Dimension Cut. Deals (main stat X 50) magic damage to target and enemies around it",
-        "On skill cast, activates Awakening. Increases AGI by 1250 and regenerates 10% max Hp per second for 7.5 seconds",
+        "On skill cast, activates Awakening. Increases AGI by 1000 and regenerates 7.5% max Hp per second for 7.5 seconds",
         "If user is NOT Martial Artist: On-attack activates every 4th attack for duration",
         "Spellcast Cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
@@ -12173,7 +12173,7 @@
       ],
       "spec": [
         "Specialty - Darkened Light",
-        "Paladin - Holy Divide deals bonus damage equal to target's Max HP X 1.00%."
+        "Paladin - Holy Divide deals 175% bonus damage."
       ]
     }
   },
@@ -12514,14 +12514,13 @@
     "stats": {
       "damage": 29000,
       "agility": 2050,
-      "hp": 3250,
       "skilldamagepercent": 0.09,
       "passive": [
         "10% Chance to activate Soul Reaping on attack dealing (main stat X 50) magic damage"
       ],
       "spec": [
         "Specialty - Cursed Arrow",
-        "Sniper - Increases Snipe's damage by 15%, and silences sniped target for 1.5 seconds."
+        "Sniper - Increases Snipe's damage by 25%, and silences sniped target for 1.5 seconds."
       ]
     }
   },
@@ -12533,6 +12532,9 @@
     "type": "[Bow]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Eternal Flame"
+    ],
     "recipe": [
       {
         "Flame Explosion": 1
@@ -12557,18 +12559,60 @@
       "damage": 26000,
       "strength": 870,
       "agility": 2050,
-      "skilldamagepercent": 0.07,
-      "affinityflamepercent": 0.05,
+      "affinityflamepercent": 0.15,
       "passive": [
         "15% Chance to activate Hellflame on attack that burns the target",
         "Deals (AGI X 15) magic damage per second for 10 seconds",
-        "Reduces armor by 20 per second for 5 seconds",
-        "Reduces magic defense by 0.4% per second for 5 seconds"
+        "Increase magic damage taken of target by 2% for 5 seconds"
       ],
       "spec": [
         "Specialty - Improved Explosion",
         "Sniper - Explosive Shot: Recharge period reduced by 2 seconds",
         "Sniper - Demolition: Damage increased by 12%"
+      ]
+    }
+  },
+  {
+    "id": "I0N5",
+    "name": "Eternal Flame",
+    "koreanname": "이터널 플레임",
+    "description": "Burn forevermore, my brilliant soul.",
+    "type": "[Bow]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Hellflame": 1
+      },
+      {
+        "Shroud of Perseverance": 1
+      },
+      {
+        "Griveddon, the Bow of Certain Destruction": 1
+      },
+      {
+        "Ring of Destruction": 1
+      },
+      {
+        "Heart of Volcano": 1
+      },
+      {
+        "Grail of Eternity": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "damage": 30000,
+      "strength": 1050,
+      "agility": 2250,
+      "affinityflamepercent": 0.15,
+      "passive": [
+        "15% Chance to activate Mark of Flame on attack that burns the target",
+        "Deals flame affinity X (AGI X 30) bonus magic damage and applies a debuff to target",
+        "Debuff deals flame affinity X (AGI X 15) per second and takes 2.5% more magic damage for 10 seconds",
+        "Accumulates Heat while in combat every 6 seconds increases user's skill damage and flame affinity by 1% (stacks up to 15 times)"
       ]
     }
   },
@@ -14512,13 +14556,18 @@
     ],
     "stats": {
       "armor": 520,
-      "agility": 920,
+      "agility": 980,
       "skilldamagepercent": 0.09,
       "passive": [
-        "Per damage dealt, converts 1% of it into Max HP up to 2 X AGI and provides 1.5% HP regen in duration of passive"
+        "Increases max HP in combat by 1%",
+        "Up to AGI X 2 max HP and provides 1.5% HP regen"
       ],
       "active": [
-        "Releases stored Max HP and deals amount X 30 pure damage to enemies in 750 radius of hero and stuns them for 1.5 seconds. Increases AGI by 15% and Skill damage by 5% for 12 seconds (120 second CD)"
+        "On use, activates Force Break",
+        "Releases stored HP and deals (stored HP X 30) pure damage to enemies around user",
+        "Increases AGI by 15% and skill damage by 5% for 12 seconds",
+        "Stuns for 1.5 seconds",
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -14557,8 +14606,8 @@
       "armor": 715,
       "strength": 490,
       "agility": 1090,
-      "skilldamagepercent": 0.09,
-      "critchancepercent": 0.09,
+      "skilldamagepercent": 0.1,
+      "critchancepercent": 0.1,
       "passive": [
         "Activates Grandine when HP drops below 20%",
         "Gain 90% damage reduction for 3 seconds and instantly heal for 35% max HP",
@@ -14594,9 +14643,6 @@
       },
       {
         "Aegis of Sea": 1
-      },
-      {
-        "Fragment of Hell": 1
       },
       {
         "Shining Fragment of Ruins": 1
@@ -16056,7 +16102,7 @@
       "periodicdamagepercent": 0.35,
       "healreceivedpercent": -0.35,
       "passive": [
-        "7.5% Chance to activate Frenzy on attack",
+        "12.5% Chance to activate Frenzy on attack",
         "Next 5 hits will deal an additional 100% attack damage",
         "Also gain 25000 attack damage, 1500 main stat and HP regen for 7.5 seconds",
         "Frenzy cooldown: 15 seconds, cannot be dropped during cooldown"
@@ -18410,8 +18456,7 @@
         "Casting single-target spells on enemies decreases their magic resistance by 6% (Type-B) for 12 seconds"
       ],
       "active": [
-        "Deals 2% Max HP pure damage to debuffed enemy and freezes them for 2 seconds",
-        "Damage affected by Water/Ice Affinity",
+        "Deals water affinity X (1% Max HP) pure damage to debuffed enemy and freezes them for 2 seconds",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -18448,8 +18493,7 @@
         "Casting single-target spells on enemies decreases their magic resistance by 7.5% (Type-B) for 12 seconds"
       ],
       "active": [
-        "Deals 2.5% Max HP pure damage to debuffed enemy, freezes for 2 seconds, and increases allies' damage dealt to it by 5% for 2 seconds",
-        "Damage affected by Water/Ice Affinity",
+        "Deals water affinity X (1.25% Max HP) pure damage to debuffed enemy, freezes for 2 seconds, and increases allies' damage dealt to it by 5% for 2 seconds",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -18651,11 +18695,13 @@
     ],
     "stats": {
       "armor": 630,
-      "agility": 980,
+      "agility": 880,
       "skilldamagepercent": 0.075,
       "mdpercent": 0.05,
       "passive": [
-        "On spellcast activate Wind Fury for 1.5 seconds, giving increased Movespeed (goes past 500 limit), 150 AGI and makes next 3 attacks strike once for a bonus damage of Attack Damage X 50%"
+        "On skill cast, activates Wind Fury for 1.5 seconds",
+        "Increases movement speed past 500 limit",
+        "Next 2 attacks hit once to deal bonus 50% ATK DMG"
       ]
     }
   },
@@ -18683,11 +18729,13 @@
     ],
     "stats": {
       "armor": 710,
-      "agility": 1280,
-      "skilldamagepercent": 0.1,
+      "agility": 1180,
+      "skilldamagepercent": 0.075,
       "mdpercent": 0.075,
       "passive": [
-        "On spellcast activate Storm Fury for 1.5 seconds, giving increased Movespeed (goes past 500 limit), 300 AGI and makes next 3 attacks strike once for a bonus damage of Attack Damage X 50%"
+        "On skill cast, activates Wind Fury for 1.5 seconds",
+        "Increases movement speed past 500 limit",
+        "Next 3 attacks hit once to deal bonus 50% ATK DMG"
       ]
     }
   },

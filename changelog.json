@@ -1,5 +1,565 @@
 [
     {
+        "name": "36b",
+        "notes": [
+            "Released on: June 10th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Bag of Explosion - Fixed related bugs",
+            "Soul of Abyss / Parasitic Staff / Staff of Plauge / Horn of God - Fixed a bug where active could not be used on units with magic immunity",
+            "Ring of Resonance - Fixed skill damage not working",
+            "Curse of Greed - Fixed passive not working",
+            "Guardian of the Skies - Fixed visual effects not working"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New item added",
+                    [
+                        "Eternal Flame"
+                    ]
+                ]
+            },
+            {
+                "name": "Flame Explosion",
+                "changes": [
+                    "Skill damage: 5% → 0%",
+                    "Flame Affinity: 5% → 10%",
+                    "Sniper spec - Removed"
+                ]
+            },
+            {
+                "name": "Hellflame",
+                "changes": [
+                    "Skill damage: 7% → 0%",
+                    "Flame Affinity: 5% → 15%",
+                    "Armor reduction debuff removed",
+                    "Magic defense per second reduced by 0.4% → Magic damage taken increased by 2% for 5 seconds",
+                    "Sniper spec - Removed"
+                ]
+            },
+            {
+                "name": "Crimson Reaper",
+                "changes": [
+                    "Passive - 20% chance to activate → 30%"
+                ]
+            },
+            {
+                "name": "Cosmic Reaper",
+                "changes": [
+                    "Critical Strike: 0.35x → 0.4x",
+                    "Passive - Agility increase by 1250 → 1000, HP regen per second 10% → 7.5%"
+                ]
+            },
+            {
+                "name": "Deathbringer / Ruinbringer",
+                "changes": [
+                    "Paladin spec - Adds 0.75% / 1% max HP of target damage to Holy Divide (Q) → increases damage of Holy Divide by 125% / 175%"
+                ]
+            },
+            {
+                "name": "Soulstalker",
+                "changes": [
+                    "HP increase removed",
+                    "Sniper spec - T damage increase: 15% → 25%"
+                ]
+            },
+            {
+                "name": "Bag of Explosion",
+                "changes": [
+                    "Throw Bomb",
+                    [
+                        "Switching cooldown: 1 second → 2 seconds",
+                        "Range: 1000 → 1200",
+                        "No longer explodes when landed on an enemy",
+                        "Affected by Flame Affinity"
+                    ],
+                    "Dangerous Explosives",
+                    [
+                        "Selected target point → current position of hero",
+                        "Duration: 15 seconds → 12 seconds",
+                        "Affected by Flame Affinity"
+                    ]
+                ]
+            },
+            {
+                "name": "Bag of Universe",
+                "changes": [
+                    "Magic defense: 12% → 15%",
+                    "Elixir duration: 30 seconds → 60 seconds"
+                ]
+            },
+            {
+                "name": "Benedict, the Crimson Armor of Blood",
+                "changes": [
+                    "Agility: 920 → 980",
+                    "Active - Agility increased by 12% → 15%"
+                ]
+            },
+            {
+                "name": "Grandine, the Armor of the Spectre",
+                "changes": [
+                    "Skill damage and critical strike chance: 9% → 10%"
+                ]
+            },
+            {
+                "name": "Athanasia, the Armor of the Reaper",
+                "changes": [
+                    "Fragment of Hell removed from recipe"
+                ]
+            },
+            {
+                "name": "Vest of Cyclone",
+                "changes": [
+                    "Agility: 980 → 880",
+                    "Skill damage: 7.5% → 5%",
+                    "Passive - Agility increase 150 → 0, next 3 attacks → 2"
+                ]
+            },
+            {
+                "name": "Vest of Storm",
+                "changes": [
+                    "Fixed description error: agility 1280 → 1180",
+                    "Skill damage: 10% → 7.5%",
+                    "Passive - Agility increase 300 → 0"
+                ]
+            },
+            {
+                "name": "Ring of Insanity",
+                "changes": [
+                    "Passive - Chance to activate 7.5% → 12.5%"
+                ]
+            },
+            {
+                "name": "Ring of Composure",
+                "changes": [
+                    "Damage: 2% HP → 1% HP"
+                ]
+            },
+            {
+                "name": "Ring of Despair",
+                "changes": [
+                    "Damage: 2.5% HP → 1.25% HP"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Difficulty system rebalanced for mid level bosses",
+                    [
+                        "Before change: Starting from 5th player bosses gain 7.5% damage resistance and droprate per player (if damage resistance was HP increase it would've been 81.8% at max scaling)",
+                        "After change: Starting from 6th player bosses gain 20% HP and 20% droprate per player (100% bonus HP at max scaling)"
+                    ],
+                    "Difficulty system rebalanced for bosses Skeleton King and above",
+                    [
+                        "Before change: Before change: Starting from 7th player bosses gain 7.5% damage resistance and droprate per player (if damage resistance was HP increase it would've been 42.9% at max scaling)",
+                        "After change:  Starting from 6th player bosses gain 15% HP and 20% droprate per player (75% bonus HP at max scaling)"
+                    ]
+                ]
+            },
+            {
+                "name": "Demon Lord Beriel",
+                "changes": [
+                    "Dark Remnant chance: 6% → 7.5%"
+                ]
+            },
+            {
+                "name": "Flame Nightmare",
+                "changes": [
+                    "Essence of Anger droprate: 2% → 3% (same as other materials)"
+                ]
+            },
+            {
+                "name": "Turtle Lord",
+                "changes": [
+                    "Mana Orb droprate: 2% → 3% (same as other materials)"
+                ]
+            },
+            {
+                "name": "Anceint Ent",
+                "changes": [
+                    "Units hit by Elder Ent will be last priority target for 3 seconds for jump"
+                ]
+            },
+            {
+                "name": "Shadow Dragon Irbert",
+                "changes": [
+                    "HP: 33,821,000 → 27,500,000",
+                    "Gaint Illusion of Shadow Dragon HP: 19,125,000 → 17,500,000",
+                    "Small Illusion of Shadow Dragon HP: 11,125,600 → 10,000,000"
+                ]
+            },
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "HP: 30,390,400 → 30,000,000",
+                    "Howl no longer affects heroes with mark of death"
+                ]
+            },
+            {
+                "name": "Valtora",
+                "changes": [
+                    "HP: 36,821,000 → 32,500,000",
+                    "Servant of Lightning God",
+                    [
+                        "HP: 8,282,100 → 6,000,000",
+                        "Chain Lightning damage: 10% max HP of target → (5 + 0.5 X number of people)% max HP of target"
+                    ]
+                ]
+            },
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "HP: 42,820,000 → 35,000,000",
+                    "Charge",
+                    [
+                        "Changed to target invisible units when no other unit is available"
+                    ],
+                    "Magma",
+                    [
+                        "HP: 2,383,000 → 2,000,000 ; not affected by difficulty scaling",
+                        "HP recovery: 250,000 → 0.5% max HP of target"
+                    ],
+                    "Lava elemental HP: 4,330,000 → 3,000,000",
+                    "Obsidian Giants",
+                    [
+                        "HP: 10,403,800 → 8,000,000",
+                        "Initial shield percentage: 100% → (60 + 5 X number of people)% ; max of 100%"
+                    ]
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
+                    "HP: 45,824,000 → 37,500,000",
+                    "Wavecall summon cycle: 7.5 seconds → (12.5 - 0.5 X number of people) seconds",
+                    "Wavecaller HP: 4,500,000 / 9,000,000 → 3,000,000 / 6,000,000"
+                ]
+            },
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "HP: 52,860,000 → 42,500,000",
+                    "Droprate correction",
+                    [
+                        "Curse of Greed droprate: 1% → 0.75%",
+                        "Material droprate: 1.5% → 1%"
+                    ],
+                    "Soul Crystal",
+                    [
+                        "HP: 10,000,000 → 7,500,000"
+                    ],
+                    "Hunted",
+                    [
+                        "Cast time: 1.5 seconds → 1.25 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Soul Burst",
+                    [
+                        "Removed phrase when casted"
+                    ],
+                    "Finger of Death",
+                    [
+                        "Chain cycle: 1 second → 1.25 seconds"
+                    ],
+                    "Impale",
+                    [
+                        "Added phrases when cast (phrases that was used in Soul Burst)",
+                        "Instant Death after 2 consecutive hits → 999,999 Damage"
+                    ],
+                    "Miasma",
+                    [
+                        "Infected targets also burst after 20 seconds"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Excalibur (F)",
+                    [
+                        "Cast delay: 1.666 seconds → 0.5 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Howling (W)",
+                    [
+                        "10% armor reduction for 10 seconds → increase magic damage taken by 10% for 3 seconds (Type-C)",
+                        "Range: 400 → 500",
+                        "Cooldown: 8 seconds → 5 seconds"
+                    ],
+                    "Rabid Storm (F)",
+                    [
+                        "STR X 20 damage 15 times → STR X 30 damage 10 times"
+                    ]
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Original Sin (F)",
+                    [
+                        "MP cost: 1000 → 500"
+                    ]
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Genesis (F)",
+                    [
+                        "MP cost: 1000 → 500"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Emperor's Strikes",
+                    [
+                        "Cast delay removed"
+                    ]
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Quick Draw (D)",
+                    [
+                        "Damage: 100% ATK + AGI X 5 → 75% ATK X AGI X 5"
+                    ],
+                    "Illusal Dance (T)",
+                    [
+                        "Duration: 12 seconds → 6 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Dark Shroud (D)",
+                    [
+                        "Reduced backstab cast delay"
+                    ],
+                    "Shadow Rush (T)",
+                    [
+                        "Cooldown: 30 seconds → 25 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Death's Slash (R)",
+                    [
+                        "ATK is now calculated in real time instead of beginning of cast",
+                        "Damage per hit X 10% ATK → 15% ATK",
+                        "Duration: 1.25 seconds → 1 second"
+                    ],
+                    "Extreme Focus (T)",
+                    [
+                        "Passive / Active duration: 3 / 5 seconds → 4 / 4 seconds",
+                        "Changed to activate with 100% chance with using Death's Slash (R)"
+                    ],
+                    "Death Mark (F)",
+                    [
+                        "Damage dealt increase based on missing HP: 30 ~ 50% → 20 ~ 40%"
+                    ]
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Tumble (Q)",
+                    [
+                        "Now attacks target when roll ends if attack command is issued during the roll"
+                    ],
+                    "Deadeye (F)",
+                    [
+                        "Cast time: 1 second → 0.75 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "Range: 600 ~ 850 → 850 fixed",
+                    "Elven Arrow (D)",
+                    [
+                        "Cooldown: 5 seconds → 4 seconds"
+                    ],
+                    "Purestorm Shot (R)",
+                    [
+                        "Range: 750 → 900"
+                    ],
+                    "Arrow Rain (T)",
+                    [
+                        "Changed to arrows to be more evenly distributed",
+                        "Damage: 36 X (150% ATK + AGI X 15) → 24 X (250% ATK + AGI X 25)",
+                        "Decreased cast time",
+                        "Range: 900 → 1200"
+                    ],
+                    "Magic Ballista (F)",
+                    [
+                        "MP cost: 1000 → 500"
+                    ]
+                ]
+            },
+            {
+                "name": "Sniper",
+                "changes": [
+                    "Base attack range: 1200 → 1500",
+                    "Emergency Rations (D)",
+                    [
+                        "Cooldown: 20 seconds → 15 seconds"
+                    ],
+                    "Storm Shaft (Q)",
+                    [
+                        "Range: 1200 → 1500"
+                    ],
+                    "Storm Aegis (E)",
+                    [
+                        "Max damage reduction rate per range 1000 → 1200",
+                        "Cooldown: 25 seconds → 15 seconds"
+                    ],
+                    "Explosive Shot (R)",
+                    [
+                        "Spell empower damage: AGI X 50 → AGI X 125 (attack empower damage is still AGI X 100)",
+                        "Charge cycle now affected by Flame affinity (8 / (1 + Flame Affinity X 2))",
+                        [
+                            "Example: 5.33 seconds at 25% Flame Affinity"
+                        ]
+                    ],
+                    "Snipe (T)",
+                    [
+                        "0 ~ 40% additional damage from 0 ~ 800 distance → 20 ~ 60% additional damage from 0 ~ 1500 distance",
+                        "Knockback distance: 400 → 250"
+                    ],
+                    "Demolition (F)",
+                    [
+                        "Damage: AGI X 675 → AGI X 625"
+                    ]
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Ultimate Enchant (F)",
+                    [
+                        "MP cost: 1000 → 500",
+                        "Damage: AGI X 725 → AGI X 825",
+                        "Stun duration: 2 second → 3 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Holy Aurora (E)",
+                    [
+                        "Bonus damage based on max HP of target removed"
+                    ],
+                    "Dark Aurora (E)",
+                    [
+                        "Bonus damage: 3% max HP of target → 1.5% max HP"
+                    ]
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Flame Mastery (D)",
+                    [
+                        "Flame trails now only heal user (to reduce lag)"
+                    ]
+                ]
+            },
+            {
+                "name": "Arcane Mage",
+                "changes": [
+                    "Barrage (T)",
+                    [
+                        "Damage: 8 X (INT X 40) → 6 X (INT X 50)"
+                    ],
+                    "Starlight (F)",
+                    [
+                        "Amount of stars: 6 → 5",
+                        "Damage: 6 stars shooting every 0.625 seconds dealing (INT X 7.5) damage each attack → 5 stars shooting every 1 second dealing (INT X 15)",
+                        "Magic Star (Q) chain damage: 6 stars shooting a projectile that deals (INT X 15) → 5 stars shooting a projectile that deals (INT X 15)"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Mirror of Aeolus (E)",
+                    [
+                        "Bonus damage based on max HP of target removed"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Hypercharge (T)",
+                    [
+                        "Now resets cooldown of Discharge (E)"
+                    ]
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Seal of Water (W) - Refreshing Well (D)",
+                    [
+                        "MP regen: 4% → 4% to heroes, 1% on summons"
+                    ],
+                    "Seal of Earth (R) - Earthen Protection (W)",
+                    [
+                        "Gives 30% damage resistance in 800 AOE → 20% damage resistance in 1000 AOE"
+                    ]
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Claw (Q)",
+                    [
+                        "Damage: 300% ATK → 250% ATK"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Increased text size of boss summon locations (divided into 64 / 96 / 128 sizes)",
+            "Memory Stone",
+            [
+                "Rebalanced max MP",
+                [
+                    "1 ~ 2 players = 6 max MP",
+                    "3 ~ 4 players = 12 max MP",
+                    "5 ~ 6 players = 18 max MP",
+                    "7 or more players = 24 max MP"
+                ],
+                "MP increase per holy powder: 4 → 6",
+                "Underlord Agareth revival cost: 10 → 8"
+            ]
+        ]
+    },
+    {
         "name": "35h",
         "notes": [
             "Released on: June 4th, 2020",

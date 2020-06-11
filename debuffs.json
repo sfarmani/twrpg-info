@@ -17,7 +17,6 @@
         "suffix": "Percentage",
         "debufftype": "Armor Reduction",
         "names": [
-            "Berserker - Howling [W] (Active)",
             "Horns of Destruction (Active)"
         ]
     },
@@ -47,7 +46,8 @@
         "debufftype": "Magic Defense Reduction",
         "names": [
             "Soul Weaver - Astral Walk (Active)",
-            "Elementalist - Shock (Passive)"
+            "Elementalist - Shock (Passive)",
+            "Berserker - Howling [W] (Active)",
         ]
     },
     {
