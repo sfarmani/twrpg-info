@@ -1331,7 +1331,7 @@
       "damage": 2620,
       "agility": 390,
       "passive": [
-        "20% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
+        "20% Chance to deal (0.01 X ATK DMG X 2) splash damage on attack"
       ]
     }
   },
@@ -1350,7 +1350,7 @@
       "damage": 1800,
       "agility": 360,
       "passive": [
-        "20% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
+        "20% Chance to deal (0.01 X ATK DMG X 2) splash damage on attack"
       ]
     }
   },
@@ -1369,7 +1369,7 @@
       "damage": 3100,
       "strength": 260,
       "passive": [
-        "20% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
+        "20% Chance to deal (0.01 X ATK DMG X 2) splash damage on attack"
       ]
     }
   },
@@ -1408,7 +1408,7 @@
       "damage": 2600,
       "agility": 290,
       "passive": [
-        "20% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
+        "20% Chance to deal (0.01 X ATK DMG X 2) splash damage on attack"
       ]
     }
   },
@@ -1429,7 +1429,7 @@
       "damage": 3900,
       "agility": 220,
       "passive": [
-        "20% Chance to deal (0.01 X attack damage X 2) splash damage on attack"
+        "20% Chance to deal (0.01 X ATK DMG X 2) splash damage on attack"
       ]
     },
     "koreanname": "심해의 소총"
@@ -3978,7 +3978,7 @@
       "spec": [
         "Specialty",
         "Bow Master - Improved Freezing Shot: Casting it consecutively allows you to fire a powerful ice arrow.",
-        "  ↳ Freezing Shot bonus damage: 400% attack damage + Agi X 80 X Water/Ice Affinity"
+        "  ↳ Freezing Shot bonus damage: 400% ATK DMG + Agi X 80 X Water/Ice Affinity"
       ]
     },
     "koreanname": "프로스트베인"
@@ -4003,7 +4003,7 @@
       "attackspeedpercent": -0.5,
       "critchancepercent": 0.1,
       "active": [
-        "On use, increases attack damage by 15000 and STR by 1000 for 8 seconds",
+        "On use, increases ATK DMG by 15000 and STR by 1000 for 8 seconds",
         "Cooldown: 25 seconds"
       ]
     },
@@ -4390,7 +4390,7 @@
       "agility": 75,
       "passive": [
         "25% Chance to deal pure splash damage on attack",
-        "Damage depends on hero's attack damage"
+        "Damage depends on hero's ATK DMG"
       ]
     },
     "koreanname": "쉘 소드"
@@ -4414,9 +4414,9 @@
       "hp": 2400,
       "passive": [
         "Reflects damage if attacked",
-        "Reflected damage depends on user's base attack damage:",
-        "If base attack damage is more than 300, damage reflected is 1200 pure damage",
-        "If base attack damage is 300 and less, damage reflected is (base attack damage X 4) pure damage"
+        "Reflected damage depends on user's base ATK DMG:",
+        "If base ATK DMG is more than 300, damage reflected is 1200 pure damage",
+        "If base ATK DMG is 300 and less, damage reflected is (base ATK DMG X 4) pure damage"
       ]
     },
     "koreanname": "크랩 아머"
@@ -5054,7 +5054,7 @@
       "intelligence": 200,
       "hp": 2000,
       "passive": [
-        "Upon moving 400 distance, activates Drain on next attack dealing bonus (ATTACK DAMAGE X 50%) pure damage and heal for 6% HP",
+        "Upon moving 400 distance, activates Drain on next attack dealing bonus (ATK DMG X 50%) pure damage and heal for 6% HP",
         "cooldown: 0.125 seconds"
       ]
     },
@@ -5480,7 +5480,7 @@
       "healreceivedpercent": -0.25,
       "passive": [
         "5% Chance to activate Nightmare on attack",
-        "Gain 15000 attack damage, 900 main stat, and 1000 HP regen for 6 seconds"
+        "Gain 15000 ATK DMG, 900 main stat, and 1000 HP regen for 6 seconds"
       ]
     },
     "koreanname": "악몽의 반지"
@@ -6711,7 +6711,7 @@
       "skilldamagepercent": 0.05,
       "passive": [
         "Resonates with nearby allies to become stronger",
-        "For each ally nearby, the user gains +1750 attack damage and +1% skill damage",
+        "For each ally nearby, the user gains +1750 ATK DMG and +1% skill damage",
         "12% chance to deal (main stat X 37.5) magic damage"
       ]
     },
@@ -7137,8 +7137,8 @@
       "healreceivedpercent": -0.15,
       "passive": [
         "Releases Grudge every 6 seconds",
-        "Spikes protrude outwards from user in a 275 AoE dealing (attack damage X 7.5) magic damage",
-        "Also increases attack damage by 20000 for 1.5 seconds"
+        "Spikes protrude outwards from user in a 275 AoE dealing (ATK DMG X 7.5) magic damage",
+        "Also increases ATK DMG by 20000 for 1.5 seconds"
       ]
     },
     "koreanname": "원한의 갑주"
@@ -8901,7 +8901,7 @@
       "damage": 2250,
       "agility": 295,
       "passive": [
-        "10% Chance to amplify attack damage by 2x for 5 seconds on attack"
+        "10% Chance to amplify ATK DMG by 2x for 5 seconds on attack"
       ]
     }
   },
@@ -9001,7 +9001,7 @@
       "damage": 2000,
       "agility": 190,
       "passive": [
-        "10% Chance to amplify attack damage by 2x for 5 seconds on attack"
+        "10% Chance to amplify ATK DMG by 2x for 5 seconds on attack"
       ]
     }
   },
@@ -9050,7 +9050,7 @@
       "damage": 2460,
       "agility": 360,
       "passive": [
-        "10% Chance to amplify attack damage by 2x for 5 seconds on attack"
+        "10% Chance to amplify ATK DMG by 2x for 5 seconds on attack"
       ]
     }
   },
@@ -9150,7 +9150,7 @@
       "damage": 2600,
       "agility": 300,
       "passive": [
-        "10% Chance to amplify attack damage by 2x for 5 seconds on attack"
+        "10% Chance to amplify ATK DMG by 2x for 5 seconds on attack"
       ]
     }
   },
@@ -9176,7 +9176,7 @@
       "damage": 3600,
       "agility": 180,
       "passive": [
-        "10% Chance to amplify attack damage by 2x for 5 seconds on attack"
+        "10% Chance to amplify ATK DMG by 2x for 5 seconds on attack"
       ]
     }
   },
@@ -10204,7 +10204,7 @@
       "agility": 420,
       "skilldamagepercent": 0.06,
       "passive": [
-        "(8 + (hit count X 20%))% Chance to activate Grace Tear on attack dealing ((main stat X 17) + (attack damage X 5)) magic splash damage and stuns for 0.1 seconds"
+        "(8 + (hit count X 20%))% Chance to activate Grace Tear on attack dealing ((main stat X 17) + (ATK DMG X 5)) magic splash damage and stuns for 0.1 seconds"
       ],
       "spec": [
         "Specialty - Redemption",
@@ -10252,7 +10252,7 @@
       "attackspeedpercent": -0.2,
       "skilldamagepercent": 0.075,
       "passive": [
-        "10% Chance to activate Crimson Flame on attack dealing (attack damage + STR X 6) magic damage",
+        "10% Chance to activate Crimson Flame on attack dealing (ATK DMG + STR X 6) magic damage",
         "Also increases STR by 50 for each stack up to a max of 8 times"
       ]
     }
@@ -10524,7 +10524,7 @@
       "agility": 1425,
       "critmultiplier": 0.2,
       "passive": [
-        "Empowers next attack with Iron Bullet every 8 seconds dealing (attack damage + AGI X 50) magic damage and stuns for 0.375 seconds"
+        "Empowers next attack with Iron Bullet every 8 seconds dealing (ATK DMG + AGI X 50) magic damage and stuns for 0.375 seconds"
       ]
     }
   },
@@ -10693,7 +10693,7 @@
       "agility": 720,
       "skilldamagepercent": 0.09,
       "passive": [
-        "(8 + (hit count X 20%))% Chance to activate Grace Tear on attack dealing ((main stat X 23) + (attack damage X 6.5)) magic splash damage and stuns for 0.1 seconds"
+        "(8 + (hit count X 20%))% Chance to activate Grace Tear on attack dealing ((main stat X 23) + (ATK DMG X 6.5)) magic splash damage and stuns for 0.1 seconds"
       ],
       "spec": [
         "Specialty - Redemption",
@@ -10740,7 +10740,7 @@
       "skilldamagepercent": 0.05,
       "active": [
         "On use, activates Hand of Death dealing ((max HP X 7.5%) + ((STR X 25) + (INT X 50))) magic splash damage and stuns for 1 second",
-        "Also grants user with 15000 attack damage and 650 STR and INT",
+        "Also grants user with 15000 ATK DMG and 650 STR and INT",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -11034,7 +11034,7 @@
       "agility": 1900,
       "attackspeedpercent": 0.2,
       "passive": [
-        "On attack, activates Poem of Wind, firing an additional projectile that deals (attack damage X 15%) pure damage",
+        "On attack, activates Poem of Wind, firing an additional projectile that deals (ATK DMG X 15%) pure damage",
         "Damage is affected by wind/lightning affinity"
       ]
     }
@@ -11244,7 +11244,7 @@
       "agility": 1725,
       "critmultiplier": 0.2,
       "passive": [
-        "Empowers next attack with Bullet of Ruin that deals (((AGI X 50) + (attack damage X 4)) X (50% X (stack - 1)) + 1) magic damage every 8 seconds",
+        "Empowers next attack with Bullet of Ruin that deals (((AGI X 50) + (ATK DMG X 4)) X (50% X (stack - 1)) + 1) magic damage every 8 seconds",
         "Empower lasts for 6 seconds and stuns targets for 0.375 seconds",
         "Up to 2 additional bullets may be loaded for a max of 3 stacks"
       ]
@@ -11334,7 +11334,7 @@
       "agility": 1900,
       "critmultiplier": 0.3,
       "passive": [
-        "((hit count X 12.5%) + 1)% Chance to activate Doomsday on attack dealing (((STR + AGI) X 65) + (attack damage X 10)) magic splash damage and stuns for 0.1 seconds",
+        "((hit count X 12.5%) + 1)% Chance to activate Doomsday on attack dealing (((STR + AGI) X 65) + (ATK DMG X 10)) magic splash damage and stuns for 0.1 seconds",
         "Chance to activate increases if it fails to proc"
       ]
     }
@@ -11411,7 +11411,7 @@
       "skilldamagepercent": 0.075,
       "passive": [
         "~20.8% Chance to activate Fervor on casting skill gaining one stack",
-        "Increases attack damage by 2500 per stack and deals (attack damage X (1 + stack X 20%) + (STR X 10)) magic damage",
+        "Increases ATK DMG by 2500 per stack and deals (ATK DMG X (1 + stack X 20%) + (STR X 10)) magic damage",
         "Damage is affected by flame affinity",
         "Stacks expire after 7.5 seconds of not casting a skill"
       ],
@@ -11660,7 +11660,7 @@
       "agility": 2025,
       "critmultiplier": 0.25,
       "passive": [
-        "Empowers next attack with Bullet of Ruin every 6 seconds dealing ((AGI X 50) + (attack damage X 4)) magic damage per bullet and stuns for 0.25 seconds",
+        "Empowers next attack with Bullet of Ruin every 6 seconds dealing ((AGI X 50) + (ATK DMG X 4)) magic damage per bullet and stuns for 0.25 seconds",
         "Up to 2 additional bullets may be loaded"
       ],
       "spec": [
@@ -11700,7 +11700,7 @@
       "agility": 2300,
       "critmultiplier": 0.3,
       "passive": [
-        "Empowers next attack with Bullet of Punishment every 6 seconds dealing ((AGI X 50) + (attack damage X 6)) magic damage per bullet and stuns for 0.25 seconds",
+        "Empowers next attack with Bullet of Punishment every 6 seconds dealing ((AGI X 50) + (ATK DMG X 6)) magic damage per bullet and stuns for 0.25 seconds",
         "Up to 3 additional bullets may be loaded"
       ],
       "spec": [
@@ -12028,7 +12028,7 @@
       "agility": 1080,
       "skilldamagepercent": 0.12,
       "passive": [
-        "(HIT COUNT X 0.2) + 8)% chance to activate Grace Tear on attack dealing ((main stat X 32.5) + (ATTACK DAMAGE X 7.5)) magic splash damage and stuns for 0.1 seconds"
+        "(HIT COUNT X 0.2) + 8)% chance to activate Grace Tear on attack dealing ((main stat X 32.5) + (ATK DMG X 7.5)) magic splash damage and stuns for 0.1 seconds"
       ],
       "active": [
         "On use, activates Grand Forte slamming the ground 6 times around user dealing ((main stat X 130) / 12) magic damage and stunning for 0.125 seconds",
@@ -12119,7 +12119,7 @@
         "On skill cast, gain a stack and activate Burning Fervor giving user +500 STR and 100% movement and attack speed (up to a max of 5 stacks)",
         "Each stack grants user with +100 STR and +1500 damage. Stat increase lasts for 9 seconds",
         "First stack can only be gained by casting, every stack after is gained on attack",
-        "While Burning Fervor is active, has a ~20.8% chance to gain another stack and deal ((((stack X 30%) + 1.5) X base attack damage) + (STR X 15)) magic damage on attack",
+        "While Burning Fervor is active, has a ~20.8% chance to gain another stack and deal ((((stack X 30%) + 1.5) X base ATK DMG) + (STR X 15)) magic damage on attack",
         "Damage is affected by flame affinity",
         "Burning Fervor cooldown: 15 seconds, cannot be dropped during cooldown"
       ],
@@ -12386,7 +12386,7 @@
         "'Source of Death' On skill cast gives 375 Int and 10,000 Damage for 4 seconds (12 second CD)"
       ],
       "active": [
-        "'Song of Despair' Do 15x Attack Damage + 75x Int damage and lowers Magic Resistance of enemies by 6% for 8 seconds in an AoE"
+        "'Song of Despair' Do 15x ATK DMG + 75x Int damage and lowers Magic Resistance of enemies by 6% for 8 seconds in an AoE"
       ]
     }
   },
@@ -12655,7 +12655,7 @@
       "spec": [
         "Specialty",
         "Bow Master - Improved Freezing Shot: Casting it consecutively allows you to fire a more powerful ice arrow.",
-        "  ↳ Freezing Shot bonus Damage: 400% attack damage + Agi X 112 ~ 128 X Water/Ice Affinity"
+        "  ↳ Freezing Shot bonus Damage: 400% ATK DMG + Agi X 112 ~ 128 X Water/Ice Affinity"
       ]
     }
   },
@@ -12978,7 +12978,7 @@
       "agility": 2150,
       "attackspeedpercent": 0.4,
       "passive": [
-        "'Poem of Wind' Fire 1 additional projectiles on every attack that deals 0.15x Attack Damage as Pure Damage. Poem of Wind can Crit. Can trigger on attack effects"
+        "'Poem of Wind' Fire 1 additional projectiles on every attack that deals 0.15x ATK DMG as Pure Damage. Poem of Wind can Crit. Can trigger on attack effects"
       ]
     }
   },
@@ -13565,7 +13565,7 @@
       "skilldamagepercent": 0.075,
       "critchancepercent": 0.075,
       "passive": [
-        "25% chance on attack to give +0.20x Critical Multiplier, 15% attack damage, and 750 Agility 1 second after proc for 6 seconds"
+        "25% chance on attack to give +0.20x Critical Multiplier, 15% ATK DMG, and 750 Agility 1 second after proc for 6 seconds"
       ]
     }
   },
@@ -13679,7 +13679,7 @@
       "intelligence": 999,
       "mdpercent": 0.1,
       "passive": [
-        "Increases nearby allies Skill Damage and Attack Damage by 5%"
+        "Increases nearby allies Skill Damage and ATK DMG by 5%"
       ],
       "active": [
         "Summons 2 Flame Giants",
@@ -14747,7 +14747,7 @@
       ],
       "active": [
         "On use, activates Hellspike",
-        "Deals 2000% max HP to enemies around user and increases attack damage by 5000 for 2.5 seconds",
+        "Deals 2000% max HP to enemies around user and increases ATK DMG by 5000 for 2.5 seconds",
         "Cooldown: 7.5 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -16065,8 +16065,8 @@
       "healreceivedpercent": -0.25,
       "passive": [
         "7.5% Chance to activate Absolute Strike on attack",
-        "Next 4 hits will deal an additional 100% attack damage",
-        "Also gain 20000 attack damage, 1000 main stat, and 1000 HP regen for 7.5 seconds",
+        "Next 4 hits will deal an additional 100% ATK DMG",
+        "Also gain 20000 ATK DMG, 1000 main stat, and 1000 HP regen for 7.5 seconds",
         "Absolute Strike cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -16103,8 +16103,8 @@
       "healreceivedpercent": -0.35,
       "passive": [
         "12.5% Chance to activate Frenzy on attack",
-        "Next 5 hits will deal an additional 100% attack damage",
-        "Also gain 25000 attack damage, 1500 main stat and HP regen for 7.5 seconds",
+        "Next 5 hits will deal an additional 100% ATK DMG",
+        "Also gain 25000 ATK DMG, 1500 main stat and HP regen for 7.5 seconds",
         "Frenzy cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -16410,7 +16410,7 @@
       "hp": 10000,
       "skilldamagepercent": 0.06,
       "passive": [
-        "Empowers nearby allies within 750 AoE radius, increasing their attack damage by INT X 0.6 (up to a max of 6000), their attack speed by 25%, and HP regen by 400"
+        "Empowers nearby allies within 750 AoE radius, increasing their ATK DMG by INT X 0.6 (up to a max of 6000), their attack speed by 25%, and HP regen by 400"
       ],
       "active": [
         "On use, activates Purification on targeted ally, granting them the following effects for 3 seconds:",
@@ -17121,7 +17121,7 @@
         "Reduces movement and attack speed by 20% of nearby enemies"
       ],
       "active": [
-        "'Grim Howl' Restores 33% of Max Health and stuns nearby enemies for 1 second while decreasing their Attack Damage for 8 seconds. (-Healing does not stack with others) (40 second CD)"
+        "'Grim Howl' Restores 33% of Max Health and stuns nearby enemies for 1 second while decreasing their ATK DMG for 8 seconds. (-Healing does not stack with others) (40 second CD)"
       ]
     }
   },
@@ -17293,7 +17293,7 @@
       "hp": 5000,
       "passive": [
         "Upon moving 400 distance, activates Bloody Bite on next attack.",
-        "On each proc, deal Attack Damage X 75% pure damage, heal Max HP X 8%, and for 4 seconds gain ATK +1500, MS +15, and HP Recovery Rate +250 (can overlap up to 5 times)"
+        "On each proc, deal ATK DMG X 75% pure damage, heal Max HP X 8%, and for 4 seconds gain ATK +1500, MS +15, and HP Recovery Rate +250 (can overlap up to 5 times)"
       ]
     }
   },
@@ -18577,7 +18577,7 @@
         "20% chance to attack enemies surrounding target once more and restore 2500 hp"
       ],
       "active": [
-        "Pulls nearby enemies in 300~800 range around you, deals (attack damage X 40) damage to them and stuns for 2 seconds (60s cd)"
+        "Pulls nearby enemies in 300~800 range around you, deals (ATK DMG X 40) damage to them and stuns for 2 seconds (60s cd)"
       ]
     }
   },
