@@ -100,7 +100,7 @@
     ],
     "stats": {
       "active": [
-        "Attack and movement speed increased by 40% for 5 minutes",
+        "ATK DMG and MOV SPD increased by 40% for 5 minutes",
         "Does not work if you're above level 400"
       ]
     }
@@ -1773,7 +1773,7 @@
     "stats": {
       "allstat": 675,
       "passive": [
-        "Increases allies' speed",
+        "Increases allies' ATK SPD by 15%",
         "Activates revival on death",
         "Cooldown: 180 seconds, cannot be dropped during cooldown"
       ]
@@ -1873,7 +1873,7 @@
       "attackspeedpercent": 0.15,
       "skilldamagepercent": 0.05,
       "passive": [
-        "Enables the use of Breath of Ancients every 5 seconds dealing (7.5 X (STR + AGI + INT)) magic damage on attack and reduces target's movement speed by 20% for 3 seoncds"
+        "Enables the use of Breath of Ancients every 5 seconds dealing (7.5 X (STR + AGI + INT)) magic damage on attack and reduces target's MOV SPD by 20% for 3 seoncds"
       ],
       "spec": [
         "Specialties - Spiritus",
@@ -1942,7 +1942,7 @@
       "skilldamagepercent": 0.045,
       "passive": [
         "Activates Source of Power on skill cast dealing (STR X 1.5) magic damage on next attack",
-        "Also increases movement speed by 100% and STR by 425 for 6 seconds",
+        "Also increases MOV SPD by 100% and STR by 425 for 6 seconds",
         "Cooldown: 10 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -2765,7 +2765,7 @@
       "damage": 8400,
       "agility": 540,
       "passive": [
-        "10% Chance to activate Dragon's Claws on attack dealing (4500 + main stat X 2.5) magic damage on attack"
+        "10% Chance to activate Dragon's Claws on attack dealing (4500 + main stat X 2.5) magic damage"
       ]
     },
     "koreanname": "용궁 에이엔스"
@@ -2812,7 +2812,7 @@
       "damage": 12800,
       "agility": 570,
       "passive": [
-        "10% Chance to activate Dragon's Claws on attack dealing (4500 + main stat X 2.5) magic damage on attack"
+        "10% Chance to activate Dragon's Claws on attack dealing (4500 + main stat X 2.5) magic damage"
       ]
     },
     "koreanname": "용포 벨레누스"
@@ -3810,7 +3810,7 @@
       "critmultiplier": 0.15,
       "passive": [
         "13% Chance to activate Frost effect on attack",
-        "Deals (main stat X 12) magic damage and reduces enemy's movement speed by 20% for 3 seconds"
+        "Deals (main stat X 12) magic damage and reduces enemy's MOV SPD by 20% for 3 seconds"
       ]
     },
     "koreanname": "빙결의 창 오켈렌크"
@@ -3835,7 +3835,7 @@
       "affinityiwpercent": 0.05,
       "passive": [
         "13% Chance to activate Frost effect on attack",
-        "Deals (main stat X 12) magic damage and reduces enemy's movement speed by 20% for 3 seconds"
+        "Deals (main stat X 12) magic damage and reduces enemy's MOV SPD by 20% for 3 seconds"
       ]
     },
     "koreanname": "빙결의 활 오켈렌크"
@@ -4144,7 +4144,7 @@
       "agility": 1500,
       "critmultiplier": 0.25,
       "passive": [
-        "(1 + (0.125 X HIT COUNT))% Chance to activate Doomsday on attack dealing (42 X (STR + AGI)) + (8 X ATTACK) magic splash damage and stuns for 0.1 seconds",
+        "(1 + (0.125 X HIT COUNT))% Chance to activate Doomsday on attack dealing (42 X (STR + AGI)) + (8 X ATK DMG) magic splash damage and stuns for 0.1 seconds",
         "Scales with user's stats",
         "Failing to proc increase proc chance on subsequent attacks"
       ]
@@ -4172,7 +4172,7 @@
       "agility": 1400,
       "critmultiplier": 0.2,
       "passive": [
-        "(1 + (0.125 X HIT COUNT))% Chance to activate Doomsday on attack dealing (42 X (STR + AGI)) + (8 X ATTACK) magic splash damage and stuns for 0.1 seconds",
+        "(1 + (0.125 X HIT COUNT))% Chance to activate Doomsday on attack dealing (42 X (STR + AGI)) + (8 X ATK DMG) magic splash damage and stuns for 0.1 seconds",
         "Scales with user's stats",
         "Failing to proc increase proc chance on subsequent attacks"
       ]
@@ -4667,7 +4667,7 @@
       "hp": 3500,
       "mp": 3500,
       "passive": [
-        "On use, activates Restore Stamina, restoring HP and MP for 2000 and increasing attack speed by 15%"
+        "On use, activates Restore Stamina, restoring HP and MP for 2000 and increasing ATK SPD by 15%"
       ]
     },
     "koreanname": "고기 주머니"
@@ -4691,7 +4691,7 @@
       "mainstat": 100,
       "allstat": 100,
       "passive": [
-        "Increases nearby allies' movement speed by 20% and attack speed by 10%"
+        "Increases nearby allies' MOV SPD by 20% and ATK SPD by 10%"
       ]
     },
     "koreanname": "열정의 투구"
@@ -4816,7 +4816,7 @@
       "passive": [
         "Activates Unleash every 14th attack",
         "Red Wrath: deals (main stat X 22.5) magic splash damage",
-        "Green Wrath: reduces target movement and attack speed by 66% for 3 seconds, deals (main stat X 12.5) magic splash damage, and stuns non-boss units for 0.25 seconds",
+        "Green Wrath: reduces target MV and ATK SPD by 66% for 3 seconds, deals (main stat X 12.5) magic splash damage, and stuns non-boss units for 0.25 seconds",
         "Blue Wrath: heals user for (main stat + 3000) HP and (current MP + (max MP X 15%)) MP"
       ]
     },
@@ -4845,7 +4845,7 @@
       "passive": [
         "Activates Unleash every 14th attack",
         "Red Wrath: deals (main stat X 22.5) magic splash damage",
-        "Green Wrath: reduces target movement and attack speed by 66% for 3 seconds, deals (main stat X 12.5) magic splash damage, and stuns non-boss units for 0.25 seconds",
+        "Green Wrath: reduces target MV and ATK SPD by 66% for 3 seconds, deals (main stat X 12.5) magic splash damage, and stuns non-boss units for 0.25 seconds",
         "Blue Wrath: heals user for (main stat + 3000) HP and (current MP + (max MP X 15%)) MP"
       ]
     },
@@ -4962,7 +4962,7 @@
       "skilldamagepercent": 0.04,
       "dtpercent": 0.06,
       "active": [
-        "On use, activates Bloodlust granting 30% life steal, 400 main stat, and 100% bonus attack and movement speed for 8 seconds",
+        "On use, activates Bloodlust granting 30% life steal, 400 main stat, and 100% bonus ATK and MOV SPD for 8 seconds",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     },
@@ -5444,7 +5444,7 @@
       "passive": [
         "Activates Flameshard when HP drops below 35%",
         "Increases STR by 5% for 10 seconds and restores 14% max HP",
-        "Deals (STR X 25) magic damage to enemies in a 325 radius around user and reduce their attack and movement speed by 75% for 1.5 seconds",
+        "Deals (STR X 25) magic damage to enemies in a 325 radius around user and reduce their ATK and MOV SPD by 75% for 1.5 seconds",
         "Damage is affected by flame affinity",
         "Cooldown: 8 seconds, cannot be dropped during cooldown"
       ]
@@ -5938,7 +5938,7 @@
         "12% Chance to activate Strike of Malice on attack dealing (main stat X 35) magic damage"
       ],
       "active": [
-        "On use, activates Soul Reaper dealing (main stat X 150) magic damage and slowing target's movement speed by 50%",
+        "On use, activates Soul Reaper dealing (main stat X 150) magic damage and slowing target's MOV SPD by 50%",
         "Also gives +5% skill damage to user",
         "Cooldown: 150 seconds, cannot be dropped during cooldown"
       ]
@@ -6323,7 +6323,7 @@
       "dtpercent": -0.12,
       "passive": [
         "8% Chance to activate Perseverance on attack",
-        "Grants user with +50% Movement and Attack Speed, +100 main stat per tick for 10 seconds, and a 40% heal",
+        "Grants user with +50% MV and ATK SPD, +100 main stat per tick for 10 seconds, and a 40% heal",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     },
@@ -7064,7 +7064,7 @@
       "skilldamagepercent": 0.075,
       "mdpercent": 0.075,
       "passive": [
-        "Activates Power of Skies on casting skill dealing (main stat X 1) pure damage, increase the user's movement speed by 5%, and main stat by 275 for 4 seconds",
+        "Activates Power of Skies on casting skill dealing (main stat X 1) pure damage, increase the user's MOV SPD by 5%, and main stat by 275 for 4 seconds",
         "Cooldown: 16 seconds"
       ],
       "active": [
@@ -7703,7 +7703,7 @@
       "healreceivedpercent": -0.25,
       "passive": [
         "On attack inflicts Greed",
-        "When in combat for 5 seconds, increases attack speed and damage output by 1%",
+        "When in combat for 5 seconds, increases ATK DMG and ATK SPD output by 1%",
         "Also increases damage taken by 2%",
         "Can be stacked up to 25 times",
         "Cooldown: 1 second"
@@ -10093,7 +10093,7 @@
       "passive": [
         "Activates Blood Release on every 14th attack, healing the user for (2500 + (main stat X 0.6)) HP and proccing a random Wrath effect",
         "Red Wrath: deals (main stat X 27.5) magic splash damage",
-        "Green Wrath: reduces target movement and attack speed by 66% for 3 seconds, deals (main stat X 15) magic splash damage, and stuns non-boss units for 0.25 seconds"
+        "Green Wrath: reduces target MV and ATK SPD by 66% for 3 seconds, deals (main stat X 15) magic splash damage, and stuns non-boss units for 0.25 seconds"
       ]
     }
   },
@@ -10124,7 +10124,7 @@
       "passive": [
         "~11.1% Chance to slam down lightning on attack dealing (20000 + AGI X 10) magic damage",
         "~11.1% Chance to Awaken for 6 seconds on skill cast",
-        "While Awakened, increases movement and attack speed by 50% and gives a ~33.3% chance to deal (30000 + AGI X 15) magic damage"
+        "While Awakened, increases MV and ATK SPD by 50% and gives a ~33.3% chance to deal (30000 + AGI X 15) magic damage"
       ]
     }
   },
@@ -10293,7 +10293,7 @@
       "passive": [
         "Activates Blood Release on every 14th attack, healing the user for (2500 + (main stat X 0.6)) HP and proccing a random Wrath effect",
         "Red Wrath: deals (main stat X 27.5) magic splash damage",
-        "Green Wrath: reduces target movement and attack speed by 66% for 3 seconds, deals (main stat X 15) magic splash damage, and stuns non-boss units for 0.25 seconds"
+        "Green Wrath: reduces target MV and ATK SPD by 66% for 3 seconds, deals (main stat X 15) magic splash damage, and stuns non-boss units for 0.25 seconds"
       ]
     }
   },
@@ -10559,7 +10559,7 @@
       "attackspeedpercent": 0.2,
       "skilldamagepercent": 0.09,
       "passive": [
-        "Activates Breath of Ancients every 4 seconds empowering next attack to deal ((STR + AGI + INT) X 7.5) magic damage and reduces target's movement speed by 20% for 3 seconds",
+        "Activates Breath of Ancients every 4 seconds empowering next attack to deal ((STR + AGI + INT) X 7.5) magic damage and reduces target's MOV SPD by 20% for 3 seconds",
         "20% Chance to crit for (2 X (STR + AGI + INT) X 7.5) magic damage"
       ],
       "spec": [
@@ -10789,7 +10789,7 @@
         "Cooldown: 5 seconds"
       ],
       "active": [
-        "On use, activates Rage granting the user with 50% attack speed, 100 STR, and 1% skill damage per 1 ~ 0.5 seconds while draining user's HP",
+        "On use, activates Rage granting the user with 50% ATK SPD, 100 STR, and 1% skill damage per 1 ~ 0.5 seconds while draining user's HP",
         "Stacks up to 10 times and drains (800 + seconds elapsed X 400) HP per second",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
@@ -11935,7 +11935,7 @@
         "Cooldown: 5 seconds"
       ],
       "active": [
-        "On use, activates Oblivion granting the user with 75% attack speed, 150 STR, and 1.5% skill damage per 1 ~ 0.5 seconds while draining user's HP",
+        "On use, activates Oblivion granting the user with 75% ATK SPD, 150 STR, and 1.5% skill damage per 1 ~ 0.5 seconds while draining user's HP",
         "Stacks up to 10 times and drains (1500 + seconds elapsed X 500) HP per second",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
@@ -12116,7 +12116,7 @@
       "attackspeedpercent": -0.5,
       "skilldamagepercent": 0.09,
       "passive": [
-        "On skill cast, gain a stack and activate Burning Fervor giving user +500 STR and 100% movement and attack speed (up to a max of 5 stacks)",
+        "On skill cast, gain a stack and activate Burning Fervor giving user +500 STR and 100% MV and ATK SPD (up to a max of 5 stacks)",
         "Each stack grants user with +100 STR and +1500 damage. Stat increase lasts for 9 seconds",
         "First stack can only be gained by casting, every stack after is gained on attack",
         "While Burning Fervor is active, has a ~20.8% chance to gain another stack and deal ((((stack X 30%) + 1.5) X base ATK DMG) + (STR X 15)) magic damage on attack",
@@ -13253,7 +13253,7 @@
       "allstat": 310,
       "passive": [
         "+10% Damage dealt by attack",
-        "'War Shout' Increase nearby allies Movement Speed and Health Regeneration"
+        "'War Shout' Increase nearby allies MOV SPD and Health Regeneration"
       ],
       "active": [
         "Anti-Magic Shield (self) (240 CD) (Shared with Sacred Helm)"
@@ -13758,7 +13758,7 @@
       "intelligence": 730,
       "skilldamagepercent": 0.04,
       "active": [
-        "'Apocryphus' Heal yourself for 40% Maximum Health and allies for 1x Int+15% Max Health in 800 AoE, while increasing their movement speed by 25%. Gives 3 seconds of invisibility to self"
+        "'Apocryphus' Heal yourself for 40% Maximum Health and allies for 1x Int+15% Max Health in 800 AoE, while increasing their MOV SPD by 25%. Gives 3 seconds of invisibility to self"
       ]
     }
   },
@@ -14828,7 +14828,7 @@
         "Activates Frostshard when HP drops below 40%",
         "Grants 10% STR, 7.5% damage reduction for 12 seconds and restores 17.5% max HP",
         "Deals (STR X 40) magic damage around user in a 325 radius (damage is affected by water affinity)",
-        "Reduces movement and attack speed of affected enemies by 75% for 2 seconds",
+        "Reduces MV and ATK SPD of affected enemies by 75% for 2 seconds",
         "Cooldown: 8 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -15584,10 +15584,10 @@
       "intelligence": 1125,
       "hp": 10000,
       "passive": [
-        "Increase nearby allies' movement speed and gives them +150 Health Regeneration"
+        "Increase nearby allies' MOV SPD and gives them +150 Health Regeneration"
       ],
       "active": [
-        "Inflicts 30x Int damage to enemies in 600 AoE, and summons a dragon (150 second CD)"
+        "Inflicts INT X 30 damage to enemies in 600 AoE, and summons a dragon (150 second CD)"
       ]
     }
   },
@@ -15891,7 +15891,7 @@
       "hp": 8500,
       "skilldamagepercent": 0.04,
       "passive": [
-        "Increase nearby allies' attack speed by 20%, damage by 4000, and HP regen by 200"
+        "Increase nearby allies' ATK SPD by 20%, damage by 4000, and HP regen by 200"
       ]
     }
   },
@@ -16291,7 +16291,7 @@
       "active": [
         "On use, activates Dark Light, consuming all stored HP and MP",
         "Every second for 5 seconds, deals ((12 X stored HP) + (20 X stored MP)) magic damage in a 500 radius around user",
-        "Reduces movement speed and damage by 50% and silences on affected enemies for 1.5 seconds",
+        "Reduces MOV SPD and ATK DMG by 50% and silences on affected enemies for 1.5 seconds",
         "On the last second, deals a final damage of ((60 X stored HP) + (100 X stored MP)) magic damage in a 500 radius around user and stuns for 1 second",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ],
@@ -16413,7 +16413,7 @@
       "hp": 10000,
       "skilldamagepercent": 0.06,
       "passive": [
-        "Empowers nearby allies within 750 AoE radius, increasing their ATK DMG by INT X 0.6 (up to a max of 6000), their attack speed by 25%, and HP regen by 400"
+        "Empowers nearby allies within 750 AoE radius, increasing their ATK DMG by INT X 0.6 (up to a max of 6000), their ATK SPD by 25%, and HP regen by 400"
       ],
       "active": [
         "On use, activates Purification on targeted ally, granting them the following effects for 3 seconds:",
@@ -17121,7 +17121,7 @@
       "allstat": 1245,
       "mdpercent": 0.18,
       "passive": [
-        "Reduces movement and attack speed by 20% of nearby enemies"
+        "Reduces MOV and ATK SPD by 20% of nearby enemies"
       ],
       "active": [
         "'Grim Howl' Restores 33% of Max Health and stuns nearby enemies for 1 second while decreasing their ATK DMG for 8 seconds. (-Healing does not stack with others) (40 second CD)"
@@ -17163,7 +17163,7 @@
       "allstat": 1460,
       "mdpercent": 0.2,
       "passive": [
-        "Reduces movement and attack speed by 25% of nearby enemies"
+        "Reduces MOV and ATK SPD by 25% of nearby enemies"
       ],
       "active": [
         "On use activates Bravery, restoring 40% max HP of self and 20% max HP of nearby allies",
@@ -18617,7 +18617,7 @@
       "mp": 7500,
       "skilldamagepercent": 0.04,
       "active": [
-        "Consumes 50% of Max Mana and for 8s grants (mana consumed/80) main stat and 30% Attack Speed (30s cd)"
+        "Consumes 50% of max MP and for 8s grants (mana consumed/80) main stat and 30% ATK SPD (30s cd)"
       ],
       "spec": [
         "Specialties - Transmission of Darkness, Forbidden Grimoire",
@@ -18662,7 +18662,7 @@
       "mp": 12500,
       "skilldamagepercent": 0.06,
       "active": [
-        "Consumes 50% of Max Mana and for 10s grants (mana consumed/60) main stat and 50% Attack Speed (30s cd)"
+        "Consumes 50% of Max Mana and for 10s grants (mana consumed/60) main stat and 50% ATK SPD (30s cd)"
       ],
       "spec": [
         "Specialties - Transmission of Darkness, Forbidden Grimoire",
@@ -18703,7 +18703,7 @@
       "mdpercent": 0.05,
       "passive": [
         "On skill cast, activates Wind Fury for 1.5 seconds",
-        "Increases movement speed past 500 limit",
+        "Increases MOV SPD past 500 limit",
         "Next 2 attacks hit once to deal bonus 50% ATK DMG"
       ]
     }
@@ -18737,7 +18737,7 @@
       "mdpercent": 0.075,
       "passive": [
         "On skill cast, activates Wind Fury for 1.5 seconds",
-        "Increases movement speed past 500 limit",
+        "Increases MOV SPD past 500 limit",
         "Next 3 attacks hit once to deal bonus 50% ATK DMG"
       ]
     }
