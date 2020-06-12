@@ -13605,10 +13605,12 @@
       "strength": 670,
       "dtpercent": -0.12,
       "passive": [
-        "25% chance to restore 2% HP and Mana on taking damage (4 second CD)"
+        "25% chance to restore 5% HP and 10% MP on taking damage",
+        "Cooldown: 3 seconds, cannot be dropped during cooldown"
       ],
       "active": [
-        "Increase nearby allies Magic Resistance by 40% for 12 seconds (90 second CD)"
+        "Increase nearby allies Magic Resistance by 40% for 12 seconds",
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
   },
