@@ -1,5 +1,29 @@
 [
     {
+        "name": "36d",
+        "notes": [
+            "Released on: June 11th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "monsters": [
+            {
+                "name": "Valtora / Ifrit / Nereid",
+                "changes": [
+                    "Droprates reduced by 20%"
+                ]
+            },
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Impale 2 strike / 3 strikes trigger delay 1 second → 1.25 seconds",
+                    "Finger of Death chain radius 750 → 600",
+                    "Equipment droprates: 0.75% → 0.4%",
+                    "Material droprate: 1% → 0.6%"
+                ]
+            }
+        ]
+    },
+    {
         "name": "36c",
         "notes": [
             "Released on: June 11th, 2020",

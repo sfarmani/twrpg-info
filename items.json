@@ -7273,7 +7273,7 @@
     "type": "[Ring]",
     "color": "DC143C",
     "level": 380,
-    "droprate": 0.005,
+    "droprate": 0.004,
     "required_by": [
       "Staff of Plague",
       "Heaven's Fist",
@@ -7303,7 +7303,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.006,
     "required_by": [
       "Horn of Lightning God",
       "Protection of the Fairies",
@@ -7324,7 +7324,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.006,
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Pheles, the Bow of God",
@@ -7346,9 +7346,9 @@
     "type": "[Material]",
     "color": "FFFFFF",
     "droprate": [
-      0.005,
-      0.0075,
-      0.01
+      0.004,
+      0.006,
+      0.008
     ],
     "required_by": [
       "Pheles, the Bow of God",
@@ -7377,7 +7377,7 @@
     "description": "I'm about to EXPLODE!!!!!!!!!!!!!!!!!!!",
     "color": "DC143C",
     "level": 380,
-    "droprate": 0.005,
+    "droprate": 0.004,
     "required_by": [
       "Ring of Revival",
       "Robe of Archlich",
@@ -7406,7 +7406,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.006,
     "required_by": [
       "Eye of the Flame Lord",
       "Protection of the Fairies",
@@ -7424,7 +7424,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.006,
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Staff of Plague",
@@ -7448,7 +7448,7 @@
     "description": "A grail that overflows endlessly",
     "color": "DC143C",
     "level": 400,
-    "droprate": 0.005,
+    "droprate": 0.004,
     "required_by": [
       "Ring of Fate",
       "Eternal Flame"
@@ -7471,7 +7471,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.006,
     "required_by": [
       "Robe of Archlich",
       "Brave Heart",
@@ -7488,7 +7488,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.006,
     "required_by": [
       "Ring of Fate",
       "Bag of Universe",
@@ -7695,7 +7695,7 @@
     "type": "[Wings]",
     "color": "DC143C",
     "level": 400,
-    "droprate": 0.0075,
+    "droprate": 0.004,
     "stats": {
       "mainstat": 1350,
       "hp": 7500,
@@ -7723,7 +7723,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.01,
+    "droprate": 0.006,
     "koreanname": "영혼의 파편"
   },
   {
@@ -7734,7 +7734,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.01,
+    "droprate": 0.006,
     "koreanname": "지옥의 파편"
   },
   {
@@ -7745,7 +7745,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.01,
+    "droprate": 0.006,
     "koreanname": "군주의 징표"
   },
   {
