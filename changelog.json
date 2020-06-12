@@ -253,7 +253,7 @@
                     "Difficulty system rebalanced for bosses Skeleton King and above",
                     [
                         "Before change: Before change: Starting from 7th player bosses gain 7.5% damage resistance and droprate per player (if damage resistance was HP increase it would've been 42.9% at max scaling)",
-                        "After change:  Starting from 6th player bosses gain 15% HP and 20% droprate per player (75% bonus HP at max scaling)"
+                        "After change:  Starting from 6th player bosses gain 20% HP and 20% droprate per player (100% bonus HP at max scaling)"
                     ]
                 ]
             },
