@@ -9,14 +9,7 @@
             "Heart of Ifrit (Passive)",
             "Frost Web Brooch (Passive)",
             "Fairy Robe - Fairy Fire (Active)",
-            "Guardian of the Skies (Active)"
-        ]
-    },
-    {
-        "type": "Type-B",
-        "suffix": "Percentage",
-        "debufftype": "Armor Reduction",
-        "names": [
+            "Guardian of the Skies (Active)",
             "Horns of Destruction (Active)"
         ]
     },
@@ -47,7 +40,7 @@
         "names": [
             "Soul Weaver - Astral Walk (Active)",
             "Elementalist - Shock (Passive)",
-            "Berserker - Howling [W] (Active)",
+            "Berserker - Howling [W] (Active)"
         ]
     },
     {
