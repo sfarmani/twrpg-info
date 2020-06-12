@@ -1,5 +1,34 @@
 [
     {
+        "name": "36e",
+        "notes": [
+            "Released on: June 11th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "monsters": [
+            {
+                "name": "Valtora",
+                "changes": [
+                    "Droprate increased to 25% (rollback)",
+                    "No longer summons Servants of Lightning God during the first phase"
+                ]
+            },
+            {
+                "name": "Irfrit / Nereid",
+                "changes": [
+                    "Droprate increased to 25% (rollback)"
+                ]
+            },
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Equipment droprates: 0.4% → 0.5%",
+                    "Material droprates: 0.6% → 0.75%"
+                ]
+            }
+        ]
+    },
+    {
         "name": "36d",
         "notes": [
             "Released on: June 11th, 2020",
