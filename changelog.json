@@ -1,5 +1,56 @@
 [
     {
+        "name": "36f",
+        "notes": [
+            "Released on: June 12th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Mystery bugs hopefully resolved a little more now"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New items added",
+                    [
+                        "Chaos",
+                        "Espishu, the Sword of Chaos",
+                        "Rainmaker",
+                        "Bag of Despair",
+                        "Radiance of the One",
+                        "Hood of Apocalypse",
+                        "Crown of Absolute Zero",
+                        "Wings of Flame Lord",
+                        "Wings of Frost Lord"
+                    ]
+                ]
+            },
+            {
+                "name": "Ring of Insanity",
+                "changes": [
+                    "Passive - Main stat / HP regen rate: 1500 → 1250"
+                ]
+            },
+            {
+                "name": "Spirit Besat Icon",
+                "changes": [
+                    "Worth: 250 Prius Silver Coins"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Valtora",
+                "changes": [
+                    "Now always is CC immune in first phase",
+                    "Servants of the Lightning God now summons again before the 3-line phase",
+                    "Servant of Lightning God now disappear when 3-lines appear"
+                ]
+            }
+        ]
+    },
+    {
         "name": "36e",
         "notes": [
             "Released on: June 11th, 2020",

@@ -2982,12 +2982,26 @@
         ]
     },
     {
+        "name": "Cursed Doll",
+        "heroClass": "Merchant",
+        "color": "bfa3d5",
+        "hotkey": "[T]",
+        "icon": "MerchantT3",
+        "order": 9,
+        "active": [
+            "Plants a cursed doll.",
+            "Plants a doll that can be damaged",
+            "After 15 seconds, explodes dealing STR X 200 + damage taken X 7.5% pure damage and stunning for 3 seconds",
+            "Cooldown: 60 seconds"
+        ]
+    },
+    {
         "name": "Scroll of God's Blessing",
         "heroClass": "Merchant",
         "color": "ddddbb",
         "hotkey": "[F]",
         "icon": "MerchantF",
-        "order": 9,
+        "order": 10,
         "active": [
             "\"Damn it.. there goes my rarest scroll! If I wasn't a merchant dealing with customer relationships, I'd never have used it for him.. \" - Merchant",
             "Empowers target with Indomitable Strength for 12 seconds",
@@ -3964,7 +3978,8 @@
             "Blinds enemies within area",
             "Grants barrier to allies within area",
             "Absorbs for INT X 6",
-            "Stuns for 0.5 seconds"
+            "Stuns for 0.5 seconds",
+            "Cooldown: 25 seconds"
         ]
     },
     {

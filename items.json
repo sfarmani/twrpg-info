@@ -1987,6 +1987,11 @@
     "required_by": [
       "Corruptor Icon"
     ],
+    "recipe": [
+      {
+        "Prius Silver Coin": 250
+      }
+    ],
     "stats": {
       "attackspeedpercent": 0.04
     },
@@ -6391,8 +6396,9 @@
       "Plates of Lightning",
       "Wings of Blood Lord",
       "Oblivion",
-      "Zombie Lord Icon",
-      "Fiend Chaser"
+      "Fiend Chaser",
+      "Crown of Absolute Zero",
+      "Zombie Lord Icon"
     ],
     "recipe": [
       {
@@ -6524,6 +6530,7 @@
       "Druid's Mantle",
       "Bag of Explosion",
       "Ruler of the Skies",
+      "Rainmaker",
       "Ancient Ent Icon"
     ],
     "recipe": [
@@ -6763,6 +6770,8 @@
       "Ring of Time",
       "Ispion, the Runed Ring",
       "Seal of Deceiver",
+      "Crown of Absolute Zero",
+      "Wings of Flame Lord",
       "Shadow Dragon Icon"
     ],
     "stats": {
@@ -6842,6 +6851,7 @@
       "Splitting of the Sky and Earth",
       "Robe of Archlich",
       "Cosmic Reaper",
+      "Rainmaker",
       "Shadow Dragon Icon"
     ],
     "recipe": [
@@ -6887,6 +6897,8 @@
       "Hades, the Armor of Despair",
       "Cold Ring of Death",
       "Ruler of the Skies",
+      "Hood of Apocalypse",
+      "Wings of Frost Lord",
       "Shadow Dragon Icon"
     ],
     "recipe": [
@@ -6938,6 +6950,7 @@
       "Horn of God",
       "Robe of Archlich",
       "Punisher",
+      "Rainmaker",
       "Archangel Icon"
     ],
     "recipe": [
@@ -7018,6 +7031,9 @@
       "Grimoire of Darkness",
       "Ring of Time",
       "Fiend Chaser",
+      "Chaos",
+      "Espishu, the Sword of Chaos",
+      "Radiance of the One",
       "Archangel Icon"
     ],
     "recipe": [
@@ -7155,7 +7171,9 @@
     "level": 380,
     "droprate": 0.01,
     "required_by": [
-      "Cosmic Star"
+      "Cosmic Star",
+      "Bag of Despair",
+      "Hood of Apocalypse"
     ],
     "stats": {
       "armor": 560,
@@ -7210,7 +7228,9 @@
       "Atricia, the Sword of Dreams",
       "Splitting of the Sky and Earth",
       "Cosmic Reaper",
-      "Soul of Abyss"
+      "Soul of Abyss",
+      "Chaos",
+      "Espishu, the Sword of Chaos"
     ],
     "koreanname": "죽음의 창두"
   },
@@ -7229,7 +7249,11 @@
       "Nebula Rose",
       "Storm",
       "Bag of Universe",
-      "Ruler of the Skies"
+      "Ruler of the Skies",
+      "Chaos",
+      "Espishu, the Sword of Chaos",
+      "Wings of Flame Lord",
+      "Wings of Frost Lord"
     ],
     "koreanname": "혼돈이 깃든 파편"
   },
@@ -7279,7 +7303,10 @@
       "Heaven's Fist",
       "Archangel Wings",
       "Soul of Abyss",
-      "Ruler of the Skies"
+      "Ruler of the Skies",
+      "Chaos",
+      "Espishu, the Sword of Chaos",
+      "Bag of Despair"
     ],
     "stats": {
       "mainstat": 1200,
@@ -7312,7 +7339,8 @@
       "Splitting of the Sky and Earth",
       "Brave Heart",
       "Ring of Insanity",
-      "Athanasia, the Armor of the Reaper"
+      "Athanasia, the Armor of the Reaper",
+      "Radiance of the One"
     ],
     "koreanname": "폭풍의 가호"
   },
@@ -7363,7 +7391,13 @@
       "Athanasia, the Armor of the Reaper",
       "Felspike Armor",
       "Ruler of the Skies",
-      "Eternal Flame"
+      "Eternal Flame",
+      "Chaos",
+      "Rainmaker",
+      "Espishu, the Sword of Chaos",
+      "Bag of Despair",
+      "Radiance of the One",
+      "Crown of Absolute Zero"
     ],
     "koreanname": "빛나는 유적의 조각"
   },
@@ -7382,7 +7416,9 @@
       "Ring of Revival",
       "Robe of Archlich",
       "Felspike Armor",
-      "Eternal Flame"
+      "Eternal Flame",
+      "Bag of Despair",
+      "Wings of Flame Lord"
     ],
     "stats": {
       "mainstat": 1300,
@@ -7412,7 +7448,8 @@
       "Protection of the Fairies",
       "Archangel Wings",
       "Brave Heart",
-      "Ring of Insanity"
+      "Ring of Insanity",
+      "Wings of Flame Lord"
     ],
     "koreanname": "화염의 가호"
   },
@@ -7451,7 +7488,9 @@
     "droprate": 0.005,
     "required_by": [
       "Ring of Fate",
-      "Eternal Flame"
+      "Eternal Flame",
+      "Rainmaker",
+      "Wings of Frost Lord"
     ],
     "stats": {
       "allstat": 1200,
@@ -7476,7 +7515,8 @@
       "Robe of Archlich",
       "Brave Heart",
       "Athanasia, the Armor of the Reaper",
-      "Felspike Armor"
+      "Felspike Armor",
+      "Wings of Frost Lord"
     ],
     "koreanname": "바다의 가호"
   },
@@ -7496,7 +7536,8 @@
       "Ring of Hope",
       "Ring of Despair",
       "Ring of Insanity",
-      "Ruler of the Skies"
+      "Ruler of the Skies",
+      "Crown of Absolute Zero"
     ],
     "koreanname": "바다의 결정"
   },
@@ -7518,7 +7559,9 @@
       "Druid's Mantle",
       "Staff of Abyss",
       "Bloodsoul Plates",
-      "Bag of Universe"
+      "Bag of Universe",
+      "Wings of Flame Lord",
+      "Wings of Frost Lord"
     ],
     "stats": {
       "damage": 19000,
@@ -7577,7 +7620,8 @@
       "Hellspike Armor",
       "Wings of Phoenix",
       "Archangel Wings",
-      "Bag of Destruction"
+      "Bag of Destruction",
+      "Hood of Apocalypse"
     ],
     "koreanname": "불타는 뼛조각"
   },
@@ -7603,7 +7647,8 @@
       "Oblivion",
       "Fiend Chaser",
       "Punisher",
-      "Bag of Explosion"
+      "Bag of Explosion",
+      "Radiance of the One"
     ],
     "koreanname": "용의 눈"
   },
@@ -7696,6 +7741,9 @@
     "color": "DC143C",
     "level": 400,
     "droprate": 0.005,
+    "required_by": [
+      "Bag of Despair"
+    ],
     "stats": {
       "mainstat": 1350,
       "hp": 7500,
@@ -7719,7 +7767,9 @@
     ],
     "required_by": [
       "Ring of Hope",
-      "Ring of Despair"
+      "Ring of Despair",
+      "Chaos",
+      "Espishu, the Sword of Chaos"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
@@ -7732,6 +7782,9 @@
     "dropped_by": [
       "Underlord Agareth"
     ],
+    "required_by": [
+      "Hood of Apocalypse"
+    ],
     "type": "[Material]",
     "color": "FFFFFF",
     "droprate": 0.0075,
@@ -7742,6 +7795,12 @@
     "name": "Mark of Lord",
     "dropped_by": [
       "Underlord Agareth"
+    ],
+    "required_by": [
+      "Radiance of the One",
+      "Crown of Absolute Zero",
+      "Wings of Flame Lord",
+      "Wings of Frost Lord"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
@@ -8475,6 +8534,9 @@
     "type": "[Bag]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Bag of Despair"
+    ],
     "recipe": [
       {
         "Bag of Corruption": 1
@@ -8507,8 +8569,53 @@
       ],
       "spec": [
         "Merchant Specialty - Dangerous Bag",
-        "Merchant - Throw Bomb: Changed to be rechargeable (one charge per second; up to 5)",
-        "Merchant - Holy Water of Resurrection: Replaced with Dangerous Explosives"
+        "Merchant - Throw Bomb: Becomes charge-based (recharge 1 per second, up to 5)",
+        "Merchant - Holy Water of Resurrection: Changed to Dangerous Explosive"
+      ]
+    }
+  },
+  {
+    "id": "I0NS",
+    "name": "Bag of Despair",
+    "koreanname": "절망의 배낭",
+    "description": "Don't peek inside!",
+    "type": "[Bag]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Bag of Explosion": 1
+      },
+      {
+        "Eyes of the Watcher": 1
+      },
+      {
+        "Shackles of Heaven": 1
+      },
+      {
+        "Heart of Volcano": 1
+      },
+      {
+        "Curse of Greed": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "damage": 31000,
+      "strength": 2550,
+      "skilldamagepercent": 0.2,
+      "dtpercent": 0.1,
+      "active": [
+        "On use, obtains Throw Bomb",
+        "Replaces Throwing Healing Potion with Throw Bomb. Use again to revert back",
+        "Cooldown: 2 second"
+      ],
+      "spec": [
+        "Merchant Specialty - Dangerous Bag",
+        "Merchant - Throw Bomb: Becomes charge-based (recharge 1 per second, up to 5)",
+        "Merchant - Holy Water of Resurrection: Changed to Cursed Doll"
       ]
     }
   },
@@ -11128,6 +11235,9 @@
     "type": "[Gun]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Rainmaker"
+    ],
     "recipe": [
       {
         "Dragon Buster": 1
@@ -11153,7 +11263,7 @@
       "intelligence": 2040,
       "healingpercent": 0.12,
       "passive": [
-        "On healing, activates Healing Water granting healed allies ((INT X 20%) X ice/water affinity) HP regen for 3 seconds"
+        "On healing, activates Healing Water granting healed allies ((INT X 0.2) X water affinity) HP regen for 3 seconds"
       ],
       "active": [
         "On use, activates Hydro Buster pushing and damaging targets",
@@ -11165,6 +11275,53 @@
         "Specialty - Purging Water",
         "Shooter - Twin Star: Changed to Water Bullet",
         "Shooter - Nanomachine Injection: Healing speed decreased by 50% but heal amount increased by 50% and heals all allies within 400 range"
+      ]
+    }
+  },
+  {
+    "id": "I0N8",
+    "name": "Rainmaker",
+    "koreanname": "레인메이커",
+    "description": "Wash away the world's faults and sins with that rain.",
+    "type": "[Gun]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Hydro Buster": 1
+      },
+      {
+        "Grail of Eternity": 1
+      },
+      {
+        "Purified Water of Nature": 1
+      },
+      {
+        "Steel of God": 1
+      },
+      {
+        "Antimatter": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "damage": 25500,
+      "intelligence": 2350,
+      "healingpercent": 0.15,
+      "passive": [
+        "On healing, activates Healing Water granting healed allies ((INT X 0.4) X water affinity) HP regen for 3 seconds"
+      ],
+      "active": [
+        "On use, activates Rainstorm around the user",
+        "Restores INT X 1 max HP to all nearby allies every 2 seconds for 6 seconds",
+        "Cooldown: 15 seconds"
+      ],
+      "spec": [
+        "Specialty - Purging Water",
+        "Shooter - Twin Star: Changed to Water Bullet",
+        "Shooter - Nanomachine Injection: Healing speed decreased by 50% but heal amount increased by 75% and heals all allies within 400 range"
       ]
     }
   },
@@ -11347,6 +11504,9 @@
     "type": "[Bastard Sword]",
     "color": "DC143C",
     "level": 370,
+    "required_by": [
+      "Espishu, the Sword of Chaos"
+    ],
     "recipe": [
       {
         "Asmodeus, the Archdevil's Greatsword": 1
@@ -11373,6 +11533,48 @@
       "skilldamagepercent": 0.09,
       "passive": [
         "10% Chance to activate Chaos Strike on attack dealing ((STR + AGI) X 37.5) magic damage"
+      ]
+    }
+  },
+  {
+    "id": "I0AM",
+    "name": "Espishu, the Sword of Chaos",
+    "koreanname": "혼돈의 검 에스피슈",
+    "description": "Do you wish for endless power? If so, step into the primordial chaos ..",
+    "type": "[Bastard Sword]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Espishu, the Sword of Eternity": 1
+      },
+      {
+        "Shackles of Heaven": 1
+      },
+      {
+        "God's Page": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      },
+      {
+        "Spearhead of Death": 1
+      },
+      {
+        "Fragment of Chaos": 1
+      },
+      {
+        "Fragment of Soul": 1
+      }
+    ],
+    "stats": {
+      "damage": 33000,
+      "mainstat": 1000,
+      "strength": 1700,
+      "agility": 1700,
+      "skilldamagepercent": 0.12,
+      "passive": [
+        "10% Chance to activate Chaos Strike on attack dealing ((STR + AGI) X 45) magic damage"
       ]
     }
   },
@@ -11908,6 +12110,9 @@
       "In order to stop the active effect, press ESC"
     ],
     "level": 380,
+    "required_by": [
+      "Chaos"
+    ],
     "recipe": [
       {
         "Anger": 1
@@ -11937,6 +12142,56 @@
       "active": [
         "On use, activates Oblivion granting the user with 75% ATK SPD, 150 STR, and 1.5% skill damage per 1 ~ 0.5 seconds while draining user's HP",
         "Stacks up to 10 times and drains (1500 + seconds elapsed X 500) HP per second",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "engs",
+    "name": "Chaos",
+    "koreanname": "혼돈",
+    "description": "There is no need to restrain yourself, because everything returns to the void in the end.",
+    "type": "[Greatsword]",
+    "color": "99ff99",
+    "notes": [
+      "In order to stop the active effect, press ESC"
+    ],
+    "level": 400,
+    "recipe": [
+      {
+        "Oblivion": 1
+      },
+      {
+        "Shackles of Heaven": 1
+      },
+      {
+        "God's Page": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      },
+      {
+        "Spearhead of Death": 1
+      },
+      {
+        "Fragment of Chaos": 1
+      },
+      {
+        "Fragment of Soul": 1
+      }
+    ],
+    "stats": {
+      "damage": 30500,
+      "strength": 2350,
+      "skilldamagepercent": 0.1,
+      "passive": [
+        "25% Chance to activate Devastation on attack causing enemies within a frontal cone area to take (STR X 100) magic damage",
+        "Reduces armor by 250 and magic defense by 2.5% for 6 seconds",
+        "Cooldown: 5 seconds"
+      ],
+      "active": [
+        "On use, activates Oblivion granting the user with 100% ATK SPD, 200 STR, and 1.5% skill damage per 1 ~ 0.5 seconds while draining user's HP",
+        "Stacks up to 10 times and drains (3000 + seconds elapsed X 750) HP per second",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -13622,6 +13877,9 @@
     "type": "[Helm]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Radiance of the One"
+    ],
     "recipe": [
       {
         "Archangel Halo": 1
@@ -13647,6 +13905,48 @@
         "Damage dealt by attack +15%",
         "On attack, activates Judgment, adding 1 stack every 0.15 seconds with a max stack of 5",
         "Consume 1 stack on attack to do (main stat X 1) pure damage on attack"
+      ],
+      "active": [
+        "Block magic every 1 minute and 30 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I0NA",
+    "name": "Radiance of the One",
+    "koreanname": "절대자의 광휘",
+    "description": "You're not allowed to even stare at it.",
+    "type": "[Helm]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Halo of Judgment": 1
+      },
+      {
+        "Dragon's Eye": 1
+      },
+      {
+        "God's Page": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      },
+      {
+        "Aegis of Storm": 1
+      },
+      {
+        "Mark of Lord": 1
+      }
+    ],
+    "stats": {
+      "armor": 875,
+      "strength": 825,
+      "agility": 725,
+      "passive": [
+        "Damage dealt by attack +18%",
+        "On attack, activates Judgment, adding 1 stack every 0.15 seconds with a max stack of 5",
+        "Consume 1 stack on attack to do (main stat X 1.5) pure damage on attack"
       ],
       "active": [
         "Block magic every 1 minute and 30 seconds"
@@ -13735,6 +14035,9 @@
     "type": "[Hood]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Hood of Apocalypse"
+    ],
     "recipe": [
       {
         "Hood of Grim Reaper": 1
@@ -13760,7 +14063,52 @@
       "intelligence": 730,
       "skilldamagepercent": 0.04,
       "active": [
-        "'Apocryphus' Heal yourself for 40% Maximum Health and allies for 1x Int+15% Max Health in 800 AoE, while increasing their MOV SPD by 25%. Gives 3 seconds of invisibility to self"
+        "On use, activates Apocryphos and turns the user invisible for 3 seconds",
+        "Heals self for 40% max HP and allies for (INT X 15% max HP)",
+        "Stuns nearby enemies for 0.5 seconds",
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0NE",
+    "name": "Hood of Apocalypse",
+    "koreanname": "후드 오브 아포칼립스",
+    "description": "A new cycle will begin after the end.",
+    "type": "[Hood]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Hood of Apocrypha": 1
+      },
+      {
+        "Eyes of the Watcher": 1
+      },
+      {
+        "Seal of Deceiver": 1
+      },
+      {
+        "Burning Bone Fragments": 1
+      },
+      {
+        "Frozen Debris": 1
+      },
+      {
+        "Fragment of Hell": 1
+      }
+    ],
+    "stats": {
+      "armor": 540,
+      "strength": 630,
+      "agility": 630,
+      "intelligence": 880,
+      "skilldamagepercent": 0.05,
+      "active": [
+        "On use, activates Apocalypse dealing (INT X 250) magic damage to nearby enemies",
+        "Instantly restores 30% HP of nearby allies and grants them 10% HP regen per 0.25 seconds for 3 seconds",
+        "Stuns nearby enemies for 1.5 seconds and silences for 3 seconds",
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -13854,6 +14202,9 @@
     "type": "[Helm/Hood]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Crown of Absolute Zero"
+    ],
     "recipe": [
       {
         "Crown of Fervor": 1
@@ -13877,7 +14228,51 @@
       "skilldamagepercent": 0.075,
       "affinityiwpercent": 0.075,
       "active": [
-        "'Composure' Gain 7.5% Skill Damage and 375 All Stats on use for 12 seconds. 20% chance to microfreeze all enemies in 1000 AoE on skill cast for duration of buff. (100 second CD)"
+        "On use, activates Composure",
+        "Increases skill damage by 7.5% and all stats by 375 for 12 seconds",
+        "20% chance to freeze nearby enemies for 12 seconds",
+        "Cooldown: 100 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0NG",
+    "name": "Crown of Absolute Zero",
+    "koreanname": "절대영도의 화관",
+    "description": "You shall not be shaken.",
+    "type": "[Helm/Hood]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Crown of Composure": 1
+      },
+      {
+        "Nephthys, the Engraved Ring": 1
+      },
+      {
+        "Dark Crystal": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Mark of Lord": 1
+      }
+    ],
+    "stats": {
+      "armor": 750,
+      "allstat": 970,
+      "skilldamagepercent": 0.1,
+      "affinityiwpercent": 0.075,
+      "active": [
+        "On use, activates Composure",
+        "Increases skill damage by 12.5% and all stats by 500 for 12 seconds",
+        "Grants knockback immunity for 12 seconds",
+        "Cooldown: 100 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -16262,6 +16657,9 @@
     "type": "[Ring]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Hood of Apocalypse"
+    ],
     "recipe": [
       {
         "Skull Seal": 1
@@ -16840,6 +17238,9 @@
     "type": "[Wings]",
     "color": "DC143C",
     "level": 360,
+    "required_by": [
+      "Wings of Frost Lord"
+    ],
     "recipe": [
       {
         "Fairy Wings": 1
@@ -16865,7 +17266,51 @@
       "skilldamagepercent": 0.11,
       "affinityiwpercent": 0.07,
       "active": [
-        "Creates a portal between Capitol Prius and your current location"
+        "On use, creates a Magical Passage, connecting your current location to Capital Prius"
+      ]
+    }
+  },
+  {
+    "id": "I0NO",
+    "name": "Wings of Frost Lord",
+    "koreanname": "서리 군주의 날개",
+    "description": "Wings of the one that rules over frost",
+    "type": "[Wings]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Frost Fairy Wings": 1
+      },
+      {
+        "Grail of Eternity": 1
+      },
+      {
+        "Dragonic Orb": 1
+      },
+      {
+        "Frozen Debris": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Fragment of Chaos": 1
+      },
+      {
+        "Mark of Lord": 1
+      }
+    ],
+    "stats": {
+      "intelligence": 1245,
+      "hp": 5000,
+      "mp": 15000,
+      "skilldamagepercent": 0.15,
+      "affinityiwpercent": 0.08,
+      "active": [
+        "On skill cast, summons Ice Spikes that target closest enemy boss",
+        "Deals (INT X 25) magic damage per spike",
+        "5 Ice Spikes can be summoned at once"
       ]
     }
   },
@@ -16917,6 +17362,9 @@
     "type": "[Wings]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Wings of Flame Lord"
+    ],
     "recipe": [
       {
         "Wanderer's Cape": 1
@@ -16947,7 +17395,61 @@
       "dtpercent": -0.07,
       "hpregen": 300,
       "active": [
-        "'Flame Flight' Charge to target point (Max Range 900) dealing (75x main stat + 5x Damage) damage to all enemies within 300 AoE of destination and stun them for 0.5 seconds (45 second CD)"
+        "On use, activates Flame Flight",
+        "Deals (ATK DMG X 5 + main stat X 75) magic damage to enemies in targeted area",
+        "Stuns for 0.5 seconds",
+        "Max dash distance of 900",
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialty - Phoenix",
+        "Martial Artist - Nameless Art's cast time is removed. Also revives hero with 75% HP after 2 seconds if killed while active."
+      ]
+    }
+  },
+  {
+    "id": "I0NN",
+    "name": "Wings of Flame Lord",
+    "koreanname": "화염 군주의 날개",
+    "description": "Wings of the one that rules over flame",
+    "type": "[Wings]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Wings of Phoenix": 1
+      },
+      {
+        "Dragonic Orb": 1
+      },
+      {
+        "Heart of Volcano": 1
+      },
+      {
+        "Nephthys, the Engraved Ring": 1
+      },
+      {
+        "Aegis of Flame": 1
+      },
+      {
+        "Fragment of Chaos": 1
+      },
+      {
+        "Mark of Lord": 1
+      }
+    ],
+    "stats": {
+      "damage": 13000,
+      "strength": 950,
+      "agility": 950,
+      "dtpercent": -0.1,
+      "hpregen": 750,
+      "active": [
+        "On use, activates Flame Descent",
+        "Deals (ATK DMG X 15 + main stat X 125) magic damage to enemies in targeted area",
+        "Stuns for 1.5 seconds",
+        "Max dash distance of 1500",
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Phoenix",
@@ -18312,30 +18814,6 @@
     "color": "FFFFFF",
     "notes": [
       "General Recipe: Wing + Wing Frame"
-    ],
-    "required_by": [
-      "Fairy Wing Frame",
-      "Frost Fairy Wing Frame",
-      "Dragon Wing Frame",
-      "Corrupt Crystal Wing Frame",
-      "Frozen Heart Frame",
-      "Cape of Corrupt Flame Frame",
-      "Pure Crystal Wing Frame",
-      "Cape of the Count Frame",
-      "Wings of Fury Frame",
-      "Shroud of Perseverance Frame",
-      "Embrace of Nature Frame",
-      "Wanderer's Cloak Frame",
-      "Soul Eater Frame",
-      "Soul of the Dead Frame",
-      "Cloak of the Fallen Shadows Frame",
-      "Grim Heart Frame",
-      "Wings of Nature Frame",
-      "Guardian of the Skies Frame",
-      "Wings of Slayer Frame",
-      "Wings of Phoenix Frame",
-      "Bat Wing Frame",
-      "Protection of the Fairies Frame"
     ],
     "koreanname": "날개 틀"
   },

@@ -200,6 +200,7 @@
             "Cosmic Star - Cosmic Star",
             "Water Cannon - Purging Water",
             "Hydro Buster - Purging Water",
+            "Rainmaker - Purging Water",
             "Devil Chaser - Evil Chaser",
             "Dante's Inferno - Abandon All Hope"
         ]
@@ -409,6 +410,7 @@
         "spec": [
             "Wanderer's Cape - Wanderer",
             "Wings of Phoenix - Phoenix",
+            "Wings of Flame Lord - Phoenix",
             "Guardian Vest - Improved Nameless Arts",
             "Grandine, the Plates of Wraith - Wraith Possession",
             "Athanasia, the Armor of the Reaper - Reaper Possession",
@@ -562,6 +564,7 @@
             "Bag of Corruption - Very Heavy Bag",
             "Bag of Destruction - Very Heavy Bag",
             "Bag of Explosion - Dangerous Bag",
+            "Bag of Despair - Dangerous Bag",
             "Fruit-filled Bag - Light Bag",
             "Candy-filled Bag - Light Bag",
             "Candy-filled Bag +1 - Light Bag",
