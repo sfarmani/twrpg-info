@@ -7751,7 +7751,7 @@
       "healreceivedpercent": -0.25,
       "passive": [
         "On attack inflicts Greed",
-        "When in combat for 5 seconds, increases ATK DMG and ATK SPD output by 1%",
+        "When in combat for 5 seconds, increases ATK SPD and DMG output by 1%",
         "Also increases damage taken by 2%",
         "Can be stacked up to 25 times",
         "Cooldown: 1 second"
