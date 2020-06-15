@@ -7497,7 +7497,7 @@
       "skilldamagepercent": 0.075,
       "mdpercent": 0.075,
       "passive": [
-        "Creates Water Barrier that absorbs up to 10000 damage and provies 1% HP and MP regen every 8 seconds"
+        "Creates Water Barrier that absorbs up to 10000 damage and provides 1% HP and MP regen every 8 seconds"
       ]
     },
     "koreanname": "영원의 잔"
@@ -12819,11 +12819,6 @@
         "15% Chance to activate Hellflame on attack that burns the target",
         "Deals (AGI X 15) magic damage per second for 10 seconds",
         "Increase magic damage taken of target by 2% for 5 seconds"
-      ],
-      "spec": [
-        "Specialty - Improved Explosion",
-        "Sniper - Explosive Shot: Recharge period reduced by 2 seconds",
-        "Sniper - Demolition: Damage increased by 12%"
       ]
     }
   },
