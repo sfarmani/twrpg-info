@@ -1056,7 +1056,7 @@
         "color": "b22222",
         "hotkey": "[F]",
         "icon": "FireMageF",
-        "order": 1,
+        "order": 7,
         "active": [
             "\"Imagine a huge rock falling through the atmosphere onto the ground. Don't worry, the Earth won't be destroyed. It's not that big, and only you will be engulfed in the explosion..  \" - Mage",
             "INT X 400 damage",
