@@ -15542,12 +15542,6 @@
       },
       {
         "Uncle Van's Fruit": 3
-      },
-      {
-        "Uncle Van's Pumpkin": 3
-      },
-      {
-        "Uncle Van's Carrot": 3
       }
     ],
     "required_by": [
@@ -15557,7 +15551,12 @@
       "allstat": 550,
       "hp": 4250,
       "active": [
-        "Spawn multiple fruit-flavored candies nearby (same as previous candy bag but with better buffs)"
+        "On use, throws out 5 random candies which rapidly heal the user over 4 seconds",
+        "Grape Flavored Candy: Increases INT by (LVL / 2 + 50)",
+        "Blueberry Flavored Candy: Increases AGI by (LVL / 2 + 50)",
+        "Apple Flavored Candy: Increases STR by (LVL / 2 + 50)",
+        "Duration: 15 minutes, cooldown: 120 seconds",
+        "Cooldown of pouch: 180 seconds, cannot be dropped during cooldown"
       ]
     }
   },
