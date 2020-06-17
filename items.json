@@ -16498,7 +16498,7 @@
       "passive": [
         "12.5% Chance to activate Frenzy on attack",
         "Next 5 hits will deal an additional 100% ATK DMG",
-        "Also gain 25000 ATK DMG, 1500 main stat and HP regen for 7.5 seconds",
+        "Also gain 25000 ATK DMG, 1250 main stat and HP regen for 7.5 seconds",
         "Frenzy cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
