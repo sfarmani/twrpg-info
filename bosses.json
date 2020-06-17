@@ -4,6 +4,7 @@
         "name": "Yeti",
         "limit": "None",
         "timer": "30s",
+        "category": "Minor",
         "location": "Southern part of Frosty Snowfield two reside below The Magician's Tower",
         "conditions": "Level 120",
         "drops": [
@@ -16,6 +17,7 @@
         "name": "Silverback Wolf",
         "limit": "1",
         "timer": "50s",
+        "category": "Minor",
         "location": "Far East side of Alfon Forest",
         "conditions": "Level 1",
         "drops": [
@@ -28,6 +30,7 @@
         "name": "Kobold Leader",
         "limit": "1",
         "timer": "60s",
+        "category": "Minor",
         "location": "In the Northeast side of Kobolt Camp",
         "conditions": "Level 10",
         "drops": [
@@ -39,6 +42,7 @@
         "name": "Kobold Creeps",
         "limit": "1",
         "timer": "10s ~ 15s",
+        "category": "Minor",
         "location": "In Kobolt Camp",
         "conditions": "Level 10",
         "drops": [
@@ -51,6 +55,7 @@
         "name": "Dragon Turtle",
         "limit": "3",
         "timer": "120s",
+        "category": "Minor",
         "location": "Far South of Capital Prius in Murlocs area",
         "conditions": "Level 80",
         "drops": [
@@ -62,6 +67,7 @@
         "name": "Polar Bear Giant",
         "limit": "3",
         "timer": "90s",
+        "category": "Minor",
         "location": "Mid-South of Frosty Snowfield area",
         "conditions": "Level 120",
         "drops": [
@@ -73,6 +79,7 @@
         "name": "Scarab",
         "limit": "1",
         "timer": "300s",
+        "category": "Minor",
         "location": "In the Abandoned Graveyard",
         "conditions": "Level 270",
         "drops": [
@@ -84,6 +91,7 @@
         "name": "Wallachia Wraith",
         "limit": "1",
         "timer": "450s",
+        "category": "Minor",
         "location": "In the Abandoned Graveyard",
         "conditions": "Level 270",
         "drops": [
@@ -95,6 +103,7 @@
         "id": "o003",
         "name": "Protector of Nature",
         "limit": "3",
+        "category": "Minor",
         "summon": "In Kalidi Forest where Giant Furblog spawns",
         "conditions": "Level 25 and 2 Nature Powder",
         "drops": [
@@ -114,6 +123,7 @@
         "id": "orai",
         "name": "King Crab",
         "limit": "2",
+        "category": "Minor",
         "summon": "South of Captial Prius in murloc area",
         "conditions": "Level 60 and usage of Mystical Horn",
         "drops": [
@@ -127,6 +137,7 @@
         "id": "o004",
         "name": "Walrus",
         "limit": "2",
+        "category": "Minor",
         "summon": "South of Captial Prius in murloc area",
         "conditions": "Level 80 and usage of Mystical Horn",
         "drops": [
@@ -141,6 +152,7 @@
         "id": "oshm",
         "name": "Mammoth",
         "limit": "2",
+        "category": "Minor",
         "summon": "In Frosty Snowfield",
         "conditions": "Level 120 and usage of Frozen Crystal",
         "drops": [
@@ -154,6 +166,7 @@
         "id": "o005",
         "name": "King Kong",
         "limit": "2",
+        "category": "Minor",
         "summon": "In Frosty Snowfield",
         "conditions": "Level 120 and usage of Frozen Crystal",
         "drops": [
@@ -167,6 +180,7 @@
         "id": "n02L",
         "name": "Blood Wraith",
         "limit": "2",
+        "category": "Minor",
         "summon": "In Duchy of Wallachia",
         "conditions": "Level 160 and usage of Mask of Blood",
         "drops": [
@@ -182,6 +196,7 @@
         "id": "n03Y",
         "name": "Wallachia Monstrosity",
         "limit": "2",
+        "category": "Minor",
         "summon": "In Duchy of Wallachia",
         "conditions": "Level 160 and usage of Mask of Blood",
         "drops": [
@@ -197,6 +212,7 @@
         "id": "n02Z",
         "name": "Evil Lava Spawn",
         "limit": "2",
+        "category": "Minor",
         "summon": "In Volcanic Lands",
         "conditions": "Level 200 and usage of Nightmare Rod",
         "drops": [
@@ -212,6 +228,7 @@
         "name": "Death Knight",
         "limit": "5",
         "timer": "180s",
+        "category": "Minor",
         "location": "In Duchy of Wallachia",
         "conditions": "Level 160",
         "drops": [
@@ -235,6 +252,7 @@
         "name": "Ruler of Flames Ragnaar",
         "limit": "5",
         "timer": "180s",
+        "category": "Minor",
         "location": "In Volcanic Lands",
         "conditions": "Level 200",
         "drops": [
@@ -259,6 +277,7 @@
         "name": "Tentacle Lord",
         "limit": "5",
         "timer": "180s",
+        "category": "Minor",
         "location": "In the Deep Sea",
         "conditions": "Level 240",
         "drops": [
@@ -279,6 +298,7 @@
         "name": "Giant Golem",
         "limit": "8",
         "timer": "180s",
+        "category": "Minor",
         "location": "In the Mine Cave",
         "conditions": "Level 280",
         "drops": [
@@ -298,6 +318,7 @@
         "id": "n022",
         "name": "Ruler of the Lav Sea Hydra",
         "limit": "None",
+        "category": "Minor",
         "summon": "South of Capital Prius at wrecked ship in murloc area",
         "conditions": "Level 80 and 2x White Powders",
         "drops": [
@@ -322,6 +343,7 @@
         "name": "Count Wallachia",
         "limit": "None",
         "manacost": "1",
+        "category": "Minor",
         "summon": "East area of Duchy of Wallachi at wrecked church near Death Knight",
         "conditions": "Level 160 and 2x Green Powders",
         "drops": [
@@ -345,6 +367,7 @@
         "name": "Jack-o-Lantern",
         "limit": "None",
         "manacost": "1",
+        "category": "Minor",
         "summon": "East area of Capital Prius at Fountain",
         "conditions": "Level 80 and 2x White Powders",
         "drops": [
@@ -360,6 +383,7 @@
         "id": "ore1",
         "name": "Magical Ore Deposit (Jack-o-Lantern)",
         "limit": "2",
+        "category": "Minor",
         "location": "Dropped by Jack-o-Lantern with a 7.5% chance",
         "conditions": "Defeat Jack-o-Lantern",
         "drops": [
@@ -372,6 +396,7 @@
         "name": "Wings of Death",
         "limit": "None",
         "manacost": "1",
+        "category": "Minor",
         "summon": "In Volcanic Lands in the Volcano where Ragnaar spawns",
         "conditions": "Level 200 and 2x Green Powders",
         "drops": [
@@ -393,6 +418,7 @@
         "name": "Mage Lord",
         "limit": "None",
         "manacost": "1",
+        "category": "Minor",
         "summon": "South area of Frosty Snowfield between two snowmen near Yetis'",
         "conditions": "Level 120 and 2x Blue Powders",
         "drops": [
@@ -409,6 +435,7 @@
         "id": "I06F",
         "name": "Sealed Weapon",
         "limit": "1",
+        "category": "Minor",
         "location": "Dropped by Mage Lord with a 6% chance",
         "conditions": "On use, can select which weapon to un-seal",
         "notes": [
@@ -426,6 +453,7 @@
         "id": "ore2",
         "name": "Magical Ore Deposit (Mage Lord)",
         "limit": "2",
+        "category": "Minor",
         "location": "Dropped by Mage Lord with a 7.5% chance",
         "conditions": "Defeat Mage Lord",
         "drops": [
@@ -438,6 +466,7 @@
         "name": "Guardian Spirit, Avalon's Gatekeeper",
         "limit": "None",
         "manacost": "1",
+        "category": "Minor",
         "location": "Before the entrance of Guardian Angels",
         "conditions": "Level 200 and Angels summoned",
         "drops": [
@@ -451,6 +480,7 @@
         "name": "Guardian Angel",
         "limit": "None",
         "manacost": "1",
+        "category": "Minor",
         "summon": "In mining cave located in the west part of Mining Town",
         "conditions": "Level 200 and 1x Holy Powders",
         "drops": [
@@ -470,6 +500,7 @@
         "name": "Corrupt Angel",
         "limit": "None",
         "manacost": "1",
+        "category": "Minor",
         "location": "In Frosty Snowfield summoned after 2 minute of summoning Guardian Angel",
         "conditions": "Level 200 and Angels summoned",
         "drops": [
@@ -488,6 +519,7 @@
         "name": "Lord of Everfrost",
         "limit": "None",
         "manacost": "1",
+        "category": "Minor",
         "location": "Summoned during waves of Frostspider Lord",
         "conditions": "Level 300 and Frostspider Lord summoned",
         "drops": [
@@ -504,6 +536,7 @@
         "name": "Spider Queen Ilshenar",
         "limit": "None",
         "manacost": "1",
+        "category": "Minor",
         "location": "Summoned during waves of Frostspider Lord",
         "conditions": "Level 300 and Frostspider Lord summoned",
         "drops": [
@@ -520,6 +553,7 @@
         "name": "Frostspider Lord",
         "limit": "None",
         "manacost": "2",
+        "category": "Minor",
         "summon": "In Frost Cave where 3 Pruis Magicians are gathered",
         "conditions": "Level 300 and 6x Blue Powders",
         "drops": [
@@ -537,6 +571,7 @@
         "id": "ore3",
         "name": "Magical Ore Deposit (Frostspider Lord)",
         "limit": "2",
+        "category": "Minor",
         "location": "Dropped by Frostspider Lord",
         "conditions": "Defeat Frostspider Lord",
         "drops": [
@@ -549,6 +584,7 @@
         "name": "Demon Lord Beriel",
         "limit": "None",
         "manacost": "2",
+        "category": "Minor",
         "summon": "In Duchy of Wallachia in a pile of skulls South of where Death Knight spawns",
         "conditions": "Level 160, 6x Red Powders, and Waves defeated without killing the gate or letting the monsters kill the King in top-left side of Capital Prius",
         "drops": [
@@ -566,6 +602,7 @@
         "id": "n03C",
         "name": "Remnants of Darkness",
         "limit": "1",
+        "category": "Minor",
         "location": "Dropped by Demon Lord Beriel",
         "conditions": "Defeat Demon Lord Beriel, will be left behind after each defeat",
         "drops": [
@@ -578,6 +615,7 @@
         "name": "Mana Ancient",
         "limit": "2",
         "timer": "180s",
+        "category": "Minor",
         "location": "In Fairy Forest",
         "conditions": "Level 350",
         "drops": [
@@ -595,6 +633,7 @@
         "name": "Spirit Beast",
         "limit": "4",
         "manacost": "2",
+        "category": "Minor",
         "location": "In Fairy Forest - Deep Forest",
         "conditions": "Level 350",
         "notes": [
@@ -616,6 +655,7 @@
         "name": "Mad Clown",
         "limit": "2",
         "manacost": "1",
+        "category": "Minor",
         "location": "In the Abandoned Graveyard",
         "conditions": "Level 270",
         "drops": [
@@ -632,6 +672,7 @@
         "name": "Corruptor Rectus",
         "limit": "3",
         "manacost": "2",
+        "category": "Minor",
         "location": "In Fairy Forest - Plagued Tower",
         "conditions": "Level 350",
         "drops": [
@@ -653,6 +694,7 @@
         "name": "Flame Nightmare",
         "limit": "3",
         "manacost": "2",
+        "category": "Minor",
         "summon": "In Volcanic Lands",
         "conditions": "Level 200 and usage of Nightmare Rod with 8x Red Powder",
         "drops": [
@@ -672,6 +714,7 @@
         "name": "Turtle Lord",
         "limit": "3",
         "manacost": "2",
+        "category": "Minor",
         "summon": "In Deep Sea in the far East where light shines from above",
         "conditions": "Level 240 and usage of Orb of the Deep Sea with 4x Blue Powder and 4x Green powder",
         "drops": [
@@ -692,6 +735,7 @@
         "name": "Ancient Ent",
         "limit": "None",
         "manacost": "4",
+        "category": "Mid",
         "location": "In Fairy Forest above Deep Forest entrance, where a statue resides",
         "conditions": "Level 370, 1 Green Powder on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
         "notes": [
@@ -711,6 +755,7 @@
         "id": "n03W",
         "name": "Elder Ent",
         "limit": "2",
+        "category": "Mid",
         "location": "Spawned by Ancient Ent",
         "conditions": "Level 370",
         "notes": [
@@ -730,6 +775,7 @@
         "id": "n03X",
         "name": "Giant Ent",
         "limit": "2",
+        "category": "Mid",
         "location": "Spawned by Ancient Ent",
         "conditions": "Level 370",
         "notes": [
@@ -749,6 +795,7 @@
         "name": "Skeleton King Desperia",
         "limit": "None",
         "manacost": "4",
+        "category": "Mid",
         "location": "In Prius Forward camp, the cave to the North",
         "conditions": "Level 400",
         "drops": [
@@ -769,6 +816,7 @@
         "name": "Bone Dragon",
         "limit": "5",
         "manacost": "4",
+        "category": "Mid",
         "location": "To the Southeast inside of Dragon Nest",
         "conditions": "Level 380",
         "drops": [
@@ -785,6 +833,7 @@
         "name": "Archangel Samael",
         "limit": "None",
         "manacost": "4",
+        "category": "High",
         "summon": "In Castle Avalon, fighting area of Guardian Angels",
         "conditions": "Level 200, Guardian Angels defeated, and 3x Holy Powders",
         "drops": [
@@ -801,6 +850,7 @@
         "name": "Zombie Lord",
         "limit": "None",
         "manacost": "4",
+        "category": "High",
         "location": "In Prius Forward camp, the cave to the East",
         "conditions": "Level 410",
         "drops": [
@@ -818,6 +868,7 @@
         "name": "Shadow Dragon Irbert",
         "limit": "None",
         "manacost": "6",
+        "category": "High",
         "location": "In Deep Snowfield",
         "conditions": "Level 420 and 12x Blue Powder given to Elder Paracelsus",
         "drops": [
@@ -838,6 +889,7 @@
         "name": "Death Fiend",
         "limit": "1 for Death Fiend himself (token only), 4 for the Treasures of Death",
         "manacost": "6",
+        "category": "Endgame",
         "summon": "In Abandoned Graveyard, at spawn of Mad Clown",
         "conditions": "Level 270 and 20x Red Powder",
         "notes": [
@@ -858,6 +910,7 @@
         "id": "n043",
         "name": "Elemental of Chaos",
         "limit": "1",
+        "category": "Endgame",
         "location": "Spawns near the exit of the Secluded Forest",
         "conditions": "Level 420. Spawns begin a little bit after the first person to enter the area.",
         "drops": [
@@ -869,6 +922,7 @@
         "name": "Valtora",
         "limit": "None",
         "manacost": "6",
+        "category": "Endgame",
         "summon": "The Left-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 420 and Key of Storm crafted",
         "drops": [
@@ -883,6 +937,7 @@
         "name": "Ifrit",
         "limit": "None",
         "manacost": "6",
+        "category": "Endgame",
         "summon": "The Right-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 420 and Key of Flame crafted",
         "drops": [
@@ -897,6 +952,7 @@
         "name": "Nereid",
         "limit": "None",
         "manacost": "6",
+        "category": "Endgame",
         "summon": "The Top-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 420 and Key of Sea crafted",
         "drops": [
@@ -911,6 +967,7 @@
         "name": "Underlord Agareth",
         "limit": "None",
         "manacost": "8",
+        "category": "Endgame",
         "summon": "Destroy the demonic portal during the Hell Invasion",
         "conditions": "Level 420, Demon Lord summoned, and Demonic portal destroyed",
         "drops": [
