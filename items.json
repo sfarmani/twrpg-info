@@ -13944,7 +13944,7 @@
         "Consume 1 stack on attack to do (main stat X 1.5) pure damage on attack"
       ],
       "active": [
-        "Block magic every 1 minute and 30 seconds"
+        "Block magic every 1 minute seconds"
       ]
     }
   },
