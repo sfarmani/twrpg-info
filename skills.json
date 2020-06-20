@@ -4097,9 +4097,9 @@
         "order": 2,
         "passive": [
             "An aspect of crusader who calls down retribution on his foes.",
-            "Increase nearby allies' attack damage by 12%",
+            "Increase nearby allies' attack damage by 10%",
             "Judgment - Deals pure damage",
-            "Sigil - Increases skill damage by 10% for 20 seconds"
+            "Sigil - Increases skill damage by 12% for 20 seconds"
         ]
     },
     {
@@ -4173,7 +4173,7 @@
         "active": [
             "Merges with the holy spirit to move at the speed of light.",
             "STR X 30 magic damage",
-            "Deals 150% bonus damage to enemies afflicted with Mark of Light",
+            "Deals 50% bonus damage to enemies afflicted with Mark of Light",
             "Activates Judgment on next attack",
             "Provides Sigil to a single ally"
         ]
