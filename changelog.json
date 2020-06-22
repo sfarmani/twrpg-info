@@ -1,5 +1,60 @@
 [
     {
+        "name": "36g",
+        "notes": [
+            "Released on: June 20th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Rainmaker - Fixed a bunch of bugs",
+            "Chaos - Fixed not being able to cancel with ESC",
+            "Wings of Flame Lord - Fixed Martial Artist spec not working",
+            "Latea, the Ring of Chaos / Latea, the Ring of Overlord - Fixed passive not being able to proc on 0 damage instances",
+            "Underlord Agareth - Fixed heroes becoming vulnerable during maze if any form of transformation wears off while inside maze",
+            "Zombie Lord - Fixed pause effects not cancelling insta-kill spell",
+            "Alchemist - Fixed Conjure Fire (Q) - Boulder Strike (R) not dealing bonus damage to CC immune targets"
+        ],
+        "items": [
+            {
+                "name": "Athanasia, the Armor of the Reaper",
+                "changes": [
+                    "Passive - Prevent HP from dropping below 1 → Provides 100% damage resistance for duration"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Frostspider Lord",
+                "changes": [
+                    "Until spider waves are cleared out Frozen cave is now fully open and damage aura is disabled"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Arcane Mage",
+                "changes": [
+                    "Gravity Field (E)",
+                    [
+                        "Pulls targets towards center → towards 200 radius within center",
+                        "Radius of pull: 400 → 500"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Areas",
+            [
+                "Duchy of Wallachia",
+                [
+                    "Removed level requirement for castle shortcut"
+                ]
+            ],
+            "Rolled back visual effects on Samael's Wheel",
+            "Boss's HP now resets if difficulty scaling is changed"
+        ]
+    },
+    {
         "name": "36f",
         "notes": [
             "Released on: June 12th, 2020",
