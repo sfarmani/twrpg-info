@@ -7424,7 +7424,8 @@
       "mainstat": 1300,
       "skilldamagepercent": 0.1,
       "passive": [
-        "Gain one stack after 5 seconds of attacking, for a max of 5 stacks and 25 seconds of attacking"
+        "Gain one stack after 5 seconds of attacking, for a max of 5 stacks and 25 seconds of attacking",
+        "Stacks last for 15 seconds while in combat"
       ],
       "active": [
         "On use, activates Grand Explosion causing the user to explode and die after 1 second of delay.",
