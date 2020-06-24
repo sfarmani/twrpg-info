@@ -1,5 +1,27 @@
 [
     {
+        "name": "36h",
+        "notes": [
+            "Released on: June 24th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "heroes": [
+            {
+                "name": "Arcane Mage",
+                "changes": [
+                    "Gravity Field (E)",
+                    [
+                        "Now pulls enemies only on initial cast (no longer traps enemies for duration)"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Duration of 'in combat' status: 10 seconds → 15 seconds",
+            "Volcanic lands - removed some terrian around Ragnaar"
+        ]
+    },
+    {
         "name": "36g",
         "notes": [
             "Released on: June 20th, 2020",
