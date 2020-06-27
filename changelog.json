@@ -1,5 +1,51 @@
 [
     {
+        "name": "36k",
+        "notes": [
+            "Released on: June 26th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Athanasia, the Armor of the Reaper - Fixed the passive not being activated",
+            "Wings of Frost Lord - Fixed water affinity not working"
+        ],
+        "items": [
+            {
+                "name": "Hydro Buster / Rainmaker",
+                "changes": [
+                    "Shooter spec: Water Bullet",
+                    [
+                        "No longer bounces to bags or probes"
+                    ]
+                ]
+            },
+            {
+                "name": "Athanasia, the Armor of the Reaper",
+                "changes": [
+                    "Passive - Ignore damage taken → HP does not drop below 1 (rollback)"
+                ]
+            },
+            {
+                "name": "Cursed Mask",
+                "changes": [
+                    "Now summonable on Wallachia Graveyard"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Enchanced Fear cycle",
+                    [
+                        "Before: 3 casts → empowered cast → 3 casts → empowered cast",
+                        "After: 2 casts → empowered cast → 3 casts → empowered cast"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "36h",
         "notes": [
             "Released on: June 24th, 2020",
