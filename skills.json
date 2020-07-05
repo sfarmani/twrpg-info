@@ -1774,9 +1774,9 @@
         "order": 16,
         "passive": [
             "Charges lightning from each attack to become empowered.",
-            "Restores 2 MP on every attack",
-            "Each point of MP increases skill damage by 1% and attack speed by 0.5%",
-            "If MP is above 50, decrease's target's magic defense by 8% for 2 seconds"
+            "Restores 3 MP on every attack",
+            "Every 2 points of MP increases skill damage by 1% and attack speed by 1%",
+            "If MP is above 50, increases target's magic damage taken by 8% for 2 seconds"
         ]
     },
     {
