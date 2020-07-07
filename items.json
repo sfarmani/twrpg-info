@@ -1826,6 +1826,7 @@
       "Requiem, the Armor of Lamentation",
       "Diana, the Robe of Holy Maiden",
       "Pure Crystal Wings",
+      "Mask of Demigod",
       "Ancient Ent Icon"
     ],
     "worth": 2,
@@ -6080,6 +6081,7 @@
       "Soul of the Dead",
       "Bag of Mother Nature",
       "Grimoire of Darkness",
+      "Eye of the Reaper",
       "Skeleton King Icon"
     ],
     "recipe": [
@@ -6489,6 +6491,7 @@
       "Protection of the Fairies",
       "Bag of Mother Nature",
       "Wings of Blood Lord",
+      "Harmony of Sky and Earth",
       "Ancient Ent Icon"
     ],
     "stats": {
@@ -6580,6 +6583,7 @@
       "Soul Eater",
       "Bag of Destruction",
       "Horn of God",
+      "Mask of Demigod",
       "Ancient Ent Icon"
     ],
     "recipe": [
@@ -6852,6 +6856,7 @@
       "Robe of Archlich",
       "Cosmic Reaper",
       "Rainmaker",
+      "Bag of Demise",
       "Shadow Dragon Icon"
     ],
     "recipe": [
@@ -6899,6 +6904,9 @@
       "Ruler of the Skies",
       "Hood of Apocalypse",
       "Wings of Frost Lord",
+      "Power of Beriel",
+      "Calamity",
+      "Wings of Night Lord",
       "Shadow Dragon Icon"
     ],
     "recipe": [
@@ -7034,6 +7042,7 @@
       "Chaos",
       "Espishu, the Sword of Chaos",
       "Radiance of the One",
+      "Eternal Winter",
       "Archangel Icon"
     ],
     "recipe": [
@@ -7118,6 +7127,9 @@
     "color": "DC143C",
     "level": 380,
     "droprate": 0.002,
+    "required_by": [
+      "Calamity"
+    ],
     "stats": {
       "damage": 33000,
       "mainstat": 2710,
@@ -7144,7 +7156,8 @@
     "required_by": [
       "Hades, the Armor of Despair",
       "Athanasia, the Armor of the Reaper",
-      "Felspike Armor"
+      "Felspike Armor",
+      "Nevedium, the Armor of Demonblood"
     ],
     "stats": {
       "armor": 740,
@@ -7173,7 +7186,9 @@
     "required_by": [
       "Cosmic Star",
       "Bag of Despair",
-      "Hood of Apocalypse"
+      "Hood of Apocalypse",
+      "Eye of the Reaper",
+      "Crown of Extreme Anger"
     ],
     "stats": {
       "armor": 560,
@@ -7201,7 +7216,9 @@
     "required_by": [
       "Latea, the Ring of Overlord",
       "Ring of Insanity",
-      "Eternal Flame"
+      "Eternal Flame",
+      "Power of Beriel",
+      "Bag of Demise"
     ],
     "stats": {
       "mainstat": 420,
@@ -7230,7 +7247,11 @@
       "Cosmic Reaper",
       "Soul of Abyss",
       "Chaos",
-      "Espishu, the Sword of Chaos"
+      "Espishu, the Sword of Chaos",
+      "Eternal Winter",
+      "Soulbane",
+      "Last Word",
+      "Bag of Demise"
     ],
     "koreanname": "죽음의 창두"
   },
@@ -7253,7 +7274,8 @@
       "Chaos",
       "Espishu, the Sword of Chaos",
       "Wings of Flame Lord",
-      "Wings of Frost Lord"
+      "Wings of Frost Lord",
+      "Wings of Night Lord"
     ],
     "koreanname": "혼돈이 깃든 파편"
   },
@@ -7306,7 +7328,8 @@
       "Ruler of the Skies",
       "Chaos",
       "Espishu, the Sword of Chaos",
-      "Bag of Despair"
+      "Bag of Despair",
+      "Eternal Winter"
     ],
     "stats": {
       "mainstat": 1200,
@@ -7340,7 +7363,10 @@
       "Brave Heart",
       "Ring of Insanity",
       "Athanasia, the Armor of the Reaper",
-      "Radiance of the One"
+      "Radiance of the One",
+      "Harmony of Sky and Earth",
+      "Wings of Night Lord",
+      "Mask of Demigod"
     ],
     "koreanname": "폭풍의 가호"
   },
@@ -7359,7 +7385,11 @@
       "Horn of Lightning God",
       "Horn of God",
       "Ring of Fate",
-      "Cosmic Reaper"
+      "Cosmic Reaper",
+      "Calamity",
+      "Soulbane",
+      "Bag of Demise",
+      "Eye of the Reaper"
     ],
     "koreanname": "폭풍의 결정"
   },
@@ -7397,7 +7427,13 @@
       "Espishu, the Sword of Chaos",
       "Bag of Despair",
       "Radiance of the One",
-      "Crown of Absolute Zero"
+      "Crown of Absolute Zero",
+      "Eternal Winter",
+      "Soulbane",
+      "Last Word",
+      "Crown of Extreme Anger",
+      "Harmony of Sky and Earth",
+      "Nevedium, the Armor of Demonblood"
     ],
     "koreanname": "빛나는 유적의 조각"
   },
@@ -7418,7 +7454,8 @@
       "Felspike Armor",
       "Eternal Flame",
       "Bag of Despair",
-      "Wings of Flame Lord"
+      "Wings of Flame Lord",
+      "Crown of Extreme Anger"
     ],
     "stats": {
       "mainstat": 1300,
@@ -7450,7 +7487,10 @@
       "Archangel Wings",
       "Brave Heart",
       "Ring of Insanity",
-      "Wings of Flame Lord"
+      "Wings of Flame Lord",
+      "Harmony of Sky and Earth",
+      "Nevedium, the Armor of Demonblood",
+      "Mask of Demigod"
     ],
     "koreanname": "화염의 가호"
   },
@@ -7472,7 +7512,12 @@
       "Ring of Fate",
       "Bag of Universe",
       "Soul of Abyss",
-      "Cosmic Reaper"
+      "Cosmic Reaper",
+      "Eternal Winter",
+      "Power of Beriel",
+      "Calamity",
+      "Soulbane",
+      "Last Word"
     ],
     "koreanname": "화염의 결정"
   },
@@ -7517,7 +7562,12 @@
       "Brave Heart",
       "Athanasia, the Armor of the Reaper",
       "Felspike Armor",
-      "Wings of Frost Lord"
+      "Wings of Frost Lord",
+      "Eye of the Reaper",
+      "Harmony of Sky and Earth",
+      "Nevedium, the Armor of Demonblood",
+      "Wings of Night Lord",
+      "Mask of Demigod"
     ],
     "koreanname": "바다의 가호"
   },
@@ -7538,7 +7588,11 @@
       "Ring of Despair",
       "Ring of Insanity",
       "Ruler of the Skies",
-      "Crown of Absolute Zero"
+      "Crown of Absolute Zero",
+      "Power of Beriel",
+      "Calamity",
+      "Last Word",
+      "Bag of Demise"
     ],
     "koreanname": "바다의 결정"
   },
@@ -7649,7 +7703,8 @@
       "Fiend Chaser",
       "Punisher",
       "Bag of Explosion",
-      "Radiance of the One"
+      "Radiance of the One",
+      "Crown of Extreme Anger"
     ],
     "koreanname": "용의 눈"
   },
@@ -7743,7 +7798,8 @@
     "level": 400,
     "droprate": 0.005,
     "required_by": [
-      "Bag of Despair"
+      "Bag of Despair",
+      "Nevedium, the Armor of Demonblood"
     ],
     "stats": {
       "mainstat": 1350,
@@ -7770,7 +7826,11 @@
       "Ring of Hope",
       "Ring of Despair",
       "Chaos",
-      "Espishu, the Sword of Chaos"
+      "Espishu, the Sword of Chaos",
+      "Eternal Winter",
+      "Soulbane",
+      "Last Word",
+      "Harmony of Sky and Earth"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
@@ -7784,7 +7844,12 @@
       "Underlord Agareth"
     ],
     "required_by": [
-      "Hood of Apocalypse"
+      "Hood of Apocalypse",
+      "Power of Beriel",
+      "Calamity",
+      "Eye of the Reaper",
+      "Crown of Extreme Anger",
+      "Bag of Demise"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
@@ -7801,7 +7866,10 @@
       "Radiance of the One",
       "Crown of Absolute Zero",
       "Wings of Flame Lord",
-      "Wings of Frost Lord"
+      "Wings of Frost Lord",
+      "Nevedium, the Armor of Demonblood",
+      "Wings of Night Lord",
+      "Mask of Demigod"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
@@ -8497,6 +8565,9 @@
     "type": "[Bag]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Bag of Demise"
+    ],
     "recipe": [
       {
         "Bag of Corruption": 1
@@ -8523,6 +8594,56 @@
         "Merchant Specialty - Very Heavy Bag",
         "Merchant - Bag Slam: damage is increased by 400%, and it increases target's damage taken by 8% for 6 seconds",
         "Merchant - Throwing Healing Potion: Increases target's skill damage by 8%",
+        "Merchant - Throw Money: Each coin stuns for 0.5 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I0NR",
+    "name": "Bag of Demise",
+    "koreanname": "종말의 배낭",
+    "description": "...................................................",
+    "type": "[Bag]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Bag of Destruction": 1
+      },
+      {
+        "Ring of Destruction": 1
+      },
+      {
+        "Spearhead of Death": 1
+      },
+      {
+        "Fragment of Hell": 1
+      },
+      {
+        "Antimatter": 1
+      },
+      {
+        "Essence of Storm": 1
+      },
+      {
+        "Essence of Sea": 1
+      }
+    ],
+    "stats": {
+      "damage": 27000,
+      "strength": 2400,
+      "skilldamagepercent": 0.12,
+      "dtpercent": -0.24,
+      "active": [
+        "On use, throws Eitr",
+        "Increases target's damage output by 7.5% for 15 seconds",
+        "Eitr duration: 30 seconds",
+        "Cooldown: 15 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Merchant Specialty - Very Heavy Bag",
+        "Merchant - Bag Slam: damage is increased by 400%, and it increases target's damage taken by 10% for 6 seconds",
+        "Merchant - Throwing Healing Potion: Increases target's skill damage by 10%",
         "Merchant - Throw Money: Each coin stuns for 0.5 seconds"
       ]
     }
@@ -9951,9 +10072,6 @@
       },
       {
         "Count's Memento": 1
-      },
-      {
-        "Red Powder": 3
       }
     ],
     "required_by": [
@@ -10027,9 +10145,6 @@
       },
       {
         "Adamantium": 1
-      },
-      {
-        "Red Powder": 8
       }
     ],
     "required_by": [
@@ -10105,9 +10220,6 @@
       },
       {
         "Corrupt Creations": 1
-      },
-      {
-        "Red Powder": 5
       }
     ],
     "required_by": [
@@ -10185,9 +10297,6 @@
       },
       {
         "Mithril": 1
-      },
-      {
-        "Red Powder": 12
       }
     ],
     "required_by": [
@@ -10298,9 +10407,6 @@
       },
       {
         "Count's Memento": 1
-      },
-      {
-        "Holy Powder": 3
       }
     ],
     "required_by": [
@@ -10385,9 +10491,6 @@
       },
       {
         "Adamantium": 1
-      },
-      {
-        "Red Powder": 12
       }
     ],
     "required_by": [
@@ -10505,9 +10608,6 @@
       },
       {
         "Frorist": 1
-      },
-      {
-        "Blue Powder": 12
       }
     ],
     "required_by": [
@@ -10929,9 +11029,6 @@
       },
       {
         "Mark of Storm": 1
-      },
-      {
-        "Red Powder": 18
       }
     ],
     "stats": {
@@ -11094,9 +11191,6 @@
       },
       {
         "Dark Wings": 1
-      },
-      {
-        "Red Powder": 12
       }
     ],
     "required_by": [
@@ -11431,9 +11525,6 @@
       },
       {
         "Dark Wings": 1
-      },
-      {
-        "Red Powder": 7
       }
     ],
     "required_by": [
@@ -11466,6 +11557,9 @@
     "type": "[Bastard Sword]",
     "color": "DC143C",
     "level": 370,
+    "required_by": [
+      "Power of Beriel"
+    ],
     "recipe": [
       {
         "Claws of Destruction": 1
@@ -11494,6 +11588,53 @@
       "passive": [
         "((hit count X 12.5%) + 1)% Chance to activate Doomsday on attack dealing (((STR + AGI) X 65) + (ATK DMG X 10)) magic splash damage and stuns for 0.1 seconds",
         "Chance to activate increases if it fails to proc"
+      ]
+    }
+  },
+  {
+    "id": "tgxp",
+    "name": "Power of Beriel",
+    "koreanname": "베리엘의 힘",
+    "description": "You feel as if you've become one with the Demon Lord himself.",
+    "type": "[Bastard Sword]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Claws of Beriel": 1
+      },
+      {
+        "Maw of Greed": 1
+      },
+      {
+        "Ring of Destruction": 1
+      },
+      {
+        "Fragment of Hell": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Frozen Debris": 1
+      }
+    ],
+    "stats": {
+      "damage": 27000,
+      "strength": 1050,
+      "agility": 2250,
+      "critmultiplier": 0.35,
+      "passive": [
+        "(1 + 0.125 X attacks without activation)% Chance to activate Doomsday on attack",
+        "Deals (ATK DMG X 12.5 + (STR + AGI) X 75) magic damage"
+      ],
+      "active": [
+        "On use, activates Grasp of Demon Lord",
+        "Pulls in all enemies from 300 ~ 800 radius around you, deals (ATK DMG X 50) magic damage and stuns for 2 seconds",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -11711,6 +11852,9 @@
     "type": "[Gun]",
     "color": "DC143C",
     "level": 370,
+    "required_by": [
+      "Last Word"
+    ],
     "recipe": [
       {
         "Alchatratz, the Archdevil's Cannon": 1
@@ -11768,9 +11912,6 @@
       },
       {
         "Soul Stone": 1
-      },
-      {
-        "Red Powder": 10
       }
     ],
     "stats": {
@@ -11881,6 +12022,9 @@
     "type": "[Gun]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Last Word"
+    ],
     "recipe": [
       {
         "Dante's Inferno": 1
@@ -11910,6 +12054,53 @@
         "Specialties - Abandon All Hope",
         "Shooter - Casting Break Shot loads one Bullet of Punishment",
         "Gunner - Casting Outlaw loads one Bullet of Punishment"
+      ]
+    }
+  },
+  {
+    "id": "I0N6",
+    "name": "Last Word",
+    "koreanname": "라스트 워드",
+    "description": "Only your throes of death awaits.",
+    "type": "[Gun]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Punisher": 1
+      },
+      {
+        "Chronos, the Cannon of Time": 1
+      },
+      {
+        "Spearhead of Death": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Fragment of Soul": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "damage": 35000,
+      "agility": 2550,
+      "critmultiplier": 0.35,
+      "passive": [
+        "Charges a Bullet of Penance every 4 seconds",
+        "Empowers next attack to deal (ATK DMG X 8 + AGI X 50) bonus magic damage and stun target for 0.25 seconds",
+        "Up to 3 bullets can be loaded"
+      ],
+      "spec": [
+        "Specialties - Abandon All Hope",
+        "Shooter - Casting Break Shot loads one Bullet of Penance",
+        "Gunner - Casting Outlaw loads one Bullet of Penance"
       ]
     }
   },
@@ -11991,9 +12182,6 @@
       },
       {
         "Heart of Fire": 1
-      },
-      {
-        "Red Powder": 12
       }
     ],
     "stats": {
@@ -12205,6 +12393,9 @@
     "type": "[Bastard Sword]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Eternal Winter"
+    ],
     "recipe": [
       {
         "Winter's Tear": 1
@@ -12223,9 +12414,6 @@
       },
       {
         "Frozen Debris": 1
-      },
-      {
-        "Blue Powder": 10
       }
     ],
     "stats": {
@@ -12361,9 +12549,6 @@
       },
       {
         "Steel of God": 1
-      },
-      {
-        "Holy Powder": 5
       }
     ],
     "stats": {
@@ -12393,6 +12578,9 @@
     "type": "[Greatsword]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Calamity"
+    ],
     "recipe": [
       {
         "Deathbringer": 1
@@ -12430,6 +12618,60 @@
       "spec": [
         "Specialty - Darkened Light",
         "Paladin - Holy Divide deals 200% bonus damage."
+      ]
+    }
+  },
+  {
+    "id": "I0OC",
+    "name": "Calamity",
+    "koreanname": "캘러미티",
+    "description": "Calamity dwells within this sword",
+    "type": "[Greatsword]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Ruinbringer": 1
+      },
+      {
+        "The Ender": 1
+      },
+      {
+        "Fragment of Hell": 1
+      },
+      {
+        "Frozen Debris": 1
+      },
+      {
+        "Essence of Storm": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Essence of Sea": 1
+      }
+    ],
+    "stats": {
+      "damage": 27500,
+      "strength": 2300,
+      "intelligence": 1450,
+      "attackspeedpercent": -0.75,
+      "passive": [
+        "On skill cast, gains a stack and activate Ruin",
+        "Increases ATK DMG by 1500, STR and INT by 75 and skill damage by 1% for 5 seconds",
+        "Stacks up to 10 times"
+      ],
+      "active": [
+        "On use, activates Sword of Calamity",
+        "Deals (main stat X 250 + 10% max HP of target) magic damage to enemies in targetted area and silences for 3 seconds",
+        "Deals up to 100% more damage based on target's missing HP",
+        "Sets Ruin stacks to max for 15 seconds",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialty - Darkened Light",
+        "Paladin - Holy Divide deals 250% bonus damage."
       ]
     }
   },
@@ -12501,9 +12743,6 @@
       },
       {
         "Dark Crystal": 1
-      },
-      {
-        "Red Powder": 12
       }
     ],
     "required_by": [
@@ -12713,9 +12952,6 @@
       },
       {
         "Mad Symbol": 1
-      },
-      {
-        "Green Powder": 12
       }
     ],
     "required_by": [
@@ -12746,6 +12982,9 @@
     "type": "[Bow]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Soulbane"
+    ],
     "recipe": [
       {
         "Stalker": 1
@@ -12777,6 +13016,56 @@
       "spec": [
         "Specialty - Cursed Arrow",
         "Sniper - Increases Snipe's damage by 25%, and silences sniped target for 1.5 seconds."
+      ]
+    }
+  },
+  {
+    "id": "I0N4",
+    "name": "Soulbane",
+    "koreanname": "소울베인",
+    "description": "Bow for chasing souls",
+    "type": "[Bow]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Soulstalker": 1
+      },
+      {
+        "Everfrostbane": 1
+      },
+      {
+        "Spearhead of Death": 1
+      },
+      {
+        "Essence of Storm": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Fragment of Soul": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "damage": 32500,
+      "agility": 2350,
+      "skilldamagepercent": 0.12,
+      "passive": [
+        "10% Chance to activate Soul Reaping on attack to deal (AGI X 60) bonus damage"
+      ],
+      "active": [
+        "On use, activates Soul Bombardment",
+        "Shoots 4 arrows to target area, each dealing (AGI X 125) magic damage and stunning targets for 2.5 second",
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialties",
+        "Bow Master - Casting Freezing Shot consecutively adds (water affinity X (ATK DMG X 4 + AGI X 160)) bonus damage.",
+        "Sniper - Increases Snipe's damage by 30%, and silences sniped target for 1.5 seconds."
       ]
     }
   },
@@ -12875,6 +13164,9 @@
     "type": "[Bow]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Soulbane"
+    ],
     "recipe": [
       {
         "Frostbane": 1
@@ -13230,6 +13522,62 @@
       "attackspeedpercent": 0.4,
       "passive": [
         "'Poem of Wind' Fire 1 additional projectiles on every attack that deals 0.15x ATK DMG as Pure Damage. Poem of Wind can Crit. Can trigger on attack effects"
+      ]
+    }
+  },
+  {
+    "id": "I0N3",
+    "name": "Eternal Winter",
+    "koreanname": "이터널 윈터",
+    "description": "Embrace the eternal winter.",
+    "type": "[Bastard Sword]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Winter's Heart": 1
+      },
+      {
+        "Shackles of Heaven": 1
+      },
+      {
+        "God's Page": 1
+      },
+      {
+        "Spearhead of Death": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Fragment of Soul": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "damage": 26500,
+      "strength": 2450,
+      "agility": 1550,
+      "intelligence": 1550,
+      "dtpercent": -0.1,
+      "passive": [
+        "Every 8th attack activates Frost Explosion dealing water affinity X ((STR X 6) + (AGI X 5)) pure splash damage",
+        "Damage is affected by ice/water affinity",
+        "Counts as a single target"
+      ],
+      "active": [
+        "On use, activates Permafrost",
+        "Deals (max MP X 6) pure damage to nearby enemies and destroys their shields",
+        "Freezes the ground and procs the following every second",
+        "Deals (max MP X 2) pure damage to enemies and freezes them for 1 second",
+        "Provides (max MP X 0.3) shield to allies for 5 seconds",
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialty - Absolute Zero",
+        "Knight - Excalibur is enhanced with Shield Break"
       ]
     }
   },
@@ -13785,6 +14133,50 @@
     }
   },
   {
+    "id": "I0ND",
+    "name": "Mask of Demigod",
+    "koreanname": "반신의 가면",
+    "description": "Mask that holds the strength of a demigod",
+    "type": "[Helm]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Dragon Mask": 1
+      },
+      {
+        "Aegis of Storm": 1
+      },
+      {
+        "Aegis of Flame": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Mark of Lord": 1
+      },
+      {
+        "Fragment of the Wind": 1
+      }
+    ],
+    "stats": {
+      "armor": 580,
+      "agility": 830,
+      "hp": 5000,
+      "skilldamagepercent": 0.12,
+      "hprege": 400,
+      "active": [
+        "On use, activates Demigod Infusion",
+        "Increases AGI by 800, critical damage by 0.25 and HP regen by 2000 for 15 seconds",
+        "Casting a spell empowers these buffs by 10% (up to 100%)",
+        "Using the [M] hotkey lets you teleport up to 800 distance up to 3 times",
+        "Cooldown: 40 seconds, cannot be dropped during cooldown"
+      ]
+
+    }
+  },
+  {
     "id": "rde3",
     "name": "Eye of Wallachia",
     "koreanname": "왈라키아의 눈",
@@ -13792,6 +14184,9 @@
     "type": "[Helm]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Eye of the Reaper"
+    ],
     "recipe": [
       {
         "Grim Visage": 1
@@ -13806,9 +14201,6 @@
         "Dark Crystal": 1
       },
       {
-        "Red Powder": 12
-      },
-      {
         "Greater Magic Stone": 30
       }
     ],
@@ -13820,6 +14212,47 @@
       "critchancepercent": 0.075,
       "passive": [
         "25% chance on attack to give +0.20x Critical Multiplier, 15% ATK DMG, and 750 Agility 1 second after proc for 6 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I0NC",
+    "name": "Eye of the Reaper",
+    "koreanname": "사신의 눈",
+    "description": "Death stares into you..",
+    "type": "[Helm]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Eye of Wallachia": 1
+      },
+      {
+        "Eyes of the Watcher": 1
+      },
+      {
+        "Spirit of Abyss": 1
+      },
+      {
+        "Essence of Storm": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Fragment of Hell": 1
+      }
+    ],
+    "stats": {
+      "armor": 540,
+      "agility": 940,
+      "hp": 5000,
+      "skilldamagepercent": 0.1,
+      "critchancepercent": 0.1,
+      "passive": [
+        "On attack, activates Eye of the Reaper",
+        "Increases ATK DMG by 17.5%, critical damage by 0.25 and AGI by 1000 for 7.5 seconds",
+        "Cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -14157,6 +14590,9 @@
     "type": "[Helm/Hood]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Crown of Extreme Anger"
+    ],
     "recipe": [
       {
         "Crown of Fervor": 1
@@ -14187,6 +14623,48 @@
       "affinityflamepercent": 0.05,
       "active": [
         "Consume 40% of Current Health to gain 1.25% All Stats and 2.5% main stat of Health consumed and increased Fire Affinity by 5% during for 15 seconds (30 second CD)"
+      ]
+    }
+  },
+  {
+    "id": "I0NF",
+    "name": "Crown of Extreme Anger",
+    "koreanname": "극대노의 화관",
+    "description": "I'M SO ANGRY!!!!!!!!!!!!!!!!!!!!!!!!",
+    "type": "[Helm/Hood]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Crown of Rage": 1
+      },
+      {
+        "Eyes of the Watcher": 1
+      },
+      {
+        "Heart of Volcano": 1
+      },
+      {
+        "Dragon's Eye": 1
+      },
+      {
+        "Fragment of Hell": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "armor": 410,
+      "allstat": 870,
+      "skilldamagepercent": 0.08,
+      "affinityflamepercent": 0.075,
+      "active": [
+        "On use, activates Extreme Anger",
+        "Consumes 50% of current HP",
+        "Deals (main stat X 250) magic damage to nearby enemies (affected by flame affinity)",
+        "For 15 seconds, increases all stats by 1.25% consumed HP (double for main stat) and flame affinity by 5%",
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -14476,9 +14954,6 @@
       },
       {
         "Adamantium": 1
-      },
-      {
-        "Holy Powder": 4
       }
     ],
     "required_by": [
@@ -14846,6 +15321,9 @@
     "type": "[Armor]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Harmony of Sky and Earth"
+    ],
     "recipe": [
       {
         "Earthen Plates": 1
@@ -14873,10 +15351,53 @@
       "mdpercent": 0.1,
       "active": [
         "'La Pucelle' Anti-Magic Shield on you and all allies (600 AoE) and heal you for 100% Health over 5 seconds. (90 second CD)"
+      ]
+    }
+  },
+  {
+    "id": "I0OD",
+    "name": "Harmony of Sky and Earth",
+    "koreanname": "천지창조",
+    "description": "Armor crafted by an image that embodies the beautiful world",
+    "type": "[Armor]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Creation of the Sky and Earth": 1
+      },
+      {
+        "Embrace of Nature": 1
+      },
+      {
+        "Aegis of Storm": 1
+      },
+      {
+        "Aegis of Flame": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Fragment of Soul": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "armor": 850,
+      "strength": 1250,
+      "agility": 800,
+      "mdpercent": 0.12,
+      "passive": [
+        "Nearby allies gain passive 0.5% HP regen"
       ],
-      "spec": [
-        "Specialties - Bonds of Sky and Earth",
-        "Knight - Restores 12% of HP and MP on casting Instincts, and becomes immune to stun/silence/knockback while active."
+      "active": [
+        "On use, activates Cosmos",
+        "Provides 100% magic defense and debuff immunity to allies within 800 radius for 5 seconds",
+        "Heals 25% hp per second to user",
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -14903,9 +15424,6 @@
       },
       {
         "Ghostly Thread": 1
-      },
-      {
-        "White Powder": 12
       }
     ],
     "required_by": [
@@ -14929,6 +15447,9 @@
     "type": "[Armor]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Nevedium, the Armor of Demonblood"
+    ],
     "recipe": [
       {
         "Cruoris, the Armor of Blood": 1
@@ -14964,6 +15485,54 @@
         "Increases AGI by 15% and skill damage by 5% for 12 seconds",
         "Stuns for 1.5 seconds",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0NI",
+    "name": "Nevedium, the Armor of Demonblood",
+    "koreanname": "마혈의 갑주 네베디움",
+    "description": "Armor drenched in demon's blood",
+    "type": "[Armor]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Benedict, the Crimson Armor of Blood": 1
+      },
+      {
+        "Armor of Grudge": 1
+      },
+      {
+        "Curse of Greed": 1
+      },
+      {
+        "Aegis of Flame": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Mark of Lord": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "armor": 675,
+      "agility": 1120,
+      "skilldamagepercent": 0.12,
+      "passive": [
+        "On dealing damage, accumulates Blood",
+        "Converts 1% of damage dealt into max HP (AGI X 2 max)",
+        "When fully stacked provides 2% HP regen"
+      ],
+      "active": [
+        "On use, activates Demon Break",
+        "Releases stored HP to deal (stored HP X 50) pure damage to nearby enemies and stuns for 1.5 seconds",
+        "Increases AGI by 20% and damage output by 5% for 12 seconds",
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -15371,9 +15940,6 @@
       },
       {
         "Sealed Archangel Wings": 1
-      },
-      {
-        "Holy Powder": 10
       }
     ],
     "stats": {
@@ -15416,9 +15982,6 @@
       },
       {
         "Frozen Debris": 1
-      },
-      {
-        "Red Powder": 15
       }
     ],
     "stats": {
@@ -15573,9 +16136,6 @@
       },
       {
         "Corrupt Creations": 1
-      },
-      {
-        "White Powder": 8
       }
     ],
     "required_by": [
@@ -15926,9 +16486,6 @@
       },
       {
         "Pure Steel": 1
-      },
-      {
-        "Blue Powder": 12
       }
     ],
     "required_by": [
@@ -16003,9 +16560,6 @@
       },
       {
         "Ancient Writings": 1
-      },
-      {
-        "Holy Powder": 5
       }
     ],
     "required_by": [
@@ -16090,9 +16644,6 @@
       },
       {
         "Infected Tentacle": 1
-      },
-      {
-        "Green Powder": 9
       }
     ],
     "stats": {
@@ -16313,9 +16864,6 @@
       },
       {
         "Frorist": 1
-      },
-      {
-        "Blue Powder": 15
       }
     ],
     "stats": {
@@ -16906,9 +17454,6 @@
       },
       {
         "Dragon Bone": 1
-      },
-      {
-        "Red Powder": 8
       }
     ],
     "required_by": [
@@ -17089,9 +17634,6 @@
       },
       {
         "Frorist": 1
-      },
-      {
-        "Blue Powder": 12
       }
     ],
     "required_by": [
@@ -17162,9 +17704,6 @@
       },
       {
         "Dark Wings": 1
-      },
-      {
-        "Red Powder": 12
       }
     ],
     "required_by": [
@@ -17679,6 +18218,9 @@
     "type": "[Wings]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Wings of Night Lord"
+    ],
     "recipe": [
       {
         "Wings of Fury": 1
@@ -17770,6 +18312,9 @@
     "type": "[Wings]",
     "color": "DC143C",
     "level": 400,
+    "required_by": [
+      "Wings of Night Lord"
+    ],
     "recipe": [
       {
         "Hungry Bat Wings": 1
@@ -17921,6 +18466,51 @@
       "critmultiplier": 0.2,
       "passive": [
         "On spell cast, increases skill damage and crit chance by 4% for 6 seconds. Stacks up to 3 times"
+      ]
+    }
+  },
+  {
+    "id": "I0OB",
+    "name": "Wings of Night Lord",
+    "koreanname": "밤의 군주의 날개",
+    "description": "Wings of the one who reigns over the night",
+    "type": "[Wings]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Wings of Slayer": 1
+      },
+      {
+        "Wings of Blood Lord": 1
+      },
+      {
+        "Frozen Debris": 1
+      },
+      {
+        "Fragment of Chaos": 1
+      },
+      {
+        "Aegis of Storm": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Mark of Lord": 1
+      }
+    ],
+    "stats": {
+      "strength": 1025,
+      "agility": 975,
+      "skilldamagepercent": 0.075,
+      "passive": [
+        "On skill cast, empowers next attack",
+        "Next attack deals (main stat X 3 + AGI X 2.5) pure damage",
+        "Can crit based on user's critical chance",
+        "Empowered attack stacks Madness of Night",
+        "For 6 seconds increases AGI by 120 (stacks up to 10 times)",
+        "Once max stacks is reached, user can no longer gain more for duration but gains 10% damage output"
       ]
     }
   },
@@ -19026,6 +19616,9 @@
     "type": "[Bastard Sword]",
     "color": "DC143C",
     "level": 360,
+    "required_by": [
+      "Power of Beriel"
+    ],
     "recipe": [
       {
         "Maw of Monster": 1
@@ -19041,9 +19634,6 @@
       },
       {
         "Dragon's Eye": 1
-      },
-      {
-        "Red Powder": 12
       }
     ],
     "stats": {
@@ -19082,9 +19672,6 @@
       },
       {
         "Infected Tentacle": 1
-      },
-      {
-        "Red Powder": 5
       }
     ],
     "stats": {

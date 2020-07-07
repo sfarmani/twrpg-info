@@ -20,7 +20,8 @@
             "A mysterious bow user that happens to have higher range than Bow Master."
         ],
         "spec": [
-            "Soulstalker - Cursed Arrow"
+            "Soulstalker - Cursed Arrow",
+            "Soulbane - Cursed Arrow"
         ]
     },
     {
@@ -203,7 +204,8 @@
             "Rainmaker - Purging Water",
             "Devil Chaser - Evil Chaser",
             "Dante's Inferno - Abandon All Hope",
-            "Punisher - Abandon All Hope"
+            "Punisher - Abandon All Hope",
+            "Last Word - Abandon All Hope"
         ]
     },
     {
@@ -254,7 +256,8 @@
         ],
         "spec": [
             "Dante's Inferno - Abandon All Hope",
-            "Punisher - Abandon All Hope"
+            "Punisher - Abandon All Hope",
+            "Last Word - Abandon All Hope"
         ]
     },
     {
@@ -565,6 +568,7 @@
             "Bag of Hell - Very Heavy Bag",
             "Bag of Corruption - Very Heavy Bag",
             "Bag of Destruction - Very Heavy Bag",
+            "Bag of Demise - Very Heavy Bag",
             "Bag of Explosion - Dangerous Bag",
             "Bag of Despair - Dangerous Bag",
             "Fruit-filled Bag - Light Bag",
@@ -657,7 +661,8 @@
             "Stalker - Improved Arrow Rain",
             "Heartseeker - Heartseeker",
             "Frostbane - Improved Freezing Shot",
-            "Everfrostbane - Improved Freezing Shot"
+            "Everfrostbane - Improved Freezing Shot",
+            "Soulbane - Improved Freezing Shot"
         ]
     },
     {
@@ -688,6 +693,7 @@
             "Earthen Plates - Bonds of Earth",
             "Creation of the Sky and Earth - Bonds of Sky and Earth",
             "Winter's Heart - Absolute Zero",
+            "Eternal Winter - Absolute Zero",
             "Guardian Ring - Improved Seal of Mana",
             "True Guardian Ring - Improved Seal of Mana",
             "Ispion, the Runed Ring - Improved Seal of Mana"
@@ -838,6 +844,7 @@
         "spec": [
             "Deathbringer - Darkened Light",
             "Ruinbringer - Darkened Light",
+            "Calamity - Darkened Light",
             "Visvire, the Hammer of Storm - Improved Genesis",
             "Blazing Soul - Improved Genesis",
             "Blazing Heart - Improved Genesis",

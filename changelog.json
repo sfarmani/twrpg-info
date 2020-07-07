@@ -1,5 +1,148 @@
 [
     {
+        "name": "37c",
+        "notes": [
+            "Released on: July 6th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Knight - Instincts (E) - Assualt (E) → fixed hero getting stuck"
+        ],
+        "events": [
+            {
+                "name": "Event notes",
+                "changes": [
+                    "Fixed beach balls spawning 1 sealed material instead of whole material"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "37b",
+        "notes": [
+            "Released on: July 5th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fixed portal location for SK and ZL area"
+        ],
+        "events": [
+            {
+                "name": "Summer Event",
+                "changes": [
+                    "Summer event will run until July 19th"
+                ]
+            }
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New item recipes added",
+                    [
+                        "Eternal Winter",
+                        "Power of Beriel",
+                        "Calamity",
+                        "Soulbane",
+                        "Last Word",
+                        "Bag of Demise",
+                        "Eye of the Reaper",
+                        "Mask of Demigod",
+                        "Crown of Extreme Anger",
+                        "Harmony of Sky and Earth",
+                        "Nevedium, the Armor of Demonblood",
+                        "Wings of Night Lord"
+                    ],
+                    "Powder is no longer used in recipes"
+                ]
+            },
+            {
+                "name": "Earthen Plates",
+                "changes": [
+                    "Removed Knight spec"
+                ]
+            },
+            {
+                "name": "Creation of the Sky and Earth",
+                "changes": [
+                    "Active - HP Regen per second (3500 + HP X 15%) → (HP X 25%)",
+                    "Removed Knight spec"
+                ]
+            },
+            {
+                "name": "Espishu, the Sword of Eternity",
+                "changes": [
+                    "Recipe: Purified Water of Nature → Purified Water of Nature / Fragment of the Wind"
+                ]
+            },
+            {
+                "name": "Crown of Rage",
+                "changes": [
+                    "Recipe: Purified Water of Nature → Purified Water of Nature / Fragment of the Wind"
+                ]
+            },
+            {
+                "name": "Grim Heart",
+                "changes": [
+                    "Recipe: Dark Crystal → Dark crystal / Frozen Debris"
+                ]
+            },
+            {
+                "name": "Cape of the Count / Wings of Fury",
+                "changes": [
+                    "Removed HP regen"
+                ]
+            },
+            {
+                "name": "Wings of Slayer",
+                "changes": [
+                    "Removed HP regen",
+                    "Buff duration 8 seconds → 6 seconds",
+                    "Skill damage increase 9% → 10%",
+                    "Empowered Critical chance 17.5% → user's critical chance",
+                    "Can no longer refresh stack duration once max amount is reached"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Valtora",
+                "changes": [
+                    "No longer moves or attacks until attacked first"
+                ]
+            },
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "HP: 42,500,000 → 45,000,000"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Instincts (E)",
+                    [
+                        "Added CC immune effect for duration"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Holy Power (T) - Leap of Faith (W)",
+                    [
+                        "Edited the description"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Training dummy changed to be CC immune"
+        ]
+    },
+    {
         "name": "36k",
         "notes": [
             "Released on: June 26th, 2020",
