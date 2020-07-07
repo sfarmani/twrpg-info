@@ -15153,10 +15153,6 @@
       "mdpercent": 0.08,
       "passive": [
         "Grants greatly accelerated Health Regeneration when Health is low"
-      ],
-      "spec": [
-        "Specialty - Bonds of Earth",
-        "Knight - Restores 12% of HP on casting Instincts, and becomes immune to stun/silence/knockback while active."
       ]
     }
   },
