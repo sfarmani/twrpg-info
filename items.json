@@ -13564,15 +13564,14 @@
       "dtpercent": -0.1,
       "passive": [
         "Every 8th attack activates Frost Explosion dealing water affinity X ((STR X 6) + (AGI X 5)) pure splash damage",
-        "Damage is affected by ice/water affinity",
         "Counts as a single target"
       ],
       "active": [
         "On use, activates Permafrost",
         "Deals (max MP X 6) pure damage to nearby enemies and destroys their shields",
-        "Freezes the ground and procs the following every second",
+        "Freezes the ground and procs the following every second for 3 seconds",
         "Deals (max MP X 2) pure damage to enemies and freezes them for 1 second",
-        "Provides (max MP X 0.3) shield to allies for 5 seconds",
+        "Provides (target's max MP X 0.3) shield to allies for 5 seconds",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -14165,7 +14164,7 @@
       "agility": 830,
       "hp": 5000,
       "skilldamagepercent": 0.12,
-      "hprege": 400,
+      "hpregen": 400,
       "active": [
         "On use, activates Demigod Infusion",
         "Increases AGI by 800, critical damage by 0.25 and HP regen by 2000 for 15 seconds",
@@ -18504,6 +18503,7 @@
       "strength": 1025,
       "agility": 975,
       "skilldamagepercent": 0.075,
+      "movespeed": 50,
       "passive": [
         "On skill cast, empowers next attack",
         "Next attack deals (main stat X 3 + AGI X 2.5) pure damage",
