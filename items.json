@@ -18237,12 +18237,18 @@
       }
     ],
     "stats": {
-      "strength": 875,
+      "strength": 825,
       "agility": 775,
       "skilldamagepercent": 0.06,
       "passive": [
-        "When casting a spell, empower next attack with Slayer's Fury (Does [10,000+3x main stat] Pure Damage and heals for 4% of your Max Health on next attack. 17.5% Chance to Crit, doing [25,000+7.5x main stat] Pure Damage and healing for 10% of your Max Health on next attack)",
-        "Increases Agility by 70 for 8 seconds when Slayer's Fury activates. When you reach 10 stacks of \"Slayer's Fury\" Skill Damage is increased by 9% (Max 10 Stacks)"
+        "On skill cast, empowers next attack with Decimation",
+        "17.5% Chance to deal critical damage",
+        "Normal damage: (main stat X 2.5 + AGI X 1.5) pure damage",
+        "Critical damage: (main stat X 5 + AGI X 3) pure damage",
+        "Activates Madness of Slayer when procced",
+        "Creates a stack every proc up to 10 times",
+        "Each stack increases AGI by 90",
+        "When 10 stacks reached, increases skill damage by 9%"
       ]
     }
   },
