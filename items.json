@@ -18242,13 +18242,12 @@
       "skilldamagepercent": 0.06,
       "passive": [
         "On skill cast, empowers next attack with Decimation",
-        "17.5% Chance to deal critical damage",
-        "Normal damage: (main stat X 2.5 + AGI X 1.5) pure damage",
-        "Critical damage: (main stat X 5 + AGI X 3) pure damage",
+        "Deals (main stat X 2.5 + AGI X 1.5) pure damage",
+        "User's critical chance to deal (normal damage X user's critical multiplier) pure damage",
         "Activates Madness of Slayer when procced",
         "Creates a stack every proc up to 10 times",
         "Each stack increases AGI by 90",
-        "When 10 stacks reached, increases skill damage by 9%"
+        "When 10 stacks reached, increases skill damage by 10%"
       ]
     }
   },
