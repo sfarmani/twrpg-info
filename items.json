@@ -14127,7 +14127,10 @@
       "hp": 4000,
       "skilldamagepercent": 0.075,
       "active": [
-        "'Dragon Rage' Increase Agility by 600, Critical Multiplier by 0.20x and Health Regeneration by 2,000 for 15 seconds. Effects of Dragon Rage increased by 10% on skill cast, up to 100% (0.40x Critical Multiplier and 4,000 Health Regeneration). (50 second CD)"
+        "On use, activates Madness of Dragon for 15 seconds:",
+        "Initially increases main stat by 600, crit multiplier by 0.20, and HP regen by 2000",
+        "While active, every skill cast increases the bonuses above by 10% up to 10 times",
+        "Cooldown: 50 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -14210,7 +14213,8 @@
       "skilldamagepercent": 0.075,
       "critchancepercent": 0.075,
       "passive": [
-        "25% chance on attack to give +0.20x Critical Multiplier, 15% ATK DMG, and 750 Agility 1 second after proc for 6 seconds"
+        "25% chance to activate Eye of Death on attack",
+        "Increases crit multiplier by 0.20, ATK DMG by 15%, and AGI by 750 1 second after proc for 6 seconds"
       ]
     }
   },
@@ -14621,7 +14625,12 @@
       "skilldamagepercent": 0.06,
       "affinityflamepercent": 0.05,
       "active": [
-        "Consume 40% of Current Health to gain 1.25% All Stats and 2.5% main stat of Health consumed and increased Fire Affinity by 5% during for 15 seconds (30 second CD)"
+        "On use, activates Refined Power",
+        "Consumes 40% of current HP and grants the following for 15 seconds:",
+        "(1.25% of consumed HP) all stats",
+        "(2 X (1.25% of consumed HP)) main stat",
+        "5% flame affinity",
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -18246,7 +18255,7 @@
       "passive": [
         "On skill cast, empowers next attack with Decimation:",
         "Deals (main stat X 2.5 + AGI X 1.5) pure damage",
-        "User's critical chance to deal (normal damage X user's critical multiplier) pure damage",
+        "User's critical chance to deal (normal damage X user's crit multipler) pure damage",
         "Activates Madness of Slayer when procced",
         "Creates a stack every proc up to 10 times",
         "Each stack increases AGI by 90",
