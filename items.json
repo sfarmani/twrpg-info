@@ -15345,7 +15345,10 @@
       "agility": 625,
       "mdpercent": 0.1,
       "active": [
-        "'La Pucelle' Anti-Magic Shield on you and all allies (600 AoE) and heal you for 100% Health over 5 seconds. (90 second CD)"
+        "On use, activates La Pucelle",
+        "Grants all nearby allies with 100% magic defense for 4 seconds",
+        "Every second heals all nearby allies for (25% max HP of target)",
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -18241,7 +18244,7 @@
       "agility": 775,
       "skilldamagepercent": 0.06,
       "passive": [
-        "On skill cast, empowers next attack with Decimation",
+        "On skill cast, empowers next attack with Decimation:",
         "Deals (main stat X 2.5 + AGI X 1.5) pure damage",
         "User's critical chance to deal (normal damage X user's critical multiplier) pure damage",
         "Activates Madness of Slayer when procced",
