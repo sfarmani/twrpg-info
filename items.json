@@ -16943,7 +16943,7 @@
   {
     "id": "I0JX",
     "name": "Ring of Revival",
-    "koreanname": "소생의 반지",
+    "koreanname": "The life is flowing into me!",
     "type": "[Ring]",
     "color": "DC143C",
     "level": 400,
@@ -16970,10 +16970,13 @@
       "mp": 7500,
       "healreceivedpercent": 0.15,
       "passive": [
-        "Revive 2 seconds after death with 100% Health/Mana (240 second CD)"
+        "On death, revives after 2 seconds with full HP and MP",
+        "Cooldown: 240 seconds, cannot be dropped during cooldown"
       ],
       "active": [
-        "Heal yourself for 50% Max Health/Mana. Lasts 10 seconds. (45 second CD)"
+        "On use, activates Revival",
+        "Restores 50% of HP and MP/RP",
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -18256,7 +18259,7 @@
         "On skill cast, empowers next attack with Decimation:",
         "Deals (main stat X 2.5 + AGI X 1.5) pure damage",
         "User's critical chance to deal (normal damage X user's crit multipler) pure damage",
-        "Activates Madness of Slayer when procced",
+        "Activates Madness of Slayer for 6 seconds when procced",
         "Creates a stack every proc up to 10 times",
         "Each stack increases AGI by 90",
         "When 10 stacks reached, increases skill damage by 10%"
