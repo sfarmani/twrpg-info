@@ -1,5 +1,51 @@
 [
     {
+        "name": "37d",
+        "notes": [
+            "Released on: July 14th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Eternal Flame - Fixed flame affinity from passive effect being 0% instead of 15%",
+            "Eternal Winter - Fixed Spec not working",
+            "Last Word - Fixed passive effect not stacking past 1 to 3",
+            "Ring of Hope - Fixed healing being applied before debuff cleanse",
+            "Archangel Samael - Fixed wheel positioning",
+            "Knight - Fixed sometimes getting stuck"
+        ],
+        "events": [
+            {
+                "name": "Event notes",
+                "changes": [
+                    "Seal sight: 350 → 1800",
+                    "If beach ball is spawned by Treasure of Death a seal will now spawn for every hero in Wallachia cemetery, regardless of their distance from Treasure of Death"
+                ]
+            }
+        ],
+        "items": [
+            {
+                "name": "Diana, the Robe of Holy Maiden",
+                "changes": [
+                    "Recipe: Essence of Darkness → Essence of Darkness / Antimatter (Essence of Darkness will be removed from recipe later)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "Flame Shot (Q) / Freezing Shot (W)",
+                    [
+                        "Cast range now matches travel distance"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Fixed some costume effects"
+        ]
+    },
+    {
         "name": "37c",
         "notes": [
             "Released on: July 6th, 2020",

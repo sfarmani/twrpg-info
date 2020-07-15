@@ -6857,6 +6857,7 @@
       "Cosmic Reaper",
       "Rainmaker",
       "Bag of Demise",
+      "Diana, the Robe of Holy Maiden",
       "Shadow Dragon Icon"
     ],
     "recipe": [
@@ -15937,7 +15938,8 @@
         "Fairy Garment": 1
       },
       {
-        "Essence of Darkness": 1
+        "Essence of Darkness": 1,
+        "Antimatter": 1
       },
       {
         "Proof of Purification": 1
