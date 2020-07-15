@@ -15956,10 +15956,16 @@
       "intelligence": 1095,
       "hp": 6000,
       "passive": [
-        "'Salvation' Increases nearby allies Skill Damage by 6% and Magic Resistance by 8%"
+        "Increases nearby allies skill damage by 6% & magic defense by 8%"
       ],
       "active": [
-        "'Prayer of the Priest' Fires 6 waves of beams that spiral outward from your hero followed by an explosion on the 7th wave, 750 AoE dealing Intelligence x200 total. All nearby allies are healed for 1.5x Int per wave. Character cannot move during active but can still cast other spells and are protected by a shield that blocks 15,000 + 5x Int damage and lasts for duration"
+        "On use, activates Prayer of Holy Maiden",
+        "7 spiral waves shoot outwards from the user while immobilizing the user (can use dash spells)",
+        "Restores (INT X 1.5) HP to all nearby allies per wave",
+        "Deals (INT X 25) magic damage to all nearby enemies for 6 waves",
+        "7th wave deals (INT X 50) magic damage",
+        "Applies a shield of (15000 + INT X 5) to all nearby allies for 4.2 seconds",
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialties - Maiden's Blessing",
