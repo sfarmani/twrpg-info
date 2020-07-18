@@ -1826,7 +1826,6 @@
       "Requiem, the Armor of Lamentation",
       "Diana, the Robe of Holy Maiden",
       "Pure Crystal Wings",
-      "Mask of Demigod",
       "Ancient Ent Icon"
     ],
     "worth": 2,
@@ -14102,6 +14101,9 @@
     "type": "[Helm]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Mask of Demigod"
+    ],
     "recipe": [
       {
         "Grim Visage": 1
