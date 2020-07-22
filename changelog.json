@@ -1,5 +1,16 @@
 [
     {
+        "name": "37e",
+        "events": [
+            {
+                "name": "Event notes",
+                "changes": [
+                    "Summer event 2020 is over"
+                ]
+            }
+        ]
+    },
+    {
         "name": "37d",
         "notes": [
             "Released on: July 14th, 2020",
