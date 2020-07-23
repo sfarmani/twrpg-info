@@ -1,6 +1,10 @@
 [
     {
         "name": "37e",
+        "notes": [
+            "Released on: July 20th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
         "events": [
             {
                 "name": "Event notes",
