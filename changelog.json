@@ -1,5 +1,40 @@
 [
     {
+        "name": "38a",
+        "notes": [
+            "Released on: July 26th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Everfrostbane / Soulbane - Fixed Bow Master spec not increasing damage of Freezing Shot (W) properly",
+            "Wings of Frost Lord - Damage of passive is now affected by water affinity"
+        ],
+        "heroes": [
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Meteor Fragment (T)",
+                    [
+                        "Damage per fragment: INT X 45 → INT X 60"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Soul Grimoire (R)",
+                    [
+                        "Active duration: 5 seconds → 4 seconds",
+                        "ATK SPD increase: 500% → 600%"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "First batch of titles added"
+        ]
+    },
+    {
         "name": "37e",
         "notes": [
             "Released on: July 20th, 2020",

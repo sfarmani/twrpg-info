@@ -740,8 +740,8 @@
             "Unleash the grimoire and let your magic run wild.",
             "Consume Max MP X 25% per second",
             "Focus attacks of Dimension Collapse onto targeted area",
-            "Orbs have 400% increased attack speed for channeled duration",
-            "Duration: 5 seconds",
+            "Orbs have 600% increased attack speed for channeled duration",
+            "Duration: 4 seconds",
             "Channeling does not end when MP depleted if in Demonic Fury transformation"
         ]
     },
@@ -1046,7 +1046,7 @@
         "active": [
             "Calls down meteor fragments that are drifting around the atmosphere.",
             "Each fragment deals Skill Level X 1000 damage",
-            "Each fragment deals INT X 30 bonus damage",
+            "Each fragment deals INT X 60 bonus damage",
             "Total of 8 meteor fragments"
         ]
     },
