@@ -11589,8 +11589,9 @@
       "agility": 1900,
       "critmultiplier": 0.3,
       "passive": [
-        "((hit count X 12.5%) + 1)% Chance to activate Doomsday on attack dealing (((STR + AGI) X 65) + (ATK DMG X 10)) magic splash damage and stuns for 0.1 seconds",
-        "Chance to activate increases if it fails to proc"
+        "(1 + 0.125 X attacks without activation)% Chance to activate Doomsday on attack",
+        "Deals (ATK DMG X 10 + (STR + AGI) X 65) magic damage",
+        "Stuns for 0.1 seconds"
       ]
     }
   },
@@ -11632,7 +11633,8 @@
       "critmultiplier": 0.35,
       "passive": [
         "(1 + 0.125 X attacks without activation)% Chance to activate Doomsday on attack",
-        "Deals (ATK DMG X 12.5 + (STR + AGI) X 75) magic damage"
+        "Deals (ATK DMG X 12.5 + (STR + AGI) X 75) magic damage",
+        "Stuns for 0.1 seconds"
       ],
       "active": [
         "On use, activates Grasp of Demon Lord",
