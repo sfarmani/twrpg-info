@@ -8555,7 +8555,7 @@
       "dtpercent": -0.2,
       "spec": [
         "Merchant Specialty - Very Heavy Bag",
-        "Merchant - Bag Slam: damage is increased by 300%, and it increases target's damage taken by 10% for 6 seconds",
+        "Merchant - Bag Slam: damage is increased by 300%, and it increases target's damage taken by 8% for 6 seconds",
         "Merchant - Throwing Healing Potion: Increases target's skill damage by 5%"
       ]
     }
