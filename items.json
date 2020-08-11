@@ -18551,7 +18551,7 @@
       "strength": 820,
       "drpercent": 0.15,
       "passive": [
-        "Provides nearby allies with 1% HP rege and 15% damage resistance for 15 seconds"
+        "Provides nearby allies with 1% HP regen and 15% damage resistance for 15 seconds"
       ],
       "active": [
         "On use, activates Spirit of Protector",
@@ -18772,8 +18772,7 @@
         "On use, activates Salvation",
         "Heals nearby allies to full",
         "Afterwards emits a divine light that restores (INT X 2.5) HP to ally with lowest HP every 0.25 seconds",
-        "Also deals (INT X 50) magic damage",
-        "Stunns for 1 second",
+        "Also deals (INT X 50) magic damage and stuns all nearby enemies for 1 second every second",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -19052,7 +19051,7 @@
       ],
       "active": [
         "On use, activates Bloody Soul",
-        "Provides (15000 + 25% max HP) shield",
+        "Provides (15000 + 25% max HP) shield for 5 seconds",
         "Upon expiration, restores HP and MP equal to absorbed damage",
         "Also deals (main stat X 150) magic damage to nearby enemies",
         "Cooldown: 20 seconds, cannot be dropped during cooldown"
@@ -19096,7 +19095,7 @@
       "mdpercent": 0.15,
       "passive": [
         "Empowers next attack with Heaven's Light every 4 seconds",
-        "Deals (INT X 50) magic damage to target and heals (INT X 1.5) HP to nearby allies"
+        "Deals (INT X 50) magic damage to target and heals (INT X 1.5) HP to allies near target"
       ],
       "active": [
         "On use, activates Heaven's Door",
@@ -19197,7 +19196,7 @@
       "skilldamagepercent": 0.15,
       "active": [
         "On use, activates Big Bang",
-        "Deals (INT X 75) magic damage to nearby enemies",
+        "Deals (INT X 750) magic damage to nearby enemies",
         "Stuns for 3 seconds",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
@@ -19246,7 +19245,7 @@
       "active": [
         "On use, activates Chant of Ruin",
         "Deals (2500% ATK DMG + INT X 125) magic damage to nearby enemies",
-        "Reduces magic defense of hit enemies by 9% for 10 seconds",
+        "Increases magic damage taken of hit enemies by 9% for 10 seconds",
         "Stuns for 2 seconds",
         "User is invulnerable while channeling",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
