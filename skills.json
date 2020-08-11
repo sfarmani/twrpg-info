@@ -413,7 +413,7 @@
         "order": 13,
         "passive": [
             "Affinity with air grants vitality.",
-            "Air-related transmutation grants 50 movement speed for 6 seconds"
+            "Air-related transmutation grants 75 movement speed for 6 seconds"
         ],
         "active": [
             "Create a transmutation circle of air to cast skills.",
@@ -648,6 +648,7 @@
             "Increases INT by 2% on every second and on every skill cast (up to 30 times)",
             "Reduces damage taken by 40%",
             "On expiration, deals INT X 400 damage to nearby enemies and stuns for 2.5 seconds",
+            "Immune to silence for duration",
             "Cooldown: 120 seconds"
         ]
     },
@@ -3036,7 +3037,8 @@
         "active": [
             "Focuses strength onto the tip of the spear to deliver powerful strikes.",
             "Next 3 attacks activates Fierce Strike that deals pure damage",
-            "3rd attack deals double damage and knocks up non-boss target"
+            "3rd attack deals double damage and knocks up non-boss target",
+            "Damage is affected by skill damage"
         ]
     },
     {
@@ -3082,9 +3084,7 @@
             "Activate the shield of thunder to protect yourself and damage nearby enemies.",
             "Skill Level X 200 damage per second",
             "STR X 6 + AGI X 8 bonus damage",
-            "Increases speed and damage reduction",
-            "Decreases any damage taken by half if it is below 60% of HP",
-            "After 3 seconds, damage is increased by 300% but consumes 15% of Magnetic Field per second"
+            "Increases speed and damage reduction"
         ]
     },
     {
@@ -4235,10 +4235,10 @@
         "order": 11,
         "active": [
             "\"Embrace the lights of heaven.\" - Paladin",
-            "Releases a pulse every second to deal STR X 100 magic damage",
-            "Releases a flash every second to deal STR X 20 magic damage",
+            "Releases a pulse every second to deal STR X 150 magic damage",
+            "Releases a flash every second to deal STR X 25 magic damage",
             "Each flash also heals an ally for INT X 10",
-            "Lasts 5 seconds",
+            "Lasts 4 seconds",
             "Cooldown: 120 seconds"
         ]
     },

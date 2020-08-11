@@ -1,5 +1,123 @@
 [
     {
+        "name": "38b",
+        "notes": [
+            "Released on: August 11th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Ifrit - Fixed Seed of Flame sometimes dealing damage before cleanse is applied",
+            "Harmony of Sky and Earth - Fixed item-related bugs",
+            "Power recorder - Fixed not displaying HP/MP regen properly"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New items added",
+                    "Chrono Chaser",
+                    "Thanatos, the Robe of Hell",
+                    "Jupiter, the Robe of Heavens",
+                    "Ethenos, the Staff of Chaos",
+                    "Armageddon",
+                    "Heaven's Door",
+                    "Chaos Fang",
+                    "Spirit of Protector",
+                    "Cloak of Deep Abyss",
+                    "Bloodseeker Plates",
+                    "Wings of the Immortal",
+                    "Soul Devourer",
+                    "Ring of Divine Winds"
+                ]
+            },
+            {
+                "name": "Calamity",
+                "changes": [
+                    "STR: 2300 → 2150",
+                    "INT: 1450 → 1350"
+                ]
+            },
+            {
+                "name": "Harmony of Sky and Earth",
+                "changes": [
+                    "Passive - HP regen: 0.5% → 1%",
+                    "Active - Cleanses debuffs before applying magic defense → Cleanses debuffs after applying magic defense"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Agareth",
+                "changes": [
+                    "Drop rates reduced by 20%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Genesis (F)",
+                    [
+                        "Damage per pulse: STR X 100 → STR X 150",
+                        "Damage per flash: STR X 20 → STR X 25",
+                        "Duration: 5 seconds → 4 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Some spells reworked"
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Three Talon Strike (Q)",
+                    [
+                        "Now affected by skill damage"
+                    ],
+                    "Thunder Shield (E)",
+                    [
+                        "Removed halving any damage taken if its lower than 60%",
+                        "Removed 300% damage increase after 3 seconds of duration"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Conjure Air (E)",
+                    [
+                        "MV SPD increase: 50 → 75"
+                    ],
+                    "Conjure Air (E) - Burning Hand (Q)",
+                    [
+                        "Now counts as single-target spell"
+                    ],
+                    "Conjure Earth (R) - Potion Transmutation (W)",
+                    [
+                        "Potion creation time reduced"
+                    ],
+                    "Conjure Earth (R) - Stone Golem (R)",
+                    [
+                        "Rolling Golem (W) cast time reduced",
+                        "Power Slame (E) cast time removed"
+                    ],
+                    "Gate of Truth (F)",
+                    [
+                        "Max bonus INT: 60% → 70%",
+                        "Added silence immunity for duration"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Second batch of titles applied"
+        ]
+    },
+    {
         "name": "38a",
         "notes": [
             "Released on: July 26th, 2020",
