@@ -6915,6 +6915,7 @@
       "Power of Beriel",
       "Calamity",
       "Wings of Night Lord",
+      "Grim Heart",
       "Shadow Dragon Icon"
     ],
     "recipe": [
@@ -16674,7 +16675,8 @@
         "Essence of Darkness": 1
       },
       {
-        "Dark Crystal": 1
+        "Dark Crystal": 1,
+        "Frozen Debris": 1
       },
       {
         "Ghostly Thread": 1
