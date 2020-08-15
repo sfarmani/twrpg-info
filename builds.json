@@ -1,15 +1,186 @@
 [
     {
+        "for": "Berserker",
+        "type": "Full DPS",
+        "order": 1,
+        "stat": "STR",
+        "description": [
+            "Use Frostshard for tanking purposes"
+        ],
+        "items": {
+            "Chaos": [
+                "Blazing Heart"
+            ],
+            "Horn of Lightning God": [],
+            "Ring of Fate": [
+                "Ring of Insanity"
+            ],
+            "Felspike Armor": [
+                "Frostshard Armor"
+            ],
+            "Cloak of Deep Abyss": []
+        }
+    },
+    {
+        "for": "Crusader",
+        "type": "Tank DPS",
+        "order": 1,
+        "stat": "STR",
+        "description": [
+            "Use Meacronacer if you don't think you can build Splitting fast enough",
+            "Use Halo until you get Horn as it is good for AMS",
+            "Use Plates of Lightning until you get Hades if you can't skip it",
+            "Use Hades if no one else in your team is using it for the debuffs, otherwise use Felspike"
+        ],
+        "items": {
+            "Splitting of the Sky and Earth": [
+                "Meacronacer, the Sword of Thousand Illusions"
+            ],
+            "Horn of Lightning God": [
+                "Halo of Judgment"
+            ],
+            "Heaven's Fist": [
+                "Cold Ring of Death"
+            ],
+            "Felspike Armor": [
+                "Plates of Lightning",
+                "Harmony of Sky and Earth",
+                "Hades, the Armor of Despair"
+            ],
+            "Cloak of Deep Abyss": []
+        }
+    },
+    {
+        "for": "Dark Knight",
+        "type": "Burst DPS",
+        "order": 1,
+        "stat": "STR",
+        "description": [
+            "Builds for this may change due to the recent re-work",
+            "Use Ruinbringer until Splitting"
+        ],
+        "items": {
+            "Splitting of the Sky and Earth": [
+                "Ruinbringer",
+                "Calamity"
+            ],
+            "Crown of Extreme Anger": [],
+            "Seal of Deceiver": [
+                "Ring of Fate"
+            ],
+            "Hades, the Armor of Despair": [
+                "Felspike Armor"
+            ],
+            "Archangel Wings": [
+                "Brave Heart"
+            ]
+        }
+    },
+    {
+        "for": "Dark Knight",
+        "type": "Support DPS",
+        "order": 2,
+        "stat": "INT",
+        "description": [
+            "Builds for this may change due to the recent re-work"
+        ],
+        "items": {
+            "Eternal Winter": [
+                "Calamity"
+            ],
+            "Hood of Apocalypse": [],
+            "Seal of Deceiver": [],
+            "Hades, the Armor of Despair": [],
+            "Soul Devourer": [
+                "Brave Heart"
+            ]
+        }
+    },
+    {
+        "for": "Fighter",
+        "type": "Pure DPS",
+        "order": 1,
+        "stat": "STR",
+        "description": [
+            "Use Meacronacer until Ender",
+            "Use Hades if no one else on your team has it for debuffs",
+            "Use Plates of Lightning until Felspike or Hades as Hellspike consumes your HP (unlike Felspike)"
+        ],
+        "items": {
+            "The Ender": [
+                "Meacronacer, the Sword of Thousand Illusions"
+            ],
+            "Horn of Lightning God": [
+                "Radiance of the One"
+            ],
+            "Ring of Insanity": [],
+            "Hades, the Armor of Despair": [
+                "Felspike Armor",
+                "Plates of Lightning"
+            ],
+            "Wings of Blood Lord": []
+        }
+    },
+    {
+        "for": "Knight",
+        "type": "Sustain / Tank",
+        "order": 1,
+        "stat": "STR",
+        "description": [
+            "To maximize ultimate damage, use Splitting and Crown of Absolute Zero",
+            "Use Hades if no one else on your team has it for debuffs",
+            "Use Halo is situations when AMS is needed",
+            "Only use Ring of Composure if no one else has it or Cloak of the Fallen Shadows as they do not stack"
+        ],
+        "items": {
+            "Eternal Winter": [
+                "Splitting of the Sky and Earth"
+            ],
+            "Spirit of Protector": [
+                "Halo of Judgment",
+                "Horn of Lightning God",
+                "Crown of Absolute Zero"
+            ],
+            "Ispion, the Runed Ring": [
+                "Ring of Composure"
+            ],
+            "Harmony of Sky and Earth": [
+                "Hades, the Armor of Despair"
+            ],
+            "Protection of the Fairies": [
+                "Brave Heart"
+            ]
+        }
+    },
+    {
         "for": "Lancer",
         "type": "DPS",
         "order": 1,
         "stat": "STR",
+        "description": [
+            "For max DPS it is recommended to go with the first items",
+            "The alternate items are for bursting options, as well as defense / support if your team is lacking it"
+        ],
         "items": {
-            "Splitting of Sky and Earth": [],
-            "Horn of Lightning God": [],
-            "Ring of Insanity": [],
-            "Felspike Armor": [],
-            "Cloak of Deep Abyss": []
+            "Splitting of the Sky and Earth": [
+                "Tiberius, the Spear of Lightning"
+            ],
+            "Horn of Lightning God": [
+                "Crown of Extreme Anger"
+            ],
+            "Ring of Insanity": [
+                "Ring of Fate",
+                "Latea, the Ring of Overlord",
+                "Cold Ring of Death",
+                "Ispion, the Runed Ring"
+            ],
+            "Felspike Armor": [
+                "Plates of Lightning",
+                "Creation of the Sky and Earth"
+            ],
+            "Cloak of Deep Abyss": [
+                "Storm"
+            ]
         }
     },
     {
