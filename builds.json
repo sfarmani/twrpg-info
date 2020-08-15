@@ -1,0 +1,138 @@
+[
+    {
+        "for": "Lancer",
+        "type": "DPS",
+        "order": 1,
+        "stat": "STR",
+        "items": {
+            "Splitting of Sky and Earth": [],
+            "Horn of Lightning God": [],
+            "Ring of Insanity": [],
+            "Felspike Armor": [],
+            "Cloak of Deep Abyss": []
+        }
+    },
+    {
+        "for": "Paladin",
+        "type": "DPS",
+        "order": 1,
+        "stat": "STR",
+        "items": {
+            "Calamity": [],
+            "Horn of Lightning God": [
+                "Spirit of Protector"
+            ],
+            "Heaven's Fist": [
+                "Bell of Light"
+            ],
+            "Hades, the Armor of Despair": [
+                "Felspike Armor"
+            ],
+            "Wings of Night Lord": [
+                "Protection of the Fairies"
+            ]
+        }
+    },
+    {
+        "for": "Bow Master",
+        "type": "DPS",
+        "order": 1,
+        "stat": "AGI",
+        "items": {
+            "Pheles, the Bow of God": [],
+            "Eye of the Reaper": [],
+            "Ring of Insanity": [],
+            "Athanasia, the Armor of the Reaper": [],
+            "Storm": []
+        }
+    },
+    {
+        "for": "Hermit",
+        "type": "Support DPS",
+        "order": 1,
+        "stat": "AGI",
+        "items": {
+            "Espishu, the Sword of Chaos": [
+                "Eternal Winter"
+            ],
+            "Crown of Serenity": [
+                "Halo of Judgment"
+            ],
+            "Ring of Hope": [],
+            "Vest of Storm": [
+                "Harmony of Sky and Earth"
+            ],
+            "Protection of the Fairies": [
+                "Grim Heart"
+            ]
+        }
+    },
+    {
+        "for": "Martial Artist",
+        "type": "DPS",
+        "order": 1,
+        "stat": "AGI",
+        "items": {
+            "Power of Beriel": [],
+            "Radiance of the One": [
+                "Eye of the Reaper"
+            ],
+            "Heaven's Fist": [],
+            "Athanasia, the Armor of the Reaper": [],
+            "Wings of Flame Lord": []
+        }
+    },
+    {
+        "for": "Sniper",
+        "type": "DPS with some burst",
+        "order": 1,
+        "stat": "AGI",
+        "items": {
+            "Eternal Flame": [],
+            "Horn of Lightning God": [],
+            "Latea, the Ring of Overlord": [
+                "Ring of Insanity"
+            ],
+            "Vest of Storm": [
+                "Athanasia, the Armor of the Reaper"
+            ],
+            "Wings of Night Lord": [
+                "Archangel Wings"
+            ]
+        }
+    },
+    {
+        "for": "Sniper",
+        "type": "Hybrid DPS",
+        "order": 2,
+        "stat": "AGI",
+        "items": {
+            "Soulbane": [],
+            "Horn of Lightning God": [
+                "Eye of the Reaper"
+            ],
+            "Ring of Fate": [
+                "Ring of Insanity"
+            ],
+            "Nevedium, the Armor of Demonblood": [
+                "Vest of Storm"
+            ],
+            "Wings of Night Lord": [
+                "Archangel Wings"
+            ]
+        }
+    },
+    {
+        "for": "Soul Weaver",
+        "type": "All round support",
+        "order": 1,
+        "stat": "INT",
+        "items": {
+            "Staff of Plague": [],
+            "Hood of Apocalypse": [],
+            "Horn of God": [],
+            "Robe of Archlich": [],
+            "Soul Devourer": []
+        }
+    }
+]
