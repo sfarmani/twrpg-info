@@ -11,7 +11,7 @@
             "Chaos": [
                 "Blazing Heart"
             ],
-            "Horn of Lightning God": [],
+            "Radiance of the One": [],
             "Ring of Fate": [
                 "Ring of Insanity"
             ],
@@ -184,10 +184,43 @@
         }
     },
     {
+        "for": "Merchant",
+        "type": "Support",
+        "order": 1,
+        "stat": "STR",
+        "description": [
+            "Both Universe and Demise have their uses so make sure to get both. But first focus on Universe as it is essentially more useful",
+            "Use Despair only if you want off-hand damage (have too much supports or something like that)",
+            "Embrace of Nature is easy to get since its not a craft and is still useful until you get Grim Heart and eventually Protection"
+        ],
+        "items": {
+            "Bag of Universe": [
+                "Bag of Demise",
+                "Bag of Despair"
+            ],
+            "Spirit of Protector": [
+                "Halo of Judgment"
+            ],
+            "Ring of Fate": [],
+            "Harmony of Sky and Earth": [
+                "Hades, the Armor of Despair"
+            ],
+            "Protection of the Fairies": [
+                "Grim Heart",
+                "Embrace of Nature",
+                "Wings of Immortal"
+            ]
+        }
+    },
+    {
         "for": "Paladin",
         "type": "DPS",
         "order": 1,
         "stat": "STR",
+        "description": [
+            "The first items are for DPS purposes. In most of the cases below, the second item is used until you get to the first one.",
+            "In other cases they are for supporting when needed"
+        ],
         "items": {
             "Calamity": [],
             "Horn of Lightning God": [
@@ -197,10 +230,33 @@
                 "Bell of Light"
             ],
             "Hades, the Armor of Despair": [
-                "Felspike Armor"
+                "Felspike Armor",
+                "Harmony of Sky and Earth"
             ],
             "Wings of Night Lord": [
-                "Protection of the Fairies"
+                "Protection of the Fairies",
+                "Brave Heart"
+            ]
+        }
+    },
+    {
+        "for": "Assassin",
+        "type": "DPS",
+        "order": 1,
+        "stat": "AGI",
+        "items": {
+            "Cosmic Reaper": [],
+            "Eye of the Reaper": [
+                "Mask of Demigod"
+            ],
+            "Cold Ring of Death": [
+                "Ring of Fate"
+            ],
+            "Nevedium, the Armor of Demonblood": [
+                "Athanasia, the Armor of the Reaper"
+            ],
+            "Storm": [
+                "Archangel Wings"
             ]
         }
     },
@@ -209,12 +265,53 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
+        "description": [
+            "Radiance guts your damage, however it provides a low CD AMS.",
+            "The rest of the items are things you'd make before getting to the main build as they are probably easier to make"
+        ],
         "items": {
-            "Pheles, the Bow of God": [],
-            "Eye of the Reaper": [],
-            "Ring of Insanity": [],
-            "Athanasia, the Armor of the Reaper": [],
-            "Storm": []
+            "Pheles, the Bow of God": [
+                "Everfrostbane"
+            ],
+            "Eye of the Reaper": [
+                "Radiance of the One"
+            ],
+            "Ring of Insanity": [
+                "Cold Ring of Death"
+            ],
+            "Athanasia, the Armor of the Reaper": [
+                "Vest of Storm",
+                "Nevedium, the Armor of Demonblood"
+            ],
+            "Storm": [
+                "Cloak of the Fallen Shadows",
+                "Cloak of Deep Abyss"
+            ]
+        }
+    },
+    {
+        "for": "Gunner",
+        "type": "DPS",
+        "order": 1,
+        "stat": "AGI",
+        "description": [
+            "Use Wings of Blood Lord for Survival"
+        ],
+        "items": {
+            "Last Word": [],
+            "Eye of the Reaper": [
+                "Radiance of the One"
+            ],
+            "Ring of Insanity": [
+                "Ring of Fate"
+            ],
+            "Vest of Storm": [
+                "Athanasia, the Armor of the Reaper"
+            ],
+            "Storm": [
+                "Wings of Blood Lord",
+                "Wings of Flame Lord"
+            ]
         }
     },
     {
@@ -222,19 +319,33 @@
         "type": "Support DPS",
         "order": 1,
         "stat": "AGI",
+        "description": [
+            "For weapon, choose something for the situation. In most cases Espishu should be fine, but there are cases where more breaks or more MR is needed",
+            "Helms are also situational, as each one provides a different set of supports along with good DPS.",
+            "To go with full DPS you can swtich to STR and use Spirit of Protector",
+            "The same can be said about the armors."
+        ],
         "items": {
             "Espishu, the Sword of Chaos": [
-                "Eternal Winter"
+                "Eternal Winter",
+                "Heaven's Door"
             ],
             "Crown of Serenity": [
-                "Halo of Judgment"
+                "Crown of Absolute Zero",
+                "Radiance of the One",
+                "Spirit of Protector"
             ],
-            "Ring of Hope": [],
+            "Ring of Hope": [
+                "Ring of Insanity"
+            ],
             "Vest of Storm": [
-                "Harmony of Sky and Earth"
+                "Harmony of Sky and Earth",
+                "Plates of Lightning",
+                "Frostshard Armor"
             ],
             "Protection of the Fairies": [
-                "Grim Heart"
+                "Brave Heart",
+                "Wings of Immortal"
             ]
         }
     },
@@ -248,9 +359,113 @@
             "Radiance of the One": [
                 "Eye of the Reaper"
             ],
-            "Heaven's Fist": [],
-            "Athanasia, the Armor of the Reaper": [],
+            "Heaven's Fist": [
+                "Ring of Insanity"
+            ],
+            "Athanasia, the Armor of the Reaper": [
+                "Nevedium, the Armor of Demonblood"
+            ],
             "Wings of Flame Lord": []
+        }
+    },
+    {
+        "for": "Phantom Blade",
+        "type": "DPS",
+        "order": 1,
+        "stat": "AGI",
+        "items": {
+            "Atricia, the Sword of Dreams": [
+                "The Ender"
+            ],
+            "Eye of the Reaper": [
+                "Radiance of the One"
+            ],
+            "Ring of Fate": [],
+            "Vest of Storm": [],
+            "Wings of Night Lord": []
+        }
+    },
+    {
+        "for": "Reaper",
+        "type": "DPS",
+        "order": 1,
+        "stat": "AGI",
+        "description": [
+            "If you can get Ender early on, you do not need Espishu anymore.",
+            "Ring of Fate is very situational and only good for fights with lots of CC"
+        ],
+        "items": {
+            "Cosmic Reaper": [
+                "The Ender",
+                "Espishu, the Sword of Eternity"
+            ],
+            "Horn of Lightning God": [
+                "Radiance of the One"
+            ],
+            "Ring of Insanity": [
+                "Ring of Fate"
+            ],
+            "Athanasia, the Armor of the Reaper": [
+                "Vest of Storm"
+            ],
+            "Ruler of the Skies": [
+                "Wings of Blood Lord"
+            ]
+        }
+    },
+    {
+        "for": "Shooter",
+        "type": "DPS",
+        "order": 1,
+        "stat": "AGI",
+        "description": [
+            "Serenity provides more self-sustain, however it should not be used in a proper team composition"
+        ],
+        "items": {
+            "Chrono Chaser": [],
+            "Crown of Absolute Zero": [
+                "Crown of Serenity"
+            ],
+            "Ring of Fate": [
+                "Cold Ring of Death",
+                "Latea, the Ring of Overlord"
+            ],
+            "Nevedium, the Armor of Demonblood": [],
+            "Archangel Wings": [
+                "Brave Heart"
+            ]
+        }
+    },
+    {
+        "for": "Shooter",
+        "type": "Support with some DPS",
+        "order": 2,
+        "stat": "INT",
+        "description": [
+            "Serenity with Rainmaker can be used to mass buff your allies",
+            "Use Nebula Rose if shields needed and no one else in your team has one",
+            "Use Winter Robe until Jupiter"
+        ],
+        "items": {
+            "Cosmic Star": [
+                "Rainmaker"
+            ],
+            "Crown of Absolute Zero": [
+                "Crown of Serenity",
+                "Hood of Apocalypse"
+            ],
+            "Ring of Despair": [
+                "Nebula Rose",
+                "Horn of God"
+            ],
+            "Jupiter, the Robe of Heavens": [
+                "Winter Robe",
+                "Robe of Archlich"
+            ],
+            "Brave Heart": [
+                "Protection of the Fairies",
+                "Wings of Immortal"
+            ]
         }
     },
     {
@@ -260,7 +475,9 @@
         "stat": "AGI",
         "items": {
             "Eternal Flame": [],
-            "Horn of Lightning God": [],
+            "Horn of Lightning God": [
+                "Crown of Extreme Anger"
+            ],
             "Latea, the Ring of Overlord": [
                 "Ring of Insanity"
             ],
@@ -294,16 +511,400 @@
         }
     },
     {
-        "for": "Soul Weaver",
-        "type": "All round support",
+        "for": "Sword Enchanter",
+        "type": "DoT / Debuffer",
+        "order": 1,
+        "stat": "AGI",
+        "items": {
+            "Espishu, the Sword of Chaos": [],
+            "Eye of the Reaper": [
+                "Radiance of the One"
+            ],
+            "Ring of Insanity": [
+                "Heaven's Fist"
+            ],
+            "Vest of Storm": [],
+            "Cloak of Deep Abyss": [
+                "Wings of Blood Lord"
+            ]
+        }
+    },
+    {
+        "for": "Swordsman",
+        "type": "DPS",
+        "order": 1,
+        "stat": "AGI",
+        "description": [
+            "Plates of Lightning is a mixed build",
+            "Vest of Storm is good until Athanasia"
+        ],
+        "items": {
+            "Atricia, the Sword of Dreams": [],
+            "Eye of the Reaper": [],
+            "Cold Ring of Death": [],
+            "Athanasia, the Armor of the Reaper": [
+                "Plates of Lightning",
+                "Vest of Storm"
+            ],
+            "Wings of Night Lord": []
+        }
+    },
+    {
+        "for": "Thunderer",
+        "type": "DPS / situational gear",
+        "order": 1,
+        "stat": "AGI",
+        "items": {
+            "Espishu, the Sword of Chaos": [
+                "Winter's Heart"
+            ],
+            "Radiance of the One": [],
+            "Ring of Insanity": [],
+            "Plates of Lightning": [
+                "Harmony of Sky and Earth"
+            ],
+            "Cloak of Dark Abyss": [
+                "Ruler of the Skies"
+            ]
+        }
+    },
+    {
+        "for": "Thunderer",
+        "type": "Burst DPS / situational gear",
+        "order": 2,
+        "stat": "AGI",
+        "items": {
+            "Espishu, the Sword of Chaos": [
+                "Winter's Heart"
+            ],
+            "Crown of Absolute Zero": [],
+            "Ring of Fate": [],
+            "Plates of Lightning": [
+                "Harmony of Sky and Earth"
+            ],
+            "Cloak of Dark Abyss": [
+                "Ruler of the Skies"
+            ]
+        }
+    },
+    {
+        "for": "Alchemist",
+        "type": "DPS with support",
         "order": 1,
         "stat": "INT",
         "items": {
             "Staff of Plague": [],
-            "Hood of Apocalypse": [],
-            "Horn of God": [],
-            "Robe of Archlich": [],
+            "Prophetia, the Greater Source of Mana": [],
+            "Ring of Divine Winds": [],
+            "Thanatos, the Robe of Hell": [
+                "Winter Robe"
+            ],
+            "Soul Devourer": [
+                "Wings of Frost Lord"
+            ]
+        }
+    },
+    {
+        "for": "Arcane Mage",
+        "type": "DPS with support",
+        "order": 1,
+        "stat": "INT",
+        "items": {
+            "Ethenos, the Staff of Chaos": [
+                "Hell Riser",
+                "Crimson Hatred"
+            ],
+            "Prophetia, the Greater Source of Mana": [],
+            "Ring of Fate": [
+                "Seal of Deceiver"
+            ],
+            "Thanatos, the Robe of Hell": [
+                "Winter Robe"
+            ],
+            "Wings of Frost Lord": [
+                "Archangel Wings"
+            ]
+        }
+    },
+    {
+        "for": "Blood Weaver",
+        "type": "Full DPS",
+        "order": 1,
+        "stat": "INT",
+        "description": [
+            "Winter's Heart is situational",
+            "Use Trueblood Ring until Horn of God",
+            "User Embrace of Nature until Grim Heart, then work your way towards Wings of Immortal and eventually Brave Heart"
+        ],
+        "items": {
+            "Ethenos, the Staff of Chaos": [
+                "Armageddon",
+                "Winter's Heart"
+            ],
+            "Hood of Apocalypse": [
+                "Crown of Absolute Zero"
+            ],
+            "Horn of God": [
+                "Trueblood Ring",
+                "Ring of Revival"
+            ],
+            "Bloodseeker Plates": [],
+            "Wings of Immortal": [
+                "Embrace of Nature",
+                "Brave Heart"
+            ]
+        }
+    },
+    {
+        "for": "Elementalist",
+        "type": "DPS",
+        "order": 1,
+        "stat": "INT",
+        "description": [
+            "Use Apocalypse for survival if needed, it comes with some support as well",
+            "Use Cold Ring of Death is someone else on your team has Horn of God for DPS",
+            "Use Winter Robe for survival if needed",
+            "Brave Heart is a defensive option if needed"
+        ],
+        "items": {
+            "Staff of Plague": [
+                "Chaos Fang"
+            ],
+            "Eye of the Flame Lord": [
+                "Prophetia, the Greater Source of Mana",
+                "Hood of Apocalypse"
+            ],
+            "Ring of Divine Wings": [
+                "Horn of God",
+                "Cold Ring of Death"
+            ],
+            "Thanatos, the Robe of Hell": [
+                "Winter Robe"
+            ],
+            "Archangel Wings": [
+                "Brave Heart"
+            ]
+        }
+    },
+    {
+        "for": "Elementalist",
+        "type": "Support",
+        "order": 2,
+        "stat": "INT",
+        "description": [
+            "Use Apocalypse for survival if needed, it comes with some support as well",
+            "Use Winter Robe for survival if needed",
+            "Brave Heart is a defensive option if needed"
+        ],
+        "items": {
+            "Triple Snow": [
+                "Benziena, the Earthen Soul"
+            ],
+            "Eye of the Flame Lord": [
+                "Prophetia, the Greater Source of Mana",
+                "Hood of Apocalypse"
+            ],
+            "Ring of Divine Wings": [
+                "Nebula Rose"
+            ],
+            "Jupiter, the Robe of Heavens": [
+                "Winter Robe"
+            ],
+            "Protection of the Fairies": [
+                "Brave Heart"
+            ]
+        }
+    },
+    {
+        "for": "Fire Mage",
+        "type": "Full DPS",
+        "order": 1,
+        "stat": "INT",
+        "description": [
+            "Use Soul Devourer for a hybrid of sustain and DPS",
+            "Grim Heart is a defensive option if needed"
+        ],
+        "items": {
+            "Crimson Hatred": [],
+            "Crown of Extreme Anger": [],
+            "Ring of Fate": [],
+            "Thanatos, the Robe of Hell": [
+                "Winter Robe"
+            ],
+            "Archangel Wings": [
+                "Soul Devourer",
+                "Grim Heart"
+            ]
+        }
+    },
+    {
+        "for": "Lightning Mage",
+        "type": "Full DPS",
+        "order": 1,
+        "stat": "INT",
+        "items": {
+            "Ethenos, the Staff of Chaos": [
+                "The Ender",
+                "Armageddon"
+            ],
+            "Horn of Lightning God": [
+                "Crown of Serenity"
+            ],
+            "Ring of Fate": [
+                "Latea, the Ring of Overlord",
+                "Cold Ring of Death",
+                "Nebula Rose"
+            ],
+            "Thanatos, the Robe of Hell": [
+                "Diana, the Robe of Holy Maiden"
+            ],
+            "Storm": [
+                "Soul Devourer"
+            ]
+        }
+    },
+    {
+        "for": "Priest",
+        "type": "Full Support",
+        "order": 1,
+        "stat": "INT",
+        "description": [
+            "Use Grimoire of Darkness for off-hand DPS"
+        ],
+        "items": {
+            "Soul of Abyss": [],
+            "Eye of the Flame Lord": [
+                "Hood of Apocalypse"
+            ],
+            "Bell of Light": [
+                "Grimoire of Darkness",
+                "Horn of God"
+            ],
+            "Jupiter, the Robe of Heavens": [
+                "Diana, the Robe of Holy Maiden"
+            ],
+            "Protection of the Fairies": [
+                "Grim Heart"
+            ]
+        }
+    },
+    {
+        "for": "Soul Weaver",
+        "type": "All round support",
+        "order": 1,
+        "stat": "INT",
+        "description": [
+            "Use Armageddon to maximize burst for team",
+            "Can use Hell Rise until you get Staff of Plague"
+        ],
+        "items": {
+            "Staff of Plague": [
+                "Armageddon",
+                "Hell Riser",
+                "Triple Snow"
+            ],
+            "Hood of Apocalypse": [
+                "Eye of the Flame Lord"
+            ],
+            "Horn of God": [
+                "Ring of Despair",
+                "Nebula Rose"
+            ],
+            "Robe of Archlich": [
+                "Jupiter, the Robe of Heavens",
+                "Winter Robe"
+            ],
+            "Soul Devourer": [
+                "Brave Heart",
+                "Wings of Immortal",
+                "Protection of the Fairies"
+            ]
+        }
+    },
+    {
+        "for": "Warlock",
+        "type": "DPS",
+        "order": 1,
+        "stat": "INT",
+        "items": {
+            "Staff of Plague": [
+                "The Ender"
+            ],
+            "Prophetia, the Greater Source of Mana": [],
+            "Grimoire of Darkness": [],
+            "Thanatos, the Robe of Hell": [
+                "Robe of Archlich"
+            ],
             "Soul Devourer": []
+        }
+    },
+    {
+        "for": "Water Mage",
+        "type": "Support / CC / Damage booster",
+        "order": 1,
+        "stat": "INT",
+        "items": {
+            "Triple Snow": [],
+            "Crown of Absolute Zero": [
+                "Hood of Apocalypse"
+            ],
+            "Nebula Rose": [
+                "Ring of Despair",
+                "Ring of Fate"
+            ],
+            "Winter Robe": [
+                "Thanatos, the Robe of Hell"
+            ],
+            "Wings of Frost Lord": [
+                "Protection of the Fairies",
+                "Brave Heart"
+            ]
+        }
+    },
+    {
+        "for": "Wind Mage",
+        "type": "Support",
+        "order": 1,
+        "stat": "INT",
+        "description": [
+            "Swap between Ring of Hope and Bell of Light for different situations",
+            "Use Grim Heart until Protection of the Fairies"
+        ],
+        "items": {
+            "Chaos Fang": [],
+            "Crown of Serenity": [
+                "Hood of Apocalypse"
+            ],
+            "Ring of Hope": [
+                "Ring of Fate",
+                "Bell of Light"
+            ],
+            "Jupiter, the Robe of Heavens": [],
+            "Protection of the Fairies": [
+                "Grim Heart"
+            ]
+        }
+    },
+    {
+        "for": "Witch",
+        "type": "Support DPS",
+        "order": 1,
+        "stat": "INT",
+        "items": {
+            "Staff of Plague": [
+                "Armageddon"
+            ],
+            "Eye of the Flame Lord": [
+                "Hood of Apocalypse",
+                "Crown of Absolute Zero"
+            ],
+            "Ring of Despair": [
+                "Horn of God"
+            ],
+            "Thanatos, the Robe of Hell": [
+                "Jupiter, the Robe of Heavens"
+            ],
+            "Protection of the Fairies": []
         }
     }
 ]
