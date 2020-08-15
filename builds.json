@@ -229,8 +229,8 @@
             "Heaven's Fist": [
                 "Bell of Light"
             ],
-            "Hades, the Armor of Despair": [
-                "Felspike Armor",
+            "Felspike Armor": [
+                "Hades, the Armor of Despair",
                 "Harmony of Sky and Earth"
             ],
             "Wings of Night Lord": [
@@ -638,20 +638,26 @@
         ],
         "items": {
             "Ethenos, the Staff of Chaos": [
+                "The Ender",
                 "Armageddon",
                 "Winter's Heart"
             ],
             "Hood of Apocalypse": [
-                "Crown of Absolute Zero"
+                "Crown of Absolute Zero",
+                "Eye of the Flame Lord"
             ],
             "Horn of God": [
                 "Trueblood Ring",
                 "Ring of Revival"
             ],
-            "Bloodseeker Plates": [],
+            "Bloodseeker Plates": [
+                "Thanatos, the Robe of Hell",
+                "Jupiter, the Robe of Heavens"
+            ],
             "Wings of Immortal": [
                 "Embrace of Nature",
-                "Brave Heart"
+                "Brave Heart",
+                "Archangel Wings"
             ]
         }
     },
@@ -780,9 +786,7 @@
                 "Grimoire of Darkness",
                 "Horn of God"
             ],
-            "Jupiter, the Robe of Heavens": [
-                "Diana, the Robe of Holy Maiden"
-            ],
+            "Jupiter, the Robe of Heavens": [],
             "Protection of the Fairies": [
                 "Grim Heart"
             ]
@@ -807,7 +811,6 @@
                 "Eye of the Flame Lord"
             ],
             "Horn of God": [
-                "Ring of Despair",
                 "Nebula Rose"
             ],
             "Robe of Archlich": [
