@@ -12867,8 +12867,7 @@
       ],
       "spec": [
         "Specialty",
-        "Bow Master - Improved Freezing Shot: Casting it consecutively allows you to fire a more powerful ice arrow.",
-        "  ↳ Freezing Shot bonus Damage: 400% ATK DMG + Agi X 112 ~ 128 X Water/Ice Affinity"
+        "Bow Master - Casting Freezing Shot consecutively adds (water affinity X (ATK DMG X 4 + AGI X 112 ~ 128)) bonus damage."
       ]
     }
   },
