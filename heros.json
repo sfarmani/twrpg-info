@@ -203,9 +203,12 @@
             "Hydro Buster - Purging Water",
             "Rainmaker - Purging Water",
             "Devil Chaser - Evil Chaser",
+            "Fiend Chaser - Evil Chaser",
+            "Chrono Chaser - Evil Chaser",
             "Dante's Inferno - Abandon All Hope",
             "Punisher - Abandon All Hope",
-            "Last Word - Abandon All Hope"
+            "Last Word - Abandon All Hope",
+            "Heaven's Door - Heavenly Spirit"
         ]
     },
     {
@@ -530,6 +533,7 @@
         "spec": [
             "Spiritus, the Sword of Elements - Affinity",
             "Spirit Dagger - Affinity",
+            "Chaos Fang - Echoing Chaos",
             "Fairy Garment - Fairy Blessing",
             "Diana, the Robe of Holy Maiden - Maiden's Blessing",
             "Ring of the Storm - Improved Gentle Winds",
