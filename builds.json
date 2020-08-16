@@ -633,7 +633,8 @@
         "stat": "INT",
         "description": [
             "Winter's Heart is situational",
-            "Use Trueblood Ring until Horn of God"
+            "Use Trueblood Ring until Horn of God",
+            "Wings of Immortal is an alternative wings for DPS but should not be your first option"
         ],
         "items": {
             "The Ender": [
@@ -644,7 +645,9 @@
                 "Trueblood Ring"
             ],
             "Jupiter, the Robe of Heavens": [],
-            "Brave Heart": []
+            "Brave Heart": [
+                "Wings of Immortal"
+            ]
         }
     },
     {
