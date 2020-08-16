@@ -726,8 +726,7 @@
         "order": 1,
         "stat": "INT",
         "description": [
-            "Use Soul Devourer for a hybrid of sustain and DPS",
-            "Grim Heart is a defensive option if needed"
+            "Use Soul Devourer for a hybrid of sustain and DPS"
         ],
         "items": {
             "Crimson Hatred": [],
@@ -737,8 +736,7 @@
                 "Winter Robe"
             ],
             "Archangel Wings": [
-                "Soul Devourer",
-                "Grim Heart"
+                "Soul Devourer"
             ]
         }
     },
