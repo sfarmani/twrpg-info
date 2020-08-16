@@ -646,7 +646,8 @@
             ],
             "Jupiter, the Robe of Heavens": [],
             "Brave Heart": [
-                "Wings of Immortal"
+                "Wings of Immortal",
+                "Wings of Frost Lord"
             ]
         }
     },
@@ -668,7 +669,9 @@
                 "Trueblood Ring"
             ],
             "Thanatos, the Robe of Hell": [],
-            "Archangel Wings": []
+            "Archangel Wings": [
+                "Wings of Frost Lord"
+            ]
         }
     },
     {
