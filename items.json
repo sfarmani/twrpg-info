@@ -126,7 +126,7 @@
   },
   {
     "id": "I019",
-    "name": "Minor Magic Stone",
+    "name": "Worthless Magic Stone",
     "koreanname": "최하급 매직 스톤",
     "notes": [
       "Can be mined with a Rusty Magical Pickaxe, Sturdy Magic Pickaxe, or Abyssal Pickaxe in the cave below Mine Village"
@@ -7965,7 +7965,7 @@
         "Yeti Tooth": 1
       },
       {
-        "Minor Magic Stone": 1
+        "Worthless Magic Stone": 1
       }
     ]
   },
@@ -9870,7 +9870,7 @@
         "Warm Fur": 1
       },
       {
-        "Minor Magic Stone": 10
+        "Worthless Magic Stone": 10
       }
     ],
     "required_by": [
@@ -16040,7 +16040,7 @@
         "Sea Jewel": 1
       },
       {
-        "Minor Magic Stone": 3
+        "Worthless Magic Stone": 3
       }
     ],
     "stats": {
@@ -16802,7 +16802,7 @@
       "active": [
         "Swings axe to mine ores.",
         "For 5 minutes, mines 1 ores per 1 second",
-        "Available ores: Minor Magical Stone, Lesser Magical Stone, Medium Magical Stone, Greater Magical Stone"
+        "Available ores: Worthless Magical Stone, Lesser Magical Stone, Medium Magical Stone, Greater Magical Stone"
       ]
     }
   },
@@ -16827,7 +16827,7 @@
       "active": [
         "Swings axe to mine magical stones.",
         "For 5 minutes, mines 2 ores per 1 second",
-        "Available ores: Minor Magical Stone, Lesser Magical Stone, Medium Magical Stone, Greater Magical Stone"
+        "Available ores: Worthless Magical Stone, Lesser Magical Stone, Medium Magical Stone, Greater Magical Stone"
       ]
     }
   },
@@ -16879,7 +16879,7 @@
       "active": [
         "Quickly Swings axe to mine magical stones.",
         "For 1 second, mines 10 ores per 0.1 seconds",
-        "Available ores: Minor Magical Stone, Lesser Magical Stone, Medium Magical Stone, Greater Magical Stone"
+        "Available ores: Worthless Magical Stone, Lesser Magical Stone, Medium Magical Stone, Greater Magical Stone"
       ]
     }
   },
