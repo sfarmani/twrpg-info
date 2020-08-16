@@ -637,27 +637,37 @@
             "User Embrace of Nature until Grim Heart, then work your way towards Wings of Immortal and eventually Brave Heart"
         ],
         "items": {
-            "Ethenos, the Staff of Chaos": [
-                "The Ender",
-                "Armageddon",
+            "The Ender": [
                 "Winter's Heart"
             ],
-            "Eye of the Flame Lord": [
-                "Crown of Absolute Zero",
-                "Hood of Apocalypse"
-            ],
+            "Eye of the Flame Lord": [],
             "Horn of God": [
                 "Trueblood Ring"
             ],
-            "Thanatos, the Robe of Hell": [
-                "Jupiter, the Robe of Heavens",
-                "Bloodseeker Plates"
+            "Jupiter, the Robe of Heavens": [],
+            "Brave Heart": []
+        }
+    },
+    {
+        "for": "Blood Weaver",
+        "type": "Pure burst DPS",
+        "order": 2,
+        "stat": "INT",
+        "description": [
+            "Winter's Heart is situational",
+            "Use Trueblood Ring until Horn of God",
+            "User Embrace of Nature until Grim Heart, then work your way towards Wings of Immortal and eventually Brave Heart"
+        ],
+        "items": {
+            "Ethenos, the Staff of Chaos": [
+                "Winter's Heart"
             ],
-            "Wings of Immortal": [
-                "Embrace of Nature",
-                "Brave Heart",
-                "Archangel Wings"
-            ]
+            "Crown of Absolute Zero": [],
+            "Horn of God": [
+                "Trueblood Ring"
+            ],
+            "Thanatos, the Robe of Hell": [],
+            "Archangel Wings": []
         }
     },
     {
