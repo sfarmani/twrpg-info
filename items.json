@@ -6576,7 +6576,9 @@
       "Spirit Dagger",
       "Pheles, the Bow of Skies",
       "Tiberius, the Spear of Lightning",
+      "Espishu, the Sword of Eternity",
       "Crown of Serenity",
+      "Crown of Rage",
       "Creation of the Sky and Earth",
       "Medea, the Robe of the Witch",
       "Ring of Strike",
@@ -11644,7 +11646,8 @@
         "Ancient Hourglass": 1
       },
       {
-        "Purified Water of Nature": 1
+        "Purified Water of Nature": 1,
+        "Fragment of the Wind": 1
       },
       {
         "Fragment of Oblivion": 1,
@@ -13747,7 +13750,8 @@
         "Helm of Passion": 1
       },
       {
-        "Purified Water of Nature": 1
+        "Purified Water of Nature": 1,
+        "Fragment of the Wind": 1
       },
       {
         "Dark Crystal": 1
@@ -16115,7 +16119,7 @@
       "agility": 425,
       "dodgechancepercent": 0.1,
       "passive": [
-        "When casting a spell, empower next attack with darkness (5,000 + 2x main stat damage and heal for 2.5% max hp)"
+        "When casting a spell, empower next attack with darkness (5000 + 2 X main stat) damage"
       ]
     }
   },
@@ -16331,8 +16335,10 @@
       "agility": 625,
       "skilldamagepercent": 0.05,
       "passive": [
-        "When casting a spell, empower next attack with Fury (Does [7,500+2.5x main stat] Pure Damage and heals for 3% of your Max Health on next attack. 1/8 Chance to crit, doing [15,000+6x main stat] Pure Damage and healing for 7.5% of your Max Health on next attack)",
-        "Increases Agility by 60 for 7 seconds when Fury activates"
+        "When casting a spell, empower next attack with Fury",
+        "Deals ((main stat X 2.5) + AGI) pure damage",
+        "Empowered attacks have a 12.5% chance to crit, dealing ((main stat X 5) + (AGI X 2)) pure damage",
+        "Each stack, up to 10, increases AGI by 60 for 7 seconds"
       ]
     }
   },
@@ -16735,7 +16741,7 @@
       "skilldamagepercent": 0.06,
       "passive": [
         "On skill cast, empowers next attack with Decimation:",
-        "Deals (main stat X 2.5 + AGI X 1.5) pure damage",
+        "Deals ((main stat X 2.5) + (AGI X 1.5)) pure damage",
         "User's critical chance to deal (normal damage X user's crit multipler) pure damage",
         "Activates Madness of Slayer for 6 seconds when procced",
         "Creates a stack every proc up to 10 times",
