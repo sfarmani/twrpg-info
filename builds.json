@@ -395,21 +395,21 @@
             "Ring of Fate is very situational and only good for fights with lots of CC"
         ],
         "items": {
-            "Cosmic Reaper": [
-                "The Ender",
-                "Espishu, the Sword of Eternity"
-            ],
-            "Horn of Lightning God": [
-                "Radiance of the One"
+            "Cosmic Reaper": [],
+            "Eye of the Reaper": [
+                "Horn of Lightning God"
             ],
             "Ring of Insanity": [
-                "Ring of Fate"
+                "Ring of Fate",
+                "Heaven's Fist"
             ],
-            "Athanasia, the Armor of the Reaper": [
+            "Nevedium, the Armor of Demonblood": [
+                "Athanasia, the Armor of the Reaper",
                 "Vest of Storm"
             ],
             "Ruler of the Skies": [
-                "Wings of Blood Lord"
+                "Wings of Blood Lord",
+                "Guardian of the Skies"
             ]
         }
     },
