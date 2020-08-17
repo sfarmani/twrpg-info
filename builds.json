@@ -300,16 +300,16 @@
         "items": {
             "Last Word": [],
             "Eye of the Reaper": [
-                "Radiance of the One"
+                "Mask of Demigod"
             ],
             "Ring of Insanity": [
                 "Ring of Fate"
             ],
             "Vest of Storm": [
-                "Athanasia, the Armor of the Reaper"
+                "Athanasia, the Armor of the Reaper",
+                "Nevedium, the Armor of Demonblood"
             ],
             "Storm": [
-                "Wings of Blood Lord",
                 "Wings of Flame Lord"
             ]
         }
