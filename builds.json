@@ -29,6 +29,8 @@
         "description": [
             "Build Meacronancer first, and eventually get to Splitting",
             "Use Halo until you get Horn as it is good for AMS",
+            "Use Plates of Lightning as an in-between armor until Felspike/Hades",
+            "Ring of Strike is a good in between ring until you get to Heaven's Fist",
             "Use Hades if no one else in your team is using it for the debuffs, otherwise use Felspike"
         ],
         "items": {
@@ -39,9 +41,10 @@
                 "Halo of Judgment"
             ],
             "Heaven's Fist": [
-                "Cold Ring of Death"
+                "Ring of Strike"
             ],
             "Felspike Armor": [
+                "Plates of Lightning",
                 "Hades, the Armor of Despair"
             ],
             "Cloak of Deep Abyss": []
