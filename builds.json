@@ -563,9 +563,7 @@
             "Plates of Lightning": [
                 "Harmony of Sky and Earth"
             ],
-            "Cloak of Dark Abyss": [
-                "Ruler of the Skies"
-            ]
+            "Cloak of Dark Abyss": []
         }
     },
     {
@@ -582,9 +580,7 @@
             "Plates of Lightning": [
                 "Harmony of Sky and Earth"
             ],
-            "Cloak of Dark Abyss": [
-                "Ruler of the Skies"
-            ]
+            "Ruler of the Skies": []
         }
     },
     {
@@ -595,7 +591,7 @@
         "items": {
             "Staff of Plague": [],
             "Prophetia, the Greater Source of Mana": [],
-            "Ring of Divine Winds": [],
+            "Cold Ring of Death": [],
             "Thanatos, the Robe of Hell": [
                 "Winter Robe"
             ],
@@ -874,9 +870,7 @@
                 "Thanatos, the Robe of Hell"
             ],
             "Wings of Frost Lord": [
-                "Protection of the Fairies",
-                "Brave Heart",
-                "Soul Eater"
+                "Protection of the Fairies"
             ]
         }
     },
