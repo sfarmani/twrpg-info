@@ -27,9 +27,8 @@
         "order": 1,
         "stat": "STR",
         "description": [
-            "Use Meacronacer if you don't think you can build Splitting fast enough",
+            "Build Meacronancer first, and eventually get to Splitting",
             "Use Halo until you get Horn as it is good for AMS",
-            "Use Plates of Lightning until you get Hades if you can't skip it",
             "Use Hades if no one else in your team is using it for the debuffs, otherwise use Felspike"
         ],
         "items": {
@@ -43,8 +42,6 @@
                 "Cold Ring of Death"
             ],
             "Felspike Armor": [
-                "Plates of Lightning",
-                "Harmony of Sky and Earth",
                 "Hades, the Armor of Despair"
             ],
             "Cloak of Deep Abyss": []
