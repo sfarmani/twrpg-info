@@ -6906,6 +6906,7 @@
       "Everfrostbane",
       "Crown of Serenity",
       "Crown of Composure",
+      "Vest of Storm",
       "Frostshard Armor",
       "Winter Robe",
       "Medea, the Robe of the Witch",
@@ -17946,7 +17947,8 @@
         "Ring of the Storm": 1
       },
       {
-        "Antimatter": 1, "Frozen Debris": 1
+        "Antimatter": 1, 
+        "Frozen Debris": 1
       },
       {
         "Essence of Light": 1

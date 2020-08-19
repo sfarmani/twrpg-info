@@ -137,7 +137,9 @@
             "To maximize ultimate damage, use Splitting and Crown of Absolute Zero",
             "Use Halo is situations when AMS is needed",
             "Only use Ring of Composure if no one else has it or Cloak of the Fallen Shadows as they do not stack",
-            "Bloodseeker plates is used for soloing purposes"
+            "Bloodseeker plates is used for soloing purposes",
+            "Use Hades if no one else in your team is using it for the debuffs",
+            "Soul Eater is used for support"
         ],
         "items": {
             "Eternal Winter": [
@@ -149,14 +151,17 @@
                 "Crown of Absolute Zero"
             ],
             "Ispion, the Runed Ring": [
-                "Ring of Composure"
+                "Ring of Composure",
+                "Latea, the Ring of Overlord"
             ],
             "Harmony of Sky and Earth": [
                 "Felspike Armor",
-                "Bloodseeker Plates"
+                "Bloodseeker Plates",
+                "Hades, the Armor of Despair"
             ],
             "Brave Heart": [
-                "Protection of the Fairies"
+                "Protection of the Fairies",
+                "Soul Eater"
             ]
         }
     },
@@ -556,7 +561,8 @@
             ],
             "Vest of Storm": [],
             "Cloak of Deep Abyss": [
-                "Wings of Blood Lord"
+                "Wings of Blood Lord",
+                "Wings of Flame Lord"
             ]
         }
     },
@@ -660,11 +666,13 @@
         "version": "38b",
         "items": {
             "Ethenos, the Staff of Chaos": [
-                "Hell Riser",
                 "Crimson Hatred"
             ],
-            "Prophetia, the Greater Source of Mana": [],
+            "Prophetia, the Greater Source of Mana": [
+                "Crown of Absolute Zero"
+            ],
             "Ring of Fate": [
+                "Latea, the Ring of Overlord",
                 "Seal of Deceiver"
             ],
             "Thanatos, the Robe of Hell": [
@@ -738,8 +746,8 @@
             "Brave Heart is a defensive option if needed"
         ],
         "items": {
-            "Staff of Plague": [
-                "Chaos Fang"
+            "Chaos Fang": [
+                "Staff of Plague"
             ],
             "Eye of the Flame Lord": [
                 "Prophetia, the Greater Source of Mana",
@@ -749,8 +757,9 @@
                 "Horn of God",
                 "Cold Ring of Death"
             ],
-            "Thanatos, the Robe of Hell": [
-                "Winter Robe"
+            "Jupiter, the Robe of Heavens": [
+                "Winter Robe",
+                "Thanatos, the Robe of Hell"
             ],
             "Archangel Wings": [
                 "Brave Heart"
@@ -776,8 +785,8 @@
                 "Prophetia, the Greater Source of Mana",
                 "Hood of Apocalypse"
             ],
-            "Ring of Divine Wings": [
-                "Nebula Rose"
+            "Nebula Rose": [
+                "Horn of God"
             ],
             "Jupiter, the Robe of Heavens": [
                 "Winter Robe"
@@ -968,22 +977,32 @@
         "order": 1,
         "stat": "INT",
         "version": "38b",
+        "description": [
+            "Ring of Hope is BIS in coordinated teams only",
+            "Use Cold Ring of Death for more DPS"
+        ],
         "items": {
             "Staff of Plague": [
-                "Armageddon"
+                "Armageddon",
+                "Triple Snow"
             ],
             "Hood of Apocalypse": [
                 "Eye of the Flame Lord",
                 "Crown of Absolute Zero"
             ],
-            "Ring of Despair": [
-                "Horn of God"
+            "Nebula Rose": [
+                "Horn of God",
+                "Ring of Hope",
+                "Cold Ring of Death"
             ],
             "Jupiter, the Robe of Heavens": [
-                "Thanatos, the Robe of Hell"
+                "Thanatos, the Robe of Hell",
+                "Robe of Archlich",
+                "Druid's Mantle"
             ],
-            "Soul Devourer": [
-                "Protection of the Fairies"
+            "Brave Heart": [
+                "Protection of the Fairies",
+                "Soul Devourer"
             ]
         }
     }
