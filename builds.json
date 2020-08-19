@@ -653,15 +653,20 @@
         "order": 1,
         "stat": "INT",
         "version": "38b",
+        "description": [
+            "Use Ender with Zombie Lord Icon for a better weapon"
+        ],
         "items": {
-            "Staff of Plague": [],
-            "Prophetia, the Greater Source of Mana": [],
+            "Staff of Plague": [
+                "The Ender"
+            ],
+            "Crown of Absolute Zero": [],
             "Cold Ring of Death": [],
             "Thanatos, the Robe of Hell": [
                 "Winter Robe"
             ],
-            "Soul Devourer": [
-                "Wings of Frost Lord"
+            "Wings of Frost Lord": [
+                "Soul Devourer"
             ]
         }
     },
