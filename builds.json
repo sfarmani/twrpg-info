@@ -4,6 +4,7 @@
         "type": "Full DPS",
         "order": 1,
         "stat": "STR",
+        "version": "38b",
         "description": [
             "Use Frostshard for tanking purposes"
         ],
@@ -26,6 +27,7 @@
         "type": "Tank DPS",
         "order": 1,
         "stat": "STR",
+        "version": "38b",
         "description": [
             "Build Meacronancer first, and eventually get to Splitting",
             "Use Halo until you get Horn as it is good for AMS",
@@ -55,6 +57,7 @@
         "type": "Burst DPS",
         "order": 1,
         "stat": "STR",
+        "version": "38b",
         "description": [
             "Builds for this may change due to the recent re-work",
             "Use Ruinbringer until Splitting"
@@ -81,6 +84,7 @@
         "type": "Support DPS",
         "order": 2,
         "stat": "INT",
+        "version": "38b",
         "description": [
             "Builds for this may change due to the recent re-work"
         ],
@@ -101,6 +105,7 @@
         "type": "Pure DPS",
         "order": 1,
         "stat": "STR",
+        "version": "38b",
         "description": [
             "Use Meacronacer until Ender",
             "Use Hades if no one else on your team has it for debuffs",
@@ -127,6 +132,7 @@
         "type": "Sustain / Tank",
         "order": 1,
         "stat": "STR",
+        "version": "38b",
         "description": [
             "To maximize ultimate damage, use Splitting and Crown of Absolute Zero",
             "Use Halo is situations when AMS is needed",
@@ -159,6 +165,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "STR",
+        "version": "38b",
         "description": [
             "For max DPS it is recommended to go with the first items",
             "The alternate items are for bursting options, as well as defense / support if your team is lacking it"
@@ -190,6 +197,7 @@
         "type": "Support",
         "order": 1,
         "stat": "STR",
+        "version": "38b",
         "description": [
             "Both Universe and Demise have their uses so make sure to get both. But first focus on Universe as it is essentially more useful",
             "Use Despair only if you want off-hand damage (have too much supports or something like that)",
@@ -219,6 +227,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "STR",
+        "version": "38b",
         "description": [
             "The first items are for DPS purposes. In most of the cases below, the second item is used until you get to the first one.",
             "In other cases they are for supporting when needed"
@@ -246,6 +255,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
+        "version": "38b",
         "items": {
             "Cosmic Reaper": [],
             "Eye of the Reaper": [
@@ -267,6 +277,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
+        "version": "38b",
         "description": [
             "Radiance guts your damage, however it provides a low CD AMS.",
             "The rest of the items are things you'd make before getting to the main build as they are probably easier to make"
@@ -296,6 +307,7 @@
         "type": "Burst",
         "order": 1,
         "stat": "AGI",
+        "version": "38b",
         "description": [
             "Use Wings of Blood Lord for Survival"
         ],
@@ -321,6 +333,7 @@
         "type": "Support DPS",
         "order": 1,
         "stat": "AGI",
+        "version": "38b",
         "description": [
             "For weapon, choose something for the situation. In most cases Espishu should be fine, but there are cases where more breaks or more MR is needed",
             "Helms are also situational, as each one provides a different set of supports along with good DPS.",
@@ -356,6 +369,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
+        "version": "38b",
         "description": [
             "Combine Ring of Insanity and Nevedium for an ultimate all-in burst build!"
         ],
@@ -378,6 +392,7 @@
         "type": "Burst",
         "order": 1,
         "stat": "AGI",
+        "version": "38b",
         "description": [
             "Eye of the Reaper for 10 - 15% more burst per T"
         ],
@@ -398,6 +413,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
+        "version": "38b",
         "description": [
             "If you can get Ender early on, you do not need Espishu anymore.",
             "Ring of Fate is very situational and only good for fights with lots of CC"
@@ -426,6 +442,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
+        "version": "38b",
         "description": [
             "Serenity provides more self-sustain, however it should not be used in a proper team composition"
         ],
@@ -449,6 +466,7 @@
         "type": "Support with some DPS",
         "order": 2,
         "stat": "INT",
+        "version": "38b",
         "description": [
             "Serenity with Rainmaker can be used to mass buff your allies",
             "Use Nebula Rose if shields needed and no one else in your team has one",
@@ -481,6 +499,7 @@
         "type": "DPS with some burst",
         "order": 1,
         "stat": "AGI",
+        "version": "38b",
         "items": {
             "Eternal Flame": [],
             "Horn of Lightning God": [
@@ -502,6 +521,7 @@
         "type": "Hybrid DPS",
         "order": 2,
         "stat": "AGI",
+        "version": "38b",
         "items": {
             "Soulbane": [],
             "Horn of Lightning God": [
@@ -523,6 +543,7 @@
         "type": "DPS / buffer",
         "order": 1,
         "stat": "AGI",
+        "version": "38b",
         "items": {
             "Espishu, the Sword of Chaos": [
                 "The Ender"
@@ -544,6 +565,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
+        "version": "38b",
         "description": [
             "Vest of Storm is good until Athanasia"
         ],
@@ -562,6 +584,7 @@
         "type": "Burst",
         "order": 2,
         "stat": "AGI",
+        "version": "38b",
         "description": [
             "Vest of Storm is good until Nevedium"
         ],
@@ -580,6 +603,7 @@
         "type": "DPS / situational gear",
         "order": 1,
         "stat": "AGI",
+        "version": "38b",
         "items": {
             "Espishu, the Sword of Chaos": [
                 "Winter's Heart"
@@ -597,6 +621,7 @@
         "type": "Burst DPS / situational gear",
         "order": 2,
         "stat": "AGI",
+        "version": "38b",
         "items": {
             "Espishu, the Sword of Chaos": [
                 "Winter's Heart"
@@ -614,6 +639,7 @@
         "type": "DPS with support",
         "order": 1,
         "stat": "INT",
+        "version": "38b",
         "items": {
             "Staff of Plague": [],
             "Prophetia, the Greater Source of Mana": [],
@@ -631,6 +657,7 @@
         "type": "DPS with support",
         "order": 1,
         "stat": "INT",
+        "version": "38b",
         "items": {
             "Ethenos, the Staff of Chaos": [
                 "Hell Riser",
@@ -653,6 +680,7 @@
         "type": "Full DPS",
         "order": 1,
         "stat": "INT",
+        "version": "38b",
         "description": [
             "Winter's Heart is situational",
             "Use Trueblood Ring until Horn of God",
@@ -678,6 +706,7 @@
         "type": "Pure burst DPS",
         "order": 2,
         "stat": "INT",
+        "version": "38b",
         "description": [
             "Winter's Heart is situational",
             "Use Trueblood Ring until Horn of God"
@@ -701,6 +730,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "INT",
+        "version": "38b",
         "description": [
             "Use Apocalypse for survival if needed, it comes with some support as well",
             "Use Cold Ring of Death is someone else on your team has Horn of God for DPS",
@@ -732,6 +762,7 @@
         "type": "Support",
         "order": 2,
         "stat": "INT",
+        "version": "38b",
         "description": [
             "Use Apocalypse for survival if needed, it comes with some support as well",
             "Use Winter Robe for survival if needed",
@@ -761,6 +792,7 @@
         "type": "Full DPS",
         "order": 1,
         "stat": "INT",
+        "version": "38b",
         "description": [
             "Use Soul Devourer for a hybrid of sustain and DPS"
         ],
@@ -781,6 +813,7 @@
         "type": "Full DPS",
         "order": 1,
         "stat": "INT",
+        "version": "38b",
         "items": {
             "Ethenos, the Staff of Chaos": [
                 "The Ender",
@@ -807,6 +840,7 @@
         "type": "Full Support",
         "order": 1,
         "stat": "INT",
+        "version": "38b",
         "description": [
             "Use Grimoire of Darkness for off-hand DPS"
         ],
@@ -830,6 +864,7 @@
         "type": "All round support",
         "order": 1,
         "stat": "INT",
+        "version": "38b",
         "description": [
             "Use Armageddon to maximize burst for team",
             "Can use Hell Rise until you get Staff of Plague"
@@ -862,6 +897,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "INT",
+        "version": "38b",
         "items": {
             "Staff of Plague": [
                 "The Ender"
@@ -879,6 +915,7 @@
         "type": "Support / CC / Damage booster",
         "order": 1,
         "stat": "INT",
+        "version": "38b",
         "description": [
             "Use Frost Fairy Wings as damage wings and Grim Heart or Protection of the Fairies as support wings",
             "Before getting Nebula Rose, can use Ring of Composure or stick to Eternal Rose if you got it first",
@@ -905,6 +942,7 @@
         "type": "Support",
         "order": 1,
         "stat": "INT",
+        "version": "38b",
         "description": [
             "Swap between Ring of Hope and Bell of Light for different situations",
             "Use Grim Heart until Protection of the Fairies"
@@ -929,6 +967,7 @@
         "type": "Support DPS",
         "order": 1,
         "stat": "INT",
+        "version": "38b",
         "items": {
             "Staff of Plague": [
                 "Armageddon"
