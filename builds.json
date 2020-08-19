@@ -314,19 +314,21 @@
         "stat": "AGI",
         "version": "38b",
         "description": [
-            "Use Wings of Blood Lord for Survival"
+            "Use Vest of Storm until Athanasia",
+            "Use Halo for AMS when needed",
+            "Use Dragon Mask for Regen if needed"
         ],
         "items": {
             "Last Word": [],
             "Eye of the Reaper": [
-                "Mask of Demigod"
+                "Dragon Mask",
+                "Halo of Judgment"
             ],
             "Ring of Insanity": [
                 "Ring of Fate"
             ],
-            "Vest of Storm": [
-                "Athanasia, the Armor of the Reaper",
-                "Nevedium, the Armor of Demonblood"
+            "Athanasia, the Armor of the Reaper": [
+                "Vest of Storm"
             ],
             "Storm": [
                 "Wings of Flame Lord"
@@ -549,12 +551,15 @@
         "order": 1,
         "stat": "AGI",
         "version": "38b",
+        "description": [
+            "Use Halo for AMS when needed"
+        ],
         "items": {
             "Espishu, the Sword of Chaos": [
                 "The Ender"
             ],
             "Eye of the Reaper": [
-                "Radiance of the One"
+                "Halo of Judgment"
             ],
             "Ring of Insanity": [
                 "Heaven's Fist"
@@ -606,7 +611,7 @@
     },
     {
         "for": "Thunderer",
-        "type": "DPS / situational gear",
+        "type": "DPS / situational",
         "order": 1,
         "stat": "AGI",
         "version": "38b",
@@ -616,15 +621,15 @@
             ],
             "Radiance of the One": [],
             "Ring of Insanity": [],
-            "Plates of Lightning": [
-                "Harmony of Sky and Earth"
+            "Nevedium, the Armor of Demonblood": [
+                "Creation of the Sky and Earth"
             ],
             "Cloak of Dark Abyss": []
         }
     },
     {
         "for": "Thunderer",
-        "type": "Burst DPS / situational gear",
+        "type": "Burst DPS / situational",
         "order": 2,
         "stat": "AGI",
         "version": "38b",
@@ -634,8 +639,8 @@
             ],
             "Crown of Absolute Zero": [],
             "Ring of Fate": [],
-            "Plates of Lightning": [
-                "Harmony of Sky and Earth"
+            "Nevedium, the Armor of Demonblood": [
+                "Creation of the Sky and Earth"
             ],
             "Ruler of the Skies": []
         }
@@ -828,11 +833,11 @@
                 "The Ender",
                 "Armageddon"
             ],
-            "Horn of Lightning God": [
-                "Crown of Serenity"
+            "Crown of Absolute Zero": [
+                "Horn of Lightning God"
             ],
-            "Ring of Fate": [
-                "Latea, the Ring of Overlord",
+            "Latea, the Ring of Overlord": [
+                "Ring of Fate",
                 "Cold Ring of Death",
                 "Nebula Rose"
             ],
