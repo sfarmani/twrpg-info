@@ -108,7 +108,8 @@
         ],
         "items": {
             "The Ender": [
-                "Meacronacer, the Sword of Thousand Illusions"
+                "Tiberius, the Spear of Lightning",
+                "Aglaia, the Spear of Heavenly Flows"
             ],
             "Horn of Lightning God": [
                 "Radiance of the One"
@@ -128,9 +129,9 @@
         "stat": "STR",
         "description": [
             "To maximize ultimate damage, use Splitting and Crown of Absolute Zero",
-            "Use Hades if no one else on your team has it for debuffs",
             "Use Halo is situations when AMS is needed",
-            "Only use Ring of Composure if no one else has it or Cloak of the Fallen Shadows as they do not stack"
+            "Only use Ring of Composure if no one else has it or Cloak of the Fallen Shadows as they do not stack",
+            "Bloodseeker plates is used for soloing purposes"
         ],
         "items": {
             "Eternal Winter": [
@@ -145,10 +146,11 @@
                 "Ring of Composure"
             ],
             "Harmony of Sky and Earth": [
-                "Hades, the Armor of Despair"
+                "Felspike Armor",
+                "Bloodseeker Plates"
             ],
-            "Protection of the Fairies": [
-                "Brave Heart"
+            "Brave Heart": [
+                "Protection of the Fairies"
             ]
         }
     },
@@ -291,7 +293,7 @@
     },
     {
         "for": "Gunner",
-        "type": "DPS",
+        "type": "Burst",
         "order": 1,
         "stat": "AGI",
         "description": [
@@ -354,6 +356,9 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
+        "description": [
+            "Combine Ring of Insanity and Nevedium for an ultimate all-in burst build!"
+        ],
         "items": {
             "Power of Beriel": [],
             "Radiance of the One": [
@@ -370,15 +375,18 @@
     },
     {
         "for": "Phantom Blade",
-        "type": "DPS",
+        "type": "Burst",
         "order": 1,
         "stat": "AGI",
+        "description": [
+            "Eye of the Reaper for 10 - 15% more burst per T"
+        ],
         "items": {
-            "Atricia, the Sword of Dreams": [
+            "Cosmic Reaper": [
                 "The Ender"
             ],
-            "Eye of the Reaper": [
-                "Radiance of the One"
+            "Radiance of the One": [
+                "Eye of the Reaper"
             ],
             "Ring of Fate": [],
             "Vest of Storm": [],
@@ -512,11 +520,13 @@
     },
     {
         "for": "Sword Enchanter",
-        "type": "DoT / Debuffer",
+        "type": "DPS / buffer",
         "order": 1,
         "stat": "AGI",
         "items": {
-            "Espishu, the Sword of Chaos": [],
+            "Espishu, the Sword of Chaos": [
+                "The Ender"
+            ],
             "Eye of the Reaper": [
                 "Radiance of the One"
             ],
@@ -535,7 +545,6 @@
         "order": 1,
         "stat": "AGI",
         "description": [
-            "Plates of Lightning is a mixed build",
             "Vest of Storm is good until Athanasia"
         ],
         "items": {
@@ -543,7 +552,24 @@
             "Eye of the Reaper": [],
             "Cold Ring of Death": [],
             "Athanasia, the Armor of the Reaper": [
-                "Plates of Lightning",
+                "Vest of Storm"
+            ],
+            "Wings of Night Lord": []
+        }
+    },
+    {
+        "for": "Swordsman",
+        "type": "Burst",
+        "order": 2,
+        "stat": "AGI",
+        "description": [
+            "Vest of Storm is good until Nevedium"
+        ],
+        "items": {
+            "Atricia, the Sword of Dreams": [],
+            "Mask of Demigod": [],
+            "Cold Ring of Death": [],
+            "Nevedium, the Armor of Demonblood": [
                 "Vest of Storm"
             ],
             "Wings of Night Lord": []
