@@ -985,32 +985,43 @@
     },
     {
         "for": "Witch",
-        "type": "Support DPS",
+        "type": "DPS",
         "order": 1,
         "stat": "INT",
         "version": "38b",
         "description": [
-            "Ring of Hope is BIS in coordinated teams only",
-            "Use Cold Ring of Death for more DPS"
+            "Use Cold Ring of Death for faster Q casts (gives pure attack speed)"
         ],
         "items": {
-            "Staff of Plague": [
-                "Armageddon",
-                "Triple Snow"
+            "Hell Riser": [
+                "Armageddon"
             ],
+            "Crown of Absolute Zero": [
+                "Prophetia, the Greater Source of Mana"
+            ],
+            "Cold Ring of Death": [
+                "Ring of Despair"
+            ],
+            "Thanatos, the Robe of Hell": [],
+            "Soul Devourer": []
+        }
+    },
+    {
+        "for": "Witch",
+        "type": "Support",
+        "order": 2,
+        "stat": "INT",
+        "version": "38b",
+        "items": {
+            "Staff of Plague": [],
             "Hood of Apocalypse": [
-                "Eye of the Flame Lord",
-                "Crown of Absolute Zero"
+                "Eye of the Flame Lord"
             ],
-            "Nebula Rose": [
-                "Horn of God",
-                "Ring of Hope",
-                "Cold Ring of Death"
+            "Horn of God": [
+                "Nebula Rose"
             ],
             "Jupiter, the Robe of Heavens": [
-                "Thanatos, the Robe of Hell",
-                "Robe of Archlich",
-                "Druid's Mantle"
+                "Robe of Archlich"
             ],
             "Soul Devourer": [
                 "Protection of the Fairies",
