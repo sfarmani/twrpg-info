@@ -623,6 +623,9 @@
         "order": 1,
         "stat": "AGI",
         "version": "38b",
+        "description": [
+            "Use Bloodseeker Plates for a more tankier armor option"
+        ],
         "items": {
             "Espishu, the Sword of Chaos": [
                 "Winter's Heart"
@@ -630,7 +633,8 @@
             "Radiance of the One": [],
             "Ring of Insanity": [],
             "Nevedium, the Armor of Demonblood": [
-                "Creation of the Sky and Earth"
+                "Creation of the Sky and Earth",
+                "Bloodseeker Plates"
             ],
             "Cloak of Dark Abyss": []
         }
@@ -641,6 +645,9 @@
         "order": 2,
         "stat": "AGI",
         "version": "38b",
+        "description": [
+            "Use Bloodseeker Plates for a more tankier armor option"
+        ],
         "items": {
             "Espishu, the Sword of Chaos": [
                 "Winter's Heart"
@@ -648,7 +655,8 @@
             "Crown of Absolute Zero": [],
             "Ring of Fate": [],
             "Nevedium, the Armor of Demonblood": [
-                "Creation of the Sky and Earth"
+                "Creation of the Sky and Earth",
+                "Bloodseeker Plates"
             ],
             "Ruler of the Skies": []
         }
