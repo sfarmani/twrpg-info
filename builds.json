@@ -82,7 +82,7 @@
     },
     {
         "for": "Dark Knight",
-        "type": "Support DPS",
+        "type": "Support with some DPS",
         "order": 2,
         "stat": "INT",
         "version": "38b",
@@ -90,14 +90,19 @@
             "Builds for this may change due to the recent re-work"
         ],
         "items": {
-            "Eternal Winter": [
-                "Calamity"
+            "Winter's Heart": [],
+            "Hood of Apocalypse": [
+                "Prophetia, the Greater Source of Mana",
+                "Eye of the Flame Lord"
             ],
-            "Hood of Apocalypse": [],
-            "Seal of Deceiver": [],
+            "Ring of Hope": [
+                "Nebula Rose",
+                "Horn of God"
+            ],
             "Hades, the Armor of Despair": [],
             "Soul Devourer": [
-                "Brave Heart"
+                "Brave Heart",
+                "Protection of the Fairies"
             ]
         }
     },
