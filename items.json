@@ -18558,7 +18558,7 @@
     "stats": {
       "armor": 690,
       "strength": 820,
-      "drpercent": 0.15,
+      "dtpercent": -0.15,
       "passive": [
         "Provides nearby allies with 1% HP regen and 15% damage resistance for 15 seconds"
       ],
