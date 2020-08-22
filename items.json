@@ -20590,7 +20590,7 @@
     "stats": {
       "allstat": 1250,
       "hp": 7500,
-      "drpercent": 0.1,
+      "dtpercent": -0.1,
       "passive": [
         "While in combat, every 3 seconds increases main stat by 30 for a max of 1500",
         "On death, revives user",
