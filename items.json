@@ -17922,7 +17922,7 @@
     "stats": {
       "armor": 630,
       "agility": 880,
-      "skilldamagepercent": 0.075,
+      "skilldamagepercent": 0.05,
       "mdpercent": 0.05,
       "passive": [
         "On skill cast, activates Wind Fury for 1.5 seconds",
