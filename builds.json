@@ -87,7 +87,8 @@
         "stat": "INT",
         "version": "38b",
         "description": [
-            "Builds for this may change due to the recent re-work"
+            "Builds for this may change due to the recent re-work",
+            "Use Ring of Hope if no other teammates use it"
         ],
         "items": {
             "Winter's Heart": [],
@@ -97,7 +98,8 @@
             ],
             "Ring of Fate": [
                 "Nebula Rose",
-                "Horn of God"
+                "Horn of God",
+                "Ring of Hope"
             ],
             "Hades, the Armor of Despair": [],
             "Soul Devourer": [
