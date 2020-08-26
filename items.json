@@ -2587,7 +2587,8 @@
     "stats": {
       "armor": 170,
       "intelligence": 175,
-      "dodgechancepercent": 0.12
+      "hpregen": 50,
+      "mpregen": 50
     },
     "koreanname": "잭 펌킨 후드"
   },
@@ -13014,7 +13015,8 @@
     "stats": {
       "armor": 190,
       "intelligence": 210,
-      "dodgechancepercent": 0.15
+      "hpregen": 75,
+      "mpregen": 75
     }
   },
   {
