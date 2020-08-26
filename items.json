@@ -13519,7 +13519,8 @@
       "critchancepercent": 0.075,
       "passive": [
         "25% chance to activate Eye of Death on attack",
-        "Increases crit multiplier by 0.20, ATK DMG by 15%, and AGI by 750 1 second after proc for 6 seconds"
+        "Increases crit multiplier by 0.20, ATK DMG by 15%, and AGI by 750 1 second after proc for 6 seconds",
+        "Cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
   },
