@@ -19685,7 +19685,7 @@
     "stats": {
       "damage": 32500,
       "strength": 2350,
-      "skilldamagepercent": 0.15,
+      "skilldamagepercent": 0.12,
       "passive": [
         "On skill cast, activates Song of Glory increasing STR by 250 and skill damage by 2.5% for 5 seconds.",
         "Stacks up to a max of 4 times. Once max is reached, cannot refresh duration of buff."
