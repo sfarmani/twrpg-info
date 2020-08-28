@@ -18409,13 +18409,16 @@
       "mainstat": 300,
       "skilldamagepercent": 0.09,
       "drpercent": 0.09,
-      "active": [
-        "Empowers next attack with Demonic Grasp on use and every 5 seconds",
-        "Empowered attacks hit 5 extra times with 150% ATK DMG each",
-        "Reduces the target's armor by 300 for 3 seconds (Type-A)",
+      "passive": [
+        "Every 5 seconds, empowers next attack with Demonic Grasp:",
+        "Next attack hits 5 extra times with 150% ATK DMG each",
+        "Reduces target's armor by 300 for 3 seconds (Type-A)",
         "Heals user for 7.5% max HP",
-        "Only works on melee attacks",
-        "Cooldown: 10 seconds"
+        "Only works on melee attacks"
+      ],
+      "active": [
+        "On use, empowers next attack with Demonic Grasp",
+        "Cooldown: 10 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialties - Demonic Grasp",
