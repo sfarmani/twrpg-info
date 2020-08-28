@@ -770,8 +770,8 @@
         "order": 7,
         "passive": [
             "Try to satisfy my hunger..",
-            "Every attack deals INT X 4 damage",
-            "Every 4th attack splashes for 400% damage and heals you for Max HP X 7.5%",
+            "Every attack deals INT X 5 damage",
+            "Every 4th attack splashes for 500% damage and heals you for Max HP X 7.5%",
             "Every 16th attack activates Crucifixion"
         ]
     },
@@ -2117,9 +2117,8 @@
         "order": 2,
         "active": [
             "Unleash a powerful attack with mana released from the Sword of Execution.",
-            "Skill Level X 320 damage",
-            "Gathers enemies toward the center, and slows their movement speed by 40% for 4 seconds",
-            "Deals damage equal to Crusader's Max HP X 200% every second"
+            "Deals max HP X 800% magic damage and stuns for 0.25 seconds",
+            "Gathers enemies toward the center, and slows their movement speed by 40% for 4 seconds"
         ]
     },
     {
@@ -2201,8 +2200,7 @@
             "Summons an angel using your own body as a vessel to break the limits on the Execution Sword.",
             "For 12 seconds, gains max attack speed and CC immunity",
             "Heals for Max HP X 15% every second",
-            "Empowers Execution Sword into Heaven's Sword, dealing Attack Damage X 7.5 + STR X 37.5 magic damage",
-            "Cast Time: 0 seconds"
+            "Empowers Execution Sword into Heaven's Sword, increasing the damage dealt by 150% and the activation rate by 25%"
         ]
     },
     {
@@ -2235,7 +2233,7 @@
         "active": [
             "A stance that reacts faster than the mind.",
             "Evades next attack and moves back",
-            "On recast, launches a counter strike dealing (damage blocked X 7.5) damage",
+            "On recast, launches a counter strike dealing (ATK DMG X 7.5) damage",
             "Cooldown: 20 seconds"
         ]
     },
@@ -2512,7 +2510,7 @@
             "Relentlessly slashes the target.",
             "Attacks with Attack Damage X 15% every 0.05 seconds",
             "While active, reduces damage taken by 80% and becomes immune to CC effects",
-            "Can be maintained up to 1 second"
+            "Can be maintained up to 0.75 second"
         ]
     },
     {
@@ -2610,7 +2608,8 @@
             "Becomes one with the shadow to avoid being seen by enemies.",
             "Deals Attack Damage X 600% magic damage on next attack",
             "AGI X 40 bonus damage",
-            "If struck from behind, damage increased by 100%"
+            "If struck from behind, damage increased by 100%",
+            "Increases movement speed"
         ]
     },
     {

@@ -6835,7 +6835,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.012,
+    "droprate": 0.015,
     "required_by": [
       "Essence of Darkness"
     ],
@@ -6868,6 +6868,7 @@
       "Cloak of Deep Abyss",
       "Soul Devourer",
       "Ring of Divine Winds",
+      "Horn of Demon God",
       "Shadow Dragon Icon"
     ],
     "recipe": [
@@ -6885,7 +6886,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.012,
+    "droprate": 0.015,
     "required_by": [
       "Antimatter"
     ],
@@ -6920,6 +6921,7 @@
       "Calamity",
       "Wings of Night Lord",
       "Grim Heart",
+      "Demonic Fist",
       "Shadow Dragon Icon"
     ],
     "recipe": [
@@ -6937,7 +6939,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.009,
+    "droprate": 0.01,
     "required_by": [
       "Frozen Debris"
     ],
@@ -6989,7 +6991,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.012,
+    "droprate": 0.015,
     "required_by": [
       "Steel of God"
     ],
@@ -7031,7 +7033,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.012,
+    "droprate": 0.015,
     "required_by": [
       "Essence of Light"
     ],
@@ -7076,7 +7078,7 @@
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.012,
+    "droprate": 0.015,
     "required_by": [
       "God's Page"
     ],
@@ -7092,7 +7094,7 @@
     "type": "[Wings]",
     "color": "DC143C",
     "level": 380,
-    "droprate": 0.006,
+    "droprate": 0.0075,
     "required_by": [
       "Archangel Wings",
       "Brave Heart",
@@ -7142,7 +7144,7 @@
     "type": "[Weapon non-bow/gun classes]",
     "color": "DC143C",
     "level": 380,
-    "droprate": 0.002,
+    "droprate": 0.0025,
     "required_by": [
       "Calamity"
     ],
@@ -7276,7 +7278,8 @@
       "Ethenos, the Staff of Chaos",
       "Armageddon",
       "Chaos Fang",
-      "Cloak of Deep Abyss"
+      "Cloak of Deep Abyss",
+      "Horn of Demon God"
     ],
     "koreanname": "죽음의 창두"
   },
@@ -7302,7 +7305,9 @@
       "Wings of Frost Lord",
       "Wings of Night Lord",
       "Ethenos, the Staff of Chaos",
-      "Chaos Fang"
+      "Chaos Fang",
+      "Prophetia, the Origin of Knowledge",
+      "Chaotic Pickaxe"
     ],
     "koreanname": "혼돈이 깃든 파편"
   },
@@ -7396,7 +7401,8 @@
       "Harmony of Sky and Earth",
       "Wings of Night Lord",
       "Mask of Demigod",
-      "Bloodseeker Plates"
+      "Bloodseeker Plates",
+      "Prophetia, the Origin of Knowledge"
     ],
     "koreanname": "폭풍의 가호"
   },
@@ -7475,7 +7481,8 @@
       "Chaos Fang",
       "Spirit of Protector",
       "Bloodseeker Plates",
-      "Ring of Divine Winds"
+      "Ring of Divine Winds",
+      "Chaotic Pickaxe"
     ],
     "koreanname": "빛나는 유적의 조각"
   },
@@ -7537,7 +7544,8 @@
       "Nevedium, the Armor of Demonblood",
       "Mask of Demigod",
       "Thanatos, the Robe of Hell",
-      "Jupiter, the Robe of Heavens"
+      "Jupiter, the Robe of Heavens",
+      "Prophetia, the Origin of Knowledge"
     ],
     "koreanname": "화염의 가호"
   },
@@ -7568,7 +7576,8 @@
       "Ethenos, the Staff of Chaos",
       "Heaven's Door",
       "Cloak of Deep Abyss",
-      "Soul Devourer"
+      "Soul Devourer",
+      "Horn of Demon God"
     ],
     "koreanname": "화염의 결정"
   },
@@ -7590,7 +7599,8 @@
       "Wings of Frost Lord",
       "Jupiter, the Robe of Heavens",
       "Heaven's Door",
-      "Wings of Immortal"
+      "Wings of Immortal",
+      "Prophetia, the Origin of Knowledge"
     ],
     "stats": {
       "allstat": 1200,
@@ -7625,7 +7635,9 @@
       "Thanatos, the Robe of Hell",
       "Jupiter, the Robe of Heavens",
       "Spirit of Protector",
-      "Bloodseeker Plates"
+      "Bloodseeker Plates",
+      "Prophetia, the Origin of Knowledge",
+      "Horn of Demon God"
     ],
     "koreanname": "바다의 가호"
   },
@@ -7654,7 +7666,8 @@
       "Chrono Chaser",
       "Chaos Fang",
       "Cloak of Deep Abyss",
-      "Soul Devourer"
+      "Soul Devourer",
+      "Demonic Fist"
     ],
     "koreanname": "바다의 결정"
   },
@@ -7865,7 +7878,8 @@
       "Nevedium, the Armor of Demonblood",
       "Bloodseeker Plates",
       "Wings of Immortal",
-      "Soul Devourer"
+      "Soul Devourer",
+      "Demonic Fist"
     ],
     "stats": {
       "mainstat": 1350,
@@ -7926,7 +7940,8 @@
       "Bag of Demise",
       "Thanatos, the Robe of Hell",
       "Armageddon",
-      "Cloak of Deep Abyss"
+      "Cloak of Deep Abyss",
+      "Demonic Fist"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
@@ -7947,7 +7962,9 @@
       "Nevedium, the Armor of Demonblood",
       "Wings of Night Lord",
       "Mask of Demigod",
-      "Spirit of Protector"
+      "Spirit of Protector",
+      "Prophetia, the Origin of Knowledge",
+      "Horn of Demon God"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
@@ -13414,6 +13431,9 @@
     "type": "[Helm/Hood]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Horn of Demon God"
+    ],
     "recipe": [
       {
         "Horn of Devil": 1
@@ -13621,6 +13641,9 @@
     "type": "[Hood]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Prophetia, the Origin of Knowledge"
+    ],
     "recipe": [
       {
         "Prophetia, the Source of Mana": 1
@@ -15993,6 +16016,9 @@
     "type": "[Ring]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Demonic Fist"
+    ],
     "recipe": [
       {
         "Purefrost Gauntlet": 1
@@ -16874,6 +16900,9 @@
     "description": "Mines magical stones",
     "type": "[Pickaxe]",
     "color": "80BFFF",
+    "required_by": [
+      "Chaotic Pickaxe"
+    ],
     "recipe": [
       {
         "Sturdy Magic Pickaxe": 1
@@ -16890,6 +16919,32 @@
         "Quickly Swings axe to mine magical stones.",
         "For 1 second, mines 10 ores per 0.1 seconds",
         "Available ores: Worthless Magical Stone, Lesser Magical Stone, Medium Magical Stone, Greater Magical Stone"
+      ]
+    }
+  },
+  {
+    "id": "I0OO",
+    "name": "Chaotic Pickaxe",
+    "koreanname": "혼돈의 곡괭이",
+    "description": "Mines chaos stones",
+    "type": "[Pickaxe]",
+    "color": "80BFFF",
+    "recipe": [
+      {
+        "Abyssal Pickaxe": 1
+      },
+      {
+        "Fragment of Chaos": 1
+      },
+      {
+        "Shining Fragment of Ruins": 3
+      }
+    ],
+    "stats": {
+      "active": [
+        "Quickly Swings axe to mine chaos stones.",
+        "For 1 second, mines 10 ores per 0.1 seconds (1 ore for Chaos Magic Stones)",
+        "Available ores: Worthless Magical Stone, Lesser Magical Stone, Medium Magical Stone, Greater Magical Stone, Chaos Magic Stone"
       ]
     }
   },
@@ -18324,6 +18379,53 @@
     }
   },
   {
+    "id": "I0OL",
+    "name": "Demonic Fist",
+    "koreanname": "데모닉 피스트",
+    "description": "영혼마저 비트는 악마의 손",
+    "type": "[Ring]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Heaven's Fist": 1
+      },
+      {
+        "Curse of Greed": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Fragment of Hell": 1
+      },
+      {
+        "Frozen Debris": 1
+      }
+    ],
+    "stats": {
+      "damage": 8000,
+      "allstats": 900,
+      "mainstat": 300,
+      "skilldamagepercent": 0.09,
+      "drpercent": 0.09,
+      "active": [
+        "Empowers next attack with Demonic Grasp on use and every 5 seconds",
+        "Empowered attacks hit 5 extra times with 150% ATK DMG each",
+        "Reduces the target's armor by 300 for 3 seconds (Type-A)",
+        "Heals user for 7.5% max HP",
+        "Only works on melee attacks",
+        "Cooldown: 10 seconds"
+      ],
+      "spec": [
+        "Specialties - Demonic Grasp",
+        "Paladin - Divine Cross damage increased by 20% and cast speed by 50%",
+        "Crusader - Casting Original Sin while Demonic Grasp is active empowers only the last hit, but cooldown is reduced by 66%",
+        "Martial Artist - Casting Namless Arts while Demonic Grasp is active reduces its cast time and duration by 50%, but cooldown is reduced by 66%"
+      ]
+    }
+  },
+  {
     "id": "I0IS",
     "name": "Eye of the Flame Lord",
     "koreanname": "화신의 눈",
@@ -18401,6 +18503,54 @@
         "Instantly restores 30% HP of nearby allies and grants them 10% HP regen per 0.25 seconds for 3 seconds",
         "Stuns nearby enemies for 1.5 seconds and silences for 3 seconds",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0OM",
+    "name": "Prophetia, the Origin of Knowledge",
+    "koreanname": "지혜의 원천 프로피티아",
+    "description": "만물을 꿰뚫어 보는 전지전능의 힘을 부여하는 원천",
+    "type": "[Hood]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Prophetia, the Greater Source of Mana": 1
+      },
+      {
+        "Grail of Eternity": 1
+      },
+      {
+        "Fragment of Chaos": 1
+      },
+      {
+        "Aegis of Storm": 1
+      },
+      {
+        "Aegis of Flame": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Mark of Lord": 1
+      }
+    ],
+    "stats": {
+      "armor": 540,
+      "intelligence": 1120,
+      "mp": 7500,
+      "skilldamagepercent": 0.12,
+      "passive": [
+        "On spell cast, 7.5% chance to activate Enlightment",
+        "Refreshes cooldown of a random spell"
+      ],
+      "active": [
+        "On use, activates Magical Concentration",
+        "Increases INT by 1000 and skill damage by 7.5% for 8 seconds",
+        "Increases INT by 100 and skill damage by 0.5% every second",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -18563,12 +18713,55 @@
       "strength": 820,
       "dtpercent": -0.15,
       "passive": [
-        "Provides nearby allies with 1% HP regen and 15% damage resistance for 15 seconds"
+        "Provides the user and nearby allies with 1% HP regen and 15% damage resistance for 15 seconds"
       ],
       "active": [
         "On use, activates Spirit of Protector",
         "For 12 seconds provides 40% damage resistance to nearby allies",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0ON",
+    "name": "Horn of Demon God",
+    "koreanname": "마신의 뿔",
+    "description": "무로 되돌아가거라 !",
+    "type": "[Helm]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Horn of Lightning God": 1
+      },
+      {
+        "Antimatter": 1
+      },
+      {
+        "Spearhead of Death": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Mark of Lord": 1
+      }
+    ],
+    "stats": {
+      "armor": 320,
+      "allstats": 540,
+      "mainstat": 360,
+      "skilldamagepercent": 0.15,
+      "critchancepercent": 0.15,
+      "dtpercent": 0.12,
+      "passive": [
+        "When moving 3000 distance, your next attack is empowered by Demonic Ray",
+        "Deals (main stat X 50) pure damage in a line in front of user",
+        "Increases user's damage dealt to target by 10% for 2.5 seconds",
+        "Cooldown: 5 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -18608,8 +18801,8 @@
       "active": [
         "On use, activates Extreme Anger",
         "Consumes 50% of current HP",
-        "Deals (main stat X 250) magic damage to nearby enemies (affected by flame affinity)",
-        "For 15 seconds, increases all stats by 1.25% consumed HP (double for main stat) and flame affinity by 5%",
+        "Deals (flame affinity X (main stat X 250)) magic damage to nearby enemies",
+        "For 15 seconds, increases all stats by 1.25% consumed HP (double for main stat) and flame affinity by 7.5%",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -19165,8 +19358,9 @@
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
-        "Specialty - Echoing Chaos",
-        "Wind Mage - Allies hit by a wave of Horn of Notus gain debuff immunity for 5 seconds"
+        "Specialty - Affinity",
+        "Wind Mage - Arrow and Grace of Zephyrus: Chance to spawn fairies when attacking or attacked increased by 5%",
+        "Wind Mage - Also, an ally that has been affected more than 3 times by Horn of Notus gains resistance to debuff for 4 seconds at the end of the skill."
       ]
     }
   },
@@ -20011,7 +20205,7 @@
       "active": [
         "On use activates Chrono Chaser, a projectile that breaks shields and deals (AGI X 250 + 7.5% target's max HP) magic damage",
         "Stuns for 1 second",
-        "Projectile stays in target area for 8 seconds and deals 10% of initial damage per second",
+        "Projectile stays in target area for 4 seconds and deals 20% of initial damage per second",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ],
       "spec": [

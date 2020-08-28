@@ -533,7 +533,7 @@
         "spec": [
             "Spiritus, the Sword of Elements - Affinity",
             "Spirit Dagger - Affinity",
-            "Chaos Fang - Echoing Chaos",
+            "Chaos Fang - Affinity",
             "Fairy Garment - Fairy Blessing",
             "Diana, the Robe of Holy Maiden - Maiden's Blessing",
             "Ring of the Storm - Improved Gentle Winds",
@@ -711,7 +711,6 @@
             "[Weapon all classes]",
             "[Weapon non-bow/gun classes]",
             "[Greatsword]",
-            "[Staff]",
             "[Bastard Sword]",
             "[Armor]",
             "[Robe]",

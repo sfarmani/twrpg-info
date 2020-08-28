@@ -1,5 +1,174 @@
 [
     {
+        "name": "38d",
+        "notes": [
+            "Released on: August 28th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Triple Snow - Fixed enemies sometimes getting insta-killed while under effect of active",
+            "Rainmaker - Now properly counts as source of damage when Water Bullet (Q) is casted",
+            "Rainmaker - Fixed Water Bullet (Q) not bouncing on some targets",
+            "Bag of Demise - Fixed Merchant spec not working",
+            "Ring of Divine Winds - Fixed spell cooldown refresh sometimes causing heroes to get stuck",
+            "Dark Knight - R - Q now counts as a single target spell",
+            "Alchemist - Gate of truth (F) - Fixed providing stun and knockback immunity on top of silence immunity",
+            "Lightning Mage - Discharge (E) now automatically turns off when hero gets stopped"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Added new recipes",
+                    [
+                        "Horn of Demon God",
+                        "Prophetia, the Origin of Knowledge",
+                        "Demonic Fist",
+                        "Chaotic Pickaxe"
+                    ]
+                ]
+            },
+            {
+                "name": "Eternal Winter",
+                "changes": [
+                    "Active - Freeze / Shield effect now starts along with initial damage"
+                ]
+            },
+            {
+                "name": "Chaos Fang",
+                "changes": [
+                    "Added Wind Mage spec"
+                ]
+            },
+            {
+                "name": "Chrono Chaser",
+                "changes": [
+                    "Active - Bonus damage: 10% per second over 8 seconds → 20% per second over 4 seconds"
+                ]
+            },
+            {
+                "name": "Armageddon",
+                "changes": [
+                    "Reduced cast time of Song of Destruction"
+                ]
+            },
+            {
+                "name": "Spirit of Protector",
+                "changes": [
+                    "Passive - HP regen now always applies to user"
+                ]
+            },
+            {
+                "name": "Crown of Extreme Anger",
+                "changes": [
+                    "Active - Flame affinity increase: 5% → 7.5%"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Archangel Samael",
+                "changes": [
+                    "Guardian of the Skies droprate: 0.6% → 0.75%",
+                    "Material droprate: 1.2% → 1.5%"
+                ]
+            },
+            {
+                "name": "Shadow Dragon Irbert",
+                "changes": [
+                    "Damage of some spells reduced",
+                    "Material droprate: 1.2% / 0.9% → 1.5% / 1%",
+                    "Can now be revived after failure"
+                ]
+            },
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "The Ender droprate: 0.2% → 0.25%"
+                ]
+            },
+            {
+                "name": "Agareth",
+                "changes": [
+                    "Entrance is now marked more clearly"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Remains of Rage (Q)",
+                    [
+                        "Damage: applies over 4 seconds → instant",
+                        "Added 0.25 second stun"
+                    ],
+                    "Max Amplification: Execution Sword (T)",
+                    [
+                        "Heaven's sword proc chance: 20% → 25%"
+                    ]
+                ]
+            },
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Casting any chosen R spell now closes spell menu",
+                    "Refreshing R now refreshes all spells within it and sets souls to max",
+                    "R - A can now be casted when moving",
+                    "R - E damage: main stat X 10 → main stat X 15",
+                    "Fixed R - R only applying damage once",
+                    "Added shield break to R - R if main stat is INT",
+                    "Requiem (T)",
+                    [
+                        "Cooldown: 45 seconds → 30 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Death's Slash (R)",
+                    [
+                        "Duration: 1 second → 0.75 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Shadow Walk (E)",
+                    [
+                        "Added MV SPD buff"
+                    ],
+                    "Shadow Rush (T)",
+                    [
+                        "Now doesn't break invisibility on cast"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Demonic Fury (T) - Hunger (passive)",
+                    [
+                        "Damage per attack: INT X 4 → INT X 5",
+                        "4th attack damage multiplier: 4 times → 5 times"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Skill cast delay reduced"
+                ]
+            }
+        ],
+        "misc": [
+            "Minor bosses now cost 0 mana in memory stone",
+            "3rd batch of titles applied"
+        ]
+    },
+    {
         "name": "38b",
         "notes": [
             "Released on: August 11th, 2020",
@@ -15,19 +184,21 @@
                 "name": "Item notes",
                 "changes": [
                     "New items added",
-                    "Chrono Chaser",
-                    "Thanatos, the Robe of Hell",
-                    "Jupiter, the Robe of Heavens",
-                    "Ethenos, the Staff of Chaos",
-                    "Armageddon",
-                    "Heaven's Door",
-                    "Chaos Fang",
-                    "Spirit of Protector",
-                    "Cloak of Deep Abyss",
-                    "Bloodseeker Plates",
-                    "Wings of the Immortal",
-                    "Soul Devourer",
-                    "Ring of Divine Winds"
+                    [
+                        "Chrono Chaser",
+                        "Thanatos, the Robe of Hell",
+                        "Jupiter, the Robe of Heavens",
+                        "Ethenos, the Staff of Chaos",
+                        "Armageddon",
+                        "Heaven's Door",
+                        "Chaos Fang",
+                        "Spirit of Protector",
+                        "Cloak of Deep Abyss",
+                        "Bloodseeker Plates",
+                        "Wings of the Immortal",
+                        "Soul Devourer",
+                        "Ring of Divine Winds"
+                    ]
                 ]
             },
             {
@@ -7637,7 +7808,7 @@
                 ]
             },
             {
-                "name": "Shadow Dragon Irberth",
+                "name": "Shadow Dragon Irbert",
                 "changes": [
                     "Small drake HP: 8,125,600 → 11,125,600",
                     "Big drake HP: 16,251,200 → 19,251,200"
