@@ -18405,7 +18405,7 @@
     ],
     "stats": {
       "damage": 8000,
-      "allstats": 900,
+      "allstat": 900,
       "mainstat": 300,
       "skilldamagepercent": 0.09,
       "drpercent": 0.09,
@@ -18752,7 +18752,7 @@
     ],
     "stats": {
       "armor": 320,
-      "allstats": 540,
+      "allstat": 540,
       "mainstat": 360,
       "skilldamagepercent": 0.15,
       "critchancepercent": 0.15,
