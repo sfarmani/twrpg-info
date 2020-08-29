@@ -18730,7 +18730,7 @@
     "name": "Horn of Demon God",
     "koreanname": "마신의 뿔",
     "description": "무로 되돌아가거라 !",
-    "type": "[Helm]",
+    "type": "[Helm/Hood]",
     "color": "99ff99",
     "level": 400,
     "recipe": [
@@ -18764,7 +18764,7 @@
         "When moving 3000 distance, your next attack is empowered by Demonic Ray",
         "Deals (main stat X 50) pure damage in a line in front of user",
         "Increases user's damage dealt to target by 10% for 2.5 seconds",
-        "Cooldown: 5 seconds"
+        "Cooldown: 5 seconds, cannot be dropped during cooldown"
       ]
     }
   },
