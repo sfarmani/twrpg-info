@@ -40,10 +40,10 @@
             "Splitting of the Sky and Earth": [
                 "Meacronacer, the Sword of Thousand Illusions"
             ],
-            "Horn of Lightning God": [
+            "Horn of Demon God": [
                 "Halo of Judgment"
             ],
-            "Heaven's Fist": [
+            "Demonic Fist": [
                 "Ring of Strike"
             ],
             "Felspike Armor": [
@@ -181,11 +181,12 @@
         "version": "38b",
         "description": [
             "For max DPS it is recommended to go with the first items",
-            "The alternate items are for bursting options, as well as defense / support if your team is lacking it"
+            "The alternate items are for bursting options, as well as defense / support if your team is lacking it",
+            "Make your way to Aglaia until you reach Splitting as its easier to make first"
         ],
         "items": {
             "Splitting of the Sky and Earth": [
-                "Tiberius, the Spear of Lightning"
+                "Aglaia, the Spear of Heavenly Flows"
             ],
             "Horn of Lightning God": [
                 "Crown of Extreme Anger"
@@ -247,10 +248,10 @@
         ],
         "items": {
             "Calamity": [],
-            "Horn of Lightning God": [
+            "Horn of Demon God": [
                 "Spirit of Protector"
             ],
-            "Heaven's Fist": [
+            "Demonic Fist": [
                 "Bell of Light",
                 "Ring of Fate"
             ],
