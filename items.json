@@ -6576,6 +6576,7 @@
     "required_by": [
       "Spirit Dagger",
       "Pheles, the Bow of Skies",
+      "Pheles, the Bow of God",
       "Tiberius, the Spear of Lightning",
       "Espishu, the Sword of Eternity",
       "Crown of Serenity",
@@ -11315,6 +11316,9 @@
     "type": "[Bow]",
     "color": "DC143C",
     "level": 360,
+    "required_by": [
+      "Pheles, the Bow of God"
+    ],
     "recipe": [
       {
         "Pheles, the Bow of Wind": 1
@@ -11328,9 +11332,6 @@
       {
         "Spirit Orb": 1
       }
-    ],
-    "required_by": [
-      "Pheles, the Bow of God"
     ],
     "stats": {
       "damage": 23000,
@@ -12720,6 +12721,9 @@
     "type": "[Bow]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Pheles, the Bow of God"
+    ],
     "recipe": [
       {
         "Stalker": 1
@@ -12739,9 +12743,6 @@
       {
         "Mad Symbol": 1
       }
-    ],
-    "required_by": [
-      "Pheles, the Bow of God"
     ],
     "stats": {
       "damage": 29000,
