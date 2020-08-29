@@ -4,7 +4,7 @@
         "heroClass": "Sniper",
         "mainstat": "AGI",
         "color": "A2F76F",
-        "icon": "SniperIcon2",
+        "icon": "SniperIcon",
         "wearable": [
             "[Weapon all classes]",
             "[Bow]",
@@ -862,7 +862,7 @@
         "heroClass": "Phantom Blade",
         "mainstat": "AGI",
         "color": "99ffbb",
-        "icon": "PBIcon",
+        "icon": "PhantomBladeIcon",
         "wearable": [
             "[Weapon all classes]",
             "[Weapon non-bow/gun classes]",
