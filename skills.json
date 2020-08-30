@@ -984,7 +984,8 @@
             "Gather the element of fire into a single orb, and shoot it at the target.",
             "Skill Level X 600 damage",
             "INT X 30 bonus damage",
-            "Deals additional damage equal to 25% of the burn damage the target is currently taking"
+            "Deals additional damage equal to 25% of the burn damage the target is currently taking",
+            "Cooldown: 5 seconds"
         ]
     },
     {
@@ -1020,7 +1021,7 @@
             "Skill Level X 1500 damage",
             "INT X 100 bonus damage",
             "Damage amplified by 50% each time it travels outward",
-            "Cooldown: 12 seconds"
+            "Cooldown: 10 seconds"
         ]
     },
     {
@@ -2496,7 +2497,7 @@
             "Binds target's movement for 1 second",
             "On finish, deals Attack Damage X 600% damage",
             "AGI X 60 bonus damage",
-            "Whirl of Death will deal pure damage to the target while Death's Dash is active"
+            "Whirl of Death will deal pure damage to the target and the damage of Death's Dash is increased by 50% while Death's Dash is active"
         ]
     },
     {
@@ -2524,7 +2525,7 @@
             "Clears your mind to focus on taking the life of the target.",
             "5% chance on attack to enter focused state for 4 seconds",
             "Reduces damage received by 30% and dodges attacks",
-            "Death's Dash's damage is increased by 40%, and can be instantly cast once"
+            "Death's Dash can be instantly cast once"
         ],
         "active": [
             "Enters focused state immediately",

@@ -18934,7 +18934,7 @@
       "active": [
         "On use, activates Extinction",
         "Provides 1250 INT for 7 seconds",
-        "Upon expiration, send a meteor to every nearby enemy dealing (INT X (10 + amount of spells casted during buff) X 40) magic damage",
+        "Upon expiration, send a meteor to every nearby enemy dealing (INT X (20 + number of spells casted (max 20)) X 20) magic damage",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }

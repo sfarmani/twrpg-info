@@ -1,5 +1,72 @@
 [
     {
+        "name": "38e",
+        "notes": [
+            "Released on: August 30th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Chaos Fang - Fixed Wind Mage spec bugs",
+            "Felspike Armor - Fixed a bug where the damage accumulation did not accumulate while a shield or immunity buff was applied to user",
+            "Demonic Fist - Fixed bugs related to Martial Artist - Nameless Arts (F)",
+            "Shadow Dragon - Fixed a bug where it split again upon death",
+            "Merchant - Fixed the 0 CD bug for throwing potions",
+            "Dark Knight - Fixed spellbook not closing when a spell was casted from it",
+            "Lightning Mage - E bug fixed"
+        ],
+        "items": [
+            {
+                "name": "Thanatos, the Robe of Hell",
+                "changes": [
+                    "Active DMG: INT X 40 X (10 + number of spell casts) → INT X 20 X (20 + number of skill casts (max of 20 casts))"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "(R)",
+                    [
+                        "Souls no longer reset when cooldown is reset"
+                    ],
+                    "(T)",
+                    [
+                        "Basic DMG: main stat X 250 → main stat X 200"
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes" :[
+                    "Death's Dash (E)",
+                    [
+                        "Increases E DMG by 50% for duration"
+                    ],
+                    "Extreme Focus (T)",
+                    [
+                        "E DMG increase by 30% removed"
+                    ]
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Skill delay slightly reduced",
+                    "Fireball (Q)",
+                    [
+                        "Range: 600 → 750",
+                        "Cooldown: 6 seconds → 5 seconds"
+                    ],
+                    "Flame Nova (E)",
+                    [
+                        "Cooldown: 12 seconds → 10 seconds"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "38d",
         "notes": [
             "Released on: August 28th, 2020",
