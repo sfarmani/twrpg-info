@@ -124,7 +124,7 @@
                 "Tiberius, the Spear of Lightning",
                 "Aglaia, the Spear of Heavenly Flows"
             ],
-            "Horn of Lightning God": [
+            "Horn of Demon God": [
                 "Radiance of the One"
             ],
             "Ring of Insanity": [],
@@ -188,7 +188,7 @@
             "Splitting of the Sky and Earth": [
                 "Aglaia, the Spear of Heavenly Flows"
             ],
-            "Horn of Lightning God": [
+            "Horn of Demon God": [
                 "Crown of Extreme Anger"
             ],
             "Ring of Insanity": [
@@ -396,7 +396,7 @@
             "Radiance of the One": [
                 "Eye of the Reaper"
             ],
-            "Heaven's Fist": [
+            "Demonic Fist": [
                 "Ring of Insanity"
             ],
             "Athanasia, the Armor of the Reaper": [
@@ -438,12 +438,12 @@
         ],
         "items": {
             "Cosmic Reaper": [],
-            "Eye of the Reaper": [
-                "Horn of Lightning God"
+            "Horn of Demon God": [
+                "Eye of the Reaper"
             ],
-            "Ring of Insanity": [
+            "Demonic Fist": [
                 "Ring of Fate",
-                "Heaven's Fist"
+                "Ring of Insanity"
             ],
             "Nevedium, the Armor of Demonblood": [
                 "Athanasia, the Armor of the Reaper",
@@ -520,7 +520,7 @@
         "version": "38b",
         "items": {
             "Eternal Flame": [],
-            "Horn of Lightning God": [
+            "Horn of Demon God": [
                 "Crown of Extreme Anger"
             ],
             "Latea, the Ring of Overlord": [
@@ -543,13 +543,13 @@
         "items": {
             "Soulbane": [],
             "Eye of the Reaper": [
-                "Horn of Lightning God"
+                "Horn of Demon God"
             ],
             "Ring of Fate": [
                 "Ring of Insanity"
             ],
-            "Nevedium, the Armor of Demonblood": [
-                "Vest of Storm"
+            "Vest of Storm": [
+                "Nevedium, the Armor of Demonblood"
             ],
             "Wings of Night Lord": [
                 "Archangel Wings"
@@ -859,7 +859,7 @@
                 "Armageddon"
             ],
             "Crown of Absolute Zero": [
-                "Horn of Lightning God"
+                "Horn of Demon God"
             ],
             "Latea, the Ring of Overlord": [
                 "Ring of Fate",
