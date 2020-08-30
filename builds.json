@@ -467,7 +467,8 @@
         "items": {
             "Chrono Chaser": [],
             "Crown of Absolute Zero": [
-                "Crown of Serenity"
+                "Crown of Serenity",
+                "Horn of Demon God"
             ],
             "Ring of Fate": [
                 "Cold Ring of Death",
@@ -678,7 +679,7 @@
             "Staff of Plague": [
                 "The Ender"
             ],
-            "Crown of Absolute Zero": [],
+            "Prophetia, the Origin of Knowledge": [],
             "Cold Ring of Death": [],
             "Thanatos, the Robe of Hell": [
                 "Winter Robe"
@@ -858,8 +859,8 @@
                 "The Ender",
                 "Armageddon"
             ],
-            "Crown of Absolute Zero": [
-                "Horn of Demon God"
+            "Horn of Demon God": [
+                "Crown of Absolute Zero"
             ],
             "Latea, the Ring of Overlord": [
                 "Ring of Fate",
