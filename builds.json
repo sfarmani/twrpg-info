@@ -28,7 +28,7 @@
         "type": "Tank DPS",
         "order": 1,
         "stat": "STR",
-        "version": "38b",
+        "version": "38d",
         "description": [
             "Build Meacronancer first, and eventually get to Splitting",
             "Use Halo until you get Horn as it is good for AMS",
@@ -113,7 +113,7 @@
         "type": "Pure DPS",
         "order": 1,
         "stat": "STR",
-        "version": "38b",
+        "version": "38d",
         "description": [
             "Use Meacronacer until Ender",
             "Use Hades if no one else on your team has it for debuffs",
@@ -178,7 +178,8 @@
         "type": "DPS",
         "order": 1,
         "stat": "STR",
-        "version": "38b",
+        "version": "38d",
+        "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=3341",
         "description": [
             "For max DPS it is recommended to go with the first items",
             "The alternate items are for bursting options, as well as defense / support if your team is lacking it",
@@ -241,7 +242,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "STR",
-        "version": "38b",
+        "version": "38d",
         "description": [
             "The first items are for DPS purposes. In most of the cases below, the second item is used until you get to the first one.",
             "In other cases they are for supporting when needed"
@@ -293,7 +294,8 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
-        "version": "38b",
+        "version": "38d",
+        "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=6390",
         "description": [
             "Radiance guts your damage, however it provides a low CD AMS.",
             "The rest of the items are things you'd make before getting to the main build as they are probably easier to make"
@@ -387,7 +389,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
-        "version": "38b",
+        "version": "38d",
         "description": [
             "Combine Ring of Insanity and Nevedium for an ultimate all-in burst build!"
         ],
@@ -431,7 +433,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
-        "version": "38b",
+        "version": "38d",
         "description": [
             "If you can get Ender early on, you do not need Espishu anymore.",
             "Ring of Fate is very situational and only good for fights with lots of CC"
@@ -460,7 +462,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
-        "version": "38b",
+        "version": "38d",
         "description": [
             "Serenity provides more self-sustain, however it should not be used in a proper team composition"
         ],
@@ -518,7 +520,7 @@
         "type": "DPS with some burst",
         "order": 1,
         "stat": "AGI",
-        "version": "38b",
+        "version": "38d",
         "items": {
             "Eternal Flame": [],
             "Horn of Demon God": [
@@ -540,7 +542,7 @@
         "type": "Hybrid DPS",
         "order": 2,
         "stat": "AGI",
-        "version": "38b",
+        "version": "38d",
         "items": {
             "Soulbane": [],
             "Eye of the Reaper": [
@@ -671,7 +673,7 @@
         "type": "DPS with support",
         "order": 1,
         "stat": "INT",
-        "version": "38b",
+        "version": "38d",
         "description": [
             "Use Ender with Zombie Lord Icon for a better weapon"
         ],
@@ -853,7 +855,7 @@
         "type": "Full DPS",
         "order": 1,
         "stat": "INT",
-        "version": "38b",
+        "version": "38d",
         "items": {
             "Ethenos, the Staff of Chaos": [
                 "The Ender",
