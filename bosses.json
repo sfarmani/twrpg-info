@@ -637,9 +637,6 @@
         "category": "Minor",
         "location": "In Fairy Forest - Deep Forest",
         "conditions": "Level 350",
-        "notes": [
-            "Restricted to only 5 players. Once a player enters they cannot be substitued with another player"
-        ],
         "drops": [
             "odef",
             "rag1",
@@ -739,9 +736,6 @@
         "category": "Mid",
         "location": "In Fairy Forest above Deep Forest entrance, where a statue resides",
         "conditions": "Level 370, 1 Green Powder on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
-        "notes": [
-            "Restricted to only 8 players. Once a player enters they cannot be substitued with another player"
-        ],
         "drops": [
             "I0D2",
             "I0MM",
