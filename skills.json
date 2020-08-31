@@ -3516,11 +3516,9 @@
         "order": 1,
         "passive": [
             "A cursed blade that feeds upon life to give powerful abilities in return.",
-            "Empowers next attack every 6 seconds",
-            "Main Stat X 75 bonus damage",
-            "Resets cooldown of Soul Break",
-            "Rips out target's soul",
-            "When approaching close to a soul, absorbs it to heal for Max HP X 6% + INT X 2"
+            "Every 6 seconds, empowers next attack with Main Stat X 50 magic damage",
+            "Rips out target's soul, which heals you for Max HP X 6% + INT X 2 if you approach it",
+            "Resets cooldown of Soul Break"
         ]
     },
     {
@@ -3532,13 +3530,10 @@
         "order": 2,
         "active": [
             "Delivers a fierce strike that breaks the target's soul apart.",
-            "Attack Damage X 400%",
-            "Mainstat X 30 bonus damage",
-            "For each 0.25 seconds channeled, damage is amplified by 100%",
-            "If channeled to maximum, rips out boss units' souls",
-            "If cast twice consecutively, removes channeling on next cast",
-            "Damage now scales additively instead of mutliplicatively",
-            "Max channeling time: 1 second"
+            "Attack Damage X 400% magic damage",
+            "STR X 30 bonus damage",
+            "Damage is increased by 100% for each 0.25 second channeled, and rips out target's soul if channeled to max",
+            "If cast twice consecutively, next cast has no cast time and has 50% increased damage"
         ]
     },
     {
@@ -3550,12 +3545,10 @@
         "order": 3,
         "active": [
             "Slams down with strength powerful enough to awaken dormant souls lying beneath the grounds.",
-            "Attack Damage X 500% damage",
+            "Attack Damage X 500% magic damage",
             "(STR + INT) X 50 bonus damage",
-            "Activates Deathblade",
-            "If STR is main stat, deals pure damage and creates 4 souls",
-            "If INT is main stat, corrupts target area for 12 seconds, increasing magic damage taken by enemies (Type-D) for (4 + INT / 1250)%",
-            "Field lasts for 8 seconds"
+            "Activates Deathblade and summons 4 souls",
+            "STR Main Stat: Damage is converted into pure damage"
         ]
     },
     {
@@ -3566,26 +3559,90 @@
         "icon": "DarkKnightE",
         "order": 4,
         "active": [
-            "Makes a prayer that is answered with a curse.",
-            "Consumes Max HP X 20% per second",
-            "On finish, deals Max HP X 2000% damage to nearby enemies",
-            "While casting, becomes immune to CC and reduces damage taken by 85%",
-            "On finish, receives shield that absorbs Consumed HP X 120% damage for 12 seconds",
-            "If INT is main stat, shield is generated over the duration of skill cast, and it applies onto nearby allies as well"
+            "Offers an unholy prayer.",
+            "Consumes Max HP X 25% per second",
+            "On finish, deals Max HP X 2000% magic damage to nearby enemies",
+            "On finish, receives shield that absorbs Consumed HP X 100% damage for 8 seconds",
+            "While casting, becomes immune to CC effects and reduces damage taken by 70%",
+            "INT Main Stat: Nearby allies also receive the effect"
         ]
     },
     {
-        "name": "Culling",
+        "name": "Dark Arts",
         "heroClass": "Dark Knight",
         "color": "8080ff",
         "hotkey": "[R]",
         "icon": "DarkKnightR",
         "order": 5,
         "active": [
-            "Harvests the souls of enemies.",
-            "Max MP X 2500% damage",
-            "Absorbs souls hit",
-            "Rips souls of boss units"
+            "Practices dark arts.",
+            "Upon killing an enemy or absorbing a soul, restores 1 SP (max 5)",
+            "SP can be used to cast skills"
+        ]
+    },
+    {
+        "name": "Culling",
+        "heroClass": "Dark Knight",
+        "color": "8080ff",
+        "hotkey": "[R] → [A]",
+        "icon": "DarkKnightR_A",
+        "order": 6,
+        "active": [
+            "Harvest souls.",
+            "Absorbs souls in a straight line"
+        ]
+    },
+    {
+        "name": "Death Coil",
+        "heroClass": "Dark Knight",
+        "color": "8080ff",
+        "hotkey": "[R] → [Q]",
+        "icon": "DarkKnightR_Q",
+        "order": 7,
+        "active": [
+            "Shoots a coil infused with dark magic.",
+            "Deals Main Stat X 50 magic damage to enemy",
+            "Heals ally for INT X 3"
+        ]
+    },
+    {
+        "name": "Death's Grasp",
+        "heroClass": "Dark Knight",
+        "color": "8080ff",
+        "hotkey": "[R] → [W]",
+        "icon": "DarkKnightR_W",
+        "order": 8,
+        "active": [
+            "Grasps target's soul.",
+            "Stuns target for 2 seconds",
+            "INT Main Stat: Pulls target toward you"
+        ]
+    },
+    {
+        "name": "Defile",
+        "heroClass": "Dark Knight",
+        "color": "8080ff",
+        "hotkey": "[R] → [E]",
+        "icon": "DarkKnightR_E",
+        "order": 9,
+        "active": [
+            "For 15 seconds, deals Main Stat X 15 magic damage per second",
+            "Reduces target's speed by 25%",
+            "INT Main Stat: Increases magic damage taken by target by (4 + INT / 1250)%"
+        ]
+    },
+    {
+        "name": "Eyes of Fear",
+        "heroClass": "Dark Knight",
+        "color": "8080ff",
+        "hotkey": "[R] → [R]",
+        "icon": "DarkKnightR_R",
+        "order": 10,
+        "active": [
+            "Gathers souls into a ball and blasts it away.",
+            "Main Stat X 100 magic damage",
+            "Upon arrival, deals damage again and summons 4 souls",
+            "INT Main Stat: Breaks barrier effects"
         ]
     },
     {
@@ -3594,14 +3651,13 @@
         "color": "8080ff",
         "hotkey": "[T]",
         "icon": "DarkKnightT",
-        "order": 6,
+        "order": 11,
         "active": [
             "Bestows eternal rest to the souls of the dead.",
-            "Main Stat X 125 damage",
-            "Each soul deals Main Stat X 75 bonus damage",
+            "Main Stat X 200 magic damage",
             "Seals target's abilities for 2 seconds",
-            "If INT is main stat, increases nearby allies HP regen by INT X 1 and magic defense by 60% for 6 seconds",
-            "Cooldown: 30 seconds"
+            "STR Main Stat: Consumes nearby souls to deal Main Stat X 100 bonus damage per soul",
+            "INT Main Stat: Increases nearby allies HP regen by INT X 1 and magic defense by 60% for 6 seconds"
         ]
     },
     {
@@ -3610,15 +3666,12 @@
         "color": "8080c0",
         "hotkey": "[F]",
         "icon": "DarkKnightF",
-        "order": 7,
+        "order": 12,
         "active": [
             "\"Cry !\" - Dark Knight",
-            "Deals Main Stat X 775 damage over 3 seconds",
-            "Invulnerable while active",
-            "On finish, resets cooldowns on other skills",
-            "If INT or STR is main stat, stuns target and deals up to 50% bonus damage based on target's missing HP",
-            "Lasts 2.5 seconds",
-            "Cooldown: 120 seconds"
+            "Deals Main Stat X 775 magic damage over 2.5 seconds",
+            "Periodically stuns target and deals up to 50% bonus damage based on target's missing HP",
+            "On finish, resets cooldowns on other skills"
         ]
     },
     {

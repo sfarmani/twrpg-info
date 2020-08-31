@@ -6866,7 +6866,7 @@
       "Rainmaker",
       "Bag of Demise",
       "Diana, the Robe of Holy Maiden",
-      "Cloak of Deep Abyss",
+      "Cape of Deep Abyss",
       "Soul Devourer",
       "Ring of Divine Winds",
       "Horn of Demon God",
@@ -7278,8 +7278,8 @@
       "Thanatos, the Robe of Hell",
       "Ethenos, the Staff of Chaos",
       "Armageddon",
-      "Chaos Fang",
-      "Cloak of Deep Abyss",
+      "Chaos Dagger",
+      "Cape of Deep Abyss",
       "Horn of Demon God"
     ],
     "koreanname": "죽음의 창두"
@@ -7306,9 +7306,9 @@
       "Wings of Frost Lord",
       "Wings of Night Lord",
       "Ethenos, the Staff of Chaos",
-      "Chaos Fang",
+      "Chaos Dagger",
       "Prophetia, the Origin of Knowledge",
-      "Chaotic Pickaxe"
+      "Chaos Pickaxe"
     ],
     "koreanname": "혼돈이 깃든 파편"
   },
@@ -7479,11 +7479,11 @@
       "Chrono Chaser",
       "Thanatos, the Robe of Hell",
       "Jupiter, the Robe of Heavens",
-      "Chaos Fang",
+      "Chaos Dagger",
       "Spirit of Protector",
       "Bloodseeker Plates",
       "Ring of Divine Winds",
-      "Chaotic Pickaxe"
+      "Chaos Pickaxe"
     ],
     "koreanname": "빛나는 유적의 조각"
   },
@@ -7576,7 +7576,7 @@
       "Last Word",
       "Ethenos, the Staff of Chaos",
       "Heaven's Door",
-      "Cloak of Deep Abyss",
+      "Cape of Deep Abyss",
       "Soul Devourer",
       "Horn of Demon God"
     ],
@@ -7665,8 +7665,8 @@
       "Last Word",
       "Bag of Demise",
       "Chrono Chaser",
-      "Chaos Fang",
-      "Cloak of Deep Abyss",
+      "Chaos Dagger",
+      "Cape of Deep Abyss",
       "Soul Devourer",
       "Demonic Fist"
     ],
@@ -7916,7 +7916,7 @@
       "Jupiter, the Robe of Heavens",
       "Ethenos, the Staff of Chaos",
       "Heaven's Door",
-      "Chaos Fang",
+      "Chaos Dagger",
       "Wings of Immortal",
       "Soul Devourer",
       "Ring of Divine Winds"
@@ -7941,7 +7941,7 @@
       "Bag of Demise",
       "Thanatos, the Robe of Hell",
       "Armageddon",
-      "Cloak of Deep Abyss",
+      "Cape of Deep Abyss",
       "Demonic Fist"
     ],
     "type": "[Material]",
@@ -10844,7 +10844,7 @@
     "color": "DC143C",
     "level": 360,
     "required_by": [
-      "Chaos Fang"
+      "Chaos Dagger"
     ],
     "recipe": [
       {
@@ -12597,7 +12597,7 @@
     "color": "DC143C",
     "level": 380,
     "required_by": [
-      "Chaos Fang"
+      "Chaos Dagger"
     ],
     "recipe": [
       {
@@ -16658,7 +16658,7 @@
     "color": "DC143C",
     "level": 380,
     "required_by": [
-      "Cloak of Deep Abyss"
+      "Cape of Deep Abyss"
     ],
     "recipe": [
       {
@@ -16701,7 +16701,7 @@
     "level": 380,
     "required_by": [
       "Brave Heart",
-      "Cloak of Deep Abyss"
+      "Cape of Deep Abyss"
     ],
     "recipe": [
       {
@@ -16902,7 +16902,7 @@
     "type": "[Pickaxe]",
     "color": "80BFFF",
     "required_by": [
-      "Chaotic Pickaxe"
+      "Chaos Pickaxe"
     ],
     "recipe": [
       {
@@ -16925,7 +16925,7 @@
   },
   {
     "id": "I0OO",
-    "name": "Chaotic Pickaxe",
+    "name": "Chaos Pickaxe",
     "koreanname": "혼돈의 곡괭이",
     "description": "Mines chaos stones",
     "type": "[Pickaxe]",
@@ -19320,7 +19320,7 @@
   },
   {
     "id": "I0AL",
-    "name": "Chaos Fang",
+    "name": "Chaos Dagger",
     "koreanname": "혼돈의 비수",
     "description": "억제할수 없는 혼돈이 깃든 비수",
     "type": "[Weapon all classes]",
@@ -20715,7 +20715,7 @@
   },
   {
     "id": "I0OK",
-    "name": "Cloak of Deep Abyss",
+    "name": "Cape of Deep Abyss",
     "koreanname": "깊은 심연의 망토",
     "description": "그분이 심연에서 너를 기다리고 있다.",
     "type": "[Wings]",
