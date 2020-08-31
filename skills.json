@@ -3512,7 +3512,7 @@
         "heroClass": "Dark Knight",
         "color": "8080ff",
         "hotkey": "[Passive]",
-        "icon": "DarkKnightPass",
+        "icon": "DarkKnightD",
         "order": 1,
         "passive": [
             "A cursed blade that feeds upon life to give powerful abilities in return.",
