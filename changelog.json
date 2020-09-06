@@ -1,5 +1,25 @@
 [
     {
+        "name": "38g",
+        "notes": [
+            "Released on: September 6th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Ancient Hourglass - Fixed tooltip error",
+            "Archangel Samael - Fixed a bug where Zadkiel appeared when summoned",
+            "Shadow Dragon - Fixed re-entry bug"
+        ],
+        "monsters": [
+            {
+                "name": "Guardian of the Sea",
+                "changes": [
+                    "Reduced tracking speed"
+                ]
+            }
+        ]
+    },
+    {
         "name": "38f",
         "notes": [
             "Released on: September 6th, 2020",
