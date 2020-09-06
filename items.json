@@ -5067,6 +5067,88 @@
     "koreanname": "박쥐 날개"
   },
   {
+    "id": "I0OS",
+    "name": "Trident",
+    "koreanname": "삼지창",
+    "dropped_by": [
+      "Guardian of the Sea"
+    ],
+    "type": "[Weapon all classes]",
+    "color": "9370DB",
+    "level": 240,
+    "droprate": 0.1,
+    "stats": {
+      "damage": 7500,
+      "mainstat": 650,
+      "skilldamagepercent": 0.05,
+      "passive": [
+        "On skill cast, enhances the next 3 attacks for 6 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I0OT",
+    "name": "Tidal Robe",
+    "koreanname": "타이달 로브",
+    "dropped_by": [
+      "Guardian of the Sea"
+    ],
+    "type": "[Robe]",
+    "color": "9370DB",
+    "level": 240,
+    "droprate": 0.1,
+    "stats": {
+      "armor": 330,
+      "intelligence": 410,
+      "mdpercent": 0.075,
+      "passive": [
+        "Recovers 4000 HP over 5 seconds when hit"
+      ]
+    }
+  },
+  {
+    "id": "I0OU",
+    "name": "Droplet Bead",
+    "koreanname": "물방울 보주",
+    "dropped_by": [
+      "Guardian of the Sea"
+    ],
+    "type": "[Ring]",
+    "color": "9370DB",
+    "level": 240,
+    "droprate": 0.1,
+    "stats": {
+      "allstat": 340,
+      "hpregen": 75,
+      "mpregen": 75,
+      "affinityiwpercent": 0.05,
+      "active": [
+        "On use, creates a Bubble Barrier for 6 seconds",
+        "Increases the user's magic defense by 90%",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0OV",
+    "name": "Wings of Purification",
+    "koreanname": "정화의 날개",
+    "dropped_by": [
+      "Guardian of the Sea"
+    ],
+    "type": "[Wings]",
+    "color": "9370DB",
+    "level": 240,
+    "droprate": 0.05,
+    "stats": {
+      "allstat": 420,
+      "movespeed": 50,
+      "passive": [
+        "Every 5 seconds recovers 3000 HP of nearby allies"
+      ]
+    }
+  },
+  {
     "id": "phlt",
     "name": "Corruptor",
     "description": "It is already too late if you've realized your corruption !",
@@ -7100,6 +7182,7 @@
       "Archangel Wings",
       "Brave Heart",
       "Ruler of the Skies",
+      "Vest of Divine Winds",
       "Archangel Icon"
     ],
     "stats": {
@@ -7431,7 +7514,8 @@
       "Armageddon",
       "Heaven's Door",
       "Soul Devourer",
-      "Ring of Divine Winds"
+      "Ring of Divine Winds",
+      "Vest of Divine Winds"
     ],
     "koreanname": "폭풍의 결정"
   },
@@ -7578,7 +7662,8 @@
       "Heaven's Door",
       "Cape of Deep Abyss",
       "Soul Devourer",
-      "Horn of Demon God"
+      "Horn of Demon God",
+      "Vest of Divine Winds"
     ],
     "koreanname": "화염의 결정"
   },
@@ -7638,7 +7723,8 @@
       "Spirit of Protector",
       "Bloodseeker Plates",
       "Prophetia, the Origin of Knowledge",
-      "Horn of Demon God"
+      "Horn of Demon God",
+      "Vest of Divine Winds"
     ],
     "koreanname": "바다의 가호"
   },
@@ -7919,7 +8005,8 @@
       "Chaos Dagger",
       "Wings of Immortal",
       "Soul Devourer",
-      "Ring of Divine Winds"
+      "Ring of Divine Winds",
+      "Vest of Divine Winds"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
@@ -7942,7 +8029,8 @@
       "Thanatos, the Robe of Hell",
       "Armageddon",
       "Cape of Deep Abyss",
-      "Demonic Fist"
+      "Demonic Fist",
+      "Vest of Divine Winds"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
@@ -17998,6 +18086,9 @@
     "type": "[Armor]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Vest of Divine Winds"
+    ],
     "recipe": [
       {
         "Vest of Cyclone": 1
@@ -18290,7 +18381,7 @@
         "Casting single-target spells on enemies decreases their magic resistance by 7.5% (Type-B) for 12 seconds"
       ],
       "active": [
-        "Deals water affinity X (1.25% Max HP) pure damage to debuffed enemy, freezes for 2 seconds, and increases allies' damage dealt to it by 5% for 2 seconds",
+        "Deals water affinity X (1.5% Max HP) pure damage to debuffed enemy, freezes for 3 seconds, and increases allies' damage dealt to it by 5% for 2 seconds",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -18764,7 +18855,7 @@
       "passive": [
         "When moving 3000 distance, your next attack is empowered by Demonic Ray",
         "Deals (main stat X 50) pure damage in a line in front of user",
-        "Increases user's damage dealt to target by 10% for 2.5 seconds",
+        "Increases user's damage dealt to target by 8% for 4 seconds",
         "Cooldown: 5 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -19264,6 +19355,50 @@
         "Upon expiration, restores HP and MP equal to absorbed damage",
         "Also deals (main stat X 150) magic damage to nearby enemies",
         "Cooldown: 20 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0OW",
+    "name": "Vest of Divine Winds",
+    "koreanname": "신풍의 도복",
+    "description": "신들린 속도를 하사하는 도복.",
+    "type": "[Armor]",
+    "color": "99ff99",
+    "level": 400,
+    "recipe": [
+      {
+        "Vest of Storm": 1
+      },
+      {
+        "Guardian of the Skies": 1
+      },
+      {
+        "Essence of Storm": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Fragment of Hell": 1
+      },
+      {
+        "Fragment of Soul": 1
+      }
+    ],
+    "stats": {
+      "armor": 860,
+      "agility": 1480,
+      "skilldamagepercent": 0.1,
+      "mdpercent": 0.1,
+      "passive": [
+        "On skill cast, activates Wind Fury for 1.5 seconds",
+        "Next 3 attacks hit double to deal bonus 50% ATK DMG",
+        "Increases AGI by 500",
+        "Increases MOV SPD past 500 limit"
       ]
     }
   },
@@ -20028,7 +20163,7 @@
       ],
       "active": [
         "On use, activates Soul Bombardment",
-        "Shoots 4 arrows to target area, each dealing (AGI X 125) magic damage and stunning targets for 2.5 second",
+        "Shoots 4 arrows to target area, each dealing (AGI X 200) magic damage and stunning targets for 2.5 second",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -20708,7 +20843,7 @@
         "Next attack deals (main stat X 3 + AGI X 2.5) pure damage",
         "Can crit based on user's critical chance",
         "Empowered attack stacks Madness of Night",
-        "For 6 seconds increases AGI by 120 (stacks up to 10 times)",
+        "For 8 seconds increases AGI by 120 (stacks up to 10 times)",
         "Once max stacks is reached, user can no longer gain more for duration but gains 10% damage output"
       ]
     }
@@ -20751,9 +20886,12 @@
       "mdpercent": 0.135,
       "passive": [
         "Dealing damage to enemies with single-target effects applies Abyssal Erosion",
-        "Deals 25% of effect's damage over 3 seconds",
-        "Increases target's magic damage taken by 5 ~ 10% (increases based on amount of time target is debuffed, max at 30 seconds)",
+        "Deals 25% of effect's damage over 5 seconds",
+        "Increases target's magic damage taken by 6 ~ 9% (increases based on amount of time target is debuffed, max at 15 seconds)",
         "If target dies while debuffed it explodes and deals (main stat X 50) pure damage to nearby enemies"
+      ],
+      "active": [
+        "On use, manually activates explosion on targets that have max reduction stacks"
       ]
     }
   },

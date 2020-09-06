@@ -2349,7 +2349,7 @@
             "Dash and skewer enemy with a single strike.",
             "Attack Damage X 100% damage",
             "STR X 7.5 bonus pure damage",
-            "Empowered: For 30 seconds, critical chance with spear attacks against the target is increased by 50%"
+            "Empowered: For 45 seconds, critical chance with spear attacks against the target is increased by 50%"
         ]
     },
     {
@@ -2429,7 +2429,7 @@
         "order": 7,
         "active": [
             "\"She disappeared the moment I saw her on the battlefield.. and then suddenly appeared at the center of the enemies' base, which formed a mountain of corpses.\" - Empire War Veteran",
-            "STR X 775 damage",
+            "STR X 825 damage",
             "Deals 75% bonus damage to enemies within 250 radius from target point",
             "Restores all ki",
             "Cooldown: 120 seconds"
@@ -2511,7 +2511,7 @@
             "Relentlessly slashes the target.",
             "Attacks with Attack Damage X 15% every 0.05 seconds",
             "While active, reduces damage taken by 80% and becomes immune to CC effects",
-            "Can be maintained up to 0.75 second"
+            "Can be maintained up to 0.9 second"
         ]
     },
     {
@@ -4668,8 +4668,7 @@
         "passive": [
             "A fallen angel cannot receive the blessings of the God.",
             "Each attack deals INT X 7.5 magic damage",
-            "Magic defense increased by 25%",
-            "HP lost by 20% per second on Heaven Field"
+            "Magic defense increased by 25%"
         ]
     },
     {

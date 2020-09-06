@@ -224,6 +224,20 @@
         ]
     },
     {
+        "id": "h07P",
+        "name": "Guardian of the Sea",
+        "limit": "2",
+        "category": "Minor",
+        "summon": "In Deep Sea",
+        "conditions": "Level 240 and usage of Orb of the Deep Sea",
+        "drops": [
+            "I0OS",
+            "I0OT",
+            "I0OU",
+            "I0OV"
+        ]
+    },
+    {
         "id": "h00T",
         "name": "Death Knight",
         "limit": "5",

@@ -1,5 +1,131 @@
 [
     {
+        "name": "38f",
+        "notes": [
+            "Released on: September 6th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Ancient Ent - Fixed Elder Ents being able to jump at one target at same time",
+            "Shadow Dragon - Fixed boss fight not resetting if drakes are alive",
+            "Ring of Divine Winds - Fixed increasing all stats by 1200 instead of intended 1250",
+            "Ring of Divine Winds - Bonus attacks now count as basica attacks (can proc effects like Pheles, the Bow of God passive)",
+            "Fire Mage - Fixed W effect not disappearing",
+            "Silence - Fixed going through debuff immunity effects"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Added new craft",
+                    [
+                        "Vest of Divine Winds"
+                    ]
+                ]
+            },
+            {
+                "name": "Soulbane",
+                "changes": [
+                    "Active - DMG per arrow: AGI X 125 → AGI X 200"
+                ]
+            },
+            {
+                "name": "Horn of Demon God",
+                "changes": [
+                    "Increases damage taken from user by 10% for 2.5 seconds → increases damage taken from user by 8% for 4 seconds"
+                ]
+            },
+            {
+                "name": "Ring of Despair",
+                "changes": [
+                    "Active",
+                    [
+                        "DMG: 1.25% max HP of target to 1.5% max HP of target",
+                        "Debuff duration: 2 seconds → 3 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Cape of Deep Abyss",
+                "changes": [
+                    "Passive duration: 3 seconds → 5 seconds",
+                    "Magic defense reduction: 5 ~ 10% over 30 seconds → 6 ~ 9% over 15 seconds",
+                    "Explosion can now be activated manually on targets with max reduction stacks by using the item"
+                ]
+            },
+            {
+                "name": "Wings of Night Lord",
+                "changes": [
+                    "Stack duration: 6 seconds → 8 seconds"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Guardian of the Sea",
+                "changes": [
+                    "New item boss, can be summed with Orb of the Deep Sea",
+                    "Can drop:",
+                    [
+                        "Trident",
+                        "Tidal Robe",
+                        "Droplet Bead",
+                        "Wings of Purification"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Pierce (Q)",
+                    [
+                        "Empowered debuff duration: 30 seconds → 45 seconds"
+                    ],
+                    "Meteor Spear (T)",
+                    [
+                        "Projectile Speed increased"
+                    ],
+                    "Dragon Slam (F)",
+                    [
+                        "DMG: STR X 775 → STR X 825"
+                    ]
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Sword Enchant (D)",
+                    [
+                        "No longer toggles off automatically when hero stops"
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Death's Slash (R)",
+                    [
+                        "Duration: 0.75 seconds → 0.9 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Hell Gate (T) - Fallen Power (passive)",
+                    [
+                        "HP loss while in Priest's Heaven Field removed"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Elemental Tower entry Level: 400 → 420"
+        ]
+    },
+    {
         "name": "38e",
         "notes": [
             "Released on: August 30th, 2020",
