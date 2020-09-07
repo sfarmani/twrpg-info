@@ -152,7 +152,7 @@
             "Compatible Version: v0.24c ~"
         ],
         "bugs": [
-            "Chaos Fang - Fixed Wind Mage spec bugs",
+            "Chaos Dagger - Fixed Wind Mage spec bugs",
             "Felspike Armor - Fixed a bug where the damage accumulation did not accumulate while a shield or immunity buff was applied to user",
             "Demonic Fist - Fixed bugs related to Martial Artist - Nameless Arts (F)",
             "Shadow Dragon - Fixed a bug where it split again upon death",
@@ -248,7 +248,7 @@
                 ]
             },
             {
-                "name": "Chaos Fang",
+                "name": "Chaos Dagger",
                 "changes": [
                     "Added Wind Mage spec"
                 ]
@@ -404,7 +404,7 @@
                         "Ethenos, the Staff of Chaos",
                         "Armageddon",
                         "Heaven's Door",
-                        "Chaos Fang",
+                        "Chaos Dagger",
                         "Spirit of Protector",
                         "Cloak of Deep Abyss",
                         "Bloodseeker Plates",
