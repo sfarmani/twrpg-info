@@ -20,7 +20,7 @@
                 "Frostshard Armor",
                 "Bloodseeker Plates"
             ],
-            "Cloak of Deep Abyss": []
+            "Cape of Deep Abyss": []
         }
     },
     {
@@ -50,7 +50,7 @@
                 "Plates of Lightning",
                 "Hades, the Armor of Despair"
             ],
-            "Cloak of Deep Abyss": []
+            "Cape of Deep Abyss": []
         }
     },
     {
@@ -202,7 +202,7 @@
                 "Plates of Lightning",
                 "Creation of the Sky and Earth"
             ],
-            "Cloak of Deep Abyss": [
+            "Cape of Deep Abyss": [
                 "Storm"
             ]
         }
@@ -316,7 +316,7 @@
             ],
             "Storm": [
                 "Cloak of the Fallen Shadows",
-                "Cloak of Deep Abyss"
+                "Cape of Deep Abyss"
             ]
         }
     },
@@ -580,7 +580,7 @@
                 "Ring of Insanity"
             ],
             "Vest of Storm": [],
-            "Cloak of Deep Abyss": [
+            "Cape of Deep Abyss": [
                 "Wings of Blood Lord",
                 "Wings of Flame Lord"
             ]
