@@ -19396,7 +19396,7 @@
       "mdpercent": 0.1,
       "passive": [
         "On skill cast, activates Wind Fury for 1.5 seconds",
-        "Next 3 attacks hit for 100% ATK DMG",
+        "Next 3 attacks hit for 50% ATK DMG",
         "Increases AGI by 500",
         "Increases MOV SPD past 500 limit"
       ]
