@@ -3244,7 +3244,7 @@
         "heroClass": "Bow Master",
         "color": "b6de69",
         "hotkey": "[Passive]",
-        "icon": "BowMasterPass",
+        "icon": "BowMasterD",
         "order": 1,
         "passive": [
             "The elven archers of ancient origin possess superior intellect and archery skills.",
