@@ -922,9 +922,9 @@
         ],
         "active": [
             "Rally allies by stimulating their blood.",
-            "Increases attack damage and HP by 20% for (6 + INT X 0.0003) seconds",
+            "Increases attack damage and HP by 20% for (5 + Main Stat / 2500) seconds",
             "50% chance to refill 1 blood gauge on attack",
-            "Rose Dance's cast time is removed, next 3 casts will not consume HP, and cooldown is reduced to 0.5 seconds while active",
+            "Rose Dance's cast time and cooldown are removed and can be cast up to 3 times without incurring HP consumption",
             "Cooldown: 15 seconds"
         ]
     },
