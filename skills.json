@@ -1363,7 +1363,7 @@
         "color": "dfbe9f",
         "hotkey": "[Q]",
         "icon": "GunnerQ",
-        "cooldown": 1.5,
+        "cooldown": 4.5,
         "order": 2,
         "active": [
             "Travels a short distance by tumbling.",
@@ -1414,7 +1414,7 @@
         "color": "dfbe9f",
         "hotkey": "[R]",
         "icon": "GunnerR",
-        "cooldown": 5,
+        "cooldown": 15,
         "order": 5,
         "active": [
             "Fires all bullets in a quick succession.",
@@ -3835,7 +3835,7 @@
         "color": "91b9e1",
         "hotkey": "[R]",
         "icon": "ArcaneMageR",
-        "cooldown": 30,
+        "cooldown": 12,
         "order": 5,
         "active": [
             "Dashes forward leaving a magical illusion behind.",
