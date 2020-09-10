@@ -5,14 +5,14 @@
         "color": "96ed9a",
         "hotkey": "[D]",
         "icon": "SniperD",
+        "cooldown": 15,
         "order": 1,
         "active": [
             "Snipers always carry around emergency rations for scenarios where they have to stay hidden for a long time.",
             "Heals for max HP X 30%",
             "Channel to additionally heal for max HP X 15% per second",
             "Recovery period 0.25 seconds",
-            "Can be channeled up to 2 seconds",
-            "Cooldown: 15 seconds"
+            "Can be channeled up to 2 seconds"
         ]
     },
     {
@@ -21,6 +21,7 @@
         "color": "96ed9a",
         "hotkey": "[Q]",
         "icon": "SniperQ",
+        "cooldown": 6,
         "order": 2,
         "passive": [
             "Infuses the spirit of lightning into your arrows.",
@@ -41,14 +42,14 @@
         "color": "dbfda8",
         "hotkey": "[W]",
         "icon": "SniperW",
+        "cooldown": 4,
         "order": 3,
         "active": [
             "Swiftly disengages while attacking at the same time.",
             "Each arrow deals Attack Damage X 200% damage",
             "AGI X 8 bonus damage",
             "First 4 arrows are fired at last attacked target",
-            "Fires up to 20 arrows based on moved distance",
-            "Cooldown: 4 seconds"
+            "Fires up to 20 arrows based on moved distance"
         ]
     },
     {
@@ -57,6 +58,7 @@
         "color": "62f9c8",
         "hotkey": "[E]",
         "icon": "SniperE",
+        "cooldown": 15,
         "order": 4,
         "active": [
             "Surrounds yourself with a protective barrier of wind.",
@@ -64,8 +66,7 @@
             "Pushes enemies outward",
             "Gains maximum charges of lightning",
             "Decreases damage dealt from outside the barrier up to 80% based on distance from attacker",
-            "Lasts 5 seconds",
-            "Cooldown: 15 seconds"
+            "Lasts 5 seconds"
         ]
     },
     {
@@ -91,6 +92,7 @@
         "color": "96ed9a",
         "hotkey": "[T]",
         "icon": "SniperT",
+        "cooldown": 40,
         "order": 6,
         "passive": [
             "Captures enemies' weak points precisely from a far range.",
@@ -101,8 +103,7 @@
             "Finishes off an enemy from a far range.",
             "Attack Damage X 5000% damage",
             "AGI X 200 bonus damage",
-            "Deals 50% damage to other enemies that are hit by the arrow",
-            "CD: 40 seconds"
+            "Deals 50% damage to other enemies that are hit by the arrow"
         ]
     },
     {
@@ -111,6 +112,7 @@
         "color": "b22222",
         "hotkey": "[F]",
         "icon": "SniperF",
+        "cooldown": 120,
         "order": 7,
         "active": [
             "\"Ruthless? Evil beings need no mercy..\" - Sniper",
@@ -138,6 +140,7 @@
         "color": "3e7942",
         "hotkey": "[A]",
         "icon": "SoulWeaverA",
+        "cooldown": 3,
         "order": 2,
         "active": [
             "Sends out a spinning scythe that harvests the souls of enemies.",
@@ -182,6 +185,7 @@
         "color": "58bb4a",
         "hotkey": "[E]",
         "icon": "SoulWeaverE",
+        "cooldown": 6,
         "order": 5,
         "active": [
             "Transfers souls to or from the target.",
@@ -211,6 +215,7 @@
         "color": "487913",
         "hotkey": "[T]",
         "icon": "SoulWeaverT",
+        "cooldown": 60,
         "order": 7,
         "active": [
             "Summons a cradle that holds down the souls of the living.",
@@ -218,8 +223,7 @@
             "Periodically stuns for 1 second",
             "Prevents nearby allies' HP from dropping below 1",
             "Lasts 6 seconds",
-            "Consumes 60 souls",
-            "Activation delay: 0 seconds"
+            "Consumes 60 souls"
         ]
     },
     {
@@ -228,14 +232,14 @@
         "color": "487913",
         "hotkey": "[F]",
         "icon": "SoulWeaverF",
+        "cooldown": 120,
         "order": 8,
         "active": [
             "\"It's nightmare that you can't escape from !\" - Soul Weaver",
             "Pulls enemies in and silences them for 5 seconds",
             "On expiration, deals INT X 725 damage",
             "Stuns for 2.5 seconds",
-            "Activation delay: 0.5 seconds",
-            "Cooldown: 120 seconds"
+            "Activation delay: 0.5 seconds"
         ]
     },
     {
@@ -244,6 +248,7 @@
         "color": "d8f5ef",
         "hotkey": "[D]",
         "icon": "AlchemistD",
+        "cooldown": 8,
         "order": 1,
         "passive": [
             "Affinity with the elementals allows one to practice effective alchemy",
@@ -252,8 +257,7 @@
         "active": [
             "Use mana to allow sudden conjurng.",
             "Removes cast time and cooldown on next Conjuring",
-            "Each 25% bonus in attack speed allows one more Conjuring to be affected",
-            "CD: 8 Seconds"
+            "Each 25% bonus in attack speed allows one more Conjuring to be affected"
         ]
     },
     {
@@ -262,6 +266,7 @@
         "color": "ecca82",
         "hotkey": "[Q]",
         "icon": "AlchemistQ",
+        "cooldown": 8,
         "order": 2,
         "passive": [
             "Affinity with fire bleses you with potent power.",
@@ -269,8 +274,7 @@
         ],
         "active": [
             "Inscribe a fire transmutation circle to perform transmutations.",
-            "Chainable with fire-related transmutations",
-            "Cooldown: 8 seconds"
+            "Chainable with fire-related transmutations"
         ]
     },
     {
@@ -336,6 +340,7 @@
         "color": "a2c6fb",
         "hotkey": "[W]",
         "icon": "AlchemistW",
+        "cooldown": 10,
         "order": 7,
         "passive": [
             "Affinity with water grants regenerative properties.",
@@ -410,6 +415,7 @@
         "color": "ddf8cd",
         "hotkey": "[E]",
         "icon": "AlchemistE",
+        "cooldown": 20,
         "order": 13,
         "passive": [
             "Affinity with air grants vitality.",
@@ -483,6 +489,7 @@
         "color": "afeb8c",
         "hotkey": "[R]",
         "icon": "AlchemistR",
+        "cooldown": 30,
         "order": 18,
         "passive": [
             "Affinity with earth enhances your stamina.",
@@ -573,6 +580,7 @@
         "hotkey": "[R] → [R] → [D]",
         "order": 24,
         "icon": "Recall",
+        "cooldown": 1,
         "active": [
             "Teleport to summoner's position."
         ]
@@ -583,6 +591,7 @@
         "color": "afeb8c",
         "hotkey": "[R] → [R] → [Q]",
         "icon": "AlchemistR_R_Q",
+        "cooldown": 8,
         "order": 25,
         "active": [
             "Focus nearby enemies' attacks onto self."
@@ -594,6 +603,7 @@
         "color": "c5aa83",
         "hotkey": "[R] → [R] → [W]",
         "icon": "AlchemistR_R_W",
+        "cooldown": 20,
         "order": 26,
         "active": [
             "Roll in a line",
@@ -608,6 +618,7 @@
         "color": "c5aa83",
         "hotkey": "[R] → [R] → [E]",
         "icon": "AlchemistR_R_E",
+        "cooldown": 30,
         "order": 27,
         "active": [
             "Creates a shockwave by slamming down.",
@@ -622,6 +633,7 @@
         "color": "ddb3f7P",
         "hotkey": "[T]",
         "icon": "AlchemistT",
+        "cooldown": 45,
         "order": 28,
         "passive": [
             "It seems to temporarily augment user's abilities but it seems to be an artificial one",
@@ -641,6 +653,7 @@
         "color": "f7b395",
         "hotkey": "[F]",
         "icon": "AlchemistF",
+        "cooldown": 120,
         "order": 29,
         "active": [
             "\"I don't know what is the 'truth' of this world. However, as I look at his efforts and sacrifices in attempts to reach it, I believe something truly fascinating is awaiting him at the end of his road.\" - A Scholar of Prius",
@@ -648,8 +661,7 @@
             "Increases INT by 2% on every second and on every skill cast (up to 30 times)",
             "Reduces damage taken by 40%",
             "On expiration, deals INT X 400 damage to nearby enemies and stuns for 2.5 seconds",
-            "Immune to silence for duration",
-            "Cooldown: 120 seconds"
+            "Immune to silence for duration"
         ]
     },
     {
@@ -698,6 +710,7 @@
         "color": "9465e2",
         "hotkey": "[W]",
         "icon": "WarlockW",
+        "cooldown": 0.1,
         "order": 3,
         "active": [
             "Create a gate in dimension that spews corrupt spirits to attack nearby enemies.",
@@ -706,8 +719,7 @@
             "Attack speed is affected by Warlock's attack speed bonus",
             "Can maintain up to a maximum of 2 gates",
             "Orb attacks prioritizes Warlock's target if Warlock is nearby",
-            "Base attack cycle: 4 seconds",
-            "Cooldown: 0 seconds"
+            "Base attack cycle: 4 seconds"
         ]
     },
     {
@@ -716,6 +728,7 @@
         "color": "9465e2",
         "hotkey": "[E]",
         "icon": "WarlockE",
+        "cooldown": 24,
         "order": 4,
         "active": [
             "Summon a vengeful spirit that absorbs damage and reflects them back at the attackers.",
@@ -731,6 +744,7 @@
         "color": "9465e2",
         "hotkey": "[R]",
         "icon": "WarlockR",
+        "cooldown": 30,
         "order": 5,
         "passive": [
             "Amplify your magic with grimoire that is inscribed with ancient demons' powers.",
@@ -752,6 +766,7 @@
         "color": "9465e2",
         "hotkey": "[T]",
         "icon": "WarlockT",
+        "cooldown": 100,
         "order": 6,
         "active": [
             "Obtains a demon's body at the cost of one's own soul.",
@@ -794,6 +809,7 @@
         "color": "9465e2",
         "hotkey": "[T] → [Q]",
         "icon": "WarlockT_Q",
+        "cooldown": 12,
         "order": 9,
         "active": [
             "Embrace your end!",
@@ -807,6 +823,7 @@
         "color": "9465e2",
         "hotkey": "[T] → [W]",
         "icon": "WarlockT_W",
+        "cooldown": 9,
         "order": 10,
         "active": [
             "Surge forward to execute enemies.",
@@ -832,14 +849,14 @@
         "color": "9465e2",
         "hotkey": "[F]",
         "icon": "WarlockF",
+        "cooldown": 120,
         "order": 12,
         "active": [
             "\"Seems like the time to unleash my evil left hand has come..\" - Haran",
             "INT X 325 damage per second",
             "Roots nearby enemies",
             "Lasts 3 seconds",
-            "0.5 seconds to activate",
-            "Cooldown: 120 seconds"
+            "0.5 seconds to activate"
         ]
     },
     {
@@ -862,6 +879,7 @@
         "color": "ff1a1a",
         "hotkey": "[Q]",
         "icon": "BloodWeaverQ",
+        "cooldown": 0.5,
         "order": 2,
         "passive": [
             "Unleash blades made from the spilled blood of your enemies.",
@@ -880,6 +898,7 @@
         "color": "ff4d94",
         "hotkey": "[W]",
         "icon": "BloodWeaverW",
+        "cooldown": 8,
         "order": 3,
         "active": [
             "Swiftly move by transforming into bats.",
@@ -894,6 +913,7 @@
         "color": "ff4d4d",
         "hotkey": "[E]",
         "icon": "BloodWeaverE",
+        "cooldown": 12,
         "order": 4,
         "passive": [
             "Blood spilled by enemies become Blood Weaver's flesh.",
@@ -915,6 +935,7 @@
         "color": "cc0000",
         "hotkey": "[R]",
         "icon": "BloodWeaverR",
+        "cooldown": 15,
         "order": 5,
         "passive": [
             "Incite yourself through stimulation of blood.",
@@ -924,8 +945,7 @@
             "Rally allies by stimulating their blood.",
             "Increases attack damage and HP by 20% for (5 + Main Stat / 2500) seconds",
             "50% chance to refill 1 blood gauge on attack",
-            "Rose Dance's cast time and cooldown are removed and can be cast up to 3 times without incurring HP consumption",
-            "Cooldown: 15 seconds"
+            "Rose Dance's cast time and cooldown are removed and can be cast up to 3 times without incurring HP consumption"
         ]
     },
     {
@@ -934,12 +954,12 @@
         "color": "990000",
         "hotkey": "[T]",
         "icon": "BloodWeaverT",
+        "cooldown": 30,
         "order": 6,
         "active": [
             "Purify enemies with a ritual of blood.",
             "Max HP X 4000% damage",
-            "Pulls in enemies that are far away into 375 range of Blood Weaver",
-            "Cooldown: 30 seconds"
+            "Pulls in enemies that are far away into 375 range of Blood Weaver"
         ]
     },
     {
@@ -948,14 +968,14 @@
         "color": "990000",
         "hotkey": "[F]",
         "icon": "BloodWeaverF",
+        "cooldown": 120,
         "order": 7,
         "active": [
             "\"I shall beautify you even further !\"",
             "Each spear deals Attack Damage X 700% damage",
             "Max HP X 350% bonus damage",
             "Deals 40% bonus damage to enemies under 40% HP",
-            "You will be immune to CC while casting",
-            "Cooldown: 120 seconds"
+            "You will be immune to CC while casting"
         ]
     },
     {
@@ -979,13 +999,13 @@
         "color": "b22222",
         "hotkey": "[Q]",
         "icon": "FireMageQ",
+        "cooldown": 5,
         "order": 2,
         "active": [
             "Gather the element of fire into a single orb, and shoot it at the target.",
             "Skill Level X 600 damage",
             "INT X 30 bonus damage",
-            "Deals additional damage equal to 25% of the burn damage the target is currently taking",
-            "Cooldown: 5 seconds"
+            "Deals additional damage equal to 25% of the burn damage the target is currently taking"
         ]
     },
     {
@@ -994,6 +1014,7 @@
         "color": "b22222",
         "hotkey": "[W]",
         "icon": "FireMageW",
+        "cooldown": 10,
         "order": 3,
         "passive": [
             "Spirits of flames are able to heal allies.",
@@ -1005,8 +1026,7 @@
             "INT X 10 bonus damage",
             "Lasts 5 seconds",
             "On ally: Removes debuffs",
-            "On ground: Stuns for 2 seconds, lasts 50% longer",
-            "Cooldown: 10 seconds"
+            "On ground: Stuns for 2 seconds, lasts 50% longer"
         ]
     },
     {
@@ -1015,13 +1035,13 @@
         "color": "b22222",
         "hotkey": "[E]",
         "icon": "FireMageE",
+        "cooldown": 10,
         "order": 4,
         "active": [
             "Create a fiery explosion by converting mana in the atmosphere into fire.",
             "Skill Level X 1500 damage",
             "INT X 100 bonus damage",
-            "Damage amplified by 50% each time it travels outward",
-            "Cooldown: 10 seconds"
+            "Damage amplified by 50% each time it travels outward"
         ]
     },
     {
@@ -1030,6 +1050,7 @@
         "color": "b22222",
         "hotkey": "[R]",
         "icon": "FireMageR",
+        "cooldown": 10,
         "order": 5,
         "active": [
             "Concentrate flames into a single point, creating a massive combustion of mana.",
@@ -1044,6 +1065,7 @@
         "color": "b22222",
         "hotkey": "[T]",
         "icon": "FireMageT",
+        "cooldown": 40,
         "order": 6,
         "active": [
             "Calls down meteor fragments that are drifting around the atmosphere.",
@@ -1058,6 +1080,7 @@
         "color": "b22222",
         "hotkey": "[F]",
         "icon": "FireMageF",
+        "cooldown": 100,
         "order": 7,
         "active": [
             "\"Imagine a huge rock falling through the atmosphere onto the ground. Don't worry, the Earth won't be destroyed. It's not that big, and only you will be engulfed in the explosion..  \" - Mage",
@@ -1071,6 +1094,7 @@
         "color": "cc99ff",
         "hotkey": "[D]",
         "icon": "ShooterD",
+        "cooldown": 40,
         "order": 1,
         "passive": [
             "Control drones that can assist allies.",
@@ -1089,6 +1113,7 @@
         "color": "ccccff",
         "hotkey": "[Q]",
         "icon": "ShooterQ",
+        "cooldown": 6.000001,
         "order": 2,
         "active": [
             "Fire a magic bullet that splits into two directions.",
@@ -1103,14 +1128,14 @@
         "color": "96b8f5",
         "hotkey": "[Q]",
         "icon": "ShooterQ_2",
+        "cooldown": 3,
         "order": 3,
         "active": [
             "Fires refreshing water at target.",
             "Deals INT X 50 damage if target is an enemy",
             "Increases magic armor by 25% for 3 seconds.",
             "Heals for INT X 3 if target is an ally",
-            "Bounces twice with 100% efficiency",
-            "Cooldown: 4 seconds, E / R / T cast cooldown initializiation (same as Twin Star)"
+            "Bounces twice with 100% efficiency"
         ]
     },
     {
@@ -1119,6 +1144,7 @@
         "color": "b3fff0",
         "hotkey": "[W]",
         "icon": "ShooterW",
+        "cooldown": 30,
         "order": 4,
         "passive": [
             "Heal allies using microscopic machines.",
@@ -1141,13 +1167,13 @@
         "color": "e6f2ff",
         "hotkey": "[E]",
         "icon": "ShooterE",
+        "cooldown": 10,
         "order": 5,
         "active": [
             "Fire a charged magic bullet, and disengage using the recoil.",
             "Attack Damage X 380% damage",
             "AGI X 24 bonus damage",
-            "Deals up to (400 + 2 X Skill Damage increase)% damage based on knockback distance",
-            "Cooldown: 10 seconds"
+            "Deals up to (400 + 2 X Skill Damage increase)% damage based on knockback distance"
         ]
     },
     {
@@ -1171,6 +1197,7 @@
         "color": "4dffc3",
         "hotkey": "[T]",
         "icon": "ShooterT",
+        "cooldown": 40,
         "order": 7,
         "passive": [
             "Enhance probes' attacks.",
@@ -1189,6 +1216,7 @@
         "color": "b3ffe6",
         "hotkey": "[F]",
         "icon": "ShooterF",
+        "cooldown": 120,
         "order": 8,
         "active": [
             "\"Justice rains from the sky!\" - Shooter",
@@ -1204,6 +1232,7 @@
         "color": "dfdfdf",
         "hotkey": "[D]",
         "icon": "SwordEnchanterD",
+        "cooldown": 1,
         "order": 1,
         "passive": [
             "Ability to project swords.",
@@ -1222,11 +1251,11 @@
         "color": "dfdfdf",
         "hotkey": "[Q]",
         "icon": "SwordEnchanterQ",
+        "cooldown": 7.5,
         "order": 2,
         "active": [
             "Takes some swords out from the treasury.",
-            "Projects 2 Enchanted Swords",
-            "Cooldown: 7.5 seconds"
+            "Projects 2 Enchanted Swords"
         ]
     },
     {
@@ -1235,6 +1264,7 @@
         "color": "dfdfdf",
         "hotkey": "[W]",
         "icon": "SwordEnchanterW",
+        "cooldown": 10,
         "order": 3,
         "active": [
             "Reads a chant that boosts speed.",
@@ -1251,6 +1281,7 @@
         "color": "dfdfdf",
         "hotkey": "[E]",
         "icon": "SwordEnchanterE",
+        "cooldown": 15,
         "order": 4,
         "active": [
             "Reads a chant that boosts strength.",
@@ -1265,6 +1296,7 @@
         "color": "dfdfdf",
         "hotkey": "[R]",
         "icon": "SwordEnchanterR",
+        "cooldown": 20,
         "order": 5,
         "active": [
             "Reads a chant that boosts endurance.",
@@ -1279,6 +1311,7 @@
         "color": "dfdfdf",
         "hotkey": "[T]",
         "icon": "SwordEnchanterT",
+        "cooldown": 30,
         "order": 6,
         "passive": [
             "Profound mastery allows Sword Enchanter to disintegrate the armors of her enemies.",
@@ -1296,6 +1329,7 @@
         "color": "dfdfdf",
         "hotkey": "[F]",
         "icon": "SwordEnchanterF",
+        "cooldown": 60,
         "order": 7,
         "active": [
             "\"I'll show you the most powerful sword I have in my treasury !!\" - Sword Enchanter",
@@ -1310,6 +1344,7 @@
         "color": "dfbe9f",
         "hotkey": "[D]",
         "icon": "GunnerD",
+        "cooldown": 1.2,
         "order": 1,
         "passive": [
             "He insists on using a revolver even though countless firearms now surpass it in terms of power or convenience.",
@@ -1328,6 +1363,7 @@
         "color": "dfbe9f",
         "hotkey": "[Q]",
         "icon": "GunnerQ",
+        "cooldown": 1.5,
         "order": 2,
         "active": [
             "Travels a short distance by tumbling.",
@@ -1343,6 +1379,7 @@
         "color": "dfbe9f",
         "hotkey": "[W]",
         "icon": "GunnerW",
+        "cooldown": 7.5,
         "order": 3,
         "active": [
             "Barrages nearby area with bullets.",
@@ -1359,6 +1396,7 @@
         "color": "dfbe9f",
         "hotkey": "[E]",
         "icon": "GunnerE",
+        "cooldown": 12,
         "order": 4,
         "active": [
             "Throws four highly explosive bombs.",
@@ -1376,6 +1414,7 @@
         "color": "dfbe9f",
         "hotkey": "[R]",
         "icon": "GunnerR",
+        "cooldown": 5,
         "order": 5,
         "active": [
             "Fires all bullets in a quick succession.",
@@ -1389,6 +1428,7 @@
         "color": "dfbe9f",
         "hotkey": "[T]",
         "icon": "GunnerT",
+        "cooldown": 40,
         "order": 6,
         "active": [
             "Discards used up revolvers instead of reloading them.",
@@ -1406,6 +1446,7 @@
         "color": "dfbe9f",
         "hotkey": "[F]",
         "icon": "GunnerF",
+        "cooldown": 120,
         "order": 7,
         "active": [
             "\"Draw\" - Gunner",
@@ -1437,6 +1478,7 @@
         "color": "bad5fc",
         "hotkey": "[Q]",
         "icon": "SwordsmanQ",
+        "cooldown": 8,
         "order": 2,
         "active": [
             "Slashes target upward with an earth-shattering slash.",
@@ -1466,13 +1508,13 @@
         "color": "7eaffa",
         "hotkey": "[W]",
         "icon": "SwordsmanW",
+        "cooldown": 8,
         "order": 4,
         "active": [
             "Swiftly approach to attack, drawing a crescent slash.",
             "AGI X 25 bonus damage",
             "For 4 seconds, Quick Draw lands as critical strikes against the target",
-            "Chain - Wind Slash",
-            "Cooldown: 8 seconds"
+            "Chain - Wind Slash"
         ]
     },
     {
@@ -1495,6 +1537,7 @@
         "color": "8eaffd",
         "hotkey": "[E]",
         "icon": "SwordsmanE",
+        "cooldown": 8,
         "order": 6,
         "active": [
             "Surrounds yourself with a fierce bladestorm.",
@@ -1524,6 +1567,7 @@
         "color": "6f83d2",
         "hotkey": "[R]",
         "icon": "SwordsmanR",
+        "cooldown": 30,
         "order": 8,
         "passive": [
             "Performing swordsmanship leaves a sword of illusion behind.",
@@ -1543,13 +1587,13 @@
         "color": "89a8f8",
         "hotkey": "[T]",
         "icon": "SwordsmanT",
+        "cooldown": 40,
         "order": 9,
         "active": [
             "Brutally slash everything in range with rapid movements.",
             "Attack Damage X 3000% damage",
             "AGI X 125 bonus damage",
-            "Increases damage taken by target by 10% for 6 seconds",
-            "Cooldown: 40 seconds"
+            "Increases damage taken by target by 10% for 6 seconds"
         ]
     },
     {
@@ -1558,13 +1602,13 @@
         "color": "c71585",
         "hotkey": "[F]",
         "icon": "SwordsmanF",
+        "cooldown": 120,
         "order": 10,
         "active": [
             "\"I couldn't see anything. Only the corpses of my comrades were left at where he slashed through.\" - A Survivor of Empire War",
             "Each slash deals AGI X 25 damage",
             "Final slash deals AGI X 575 damage",
-            "A total of 20 slashes",
-            "Cooldown: 120 seconds"
+            "A total of 20 slashes"
         ]
     },
     {
@@ -1573,6 +1617,7 @@
         "color": "66ffe0",
         "hotkey": "[D]",
         "icon": "ElementalistD",
+        "cooldown": 15,
         "order": 1,
         "active": [
             "Forms a contract with the elemental of wind, which specializes in helping allies with the power of wind.",
@@ -1625,12 +1670,12 @@
         "color": "ff8080",
         "hotkey": "[Q]",
         "icon": "ElementalistQ",
+        "cooldown": 20,
         "order": 5,
         "active": [
             "Forms a contract with the spirit of flame, which specializes in powerful splashing melee attacks.",
             "HP = Elementalist's Max HP X 100%",
-            "Lasts 15 seconds",
-            "Cooldown: 20 seconds"
+            "Lasts 15 seconds"
         ]
     },
     {
@@ -1665,6 +1710,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [Q]",
         "icon": "ElementalistQ_Q",
+        "cooldown": 60,
         "order": 8,
         "active": [
             "Explodes by overheating, dealing huge damage to nearby enemies.",
@@ -1679,6 +1725,7 @@
         "color": "b9cdfa",
         "hotkey": "[W]",
         "icon": "ElementalistW",
+        "cooldown": 20,
         "order": 9,
         "active": [
             "Forms a contract with the elemental of water, which is specialized in healing and empowering allies.",
@@ -1721,6 +1768,7 @@
         "color": "b9cdfa",
         "hotkey": "[W] → [Q]",
         "icon": "ElementalistW_Q",
+        "cooldown": 0.75,
         "order": 12,
         "active": [
             "Fires a beam of water that heals allies' wounds.",
@@ -1734,6 +1782,7 @@
         "color": "b3e0ff",
         "hotkey": "[W] → [W]",
         "icon": "WaterMageE",
+        "cooldown": 6,
         "order": 13,
         "active": [
             "Liquidifies the elemental to allow it to travel rapidly to target location.",
@@ -1746,6 +1795,7 @@
         "color": "c39beb",
         "hotkey": "[E]",
         "icon": "ElementalistE",
+        "cooldown": 30,
         "order": 14,
         "active": [
             "Forms a temporary contract with the Spirit of Lightning that is specialized at ranged attack.",
@@ -1800,6 +1850,7 @@
         "color": "b3ccff",
         "hotkey": "[E] → [E]",
         "icon": "ElementalistE_E",
+        "cooldown": 6,
         "order": 18,
         "active": [
             "Travels at high speeds to reach the selected location"
@@ -1811,6 +1862,7 @@
         "color": "afeb8c",
         "hotkey": "[R]",
         "icon": "ElementalistR",
+        "cooldown": 60,
         "order": 19,
         "active": [
             "Form a temporary contract with Spirit of Earth which is specialized at supporting and protecting allies.",
@@ -1849,6 +1901,7 @@
         "color": "ff8080",
         "hotkey": "[R] → [Q]",
         "icon": "ElementalistR_Q",
+        "cooldown": 9,
         "order": 22,
         "active": [
             "Slams down the ground to call forth protective earth spirits hiding underneath.",
@@ -1862,14 +1915,14 @@
         "color": "ffff80",
         "hotkey": "[T]",
         "icon": "ElementalistT",
+        "cooldown": 3,
         "order": 23,
         "passive": [
             "Forms a spiritual link with summon, granting it various stat bonuses. The link breaks if the summon strays too far from the summoner.",
             "Provides 40% skill damage and 50% damage reduction to target",
             "Provides immunity to instant death spells",
             "Heals for (Target's Max HP X 5%) per second",
-            "Forming links with some summons may provide an additional ability to Elementalist",
-            "Cooldown: 3 seconds"
+            "Forming links with some summons may provide an additional ability to Elementalist"
         ]
     },
     {
@@ -1878,6 +1931,7 @@
         "color": "#ce2b7d",
         "hotkey": "[F]",
         "icon": "ElementalistF",
+        "cooldown": 100,
         "order": 24,
         "active": [
             "\"It is a dangerous gamble, but controlling a twisted elemental boasts destructive power that matches the Demon Lord.\" - Elementalist",
@@ -1918,6 +1972,7 @@
         "color": "#ce2b7d",
         "hotkey": "[F] → [Q]",
         "icon": "ElementalistF_Q",
+        "cooldown": 4,
         "order": 27,
         "active": [
             "Submerges into the abyss to quickly travel to target location.",
@@ -1931,13 +1986,13 @@
         "color": "#ce2b7d",
         "hotkey": "[F] → [W]",
         "icon": "ElementalistF_W",
+        "cooldown": 10,
         "order": 28,
         "active": [
             "Collapses the dimension around yourself.",
             "Deals INT X 50 damage per second",
             "Pulls nearby enemies inward",
-            "Lasts 1.5 seconds",
-            "Cooldown: 5 seconds"
+            "Lasts 1.5 seconds"
         ]
     },
     {
@@ -1946,6 +2001,7 @@
         "color": "#ce2b7d",
         "hotkey": "[F] → [E]",
         "icon": "ElementalistF_E",
+        "cooldown": 30,
         "order": 29,
         "active": [
             "Summon the eye of Hell that emanates a powerful beam of destruction.",
@@ -1989,6 +2045,7 @@
         "color": "3385ff",
         "hotkey": "[W]",
         "icon": "LightningMageW",
+        "cooldown": 6.000001,
         "order": 3,
         "active": [
             "Perform a kick with the speed of lightning.",
@@ -2031,6 +2088,7 @@
         "color": "b3f0ff",
         "hotkey": "[E]",
         "icon": "LightningMageE",
+        "cooldown": 5,
         "order": 6,
         "toggle": [
             "Discharge body to quickly release mana, gaining immense speed in return.",
@@ -2048,13 +2106,13 @@
         "color": "3385ff",
         "hotkey": "[R]",
         "icon": "LightningMageR",
+        "cooldown": 15,
         "order": 7,
         "active": [
             "Focus mana into a single point to call down a lightning strike.",
             "INT X 150 damage",
             "Creates 5 lightning orbs",
-            "1 second stun",
-            "Cooldown: 15 seconds"
+            "1 second stun"
         ]
     },
     {
@@ -2063,6 +2121,7 @@
         "color": "4ddbff",
         "hotkey": "[T]",
         "icon": "LightningMageT",
+        "cooldown": 40,
         "order": 8,
         "active": [
             "Absorb mana dispersed in the atmosphere to charge yourself.",
@@ -2070,8 +2129,7 @@
             "Short stun effect",
             "Invulnerable while active",
             "If used while charged, damage is increased by 100%",
-            "If channeled for 3 seconds, refreshes energy and skill cooldowns",
-            "Cooldown: 40 seconds"
+            "If channeled for 3 seconds, refreshes energy and skill cooldowns"
         ]
     },
     {
@@ -2080,6 +2138,7 @@
         "color": "99ffff",
         "hotkey": "[F]",
         "icon": "LightningMageF",
+        "cooldown": 100,
         "order": 9,
         "active": [
             "\"Disappear with the Lightning!\" - Mage",
@@ -2098,6 +2157,7 @@
         "color": "f9feb8",
         "hotkey": "[D]",
         "icon": "CrusaderD",
+        "cooldown": 6,
         "order": 1,
         "passive": [
             "Holy sword that brings down judgment upon the evil. Mana concentrates around the blade to give the sword a vibrant form.",
@@ -2115,6 +2175,7 @@
         "color": "f9feb8",
         "hotkey": "[Q]",
         "icon": "CrusaderQ",
+        "cooldown": 6.000001,
         "order": 2,
         "active": [
             "Unleash a powerful attack with mana released from the Sword of Execution.",
@@ -2128,6 +2189,7 @@
         "color": "f9feb8",
         "hotkey": "[W]",
         "icon": "CrusaderW",
+        "cooldown": 20,
         "order": 3,
         "passive": [
             "The blessing of god allows crusader to become a persevering light amidst her battles.",
@@ -2146,13 +2208,13 @@
         "color": "f9feb8",
         "hotkey": "[E]",
         "icon": "CrusaderE",
+        "cooldown": 10,
         "order": 4,
         "active": [
             "Leap quickly into air and slam down, shattering the ground.",
             "Attack Damage X 1500% damage",
             "STR X 50 bonus damage",
-            "Stuns for 1 second",
-            "Cooldown: 30 ~ 10 seconds"
+            "Stuns for 1 second"
         ]
     },
     {
@@ -2161,6 +2223,7 @@
         "color": "f9feb8",
         "hotkey": "[R]",
         "icon": "CrusaderR",
+        "cooldown": 20,
         "order": 5,
         "active": [
             "Dash forward with lightning speed, striking all enemies.",
@@ -2192,6 +2255,7 @@
         "color": "f9feb8",
         "hotkey": "[T]",
         "icon": "CrusaderT",
+        "cooldown": 60,
         "order": 7,
         "passive": [
             "Increases the power of the Execution Sword.",
@@ -2210,21 +2274,22 @@
         "color": "f9feb8",
         "hotkey": "[F]",
         "icon": "CrusaderF",
+        "cooldown": 120,
         "order": 8,
         "active": [
             "\"Light that can be bestowed upon the weak - that is the true light.\" - Astarte",
             "Each slash deals STR X 225 damage",
             "Final slash deals STR X 550 damage",
-            "Stun for 3 fixed seconds",
-            "Cooldown: 120 seconds"
+            "Stun for 3 fixed seconds"
         ]
     },
     {
-        "name": "Footwalk",
+        "name": "Martial Movement",
         "heroClass": "Martial Artist",
         "color": "8fbc8f",
         "hotkey": "[D]",
         "icon": "MartialArtistD",
+        "cooldown": 20,
         "order": 1,
         "passive": [
             "A stance that reacts faster than the mind.",
@@ -2234,8 +2299,7 @@
         "active": [
             "A stance that reacts faster than the mind.",
             "Evades next attack and moves back",
-            "On recast, launches a counter strike dealing (ATK DMG X 7.5) damage",
-            "Cooldown: 20 seconds"
+            "On recast, launches a counter strike dealing (ATK DMG X 7.5) damage"
         ]
     },
     {
@@ -2309,6 +2373,7 @@
         "color": "80ffff",
         "hotkey": "[F]",
         "icon": "MartialArtistF",
+        "cooldown": 120,
         "order": 7,
         "active": [
             "\"None can match the skills of the martial artists of Eloren. Having obtained the knowledge of all advanced martial arts, each one of their techniques is deadly.\" - A Continent Traveller",
@@ -2325,6 +2390,7 @@
         "color": "e2f9ae",
         "hotkey": "[D]",
         "icon": "LancerD",
+        "cooldown": 6,
         "order": 1,
         "passive": [
             "Spear techniques passed down from the orients that boasts destructive power.",
@@ -2344,6 +2410,7 @@
         "color": "f0e388",
         "hotkey": "[Q]",
         "icon": "LancerQ",
+        "cooldown": 6,
         "order": 2,
         "active": [
             "Dash and skewer enemy with a single strike.",
@@ -2358,6 +2425,7 @@
         "color": "e9f08e",
         "hotkey": "[W]",
         "icon": "LancerW",
+        "cooldown": 8,
         "order": 3,
         "active": [
             "Attack nearby enemies with a swift spear strike.",
@@ -2374,14 +2442,14 @@
         "color": "86ea64",
         "hotkey": "[E]",
         "icon": "LancerE",
+        "cooldown": 8,
         "order": 4,
         "active": [
             "Strikes target's vital point.",
             "Attack Damage X 800% damage",
             "STR X 40 bonus damage",
             "If target has barriers, breaks them and lands as a critical strike. If barrier cannot be broken, still lands a critical strike",
-            "Empowered: Increases target's damage taken by 5% for 40 seconds",
-            "Cooldown: 8 seconds",
+            "Empowered: Increases target's damage taken by 5% for 40 seconds"
             "Shield break efficiency: 40%"
         ]
     },
@@ -2391,6 +2459,7 @@
         "color": "80ff80",
         "hotkey": "[R]",
         "icon": "LancerR",
+        "cooldown": 1.5,
         "order": 5,
         "passive": [
             "Replenish ki in preparation for a fierce battle.",
@@ -2410,14 +2479,14 @@
         "color": "ffcbc1",
         "hotkey": "[T]",
         "icon": "LancerT",
+        "cooldown": 30,
         "order": 6,
         "active": [
             "Focus ki into spear and launch it forward.",
             "Skill Level X 5000 damage",
             "STR X 200 bonus damage",
             "Boosts all stats of allies hit by 10% for 30 seconds",
-            "Explosion deals 150% damage to nearby enemies and stun for 2 seconds",
-            "Cooldown: 30 seconds"
+            "Explosion deals 150% damage to nearby enemies and stun for 2 seconds"
         ]
     },
     {
@@ -2426,13 +2495,13 @@
         "color": "df4040",
         "hotkey": "[F]",
         "icon": "LancerF",
+        "cooldown": 120,
         "order": 7,
         "active": [
             "\"She disappeared the moment I saw her on the battlefield.. and then suddenly appeared at the center of the enemies' base, which formed a mountain of corpses.\" - Empire War Veteran",
             "STR X 825 damage",
             "Deals 75% bonus damage to enemies within 250 radius from target point",
-            "Restores all ki",
-            "Cooldown: 120 seconds"
+            "Restores all ki"
         ]
     },
     {
@@ -2441,6 +2510,7 @@
         "color": "ff9999",
         "hotkey": "[D]",
         "icon": "ReaperD",
+        "cooldown": 12,
         "order": 1,
         "passive": [
             "Her agility shines, even while wielding a scythe larger than her body.",
@@ -2459,6 +2529,7 @@
         "color": "ff9999",
         "hotkey": "[Q]",
         "icon": "ReaperQ",
+        "cooldown": 6,
         "order": 2,
         "active": [
             "Attacks nearby enemies by spinning your scythe.",
@@ -2473,6 +2544,7 @@
         "color": "ff9999",
         "hotkey": "[W]",
         "icon": "ReaperW",
+        "cooldown": 4,
         "order": 3,
         "passive": [
             "Pursuits the target relentlessly.",
@@ -2491,6 +2563,7 @@
         "color": "ff9999",
         "hotkey": "[E]",
         "icon": "ReaperE",
+        "cooldown": 8,
         "order": 4,
         "active": [
             "Pierces through target, delivering a deadly strike.",
@@ -2506,6 +2579,7 @@
         "color": "ff9999",
         "hotkey": "[R]",
         "icon": "ReaperR",
+        "cooldown": 15,
         "order": 5,
         "active": [
             "Relentlessly slashes the target.",
@@ -2520,6 +2594,7 @@
         "color": "ff9999",
         "hotkey": "[T]",
         "icon": "ReaperT",
+        "cooldown": 30,
         "order": 6,
         "passive": [
             "Clears your mind to focus on taking the life of the target.",
@@ -2529,8 +2604,7 @@
         ],
         "active": [
             "Enters focused state immediately",
-            "Lasts 4 seconds",
-            "Cooldown: 30 seconds"
+            "Lasts 4 seconds"
         ]
     },
     {
@@ -2539,6 +2613,7 @@
         "color": "ff9999",
         "hotkey": "[F]",
         "icon": "ReaperF",
+        "cooldown": 120,
         "order": 7,
         "active": [
             "\"You are already dead. You just haven't caught up to it yet.\" - Reaper",
@@ -2573,14 +2648,14 @@
         "color": "7f7f7f",
         "hotkey": "[Q]",
         "icon": "AssassinQ",
+        "cooldown": 3,
         "order": 2,
         "active": [
             "Perform a frontal slash aimed toward weak spots.",
             "Attack Damage X 200% damage",
             "AGI X 10 bonus damage",
             "Chance to critically strike target with Assassin's abilities are increased by 12% for 10 seconds",
-            "Stacks up to 3 times",
-            "Cooldown: 3 seconds"
+            "Stacks up to 3 times"
         ]
     },
     {
@@ -2589,6 +2664,7 @@
         "color": "8080c0",
         "hotkey": "[W]",
         "icon": "AssassinW",
+        "cooldown": 10,
         "order": 3,
         "active": [
             "Melds into the darkness to strike the enemy from behind.",
@@ -2604,6 +2680,7 @@
         "color": "7f7f7f",
         "hotkey": "[E]",
         "icon": "AssassinE",
+        "cooldown": 12.5,
         "order": 4,
         "active": [
             "Becomes one with the shadow to avoid being seen by enemies.",
@@ -2635,14 +2712,14 @@
         "color": "6e6eaa",
         "hotkey": "[T]",
         "icon": "AssassinT",
+        "cooldown": 25,
         "order": 6,
         "active": [
             "Summon shadows from all directions and rush toward the target point.",
             "AGI X 50 magic damage",
             "Summons 4 additional shadows to attack",
             "Empowers next Shadow Slash or Ambush",
-            "Duration: 8 seconds",
-            "Cooldown: 25 seconds"
+            "Duration: 8 seconds"
         ]
     },
     {
@@ -2651,14 +2728,14 @@
         "color": "8080ff",
         "hotkey": "[F]",
         "icon": "AssassinF",
+        "cooldown": 120,
         "order": 7,
         "active": [
             "\"Both sides of war tend to avoid fighting in the night because 'she' wanders around..\" - A Survivor of Empire War",
             "Each wave deals AGI X 10 damage",
             "Assassination deals AGI X 250 damage",
             "Deals 15% bonus damage for each stack of Shadow Slash on target",
-            "Critically strikes enemies within 250 distance from the center",
-            "Cooldown: 120 seconds"
+            "Critically strikes enemies within 250 distance from the center"
         ]
     },
     {
@@ -2667,13 +2744,13 @@
         "color": "aef4c7",
         "hotkey": "[D]",
         "icon": "WindMageD",
+        "cooldown": 10,
         "order": 1,
         "active": [
             "Swiftly move by riding on the wind.",
             "Moves at least 300 units (Max range 900 units)",
             "Reduces damage taken by 40% for 2 seconds after casting",
             "Leaves behind a feather that you can recall back to",
-            "CD: 10 seconds - Available for 5 seconds to recall",
             "Range: 1000"
         ]
     },
@@ -2683,6 +2760,7 @@
         "color": "aef4c7",
         "hotkey": "[Q]",
         "icon": "WindMageQ_1",
+        "cooldown": 1.5,
         "order": 2,
         "passive": [
             "Fierce spirits that chase the master's enemies.",
@@ -2692,8 +2770,7 @@
         ],
         "active": [
             "\"It's time to relax!\"",
-            "Switch to healing mode",
-            "CD: 1.5 seconds"
+            "Switch to healing mode"
         ]
     },
     {
@@ -2702,6 +2779,7 @@
         "color": "aef4c7",
         "hotkey": "[Q]",
         "icon": "WindMageQ_2",
+        "cooldown": 1.5,
         "order": 3,
         "passive": [
             "Warm spirits that heal the master's allies.",
@@ -2713,8 +2791,7 @@
         ],
         "active": [
             "\"It's time to attack!\"",
-            "Switch to attack mode",
-            "CD: 6 seconds"
+            "Switch to attack mode"
         ]
     },
     {
@@ -2723,6 +2800,7 @@
         "color": "aef4c7",
         "hotkey": "[W]",
         "icon": "WindMageW",
+        "cooldown": 6,
         "order": 4,
         "active": [
             "Send out gentle winds infused with mana.",
@@ -2730,7 +2808,6 @@
             "Heals allies for INT X 2",
             "Cooldown reset upon casting Feather of Aeolus",
             "When two gentle winds combine, strong winds are formed for 4 seconds, dealing Attack Damage X 500% damage per second",
-            "CD: 6 seconds",
             "Range: 1500"
         ]
     },
@@ -2740,6 +2817,7 @@
         "color": "aef4c7",
         "hotkey": "[E]",
         "icon": "WindMageE",
+        "cooldown": 25,
         "order": 5,
         "passive": [
             "Heals grant resistance to allies.",
@@ -2750,8 +2828,7 @@
             "Summon a mirror of eon to redirect harm back to attackers.",
             "For 9 seconds, absorbs 45% of damage taken by nearby allies",
             "Upon expiration or casting again, deals INT X 60 damage to nearby enemies and stuns for 0.5 seconds",
-            "Knockbacks non-boss enemies",
-            "CD: 25 seconds"
+            "Knockbacks non-boss enemies"
         ]
     },
     {
@@ -2760,6 +2837,7 @@
         "color": "aef4c7",
         "hotkey": "[R]",
         "icon": "WindMageR",
+        "cooldown": 5,
         "order": 6,
         "active": [
             "Call down a light breeze on target area.",
@@ -2767,8 +2845,7 @@
             "Increases allies' max HP by 10%",
             "Increases allies' skill damage by 10%",
             "Duration is refreshed upon stacking",
-            "Lasts for 40 seconds",
-            "CD: 6 seconds"
+            "Lasts for 40 seconds"
         ]
     },
     {
@@ -2777,6 +2854,7 @@
         "color": "aef4c7",
         "hotkey": "[T]",
         "icon": "WindMageT",
+        "cooldown": 45,
         "order": 7,
         "active": [
             "Blow a horn gifted with divine powers.",
@@ -2784,8 +2862,7 @@
             "Heals allies for INT X 2",
             "Slows enemies",
             "Removes debuffs from allies",
-            "Creates up to 6 pulses",
-            "CD: 45 seconds"
+            "Creates up to 6 pulses"
         ]
     },
     {
@@ -2794,6 +2871,7 @@
         "color": "aef4c7",
         "hotkey": "[F]",
         "icon": "WindMageF",
+        "cooldown": 100,
         "order": 8,
         "active": [
             "(Aisha) \"Dear divine beings! I thank you for bestowing all these blessings upon me !\"\n(Guardian) Grrrgrgrgr (it's because you're too cute)",
@@ -2837,6 +2915,7 @@
         "color": "aef4c7",
         "hotkey": "[F] → [W]",
         "icon": "WindMageF_W",
+        "cooldown": 9,
         "order": 11,
         "active": [
             "The anger of Vayu sweeps across, obliterating any foes in its path.",
@@ -2850,14 +2929,14 @@
         "color": "aef4c7",
         "hotkey": "[F] → [E]",
         "icon": "WindMageF_E",
+        "cooldown": 10,
         "order": 12,
         "active": [
             "Bestows the blessing of life.",
             "Consumes 60 MP",
             "Revives a dead ally nearby",
             "Restores Max HP X 50% after revival",
-            "Revived allies spawn near guardian",
-            "Cooldown: 10 seconds"
+            "Revived allies spawn near guardian"
         ]
     },
     {
@@ -2880,6 +2959,7 @@
         "color": "ddddbb",
         "hotkey": "[D]",
         "icon": "MerchantD",
+        "cooldown": 5,
         "order": 1,
         "passive": [
             "Slaps enemy hard with a bag filled with many things.",
@@ -2898,6 +2978,7 @@
         "color": "ddddbb",
         "hotkey": "[Q]",
         "icon": "MerchantQ",
+        "cooldown": 8,
         "order": 2,
         "active": [
             "Pummels enemy down with a bag filled with many things.",
@@ -2913,6 +2994,7 @@
         "color": "ddddbb",
         "hotkey": "[W]",
         "icon": "MerchantW",
+        "cooldown": 4,
         "order": 3,
         "active": [
             "Throws a potion made with your own blood, which is thick as troll's blood.",
@@ -2928,6 +3010,7 @@
         "color": "ddddbb",
         "hotkey": "[E]",
         "icon": "MerchantE",
+        "cooldown": 25,
         "order": 5,
         "active": [
             "Provides regenerating barriers to nearby allies by sacrificing your own health.",
@@ -2943,6 +3026,7 @@
         "color": "ddddbb",
         "hotkey": "[R]",
         "icon": "MerchantR",
+        "cooldown": 15,
         "order": 6,
         "active": [
             "Throws money with great force, inflicting tetanus on enemies hit.",
@@ -2958,6 +3042,7 @@
         "color": "ddddbb",
         "hotkey": "[T]",
         "icon": "MerchantT",
+        "cooldown": 90,
         "order": 7,
         "active": [
             "Revives an ally by using a bottle of holy water, which is very rare.",
@@ -2974,12 +3059,12 @@
         "color": "ddddbb",
         "hotkey": "[T]",
         "icon": "MerchantT2",
+        "cooldown": 60,
         "order": 8,
         "active": [
             "Plants a very dangerous explosive.",
             "Plants an explosive that can be damaged",
             "After 12 seconds, explodes dealing STR X 100 + damage taken X 7.5% pure damage and stunning for 3 seconds",
-            "Cooldown: 60 seconds"
         ]
     },
     {
@@ -2988,12 +3073,12 @@
         "color": "bfa3d5",
         "hotkey": "[T]",
         "icon": "MerchantT3",
+        "cooldown": 60,
         "order": 9,
         "active": [
             "Plants a cursed doll.",
             "Plants a doll that can be damaged",
-            "After 15 seconds, explodes dealing STR X 200 + damage taken X 7.5% pure damage and stunning for 3 seconds",
-            "Cooldown: 60 seconds"
+            "After 15 seconds, explodes dealing STR X 200 + damage taken X 7.5% pure damage and stunning for 3 seconds"
         ]
     },
     {
@@ -3002,6 +3087,7 @@
         "color": "ddddbb",
         "hotkey": "[F]",
         "icon": "MerchantF",
+        "cooldown": 90,
         "order": 10,
         "active": [
             "\"Damn it.. there goes my rarest scroll! If I wasn't a merchant dealing with customer relationships, I'd never have used it for him.. \" - Merchant",
@@ -3033,6 +3119,7 @@
         "color": "fe2101",
         "hotkey": "[Q]",
         "icon": "ThundererQ",
+        "cooldown": 8,
         "order": 2,
         "active": [
             "Focuses strength onto the tip of the spear to deliver powerful strikes.",
@@ -3062,14 +3149,14 @@
         "color": "fe2101",
         "hotkey": "[W]",
         "icon": "ThundererW",
+        "cooldown": 8,
         "order": 4,
         "active": [
             "Dashes with the speed of lightning.",
             "Skill Level X 1000 damage",
             "(STR + AGI) X 40 bonus damage",
             "Stuns target for 1 second",
-            "Recharges Magnetic Field by 5% for each 200 distance travelled",
-            "Cooldown: 8 seconds",
+            "Recharges Magnetic Field by 5% for each 200 distance travelled"
             "Lasts 2 seconds"
         ]
     },
@@ -3079,6 +3166,7 @@
         "color": "fe2101",
         "hotkey": "[E]",
         "icon": "ThundererE",
+        "cooldown": 30,
         "order": 5,
         "active": [
             "Activate the shield of thunder to protect yourself and damage nearby enemies.",
@@ -3093,6 +3181,7 @@
         "color": "fe2101",
         "hotkey": "[R]",
         "icon": "ThundererR",
+        "cooldown": 45,
         "order": 6,
         "active": [
             "Deliver a fatal blow by striking target's heart.",
@@ -3109,6 +3198,7 @@
         "color": "fe2101",
         "hotkey": "[F]",
         "icon": "ThundererF",
+        "cooldown": 120,
         "order": 7,
         "active": [
             "\"Disappear with the thunder!\" - Thunderer",
@@ -3140,12 +3230,12 @@
         "color": "8b0000",
         "hotkey": "[Q]",
         "icon": "BerserkerQ",
+        "cooldown": 6,
         "order": 2,
         "active": [
             "Slash nearby targets, knocking them back.",
             "Consumes HP X 10%",
-            "Attack Damage X 250% pure damage",
-            "Cooldown: 6 seconds"
+            "Attack Damage X 250% pure damage"
         ]
     },
     {
@@ -3154,13 +3244,13 @@
         "color": "8b0000",
         "hotkey": "[W]",
         "icon": "BerserkerW",
+        "cooldown": 5,
         "order": 3,
         "active": [
             "Consumes life to let out a fierce roar.",
             "Consumes HP X 30%",
             "Max HP X 500% pure damage",
-            "Increases magic damage taken by target by 10% for 3 seconds",
-            "Cooldown: 5 seconds"
+            "Increases magic damage taken by target by 10% for 3 seconds"
         ]
     },
     {
@@ -3189,6 +3279,7 @@
         "color": "ff0000",
         "hotkey": "[R]",
         "icon": "BerserkerR",
+        "cooldown": 10,
         "order": 5,
         "active": [
             "Rushes forward with a spinning blade of death.",
@@ -3207,6 +3298,7 @@
         "color": "8b0000",
         "hotkey": "[T]",
         "icon": "BerserkerT",
+        "cooldown": 60,
         "order": 6,
         "passive": [
             "Shroud your sword with madness.",
@@ -3228,6 +3320,7 @@
         "color": "FF0000",
         "hotkey": "[F]",
         "icon": "BerserkerF",
+        "cooldown": 120,
         "order": 7,
         "active": [
             "\"It is not a human but rather a monster! A monster crazed by battle! How could she move like that.. It sends shivers down my spines just to think about running into her as enemies in a war.\" - Survivor of Empire War",
@@ -3235,8 +3328,7 @@
             "Final slam deals STR X 675 damage",
             "Total of 10 slashes",
             "Fully restores HP after cast",
-            "Gain knockback immunity during cast",
-            "Cooldown: 120 seconds"
+            "Gain knockback immunity during cast"
         ]
     },
     {
@@ -3250,8 +3342,7 @@
             "The elven archers of ancient origin possess superior intellect and archery skills.",
             "Increased attack range",
             "Every 5 seconds, empowers next attack with a magical explosion",
-            "Next Flame Shot / Freezing Shot incurs no cooldown",
-            "Cooldown: 4 seconds"
+            "Next Flame Shot / Freezing Shot incurs no cooldown"
         ]
     },
     {
@@ -3260,6 +3351,7 @@
         "color": "4682b4",
         "hotkey": "[Q]",
         "icon": "BowMasterQ",
+        "cooldown": 6,
         "order": 2,
         "active": [
             "Dash back and shoot a powerful arrow of fire at the same time.",
@@ -3276,6 +3368,7 @@
         "color": "4682b4",
         "hotkey": "[W]",
         "icon": "BowMasterW",
+        "cooldown": 9,
         "order": 3,
         "active": [
             "Fire multiple frozen arrows in a frontal cone.",
@@ -3290,6 +3383,7 @@
         "color": "bf81d3",
         "hotkey": "[E]",
         "icon": "BowMasterE",
+        "cooldown": 12,
         "order": 4,
         "passive": [
             "Summon a faithful guardian that follows Bow Master around.",
@@ -3300,8 +3394,7 @@
         "active": [
             "Send out the guardian to support your allies.",
             "Increases nearby allies' HP regen by (Target's Max HP X 10%)",
-            "Lasts up to a maximum of 4 seconds",
-            "Cooldown: 12 seconds"
+            "Lasts up to a maximum of 4 seconds"
         ]
     },
     {
@@ -3310,13 +3403,13 @@
         "color": "ddf45b",
         "hotkey": "[R]",
         "icon": "BowMasterR",
+        "cooldown": 15,
         "order": 5,
         "active": [
             "Fire a magic-infused arrow to repeatedly strike down lightnings upon the targeted area.",
             "AGI X 20 bonus damage",
             "Guardian's next attack on target deals 300% for 1 second",
             "Lasts 3 seconds",
-            "Cooldown: 15 seconds",
             "Radius: 375"
         ]
     },
@@ -3326,6 +3419,7 @@
         "color": "80ff80",
         "hotkey": "[T]",
         "icon": "BowMasterT",
+        "cooldown": 30,
         "order": 6,
         "active": [
             "Summons countless magical arrows to bombard an area.",
@@ -3342,13 +3436,13 @@
         "color": "80ff80",
         "hotkey": "[T]",
         "icon": "BowMasterT_2",
+        "cooldown": 20,
         "order": 7,
         "active": [
             "Bombard target area with heart-seeking arrows.",
             "Each arrow deals Attack Damage X 800% damage",
             "AGI X 80 bonus damage",
-            "Stuns targets hit for 5 seconds and decreases their armors",
-            "Cooldown: 20 seconds"
+            "Stuns targets hit for 5 seconds and decreases their armors"
         ]
     },
     {
@@ -3357,6 +3451,7 @@
         "color": "88f0e6",
         "hotkey": "[F]",
         "icon": "BowMasterF",
+        "cooldown": 120,
         "order": 8,
         "active": [
             "\"Without a warning, our enemies were swept across like dust by a magical arrow she shot.\" - A soldier of battlefield",
@@ -3373,6 +3468,7 @@
         "color": "66c2ff",
         "hotkey": "[D]",
         "icon": "KnightD",
+        "cooldown": 2,
         "order": 1,
         "passive": [
             "Prolonged training allows knight to never run out of mana.",
@@ -3382,8 +3478,7 @@
         "active": [
             "Release mana to strengthen your body.",
             "Increases damage reduction by 20%",
-            "Converts restored MP into HP 50% of restored MP",
-            "Cooldown: 10 seconds"
+            "Converts restored MP into HP 50% of restored MP"
         ]
     },
     {
@@ -3392,13 +3487,13 @@
         "color": "00bfff",
         "hotkey": "[Q]",
         "icon": "KnightQ",
+        "cooldown": 0.5,
         "order": 2,
         "active": [
             "Perform a mighty slash with mana-infused sword.",
             "Attack Damage X 400% damage",
             "Consumed MP X 400% bonus damage",
-            "Reactivates with halved effectiveness on attack for 4 seconds",
-            "Cooldown: 1 second"
+            "Reactivates with halved effectiveness on attack for 4 seconds"
         ]
     },
     {
@@ -3422,6 +3517,7 @@
         "color": "4169e1",
         "hotkey": "[E]",
         "icon": "KnightE",
+        "cooldown": 12,
         "order": 4,
         "passive": [
             "Gifted talent to predict and move out of danger.",
@@ -3456,6 +3552,7 @@
         "color": "73b9ff",
         "hotkey": "[R]",
         "icon": "KnightR",
+        "cooldown": 1.5,
         "order": 6,
         "passive": [
             "Reduce magical effects imposed upon Knight.",
@@ -3476,6 +3573,7 @@
         "color": "73b9ff",
         "hotkey": "[T]",
         "icon": "KnightT",
+        "cooldown": 15,
         "order": 7,
         "passive": [
             "Inscribe seal of mana onto enemies to amplify magic taken.",
@@ -3496,6 +3594,7 @@
         "color": "ffff00",
         "hotkey": "[F]",
         "icon": "KnightF",
+        "cooldown": 60,
         "order": 8,
         "active": [
             "\"Corrupt evils that must not exist in this world! The end is nigh. O Holy sword, grant me victory over my foes!\" - Knight during the God-Devil War",
@@ -3503,8 +3602,7 @@
             "For each second channeled, size increased & damage increased by 25%",
             "Can be channeled up to a maximum of 4 seconds",
             "Grants 100% damage reduction and immunity to debuffs/CC effects to allies hit for 5 seconds",
-            "Cancels Release Mana",
-            "Cooldown: 60 seconds"
+            "Cancels Release Mana"
         ]
     },
     {
@@ -3527,6 +3625,7 @@
         "color": "8080ff",
         "hotkey": "[Q]",
         "icon": "DarkKnightQ",
+        "cooldown": 6,
         "order": 2,
         "active": [
             "Delivers a fierce strike that breaks the target's soul apart.",
@@ -3542,6 +3641,7 @@
         "color": "8080ff",
         "hotkey": "[W]",
         "icon": "DarkKnightW",
+        "cooldown": 15,
         "order": 3,
         "active": [
             "Slams down with strength powerful enough to awaken dormant souls lying beneath the grounds.",
@@ -3557,6 +3657,7 @@
         "color": "8080ff",
         "hotkey": "[E]",
         "icon": "DarkKnightE",
+        "cooldown": 15,
         "order": 4,
         "active": [
             "Offers an unholy prayer.",
@@ -3598,6 +3699,7 @@
         "color": "8080ff",
         "hotkey": "[R] → [Q]",
         "icon": "DarkKnightR_Q",
+        "cooldown": 12,
         "order": 7,
         "active": [
             "Shoots a coil infused with dark magic.",
@@ -3637,6 +3739,7 @@
         "color": "8080ff",
         "hotkey": "[R] → [R]",
         "icon": "DarkKnightR_R",
+        "cooldown": 30,
         "order": 10,
         "active": [
             "Gathers souls into a ball and blasts it away.",
@@ -3651,6 +3754,7 @@
         "color": "8080ff",
         "hotkey": "[T]",
         "icon": "DarkKnightT",
+        "cooldown": 30,
         "order": 11,
         "active": [
             "Bestows eternal rest to the souls of the dead.",
@@ -3666,6 +3770,7 @@
         "color": "8080c0",
         "hotkey": "[F]",
         "icon": "DarkKnightF",
+        "cooldown": 120,
         "order": 12,
         "active": [
             "\"Cry !\" - Dark Knight",
@@ -3680,13 +3785,13 @@
         "color": "d7afeb",
         "hotkey": "[D]",
         "icon": "ArcaneMageD",
+        "cooldown": 12,
         "order": 1,
         "active": [
             "Restore injuries with mana in the atmosphere.",
             "Restores HP & MP 35%",
             "Refreshes cooldowns",
-            "Increases skill damage by 5%",
-            "Cooldown: 12 seconds"
+            "Increases skill damage by 5%"
         ]
     },
     {
@@ -3695,6 +3800,7 @@
         "color": "82e1ff",
         "hotkey": "[Q]",
         "icon": "ArcaneMageQ",
+        "cooldown": 6,
         "order": 2,
         "active": [
             "Fires a magical orb shaped like a star.",
@@ -3709,6 +3815,7 @@
         "color": "91b9e1",
         "hotkey": "[W]",
         "icon": "ArcaneMageW",
+        "cooldown": 8,
         "order": 3,
         "active": [
             "Pulls down mana in the atmosphere as a shattering strike.",
@@ -3724,12 +3831,12 @@
         "color": "d79bff",
         "hotkey": "[E]",
         "icon": "ArcaneMageE",
+        "cooldown": 10,
         "order": 4,
         "active": [
             "Damage and slow enemies by amplifying the gravity.",
             "Skill Level X 200 damage",
-            "INT X 4 bonus damage",
-            "Cooldown: 10 seconds"
+            "INT X 4 bonus damage"
         ]
     },
     {
@@ -3738,14 +3845,14 @@
         "color": "91b9e1",
         "hotkey": "[R]",
         "icon": "ArcaneMageR",
+        "cooldown": 30,
         "order": 5,
         "active": [
             "Dashes forward leaving a magical illusion behind.",
             "Illusion explodes after 3 seconds, dealing INT X 40 magic damage",
             "Becomes invisible and takes 40% reduced damage",
             "Can be cast twice in a row",
-            "Chain: Magic Star",
-            "Cooldown: 12 seconds"
+            "Chain: Magic Star"
         ]
     },
     {
@@ -3754,12 +3861,12 @@
         "color": "4bebaf",
         "hotkey": "[T]",
         "icon": "ArcaneMageT",
+        "cooldown": 12,
         "order": 6,
         "active": [
             "Fires magical missiles in all directions.",
             "Each missile deals INT X 50 magic damage",
-            "Fires 6 missiles",
-            "Cooldown: 12 seconds"
+            "Fires 6 missiles"
         ]
     },
     {
@@ -3768,6 +3875,7 @@
         "color": "80ffff",
         "hotkey": "[F]",
         "icon": "ArcaneMageF",
+        "cooldown": 100,
         "order": 7,
         "active": [
             "\"It's not an ordinary spell. This parade of stars that formed from the harmony of mana will captivate anyone's mind who sees it.\" - Mage",
@@ -3782,6 +3890,7 @@
         "color": "80ffff",
         "hotkey": "[F] → [F]",
         "icon": "ArcaneMageF_F",
+        "cooldown": 100,
         "order": 8,
         "active": [
             "\"Did you know that mana-filled stars are whimsy?\" - Mage",
@@ -3796,6 +3905,7 @@
         "color": "87cefa",
         "hotkey": "[D]",
         "icon": "WaterMageD",
+        "cooldown": 6,
         "order": 1,
         "active": [
             "Creates a watery explosion to drench enemies in water.",
@@ -3809,6 +3919,7 @@
         "color": "87cefa",
         "hotkey": "[Q]",
         "icon": "WaterMageQ",
+        "cooldown": 4,
         "order": 2,
         "active": [
             "Reconstruct water into a frozen shard of a suitable size and fire it at the target.",
@@ -3846,6 +3957,7 @@
         "color": "87cefa",
         "hotkey": "[E]",
         "icon": "WaterMageE",
+        "cooldown": 8,
         "order": 4,
         "active": [
             "Lightly ride on tidal waves.",
@@ -3860,6 +3972,7 @@
         "color": "87cefa",
         "hotkey": "[R]",
         "icon": "WaterMageR",
+        "cooldown": 15,
         "order": 5,
         "active": [
             "Freeze nearby enemies by converting the mana in the atmosphere into ice.",
@@ -3868,8 +3981,7 @@
             "Freezes for 2 seconds",
             "If slowed, consumes it and increases damage by 200%",
             "If frozen, increases freeze duration by 100%",
-            "Range: 575",
-            "Cooldown: 15 seconds"
+            "Range: 575"
         ]
     },
     {
@@ -3878,6 +3990,7 @@
         "color": "87cefa",
         "hotkey": "[T]",
         "icon": "WaterMageT",
+        "cooldown": 30,
         "order": 6,
         "active": [
             "Summon and control a magical orb overflowing with crystallized mana shards.",
@@ -3894,6 +4007,7 @@
         "color": "4682b4",
         "hotkey": "[F]",
         "icon": "WaterMageF",
+        "cooldown": 100,
         "order": 7,
         "active": [
             "\"Looking at you all reminds me of ice sculptures. Well, not that one captures my attention.\" - Mage",
@@ -3921,13 +4035,13 @@
         "color": "faf4b6",
         "hotkey": "[D]",
         "icon": "PriestD",
+        "cooldown": 6,
         "order": 1,
         "active": [
             "Heal target's wounds",
             "Heals target's Max HP X 8% every second",
             "Reduces target's damage taken by 20% while active",
-            "Lasts for 12 seconds",
-            "Cooldown: 6 seconds"
+            "Lasts for 12 seconds"
         ]
     },
     {
@@ -3936,6 +4050,7 @@
         "color": "f0e68c",
         "hotkey": "[Q]",
         "icon": "PriestQ",
+        "cooldown": 3.999999,
         "order": 2,
         "active": [
             "Release holy mana in the shape of a line.",
@@ -3950,6 +4065,7 @@
         "color": "fffacd",
         "hotkey": "[W]",
         "icon": "PriestW",
+        "cooldown": 20,
         "order": 3,
         "active": [
             "Assists allies by summoning a holy orb.",
@@ -3965,6 +4081,7 @@
         "color": "b6de69",
         "hotkey": "[E]",
         "icon": "PriestE",
+        "cooldown": 20,
         "order": 4,
         "passive": [
             "The priest's presence alone brings great support to her allies.",
@@ -3976,8 +4093,7 @@
             "Consecerate nearby ground to protect allies and bring down judgment on enemies.",
             "Deals INT X 5 magic damage per second",
             "Heals nearby allies HP by 450 + INT X 0.5 per second",
-            "Lasts 10 seconds",
-            "Cooldown: 20 seconds"
+            "Lasts 10 seconds"
         ]
     },
     {
@@ -3986,6 +4102,7 @@
         "color": "8000ff",
         "hotkey": "[E]",
         "icon": "PriestE_2",
+        "cooldown": 10,
         "order": 5,
         "passive": [
             "The priest's presence alone brings great support to her allies.",
@@ -4005,6 +4122,7 @@
         "color": "8000ff",
         "hotkey": "[E]",
         "icon": "PriestE_2",
+        "cooldown": 10,
         "order": 6,
         "passive": [
             "The priest's presence alone brings great support to her allies.",
@@ -4024,6 +4142,7 @@
         "color": "f0e68c",
         "hotkey": "[R]",
         "icon": "PriestR",
+        "cooldown": 25,
         "order": 7,
         "active": [
             "Convert targeted area's mana into holy energy, creating a holy explosion.",
@@ -4031,8 +4150,7 @@
             "Blinds enemies within area",
             "Grants barrier to allies within area",
             "Absorbs for INT X 6",
-            "Stuns for 0.5 seconds",
-            "Cooldown: 25 seconds"
+            "Stuns for 0.5 seconds"
         ]
     },
     {
@@ -4041,6 +4159,7 @@
         "color": "fffacd",
         "hotkey": "[T]",
         "icon": "PriestT",
+        "cooldown": 100,
         "order": 8,
         "active": [
             "Temporarily opens the gate of heaven to summon an angel bound to the Priest by an old contract",
@@ -4070,6 +4189,7 @@
         "color": "52E252",
         "hotkey": "[T] → [D]",
         "icon": "Recall",
+        "cooldown": 1,
         "order": 10,
         "active": [
             "Teleport to summoner's position."
@@ -4081,6 +4201,7 @@
         "color": "ffff80",
         "hotkey": "[T] → [Q]",
         "icon": "PriestT_Q",
+        "cooldown": 15,
         "order": 11,
         "active": [
             "Surround ally in light to heal his/her wounds.",
@@ -4094,6 +4215,7 @@
         "color": "ffff80",
         "hotkey": "[T] → [W]",
         "icon": "PriestT_W",
+        "cooldown": 15,
         "order": 12,
         "active": [
             "Pulls target ally toward your location.",
@@ -4106,6 +4228,7 @@
         "color": "ffff80",
         "hotkey": "[T] → [F]",
         "icon": "PriestT_F",
+        "cooldown": 60,
         "order": 13,
         "active": [
             "Gift target with god's blessing.",
@@ -4119,13 +4242,13 @@
         "color": "ffff00",
         "hotkey": "[F]",
         "icon": "PriestF",
+        "cooldown": 120,
         "order": 14,
         "active": [
             "\"As my body suddenly start bursting out light, I've felt like I could keep on fighting without ever growing tired. It was only later that I realized the Priest had arrived.\" - Soldier of Empire Army",
             "Increases nearby allies' damage dealt by 5%, armor by 500, and regenerates 10% of their HP every second",
             "Empowers Raguel's attacks",
-            "Lasts 30 seconds",
-            "Cooldown: 120 seconds"
+            "Lasts 30 seconds"
         ]
     },
     {
@@ -4203,6 +4326,7 @@
         "color": "f5f59b",
         "hotkey": "[Q]",
         "icon": "PaladinQ",
+        "cooldown": 3.999999,
         "order": 6,
         "active": [
             "Sends out a holy wave that only damages evil.",
@@ -4237,6 +4361,7 @@
         "color": "f9d544",
         "hotkey": "[E]",
         "icon": "PaladinE",
+        "cooldown": 15,
         "order": 8,
         "passive": [
             "Receives the blessing of angels.",
@@ -4256,13 +4381,13 @@
         "color": "fafac8",
         "hotkey": "[R]",
         "icon": "PaladinR",
+        "cooldown": 25,
         "order": 9,
         "active": [
             "Summons a holy cross to bring down judgment on enemies.",
             "Attack Damage X 5000% magic damage",
             "Binds target's movement for 2 seconds",
-            "Deals 75% bonus damage if target is already bound or is below 40% HP",
-            "Cooldown: 25 seconds"
+            "Deals 75% bonus damage if target is already bound or is below 40% HP"
         ]
     },
     {
@@ -4271,6 +4396,7 @@
         "color": "fafac8",
         "hotkey": "[T]",
         "icon": "PaladinT",
+        "cooldown": 40,
         "order": 10,
         "active": [
             "Summons a holy shield to protect yourself from harm.",
@@ -4285,14 +4411,14 @@
         "color": "ffd700",
         "hotkey": "[F]",
         "icon": "PaladinF",
+        "cooldown": 120,
         "order": 11,
         "active": [
             "\"Embrace the lights of heaven.\" - Paladin",
             "Releases a pulse every second to deal STR X 150 magic damage",
             "Releases a flash every second to deal STR X 25 magic damage",
             "Each flash also heals an ally for INT X 10",
-            "Lasts 4 seconds",
-            "Cooldown: 120 seconds"
+            "Lasts 4 seconds"
         ]
     },
     {
@@ -4379,6 +4505,7 @@
         "color": "c8f9dd",
         "hotkey": "[R]",
         "icon": "PBR",
+        "cooldown": 10,
         "order": 7,
         "active": [
             "Activates on damage received within next 1 second",
@@ -4393,6 +4520,7 @@
         "color": "c8f9dd",
         "hotkey": "[T]",
         "icon": "PBT",
+        "cooldown": 30,
         "order": 8,
         "active": [
             "Removes all soul consumption for 8 seconds and reduces some skills' cooldowns",
@@ -4407,13 +4535,13 @@
         "color": "c8f9dd",
         "hotkey": "[F]",
         "icon": "PBF",
+        "cooldown": 120,
         "order": 9,
         "active": [
             "Pauses enemies for 1.8 seconds",
             "Delivers Attack Damage X 17500% damage at the end",
             "Stuns for 2 seconds",
-            "Deals up to 40% bonus damage based on target's missing HP (20% max HP)",
-            "Cooldown: 120 seconds"
+            "Deals up to 40% bonus damage based on target's missing HP (20% max HP)"
         ]
     },
     {
@@ -4486,6 +4614,7 @@
         "color": "cffae8",
         "hotkey": "[E]",
         "icon": "HermitE",
+        "cooldown": 4.5,
         "order": 5,
         "passive": [
             "Calms your mind and body by walking.",
@@ -4517,14 +4646,14 @@
         "color": "9abfed",
         "hotkey": "[T]",
         "icon": "HermitT",
+        "cooldown": 15,
         "order": 7,
         "active": [
             "Purges inner evil within the soul.",
             "Deals Main Stat X 250 magic damage to nearby enemies and stuns for 2 seconds",
             "Clears debuffs and grants shield absorbing Main Stat X 5 damage to nearby allies",
             "Also activates from summoned orbs",
-            "Chain - Inner Release",
-            "Cooldown: 15 seconds"
+            "Chain - Inner Release"
         ]
     },
     {
@@ -4545,6 +4674,7 @@
         "color": "bee7fc",
         "hotkey": "[F]",
         "icon": "HermitF",
+        "cooldown": 60,
         "order": 9,
         "active": [
             "\"This water shall cleanse your body and soul.\" - Hermit",
@@ -4561,6 +4691,7 @@
         "color": "e1b8fa",
         "hotkey": "[D]",
         "icon": "WitchD",
+        "cooldown": 10,
         "order": 1,
         "passive": [
             "A broom filled with uncontrollable mana.",
@@ -4580,6 +4711,7 @@
         "color": "9f7ee2",
         "hotkey": "[Q]",
         "icon": "WitchQ",
+        "cooldown": 5,
         "order": 2,
         "active": [
             "Explosion... is an art!",
@@ -4612,6 +4744,7 @@
         "color": "bb8be2",
         "hotkey": "[E]",
         "icon": "WitchE",
+        "cooldown": 18,
         "order": 4,
         "active": [
             "Summons a cauldron filled with magical items.",
@@ -4627,12 +4760,12 @@
         "color": "bba8e1",
         "hotkey": "[R]",
         "icon": "WitchR",
+        "cooldown": 20,
         "order": 5,
         "active": [
             "A master of witchcraft can even stop the time itself.",
             "Freezes enemies for 1.5 seconds",
-            "Grants immunity to harmful effects to allies for 2 seconds",
-            "Cooldown: 20 seconds"
+            "Grants immunity to harmful effects to allies for 2 seconds"
         ]
     },
     {
@@ -4641,6 +4774,7 @@
         "color": "ab0c0c",
         "hotkey": "[T]",
         "icon": "WitchT",
+        "cooldown": 60,
         "order": 6,
         "active": [
             "Summons a fallen angel who has formed a contract with Witch a long time ago.",
@@ -4653,6 +4787,7 @@
         "color": "8b3636",
         "hotkey": "[T] → [D]",
         "icon": "Recall",
+        "cooldown": 1,
         "order": 7,
         "passive": [
             "Teleport to summoner's position."
@@ -4677,6 +4812,7 @@
         "color": "6045c9",
         "hotkey": "[T] → [Q]",
         "icon": "WitchT_Q",
+        "cooldown": 30,
         "order": 9,
         "active": [
             "INT X 150 magic damage",
@@ -4689,6 +4825,7 @@
         "color": "6045c9",
         "hotkey": "[T] → [W]",
         "icon": "WitchT_W",
+        "cooldown": 15,
         "order": 10,
         "passive": [
             "Armaros's Power",
@@ -4722,13 +4859,13 @@
         "color": "a498e9",
         "hotkey": "[F]",
         "icon": "WitchF",
+        "cooldown": 120,
         "order": 12,
         "active": [
             "\"Get away from here. I will be using this zone as my lab..\" - Witch",
             "Deals INT X 100 magic damage per second",
             "Increases magic damage taken (Type-D) by 10%",
-            "Lasts 8 seconds",
-            "Cooldown: 120 seconds"
+            "Lasts 8 seconds"
         ]
     },
     {
@@ -4751,6 +4888,7 @@
         "color": "f1ae9d",
         "hotkey": "[A]",
         "icon": "FighterA",
+        "cooldown": 0.15,
         "order": 2,
         "active": [
             "Swings your arm forward.",
@@ -4766,6 +4904,7 @@
         "color": "9e8e83",
         "hotkey": "[Q]",
         "icon": "FighterQ",
+        "cooldown": 5,
         "order": 3,
         "active": [
             "Strikes down hard with a force strong enough to crack skulls.",
@@ -4773,8 +4912,7 @@
             "STR X 25 bonus damage",
             "If target is CRACKED, cooldown is reset",
             "If target is SHATTERED, consumes it to deal 200% damage",
-            "Empowered: Deals 300% damage and if target is CRACKED, has 40% chance to leave it SHATTERED for 5 seconds",
-            "Cooldown: 5 seconds"
+            "Empowered: Deals 300% damage and if target is CRACKED, has 40% chance to leave it SHATTERED for 5 seconds"
         ]
     },
     {
@@ -4799,6 +4937,7 @@
         "color": "efcd5c",
         "hotkey": "[E]",
         "icon": "FighterE",
+        "cooldown": 0.15,
         "order": 5,
         "passive": [
             "Attacks your target relentlessly.",
@@ -4809,8 +4948,7 @@
         "active": [
             "Attack Damage X 400% magic damage",
             "STR X 40 bonus damage",
-            "Empowered: Increases target's damage taken by 6% for 12 seconds and deal STR X 20 magic damage every second",
-            "Cooldown: 0.25 seconds"
+            "Empowered: Increases target's damage taken by 6% for 12 seconds and deal STR X 20 magic damage every second"
         ]
     },
     {
@@ -4819,6 +4957,7 @@
         "color": "9e8e83",
         "hotkey": "[R]",
         "icon": "FighterR",
+        "cooldown": 12,
         "order": 6,
         "passive": [
             "Strengthens your body.",
@@ -4837,6 +4976,7 @@
         "color": "ff7e6a",
         "hotkey": "[T]",
         "icon": "FighterT",
+        "cooldown": 30,
         "order": 7,
         "active": [
             "Gathers energy into your fist to release a powerful strike.",
@@ -4851,6 +4991,7 @@
         "color": "d15e2c",
         "hotkey": "[F]",
         "icon": "FighterF",
+        "cooldown": 120,
         "order": 8,
         "active": [
             "\"Let's wrestle!\" -Fighter",
@@ -4858,8 +4999,7 @@
             "Each hit deals STR X 25 magic damage",
             "Final hit deals STR X 575 magic damage and applies SHATTERED to target for 5 seconds",
             "Resets duration of Combo Mastery",
-            "Pauses target while active",
-            "Cooldown: 120 seconds"
+            "Pauses target while active"
         ]
     }
 ]
