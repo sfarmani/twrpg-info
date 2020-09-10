@@ -1,5 +1,124 @@
 [
     {
+        "name": "38k",
+        "notes": [
+            "Released on: September 9th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Droplet Bead - Fixed being able to use it on enemies",
+            "Lightning MAge - Fixed more Discharge related bugs",
+            "Grandine, the Plates of Wraith - Fixed proc priority being higher than shield effects"
+        ],
+        "items": [
+            {
+                "name": "Vest of Divine Winds",
+                "changes": [
+                    "Passive",
+                    [
+                        "AGI increase: 500 → 250",
+                        "Number of attacks: 3 → 4"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Deathblade (D)",
+                    [
+                        "Can now absorb souls"
+                    ],
+                    "Culling (R) → (A)",
+                    [
+                        "Removed skill"
+                    ]
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Pierce (Q)",
+                    [
+                        "DMG: 100% ATK DMG + STR X 7.5 → 100% ATK DMG + STR X 10"
+                    ],
+                    "Nerve Strike (E)",
+                    [
+                        "DMG: 800% ATK DMG + STR X 40 → 1000% ATK DMG + STR X 50"
+                    ]
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Spell cast time reduced",
+                    "Rising Dragon Strike (Q)",
+                    [
+                        "DMG: AGI X 10 → AGI X 20"
+                    ],
+                    "Rising Dragon Strike (Q) → Slice (W)",
+                    [
+                        "Now deals pure damage"
+                    ],
+                    "Crescent Slash (W) → Wind Slash (E)",
+                    [
+                        "DMG: AGI X 25 → AGI X 45"
+                    ],
+                    "Sword Storm (E)",
+                    [
+                        "Now ignores unit collision for duration"
+                    ]
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Sword Storm (E) → Flash Step (Q)",
+                    [
+                        "DMG: AGI X 15 → AGI X 30"
+                    ],
+                    "Sword of Illusion (R)",
+                    [
+                        "AGI increase per sword: 1.5% → 1%",
+                        "DMG per sword: AGI X 10 → AGI X 20",
+                        "Consecutive sword bonus DMG: (15 + SKILL DMG)% to 100%",
+                        "Cooldown: 30 seconds → 20 seconds"
+                    ],
+                    "Illusal Dance (T)",
+                    [
+                        "Debuff duration: 6 seconds → 8 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Arcane Mage",
+                "changes": [
+                    "Moonlight Link (D)",
+                    [
+                        "Removed SKILL DMG increase"
+                    ],
+                    "Barrage (T)",
+                    [
+                        "Projectile amount: 6 → 5"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Apocalypse (F)",
+                    [
+                        "DMG per second: INT X 325 → INT X 425"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Exit portal and teleport locations in elemental tower changed"
+        ]
+    },
+    {
         "name": "38g",
         "notes": [
             "Released on: September 6th, 2020",

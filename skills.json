@@ -853,7 +853,7 @@
         "order": 12,
         "active": [
             "\"Seems like the time to unleash my evil left hand has come..\" - Haran",
-            "INT X 325 damage per second",
+            "INT X 425 damage per second",
             "Roots nearby enemies",
             "Lasts 3 seconds",
             "0.5 seconds to activate"
@@ -1483,7 +1483,7 @@
         "active": [
             "Slashes target upward with an earth-shattering slash.",
             "Skill Level X 100 damage",
-            "AGI X 10 bonus damage",
+            "AGI X 20 bonus damage",
             "Stuns target for 1 second",
             "Chain - Slice"
         ]
@@ -1526,7 +1526,6 @@
         "order": 5,
         "active": [
             "Knocks back nearby enemies using wind-engulfed blade.",
-            "Skill Level X 450 damage",
             "AGI X (15 + Skill Level) bonus damage",
             "Knocks back non-boss enemies"
         ]
@@ -1557,7 +1556,7 @@
         "active": [
             "Quickly approach the target, slicing everything on the way.",
             "Skill Level X 750 damage",
-            "AGI X (5 X Skill Level) bonus damage",
+            "AGI X (10 X Skill Level) bonus damage",
             "Can be cast upto 3 times in succession"
         ]
     },
@@ -1567,18 +1566,18 @@
         "color": "6f83d2",
         "hotkey": "[R]",
         "icon": "SwordsmanR",
-        "cooldown": 30,
+        "cooldown": 20,
         "order": 8,
         "passive": [
             "Performing swordsmanship leaves a sword of illusion behind.",
-            "Each sword increases AGI by 1.5%",
+            "Each sword increases AGI by 1%",
             "Can possess up to a maximum of 8 swords"
         ],
         "active": [
             "Use all swords of illusion to strike a single enemy.",
             "Each sword deals Skill Level X 600 damage",
-            "AGI X 10 bonus damage",
-            "Consecutive swords deal (15 + Skill Damage Increase)% bonus damage"
+            "AGI X 20 bonus damage",
+            "Consecutive swords deal 100% bonus damage"
         ]
     },
     {
@@ -1593,7 +1592,7 @@
             "Brutally slash everything in range with rapid movements.",
             "Attack Damage X 3000% damage",
             "AGI X 125 bonus damage",
-            "Increases damage taken by target by 10% for 6 seconds"
+            "Increases damage taken by target by 10% for 8 seconds"
         ]
     },
     {
@@ -2415,7 +2414,7 @@
         "active": [
             "Dash and skewer enemy with a single strike.",
             "Attack Damage X 100% damage",
-            "STR X 7.5 bonus pure damage",
+            "STR X 10 bonus pure damage",
             "Empowered: For 45 seconds, critical chance with spear attacks against the target is increased by 50%"
         ]
     },
@@ -2446,8 +2445,8 @@
         "order": 4,
         "active": [
             "Strikes target's vital point.",
-            "Attack Damage X 800% damage",
-            "STR X 40 bonus damage",
+            "Attack Damage X 1000% damage",
+            "STR X 50 bonus damage",
             "If target has barriers, breaks them and lands as a critical strike. If barrier cannot be broken, still lands a critical strike",
             "Empowered: Increases target's damage taken by 5% for 40 seconds",
             "Shield break efficiency: 40%"
@@ -3609,7 +3608,7 @@
         "name": "Deathblade",
         "heroClass": "Dark Knight",
         "color": "8080ff",
-        "hotkey": "[Passive]",
+        "hotkey": "[D]",
         "icon": "DarkKnightD",
         "order": 1,
         "passive": [
@@ -3617,6 +3616,10 @@
             "Every 6 seconds, empowers next attack with Main Stat X 50 magic damage",
             "Rips out target's soul, which heals you for Max HP X 6% + INT X 2 if you approach it",
             "Resets cooldown of Soul Break"
+        ],
+        "active": [
+            "Harvests souls.",
+            "Absorbs souls in a straight line"
         ]
     },
     {
@@ -3682,25 +3685,13 @@
         ]
     },
     {
-        "name": "Culling",
-        "heroClass": "Dark Knight",
-        "color": "8080ff",
-        "hotkey": "[R] → [A]",
-        "icon": "DarkKnightR_A",
-        "order": 6,
-        "active": [
-            "Harvest souls.",
-            "Absorbs souls in a straight line"
-        ]
-    },
-    {
         "name": "Death Coil",
         "heroClass": "Dark Knight",
         "color": "8080ff",
         "hotkey": "[R] → [Q]",
         "icon": "DarkKnightR_Q",
         "cooldown": 12,
-        "order": 7,
+        "order": 6,
         "active": [
             "Shoots a coil infused with dark magic.",
             "Deals Main Stat X 50 magic damage to enemy",
@@ -3713,7 +3704,7 @@
         "color": "8080ff",
         "hotkey": "[R] → [W]",
         "icon": "DarkKnightR_W",
-        "order": 8,
+        "order": 7,
         "active": [
             "Grasps target's soul.",
             "Stuns target for 2 seconds",
@@ -3726,7 +3717,7 @@
         "color": "8080ff",
         "hotkey": "[R] → [E]",
         "icon": "DarkKnightR_E",
-        "order": 9,
+        "order": 8,
         "active": [
             "For 15 seconds, deals Main Stat X 15 magic damage per second",
             "Reduces target's speed by 25%",
@@ -3740,7 +3731,7 @@
         "hotkey": "[R] → [R]",
         "icon": "DarkKnightR_R",
         "cooldown": 30,
-        "order": 10,
+        "order": 9,
         "active": [
             "Gathers souls into a ball and blasts it away.",
             "Main Stat X 100 magic damage",
@@ -3755,7 +3746,7 @@
         "hotkey": "[T]",
         "icon": "DarkKnightT",
         "cooldown": 30,
-        "order": 11,
+        "order": 10,
         "active": [
             "Bestows eternal rest to the souls of the dead.",
             "Main Stat X 200 magic damage",
@@ -3771,7 +3762,7 @@
         "hotkey": "[F]",
         "icon": "DarkKnightF",
         "cooldown": 120,
-        "order": 12,
+        "order": 11,
         "active": [
             "\"Cry !\" - Dark Knight",
             "Deals Main Stat X 775 magic damage over 2.5 seconds",
@@ -3790,8 +3781,7 @@
         "active": [
             "Restore injuries with mana in the atmosphere.",
             "Restores HP & MP 35%",
-            "Refreshes cooldowns",
-            "Increases skill damage by 5%"
+            "Refreshes cooldowns"
         ]
     },
     {
@@ -3866,7 +3856,7 @@
         "active": [
             "Fires magical missiles in all directions.",
             "Each missile deals INT X 50 magic damage",
-            "Fires 6 missiles"
+            "Fires 5 missiles"
         ]
     },
     {
