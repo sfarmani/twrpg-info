@@ -2449,7 +2449,7 @@
             "Attack Damage X 800% damage",
             "STR X 40 bonus damage",
             "If target has barriers, breaks them and lands as a critical strike. If barrier cannot be broken, still lands a critical strike",
-            "Empowered: Increases target's damage taken by 5% for 40 seconds"
+            "Empowered: Increases target's damage taken by 5% for 40 seconds",
             "Shield break efficiency: 40%"
         ]
     },
@@ -3064,7 +3064,7 @@
         "active": [
             "Plants a very dangerous explosive.",
             "Plants an explosive that can be damaged",
-            "After 12 seconds, explodes dealing STR X 100 + damage taken X 7.5% pure damage and stunning for 3 seconds",
+            "After 12 seconds, explodes dealing STR X 100 + damage taken X 7.5% pure damage and stunning for 3 seconds"
         ]
     },
     {
@@ -3156,7 +3156,7 @@
             "Skill Level X 1000 damage",
             "(STR + AGI) X 40 bonus damage",
             "Stuns target for 1 second",
-            "Recharges Magnetic Field by 5% for each 200 distance travelled"
+            "Recharges Magnetic Field by 5% for each 200 distance travelled",
             "Lasts 2 seconds"
         ]
     },
