@@ -3339,8 +3339,8 @@
         "order": 1,
         "passive": [
             "The elven archers of ancient origin possess superior intellect and archery skills.",
-            "Increased attack range",
-            "Every 5 seconds, empowers next attack with a magical explosion",
+            "Increasees move speed by 100",
+            "Every 4 seconds, empowers next attack with magical explosion, dealing AGI X 40 magic damage",
             "Next Flame Shot / Freezing Shot incurs no cooldown"
         ]
     },
