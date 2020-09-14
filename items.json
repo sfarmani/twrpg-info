@@ -5004,7 +5004,12 @@
     "type": "[Misc]",
     "color": "80BFFF",
     "notes": [
-      "Droprate increases every 5 minutes that it does not drop"
+      "Cooldown of 10 minutes",
+      "Droprate increases every 10 minutes that it does not drop",
+      "Mad Clown droprate: 40%",
+      "Death Knight droprate: 20%",
+      "Wallachia Wraith and Scarab droprate: 1%",
+      "Duchy of Wallachia creeps droprate: 0.25% ~ 0.50%"
     ],
     "stats": {
       "active": [
