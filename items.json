@@ -5133,7 +5133,7 @@
   },
   {
     "id": "I0OU",
-    "name": "Droplet Bead",
+    "name": "Droplet Orb",
     "koreanname": "물방울 보주",
     "dropped_by": [
       "Guardian of the Sea"
@@ -18479,7 +18479,7 @@
     "id": "I0OE",
     "name": "Ring of Divine Winds",
     "koreanname": "신풍의 반지",
-    "description": "자유를 원하는 자여, 바람에 몸을 맡겨라.",
+    "description": "If you wish for true freedom, let the wind guide your body.",
     "type": "[Ring]",
     "color": "99FF99",
     "level": 400,
@@ -19038,7 +19038,7 @@
     "id": "I0OF",
     "name": "Thanatos, the Robe of Hell",
     "koreanname": "지옥의 로브 타나토스",
-    "description": "지옥의 힘이란... 익숙해질수록 달콤한 법",
+    "description": "The power of hell.. it gets sweeter by minute.",
     "type": "[Robe]",
     "color": "99FF99",
     "level": 400,
@@ -19360,7 +19360,7 @@
     "id": "I0OH",
     "name": "Bloodseeker Plates",
     "koreanname": "혈귀의 갑주",
-    "description": "피를 다오!",
+    "description": "I thirst for blood!",
     "type": "[Armor]",
     "color": "99FF99",
     "level": 400,
@@ -19410,7 +19410,7 @@
     "id": "I0OW",
     "name": "Vest of Divine Winds",
     "koreanname": "신풍의 도복",
-    "description": "신들린 속도를 하사하는 도복.",
+    "description": "Vest that bestows godly speed to user.",
     "type": "[Armor]",
     "color": "99FF99",
     "level": 400,
@@ -20438,7 +20438,7 @@
       ],
       "active": [
         "On use, activates Rainstorm around the user",
-        "Restores INT X 1 max HP to all nearby allies every 2 seconds for 6 seconds",
+        "Restores INT X max HP to all nearby allies every 2 seconds for 6 seconds",
         "Cooldown: 15 seconds"
       ],
       "spec": [
@@ -20900,7 +20900,7 @@
     "id": "I0OK",
     "name": "Cape of Deep Abyss",
     "koreanname": "깊은 심연의 망토",
-    "description": "그분이 심연에서 너를 기다리고 있다.",
+    "description": "The great old one awaits you..",
     "type": "[Wings]",
     "color": "99FF99",
     "level": 400,

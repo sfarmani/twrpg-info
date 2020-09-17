@@ -6,7 +6,7 @@
             "Compatible Version: v0.24c ~"
         ],
         "bugs": [
-            "Droplet Bead - Fixed being able to use it on enemies",
+            "Droplet Orb - Fixed being able to use it on enemies",
             "Lightning MAge - Fixed more Discharge related bugs",
             "Grandine, the Plates of Wraith - Fixed proc priority being higher than shield effects"
         ],
@@ -201,14 +201,14 @@
         ],
         "monsters": [
             {
-                "name": "Guardian of the Sea",
+                "name": "Guardian of Sea",
                 "changes": [
                     "New item boss, can be summed with Orb of the Deep Sea",
                     "Can drop:",
                     [
                         "Trident",
                         "Tidal Robe",
-                        "Droplet Bead",
+                        "Droplet Orb",
                         "Wings of Purification"
                     ]
                 ]
