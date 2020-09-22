@@ -5096,7 +5096,7 @@
     "name": "Trident",
     "koreanname": "삼지창",
     "dropped_by": [
-      "Guardian of the Sea"
+      "Guardian of Sea"
     ],
     "type": "[Weapon all classes]",
     "color": "9370DB",
@@ -5116,7 +5116,7 @@
     "name": "Tidal Robe",
     "koreanname": "타이달 로브",
     "dropped_by": [
-      "Guardian of the Sea"
+      "Guardian of Sea"
     ],
     "type": "[Robe]",
     "color": "9370DB",
@@ -5136,7 +5136,7 @@
     "name": "Droplet Orb",
     "koreanname": "물방울 보주",
     "dropped_by": [
-      "Guardian of the Sea"
+      "Guardian of Sea"
     ],
     "type": "[Ring]",
     "color": "9370DB",
@@ -5159,7 +5159,7 @@
     "name": "Wings of Purification",
     "koreanname": "정화의 날개",
     "dropped_by": [
-      "Guardian of the Sea"
+      "Guardian of Sea"
     ],
     "type": "[Wings]",
     "color": "9370DB",
