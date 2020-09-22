@@ -870,7 +870,7 @@
             "Manipulate blood through black magic.",
             "Increases max HP by INT X 4",
             "Periodically charges blood gauge",
-            "On next attack, consumes blood gauge to deal Max HP X 40% damage and heal for Max HP X 5%"
+            "On next attack, consumes blood gauge to deal Max HP X 30% damage and heal for Max HP X 5%"
         ]
     },
     {
@@ -1118,7 +1118,7 @@
         "active": [
             "Fire a magic bullet that splits into two directions.",
             "Skill Level X 50 pure damage",
-            "(AGI + INT) X 10 bonus damage",
+            "(AGI + INT) X 7.5 bonus damage",
             "Cooldown is reset upon firing another magic bullet"
         ]
     },
@@ -2188,7 +2188,7 @@
         "color": "f9feb8",
         "hotkey": "[W]",
         "icon": "CrusaderW",
-        "cooldown": 20,
+        "cooldown": 17.5,
         "order": 3,
         "passive": [
             "The blessing of god allows crusader to become a persevering light amidst her battles.",
@@ -2207,7 +2207,7 @@
         "color": "f9feb8",
         "hotkey": "[E]",
         "icon": "CrusaderE",
-        "cooldown": 10,
+        "cooldown": 7.5,
         "order": 4,
         "active": [
             "Leap quickly into air and slam down, shattering the ground.",
@@ -2222,7 +2222,7 @@
         "color": "f9feb8",
         "hotkey": "[R]",
         "icon": "CrusaderR",
-        "cooldown": 20,
+        "cooldown": 17.5,
         "order": 5,
         "active": [
             "Dash forward with lightning speed, striking all enemies.",
@@ -2532,8 +2532,8 @@
         "order": 2,
         "active": [
             "Attacks nearby enemies by spinning your scythe.",
-            "Attack Damage X 200% damage",
-            "AGI X 20 bonus damage",
+            "Attack Damage X 150% damage",
+            "AGI X 15 bonus damage",
             "On next 3 attack(s), reactivates with 25% damage"
         ]
     },
@@ -2582,7 +2582,7 @@
         "order": 5,
         "active": [
             "Relentlessly slashes the target.",
-            "Attacks with Attack Damage X 15% every 0.05 seconds",
+            "Attacks with Attack Damage X 10% every 0.05 seconds",
             "While active, reduces damage taken by 80% and becomes immune to CC effects",
             "Can be maintained up to 0.9 second"
         ]
@@ -3261,7 +3261,7 @@
         "order": 4,
         "passive": [
             "As the hunger for blood increases, so do berserker's combat abilities.",
-            "Increases attack damage up to (STR X 6), skill damage up to 40% based on missing HP",
+            "Increases attack damage up to (STR X 6), skill damage up to 30% based on missing HP",
             "Each attack increases STR by 6%, attack speed by 15% for 6 seconds (stacks up to 5 times)"
         ],
         "toggle": [
@@ -3300,16 +3300,14 @@
         "cooldown": 60,
         "order": 6,
         "passive": [
-            "Shroud your sword with madness.",
-            "While below 35% HP, your attacks have 25% chance to proc bonus damage proportional to missing HP",
-            "Casting Brandish empowers next 3 attacks with bonus damage",
-            "Deals Attack Damage X 200% + STR X 20 bonus damage"
+            "Shrouds your sword with madness.",
+            "On attack, you have up to 25% chance based on missing HP to deal Attack Damage X 200% + STR X 20 bonus magic damage",
+            "Casting Brandish empowers next 3 attacks with bonus damage"
         ],
         "active": [
             "Driven by madness, Berserker becomes a killing machine whose sole purpose is to battle.",
             "Consumes HP X 80%",
-            "Attack Damage X 400% damage per second",
-            "Increases attack speed by 100% for 12 seconds",
+            "Increases attack speed by 100% and movement speed by 125 for 12 seconds",
             "Evades death for the duration"
         ]
     },
@@ -3476,7 +3474,7 @@
         ],
         "active": [
             "Release mana to strengthen your body.",
-            "Increases damage reduction by 20%",
+            "Increases damage reduction by 15%",
             "Converts restored MP into HP 50% of restored MP"
         ]
     },
@@ -3667,7 +3665,7 @@
             "Consumes Max HP X 25% per second",
             "On finish, deals Max HP X 2000% magic damage to nearby enemies",
             "On finish, receives shield that absorbs Consumed HP X 100% damage for 8 seconds",
-            "While casting, becomes immune to CC effects and reduces damage taken by 70%",
+            "While casting, becomes immune to CC effects and reduces damage taken by 80%",
             "INT Main Stat: Nearby allies also receive the effect"
         ]
     },
@@ -4002,7 +4000,7 @@
         "active": [
             "\"Looking at you all reminds me of ice sculptures. Well, not that one captures my attention.\" - Mage",
             "Freezes nearby enemies for 5 seconds",
-            "Upon expiration, deals (INT X 200 + damage taken while frozen X 10%) pure damage",
+            "Upon expiration, deals (INT X 150 + damage taken while frozen X 6%) pure damage",
             "Reduces damage dealt by targets for 50% while active"
         ]
     },
@@ -4558,7 +4556,7 @@
             "Strikes target's weak points.",
             "Attack Damage X 250% pure damage",
             "Grants increased attack speed for 1.5 seconds",
-            "Deals Main Stat X 1.5 pure damage on each attack",
+            "Deals Main Stat X 1 pure damage on each attack",
             "If cast from melee range or while Wind Walk is active, deals 100% bonus damage and stuns for 0.5 seconds"
         ]
     },

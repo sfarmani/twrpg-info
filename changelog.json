@@ -1,5 +1,296 @@
 [
     {
+        "name": "38q",
+        "notes": [
+            "Released on: September 22nd, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Statusboard - Fixed related bugs",
+            "Memory stone - Fixed having 24 MP starting from 1 player",
+            "Reaper - Fixed Death's Slash (Q) still dealing 200% ATK DMG + AGI X 20 instead of intended 150% ATK DMG + AGI X 15"
+        ],
+        "misc": [
+            "CC immunity now provides immunity to slowing effects"
+        ]
+    },
+    {
+        "name": "38m",
+        "notes": [
+            "Released on: September 22nd, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Cooldown reset - Fixed not applying if hero is dead when it happens",
+            "Shadow Dragon - Fixed fight phases not changing as intended when fough after failure",
+            "Death Fiend - Fixed players taking damage from phase shift if they proc it with a spell that provides invincibility",
+            "Bloodseeker Plates - Fixed active cooldown being 30 seconds instead of intended 20 seconds",
+            "Demonic Fist - Fixed Paladin's special effect not working properly",
+            "Berserker - Fixed having mana while summer costume is enabled",
+            "Dark Knight - Fixed Dark Arts (R) - Death's Grasp (W) duration not ending properly",
+            "Fighter - Fixed Takedown (F) preventing duration of Combo mastery (D) from being reset",
+            "Warlock - Fixed Soul grimoire (R) channeling getting interrupted by cooldown reset effect",
+            "Witch - Fixed cooldown reset effects not applying to Death Bomb (Q)"
+        ],
+        "items": [
+            {
+                "name": "Oceanus, the Sword of Light / Tiberius, the Spear of Lightning",
+                "changes": [
+                    "Empowered attacks damage: 15000 + MAIN STAT X 2.5 → MAIN STAT X 2.5",
+                    "Empowered attacks crit chance is now affected by user's crit chance"
+                ]
+            },
+            {
+                "name": "Atricia, the Sword of Dreams",
+                "changes": [
+                    "Empowered attacks damage: MAIN STAT X 9 → MAIN STAT X 6"
+                ]
+            },
+            {
+                "name": "Pheles, the Bow of God",
+                "changes": [
+                    "Damage per activation: 15% ATK DMG → 12% ATK DMG"
+                ]
+            },
+            {
+                "name": "Halo of Judgment",
+                "changes": [
+                    "Damage per activation: MAIN STAT X 1 → MAIN STAT X 0.75"
+                ]
+            },
+            {
+                "name": "Radiance of the One",
+                "changes": [
+                    "Damage per activation: MAIN STAT X 1.5 → MAIN STAT X 1.25"
+                ]
+            },
+            {
+                "name": "Horn of Devil / Horn of Lightning God / Horn of Demon God",
+                "changes": [
+                    "Activation damage: MAIN STAT X 20 / 40 / 50 → MAIN STAT X 20 / 27.5 / 35"
+                ]
+            },
+            {
+                "name": "Ring of Strike / Ring of Insanity",
+                "changes": [
+                    "Amount of empowered attacks: 4 / 5 → 3 / 4"
+                ]
+            },
+            {
+                "name": "Ring of Divine Winds",
+                "changes": [
+                    "Cooldown reset chance on stack-based spells: 15% → 8%"
+                ]
+            },
+            {
+                "name": "Guardian of the Skies",
+                "changes": [
+                    "Passive - Damage per activation: MAIN STAT X 1 → MAIN STAT X 0.75"
+                ]
+            },
+            {
+                "name": "Ruler of the Skies",
+                "changes": [
+                    "Passive - Damage per activation: MAIN STAT X 1.25 → MAIN STAT X 1"
+                ]
+            },
+            {
+                "name": "Cape of Corrupt Flame / Cloak of the Fallen Shadows / Cloak of Deep Abyss",
+                "changes": [
+                    "Passive - Damage: 15 / 20 / 25% → 12 / 16 / 20%"
+                ]
+            },
+            {
+                "name": "Brave Heart",
+                "changes": [
+                    "Active - Self-heal: 40% → 50%, ally heal: 20% → 30%"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Removed drop limit from Orb of the Deep Sea"
+                ]
+            },
+            {
+                "name": "Demon Lord Beriel",
+                "changes": [
+                    "HP reduced by 20%",
+                    "Golem summon HP reduced by 50%"
+                ]
+            },
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Insta-kill effect no longer affects targets 300 or more units above ground"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Blood Fury (E)",
+                    [
+                        "Max SKILL DMG increased by 40% → 30%"
+                    ]
+                ]
+            },
+            {
+                "name": "Knight",
+                "changes": [
+                    "Release Mana (D)",
+                    [
+                        "Damage resistance: 20% → 15%"
+                    ],
+                    "Instincts (E)",
+                    [
+                        "Debuff immunity now lasts for 2 seconds regardless of whether Assualt (E) is used or not"
+                    ]
+                ]
+            },
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Unholy Light (E)",
+                    [
+                        "Damage resistance: 70% → 80%"
+                    ],
+                    "Dark Arts (R)",
+                    [
+                        "Now sets souls to full on cooldown reset"
+                    ]
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Divine Spirit (W)",
+                    [
+                        "Now sets stacks to full on cooldown reset"
+                    ]
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Flash of Immortality (W)",
+                    [
+                        "Cooldown: 20 seconds → 17.5 seconds"
+                    ],
+                    "Strike of Honor (E)",
+                    [
+                        "Cooldown: 10 seconds → 7.5 seconds"
+                    ],
+                    "1st Sword Dance: Strike (R)",
+                    [
+                        "Cooldown: 20 seconds → 17.5 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Now automatically attacks nearby target after casting Rising Dragon Strike (Q) / Crescent Slash (W)"
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Reduced cast time of Ambus (W) / Shadow Walk (E)",
+                    "Shadow Walk (E)",
+                    [
+                        "Slightly reduced MOV SPD drop-off"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Twin Star (Q)",
+                    [
+                        "Damage: (INT + AGI) X 10 → (INT + AGI) X 7.5"
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Whirl of Death (Q)",
+                    [
+                        "Damage: 200% ATK DMG + AGI X 20 → 150% ATK DMG + AGI X 15"
+                    ],
+                    "Death's Slash (R)",
+                    [
+                        "Damage: 15% ATK DMG → 10% ATK DMG"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Flowing Fist (Q)",
+                    [
+                        "Damage per attack: MAIN STAT X 1.25 → MAIN STAT X 1"
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Frozen Emotion (W)",
+                    [
+                        "Now sets stacks to full on cooldown reset"
+                    ],
+                    "Glacier Orb (T)",
+                    [
+                        "Max movement distance: 1000 → 1200"
+                    ],
+                    "Ice Age (F)",
+                    [
+                        "Damage: INT X 200 + 10% DMG DEALT → INT X 150 + 6% DMG DEALT"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Star Shower (W)",
+                    [
+                        "Now sets stacks to full on cooldown reset"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "No longer automatically attacks nearby targets"
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Mastery (D)",
+                    [
+                        "Damage: 40% max HP → 30% max HP"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "All pure damage forumlas are now affected by SKILL DMG",
+            "Memory stone now always starts at max mana (no longer need to feed it holy powders)",
+            "Memory stone max mana scaling based on number of players: 6 ~ 24 → 12 ~ 24",
+            "Memory stone max mana no longer decreases if players leave the game",
+            "Corrected some spell descriptions",
+            [
+                "Dark Knight - Deathblade (D)"
+            ]
+        ]
+    },
+    {
         "name": "38k",
         "notes": [
             "Released on: September 9th, 2020",

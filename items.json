@@ -7216,7 +7216,8 @@
       "skilldamagepercent": 0.075,
       "mdpercent": 0.075,
       "passive": [
-        "Activates Power of Skies on casting skill dealing (MAIN STAT X 1) pure damage, increase the user's MOV SPD by 5%, and MAIN STAT by 275 for 4 seconds",
+        "Activates Power of Skies on casting skill",
+        "Deals (MAIN STAT X 0.75) pure damage, increase the user's MOV SPD by 5%, and MAIN STAT by 275 for 4 seconds",
         "Cooldown: 16 seconds"
       ],
       "active": [
@@ -12297,7 +12298,7 @@
       "passive": [
         "On skill cast, gain a stack and empower next attack with light (up to a max of 6 stacks)",
         "Non-empowered attacks have ~9% chance to deal (MAIN STAT X (15 + stacks X 4)) magic damage",
-        "Empowered attacks deal (2.5 X MAIN STAT + 15000) pure damage and has a ~30.7% chance to crit for 2.5x the normal amount",
+        "Empowered attacks deal (2.5 X MAIN STAT) pure damage and has user's crit chance to crit for 2.5 times the normal amount",
         "Empowered attacks also heal user for 3% of damage dealt (affected by crit damage)"
       ],
       "active": [
@@ -12489,7 +12490,7 @@
       "passive": [
         "On skill cast, gain a stack and empower next attack with lightning (up to a max of 6 stacks)",
         "Non-empowered attacks have a ~12.8% chance to deal (MAIN STAT X ((stacks X 4) + 10)) pure damage",
-        "Empowered attacks deal ((MAIN STAT X 2.5) + 15000) pure damage with a ~30.7% chance to crit for 2.5x normal amount",
+        "Empowered attacks deal ((MAIN STAT X 2.5)) pure damage and has user's crit chance to crit for 2.5 times normal amount",
         "Empowered attacks also heal user for 3% of damage dealt (affected by crit damage)",
         "Damage is affected by wind/lightning affinity"
       ],
@@ -13556,7 +13557,9 @@
       "critchancepercent": 0.06,
       "dtpercent": 0.06,
       "passive": [
-        "'Flaming Charge' After moving 3000 range, deal 20x MAIN STAT Pure Damage on next attack. (5 second CD)"
+        "Upon moving 3000 distance, unlesash Devil's Flame on next attack",
+        "Deals (MAIN STAT X 20) pure damage",
+        "Cooldown: 5 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -13594,7 +13597,9 @@
       "critchancepercent": 0.12,
       "dtpercent": 0.08,
       "passive": [
-        "'Shocking Charge' After moving 3000 range, deal 30x MAIN STAT Pure Damage on next attack. (5 second CD)"
+        "Upon moving 3000 distance, unleash Lightning God's Wrath on next attack",
+        "Deals (MAIN STAT X 27.5) pure damage",
+        "Cooldown: 5 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -13762,8 +13767,9 @@
       "agility": 435,
       "passive": [
         "Damage dealt by attack +15%",
-        "On attack, activates Judgment, adding 1 stack every 0.15 seconds with a max stack of 5",
-        "Consume 1 stack on attack to do (MAIN STAT X 1) pure damage on attack"
+        "On attack, activates Judgment",
+        "Adds 1 stack every 0.15 seconds with a max stack of 5",
+        "Consume 1 stack on attack to do (MAIN STAT X 0.75) pure damage on attack"
       ],
       "active": [
         "Block magic every 1 minute and 30 seconds"
@@ -15946,7 +15952,7 @@
       "healreceivedpercent": -0.25,
       "passive": [
         "7.5% Chance to activate Absolute Strike on attack",
-        "Next 4 hits will deal an additional 100% ATK DMG",
+        "Next 3 hits will deal an additional 100% ATK DMG",
         "Also gain 20000 ATK DMG, 1000 MAIN STAT, and 1000 HP regen for 7.5 seconds",
         "Absolute Strike cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
@@ -16395,7 +16401,8 @@
       "mdpercent": 0.09,
       "hpregen": -175,
       "passive": [
-        "Dealing single-target SKILL DMG inflicts target with corrupt flame, dealing 15% additional damage over 3 seconds (effect stacks)"
+        "Single-target skill hits engulf target in corrupt flames",
+        "Deals 12% additional damage over 3 seconds (effect stacks)"
       ]
     }
   },
@@ -16823,7 +16830,9 @@
       "mdpercent": 0.12,
       "hpregen": -250,
       "passive": [
-        "Dealing single-target SKILL DMG inflicts target with corruption giving -4% MR debuff and dealing bonus damage over time (Does 20% of the abilities damage over 2 seconds, effect stacks)"
+        "On single-target hits, engulfs target with Corruption",
+        "Deals 16% additional damage over 3 seconds (effect stacks)",
+        "Reduces magic defense of targets by 4%"
       ]
     }
   },
@@ -18236,7 +18245,7 @@
       "healreceivedpercent": -0.35,
       "passive": [
         "12.5% Chance to activate Frenzy on attack",
-        "Next 5 hits will deal an additional 100% ATK DMG",
+        "Next 4 hits will deal an additional 100% ATK DMG",
         "Also gain 25000 ATK DMG, 1250 MAIN STAT and HP regen for 7.5 seconds",
         "Frenzy cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
@@ -18509,7 +18518,7 @@
       "movespeed": 60,
       "passive": [
         "On attack, 15% chance to activate Double Attack",
-        "On spellcast, 15% chance to refresh cooldown of that spell"
+        "On spellcast, 8% chance to refresh cooldown of that spell"
       ],
       "active": [
         "On use, teleports user to target location",
@@ -18815,8 +18824,9 @@
       "agility": 725,
       "passive": [
         "Damage dealt by attack +18%",
-        "On attack, activates Judgment, adding 1 stack every 0.15 seconds with a max stack of 5",
-        "Consume 1 stack on attack to do (MAIN STAT X 1.5) pure damage on attack"
+        "On attack, activates Judgment",
+        "Adds 1 stack every 0.15 seconds with a max stack of 5",
+        "Consume 1 stack on attack to do (MAIN STAT X 1.25) pure damage on attack"
       ],
       "active": [
         "Block magic every 1 minute"
@@ -18902,7 +18912,7 @@
       "dtpercent": 0.12,
       "passive": [
         "When moving 3000 distance, your next attack is empowered by Demonic Ray",
-        "Deals (MAIN STAT X 50) pure damage in a line in front of user",
+        "Deals (MAIN STAT X 35) pure damage in a line in front of user",
         "Increases user's damage dealt to target by 8% for 4 seconds",
         "Cooldown: 5 seconds, cannot be dropped during cooldown"
       ]
@@ -19970,7 +19980,7 @@
       "skilldamagepercent": 0.075,
       "critchancepercent": 0.075,
       "passive": [
-        "On spellcast, empowers next attack to deal (MAIN STAT X 9) pure damage, restore (MAIN STAT X 0.15), and adds stacks. Can have up to 6 stacks"
+        "On spellcast, empowers next attack to deal (MAIN STAT X 6) pure damage, restore (MAIN STAT X 0.15), and adds stacks. Can have up to 6 stacks"
       ],
       "active": [
         "Consumes all stacks and deals (50 X Mainstat X stack) damage to nearby enemies, stuns for 2 seconds, and gives 0.5 X stack seconds of 100% damage reduction and CC immunity",
@@ -20301,7 +20311,8 @@
       "agility": 2150,
       "attackspeedpercent": 0.4,
       "passive": [
-        "'Poem of Wind' Fire 1 additional projectiles on every attack that deals 0.15x ATK DMG as Pure Damage. Poem of Wind can Crit. Can trigger on attack effects"
+        "Activates Poem of Wind on attack",
+        "Fires 1 additional projectile on every attack that deals (12% ATK DMG) pure damage"
       ]
     }
   },
@@ -20626,7 +20637,8 @@
         "Reduces MOV and ATK SPD by 25% of nearby enemies"
       ],
       "active": [
-        "On use activates Bravery, restoring 40% max HP of self and 20% max HP of nearby allies",
+        "On use activates Bravery",
+        "Restores 50% max HP of self and 30% max HP of nearby allies",
         "Stuns nearby enemies for 1.5 seconds",
         "Cooldown: 40 seconds, cannot be dropped during cooldown"
       ]
@@ -20669,7 +20681,7 @@
       "mdpercent": 0.10,
       "passive": [
         "On skill cast, activates Power of Skies",
-        "Increases all stats by 500 and deals (MAIN STAT X 1.25) pure damage per attack for 5 seconds",
+        "Increases all stats by 500 and deals (MAIN STAT X 1) pure damage per attack for 5 seconds",
         "Cooldown: 15 seconds"
       ],
       "active": [
@@ -20933,8 +20945,8 @@
       "intelligence": 700,
       "mdpercent": 0.135,
       "passive": [
-        "Dealing damage to enemies with single-target effects applies Abyssal Erosion",
-        "Deals 25% of effect's damage over 5 seconds",
+        "On direct hit, activates Drowning Abyss",
+        "Deals 20% of effect's damage over 5 seconds",
         "Increases target's magic damage taken by 6 ~ 9% (increases based on amount of time target is debuffed, max at 15 seconds)",
         "If target dies while debuffed it explodes and deals (MAIN STAT X 50) pure damage to nearby enemies"
       ],
