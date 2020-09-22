@@ -15138,7 +15138,7 @@
     "description": "The night begins now!",
     "type": "[Ring]",
     "color": "9370DB",
-    "level": 260,
+    "level": 200,
     "recipe": [
       {
         "Count of Wallachia's Ring": 1
