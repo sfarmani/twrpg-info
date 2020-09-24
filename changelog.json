@@ -1,5 +1,273 @@
 [
     {
+        "name": "38t",
+        "notes": [
+            "Released on: September 23rd, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Lava - Fixed dealing more damage based on targets SKILL DMG",
+            "Death Fiend - Fixed Death Devourers silence being able to affect silence immune targets",
+            "Knight - Fixed bugs related to procing Death Fiends phase change with Excalibur (F)",
+            "Dark Knight - Fixed bugs related to activating Deathblade (D) with full souls",
+            "Ancient Ent - Fixed damage instance that breaks Elder Ents reflection shield still getting reflected"
+        ],
+        "items": [
+            {
+                "name": "Winter's Heart",
+                "changes": [
+                    "Passive - Damage: (STR X 5 + AGI X 4) → (STR X 3 + AGI X 2)"
+                ]
+            },
+            {
+                "name": "Eternal Winter",
+                "changes": [
+                    "Passive - Damage: (STR X 6 + AGI X 5) → (STR X 4 + AGI X 3)",
+                    "Active",
+                    [
+                        "Activation damage: (600% max MP) → (300% max MP)",
+                        "Field damage: (200% max MP) → (150% max MP)"
+                    ]
+                ]
+            },
+            {
+                "name": "Pheles, the Bow of Skies / Pheles, the Bow of God",
+                "changes": [
+                    "Proc damage: 12% ATK DMG → 10% ATK DMG"
+                ]
+            },
+            {
+                "name": "Triple Snow",
+                "changes": [
+                    "Active - Damage per instance: INT X 3 → INT X 2"
+                ]
+            },
+            {
+                "name": "Chrono Chaser",
+                "changes": [
+                    "Cooldown: 45 seconds → 60 seconds"
+                ]
+            },
+            {
+                "name": "Bag of Explosion",
+                "changes": [
+                    "Merchant spec - Damage of Dangerous Explosive (T): (STR X 100 + 7.5% DMG DEALT) → (STR X 50 + 5% DMG DEALT)"
+                ]
+            },
+            {
+                "name": "Bag of Despair",
+                "changes": [
+                    "Merchant spec - Damage of Cursed Doll (T): (STR X 200 + 7.5% DMG DEALT) → (STR X 125 + 5% DMG DEALT)"
+                ]
+            },
+            {
+                "name": "Benedict, the Crimson Armor of Blood",
+                "changes": [
+                    "Active - Damage: (3000% stored HP) → (2000% stored HP)"
+                ]
+            },
+            {
+                "name": "Nevedium, the Armor of Demonblood",
+                "changes": [
+                    "Active - Damage: (5000% stored HP) → (3000% stored HP)"
+                ]
+            },
+            {
+                "name": "Athanasia, the Armor of the Reaper",
+                "changes": [
+                    "Passive - Damage: (MAIN STAT X 100 ~ 200) → (MAIN STAT X 50 ~ 125)"
+                ]
+            },
+            {
+                "name": "Radiance of the One",
+                "changes": [
+                    "Proc damage: MAIN STAT X 1.25 → MAIN STAT X 1"
+                ]
+            },
+            {
+                "name": "Horn of Devil / Horn of Lightning God / Horn of Demon God",
+                "changes": [
+                    "Proc damage: (MAIN STAT X 20 / 27.5 / 35) → (MAIN STAT X 20 / 25 / 30)"
+                ]
+            },
+            {
+                "name": "Ring of Insanity",
+                "changes": [
+                    "Number of empowered attacks from proc: 4 → 3"
+                ]
+            },
+            {
+                "name": "Ring of Composure",
+                "changes": [
+                    "Active - Damage: 1% max HP → 0.75% max HP"
+                ]
+            },
+            {
+                "name": "Guardian of the Skies",
+                "changes": [
+                    "Passive - Proc damage: (MAIN STAT X 0.75) → (MAIN STAT X 0.5)"
+                ]
+            },
+            {
+                "name": "Ruler of the Skies",
+                "changes": [
+                    "Passive - Proc damage: (MAIN STAT X 1) → (MAIN STAT X 0.75)"
+                ]
+            },
+            {
+                "name": "Wings of Slayer",
+                "changes": [
+                    "Attack empower damage: (AGI X 1.5 + MAIN STAT X 2.5) → (AGI X 1.5 + MAIN STAT X 1)"
+                ]
+            },
+            {
+                "name": "Wings of Night Lord",
+                "changes": [
+                    "Attack empower damage: (AGI X 2 + MAIN STAT X 3) → (AGI X 2 + MAIN STAT X 1.5)"
+                ]
+            },
+            {
+                "name": "Cape of Corrupt Flame / Cloak of the Fallen Shadows / Cloak of Deep Abyss",
+                "changes": [
+                    "Passive - Damage: 12 / 16 / 20% → 10 / 12.5 / 15%",
+                    "Active - Damage: MAIN STAT X 50 → MAIN STAT X 30"
+                ]
+            },
+            {
+                "name": "Bat Wings",
+                "changes": [
+                    "Proc damage: 50% ATK DMG → 33% ATK DMG"
+                ]
+            },
+            {
+                "name": "Hungry Bat Wings",
+                "changes": [
+                    "Proc damage: 60% ATK DMG → 40% ATK DMG"
+                ]
+            },
+            {
+                "name": "Wings of Blood Lord",
+                "changes": [
+                    "Proc damage: 75% ATK DMG → 50% ATK DMG"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Instincts (E) - Assualt (E)",
+                    [
+                        "Damage per stack: 100% ATK DMG → 60% ATK DMG"
+                    ]
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Brandish (Q)",
+                    [
+                        "Damage: 250% ATK DMG → 200% ATK DMG"
+                    ],
+                    "Howling (W)",
+                    [
+                        "Damage: 500% max HP → 400% max HP"
+                    ]
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Aura (D) - Aura of Retribution (Q)",
+                    [
+                        "Judgment damage: 250% ATK DMG → 150% ATK DMG"
+                    ]
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Max Amplification: Execution Sword (T)",
+                    [
+                        "Cooldown: 60 seconds → 45 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Pierce (Q)",
+                    [
+                        "Damage: (100% ATK DMG + STR X 10) → (75% ATK DMG + STR X 5)"
+                    ]
+                ]
+            },
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Abyssal Slam (W)",
+                    [
+                        "Damage: 500% ATK DMG + (STR + INT) X 50 → 300% ATK DMG + (STR + INT) X 30"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Twin Star (Q)",
+                    [
+                        "Damage: (AGI + INT) X 7.5 → (AGI + INT) X 5"
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Whirl of Death (Q)",
+                    [
+                        "Damage: 150% ATK DMG + AGI X 15 → 100% ATK DMG + AGI X 15"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Heavenly Emperor's Strikes (T)",
+                    [
+                        "Damage: 200% ATK DMG + AGI X 60 → 200% ATK DMG + AGI X 40"
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Ice Age (F)",
+                    [
+                        "Damage: INT X 150 + 6% DMG DEALT → INT X 125 + 5% DMG DEALT"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Vengeance (E)",
+                    [
+                        "Expiration damage: 2000% DMG TAKEN → 1500% DMG TAKEN"
+                    ]
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Mastery (D)",
+                    [
+                        "Damage: 30% max HP → 25% max HP"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "38q",
         "notes": [
             "Released on: September 22nd, 2020",

@@ -2297,7 +2297,7 @@
       "damage": 5800,
       "agility": 610,
       "passive": [
-        "On attack, drains 10% of damage dealt as life (up to 800)"
+        "On attack, drains 10% of DMG DEALT as life (up to 800)"
       ]
     },
     "koreanname": "피의 검 테페시아"
@@ -2320,7 +2320,7 @@
       "damage": 7100,
       "agility": 530,
       "passive": [
-        "On attack, drains 10% of damage dealt as life (up to 800)"
+        "On attack, drains 10% of DMG DEALT as life (up to 800)"
       ]
     },
     "koreanname": "혈포 체페슈"
@@ -2434,7 +2434,7 @@
       "strength": 490,
       "attackspeedpercent": 0.1,
       "passive": [
-        "On attack, drains 8% of damage dealt as life (up to 600)"
+        "On attack, drains 8% of DMG DEALT as life (up to 600)"
       ]
     },
     "koreanname": "피의 창 상귀엘"
@@ -3909,7 +3909,7 @@
       "agility": 700,
       "hp": 2500,
       "passive": [
-        "Damage dealt by attack +10%",
+        "DMG DEALT by attack +10%",
         "8% Chance to reduce target's armor on attack",
         "Reduces armor by 175 for 5 seconds"
       ]
@@ -4643,7 +4643,7 @@
       "intelligence": 240,
       "skilldamagepercent": 0.03,
       "passive": [
-        "Allows you to dodge a fatal damage if damage dealt makes HP drop below 40.5% every 90 seconds",
+        "Allows you to dodge a fatal damage if DMG DEALT makes HP drop below 40.5% every 90 seconds",
         "Cannot be dropped during cooldown"
       ]
     },
@@ -4667,7 +4667,7 @@
       "strength": 170,
       "agility": 155,
       "passive": [
-        "+10% damage dealt by attack",
+        "+10% DMG DEALT by attack",
         "Deals 2500 when attacking same target",
         "Second attack applied is pure damage"
       ]
@@ -5085,7 +5085,7 @@
       "intelligence": 200,
       "hp": 2000,
       "passive": [
-        "Upon moving 400 distance, activates Drain on next attack dealing bonus (ATK DMG X 50%) pure damage and heal for 6% HP",
+        "Upon moving 400 distance, activates Drain on next attack dealing bonus (33% ATK DMG) pure damage and heal for 6% HP",
         "cooldown: 0.125 seconds"
       ]
     },
@@ -5516,7 +5516,7 @@
       "intelligence": 2000,
       "mpregen": 75,
       "passive": [
-        "Converts 0.035% of damage dealt into INT for a max of 600 INT (can be released)"
+        "Converts 0.035% of DMG DEALT into INT for a max of 600 INT (can be released)"
       ],
       "active": [
         "On use, can release stored INT that deals ((0.5 + ( stored INT - 300 ) / 600) X INT X 90) magic damage to enemies in a 450 radius around user",
@@ -7217,7 +7217,7 @@
       "mdpercent": 0.075,
       "passive": [
         "Activates Power of Skies on casting skill",
-        "Deals (MAIN STAT X 0.75) pure damage, increase the user's MOV SPD by 5%, and MAIN STAT by 275 for 4 seconds",
+        "Deals (MAIN STAT X 0.5) pure damage, increase the user's MOV SPD by 5%, and MAIN STAT by 275 for 4 seconds",
         "Cooldown: 16 seconds"
       ],
       "active": [
@@ -10154,7 +10154,7 @@
       "damage": 7600,
       "agility": 840,
       "passive": [
-        "On attack, heals for 18% of damage dealt (max 1500)"
+        "On attack, heals for 18% of DMG DEALT (max 1500)"
       ]
     }
   },
@@ -10188,7 +10188,7 @@
       "strength": 680,
       "attackspeedpercent": 0.15,
       "passive": [
-        "On attack, heals 14% of damage dealt (max 1250)"
+        "On attack, heals 14% of DMG DEALT (max 1250)"
       ]
     }
   },
@@ -10296,7 +10296,7 @@
       "intelligence": 610,
       "hp": 2500,
       "passive": [
-        "On attack, heals 18% of damage dealt (max 1500)"
+        "On attack, heals 18% of DMG DEALT (max 1500)"
       ]
     }
   },
@@ -11473,7 +11473,7 @@
       "agility": 1900,
       "attackspeedpercent": 0.2,
       "passive": [
-        "On attack, activates Poem of Wind, firing an additional projectile that deals (ATK DMG X 15%) pure damage",
+        "On attack, activates Poem of Wind, firing an additional projectile that deals (10% ATK DMG) pure damage",
         "Damage is affected by wind/lightning affinity"
       ]
     }
@@ -12210,7 +12210,7 @@
       ],
       "active": [
         "On use, activates Illusion on next attack received blocking any spells that deal more than 10% of max HP",
-        "On block, reflects damage back to enemy and deals (2 X (min(1, damage dealt / (max HP + 10%))) X max HP) magic damage and stuns for 2 seconds",
+        "On block, reflects damage back to enemy and deals (2 X (min(1, DMG DEALT / (max HP + 10%))) X max HP) magic damage and stuns for 2 seconds",
         "Also grants user with: up to a max of +1250 AGI and +10% crit chance for 15 seconds",
         "Cooldown: 105 seconds, cannot be dropped during cooldown"
       ]
@@ -12299,7 +12299,7 @@
         "On skill cast, gain a stack and empower next attack with light (up to a max of 6 stacks)",
         "Non-empowered attacks have ~9% chance to deal (MAIN STAT X (15 + stacks X 4)) magic damage",
         "Empowered attacks deal (2.5 X MAIN STAT) pure damage and has user's crit chance to crit for 2.5 times the normal amount",
-        "Empowered attacks also heal user for 3% of damage dealt (affected by crit damage)"
+        "Empowered attacks also heal user for 3% of DMG DEALT (affected by crit damage)"
       ],
       "active": [
         "On use, activates Trail of Light sending (stacks X 2) daggers to target. Each dagger deals (MAIN STAT X 12.5) magic damage",
@@ -12392,7 +12392,7 @@
       "intelligence": 1240,
       "dtpercent": -0.08,
       "passive": [
-        "Every 8th attack activates Everfrost Blast dealing ((STR X 5) + (AGI X 4)) pure splash damage",
+        "Every 8th attack activates Everfrost Blast dealing ((STR X 3) + (AGI X 2)) pure splash damage",
         "Damage is affected by ice/water affinity",
         "Counts as a single target"
       ],
@@ -12491,7 +12491,7 @@
         "On skill cast, gain a stack and empower next attack with lightning (up to a max of 6 stacks)",
         "Non-empowered attacks have a ~12.8% chance to deal (MAIN STAT X ((stacks X 4) + 10)) pure damage",
         "Empowered attacks deal ((MAIN STAT X 2.5)) pure damage and has user's crit chance to crit for 2.5 times normal amount",
-        "Empowered attacks also heal user for 3% of damage dealt (affected by crit damage)",
+        "Empowered attacks also heal user for 3% of DMG DEALT (affected by crit damage)",
         "Damage is affected by wind/lightning affinity"
       ],
       "active": [
@@ -12837,10 +12837,15 @@
       "hp": 6000,
       "affinityiwpercent": 0.08,
       "passive": [
-        "'Snowy Wrath' On skill cast, empower your next attack with frost dealing 20x Int Damage and slowing target"
+        "On skill cast, empowers next attack",
+        "Deals (INT X 20) magic damage and slows target"
       ],
       "active": [
-        "'Glacial Storm' Continuously freeze enemies in targeted 400 AoE for 4 seconds dealing 100x Int damage over the duration. Applies a debuff that causes enemies to take 3x Int (your Int) Pure Damage whenever they are attacked (by anyone) with a 0.1 second CD. (90 second CD)"
+        "On use, activates Glacial Storm",
+        "Freezes enemies in targetted area for 4 seconds",
+        "Deals ((water affinity X 100 / (INT X 56)) X 8) magic damage over duration",
+        "Causes enemies to take (INT X 2) pure damage when they are attacked by you or your allies",
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Water Mastery",
@@ -13353,7 +13358,7 @@
       "mainstat": 250,
       "allstat": 310,
       "passive": [
-        "+10% Damage dealt by attack",
+        "+10% DMG DEALT by attack",
         "'War Shout' Increase nearby allies MOV SPD and Health Regeneration"
       ],
       "active": [
@@ -13438,7 +13443,7 @@
       "strength": 460,
       "agility": 300,
       "passive": [
-        "+12.5% Damage dealt by attack"
+        "+12.5% DMG DEALT by attack"
       ],
       "active": [
         "Anti-Magic Shield (self) (180 second CD)"
@@ -13598,7 +13603,7 @@
       "dtpercent": 0.08,
       "passive": [
         "Upon moving 3000 distance, unleash Lightning God's Wrath on next attack",
-        "Deals (MAIN STAT X 27.5) pure damage",
+        "Deals (MAIN STAT X 25) pure damage",
         "Cooldown: 5 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -13766,7 +13771,7 @@
       "strength": 525,
       "agility": 435,
       "passive": [
-        "Damage dealt by attack +15%",
+        "DMG DEALT by attack +15%",
         "On attack, activates Judgment",
         "Adds 1 stack every 0.15 seconds with a max stack of 5",
         "Consume 1 stack on attack to do (MAIN STAT X 0.75) pure damage on attack"
@@ -14359,7 +14364,7 @@
       "agility": 760,
       "skilldamagepercent": 0.06,
       "passive": [
-        "Stores 1% of damage dealt in Cruoris, gaining it as max Health temporarily. (Capped at Agility X 2)"
+        "Stores 1% of DMG DEALT in Cruoris, gaining it as max Health temporarily. (Capped at Agility X 2)"
       ],
       "active": [
         "Releases stored health dealing Stored Health X 30 damage to nearby enemies and increases agility by 12% (Capped at 1000) for 12 seconds (150 second CD)"
@@ -14672,7 +14677,7 @@
       ],
       "active": [
         "On use, activates Force Break",
-        "Releases stored HP and deals (stored HP X 30) pure damage to enemies around user",
+        "Releases stored HP and deals (stored HP X 20) pure damage to enemies around user",
         "Increases AGI by 15% and SKILL DMG by 5% for 12 seconds",
         "Stuns for 1.5 seconds",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
@@ -15633,7 +15638,7 @@
       "skilldamagepercent": 0.08,
       "mdpercent": 0.08,
       "active": [
-        "Damage dealt in the next 6 seconds is partially converted into Health"
+        "DMG DEALT in the next 6 seconds is partially converted into Health"
       ]
     }
   },
@@ -16360,8 +16365,10 @@
       "intelligence": 550,
       "hp": 4000,
       "passive": [
-        "'Drain' Empower next attack after moving 400 range (including by teleport/dash) dealing bonus 60% of your Attack as Pure Damage and healing you for 8% Health (0.125s cd)",
-        "Gain 150 Health regen on every proc up to 5 times for 2.5 seconds."
+        "Upon moving 400 distance, activates Hungry Drain on next attack",
+        "Deals bonus (40% ATK DMG) pure damage and heals for 8% HP",
+        "Gives 150 HP regen on every proc up to 5 times for 2.5 seconds",
+        "cooldown: 0.125 seconds"
       ]
     }
   },
@@ -16402,7 +16409,7 @@
       "hpregen": -175,
       "passive": [
         "Single-target skill hits engulf target in corrupt flames",
-        "Deals 12% additional damage over 3 seconds (effect stacks)"
+        "Deals 10% additional damage over 3 seconds (effect stacks)"
       ]
     }
   },
@@ -16831,7 +16838,7 @@
       "hpregen": -250,
       "passive": [
         "On single-target hits, engulfs target with Corruption",
-        "Deals 16% additional damage over 3 seconds (effect stacks)",
+        "Deals 12.5% additional damage over 3 seconds (effect stacks)",
         "Reduces magic defense of targets by 4%"
       ]
     }
@@ -16917,7 +16924,7 @@
       "skilldamagepercent": 0.06,
       "passive": [
         "On skill cast, empowers next attack with Decimation:",
-        "Deals ((MAIN STAT X 2.5) + (AGI X 1.5)) pure damage",
+        "Deals ((MAIN STAT X 1) + (AGI X 1.5)) pure damage",
         "User's critical chance to deal (normal damage X user's crit multipler) pure damage",
         "Activates Madness of Slayer for 6 seconds when procced",
         "Creates a stack every proc up to 10 times",
@@ -17926,7 +17933,7 @@
         "Casting single-target spells on enemies decreases their magic resistance by 6% (Type-B) for 12 seconds"
       ],
       "active": [
-        "Deals water affinity X (1% Max HP) pure damage to debuffed enemy and freezes them for 2 seconds",
+        "Deals water affinity X (0.75% Max HP) pure damage to debuffed enemy and freezes them for 2 seconds",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -18245,7 +18252,7 @@
       "healreceivedpercent": -0.35,
       "passive": [
         "12.5% Chance to activate Frenzy on attack",
-        "Next 4 hits will deal an additional 100% ATK DMG",
+        "Next 3 hits will deal an additional 100% ATK DMG",
         "Also gain 25000 ATK DMG, 1250 MAIN STAT and HP regen for 7.5 seconds",
         "Frenzy cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
@@ -18438,7 +18445,7 @@
         "Casting single-target spells on enemies decreases their magic resistance by 7.5% (Type-B) for 12 seconds"
       ],
       "active": [
-        "Deals water affinity X (1.5% Max HP) pure damage to debuffed enemy, freezes for 3 seconds, and increases allies' damage dealt to it by 5% for 2 seconds",
+        "Deals water affinity X (1% Max HP) pure damage to debuffed enemy, freezes for 3 seconds, and increases allies' DMG DEALT to it by 5% for 2 seconds",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -18518,7 +18525,8 @@
       "movespeed": 60,
       "passive": [
         "On attack, 15% chance to activate Double Attack",
-        "On spellcast, 8% chance to refresh cooldown of that spell"
+        "On spellcast, 15% chance to refresh cooldown of that spell",
+        "On casting a stack-based spell, 8% chance to refresh cooldown of that spell"
       ],
       "active": [
         "On use, teleports user to target location",
@@ -18823,10 +18831,10 @@
       "strength": 825,
       "agility": 725,
       "passive": [
-        "Damage dealt by attack +18%",
+        "DMG DEALT by attack +18%",
         "On attack, activates Judgment",
         "Adds 1 stack every 0.15 seconds with a max stack of 5",
-        "Consume 1 stack on attack to do (MAIN STAT X 1.25) pure damage on attack"
+        "Consume 1 stack on attack to do (MAIN STAT X 1) pure damage on attack"
       ],
       "active": [
         "Block magic every 1 minute"
@@ -18912,8 +18920,8 @@
       "dtpercent": 0.12,
       "passive": [
         "When moving 3000 distance, your next attack is empowered by Demonic Ray",
-        "Deals (MAIN STAT X 35) pure damage in a line in front of user",
-        "Increases user's damage dealt to target by 8% for 4 seconds",
+        "Deals (MAIN STAT X 30) pure damage in a line in front of user",
+        "Increases user's DMG DEALT to target by 8% for 4 seconds",
         "Cooldown: 5 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -19261,7 +19269,7 @@
       "passive": [
         "If HP drops below 20%, summons Reaper",
         "Reaper prevents HP from dropping below 1 for 6 seconds",
-        "After 6 seconds deals (MAIN STAT X 100 ~ 200) pure damage based on missing HP of targets around user and restores HP to 100%",
+        "After 6 seconds deals (MAIN STAT X 50 ~ 125) pure damage based on missing HP of targets around user and restores HP to 100%",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -19307,12 +19315,12 @@
       "skilldamagepercent": 0.12,
       "passive": [
         "On dealing damage, accumulates Blood",
-        "Converts 1% of damage dealt into max HP (AGI X 2 max)",
+        "Converts 1% of DMG DEALT into max HP (AGI X 2 max)",
         "When fully stacked provides 2% HP regen"
       ],
       "active": [
         "On use, activates Demon Break",
-        "Releases stored HP to deal (stored HP X 50) pure damage to nearby enemies and stuns for 1.5 seconds",
+        "Releases stored HP to deal (stored HP X 30) pure damage to nearby enemies and stuns for 1.5 seconds",
         "Increases AGI by 20% and damage output by 5% for 12 seconds",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
@@ -19925,7 +19933,7 @@
       "intelligence": 1550,
       "dtpercent": -0.1,
       "passive": [
-        "Every 8th attack activates Frost Explosion dealing water affinity X ((STR X 6) + (AGI X 5)) pure splash damage",
+        "Every 8th attack activates Frost Explosion dealing water affinity X ((STR X 4) + (AGI X 3)) pure splash damage",
         "Counts as a single target"
       ],
       "active": [
@@ -20312,7 +20320,7 @@
       "attackspeedpercent": 0.4,
       "passive": [
         "Activates Poem of Wind on attack",
-        "Fires 1 additional projectile on every attack that deals (12% ATK DMG) pure damage"
+        "Fires 1 additional projectile on every attack that deals (10% ATK DMG) pure damage"
       ]
     }
   },
@@ -20404,7 +20412,7 @@
         "On use activates Chrono Chaser, a projectile that breaks shields and deals (AGI X 250 + 7.5% target's max HP) magic damage",
         "Stuns for 1 second",
         "Projectile stays in target area for 4 seconds and deals 20% of initial damage per second",
-        "Cooldown: 45 seconds, cannot be dropped during cooldown"
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Evil Chaser",
@@ -20681,7 +20689,7 @@
       "mdpercent": 0.10,
       "passive": [
         "On skill cast, activates Power of Skies",
-        "Increases all stats by 500 and deals (MAIN STAT X 1) pure damage per attack for 5 seconds",
+        "Increases all stats by 500 and deals (MAIN STAT X 0.75) pure damage per attack for 5 seconds",
         "Cooldown: 15 seconds"
       ],
       "active": [
@@ -20732,8 +20740,9 @@
       "allstat": 740,
       "hp": 5000,
       "passive": [
-        "Upon moving 400 distance, activates Bloody Bite on next attack.",
-        "On each proc, deal ATK DMG X 75% pure damage, heal Max HP X 8%, and for 4 seconds gain ATK +1500, MS +15, and HP Recovery Rate +250 (can overlap up to 5 times)"
+        "Upon moving 400 distance, activates Bloody Bite on next attack",
+        "On each proc, deal (50% ATK DMG) pure damage",
+        "Heals 8% max HP, and for 4 seconds increases ATK DMG by 1500, MOV SPD by 15, and HP Recovery Rate by 250 (can overlap up to 5 times)"
       ]
     }
   },
@@ -20900,7 +20909,7 @@
       "movespeed": 50,
       "passive": [
         "On skill cast, empowers next attack",
-        "Next attack deals (MAIN STAT X 3 + AGI X 2.5) pure damage",
+        "Next attack deals (MAIN STAT X 1.5 + AGI X 2) pure damage",
         "Can crit based on user's critical chance",
         "Empowered attack stacks Madness of Night",
         "For 8 seconds increases AGI by 120 (stacks up to 10 times)",
@@ -20946,9 +20955,9 @@
       "mdpercent": 0.135,
       "passive": [
         "On direct hit, activates Drowning Abyss",
-        "Deals 20% of effect's damage over 5 seconds",
+        "Deals 15% of effect's damage over 5 seconds",
         "Increases target's magic damage taken by 6 ~ 9% (increases based on amount of time target is debuffed, max at 15 seconds)",
-        "If target dies while debuffed it explodes and deals (MAIN STAT X 50) pure damage to nearby enemies"
+        "If target dies while debuffed it explodes and deals (MAIN STAT X 30) pure damage to nearby enemies"
       ],
       "active": [
         "On use, manually activates explosion on targets that have max reduction stacks"
