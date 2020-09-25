@@ -10995,7 +10995,7 @@
         "Activates Breath of Ancients every 4 seconds",
         "Next attack deals ((STR + AGI + INT) X 7.5) magic damage",
         "20% Chance to crit for (2 X (STR + AGI + INT) X 7.5) magic damage",
-        "Also reduces target's MOV SPD by 25% and ATK SPD by 10% for 3 seconds"
+        "Also reduces target's MOV SPD by 20% for 3 seconds"
       ],
       "spec": [
         "Specialties",
@@ -13116,7 +13116,11 @@
       "skilldamagepercent": 0.045,
       "critchancepercent": 0.045,
       "active": [
-        "If your Health is below 40%, heals you for 40% max Health and gives you +650 Agi and 0.10x Crit Multiplier for 8 seconds. If your Health is above 40%, gives you +500 Agi for 8 seconds"
+        "On use, activates Death Vengeance",
+        "If HP is below 40%, increases MAIN STAT by 450 for 8 seconds, heals 40% max HP and stuns nearby enemies for 1 second",
+        "If HP is above 40%, increases MAIN STAT by 350 for 8 seconds",
+        "Regardless of HP percentage, increases CRIT MULT by 0.10 for 8 seconds",
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -13218,7 +13222,7 @@
         "On use, activates Grim Vengeance",
         "If HP is below 40%, increases MAIN STAT by 600 for 8 seconds, heals 70% max HP, deals (MAIN STAT X 75) magic damage and stuns nearby enemies for 1.5 seconds",
         "If HP is above 40%, increases MAIN STAT by 450 for 8 seconds",
-        "Regardless of HP percentage, increases CRIT MULT by 0.20 fo 8 seconds",
+        "Regardless of HP percentage, increases CRIT MULT by 0.20 for 8 seconds",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -15023,7 +15027,7 @@
         "Restores (INT X 1.5) HP to all nearby allies per wave",
         "Deals (INT X 25) magic damage to all nearby enemies for 6 waves",
         "7th wave deals (INT X 50) magic damage",
-        "Applies a shield of (15000 + INT X 5) to all nearby allies for 4.2 seconds",
+        "Applies a shield of (15000 + INT X 5) to user for 4.2 seconds",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -19560,7 +19564,10 @@
       "attackspeedpercent": 0.3,
       "skilldamagepercent": 0.12,
       "passive": [
-        "Empowers next attack with Breath of Chaos every 4 seconds"
+        "Empowers next attack with Breath of Chaos every 4 seconds",
+        "Next attack deals ((STR + AGI + INT) X 15) magic damage",
+        "33% Chance to crit for (3 X (STR + AGI + INT) X 7.5) magic damage",
+        "Also reduces target's MOV SPD by 25% and ATK SPD by 10% for 3 seconds"
       ],
       "active": [
         "On use, summons Chaos Spawn",
@@ -19569,7 +19576,8 @@
       "spec": [
         "Specialty - Affinity",
         "Wind Mage - Arrow and Grace of Zephyrus: Chance to spawn fairies when attacking or attacked increased by 5%",
-        "Wind Mage - Also, an ally that has been affected more than 3 times by Horn of Notus gains resistance to debuff for 4 seconds at the end of the skill."
+        "Wind Mage - Also, an ally that has been affected more than 3 times by Horn of Notus gains resistance to debuff for 4 seconds at the end of the skill.",
+        "Elementalist - Spirit Link: Breath of Chaos empowers the summon linked by Elemental Link, and its cooldown is reduced by 2 seconds."
       ]
     }
   },
@@ -19653,12 +19661,12 @@
       "intelligence": 2650,
       "skilldamagepercent": 0.1,
       "passive": [
-        "On spellcast, activates Catastrophe",
+        "On skill cast, activates Calamity",
         "Increases ATK DMG by 12500 and INT by 750 for 4 seconds",
         "Cooldown: 12 seconds"
       ],
       "active": [
-        "On use, activates Chant of Ruin",
+        "On use, activates Song of Destruction",
         "Deals (2500% ATK DMG + INT X 125) magic damage to nearby enemies",
         "Increases magic damage taken of hit enemies by 9% for 10 seconds",
         "Stuns for 2 seconds",
