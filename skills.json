@@ -449,7 +449,7 @@
         "order": 15,
         "active": [
             "Summon an eye of the storm at the target location.",
-            "Attacks nearby enemies with INT X (2 + 1 X Skill Level) damage",
+            "Attacks nearby enemies with (water affinity X wind affinity X (INT X (2 + 1 X Skill Level))) damage",
             "Its attack speed is temporarily increased when a Wind transmutation is performed",
             "On recast, moves the Eye to the target location and increases duration"
         ]
