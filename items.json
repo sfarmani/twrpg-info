@@ -13215,7 +13215,11 @@
       "skilldamagepercent": 0.06,
       "critchancepercent": 0.06,
       "active": [
-        "Grim Vengeance"
+        "On use, activates Grim Vengeance",
+        "If HP is below 40%, increases MAIN STAT by 600 for 8 seconds, heals 70% max HP, deals (MAIN STAT X 75) magic damage and stuns nearby enemies for 1.5 seconds",
+        "If HP is above 40%, increases MAIN STAT by 450 for 8 seconds",
+        "Regardless of HP percentage, increases CRIT MULT by 0.20 fo 8 seconds",
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
   },

@@ -286,7 +286,7 @@
         "order": 3,
         "active": [
             "Fires a flame bullet.",
-            "Attack Damage X (200 X Skill Level)% damage"
+            "Attack Damage X (200 X Skill Level)% magic damage"
         ]
     },
     {
@@ -298,8 +298,8 @@
         "order": 4,
         "active": [
             "Draw forth magma from the grounds.",
-            "Skill Level X 200 damage",
-            "INT X 50 bonus damage"
+            "Skill Level X 200 magic damage",
+            "INT X (10 + 5 X Skill Level) bonus damage"
         ]
     },
     {
@@ -329,7 +329,7 @@
             "Drops down a flaming boulder.",
             "Skill Level X 1000 damage",
             "INT X (25 + 5 X Skill Level) bonus damage",
-            "Deals (30 + 3 X Skill Damage increase)% bonus damage to units stunned or resistant to stun effects",
+            "Deals (50 + 3 X Skill Damage increase)% bonus damage to units stunned or resistant to stun effects",
             "Has 3 second delay",
             "Range: 600"
         ]
@@ -344,7 +344,7 @@
         "order": 7,
         "passive": [
             "Affinity with water grants regenerative properties.",
-            "Water-based alchemy restores 4% of max HP, 10% of max MP over 6 seconds"
+            "Water-related transmutation restores 20% of max HP and max MP over 6 seconds"
         ],
         "active": [
             "Create a transmutation circle of water to cast skills.",
@@ -361,8 +361,8 @@
         "active": [
             "Fire a water bomb that expands with steam.",
             "Skill Level X 150 damage",
-            "INT X (7.5 + 1.5 X Skill Level) bonus damage",
-            "Deals 15% additional damage per second travelled (up to 5 seconds)",
+            "INT X (7.5 + 2.5 X Skill Level) bonus damage",
+            "Deals 15% additional damage per second travelled (up to 75%)",
             "Deals 100% bonus damage to burning targets",
             "Chain: Healing Rain"
         ]
@@ -377,7 +377,7 @@
         "active": [
             "Fire streams of water frontward.",
             "Each bullet deals Skill Level X 50 damage",
-            "INT X (2.5 + 0.15 X Skill Level) bonus damage",
+            "INT X (1 + 0.75 X Skill Level) bonus damage",
             "Heals allies hit for 20% of damage",
             "Slow effect"
         ]
@@ -405,7 +405,7 @@
         "active": [
             "Transmutate a cloud that brings down rain to nearby area.",
             "Heals for Skill Level X 25 per second",
-            "INT X (0.5 + 0.05 X Skill Level) bonus heal",
+            "INT X (0.25 X Skill Level) bonus heal",
             "Chainable: Eye of the Storm"
         ]
     },
@@ -418,12 +418,12 @@
         "cooldown": 20,
         "order": 13,
         "passive": [
-            "Affinity with air grants vitality.",
-            "Air-related transmutation grants 75 movement speed for 6 seconds"
+            "Affinity with wind blesses you with energy.",
+            "Performing wind-related transmutation grants 75 movement speed for 6 seconds"
         ],
         "active": [
-            "Create a transmutation circle of air to cast skills.",
-            "Can be chained"
+            "Inscribes a wind transmutation circle to perform transmutations.",
+            "Chainable with wind-related transmutations"
         ]
     },
     {
@@ -435,9 +435,8 @@
         "order": 14,
         "active": [
             "Enchant target's hands with fire and wind.",
-            "Increase target's attack damage by 15%",
-            "Increase target's pure attack speed by 25%",
-            "15% Chance to activate Ignite on spell cast",
+            "Increase target's attack damage by 15% and pure attack speed by 25%",
+            "Grants 15% chance to activate Ignite on skill cast",
             "Chain: Blaze"
         ]
     },
@@ -450,7 +449,7 @@
         "order": 15,
         "active": [
             "Summon an eye of the storm at the target location.",
-            "Attacks nearby enemies with water affinity X wind affinity X (INT X (2.5 + 0.5 X Skill Level)) damage",
+            "Attacks nearby enemies with INT X (2 + 1 X Skill Level) damage",
             "Its attack speed is temporarily increased when a Wind transmutation is performed",
             "On recast, moves the Eye to the target location and increases duration"
         ]
@@ -465,7 +464,7 @@
         "active": [
             "Send forth a strong gust of wind.",
             "Skill Level X 400 damage",
-            "INT X (20 + 3 X Skill Level) bonus damage",
+            "INT X (20 + 5 X Skill Level) bonus damage",
             "Knocks back non-boss enemies and Water Bombs"
         ]
     },
@@ -477,10 +476,10 @@
         "icon": "AlchemistE_R",
         "order": 17,
         "active": [
-            "Create a fierce storm made of rock pellets.",
-            "Eack rock deals Skill Level X 200 damage",
-            "INT X (10 + 1.5 X Skill Level) bonus damage",
-            "Chainable: Magma Explosion"
+            "Creates a fierce storm of rocks.",
+            "Each rock deals Skill Level X 250 damage",
+            "INT X (10 + 2.5 X Skill Level) bonus damage",
+            "Chain: Magma Exlposion"
         ]
     },
     {
@@ -508,12 +507,10 @@
         "icon": "AlchemistR_Q",
         "order": 19,
         "active": [
-            "Transmute a cannon to fire a powerful cannonball.",
+            "Transmutes a cannon to fire a powerful cannonball.",
             "Skill Level X 1200 damage",
-            "INT X (30 + 7.5 X Skill Level) bonus damage",
-            "Cannon can be reused for a short duration on subsequent casts",
-            "Recognition radius: 800",
-            "Re-cast based on distance from enemy"
+            "INT X (30 + 10 X Skill Level) bonus damage",
+            "Cannon can be reused on subsequent casts for a short duration"
         ]
     },
     {
@@ -524,7 +521,7 @@
         "icon": "AlchemistR_W",
         "order": 20,
         "active": [
-            "Create a random potion.",
+            "Conjures a useful potion.",
             "Better potions can be created with higher skill level",
             "Higher chance to create better potions with higher INT",
             "Chainable: Water Stream"
@@ -540,9 +537,9 @@
         "active": [
             "Collapses the ground with strong pulses.",
             "Skill Level X 800 damage",
-            "INT X (20 + 4 X Skill Level) bonus damage",
+            "INT X (10 + 10 X Skill Level) bonus damage",
             "Decreases enemies' attack speed and movement speed by 80% for 3 seconds",
-            "Chainable: Stone Golem - Power Slam"
+            "Chain: Stone Golem - Power Slam"
         ]
     },
     {
@@ -570,7 +567,7 @@
             "Becomes hard like the earth.",
             "Reduces damage taken by (summoner's INT / 5) (up to 70% of damage taken)",
             "Decreases magic damage taken by 40%",
-            "Each earth-based transmutation performed by Alchemist grants 40 armor (max Skill Level X 2 stacks)"
+            "Each earth-based transmutation performed by Alchemist grants 40 armor (max 10 stacks)"
         ]
     },
     {
@@ -608,7 +605,7 @@
         "active": [
             "Roll in a line",
             "Skill Level X 1000 damage on collision",
-            "INT X (25 + 3 Skill Level) bonus damage",
+            "INT X (25 + 5 X Skill Level) bonus damage",
             "Increase damage taken by collided enemies by 6% for 8 seconds"
         ]
     },
@@ -622,9 +619,9 @@
         "order": 27,
         "active": [
             "Creates a shockwave by slamming down.",
-            "Summoner's Attack Damage X 2 X Skill Level damage",
+            "Summoner's Attack Damage X 10 damage",
             "INT X 60 bonus damage",
-            "Consumes armor increased by Conjure Earth dealing 20% bonus damage per consumed stack"
+            "Consumes armor increased by Conjure Earth, dealing 20% bonus damage per consumed stack"
         ]
     },
     {
@@ -636,7 +633,7 @@
         "cooldown": 45,
         "order": 28,
         "passive": [
-            "It seems to temporarily augment user's abilities but it seems to be an artificial one",
+            "It seems to temporarily augment user's abilities but it seems to be an artificial one.",
             "Transmutation has chance to not proc any cooldown",
             "This effect will take precedence over active effect"
         ],
@@ -658,8 +655,8 @@
         "active": [
             "\"I don't know what is the 'truth' of this world. However, as I look at his efforts and sacrifices in attempts to reach it, I believe something truly fascinating is awaiting him at the end of his road.\" - A Scholar of Prius",
             "Consumes Max HP X (5 + 0.50 X elapsed seconds)% per second",
-            "Increases INT by 2% on every second and on every skill cast (up to 30 times)",
-            "Reduces damage taken by 40%",
+            "Increases INT by 2% on every second and on every skill cast (up to 35 times)",
+            "Reduces damage taken by 40% and grants immunity to silence effects",
             "On expiration, deals INT X 400 damage to nearby enemies and stuns for 2.5 seconds",
             "Immune to silence for duration"
         ]
