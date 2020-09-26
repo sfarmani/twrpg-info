@@ -479,7 +479,7 @@
             "Creates a fierce storm of rocks.",
             "Each rock deals Skill Level X 250 damage",
             "INT X (10 + 2.5 X Skill Level) bonus damage",
-            "Chain: Magma Exlposion"
+            "Chain: Magma Explosion"
         ]
     },
     {
@@ -657,8 +657,7 @@
             "Consumes Max HP X (5 + 0.50 X elapsed seconds)% per second",
             "Increases INT by 2% on every second and on every skill cast (up to 35 times)",
             "Reduces damage taken by 40% and grants immunity to silence effects",
-            "On expiration, deals INT X 400 damage to nearby enemies and stuns for 2.5 seconds",
-            "Immune to silence for duration"
+            "On expiration, deals INT X 400 damage to nearby enemies and stuns for 2.5 seconds"
         ]
     },
     {
