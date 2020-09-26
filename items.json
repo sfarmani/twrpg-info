@@ -19147,7 +19147,7 @@
         "Heals nearby allies to full",
         "Afterwards emits a divine light that restores (INT X 2.5) HP to ally with lowest HP every 0.25 seconds for 6 seconds",
         "Also deals (INT X 50) magic damage and stuns all nearby enemies for 1 second every second",
-        "Prevents HP from dropping below 1",
+        "Prevents HP from dropping below 1 for duration",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
