@@ -5149,7 +5149,7 @@
       "affinityiwpercent": 0.05,
       "active": [
         "On use, creates a Bubble Barrier for 6 seconds",
-        "Increases the user's magic defense by 90%",
+        "Increases the user's MAGIC DEF by 90%",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -5378,7 +5378,7 @@
       "hpregen": 175,
       "active": [
         "On use, transforms user for 12 seconds",
-        "Grants the user with 250 all stats, increase magic defense by 60%, and heals 1% of max HP per second over duration",
+        "Grants the user with 250 all stats, increase MAGIC DEF by 60%, and heals 1% of max HP per second over duration",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -5912,7 +5912,7 @@
       "allstat": 865,
       "skilldamagepercent": 0.05,
       "passive": [
-        "Increases nearby allies magic defense by 8%"
+        "Increases nearby allies MAGIC DEF by 8%"
       ],
       "active": [
         "On use, consumes HP to activate Blessing",
@@ -6373,8 +6373,8 @@
       "active": [
         "On use, activate Parasite for 5 seconds",
         "If target is an enemy: deals (INT X 5) magic damage per second and lose 10% heal received",
-        "If target is an ally: grants target with 40% magic defense and heals for INT X 1 per second",
-        "If target is self: grants target with 40% magic defense and heals for INT X 0.5 per second",
+        "If target is an ally: grants target with 40% MAGIC DEF and heals for INT X 1 per second",
+        "If target is self: grants target with 40% MAGIC DEF and heals for INT X 0.5 per second",
         "Upon expiration, will explode dealing (INT X 40) magic splash damage",
         "Cooldown: 25 seconds, cannot be dropped during cooldown"
       ]
@@ -6897,7 +6897,7 @@
       "critmultiplier": 0.2,
       "mdpercent": 0.06,
       "active": [
-        "On use, activates Gifted Power which grants +300 HP regen and +5% magic defense every 1.5 seconds up to 5 times or fully healed",
+        "On use, activates Gifted Power which grants +300 HP regen and +5% MAGIC DEF every 1.5 seconds up to 5 times or fully healed",
         "Cooldown: 120 seconds"
       ]
     },
@@ -9216,7 +9216,7 @@
         "Merchant Specialty - Very Light Bag",
         "Merchant - This Bag isn't a Decoration!: You can drink upto 2 potions at once",
         "Merchant - Throwing Healing Potion: Can be thrown twice in a row, number of placeable potions increased by 3, and reduces target's damage taken by 12%",
-        "Merchant - Life Shield Scroll: Duration increased by 5 seconds and increases target's magic defense by 15%"
+        "Merchant - Life Shield Scroll: Duration increased by 5 seconds and increases target's MAGIC DEF by 15%"
       ]
     }
   },
@@ -9266,7 +9266,7 @@
         "Merchant Specialty - Very Light Bag",
         "Merchant - This Bag isn't a Decoration!: You can drink up to 2 potions at once.",
         "Merchant - Throwing Healing Potion: Can be thrown twice in a row, number of placeable potions increased by 6, and reduces target's damage taken by 15%.",
-        "Merchant - Life Shield Scroll: Duration increased by 5 seconds and increases target's magic defense by 15%."
+        "Merchant - Life Shield Scroll: Duration increased by 5 seconds and increases target's MAGIC DEF by 15%."
       ]
     }
   },
@@ -12344,7 +12344,7 @@
       "skilldamagepercent": 0.075,
       "passive": [
         "25% Chance to activate Devastation on attack causing enemies within a frontal cone area to take (STR X 80) magic damage",
-        "Reduces armor by 225 and magic defense by 2% for 6 seconds",
+        "Reduces armor by 225 and MAGIC DEF by 2% for 6 seconds",
         "Cooldown: 5 seconds"
       ],
       "active": [
@@ -14595,7 +14595,7 @@
       "mdpercent": 0.1,
       "active": [
         "On use, activates La Pucelle",
-        "Grants all nearby allies with 100% magic defense for 4 seconds",
+        "Grants all nearby allies with 100% MAGIC DEF for 4 seconds",
         "Every second heals all nearby allies for (25% max HP of target)",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
@@ -15015,7 +15015,7 @@
       "intelligence": 1095,
       "hp": 6000,
       "passive": [
-        "Increases nearby allies SKILL DMG by 6% & magic defense by 8%"
+        "Increases nearby allies SKILL DMG by 6% & MAGIC DEF by 8%"
       ],
       "active": [
         "On use, activates Prayer of Holy Maiden",
@@ -16843,7 +16843,7 @@
       "passive": [
         "On single-target hits, engulfs target with Corruption",
         "Deals 12.5% additional damage over 3 seconds (effect stacks)",
-        "Reduces magic defense of targets by 4%"
+        "Reduces MAGIC DEF of targets by 4%"
       ]
     }
   },
@@ -18624,7 +18624,7 @@
       ],
       "active": [
         "Summons 2 Flame Giants",
-        "Flame Giant magic defense: 50%"
+        "Flame Giant MAGIC DEF: 50%"
       ]
     }
   },
@@ -19136,12 +19136,12 @@
       "intelligence": 1350,
       "hp": 7500,
       "passive": [
-        "Increases nearby allies SKILL DMG by 8% & magic defense by 10%"
+        "Increases nearby allies SKILL DMG by 8% & MAGIC DEF by 10%"
       ],
       "active": [
         "On use, activates Salvation",
         "Heals nearby allies to full",
-        "Afterwards emits a divine light that restores (INT X 2.5) HP to ally with lowest HP every 0.25 seconds",
+        "Afterwards emits a divine light that restores (INT X 2.5) HP to ally with lowest HP every 0.25 seconds for 6 seconds",
         "Also deals (INT X 50) magic damage and stuns all nearby enemies for 1 second every second",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
@@ -19371,8 +19371,8 @@
       ],
       "active": [
         "On use, activates Cosmos",
-        "Provides 100% magic defense and debuff immunity to allies within 800 radius for 5 seconds",
-        "Applies magic defense first then cleanses",
+        "Provides 100% MAGIC DEF and debuff immunity to allies within 800 radius for 5 seconds",
+        "Applies MAGIC DEF first then cleanses",
         "Heals 25% hp per second to user",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
@@ -19708,8 +19708,8 @@
       "active": [
         "On use, activates Chain of Plague, infecting the target and targets around it for 8 seconds",
         "If target is an enemy: deals (INT X 5) magic damage per second and lose 10% heal received",
-        "If target is an ally: grants target with 40% magic defense and heals for INT X 1 per second",
-        "If target is self: grants target with 40% magic defense and heals for INT X 0.5 per second",
+        "If target is an ally: grants target with 40% MAGIC DEF and heals for INT X 1 per second",
+        "If target is self: grants target with 40% MAGIC DEF and heals for INT X 0.5 per second",
         "Upon expiration, will explode dealing (INT X 40) magic splash damage",
         "Cooldown: 20 seconds, cannot be dropped during cooldown"
       ]
@@ -20139,7 +20139,7 @@
       "skilldamagepercent": 0.1,
       "passive": [
         "25% Chance to activate Devastation on attack causing enemies within a frontal cone area to take (STR X 100) magic damage",
-        "Reduces armor by 250 and magic defense by 2.5% for 6 seconds",
+        "Reduces armor by 250 and MAGIC DEF by 2.5% for 6 seconds",
         "Cooldown: 5 seconds"
       ],
       "active": [
