@@ -18887,7 +18887,7 @@
       "active": [
         "On use, activates Spirit of Protector",
         "For 12 seconds provides 40% damage resistance to nearby allies",
-        "Cooldown: 120 seconds, cannot be dropped during cooldown"
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
   },
