@@ -1,5 +1,18 @@
 [
     {
+        "name": "38x",
+        "notes": [
+            "Released on: September 27th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Lava - Fixed damage-related bugs",
+            "Harmony of Sky and Earth - Fixed other debuff immunity effects not working after active wears off",
+            "Demonic Fist - Fixed applying unintended buff",
+            "Lightning Mage - Fixed hero moving back to cast point after Static Sweep (W)"
+        ]
+    },
+    {
         "name": "38t",
         "notes": [
             "Released on: September 23rd, 2020",
