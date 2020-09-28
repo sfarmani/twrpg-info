@@ -299,7 +299,7 @@
         "active": [
             "Draw forth magma from the grounds.",
             "Skill Level X 200 magic damage",
-            "INT X (10 + 5 X Skill Level) bonus damage"
+            "INT X (10 X Skill Level) bonus damage"
         ]
     },
     {
@@ -477,7 +477,7 @@
         "order": 17,
         "active": [
             "Creates a fierce storm of rocks.",
-            "Each rock deals Skill Level X 250 damage",
+            "Each rock deals Skill Level X 200 damage",
             "INT X (10 + 2.5 X Skill Level) bonus damage",
             "Chain: Magma Explosion"
         ]
