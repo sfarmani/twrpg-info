@@ -14637,6 +14637,7 @@
       "armor": 450,
       "strength": 180,
       "agility": 740,
+      "skilldamagepercent": 0.07,
       "critchancepercent": 0.07,
       "passive": [
         "Reduces damage taken by 90% for 3 seconds and heals you for 25% of max Health when Health is low (60 second CD)"
