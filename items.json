@@ -4827,7 +4827,7 @@
     ],
     "type": "[Bastard Sword]",
     "color": "9370DB",
-    "level": 240,
+    "level": 200,
     "droprate": 0.125,
     "required_by": [
       "Tepethia, the Crimson Sword of Requiem",
@@ -4857,7 +4857,7 @@
     ],
     "type": "[Bow]",
     "color": "9370DB",
-    "level": 240,
+    "level": 200,
     "droprate": 0.125,
     "required_by": [
       "Flame Explosion",
@@ -4887,7 +4887,7 @@
     ],
     "type": "[Weapon all classes]",
     "color": "9370DB",
-    "level": 240,
+    "level": 200,
     "droprate": 0.125,
     "required_by": [
       "True Blood Cannon Tepes",
@@ -4917,7 +4917,7 @@
     ],
     "type": "[Armor/Robe]",
     "color": "9370DB",
-    "level": 240,
+    "level": 200,
     "droprate": 0.125,
     "required_by": [
       "Tunic of the Wraith",
@@ -4947,7 +4947,7 @@
     ],
     "type": "[Ring]",
     "color": "9370DB",
-    "level": 240,
+    "level": 200,
     "droprate": 0.125,
     "required_by": [
       "Grim Visage",
@@ -4976,7 +4976,7 @@
     ],
     "type": "[Helm/Hood]",
     "color": "9370DB",
-    "level": 240,
+    "level": 200,
     "droprate": 0.125,
     "required_by": [
       "Death Visage",
@@ -14196,7 +14196,7 @@
     "description": "Armor of Sea that has been purified again. Reacts to all evil.",
     "type": "[Armor]",
     "color": "C71585",
-    "level": 320,
+    "level": 360,
     "recipe": [
       {
         "Infected Crab Armor": 1
@@ -14228,7 +14228,7 @@
     "description": "Magic doesn't work against me, the one that defeated Mage King!",
     "type": "[Robe]",
     "color": "C71585",
-    "level": 320,
+    "level": 360,
     "recipe": [
       {
         "Robe of the Mage": 1
@@ -14640,7 +14640,9 @@
       "skilldamagepercent": 0.07,
       "critchancepercent": 0.07,
       "passive": [
-        "Reduces damage taken by 90% for 3 seconds and heals you for 25% of max Health when Health is low (60 second CD)"
+        "Activates when HP drops below 15%",
+        "Gain 90% damage reduction for 3 seconds and instantly heal for 25% max HP",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -15474,7 +15476,7 @@
     "description": "Gauntlet composed of pure ice",
     "type": "[Ring]",
     "color": "DC143C",
-    "level": 350,
+    "level": 360,
     "recipe": [
       {
         "Everfrost Gauntlet": 1
