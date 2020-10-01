@@ -5027,7 +5027,7 @@
     ],
     "type": "[Gun]",
     "color": "9370DB",
-    "level": 240,
+    "level": 200,
     "droprate": 0.125,
     "required_by": [
       "Devil Blaster"
@@ -5047,7 +5047,7 @@
     ],
     "type": "[Armor]",
     "color": "9370DB",
-    "level": 240,
+    "level": 200,
     "droprate": 0.125,
     "required_by": [
       "Bloodstone Plates"
@@ -5074,7 +5074,7 @@
     ],
     "type": "[Wings]",
     "color": "9370DB",
-    "level": 240,
+    "level": 200,
     "droprate": 0.125,
     "required_by": [
       "Hungry Bat Wings",
