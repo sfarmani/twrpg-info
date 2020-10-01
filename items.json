@@ -716,7 +716,7 @@
       "agility": 55,
       "hp": 3250,
       "passive": [
-        "Absorbs damage taken by 75"
+        "Absorbs DMG TAKEN by 75"
       ]
     }
   },
@@ -2854,7 +2854,7 @@
       "agility": 200,
       "hpregen": 40,
       "passive": [
-        "Absorbs damage taken by 300"
+        "Absorbs DMG TAKEN by 300"
       ]
     },
     "koreanname": "용갑 마그론"
@@ -6080,7 +6080,9 @@
       "mp": 7500,
       "skilldamagepercent": 0.05,
       "active": [
-        "On use, activates Dark Howl dealing (INT X 19.75) magic damage and stacks magic damage taken of target by 1% per wave for 4 waves",
+        "On use, activates Dark Howl",
+        "Deals (INT X 19.75) magic damage",
+        "Stacks magic DMG TAKEN of target by 1% per wave for 4 waves",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     },
@@ -7327,7 +7329,9 @@
       "skilldamagepercent": 0.05,
       "mdpercent": 0.15,
       "active": [
-        "On use, activates Death Gaze dealing (MAIN STAT X 250) magic damage and increasing magic damage taken by enemies (Type-A) by 8% for 4 seconds",
+        "On use, activates Death Gaze",
+        "Deals (MAIN STAT X 250) magic damage",
+        "Increases magic DMG TAKEN by enemies (Type-A) by 8% for 4 seconds",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     },
@@ -8001,8 +8005,8 @@
       "healreceivedpercent": -0.25,
       "passive": [
         "On attack inflicts Greed",
-        "When in combat for 5 seconds, increases ATK SPD and DMG output by 1%",
-        "Also increases damage taken by 2%",
+        "When in combat for 5 seconds, increases ATK SPD and DMG OUTPUT by 1%",
+        "Also increases DMG TAKEN by 2%",
         "Can be stacked up to 25 times",
         "Cooldown: 1 second"
       ]
@@ -8652,7 +8656,7 @@
       "dtpercent": -0.15,
       "spec": [
         "Merchant Specialty - Heavy Bag",
-        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds."
+        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's DMG TAKEN by 6% for 5 seconds."
       ]
     }
   },
@@ -8688,7 +8692,7 @@
       "dtpercent": -0.15,
       "spec": [
         "Merchant Specialty - Heavy Bag",
-        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds"
+        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's DMG TAKEN by 6% for 5 seconds"
       ]
     }
   },
@@ -8724,7 +8728,7 @@
       "dtpercent": -0.18,
       "spec": [
         "Merchant Specialty - Very Heavy Bag",
-        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds",
+        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's DMG TAKEN by 6% for 5 seconds",
         "Merchant - Throwing Healing Potion: Increases target's SKILL DMG by 5%"
       ]
     }
@@ -8765,7 +8769,7 @@
       "dtpercent": -0.2,
       "spec": [
         "Merchant Specialty - Very Heavy Bag",
-        "Merchant - Bag Slam: damage is increased by 300%, and it increases target's damage taken by 8% for 6 seconds",
+        "Merchant - Bag Slam: damage is increased by 300%, and it increases target's DMG TAKEN by 8% for 6 seconds",
         "Merchant - Throwing Healing Potion: Increases target's SKILL DMG by 5%"
       ]
     }
@@ -8805,7 +8809,7 @@
       "dtpercent": -0.22,
       "spec": [
         "Merchant Specialty - Very Heavy Bag",
-        "Merchant - Bag Slam: damage is increased by 400%, and it increases target's damage taken by 8% for 6 seconds",
+        "Merchant - Bag Slam: damage is increased by 400%, and it increases target's DMG TAKEN by 8% for 6 seconds",
         "Merchant - Throwing Healing Potion: Increases target's SKILL DMG by 8%",
         "Merchant - Throw Money: Each coin stuns for 0.5 seconds"
       ]
@@ -8855,7 +8859,7 @@
       ],
       "spec": [
         "Merchant Specialty - Very Heavy Bag",
-        "Merchant - Bag Slam: damage is increased by 400%, and it increases target's damage taken by 10% for 6 seconds",
+        "Merchant - Bag Slam: damage is increased by 400%, and it increases target's DMG TAKEN by 10% for 6 seconds",
         "Merchant - Throwing Healing Potion: Increases target's SKILL DMG by 10%",
         "Merchant - Throw Money: Each coin stuns for 0.5 seconds"
       ]
@@ -9062,7 +9066,7 @@
       "mdpercent": 0.10,
       "spec": [
         "Merchant Specialty - Light Bag",
-        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%"
+        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's DMG TAKEN by 8%"
       ]
     }
   },
@@ -9098,7 +9102,7 @@
       "mdpercent": 0.10,
       "spec": [
         "Merchant Specialty - Light Bag",
-        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%"
+        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's DMG TAKEN by 8%"
       ]
     }
   },
@@ -9134,7 +9138,7 @@
       "mdpercent": 0.12,
       "spec": [
         "Merchant Specialty - Very Light Bag",
-        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%",
+        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's DMG TAKEN by 8%",
         "Merchant - Life Shield Scroll: Duration increased by 5 seconds"
       ]
     }
@@ -9174,7 +9178,7 @@
       "mdpercent": 0.12,
       "spec": [
         "Merchant Specialty - Very Light Bag",
-        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 12%",
+        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's DMG TAKEN by 12%",
         "Merchant - Life Shield Scroll: Duration increased by 5 seconds"
       ]
     }
@@ -9215,7 +9219,7 @@
       "spec": [
         "Merchant Specialty - Very Light Bag",
         "Merchant - This Bag isn't a Decoration!: You can drink upto 2 potions at once",
-        "Merchant - Throwing Healing Potion: Can be thrown twice in a row, number of placeable potions increased by 3, and reduces target's damage taken by 12%",
+        "Merchant - Throwing Healing Potion: Can be thrown twice in a row, number of placeable potions increased by 3, and reduces target's DMG TAKEN by 12%",
         "Merchant - Life Shield Scroll: Duration increased by 5 seconds and increases target's MAGIC DEF by 15%"
       ]
     }
@@ -9265,7 +9269,7 @@
       "spec": [
         "Merchant Specialty - Very Light Bag",
         "Merchant - This Bag isn't a Decoration!: You can drink up to 2 potions at once.",
-        "Merchant - Throwing Healing Potion: Can be thrown twice in a row, number of placeable potions increased by 6, and reduces target's damage taken by 15%.",
+        "Merchant - Throwing Healing Potion: Can be thrown twice in a row, number of placeable potions increased by 6, and reduces target's DMG TAKEN by 15%.",
         "Merchant - Life Shield Scroll: Duration increased by 5 seconds and increases target's MAGIC DEF by 15%."
       ]
     }
@@ -12987,7 +12991,7 @@
       "passive": [
         "15% Chance to activate Hellflame on attack that burns the target",
         "Deals (AGI X 15) magic damage per second for 10 seconds",
-        "Increase magic damage taken of target by 2% for 5 seconds"
+        "Increase magic DMG TAKEN of target by 2% for 5 seconds"
       ]
     }
   },
@@ -14440,7 +14444,7 @@
       ],
       "spec": [
         "Specialty",
-        "Martial Artist - Improved Nameless Arts: Reduces damage taken by 20% while active and grants immunity to instant death spells."
+        "Martial Artist - Improved Nameless Arts: Reduces DMG TAKEN by 20% while active and grants immunity to instant death spells."
       ]
     }
   },
@@ -14516,7 +14520,7 @@
       ],
       "spec": [
         "Specialty",
-        "Water Mage - Improved Frozen Emotion: Reduces target's damage taken by 12%."
+        "Water Mage - Improved Frozen Emotion: Reduces target's DMG TAKEN by 12%."
       ]
     }
   },
@@ -14641,7 +14645,7 @@
       "critchancepercent": 0.07,
       "passive": [
         "Activates when HP drops below 15%",
-        "Gain 90% damage reduction for 3 seconds and instantly heal for 25% max HP",
+        "Reduces DMG TAKEN by 90% for 3 seconds and instantly heal for 25% max HP",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -14740,7 +14744,7 @@
       ],
       "spec": [
         "Specialty - Wraith Possession",
-        "Martial Artist - Nameless Arts: Reduces damage taken by 20% while active and grants immunity to instant death spells."
+        "Martial Artist - Nameless Arts: Reduces DMG TAKEN by 20% while active and grants immunity to instant death spells."
       ]
     }
   },
@@ -14984,7 +14988,7 @@
       ],
       "spec": [
         "Specialty",
-        "Water Mage - Improved Frozen Emotion: Reduces target's damage taken by 12%."
+        "Water Mage - Improved Frozen Emotion: Reduces target's DMG TAKEN by 12%."
       ]
     }
   },
@@ -15465,7 +15469,7 @@
       "hpregen": 200,
       "mpregen": 100,
       "active": [
-        "Converts damage taken into Health for 2 seconds"
+        "Converts DMG TAKEN into Health for 2 seconds"
       ]
     }
   },
@@ -16104,8 +16108,10 @@
       "hpregen": 200,
       "mpregen": 100,
       "active": [
-        "'Darkness Ray' Nullify all damage taken for 3 seconds and then unleash damage taken in an AoE as magical damage (affected by SKILL DMG)",
-        "Reflected damage cannot exceed 1 million damage"
+        "On use, activate Darkness Ray",
+        "Absorbs all DMG TAKEN for 3 seconds and unleashes it around user",
+        "Deals (absorbed DMG + ATK DMG) magic damage",
+        "Cannot exceed 1 million damage"
       ],
       "spec": [
         "Specialties - Cold Ring of Death",
@@ -19286,7 +19292,7 @@
       ],
       "spec": [
         "Specialty - Reaper Possession",
-        "Martial Artist - Nameless Arts: Reduces damage taken by 20% while active and grants immunity to instant death spells."
+        "Martial Artist - Nameless Arts: Reduces DMG TAKEN by 20% while active and grants immunity to instant death spells."
       ]
     }
   },
@@ -19672,7 +19678,7 @@
       "active": [
         "On use, activates Song of Destruction",
         "Deals (2500% ATK DMG + INT X 125) magic damage to nearby enemies",
-        "Increases magic damage taken of hit enemies by 9% for 10 seconds",
+        "Increases magic DMG TAKEN of hit enemies by 9% for 10 seconds",
         "Stuns for 2 seconds",
         "User is invulnerable while channeling",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
@@ -20972,7 +20978,7 @@
       "passive": [
         "On direct hit, activates Drowning Abyss",
         "Deals 15% of effect's damage over 5 seconds",
-        "Increases target's magic damage taken by 6 ~ 9% (increases based on amount of time target is debuffed, max at 15 seconds)",
+        "Increases target's magic DMG TAKEN by 6 ~ 9% (increases based on amount of time target is debuffed, max at 15 seconds)",
         "If target dies while debuffed it explodes and deals (MAIN STAT X 30) pure damage to nearby enemies"
       ],
       "active": [
