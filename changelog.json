@@ -1,5 +1,19 @@
 [
     {
+        "name": "38z",
+        "notes": [
+            "Released on: October 4th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Fixed some bugs with Wings of Purification",
+            "Fixed some item descriptions that were incorrect (Rifle of True Poison, Bloostone Plates, Robe of the Sage, etc...)"
+        ],
+        "misc": [
+            "Updated banlist / reward list"
+        ]
+    },
+    {
         "name": "38x",
         "notes": [
             "Released on: September 27th, 2020",
