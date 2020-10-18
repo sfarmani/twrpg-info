@@ -20408,7 +20408,7 @@
       "skilldamagepercent": 0.15,
       "passive": [
         "(8 + HIT COUNT X 0.2)% chance to activate Moonlight Slash",
-        "Deals (750% ATK DMG + MAIN STAT X 32.5) magic damage",
+        "Deals (750% ATK DMG + MAIN STAT X 32.5) magic splash damage and stuns for 0.25s",
         "Every 3rd proc deals 200% DMG"
       ],
       "active": [
