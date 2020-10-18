@@ -1,5 +1,124 @@
 [
     {
+        "name": "39b",
+        "notes": [
+            "Released on: October 18th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Shooter - Fixed damage-related bug on Twin Star (Q)",
+            "Ring of Frozen Soul - Fixed damage-related bug on active"
+        ]
+    },
+    {
+        "name": "39a",
+        "notes": [
+            "Released on: October 18th, 2020",
+            "Compatible Version: v0.24c ~"
+        ],
+        "bugs": [
+            "Shooter - Fixed Twin Star (Q) counting as single-target spell",
+            "Merchant - Fixed cooldown reset interrupting Throw Money (R) channeling",
+            "Sniper - Fixed cooldown reset interrupting Emergency Rations (D) channeling"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New tokens added",
+                    [
+                        "Token of Thunder Lord",
+                        "Token of Avatar",
+                        "Token of Sea God",
+                        "Token of Underlord"
+                    ],
+                    "New recipes added",
+                    [
+                        "Astra, the Sword of Moonlight",
+                        "Ring of Frozen Soul",
+                        "Seed of Malice"
+                    ],
+                    "Added new exchange items",
+                    [
+                        "Coin of Effort: can be bought for 100 Prius Silver Coins from collector",
+                        "Costume of Effect: can be bought for 8 Coin of Effort from collector",
+                        "Wings of Death: can be bought for 8 Coin of Effort from collector"
+                    ]
+                ]
+            },
+            {
+                "name": "Aglaia, the Spear of Heavenly Flows",
+                "changes": [
+                    "SKILL DMG: 10% → 8%",
+                    "passive - Max stack: 4 → 3"
+                ]
+            },
+            {
+                "name": "Crimson Star / Cosmic Star",
+                "changes": [
+                    "Removed damage change for Twin Star (Q) from shooter spec"
+                ]
+            },
+            {
+                "name": "Vest of Divine Winds",
+                "changes": [
+                    "Passive - Empower next 4 attacks to strike once more → Empower next 2 attacks to strike 2 more times"
+                ]
+            },
+            {
+                "name": "Brave Heart",
+                "changes": [
+                    "ALL STATS: 1460 → 1510"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Skeleton King and above now have 0.05 ~ 0.1% chance to drop Coin of Effort"
+                ]
+            },
+            {
+                "name": "Death Fiend - Death Devourer",
+                "changes": [
+                    "Soul Absorbtion",
+                    [
+                        "Healing received reduction: 25 ~ 100% → 0 ~ 100%",
+                        "Damage per second: 5 ~ 12.5% → 0 ~ 10%",
+                        "Radius: 500 → 400",
+                        "Duration needed to reset debuff: 2 seconds → 0.25 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "Wheel",
+                    [
+                        "Duration of 2nd wheel: 45 seconds → 30 seconds"
+                    ],
+                    "Obsidian Giants / Lava Spirits",
+                    [
+                        "Mana regen during 2nd wheel is now 50% higher"
+                    ]
+                ]
+            },
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Material droprate: 0.6% → 0.75%",
+                    "Curse of Greed droprate: 0.4% → 0.5%"
+                ]
+            }
+        ],
+        "misc": [
+            "Increased clickbox of Rainbow Cat Mount",
+            "Camera height set to 150 when viewing replays",
+            "Camera can now be moved when viewing replays even if red player didn't select/load hero"
+        ]
+    },
+    {
         "name": "38z",
         "notes": [
             "Released on: October 4th, 2020",

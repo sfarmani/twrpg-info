@@ -7084,6 +7084,7 @@
       "Robe of Archlich",
       "Punisher",
       "Rainmaker",
+      "Astra, the Sword of Moonlight",
       "Archangel Icon"
     ],
     "recipe": [
@@ -7258,7 +7259,8 @@
     "level": 380,
     "droprate": 0.0025,
     "required_by": [
-      "Calamity"
+      "Calamity",
+      "Astra, the Sword of Moonlight"
     ],
     "stats": {
       "damage": 33000,
@@ -7393,7 +7395,8 @@
       "Armageddon",
       "Chaos Dagger",
       "Cape of Deep Abyss",
-      "Horn of Demon God"
+      "Horn of Demon God",
+      "Seed of Malice"
     ],
     "koreanname": "죽음의 창두"
   },
@@ -7516,7 +7519,8 @@
       "Wings of Night Lord",
       "Mask of Demigod",
       "Bloodseeker Plates",
-      "Prophetia, the Origin of Knowledge"
+      "Prophetia, the Origin of Knowledge",
+      "Ring of Frozen Soul"
     ],
     "koreanname": "폭풍의 가호"
   },
@@ -7545,7 +7549,8 @@
       "Heaven's Door",
       "Soul Devourer",
       "Ring of Divine Winds",
-      "Vest of Divine Winds"
+      "Vest of Divine Winds",
+      "Astra, the Sword of Moonlight"
     ],
     "koreanname": "폭풍의 결정"
   },
@@ -7600,6 +7605,17 @@
       "Chaos Pickaxe"
     ],
     "koreanname": "빛나는 유적의 조각"
+  },
+  {
+    "id": "I0P0",
+    "name": "Token of Thunder Lord",
+    "dropped_by": [
+      "Valtora"
+    ],
+    "type": "[Token]",
+    "color": "DAA520",
+    "droprate": 0.0001,
+    "koreanname": "뇌신의 토큰"
   },
   {
     "id": "I0JS",
@@ -7660,7 +7676,9 @@
       "Mask of Demigod",
       "Thanatos, the Robe of Hell",
       "Jupiter, the Robe of Heavens",
-      "Prophetia, the Origin of Knowledge"
+      "Prophetia, the Origin of Knowledge",
+      "Ring of Frozen Soul",
+      "Seed of Malice"
     ],
     "koreanname": "화염의 가호"
   },
@@ -7693,9 +7711,21 @@
       "Cape of Deep Abyss",
       "Soul Devourer",
       "Horn of Demon God",
-      "Vest of Divine Winds"
+      "Vest of Divine Winds",
+      "Astra, the Sword of Moonlight"
     ],
     "koreanname": "화염의 결정"
+  },
+  {
+    "id": "I0P1",
+    "name": "Token of Avatar",
+    "dropped_by": [
+      "Ifrit"
+    ],
+    "type": "[Token]",
+    "color": "DAA520",
+    "droprate": 0.0001,
+    "koreanname": "화신의 토큰"
   },
   {
     "id": "I0LX",
@@ -7716,7 +7746,8 @@
       "Jupiter, the Robe of Heavens",
       "Heaven's Door",
       "Wings of Immortal",
-      "Prophetia, the Origin of Knowledge"
+      "Prophetia, the Origin of Knowledge",
+      "Ring of Frozen Soul"
     ],
     "stats": {
       "allstat": 1200,
@@ -7784,9 +7815,22 @@
       "Chaos Dagger",
       "Cape of Deep Abyss",
       "Soul Devourer",
-      "Demonic Fist"
+      "Demonic Fist",
+      "Astra, the Sword of Moonlight",
+      "Ring of Frozen Soul"
     ],
     "koreanname": "바다의 결정"
+  },
+  {
+    "id": "I0P2",
+    "name": "Token of Sea God",
+    "dropped_by": [
+      "Nereid"
+    ],
+    "type": "[Token]",
+    "color": "DAA520",
+    "droprate": 0.0001,
+    "koreanname": "해신의 토큰"
   },
   {
     "id": "sreg",
@@ -7980,6 +8024,47 @@
     ]
   },
   {
+    "id": "I0OZ",
+    "name": "Coin of Effort",
+    "koreanname": "노력의 재화",
+    "type": "[Material]",
+    "color": "FFFFFF",
+    "notes": [
+      "Coin of Effort is used to craft Wings of Death Mount and Costume of Effort, both for 8 Coin of Effort",
+      "In addtion to being dropped by bosses, it can also be exchanged for 100 Prius Silver Coin",
+      "See Collector NPC to exchange"
+    ],
+    "droprate": [
+      0.0005,
+      0.0005,
+      0.0005,
+      0.0005,
+      0.0005,
+      0.0007,
+      0.0006,
+      0.0008,
+      0.0009,
+      0.001
+    ],
+    "dropped_by": [
+      "Ancient Ent",
+      "Skeleton King Desperia",
+      "Archangel Samael",
+      "Zombie Lord",
+      "Shadow Dragon Irbert",
+      "Death Fiend",
+      "Valtora",
+      "Ifrit",
+      "Nereid",
+      "Underlord Agareth"
+    ],
+    "recipe": [
+      {
+        "Prius Silver Coin": 100
+      }
+    ]
+  },
+  {
     "id": "I0O3",
     "name": "Curse of Greed",
     "description": "Human greed knows no limits.",
@@ -7989,7 +8074,7 @@
     "type": "[Wings]",
     "color": "DC143C",
     "level": 400,
-    "droprate": 0.004,
+    "droprate": 0.005,
     "required_by": [
       "Bag of Despair",
       "Nevedium, the Armor of Demonblood",
@@ -8036,11 +8121,12 @@
       "Wings of Immortal",
       "Soul Devourer",
       "Ring of Divine Winds",
-      "Vest of Divine Winds"
+      "Vest of Divine Winds",
+      "Astra, the Sword of Moonlight"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.006,
+    "droprate": 0.0075,
     "koreanname": "영혼의 파편"
   },
   {
@@ -8060,11 +8146,12 @@
       "Armageddon",
       "Cape of Deep Abyss",
       "Demonic Fist",
-      "Vest of Divine Winds"
+      "Vest of Divine Winds",
+      "Seed of Malice"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.006,
+    "droprate": 0.0075,
     "koreanname": "지옥의 파편"
   },
   {
@@ -8083,12 +8170,24 @@
       "Mask of Demigod",
       "Spirit of Protector",
       "Prophetia, the Origin of Knowledge",
-      "Horn of Demon God"
+      "Horn of Demon God",
+      "Ring of Frozen Soul"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.006,
+    "droprate": 0.0075,
     "koreanname": "군주의 징표"
+  },
+  {
+    "id": "I0P3",
+    "name": "Token of Underlord",
+    "dropped_by": [
+      "Underlord Agareth"
+    ],
+    "type": "[Token]",
+    "color": "DAA520",
+    "droprate": 0.0001,
+    "koreanname": "지하 군주의 토큰"
   },
   {
     "id": "I04U",
@@ -11273,10 +11372,10 @@
     "stats": {
       "damage": 22000,
       "strength": 1875,
-      "skilldamagepercent": 0.1,
+      "skilldamagepercent": 0.08,
       "passive": [
         "Activates Song of Glory on skill cast",
-        "Increases STR by 125 and SKILL DMG by 2.5% per stack for 5 seconds up to a max of 4 stacks"
+        "Increases STR by 125 and SKILL DMG by 2.5% per stack for 5 seconds up to a max of 3 stacks"
       ]
     }
   },
@@ -12419,6 +12518,9 @@
     "type": "[Greatsword]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Astra, the Sword of Moonlight"
+    ],
     "recipe": [
       {
         "Bahanar, the True Sword of Illusion": 1
@@ -13086,7 +13188,7 @@
       ],
       "spec": [
         "Specialty - Crimson Star",
-        "Shooter - Twin Star: Damage type is converted to magic, but damage is increased by 200% and heals allies hit for (INT X 0.5 + Target's Max HP X 10%)",
+        "Shooter - Twin Star: Heals allies hit for (INT X 0.5 + Target's Max HP X 10%)",
         "Shooter - Nanomachine Injection: Healing speed increased by 50% and duration increased by 50%."
       ]
     }
@@ -16079,7 +16181,8 @@
     "color": "DC143C",
     "level": 380,
     "required_by": [
-      "Athanasia, the Armor of the Reaper"
+      "Athanasia, the Armor of the Reaper",
+      "Ring of Frozen Soul"
     ],
     "recipe": [
       {
@@ -16130,7 +16233,8 @@
     "color": "DC143C",
     "level": 380,
     "required_by": [
-      "Hood of Apocalypse"
+      "Hood of Apocalypse",
+      "Seed of Malice"
     ],
     "recipe": [
       {
@@ -18086,7 +18190,8 @@
     "color": "DC143C",
     "level": 380,
     "required_by": [
-      "Ring of Despair"
+      "Ring of Despair",
+      "Seed of Malice"
     ],
     "recipe": [
       {
@@ -18599,6 +18704,104 @@
         "Paladin - Divine Cross' damage is increased by 20% and speed is increased by 50%",
         "Crusader - If Original Sin is cast while Demon's Grasp is active, it only activates the last slash but its cooldown is also reduced by 66%",
         "Martial Artist - If Nameless Arts is cast while Demon's Grasp is active, its cast time and duration are reduced by 50% but its cooldown is also reduced by 66%"
+      ]
+    }
+  },
+  {
+    "id": "I0P5",
+    "name": "Ring of Frozen Soul",
+    "koreanname": "얼어붙은 영혼의 반지",
+    "description": "한서린 고대 영혼들이 잠들어 있는 반지",
+    "type": "[Ring]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Cold Ring of Death": 1
+      },
+      {
+        "Grail of Eternity": 1
+      },
+      {
+        "Aegis of Storm": 1
+      },
+      {
+        "Aegis of Flame": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Mark of Lord": 1
+      }
+    ],
+    "stats": {
+      "mainstat": 1850,
+      "attackspeedpercent": 0.3,
+      "skilldamagepercent": 0.175,
+      "hpregen": 300,
+      "mpregen": 150,
+      "active": [
+        "On use, activates Frozen Aegis",
+        "Provides immunity to damage and debuffs for 3 seconds",
+        "Upon expiration, deals (1000% damage received) pure damage to nearby enemies (max of 1000% max HP)",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialties - Ring of Frozen Soul",
+        "Swordsman - Sword Storm: Can Flash Step 1 more time",
+        "Assassin - Shadow Rush: Clones increased by 1",
+        "Assassin - Shadow Slash: Damage increased by 100%"
+      ]
+    }
+  },
+  {
+    "id": "I0P6",
+    "name": "Seed of Malice",
+    "koreanname": "악의 씨앗",
+    "description": "인간이 존재하는 한, 무한히 퍼져나갈 것이다.",
+    "type": "[Ring]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Grimoire of Darkness": 1
+      },
+      {
+        "Seal of Deceiver": 1
+      },
+      {
+        "Spearhead of Death": 1
+      },
+      {
+        "Aegis of Flame": 1
+      },
+      {
+        "Fragment of Hell": 1
+      }
+    ],
+    "stats": {
+      "allstat": 1200,
+      "mp": 15000,
+      "skilldamagepercent": 0.09,
+      "passive": [
+        "Landing a spell generates Seed of Malice nearby",
+        "Absorbs when approached, it restores 8% HP/MP and adds stack of Evil Magic for 10 seconds",
+        "Evil Magic increases damage output by 1% per stack and stacks up to 10 times",
+        "Cannot be generated during Forbidden Magic",
+        "Cooldown: 2 seconds"
+      ],
+      "active": [
+        "On use, activates Forbidden Magic",
+        "Consumes 50% max MP",
+        "Increases MAIN STAT by (MP consumed / 60) and ATK SPD by 60% for 10 seconds",
+        "Consumes 1 Evil Magic stack per second and deals (INT X 40) magic damage to nearby enemies",
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialties - Transmission of Darkness, Frobidden Grimoire",
+        "Warlock - Forbidden Grimoire: While Forbidden Magic is active Soul Grimoire consumes no MP",
+        "Priest - Dark Aurora: Holy Aurora changes to Dark Aurora [Lv. 2], removing healing effect but increasing damage dealt"
       ]
     }
   },
@@ -19480,7 +19683,7 @@
       "mdpercent": 0.1,
       "passive": [
         "On skill cast, activates Wind Fury for 1.5 seconds",
-        "Next 4 attacks hit once more and deals 50% ATK DMG",
+        "Next 2 attacks hit 2 more times and deals 50% ATK DMG",
         "Increases AGI by 250",
         "Increases MOV SPD past 500 limit"
       ]
@@ -20168,6 +20371,60 @@
     }
   },
   {
+    "id": "I0P4",
+    "name": "Astra, the Sword of Moonlight",
+    "koreanname": "월광의 검 아스트라",
+    "description": "영원한 달빛이 그대의 고독한 길을 비춰주리.",
+    "type": "[Greatsword]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Meacronacer, the Sword of Thousand Illusions": 1
+      },
+      {
+        "The Ender": 1
+      },
+      {
+        "Steel of God": 1
+      },
+      {
+        "Essence of Storm": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Fragment of Soul": 1
+      }
+    ],
+    "stats": {
+      "damage": 37500,
+      "strength": 2350,
+      "agility": 1150,
+      "skilldamagepercent": 0.15,
+      "passive": [
+        "(8 + HIT COUNT X 0.2)% chance to activate Moonlight Slash",
+        "Deals (750% ATK DMG + MAIN STAT X 32.5) magic damage",
+        "Every 3rd proc deals 200% DMG"
+      ],
+      "active": [
+        "On use, activates Moonlight Eclipse",
+        "Stuns nearby enemies for 2.5 seconds",
+        "Increases magic damage taken of targets from next 4 hits by 20% for 6 seconds",
+        "After 4th hit, target takes (MAIN STAT X 200) magic damage",
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialty - Redemption",
+        "Crusader - Flash of Immortality grants additional 20% damage reduction and 2% HP regen to passive effect."
+      ]
+    }
+  },
+  {
     "id": "I0MZ",
     "name": "Cosmic Reaper",
     "koreanname": "코즈믹 리퍼",
@@ -20530,7 +20787,7 @@
       ],
       "spec": [
         "Specialty - Cosmic Star",
-        "Shooter - Twin Star: Damage type is converted to magic, but damage is increased by 250% and heals allies hit for (INT X 0.5 + Target's Max HP X 15%)",
+        "Shooter - Twin Star: Heals allies hit for (INT X 0.5 + Target's Max HP X 15%)",
         "Shooter - Nanomachine Injection: Healing speed increased by 60% and duration increased by 50%; while buff is active, target is immune to debuffs"
       ]
     }
@@ -20661,7 +20918,7 @@
       }
     ],
     "stats": {
-      "allstat": 1460,
+      "allstat": 1510,
       "mdpercent": 0.2,
       "passive": [
         "Reduces MOV and ATK SPD by 25% of nearby enemies"

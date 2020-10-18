@@ -754,6 +754,7 @@
             "I0D2",
             "I0MM",
             "I0ML",
+            "I0OZ",
             "pres"
         ],
         "stats": [
@@ -817,6 +818,7 @@
             "I0MG",
             "I0ME",
             "I0MF",
+            "I0OZ",
             "fgrg"
         ]
     },
@@ -851,6 +853,7 @@
             "I0MO",
             "I0EG",
             "I0AT",
+            "I0OZ",
             "sneg"
         ]
     },
@@ -869,6 +872,7 @@
             "I0MJ",
             "I0MK",
             "I0MI",
+            "I0OZ",
             "pomn"
         ]
     },
@@ -887,6 +891,7 @@
             "I0MQ",
             "I0MR",
             "I0MS",
+            "I0OZ",
             "shar"
         ],
         "stats": [
@@ -912,6 +917,7 @@
             "I09N",
             "I0DG",
             "kygh",
+            "I0OZ",
             "infs"
         ]
     },
@@ -938,7 +944,9 @@
             "ocor",
             "I0IG",
             "I0IH",
-            "phea"
+            "phea",
+            "I0OZ",
+            "I0P0"
         ]
     },
     {
@@ -953,7 +961,9 @@
             "I0JS",
             "I0IE",
             "I0IF",
-            "phea"
+            "phea",
+            "I0OZ",
+            "I0P1"
         ]
     },
     {
@@ -968,7 +978,9 @@
             "I0LX",
             "I0II",
             "I0IJ",
-            "phea"
+            "phea",
+            "I0OZ",
+            "I0P2"
         ]
     },
     {
@@ -983,7 +995,9 @@
             "I0O3",
             "I0NV",
             "I0NU",
-            "I0NW"
+            "I0NW",
+            "I0OZ",
+            "I0P3"
         ]
     }
 ]

@@ -107,6 +107,7 @@
         "spec": [
             "Ring of Deep Darkness - Forbidden Grimoire",
             "Grimoire of Darkness - Forbidden Grimoire",
+            "Seed of Malice - Forbidden Grimoire",
             "Soul Eater - Soul Devour"
         ]
     },
@@ -289,7 +290,8 @@
         ],
         "spec": [
             "Brooch of Darkness - Improved Sword Storm",
-            "Cold Ring of Death - Cold Ring of Death"
+            "Cold Ring of Death - Cold Ring of Death",
+            "Ring of Frozen Soul - Ring of Frozen Soul"
         ]
     },
     {
@@ -389,6 +391,7 @@
             "Bahanar, the Sword of Illusion - Redemption",
             "Bahanar, the True Sword of Illusion - Redemption",
             "Meacronacer, the Sword of Thousand Illusions - Redemption",
+            "Astra, the Sword of Moonlight - Redemption",
             "Heaven's Fist - Summary Judgment",
             "Demonic Fist - Demon's Grasp"
         ]
@@ -508,7 +511,8 @@
         ],
         "spec": [
             "Brooch of Darkness - Improved Shadow Rush",
-            "Cold Ring of Death - Cold Ring of Death"
+            "Cold Ring of Death - Cold Ring of Death",
+            "Ring of Frozen Soul - Ring of Frozen Soul"
         ]
     },
     {
@@ -818,7 +822,8 @@
             "Ring of Holy Light - Transmission of Light",
             "Bell of Light - Transmission of Light",
             "Ring of Deep Darkness - Transmission of Darkness",
-            "Grimoire of Darkness - Transmission of Darkness"
+            "Grimoire of Darkness - Transmission of Darkness",
+            "Seed of Malice - Transmission of Darkness"
         ]
     },
     {
