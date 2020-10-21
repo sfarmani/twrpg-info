@@ -3910,8 +3910,8 @@
       "hp": 2500,
       "passive": [
         "DMG DEALT by attack +10%",
-        "8% Chance to reduce target's armor on attack",
-        "Reduces armor by 175 for 5 seconds"
+        "8% chance to reduce target's armor by 175 on attack",
+        "Duration: 5 seconds"
       ]
     },
     "koreanname": "프로스트 웹 브로치"
@@ -4002,7 +4002,7 @@
       "skilldamagepercent": 0.025,
       "passive": [
         "15% chance to slow target on attack",
-        "Deals (AGI X 7.5 ~ 10) magic damage and slow for 0.75 seconds"
+        "Deals (AGI X 7.5 ~ 10) magic damage and slows for 3 seconds"
       ],
       "spec": [
         "Specialty",
@@ -15860,7 +15860,8 @@
       "agility": 1075,
       "skilldamagepercent": 0.09,
       "passive": [
-        "Chance to reduce enemy armor by 225 on attack"
+        "12% chance to reduce enemy armor by 225 on attack",
+        "Duration: 5 seconds"
       ]
     }
   },
