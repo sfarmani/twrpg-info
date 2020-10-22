@@ -3910,8 +3910,7 @@
       "hp": 2500,
       "passive": [
         "DMG DEALT by attack +10%",
-        "8% chance to reduce target's armor by 175 on attack",
-        "Duration: 5 seconds"
+        "8% chance to reduce target's armor by 175 on attack for 5 seconds"
       ]
     },
     "koreanname": "프로스트 웹 브로치"
@@ -15860,8 +15859,7 @@
       "agility": 1075,
       "skilldamagepercent": 0.09,
       "passive": [
-        "12% chance to reduce enemy armor by 225 on attack",
-        "Duration: 5 seconds"
+        "12% chance to reduce enemy armor by 225 on attack for 5 seconds"
       ]
     }
   },
@@ -18929,7 +18927,7 @@
       ],
       "active": [
         "On use, activates Magical Concentration",
-        "Increases INT by 1000 and SKILL DMG by 7.5% for 8 seconds",
+        "Increases INT by 1250 and SKILL DMG by 5% for 8 seconds",
         "Increases INT by 100 and SKILL DMG by 0.5% every second",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
