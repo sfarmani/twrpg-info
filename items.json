@@ -16862,9 +16862,8 @@
         "Absorbs 3 souls every 5 seconds that heal you for 2.5% HP and 3% MP each (for a total of 7.5% HP and 9% MP)"
       ],
       "active": [
-        "On use, consumes portion of MP to release souls",
-        "Released souls deal (75 X INT X (0.5 + (0.5 X current MP / max MP)) magic damage to surrounding enemies",
-        "Also heals all nearby allies for 40% max HP X (current MP / max MP))",
+        "On use, activates Soul Absorb",
+        "Heals user for (30% max HP)",
         "Cooldown: 40 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
