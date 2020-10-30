@@ -599,6 +599,7 @@
   },
   {
     "id": "wcyc",
+    "emote_id": "771416224096976926",
     "name": "Clown Token",
     "koreanname": "클라운 토큰",
     "dropped_by": [
@@ -782,6 +783,7 @@
   },
   {
     "id": "pclr",
+    "emote_id": "771416224096976926",
     "name": "Green Crystal Golem Token",
     "koreanname": "그린 크리스탈 골렘 토큰",
     "dropped_by": [
@@ -1014,6 +1016,7 @@
   },
   {
     "id": "sand",
+    "emote_id": "771416224096976926",
     "name": "Token of Death",
     "koreanname": "죽음의 토큰",
     "dropped_by": [
@@ -1286,6 +1289,7 @@
   },
   {
     "id": "nspi",
+    "emote_id": "771416224096976926",
     "name": "Flame Token",
     "koreanname": "홍염의 토큰",
     "dropped_by": [
@@ -1498,6 +1502,7 @@
   },
   {
     "id": "gvsm",
+    "emote_id": "771416224096976926",
     "name": "Tentacle Token",
     "dropped_by": [
       "Tentacle Lord"
@@ -1640,6 +1645,7 @@
   },
   {
     "id": "dtsb",
+    "emote_id": "771416224096976926",
     "name": "Big Golem Token",
     "dropped_by": [
       "Giant Golem"
@@ -1799,6 +1805,7 @@
   },
   {
     "id": "grsl",
+    "emote_id": "771557052157788240",
     "name": "Spirit Orb",
     "dropped_by": [
       "Mana Ancient",
@@ -1838,6 +1845,7 @@
   },
   {
     "id": "envl",
+    "emote_id": "771416224096976926",
     "name": "Ancient Token",
     "dropped_by": [
       "Mana Ancient"
@@ -2005,6 +2013,7 @@
   },
   {
     "id": "ccmd",
+    "emote_id": "771416224096976926",
     "name": "Beast Token",
     "dropped_by": [
       "Spirit Beast"
@@ -2270,6 +2279,7 @@
   },
   {
     "id": "oven",
+    "emote_id": "771416224096976926",
     "name": "Hydra Token",
     "dropped_by": [
       "Ruler of the Lav Sea, Hydra"
@@ -2542,6 +2552,7 @@
   },
   {
     "id": "shen",
+    "emote_id": "771416224096976926",
     "name": "Count Token",
     "dropped_by": [
       "Count Wallachia"
@@ -2657,6 +2668,7 @@
   },
   {
     "id": "drph",
+    "emote_id": "771416224096976926",
     "name": "Jack Pumpkin Token",
     "dropped_by": [
       "Jack-o-Lantern"
@@ -2683,6 +2695,7 @@
   },
   {
     "id": "sfog",
+    "emote_id": "771416224096976926",
     "name": "Yellow Crystal Golem Token",
     "dropped_by": [
       "Magical Ore Deposit (Jack-o-Lantern)"
@@ -2945,6 +2958,7 @@
   },
   {
     "id": "oli2",
+    "emote_id": "771416224096976926",
     "name": "Wings of Death Token",
     "dropped_by": [
       "Wings of Death"
@@ -3177,6 +3191,7 @@
   },
   {
     "id": "lnrn",
+    "emote_id": "771416224096976926",
     "name": "Magical Token",
     "dropped_by": [
       "Mage Lord"
@@ -3203,6 +3218,7 @@
   },
   {
     "id": "cosl",
+    "emote_id": "771416224096976926",
     "name": "Blue Crystal Golem Token",
     "dropped_by": [
       "Magical Ore Deposit (Mage Lord)"
@@ -3300,6 +3316,7 @@
   },
   {
     "id": "amrc",
+    "emote_id": "771416224096976926",
     "name": "Guardian Token",
     "dropped_by": [
       "Guardian Spirit, Avalon's Gatekeeper"
@@ -3485,6 +3502,7 @@
   },
   {
     "id": "I0AT",
+    "emote_id": "771558363254489138",
     "name": "Sealed Archangel Wings",
     "dropped_by": [
       "Guardian Angel",
@@ -3513,6 +3531,7 @@
   },
   {
     "id": "tmmt",
+    "emote_id": "771416224096976926",
     "name": "Guardian Angel Token",
     "dropped_by": [
       "Guardian Angel"
@@ -3672,6 +3691,7 @@
   },
   {
     "id": "mnsf",
+    "emote_id": "771416224096976926",
     "name": "Corrupt Angel Token",
     "dropped_by": [
       "Corrupt Angel"
@@ -3809,6 +3829,7 @@
   },
   {
     "id": "olig",
+    "emote_id": "771416224096976926",
     "name": "Everfrost Token",
     "dropped_by": [
       "Lord of Everfrost"
@@ -3943,6 +3964,7 @@
   },
   {
     "id": "stre",
+    "emote_id": "771416224096976926",
     "name": "Spider Token",
     "dropped_by": [
       "Spider Queen Ilshenar"
@@ -4069,6 +4091,7 @@
   },
   {
     "id": "tst2",
+    "emote_id": "771416224096976926",
     "name": "Frostspider Lord Token",
     "dropped_by": [
       "Frostspider Lord"
@@ -4095,6 +4118,7 @@
   },
   {
     "id": "klmm",
+    "emote_id": "771416224096976926",
     "name": "White Crystal Golem Token",
     "dropped_by": [
       "Magical Ore Deposit (Frostspider Lord)"
@@ -4318,6 +4342,7 @@
   },
   {
     "id": "wswd",
+    "emote_id": "771416224096976926",
     "name": "Demon Lord Token",
     "dropped_by": [
       "Demon Lord Beriel"
@@ -4347,6 +4372,7 @@
   },
   {
     "id": "fgsk",
+    "emote_id": "771416224096976926",
     "name": "Red Crystal Golem Token",
     "dropped_by": [
       "Remnants of Darkness"
@@ -5480,6 +5506,7 @@
   },
   {
     "id": "rugt",
+    "emote_id": "771416224096976926",
     "name": "Corrupt Token",
     "dropped_by": [
       "Corruptor Rectus"
@@ -5733,6 +5760,7 @@
   },
   {
     "id": "shdt",
+    "emote_id": "771416224096976926",
     "name": "Nightmare Token",
     "dropped_by": [
       "Flame Nightmare"
@@ -6017,6 +6045,7 @@
   },
   {
     "id": "wshs",
+    "emote_id": "771416224096976926",
     "name": "Turtle Token",
     "dropped_by": [
       "Turtle Lord"
@@ -6028,6 +6057,7 @@
   },
   {
     "id": "ratc",
+    "emote_id": "771557273470238720",
     "name": "Death Scythe",
     "description": "Weapon used by the grim reapers of despair",
     "dropped_by": [
@@ -6059,6 +6089,7 @@
   },
   {
     "id": "rat6",
+    "emote_id": "771557340636774450",
     "name": "Staff of Souls",
     "description": "Staff infused with countless souls that were taken away by the Skeletal King",
     "dropped_by": [
@@ -6089,6 +6120,7 @@
   },
   {
     "id": "ward",
+    "emote_id": "771557406390878238",
     "name": "Robe of the Reaper",
     "description": "A bizarre robe worn by the reaper.",
     "dropped_by": [
@@ -6115,6 +6147,7 @@
   },
   {
     "id": "penr",
+    "emote_id": "771557470354538496",
     "name": "Brooch of Darkness",
     "description": "The brooch of the Skeletal King that contains a pecular blessing",
     "dropped_by": [
@@ -6141,6 +6174,7 @@
   },
   {
     "id": "rat9",
+    "emote_id": "771420397836697610",
     "name": "Bone Necklace",
     "description": "Ornament with evil mana flowing through",
     "dropped_by": [
@@ -6201,6 +6235,7 @@
   },
   {
     "id": "I0MH",
+    "emote_id": "771557586251284500",
     "name": "Sealed Spirit of Abyss",
     "dropped_by": [
       "Skeleton King Desperia"
@@ -6246,6 +6281,7 @@
   },
   {
     "id": "I0MG",
+    "emote_id": "771557620484931585",
     "name": "Sealed Orb of Oblivion",
     "dropped_by": [
       "Skeleton King Desperia"
@@ -6287,6 +6323,7 @@
   },
   {
     "id": "I0ME",
+    "emote_id": "771420397903282207",
     "name": "Sealed Fragment of Oblivion",
     "dropped_by": [
       "Skeleton King Desperia"
@@ -6328,6 +6365,7 @@
   },
   {
     "id": "I0MF",
+    "emote_id": "771557751460724746",
     "name": "Sealed Skeleton Bone",
     "dropped_by": [
       "Skeleton King Desperia"
@@ -6342,6 +6380,7 @@
   },
   {
     "id": "fgrg",
+    "emote_id": "771416224096976926",
     "name": "Skeleton Token",
     "dropped_by": [
       "Skeleton King Desperia"
@@ -6353,6 +6392,7 @@
   },
   {
     "id": "belv",
+    "emote_id": "771558415301869568",
     "name": "Parasitic Staff",
     "description": "You are already dead; you just haven't realized it!",
     "dropped_by": [
@@ -6384,6 +6424,7 @@
   },
   {
     "id": "crys",
+    "emote_id": "771558459841839124",
     "name": "Hood of the Fallen",
     "description": "You can feel the grudge of ones unable to die",
     "dropped_by": [
@@ -6414,6 +6455,7 @@
   },
   {
     "id": "stel",
+    "emote_id": "771558587835088916",
     "name": "Shroud of Perseverance",
     "description": "You can feel the obsession of Zombie Lord toward the immortality..",
     "dropped_by": [
@@ -6476,6 +6518,7 @@
   },
   {
     "id": "I0MJ",
+    "emote_id": "771558617279234059",
     "name": "Sealed Heart of Fire",
     "dropped_by": [
       "Zombie Lord"
@@ -6520,6 +6563,7 @@
   },
   {
     "id": "I0MK",
+    "emote_id": "771420397572063292",
     "name": "Sealed Dark Crystal",
     "dropped_by": [
       "Zombie Lord"
@@ -6563,6 +6607,7 @@
   },
   {
     "id": "I0MI",
+    "emote_id": "771558774086565898",
     "name": "Sealed Proof of Purification",
     "dropped_by": [
       "Zombie Lord"
@@ -6577,6 +6622,7 @@
   },
   {
     "id": "pomn",
+    "emote_id": "771416224096976926",
     "name": "Zombie Token",
     "dropped_by": [
       "Zombie Lord"
@@ -6588,6 +6634,7 @@
   },
   {
     "id": "I0D2",
+    "emote_id": "771556646094110720",
     "name": "Embrace of Nature",
     "description": "The grace of the Mother Nature that embraces all",
     "dropped_by": [
@@ -6655,6 +6702,7 @@
   },
   {
     "id": "I0MM",
+    "emote_id": "771556850134024203",
     "name": "Sealed Purified Water of Nature",
     "dropped_by": [
       "Ancient Ent",
@@ -6708,6 +6756,7 @@
   },
   {
     "id": "I0ML",
+    "emote_id": "771420397673250877",
     "name": "Sealed Fragment of the Wind",
     "dropped_by": [
       "Ancient Ent",
@@ -6731,6 +6780,7 @@
   },
   {
     "id": "pres",
+    "emote_id": "771416224096976926",
     "name": "Ent Token",
     "dropped_by": [
       "Ancient Ent"
@@ -6742,6 +6792,7 @@
   },
   {
     "id": "pgin",
+    "emote_id": "771556928203259904",
     "name": "Griseus, the Sword of Protection",
     "description": "Sword protected by a mysterious power",
     "dropped_by": [
@@ -6774,6 +6825,7 @@
   },
   {
     "id": "srtl",
+    "emote_id": "771557006254669844",
     "name": "Ring of the Storm",
     "description": "Storm!",
     "dropped_by": [
@@ -6816,6 +6868,7 @@
   },
   {
     "id": "kymn",
+    "emote_id": "771558919771521035",
     "name": "Levante, the Sword of Love and Hate",
     "description": "I wished for a happiness together, not just alone..",
     "dropped_by": [
@@ -6844,6 +6897,7 @@
   },
   {
     "id": "bzbf",
+    "emote_id": "771559020909559809",
     "name": "Draconic Skin Rusalka",
     "description": "Mana-infused armor that is decorated with dragon's scales.",
     "dropped_by": [
@@ -6875,6 +6929,7 @@
   },
   {
     "id": "shwd",
+    "emote_id": "771559048167686194",
     "name": "Nephthys, the Engraved Ring",
     "description": "Dark ring that Empress Nephthys bestows upon her familiars",
     "dropped_by": [
@@ -6938,6 +6993,7 @@
   },
   {
     "id": "I0MQ",
+    "emote_id": "771559082977001502",
     "name": "Sealed Essence of Darkness",
     "dropped_by": [
       "Shadow Dragon Irbert"
@@ -6989,6 +7045,7 @@
   },
   {
     "id": "I0MR",
+    "emote_id": "771420397794885662",
     "name": "Sealed Antimatter",
     "dropped_by": [
       "Shadow Dragon Irbert"
@@ -7003,6 +7060,7 @@
   },
   {
     "id": "I09N",
+    "emote_id": "771564847863300106",
     "name": "Frozen Debris",
     "dropped_by": [
       "Death Fiend"
@@ -7042,6 +7100,7 @@
   },
   {
     "id": "I0MS",
+    "emote_id": "771559109559713822",
     "name": "Sealed Frozen Debris",
     "dropped_by": [
       "Shadow Dragon Irbert"
@@ -7056,6 +7115,7 @@
   },
   {
     "id": "shar",
+    "emote_id": "771416224096976926",
     "name": "Token of Darkness",
     "dropped_by": [
       "Shadow Dragon Irbert"
@@ -7067,6 +7127,7 @@
   },
   {
     "id": "I0E5",
+    "emote_id": "771558184535064616",
     "name": "Steel of God",
     "type": "[Material]",
     "color": "FFFFFF",
@@ -7137,6 +7198,7 @@
   },
   {
     "id": "I0MP",
+    "emote_id": "771420397643890719",
     "name": "Sealed Essence of Light",
     "dropped_by": [
       "Archangel Samael"
@@ -7182,6 +7244,7 @@
   },
   {
     "id": "I0MO",
+    "emote_id": "771558227837452319",
     "name": "Sealed God's Page",
     "dropped_by": [
       "Archangel Samael"
@@ -7196,6 +7259,7 @@
   },
   {
     "id": "I0EG",
+    "emote_id": "771558315267719238",
     "name": "Guardian of the Skies",
     "description": "A beautiful set of wings worn by the Guardian of the Skies.",
     "dropped_by": [
@@ -7237,6 +7301,7 @@
   },
   {
     "id": "sneg",
+    "emote_id": "771416224096976926",
     "name": "Archangel Token",
     "dropped_by": [
       "Archangel Samael"
@@ -7248,6 +7313,7 @@
   },
   {
     "id": "srbd",
+    "emote_id": "771559221850406932",
     "name": "The Ender",
     "description": "The weapon of Death Fiend, who reigns over death and brings demise",
     "dropped_by": [
@@ -7275,6 +7341,7 @@
   },
   {
     "id": "oslo",
+    "emote_id": "771559370063872021",
     "name": "Armor of Grudge",
     "description": "Cursed armor touched by death",
     "dropped_by": [
@@ -7306,6 +7373,7 @@
   },
   {
     "id": "sprn",
+    "emote_id": "771559477405024257",
     "name": "Eyes of the Watcher",
     "description": "I'm always watching you.. from far..",
     "dropped_by": [
@@ -7340,6 +7408,7 @@
   },
   {
     "id": "ledg",
+    "emote_id": "771559509285535776",
     "name": "Ring of Destruction",
     "description": "Ring bestowed with the power of the Destroyer",
     "dropped_by": [
@@ -7367,6 +7436,7 @@
   },
   {
     "id": "I0DG",
+    "emote_id": "771559561798221855",
     "name": "Spearhead of Death",
     "dropped_by": [
       "Death Fiend"
@@ -7401,6 +7471,7 @@
   },
   {
     "id": "kygh",
+    "emote_id": "771420397853474836",
     "name": "Fragment of Chaos",
     "dropped_by": [
       "Death Fiend"
@@ -7429,6 +7500,7 @@
   },
   {
     "id": "infs",
+    "emote_id": "771416224096976926",
     "name": "Fiend Token",
     "dropped_by": [
       "Death Fiend"
@@ -7459,6 +7531,7 @@
   },
   {
     "id": "ocor",
+    "emote_id": "771559753147088916",
     "name": "Shackles of Heaven",
     "description": "Shackles used by the Lightning God to tie his cows",
     "dropped_by": [
@@ -7497,6 +7570,7 @@
   },
   {
     "id": "I0IG",
+    "emote_id": "771420397601161256",
     "name": "Aegis of Storm",
     "dropped_by": [
       "Valtora"
@@ -7525,6 +7599,7 @@
   },
   {
     "id": "I0IH",
+    "emote_id": "771560839085162510",
     "name": "Essence of Storm",
     "dropped_by": [
       "Valtora"
@@ -7555,6 +7630,7 @@
   },
   {
     "id": "phea",
+    "emote_id": "771560999874461726",
     "name": "Shining Fragment of Ruins",
     "dropped_by": [
       "Valtora",
@@ -7607,6 +7683,7 @@
   },
   {
     "id": "I0P0",
+    "emote_id": "771416224096976926",
     "name": "Token of Thunder Lord",
     "dropped_by": [
       "Valtora"
@@ -7618,6 +7695,7 @@
   },
   {
     "id": "I0JS",
+    "emote_id": "771561099907563560",
     "name": "Heart of Volcano",
     "dropped_by": [
       "Ifrit"
@@ -7656,6 +7734,7 @@
   },
   {
     "id": "I0IE",
+    "emote_id": "771420396373147719",
     "name": "Aegis of Flame",
     "dropped_by": [
       "Ifrit"
@@ -7683,6 +7762,7 @@
   },
   {
     "id": "I0IF",
+    "emote_id": "771560839433158666",
     "name": "Essence of Flame",
     "dropped_by": [
       "Ifrit"
@@ -7717,6 +7797,7 @@
   },
   {
     "id": "I0P1",
+    "emote_id": "771416224096976926",
     "name": "Token of Avatar",
     "dropped_by": [
       "Ifrit"
@@ -7728,6 +7809,7 @@
   },
   {
     "id": "I0LX",
+    "emote_id": "771561150177476619",
     "name": "Grail of Eternity",
     "dropped_by": [
       "Nereid"
@@ -7760,6 +7842,7 @@
   },
   {
     "id": "I0II",
+    "emote_id": "771420396532531231",
     "name": "Aegis of Sea",
     "dropped_by": [
       "Nereid"
@@ -7790,6 +7873,7 @@
   },
   {
     "id": "I0IJ",
+    "emote_id": "771560839592673310",
     "name": "Essence of Sea",
     "dropped_by": [
       "Nereid"
@@ -7822,6 +7906,7 @@
   },
   {
     "id": "I0P2",
+    "emote_id": "771416224096976926",
     "name": "Token of Sea God",
     "dropped_by": [
       "Nereid"
@@ -7833,6 +7918,7 @@
   },
   {
     "id": "sreg",
+    "emote_id": "771557846105718784",
     "name": "Dragonic Orb",
     "description": "An orb overflowing with mana enough to controll a dragon",
     "dropped_by": [
@@ -7869,6 +7955,7 @@
   },
   {
     "id": "pinv",
+    "emote_id": "771420397618069554",
     "name": "Ancient Hourglass",
     "description": "A mystical artifact that occasionally reverses the flow of sand",
     "dropped_by": [
@@ -7898,6 +7985,7 @@
   },
   {
     "id": "tret",
+    "emote_id": "771420397844561960",
     "name": "Burning Bone Fragments",
     "dropped_by": [
       "Bone Dragon"
@@ -7918,6 +8006,7 @@
   },
   {
     "id": "btst",
+    "emote_id": "771420397694353408",
     "name": "Dragon's Eye",
     "dropped_by": [
       "Bone Dragon"
@@ -7946,6 +8035,7 @@
   },
   {
     "id": "I0M7",
+    "emote_id": "771558048601866250",
     "name": "Bone Dragon Icon",
     "koreanname": "본 드래곤 아이콘",
     "dropped_by": [
@@ -7963,6 +8053,7 @@
   },
   {
     "id": "rre1",
+    "emote_id": "771416224096976926",
     "name": "Bone Dragon Token",
     "dropped_by": [
       "Bone Dragon"
@@ -7974,6 +8065,7 @@
   },
   {
     "id": "I0LN",
+    "emote_id": "771557187763699742",
     "name": "Prius Silver Coin",
     "koreanname": "프리우스 은화",
     "type": "[Material]",
@@ -8024,6 +8116,7 @@
   },
   {
     "id": "I0OZ",
+    "emote_id": "771416013060571138",
     "name": "Coin of Effort",
     "koreanname": "노력의 재화",
     "type": "[Material]",
@@ -8065,6 +8158,7 @@
   },
   {
     "id": "I0O3",
+    "emote_id": "771416058305052683",
     "name": "Curse of Greed",
     "description": "Human greed knows no limits.",
     "dropped_by": [
@@ -8099,6 +8193,7 @@
   },
   {
     "id": "I0NV",
+    "emote_id": "771416109735870494",
     "name": "Fragment of Soul",
     "dropped_by": [
       "Underlord Agareth"
@@ -8130,6 +8225,7 @@
   },
   {
     "id": "I0NU",
+    "emote_id": "771416129536524359",
     "name": "Fragment of Hell",
     "dropped_by": [
       "Underlord Agareth"
@@ -8155,6 +8251,7 @@
   },
   {
     "id": "I0NW",
+    "emote_id": "771416172880068668",
     "name": "Mark of Lord",
     "dropped_by": [
       "Underlord Agareth"
@@ -8179,6 +8276,7 @@
   },
   {
     "id": "I0P3",
+    "emote_id": "771416224096976926",
     "name": "Token of Underlord",
     "dropped_by": [
       "Underlord Agareth"
@@ -18303,7 +18401,8 @@
   {
     "id": "I0JX",
     "name": "Ring of Revival",
-    "koreanname": "The life is flowing into me!",
+    "koreanname": "소생의 반지",
+    "description": "The life is flowing into me!",
     "type": "[Ring]",
     "color": "DC143C",
     "level": 400,
