@@ -325,9 +325,9 @@
         "type": "Burst",
         "order": 1,
         "stat": "AGI",
-        "version": "38b",
+        "version": "39b",
         "description": [
-            "Use Vest of Storm until Athanasia",
+            "Use Grandine when needed, otherwise stick with Vest of Storm / Divine Winds",
             "Use Halo for AMS when needed",
             "Use Dragon Mask for Regen if needed"
         ],
@@ -340,8 +340,8 @@
             "Ring of Insanity": [
                 "Ring of Fate"
             ],
-            "Athanasia, the Armor of the Reaper": [
-                "Vest of Storm"
+            "Vest of Divine Winds": [
+                "Grandine, the Plates of Wraith"
             ],
             "Storm": [
                 "Wings of Flame Lord"
