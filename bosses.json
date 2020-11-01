@@ -906,9 +906,6 @@
         "category": "Endgame",
         "summon": "In Abandoned Graveyard, at spawn of Mad Clown",
         "conditions": "Level 270 and 20x Red Powder",
-        "notes": [
-            "While being re-summoned, players can no longer enter/exit the Abandoned Graveyard"
-        ],
         "drops": [
             "srbd",
             "oslo",
