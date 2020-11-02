@@ -1140,7 +1140,7 @@
         "color": "b3fff0",
         "hotkey": "[W]",
         "icon": "ShooterW",
-        "cooldown": 30,
+        "cooldown": 15,
         "order": 4,
         "passive": [
             "Heal allies using microscopic machines.",
