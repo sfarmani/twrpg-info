@@ -8074,7 +8074,7 @@
       "Droprate is determined by the amount of players involved in the fight when the boss dies",
       "2% per player up to 5 players, 1% for 6 and up chance for all players involved to get N number of coins",
       "You can also purchase items from the Collector NPC",
-      "Any item in the 'Used In' section can also be sold to the Collector NPC for Silver Coins"
+      "Any item in the 'Used In' section (except for 'Spirit Beast Icon') can also be sold to the Collector NPC for Silver Coins"
     ],
     "dropped_by": [
       "Corruptor Rectus",
