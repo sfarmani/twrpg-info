@@ -195,7 +195,7 @@
             "Ring of Insanity": [
                 "Ring of Fate",
                 "Latea, the Ring of Overlord",
-                "Cold Ring of Death",
+                "Ring of Frozen Soul",
                 "Ispion, the Runed Ring"
             ],
             "Felspike Armor": [
@@ -278,7 +278,7 @@
             "Eye of the Reaper": [
                 "Mask of Demigod"
             ],
-            "Cold Ring of Death": [
+            "Ring of Frozen Soul": [
                 "Ring of Fate"
             ],
             "Nevedium, the Armor of Demonblood": [
@@ -308,7 +308,7 @@
                 "Radiance of the One"
             ],
             "Ring of Insanity": [
-                "Cold Ring of Death"
+                "Ring of Frozen Soul"
             ],
             "Athanasia, the Armor of the Reaper": [
                 "Vest of Storm",
@@ -598,7 +598,7 @@
         "items": {
             "Atricia, the Sword of Dreams": [],
             "Eye of the Reaper": [],
-            "Cold Ring of Death": [],
+            "Ring of Frozen Soul": [],
             "Athanasia, the Armor of the Reaper": [
                 "Vest of Storm"
             ],
@@ -617,7 +617,7 @@
         "items": {
             "Atricia, the Sword of Dreams": [],
             "Mask of Demigod": [],
-            "Cold Ring of Death": [],
+            "Ring of Frozen Soul": [],
             "Nevedium, the Armor of Demonblood": [
                 "Vest of Storm"
             ],
@@ -682,7 +682,7 @@
                 "The Ender"
             ],
             "Prophetia, the Origin of Knowledge": [],
-            "Cold Ring of Death": [],
+            "Ring of Frozen Soul": [],
             "Thanatos, the Robe of Hell": [
                 "Winter Robe"
             ],
@@ -866,7 +866,7 @@
             ],
             "Latea, the Ring of Overlord": [
                 "Ring of Fate",
-                "Cold Ring of Death",
+                "Ring of Frozen Soul",
                 "Nebula Rose"
             ],
             "Thanatos, the Robe of Hell": [
@@ -1011,7 +1011,7 @@
         "stat": "INT",
         "version": "38b",
         "description": [
-            "Use Cold Ring of Death for faster Q casts (gives pure attack speed)"
+            "Use Ring of Frozen Soul for faster Q casts (gives pure attack speed)"
         ],
         "items": {
             "Hell Riser": [
@@ -1020,7 +1020,7 @@
             "Crown of Absolute Zero": [
                 "Prophetia, the Greater Source of Mana"
             ],
-            "Cold Ring of Death": [
+            "Ring of Frozen Soul": [
                 "Ring of Despair"
             ],
             "Thanatos, the Robe of Hell": [],
