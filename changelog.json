@@ -1,5 +1,106 @@
 [
     {
+        "name": "40a",
+        "notes": [
+            "Released on: November 12th, 2020",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Astra, the Sword of Moonlight - Fixed Crusader spec not working",
+            "Harmony of Sky and Earth - Fixed active effect not working if Creation of Sky and Earth active is applied to targets",
+            "Seed of Malice - Fixed Warlock / Priest spec not working",
+            "Coin of Effort - Fixed droprate-related bugs",
+            "Demon Lord Beriel - Fixed silence spell going through silence immunity",
+            "Thunderer - Fixed Thunder Shield (E) cooldown not being resettable",
+            "EXP lock - Fixed related bugs"
+        ],
+        "events": [
+            {
+                "name": "Halloween Event",
+                "changes": [
+                    "Halloween event starts, will last for 3 weeks"
+                ]
+            }
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New recipes added",
+                    [
+                        "Benziena, the Earthen Heart",
+                        "Voidshard Armor"
+                    ]
+                ]
+            },
+            {
+                "name": "Jupiter, the Robe of Heavens",
+                "changes": [
+                    "Active",
+                    [
+                        "No longer applies to Berserker with Blood Fury (E) is toggled on",
+                        "Heals 1 hero every 0.25 seconds → Heals 3 heroes and all summons every 0.5 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Seed of Malice",
+                "changes": [
+                    "Passive",
+                    [
+                        "Cooldown: 2 seconds → 4 seconds",
+                        "HP / MP recovery: 8% → 10%",
+                        "Damage output increase per Evil Magic stack: 1% → 2%",
+                        "Max stack amount: 10 → 5"
+                    ],
+                    "Active",
+                    [
+                        "Damage per stack consumed: INT X 40 → INT X 50"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "Lava Spirit - X shape explosion on death now starts 500 units away from Lava Spirit",
+                    "Can no longer attack during Wheel"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Hero notes",
+                "changes": [
+                    "Added new Hero",
+                    [
+                        "Trickster"
+                    ]
+                ]
+            },
+            {
+                "name": "Paladin / Dark Knight",
+                "changes": [
+                    "Can now use Staffs (can already use robes and hoods)"
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Arrow of Zephyrus (Q)",
+                    [
+                        "Set to healing mode by default"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Added recipe check spell to storage",
+            "Added spell visual effects to costumes of effort"
+        ]
+    },
+    {
         "name": "39b",
         "notes": [
             "Released on: October 18th, 2020",

@@ -78,7 +78,8 @@
             "Potion of Corruption - Mad Alchemist",
             "Benziena, the Rod of Earth - Improved Stone Golem",
             "Benziena, the Earthen Pillar - Improved Stone Golem",
-            "Benziena, the Earthen Soul - Improved Stone Golem"
+            "Benziena, the Earthen Soul - Improved Stone Golem",
+            "Benziena, the Earthen Heart - Improved Stone Golem"
         ]
     },
     {
@@ -322,6 +323,7 @@
             "Triple Snow - Water Mastery",
             "Benziena, the Earthen Pillar - Earth Mastery",
             "Benziena, the Earthen Soul - Earth Mastery",
+            "Benziena, the Earthen Heart - Earth Mastery",
             "Spiritus, the Sword of Elements - Spirit Link",
             "Spirit Dagger - Spirit Link",
             "Chaos Dagger - Spirit Link"
@@ -719,6 +721,7 @@
             "[Weapon non-bow/gun classes]",
             "[Greatsword]",
             "[Bastard Sword]",
+            "[Staff]",
             "[Armor]",
             "[Robe]",
             "[Helm]",
@@ -837,6 +840,7 @@
             "[Weapon non-bow/gun classes]",
             "[Greatsword]",
             "[Bastard Sword]",
+            "[Staff]",
             "[Armor]",
             "[Robe]",
             "[Helm]",
@@ -958,7 +962,11 @@
             "[Longsword]",
             "[Greatsword]",
             "[Gloves]",
-            "[Bastard Sword]"
+            "[Bastard Sword]",
+            "[Helm]",
+            "[Armor]",
+            "[Ring]",
+            "[Wings]"
         ],
         "role": [
             "Pure DPS"
@@ -968,6 +976,31 @@
             "After countless battles, his face ended up getting obliterated.",
             "However, he can still accurately determine his opponent's position and actions by sensing the flow of air around him.",
             "Now, he seeks to transcend humans and even conquer The World of monsters."
+        ],
+        "spec": [
+            "No Specs!"
+        ]
+    },
+    {
+        "name": "Luk",
+        "heroClass": "Trickster",
+        "mainstat": "AGI",
+        "color": "39ac73",
+        "icon": "TricksterIcon",
+        "wearable": [
+            "[Weapon all classes]",
+            "[Longsword]",
+            "[Bastard Sword]",
+            "[Helm]",
+            "[Armor]",
+            "[Ring]",
+            "[Wings]"
+        ],
+        "role": [
+            "Pure DPS"
+        ],
+        "description": [
+            "분신을 조종하는 공격형 영웅입니다."
         ],
         "spec": [
             "No Specs!"

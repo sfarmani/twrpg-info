@@ -6507,6 +6507,7 @@
       "Splitting of the Sky and Earth",
       "Punisher",
       "Felspike Armor",
+      "Benziena, the Earthen Heart",
       "Zombie Lord Icon"
     ],
     "recipe": [
@@ -6552,6 +6553,7 @@
       "Oblivion",
       "Fiend Chaser",
       "Crown of Absolute Zero",
+      "Voidshard Armor",
       "Zombie Lord Icon"
     ],
     "recipe": [
@@ -6649,6 +6651,7 @@
       "Bag of Mother Nature",
       "Wings of Blood Lord",
       "Harmony of Sky and Earth",
+      "Benziena, the Earthen Heart",
       "Ancient Ent Icon"
     ],
     "stats": {
@@ -7145,6 +7148,7 @@
       "Punisher",
       "Rainmaker",
       "Astra, the Sword of Moonlight",
+      "Benziena, the Earthen Heart",
       "Archangel Icon"
     ],
     "recipe": [
@@ -7465,7 +7469,8 @@
       "Chaos Dagger",
       "Cape of Deep Abyss",
       "Horn of Demon God",
-      "Seed of Malice"
+      "Seed of Malice",
+      "Voidshard Armor"
     ],
     "koreanname": "죽음의 창두"
   },
@@ -7756,7 +7761,8 @@
       "Jupiter, the Robe of Heavens",
       "Prophetia, the Origin of Knowledge",
       "Ring of Frozen Soul",
-      "Seed of Malice"
+      "Seed of Malice",
+      "Voidshard Armor"
     ],
     "koreanname": "화염의 가호"
   },
@@ -7867,7 +7873,8 @@
       "Bloodseeker Plates",
       "Prophetia, the Origin of Knowledge",
       "Horn of Demon God",
-      "Vest of Divine Winds"
+      "Vest of Divine Winds",
+      "Voidshard Armor"
     ],
     "koreanname": "바다의 가호"
   },
@@ -7938,7 +7945,8 @@
       "Bag of Universe",
       "Wings of Flame Lord",
       "Wings of Frost Lord",
-      "Heaven's Door"
+      "Heaven's Door",
+      "Benziena, the Earthen Heart"
     ],
     "stats": {
       "damage": 19000,
@@ -8243,7 +8251,8 @@
       "Cape of Deep Abyss",
       "Demonic Fist",
       "Vest of Divine Winds",
-      "Seed of Malice"
+      "Seed of Malice",
+      "Voidshard Armor"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
@@ -8268,7 +8277,8 @@
       "Spirit of Protector",
       "Prophetia, the Origin of Knowledge",
       "Horn of Demon God",
-      "Ring of Frozen Soul"
+      "Ring of Frozen Soul",
+      "Voidshard Armor"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
@@ -12804,6 +12814,9 @@
     "type": "[Staff]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Benziena, the Earthen Heart"
+    ],
     "recipe": [
       {
         "Benziena, the Earthen Pillar": 1
@@ -13056,6 +13069,55 @@
         "Elementalist - Seal of Water: Duration increased by 10 seconds, HP increased by 40%",
         "Elementalist - Water Beam: Range increased by 150, can heal 1 additional ally",
         "Elementalist - Refreshing Well: Radius increased by 200"
+      ]
+    }
+  },
+  {
+    "id": "I0P9",
+    "name": "Benziena, the Earthen Heart",
+    "koreanname": "대지의 심장 벤지이나",
+    "description": "위대한 자연의 품에 안겨 진실한 지식에 도달하리라",
+    "type": "[Staff]",
+    "color": "DC143C",
+    "level": 380,
+    "recipe": [
+      {
+        "Benziena, the Earthen Soul": 1
+      },
+      {
+        "Embrace of Nature": 1
+      },
+      {
+        "Dragonic Orb": 1
+      },
+      {
+        "Steel of God": 1
+      },
+      {
+        "Heart of Fire": 1
+      }
+    ],
+    "stats": {
+      "damage": 23500,
+      "intelligence": 2150,
+      "affinityearthpercent": 0.08,
+      "passive": [
+        "On skill cast, activates Restoration",
+        "Applies to self and a nearby hero with the lowest HP",
+        "Heals (10000 + INT) HP and reduces DMG TAKEN by 12% for 9 seconds",
+        "Cooldown: 3 seconds"
+      ],
+      "active": [
+        "On use, activates Warping Earth",
+        "Heals (15% max HP) per second to nearby allies",
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialties - Earth Mastery",
+        "Elementalist - Seal of Earth: Duration increased by 10 seconds",
+        "Elementalist - Pulse of Protection: Cooldown reduced by 3 seconds",
+        "Elementalist - Earthen Protection: Radius increased by 200",
+        "Alchemist - Improved Stone Golem: Increases Stone Golem's size and HP by 10000 + 25%. Also continuously heals nearby allies"
       ]
     }
   },
@@ -15039,6 +15101,9 @@
     "type": "[Armor]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Voidshard Armor"
+    ],
     "recipe": [
       {
         "Flameshard Armor": 1
@@ -18884,16 +18949,16 @@
       "skilldamagepercent": 0.09,
       "passive": [
         "Landing a spell generates Seed of Malice nearby",
-        "Absorbs when approached, it restores 8% HP/MP and adds stack of Evil Magic for 10 seconds",
-        "Evil Magic increases damage output by 1% per stack and stacks up to 10 times",
+        "Absorbs when approached, it restores 10% HP/MP and adds stack of Evil Magic for 10 seconds",
+        "Evil Magic increases damage output by 2% per stack and stacks up to 5 times",
         "Cannot be generated during Forbidden Magic",
-        "Cooldown: 2 seconds"
+        "Cooldown: 4 seconds"
       ],
       "active": [
         "On use, activates Forbidden Magic",
         "Consumes 50% max MP",
         "Increases MAIN STAT by (MP consumed / 60) and ATK SPD by 60% for 10 seconds",
-        "Consumes 1 Evil Magic stack per second and deals (INT X 40) magic damage to nearby enemies",
+        "Consumes 1 Evil Magic stack per second and deals (INT X 50) magic damage to nearby enemies",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -19455,7 +19520,7 @@
       "active": [
         "On use, activates Salvation",
         "Heals nearby allies to full",
-        "Afterwards emits a divine light that restores (INT X 2.5) HP to ally with lowest HP every 0.25 seconds for 6 seconds",
+        "Afterwards emits a divine light that restores (INT X 2.5) HP to 3 allies with lowest HP and all summons every 0.5 seconds for 6 seconds",
         "Also deals (INT X 50) magic damage and stuns all nearby enemies for 1 second every second",
         "Prevents HP from dropping below 1 for duration",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
@@ -19784,6 +19849,57 @@
         "Next 2 attacks hit 2 more times and deals 50% ATK DMG",
         "Increases AGI by 250",
         "Increases MOV SPD past 500 limit"
+      ]
+    }
+  },
+  {
+    "id": "I0P8",
+    "name": "Voidshard Armor",
+    "koreanname": "보이드샤드 아머",
+    "description": "그 자취 앞에서 만물이 고요해지니",
+    "type": "[Armor]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Frostshard Armor": 1
+      },
+      {
+        "Dark Crystal": 1
+      },
+      {
+        "Spearhead of Death": 1
+      },
+      {
+        "Aegis of Flame": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Fragment of Hell": 1
+      },
+      {
+        "Mark of Lord": 1
+      }
+    ],
+    "stats": {
+      "armor": 1150,
+      "strength": 1250,
+      "agility": 600,
+      "dtpercent": -0.15,
+      "passive": [
+        "When HP drops below 50%, activates Voidshard",
+        "Heals 20% HP",
+        "Deals (STR X 75) magic damage to nearby enemies",
+        "Increases STR by 15% and reduces DMG TAKEN by 7.5% for 12 seconds",
+        "Cooldown: 8 seconds"
+      ],
+      "active": [
+        "On use, activates Event Horizon",
+        "Prevents HP from dropping below 1 for 3 seconds",
+        "Afterwards, pauses nearby enemies for 2 seconds and activates Voidshard",
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
   },
