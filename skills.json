@@ -5004,7 +5004,7 @@
         "heroClass": "Trickster",
         "color": "89ddb5",
         "hotkey": "[D] → [D]",
-        "icon": "TricksterD_D",
+        "icon": "TricksterD",
         "order": 2,
         "active": [
             "분신을 회수한다.",
@@ -5080,7 +5080,7 @@
         "heroClass": "Trickster",
         "color": "89ddb5",
         "hotkey": "[R] → [R]",
-        "icon": "TricksterR_R",
+        "icon": "TricksterR",
         "order": 7,
         "active": [
             "EXPLOOOOODE"
