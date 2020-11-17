@@ -30,14 +30,14 @@
         "stat": "STR",
         "version": "38d",
         "description": [
-            "Build Meacronancer first, and eventually get to Splitting",
+            "Build Meacronancer first, and eventually get to Calamity",
             "Use Halo until you get Horn as it is good for AMS",
             "Use Plates of Lightning as an in-between armor until Felspike/Hades",
             "Ring of Strike is a good in between ring until you get to Heaven's Fist",
             "Use Hades if no one else in your team is using it for the debuffs, otherwise use Felspike"
         ],
         "items": {
-            "Splitting of the Sky and Earth": [
+            "Calamity": [
                 "Meacronacer, the Sword of Thousand Illusions"
             ],
             "Horn of Demon God": [
@@ -186,7 +186,8 @@
             "Make your way to Aglaia until you reach Splitting as its easier to make first"
         ],
         "items": {
-            "Splitting of the Sky and Earth": [
+            "Calamity": [
+                "Splitting of the Sky and Earth",
                 "Aglaia, the Spear of Heavenly Flows"
             ],
             "Horn of Demon God": [
@@ -678,11 +679,13 @@
             "Use Ender with Zombie Lord Icon for a better weapon"
         ],
         "items": {
-            "Staff of Plague": [
+            "Ethenos, the Staff of Chaos": [
                 "The Ender"
             ],
             "Prophetia, the Origin of Knowledge": [],
-            "Ring of Frozen Soul": [],
+            "Ring of Divine Winds": [
+                "Ring of Frozen Soul"
+            ],
             "Thanatos, the Robe of Hell": [
                 "Winter Robe"
             ],
@@ -728,7 +731,7 @@
             "Wings of Immortal is an alternative wings for DPS but should not be your first option"
         ],
         "items": {
-            "The Ender": [
+            "Calamity": [
                 "Winter's Heart"
             ],
             "Eye of the Flame Lord": [],
