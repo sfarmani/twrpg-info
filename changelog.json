@@ -1,5 +1,43 @@
 [
     {
+        "name": "40b",
+        "notes": [
+            "Released on: November 16th, 2020",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Paladin - Fixed bugs related to Holy Aura (D)",
+            "Paladin - Fixed Cooldown-related bugs on Holy Divide (Q)",
+            "Trickster - Fixed bugs related to Fantasm (D)",
+            "Trickster - Fixed being able to target allies with Sinister Trick (F)",
+            "Thanatos, the Robe of Hell - Fixed cooldown related bugs on active",
+            "Closet - Fixed bugs related to enabling tokens"
+        ],
+        "heroes": [
+            {
+                "name": "Trickster",
+                "changes": [
+                    "Attack delay: 1.0 → 1.1",
+                    "Hidden Fang (Q)",
+                    [
+                        "Damage: 400% ATK DMG + AGI X 20 → 400% ATK DMG + AGI X 30"
+                    ],
+                    "Wonder Hand (W)",
+                    [
+                        "Consecutive casts no longer proc on-spell cast effects"
+                    ],
+                    "Stage Finisher (T)",
+                    [
+                        "Damage: 1000% ATK DMG + AGI X 75 → 1250% ATK DMG + AGI X 100"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Other bugs such as Halloween costume exchange not working will be fixed before end of event"
+        ]
+    },
+    {
         "name": "40a",
         "notes": [
             "Released on: November 12th, 2020",

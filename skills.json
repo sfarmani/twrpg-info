@@ -4994,9 +4994,9 @@
         "icon": "TricksterD",
         "order": 1,
         "active": [
-            "자신의 분신을 만들어낸다.",
-            "분신은 75%의 피해를 가함",
-            "10초의 재소환 쿨다운을 지님"
+            "Creates an illusion that can mimic you.",
+            "Illusion deals 75% damage",
+            "Has 10 second recast cooldown"
         ]
     },
     {
@@ -5020,11 +5020,11 @@
         "cooldown": 6,
         "order": 3,
         "active": [
-            "단검을 자유자재로 다룬다.",
-            "공격력 X 400% 마법 데미지",
-            "민첩 X 20 추가 데미지",
-            "치명타로 적중 가능",
-            "스킬 시전 시 12% 확률로 쿨다운 초기화"
+            "An expert mastery of dagger.",
+            "Attack Damage X 400% magic damage",
+            "AGI X 30 bonus damage",
+            "Can critically strike",
+            "On skill cast, 12% chance to refresh cooldown"
         ]
     },
     {
@@ -5055,9 +5055,9 @@
         "cooldown": 12,
         "order": 5,
         "active": [
-            "분신과 위치를 바꾼다.",
-            "민첩 X 75 마법 데미지",
-            "1000 거리 이상에서 사용 시 중심의 적에게 가하는 데미지가 12초간 20% 증가"
+            "Switches position with your illusion.",
+            "AGI X 75 magic damage",
+            "If cast outside 1000 range, increases your damage dealt to enemies within center by 20% for 12 seconds"
         ]
     },
     {
@@ -5069,10 +5069,10 @@
         "cooldown": 30,
         "order": 6,
         "active": [
-            "사방팔방으로 튕기는 칼날을 던진다.",
-            "초당 민첩 X 50 순수 데미지",
-            "Wonder Hand에 적중 시 칼날을 반사",
-            "재시전 시 칼날을 폭발시켜 적을 1.5초간 기절 시키고 6개의 작은 칼날을 가장 가까운 적에게 날려 개당 민첩 X 10 마법 데미지를 가함"
+            "Launches a blade that flies toward various directions.",
+            "Deals AGI X 50 pure damage per second",
+            "Can be deflected by Wonder Hand",
+            "On recast, explodes the blade, stunning nearby enemies for 1.5 seconds and throwing 6 smaller blades at the nearest target dealing AGI X 10 magic damage per blade"
         ]
     },
     {
@@ -5095,14 +5095,14 @@
         "cooldown": 45,
         "order": 8,
         "passive": [
-            "Hidden Fang를 적중시킨 유닛에게 3초간 표식을 남김 (공격 및 스킬 적중 시 지속 시간 초기화)",
-            "표식이 새겨진 방향으로 Hidden Fang를 적중 시 표식을 전부 소모하고 데미지 150% 증가"
+            "Leaves a mark on target hit by Hidden Fang for 3 seconds (landing hits on the target refreshes the duration of marks)",
+            "Landing Hidden Fang on the same direction as a mark consumes all marks and deals 150% increased damage"
         ],
         "active": [
-            "화려한 마무리를 선사한다.",
-            "표식 당 공격력 X 1000% 마법 데미지",
-            "민첩 X 75 추가 데미지",
-            "치명타로 적중 가능"
+            "Delivers a grand finale.",
+            "Deals Attack Damage X 1250% magic damage per mark",
+            "AGI X 100 bonus damage",
+            "Can critically strike"
         ]
     },
     {
