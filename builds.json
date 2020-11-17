@@ -28,7 +28,7 @@
         "type": "Tank DPS",
         "order": 1,
         "stat": "STR",
-        "version": "38d",
+        "version": "40b",
         "description": [
             "Build Meacronancer first, and eventually get to Calamity",
             "Use Halo until you get Horn as it is good for AMS",
@@ -178,7 +178,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "STR",
-        "version": "38d",
+        "version": "40b",
         "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=3341",
         "description": [
             "For max DPS it is recommended to go with the first items",
@@ -674,7 +674,7 @@
         "type": "DPS with support",
         "order": 1,
         "stat": "INT",
-        "version": "38d",
+        "version": "40b",
         "description": [
             "Use Ender with Zombie Lord Icon for a better weapon"
         ],
@@ -724,7 +724,7 @@
         "type": "Full DPS",
         "order": 1,
         "stat": "INT",
-        "version": "38b",
+        "version": "40b",
         "description": [
             "Winter's Heart is situational",
             "Use Trueblood Ring until Horn of God",
