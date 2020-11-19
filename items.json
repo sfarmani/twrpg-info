@@ -15212,11 +15212,14 @@
     "stats": {
       "armor": 590,
       "strength": 380,
-      "intelligence": 1080,
+      "intelligence": 1040,
       "skilldamagepercent": 0.08,
       "mpregen": 80,
       "active": [
-        "Aoe Magic barrier (200 AoE, 40% MR to nearby allies, magic immunity to self)"
+        "On use, summons Magic Barrier granting the user with magic immunity",
+        "Also provides a 40% magic resistance to allies in a 225 radius around user",
+        "Lasts 5 seconds",
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     }
   },
