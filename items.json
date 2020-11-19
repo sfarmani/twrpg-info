@@ -12840,12 +12840,13 @@
       "dtpercent": -0.1,
       "affinityearthpercent": 0.06,
       "active": [
-        "On use, activates Twisting Earth in a selected 450 radius and restores 15% max HP per 0.5 seconds of allies within the area for 10 seconds",
+        "On use, activates Twisting Earth in a selected 450 radius for 10 seconds",
+        "Heals (7.5% max HP) per 0.5 seconds to allies within the area",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialties - Earth Mastery",
-        "Alchemist - Improved Stone Golem: Increases the size and Health of Golem by 7500 + 15% and heals nearby allies for 4.2% Max Health per second. Applying immolation effect on golem removes the healing effect. Also increases Stone Golem's starting and max bonus armor (440-800)",
+        "Alchemist - Improved Stone Golem: Increases the size and Health of Golem by 7500 + 15%, heals nearby allies for 750 + (2.5% max HP) per second, and increases Stone Golem's starting and max bonus armor (440-800)",
         "Elementalist - Seal of Earth: Duration increased by 10 seconds",
         "Elementalist - Pulse of Protection: Cooldown reduced by 3 seconds"
       ]
@@ -13108,8 +13109,8 @@
         "Cooldown: 3 seconds"
       ],
       "active": [
-        "On use, activates Warping Earth",
-        "Heals (15% max HP) per second to nearby allies",
+        "On use, activates Warping Earth in a selected 450 radius for 10 seconds",
+        "Heals (5% max HP) per 0.5 seconds to allies within the area",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -13117,7 +13118,7 @@
         "Elementalist - Seal of Earth: Duration increased by 10 seconds",
         "Elementalist - Pulse of Protection: Cooldown reduced by 3 seconds",
         "Elementalist - Earthen Protection: Radius increased by 200",
-        "Alchemist - Improved Stone Golem: Increases Stone Golem's size and HP by 10000 + 25%. Also continuously heals nearby allies"
+        "Alchemist - Improved Stone Golem: Increases the size and Health of Golem by 10000 + 25%, heals nearby allies for 1250 + (3% max HP) per second, and increases Stone Golem's starting and max bonus armor (540-900)"
       ]
     }
   },
