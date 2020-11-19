@@ -15217,8 +15217,7 @@
       "mpregen": 80,
       "active": [
         "On use, summons Magic Barrier granting the user with magic immunity",
-        "Also provides a 40% magic resistance to allies in a 225 radius around user",
-        "Lasts 5 seconds",
+        "Also increases nearby allies' magic defense by 40% for 5 seconds (225 radius)",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     }
