@@ -19527,6 +19527,11 @@
         "Also deals (INT X 50) magic damage and stuns all nearby enemies for 1 second every second",
         "Prevents HP from dropping below 1 for duration",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialties - Heaven's Blessing",
+        "Lightning Mage - Removes all debuffs when discharge is used and heals 10% max HP for each lightning orb recharged",
+        "Wind Mage - Restore 50% of Maximum HP when using Feather of Aeolus"
       ]
     }
   },
