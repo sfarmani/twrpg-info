@@ -5123,7 +5123,7 @@
     "dropped_by": [
       "Guardian of Sea"
     ],
-    "type": "[Weapon all classes]",
+    "type": "[Weapon non-bow/gun classes]",
     "color": "9370DB",
     "level": 240,
     "droprate": 0.1,

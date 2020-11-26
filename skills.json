@@ -1127,11 +1127,13 @@
         "cooldown": 3,
         "order": 3,
         "active": [
-            "Fires refreshing water at target.",
-            "Deals INT X 50 damage if target is an enemy",
-            "Increases magic armor by 25% for 3 seconds.",
-            "Heals for INT X 3 if target is an ally",
-            "Bounces twice with 100% efficiency"
+            "Fires a magic water bullet that bounces around.",
+            "If enemy, deals INT X 50 damage",
+            "If ally, heals INT X 3 HP",
+            "If ally, increases magic defense by 25% for 3 seconds",
+            "Cooldown is reset upon firing a magic bullet",
+            "Bounces twice with Hydro Buster",
+            "Bounces thrice with Rainmaker"
         ]
     },
     {
