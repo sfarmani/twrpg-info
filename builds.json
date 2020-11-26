@@ -4,7 +4,7 @@
         "type": "Full DPS",
         "order": 1,
         "stat": "STR",
-        "version": "38b",
+        "version": "40b",
         "description": [
             "Use Frostshard for tanking purposes"
         ],
@@ -12,7 +12,7 @@
             "Chaos": [
                 "Blazing Heart"
             ],
-            "Radiance of the One": [],
+            "Crown of Absolute Zero": [],
             "Ring of Insanity": [
                 "Ring of Fate"
             ],
