@@ -16481,7 +16481,9 @@
       "skilldamagepercent": 0.075,
       "dtpercent": -0.075,
       "passive": [
-        "'Sacred Heart' Empower next attack every 5 seconds dealing 3 additional strikes with 200% Damage, and lowering the enemy's armor by 225 for 3 seconds"
+        "Empowers next attack with Holy Fist every 6 seconds",
+        "Deals 3 additional attacks with 200% damage",
+        "Reduces target's armor by 225 for 3 seconds"
       ],
       "spec": [
         "Specialties - Summary Judgement, Holy Arts",
