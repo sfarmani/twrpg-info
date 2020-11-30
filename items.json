@@ -12114,7 +12114,8 @@
       "intelligence": 2400,
       "skilldamagepercent": 0.12,
       "active": [
-        "On use, activates Dimensional Explosion dealing (INT X 300) magic damage in targetted area",
+        "On use, activates Dimensional Explosion",
+        "Deals (INT X 300) magic damage in targetted area and stuns for 1.5 seconds",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
