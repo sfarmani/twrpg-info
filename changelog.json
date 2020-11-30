@@ -1,5 +1,15 @@
 [
     {
+        "name": "40d",
+        "notes": [
+            "Released on: November 28th, 2020",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Fixed floating text in Nereid fight"
+        ]
+    },
+    {
         "name": "40c",
         "notes": [
             "Released on: November 28th, 2020",
