@@ -1,5 +1,349 @@
 [
     {
+        "name": "40c",
+        "notes": [
+            "Released on: November 28th, 2020",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Fighter - Fixed halloween costume not working",
+            "Reaper - Fixed Death's Dash (E) cooldown not resetting if cooldown reset happened after Extreme Focus (T) - Death's Dash (E)",
+            "Benziena, the Earthen Heart - Fixed various bugs",
+            "Crafting - Fixed not working as intended when there are too many items on hero and in bags"
+        ],
+        "items": [
+            {
+                "name": "Espishu, the Sword of Chaos",
+                "changes": [
+                    "Proc damage: ((STR + AGI) X 45) → ((STR + AGI) X 50)"
+                ]
+            },
+            {
+                "name": "Calamity",
+                "changes": [
+                    "Passive",
+                    [
+                        "STR and INT gain per stack: 75 → 100",
+                        "SKILL DMG gain per stack: 1% → 1.5%"
+                    ],
+                    "Active",
+                    [
+                        "Damage: (MAIN STAT X 250) + 10% target max HP → (MAIN STAT X 500)"
+                    ]
+                ]
+            },
+            {
+                "name": "Astra, the Sword of Moonlight",
+                "changes": [
+                    "Passive",
+                    [
+                        "Formula changed: (8 + 0.2 X HIT COUNT)% chance to deal 750% ATK DMG + 32.5 MAIN STAT → 10% chance to deal MAIN STAT X 40"
+                    ],
+                    "Active",
+                    [
+                        "Amplifies next 4 magic damage instances by 20% → next 3 magic damage instances by 25%",
+                        "Damage after amplification: MAIN STAT X 200 → MAIN STAT X 300",
+                        "Damage after amplification now happens after 0.5 seconds delay"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Spirit Beast",
+                "changes": [
+                    "Flame Trail duration: 20 seconds → 10 seconds",
+                    "Flame Trail damge: 1000 + 10% max HP per second → 2000 per second",
+                    "No longer heals spirit beast",
+                    "Vortex pulling speed: 150 → 100",
+                    "Reduced amount of nearby mobs"
+                ]
+            },
+            {
+                "name": "Bone Dragon",
+                "changes": [
+                    "Now affected by difficulty system, same as Skeleton King Desperia"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Iron Body (R)",
+                    [
+                        "Passive - Damage resistance: 30% → 25%",
+                        "Active - Now lingers for 0.5 seconds after ending"
+                    ],
+                    "Dragon Fist (T)",
+                    [
+                        "Animation delay reduced: 0.75 seconds → 0.25 seconds"
+                    ],
+                    "Casting Iron Body (R) / Takedown (F) now resets Combo Mastery (D) / Chain Blow (E) stack duration"
+                ]
+            },
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Souls are no longer blocked by terrain",
+                    "Unholy Light (E)",
+                    [
+                        "If INT is main stat: Shield radius: 425 → 525"
+                    ],
+                    "Dark Arts (R) - Death Coil (Q)",
+                    [
+                        "Changed from target spell → 300 target radius and affects all units within radius"
+                    ],
+                    "Unholy Tempest (F)",
+                    [
+                        "Cast delay reduced: 0.5 seconds → 0.25 seconds",
+                        "Duration: 2.5 seconds → 2 seconds (same total damage)"
+                    ]
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Pierce (Q)",
+                    [
+                        "Damage: 75% ATK DMG + STR X 5 → 100% ATK DMG + STR X 7.5",
+                        "Empower duration: 45 seconds → 20 seconds",
+                        "Empower now also increases target's DMG TAKEN by 5% for duration"
+                    ],
+                    "Flash Strike (W)",
+                    [
+                        "Empower increases damage of next Pierce (Q) by 150% → Empower increases damage of next spear attacks (D / Q / W / E) by 100% for 5 seconds"
+                    ],
+                    "Nerve Strike (E)",
+                    [
+                        "Empower increases target DMG TAKEN by 5% for 40 seconds → Empower deals up to 300% damage based on target's missing HP"
+                    ],
+                    "Battle Recovery (R)",
+                    [
+                        "Passive",
+                        [
+                            "Now restores HP even if KI is full",
+                            "Damage output increase threshold: 60 → 50",
+                            "If KI is below 50 now provides 40% healing taken"
+                        ]
+                    ],
+                    "Meteor Spear (T)",
+                    [
+                        "Damage: STR X 200 → STR X 175"
+                    ],
+                    "Dragon Slam (F)",
+                    [
+                        "Damage: STR X 825 → STR X 875",
+                        "Bonus damage to targets in center: 75% → 50%"
+                    ]
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Remains of Rage (Q)",
+                    [
+                        "Damage: 800% max HP → 1250% max HP"
+                    ],
+                    "Strike of Honor (E)",
+                    [
+                        "Animation delay removed"
+                    ],
+                    "1st Sword Dance: Strike (R)",
+                    [
+                        "Remains of Rage (Q) empower: 300% → 200%"
+                    ],
+                    "2nd Sword Dance: Sword (RR)",
+                    [
+                        "Damage: STR X 100 → STR X 175",
+                        "Strike of Honor (E) empower: 150% → 200%"
+                    ],
+                    "Original Sin (F)",
+                    [
+                        "Slash damage: STR X 225 → STR X 250",
+                        "Final Slash damage: STR X 550 → STR X 600"
+                    ]
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Divine Cross (R)",
+                    [
+                        "Cooldown: 25 seconds → 15 seconds"
+                    ],
+                    "Genesis (F)",
+                    [
+                        "Pulse damage: STR X 150 → STR X 275",
+                        "Flash damage removed",
+                        "Amount of allies healed per flash: 1 → 2",
+                        "Flash healing: INT X 10 → INT X 5",
+                        "Flash healing no longer targets Berserker with Blood Fury (E) toggled on"
+                    ]
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Weapon Enchant (Q)",
+                    [
+                        "Cooldown: 7.5 seconds → 6 seconds"
+                    ],
+                    "Enchant Mastery (T)",
+                    [
+                        "Passive - Proc chance: 12% → 15%"
+                    ],
+                    "Ultimate Enchant (F)",
+                    [
+                        "Debuff duration: 6 seconds → 7.5 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Spell cast delay: 0.2 seconds → 0.15 seconds",
+                    "Sword of Illusion (R)",
+                    [
+                        "Activation delay: 0.75 seconds → 0.5 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "Hidden Fang (Q)",
+                    [
+                        "Slash duration: 3 seconds → 5 seconds"
+                    ],
+                    "Stage Finisher (T)",
+                    [
+                        "Now provides invincibility for duration"
+                    ]
+                ]
+            },
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "Flame Shot (Q)",
+                    [
+                        "Damage: 200% ATK DMG + AGI X 25 → 300% ATK DMG + AGI X 25"
+                    ],
+                    "Freezing Shot (W)",
+                    [
+                        "Damage: 300% ATK DMG + AGI X 40 → 400% ATK DMG + AGI X 40"
+                    ],
+                    "Magic Ballista (F)",
+                    [
+                        "Explosion damage: AGI X 375 → AGI X 475"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Conjure Earth (R) - Stone Golem (R)",
+                    [
+                        "Hail damage: 8 X (INT X 17.5) → 6 X (INT X 22.5)"
+                    ],
+                    "Gate of Truth (F)",
+                    [
+                        "Max stacks: 35 → 25"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Divine Orb (W)",
+                    [
+                        "Damage: INT X 30 → INT X 25",
+                        "Cross-hitting boss units with Holy Wave (Q) now deals bonus 300 X hero level pure damage"
+                    ],
+                    "Holy Aurora (E)",
+                    [
+                        "Damage per second: INT X 5 → INT X 15"
+                    ],
+                    "Divine Light (R)",
+                    [
+                        "Damage: INT X 30 → INT X 100"
+                    ],
+                    "Heaven's Gate (T)",
+                    [
+                        "Base damage: INT X 6 / 12 / 48 → INT X 7.5 / 15 / 50"
+                    ],
+                    "Heaven's Field (F)",
+                    [
+                        "Damage output increase removed",
+                        "ATK SPD increase now only applies to summons"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Gentle Winds (W)",
+                    [
+                        "Damage: INT X 30 → INT X 40",
+                        "Tornado damage: 500% ATK DMG → 750% ATK DMG"
+                    ],
+                    "Mirror of Aeolus (E)",
+                    [
+                        "Damage: INT X 60 → INT X 100"
+                    ],
+                    "Light Breeze (R)",
+                    [
+                        "SKILL DMG increase: 10% → 5%"
+                    ],
+                    "Guardian of Wind (F)",
+                    [
+                        "Base damage: INT X 12.5 → INT X 15"
+                    ],
+                    "Guardian of Wind (F) - Anger (W)",
+                    [
+                        "Damage: (AGI + INT) X 30 → (AGI + INT) X 50"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Dimension Collapse (W)",
+                    [
+                        "Corrected description error"
+                    ],
+                    "Demonic Fury (T) - Leap of Execution (W)",
+                    [
+                        "Animation delay removed"
+                    ]
+                ]
+            },
+            {
+                "name": "Soul Weaver",
+                "changes": [
+                    "Soul Cradle (T)",
+                    [
+                        "Spawn time: 1.5 seconds → 1 second"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Hellgate (T) - Arrow of Destruction (Q)",
+                    [
+                        "Spawn time: 0.6 seconds → 0.5 seconds"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Reduced visual lag caused by some spells",
+            "Removed passive sound effect from Chaos Fang",
+            "Simplified critical hit text - Done to decrease cases where item drop text gets removed due to reapers, martial artists, etc"
+        ]
+    },
+    {
         "name": "40b",
         "notes": [
             "Released on: November 16th, 2020",

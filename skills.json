@@ -655,7 +655,7 @@
         "active": [
             "\"I don't know what is the 'truth' of this world. However, as I look at his efforts and sacrifices in attempts to reach it, I believe something truly fascinating is awaiting him at the end of his road.\" - A Scholar of Prius",
             "Consumes Max HP X (5 + 0.50 X elapsed seconds)% per second",
-            "Increases INT by 2% on every second and on every skill cast (up to 35 times)",
+            "Increases INT by 2% on every second and on every skill cast (up to 25 times)",
             "Reduces damage taken by 40% and grants immunity to silence effects",
             "On expiration, deals INT X 400 damage to nearby enemies and stuns for 2.5 seconds"
         ]
@@ -709,13 +709,11 @@
         "cooldown": 0.1,
         "order": 3,
         "active": [
-            "Create a gate in dimension that spews corrupt spirits to attack nearby enemies.",
+            "Creates an opening in dimension that spews corrupt energy to attack nearby enemies.",
             "Consumes Max MP X 30%",
-            "Each attack deals Consumed MP X 500% damage",
-            "Attack speed is affected by Warlock's attack speed bonus",
-            "Can maintain up to a maximum of 2 gates",
-            "Orb attacks prioritizes Warlock's target if Warlock is nearby",
-            "Base attack cycle: 4 seconds"
+            "Each attack deals Consumed MP X 20 magic damage",
+            "Gate's attack speed is increased by 2% for each 1% bonus attack speed of Warlock",
+            "Can maintain up to a maximum of 2 gates"
         ]
     },
     {
@@ -1249,7 +1247,7 @@
         "color": "dfdfdf",
         "hotkey": "[Q]",
         "icon": "SwordEnchanterQ",
-        "cooldown": 7.5,
+        "cooldown": 6,
         "order": 2,
         "active": [
             "Takes some swords out from the treasury.",
@@ -1313,7 +1311,7 @@
         "order": 6,
         "passive": [
             "Profound mastery allows Sword Enchanter to disintegrate the armors of her enemies.",
-            "12% chance to activate Disenchant when activating Enchanted Sword",
+            "15% chance to activate Disenchant when activating Enchanted Sword",
             "Increases damage taken by Enchanted Sword by 50% for 5 seconds"
         ],
         "active": [
@@ -1333,7 +1331,7 @@
             "\"I'll show you the most powerful sword I have in my treasury !!\" - Sword Enchanter",
             "AGI X 825 damage",
             "Stuns for 3 seconds",
-            "Applies Disenchant and reduces healing taken by 20% for 6 seconds"
+            "Applies Disenchant and reduces healing taken by 20% for 7.5 seconds"
         ]
     },
     {
@@ -2176,7 +2174,7 @@
         "order": 2,
         "active": [
             "Unleash a powerful attack with mana released from the Sword of Execution.",
-            "Deals max HP X 800% magic damage and stuns for 0.25 seconds",
+            "Deals max HP X 1250% magic damage and stuns for 0.25 seconds",
             "Gathers enemies toward the center, and slows their movement speed by 40% for 4 seconds"
         ]
     },
@@ -2226,7 +2224,7 @@
             "Dash forward with lightning speed, striking all enemies.",
             "Attack Damage X 2500% magic damage",
             "Enhance next Remains of Rage cast within 3 seconds",
-            "On cast, slams down to target location, inflicting 300% damage and stunning for 1 second",
+            "On cast, slams down to target location, inflicting 200% damage and stunning for 1 second",
             "Chain - 2nd Sword Dance: Sword"
         ]
     },
@@ -2239,10 +2237,9 @@
         "order": 6,
         "active": [
             "Release mana stored within the Execution Sword to attack all nearby enemies.",
-            "STR X (25 + 25 X Skill Level) magic damage",
-            "Slow effect",
-            "Empowers next Strike of Honor cast within 4 seconds",
-            "Increases damage and stun duration by 150%, and increases target's damage taken by 12% for 8 seconds",
+            "STR X (25 + 50 X Skill Level) magic damage",
+            "Slows affected enemies by 50% for 4 seconds",
+            "Empowers next Strike of Honor cast within 3 seconds, increasing its damage and stun duration by 200% and increasing damage taken by targetse hit by 12% for 8 seconds",
             "Increases HP regen by (Crusader's Max HP X 10%) for 5 seconds"
         ]
     },
@@ -2275,8 +2272,8 @@
         "order": 8,
         "active": [
             "\"Light that can be bestowed upon the weak - that is the true light.\" - Astarte",
-            "Each slash deals STR X 225 damage",
-            "Final slash deals STR X 550 damage",
+            "Each slash deals STR X 250 damage",
+            "Final slash deals STR X 600 damage",
             "Stun for 3 fixed seconds"
         ]
     },
@@ -2411,9 +2408,9 @@
         "order": 2,
         "active": [
             "Dash and skewer enemy with a single strike.",
-            "Attack Damage X 75% damage",
-            "STR X 5 bonus pure damage",
-            "Empowered: For 45 seconds, critical chance with spear attacks against the target is increased by 50%"
+            "Attack Damage X 100% damage",
+            "STR X 7.5 bonus pure damage",
+            "Empowered: Increases target's damage taken by 5%, and increases the critical chance of your spear attacks toward target by 50% for 30 seconds"
         ]
     },
     {
@@ -2430,7 +2427,7 @@
             "STR X 30 bonus damage",
             "Temporarily slows target",
             "Resets duration of Oriental Spear Mastery",
-            "Empowered: Next Pierce deals 150% bonus damage to target"
+            "Empowered: Increases the damage you deal to target with spear attacks by 100% for 5 seconds"
         ]
     },
     {
@@ -2446,7 +2443,7 @@
             "Attack Damage X 1000% damage",
             "STR X 50 bonus damage",
             "If target has barriers, breaks them and lands as a critical strike. If barrier cannot be broken, still lands a critical strike",
-            "Empowered: Increases target's damage taken by 5% for 40 seconds",
+            "Empowered: Deals up to 150% bonus damage based on target's missing HP",
             "Shield break efficiency: 40%"
         ]
     },
@@ -2461,8 +2458,8 @@
         "passive": [
             "Replenish ki in preparation for a fierce battle.",
             "Restores 4% of ki every second",
-            "Having over 60% ki grants 20% damage output bonus",
-            "If ki is restored, HP is also restored for equal %"
+            "If ki is restored, HP is also restored for equal %",
+            "Increases your damage dealt by 20% if ki is over 50%, increases your healing received by 40% if ki is below 50%"
         ],
         "active": [
             "Disengage and prepare for the next battle.",
@@ -2481,7 +2478,7 @@
         "active": [
             "Focus ki into spear and launch it forward.",
             "Skill Level X 5000 damage",
-            "STR X 200 bonus damage",
+            "STR X 175 bonus damage",
             "Boosts all stats of allies hit by 10% for 30 seconds",
             "Explosion deals 150% damage to nearby enemies and stun for 2 seconds"
         ]
@@ -2496,8 +2493,8 @@
         "order": 7,
         "active": [
             "\"She disappeared the moment I saw her on the battlefield.. and then suddenly appeared at the center of the enemies' base, which formed a mountain of corpses.\" - Empire War Veteran",
-            "STR X 825 damage",
-            "Deals 75% bonus damage to enemies within 250 radius from target point",
+            "STR X 875 damage",
+            "Deals 50% bonus damage to enemies within 250 radius from target point",
             "Restores all ki"
         ]
     },
@@ -2801,10 +2798,10 @@
         "order": 4,
         "active": [
             "Send out gentle winds infused with mana.",
-            "INT X 30 magic damage",
+            "INT X 40 magic damage",
             "Heals allies for INT X 2",
             "Cooldown reset upon casting Feather of Aeolus",
-            "When two gentle winds combine, strong winds are formed for 4 seconds, dealing Attack Damage X 500% damage per second",
+            "When two gentle winds combine, strong winds are formed for 4 seconds, dealing Attack Damage X 750% damage per second",
             "Range: 1500"
         ]
     },
@@ -2824,7 +2821,7 @@
         "active": [
             "Summon a mirror of eon to redirect harm back to attackers.",
             "For 9 seconds, absorbs 45% of damage taken by nearby allies",
-            "Upon expiration or casting again, deals INT X 60 damage to nearby enemies and stuns for 0.5 seconds",
+            "Upon expiration or casting again, deals INT X 100 damage to nearby enemies and stuns for 0.5 seconds",
             "Knockbacks non-boss enemies"
         ]
     },
@@ -2840,7 +2837,7 @@
             "Call down a light breeze on target area.",
             "Periodically heals and buffs nearby allies",
             "Increases allies' max HP by 10%",
-            "Increases allies' skill damage by 10%",
+            "Increases allies' skill damage by 5%",
             "Duration is refreshed upon stacking",
             "Lasts for 40 seconds"
         ]
@@ -2916,7 +2913,7 @@
         "order": 11,
         "active": [
             "The anger of Vayu sweeps across, obliterating any foes in its path.",
-            "Deals (AGI + INT) X 30 damage to enemies hit",
+            "Deals (AGI + INT) X 50 damage to enemies hit",
             "Drags enemies along"
         ]
     },
@@ -3350,7 +3347,7 @@
         "order": 2,
         "active": [
             "Dash back and shoot a powerful arrow of fire at the same time.",
-            "Attack Damage X 200% damage",
+            "Attack Damage X 300% damage",
             "AGI X 25 bonus damage",
             "Deals 150% bonus damage to stunned targets",
             "Explosion radius: 325/325",
@@ -3367,7 +3364,7 @@
         "order": 3,
         "active": [
             "Fire multiple frozen arrows in a frontal cone.",
-            "Attack Damage X 300% damage",
+            "Attack Damage X 400% damage",
             "AGI X 40 bonus damage",
             "Slows enemies"
         ]
@@ -3452,7 +3449,7 @@
             "\"Without a warning, our enemies were swept across like dust by a magical arrow she shot.\" - A soldier of battlefield",
             "AGI X 125 damage",
             "Each arrow deals AGI X 5 damage",
-            "Explosion deals AGI X 375 damage",
+            "Explosion deals AGI X 475 damage",
             "Stacks Elven Arrow every second for 6 seconds",
             "Stacks are usable for 15 seconds"
         ]
@@ -3691,7 +3688,7 @@
         "active": [
             "Shoots a coil infused with dark magic.",
             "Deals Main Stat X 50 magic damage to enemy",
-            "Heals ally for INT X 3"
+            "Heals allies for INT X 3"
         ]
     },
     {
@@ -3761,7 +3758,7 @@
         "order": 11,
         "active": [
             "\"Cry !\" - Dark Knight",
-            "Deals Main Stat X 775 magic damage over 2.5 seconds",
+            "Deals Main Stat X 775 magic damage over 2 seconds",
             "Periodically stuns target and deals up to 50% bonus damage based on target's missing HP",
             "On finish, resets cooldowns on other skills"
         ]
@@ -4042,7 +4039,8 @@
             "Release holy mana in the shape of a line.",
             "INT X 20 magic damage",
             "Heals allies for their Max HP X 12% + √(INT) X 180",
-            "If target is affected by Recovery, clears all debuffs"
+            "If target is affected by Recovery, clears all debuffs",
+            "Also released from Divine Orb, and if both waves hit a boss unit, it will take Priest's Level X 300 bonus pure damage"
         ]
     },
     {
@@ -4056,9 +4054,8 @@
         "active": [
             "Assists allies by summoning a holy orb.",
             "Summons an orb that can be controlled for 12 seconds",
-            "Deals INT X 30 magic damage to enemies hit",
-            "Increases allies' movement speed by 200 and regenerates their HP by 4% per second",
-            "Chain - Holy Wave"
+            "Deals INT X 25 magic damage to enemies hit",
+            "Increases allies' movement speed by 200 and regenerates their HP by 4% per second"
         ]
     },
     {
@@ -4077,7 +4074,7 @@
         ],
         "active": [
             "Consecerate nearby ground to protect allies and bring down judgment on enemies.",
-            "Deals INT X 5 magic damage per second",
+            "Deals INT X 15 magic damage per second",
             "Heals nearby allies HP by 450 + INT X 0.5 per second",
             "Lasts 10 seconds"
         ]
@@ -4132,11 +4129,9 @@
         "order": 7,
         "active": [
             "Convert targeted area's mana into holy energy, creating a holy explosion.",
-            "INT X 75 damage",
-            "Blinds enemies within area",
-            "Grants barrier to allies within area",
-            "Absorbs for INT X 6",
-            "Stuns for 0.5 seconds"
+            "INT X 100 magic damage",
+            "Stuns enemies within area for 0.5 seconds and blinds them for 5 seconds",
+            "Grants barriers to allies within area that absorbs INT X 6 damage for 6 seconds"
         ]
     },
     {
@@ -4232,9 +4227,9 @@
         "order": 14,
         "active": [
             "\"As my body suddenly start bursting out light, I've felt like I could keep on fighting without ever growing tired. It was only later that I realized the Priest had arrived.\" - Soldier of Empire Army",
-            "Increases nearby allies' damage dealt by 5%, armor by 500, and regenerates 10% of their HP every second",
-            "Empowers Raguel's attacks",
-            "Lasts 30 seconds"
+            "Summons Heaven Field for 30 seconds",
+            "For allies on the field, increases their armor by 500 and regenerates their HP by 10% per second",
+            "For your summons on the field, increases their attack speed by 50%"
         ]
     },
     {
@@ -4367,7 +4362,7 @@
         "color": "fafac8",
         "hotkey": "[R]",
         "icon": "PaladinR",
-        "cooldown": 25,
+        "cooldown": 15,
         "order": 9,
         "active": [
             "Summons a holy cross to bring down judgment on enemies.",
@@ -4401,9 +4396,8 @@
         "order": 11,
         "active": [
             "\"Embrace the lights of heaven.\" - Paladin",
-            "Releases a pulse every second to deal STR X 150 magic damage",
-            "Releases a flash every second to deal STR X 25 magic damage",
-            "Each flash also heals an ally for INT X 10",
+            "Releases a pulse every second to deal STR X 275 magic damage",
+            "Each flash also heals 2 allies for INT X 5",
             "Lasts 4 seconds"
         ]
     },
@@ -4947,7 +4941,7 @@
         "order": 6,
         "passive": [
             "Strengthens your body.",
-            "Reduces damage taken by 30%"
+            "Reduces damage taken by 25%"
         ],
         "active": [
             "Temporarily hardens your muscle as strong as steel.",
@@ -5104,7 +5098,8 @@
             "Delivers a grand finale.",
             "Deals Attack Damage X 1250% magic damage per mark",
             "AGI X 100 bonus damage",
-            "Can critically strike"
+            "Can critically strike",
+            "Invincible for duration"
         ]
     },
     {

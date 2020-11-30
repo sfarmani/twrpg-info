@@ -20340,7 +20340,7 @@
       "agility": 1700,
       "skilldamagepercent": 0.12,
       "passive": [
-        "10% Chance to activate Chaos Strike on attack dealing ((STR + AGI) X 45) magic damage"
+        "10% Chance to activate Chaos Strike on attack dealing ((STR + AGI) X 50) magic damage"
       ]
     }
   },
@@ -20483,12 +20483,12 @@
       "attackspeedpercent": -0.75,
       "passive": [
         "On skill cast, gains a stack and activate Ruin",
-        "Increases ATK DMG by 1500, STR and INT by 75 and SKILL DMG by 1% for 5 seconds",
+        "Increases ATK DMG by 1500, STR and INT by 100 and SKILL DMG by 1.5% for 5 seconds",
         "Stacks up to 10 times"
       ],
       "active": [
         "On use, activates Sword of Calamity",
-        "Deals (MAIN STAT X 250 + 10% max HP of target) magic damage to enemies in targetted area and silences for 3 seconds",
+        "Deals (MAIN STAT X 500) magic damage to enemies in targetted area and silences for 3 seconds",
         "Deals up to 100% more damage based on target's missing HP",
         "Sets Ruin stacks to max for 15 seconds",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
@@ -20631,15 +20631,15 @@
       "agility": 1150,
       "skilldamagepercent": 0.15,
       "passive": [
-        "(8 + HIT COUNT X 0.2)% chance to activate Moonlight Slash",
-        "Deals (750% ATK DMG + MAIN STAT X 32.5) magic splash damage and stuns for 0.25s",
+        "10% chance to activate Moonlight Slash",
+        "Deals (40 X MAIN STAT) magic splash damage and stuns for 0.25s",
         "Every 3rd proc deals 200% DMG"
       ],
       "active": [
         "On use, activates Moonlight Eclipse",
         "Stuns nearby enemies for 2.5 seconds",
-        "Increases magic damage taken of targets from next 4 hits by 20% for 6 seconds",
-        "After 4th hit, target takes (MAIN STAT X 200) magic damage",
+        "Increases magic damage taken of targets from next 3 hits by 25% for 6 seconds",
+        "After 4th hit, target takes (MAIN STAT X 300) magic damage",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
