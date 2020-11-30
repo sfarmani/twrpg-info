@@ -1380,7 +1380,7 @@
         "active": [
             "Barrages nearby area with bullets.",
             "Each bullet deals X 250% magic damage",
-            "AGI X 15 bonus damage",
+            "AGI X 25 bonus damage",
             "If cast after Tumble, consumes 100% additional bullets",
             "Attack radius 525",
             "Attack delay of 0.075 seconds"
@@ -1396,8 +1396,7 @@
         "order": 4,
         "active": [
             "Throws four highly explosive bombs.",
-            "Each bomb deals Skill Level X 1500 damage",
-            "AGI X 40 bonus damage",
+            "Each bomb deals AGI X 40 damage",
             "Inflicts burn for 6 seconds that deals target's max HP X 1% damage per second",
             "If cast while tumbling, throws 3 additional bombs to nearby area",
             "Will retain targetting mechanism while casting Tumble",
