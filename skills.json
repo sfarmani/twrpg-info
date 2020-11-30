@@ -477,8 +477,8 @@
         "order": 17,
         "active": [
             "Creates a fierce storm of rocks.",
-            "Each rock deals Skill Level X 200 damage",
-            "INT X (10 + 2.5 X Skill Level) bonus damage",
+            "Drops 6 rocks over target area",
+            "Each rock deals INT X (7.5 + 5 X Skill Level) bonus damage",
             "Chain: Magma Explosion"
         ]
     },
