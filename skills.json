@@ -2440,8 +2440,8 @@
         "order": 4,
         "active": [
             "Strikes target's vital point.",
-            "Attack Damage X 1000% damage",
-            "STR X 50 bonus damage",
+            "Attack Damage X 750% damage",
+            "STR X 40 bonus damage",
             "If target has barriers, breaks them and lands as a critical strike. If barrier cannot be broken, still lands a critical strike",
             "Empowered: Deals up to 150% bonus damage based on target's missing HP",
             "Shield break efficiency: 40%"

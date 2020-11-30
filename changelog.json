@@ -1,5 +1,32 @@
 [
     {
+        "name": "40e",
+        "notes": [
+            "Released on: November 28th, 2020",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Alchemist - Fixed Conjure Air (E) - Rock Storm (R) creating unintended floating text",
+            "Alchemist - Fixed Conjure Air (E) - Rock Storm (R) rocks not hitting part of target radius"
+        ],
+        "heroes": [
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Pierce (Q)",
+                    [
+                        "Empower debuff duration: 20 seconds → 30 seconds"
+                    ],
+                    "Nerve Strike (E)",
+                    [
+                        "Damage: 1000% ATK DMG + STR X 50 → 750% ATK DMG + STR X 40",
+                        "Empower max damage bonus: 300% → 150%"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "40d",
         "notes": [
             "Released on: November 28th, 2020",
