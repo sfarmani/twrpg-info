@@ -17211,13 +17211,12 @@
       "agility": 775,
       "skilldamagepercent": 0.06,
       "passive": [
-        "On skill cast, empowers next attack with Decimation:",
-        "Deals ((MAIN STAT X 1) + (AGI X 1.5)) pure damage",
-        "User's critical chance to deal (normal damage X user's crit multipler) pure damage",
-        "Activates Madness of Slayer for 6 seconds when procced",
-        "Creates a stack every proc up to 10 times",
-        "Each stack increases AGI by 90",
-        "When 10 stacks reached, increases SKILL DMG by 10%"
+        "On skill cast, empowers next attack with Decimation",
+        "Next attack deals (MAIN STAT X 1.5 + AGI X 1) pure damage",
+        "Can crit based on user's critical chance",
+        "Empowered attack stacks Madness of Slayer",
+        "For 6 seconds increases AGI by 90 (stacks up to 10 times)",
+        "Once max stacks is reached, user can no longer gain more for duration but gains 10% SKILL DMG"
       ]
     }
   },
@@ -21412,7 +21411,7 @@
       "movespeed": 50,
       "passive": [
         "On skill cast, empowers next attack",
-        "Next attack deals (MAIN STAT X 1.5 + AGI X 2) pure damage",
+        "Next attack deals (MAIN STAT X 2 + AGI X 1.5) pure damage",
         "Can crit based on user's critical chance",
         "Empowered attack stacks Madness of Night",
         "For 8 seconds increases AGI by 120 (stacks up to 10 times)",
