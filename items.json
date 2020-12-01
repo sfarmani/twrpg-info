@@ -13111,7 +13111,7 @@
       ],
       "active": [
         "On use, activates Warping Earth",
-        "Heals allies for (5% max HP) per 0.5 seconds in targetted area for 10 seconds (450 radius)",
+        "Heals allies for (7.5% max HP) per 0.5 seconds in targetted area for 10 seconds (450 radius)",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
