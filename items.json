@@ -20292,7 +20292,7 @@
       "agility": 2250,
       "critmultiplier": 0.35,
       "passive": [
-        "(1 + 0.125 X attacks without activation)% Chance to activate Doomsday on attack",
+        "(1 + 0.125 X attacks without activation)% chance to activate Doomsday on attack",
         "Deals (ATK DMG X 12.5 + (STR + AGI) X 75) magic damage",
         "Stuns for 0.1 seconds"
       ],
