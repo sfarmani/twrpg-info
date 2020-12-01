@@ -20197,7 +20197,7 @@
       "hp": 7500,
       "passive": [
         "On skill cast, activates Power of Abyss",
-        "Grants the user with 12% SKILL DMG (Type-B) and 300 HP regen for allies in 375 radius for 8 seconds"
+        "Grants 12% SKILL DMG (Type-B) and 300 HP regen for allies in 375 radius for 8 seconds"
       ],
       "active": [
         "On use, activates Call of Abyss",
