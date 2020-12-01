@@ -20246,10 +20246,11 @@
       "intelligence": 2350,
       "skilldamagepercent": 0.08,
       "passive": [
-        "On skill cast, temporarily increases INT by 250 and flame affinity by 2.5% (stacks up to 5 times) for 5 seconds"
+        "On skill cast, temporarily increases INT by 250 and flame affinity by 2.5% (stacks up to 5 times)"
       ],
       "active": [
-        "On use, activates Beam of Hatred that bombards target every 0.125 seconds dealing (INT X 15.625 X fire affinity) magic damage and stuns for 0.5 seconds for a total of 16 projectiles",
+        "On use, activates Beam of Hatred",
+        "Deals (INT X 15.625) magic damage every 0.125 seconds and stuns for 0.5 seconds (up to 16 times)",
         "Damage is increased up to 2 times based on target's missing HP"
       ]
     }
