@@ -11205,7 +11205,7 @@
       "passive": [
         "Activates Breath of Ancients every 4 seconds",
         "Next attack deals ((STR + AGI + INT) X 7.5) magic damage",
-        "20% Chance to crit for (2 X (STR + AGI + INT) X 7.5) magic damage",
+        "Next attack also has a 20% chance to crit for 2 times the normal damage",
         "Also reduces target's MOV SPD by 20% for 3 seconds"
       ],
       "spec": [
@@ -20005,13 +20005,13 @@
       "attackspeedpercent": 0.3,
       "skilldamagepercent": 0.12,
       "passive": [
-        "Empowers next attack with Breath of Chaos every 4 seconds",
+        "Enables Chaos Breath every 4 seconds",
         "Next attack deals ((STR + AGI + INT) X 15) magic damage",
-        "33% Chance to crit for (3 X (STR + AGI + INT) X 7.5) magic damage",
+        "Next attack also has a 33% chance to crit for 3 times the normal damage",
         "Also reduces target's MOV SPD by 25% and ATK SPD by 10% for 3 seconds"
       ],
       "active": [
-        "On use, summons Chaos Spawn",
+        "On use, summons Servant of Chaos",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
