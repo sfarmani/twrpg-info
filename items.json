@@ -6553,7 +6553,6 @@
       "Oblivion",
       "Fiend Chaser",
       "Crown of Absolute Zero",
-      "Voidshard Armor",
       "Zombie Lord Icon"
     ],
     "recipe": [
@@ -6985,6 +6984,7 @@
       "Punisher",
       "Ethenos, the Staff of Chaos",
       "Armageddon",
+      "Voidshard Armor",
       "Shadow Dragon Icon"
     ],
     "recipe": [
@@ -19879,7 +19879,7 @@
         "Frostshard Armor": 1
       },
       {
-        "Dark Crystal": 1
+        "Essence of Darkness": 1
       },
       {
         "Spearhead of Death": 1
