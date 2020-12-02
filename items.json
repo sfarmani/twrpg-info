@@ -11809,10 +11809,10 @@
         "On healing, activates Healing Water granting healed allies ((INT X 0.2) X water affinity) HP regen for 3 seconds"
       ],
       "active": [
-        "On use, activates Hydro Buster pushing and damaging targets",
-        "Pushes enemies to a max range of 1000 over the duration of 0.5 seconds",
-        "Damages enemies for (INT X 25) magic damage per second for 0.125 seconds",
-        "Cooldown: 20 seconds"
+        "On use, activates Hydro Buster",
+        "For 6 seconds, fires a beam which pushes mobs away and deals (INT X 25) magic damage per second (1000 range)",
+        "If a mob is pushed into terrain, it is stunned for the duration",
+        "Cooldown: 20 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Purging Water",
@@ -15253,7 +15253,11 @@
       "skilldamagepercent": 0.08,
       "mdpercent": 0.08,
       "active": [
-        "'Everfrost Soul' Forms a shield that blocks damage equal to (8 X INT) (45 second CD)"
+        "On use, activates Everfrost Soul",
+        "Forms a shield that blocks damage equal to (INT X 8) for 8 seconds",
+        "Constantly rains frostbolts around user in a 350 radius",
+        "Each frostbolt deals (INT X 10) magic damage and stuns non-boss mobs for 1s",
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty",
