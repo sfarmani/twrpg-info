@@ -20731,6 +20731,7 @@
     "stats": {
       "damage": 32500,
       "agility": 2350,
+      "hp": 5000,
       "skilldamagepercent": 0.12,
       "passive": [
         "10% Chance to activate Soul Reaping on attack to deal (AGI X 60) bonus damage"
