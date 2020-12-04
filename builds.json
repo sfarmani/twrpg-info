@@ -60,11 +60,11 @@
         "stat": "STR",
         "version": "41a",
         "description": [
-            "Build Meacronancer first, and eventually get to Calamity",
+            "Build Splitting first, and eventually get to Astra",
             "Use Halo until you get Horn as it is good for AMS",
-            "Use Plates of Lightning as an in-between armor until Felspike/Hades",
-            "Ring of Strike is a good in between ring until you get to Heaven's Fist",
-            "Use Hades if no one else in your team is using it for the debuffs, otherwise use Felspike"
+            "Overlord and Cold Ring have similar DPS output, use Cold Ring for survivality until Demonic Fist / RoFS",
+            "Use Hades if no one else in your team is using it for the debuffs, otherwise use Felspike",
+            "Use HolG/CoC till HoDG/CoaZ, HoDG for fast pure dmg output, CoaZ for good stats and SD boost for full combo"
         ],
         "items": {
             "Astra, the Sword of Moonlight": [
@@ -77,8 +77,8 @@
                 "Latea, the Ring of Overlord",
                 "Ring of Frozen Soul"
             ],
-            "Hades, the Armor of Despair": [
-                "Felspike Armor"
+            "Felspike Armor": [
+                "Hades, the Armor of Despair"
             ],
             "Archangel Wings": []
         }
