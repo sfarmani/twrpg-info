@@ -54,6 +54,36 @@
         }
     },
     {
+        "for": "Crusader",
+        "type": "Burst",
+        "order": 2,
+        "stat": "STR",
+        "version": "41a",
+        "description": [
+            "Build Meacronancer first, and eventually get to Calamity",
+            "Use Halo until you get Horn as it is good for AMS",
+            "Use Plates of Lightning as an in-between armor until Felspike/Hades",
+            "Ring of Strike is a good in between ring until you get to Heaven's Fist",
+            "Use Hades if no one else in your team is using it for the debuffs, otherwise use Felspike"
+        ],
+        "items": {
+            "Astra, the Sword of Moonlight": [
+                "Splitting of the Sky and Earth"
+            ],
+            "Horn of Demon God": [
+                "Crown of Absolute Zero"
+            ],
+            "Demonic Fist": [
+                "Latea, the Ring of Overlord",
+                "Ring of Frozen Soul"
+            ],
+            "Hades, the Armor of Despair": [
+                "Felspike Armor"
+            ],
+            "Archangel Wings": []
+        }
+    },
+    {
         "for": "Dark Knight",
         "type": "Burst DPS",
         "order": 1,
@@ -1017,11 +1047,12 @@
             "Use Ring of Frozen Soul for faster Q casts (gives pure attack speed)"
         ],
         "items": {
-            "Hell Riser": [
+            "Ethenos, the Staff of Chaos": [
+                "Armageddon",
                 "Staff of Plague"
             ],
-            "Crown of Absolute Zero": [
-                "Prophetia, the Greater Source of Mana"
+            "Prophetia, the Greater Source of Mana": [
+                "Crown of Absolute Zero"
             ],
             "Ring of Frozen Soul": [
                 "Ring of Despair"
