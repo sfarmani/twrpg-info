@@ -19440,7 +19440,7 @@
       "active": [
         "On use, summons Magic Field granting the user with magic and CC immunity.",
         "Also provides a 40% magic resistance to allies in a 500 radius around user",
-        "Restores 5% HP and MP per second to all affected units",
+        "Restores 6% HP and 3% MP per second to all affected units",
         "Lasts 8 seconds",
         "Cooldown: 100 seconds, cannot be dropped during cooldown"
       ]
@@ -20964,12 +20964,12 @@
       "intelligence": 2350,
       "healingpercent": 0.15,
       "passive": [
-        "On healing, activates Healing Water granting healed allies ((INT X 0.4) X water affinity) HP regen for 3 seconds"
+        "On healing, activates Healing Water granting healed allies ((INT X 0.3) X water affinity) HP regen for 3 seconds"
       ],
       "active": [
         "On use, activates Rainstorm around the user",
         "Restores INT X max HP to all nearby allies every 2 seconds for 6 seconds",
-        "Cooldown: 15 seconds"
+        "Cooldown: 20 seconds"
       ],
       "spec": [
         "Specialty - Purging Water",

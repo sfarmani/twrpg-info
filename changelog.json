@@ -1,5 +1,110 @@
 [
     {
+        "name": "41a",
+        "notes": [
+            "Released on: December 3rd, 2020",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Trickster - Fixed not being able to re-cast Wonder Hand (W) up to two times",
+            "witch - Fixed Death Bomb (Q) cooldown reset not working properly",
+            "Jupiter, the Robe of Heavens - Fixed not healing summons"
+        ],
+        "events": [
+            {
+                "name": "Event notes",
+                "changes": [
+                    "Halloween Event ends: December 3rd 23:59:59 UTC",
+                    "Version 0.40e can be played until this date (can backload from this version into it)",
+                    "Any even-related items obtained after this date will be disqualified"
+                ]
+            }
+        ],
+        "items": [
+            {
+                "name": "Rainmaker",
+                "changes": [
+                    "Passive",
+                    [
+                        "HP regen: INT X 0.4 → INT X 0.3"
+                    ],
+                    "Active",
+                    [
+                        "Cooldown: 15 seconds → 20 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Robe of Archlich",
+                "changes": [
+                    "Active",
+                    [
+                        "HP/MP restoration: 5% / 5% → 6% / 3%"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Scroll of God's Blessing (F)",
+                    [
+                        "Cooldown: 90 seconds → 60 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "Fantasm (D)",
+                    [
+                        "Can no longer move between areas (to prevent teleportation loops)"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Conjure Fire (Q) - Boulder Strike (R)",
+                    [
+                        "Bonus damage: (50 + SKILL DMG X 3)% → 150%"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Divine Orb (W)",
+                    [
+                        "HP regen: 4% → 8%"
+                    ],
+                    "Heaven's Gate (T) - God's Blessing (F)",
+                    [
+                        "Can now be casted on invincible targets"
+                    ],
+                    "Heaven Field (F)",
+                    [
+                        "Now revives any ally that dies or have died within it after 2 seconds (once per cast)"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Guardian of Wind (F) - Blessing of Vayu (E)",
+                    [
+                        "Cooldown: 10 seconds → 20 seconds"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Fixed Wings of Death mount preventing players from seeing hero riding it",
+            "Fixed Ruler of the Skies procs causing too much visual noise in combination with other hero's skill FX"
+        ]
+    },
+    {
         "name": "40e",
         "notes": [
             "Released on: November 28th, 2020",
@@ -309,7 +414,7 @@
                     [
                         "Base damage: INT X 6 / 12 / 48 → INT X 7.5 / 15 / 50"
                     ],
-                    "Heaven's Field (F)",
+                    "Heaven Field (F)",
                     [
                         "Damage output increase removed",
                         "ATK SPD increase now only applies to summons"
@@ -6897,7 +7002,7 @@
                     [
                         "Raguel changed to count as flying unit"
                     ],
-                    "Heaven's Field (F)",
+                    "Heaven Field (F)",
                     [
                         "Added 5% damage output increase",
                         "Attack speed increase: 100% → 50%"
@@ -10830,7 +10935,7 @@
                         "Damage: INT X 35 → INT X 50",
                         "Removes 75% additional damage to burned units"
                     ],
-                    "Conjure Fire (Q) - Bolder Strike (R)",
+                    "Conjure Fire (Q) - Boulder Strike (R)",
                     [
                         "Range: 900 → 600",
                         "(50 + 3 X Skill Damage increase)% → (150 + 3 X Skill Damage increase)%",

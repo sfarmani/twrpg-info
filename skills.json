@@ -329,7 +329,7 @@
             "Drops down a flaming boulder.",
             "Skill Level X 1000 damage",
             "INT X (25 + 5 X Skill Level) bonus damage",
-            "Deals (50 + 3 X Skill Damage increase)% bonus damage to units stunned or resistant to stun effects",
+            "Deals 150% bonus damage to units stunned or resistant to stun effects",
             "Has 3 second delay",
             "Range: 600"
         ]
@@ -2922,7 +2922,7 @@
         "color": "aef4c7",
         "hotkey": "[F] → [E]",
         "icon": "WindMageF_E",
-        "cooldown": 10,
+        "cooldown": 20,
         "order": 12,
         "active": [
             "Bestows the blessing of life.",
@@ -3080,7 +3080,7 @@
         "color": "ddddbb",
         "hotkey": "[F]",
         "icon": "MerchantF",
-        "cooldown": 90,
+        "cooldown": 60,
         "order": 10,
         "active": [
             "\"Damn it.. there goes my rarest scroll! If I wasn't a merchant dealing with customer relationships, I'd never have used it for him.. \" - Merchant",
@@ -4054,7 +4054,7 @@
             "Assists allies by summoning a holy orb.",
             "Summons an orb that can be controlled for 12 seconds",
             "Deals INT X 25 magic damage to enemies hit",
-            "Increases allies' movement speed by 200 and regenerates their HP by 4% per second"
+            "Increases allies' movement speed by 200 and regenerates their HP by 8% per second"
         ]
     },
     {
@@ -4228,7 +4228,8 @@
             "\"As my body suddenly start bursting out light, I've felt like I could keep on fighting without ever growing tired. It was only later that I realized the Priest had arrived.\" - Soldier of Empire Army",
             "Summons Heaven Field for 30 seconds",
             "For allies on the field, increases their armor by 500 and regenerates their HP by 10% per second",
-            "For your summons on the field, increases their attack speed by 50%"
+            "For your summons on the field, increases their attack speed by 50%",
+            "Revives a fallen ally (once per cast)"
         ]
     },
     {
@@ -5031,14 +5032,14 @@
         "cooldown": 6,
         "order": 4,
         "passive": [
-            "그의 손놀림은 마술같아 보인다고 한다.",
-            "스킬 시전 시 및 매 2초마다 다음 공격을 강화해 민첩 X 1 순수 데미지로 3회 추가 공격",
-            "발동 시 1.5초간 민첩 5% 증가 (최대 5번 중첩; 공격 및 스킬 적중 시 지속 시간 초기화)"
+            "The movement of his hands are said to be almost magical.",
+            "Empowers next attack on each skill cast and every 2 seconds, attacking 3 more times dealing AGI X 1 pure damage each time",
+            "On activation, increases AGI by 5% for 1.5 seconds (stacks up to 5 times; resets upon landing attack or skill)"
         ],
         "active": [
-            "민첩 X 15 마법 데미지",
-            "시전 후 빠르게 이동 가능",
-            "적 유닛 적중 시 재시전 가능 (최대 2회)"
+            "AGI X 15 magic damage",
+            "Allows you to dash quickly after casting",
+            "If an enemy is struck, allows recasting (up to 2 times)"
         ]
     },
     {
