@@ -19053,9 +19053,10 @@
       "intelligence": 880,
       "skilldamagepercent": 0.05,
       "active": [
-        "On use, activates Apocalypse dealing (INT X 250) magic damage to nearby enemies",
-        "Instantly restores 30% HP of nearby allies and grants them 10% HP regen per 0.25 seconds for 3 seconds",
+        "On use, activates Apocalypse dealing (MAIN STAT X 250) magic damage to nearby enemies",
+        "Instantly restores 30% HP of nearby allies and grants them 10% HP regen for 3 seconds",
         "Stuns nearby enemies for 1.5 seconds and silences for 3 seconds",
+        "Also lowers affected enemies MOV and ATK SPD by 50% for 3 seconds",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -19398,7 +19399,7 @@
       "active": [
         "On use, activates Composure",
         "Increases SKILL DMG by 12.5% and all stats by 500 for 12 seconds",
-        "Grants knockback immunity for 12 seconds",
+        "Grants CC immunity for 12 seconds",
         "Cooldown: 100 seconds, cannot be dropped during cooldown"
       ]
     }
