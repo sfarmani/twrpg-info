@@ -20158,11 +20158,11 @@
       "skilldamagepercent": 0.1,
       "periodicdamagepercent": 0.1,
       "active": [
-        "On use, activates Chain of Plague, infecting the target and targets around it for 8 seconds",
+        "On use, activates Chain of Plague, infecting the target and next closest target for 8 seconds",
         "If target is an enemy: deals (INT X 5) magic damage per second and lose 10% heal received",
-        "If target is an ally: grants target with 40% MAGIC DEF and heals for INT X 1 per second",
-        "If target is self: grants target with 40% MAGIC DEF and heals for INT X 0.5 per second",
-        "Upon expiration, will explode dealing (INT X 40) magic splash damage",
+        "If target is an ally: grants target with 40% MAGIC DEF and heals for (INT X 1) per second",
+        "If target is self: grants target with 40% MAGIC DEF and heals for (INT X 0.5) per second",
+        "Upon expiration on enemy, will explode dealing (INT X 40) magic splash damage",
         "Cooldown: 20 seconds, cannot be dropped during cooldown"
       ]
     }
