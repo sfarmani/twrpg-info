@@ -20258,7 +20258,8 @@
       "active": [
         "On use, activates Beam of Hatred",
         "Deals (INT X 15.625) magic damage every 0.125 seconds and stuns for 0.5 seconds (up to 16 times)",
-        "Damage is increased up to 2 times based on target's missing HP"
+        "Deals up to 100% more damage based on target's missing HP",
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     }
   },
