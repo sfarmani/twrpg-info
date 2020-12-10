@@ -10334,7 +10334,8 @@
       "agility": 790,
       "hpregen": 100,
       "passive": [
-        "20% Chance to activate Devour on attack causing your attack to hit twice in a splash radius and as pure damage"
+        "20% chance to activate Devour on attack",
+        "Causes your attack to splash in a 375 radius and restore 1000 hp"
       ]
     }
   },
@@ -11686,8 +11687,8 @@
       "agility": 1900,
       "attackspeedpercent": 0.2,
       "passive": [
-        "On attack, activates Poem of Wind, firing an additional projectile that deals (10% ATK DMG) pure damage",
-        "Damage is affected by wind/lightning affinity"
+        "Activates Poem of Wind on attack",
+        "Fires 1 additional projectile on every attack that deals (10% ATK DMG) pure damage"
       ]
     }
   },
@@ -18308,10 +18309,13 @@
       "agility": 1290,
       "hpregen": 400,
       "passive": [
-        "20% chance to attack enemies surrounding target once more and restore 2500 hp"
+        "20% chance to activate Devour on attack",
+        "Causes your attack to splash in a 375 radius and restore 2500 hp"
       ],
       "active": [
-        "Pulls nearby enemies in 300~800 range around you, deals (ATK DMG X 40) damage to them and stuns for 2 seconds (60s cd)"
+        "On use, activates Decimation",
+        "Pulls in all enemies from 300 ~ 800 radius around you, deals (ATK DMG X 40) magic damage and stuns for 2 seconds",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -20833,7 +20837,8 @@
       "attackspeedpercent": 0.4,
       "passive": [
         "Activates Poem of Wind on attack",
-        "Fires 1 additional projectile on every attack that deals (10% ATK DMG) pure damage"
+        "Fires 1 additional projectile on every attack that deals (10% ATK DMG) pure damage",
+        "50% chance to fire a 2nd additional projectile"
       ]
     }
   },
@@ -21063,7 +21068,7 @@
       "mp": 15000,
       "skilldamagepercent": 0.15,
       "affinityiwpercent": 0.08,
-      "active": [
+      "passive": [
         "On skill cast, summons Ice Spikes that target closest enemy boss",
         "Deals (INT X 25) magic damage per spike",
         "5 Ice Spikes can be summoned at once"
