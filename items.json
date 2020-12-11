@@ -20975,7 +20975,7 @@
       ],
       "active": [
         "On use, activates Rainstorm around the user",
-        "Restores INT X max HP to all nearby allies every 2 seconds for 6 seconds",
+        "Restores (INT X 1) max HP to all nearby allies every 2 seconds for 6 seconds",
         "Cooldown: 20 seconds"
       ],
       "spec": [
