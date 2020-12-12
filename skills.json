@@ -937,7 +937,7 @@
         ],
         "active": [
             "Rally allies by stimulating their blood.",
-            "Increases attack damage and HP by 20% for (5 + Main Stat / 2500) seconds",
+            "Increases attack damage and HP by 20% for (5 + STR / 2500) seconds",
             "50% chance to refill 1 blood gauge on attack",
             "Rose Dance's cast time and cooldown are removed and can be cast up to 3 times without incurring HP consumption"
         ]
@@ -1216,9 +1216,9 @@
         "order": 8,
         "active": [
             "\"Justice rains from the sky!\" - Shooter",
-            "Each bullet deals Attack Damage X 8 magic damage",
-            "Main Stat X 40 bonus damage",
-            "A total of 15 bullets are fired",
+            "Each bullet deals Attack Damage X 12 magic damage",
+            "Main Stat X 60 bonus damage",
+            "A total of 10 bullets are fired",
             "Binds target's actions for 2 seconds"
         ]
     },
@@ -1643,7 +1643,7 @@
         "order": 3,
         "passive": [
             "Makes movement light as wind.",
-            "Increases nearby summons' attack speed by 50%"
+            "Increases nearby summons' attack speed by 15%"
         ]
     },
     {
@@ -1681,7 +1681,7 @@
         "order": 6,
         "passive": [
             "Attacks multiple enemies with volatile reach of the flame.",
-            "Deals INT X 5 bonus damage to nearby enemies on attack"
+            "Deals INT X 10 bonus damage to nearby enemies on attack"
         ]
     },
     {
@@ -1695,7 +1695,7 @@
             "Flame elementals never burn out.",
             "Reduces heal received by 100%",
             "HP does not drop below 1",
-            "Increases attack speed by 3% for each 1% of missing HP"
+            "Increases attack speed and skill damage by 1% for each 1% of missing HP"
         ]
     },
     {
@@ -1708,8 +1708,8 @@
         "order": 8,
         "active": [
             "Explodes by overheating, dealing huge damage to nearby enemies.",
-            "INT X 50 damage",
-            "Damage increased by 1% for each 1% of missing HP",
+            "INT X 150 damage",
+            "Stuns for 2 seconds",
             "Radius: 500"
         ]
     },
@@ -1753,7 +1753,7 @@
             "Quenches nearby allies' thirst.",
             "Regenerates nearby allies and self HP and MP by 4% every second",
             "Regenerates nearby summons by 4% but allies' summons by 1% every second",
-            "Increases all stats by 12% for 15 seconds"
+            "Increases all stats by 10% for 15 seconds"
         ]
     },
     {
@@ -1807,8 +1807,8 @@
         "order": 15,
         "passive": [
             "Slowly charges electricity on each attack, and releases all of them at once.",
-            "Every attack deals summoner's INT X 4 bonus damage",
-            "Every 4th attack deals summoner's INT X 20 damage and chains to 2 additional enemies"
+            "Every attack deals summoner's INT X 7.5 bonus damage",
+            "Every 4th attack deals summoner's INT X 45 damage and chains to 2 additional enemies"
         ]
     },
     {
@@ -1835,7 +1835,7 @@
         "active": [
             "Releases contained lightning to fry enemies with high voltage.",
             "Consumes Max MP X 40% per second",
-            "Deals INT X 60 damage per second"
+            "Deals INT X 100 damage per second"
         ]
     },
     {
@@ -1873,7 +1873,7 @@
         "order": 20,
         "passive": [
             "Raises the ground below to attack enemies.",
-            "Each attack deals INT X 20 damage in a line"
+            "Each attack deals INT X 40 damage in a line"
         ]
     },
     {
@@ -1943,9 +1943,9 @@
         "order": 25,
         "passive": [
             "Empowers attacks with corrupt power.",
-            "Every attack deals INT X 7.5 bonus damage to nearby enemies",
-            "Every 5th attack deals INT X 50 bonus damage to nearby enemies",
-            "Attack speed increased by 150%"
+            "Every attack deals INT X 25 bonus damage to nearby enemies",
+            "Every 5th attack deals INT X 125 bonus damage to nearby enemies",
+            "Attack speed increased by 25%"
         ]
     },
     {
@@ -1984,9 +1984,9 @@
         "order": 28,
         "active": [
             "Collapses the dimension around yourself.",
-            "Deals INT X 50 damage per second",
+            "Deals INT X 75 damage per second",
             "Pulls nearby enemies inward",
-            "Lasts 1.5 seconds"
+            "Lasts 2 seconds"
         ]
     },
     {
@@ -2928,7 +2928,7 @@
             "Bestows the blessing of life.",
             "Consumes 60 MP",
             "Revives a dead ally nearby",
-            "Restores Max HP X 50% after revival",
+            "Restores Max HP X 100% after revival",
             "Revived allies spawn near guardian"
         ]
     },
@@ -3085,7 +3085,7 @@
         "active": [
             "\"Damn it.. there goes my rarest scroll! If I wasn't a merchant dealing with customer relationships, I'd never have used it for him.. \" - Merchant",
             "Empowers target with Indomitable Strength for 12 seconds",
-            "Increases attack speed and movement speed by 100%",
+            "Increases movement speed by 100%",
             "Increases damage dealt by target by 35%",
             "Decreases damage taken by target by 60%",
             "Heals for Max HP X 30% per second",
@@ -4809,9 +4809,9 @@
         "order": 10,
         "passive": [
             "Armaros's Power",
-            "Increases damage dealt by 7.5%",
+            "Increases damage dealt by 5%",
             "Reduces damage taken by 20%",
-            "Increases attack speed by 50%"
+            "Increases attack speed by 25%"
         ],
         "active": [
             "Brands the target with power.",

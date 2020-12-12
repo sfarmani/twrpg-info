@@ -1,5 +1,185 @@
 [
     {
+        "name": "41b",
+        "notes": [
+            "Released on: December 11th, 2020",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Nereid - Fixed causing a lot of lag after first fight",
+            "Crimson Hatred - Fixed active damage increase maxing out when target is at 0% HP instead of 20% HP",
+            "Witch - Fixed Death Bomb (Q) channel speed being slower than intended",
+            "Water Mage - Fixed being able to have more than 3 Frozen Emotion (W) charges if its cooldown was reset"
+        ],
+        "items": [
+            {
+                "name": "Parasitic Staff / Staff of Plague",
+                "changes": [
+                    "Active now applies single-target effects"
+                ]
+            },
+            {
+                "name": "Lifestone / Azathos, the Pipe of Chaos / Horn of God",
+                "changes": [
+                    "Attack Speed aura: 15 / 20 / 25% → 10 / 10 / 15%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Scroll of God's Blessing (F)",
+                    [
+                        "Attack speed increase removed"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Comet Storm (F)",
+                    [
+                        "Projectile amount: 15 → 10",
+                        "Damage per projectile: 800% ATK DMG + MAIN STAT X 40 → 1200% ATK DMG + MAIN STAT X 60"
+                    ]
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Seal of Wind (D) - Wind Booster",
+                    [
+                        "Attack speed increase: 50% → 15%"
+                    ],
+                    "Seal of Flame (Q)",
+                    [
+                        "Attack delay: 1 second → 1.5 seconds",
+                        "Burning Reach",
+                        [
+                            "Bonus damage: INT X 5 → INT X 10"
+                        ],
+                        "Fervor",
+                        [
+                            "Attack speed increase per 1% missing HP: 3% → 1%",
+                            "Added 1% skill damage increase per 1% missing HP"
+                        ],
+                        "Explosion (Q)",
+                        [
+                            "Damage: INT X 50 → INT X 150",
+                            "Damage increase based on missing HP removed",
+                            "Stun duration: 1 second → 2 seconds"
+                        ]
+                    ],
+                    "Seal of Water (W) - Refreshing Well",
+                    [
+                        "All stats increase: 12% → 10%"
+                    ]
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Seal of Lightning (E)",
+                    [
+                        "Attack delay: 0.75 seconds → 1 second",
+                        "Shock",
+                        [
+                            "Bonus damage: INT X 4 → INT X 7.5",
+                            "4th attack bonus damage: INT X 20 → INT X 45"
+                        ],
+                        "Lightning Beam (Q)",
+                        [
+                            "Damage per second: INT X 80 → INT X 100"
+                        ]
+                    ],
+                    "Seal of Earth (R)",
+                    [
+                        "Attack delay: 0.75 seconds → 1.5 seconds",
+                        "Pillar of Earth",
+                        [
+                            "Damage: INT X 20 → INT X 40"
+                        ]
+                    ],
+                    "Seal of Chaos (F)",
+                    [
+                        "Dark Reach",
+                        [
+                            "Attack speed: 150% → 25%",
+                            "Damage: INT X 7.5 → INT X 25",
+                            "5th attack damage: INT X 50 → INT X 125"
+                        ],
+                        "Collapse Dimension (W)",
+                        [
+                            "Damage per second: INT X 50 → INT X 75",
+                            "Stun duration: 1.5 seconds → 2 seconds"
+                        ]
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Tidal Riding (E)",
+                    [
+                        "Radius: 250 → 200"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Light Breeze (R)",
+                    [
+                        "Radius: 375 → 400",
+                        "Healing buffed by 25%"
+                    ],
+                    "Guardian of Wind (F) - Blessing of Vayu (E)",
+                    [
+                        "HP restored after revival: 50% → 100%"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Hell Gate (T) - Mark of Power (W)",
+                    [
+                        "Damage output: 7.5% → 5%",
+                        "Attack speed: 50% → 25%"
+                    ]
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Boil (R)",
+                    [
+                        "Duration: 5 + MAIN STAT / 2500 seconds → 5 + STR / 2500 seconds",
+                        "Attack speed: 60% → 50% and changed to only apply to self"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Weird Magician can again grant players icons used in Master Icon if they have it",
+            "Attack speed increase of summoned units per 1% of summoners attack speed: 1% → 0.5%",
+            "Fixed loading times being longer after halloween event started",
+            "Using chain spells now sets 'last spell casted' to one that enabled the chaincast",
+            [
+                "Example: if Crusader uses 1st Sword Dance: Strike (R) - Max Amplication: Execution Sword (T) - 2nd Sword Dance: Sword (R), and then uses Ring of the Sage, the spell reset would apply to R instead of T"
+            ],
+            "Optimized some more lag induding spells",
+            [
+                "Some of Nereid spells",
+                "Swordsman Rising Dragon Strike (Q)",
+                "Soul Weaver Infinite Void (F)",
+                "Elementalist Seal of Chaos (F)",
+                "And some others"
+            ]
+        ]
+    },
+    {
         "name": "41a",
         "notes": [
             "Released on: December 3rd, 2020",

@@ -1779,7 +1779,7 @@
     "stats": {
       "allstat": 675,
       "passive": [
-        "Increases allies' ATK SPD by 15%",
+        "Increases allies' ATK SPD by 10%",
         "Activates revival on death",
         "Cooldown: 180 seconds, cannot be dropped during cooldown"
       ]
@@ -16111,7 +16111,10 @@
       "hp": 8500,
       "skilldamagepercent": 0.04,
       "passive": [
-        "Increase nearby allies' ATK SPD by 20%, damage by 4000, and HP regen by 200"
+        "Increases nearby allies' stats",
+        "ATK SPD by 10%",
+        "ATK DMG by 4000",
+        "HP regen by 200"
       ]
     }
   },
@@ -18625,12 +18628,15 @@
       "hp": 10000,
       "skilldamagepercent": 0.06,
       "passive": [
-        "Empowers nearby allies within 750 AoE radius, increasing their ATK DMG by INT X 0.6 (up to a max of 6000), their ATK SPD by 25%, and HP regen by 400"
+        "Empowers nearby allies",
+        "Increases ATK DMG by (INT X 0.6). Max of 6000",
+        "Increases ATK SPD by 15%",
+        "HP regen by 400"
       ],
       "active": [
-        "On use, activates Purification on targeted ally, granting them the following effects for 3 seconds:",
-        "Prevents HP from dropping below 1",
-        "Heals 0.10 X target's max HP and removes any debuffs each second",
+        "On use, activates Purification",
+        "For 3 seconds, prevents HP from dropping below 1",
+        "Heals (0.10 X target's max HP) and removes any debuffs each second for duration",
         "Cooldown: 20 seconds, cannot be dropped during cooldown"
       ]
     }
