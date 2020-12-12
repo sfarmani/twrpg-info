@@ -938,6 +938,7 @@
         "active": [
             "Rally allies by stimulating their blood.",
             "Increases attack damage and HP by 20% for (5 + STR / 2500) seconds",
+            "Also increases ATK SPD by 50% for self only",
             "50% chance to refill 1 blood gauge on attack",
             "Rose Dance's cast time and cooldown are removed and can be cast up to 3 times without incurring HP consumption"
         ]
