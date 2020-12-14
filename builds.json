@@ -208,12 +208,13 @@
         "type": "DPS",
         "order": 1,
         "stat": "STR",
-        "version": "40b",
+        "version": "41b",
         "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=3341",
         "description": [
             "For max DPS it is recommended to go with the first items",
             "The alternate items are for bursting options, as well as defense / support if your team is lacking it",
-            "Make your way to Aglaia until you reach Splitting as its easier to make first"
+            "Make your way to Aglaia until you reach Splitting as its easier to make first",
+            "Build your way up to Ring of Frozen Soul, make Overlord if you feel like you are super far from it. Use Ispion if team lacks support."
         ],
         "items": {
             "Calamity": [
@@ -223,10 +224,8 @@
             "Horn of Demon God": [
                 "Crown of Extreme Anger"
             ],
-            "Ring of Insanity": [
-                "Ring of Fate",
+            "Ring of Frozen Soul": [
                 "Latea, the Ring of Overlord",
-                "Ring of Frozen Soul",
                 "Ispion, the Runed Ring"
             ],
             "Felspike Armor": [
@@ -273,7 +272,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "STR",
-        "version": "38d",
+        "version": "41b",
         "description": [
             "The first items are for DPS purposes. In most of the cases below, the second item is used until you get to the first one.",
             "In other cases they are for supporting when needed"
@@ -291,10 +290,9 @@
                 "Hades, the Armor of Despair",
                 "Harmony of Sky and Earth"
             ],
-            "Wings of Night Lord": [
+            "Wings of Flame Lord": [
                 "Protection of the Fairies",
-                "Brave Heart",
-                "Wings of Flame Lord"
+                "Brave Heart"
             ]
         }
     },
