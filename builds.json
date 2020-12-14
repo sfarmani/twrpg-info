@@ -595,7 +595,9 @@
         "stat": "AGI",
         "version": "38b",
         "description": [
-            "Use Halo for AMS when needed"
+            "Use Halo for AMS when needed",
+            "Only make Cape of Deep Abyss if no one else on your team has it or Ring of Despair (however, always build Cloak of the Fallen Shadows)",
+            "Use Wings of Blood Lord for pre-tower bosses and Death Fiend as its useful in those situations"
         ],
         "items": {
             "Espishu, the Sword of Chaos": [
@@ -609,9 +611,9 @@
                 "Ring of Insanity"
             ],
             "Vest of Divine Winds": [],
-            "Cape of Deep Abyss": [
+            "Wings of Flame Lord": [
                 "Wings of Blood Lord",
-                "Wings of Flame Lord"
+                "Cape of Deep Abyss"
             ]
         }
     },
