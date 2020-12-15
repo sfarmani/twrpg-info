@@ -147,7 +147,7 @@
             "Attack Damage X 150% physical damage per second (ignore's target's defense)",
             "Absorbs 4 souls (10 souls for boss) per second",
             "Reduces target's healing received by 15% and movement speed by 60%",
-            "Affected by attack speed"
+            "Damage period reduced based on attack speed bonus"
         ]
     },
     {
