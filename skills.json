@@ -4698,9 +4698,9 @@
             "Explosion... is an art!",
             "INT X 50 magic damage",
             "Stuns for 0.5 seconds",
-            "Can be channeled up to 1 seconds, increasing damage by 200% and range/stun duration by 100% every second",
+            "Can be channeled up to 2 seconds, increasing damage by 200% and range/stun duration by 100% every second",
             "Star Shower can be cast during channeling",
-            "Channeling speed increases per 4% attack speed"
+            "Increases channeling speed by 4% per 1% attack speed"
         ]
     },
     {
