@@ -19681,7 +19681,7 @@
       "passive": [
         "If HP drops below 20%, summons Reaper",
         "Reaper prevents HP from dropping below 1 for 6 seconds",
-        "After 6 seconds deals (MAIN STAT X 50 ~ 125) pure damage based on missing HP of targets around user and restores HP to 100%",
+        "After 6 seconds deals (AGI X 50 ~ 125) pure damage based on missing HP of targets around user and restores HP to 100%",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
