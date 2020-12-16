@@ -18184,7 +18184,7 @@
       "hpregen": 400,
       "passive": [
         "Casting single-target spells on ally applies Fervor",
-        "Increases target's damage by 5% for 12 seconds"
+        "Increases target's damage by 5% and MAIN STAT by 300 for 12 seconds"
       ],
       "active": [
         "On use, activates Joy",
