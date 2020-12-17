@@ -749,7 +749,7 @@
             "Unleash the grimoire and let your magic run wild.",
             "Consume Max MP X 25% per second",
             "Focus attacks of Dimension Collapse onto targeted area",
-            "Orbs have 600% increased attack speed for channeled duration",
+            "Orbs have 100% increased damage and 200% increased attack speed for channeled duration",
             "Duration: 4 seconds",
             "Channeling does not end when MP depleted if in Demonic Fury transformation"
         ]
@@ -1365,7 +1365,7 @@
         "active": [
             "Travels a short distance by tumbling.",
             "Increases next bullet's damage by 300%",
-            "Decreases damage taken by 60% while tumbling",
+            "Decreases damage taken by 50% for 1.5 seconds",
             "Cooldown is reset if reloaded with all bullets depleted",
             "Allows casting of Outlaw / Fanning while rolling"
         ]
@@ -1398,7 +1398,7 @@
         "active": [
             "Throws four highly explosive bombs.",
             "Each bomb deals AGI X 40 damage",
-            "Inflicts burn for 6 seconds that deals target's max HP X 1% damage per second",
+            "Inflicts burn for 6 second, dealing AGI X 8 pure damage per second",
             "If cast while tumbling, throws 3 additional bombs to nearby area",
             "Will retain targetting mechanism while casting Tumble",
             "No casting delay"
@@ -1836,7 +1836,7 @@
         "active": [
             "Releases contained lightning to fry enemies with high voltage.",
             "Consumes Max MP X 40% per second",
-            "Deals INT X 100 damage per second"
+            "Deals INT X 125 damage per second"
         ]
     },
     {
@@ -1860,8 +1860,9 @@
         "cooldown": 60,
         "order": 19,
         "active": [
-            "Form a temporary contract with Spirit of Earth which is specialized at supporting and protecting allies.",
-            "Summons Spirit of Earth",
+            "Forms a contract with the elemental of earth, which is specialized in powerful attacks and protecting allies.",
+            "HP = Max HP of Elementalist X 400%",
+            "Armor = Armor of Elementalist X 150%",
             "Lasts 40 seconds"
         ]
     },
@@ -1913,6 +1914,10 @@
         "cooldown": 3,
         "order": 23,
         "passive": [
+            "Affinity with summons allows you to bring out their potentials.",
+            "Increases your summons' damage dealt by 12%"
+        ],
+        "active": [
             "Forms a spiritual link with summon, granting it various stat bonuses. The link breaks if the summon strays too far from the summoner.",
             "Provides 40% skill damage and 50% damage reduction to target",
             "Provides immunity to instant death spells",
@@ -1931,8 +1936,7 @@
         "active": [
             "\"It is a dangerous gamble, but controlling a twisted elemental boasts destructive power that matches the Demon Lord.\" - Elementalist",
             "Summons Chaos Elemental",
-            "Lasts 20 seconds",
-            "Summmoning time: 1 second"
+            "Lasts 20 seconds"
         ]
     },
     {
@@ -2124,7 +2128,7 @@
             "Short stun effect",
             "Invulnerable while active",
             "If used while charged, damage is increased by 100%",
-            "If channeled for 3 seconds, refreshes energy and skill cooldowns"
+            "If channeled for 2 seconds, refreshes energy and skill cooldowns"
         ]
     },
     {
@@ -2371,10 +2375,8 @@
         "order": 7,
         "active": [
             "\"None can match the skills of the martial artists of Eloren. Having obtained the knowledge of all advanced martial arts, each one of their techniques is deadly.\" - A Continent Traveller",
-            "Gains immunity to debuffs and CC effects",
-            "Gains acceleration",
-            "Increases attack range by 50",
-            "Ignores unit collision",
+            "Increases damage dealt by 75% and reduces attack cooldown by 50%",
+            "Gains immunity to unit collision, debuffs and CC effects",
             "Lasts 8 seconds"
         ]
     },
@@ -4561,11 +4563,11 @@
         "icon": "HermitW",
         "order": 3,
         "active": [
-            "Heals target's wounds.",
-            "Instantly heals target for Main Stat X 1.5",
+            "Heals wounds of allies within target area.",
+            "Instantly heals for Main Stat X 1.5",
             "Heals for (STR + INT) X 0.3 every second",
             "Reduces damage taken by 20%",
-            "Lasts 12 seconds"
+            "Lasts 6~12 seconds based on distance from center"
         ]
     },
     {
@@ -4631,8 +4633,8 @@
         "order": 7,
         "active": [
             "Purges inner evil within the soul.",
-            "Deals Main Stat X 250 magic damage to nearby enemies and stuns for 2 seconds",
-            "Clears debuffs and grants shield absorbing Main Stat X 5 damage to nearby allies",
+            "Deals Main Stat X 250 magic damage to nearby enemies and stuns for 1.5 seconds",
+            "Clears debuffs and grants shield absorbing Main Stat X 5 damage to nearby allies for 3 seconds",
             "Also activates from summoned orbs",
             "Chain - Inner Release"
         ]
@@ -4661,8 +4663,8 @@
             "\"This water shall cleanse your body and soul.\" - Hermit",
             "Deals Main Stat X 375 magic damage per second",
             "Heals for Target's Max HP X 30% per second",
-            "Breaks barriers (once every 0.75 seconds)",
-            "HP of allies within the waves will not drop below 1 HP",
+            "Clears debuffs from allies and prevents their HP from dropping below 1",
+            "Breaks barriers on enemies",
             "Lasts for 3.5 seconds"
         ]
     },

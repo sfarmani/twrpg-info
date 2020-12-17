@@ -1,5 +1,202 @@
 [
     {
+        "name": "41c",
+        "notes": [
+            "Released on: December 17th, 2020",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Soul Weaver - Fixed Harvest (A) projectile getting blocked by terrain instead of cast point itself",
+            "Knight - Fixed Mana Blaster (R) projectile getting blocked by terrain instead of cast point itself",
+            "Swordsman - Fixed Sword of Illusion (R) projectile afterimages getting stuck",
+            "Crimson Pumpkin Rod - Fixed providing Flame Affinity instead of Skill Damage",
+            "Splitting of the Sky and Earth - Fixed active sharing cooldown with Seed of Malice",
+            "Ring of Divine Winds - Fixed cooldown reset interrupting channeling spells",
+            "Crown of Extreme Anger - Fixed active providing 5% Flame Affinity instead of 7.5%"
+        ],
+        "items": [
+            {
+                "name": "Ring of Hope",
+                "changes": [
+                    "Passive - Damage output increase: 7.5% → 6%"
+                ]
+            },
+            {
+                "name": "Thanatos, the Robe of Hell",
+                "changes": [
+                    "Active - INT increase: 1250 → 1100"
+                ]
+            },
+            {
+                "name": "Halo of Judgment / Radiance of the One",
+                "changes": [
+                    "Passive",
+                    [
+                        "Increased proc damage by 100%",
+                        "Proc cooldown: 0.15 seconds → 0.3 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Soul Devourer",
+                "changes": [
+                    "Removed passive sound effects"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Ancient Ent / Skeleton King Desperia / Archangel Samael / Zombie Lord / Shadow Dragon Irbert",
+                "changes": [
+                    "Now drop 1 full and 1 sealed material instead of 2 sealed materials"
+                ]
+            },
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "Reset time: 75 seconds → 30 seconds (cannot reset while in wheel)",
+                    "Players now keep in-battle state during wheel"
+                ]
+            },
+            {
+                "name": "Agareth",
+                "changes": [
+                    "Soul Crystal",
+                    [
+                        "Amount of orbs summoned per wave: 10 → 8"
+                    ],
+                    "Fear",
+                    [
+                        "Amount of Orbs summoned: 20 → 15",
+                        "Orb speed: 450 → 750"
+                    ],
+                    "Absorb",
+                    [
+                        "Pulled units now bypass terrain"
+                    ],
+                    "Hell Portal",
+                    [
+                        "Hellspawn cycle: 15 ~ 5 seconds → 20 ~ 10 seconds",
+                        "Hellspawn HP and damage: increased by 25%"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Attack delay: 0.85 seconds → 0.8 seconds",
+                    "Nameless Arts (F)",
+                    [
+                        "Attack delay for duration: 0.21 seconds → 0.4 seconds",
+                        "Added 75% damage output increase"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Restoration (W)",
+                    [
+                        "Cast type: Singe Target → Target Area (still procs single-target effects)",
+                        "Buff duration now decreases farther from center of targetted area up to 50%",
+                        "Damage resistance is now affected by Water/Ice Affinity"
+                    ],
+                    "Purge (T)",
+                    [
+                        "Shield duration: 2 seconds → 3 seconds"
+                    ],
+                    "Purify (F)",
+                    [
+                        "Now cleanses debuffs"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Stardust Rain (T)",
+                    [
+                        "Additional bullets: only spawns when hitting boss units"
+                    ]
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Tumble (Q)",
+                    [
+                        "60% damage resistance during cast → 50% damage resistance for 1.5 seconds after cast"
+                    ],
+                    "HE Bomb (E)",
+                    [
+                        "Burn damage: 1% target max HP → AGI X 8 pure damage"
+                    ]
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Seal of Lightning (E) - Lightning Beam (Q)",
+                    [
+                        "Damage: INT X 100 → INT X 125"
+                    ],
+                    "Seal of Earth (R)",
+                    [
+                        "Armor: 150% of use → 100% of user"
+                    ],
+                    "Elemental Link (T)",
+                    [
+                        "Added passive effect: Increases damage output of owned summons by 12%"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Soul Grimoire (R)",
+                    [
+                        "Increases Dimension Collapse (W) attack speed by 500% → increases damage by 100% and attack speed by 200%"
+                    ]
+                ]
+            },
+            {
+                "name": "Arcane Mage",
+                "changes": [
+                    "Starlight (F)",
+                    [
+                        "Now only counts boss units for bonus projectiles to units hit by Magic Star (Q)"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Hypercharge (T)",
+                    [
+                        "Max duration: 3 seconds → 2 seconds"
+                    ],
+                    "Lightning Blade (F)",
+                    [
+                        "Now toggles Discharge (E) off on cast"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Dropped items can now only be picked up by characters that were picked / loaded before drop happened",
+            "Max cam distance: 220 → 350 (WARNING: putting can too high may cause extra lag)",
+            "Added -angle 0 ~ 65 command, can be used to change camera angle",
+            [
+                "0: vertical",
+                "34: Default Min",
+                "65: Default Max"
+            ],
+            "Adjusted lag from some more spells"
+        ]
+    },
+    {
         "name": "41b",
         "notes": [
             "Released on: December 11th, 2020",
@@ -10820,7 +11017,7 @@
             {
                 "name": "Gunner",
                 "changes": [
-                    "HE Bomb",
+                    "HE Bomb (E)",
                     [
                         "Removed casting delay"
                     ],
@@ -15119,7 +15316,7 @@
             {
                 "name": "Gunner",
                 "changes": [
-                    "HE Bomb",
+                    "HE Bomb (E)",
                     [
                         "Now retains its targetting mechanism while casting Tumble"
                     ]

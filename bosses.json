@@ -752,8 +752,8 @@
         "conditions": "Level 370, 1 Green Powder on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
         "drops": [
             "I0D2",
-            "I0MM",
-            "I0ML",
+            "ofir",
+            "shtm",
             "I0OZ",
             "pres"
         ],
@@ -774,8 +774,8 @@
         "drops": [
             "pgin",
             "srtl",
-            "I0MM",
-            "I0ML"
+            "ofir",
+            "shtm"
         ],
         "stats": [
             "HP: 154,690"
@@ -793,8 +793,8 @@
         ],
         "drops": [
             "grsl",
-            "I0MM",
-            "I0ML"
+            "ofir",
+            "shtm"
         ],
         "stats": [
             "HP: 34,690"
@@ -814,10 +814,10 @@
             "ward",
             "penr",
             "rat9",
-            "I0MH",
-            "I0MG",
-            "I0ME",
-            "I0MF",
+            "gsou",
+            "nflg",
+            "I0EK",
+            "I0EL",
             "I0OZ",
             "fgrg"
         ]
@@ -849,9 +849,9 @@
         "summon": "In Castle Avalon, fighting area of Guardian Angels",
         "conditions": "Level 200, Guardian Angels defeated, and 3x Holy Powders",
         "drops": [
-            "I0MN",
-            "I0MP",
-            "I0MO",
+            "I0E5",
+            "I0E6",
+            "I0E7",
             "I0EG",
             "I0AT",
             "I0OZ",
@@ -870,9 +870,9 @@
             "belv",
             "crys",
             "stel",
-            "I0MJ",
-            "I0MK",
-            "I0MI",
+            "rde1",
+            "I08P",
+            "I0AS",
             "I0OZ",
             "pomn"
         ]
@@ -889,9 +889,9 @@
             "kymn",
             "bzbf",
             "shwd",
-            "I0MQ",
-            "I0MR",
-            "I0MS",
+            "mcri",
+            "I08N",
+            "I09N",
             "I0OZ",
             "shar"
         ],

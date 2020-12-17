@@ -6207,9 +6207,14 @@
   },
   {
     "id": "gsou",
+    "emote_id": "771557586251284500",
     "name": "Spirit of Abyss",
     "type": "[Material]",
     "color": "FFFFFF",
+    "droprate": 0.015,
+    "dropped_by": [
+      "Skeleton King Desperia"
+    ],
     "required_by": [
       "Claws of Beriel",
       "Crimson Reaper",
@@ -6235,14 +6240,12 @@
   },
   {
     "id": "I0MH",
-    "emote_id": "771557586251284500",
     "name": "Sealed Spirit of Abyss",
-    "dropped_by": [
-      "Skeleton King Desperia"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.015,
+    "notes": [
+      "1 sealed material also drops whenever a full material has been dropped"
+    ],
     "required_by": [
       "Spirit of Abyss"
     ],
@@ -6250,9 +6253,14 @@
   },
   {
     "id": "nflg",
+    "emote_id": "771557620484931585",
     "name": "Orb of Oblivion",
     "type": "[Material]",
     "color": "FFFFFF",
+    "droprate": 0.015,
+    "dropped_by": [
+      "Skeleton King Desperia"
+    ],
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -6281,14 +6289,12 @@
   },
   {
     "id": "I0MG",
-    "emote_id": "771557620484931585",
     "name": "Sealed Orb of Oblivion",
-    "dropped_by": [
-      "Skeleton King Desperia"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.015,
+    "notes": [
+      "1 sealed material also drops whenever a full material has been dropped"
+    ],
     "required_by": [
       "Orb of Oblivion"
     ],
@@ -6296,9 +6302,14 @@
   },
   {
     "id": "I0EK",
+    "emote_id": "771420397903282207",
     "name": "Fragment of Oblivion",
     "type": "[Material]",
     "color": "FFFFFF",
+    "droprate": 0.015,
+    "dropped_by": [
+      "Skeleton King Desperia"
+    ],
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -6323,14 +6334,12 @@
   },
   {
     "id": "I0ME",
-    "emote_id": "771420397903282207",
     "name": "Sealed Fragment of Oblivion",
-    "dropped_by": [
-      "Skeleton King Desperia"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.015,
+    "notes": [
+      "1 sealed material also drops whenever a full material has been dropped"
+    ],
     "required_by": [
       "Fragment of Oblivion"
     ],
@@ -6338,9 +6347,14 @@
   },
   {
     "id": "I0EL",
+    "emote_id": "771557751460724746",
     "name": "Skeleton Bone",
     "type": "[Material]",
     "color": "FFFFFF",
+    "droprate": 0.015,
+    "dropped_by": [
+      "Skeleton King Desperia"
+    ],
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
       "Chronos, the Cannon of Time",
@@ -6365,14 +6379,12 @@
   },
   {
     "id": "I0MF",
-    "emote_id": "771557751460724746",
     "name": "Sealed Skeleton Bone",
-    "dropped_by": [
-      "Skeleton King Desperia"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.015,
+    "notes": [
+      "1 sealed material also drops whenever a full material has been dropped"
+    ],
     "required_by": [
       "Skeleton Bone"
     ],
@@ -6489,9 +6501,14 @@
   },
   {
     "id": "rde1",
+    "emote_id": "771558617279234059",
     "name": "Heart of Fire",
     "type": "[Material]",
     "color": "FFFFFF",
+    "droprate": 0.015,
+    "dropped_by": [
+      "Zombie Lord"
+    ],
     "required_by": [
       "Crimson Reaper",
       "Winter's Heart",
@@ -6519,14 +6536,12 @@
   },
   {
     "id": "I0MJ",
-    "emote_id": "771558617279234059",
     "name": "Sealed Heart of Fire",
-    "dropped_by": [
-      "Zombie Lord"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.015,
+    "notes": [
+      "1 sealed material also drops whenever a full material has been dropped"
+    ],
     "required_by": [
       "Heart of Fire"
     ],
@@ -6534,9 +6549,14 @@
   },
   {
     "id": "I08P",
+    "emote_id": "771420397572063292",
     "name": "Dark Crystal",
     "type": "[Material]",
     "color": "FFFFFF",
+    "droprate": 0.015,
+    "dropped_by": [
+      "Zombie Lord"
+    ],
     "required_by": [
       "Bloody Hatred",
       "Staff of Abyss",
@@ -6564,14 +6584,12 @@
   },
   {
     "id": "I0MK",
-    "emote_id": "771420397572063292",
     "name": "Sealed Dark Crystal",
-    "dropped_by": [
-      "Zombie Lord"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.015,
+    "notes": [
+      "1 sealed material also drops whenever a full material has been dropped"
+    ],
     "required_by": [
       "Dark Crystal"
     ],
@@ -6579,9 +6597,14 @@
   },
   {
     "id": "I0AS",
+    "emote_id": "771558774086565898",
     "name": "Proof of Purification",
     "type": "[Material]",
     "color": "FFFFFF",
+    "droprate": 0.015,
+    "dropped_by": [
+      "Zombie Lord"
+    ],
     "required_by": [
       "Oceanus, the Sword of Light",
       "Tiberius, the Spear of Lightning",
@@ -6608,14 +6631,12 @@
   },
   {
     "id": "I0MI",
-    "emote_id": "771558774086565898",
     "name": "Sealed Proof of Purification",
-    "dropped_by": [
-      "Zombie Lord"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.015,
+    "notes": [
+      "1 sealed material also drops whenever a full material has been dropped"
+    ],
     "required_by": [
       "Proof of Purification"
     ],
@@ -6670,9 +6691,20 @@
   },
   {
     "id": "ofir",
+    "emote_id": "771556850134024203",
     "name": "Purified Water of Nature",
     "type": "[Material]",
     "color": "FFFFFF",
+    "droprate": [
+      0.005,
+      0.005,
+      0.0005
+    ],
+    "dropped_by": [
+      "Ancient Ent",
+      "Elder Ent",
+      "Giant Ent"
+    ],
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -6704,22 +6736,12 @@
   },
   {
     "id": "I0MM",
-    "emote_id": "771556850134024203",
     "name": "Sealed Purified Water of Nature",
-    "dropped_by": [
-      "Ancient Ent",
-      "Elder Ent",
-      "Giant Ent"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
     "notes": [
-      "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%, 0.05% → 0.01%)"
-    ],
-    "droprate": [
-      0.005,
-      0.005,
-      0.0005
+      "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%, 0.05% → 0.01%)",
+      "1 sealed material also drops whenever a full material has been dropped"
     ],
     "required_by": [
       "Purified Water of Nature"
@@ -6731,6 +6753,16 @@
     "name": "Fragment of the Wind",
     "type": "[Material]",
     "color": "FFFFFF",
+    "droprate": [
+      0.005,
+      0.005,
+      0.0005
+    ],
+    "dropped_by": [
+      "Ancient Ent",
+      "Elder Ent",
+      "Giant Ent"
+    ],
     "required_by": [
       "Spirit Dagger",
       "Pheles, the Bow of Skies",
@@ -6758,22 +6790,12 @@
   },
   {
     "id": "I0ML",
-    "emote_id": "771420397673250877",
     "name": "Sealed Fragment of the Wind",
-    "dropped_by": [
-      "Ancient Ent",
-      "Elder Ent",
-      "Giant Ent"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
     "notes": [
-      "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%, 0.05% → 0.01%)"
-    ],
-    "droprate": [
-      0.005,
-      0.005,
-      0.0005
+      "Elder Ent and Giant Ent: Upon failure, droprate is reduced by 80% (0.50% → 0.10%, 0.05% → 0.01%)",
+      "1 sealed material also drops whenever a full material has been dropped"
     ],
     "required_by": [
       "Fragment of the Wind"
@@ -6963,9 +6985,14 @@
   },
   {
     "id": "mcri",
+    "emote_id": "771559082977001502",
     "name": "Essence of Darkness",
     "type": "[Material]",
     "color": "FFFFFF",
+    "droprate": 0.015,
+    "dropped_by": [
+      "Shadow Dragon Irbert"
+    ],
     "required_by": [
       "Crimson Reaper",
       "Ruinbringer",
@@ -6996,14 +7023,12 @@
   },
   {
     "id": "I0MQ",
-    "emote_id": "771559082977001502",
     "name": "Sealed Essence of Darkness",
-    "dropped_by": [
-      "Shadow Dragon Irbert"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.015,
+    "notes": [
+      "1 sealed material also drops whenever a full material has been dropped"
+    ],
     "required_by": [
       "Essence of Darkness"
     ],
@@ -7011,9 +7036,14 @@
   },
   {
     "id": "I08N",
+    "emote_id": "771420397794885662",
     "name": "Antimatter",
     "type": "[Material]",
     "color": "FFFFFF",
+    "droprate": 0.015,
+    "dropped_by": [
+      "Shadow Dragon Irbert"
+    ],
     "required_by": [
       "Staff of Plague",
       "Pheles, the Bow of God",
@@ -7048,14 +7078,12 @@
   },
   {
     "id": "I0MR",
-    "emote_id": "771420397794885662",
     "name": "Sealed Antimatter",
-    "dropped_by": [
-      "Shadow Dragon Irbert"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.015,
+    "notes": [
+      "1 sealed material also drops whenever a full material has been dropped"
+    ],
     "required_by": [
       "Antimatter"
     ],
@@ -7066,11 +7094,15 @@
     "emote_id": "771564847863300106",
     "name": "Frozen Debris",
     "dropped_by": [
-      "Death Fiend"
+      "Death Fiend",
+      "Shadow Dragon Irbert"
     ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.0125,
+    "droprate": [
+      0.0125,
+      0.01
+    ],
     "required_by": [
       "Winter's Heart",
       "Meacronacer, the Sword of Thousand Illusions",
@@ -7103,14 +7135,12 @@
   },
   {
     "id": "I0MS",
-    "emote_id": "771559109559713822",
     "name": "Sealed Frozen Debris",
-    "dropped_by": [
-      "Shadow Dragon Irbert"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.01,
+    "notes": [
+      "1 sealed material also drops whenever a full material has been dropped (only for Shadow Dragon)"
+    ],
     "required_by": [
       "Frozen Debris"
     ],
@@ -7134,6 +7164,10 @@
     "name": "Steel of God",
     "type": "[Material]",
     "color": "FFFFFF",
+    "droprate": 0.015,
+    "dropped_by": [
+      "Archangel Samael"
+    ],
     "required_by": [
       "Claws of Beriel",
       "Tiberius, the Spear of Lightning",
@@ -7161,12 +7195,11 @@
   {
     "id": "I0MN",
     "name": "Sealed Steel of God",
-    "dropped_by": [
-      "Archangel Samael"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.015,
+    "notes": [
+      "1 sealed material also drops whenever a full material has been dropped"
+    ],
     "required_by": [
       "Steel of God"
     ],
@@ -7174,9 +7207,14 @@
   },
   {
     "id": "I0E6",
+    "emote_id": "771420397643890719",
     "name": "Essence of Light",
     "type": "[Material]",
     "color": "FFFFFF",
+    "droprate": 0.015,
+    "dropped_by": [
+      "Archangel Samael"
+    ],
     "required_by": [
       "Oceanus, the Sword of Light",
       "Halo of Judgment",
@@ -7202,14 +7240,12 @@
   },
   {
     "id": "I0MP",
-    "emote_id": "771420397643890719",
     "name": "Sealed Essence of Light",
-    "dropped_by": [
-      "Archangel Samael"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.015,
+    "notes": [
+      "1 sealed material also drops whenever a full material has been dropped"
+    ],
     "required_by": [
       "Essence of Light"
     ],
@@ -7217,9 +7253,14 @@
   },
   {
     "id": "I0E7",
+    "emote_id": "771558227837452319",
     "name": "God's Page",
     "type": "[Material]",
     "color": "FFFFFF",
+    "droprate": 0.015,
+    "dropped_by": [
+      "Archangel Samael"
+    ],
     "required_by": [
       "Ruinbringer",
       "Hell Riser",
@@ -7248,14 +7289,12 @@
   },
   {
     "id": "I0MO",
-    "emote_id": "771558227837452319",
     "name": "Sealed God's Page",
-    "dropped_by": [
-      "Archangel Samael"
-    ],
     "type": "[Material]",
     "color": "FFFFFF",
-    "droprate": 0.015,
+    "notes": [
+      "1 sealed material also drops whenever a full material has been dropped"
+    ],
     "required_by": [
       "God's Page"
     ],
@@ -14052,8 +14091,8 @@
       "passive": [
         "DMG DEALT by attack +15%",
         "On attack, activates Judgment",
-        "Adds 1 stack every 0.15 seconds with a max stack of 5",
-        "Consume 1 stack on attack to do (MAIN STAT X 0.75) pure damage on attack"
+        "Adds 1 stack every 0.3 seconds with a max stack of 5",
+        "Consume 1 stack on attack and deal (MAIN STAT X 1.5) pure damage on attack"
       ],
       "active": [
         "Block magic every 1 minute and 30 seconds"
@@ -18710,7 +18749,7 @@
       "hpregen": 600,
       "passive": [
         "Casting single-target spells on ally applies Passion",
-        "Increases target's damage by 7.5% and MAIN STAT by 400 for 12 seconds"
+        "Increases target's damage by 6% and MAIN STAT by 400 for 12 seconds"
       ],
       "active": [
         "On use, activates Hope",
@@ -19238,8 +19277,8 @@
       "passive": [
         "DMG DEALT by attack +18%",
         "On attack, activates Judgment",
-        "Adds 1 stack every 0.15 seconds with a max stack of 5",
-        "Consume 1 stack on attack to do (MAIN STAT X 1) pure damage on attack"
+        "Adds 1 stack every 0.3 seconds with a max stack of 5",
+        "Consume 1 stack on attack to do (MAIN STAT X 2) pure damage on attack"
       ],
       "active": [
         "Block magic every 1 minute"
@@ -19495,7 +19534,7 @@
       "mpregen": 200,
       "active": [
         "On use, activates Extinction",
-        "Provides 1250 INT for 7 seconds",
+        "Provides 1100 INT for 7 seconds",
         "Upon expiration, send a meteor to every nearby enemy dealing (INT X (20 + number of spells casted (max 20)) X 20) magic damage",
         "Stuns targets hit for 1.5 seconds",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
