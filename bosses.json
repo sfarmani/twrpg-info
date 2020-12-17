@@ -750,6 +750,9 @@
         "category": "Mid",
         "location": "In Fairy Forest above Deep Forest entrance, where a statue resides",
         "conditions": "Level 370, 1 Green Powder on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
+        "notes": [
+            "1 sealed material also drops whenever a full material has been dropped"
+        ],
         "drops": [
             "I0D2",
             "ofir",
@@ -769,7 +772,8 @@
         "location": "Spawned by Ancient Ent",
         "conditions": "Level 370",
         "notes": [
-            "Elder Ent: Upon failure, droprate is reduced by 80%"
+            "Elder Ent: Upon failure, droprate is reduced by 80%",
+            "1 sealed material also drops whenever a full material has been dropped"
         ],
         "drops": [
             "pgin",
@@ -789,7 +793,8 @@
         "location": "Spawned by Ancient Ent",
         "conditions": "Level 370",
         "notes": [
-            "Giant Ent: Upon failure, droprate is reduced by 80%"
+            "Giant Ent: Upon failure, droprate is reduced by 80%",
+            "1 sealed material also drops whenever a full material has been dropped"
         ],
         "drops": [
             "grsl",
@@ -808,6 +813,9 @@
         "category": "Mid",
         "location": "In Prius Forward camp, the cave to the North",
         "conditions": "Level 400",
+        "notes": [
+            "1 sealed material also drops whenever a full material has been dropped"
+        ],
         "drops": [
             "ratc",
             "rat6",
@@ -848,6 +856,9 @@
         "category": "High",
         "summon": "In Castle Avalon, fighting area of Guardian Angels",
         "conditions": "Level 200, Guardian Angels defeated, and 3x Holy Powders",
+        "notes": [
+            "1 sealed material also drops whenever a full material has been dropped"
+        ],
         "drops": [
             "I0E5",
             "I0E6",
@@ -866,6 +877,9 @@
         "category": "High",
         "location": "In Prius Forward camp, the cave to the East",
         "conditions": "Level 410",
+        "notes": [
+            "1 sealed material also drops whenever a full material has been dropped"
+        ],
         "drops": [
             "belv",
             "crys",
@@ -885,6 +899,9 @@
         "category": "High",
         "location": "In Deep Snowfield",
         "conditions": "Level 420 and 12x Blue Powder given to Elder Paracelsus",
+        "notes": [
+            "1 sealed material also drops whenever a full material has been dropped"
+        ],
         "drops": [
             "kymn",
             "bzbf",
