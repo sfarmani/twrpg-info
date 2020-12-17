@@ -1380,7 +1380,7 @@
         "order": 3,
         "active": [
             "Barrages nearby area with bullets.",
-            "Each bullet deals X 250% magic damage",
+            "Each bullet deals attack damage X 250% magic damage",
             "AGI X 25 bonus damage",
             "If cast after Tumble, consumes 100% additional bullets",
             "Attack radius 525",
