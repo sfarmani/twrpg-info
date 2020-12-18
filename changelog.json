@@ -1,5 +1,53 @@
 [
     {
+        "name": "41d",
+        "notes": [
+            "Released on: November 17th, 2020",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Paladin - Fixed Divine Cross (R) bind applying to CC immune targets"
+        ],
+        "heroes": [
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Nameless Arts (F)",
+                    [
+                        "Increases damage output by 75% for duration → Increases damage of D / Q / W / T by 110% for duration"
+                    ]
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Tumble (Q)",
+                    [
+                        "50% damage resistance for 1.5 seconds after cast → 60% damage resistance during cast (reverted)"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Twin Star (Q)",
+                    [
+                        "Now deals 250% damage to non-boss units"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Hypercharge (T)",
+                    [
+                        "Damager per second: INT X 100 → INT X 125"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "41c",
         "notes": [
             "Released on: December 17th, 2020",

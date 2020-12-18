@@ -1112,8 +1112,8 @@
         "order": 2,
         "active": [
             "Fire a magic bullet that splits into two directions.",
-            "Skill Level X 50 pure damage",
-            "(AGI + INT) X 5 bonus damage",
+            "(AGI + INT) X 5 pure damage per bullet",
+            "Deals 150% increased damage to non-boss units",
             "Cooldown is reset upon firing another magic bullet"
         ]
     },
@@ -1365,7 +1365,7 @@
         "active": [
             "Travels a short distance by tumbling.",
             "Increases next bullet's damage by 300%",
-            "Decreases damage taken by 50% for 1.5 seconds",
+            "Decreases damage taken by 60% while tumbling",
             "Cooldown is reset if reloaded with all bullets depleted",
             "Allows casting of Outlaw / Fanning while rolling"
         ]
@@ -2124,7 +2124,7 @@
         "order": 8,
         "active": [
             "Absorb mana dispersed in the atmosphere to charge yourself.",
-            "After 0.5 seconds, deals INT X 100 damage per second",
+            "After 0.5 seconds, deals INT X 125 damage per second",
             "Short stun effect",
             "Invulnerable while active",
             "If used while charged, damage is increased by 100%",
@@ -2375,7 +2375,7 @@
         "order": 7,
         "active": [
             "\"None can match the skills of the martial artists of Eloren. Having obtained the knowledge of all advanced martial arts, each one of their techniques is deadly.\" - A Continent Traveller",
-            "Increases damage dealt by 75% and reduces attack cooldown by 50%",
+            "Increases damage dealt by martial arts by 110% and reduces attack cooldown by 50%",
             "Gains immunity to unit collision, debuffs and CC effects",
             "Lasts 8 seconds"
         ]
