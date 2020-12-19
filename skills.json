@@ -2297,7 +2297,9 @@
         "active": [
             "A stance that reacts faster than the mind.",
             "Evades next attack and moves back",
-            "On recast, launches a counter strike dealing (ATK DMG X 7.5) damage"
+            "On recast, launches a counter strike",
+            "Deals Skill Level X 200 pure damage",
+            "Damage evaded (up to 500% max HP) and (ATK DMG X 7.5) bonus damage"
         ]
     },
     {
