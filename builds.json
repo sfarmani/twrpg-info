@@ -85,57 +85,53 @@
     },
     {
         "for": "Dark Knight",
-        "type": "Burst DPS",
+        "type": "Burst",
         "order": 1,
         "stat": "STR",
-        "version": "38b",
-        "description": [
-            "Builds for this may change due to the recent re-work",
-            "Use Ruinbringer until Splitting"
-        ],
+        "version": "41d",
+        "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=4399",
         "items": {
-            "Splitting of the Sky and Earth": [
-                "Ruinbringer",
-                "Calamity"
-            ],
+            "Splitting of the Sky and Earth": [],
             "Crown of Extreme Anger": [],
-            "Seal of Deceiver": [
-                "Ring of Fate"
-            ],
-            "Hades, the Armor of Despair": [
-                "Felspike Armor"
-            ],
-            "Archangel Wings": [
-                "Brave Heart"
-            ]
+            "Seal of Deceiver": [],
+            "Hades, the Armor of Despair": [],
+            "Archangel Wings": []
         }
     },
     {
         "for": "Dark Knight",
-        "type": "Support with some DPS",
+        "type": "Debuff",
         "order": 2,
         "stat": "INT",
-        "version": "38b",
+        "version": "41d",
+        "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=4399",
         "description": [
-            "Builds for this may change due to the recent re-work",
-            "Use Ring of Hope if no other teammates use it"
+            "This build is meant for getting the most out of R - E while maintaining a good presence"
         ],
         "items": {
-            "Winter's Heart": [],
-            "Hood of Apocalypse": [
-                "Prophetia, the Greater Source of Mana",
-                "Eye of the Flame Lord"
-            ],
-            "Ring of Fate": [
-                "Nebula Rose",
-                "Horn of God",
-                "Ring of Hope"
-            ],
+            "Benziena, the Earthen Heart": [],
+            "Prophetia, the Origin of Knowledge": [],
+            "Ring of Despair": [],
             "Hades, the Armor of Despair": [],
-            "Soul Devourer": [
-                "Brave Heart",
-                "Protection of the Fairies"
-            ]
+            "Brave Heart": []
+        }
+    },
+    {
+        "for": "Dark Knight",
+        "type": "Regen",
+        "order": 3,
+        "stat": "INT",
+        "version": "41d",
+        "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=4399",
+        "description": [
+            "This build is meant for larger team presence"
+        ],
+        "items": {
+            "Benziena, the Earthen Heart": [],
+            "Hood of Apocalypse": [],
+            "Nebula Rose": [],
+            "Hades, the Armor of Despair": [],
+            "Brave Heart": []
         }
     },
     {
