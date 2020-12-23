@@ -1113,7 +1113,7 @@
         "active": [
             "Fire a magic bullet that splits into two directions.",
             "(AGI + INT) X 5 pure damage per bullet",
-            "Deals 150% increased damage to non-boss units",
+            "Deals 100% increased damage to non-boss units",
             "Cooldown is reset upon firing another magic bullet"
         ]
     },
@@ -2363,8 +2363,8 @@
         "order": 6,
         "passive": [
             "An improved version of Emperor's strikes that boasts fearsome power.",
-            "Chance to deal 200% attack damage on attack",
-            "AGI X 40 bonus damage"
+            "Chance to deal 400% attack damage on attack",
+            "AGI X 60 bonus damage"
         ]
     },
     {
@@ -2377,7 +2377,7 @@
         "order": 7,
         "active": [
             "\"None can match the skills of the martial artists of Eloren. Having obtained the knowledge of all advanced martial arts, each one of their techniques is deadly.\" - A Continent Traveller",
-            "Increases damage dealt by martial arts by 110% and reduces attack cooldown by 50%",
+            "Increases damage dealt by martial arts by 80% and reduces attack cooldown by 50%",
             "Gains immunity to unit collision, debuffs and CC effects",
             "Lasts 8 seconds"
         ]
@@ -4680,7 +4680,7 @@
         "order": 1,
         "passive": [
             "A broom filled with uncontrollable mana.",
-            "Every attack deals INT X 7 magic damage",
+            "Every attack deals INT X 10 magic damage",
             "On skill cast, gains explosive attack speed for 1.5 seconds"
         ],
         "active": [

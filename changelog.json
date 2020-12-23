@@ -1,5 +1,134 @@
 [
     {
+        "name": "42c",
+        "notes": [
+            "Released on: December 23rd, 2020",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Agareth - Fixed hellspawns not dissappearing or respawning after boss dies"
+        ],
+        "events": [
+            {
+                "name": "Event notes",
+                "changes": [
+                    "Decreased chance of getting billard game by 50%",
+                    "Double amount of winter gifts obtainable through billard game"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Witch",
+                "changes": [
+                    "Base attack delay: 0.5 seconds → 0.65",
+                    "Magical Broom (D)",
+                    [
+                        "Damage: INT X 7 → INT X 10"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "42b",
+        "notes": [
+            "Released on: December 23rd, 2020",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Fixed event not working properly"
+        ]
+    },
+    {
+        "name": "42a",
+        "notes": [
+            "Released on: December 22nd, 2020",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Dark Knight - Fixed being able to charge Soul Break (Q) infinitely",
+            "Sword Enchanter - Fixed Ultimate Enchant (F) stunning targets for 2 seconds instead of 3 seconds",
+            "Warlock - Fixed Flames of Ruin not increasing damage of Dimension Collapse (W) during Soul Grimoire (R) channel",
+            "Alchemist - Fixed Rock Storm (R) projectiles getting blocked by terrain",
+            "Items - Fixed not being able to pick up dropped items after changing tokens",
+            "Commands - Fixed -equipment clean command not working"
+        ],
+        "events": [
+            {
+                "name": "Event notes",
+                "changes": [
+                    "Christmas Event starts! Lasts until January 6th, 2021 at 23:59:59 UTC (forum time)",
+                    "This version is however, bugged so please use the latest version"
+                ]
+            }
+        ],
+        "items": [
+            {
+                "name": "Guardian of the Skies / Ruler of the skies",
+                "changes": [
+                    "Passive",
+                    [
+                        "Empowers every attack → Empowers every 4th attack",
+                        "Proc damage: increased by 300%"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "Reset time: 30 seconds → 10 seconds",
+                    "No longer resets if a hero is present in arena"
+                ]
+            },
+            {
+                "name": "Agareth",
+                "changes": [
+                    "Minigame",
+                    [
+                        "Catapult damage: 15 → 20",
+                        "Skull damage: 5 → 7"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Excalibur (F)",
+                    [
+                        "Damage calculation now happens at end of channel"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Heavenly Emperor's Strikes (T)",
+                    [
+                        "Damage: 200% attack damage + AGI X 40 → 400% attack damage + AGI X 60"
+                    ],
+                    "Nameless Arts (F)",
+                    [
+                        "Damage dealt by Martial Arts increase: 110% → 80%"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Twin Star (Q)",
+                    [
+                        "Bonus damage to non-boss units: 150% → 100%"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "41d",
         "notes": [
             "Released on: November 17th, 2020",
@@ -7329,7 +7458,7 @@
                 ]
             },
             {
-                "name": "Matrial Artist",
+                "name": "Martial Artist",
                 "changes": [
                     "Emperor's Strikes (Q)",
                     [
