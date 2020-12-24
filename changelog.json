@@ -1,5 +1,33 @@
 [
     {
+        "name": "42d",
+        "notes": [
+            "Released on: December 23rd, 2020",
+            "Compatible Version: v0.30a ~"
+        ],
+        "events": [
+            {
+                "name": "Event notes",
+                "changes": [
+                    "Decreased ticket drop chance from early game bosses",
+                    "Increased ticket drop chance from late game bosses",
+                    "Snowball game",
+                    [
+                        "Base snowball damage: 4 → 6",
+                        "Power rune damage increase: 2 → 3"
+                    ],
+                    "Winter Gifts",
+                    [
+                        "Droprate of first 8 Snow Crystals obtained after this patch: increased by 50% (players who already reached 8 or more will also benefit)",
+                        "Snow Crystal droprate increased by ~11%",
+                        "Other reward droprates increased by ~33%"
+                    ],
+                    "Boss units now have 12.5% chance to spawn with a buff that doubles their droprate"
+                ]
+            }
+        ]
+    },
+    {
         "name": "42c",
         "notes": [
             "Released on: December 23rd, 2020",
@@ -12,8 +40,8 @@
             {
                 "name": "Event notes",
                 "changes": [
-                    "Decreased chance of getting billard game by 50%",
-                    "Double amount of winter gifts obtainable through billard game"
+                    "Decreased chance of getting billiards game by 50%",
+                    "Double amount of winter gifts obtainable through billiards game"
                 ]
             }
         ],
@@ -65,7 +93,7 @@
         ],
         "items": [
             {
-                "name": "Guardian of the Skies / Ruler of the skies",
+                "name": "Guardian of the Skies / Ruler of the Skies",
                 "changes": [
                     "Passive",
                     [
