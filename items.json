@@ -7328,7 +7328,7 @@
       "mdpercent": 0.075,
       "passive": [
         "Activates Power of Skies on casting skill",
-        "Every 4th attack deals (MAIN STAT X 1.5) pure damage, increase the user's MOV SPD by 5%, and MAIN STAT by 275 for 4 seconds",
+        "Every 4th attack deals (MAIN STAT X 2) pure damage, increase the user's MOV SPD by 5%, and MAIN STAT by 275 for 4 seconds",
         "Cooldown: 16 seconds"
       ],
       "active": [
@@ -21255,7 +21255,7 @@
       "mdpercent": 0.10,
       "passive": [
         "On skill cast, activates Power of Skies",
-        "Every 4th attack deals (MAIN STAT X 2.25) pure damage and increases all stats by 500 for 5 seconds",
+        "Every 4th attack deals (MAIN STAT X 3) pure damage and increases all stats by 500 for 5 seconds",
         "Cooldown: 15 seconds"
       ],
       "active": [
