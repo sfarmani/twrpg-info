@@ -4442,7 +4442,8 @@
         "icon": "PBQ",
         "order": 3,
         "toggle": [
-            "40% chance to deal AGI X 40 bonus damage when delivering a slash"
+            "40% chance to deal AGI X 40 bonus damage when delivering a slash",
+            "While under the effects of Release, has 70% chance to deals AGI X 85 bonus damage instead"
         ]
     },
     {
