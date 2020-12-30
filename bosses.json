@@ -753,6 +753,10 @@
         "notes": [
             "1 sealed material also drops whenever a full material has been dropped"
         ],
+        "sub-bosses": [
+            "n03W",
+            "n03X"
+        ],
         "drops": [
             "I0D2",
             "ofir",
