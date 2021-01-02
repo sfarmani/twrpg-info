@@ -77,6 +77,17 @@
         ]
     },
     {
+        "type": "Stackable",
+        "suffix": "None",
+        "bufftype": "Skill Damage",
+        "names": [
+            "Bag of Hell - Throwing Healing Potion (W) Specialty",
+            "Bag of Corruption - Throwing Healing Potion (W) Specialty",
+            "Bag of Destruction - Throwing Healing Potion (W) Specialty",
+            "Bag of Demise - Throwing Healing Potion (W) Specialty"
+        ]
+    },
+    {
         "type": "Type-A",
         "suffix": "None",
         "bufftype": "Magic Defense",
