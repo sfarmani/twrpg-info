@@ -1089,7 +1089,7 @@
         "color": "cc99ff",
         "hotkey": "[D]",
         "icon": "ShooterD",
-        "cooldown": 40,
+        "cooldown": 1,
         "order": 1,
         "passive": [
             "Control drones that can assist allies.",
@@ -1131,7 +1131,7 @@
             "If ally, heals INT X 3 HP",
             "If ally, increases magic defense by 25% for 3 seconds",
             "Cooldown is reset upon firing a magic bullet",
-            "Bounces twice with Hydro Buster",
+            "Bounces twice with Hydro Buster and has 1s longer cooldown",
             "Bounces thrice with Rainmaker"
         ]
     },
@@ -1168,8 +1168,8 @@
         "order": 5,
         "active": [
             "Fire a charged magic bullet, and disengage using the recoil.",
-            "Attack Damage X 380% damage",
-            "AGI X 24 bonus damage",
+            "Attack Damage X 500% damage",
+            "AGI X 30 bonus damage",
             "Deals up to (400 + 2 X Skill Damage increase)% damage based on knockback distance"
         ]
     },
@@ -1198,11 +1198,12 @@
         "order": 7,
         "passive": [
             "Enhance probes' attacks.",
-            "Upon landing a magic bullet, assists by firing an additional magic bullet that deals (Attack Damage X 100% + Main Stat X 7.5) damage",
-            "Pierces non-boss enemies"
+            "When landing Q/E/R on a boss unit, fires additional magic bullets dealing (Attack Damage X 100% + Main Stat X 7.5) magic damage",
+            "Fires 3 bullets for Q/R, 6 bullets for E"
         ],
         "active": [
             "Relentlessly fire magic bullets together with the probes.",
+            "Fires 12 bullets + 4 additional bullets per probe every second",
             "Channeled up to a maximum of 4 seconds",
             "Each 1% increase in attack speed increases fire count by 0.5%"
         ]
