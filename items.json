@@ -14684,10 +14684,14 @@
       "agility": 760,
       "skilldamagepercent": 0.06,
       "passive": [
-        "Stores 1% of DMG DEALT in Cruoris, gaining it as max Health temporarily. (Capped at Agility X 2)"
+        "Increases max HP in combat",
+        "Stores 1% of DMG DEALT, max of AGI X 2"
       ],
       "active": [
-        "Releases stored health dealing Stored Health X 30 damage to nearby enemies and increases agility by 12% (Capped at 1000) for 12 seconds (150 second CD)"
+        "Releases the blood stored within Cruoris on use",
+        "Deals (stored HP X 30) magic damage to nearby enemies",
+        "Also increases AGI by 15% for 12 seconds (max of 1000 AGI)",
+        "Cooldown: 150 seconds, cannot be dropped during cooldown"
       ]
     }
   },

@@ -487,9 +487,10 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
-        "version": "38d",
+        "version": "42d",
         "description": [
-            "Serenity provides more self-sustain, however it should not be used in a proper team composition"
+            "Serenity provides more self-sustain, however it should not be used in a proper team composition",
+            "The listed rings are preference based (not sure which is best)"
         ],
         "items": {
             "Chrono Chaser": [],
@@ -497,9 +498,8 @@
                 "Crown of Serenity",
                 "Horn of Demon God"
             ],
-            "Ring of Fate": [
-                "Cold Ring of Death",
-                "Latea, the Ring of Overlord"
+            "Ring of Divine Winds": [
+                "Ring of Frozen Soul"
             ],
             "Nevedium, the Armor of Demonblood": [],
             "Archangel Wings": [
@@ -509,10 +509,39 @@
     },
     {
         "for": "Shooter",
-        "type": "Support with some DPS",
+        "type": "Support",
         "order": 2,
         "stat": "INT",
-        "version": "38b",
+        "version": "42d",
+        "description": [
+            "Serenity is more useful when there are no wind mages on the team or until you get Apocalypse",
+            "The listed rings are preference based (not sure which is best)",
+            "If the rest of the team doesn't have a Harmony, then its good to have.",
+            "Use Grim Heart until Protection of the Fairies"
+        ],
+        "items": {
+            "Rainmaker": [],
+            "Hood of Apocalypse": [
+                "Crown of Serenity"
+            ],
+            "Ring of Hope": [
+                "Nebula Rose",
+                "Horn of God"
+            ],
+            "Jupiter, the Robe of Heavens": [
+                "Harmony of Sky and Earth"
+            ],
+            "Protection of the Fairies": [
+                "Grim Heart"
+            ]
+        }
+    },
+    {
+        "for": "Shooter",
+        "type": "Support with some DPS/Hybrid",
+        "order": 3,
+        "stat": "INT",
+        "version": "42d",
         "description": [
             "Serenity with Rainmaker can be used to mass buff your allies",
             "Use Nebula Rose if shields needed and no one else in your team has one",
