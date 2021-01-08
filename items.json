@@ -1253,7 +1253,7 @@
     ],
     "type": "[Wings]",
     "color": "00BFFF",
-    "level": 220,
+    "level": 200,
     "droprate": 0.075,
     "required_by": [
       "Flame Soul",

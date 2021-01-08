@@ -3108,7 +3108,7 @@
         "order": 1,
         "passive": [
             "Continuously attack like flowing water.",
-            "Every 4th attack is empowered",
+            "Every 5th attack deals Attack Damage X 150% + 5 X (STR + AGI) bonus magic damage",
             "Resets after 10 seconds without attack"
         ]
     },
@@ -3123,8 +3123,7 @@
         "active": [
             "Focuses strength onto the tip of the spear to deliver powerful strikes.",
             "Next 3 attacks activates Fierce Strike that deals pure damage",
-            "3rd attack deals double damage and knocks up non-boss target",
-            "Damage is affected by skill damage"
+            "3rd attack deals double damage and knocks up non-boss target"
         ]
     },
     {
@@ -3135,10 +3134,10 @@
         "icon": "ThundererPass_2",
         "order": 3,
         "passive": [
-            "Put up a magnetic field to become less affected by gravity.",
-            "On dealing damage or being damaged, stores portion of the damage to boost combat stats",
-            "Can store up to a maximum of 8% per second",
+            "Surrounds yourself with a magnetic field to become less affected by air resistance.",
+            "Builds magnetic field upon dealing damage or receiving damage (up to 8% per second)",
             "Maximum attack damage: (STR X 2.5 + AGI X 2)",
+            "Maximum attack speed bonus: 75%",
             "Maximum damage resistance: 20%"
         ]
     },
@@ -3155,8 +3154,7 @@
             "Skill Level X 1000 damage",
             "(STR + AGI) X 40 bonus damage",
             "Stuns target for 1 second",
-            "Recharges Magnetic Field by 5% for each 200 distance travelled",
-            "Lasts 2 seconds"
+            "Recharges Magnetic Field by 5% for each 200 distance travelled"
         ]
     },
     {
@@ -3171,7 +3169,8 @@
             "Activate the shield of thunder to protect yourself and damage nearby enemies.",
             "Skill Level X 200 damage per second",
             "STR X 6 + AGI X 8 bonus damage",
-            "Increases speed and damage reduction"
+            "Reduces damage taken by 40%",
+            "After 3 seconds, consumes 15% of Magnetic Field per second"
         ]
     },
     {
@@ -3187,7 +3186,7 @@
             "Attack Damage X 2500% magic damage",
             "(STR + AGI) X 150 bonus damage",
             "Consumes Magnetic Field to deal up to a maximum of 100% bonus damage",
-            "Breaks barriers at max usage",
+            "Breaks barriers and stuns for 1.5 seconds if max gauge is consumed",
             "Cast time: 0.75 seconds"
         ]
     },
@@ -3201,10 +3200,11 @@
         "order": 7,
         "active": [
             "\"Disappear with the thunder!\" - Thunderer",
-            "Each lightning deals Highest Stat X 25 damage",
+            "Each lightning deals Main Stat X 25 damage",
             "Stuns for 1 second",
             "Restores 25% of Magnetic Field every second",
-            "Binds nearby enemies' movements"
+            "Binds nearby enemies' movements",
+            "Total of 64 lightning strikes over 4 seconds"
         ]
     },
     {
