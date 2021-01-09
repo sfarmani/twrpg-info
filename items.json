@@ -15135,7 +15135,7 @@
       "agility": 300,
       "intelligence": 730,
       "skilldamagepercent": 0.04,
-      "periodicdamagepercent": 0.15,
+      "periodicdamagepercent": 0.12,
       "dtpercent": -0.06,
       "dt": -250,
       "active": [
