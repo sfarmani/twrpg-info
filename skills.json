@@ -4125,13 +4125,33 @@
         ]
     },
     {
+        "name": "Dark Aurora [Lv 3]",
+        "heroClass": "Priest",
+        "color": "8000ff",
+        "hotkey": "[E]",
+        "icon": "PriestE_2",
+        "cooldown": 10,
+        "order": 7,
+        "passive": [
+            "The priest's presence alone brings great support to her allies.",
+            "Increases nearby allies' attack damage by 8% and all stats by (Priest's INT X 0.05)"
+        ],
+        "active": [
+            "Devastates target ground with corrupt energy to cause havoc.",
+            "Deals INT X 100 magic damage per second",
+            "Target's max HP X 1.5% bonus damage",
+            "Can be channeled for 3 seconds",
+            "Damage interval decreases based on attack speed"
+        ]
+    },
+    {
         "name": "Divine Light",
         "heroClass": "Priest",
         "color": "f0e68c",
         "hotkey": "[R]",
         "icon": "PriestR",
         "cooldown": 25,
-        "order": 7,
+        "order": 8,
         "active": [
             "Convert targeted area's mana into holy energy, creating a holy explosion.",
             "INT X 100 magic damage",
@@ -4146,7 +4166,7 @@
         "hotkey": "[T]",
         "icon": "PriestT",
         "cooldown": 100,
-        "order": 8,
+        "order": 9,
         "active": [
             "Temporarily opens the gate of heaven to summon an angel bound to the Priest by an old contract",
             "Summons Angel 'Raguel'",
@@ -4161,7 +4181,7 @@
         "color": "ffff99",
         "hotkey": "[T] → [Passive]",
         "icon": "PriestT_Pass",
-        "order": 9,
+        "order": 10,
         "passive": [
             "Cleanses multiple enemies using power bestowed by the god.",
             "Attacks all nearby targets at once",
@@ -4176,7 +4196,7 @@
         "hotkey": "[T] → [D]",
         "icon": "Recall",
         "cooldown": 1,
-        "order": 10,
+        "order": 11,
         "active": [
             "Teleport to summoner's position."
         ]
@@ -4188,7 +4208,7 @@
         "hotkey": "[T] → [Q]",
         "icon": "PriestT_Q",
         "cooldown": 15,
-        "order": 11,
+        "order": 12,
         "active": [
             "Surround ally in light to heal his/her wounds.",
             "Removes all debuffs",
@@ -4202,7 +4222,7 @@
         "hotkey": "[T] → [W]",
         "icon": "PriestT_W",
         "cooldown": 15,
-        "order": 12,
+        "order": 13,
         "active": [
             "Pulls target ally toward your location.",
             "Grants invulnerability to target and self while casting"
@@ -4215,7 +4235,7 @@
         "hotkey": "[T] → [F]",
         "icon": "PriestT_F",
         "cooldown": 60,
-        "order": 13,
+        "order": 14,
         "active": [
             "Gift target with god's blessing.",
             "Reduces damage taken by 50% for 3 seconds after resurrection",
@@ -4229,7 +4249,7 @@
         "hotkey": "[F]",
         "icon": "PriestF",
         "cooldown": 120,
-        "order": 14,
+        "order": 15,
         "active": [
             "\"As my body suddenly start bursting out light, I've felt like I could keep on fighting without ever growing tired. It was only later that I realized the Priest had arrived.\" - Soldier of Empire Army",
             "Summons Heaven Field for 30 seconds",

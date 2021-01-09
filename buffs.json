@@ -85,7 +85,9 @@
             "Bag of Hell - Throwing Healing Potion (W) Specialty",
             "Bag of Corruption - Throwing Healing Potion (W) Specialty",
             "Bag of Destruction - Throwing Healing Potion (W) Specialty",
-            "Bag of Demise - Throwing Healing Potion (W) Specialty"
+            "Bag of Demise - Throwing Healing Potion (W) Specialty",
+            "Diana, the Robe of Holy Maiden (Aura) - 6%",
+            "Jupiter, the Robe of Heavens (Aura) - 8%"
         ]
     },
     {
@@ -94,6 +96,7 @@
         "bufftype": "Magic Defense",
         "names": [
             "Diana, the Robe of Holy Maiden (Aura) - 8%",
+            "Jupiter, the Robe of Heavens (Aura) - 10%",
             "Oath of Courage (Aura) - 8%",
             "Eternal Rose (Aura) - 8%",
             "Nebula Rose (Aura) - 10%"
