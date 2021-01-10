@@ -2680,7 +2680,7 @@
   },
   {
     "id": "ore1",
-    "name": "Magical Ore Deposit (Jack-o-Lantern)",
+    "name": "Magical Ore Deposit (Orichalcum)",
     "dropped_by": [
       "Jack-o-Lantern"
     ],
@@ -3203,7 +3203,7 @@
   },
   {
     "id": "ore2",
-    "name": "Magical Ore Deposit (Mage Lord)",
+    "name": "Magical Ore Deposit (Mithril)",
     "dropped_by": [
       "Mage Lord"
     ],
@@ -4103,7 +4103,7 @@
   },
   {
     "id": "ore3",
-    "name": "Magical Ore Deposit (Frostspider Lord)",
+    "name": "Magical Ore Deposit (Adamantium)",
     "dropped_by": [
       "Frostspider Lord"
     ],

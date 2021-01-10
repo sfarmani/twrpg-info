@@ -396,7 +396,7 @@
     },
     {
         "id": "ore1",
-        "name": "Magical Ore Deposit (Jack-o-Lantern)",
+        "name": "Magical Ore Deposit (Orichalcum)",
         "limit": "2",
         "category": "Minor",
         "location": "Dropped by Jack-o-Lantern with a 7.5% chance",
@@ -466,7 +466,7 @@
     },
     {
         "id": "ore2",
-        "name": "Magical Ore Deposit (Mage Lord)",
+        "name": "Magical Ore Deposit (Mithril)",
         "limit": "2",
         "category": "Minor",
         "location": "Dropped by Mage Lord with a 7.5% chance",
@@ -584,7 +584,7 @@
     },
     {
         "id": "ore3",
-        "name": "Magical Ore Deposit (Frostspider Lord)",
+        "name": "Magical Ore Deposit (Adamantium)",
         "limit": "2",
         "category": "Minor",
         "location": "Dropped by Frostspider Lord",
