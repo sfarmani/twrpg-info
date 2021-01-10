@@ -1,5 +1,158 @@
 [
     {
+        "name": "43c",
+        "notes": [
+            "Released on: January 10, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Berserker - Fixed Rabid storm (F) not dealing damage",
+            "Bow master - Fixed Purestorm shot (R) not dealing damage",
+            "Gunner - Fixed Tumble (Q) not amplifying damage",
+            "Reaper - Fixed Consecutive strikes (W) stacks not amplifying damage",
+            "Water Mage - Fixed Glacier Orb (T) not dealing damage",
+            "Wind Mage - Fixed Gentle Winds (W) not dealing damage",
+            "Wing Mage - Fixed Guardian of Wind (F) not having proper magic resistance",
+            "Lightning Mage - Fixed Hypercharge (T) not dealing damage",
+            "Arcane Mage - Fixed Gravity field (E) not dealing damage",
+            "Soul Weaver - Fixed Soul transfer (E) not dealing damage",
+            "Elementalist - Fixed Seal of chaos (F) - Collapse dimension (W) not dealing damage",
+            "Water Cannon - Fixed active not dealing damage",
+            "Jupiter, the Robe of Heavens - Fixed active not dealing damage",
+            "Robe of Archlich - Fixed active not working properly",
+            "Halo of Judgment / Radiance of the One - Fixed floating text for damage being visible to other players",
+            "Death Immunity - Fixed some spells/items bypassing death immunity",
+            "Corruptor Rectus / Valtora / Nereid - Fixed repeating fight phases or dying before going through all phases"
+        ],
+        "misc": [
+            "Properly applied missing periodic damage effects"
+        ]
+    },
+    {
+        "name": "43b",
+        "notes": [
+            "Released on: January 10th, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Dummy - Fixed dying if too much damage is taken from one instance",
+            "Dummy - Fixed not properly showing damage taken when on 1 HP",
+            "Triple Snow - Fixed bonus damage from active bypassing death immunity",
+            "Death Fiend - Fixed 20% HP empower being able to activate more than once",
+            "Priest - Fixed Heal (D) applied to other allies disappearing when its casted again",
+            "Damage increase - Fixed some effects being affected by damage resistance:",
+            [
+                "When dealing damage to target with 90% damage resistance while having 40% damage increase only 4% of it is applied",
+                "Astra, the Sword of Moonlight - active",
+                "Horn of Demon God - Passive",
+                "Reaper - Death Mark (F)",
+                "Trickster - Devil's Mirror (E)"
+            ],
+            "Tokens - Fixed Sea God token being able to move between areas",
+            "Cape of Corrupt Flame / Cloak of Fallen Shadows / Cape of Deep Abyss - Fixed skill damage, magic resistance and damage resistance applying twice to passive damage"
+        ],
+        "events": [
+            {
+                "name": "Event notes",
+                "changes": [
+                    "Winter Event ends this version"
+                ]
+            }
+        ],
+        "items": [
+            {
+                "name": "Halo of Judgement / Radiance of the One",
+                "changes": [
+                    "Proc damge increased by 150%",
+                    "Proc generation cycle: 0.3 seconds → 0.75 seconds",
+                    "Max proc stack amount: 5 → 3"
+                ]
+            },
+            {
+                "name": "Astra, the Sword of Moonlight",
+                "changes": [
+                    "Proc damage: MAIN STAT X 40 → 750% ATK DMG DEALT + MAIN STAT X 32.5"
+                ]
+            },
+            {
+                "name": "Latea, the Ring of Overlord",
+                "changes": [
+                    "All stats: 1300 → 1250"
+                ]
+            },
+            {
+                "name": "Cold Ring of Death",
+                "changes": [
+                    "Active now counts damage taken before reductions rather than after",
+                    "Active damage: DMG TAKEN X 100% magic damage → DMG TAKEN X 500% pure damage (500% max HP limit)"
+                ]
+            },
+            {
+                "name": "Ring of Nightmare / Ring of Strike / Ring of Insanity",
+                "changes": [
+                    "Periodic damage: 25% / 25% / 35% → 20% / 25% / 30%",
+                    "Healing taken reduction: 25% / 25% / 35% → 20% / 25% / 30%"
+                ]
+            },
+            {
+                "name": "Cape of Corrupt Flame / Cloak of the Fallen Shadows / Cloak of Deep Abyss",
+                "changes": [
+                    "Added 9% / 12% / 13.5% periodic damage",
+                    "Passive now deals periodic damage of same type that procs it",
+                    "Passive now counts periodic damage dealt before armor / magic resistance / damage resistance",
+                    [
+                        "Dealing 10000 magic damage to target with 90% magic resistance will deal 1000 magic damage and passive will apply 1500 periodic magic damage"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Corruptor Rectus",
+                "changes": [
+                    "Can now be re-entered after failure"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Bloodbath (D)",
+                    [
+                        "Proc chance: 15% → 17%",
+                        "Periodic damage no longer activates single-target effects, instead when passive procs a 0 damage single-target hit applies to target"
+                    ]
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "Devil's Mirror (E)",
+                    [
+                        "Damage dealt increase now applies to both self and Fantasm (D)",
+                        "Now always applies damage dealt increase debuff, but duration is changed to 3 ~ 12 seconds depending on distance between hero and illusion"
+                    ],
+                    "Stage Finisher (T)",
+                    [
+                        "Can no longer be casted on non-marked targets"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Increased damage limit that dummies can record",
+            "-record command now properly displays magic resistance of enemy targets",
+            "bonus damage dealt / damage multiplier provided by some items now properly combined and displayed",
+            [
+                "Currently only applies to Latea, the Ring of Overlord / Halo of Judgment / Radiance of the One / Atricia, the Sword of Dreams, may be expanded to others",
+                "Display text will show: 100000 (+20%) if overlord procs"
+            ],
+            "Critical damage now has an exclamation point added to the floating text for easier identification",
+            "More spells now count as periodic damage (full list can be found in pinned messages in #tw-chat on official map server)"
+        ]
+    },
+    {
         "name": "42d",
         "notes": [
             "Released on: December 23rd, 2020",

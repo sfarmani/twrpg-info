@@ -3217,7 +3217,7 @@
         "passive": [
             "Drowns in enemies' blood to become immersed in battle.",
             "Heals for Max HP X 6% on each attack",
-            "15% chance to leave bleeding on each attack",
+            "17% chance to leave bleeding on each attack",
             "Deals Attack Damage X 200% damage per second",
             "Bleeding damage stacks with other Berserker players",
             "Duration: 5 seconds"
@@ -5080,7 +5080,7 @@
         "active": [
             "Switches position with your illusion.",
             "AGI X 75 magic damage",
-            "If cast outside 1000 range, increases your damage dealt to enemies within center by 20% for 12 seconds"
+            "Increases your damage dealt to target by 20% for 3~12 seconds based on move distance"
         ]
     },
     {

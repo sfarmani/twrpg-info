@@ -5615,8 +5615,8 @@
     "stats": {
       "strength": 910,
       "agility": 840,
-      "periodicdamagepercent": 0.25,
-      "healreceivedpercent": -0.25,
+      "periodicdamagepercent": 0.20,
+      "healreceivedpercent": -0.20,
       "passive": [
         "5% Chance to activate Nightmare on attack",
         "Gain 15000 ATK DMG, 900 MAIN STAT, and 1000 HP regen for 6 seconds"
@@ -14093,8 +14093,8 @@
       "passive": [
         "DMG DEALT by attack +15%",
         "On attack, activates Judgment",
-        "Adds 1 stack every 0.3 seconds with a max stack of 5",
-        "Consume 1 stack on attack and deal (MAIN STAT X 1.5) pure damage on attack"
+        "Adds 1 stack every 0.75 seconds with a max stack of 3",
+        "Consume 1 stack on attack and deal (MAIN STAT X 3.75) pure damage on attack"
       ],
       "active": [
         "Block magic every 1 minute and 30 seconds"
@@ -16435,7 +16435,7 @@
       "active": [
         "On use, activate Darkness Ray",
         "Absorbs all DMG TAKEN for 3 seconds and unleashes it around user",
-        "Deals (absorbed DMG + ATK DMG) magic damage",
+        "Deals (absorbed DMG + ATK DMG X 5) magic damage",
         "Cannot exceed 1 million damage"
       ],
       "spec": [
@@ -16752,6 +16752,7 @@
       "intelligence": 325,
       "mdpercent": 0.09,
       "hpregen": -175,
+      "periodicdamagepercent": 0.09,
       "passive": [
         "Single-target skill hits engulf target in corrupt flames",
         "Deals 10% additional damage over 3 seconds (effect stacks)"
@@ -17180,6 +17181,7 @@
       "intelligence": 540,
       "mdpercent": 0.12,
       "hpregen": -250,
+      "periodicdamagepercent": 0.12,
       "passive": [
         "On single-target hits, engulfs target with Corruption",
         "Deals 12.5% additional damage over 3 seconds (effect stacks)",
@@ -18596,8 +18598,8 @@
     "stats": {
       "strength": 1340,
       "agility": 1260,
-      "periodicdamagepercent": 0.35,
-      "healreceivedpercent": -0.35,
+      "periodicdamagepercent": 0.30,
+      "healreceivedpercent": -0.30,
       "passive": [
         "12.5% Chance to activate Frenzy on attack",
         "Next 3 hits will deal an additional 100% ATK DMG",
@@ -18632,7 +18634,7 @@
       }
     ],
     "stats": {
-      "allstat": 1300,
+      "allstat": 1250,
       "skilldamagepercent": 0.12,
       "passive": [
         "20% chance of 20% additional damage",
@@ -19283,8 +19285,8 @@
       "passive": [
         "DMG DEALT by attack +18%",
         "On attack, activates Judgment",
-        "Adds 1 stack every 0.3 seconds with a max stack of 5",
-        "Consume 1 stack on attack to do (MAIN STAT X 2) pure damage on attack"
+        "Adds 1 stack every 0.75 seconds with a max stack of 3",
+        "Consume 1 stack on attack to do (MAIN STAT X 5) pure damage on attack"
       ],
       "active": [
         "Block magic every 1 minute"
@@ -20697,7 +20699,7 @@
       "skilldamagepercent": 0.15,
       "passive": [
         "10% chance to activate Moonlight Slash",
-        "Deals (40 X MAIN STAT) magic splash damage and stuns for 0.25s",
+        "Deals (750% ATK DMG DEALT + MAIN STAT X 32.5) magic splash damage and stuns for 0.25s",
         "Every 3rd proc deals 200% DMG"
       ],
       "active": [
@@ -21523,6 +21525,7 @@
       "agility": 700,
       "intelligence": 700,
       "mdpercent": 0.135,
+      "periodicdamagepercent": 0.135,
       "passive": [
         "On direct hit, activates Drowning Abyss",
         "Deals 15% of effect's damage over 5 seconds",
