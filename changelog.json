@@ -1,5 +1,23 @@
 [
     {
+        "name": "43d",
+        "notes": [
+            "Released on: January 11th, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Damage - Fixed invincible units taking damage if it targetted them before invincibility",
+            "Ring of Insanity - Fixed providing 35% periodic damage/healing taken reduciton instead of intended 30%",
+            "Magic immunity - Fixed not blocking silence",
+            "Reaper - Fixed damage-related bug on Consecutive strikes (W)+Death's slash (R)",
+            "Lightning Mage - Fixed spells being able to crit without Short circuit (D) proc",
+            "Arcane Mage - Fixed Moonlight Link (D) only restoring 30% hp and mana instead of intended 35%",
+            "Valtora - Fixed shackle re-applying on death",
+            "Ifrit - Fixed wheel-related bug",
+            "Agareth - Fixed bugs related to minigame and arena entrance"
+        ]
+    },
+    {
         "name": "43c",
         "notes": [
             "Released on: January 10, 2021",
