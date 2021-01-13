@@ -16296,7 +16296,7 @@
       "healreceivedpercent": -0.25,
       "passive": [
         "7.5% Chance to activate Absolute Strike on attack",
-        "Next 3 hits will deal an additional 100% ATK DMG",
+        "Next 3 hits will deal an additional (ATK DMG X 2) pure damage",
         "Also gain 20000 ATK DMG, 1000 MAIN STAT, and 1000 HP regen for 7.5 seconds",
         "Absolute Strike cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
@@ -18602,7 +18602,7 @@
       "healreceivedpercent": -0.30,
       "passive": [
         "12.5% Chance to activate Frenzy on attack",
-        "Next 3 hits will deal an additional 100% ATK DMG",
+        "Next 3 hits will deal an additional (ATK DMG X 2) pure damage",
         "Also gain 25000 ATK DMG, 1250 MAIN STAT and HP regen for 7.5 seconds",
         "Frenzy cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
