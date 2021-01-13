@@ -10891,7 +10891,7 @@
       "skilldamagepercent": 0.06,
       "passive": [
         "(8 + HIT COUNT X 0.2)% Chance to activate Grace Tear on attack",
-        "Deals ((MAIN STAT X 17) + (ATK DMG X 5)) magic splash damage and stuns for 0.1 seconds"
+        "Deals ((MAIN STAT X 15) + (ATK DMG DEALT X 3)) magic splash damage and stuns for 0.1 seconds"
       ],
       "spec": [
         "Specialty - Redemption",
@@ -11388,7 +11388,7 @@
       "skilldamagepercent": 0.09,
       "passive": [
         "(8 + HIT COUNT X 0.2)% Chance to activate Grace Tear on attack",
-        "Deals ((MAIN STAT X 23) + (ATK DMG X 6.5)) magic splash damage and stuns for 0.1 seconds"
+        "Deals ((MAIN STAT X 20) + (ATK DMG DEALT X 3)) magic splash damage and stuns for 0.1 seconds"
       ],
       "spec": [
         "Specialty - Redemption",
@@ -12701,7 +12701,7 @@
       "skilldamagepercent": 0.12,
       "passive": [
         "(8 + HIT COUNT X 0.2)% chance to activate Grace Tear on attack",
-        "Deals ((MAIN STAT X 32.5) + (ATK DMG X 7.5)) magic splash damage and stuns for 0.1 seconds"
+        "Deals ((MAIN STAT X 30) + (ATK DMG DEALT X 3)) magic splash damage and stuns for 0.1 seconds"
       ],
       "active": [
         "On use, activates Grand Forte",
@@ -20699,7 +20699,7 @@
       "skilldamagepercent": 0.15,
       "passive": [
         "10% chance to activate Moonlight Slash",
-        "Deals (750% ATK DMG DEALT + MAIN STAT X 32.5) magic splash damage and stuns for 0.25s",
+        "Deals ((MAIN STAT X 30) + (ATK DMG DEALT X 3)) magic splash damage and stuns for 0.25s",
         "Every 3rd proc deals 200% DMG"
       ],
       "active": [

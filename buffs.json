@@ -134,7 +134,9 @@
         "suffix": "None",
         "bufftype": "All Stats",
         "names": [
-            "Elementalist - Refreshing Well [W] → [Passive] (Aura)"
+            "Elementalist - Refreshing Well [W] → [Passive] (Aura)",
+            "Lancer - Meteor Spear [T] → [Active]",
+            "Crusader - Flash of Immortality [W] → [Active]"
         ]
     },
     {

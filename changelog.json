@@ -1,5 +1,113 @@
 [
     {
+        "name": "43e",
+        "notes": [
+            "Released on: January 12th, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Agareth - Fixed catapults in minigame not disappearing",
+            "Astra, the Sword of Moonlight - Fixed proc damage formula ignoring attack damage dealt",
+            "Astra, the Sword of Moonlight - Fixed damage increase debuff from active affecting periodic damage"
+        ],
+        "items": [
+            {
+                "name": "Bahanar, the Sword of Illusion",
+                "changes": [
+                    "Proc damage: 500% ATK DMG dealt + MAIN STAT X 17 → 300% ATK DMG dealt + MAIN STAT X 15"
+                ]
+            },
+            {
+                "name": "Bahanar, the True Sword of Illusion",
+                "changes": [
+                    "Proc damage: 650% ATK DMG dealt + MAIN STAT X 23 → 300% ATK DMG dealt + MAIN STAT X 20"
+                ]
+            },
+            {
+                "name": "Meacronacer, the Sword of Thousand Illusions",
+                "changes": [
+                    "Proc damage: 750% ATK DMG dealt + MAIN STAT X 32.5 → 300% ATK DMG dealt + MAIN STAT X 30"
+                ]
+            },
+            {
+                "name": "Astra, the Sword of Moonlight",
+                "changes": [
+                    "Proc damage: 750% ATK DMG dealt + MAIN STAT X 32.5 → 300% ATK DMG dealt + MAIN STAT X 30"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Flame Nightmare",
+                "changes": [
+                    "Anger / Hatred",
+                    [
+                        "Magic resistance: 85% → 100%"
+                    ]
+                ]
+            },
+            {
+                "name": "Zombie Lord",
+                "changes": [
+                    "Worshipper of Immortality",
+                    [
+                        "Magic resistance: 85% → 100%"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Meteor Spear (T)",
+                    [
+                        "Stat buff changed to Type-B"
+                    ]
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Remains of Rage (Q)",
+                    [
+                        "Now is a stack-based spell (1 stack restored every 4 seconds, up to 4 stacks)",
+                        "Damage: 1250% max HP → 750% max HP",
+                        "Cast range: 800 → 900",
+                        "Radius: 275 → 325",
+                        "Debuff duration: 4 seconds → 3 seconds",
+                        "Debuff now slows MOV SPD by 60% and increases damage dealt to target by 10%",
+                        "No longer pulls enemies within 75 radius of center"
+                    ],
+                    "Flash of Immortality (W)",
+                    [
+                        "Increases stats by 50 + 10% → increasing self stats by 12% and stats of nearby allies by 6% (Type-B)"
+                    ],
+                    "1st Sword Dance: Strike (R)",
+                    [
+                        "Damage increase of Remains of Rage (Q): 100% → 250% (from 2500% max HP → 2625% max HP)"
+                    ],
+                    "Max Amplification: Execution Sword (T)",
+                    [
+                        "Passive - Now increases attack damage by 20%"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Distortion (R)",
+                    [
+                        "Damage taken increase: 10% → (INT + 6 / 2500)%"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Reduced map loading time"
+        ]
+    },
+    {
         "name": "43d",
         "notes": [
             "Released on: January 11th, 2021",
