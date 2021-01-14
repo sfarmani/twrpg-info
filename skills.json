@@ -982,10 +982,9 @@
         "order": 1,
         "passive": [
             "Her expertise in magic allows her to bend flames to her will.",
-            "Attacks and skills burn target",
+            "Attacks and skills burn target for ((Skill Level X 25 + INT X 2.5 + Damage Dealt X 0.5) X 0.875) magic damage over 3.6 seconds",
             "After casting skill, envelops feet in a trail of flame to increase movement speed by 250 for 1.5 seconds",
-            "Burning unit will explode on death",
-            "Movement speed bonus 250"
+            "Burning unit will explode on death"
         ]
     },
     {
@@ -1000,7 +999,8 @@
             "Gather the element of fire into a single orb, and shoot it at the target.",
             "Skill Level X 600 damage",
             "INT X 30 bonus damage",
-            "Deals additional damage equal to 25% of the burn damage the target is currently taking"
+            "Deals additional damage equal to 25% of the burn damage the target is currently taking",
+            "Stuns for 1 second"
         ]
     },
     {
@@ -1064,9 +1064,8 @@
         "order": 6,
         "active": [
             "Calls down meteor fragments that are drifting around the atmosphere.",
-            "Each fragment deals Skill Level X 1000 damage",
-            "Each fragment deals INT X 60 bonus damage",
-            "Total of 8 meteor fragments"
+            "Each fragment deals INT X 60 magic damage",
+            "Drops a total of 8 fragments"
         ]
     },
     {
@@ -1079,8 +1078,9 @@
         "order": 7,
         "active": [
             "\"Imagine a huge rock falling through the atmosphere onto the ground. Don't worry, the Earth won't be destroyed. It's not that big, and only you will be engulfed in the explosion..  \" - Mage",
-            "INT X 400 damage",
-            "Summons 16 meteor fragments each dealing INT X 15 damage"
+            "INT X 400 magic damage",
+            "Summons 12 little meteor fragments each dealing INT X 20 damage and stunning for 1 second",
+            "Huge rock stuns for 2 seconds on impact"
         ]
     },
     {
