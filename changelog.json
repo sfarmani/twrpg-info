@@ -16,8 +16,8 @@
             "Thunderer - Fixed Magnetic field (Passive) not generating stacks if hp of enemy that you deal/take damage from is low",
             "Soul Weaver - Fixed Harvest (A) not applying heal received reduction/movespeed slow",
             "Fire Mage - Fixed flame affinity being applied to Flame spirit (W) twice if it's cast on target",
-            "Witch - Fixed Hell gate (T) - Fallen power (Passive) not providing 40% magic resistance (also corrected description from 25% magic resistance to intended 40%)",
-            "Alchemist - Fixed Conjure earth (R) - Stone golem (R) - Earth protection (Passive) not providing 40% magic resistance"
+            "Witch - Fixed Fallen power (Passive) not providing 40% magic resistance (also corrected description)",
+            "Alchemist - Fixed Earth protection (Passive) not providing 40% magic resistance"
         ],
         "items": [
             {
