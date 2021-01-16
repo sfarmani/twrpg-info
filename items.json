@@ -16436,7 +16436,8 @@
         "On use, activate Darkness Ray",
         "Absorbs all DMG TAKEN for 3 seconds and unleashes it around user",
         "Deals (absorbed DMG + ATK DMG X 5) magic damage",
-        "Cannot exceed 1 million damage"
+        "Cannot exceed 1 million damage",
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialties - Cold Ring of Death",
