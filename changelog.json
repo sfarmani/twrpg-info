@@ -7,17 +7,17 @@
         ],
         "bugs": [
             "Wings of Death - Fixed being able to take magic damage while flying",
-            "Anger / Hatred / Worshipper of Immortality - Fixed not having magic resistance",
+            "Anger / Hatred / Worshipper of Immortality - Fixed not having magic defense",
             "Corruptor Rectus - Fixed life orb being killable",
             "The Ender - Fixed adding damage output regardless of targets hp",
-            "Gunner - Fixed additional attacks from Ring of divine winds consuming extra Beyond the horizon (D) bullets",
-            "Gunner - Fixed cooldown reset cancelling Outlaw (W) / Fanning (R) cast",
+            "Gunner - Fixed additional attacks from Ring of divine winds consuming extra bullets",
+            "Gunner - Fixed cooldown reset cancelling (W) / (R) cast",
             "Gunner - Fixed Outlaw (W) cooldown not resetting if cooldown reset happens during Bullet time (T)",
-            "Thunderer - Fixed Magnetic field (Passive) not generating stacks if hp of enemy that you deal/take damage from is low",
+            "Thunderer - Fixed Magnetic field not generating stacks if hp of enemy that you deal/take damage from is low",
             "Soul Weaver - Fixed Harvest (A) not applying heal received reduction/movespeed slow",
-            "Fire Mage - Fixed flame affinity being applied to Flame spirit (W) twice if it's cast on target",
-            "Witch - Fixed Fallen power (Passive) not providing 40% magic resistance (also corrected description)",
-            "Alchemist - Fixed Earth protection (Passive) not providing 40% magic resistance"
+            "Fire Mage - Fixed flame affinity being applied to Flame spirit (W) twice if cast on target",
+            "Witch - Fixed Fallen power (Passive) not providing 40% magic defense (also corrected description)",
+            "Alchemist - Fixed Earth protection (Passive) not providing 40% magic defense"
         ],
         "items": [
             {
