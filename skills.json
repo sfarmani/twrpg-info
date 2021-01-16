@@ -78,7 +78,7 @@
         "order": 5,
         "active": [
             "Loads next attack with explosive shells.",
-            "Each arrow deals AGI X 100 bonus magic damage",
+            "Each arrow deals AGI X 80 bonus magic damage",
             "Stuns enemies for 0.5 seconds",
             "Recharges every 8 seconds, up to 4 charges",
             "Recharge cycle affected by flame affinity: (8 / (1 + 2 X flame affinity)) seconds",
@@ -691,13 +691,14 @@
         "color": "9465e2",
         "hotkey": "[Q]",
         "icon": "WarlockQ",
+        "cooldown": 0.5,
         "order": 2,
         "active": [
             "Call an evil spirit to rip apart dimension in the form of a cross.",
-            "Consumes Max MP X 20%",
-            "Deals Consumed MP X 450% damage",
-            "INT X 25 bonus damage",
-            "Deals (100 + 4 X Skill Damage Increase)% bonus damage to enemies in center and decreases their movement speed by 90% for 2 seconds"
+            "Consumes Max MP X 30%",
+            "Deals Consumed MP X 500% damage",
+            "INT X 30 bonus damage",
+            "Deals 300% bonus damage to enemies in center and decreases their movement speed by 90% for 2 seconds"
         ]
     },
     {
@@ -712,7 +713,7 @@
             "Creates an opening in dimension that spews corrupt energy to attack nearby enemies.",
             "Consumes Max MP X 30%",
             "Each attack deals Consumed MP X 20 magic damage",
-            "Gate's attack speed is increased by 2% for each 1% bonus attack speed of Warlock",
+            "Gate's attack speed is increased by 1% for each 1% bonus attack speed of Warlock",
             "Can maintain up to a maximum of 2 gates"
         ]
     },
@@ -779,9 +780,9 @@
         "order": 7,
         "passive": [
             "Try to satisfy my hunger..",
-            "Every attack deals INT X 5 damage",
+            "Every attack deals INT X 10 damage",
             "Every 4th attack splashes for 500% damage and heals you for Max HP X 7.5%",
-            "Every 16th attack activates Crucifixion"
+            "Every 12th attack activates Crucifixion"
         ]
     },
     {
@@ -2182,7 +2183,7 @@
             "Crusader's Max HP X 750% magic damage",
             "Stuns and pulls enemies toward center",
             "For 3 seconds, reduces target's movement speed by 60% and increases your damage dealt to the target by 10%",
-            "Gains 1 charge every 4 seconds (max 4)"
+            "Gains 1 charge every 6 seconds (max 4)"
         ]
     },
     {
@@ -2259,7 +2260,7 @@
         "order": 7,
         "passive": [
             "Increases the power of the Execution Sword.",
-            "Attack damage and skill damage increased by 20%"
+            "Attack damage and skill damage increased by 15%"
         ],
         "active": [
             "Summons an angel using your own body as a vessel to break the limits on the Execution Sword.",

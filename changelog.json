@@ -1,5 +1,108 @@
 [
     {
+        "name": "43g",
+        "notes": [
+            "Released on: January 16th, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Wings of Death - Fixed being able to take magic damage while flying",
+            "Anger / Hatred / Worshipper of Immortality - Fixed not having magic resistance",
+            "Corruptor Rectus - Fixed life orb being killable",
+            "The Ender - Fixed adding damage output regardless of targets hp",
+            "Gunner - Fixed additional attacks from Ring of divine winds consuming extra Beyond the horizon (D) bullets",
+            "Gunner - Fixed cooldown reset cancelling Outlaw (W) / Fanning (R) cast",
+            "Gunner - Fixed Outlaw (W) cooldown not resetting if cooldown reset happens during Bullet time (T)",
+            "Thunderer - Fixed Magnetic field (Passive) not generating stacks if hp of enemy that you deal/take damage from is low",
+            "Soul Weaver - Fixed Harvest (A) not applying heal received reduction/movespeed slow",
+            "Fire Mage - Fixed flame affinity being applied to Flame spirit (W) twice if it's cast on target",
+            "Witch - Fixed Hell gate (T) - Fallen power (Passive) not providing 40% magic resistance (also corrected description from 25% magic resistance to intended 40%)",
+            "Alchemist - Fixed Conjure earth (R) - Stone golem (R) - Earth protection (Passive) not providing 40% magic resistance"
+        ],
+        "items": [
+            {
+                "name": "Bloody Hatred",
+                "changes": [
+                    "Passive - Stack duration: 5 seconds → 6 seconds"
+                ]
+            },
+            {
+                "name": "Crimson Hatred",
+                "changes": [
+                    "INT: 2350 → 2450",
+                    "Passive - Stack duration: 5 seconds → 6 seconds"
+                ]
+            },
+            {
+                "name": "Seed of Malice",
+                "changes": [
+                    "Passive",
+                    [
+                        "HP restored: 10% → 4000",
+                        "Mana restored: 10% → 10000",
+                        "Max spawn radius slightly reduced",
+                        "Seeds can now spawn even when active is on"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Remains of Rage (Q)",
+                    [
+                        "Stack generation cycle: 4 seconds → 6 seconds"
+                    ],
+                    "1st Sword Dance: Strike (R)",
+                    [
+                        "Empowered Remains of Rage now applies its debuff"
+                    ],
+                    "Max Amplification: Execution Sword (T)",
+                    [
+                        "Passive - ATK and SKILL DMG: 20% → 15%"
+                    ]
+                ]
+            },
+            {
+                "name": "Sniper",
+                "changes": [
+                    "Explosive Shot (R)",
+                    [
+                        "Damage: AGI X 100 → AGI X 80"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Crucifixion (Q)",
+                    [
+                        "Cooldown: 8 seconds → 0.5 seconds",
+                        "Mana cost: 20% max MP → 30% max MP",
+                        "Damage: 450% consumed MP + INT X 25 → 500% consumed MP + INT X 30",
+                        "Bonus damage in center: (100 + SKILL DMG X 4)% → 300%",
+                        "Can no longer be casted without enough MP",
+                        "Center hit radius slightly increased"
+                    ],
+                    "Dimension Collapse (W)",
+                    [
+                        "ATK cooldown: 4 seconds → 2.5 seconds",
+                        "ATK SPD increase per 1% of owner's pure ATK SPD: 2% → 1%"
+                    ],
+                    "Demonic Fury (T) - Hunger (passive)",
+                    [
+                        "Damage per ATK: INT X 5 → INT X 10",
+                        "Number of attacks to activate Crucifixion: 16 → 12"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Rolled back faster map load speed (was causing unprecented bugs)"
+        ]
+    },
+    {
         "name": "43e",
         "notes": [
             "Released on: January 12th, 2021",

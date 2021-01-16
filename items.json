@@ -12934,7 +12934,7 @@
       "intelligence": 2340,
       "skilldamagepercent": 0.075,
       "passive": [
-        "Temporarily increase INT by 150, flame affinity by 2% on casting skill for 5 seconds (Stacks up to 5 times)"
+        "Temporarily increase INT by 150, flame affinity by 2% on casting skill for 6 seconds (Stacks up to 5 times)"
       ],
       "active": [
         "On use, activates Eye of Hatred",
@@ -19017,9 +19017,9 @@
       "skilldamagepercent": 0.09,
       "passive": [
         "Landing a spell generates Seed of Malice nearby",
-        "Absorbs when approached, it restores 10% HP/MP and adds stack of Evil Magic for 10 seconds",
+        "Absorbs when approached, it restores 4000 HP and 10000 MP and adds stack of Evil Magic for 10 seconds",
         "Evil Magic increases damage output by 2% per stack and stacks up to 5 times",
-        "Cannot be generated during Forbidden Magic",
+        "Can be generated during Forbidden Magic",
         "Cooldown: 4 seconds"
       ],
       "active": [
@@ -20308,10 +20308,10 @@
     ],
     "stats": {
       "damage": 25000,
-      "intelligence": 2350,
+      "intelligence": 2450,
       "skilldamagepercent": 0.08,
       "passive": [
-        "On skill cast, temporarily increases INT by 250 and flame affinity by 2.5% (stacks up to 5 times)"
+        "On skill cast, temporarily increases INT by 250 and flame affinity by 2.5% for 6 seconds (stacks up to 5 times)"
       ],
       "active": [
         "On use, activates Beam of Hatred",
