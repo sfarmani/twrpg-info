@@ -84,7 +84,12 @@
                         "Bonus damage in center: (100 + SKILL DMG X 4)% → 300%",
                         "Can no longer be casted without enough MP",
                         "Center hit radius slightly increased"
-                    ],
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
                     "Dimension Collapse (W)",
                     [
                         "ATK cooldown: 4 seconds → 2.5 seconds",
