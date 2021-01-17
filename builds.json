@@ -731,10 +731,13 @@
         "stat": "INT",
         "version": "40b",
         "description": [
+            "Attack speed is important for Alchemist, especially early game when you don't have Ring of Divine winds yet",
+            "Use this weapon progression to counter the lack of attack speed: Staff of Contagion → Staff of Domination → Staff of Plague",
             "Use Ender with Zombie Lord Icon for a better weapon"
         ],
         "items": {
             "Ethenos, the Staff of Chaos": [
+                "Staff of Plague",
                 "The Ender"
             ],
             "Prophetia, the Origin of Knowledge": [],
