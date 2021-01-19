@@ -725,6 +725,34 @@
         }
     },
     {
+        "for": "Trickster",
+        "type": "DPS",
+        "order": 1,
+        "stat": "AGI",
+        "version": "43h",
+        "description": [
+            "This build is a spell caster build with items that give crit since Trickster's Q and T have crit.",
+            "The alt items are support items, since they can be used twice."
+        ],
+        "items": {
+            "Cosmic Reaper": [
+                "Heaven's Door"
+            ],
+            "Horn of Demon God": [
+                "Spirit of Protector"
+            ],
+            "Ring of Frozen Soul": [
+                "Horn of God"
+            ],
+            "Athanasia, the Armor of the Reaper": [
+                "Harmony of Sky and Earth"
+            ],
+            "Storm": [
+                "Protection of the Fairies"
+            ]
+        }
+    },
+    {
         "for": "Alchemist",
         "type": "DPS with support",
         "order": 1,

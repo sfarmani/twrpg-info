@@ -1,5 +1,16 @@
 [
     {
+        "name": "43h",
+        "notes": [
+            "Released on: January 17th, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Gunner - Fixed Fanning (R) not consuming Ammo",
+            "Reaper - Fixed Death's Slash (R) not activating on-attack effects and double attacks"
+        ]
+    },
+    {
         "name": "43g",
         "notes": [
             "Released on: January 16th, 2021",
