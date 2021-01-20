@@ -1,5 +1,16 @@
 [
     {
+        "name": "43k",
+        "notes": [
+            "Released on: January 19th, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Turtle Lord - Fixed Healing Turtles not having magic defense",
+            "Merchant - Fixed bugs related to Bag of Explosions (T) / Bag of Despair's Cursed Doll (T)"
+        ]
+    },
+    {
         "name": "43h",
         "notes": [
             "Released on: January 17th, 2021",
