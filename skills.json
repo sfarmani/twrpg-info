@@ -2036,7 +2036,6 @@
             "Create an orb of lightning and fling it forward.",
             "INT X 20 damage",
             "Explodes after 6 seconds to deal INT X 20 damage",
-            "Energy Consumption: 40 ~ 30",
             "Bypasses terrain"
         ]
     },
