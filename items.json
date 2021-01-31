@@ -7461,7 +7461,7 @@
     ],
     "type": "[Ring]",
     "color": "C71585",
-    "level": 360,
+    "level": 380,
     "droprate": 0.01,
     "required_by": [
       "Latea, the Ring of Overlord",
@@ -18487,8 +18487,9 @@
       "mdpercent": 0.05,
       "passive": [
         "On skill cast, activates Wind Fury for 1.5 seconds",
-        "Increases MOV SPD past 500 limit",
-        "Next 2 attacks hit once to deal bonus 50% ATK DMG"
+        "Next 2 attacks hit once to deal bonus 50% ATK DMG",
+        "Increases MOV SPD by 300",
+        "Bonus MOV SPD decreases by half over buff duration"
       ]
     }
   },
@@ -18526,7 +18527,8 @@
       "passive": [
         "On skill cast, activates Wind Fury for 1.5 seconds",
         "Next 3 attacks hit once more and deal 50% ATK DMG",
-        "Increases MOV SPD past 500 limit"
+        "Increases MOV SPD by 300",
+        "Bonus MOV SPD decreases by half over buff duration"
       ]
     }
   },
@@ -19923,8 +19925,8 @@
       "passive": [
         "On skill cast, activates Wind Fury for 1.5 seconds",
         "Next 2 attacks hit 2 more times and deals 50% ATK DMG",
-        "Increases AGI by 250",
-        "Increases MOV SPD past 500 limit"
+        "Increases AGI by 250 and MOV SPD by 400",
+        "Bonus MOV SPD decreases by half over buff duration"
       ]
     }
   },
