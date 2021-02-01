@@ -1,0 +1,160 @@
+[
+	{
+		"name": "item",
+		"details": [
+			"ability is granted by item"
+		]
+	},
+	{
+		"name": "hero",
+		"details": [
+			"hero has this ability"
+		]
+	},
+	{
+		"name": "active",
+		"details": [
+			"ability can be used manually"
+		]
+	},
+	{
+		"name": "passive",
+		"details": [
+			"ability can not be used manually"
+		]
+	},
+	{
+		"name": "aura",
+		"details": [
+			"ability affects nearby units"
+		]
+	},
+	{
+		"name": "trigger",
+		"details": [
+			"ability works when some event happens"
+		]
+	},
+	{
+		"name": "passive_cooldown",
+		"details": [
+			"passive works once per period of time"
+		]
+	},
+	{
+		"name": "channeling",
+		"details": [
+			"ability can be casted further"
+		]
+	},
+	{
+		"name": "damage",
+		"details": [
+			"ability deals damage"
+		]
+	},
+	{
+		"name": "damagetype_phys",
+		"details": [
+			"ability damage type is physical"
+		]
+	},
+	{
+		"name": "damagetype_magic",
+		"details": [
+			"ability damage type is magic"
+		]
+	},
+	{
+		"name": "damagetype_pure",
+		"details": [
+			"ability damage type is pure"
+		]
+	},
+	{
+		"name": "heal",
+		"details": [
+			"ability can restore life",
+			"affected by \"healing\" attribute"
+		]
+	},
+	{
+		"name": "regen",
+		"details": [
+			"ability can regenerate life",
+			"not affected by \"healing\" attribute"
+		]
+	},
+	{
+		"name": "buff",
+		"details": [
+			"ability applies positive effects"
+		]
+	},
+	{
+		"name": "debuff",
+		"details": [
+			"ability applies negative effects"
+		]
+	},
+	{
+		"name": "armor",
+		"details": [
+			"ability affects armor"
+		]
+	},
+	{
+		"name": "attack_damage",
+		"details": [
+			"ability affects attack damage"
+		]
+	},
+	{
+		"name": "attack_speed",
+		"details": [
+			"ability affects attack speed"
+		]
+	},
+	{
+		"name": "movement_speed",
+		"details": [
+			"ability affects movement speed"
+		]
+	},
+	{
+		"name": "skill_damage",
+		"details": [
+			"ability affects skill damage"
+		]
+	},
+	{
+		"name": "magic_resistance",
+		"details": [
+			"ability affects magic resistance"
+		]
+	},
+	{
+		"name": "damage_resistance",
+		"details": [
+			"ability affects damage resistance"
+		]
+	},
+	{
+		"name": "healing_received",
+		"details": [
+			"ability affects healing received stat"
+		]
+	},
+	{
+		"name": "stats",
+		"details": [
+			"ability affects hero attributes"
+		]
+	},
+	{
+		"name": "overall_damage",
+		"details": [
+			"ability affects overall damage stat"
+		]
+	}
+]

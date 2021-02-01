@@ -13,7 +13,13 @@
             "Channel to additionally heal for max HP X 15% per second",
             "Recovery period 0.25 seconds",
             "Can be channeled up to 2 seconds"
-        ]
+        ],
+		"active_tags": [
+			"hero",
+			"active",
+			"channeling",
+			"heal"
+		]
     },
     {
         "name": "Storm Shaft",
@@ -34,7 +40,24 @@
             "Attack Damage X 750% damage",
             "Reduces target's movement speed by 50% for 2 seconds",
             "Consumes lightning charges to deal 75% bonus damage per consumed charge"
-        ]
+        ],
+        "passive_tags": [
+            "hero",
+            "passive",
+            "trigger",
+			"damage",
+			"damagetype_magic",
+            "buff",
+            "stats"
+        ],
+		"active_tags": [
+            "hero",
+            "active",
+            "damage",
+            "damagetype_magic",
+            "debuff",
+            "movement speed"
+        ],
     },
     {
         "name": "Glide",
@@ -50,7 +73,13 @@
             "AGI X 8 bonus damage",
             "First 4 arrows are fired at last attacked target",
             "Fires up to 20 arrows based on moved distance"
-        ]
+        ],
+		"active_tags": [
+            "hero",
+            "active",
+            "damage",
+            "damagetype_magic"
+        ],
     },
     {
         "name": "Storm Aegis",
@@ -67,7 +96,13 @@
             "Gains maximum charges of lightning",
             "Decreases damage dealt from outside the barrier up to 80% based on distance from attacker",
             "Lasts 5 seconds"
-        ]
+        ],
+		"active_tags": [
+            "hero",
+            "active",
+            "damage",
+            "damagetype_magic"
+        ],
     },
     {
         "name": "Explosive Shot",
@@ -84,7 +119,14 @@
             "Recharge cycle affected by flame affinity: (8 / (1 + 2 X flame affinity)) seconds",
             "Chain: Skill - Increases damage by 25% and stun duration by 200%",
             "Chain: Glide - Decreases damage by 75% and adds splash effect"
-        ]
+        ],
+		"active_tags": [
+            "hero",
+            "active",
+			"trigger",
+            "damage",
+            "damagetype_magic"
+        ],
     },
     {
         "name": "Snipe",
@@ -104,6 +146,18 @@
             "Attack Damage X 5000% damage",
             "AGI X 200 bonus damage",
             "Deals 50% damage to other enemies that are hit by the arrow"
+        ],
+		"passive_tags": [
+            "hero",
+            "passive",
+			"buff",
+            "overall_damage"
+        ],
+		"active_tags": [
+            "hero",
+            "active",
+			"damage",
+            "damagetype_magic"
         ]
     },
     {
@@ -119,6 +173,12 @@
             "Deals AGI X 625 magic damage",
             "Deals up to 40% bonus damage, based on target's missing health (20% max HP)",
             "If cast from melee range, leaps before firing"
+        ],
+		"active_tags": [
+            "hero",
+            "active",
+			"damage",
+            "damagetype_magic"
         ]
     },
     {
