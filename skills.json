@@ -1319,7 +1319,7 @@
         ],
         "active": [
             "Empowers your chant to make it resonate further.",
-            "Next enchant affects allies within 600 range as well"
+            "Next enchant affects allies within 750 range as well"
         ]
     },
     {
@@ -4855,8 +4855,7 @@
         "order": 11,
         "active": [
             "Every 4th attack deals INT X 40 magic damage",
-            "Increases attack speed by 250%",
-            "Reduces damage taken by 20%",
+            "Increases attack speed by 250% and movement speed by 300",
             "Becomes immune to all CC and harmful effects",
             "Vanishes after 12 seconds"
         ]
