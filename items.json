@@ -3519,7 +3519,6 @@
       "Oceanus, the Sword of Light",
       "Dante's Inferno",
       "Crown of Serenity",
-      "Diana, the Robe of Holy Maiden",
       "Bell of Light",
       "Heaven's Fist",
       "Pure Crystal Wings",
@@ -7001,7 +7000,6 @@
       "Atricia, the Sword of Dreams",
       "Crimson Hatred",
       "Crown of Composure",
-      "Diana, the Robe of Holy Maiden",
       "Latea, the Ring of Overlord",
       "Cloak of the Fallen Shadows",
       "Grim Heart",
@@ -7231,6 +7229,7 @@
       "Soul of Abyss",
       "Cosmic Reaper",
       "Ethenos, the Staff of Chaos",
+      "Harmonia, the Sparkle of Life",
       "Archangel Icon"
     ],
     "recipe": [
@@ -7511,7 +7510,10 @@
       "Cape of Deep Abyss",
       "Horn of Demon God",
       "Seed of Malice",
-      "Voidshard Armor"
+      "Voidshard Armor",
+      "Harmonia, the Sparkle of Life",
+      "Archangel Wings",
+      "Protection of the Fairies"
     ],
     "koreanname": "죽음의 창두"
   },
@@ -7598,7 +7600,8 @@
       "Bag of Despair",
       "Eternal Winter",
       "Jupiter, the Robe of Heavens",
-      "Wings of Immortal"
+      "Wings of Immortal",
+      "Ring of the One"
     ],
     "stats": {
       "mainstat": 1200,
@@ -7670,7 +7673,9 @@
       "Soul Devourer",
       "Ring of Divine Winds",
       "Vest of Divine Winds",
-      "Astra, the Sword of Moonlight"
+      "Astra, the Sword of Moonlight",
+      "Harmonia, the Sparkle of Life",
+      "Ring of the One"
     ],
     "koreanname": "폭풍의 결정"
   },
@@ -7723,7 +7728,8 @@
       "Spirit of Protector",
       "Bloodseeker Plates",
       "Ring of Divine Winds",
-      "Chaos Pickaxe"
+      "Chaos Pickaxe",
+      "Harmonia, the Sparkle of Life"
     ],
     "koreanname": "빛나는 유적의 조각"
   },
@@ -7758,10 +7764,11 @@
       "Eternal Flame",
       "Bag of Despair",
       "Wings of Flame Lord",
-      "Crown of Extreme Anger",
+      "Crown of Great Anger",
       "Thanatos, the Robe of Hell",
       "Armageddon",
-      "Wings of Immortal"
+      "Wings of Immortal",
+      "Harmonia, the Sparkle of Life"
     ],
     "stats": {
       "mainstat": 1300,
@@ -7802,7 +7809,7 @@
       "Jupiter, the Robe of Heavens",
       "Prophetia, the Origin of Knowledge",
       "Ring of Frozen Soul",
-      "Seed of Malice",
+      "Mark of Sin",
       "Voidshard Armor"
     ],
     "koreanname": "화염의 가호"
@@ -7838,7 +7845,8 @@
       "Soul Devourer",
       "Horn of Demon God",
       "Vest of Divine Winds",
-      "Astra, the Sword of Moonlight"
+      "Astra, the Sword of Moonlight",
+      "Ring of the One"
     ],
     "koreanname": "화염의 결정"
   },
@@ -7948,7 +7956,8 @@
       "Soul Devourer",
       "Demonic Fist",
       "Astra, the Sword of Moonlight",
-      "Ring of Frozen Soul"
+      "Ring of Frozen Soul",
+      "Ring of the One"
     ],
     "koreanname": "바다의 결정"
   },
@@ -8078,7 +8087,7 @@
       "Punisher",
       "Bag of Explosion",
       "Radiance of the One",
-      "Crown of Extreme Anger"
+      "Crown of Great Anger"
     ],
     "koreanname": "용의 눈"
   },
@@ -13126,6 +13135,9 @@
     "type": "[Staff]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Harmonia, the Sparkle of Life"
+    ],
     "recipe": [
       {
         "Benziena, the Earthen Soul": 1
@@ -14232,7 +14244,7 @@
     "color": "DC143C",
     "level": 380,
     "required_by": [
-      "Crown of Extreme Anger"
+      "Crown of Great Anger"
     ],
     "recipe": [
       {
@@ -15329,7 +15341,6 @@
         "Fairy Garment": 1
       },
       {
-        "Essence of Darkness": 1,
         "Antimatter": 1
       },
       {
@@ -15337,9 +15348,6 @@
       },
       {
         "Spirit Orb": 1
-      },
-      {
-        "Sealed Archangel Wings": 1
       }
     ],
     "stats": {
@@ -16355,6 +16363,9 @@
     "type": "[Ring]",
     "color": "DC143C",
     "level": 380,
+    "required_by": [
+      "Harmonia, the Sparkle of Life"
+    ],
     "recipe": [
       {
         "True Guardian Ring": 1
@@ -16457,7 +16468,7 @@
     "level": 380,
     "required_by": [
       "Hood of Apocalypse",
-      "Seed of Malice"
+      "Mark of Sin"
     ],
     "recipe": [
       {
@@ -18419,7 +18430,7 @@
     "level": 380,
     "required_by": [
       "Ring of Despair",
-      "Seed of Malice"
+      "Mark of Sin"
     ],
     "recipe": [
       {
@@ -18619,6 +18630,9 @@
     "type": "[Ring]",
     "color": "99FF99",
     "level": 400,
+    "required_by": [
+      "Ring of the One"
+    ],
     "recipe": [
       {
         "Latea, the Ring of Chaos": 1
@@ -18990,6 +19004,46 @@
     }
   },
   {
+    "id": "I0PO",
+    "name": "Mark of Sin",
+    "koreanname": "죄악의 증표",
+    "description": "사용자의 죄악의 무게에 따라 더욱 더 강렬하게 빛난다고 한다.",
+    "type": "[Ring]",
+    "color": "99FF99",
+    "level": 400,
+    "required_by": [
+      "Seed of Malice"
+    ],
+    "recipe": [
+      {
+        "Grimoire of Darkness": 1
+      },
+      {
+        "Seal of Deceiver": 1
+      },
+      {
+        "Aegis of Flame": 1
+      }
+    ],
+    "stats": {
+      "allstat": 1100,
+      "mp": 12500,
+      "skilldamagepercent": 0.075,
+      "active": [
+        "On use, activates Forbidden Magic",
+        "Consumes 50% max MP",
+        "Increases MAIN STAT by (MP consumed / 60) and ATK SPD by 50% for 10 seconds",
+        "Consumes 1 Evil Magic stack per second and deals (INT X 25) magic damage to nearby enemies",
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialties - Transmission of Darkness, Forbidden Grimoire",
+        "Warlock - Forbidden Grimoire: While Forbidden Magic is active Soul Grimoire consumes no MP",
+        "Priest - Dark Aurora: Holy Aurora changes to Dark Aurora [Lv. 2], removing healing effect but increasing damage dealt"
+      ]
+    }
+  },
+  {
     "id": "I0P6",
     "name": "Seed of Malice",
     "koreanname": "악의 씨앗",
@@ -18999,16 +19053,10 @@
     "level": 400,
     "recipe": [
       {
-        "Grimoire of Darkness": 1
-      },
-      {
-        "Seal of Deceiver": 1
+        "Mark of Sin": 1
       },
       {
         "Spearhead of Death": 1
-      },
-      {
-        "Aegis of Flame": 1
       },
       {
         "Fragment of Hell": 1
@@ -19035,7 +19083,42 @@
       "spec": [
         "Specialties - Transmission of Darkness, Forbidden Grimoire",
         "Warlock - Forbidden Grimoire: While Forbidden Magic is active Soul Grimoire consumes no MP",
-        "Priest - Dark Aurora: Holy Aurora changes to Dark Aurora [Lv. 2], removing healing effect but increasing damage dealt"
+        "Priest - Dark Aurora: Holy Aurora changes to Dark Aurora [Lv. 3], removing healing effect but increasing damage dealt"
+      ]
+    }
+  },
+  {
+    "id": "I0PP",
+    "name": "Ring of the One",
+    "koreanname": "절대자의 반지",
+    "description": "만물을 제패한 자의 반지",
+    "type": "[Ring]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Latea, the Ring of Overlord": 1
+      },
+      {
+        "Shackles of Heaven": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Essence of Storm": 1
+      }
+    ],
+    "stats": {
+      "allstat": 1400,
+      "skilldamagepercent": 0.125,
+      "passive": [
+        "On attack, 20% chance of 25% additional damage",
+        "On skill cast, 15% chance to increase DMG DEALT by 5% for 5 seconds",
+        "On being hit, 10% Chance to activate Absolute Defense blocking all damage to user"
       ]
     }
   },
@@ -19382,6 +19465,42 @@
     }
   },
   {
+    "id": "I0PN",
+    "name": "Crown of Great Anger",
+    "koreanname": "격노의 화관",
+    "description": "사용자의 분노를 극대화시키는 화관",
+    "type": "[Helm/Hood]",
+    "color": "99FF99",
+    "level": 400,
+    "required_by": [
+      "Crown of Extreme Anger"
+    ],
+    "recipe": [
+      {
+        "Crown of Rage": 1
+      },
+      {
+        "Heart of Volcano": 1
+      },
+      {
+        "Dragon's Eye": 1
+      }
+    ],
+    "stats": {
+      "armor": 360,
+      "allstat": 750,
+      "skilldamagepercent": 0.07,
+      "affinityflamepercent": 0.06,
+      "active": [
+        "On use, activates Fury",
+        "Consumes 40% of current HP",
+        "Deals (flame affinity X (MAIN STAT X 150)) magic damage to nearby enemies",
+        "Increases all stats by 1.25% consumed HP (double for MAIN STAT) and flame affinity by 5% for 15 seconds",
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
     "id": "I0NF",
     "name": "Crown of Extreme Anger",
     "koreanname": "극대노의 화관",
@@ -19391,16 +19510,10 @@
     "level": 400,
     "recipe": [
       {
-        "Crown of Rage": 1
+        "Crown of Great Rage": 1
       },
       {
         "Eyes of the Watcher": 1
-      },
-      {
-        "Heart of Volcano": 1
-      },
-      {
-        "Dragon's Eye": 1
       },
       {
         "Fragment of Hell": 1
@@ -19418,7 +19531,7 @@
         "On use, activates Extreme Anger",
         "Consumes 50% of current HP",
         "Deals (flame affinity X (MAIN STAT X 250)) magic damage to nearby enemies",
-        "For 15 seconds, increases all stats by 1.25% consumed HP (double for MAIN STAT) and flame affinity by 7.5%",
+        "Increases all stats by 1.25% consumed HP (double for MAIN STAT) and flame affinity by 7.5% for 15 seconds",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -20321,6 +20434,62 @@
         "Deals (INT X 15.625) magic damage every 0.125 seconds and stuns for 0.5 seconds (up to 16 times)",
         "Deals up to 100% more damage based on target's missing HP",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0PA",
+    "name": "Harmonia, the Sparkle of Life",
+    "koreanname": "생명의 불꽃 하르모니아",
+    "description": "생명보다 아름다운 것은 없다.",
+    "type": "[Staff]",
+    "color": "99FF99",
+    "level": 400,
+    "recipe": [
+      {
+        "Benziena, the Earthen Heart": 1
+      },
+      {
+        "Ispion, the Runed Ring": 1
+      },
+      {
+        "Heart of Volcano": 1
+      },
+      {
+        "Essence of Light": 1
+      },
+      {
+        "Spearhead of Death": 1
+      },
+      {
+        "Essence of Storm": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "damage": 26000,
+      "intelligence": 2400,
+      "affinityearthpercent": 0.1,
+      "passive": [
+        "On skill cast activate Spark of Life",
+        "Applies to yourself and a nearby hero with the lowest HP",
+        "Heals (15000 + INT) HP over 9 seconds",
+        "Provides 15% damage resistance and 50 MOV SPD for duration",
+        "Cooldown: 3 seconds"
+      ],
+      "active": [
+        "On use, activates Life Bind",
+        "Provides 15% max HP regen and Spark of Life to allies within 600 radius for 10 seconds",
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialties - Earth Mastery",
+        "Elementalist - Seal of Earth: Duration increased by 10 seconds",
+        "Elementalist - Pulse of Protection: Cooldown reduced by 3 seconds",
+        "Elementalist - Earthen Protection: Radius increased by 500",
+        "Alchemist - Improved Stone Golem: Increases the size and Health of Golem by 15000 + 25%, applies permanent Spark of Life to golem and heals nearby allies"
       ]
     }
   },
@@ -21346,6 +21515,7 @@
         "Proof of Purification": 1
       },
       {
+        "Spearhead of Death": 1,
         "Fragment of Chaos": 1
       }
     ],
@@ -21379,15 +21549,16 @@
         "Guardian of the Skies": 1
       },
       {
-        "Aegis of Flame": 1
+        "Shackles of Heaven": 1
       },
       {
-        "Shackles of Heaven": 1
+        "Aegis of Flame": 1
       },
       {
         "Burning Bone Fragments": 1
       },
       {
+        "Spearhead of Death": 1,
         "Fragment of Chaos": 1
       },
       {

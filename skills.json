@@ -751,6 +751,7 @@
             "Consume Max MP X 25% per second",
             "Focus attacks of Dimension Collapse onto targeted area",
             "Orbs have 100% increased damage and 200% increased attack speed for channeled duration",
+            "Provides CC immunity for duration",
             "Duration: 4 seconds",
             "Channeling does not end when MP depleted if in Demonic Fury transformation"
         ]
@@ -3109,7 +3110,7 @@
         "order": 1,
         "passive": [
             "Continuously attack like flowing water.",
-            "Every 5th attack deals Attack Damage X 150% + 5 X (STR + AGI) bonus magic damage",
+            "Every 3rd attack deals Attack Damage X 150% + 5 X (STR + AGI) bonus magic damage",
             "Resets after 10 seconds without attack"
         ]
     },
@@ -3119,7 +3120,7 @@
         "color": "fe2101",
         "hotkey": "[Q]",
         "icon": "ThundererQ",
-        "cooldown": 8,
+        "cooldown": 6,
         "order": 2,
         "active": [
             "Focuses strength onto the tip of the spear to deliver powerful strikes.",
@@ -3164,7 +3165,7 @@
         "color": "fe2101",
         "hotkey": "[E]",
         "icon": "ThundererE",
-        "cooldown": 30,
+        "cooldown": 20,
         "order": 5,
         "active": [
             "Activate the shield of thunder to protect yourself and damage nearby enemies.",
@@ -3184,11 +3185,11 @@
         "order": 6,
         "active": [
             "Deliver a fatal blow by striking target's heart.",
-            "Attack Damage X 2500% magic damage",
-            "(STR + AGI) X 150 bonus damage",
+            "Attack Damage X 3000% magic damage",
+            "(STR + AGI) X 200 bonus damage",
             "Consumes Magnetic Field to deal up to a maximum of 100% bonus damage",
             "Breaks barriers and stuns for 1.5 seconds if max gauge is consumed",
-            "Cast time: 0.75 seconds"
+            "Cast time: 0.5 seconds"
         ]
     },
     {
@@ -4561,8 +4562,8 @@
         "order": 1,
         "passive": [
             "Forms a harmonious balance between attacking and healing.",
-            "Every 4th attack heals you and 1 nearby ally",
-            "Heals for target's max HP X 2% + INT X 0.4"
+            "Every 4th attack heals you and 2 nearby ally",
+            "Heals for target's max HP X 2% + INT X 0.5"
         ]
     },
     {
@@ -4919,7 +4920,7 @@
             "STR X 25 bonus damage",
             "If target is CRACKED, cooldown is reset",
             "If target is SHATTERED, consumes it to deal 200% damage",
-            "Empowered: Deals 300% damage and if target is CRACKED, has 40% chance to leave it SHATTERED for 5 seconds"
+            "Empowered: Deals 300% damage and if target is CRACKED, has 50% chance to leave it SHATTERED for 5 seconds"
         ]
     },
     {
@@ -4987,8 +4988,8 @@
         "order": 7,
         "active": [
             "Gathers energy into your fist to release a powerful strike.",
-            "Attack Damage X 2000% magic damage",
-            "STR X 150 bonus damage",
+            "Attack Damage X 3000% magic damage",
+            "STR X 200 bonus damage",
             "Empowered: Deals up to 300% damage based on travelled distance"
         ]
     },

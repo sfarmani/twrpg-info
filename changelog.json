@@ -1,5 +1,196 @@
 [
     {
+        "name": "44b",
+        "notes": [
+            "Released on: February 4th, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Areas - Fixed not being able to re-enter some areas properly",
+            "Skeleton King Desperia - Fixed stomp triggers not resetting upon fight failure",
+            "Ring of the One - Fixed providing armor instead of INT",
+            "Swordsman - Fixed not having a description on hero select screen (elemental mages will be separated in future)"
+        ]
+    },
+    {
+        "name": "44a",
+        "notes": [
+            "Released on: February 4th, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Swordsman - Fixed Sword Storm (E) not removing unit collision if any other spell is casted after it",
+            "Audio - Fixed BGM from Halloween event sometimes playing"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New recipes added",
+                    [
+                        "Harmonia, the Sparkle of Life",
+                        [
+                            "Recipe: Benziena, the Earthen Heart + Ispion, the Runed Ring + Heart of Volcano + Essence of Light + Spearhead of Death + Essence of Storm + Shining Fragment of Ruins"
+                        ],
+                        "Crown of Great Rage",
+                        [
+                            "Recipe: Crown of Rage + Heart of Volcano + Dragon's Eye"
+                        ],
+                        "Mark of Sin",
+                        [
+                            "Recipe: Grimoire of Darkness + Seal of Deceiver + Aegis of Flame"
+                        ],
+                        "Ring of the One",
+                        [
+                            "Reipce: Latea, the Ring of Overlord + Shackles of Heaven + Essence of Flame + Essence of Sea + Essence of Storm"
+                        ]
+                    ]
+                ]
+            },
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Changed some recipes",
+                    [
+                        "Diana, the Robe of Holy Maiden",
+                        [
+                            "Old recipe: Fairy Garment + Essence of Darkness/Antimatter + Proof of Purification + Spirit Orb + Sealed Archangel Wings",
+                            "New recipe: Fairy Garment + Antimatter + Proof of Purification + Spirit Orb"
+                        ],
+                        "Archangel Wings",
+                        [
+                            "Old recipe: Pure Crystal Wings + Guardian of the Skies + Aegis of Flame + Shackles of Heaven + Burning Bone Fragments + Fragment of Chaos + Sealed Archangel Wings",
+                            "New recipe: Pure Crystal Wings + Guardian of the Skies + Aegis of Flame + Shackles of Heaven + Burning Bone Fragments + Spearhead of Death/Fragment of Chaos + Sealed Archangel Wings",
+                            "Fragment of Chaos will be removed in the future"
+                        ],
+                        "Protection of the Fairies",
+                        [
+                            "Old recipe: Embrace of Nature + Soul of the Dead + Aegis of Flame + Aegis of Storm + Proof of Purification + Fragment of Chaos",
+                            "New recipe: Embrace of Nature + Soul of the Dead + Aegis of Flame + Aegis of Storm + Proof of Purification + Spearhead of Death/Fragment of Chaos",
+                            "Fragment of Chaos will be removed in the future"
+                        ],
+                        "Crown of Extreme Anger",
+                        [
+                            "Old recipe: Crown of Rage + Eyes of the Watcher + Heart of Volcano + Dragon's Eye + Fragment of Hell + Shining Fragment of Ruins",
+                            "New recipe: Crown of Great Rage + Eyes of the Watcher + Fragment of Hell + Shining Fragment of Ruins"
+                        ],
+                        "Seed of Malice",
+                        [
+                            "Old recipe: Grimoire of Darkness + Seal of Deceiver + Spearhead of Death + Aegis of Flame + Fragment of Hell",
+                            "New recipe: Mark of Sin + Spearhead of Death + Fragment of Hell"
+                        ]
+                    ]
+                ]
+            },
+            {
+                "name": "Crown of Extreme Anger",
+                "changes": [
+                    "Active - Changed to look different form active of Crown of Rage"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Bone Dragon",
+                "changes": [
+                    "Now returns to original position upon failure"
+                ]
+            },
+            {
+                "name": "Corruptor Rectus",
+                "changes": [
+                    "Now returns to original position upon failure"
+                ]
+            },
+            {
+                "name": "Skeleton King",
+                "changes": [
+                    "Can be re-entered upon failure"
+                ]
+            },
+            {
+                "name": "Guardian Angels / Archangel Samael",
+                "changes": [
+                    "Now disappear 30 seconds after summoning Kamael / Zadiel instead of spawning them."
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Skull Pounder (Q)",
+                    [
+                        "Shattered proc chance: 40% → 50%"
+                    ],
+                    "Dragon Fist (T)",
+                    [
+                        "Damage: 2000% ATK DMG + STR X 150 → 3000% ATK DMG + STR X 200",
+                        "Cast time: 1 second → 0.5 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Swift Strike (D)",
+                    [
+                        "Number of attacks to proc on next attack: 4 → 3"
+                    ],
+                    "Three Talon Strike (Q)",
+                    [
+                        "Cooldown: 8 seconds → 6 seconds"
+                    ],
+                    "Thunder Shield (E)",
+                    [
+                        "Cooldown: 30 seconds → 20 seconds"
+                    ],
+                    "Heart Break (R)",
+                    [
+                        "Damage: 2500% ATK DMG + (STR + AGI) X 150 → 3000% ATK DMG + (STR + AGI) X 200",
+                        "Cast time: 0.75 seconds → 0.5 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Perfect Harmony (D)",
+                    [
+                        "Amount of allies healed: 1 → 2",
+                        "Healing amount: 2% target max HP + INT X 0.4 → 2% target max HP + INT X 0.5"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Soul Grimoire (R)",
+                    [
+                        "Now provides CC immunity for duration"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Conjure Earth (R) - Potion Transmutation (W)",
+                    [
+                        "Amount of potions created: 1 / 2 → 3"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Updated hero selection screen",
+            [
+                "Now shows most heroes at same time",
+                "Hero description changed to shortly describe their role and playstyle"
+            ],
+            "Added floating text to guide players to first leveling area"
+        ]
+    },
+    {
         "name": "43k",
         "notes": [
             "Released on: January 19th, 2021",
