@@ -213,19 +213,20 @@
             "For max DPS it is recommended to go with the first items",
             "The alternate items are for bursting options, as well as defense / support if your team is lacking it",
             "Make your way to Aglaia until you reach Splitting as its easier to make first",
-            "Build your way up to Ring of Frozen Soul, make Overlord if you feel like you are super far from it. Use Ispion early on if team lacks support."
+            "Use Astra and Demonic Fist to make an alternative DPS build",
+            "Build your way up to Ring of Frozen Soul, make Overlord if you feel like you are super far from it"
         ],
         "items": {
             "Calamity": [
                 "Splitting of the Sky and Earth",
-                "Aglaia, the Spear of Heavenly Flows"
+                "Astra, the Sword of Moonlight"
             ],
             "Horn of Demon God": [
                 "Crown of Extreme Anger"
             ],
             "Ring of Frozen Soul": [
                 "Latea, the Ring of Overlord",
-                "Ispion, the Runed Ring"
+                "Demonic Fist"
             ],
             "Felspike Armor": [
                 "Plates of Lightning",

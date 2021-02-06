@@ -17241,7 +17241,10 @@
         "Reduces MOV and ATK SPD by 20% of nearby enemies"
       ],
       "active": [
-        "'Grim Howl' Restores 33% of Max Health and stuns nearby enemies for 1 second while decreasing their ATK DMG for 8 seconds. (-Healing does not stack with others) (40 second CD)"
+        "On use, activates Grim Howl",
+        "Heals 33% of user's max HP and stuns nearby enemies for 1 second",
+        "Decreases target's ATK DMG by 25% for 8 seconds",
+        "Cooldown: 40 seconds, cannot be dropped during cooldown"
       ]
     }
   },
