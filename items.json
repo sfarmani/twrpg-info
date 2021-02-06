@@ -7764,7 +7764,7 @@
       "Eternal Flame",
       "Bag of Despair",
       "Wings of Flame Lord",
-      "Crown of Great Anger",
+      "Crown of Great Rage",
       "Thanatos, the Robe of Hell",
       "Armageddon",
       "Wings of Immortal",
@@ -8087,7 +8087,7 @@
       "Punisher",
       "Bag of Explosion",
       "Radiance of the One",
-      "Crown of Great Anger"
+      "Crown of Great Rage"
     ],
     "koreanname": "용의 눈"
   },
@@ -14244,7 +14244,7 @@
     "color": "DC143C",
     "level": 380,
     "required_by": [
-      "Crown of Great Anger"
+      "Crown of Great Rage"
     ],
     "recipe": [
       {
@@ -19466,7 +19466,7 @@
   },
   {
     "id": "I0PN",
-    "name": "Crown of Great Anger",
+    "name": "Crown of Great Rage",
     "koreanname": "격노의 화관",
     "description": "사용자의 분노를 극대화시키는 화관",
     "type": "[Helm/Hood]",
