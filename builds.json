@@ -575,24 +575,25 @@
     },
     {
         "for": "Sniper",
-        "type": "DPS with some burst",
+        "type": "Full DPS",
         "order": 1,
         "stat": "AGI",
-        "version": "38d",
+        "version": "44b",
+        "description": [
+            "Use alternate build for more safety (much more expensive. Less damage, but it's much easier to play)"
+        ],
         "items": {
             "Eternal Flame": [],
             "Horn of Demon God": [
-                "Crown of Extreme Anger"
+                "Radiance of the One"
             ],
-            "Latea, the Ring of Overlord": [
-                "Ring of Insanity"
+            "Ring of the One": [
+                "Ring of Frozen Soul"
             ],
-            "Vest of Storm": [
+            "Vest of Divine Winds": [
                 "Athanasia, the Armor of the Reaper"
             ],
-            "Wings of Night Lord": [
-                "Archangel Wings"
-            ]
+            "Wings of Night Lord": []
         }
     },
     {
