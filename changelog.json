@@ -24,61 +24,50 @@
         ],
         "items": [
             {
-                "name": "Item notes",
+                "name": "New Recipes",
                 "changes": [
-                    "New recipes added",
+                    "Harmonia, the Sparkle of Life",
                     [
-                        "Harmonia, the Sparkle of Life",
-                        [
-                            "Recipe: Benziena, the Earthen Heart + Ispion, the Runed Ring + Heart of Volcano + Essence of Light + Spearhead of Death + Essence of Storm + Shining Fragment of Ruins"
-                        ],
-                        "Crown of Great Rage",
-                        [
-                            "Recipe: Crown of Rage + Heart of Volcano + Dragon's Eye"
-                        ],
-                        "Mark of Sin",
-                        [
-                            "Recipe: Grimoire of Darkness + Seal of Deceiver + Aegis of Flame"
-                        ],
-                        "Ring of the One",
-                        [
-                            "Reipce: Latea, the Ring of Overlord + Shackles of Heaven + Essence of Flame + Essence of Sea + Essence of Storm"
-                        ]
+                        "Recipe: Benziena, the Earthen Heart + Ispion, the Runed Ring + Heart of Volcano + Essence of Light + Spearhead of Death + Essence of Storm + Shining Fragment of Ruins"
+                    ],
+                    "Crown of Great Rage",
+                    [
+                        "Recipe: Crown of Rage + Heart of Volcano + Dragon's Eye"
+                    ],
+                    "Mark of Sin",
+                    [
+                        "Recipe: Grimoire of Darkness + Seal of Deceiver + Aegis of Flame"
+                    ],
+                    "Ring of the One",
+                    [
+                        "Reipce: Latea, the Ring of Overlord + Shackles of Heaven + Essence of Flame + Essence of Sea + Essence of Storm"
                     ]
                 ]
             },
             {
-                "name": "Item notes",
+                "name": "Recipe Changes",
                 "changes": [
-                    "Changed some recipes",
+                    "Diana, the Robe of Holy Maiden",
                     [
-                        "Diana, the Robe of Holy Maiden",
-                        [
-                            "Old recipe: Fairy Garment + Essence of Darkness/Antimatter + Proof of Purification + Spirit Orb + Sealed Archangel Wings",
-                            "New recipe: Fairy Garment + Antimatter + Proof of Purification + Spirit Orb"
-                        ],
-                        "Archangel Wings",
-                        [
-                            "Old recipe: Pure Crystal Wings + Guardian of the Skies + Aegis of Flame + Shackles of Heaven + Burning Bone Fragments + Fragment of Chaos + Sealed Archangel Wings",
-                            "New recipe: Pure Crystal Wings + Guardian of the Skies + Aegis of Flame + Shackles of Heaven + Burning Bone Fragments + Spearhead of Death/Fragment of Chaos + Sealed Archangel Wings",
-                            "Fragment of Chaos will be removed in the future"
-                        ],
-                        "Protection of the Fairies",
-                        [
-                            "Old recipe: Embrace of Nature + Soul of the Dead + Aegis of Flame + Aegis of Storm + Proof of Purification + Fragment of Chaos",
-                            "New recipe: Embrace of Nature + Soul of the Dead + Aegis of Flame + Aegis of Storm + Proof of Purification + Spearhead of Death/Fragment of Chaos",
-                            "Fragment of Chaos will be removed in the future"
-                        ],
-                        "Crown of Extreme Anger",
-                        [
-                            "Old recipe: Crown of Rage + Eyes of the Watcher + Heart of Volcano + Dragon's Eye + Fragment of Hell + Shining Fragment of Ruins",
-                            "New recipe: Crown of Great Rage + Eyes of the Watcher + Fragment of Hell + Shining Fragment of Ruins"
-                        ],
-                        "Seed of Malice",
-                        [
-                            "Old recipe: Grimoire of Darkness + Seal of Deceiver + Spearhead of Death + Aegis of Flame + Fragment of Hell",
-                            "New recipe: Mark of Sin + Spearhead of Death + Fragment of Hell"
-                        ]
+                        "Removed Essence of Darkness / Antimatter and Sealed Archangel Wings from recipe"
+                    ],
+                    "Archangel Wings",
+                    [
+                        "Added Spearhead of Death to recipe",
+                        "Fragment of Chaos will be removed in the future"
+                    ],
+                    "Protection of the Fairies",
+                    [
+                        "Added Spearhead of Death to recipe",
+                        "Fragment of Chaos will be removed in the future"
+                    ],
+                    "Crown of Extreme Anger",
+                    [
+                        "Replaced Crown of Rage, Heart of Volcano, and Dragon's Eye with Crown of Great Rage in recipe"
+                    ],
+                    "Seed of Malice",
+                    [
+                        "Replaced Grimoire of Darkness, Seal of Deceiver, and Aegis of Flame with Mark of Sin in recipe"
                     ]
                 ]
             },
