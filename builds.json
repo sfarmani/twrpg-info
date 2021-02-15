@@ -418,18 +418,14 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
-        "version": "38d",
+        "version": "44b",
         "description": [
-            "Combine Ring of Insanity and Nevedium for an ultimate all-in burst build!"
+            "The use of Nevedium is for a more advanced build. It can increase your overall dps, but it may not be useful for beginners"
         ],
         "items": {
-            "Power of Beriel": [],
-            "Radiance of the One": [
-                "Eye of the Reaper"
-            ],
-            "Demonic Fist": [
-                "Ring of Insanity"
-            ],
+            "Espishu, the Sword of Chaos": [],
+            "Eye of the Reaper": [],
+            "Demonic Fist": [],
             "Athanasia, the Armor of the Reaper": [
                 "Nevedium, the Armor of Demonblood"
             ],
