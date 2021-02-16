@@ -423,7 +423,9 @@
             "The use of Nevedium is for a more advanced build. It can increase your overall dps, but it may not be useful for beginners"
         ],
         "items": {
-            "Espishu, the Sword of Chaos": [],
+            "Power of Beriel": [
+                "Espishu, the Sword of Chaos"
+            ],
             "Eye of the Reaper": [],
             "Demonic Fist": [],
             "Athanasia, the Armor of the Reaper": [
@@ -1031,16 +1033,14 @@
         "type": "DPS",
         "order": 1,
         "stat": "INT",
-        "version": "38b",
+        "version": "44b",
         "items": {
             "Staff of Plague": [
                 "The Ender"
             ],
-            "Prophetia, the Greater Source of Mana": [],
-            "Grimoire of Darkness": [],
-            "Thanatos, the Robe of Hell": [
-                "Robe of Archlich"
-            ],
+            "Prophetia, the Origin of Knowledge": [],
+            "Seed of Malice": [],
+            "Thanatos, the Robe of Hell": [],
             "Soul Devourer": []
         }
     },
