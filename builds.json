@@ -166,40 +166,60 @@
     },
     {
         "for": "Knight",
-        "type": "Sustain / Tank",
+        "type": "Support",
         "order": 1,
         "stat": "STR",
-        "version": "38b",
+        "version": "44b",
         "description": [
-            "To maximize ultimate damage, use Splitting and Crown of Absolute Zero",
-            "Use Halo is situations when AMS is needed",
-            "Only use Ring of Composure if no one else has it or Cloak of the Fallen Shadows as they do not stack",
-            "Bloodseeker plates is used for soloing purposes",
-            "Use Hades if no one else in your team is using it for the debuffs",
-            "Soul Eater is used for support"
+            "Use Hades if no one else on your team has it for debuffs"
         ],
         "items": {
-            "Eternal Winter": [
-                "Splitting of the Sky and Earth"
-            ],
-            "Spirit of Protector": [
-                "Halo of Judgment",
-                "Horn of Lightning God",
-                "Crown of Absolute Zero"
-            ],
-            "Ispion, the Runed Ring": [
-                "Ring of Composure",
-                "Latea, the Ring of Overlord"
-            ],
+            "Eternal Winter": [],
+            "Spirit of Protector": [],
+            "Ispion, the Runed Ring": [],
             "Harmony of Sky and Earth": [
-                "Felspike Armor",
-                "Bloodseeker Plates",
                 "Hades, the Armor of Despair"
             ],
             "Brave Heart": [
-                "Protection of the Fairies",
-                "Soul Eater"
+                "Protection of the Fairies"
             ]
+        }
+    },
+    {
+        "for": "Knight",
+        "type": "DPS",
+        "order": 2,
+        "stat": "STR",
+        "version": "44b",
+        "items": {
+            "Splitting of the Sky and Earth": [
+                "Calamity"
+            ],
+            "Crown of Absolute Zero": [
+                "Horn of Demon God"
+            ],
+            "Ring of the One": [
+                "Ring of Frozen Soul"
+            ],
+            "Hades, the Armor of Despair": [
+                "Felspike Armor",
+                "Voidshard Armor"
+            ],
+            "Wings of Immortal": []
+        }
+    },
+    {
+        "for": "Knight",
+        "type": "Hybrid",
+        "order": 3,
+        "stat": "STR",
+        "version": "44b",
+        "items": {
+            "Eternal Winter": [],
+            "Crown of Absolute Zero": [],
+            "Ring of the One": [],
+            "Hades, the Armor of Despair": [],
+            "Wings of Immortal": []
         }
     },
     {
@@ -366,11 +386,9 @@
                 "Dragon Mask",
                 "Halo of Judgment"
             ],
-            "Ring of Insanity": [
-                "Ring of Fate"
-            ],
+            "Ring of Insanity": [],
             "Vest of Divine Winds": [
-                "Grandine, the Plates of Wraith"
+                "Athanasia, the Armor of the Reaper"
             ],
             "Storm": [
                 "Wings of Flame Lord"
@@ -471,7 +489,6 @@
                 "Eye of the Reaper"
             ],
             "Demonic Fist": [
-                "Ring of Fate",
                 "Ring of Insanity"
             ],
             "Nevedium, the Armor of Demonblood": [
@@ -479,8 +496,7 @@
                 "Vest of Storm"
             ],
             "Ruler of the Skies": [
-                "Wings of Blood Lord",
-                "Guardian of the Skies"
+                "Wings of Blood Lord"
             ]
         }
     },
@@ -997,35 +1013,50 @@
     },
     {
         "for": "Soul Weaver",
-        "type": "All round support",
+        "type": "Support",
         "order": 1,
         "stat": "INT",
-        "version": "38b",
+        "version": "44b",
         "description": [
-            "Use Armageddon to maximize burst for team",
-            "Can use Hell Rise until you get Staff of Plague"
+            "If you have enough healing use Armageddon to enhance team burst",
+            "Eye of the Flame Lord really should be on priest, but if there are no priests, then its good to have one",
+            "Both Druid and Jupiter are great, but each shine in different areas",
+            "Jupiter: Great for non-targetted AoE healing/stun, has a long CD",
+            "Druid: Great for precise, single-target heals (esp snipers), harder to use",
+            "Only reason Archlich would be made is because of the fun combos with Archlich and Shackles"
         ],
         "items": {
-            "Staff of Plague": [
-                "Armageddon",
-                "Hell Riser",
-                "Triple Snow"
+            "Harmonia, the Sparkle of Life": [
+                "Armageddon"
             ],
             "Hood of Apocalypse": [
                 "Eye of the Flame Lord"
             ],
             "Horn of God": [
-                "Nebula Rose"
+                "Ring of Time",
+                "Shackles of Heaven"
             ],
-            "Robe of Archlich": [
-                "Jupiter, the Robe of Heavens",
-                "Winter Robe"
+            "Jupiter, the Robe of Heavens": [
+                "Druid's Mantle",
+                "Robe of Archlich"
             ],
-            "Soul Devourer": [
-                "Brave Heart",
-                "Wings of Immortal",
+            "Wings of Immortal": [
                 "Protection of the Fairies"
             ]
+        }
+    },
+    {
+        "for": "Soul Weaver",
+        "type": "DPS",
+        "order": 2,
+        "stat": "INT",
+        "version": "44b",
+        "items": {
+            "Ethenos, the Staff of Chaos": [],
+            "Horn of Demon God": [],
+            "Ring of Fate": [],
+            "Thanatos, the Robe of Hell": [],
+            "Wings of Frost Lord": []
         }
     },
     {
@@ -1101,23 +1132,15 @@
         "type": "DPS",
         "order": 1,
         "stat": "INT",
-        "version": "38b",
-        "description": [
-            "Use Ring of Frozen Soul for faster Q casts (gives pure attack speed)"
-        ],
+        "version": "44b",
         "items": {
-            "Ethenos, the Staff of Chaos": [
-                "Armageddon",
-                "Staff of Plague"
-            ],
-            "Prophetia, the Greater Source of Mana": [
-                "Crown of Absolute Zero"
-            ],
-            "Ring of Frozen Soul": [
-                "Ring of Despair"
+            "Ethenos, the Staff of Chaos": [],
+            "Prophetia, the Greater Source of Mana": [],
+            "Ring of Divine Winds": [
+                "Ring of Frozen Soul"
             ],
             "Thanatos, the Robe of Hell": [],
-            "Soul Devourer": []
+            "Wings of Frost Lord": []
         }
     },
     {
@@ -1125,14 +1148,17 @@
         "type": "Support",
         "order": 2,
         "stat": "INT",
-        "version": "38b",
+        "version": "44b",
         "items": {
-            "Staff of Plague": [],
+            "Staff of Plague": [
+                "Armageddon",
+                "Harmonia, the Sparkle of Life"
+            ],
             "Hood of Apocalypse": [
                 "Eye of the Flame Lord"
             ],
             "Horn of God": [
-                "Nebula Rose"
+                "Ring of Divine Winds"
             ],
             "Jupiter, the Robe of Heavens": [
                 "Robe of Archlich"
