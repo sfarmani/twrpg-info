@@ -1,5 +1,109 @@
 [
     {
+        "name": "44h",
+        "notes": [
+            "Released on: February 24th, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "misc": [
+            "Added -load2 command, which can be used to load a code that worked in previous map version but doesn't work in current map",
+            [
+                "In-game notification will also mention this comamnd if your code load fails"
+            ]
+        ]
+    },
+    {
+        "name": "44f",
+        "notes": [
+            "Released on: February 24th, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Loading - Fixed -load command not working for some long codes on game version 1.28",
+            "Cosmetic items - Fixed some visual bugs (like Shining Badge showing incorrect colors)",
+            "Items - Fixed item visual effects persisting after item is dropped by red player",
+            "Lightning Mage - Fixed Lightning Blade (F) cast causing hero to get stuck in terrain sometimes"
+        ],
+        "misc": [
+            "Reduced lag caused by -save/-load commands",
+            [
+                "Only applies to versions starting from this one; loading codes from older versions will still cause lag"
+            ],
+            "Reduced lag causing Water Mage's Ice Age (F)"
+        ]
+    },
+    {
+        "name": "44c",
+        "notes": [
+            "Released on: February 20th, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "44c2 - rewards - fixed cosmetic reward-related bugs",
+            "Harmonia, the Sparkle of Life - Fixed Alchemist spec not working properly",
+            "Corruptor Rectus - Fixed Life orb healing being available more than 2 times",
+            "Corruptor Rectus - Fixed being able to cast link before phase 2 after fight reset",
+            "Skeleton King Desperia - Fixed stomp procing when boss dies",
+            "Zombie Lord - Fixed power recorder not showing any results if holy water wasn't used on any Worshipper of Immortality",
+            "Agareth - Fixed being able to cast Hunt and Devour at the same time",
+            "Alchemist - Fixed chain casts not activating spell cooldown resets properly",
+            "Trickster - Fixed hero/Fantasm (D) being able to use same marks for Stage Finisher (T)",
+            "Soul Weaver - Fixed Harvest (A) not counting as spell cast for mounts",
+            "Soul Weaver - Fixed Soul Transfer (E) not getting interrupted properly when target dies",
+            "Bans - Fixed some accounts getting incorrectly banned due to ban of another account",
+            "Buffs - Fixed temporary version of a buff overriding permanent version of same buff"
+        ],
+        "items": [
+            {
+                "name": "New recipe",
+                "changes": [
+                    "Slayer Boots Wing Frame"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Flowing Fist (Q)",
+                    [
+                        "Cast delay reduced"
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Consecutive Strikes (W)",
+                    [
+                        "Passive - Combo duration: 2 seconds → 4 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Initial cast of the Conjures no longer procs on-spellcast effects"
+                ]
+            }
+        ],
+        "misc": [
+            "Reduced loading lag when loading a hero with lots of items in closet",
+            "Fixed typos in Warlock's spell descriptions",
+            "Dev Notes:",
+            [
+                "Big update will happen in v0.50, it will come out when its ready and until then only minor patches/bug fixes will happen for v0.44",
+                "Approximate v0.50 changelog:",
+                "- Rework of early game bosses and powder-based summoning system",
+                "- Tutorial system addition",
+                "- Max level reduced to 100",
+                "- Magic resistance of bosses removed and damage numbers adjusted accordingly",
+                "- Overall scaling down of numbers for future updates (50000 will become 5000 and such)",
+                "Because v0.50 will have a lot of changes there'll be short adaptation period, after which any new content will be activated in v0.51"
+            ]
+        ]
+    },
+    {
         "name": "44b",
         "notes": [
             "Released on: February 4th, 2021",

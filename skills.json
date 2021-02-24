@@ -2551,7 +2551,8 @@
             "Pursuits the target relentlessly.",
             "Landing same type of attack increases its damage by 2.5%",
             "Landing skill will stack it 10 times",
-            "Can stack up to 40 times"
+            "Can stack up to 40 times",
+            "Combo stacks lasts for 4 seconds"
         ],
         "active": [
             "For 1.5 seconds, attack twice on every attack",
