@@ -1,0 +1,328 @@
+[
+    {
+        "name": "Item",
+        "details": [
+            "ability is granted by item"
+        ]
+    },
+    {
+        "name": "Hero",
+        "details": [
+            "hero has this ability"
+        ]
+    },
+    {
+        "name": "Active",
+        "details": [
+            "ability can be used manually"
+        ]
+    },
+    {
+        "name": "Passive",
+        "details": [
+            "ability is used passively"
+        ]
+    },
+    {
+        "name": "Aura",
+        "details": [
+            "ability affects nearby units"
+        ]
+    },
+    {
+        "name": "Trigger",
+        "details": [
+            "ability works when some event happens"
+        ]
+    },
+    {
+        "name": "Passive Cooldown",
+        "details": [
+            "passive works once per period of time"
+        ]
+    },
+    {
+        "name": "Channeling",
+        "details": [
+            "ability takes time to charge"
+        ]
+    },
+    {
+        "name": "Damage",
+        "details": [
+            "ability deals damage (del?)"
+        ]
+    },
+    {
+        "name": "Physical Damage",
+        "details": [
+            "ability damage type is physical"
+        ]
+    },
+    {
+        "name": "Magic Damage",
+        "details": [
+            "ability damage type is magic"
+        ]
+    },
+    {
+        "name": "Pure Damage",
+        "details": [
+            "ability damage type is pure"
+        ]
+    },
+    {
+        "name": "Heal",
+        "details": [
+            "ability can restore life",
+            "affected by \"healing\" attribute"
+        ]
+    },
+    {
+        "name": "Regen",
+        "details": [
+            "ability can regenerate life",
+            "not affected by \"healing\" attribute"
+        ]
+    },
+    {
+        "name": "Buff",
+        "details": [
+            "ability applies positive effects"
+        ]
+    },
+    {
+        "name": "Debuff",
+        "details": [
+            "ability applies negative effects"
+        ]
+    },
+    {
+        "name": "Armor",
+        "details": [
+            "ability affects armor"
+        ]
+    },
+    {
+        "name": "Attack Damage",
+        "details": [
+            "ability affects attack damage"
+        ]
+    },
+    {
+        "name": "Attack Speed",
+        "details": [
+            "ability affects attack speed"
+        ]
+    },
+    {
+        "name": "Movement Speed",
+        "details": [
+            "ability affects movement speed"
+        ]
+    },
+    {
+        "name": "Skill Damage",
+        "details": [
+            "ability affects skill damage"
+        ]
+    },
+    {
+        "name": "Magic Resistance",
+        "details": [
+            "ability affects magic resistance"
+        ]
+    },
+    {
+        "name": "Damage Resistance",
+        "details": [
+            "ability affects damage resistance"
+        ]
+    },
+    {
+        "name": "Healing Received",
+        "details": [
+            "ability affects healing received stat"
+        ]
+    },
+    {
+        "name": "Stats",
+        "details": [
+            "ability affects hero attributes"
+        ]
+    },
+    {
+        "name": "Overall Damage",
+        "details": [
+            "ability affects overall damage stat"
+        ]
+    },
+    {
+        "name": "Prevent Death",
+        "details": [
+            "ability prevents HP from dropping below 1"
+        ]
+    },
+    {
+        "name": "Unchecked Affinity",
+        "details": [
+            "ability needs to be checked if formula contains any Affinity"
+        ]
+    },
+    {
+        "name": "Water/Ice Affinity",
+        "details": [
+            "ability affected by Water/Ice Affinity attribute"
+        ]
+    },
+    {
+        "name": "Fire Affinity",
+        "details": [
+            "ability affected by Fire Affinity attribute"
+        ]
+    },
+    {
+        "name": "Wind Affinity",
+        "details": [
+            "ability affected by Wind Affinity attribute"
+        ]
+    },
+    {
+        "name": "Earth Affinity",
+        "details": [
+            "ability affected by Earth Affinity attribute"
+        ]
+    },
+    {
+        "name": "Unknown Damage Type",
+        "details": [
+            "description of ability has no info about Damage Type"
+        ]
+    },
+    {
+        "name": "Summoning",
+        "details": [
+            "ability summons unit"
+        ]
+    },
+    {
+        "name": "Summon",
+        "details": [
+            "ability belongs to summoned unit"
+        ]
+    },
+    {
+        "name": "Silence Immunity",
+        "details": [
+            "ability makes user unaffected by Silence"
+        ]
+    },
+    {
+        "name": "Unchecked Periodic Damage",
+        "details": [
+            "ability needs to be checked if formula contains Periodic Damage"
+        ]
+    },
+    {
+        "name": "Maximum Health",
+        "details": [
+            "ability increases maximum health of affected units"
+        ]
+    },
+    {
+        "name": "Instakill Immunity",
+        "details": [
+            "ability makes user immune to instant kills"
+        ]
+    },
+    {
+        "name": "Shield",
+        "details": [
+            "ability adds shield on user, which takes damage before health"
+        ]
+    },
+    {
+        "name": "CC Immunity",
+        "details": [
+            "ability makes user unaffected by Crowd Control(?) - stuns, pulls, silence, etc."
+        ]
+    },
+    {
+        "name": "Debuff Removal",
+        "details": [
+            "ability removes debuffs from affected targets"
+        ]
+    },
+    {
+        "name": "Periodic Damage",
+        "details": [
+            "ability uses Periodic Damage stat in formula"
+        ]
+    },
+    {
+        "name": "Overall Damage Taken",
+        "details": [
+            "ability increases all damage taken by target"
+        ]
+    },
+    {
+        "name": "Unclear",
+        "details": [
+            "ability needs to be checked in code, wording is weird"
+        ]
+    },
+    {
+        "name": "Missing Description",
+        "details": [
+            "description of ability does not contains things listed below"
+        ]
+    },
+    {
+        "name": "Physical Dodge",
+        "details": [
+            "ability makes attackers miss to affected targets"
+        ]
+    },
+    {
+        "name": "Damage Over Time",
+        "details": [
+            "ability does some damage in period of time; cannot be reflected"
+        ]
+    },
+    {
+        "name": "Unkilleable",
+        "details": [
+            "Cannot die from any damage, only instakills will kill this unit; aka 'HP does not drop below 1' "
+        ]
+    },
+    {
+        "name": "Mana Restore",
+        "details": [
+            "(?) ability restores some mana to affected targets"
+        ]
+    },
+    {
+        "name": "Magic Damage Taken",
+        "details": [
+            "ability increased magic damage dealt to target"
+        ]
+    },
+    {
+        "name": "Invulnerable",
+        "details": [
+            "ability makes target to not be able to take any damage"
+        ]
+    },
+    {
+        "name": "Break",
+        "details": [
+            "ability removes shield effects from target"
+        ]
+    },
+    {
+        "name": "Evade",
+        "details": [
+            "ability makes target evade damage instances"
+        ]
+    }
+]

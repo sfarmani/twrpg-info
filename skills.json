@@ -13,6 +13,11 @@
             "Channel to additionally heal for max HP X 15% per second",
             "Recovery period 0.25 seconds",
             "Can be channeled up to 2 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Channeling",
+            "Heal"
         ]
     },
     {
@@ -34,6 +39,21 @@
             "Attack Damage X 750% damage",
             "Reduces target's movement speed by 50% for 2 seconds",
             "Consumes lightning charges to deal 75% bonus damage per consumed charge"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Magic Damage",
+            "Buff",
+            "Stats"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Debuff",
+            "Movement Speed"
         ]
     },
     {
@@ -50,6 +70,11 @@
             "AGI X 8 bonus damage",
             "First 4 arrows are fired at last attacked target",
             "Fires up to 20 arrows based on moved distance"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -67,6 +92,11 @@
             "Gains maximum charges of lightning",
             "Decreases damage dealt from outside the barrier up to 80% based on distance from attacker",
             "Lasts 5 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -84,6 +114,13 @@
             "Recharge cycle affected by flame affinity: (8 / (1 + 2 X flame affinity)) seconds",
             "Chain: Skill - Increases damage by 25% and stun duration by 200%",
             "Chain: Glide - Decreases damage by 75% and adds splash effect"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -104,6 +141,17 @@
             "Attack Damage X 5000% damage",
             "AGI X 200 bonus damage",
             "Deals 50% damage to other enemies that are hit by the arrow"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Buff",
+            "Overall Damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -119,6 +167,12 @@
             "Deals AGI X 625 magic damage",
             "Deals up to 40% bonus damage, based on target's missing health (20% max HP)",
             "If cast from melee range, leaps before firing"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -132,6 +186,9 @@
             "Expertise in black magic allows Soul Weaver to subjugate souls to her will.",
             "Regenerates (12 + MP regen / 50) souls per second",
             "Restores Max HP X 0.5% for each soul absorbed"
+        ],
+        "passive_tags": [
+            "Hero"
         ]
     },
     {
@@ -148,6 +205,14 @@
             "Absorbs 4 souls (10 souls for boss) per second",
             "Reduces target's healing received by 15% and movement speed by 60%",
             "Damage period reduced based on attack speed bonus"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Physical Damage",
+            "Debuff",
+            "Movement Speed",
+            "Healing Received"
         ]
     },
     {
@@ -164,6 +229,14 @@
             "On consecutive casts, fires additional shards and stuns for 0.5 seconds",
             "Projectile bypasses terrain",
             "Lasts 5 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Debuff",
+            "Damage Resistance",
+            "Movement Speed"
         ]
     },
     {
@@ -177,6 +250,12 @@
             "Surrounds self and nearby allies with spiritual barriers.",
             "Increases skill damage by (4 + INT / 1250)% for 30 seconds",
             "Regenerates INT X 0.10 HP per second"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Skill Damage",
+            "Regen"
         ]
     },
     {
@@ -193,6 +272,12 @@
             "Absorbs 15 soul per second",
             "If ally, heals for INT X 2.5 per second",
             "Consumes 40 soul per second"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Heal"
         ]
     },
     {
@@ -207,6 +292,15 @@
             "INT X 60 magic damage",
             "Increases magic damage taken by enemies (Type-C) by 5% for 15 seconds",
             "Increases magic defense of you and allies by 15% for 45 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Debuff",
+            "Magic Resistance",
+            "Buff",
+            "Magic Resistance"
         ]
     },
     {
@@ -224,6 +318,12 @@
             "Prevents nearby allies' HP from dropping below 1",
             "Lasts 6 seconds",
             "Consumes 60 souls"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Prevent Death"
         ]
     },
     {
@@ -240,6 +340,11 @@
             "On expiration, deals INT X 725 damage",
             "Stuns for 2.5 seconds",
             "Activation delay: 0.5 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -258,6 +363,14 @@
             "Use mana to allow sudden conjurng.",
             "Removes cast time and cooldown on next Conjuring",
             "Each 25% bonus in attack speed allows one more Conjuring to be affected"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Stats"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -275,6 +388,15 @@
         "active": [
             "Inscribe a fire transmutation circle to perform transmutations.",
             "Chainable with fire-related transmutations"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Buff",
+            "Skill Damage"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -287,6 +409,12 @@
         "active": [
             "Fires a flame bullet.",
             "Attack Damage X (200 X Skill Level)% magic damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -300,6 +428,12 @@
             "Draw forth magma from the grounds.",
             "Skill Level X 200 magic damage",
             "INT X (10 X Skill Level) bonus damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -316,6 +450,12 @@
             "Inflicts burn that lasts 9 seconds",
             "Deals 100% bonus damage to slowed units",
             "Chainable: Stone Golem"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -332,6 +472,12 @@
             "Deals 150% bonus damage to units stunned or resistant to stun effects",
             "Has 3 second delay",
             "Range: 600"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -349,6 +495,18 @@
         "active": [
             "Create a transmutation circle of water to cast skills.",
             "Can be chained"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Buff",
+            "Regen"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -365,6 +523,12 @@
             "Deals 15% additional damage per second travelled (up to 75%)",
             "Deals 100% bonus damage to burning targets",
             "Chain: Healing Rain"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -380,6 +544,15 @@
             "INT X (1 + 0.75 X Skill Level) bonus damage",
             "Heals allies hit for 20% of damage",
             "Slow effect"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Heal",
+            "Debuff",
+            "Movement Speed",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -393,6 +566,12 @@
             "Transmutes an icicle.",
             "INT X (25 X Skill Level) magic damage",
             "Freezes target for 1.5 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -407,6 +586,11 @@
             "Heals for Skill Level X 25 per second",
             "INT X (0.25 X Skill Level) bonus heal",
             "Chainable: Eye of the Storm"
+        ],
+        "active_tags": [
+            "Hero",
+            "Heal",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -424,6 +608,15 @@
         "active": [
             "Inscribes a wind transmutation circle to perform transmutations.",
             "Chainable with wind-related transmutations"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Buff",
+            "Movement Speed"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -438,6 +631,12 @@
             "Increase target's attack damage by 15% and pure attack speed by 25%",
             "Grants 15% chance to activate Ignite on skill cast",
             "Chain: Blaze"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Attack Damage",
+            "Attack Speed"
         ]
     },
     {
@@ -452,6 +651,14 @@
             "Attacks nearby enemies with (water affinity X wind affinity X (INT X (2 + 1 X Skill Level))) damage",
             "Its attack speed is temporarily increased when a Wind transmutation is performed",
             "On recast, moves the Eye to the target location and increases duration"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Affinity",
+            "Water/Ice Affinity",
+            "Wind Affinity"
         ]
     },
     {
@@ -466,6 +673,12 @@
             "Skill Level X 400 damage",
             "INT X (20 + 5 X Skill Level) bonus damage",
             "Knocks back non-boss enemies and Water Bombs"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -480,6 +693,12 @@
             "Drops 6 rocks over target area",
             "Each rock deals INT X (7.5 + 5 X Skill Level) bonus damage",
             "Chain: Magma Explosion"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -497,6 +716,15 @@
         "active": [
             "Create a transmutation circle of earth to cast skills.",
             "Can be chained"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Buff",
+            "Magic Resistance"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -511,6 +739,12 @@
             "Skill Level X 1200 damage",
             "INT X (30 + 10 X Skill Level) bonus damage",
             "Cannon can be reused on subsequent casts for a short duration"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -525,6 +759,9 @@
             "Better potions can be created with higher skill level",
             "Higher chance to create better potions with higher INT",
             "Chainable: Water Stream"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -540,6 +777,14 @@
             "INT X (10 + 10 X Skill Level) bonus damage",
             "Decreases enemies' attack speed and movement speed by 80% for 3 seconds",
             "Chain: Stone Golem - Power Slam"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Unchecked Affinity",
+            "Debuff",
+            "Movement Speed"
         ]
     },
     {
@@ -554,6 +799,10 @@
             "Deals INT X 3 damage on attack",
             "Attains special abilities based on level",
             "Movement speed: 400"
+        ],
+        "active_tags": [
+            "Hero",
+            "Summoning"
         ]
     },
     {
@@ -568,6 +817,13 @@
             "Reduces damage taken by (summoner's INT / 5) (up to 70% of damage taken)",
             "Decreases magic damage taken by 40%",
             "Each earth-based transmutation performed by Alchemist grants 40 armor (max 10 stacks)"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Buff",
+            "Magic Resistance",
+            "Trigger",
+            "Armor"
         ]
     },
     {
@@ -580,6 +836,9 @@
         "cooldown": 1,
         "active": [
             "Teleport to summoner's position."
+        ],
+        "active_tags": [
+            "Summon"
         ]
     },
     {
@@ -592,6 +851,9 @@
         "order": 25,
         "active": [
             "Focus nearby enemies' attacks onto self."
+        ],
+        "active_tags": [
+            "Summon"
         ]
     },
     {
@@ -607,6 +869,13 @@
             "Skill Level X 1000 damage on collision",
             "INT X (25 + 5 X Skill Level) bonus damage",
             "Increase damage taken by collided enemies by 6% for 8 seconds"
+        ],
+        "active_tags": [
+            "Summon",
+            "Damage",
+            "Unknown Damage Type",
+            "Debuff",
+            "Damage Resistance"
         ]
     },
     {
@@ -622,6 +891,12 @@
             "Summoner's Attack Damage X 10 damage",
             "INT X 60 bonus damage",
             "Consumes armor increased by Conjure Earth, dealing 20% bonus damage per consumed stack"
+        ],
+        "active_tags": [
+            "Summon",
+            "Damage",
+            "Unknown Damage Type",
+            "Trigger"
         ]
     },
     {
@@ -642,6 +917,16 @@
             "Next 5 transmutations do not proc cooldown",
             "Increases skill damage by 15% while active",
             "Lasts up to 15 seconds"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Buff",
+            "Skill Damage"
         ]
     },
     {
@@ -658,6 +943,15 @@
             "Increases INT by 2% on every second and on every skill cast (up to 25 times)",
             "Reduces damage taken by 40% and grants immunity to silence effects",
             "On expiration, deals INT X 400 damage to nearby enemies and stuns for 2.5 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Stats",
+            "Damage Resistance",
+            "Silence Immunity",
+            "Unknown Damage Type",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -670,6 +964,9 @@
         "active": [
             "\"I've obtained the truth I was seeking for.\" - Alchemist",
             "Closes the Gate of Truth"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -683,6 +980,11 @@
             "A twisted magic that allows you to steal target's flows of life and mana.",
             "Deals INT X 3 damage on every attack",
             "Every 4th attack deals 6x damage and restores HP/MP"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Heal"
         ]
     },
     {
@@ -699,6 +1001,13 @@
             "Deals Consumed MP X 500% damage",
             "INT X 30 bonus damage",
             "Deals 300% bonus damage to enemies in center and decreases their movement speed by 90% for 2 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Debuff",
+            "Movement Speed"
         ]
     },
     {
@@ -715,6 +1024,11 @@
             "Each attack deals Consumed MP X 20 magic damage",
             "Gate's attack speed is increased by 1% for each 1% bonus attack speed of Warlock",
             "Can maintain up to a maximum of 2 gates"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -731,6 +1045,13 @@
             "Absorbs own damage taken by 70% and allies' damage taken by 35%",
             "On expiration, reflects 1500% of absorbed damage as pure damage at nearby enemies",
             "Lasts 3 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Pure Damage",
+            "Unchecked Periodic Damage"
         ]
     },
     {
@@ -754,6 +1075,15 @@
             "Provides CC immunity for duration",
             "Duration: 4 seconds",
             "Channeling does not end when MP depleted if in Demonic Fury transformation"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Buff",
+            "Maximum Health",
+            "Skill Damage"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -770,6 +1100,15 @@
             "Armor increased by 400 & max HP and magic defense increased by 25%",
             "Changes skills partially",
             "After 5 seconds, consumed MP increases by 50% and skill damage increases by 1.5% every second"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Armor",
+            "Maximum Health",
+            "Magic Defence",
+            "Trigger",
+            "Skill Damage"
         ]
     },
     {
@@ -784,6 +1123,13 @@
             "Every attack deals INT X 10 damage",
             "Every 4th attack splashes for 500% damage and heals you for Max HP X 7.5%",
             "Every 12th attack activates Crucifixion"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type",
+            "Heal"
         ]
     },
     {
@@ -797,6 +1143,9 @@
             "What can you do in the face of destruction?",
             "Dimension Collapse deals 40% increased damage",
             "Cracks will not close while Demonic Fury is active"
+        ],
+        "passive_tags": [
+            "Hero"
         ]
     },
     {
@@ -811,6 +1160,9 @@
             "Embrace your end!",
             "Activates Crucifixion at target area",
             "Activation count is increased base on Warlock's attack speed"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -825,6 +1177,11 @@
             "Surge forward to execute enemies.",
             "INT X 100 magic damage",
             "Stuns for 1 second"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -837,6 +1194,10 @@
         "active": [
             "Dedicate everything to the devil.",
             "Reduces empower cycle 1 second to 0.25 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger"
         ]
     },
     {
@@ -853,6 +1214,13 @@
             "Roots nearby enemies",
             "Lasts 3 seconds",
             "0.5 seconds to activate"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Unchecked Periodic Damage",
+            "Instakill Immunity"
         ]
     },
     {
@@ -867,6 +1235,14 @@
             "Increases max HP by INT X 4",
             "Periodically charges blood gauge",
             "On next attack, consumes blood gauge to deal Max HP X 25% damage and heal for Max HP X 5%"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type",
+            "Buff",
+            "Maximum Health"
         ]
     },
     {
@@ -886,6 +1262,17 @@
             "Focus blood into the tips of your nails.",
             "Consumes Max HP X 15%",
             "Consecutive casts increase damage by 300% and consumed HP by 100% each cast"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -901,6 +1288,11 @@
             "Consumes Max HP X 25%",
             "Max HP X 1000% damage",
             "Invulnerable while travelling"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -923,6 +1315,18 @@
             "Heals for Max HP X 10% for each damage",
             "Dragging Speed: 750",
             "Minimum duration: 0.75 seconds"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Shield"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Heal",
+            "Unchecked Periodic Damage"
         ]
     },
     {
@@ -943,6 +1347,18 @@
             "Also increases ATK SPD by 50% for self only",
             "50% chance to refill 1 blood gauge on attack",
             "Rose Dance's cast time and cooldown are removed and can be cast up to 3 times without incurring HP consumption"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Attack Damage",
+            "Maximum Life",
+            "Attack Speed",
+            "Trigger"
         ]
     },
     {
@@ -957,6 +1373,11 @@
             "Purify enemies with a ritual of blood.",
             "Max HP X 4000% damage",
             "Pulls in enemies that are far away into 375 range of Blood Weaver"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -973,6 +1394,14 @@
             "Max HP X 350% bonus damage",
             "Deals 40% bonus damage to enemies under 40% HP",
             "You will be immune to CC while casting"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Trigger",
+            "CC Immunity",
+            "Unchecked Periodic Damage"
         ]
     },
     {
@@ -987,6 +1416,16 @@
             "Attacks and skills burn target for ((Skill Level X 25 + INT X 2.5 + Damage Dealt X 0.5) X 0.875) magic damage over 3.6 seconds",
             "After casting skill, envelops feet in a trail of flame to increase movement speed by 250 for 1.5 seconds",
             "Burning unit will explode on death"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Trigger",
+            "Buff",
+            "Movement Speed",
+            "Unchecked Periodic Damage",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -1003,6 +1442,14 @@
             "INT X 30 bonus damage",
             "Deals additional damage equal to 25% of the burn damage the target is currently taking",
             "Stuns for 1 second"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Trigger",
+            "Movement Speed",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -1024,6 +1471,20 @@
             "Lasts 5 seconds",
             "On ally: Removes debuffs",
             "On ground: Stuns for 2 seconds, lasts 50% longer"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Regen",
+            "Trigger"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Trigger",
+            "Debuff Removal",
+            "Unchecked Affinity",
+            "Periodic Damage"
         ]
     },
     {
@@ -1039,6 +1500,12 @@
             "Skill Level X 1500 damage",
             "INT X 100 bonus damage",
             "Damage amplified by 50% each time it travels outward"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -1054,6 +1521,12 @@
             "Skill Level X 2000 damage",
             "INT X 50 bonus damage",
             "Amplifies burn damage inflicted by Fire Mage by 66% for 5 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -1068,6 +1541,12 @@
             "Calls down meteor fragments that are drifting around the atmosphere.",
             "Each fragment deals INT X 60 magic damage",
             "Drops a total of 8 fragments"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -1083,6 +1562,12 @@
             "INT X 400 magic damage",
             "Summons 12 little meteor fragments each dealing INT X 20 damage and stunning for 1 second",
             "Huge rock stuns for 2 seconds on impact"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Unchecked Affinity"
         ]
     },
     {
@@ -1102,6 +1587,15 @@
         "active": [
             "Recall all probes back to Shooter.",
             "Assists Shooter's attacks"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Pure Damage"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -1117,6 +1611,11 @@
             "(AGI + INT) X 5 pure damage per bullet",
             "Deals 100% increased damage to non-boss units",
             "Cooldown is reset upon firing another magic bullet"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Pure Damage"
         ]
     },
     {
@@ -1135,6 +1634,15 @@
             "Cooldown is reset upon firing a magic bullet",
             "Bounces twice with Hydro Buster and has 1s longer cooldown",
             "Bounces thrice with Rainmaker"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type",
+            "Heal",
+            "Buff",
+            "Magic Resistance"
         ]
     },
     {
@@ -1158,6 +1666,18 @@
             "Removes target's debuffs",
             "No casting delay",
             "Duration: 2 seconds"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Heal"
+        ],
+        "active_tags": [
+            "Hero",
+            "Shield",
+            "Debuff Removal",
+            "Buff",
+            "Movement Speed"
         ]
     },
     {
@@ -1173,6 +1693,11 @@
             "Attack Damage X 500% damage",
             "AGI X 30 bonus damage",
             "Deals up to (400 + 2 X Skill Damage increase)% damage based on knockback distance"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -1188,6 +1713,15 @@
             "Increases target's damage taken by 10% and reduces its movement speed for 2 seconds",
             "Knocksback target if cast consecutively",
             "Recharges every (15 - PURE ATTACK SPEED / 15) seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Debuff",
+            "Movement Speed",
+            "Overall Damage Taken",
+            "Unclear"
         ]
     },
     {
@@ -1208,6 +1742,19 @@
             "Fires 12 bullets + 4 additional bullets per probe every second",
             "Channeled up to a maximum of 4 seconds",
             "Each 1% increase in attack speed increases fire count by 0.5%"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Magic Damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Missing Description",
+            "CC Immunity"
         ]
     },
     {
@@ -1224,6 +1771,13 @@
             "Main Stat X 60 bonus damage",
             "A total of 10 bullets are fired",
             "Binds target's actions for 2 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Debuff",
+            "Unclear"
         ]
     },
     {
@@ -1243,6 +1797,12 @@
         ],
         "toggle": [
             "Prevents dash from activating."
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -1256,6 +1816,10 @@
         "active": [
             "Takes some swords out from the treasury.",
             "Projects 2 Enchanted Swords"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger"
         ]
     },
     {
@@ -1273,6 +1837,14 @@
             "Additionally increases movement speed by 400 temporarily (this bonus can break the movement speed limit)",
             "Sword Enchant - Projects an Enchanted Sword for every 200 distance travelled",
             "Ignores unit collision while active (only for self)"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Buff",
+            "Movement Speed",
+            "Physical Dodge",
+            "Unclear"
         ]
     },
     {
@@ -1288,6 +1860,12 @@
             "Projects 2 Enchanted Swords",
             "Increases attack speed by 50% & attack damage by 25% for 6 seconds",
             "Sword Enchant - Attack count needed for sword projection is reduced to 2"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Attack Speed",
+            "Attack Damage"
         ]
     },
     {
@@ -1303,6 +1881,13 @@
             "Projects 2 Enchanted Swords",
             "Clears debuffs and reduces damage taken by 50% for 3 seconds",
             "Sword Enchant - When taking damage from melee range, halvens the damage received and strikes back with an Enchanted Sword"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Debuff Removal",
+            "Buff",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -1321,6 +1906,13 @@
         "active": [
             "Empowers your chant to make it resonate further.",
             "Next enchant affects allies within 750 range as well"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -1336,6 +1928,13 @@
             "AGI X 825 damage",
             "Stuns for 3 seconds",
             "Applies Disenchant and reduces healing taken by 20% for 7.5 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Debuff",
+            "Healing Received"
         ]
     },
     {
@@ -1355,6 +1954,13 @@
         ],
         "active": [
             "Reloads all bullets."
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -1371,6 +1977,12 @@
             "Decreases damage taken by 60% while tumbling",
             "Cooldown is reset if reloaded with all bullets depleted",
             "Allows casting of Outlaw / Fanning while rolling"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Buff",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -1388,6 +2000,11 @@
             "If cast after Tumble, consumes 100% additional bullets",
             "Attack radius 525",
             "Attack delay of 0.075 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -1405,6 +2022,14 @@
             "If cast while tumbling, throws 3 additional bombs to nearby area",
             "Will retain targetting mechanism while casting Tumble",
             "No casting delay"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Damage Over Time",
+            "Pure Damage",
+            "Unchecked Periodic Damage"
         ]
     },
     {
@@ -1419,6 +2044,11 @@
             "Fires all bullets in a quick succession.",
             "Consumes all bullets",
             "Each attack deals Attack Damage X 250% physical damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Physical Damage"
         ]
     },
     {
@@ -1437,6 +2067,12 @@
             "Reduces related skills' cooldown by 66% and resets their cooldowns",
             "Reloads all bullets on cast",
             "Duration: 12 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Attack Speed",
+            "Movement Speed"
         ]
     },
     {
@@ -1454,6 +2090,11 @@
             "AGI X 500 bonus damage",
             "Can be casted with one bullet loaded (but bullets are reset after cast)",
             "Stuns for 1 second"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -1469,6 +2110,14 @@
             "On skill cast, empower next attack to deal (Attack Damage X 75% + AGI X 5) bonus damage",
             "Can critically strike",
             "Base attack speed decreased"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type",
+            "Debuff",
+            "Attack Speed"
         ]
     },
     {
@@ -1485,6 +2134,11 @@
             "AGI X 20 bonus damage",
             "Stuns target for 1 second",
             "Chain - Slice"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -1499,6 +2153,11 @@
             "Skill Level X 200 damage",
             "AGI X (10 + 2 X Skill Level) bonus damage",
             "Stuns enemies hit for 2 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -1514,6 +2173,12 @@
             "AGI X 25 bonus damage",
             "For 4 seconds, Quick Draw lands as critical strikes against the target",
             "Chain - Wind Slash"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -1527,6 +2192,11 @@
             "Knocks back nearby enemies using wind-engulfed blade.",
             "AGI X (15 + Skill Level) bonus damage",
             "Knocks back non-boss enemies"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -1543,6 +2213,15 @@
             "Increases movement speed by 200 and magic defense by 40%",
             "Lasts 6 seconds",
             "Chain - Flash Step (available for 4 seconds)"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Buff",
+            "Movement Speed",
+            "Magic Resistance",
+            "Unclear"
         ]
     },
     {
@@ -1557,6 +2236,11 @@
             "Skill Level X 750 damage",
             "AGI X (10 X Skill Level) bonus damage",
             "Can be cast upto 3 times in succession"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -1577,6 +2261,17 @@
             "Each sword deals Skill Level X 600 damage",
             "AGI X 20 bonus damage",
             "Consecutive swords deal 100% bonus damage"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Buff",
+            "Stats"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -1592,6 +2287,13 @@
             "Attack Damage X 3000% damage",
             "AGI X 125 bonus damage",
             "Increases damage taken by target by 10% for 8 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Debuff",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -1607,6 +2309,11 @@
             "Each slash deals AGI X 25 damage",
             "Final slash deals AGI X 575 damage",
             "A total of 20 slashes"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -1623,6 +2330,10 @@
             "Lasts 15 seconds",
             "Has a cooldown of 15s",
             "Maximum number of jumps limited to 5 (displayed in MP)"
+        ],
+        "active_tags": [
+            "Hero",
+            "Summoning"
         ]
     },
     {
@@ -1636,6 +2347,12 @@
             "Makes target's body light.",
             "If Elementalist approaches, flings her upward",
             "Upon landing, deals INT X (10 X Skill Level) pure damage"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Trigger",
+            "Damage",
+            "Pure Damage"
         ]
     },
     {
@@ -1648,6 +2365,12 @@
         "passive": [
             "Makes movement light as wind.",
             "Increases nearby summons' attack speed by 15%"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Aura",
+            "Buff",
+            "Attack Speed"
         ]
     },
     {
@@ -1660,6 +2383,9 @@
         "passive": [
             "Becomes one with the wind.",
             "Immune to all skills and harmful effects"
+        ],
+        "passive_tags": [
+            "Summon"
         ]
     },
     {
@@ -1674,6 +2400,10 @@
             "Forms a contract with the spirit of flame, which specializes in powerful splashing melee attacks.",
             "HP = Elementalist's Max HP X 100%",
             "Lasts 15 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Summoning"
         ]
     },
     {
@@ -1686,6 +2416,12 @@
         "passive": [
             "Attacks multiple enemies with volatile reach of the flame.",
             "Deals INT X 10 bonus damage to nearby enemies on attack"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -1700,6 +2436,16 @@
             "Reduces heal received by 100%",
             "HP does not drop below 1",
             "Increases attack speed and skill damage by 1% for each 1% of missing HP"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type",
+            "Unkilleable",
+            "Buff",
+            "Attack Speed",
+            "Skill Damage"
         ]
     },
     {
@@ -1715,6 +2461,11 @@
             "INT X 150 damage",
             "Stuns for 2 seconds",
             "Radius: 500"
+        ],
+        "active_tags": [
+            "Summon",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -1730,6 +2481,10 @@
             "HP = Elementalist Max HP X 125%",
             "Armor = Elementalist Armor X 75%",
             "Lasts 20 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Summoning"
         ]
     },
     {
@@ -1744,6 +2499,14 @@
             "Attacks up to 3 targets at once",
             "INT X 2.5 bonus damage",
             "Reduces movement speed by 50% for 1 second"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type",
+            "Debuff",
+            "Movement Speed"
         ]
     },
     {
@@ -1758,6 +2521,14 @@
             "Regenerates nearby allies and self HP and MP by 4% every second",
             "Regenerates nearby summons by 4% but allies' summons by 1% every second",
             "Increases all stats by 10% for 15 seconds"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Aura",
+            "Regen",
+            "Mana Restore",
+            "Buff",
+            "Stats"
         ]
     },
     {
@@ -1772,6 +2543,10 @@
             "Fires a beam of water that heals allies' wounds.",
             "Heals for (Target's Missing HP X 5% + Summoner's INT X 0.3)",
             "Heals up to 3 allies"
+        ],
+        "active_tags": [
+            "Summon",
+            "Healing"
         ]
     },
     {
@@ -1785,6 +2560,10 @@
         "active": [
             "Liquidifies the elemental to allow it to travel rapidly to target location.",
             "Heals allies hit for (target's max HP X 20%)"
+        ],
+        "active_tags": [
+            "Summon",
+            "Healing"
         ]
     },
     {
@@ -1800,6 +2579,10 @@
             "HP = Max HP of Elementalist X 150%",
             "Armor = Armor of Elementalist X 100%",
             "Lasts 40 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Summoning"
         ]
     },
     {
@@ -1813,6 +2596,12 @@
             "Slowly charges electricity on each attack, and releases all of them at once.",
             "Every attack deals summoner's INT X 7.5 bonus damage",
             "Every 4th attack deals summoner's INT X 45 damage and chains to 2 additional enemies"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -1827,6 +2616,15 @@
             "Restores 3 MP on every attack",
             "Every 2 points of MP increases skill damage by 1% and attack speed by 1%",
             "If MP is above 50, increases target's magic damage taken by 8% for 2 seconds"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Trigger",
+            "Buff",
+            "Skill Damage",
+            "Attack Speed",
+            "Debuff",
+            "Magic Damage Taken"
         ]
     },
     {
@@ -1840,6 +2638,12 @@
             "Releases contained lightning to fry enemies with high voltage.",
             "Consumes Max MP X 40% per second",
             "Deals INT X 125 damage per second"
+        ],
+        "active_tags": [
+            "Summon",
+            "Damage",
+            "Unknown Damage Type",
+            "Channeling"
         ]
     },
     {
@@ -1852,6 +2656,9 @@
         "order": 18,
         "active": [
             "Travels at high speeds to reach the selected location"
+        ],
+        "active_tags": [
+            "Summon"
         ]
     },
     {
@@ -1867,6 +2674,10 @@
             "HP = Max HP of Elementalist X 400%",
             "Armor = Armor of Elementalist X 150%",
             "Lasts 40 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Summoning"
         ]
     },
     {
@@ -1879,6 +2690,12 @@
         "passive": [
             "Raises the ground below to attack enemies.",
             "Each attack deals INT X 40 damage in a line"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -1892,6 +2709,14 @@
             "Blessed with the endurance of the earth.",
             "Resistant to all debuffs",
             "Reduces damage taken by self and nearby allies by 20%"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Aura",
+            "Buff",
+            "Overall Damage Taken",
+            "Unclear",
+            "CC Immunity"
         ]
     },
     {
@@ -1906,6 +2731,10 @@
             "Slams down the ground to call forth protective earth spirits hiding underneath.",
             "Grants shields to nearby allies that absorb (Target's Max HP X 20% + Summoner's INT X 2) damage",
             "Lasts 3 seconds"
+        ],
+        "active_tags": [
+            "Summon",
+            "Shield"
         ]
     },
     {
@@ -1926,6 +2755,20 @@
             "Provides immunity to instant death spells",
             "Heals for (Target's Max HP X 5%) per second",
             "Forming links with some summons may provide an additional ability to Elementalist"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Aura",
+            "Overall Damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Healing",
+            "Buff",
+            "Skill Damage",
+            "Damage Resistance",
+            "Instakill Immunity"
         ]
     },
     {
@@ -1940,6 +2783,10 @@
             "\"It is a dangerous gamble, but controlling a twisted elemental boasts destructive power that matches the Demon Lord.\" - Elementalist",
             "Summons Chaos Elemental",
             "Lasts 20 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Summoning"
         ]
     },
     {
@@ -1954,6 +2801,14 @@
             "Every attack deals INT X 25 bonus damage to nearby enemies",
             "Every 5th attack deals INT X 125 bonus damage to nearby enemies",
             "Attack speed increased by 25%"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type",
+            "Buff",
+            "Attack Speed"
         ]
     },
     {
@@ -1966,6 +2821,11 @@
         "passive": [
             "The power of chaos bends to none.",
             "Immune to all harmful abilities (except empowered attacks like Zombie Lord's Craze or Death Fiends Empowered attacks)"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Unclear",
+            "CC Immunity"
         ]
     },
     {
@@ -1980,6 +2840,11 @@
             "Submerges into the abyss to quickly travel to target location.",
             "INT X 50 damage",
             "Range: 1500"
+        ],
+        "active_tags": [
+            "Summon",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -1995,6 +2860,11 @@
             "Deals INT X 75 damage per second",
             "Pulls nearby enemies inward",
             "Lasts 2 seconds"
+        ],
+        "active_tags": [
+            "Summon",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -2008,6 +2878,9 @@
         "active": [
             "Summon the eye of Hell that emanates a powerful beam of destruction.",
             "Decimates nearby grounds"
+        ],
+        "active_tags": [
+            "Summon"
         ]
     },
     {
@@ -2024,6 +2897,12 @@
             "Attacking Shocked units restores 4 energy",
             "Landing skills on Shocked units activates Short Circuit",
             "For 1 second, your skills deal 50% more damage to target and also can critically strike with (30 + 1.5 X Critical Chance)% chance"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Pure Damage"
         ]
     },
     {
@@ -2038,6 +2917,11 @@
             "INT X 20 damage",
             "Explodes after 6 seconds to deal INT X 20 damage",
             "Bypasses terrain"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -2053,6 +2937,11 @@
             "Attack Damage X 200% damage",
             "(AGI + INT) X 20 additional damage",
             "If used to activate Short Circuit, can be chained with an additional skill"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -2067,6 +2956,11 @@
             "Attack Damage X (400 + 80 X Skill Level)% damage",
             "AGI X 40 additional damage",
             "If used to activate Short Circuit, it can be chained with an additional skill"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -2081,6 +2975,11 @@
             "INT X (20 + 4 X Skill Level) damage",
             "Short stun effect",
             "If used to activate Short Circuit, explodes all nearby lightning orbs"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -2114,6 +3013,11 @@
             "INT X 150 damage",
             "Creates 5 lightning orbs",
             "1 second stun"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -2131,6 +3035,13 @@
             "Invulnerable while active",
             "If used while charged, damage is increased by 100%",
             "If channeled for 2 seconds, refreshes energy and skill cooldowns"
+        ],
+        "active_tags": [
+            "Hero",
+            "Channeling",
+            "Damage",
+            "Unknown Damage Type",
+            "Invulnerable"
         ]
     },
     {
@@ -2150,6 +3061,15 @@
             "Breaks shield effects",
             "Invincible while casting",
             "Range: 1200"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type",
+            "Break",
+            "Unclear",
+            "Invulnerable"
         ]
     },
     {
@@ -2168,6 +3088,15 @@
             "Sends down a flow of mana into the sword, awakening its true potential.",
             "Empowers next 3 attacks with Flash Sword",
             "Lasts 6 seconds"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Magic Damage"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -2184,6 +3113,13 @@
             "Stuns and pulls enemies toward center",
             "For 3 seconds, reduces target's movement speed by 60% and increases your damage dealt to the target by 10%",
             "Gains 1 charge every 6 seconds (max 4)"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Debuff",
+            "Movement Speed"
         ]
     },
     {
@@ -2203,6 +3139,14 @@
             "The blessing of god gifts crusader with a divine protection.",
             "Reduces damage taken by 40%",
             "Lasts 5 seconds"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Buff",
+            "Stats",
+            "Trigger",
+            "Buff",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -2218,6 +3162,11 @@
             "Attack Damage X 1500% damage",
             "STR X 50 bonus damage",
             "Stuns for 1 second"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -2233,6 +3182,11 @@
             "Attack Damage X 2500% magic damage",
             "Enhance next Remains of Rage cast within 3 seconds, increasing its damage by 250% and dashing to target location to inflict stun for 1 second",
             "Chain - 2nd Sword Dance: Sword"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -2248,6 +3202,20 @@
             "Slows affected enemies by 50% for 4 seconds",
             "Empowers next Strike of Honor cast within 3 seconds, increasing its damage and stun duration by 200% and increasing damage taken by targets hit by 12% for 8 seconds",
             "Increases HP regen by (Crusader's Max HP X 10%) for 5 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Regen",
+            "Unclear",
+            "Trigger",
+            "Debuff",
+            "Overall Damage Taken",
+            "Unclear",
+            "Debuff",
+            "Movement Speed",
+            "Attack Speed"
         ]
     },
     {
@@ -2267,6 +3235,18 @@
             "For 12 seconds, gains max attack speed and CC immunity",
             "Heals for Max HP X 15% every second",
             "Improves Execution Sword into Heaven's Sword, increasing the damage dealt by 150% and the activation rate by 25%"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Buff",
+            "Skill Damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Healing",
+            "Buff",
+            "Attack Speed",
+            "CC Immunity"
         ]
     },
     {
@@ -2282,6 +3262,11 @@
             "Each slash deals STR X 250 damage",
             "Final slash deals STR X 600 damage",
             "Stun for 3 fixed seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -2303,6 +3288,20 @@
             "On recast, launches a counter strike",
             "Deals Skill Level X 200 pure damage",
             "Damage evaded (up to 500% max HP) and (ATK DMG X 7.5) bonus damage"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Buff",
+            "Attack Damage",
+            "Movement Speed"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Pure Damage",
+            "Missing Description",
+            "Debuff Removal"
         ]
     },
     {
@@ -2315,6 +3314,12 @@
         "passive": [
             "A martial art that strengthens the fist, passed down from the Shaolins of the orients.",
             "15% chance to deal AGI X 30 damage on attack"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -2329,6 +3334,12 @@
             "Adds splash effect to attack",
             "8% Chance to deal Skill Level X 500 damage to nearby enemies on attack",
             "AGI X 40 bonus damage"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -2342,6 +3353,15 @@
             "Apply sudden pressure to weak points, slowing down the target's movement.",
             "Chance to slow target on attack",
             "Temporarily decrease target's armor if debuff is stacked"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Unclear",
+            "Debuff",
+            "Movement Speed",
+            "Attack Speed",
+            "Armor"
         ]
     },
     {
@@ -2355,6 +3375,16 @@
             "Calm your mind and body to maintain control over yourself.",
             "Increased attack speed",
             "Chance to temporarily boost attack damage, damage resistance by 20% and HP regen on attack"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Buff",
+            "Attack Speed",
+            "Trigger",
+            "Regen",
+            "Buff",
+            "Attack Damage",
+            "Damage Resistance"
         ]
     },
     {
@@ -2368,6 +3398,12 @@
             "An improved version of Emperor's strikes that boasts fearsome power.",
             "Chance to deal 400% attack damage on attack",
             "AGI X 60 bonus damage"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -2383,6 +3419,12 @@
             "Increases damage dealt by martial arts by 80% and reduces attack cooldown by 50%",
             "Gains immunity to unit collision, debuffs and CC effects",
             "Lasts 8 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Attack Speed",
+            "CC Immunity"
         ]
     },
     {
@@ -2403,6 +3445,18 @@
             "For 4 seconds, every attack deals STR X 7.5 bonus magic damage",
             "Attack speed maximized",
             "Boosts next skill cast within duration"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Debuff",
+            "Attack Speed"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Magic Damage",
+            "Attack Speed"
         ]
     },
     {
@@ -2418,6 +3472,16 @@
             "Attack Damage X 100% damage",
             "STR X 7.5 bonus pure damage",
             "Empowered: Increases target's damage taken by 5%, and increases the critical chance of your spear attacks toward target by 50% for 30 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Pure Damage",
+            "Attack Speed",
+            "Trigger",
+            "Debuff",
+            "Overall Damage Taken",
+            "Unclear"
         ]
     },
     {
@@ -2435,6 +3499,16 @@
             "Temporarily slows target",
             "Resets duration of Oriental Spear Mastery",
             "Empowered: Increases the damage you deal to target with spear attacks by 100% for 5 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unclear",
+            "Debuff",
+            "Movement Speed",
+            "Attack Speed",
+            "Unclear"
         ]
     },
     {
@@ -2452,6 +3526,12 @@
             "If target has barriers, breaks them and lands as a critical strike. If barrier cannot be broken, still lands a critical strike",
             "Empowered: Deals up to 150% bonus damage based on target's missing HP",
             "Shield break efficiency: 40%"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Break"
         ]
     },
     {
@@ -2472,6 +3552,22 @@
             "Disengage and prepare for the next battle.",
             "Moves back 600 distance",
             "Reduces damage taken by 50% for 1.5 seconds"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Mana Restore",
+            "Healing",
+            "Trigger",
+            "Buff",
+            "Overall Damage",
+            "Healing Received"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Overall Damage Taken",
+            "Missing Description",
+            "Debuff Removal"
         ]
     },
     {
@@ -2488,6 +3584,13 @@
             "STR X 175 bonus damage",
             "Boosts all stats of allies hit by 10% for 30 seconds",
             "Explosion deals 150% damage to nearby enemies and stun for 2 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Buff",
+            "Stats"
         ]
     },
     {
@@ -2503,6 +3606,11 @@
             "STR X 875 damage",
             "Deals 50% bonus damage to enemies within 250 radius from target point",
             "Restores all ki"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -2522,6 +3630,15 @@
             "Quickly dashes to prepare your scythe attacks.",
             "Instantly dashes up to 600 distance toward current destination point",
             "Refreshes cooldowns on Whirl of Death and Death's Dash"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Buff",
+            "Attack Speed",
+            "Movement Speed"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -2537,6 +3654,12 @@
             "Attack Damage X 100% damage",
             "AGI X 15 bonus damage",
             "On next 3 attack(s), reactivates with 25% damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Trigger"
         ]
     },
     {
@@ -2557,6 +3680,14 @@
         "active": [
             "For 1.5 seconds, attack twice on every attack",
             "Landing different types of attacks will not reset the stacks while active"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger"
         ]
     },
     {
@@ -2573,6 +3704,13 @@
             "On finish, deals Attack Damage X 600% damage",
             "AGI X 60 bonus damage",
             "Whirl of Death will deal pure damage to the target and the damage of Death's Dash is increased by 50% while Death's Dash is active"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Debuff",
+            "Movement Speed"
         ]
     },
     {
@@ -2588,6 +3726,14 @@
             "Attacks with Attack Damage X 10% every 0.05 seconds",
             "While active, reduces damage taken by 80% and becomes immune to CC effects",
             "Can be maintained up to 0.9 second"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Buff",
+            "Overall Damage Taken",
+            "CC Immunity"
         ]
     },
     {
@@ -2607,6 +3753,16 @@
         "active": [
             "Enters focused state immediately",
             "Lasts 4 seconds"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Buff",
+            "Overall Damage Taken",
+            "Physical Dodge"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -2623,6 +3779,11 @@
             "Increased up to 40% based on the target's missing HP (20% max HP)",
             "On finish, deals AGI X 525 damage to the target",
             "Re-use skill to manually finish"
+        ],
+        "active_tags": [
+            "Hero",
+            "Debuff",
+            "Overall Damage Taken"
         ]
     },
     {

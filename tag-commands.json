@@ -1,0 +1,24 @@
+[
+    {
+        "name": "list all",
+        "desc": "Shows list of all available tags",
+        "example": [
+            "-tag list all",
+            "-tag list"
+        ]
+    },
+    {
+        "name": "list",
+        "desc": "Shows list of item/skills that have specified tag\nIf list is used by itself, it works the same as list all",
+        "example": [
+            "-tag list regen"
+        ]
+    },
+    {
+        "name": "info",
+        "desc": "Shows a description of a given tag",
+        "example": [
+            "-tag info heal"
+        ]
+    }
+]
