@@ -8243,7 +8243,7 @@
       "mp": 7500,
       "healreceivedpercent": -0.25,
       "passive": [
-        "On attack inflicts Greed",
+        "On dealing damage, inflicts Greed",
         "When in combat for 5 seconds, increases ATK SPD and DMG OUTPUT by 1%",
         "Also increases DMG TAKEN by 2%",
         "Can be stacked up to 25 times",
