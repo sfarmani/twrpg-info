@@ -1064,7 +1064,12 @@
         "type": "DPS",
         "order": 1,
         "stat": "INT",
-        "version": "44b",
+        "version": "44h",
+        "description": [
+            "Frost lord provides more damage than Soul Devourer which is great in short burst fights",
+            "While Soul Devourer gives passive regen which allows Q spams in normal form and MP recovery during boss invul phase which is great in long fights",
+            "Curse of Greed is highly optional as its a double edge item since it increases damage output and damage taken."
+        ],
         "items": {
             "Staff of Plague": [
                 "The Ender"
@@ -1072,7 +1077,10 @@
             "Prophetia, the Origin of Knowledge": [],
             "Seed of Malice": [],
             "Thanatos, the Robe of Hell": [],
-            "Soul Devourer": []
+            "Soul Devourer": [
+                "Wings of Frost Lord",
+                "Curse of Greed"
+            ]
         }
     },
     {
