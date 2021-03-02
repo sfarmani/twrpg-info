@@ -1,7 +1,9 @@
 [
     {
         "name": "list all",
-        "desc": "Shows list of all available tags",
+        "desc": [
+            "Shows list of all available tags"
+        ],
         "example": [
             "-tag list all",
             "-tag list"
@@ -9,14 +11,23 @@
     },
     {
         "name": "list",
-        "desc": "Shows list of item/skills that have specified tag\nIf list is used by itself, it works the same as list all",
+        "desc": [
+            "Shows list of item/skills that have specified tag",
+            "If list is used by itself, it works the same as list all",
+            "You can use `+` symbol to add filters to your search",
+            "If you don't include passive or active, it will search on both"
+        ],
         "example": [
-            "-tag list regen"
+            "-tag list regen",
+            "-tag list hero + passive + buff + magic damage",
+            "-tag list hero + buff"
         ]
     },
     {
         "name": "info",
-        "desc": "Shows a description of a given tag",
+        "desc": [
+            "Shows a description of a given tag"
+        ],
         "example": [
             "-tag info heal"
         ]

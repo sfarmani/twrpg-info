@@ -13690,11 +13690,12 @@
       "mainstat": 250,
       "allstat": 310,
       "passive": [
-        "+10% DMG DEALT by attack",
-        "'War Shout' Increase nearby allies MOV SPD and Health Regeneration"
+        "Damage dealt by attack +10%",
+        "Increases nearby allies' speed and HP regen"
       ],
       "active": [
-        "Anti-Magic Shield (self) (240 CD) (Shared with Sacred Helm)"
+        "Block magic every 4 minutes",
+        "Lasts 5 seconds"
       ]
     }
   },
@@ -13775,10 +13776,11 @@
       "strength": 460,
       "agility": 300,
       "passive": [
-        "+12.5% DMG DEALT by attack"
+        "Damage dealt by attack +12.5%"
       ],
       "active": [
-        "Anti-Magic Shield (self) (180 second CD)"
+        "Block magic every 3 minutes",
+        "Lasts 5 seconds"
       ]
     }
   },
@@ -14109,7 +14111,8 @@
         "Consume 1 stack on attack and deal (MAIN STAT X 3.75) pure damage on attack"
       ],
       "active": [
-        "Block magic every 1 minute and 30 seconds"
+        "Block magic every 1 minute and 30 seconds",
+        "Lasts 5 seconds"
       ]
     }
   },
@@ -19378,7 +19381,8 @@
         "Consume 1 stack on attack to do (MAIN STAT X 5) pure damage on attack"
       ],
       "active": [
-        "Block magic every 1 minute"
+        "Block magic every 1 minute",
+        "Lasts 5 seconds"
       ]
     }
   },
