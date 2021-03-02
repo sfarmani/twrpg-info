@@ -1,5 +1,21 @@
 [
     {
+        "name": "44k",
+        "notes": [
+            "Released on: March 1st, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Water Mage - Fixed spell casts sometimes preventing characters like Knight or Warlock from casting their own spells"
+        ],
+        "misc": [
+            "Dev note:",
+            [
+                "v0.50a is being worked on, please be patient and understand that there likely won't be any big changes until then"
+            ]
+        ]
+    },
+    {
         "name": "44h",
         "notes": [
             "Released on: February 24th, 2021",
