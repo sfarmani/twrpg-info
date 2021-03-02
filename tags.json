@@ -230,6 +230,12 @@
         ]
     },
     {
+        "name": "Maximum Mana",
+        "details": [
+            "ability increases maximum mana of affected units"
+        ]
+    },
+    {
         "name": "Instakill Immunity",
         "details": [
             "ability makes user immune to instant kills"
@@ -323,6 +329,39 @@
         "name": "Evade",
         "details": [
             "ability makes target evade damage instances"
+        ]
+    },
+    {
+        "name": "Revive",
+        "details": [
+            "ability ressurects fallen hero"
+        ]
+    },
+    {
+        "name": "todo list",
+        "details": [
+            "ask for: ",
+            "removing some tags which prob wont be used (aka damage type) but descriptions will be unclear",
+            "merging some tags aka 'Overall Damage Taken' and 'Damage Resistance' since unclear",
+            "adding some keywords to shorten ingame descriptions: 'Unkilleable' - HP does not drop below 1 ",
+            " 'Runner / Hypersonic / Speed Breaker / idk' - breaks ms limit ",
+            " 'Low Life' - 'based on the target's missing HP' - e.g. Low life status on <20% hp",
+            "tagging 'toggle' skills"
+        ]
+    },
+    {
+        "name": "weird tags",
+        "details": [
+            "next tags may be usable but adding them is questionable",
+            "may help in wording in in-game descriptions",
+            "empower - empowers other ability/s of hero",
+            "empowered - alternative/additional behaviour of skill, adds X effect if empowered e.g. :",
+            "skill 1: empowers next skill 2 cast",
+            "skill 2: deals damage; empowered: deals more damage",
+            "imo key is to add empowered description to skill which gets casted, not one which empowers it (crus, reaper)",
+            "self-boost - 'and increases the critical chance of !your! spear attacks toward target by 50% for 30 seconds'",
+            "aka something that works but in boundaries of only this hero",
+            "movement - dash/teleport/etc which is able to change position of hero"
         ]
     }
 ]

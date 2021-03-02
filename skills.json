@@ -3803,6 +3803,14 @@
         "toggle": [
             "TOGGLE OFF: Enable invisibility",
             "TOGGLE ON: Disable invisibility"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type",
+            "Buff",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -3819,6 +3827,11 @@
             "AGI X 10 bonus damage",
             "Chance to critically strike target with Assassin's abilities are increased by 12% for 10 seconds",
             "Stacks up to 3 times"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -3835,6 +3848,13 @@
             "AGI X 50 bonus damage",
             "After cast, increases attack damage by 50% for 6 seconds",
             "Critical strike is guaranteed if used while invisible"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Buff",
+            "Attack Damage"
         ]
     },
     {
@@ -3851,6 +3871,14 @@
             "AGI X 40 bonus damage",
             "If struck from behind, damage increased by 100%",
             "Increases movement speed"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Magic Damage",
+            "Buff",
+            "Movement Speed"
         ]
     },
     {
@@ -3867,6 +3895,15 @@
             "Decreases enemies' hit chance",
             "Reduces damage taken by allies by 40%",
             "Invisibility transition speed increased by 400% while staying within the smoke"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Debuff",
+            "Physical Dodge",
+            "Buff",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -3883,6 +3920,11 @@
             "Summons 4 additional shadows to attack",
             "Empowers next Shadow Slash or Ambush",
             "Duration: 8 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -3899,6 +3941,11 @@
             "Assassination deals AGI X 250 damage",
             "Deals 15% bonus damage for each stack of Shadow Slash on target",
             "Critically strikes enemies within 250 distance from the center"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -3915,6 +3962,11 @@
             "Reduces damage taken by 40% for 2 seconds after casting",
             "Leaves behind a feather that you can recall back to",
             "Range: 1000"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -3936,6 +3988,17 @@
         "active": [
             "\"It's time to attack!\"",
             "Switch to attack mode"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Heal"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -3955,6 +4018,17 @@
         "active": [
             "\"It's time to relax!\"",
             "Switch to healing mode"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Magic Damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Heal"
         ]
     },
     {
@@ -3972,6 +4046,12 @@
             "Cooldown reset upon casting Feather of Aeolus",
             "When two gentle winds combine, strong winds are formed for 4 seconds, dealing Attack Damage X 750% damage per second",
             "Range: 1500"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Heal"
         ]
     },
     {
@@ -3992,6 +4072,18 @@
             "For 9 seconds, absorbs 45% of damage taken by nearby allies",
             "Upon expiration or casting again, deals INT X 100 damage to nearby enemies and stuns for 0.5 seconds",
             "Knockbacks non-boss enemies"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Shield"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Overall Damage",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -4009,6 +4101,13 @@
             "Increases allies' skill damage by 5%",
             "Duration is refreshed upon stacking",
             "Lasts for 40 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Healing",
+            "Buff",
+            "Maximum Health",
+            "Skill Damage"
         ]
     },
     {
@@ -4026,6 +4125,17 @@
             "Slows enemies",
             "Removes debuffs from allies",
             "Creates up to 6 pulses"
+        ],
+        "active_tags": [
+            "Hero",
+            "Healing",
+            "Damage",
+            "Magic Damage",
+            "Debuff Removal",
+            "Unclear",
+            "Debuff",
+            "Movement Speed",
+            "Attack Speed"
         ]
     },
     {
@@ -4041,6 +4151,10 @@
             "Summons a Guardian",
             "Lasts 45 seconds",
             "MP cost: 50"
+        ],
+        "active_tags": [
+            "Hero",
+            "Summoning"
         ]
     },
     {
@@ -4056,6 +4170,15 @@
             "Immunity to instant death, debuff and knockback",
             "Disappears when HP or MP runs out",
             "Applies barrier to allies within 750 radius before disappearing"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Buff",
+            "Magic Resistance",
+            "CC Immunity",
+            "Instakill Immunity",
+            "Trigger",
+            "Shield"
         ]
     },
     {
@@ -4070,6 +4193,12 @@
             "Heals for INT X 0.5 per second",
             "Increases healed allies' magic defense by 25%",
             "Consumes 3 MP per second"
+        ],
+        "active_tags": [
+            "Summon",
+            "Heal",
+            "Buff",
+            "Magic Resistance"
         ]
     },
     {
@@ -4084,6 +4213,11 @@
             "The anger of Vayu sweeps across, obliterating any foes in its path.",
             "Deals (AGI + INT) X 50 damage to enemies hit",
             "Drags enemies along"
+        ],
+        "active_tags": [
+            "Summon",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -4100,6 +4234,10 @@
             "Revives a dead ally nearby",
             "Restores Max HP X 100% after revival",
             "Revived allies spawn near guardian"
+        ],
+        "active_tags": [
+            "Summon",
+            "Revive"
         ]
     },
     {
@@ -4114,6 +4252,11 @@
             "Each attack deals (AGI + INT) X 75 damage",
             "Performs a total of (5 + remaining MP / 20) attacks",
             "Vanishes after cast"
+        ],
+        "active_tags": [
+            "Summon",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -4133,6 +4276,19 @@
             "Takes a random thing out of the bag to use it.",
             "Healing Potion - Heals for Max HP X 40%",
             "Speed Potion - Increases attack speed by 100% and movement speed by 100 for 6 seconds"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Magic Damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Heal",
+            "Buff",
+            "Attack Speed",
+            "Movement Speed"
         ]
     },
     {
@@ -4149,6 +4305,11 @@
             "STR X 25 bonus damage",
             "Stuns for 1 second",
             "Range: 800"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -4165,6 +4326,11 @@
             "STR X 2 bonus heal",
             "Increases target's HP regen by (Target's Max HP X 3% + Your own HP Regen) for 8 seconds",
             "Potion lasts 300 seconds, and you can maintain up to 5 potions at once"
+        ],
+        "active_tags": [
+            "Hero",
+            "Heal",
+            "Regen"
         ]
     },
     {
@@ -4181,6 +4347,10 @@
             "Provides shield that absorbs Consumed HP X 150% damage",
             "Shield is recharged by 10% every second",
             "Lasts 10 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Shield"
         ]
     },
     {
@@ -4197,6 +4367,15 @@
             "STR X 10 bonus damage",
             "Reduces healing taken by 20% and deals STR X 7.5 damage per second for 8 seconds",
             "Throws up to 10 coins"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Periodic Damage",
+            "Unchecked Periodic Damage",
+            "Debuff",
+            "Healing Received"
         ]
     },
     {
@@ -4214,6 +4393,14 @@
             "Revived ally cannot die for 5 seconds",
             "If killed while not on cooldown, it is used for yourself",
             "Range: 600"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Revive",
+            "Heal",
+            "Mana Restore",
+            "Unstakill Immunity"
         ]
     },
     {
@@ -4228,6 +4415,12 @@
             "Plants a very dangerous explosive.",
             "Plants an explosive that can be damaged",
             "After 12 seconds, explodes dealing STR X 50 + damage taken X 5% pure damage and stunning for 3 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Summoning",
+            "Damage",
+            "Pure Damage"
         ]
     },
     {
@@ -4242,6 +4435,12 @@
             "Plants a cursed doll.",
             "Plants a doll that can be damaged",
             "After 15 seconds, explodes dealing STR X 125 + damage taken X 5% pure damage and stunning for 3 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Summoning",
+            "Damage",
+            "Pure Damage"
         ]
     },
     {
@@ -4261,6 +4460,14 @@
             "Heals for Max HP X 30% per second",
             "Except for self, the target cannot be affected by Indomitable Strength again for 120 seconds",
             "Cast range: 1000"
+        ],
+        "active_tags": [
+            "Hero",
+            "Heal",
+            "Buff",
+            "Movement Speed",
+            "Overall Damage",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -4274,6 +4481,12 @@
             "Continuously attack like flowing water.",
             "Every 3rd attack deals Attack Damage X 150% + 5 X (STR + AGI) bonus magic damage",
             "Resets after 10 seconds without attack"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -4288,6 +4501,10 @@
             "Focuses strength onto the tip of the spear to deliver powerful strikes.",
             "Next 3 attacks activates Fierce Strike that deals pure damage",
             "3rd attack deals double damage and knocks up non-boss target"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger"
         ]
     },
     {
@@ -4303,6 +4520,13 @@
             "Maximum attack damage: (STR X 2.5 + AGI X 2)",
             "Maximum attack speed bonus: 75%",
             "Maximum damage resistance: 20%"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Buff",
+            "Attack Damage",
+            "Attack Speed",
+            "Damage Resistance"
         ]
     },
     {
@@ -4319,6 +4543,11 @@
             "(STR + AGI) X 40 bonus damage",
             "Stuns target for 1 second",
             "Recharges Magnetic Field by 5% for each 200 distance travelled"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -4335,6 +4564,13 @@
             "STR X 6 + AGI X 8 bonus damage",
             "Reduces damage taken by 40%",
             "After 3 seconds, consumes 15% of Magnetic Field per second"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Buff",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -4352,6 +4588,11 @@
             "Consumes Magnetic Field to deal up to a maximum of 100% bonus damage",
             "Breaks barriers and stuns for 1.5 seconds if max gauge is consumed",
             "Cast time: 0.5 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -4369,6 +4610,11 @@
             "Restores 25% of Magnetic Field every second",
             "Binds nearby enemies' movements",
             "Total of 64 lightning strikes over 4 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -4385,6 +4631,14 @@
             "Deals Attack Damage X 200% damage per second",
             "Bleeding damage stacks with other Berserker players",
             "Duration: 5 seconds"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Heal",
+            "Damage",
+            "Unknown Damage Type",
+            "Unchecked Periodic Damage"
         ]
     },
     {
@@ -4399,6 +4653,11 @@
             "Slash nearby targets, knocking them back.",
             "Consumes HP X 10%",
             "Attack Damage X 200% pure damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Pure Damage"
         ]
     },
     {
@@ -4414,6 +4673,13 @@
             "Consumes HP X 30%",
             "Max HP X 400% pure damage",
             "Increases magic damage taken by target by 10% for 3 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Pure Damage",
+            "Debuff",
+            "Magic Damage Taken"
         ]
     },
     {
@@ -4434,6 +4700,15 @@
             "Ignores all healing received",
             "Max efficiency threshold: 20% HP",
             "Provides silence immunity when toggled ON"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Buff",
+            "Attack Damage",
+            "Skill Damage",
+            "Stats",
+            "Attack Speed"
         ]
     },
     {
@@ -4453,6 +4728,12 @@
             "When near enemies and Blade Rush is active, sets movement speed to 500",
             "Ignores unit collision while active",
             "Lasts 2 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Unchecked Periodic Damage"
         ]
     },
     {
@@ -4473,6 +4754,20 @@
             "Consumes HP X 80%",
             "Increases attack speed by 100% and movement speed by 125 for 12 seconds",
             "Evades death for the duration"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Magic Damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Attack Speed",
+            "Movement Speed",
+            "Prevent Death",
+            "Instakill Immunity"
         ]
     },
     {
@@ -4490,6 +4785,13 @@
             "Total of 10 slashes",
             "Fully restores HP after cast",
             "Gain knockback immunity during cast"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Heal",
+            "CC Immunity"
         ]
     },
     {
@@ -4504,6 +4806,14 @@
             "Increasees move speed by 100",
             "Every 4 seconds, empowers next attack with magical explosion, dealing AGI X 40 magic damage",
             "Next Flame Shot / Freezing Shot incurs no cooldown"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Buff",
+            "Movement Speed",
+            "Trigger",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -4521,6 +4831,11 @@
             "Deals 150% bonus damage to stunned targets",
             "Explosion radius: 325/325",
             "Stun Duration: 1 second"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -4536,6 +4851,15 @@
             "Attack Damage X 400% damage",
             "AGI X 40 bonus damage",
             "Slows enemies"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Unclear",
+            "Debuff",
+            "Movement Speed",
+            "Attack Speed"
         ]
     },
     {
@@ -4556,6 +4880,20 @@
             "Send out the guardian to support your allies.",
             "Increases nearby allies' HP regen by (Target's Max HP X 10%)",
             "Lasts up to a maximum of 4 seconds"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Aura",
+            "Buff",
+            "Attack Damage",
+            "Stats",
+            "Trigger",
+            "Damage",
+            "Unknown Damage Type"
+        ],
+        "active_tags": [
+            "Hero",
+            "Regen"
         ]
     },
     {
@@ -4572,6 +4910,11 @@
             "Guardian's next attack on target deals 300% for 1 second",
             "Lasts 3 seconds",
             "Radius: 375"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -4589,6 +4932,11 @@
             "AGI X 25 bonus damage",
             "If chained with Flame Shot, explosion radius increased by 50%",
             "If chained with Freezing Shot, freezes enemies hit for 2.5 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -4604,6 +4952,13 @@
             "Each arrow deals Attack Damage X 800% damage",
             "AGI X 80 bonus damage",
             "Stuns targets hit for 5 seconds and decreases their armors"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Debuff",
+            "Armor"
         ]
     },
     {
@@ -4621,6 +4976,11 @@
             "Explosion deals AGI X 475 damage",
             "Stacks Elven Arrow every second for 6 seconds",
             "Stacks are usable for 15 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -4640,6 +5000,18 @@
             "Release mana to strengthen your body.",
             "Increases damage reduction by 15%",
             "Converts restored MP into HP 50% of restored MP"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Buff",
+            "Maximum Mana",
+            "Mana Restore"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Damage Reduction",
+            "Heal"
         ]
     },
     {
@@ -4655,6 +5027,11 @@
             "Attack Damage X 400% damage",
             "Consumed MP X 400% bonus damage",
             "Reactivates with halved effectiveness on attack for 4 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -4670,6 +5047,14 @@
             "Knockbacks enemies toward charge direction",
             "Colliding from far distance breaks barriers and deals consumed MP X (1000 + 5 X charge distance)% bonus damage",
             "Release Mana ON: Pierces through enemies, and provides (max MP X damage reduction) shield to allies for 3 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Break",
+            "Trigger",
+            "Shield"
         ]
     },
     {
@@ -4690,6 +5075,16 @@
             "Becomes immune to debuff for 2 seconds",
             "Evades next attack",
             "Chain - Assault"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Overall Damage Taken"
+        ],
+        "active_tags": [
+            "Hero",
+            "Debuff Removal",
+            "CC Immunity"
         ]
     },
     {
@@ -4705,6 +5100,11 @@
             "Ignores target's armor",
             "If used after dodging, lands as critical strikes",
             "Deactivates Release Mana"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Pure Damage"
         ]
     },
     {
@@ -4726,6 +5126,19 @@
             "If Release Mana is toggled on, each orb stuns target",
             "If Release Mana is toggled off, each orb slows target movement speed by 50% for 3 seconds",
             "If less than 3 orbs were charges, does not go on cooldown"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Buff",
+            "Magic Resistance"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Trigger",
+            "Debuff",
+            "Movement Speed"
         ]
     },
     {
@@ -4747,6 +5160,18 @@
             "Shares damage reduction and HP recovery with allies",
             "Restores Knight's MP by 10% per second",
             "Lasts 6 seconds"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Mana Restore"
+        ],
+        "active_tags": [
+            "Hero",
+            "Heal",
+            "Mana Restore",
+            "Buff",
+            "Damage Resistance"
         ]
     },
     {
@@ -4764,6 +5189,13 @@
             "Can be channeled up to a maximum of 4 seconds",
             "Grants 100% damage reduction and immunity to debuffs/CC effects to allies hit for 5 seconds",
             "Cancels Release Mana"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Damage Resistance",
+            "CC Immunity"
         ]
     },
     {
@@ -4782,6 +5214,16 @@
         "active": [
             "Harvests souls.",
             "Absorbs souls in a straight line"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+			"Trigger",
+            "Heal"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -4798,6 +5240,11 @@
             "STR X 30 bonus damage",
             "Damage is increased by 100% for each 0.25 second channeled, and rips out target's soul if channeled to max",
             "If cast twice consecutively, next cast has no cast time and has 50% increased damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -4814,6 +5261,13 @@
             "(STR + INT) X 30 bonus damage",
             "Activates Deathblade and summons 4 souls",
             "STR Main Stat: Damage is converted into pure damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Trigger",
+            "Pure Damage"
         ]
     },
     {
@@ -4831,6 +5285,15 @@
             "On finish, receives shield that absorbs Consumed HP X 100% damage for 8 seconds",
             "While casting, becomes immune to CC effects and reduces damage taken by 80%",
             "INT Main Stat: Nearby allies also receive the effect"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Buff",
+            "CC Immunity",
+            "Overall Damage Taken",
+            "Shield"
         ]
     },
     {
@@ -4844,6 +5307,10 @@
             "Practices dark arts.",
             "Upon killing an enemy or absorbing a soul, restores 1 SP (max 5)",
             "SP can be used to cast skills"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger"
         ]
     },
     {
@@ -4858,6 +5325,12 @@
             "Shoots a coil infused with dark magic.",
             "Deals Main Stat X 50 magic damage to enemy",
             "Heals allies for INT X 3"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Heal"
         ]
     },
     {
@@ -4871,6 +5344,9 @@
             "Grasps target's soul.",
             "Stuns target for 2 seconds",
             "INT Main Stat: Pulls target toward you"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -4884,6 +5360,18 @@
             "For 15 seconds, deals Main Stat X 15 magic damage per second",
             "Reduces target's speed by 25%",
             "INT Main Stat: Increases magic damage taken by target by (4 + INT / 1250)%"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unclear",
+            "Debuff",
+            "Attack Speed",
+            "Movement Speed",
+            "Trigger",
+            "Debuff",
+            "Magic Damage Taken"
         ]
     },
     {
@@ -4899,6 +5387,13 @@
             "Main Stat X 100 magic damage",
             "Upon arrival, deals damage again and summons 4 souls",
             "INT Main Stat: Breaks barrier effects"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Trigger",
+            "Break"
         ]
     },
     {
@@ -4915,6 +5410,15 @@
             "Seals target's abilities for 2 seconds",
             "STR Main Stat: Consumes nearby souls to deal Main Stat X 100 bonus damage per soul",
             "INT Main Stat: Increases nearby allies HP regen by INT X 1 and magic defense by 60% for 6 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Trigger",
+            "Buff",
+            "Regen",
+            "Magic Resistance"
         ]
     },
     {
@@ -4930,6 +5434,13 @@
             "Deals Main Stat X 775 magic damage over 2 seconds",
             "Periodically stuns target and deals up to 50% bonus damage based on target's missing HP",
             "On finish, resets cooldowns on other skills"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Missing Description",
+            "Invulnerable"
         ]
     },
     {
@@ -4944,6 +5455,13 @@
             "Restore injuries with mana in the atmosphere.",
             "Restores HP & MP 35%",
             "Refreshes cooldowns"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Missing Description",
+            "Invulnerable"
         ]
     },
     {
@@ -4959,6 +5477,12 @@
             "Skill Level X 200 damage",
             "Max MP X 500% bonus damage",
             "Heals allies for 4% of damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Heal"
         ]
     },
     {
@@ -4975,6 +5499,13 @@
             "Stuns for 0.5 seconds",
             "Increases magic damage taken from Mage by 4% for 30 seconds",
             "Stacks up to 3 times"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Debuff",
+            "Magic Damage Taken"
         ]
     },
     {
@@ -4989,6 +5520,16 @@
             "Damage and slow enemies by amplifying the gravity.",
             "Skill Level X 200 damage",
             "INT X 4 bonus damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Missing Description",
+            "Unclear",
+            "Debuff",
+            "Attack Speed",
+            "Movement Speed"
         ]
     },
     {
@@ -5005,6 +5546,13 @@
             "Becomes invisible and takes 40% reduced damage",
             "Can be cast twice in a row",
             "Chain: Magic Star"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Buff",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -5019,6 +5567,11 @@
             "Fires magical missiles in all directions.",
             "Each missile deals INT X 50 magic damage",
             "Fires 5 missiles"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -5034,6 +5587,11 @@
             "Summons 5 stars that fires missiles every second and when you hit Magic Star",
             "Each missile deals INT X 15 magic damage",
             "Resets cooldown on Moonlight Link"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -5049,6 +5607,12 @@
             "Protects target ally",
             "Heals for INT X 3.5 per missile",
             "Lasts 4 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Heal",
+            "Missing Description",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -5063,6 +5627,15 @@
             "Creates a watery explosion to drench enemies in water.",
             "INT X 40 damage",
             "Drenches enemies in wetness for 6 seconds, slowing their speeds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Unclear",
+            "Debuff",
+            "Attack Speed",
+            "Movement Speed"
         ]
     },
     {
@@ -5080,6 +5653,11 @@
             "Freezes for 0.5 seconds",
             "If frozen, consumes it to increase damage by 400%",
             "If slowed, consumes it to increase freeze duration by 200%"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -5101,6 +5679,16 @@
             "Lasts 30 seconds",
             "Summons 1 spirit every 10 seconds",
             "Up to 3 spirits can be summoned at once"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Shield",
+            "Buff",
+            "Skill Damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Shield"
         ]
     },
     {
@@ -5116,6 +5704,11 @@
             "Skill Level X 750 damage",
             "INT X 50 bonus damage",
             "Activates Water Blast and leaves a slowing pool"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -5134,6 +5727,11 @@
             "If slowed, consumes it and increases damage by 200%",
             "If frozen, increases freeze duration by 100%",
             "Range: 575"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -5151,6 +5749,12 @@
             "Freezes for 1 seconds",
             "Orb lasts 8 seconds",
             "Chain: If collided into Ice Shard, increases its damage by 300%"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Unchecked Periodic Damage"
         ]
     },
     {
@@ -5166,6 +5770,13 @@
             "Freezes nearby enemies for 5 seconds",
             "Upon expiration, deals (INT X 125 + damage taken while frozen X 5%) pure damage",
             "Reduces damage dealt by targets for 50% while active"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Pure Damage",
+            "Debuff",
+            "Overall Damage"
         ]
     },
     {
@@ -5179,6 +5790,9 @@
             "\"Oops. That was a mistake..\" - Mage",
             "Ends Ice Age prematurely",
             "Defreeze any nearby enemies frozen from Ice Age"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -5194,6 +5808,12 @@
             "Heals target's Max HP X 8% every second",
             "Reduces target's damage taken by 20% while active",
             "Lasts for 12 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Heal",
+            "Buff",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -5210,6 +5830,14 @@
             "Heals allies for their Max HP X 12% + √(INT) X 180",
             "If target is affected by Recovery, clears all debuffs",
             "Also released from Divine Orb, and if both waves hit a boss unit, it will take Priest's Level X 300 bonus pure damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Heal",
+            "Trigger",
+            "Debuff Removal"
         ]
     },
     {
@@ -5225,6 +5853,14 @@
             "Summons an orb that can be controlled for 12 seconds",
             "Deals INT X 25 magic damage to enemies hit",
             "Increases allies' movement speed by 200 and regenerates their HP by 8% per second"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Regen",
+            "Buff",
+            "Movement Speed"
         ]
     },
     {
@@ -5246,6 +5882,19 @@
             "Deals INT X 15 magic damage per second",
             "Heals nearby allies HP by 450 + INT X 0.5 per second",
             "Lasts 10 seconds"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Aura",
+            "Buff",
+            "Attack Damage",
+            "Stats"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Heal"
         ]
     },
     {
@@ -5266,6 +5915,19 @@
             "Target's max HP X 1.5 bonus damage",
             "Can be channeled for 3 seconds",
             "Damage interval decreases based on attack speed"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Aura",
+            "Buff",
+            "Attack Damage",
+            "Stats"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Periodic Damage"
         ]
     },
     {
@@ -5286,6 +5948,19 @@
             "Target's max HP X 1.5 bonus damage",
             "Can be channeled for 3 seconds",
             "Damage interval decreases based on attack speed"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Aura",
+            "Buff",
+            "Attack Damage",
+            "Stats"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Periodic Damage"
         ]
     },
     {
@@ -5306,6 +5981,19 @@
             "Target's max HP X 1.5% bonus damage",
             "Can be channeled for 3 seconds",
             "Damage interval decreases based on attack speed"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Aura",
+            "Buff",
+            "Attack Damage",
+            "Stats"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Periodic Damage"
         ]
     },
     {
@@ -5321,6 +6009,12 @@
             "INT X 100 magic damage",
             "Stuns enemies within area for 0.5 seconds and blinds them for 5 seconds",
             "Grants barriers to allies within area that absorbs INT X 6 damage for 6 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Shield"
         ]
     },
     {
@@ -5337,6 +6031,10 @@
             "25% Magic Defense",
             "Immune to CC",
             "Lasts for 100 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Summoning"
         ]
     },
     {
@@ -5351,6 +6049,12 @@
             "Attacks all nearby targets at once",
             "Magic defense increased by 25%",
             "Immune to CC effects"
+        ],
+        "active_tags": [
+            "Summon",
+            "Buff",
+            "CC Immunity",
+            "Magic Resistance"
         ]
     },
     {
@@ -5363,6 +6067,9 @@
         "order": 11,
         "active": [
             "Teleport to summoner's position."
+        ],
+        "active_tags": [
+            "Summon"
         ]
     },
     {
@@ -5377,6 +6084,11 @@
             "Surround ally in light to heal his/her wounds.",
             "Removes all debuffs",
             "Restores all HP"
+        ],
+        "active_tags": [
+            "Summon",
+            "Heal",
+            "Debuff Removal"
         ]
     },
     {
@@ -5390,6 +6102,11 @@
         "active": [
             "Pulls target ally toward your location.",
             "Grants invulnerability to target and self while casting"
+        ],
+        "active_tags": [
+            "Summon",
+            "Buff",
+            "Invulnerability"
         ]
     },
     {
@@ -5404,6 +6121,12 @@
             "Gift target with god's blessing.",
             "Reduces damage taken by 50% for 3 seconds after resurrection",
             "If killed while active, revives the target after 2 seconds"
+        ],
+        "active_tags": [
+            "Summon",
+            "Revive",
+            "Buff",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -5420,6 +6143,14 @@
             "For allies on the field, increases their armor by 500 and regenerates their HP by 10% per second",
             "For your summons on the field, increases their attack speed by 50%",
             "Revives a fallen ally (once per cast)"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Regen",
+            "Armor",
+            "Attack Speed",
+            "Revive"
         ]
     },
     {
@@ -5433,6 +6164,12 @@
             "Holy power allows you to emit a powerful aura.",
             "Every 7th attack empowers next attack with Judgment",
             "Attack Damage X 250% magic damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -5447,6 +6184,11 @@
             "Increase nearby allies' attack damage by 10%",
             "Judgment - Deals (150% ATK DMG) pure damage",
             "Sigil - Increases skill damage by 12% for 20 seconds"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Aura",
+            "Attack Damage"
         ]
     },
     {
@@ -5461,6 +6203,11 @@
             "Increases nearby allies' magic defense by 15%",
             "Judgment - Grants shield that absorbs (STR + INT X 2) damage for 2 seconds and reduces damage dealt by target by 40% for 2 seconds",
             "Sigil - Grants shield for 4 seconds"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Aura",
+            "Magic Resistance"
         ]
     },
     {
@@ -5475,6 +6222,11 @@
             "Increases nearby allies' HP regen by target's max HP X 1% + INT X 0.2",
             "Judgment - Restores max HP X 30%",
             "Sigil - Heals for target's max HP X 20% + INT X 4, increases heal received by 50% for 10 seconds"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Aura",
+            "Regen"
         ]
     },
     {
@@ -5489,6 +6241,11 @@
             "Increases nearby allies' movement speed by 75",
             "Judgment - Stuns target for 0.5 seconds",
             "Sigil - Removes debuffs"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Aura",
+            "Movement Speed"
         ]
     },
     {
@@ -5505,6 +6262,12 @@
             "Heals allies hit for INT X 2",
             "Leaves Mark of Light for 3 seconds that allows your next attack to ignore target's armor",
             "Cooldown reset on casting other skills"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type",
+            "Heal"
         ]
     },
     {
@@ -5524,6 +6287,14 @@
             "Deals 50% bonus damage to enemies afflicted with Mark of Light",
             "Activates Judgment on next attack",
             "Provides Sigil to a single ally"
+        ],
+        "passive_tags": [
+            "Hero"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -5544,6 +6315,15 @@
             "Applies Judgment to nearby enemies",
             "Summons 2 holy spirits",
             "Applies ally buffs before applying judgment on enemies"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Buff",
+            "Maximum Health",
+            "Healing Received"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -5559,6 +6339,13 @@
             "Attack Damage X 5000% magic damage",
             "Binds target's movement for 2 seconds",
             "Deals 75% bonus damage if target is already bound or is below 40% HP"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Debuff",
+            "Movement Speed"
         ]
     },
     {
@@ -5574,6 +6361,12 @@
             "Reduces damage taken by 80% for 5 seconds",
             "Regenerates nearby allies' HP by 15% every second",
             "On recast, detonates the shield to deal STR X 175 magic damage to nearby enemies and stun them for 1 second"
+        ],
+        "active_tags": [
+            "Hero",
+            "Regen",
+            "Buff",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -5589,6 +6382,12 @@
             "Releases a pulse every second to deal STR X 275 magic damage",
             "Each flash also heals 2 allies for INT X 5",
             "Lasts 4 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damae",
+            "Heal"
         ]
     },
     {
@@ -5604,6 +6403,9 @@
             "Restores 1 soul if all 3 attacks land",
             "Cooldown is reduced based on bonus attack speed",
             "Deals only 50% damage to boss units"
+        ],
+        "passive_tags": [
+            "Hero"
         ]
     },
     {
@@ -5617,6 +6419,10 @@
             "Restores 1 soul every 2 seconds",
             "Can hold up to 8 souls",
             "Regenerates HP X 0.5% per second for every soul held"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Regen"
         ]
     },
     {
@@ -5654,6 +6460,11 @@
             "AGI X 20 bonus damage",
             "Pulls in non-boss enemies and stuns them for 0.25 seconds",
             "Castable while casting other spells"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damge",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -5668,6 +6479,11 @@
             "AGI X 40 bonus damage",
             "Lands as critical strike on boss units",
             "Castable while casting other spells"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damge",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -5683,6 +6499,12 @@
             "Reduces damage taken by 70% and removes all debuffs",
             "Restores 4 souls",
             "Resets cooldowns of Crescent and Daze"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Overall Damage Taken",
+            "Debuff Removal"
         ]
     },
     {
@@ -5698,6 +6520,9 @@
             "Enables dash while active",
             "Effects of max Soul is enabled while active",
             "Duration: 8 seconds"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -5713,6 +6538,11 @@
             "Delivers Attack Damage X 17500% damage at the end",
             "Stuns for 2 seconds",
             "Deals up to 40% bonus damage based on target's missing HP (20% max HP)"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Unknown Damage Type"
         ]
     },
     {
@@ -5726,6 +6556,11 @@
             "Forms a harmonious balance between attacking and healing.",
             "Every 4th attack heals you and 2 nearby ally",
             "Heals for target's max HP X 2% + INT X 0.5"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Heal"
         ]
     },
     {
@@ -5741,6 +6576,13 @@
             "Grants increased attack speed for 1.5 seconds",
             "Deals Main Stat X 1 pure damage on each attack",
             "If cast from melee range or while Wind Walk is active, deals 100% bonus damage and stuns for 0.5 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Pure Damage",
+            "Buff",
+            "Attack Speed"
         ]
     },
     {
@@ -5756,6 +6598,12 @@
             "Heals for (STR + INT) X 0.3 every second",
             "Reduces damage taken by 20%",
             "Lasts 6~12 seconds based on distance from center"
+        ],
+        "active_tags": [
+            "Hero",
+            "Heal",
+            "Buff",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -5777,6 +6625,11 @@
             "If Hermit, cooldown: 2 seconds",
             "If Merchant, Recharges 1 per second (up to 5)",
             "Throw range: 1200"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -5794,6 +6647,16 @@
         "active": [
             "Increases movement speed and ignores collision for 1 seconds",
             "Increases passive's restoration by 200%"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Heal"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Movement Speed"
         ]
     },
     {
@@ -5809,6 +6672,13 @@
             "Regenerates resource point by 5% per second",
             "Grants 15% skill damage to allies in the orb",
             "Lasts 4~8 seconds based on duration travelled"
+        ],
+        "active_tags": [
+            "Hero",
+            "Regen",
+            "Mana Restore",
+            "Buff",
+            "Skill Damage"
         ]
     },
     {
@@ -5825,6 +6695,13 @@
             "Clears debuffs and grants shield absorbing Main Stat X 5 damage to nearby allies for 3 seconds",
             "Also activates from summoned orbs",
             "Chain - Inner Release"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Shield",
+            "Debuff Removal"
         ]
     },
     {
@@ -5837,6 +6714,9 @@
         "active": [
             "Releases all of your power.",
             "Knocks back nearby enemies and stuns them for 1.5 seconds"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -5854,6 +6734,16 @@
             "Clears debuffs from allies and prevents their HP from dropping below 1",
             "Breaks barriers on enemies",
             "Lasts for 3.5 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Heal",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Periodic Damage",
+            "Prevent Death",
+            "Debuff Removal",
+            "Break"
         ]
     },
     {
@@ -5874,6 +6764,17 @@
             "Increases movement speed by 500 for 1.5 seconds",
             "Ignores unit collision",
             "Flight height of 225"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Magic Damage"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Movement Speed"
         ]
     },
     {
@@ -5891,6 +6792,11 @@
             "Can be channeled up to 2 seconds, increasing damage by 200% and range/stun duration by 100% every second",
             "Star Shower can be cast during channeling",
             "Increases channeling speed by 4% per 1% attack speed"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -5907,6 +6813,12 @@
             "Refills 1 charge every 6 seconds",
             "Can hold up to 4 charges",
             "Can pierce enemies"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Heal"
         ]
     },
     {
@@ -5923,6 +6835,9 @@
             "Potion lasts for 30 seconds and heals for INT X 3",
             "Increases a target's main stat by 6% for 60 seconds",
             "Cannot provide the same stat increase twice in a row"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -5937,6 +6852,12 @@
             "A master of witchcraft can even stop the time itself.",
             "Freezes enemies for 1.5 seconds",
             "Grants immunity to harmful effects to allies for 2 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Debuff Removal",
+            "CC Immunity",
+            "Overall Damage Taken"
         ]
     },
     {
@@ -5950,6 +6871,10 @@
         "active": [
             "Summons a fallen angel who has formed a contract with Witch a long time ago.",
             "Summons Armaros"
+        ],
+        "active_tags": [
+            "Hero",
+            "Summoning"
         ]
     },
     {
@@ -5962,6 +6887,9 @@
         "order": 7,
         "passive": [
             "Teleport to summoner's position."
+        ],
+        "passive_tags": [
+            "Summon"
         ]
     },
     {
@@ -5975,6 +6903,14 @@
             "A fallen angel cannot receive the blessings of the God.",
             "Each attack deals INT X 7.5 magic damage",
             "Magic defense increased by 25%"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Trigger",
+            "Damage",
+            "Magic Damage",
+            "Buff",
+            "Magic Resistance"
         ]
     },
     {
@@ -5988,6 +6924,12 @@
         "active": [
             "INT X 150 magic damage",
             "Breaks barriers"
+        ],
+        "active_tags": [
+            "Summon",
+            "Damage",
+            "Magic Damage",
+            "Break"
         ]
     },
     {
@@ -6007,6 +6949,20 @@
         "active": [
             "Brands the target with power.",
             "Lasts 45 seconds"
+        ],
+        "passive_tags": [
+            "Summon",
+            "Buff",
+            "Overall Damage",
+            "Overall Damage Taken",
+            "Attack Speed"
+        ],
+        "active_tags": [
+            "Summon",
+            "Buff",
+            "Overall Damage",
+            "Overall Damage Taken",
+            "Attack Speed"
         ]
     },
     {
@@ -6021,6 +6977,16 @@
             "Increases attack speed by 250% and movement speed by 300",
             "Becomes immune to all CC and harmful effects",
             "Vanishes after 12 seconds"
+        ],
+        "active_tags": [
+            "Summon",
+            "Trigger",
+            "Damage",
+            "Magic Damage",
+            "Buff",
+            "Attack Speed",
+            "Overall Damage Taken",
+            "CC Immunity"
         ]
     },
     {
@@ -6036,6 +7002,14 @@
             "Deals INT X 100 magic damage per second",
             "Increases magic damage taken (Type-D) by 10%",
             "Lasts 8 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Unchecked Periodic Damage",
+            "Debuff",
+            "Magic Damage Taken"
         ]
     },
     {
@@ -6050,6 +7024,9 @@
             "If you land 3 hits in a row and fulfill one of the conditions below, restores 1 energy and activates combo effect",
             "If same move was repeated: Increases attack damage by 20% for 5 seconds (stacks up to 3 times)",
             "If no move was repeated in a row: Empowers next move"
+        ],
+        "passive_tags": [
+            "Hero"
         ]
     },
     {
@@ -6066,6 +7043,11 @@
             "Ignores 50% of target's armor",
             "3rd hit deals 200% damage",
             "Empowered: Restores 1 energy"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Physical Damage"
         ]
     },
     {
@@ -6083,6 +7065,11 @@
             "If target is CRACKED, cooldown is reset",
             "If target is SHATTERED, consumes it to deal 200% damage",
             "Empowered: Deals 300% damage and if target is CRACKED, has 50% chance to leave it SHATTERED for 5 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -6099,6 +7086,12 @@
             "Reduce target's movement speed by 75% for 2 seconds",
             "Does not activate 'on skill cast' effects",
             "Empowered: Deals 300% damage and has 20% chance to leave target CRACKED for 6 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Debuff",
+            "Movement Speed"
         ]
     },
     {
@@ -6119,6 +7112,18 @@
             "Attack Damage X 400% magic damage",
             "STR X 40 bonus damage",
             "Empowered: Increases target's damage taken by 6% for 12 seconds and deal STR X 20 magic damage every second"
+        ],
+        "passive_tags": [
+            "Hero"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Trigger",
+            "Overall Damage Taken",
+            "Unchecked Periodic Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -6138,6 +7143,18 @@
             "Absorbs 70% of damage taken up to 1.5 seconds",
             "HP does not drop below 1",
             "Immune to CC effects"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Buff",
+            "Overall Damage Taken"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Overall Damage Taken",
+            "Prevent Death",
+            "CC Immunity"
         ]
     },
     {
@@ -6153,6 +7170,11 @@
             "Attack Damage X 3000% magic damage",
             "STR X 200 bonus damage",
             "Empowered: Deals up to 300% damage based on travelled distance"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -6170,6 +7192,11 @@
             "Final hit deals STR X 575 magic damage and applies SHATTERED to target for 5 seconds",
             "Resets duration of Combo Mastery",
             "Pauses target while active"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -6183,6 +7210,10 @@
             "Creates an illusion that can mimic you.",
             "Illusion deals 75% damage",
             "Has 10 second recast cooldown"
+        ],
+        "active_tags": [
+            "Hero",
+            "Summoning"
         ]
     },
     {
@@ -6195,6 +7226,10 @@
         "active": [
             "분신을 회수한다.",
             "재소환 쿨다운이 3초로 감소"
+        ],
+        "active_tags": [
+            "Summon",
+            "Unclear"
         ]
     },
     {
@@ -6211,6 +7246,11 @@
             "AGI X 30 bonus damage",
             "Can critically strike",
             "On skill cast, 12% chance to refresh cooldown"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -6230,6 +7270,19 @@
             "AGI X 15 magic damage",
             "Allows you to dash quickly after casting",
             "If an enemy is struck, allows recasting (up to 2 times)"
+        ],
+        "passive_tags": [
+            "Hero",
+            "Trigger",
+            "Damage",
+            "Pure Damage",
+            "Buff",
+            "Stats"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -6244,6 +7297,11 @@
             "Switches position with your illusion.",
             "AGI X 75 magic damage",
             "Increases your damage dealt to target by 20% for 3~12 seconds based on move distance"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -6259,6 +7317,13 @@
             "Deals AGI X 50 pure damage per second",
             "Can be deflected by Wonder Hand",
             "On recast, explodes the blade, stunning nearby enemies for 1.5 seconds and throwing 6 smaller blades at the nearest target dealing AGI X 10 magic damage per blade"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Pure Damage",
+            "Unchecked Periodic Damage",
+            "Magic Damage"
         ]
     },
     {
@@ -6270,6 +7335,9 @@
         "order": 7,
         "active": [
             "EXPLOOOOODE"
+        ],
+        "active_tags": [
+            "Hero"
         ]
     },
     {
@@ -6290,6 +7358,15 @@
             "AGI X 100 bonus damage",
             "Can critically strike",
             "Invincible for duration"
+        ],
+        "passive_tags": [
+            "Hero"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage",
+            "Invulnerable"
         ]
     },
     {
@@ -6305,6 +7382,11 @@
             "Pauses target",
             "Afterwards, summons 30 spikes to pierce target dealing AGI X 30 magic damage per spike",
             "Marks target in all directions"
+        ],
+        "active_tags": [
+            "Hero",
+            "Damage",
+            "Magic Damage"
         ]
     }
 ]
