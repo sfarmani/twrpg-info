@@ -1745,7 +1745,8 @@
       "active": [
         "Summons fairy on use. Has two spells:",
         "Heals 40000 HP over 12 seconds",
-        "Reduces a target's defense by 820 for 10 seconds",
+        "Decrease the target's armor by 200 with fairy's fire for 10 seconds",
+        "Lasts 30 seconds on non-boss units",
         "Cooldown: 90 seconds"
       ],
       "spec": [
