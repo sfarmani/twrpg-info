@@ -14932,7 +14932,7 @@
       "active": [
         "On use, activates La Pucelle",
         "Grants all nearby allies with 100% MAGIC DEF for 4 seconds",
-        "Every second heals all nearby allies for (25% max HP of target)",
+        "Heals user for 25% HP per second",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -19952,7 +19952,7 @@
         "On use, activates Cosmos",
         "Provides 100% MAGIC DEF and debuff immunity to allies within 800 radius for 5 seconds",
         "Applies MAGIC DEF first then cleanses",
-        "Heals 25% hp per second to user",
+        "Heals user for 25% HP per second",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
