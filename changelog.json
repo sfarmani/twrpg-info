@@ -1,5 +1,32 @@
 [
     {
+        "name": "44m",
+        "notes": [
+            "Released on: March 5th, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Fixed a bug where some items were not properly saving when in a slot other than the red slot"
+        ],
+        "heroes": [
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Gate of Truth (F)",
+                    [
+                        "Max stacks 25 → 35"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Dev note:",
+            [
+                "v0.50a is being worked on, please be patient and understand that there likely won't be any big changes until then"
+            ]
+        ]
+    },
+    {
         "name": "44k",
         "notes": [
             "Released on: March 1st, 2021",
