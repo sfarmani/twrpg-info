@@ -13731,15 +13731,10 @@
         ],
         "bugs": [
             "Fixed Wings of Death staying in air after avatar ends",
-            "Fixed Crown of serenity proc not applying int multiplier to itself"
+            "Fixed Crown of Serenity proc not applying int multiplier to itself",
+            "Fixed Crown of Serenity proc not being affected by Skill Damage/Healing Output"
         ],
         "items": [
-            {
-                "name": "Crown of Serenity",
-                "changes": [
-                    "Passive activation changed to be affected by healing output"
-                ]
-            },
             {
                 "name": "Acorn Bomb",
                 "changes": [

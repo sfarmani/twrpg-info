@@ -14230,8 +14230,7 @@
       "affinitywlpercent": 0.075,
       "passive": [
         "Upon healing an ally, 15% chance to activate Serenity",
-        "Grants 5% SKILL DMG and heals (2% max HP of target + INT X 0.125) HP and (1% max MP) every 0.5 seconds for 5 seconds",
-        "Activation chance affected by healing output"
+        "Grants 5% SKILL DMG and heals (2% max HP of target + INT X 0.125) HP and (1% max MP) every 0.5 seconds for 5 seconds"
       ],
       "spec": [
         "Specialty - Summary Judgement",
