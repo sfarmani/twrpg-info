@@ -530,6 +530,23 @@
         ]
     },
     {
+        "id": "n038",
+        "name": "Mad Clown",
+        "limit": "2",
+        "manacost": "0",
+        "category": "Minor",
+        "location": "In the Abandoned Graveyard",
+        "conditions": "Level 270",
+        "drops": [
+            "sor2",
+            "sora",
+            "ram1",
+            "soul",
+            "I0GA",
+            "wcyc"
+        ]
+    },
+    {
         "id": "n023",
         "name": "Lord of Everfrost",
         "limit": "None",
@@ -660,23 +677,6 @@
             "I0G8",
             "ccmd",
             "I0LN"
-        ]
-    },
-    {
-        "id": "n038",
-        "name": "Mad Clown",
-        "limit": "2",
-        "manacost": "0",
-        "category": "Minor",
-        "location": "In the Abandoned Graveyard",
-        "conditions": "Level 270",
-        "drops": [
-            "sor2",
-            "sora",
-            "ram1",
-            "soul",
-            "I0GA",
-            "wcyc"
         ]
     },
     {
