@@ -648,7 +648,7 @@
         "name": "Spirit Beast",
         "limit": "4",
         "manacost": "2",
-        "category": "Minor",
+        "category": "Mid",
         "location": "In Fairy Forest - Deep Forest",
         "conditions": "Level 350",
         "drops": [
@@ -667,7 +667,7 @@
         "name": "Mad Clown",
         "limit": "2",
         "manacost": "0",
-        "category": "Field",
+        "category": "Minor",
         "location": "In the Abandoned Graveyard",
         "conditions": "Level 270",
         "drops": [
@@ -684,7 +684,7 @@
         "name": "Corruptor Rectus",
         "limit": "3",
         "manacost": "2",
-        "category": "Minor",
+        "category": "Mid",
         "location": "In Fairy Forest - Plagued Tower",
         "conditions": "Level 350",
         "drops": [
@@ -706,7 +706,7 @@
         "name": "Flame Nightmare",
         "limit": "3",
         "manacost": "2",
-        "category": "Minor",
+        "category": "Mid",
         "summon": "In Volcanic Lands",
         "conditions": "Level 200 and usage of Nightmare Rod with 8x Red Powder",
         "drops": [
@@ -726,7 +726,7 @@
         "name": "Turtle Lord",
         "limit": "3",
         "manacost": "2",
-        "category": "Minor",
+        "category": "Mid",
         "summon": "In Deep Sea in the far East where light shines from above",
         "conditions": "Level 240 and usage of Orb of the Deep Sea with 4x Blue Powder and 4x Green powder",
         "drops": [
