@@ -4,7 +4,7 @@
         "name": "Yeti",
         "limit": "None",
         "timer": "30s",
-        "category": "Minor",
+        "category": "Field",
         "location": "Southern part of Frosty Snowfield two reside below The Magician's Tower",
         "conditions": "Level 120",
         "drops": [
@@ -17,7 +17,7 @@
         "name": "Silverback Wolf",
         "limit": "1",
         "timer": "50s",
-        "category": "Minor",
+        "category": "Field",
         "location": "Far East side of Alfon Forest",
         "conditions": "Level 1",
         "drops": [
@@ -30,7 +30,7 @@
         "name": "Kobold Leader",
         "limit": "1",
         "timer": "60s",
-        "category": "Minor",
+        "category": "Field",
         "location": "In the Northeast side of Kobolt Camp",
         "conditions": "Level 10",
         "drops": [
@@ -42,7 +42,7 @@
         "name": "Kobold Creeps",
         "limit": "1",
         "timer": "10s ~ 15s",
-        "category": "Minor",
+        "category": "Field",
         "location": "In Kobolt Camp",
         "conditions": "Level 10",
         "drops": [
@@ -55,7 +55,7 @@
         "name": "Dragon Turtle",
         "limit": "3",
         "timer": "120s",
-        "category": "Minor",
+        "category": "Field",
         "location": "Far South of Capital Prius in Murlocs area",
         "conditions": "Level 80",
         "drops": [
@@ -67,7 +67,7 @@
         "name": "Polar Bear Giant",
         "limit": "3",
         "timer": "90s",
-        "category": "Minor",
+        "category": "Field",
         "location": "Mid-South of Frosty Snowfield area",
         "conditions": "Level 120",
         "drops": [
@@ -79,7 +79,7 @@
         "name": "Scarab",
         "limit": "1",
         "timer": "300s",
-        "category": "Minor",
+        "category": "Field",
         "location": "In the Abandoned Graveyard",
         "conditions": "Level 270",
         "drops": [
@@ -91,7 +91,7 @@
         "name": "Wallachia Wraith",
         "limit": "1",
         "timer": "450s",
-        "category": "Minor",
+        "category": "Field",
         "location": "In the Abandoned Graveyard",
         "conditions": "Level 270",
         "drops": [
@@ -103,7 +103,7 @@
         "id": "o003",
         "name": "Protector of Nature",
         "limit": "3",
-        "category": "Minor",
+        "category": "Field",
         "summon": "In Kalidi Forest where Giant Furbolg spawns",
         "conditions": "Level 25 and 2 Nature Powder",
         "drops": [
@@ -123,7 +123,7 @@
         "id": "orai",
         "name": "King Crab",
         "limit": "2",
-        "category": "Minor",
+        "category": "Field",
         "summon": "South of Captial Prius in murloc area",
         "conditions": "Level 60 and usage of Mystical Horn",
         "drops": [
@@ -137,7 +137,7 @@
         "id": "o004",
         "name": "Walrus",
         "limit": "2",
-        "category": "Minor",
+        "category": "Field",
         "summon": "South of Captial Prius in murloc area",
         "conditions": "Level 80 and usage of Mystical Horn",
         "drops": [
@@ -152,7 +152,7 @@
         "id": "oshm",
         "name": "Mammoth",
         "limit": "2",
-        "category": "Minor",
+        "category": "Field",
         "summon": "In Frosty Snowfield",
         "conditions": "Level 120 and usage of Frozen Crystal",
         "drops": [
@@ -166,7 +166,7 @@
         "id": "o005",
         "name": "King Kong",
         "limit": "2",
-        "category": "Minor",
+        "category": "Field",
         "summon": "In Frosty Snowfield",
         "conditions": "Level 120 and usage of Frozen Crystal",
         "drops": [
@@ -180,7 +180,7 @@
         "id": "n02L",
         "name": "Blood Wraith",
         "limit": "2",
-        "category": "Minor",
+        "category": "Field",
         "summon": "In Duchy of Wallachia",
         "conditions": "Level 160 and usage of Mask of Blood",
         "drops": [
@@ -196,7 +196,7 @@
         "id": "n03Y",
         "name": "Wallachia Monstrosity",
         "limit": "2",
-        "category": "Minor",
+        "category": "Field",
         "summon": "In Duchy of Wallachia",
         "conditions": "Level 160 and usage of Mask of Blood",
         "drops": [
@@ -212,7 +212,7 @@
         "id": "n02Z",
         "name": "Evil Lava Spawn",
         "limit": "2",
-        "category": "Minor",
+        "category": "Field",
         "summon": "In Volcanic Lands",
         "conditions": "Level 200 and usage of Nightmare Rod",
         "drops": [
@@ -227,7 +227,7 @@
         "id": "h07P",
         "name": "Guardian of Sea",
         "limit": "2",
-        "category": "Minor",
+        "category": "Field",
         "summon": "In Deep Sea",
         "conditions": "Level 240 and usage of Orb of the Deep Sea",
         "drops": [
@@ -242,7 +242,7 @@
         "name": "Death Knight",
         "limit": "5",
         "timer": "180s",
-        "category": "Minor",
+        "category": "Field",
         "location": "In Duchy of Wallachia",
         "conditions": "Level 160",
         "drops": [
@@ -266,7 +266,7 @@
         "name": "Ruler of Flames Ragnaar",
         "limit": "5",
         "timer": "180s",
-        "category": "Minor",
+        "category": "Field",
         "location": "In Volcanic Lands",
         "conditions": "Level 200",
         "drops": [
@@ -291,7 +291,7 @@
         "name": "Tentacle Lord",
         "limit": "5",
         "timer": "180s",
-        "category": "Minor",
+        "category": "Field",
         "location": "In the Deep Sea",
         "conditions": "Level 240",
         "drops": [
@@ -312,7 +312,7 @@
         "name": "Giant Golem",
         "limit": "8",
         "timer": "180s",
-        "category": "Minor",
+        "category": "Field",
         "location": "In the Mine Cave",
         "conditions": "Level 280",
         "drops": [
@@ -333,7 +333,7 @@
         "name": "Ruler of the Lav Sea Hydra",
         "limit": "None",
         "manacost": "0",
-        "category": "Minor",
+        "category": "Field",
         "summon": "South of Capital Prius at wrecked ship in murloc area",
         "conditions": "Level 80 and 2x White Powders",
         "drops": [
@@ -630,7 +630,7 @@
         "name": "Mana Ancient",
         "limit": "2",
         "timer": "180s",
-        "category": "Minor",
+        "category": "Field",
         "location": "In Fairy Forest",
         "conditions": "Level 350",
         "drops": [
@@ -667,7 +667,7 @@
         "name": "Mad Clown",
         "limit": "2",
         "manacost": "0",
-        "category": "Minor",
+        "category": "Field",
         "location": "In the Abandoned Graveyard",
         "conditions": "Level 270",
         "drops": [
