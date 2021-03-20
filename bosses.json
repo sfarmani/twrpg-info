@@ -747,7 +747,7 @@
         "name": "Ancient Ent",
         "limit": "None",
         "manacost": "4",
-        "category": "Mid",
+        "category": "High",
         "location": "In Fairy Forest above Deep Forest entrance, where a statue resides",
         "conditions": "Level 370, 1 Green Powder on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
         "notes": [
@@ -772,7 +772,7 @@
         "id": "n03W",
         "name": "Elder Ent",
         "limit": "2",
-        "category": "Mid",
+        "category": "High",
         "location": "Spawned by Ancient Ent",
         "conditions": "Level 370",
         "notes": [
@@ -793,7 +793,7 @@
         "id": "n03X",
         "name": "Giant Ent",
         "limit": "2",
-        "category": "Mid",
+        "category": "High",
         "location": "Spawned by Ancient Ent",
         "conditions": "Level 370",
         "notes": [
@@ -814,7 +814,7 @@
         "name": "Skeleton King Desperia",
         "limit": "None",
         "manacost": "4",
-        "category": "Mid",
+        "category": "High",
         "location": "In Prius Forward camp, the cave to the North",
         "conditions": "Level 400",
         "notes": [
@@ -839,7 +839,7 @@
         "name": "Bone Dragon",
         "limit": "5",
         "manacost": "4",
-        "category": "Mid",
+        "category": "High",
         "location": "To the Southeast inside of Dragon Nest",
         "conditions": "Level 380",
         "drops": [
