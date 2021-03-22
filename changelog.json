@@ -1,5 +1,35 @@
 [
     {
+        "name": "45a",
+        "notes": [
+            "Released on: March 21, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Fixed a bug where winter event items could still be crafted (crafted event items are not verified outside of the event period)"
+        ],
+        "events": [
+            {
+                "name": "Event notes",
+                "changes": [
+                    "April Fool's Day event is now active from: 3/27 to 4/11"
+                ]
+            }
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Added new items that can be purchased with Coin of Effort",
+                    [
+                        "Mana Ancient (mount)",
+                        "Shadow Dragon (mount)"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "44m",
         "notes": [
             "Released on: March 5th, 2021",
