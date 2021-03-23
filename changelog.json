@@ -1,8 +1,19 @@
 [
     {
+        "name": "45b",
+        "notes": [
+            "Released on: March 22nd, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Nereid - Fixed knockback not working properly",
+            "Mana Ancient / Spirit Beast - Fixed healing orbs not working properly"
+        ]
+    },
+    {
         "name": "45a",
         "notes": [
-            "Released on: March 21, 2021",
+            "Released on: March 21st, 2021",
             "Compatible Version: v0.30a ~"
         ],
         "bugs": [
