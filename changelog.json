@@ -1,5 +1,18 @@
 [
     {
+        "name": "45c",
+        "notes": [
+            "Released on: March 23nd, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Valtora - Fixed magnet not working properly",
+            "Ifrit - Fixed Seed of Flame not working properly",
+            "Nereid - Fixed waves not working",
+            "Mounts - Fixed Shadow Dragon mount's Breath affecting user as well."
+        ]
+    },
+    {
         "name": "45b",
         "notes": [
             "Released on: March 22nd, 2021",
