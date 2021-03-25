@@ -6163,7 +6163,7 @@
         "active": [
             "Holy power allows you to emit a powerful aura.",
             "Every 7th attack empowers next attack with Judgment",
-            "Attack Damage X 250% magic damage"
+            "Attack Damage X 150% magic damage"
         ],
         "active_tags": [
             "Hero",
