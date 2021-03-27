@@ -21028,8 +21028,8 @@
       "passive": [
         "15% Chance to activate Mark of Flame on attack that burns the target",
         "Deals flame affinity X (AGI X 30) bonus magic damage and applies a debuff to target",
-        "Debuff deals flame affinity X (AGI X 15) per second and takes 2.5% more magic damage for 15 seconds",
-        "Accumulates Heat while in combat every 6 seconds increases user's SKILL DMG and flame affinity by 1% (stacks up to 15 times)"
+        "Debuff deals flame affinity X (AGI X 15) per second and takes 2.5% more magic damage for 10 seconds",
+        "Accumulates Heat while in combat every 6 seconds increasing user's SKILL DMG and flame affinity by 1% (stacks up to 15 times)"
       ]
     }
   },
