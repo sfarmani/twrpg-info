@@ -1,5 +1,67 @@
 [
     {
+        "name": "46d",
+        "notes": [
+            "Released on: April 6th, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "events": [
+            {
+                "name": "Weird Event",
+                "changes": [
+                    "Weird Event no longer requires 4 players to start",
+                    "Buying event info from event NPC now disables Weird event for current game"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "46c",
+        "notes": [
+            "Released on: March 31st, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "events": [
+            {
+                "name": "Weird Event",
+                "changes": [
+                    "Added NPC to Alfon Village that shares event info",
+                    "Weird boss summon cycle reduced: 5 minutes → 4 minutes (first 20 minutes)",
+                    "Increased chance of mid and late game bosses spawning",
+                    "Decreased chance of Mad Clown spawning",
+                    "Weird costume no longer drops from Weird bosses, instead the new NPC will provide it",
+                    "Weird Shadow Dragon no longer resets upon failure"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "46b",
+        "notes": [
+            "Released on: March 28th, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "bugs": [
+            "Event - Fixed Purple Lucky Aura not dropping",
+            [
+                "As an apology its droprate will be increased by 50% until end of event"
+            ],
+            "Costumes - Fixed Weird costume not working",
+            "Trickster - Fixed not being able to equip items when  weird costume is on",
+            "Flame Nightmare - Fixed summons of weird Flame Nightmare not despawning when it despawns",
+            "Ring of Lies - Fixed translation error"
+        ],
+        "events": [
+            {
+                "name": "Weird Event",
+                "changes": [
+                    "Weird Valtora's summons now automatically disappear after 60 seconds",
+                    "Disabled ability to use color codes with Ring of Lies"
+                ]
+            }
+        ]
+    },
+    {
         "name": "46a",
         "notes": [
             "Released on: March 27th, 2021",
