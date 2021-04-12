@@ -1,5 +1,20 @@
 [
     {
+        "name": "47a",
+        "notes": [
+            "Released on: April 11th, 2021",
+            "Compatible Version: v0.30a ~"
+        ],
+        "events": [
+            {
+                "name": "Weird Event",
+                "changes": [
+                    "Weird Event ends"
+                ]
+            }
+        ]
+    },
+    {
         "name": "46d",
         "notes": [
             "Released on: April 6th, 2021",
