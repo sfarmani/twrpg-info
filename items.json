@@ -8182,7 +8182,11 @@
     "type": "[Material]",
     "color": "FFFFFF",
     "notes": [
-      "Coin of Effort is used to craft Wings of Death Mount and Costume of Effort, both for 8 Coin of Effort",
+      "Coin of Effort is used to craft several items:",
+      "Wings of Death Mount: Coin of Effort x8",
+      "Mana Ancient Mount: Coin of Effort x6",
+      "Shadow Dragon Mount: Coin of Effort x12",
+      "Costume of Effort: Coin of Effort x8",
       "In addtion to being dropped by bosses, it can also be exchanged for 100 Prius Silver Coin",
       "See Collector NPC to exchange"
     ],
