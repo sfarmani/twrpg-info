@@ -505,23 +505,24 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
-        "version": "42d",
+        "version": "47a",
         "description": [
-            "Serenity provides more self-sustain, however it should not be used in a proper team composition",
-            "The listed rings are preference based (not sure which is best)"
+            "Ring of Divine winds is mainly there for the fun aspect of it, its not really preferred above the rest.",
+            "Brave Heart and Wings of Immortal is used for defense."
         ],
         "items": {
             "Chrono Chaser": [],
             "Crown of Absolute Zero": [
-                "Crown of Serenity",
-                "Horn of Demon God"
             ],
-            "Ring of Divine Winds": [
-                "Ring of Frozen Soul"
+            "Ring of Frozen Soul": [
+                "Ring of the One",
+                "Ring of Divine Winds"
             ],
             "Nevedium, the Armor of Demonblood": [],
             "Archangel Wings": [
-                "Brave Heart"
+                "Wings of Flame Lord",
+                "Brave Heart",
+                "Wings of Immortal"
             ]
         }
     },
@@ -530,17 +531,18 @@
         "type": "Support",
         "order": 2,
         "stat": "INT",
-        "version": "42d",
+        "version": "47a",
         "description": [
-            "Serenity is more useful when there are no wind mages on the team or until you get Apocalypse",
-            "The listed rings are preference based (not sure which is best)",
-            "If the rest of the team doesn't have a Harmony, then its good to have.",
-            "Use Grim Heart until Protection of the Fairies"
+            "Use Crown of Serenity if no one else has it on the team.",
+            "Cosmic Star is situational - Targetted healing vs aoe healing"
         ],
         "items": {
-            "Rainmaker": [],
-            "Hood of Apocalypse": [
-                "Crown of Serenity"
+            "Rainmaker": [
+                "Cosmic Star"
+            ],
+            "Crown of Serenity": [
+                "Hood of Apocalypse",
+                "Crown of Absolute Zero"
             ],
             "Ring of Hope": [
                 "Nebula Rose",
@@ -549,41 +551,43 @@
             "Jupiter, the Robe of Heavens": [
                 "Harmony of Sky and Earth"
             ],
-            "Protection of the Fairies": [
-                "Grim Heart"
+            "Wings of Immortal": [
+                "Protection of the Fairies",
+                "Brave Heart"
             ]
         }
     },
     {
         "for": "Shooter",
-        "type": "Support with some DPS/Hybrid",
+        "type": "Cosmic Star (support/hybrid) build",
         "order": 3,
         "stat": "INT",
-        "version": "42d",
+        "version": "47a",
         "description": [
-            "Serenity with Rainmaker can be used to mass buff your allies",
-            "Use Nebula Rose if shields needed and no one else in your team has one",
-            "Use Winter Robe until Jupiter"
+            "Crown of Absolute Zero is used for damage while Hood of Apocalypse is support",
+            "Can use Crown of Serenity if no one else has it on the team",
+            "Use Jupiter if you are INT, Nevedium as AGI. Harmony is situational since it can work on both stats",
+            "Use Horn of God and Nebula Rose interchangably as INT and Ring of the One as AGI for damage",
+            "Archangel Wings are an AGI yolo build..."
         ],
         "items": {
-            "Cosmic Star": [
-                "Rainmaker"
-            ],
+            "Cosmic Star": [],
             "Crown of Absolute Zero": [
-                "Crown of Serenity",
-                "Hood of Apocalypse"
+                "Hood of Apocalypse",
+                "Crown of Serenity"
             ],
-            "Ring of Despair": [
+            "Horn of God": [
                 "Nebula Rose",
-                "Horn of God"
+                "Ring of the One"
             ],
             "Jupiter, the Robe of Heavens": [
-                "Winter Robe",
-                "Robe of Archlich"
+                "Nevedium, the Armor of Demonblood",
+                "Harmony of Sky and Earth"
             ],
-            "Brave Heart": [
+            "Wings of Immortal": [
                 "Protection of the Fairies",
-                "Wings of Immortal"
+                "Brave Heart",
+                "Archangel Wings"
             ]
         }
     },
