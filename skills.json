@@ -1604,7 +1604,7 @@
         "color": "ccccff",
         "hotkey": "[Q]",
         "icon": "ShooterQ",
-        "cooldown": 6.000001,
+        "cooldown": 6,
         "order": 2,
         "active": [
             "Fire a magic bullet that splits into two directions.",
@@ -2930,7 +2930,7 @@
         "color": "3385ff",
         "hotkey": "[W]",
         "icon": "LightningMageW",
-        "cooldown": 6.000001,
+        "cooldown": 6,
         "order": 3,
         "active": [
             "Perform a kick with the speed of lightning.",
@@ -3105,7 +3105,7 @@
         "color": "f9feb8",
         "hotkey": "[Q]",
         "icon": "CrusaderQ",
-        "cooldown": 6.000001,
+        "cooldown": 6,
         "order": 2,
         "active": [
             "Fires mana stored within your sword to target point.",
@@ -5822,7 +5822,7 @@
         "color": "f0e68c",
         "hotkey": "[Q]",
         "icon": "PriestQ",
-        "cooldown": 3.999999,
+        "cooldown": 4,
         "order": 2,
         "active": [
             "Release holy mana in the shape of a line.",
@@ -6254,7 +6254,7 @@
         "color": "f5f59b",
         "hotkey": "[Q]",
         "icon": "PaladinQ",
-        "cooldown": 3.999999,
+        "cooldown": 4,
         "order": 6,
         "active": [
             "Sends out a holy wave that only damages evil.",
@@ -6284,7 +6284,7 @@
         "active": [
             "Merges with the holy spirit to move at the speed of light.",
             "STR X 30 magic damage",
-            "Deals 50% bonus damage to enemies afflicted with Mark of Light",
+            "Deals 150% bonus damage to enemies afflicted with Mark of Light",
             "Activates Judgment on next attack",
             "Provides Sigil to a single ally"
         ],
