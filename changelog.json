@@ -1,5 +1,16 @@
 [
     {
+        "name": "50f",
+        "notes": [
+            "Released on: May 23rd, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Priest - Fixed Holy Wave (Q) not working properly",
+            "Zombie Lord - Worshippers of Eternal Life will now stop channeling coils when Zombie Lord enters ressurection state"
+        ]
+    },
+    {
         "name": "50e2",
         "notes": [
             "Released on: May 22nd, 2021",
