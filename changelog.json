@@ -1,5 +1,681 @@
 [
     {
+        "name": "50e2",
+        "notes": [
+            "Released on: May 22nd, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Items - Fixed players not being able to load with some cosmetic items enabled"
+        ]
+    },
+    {
+        "name": "50e",
+        "notes": [
+            "Released on: May 22nd, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Wallachia monstrosity - Fixed being able to teleport out of Duchy of wallachia",
+            "Frostspider lord raid - Fixed some items appearing as Deltirama class instead of Neptinos class in crafting menu",
+            "Corruptor rectus - Fixed Link damage being higher than intended",
+            "Flame nightmare - Fixed Flame spirits not exploding when coming in contact with the boss",
+            "Turtle lord - Fixed hp regen being higher than intended",
+            "Death fiend - Fixed memory stone appearing before all bosses die",
+            "Berserker - Fixed Blade rush (R) dealing less damage than intended",
+            "Merchant - Fixed Dangerous explosive (T)/Cursed doll(T) summons still having 85% magic resistance",
+            "Trickster - Fixed moving items in inventory causing a strange bug",
+            "Trickster - Fixed icons of items Fantasm (D) wears not appearing properly to other players",
+            "Soul weaver - Fixed Soul collector (D) max soul amount being higher than intended",
+            "Wind mage - Fixed Horn of notus (T) not being affected by wind affinity",
+            "Training center - Fixed more than one dummy being present in each room",
+            "Elemental tower - Fixed Elemental keys still appearing in crafting menu",
+            "Tokens - Fixed Rainbow crystal golem token not having a cosmetic spell",
+            "Items - Fixed some Cosmetic items not working properly",
+            "Monsters - Fixed Furbolgs being able to drop Frozen crystal",
+            "Spells - Fixed some spells being castable while hero is silenced",
+            "Items - If an item can be stacked with itself then stacking will take priority when picking it up with bag",
+            "Tokens - Fixed Yellow/Blue/White crystal golem token droprates being 2% instead of intended 0.25%"
+        ],
+        "items": [
+            {
+                "name": "Pickaxe / Mithril Pickaxe / Abyssal Pickaxe / Chaos Pickaxe",
+                "changes": [
+                    "Mining Speed: 12 / 8 / 8 / 6 seconds → 10 / 8 / 6 / 4 seconds"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Mid-game Bosses",
+                "changes": [
+                    "Can no longer drop Prius Silver Coins",
+                    [
+                        "Due to combat spoils system rate at which players gained silver coins was set way too high"
+                    ]
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Bonus magic damage: 6000 → 4000"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Enchanted sword stack amount is now shown as MP"
+                ]
+            },
+            {
+                "name": "Knight",
+                "changes": [
+                    "Excalibur (F)",
+                    [
+                        "Can now be cancelled during channeling with ESC button (cooldown will reset if cancelled this way)"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Gentle Winds (W)",
+                    [
+                        "Damage: INT X 6 → INT X 10"
+                    ],
+                    "Mirror of Aeolus (E)",
+                    [
+                        "Damage: INT X 15 → INT X 20"
+                    ],
+                    "Horn of Notus (T)",
+                    [
+                        "Damage: INT X 6 → INT X 7.5",
+                        "Can now be cancelled during channeling with ESC button (cooldown will reset if cancelled this way)",
+                        [
+                            "For now there's no plan to apply similar changes to all channel-based spells"
+                        ]
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Holy Wave (Q)",
+                    [
+                        "Damage: INT X 3 → INT X 5"
+                    ],
+                    "Divine Orb (W)",
+                    [
+                        "Damage: INT X 3.75 → INT X 5",
+                        "Holy Wave (Q) chain damage now applies to non-boss units as well",
+                        "Holy Wave (Q) chain damage cap: 10% of target max HP → 25% of target max HP"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Added 'Abandon loot' button to Combat spoils chests",
+            "Removed trade cooldown from Collector NPC",
+            "Elemental tower entrance/portal location changed to be similar to old one",
+            "Crafting menu can now be closed with Esc button",
+            "Fixed item description of Horn of god",
+            "Fixed text of multiplayer bonus game message",
+            "Fixed text of tutorial quest",
+            "Fixed description text of str/int characters on hero selection menu being in weird positions"
+        ]
+    },
+    {
+        "name": "50d2",
+        "notes": [
+            "Released on: May 18th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Cosmetics - Fixed cosmetic item reward-related bugs"
+        ]
+    },
+    {
+        "name": "50d",
+        "notes": [
+            "Released on: May 18th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Chrono Chaser - Fixed related bugs",
+            "Mid-game bosses - Fixed loot-related bugs",
+            "Sword Enchanter - Fixed bugs related to Echant Mastery (T)"
+        ]
+    },
+    {
+        "name": "50c",
+        "notes": [
+            "Released on: May 18th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "misc": [
+            "Combat spoils system adjustments",
+            [
+                "Chests now spawn always instead of 50% base chance",
+                "Bonus droprate now affects chance of obtaining items from chests",
+                "Droprate increase per player starting from 2 reduced from 25% to 12.5% (from 100% to 50% max)",
+                "Guardian angels now drop 1 chest once all 3 are killed",
+                "Early and mid-game boss droprates slightly re-adjusted to accommodate for above changes",
+                "Lvl requirement to use early game boss chests reduced from 60 to 0 (if there are no level 60 or above heroes present then chests cannot spawn or be used)"
+            ],
+            "Item Adjustments",
+            [
+                "Weapons of crimson flames (Ragnaar drops) - Fixed on-attack proc not working properly",
+                "Flame cloak - Damage reduced from 5000 per 0.5 seconds to 750 per 0.5 seconds",
+                "Ring of the dead - Fixed still having old stats",
+                "Stone armor/Bat wings - Item class reduced from Epic to Rare"
+            ],
+            "Monster Adjustments",
+            [
+                "Wallachia monstrosity - Fixed teleporting to unintended locations",
+                "Guardian of sea - Attack damage reduced, Water orb damage reduced from 25000 to 2500, amount of Water orb explosion waves reduced from 8 to 4",
+                "Count of wallachia - Summon cinematic now starts for all players in Duchy of wallachia, not just those near summon spot, and attack damage increase from True form reduced from 8000 to 3000",
+                "Demon lord beriel - Portal is now invulnerable during invasion start cinematic",
+                "Turtle lord - Fixed hp regen of summoned turtles being too high",
+                "Shadow dragon irbert - Added floating text near summon spot to show how many magic stones are needed, Darkness activation damage reduced from 15000 to 4500",
+                "Ancient ent - Players can now exit the arena is the boss fight didn't start, fixed hp regen being too low",
+                "Valtora - All orbs within arena now dissapear once boss dies",
+                "Fixed some stats of end-game bosses being set too low",
+                "Minor balance changes to lvling bosses (Further adjustments will be done over future patches)"
+            ],
+            "Hero Adjustments",
+            [
+                "Fixed not learned spells sometimes activating",
+                "Paladin - Holy divide (Q) damage increased from 60% attack damage to 100% attack damage, Ruinbringer spec bonus damage reduced from 100% to 25%, Calamity spec bonus damage reduced from 150% to 50%",
+                "Thunderer - Fixed Disable thunder shield hotkey being (R) instead of (E)",
+                "Martial artist - Fixed Vacuum palm (E) max armor reduction being 175 instead of 125"
+            ],
+            "Misc Adjustments",
+            [
+                "Fixed some spell descriptions",
+                [
+                    "Martial Artist - Vacuum Palm (E)"
+                ],
+                "Fixed some item descriptions",
+                [
+                    "Soul Stone",
+                    "Spirit of Nightmare",
+                    "Flame Cloak"
+                ],
+                "Removed Alchemy/Quests from Jaina",
+                "Fixed food not getting removed when selecting new character",
+                "Fixed attack speed not increasing properly from 0~90 agi points",
+                "Fixed Training gym-related text being in english",
+                "Changed shoreline terrain to prevent units getting stuck",
+                "Hero reset option in Training gym now more clearly explains that using it will force players to stay in it for 5 minutes",
+                "Corrected mana cost of spells (Since all spells are now at level 1 it was lower than intended)",
+                "Fixed entrance to Dragon's nest causing lava damage in places where there's no lava",
+                "Fixed players being able to go through stones in Cave-like terrains"
+            ]
+        ]
+    },
+    {
+        "name": "50b",
+        "notes": [
+            "Released on: May 15th, 2021",
+            "Compatible Version: v0.44c ~",
+            "This is a Public Test Version ONLY. Saving is disabled in this version"
+        ],
+        "bugs": [
+            "Misc bug fixes",
+            [
+                "Fixed drops from Combat spoils chests not being soulbound",
+                "Fixed Prius port ticket lvl requirement being higher than description says",
+                "Fixed inn not being used",
+                "Fixed players always loading in Alfon village",
+                "Fixed Magic stones in warehouse not being detected by boss summoning spots",
+                "Fixed tutorial quests not progressing properly",
+                "Fixed not being able to exit Deep sea",
+                "Disabled afterimage effects while riding a mount",
+                "Fixed exp gain being way lower than intended on loaded characters",
+                "Exiting out of crafting menu no longer resets camera height and angle",
+                "If crafting menu was entered with bag selected, exiting crafting menu won't reset bag selection",
+                "Fixed Spirit beast and Zombie lord arena fog missing",
+                "Fixed Bow master having 5 mana",
+                "Fixed players dying when trying to pick up items on Farm"
+            ]
+        ],
+        "misc": [
+            "Hero Adjustments",
+            [
+                "Spells - Fixed stat selection menu icon getting stuck, permanently covering some spell/attack icons",
+                "Dark knight - Fixed not equipping items properly",
+                "Dark knight - Fixed Dark arts (R) - Defile (E) magic resistance reduction scaling not being updated to match lower stats",
+                "Thunderer - Fixed Three talon strike (Q) duration being different and fixed its buff not appearing in status window",
+                "Swordsman - Fixed attack speed being too low at lvl 100",
+                "Trickster - Fixed not equipping weapons properly",
+                "Shooter - Fixed Distortion (R) stack recharge speed not being affected by attack speed",
+                "Hermit - Fixed Purge (T) shield visual effect staying for longer than actual shield",
+                "Elementalist - Fixed spells of some Spirits not working",
+                "Alchemist - Fixed Gate of truth (F) stack cap being at 25 instead of 32",
+                "Warlock - Fixed Soul grimoire (R) mana regen not working properly",
+                "Priest - Fixed Heaven's gate (T) summon having incorrect stats",
+                "Witch - Fixed Hell gate (T) summon having incorrect stats"
+            ],
+            "Monster Adjustments",
+            [
+                "Reduced damage of Darkness wave spell casted by Wallachia death knight lord, Mad clown and Corrupt angel",
+                "Cursed mask - Fixed not working in Duchy of walalchia",
+                "Corruptor rectus - Reduced hp of Life orb",
+                "Castle avalon - Fixed Stone statues in 1st chamber dealing too much damage",
+                "Wings of death - Flame projectile damage increased from 1500 to 2500, Perseverance duration reduced from 10 seconds to 8 seconds and movespeed slow reduced from 50% to 10%",
+                "Corrupt angel - Fixed Memory stone not spawning on death",
+                "Guardian angel - Fixed skipping summoning cutscene causing game to crash",
+                "Demon lord beriel - Now invincible during spawn cinematic",
+                "Dragon's nest - Reduced hp regen of Dragonic warriors and Dragon whelps",
+                "Archangel samael - Fixed being summonable more than once",
+                "Skeleton king desperia - Fixed Skeleton summons dealing too much damage and having too low hp, and fixed countdown barrier not spawning",
+                "Shadow dragon irbert - Fixed summon cinematic",
+                "Death fiend - Increased attack damage by 50% and added 50% magic resistance to Death devourer",
+                "Nereid - Fixed Water orbs dealing too much damage"
+            ],
+            "Item Adjustments",
+            [
+                "Fixed not being able to click on tutorial quest material to see recipe it's used in",
+                "Fixed all materials being consumed on crafting regardless of number of materials required",
+                "Raven weapons (Wallachia death knight lord drops) - Fixed weapon effects dealing damage to user",
+                "Fixed effects of some items not being properly updated",
+                [
+                    "Laksha, the reigning sword of poison",
+                    "Staff of abyss upgrade path",
+                    "Devil chaser upgrade path",
+                    "Ruinbringer update path",
+                    "Diana, the robe of holy maiden",
+                    "Ring of time"
+                ],
+                "Brave heart - Fixed providing wrong stats"
+            ],
+            "Text description adjustments",
+            [
+                "Fixed text error of pickaxe being insufficient level for Magic vein being in english",
+                "Fixed code compatible version text being incorrect",
+                "Fixed various tutorial quest lines",
+                "Fixed F9 Raid boss descriptions",
+                "Fixed description of some items and boss summon items"
+            ],
+            "Other Adjustments",
+            [
+                "Items picked up on Farm are now soulbound",
+                "Changed bonus damage dealt to boss units by Priest's Divine orb (W) - Holy wave (Q) chain cast",
+                [
+                    "Before: Hero level X 50 pure damage",
+                    "After: 10% of target's max hp magic damage (up to hero level X 400)"
+                ],
+                "Elemental keys can now be crafted on Wandering engineer directly instead of Crafting menu",
+                "Crafting menu now also shows items in player's warehouse",
+                "Rolled back Thunderer's spell hotkeys",
+                "Spell learning scale changed from level 3 / 10 / 20 / 30 / 40 / 60 to level 3 / 10 / 15 / 25 / 35 / 50"
+            ]
+        ]
+    },
+    {
+        "name": "50a",
+        "notes": [
+            "Released on: May 15th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Tokens - Fixed tokens changing to ones other player had when said player loaded",
+            "Items - Fixed being able to reset soul bind on items",
+            "Text - Fixed floating text on area entrances disappearing some time after game start",
+            "Harmonia, the Sparkle of Life - Fixed special effect text not appearing when equipped",
+            "Knight - Fixed passive effect of instincts (E) not working properly when using Grand Sword (Q)",
+            "Merchant - Fixed Scroll of God's Blessing (F) not providing MOV SPD",
+            "Fighter - Fixed 3rd hit of Swing (A) not dealing 200% damage as intended"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Stats of all items have been reduced to ~30% of original",
+                    "Armor provided by items has been reduced",
+                    "Most early game items dropped by mobs have been deleted or changed",
+                    "Overall number of early game items have been reduced",
+                    "Description format of items slightly changed",
+                    "Recipe system has been reworked to have a separate UI",
+                    [
+                        "Currently doesn't display extra inform (blue text) for most items, for now refer to forum's item list"
+                    ],
+                    "Item classes have been reworked",
+                    [
+                        "Armor/Robe have been fused into a single class",
+                        "Helmet/Hood have been fused into a single class",
+                        "Longswords/Greatswords have been fused into 'melee' class",
+                        "All-character weapons (like The Ender) can now be used by everyone"
+                    ]
+                ]
+            },
+            {
+                "name": "Item Notes",
+                "changes": [
+                    "Item grade system has been reworked",
+                    [
+                        "Materials now also have a grade",
+                        "Epic item grade Alkatra has been removed",
+                        "Item grades now more clearly indicate what boss tier item is dropped/crafted from",
+                        [
+                            "Normal",
+                            "Magic",
+                            "Rare",
+                            "Epic (Deltirama) - Drops/crafts from Jack ~ Guardian angels",
+                            "Epic (Neptinos) - Drops/crafts from Demon lord beriel ~ Turtle lord",
+                            "Epic (Gnosis) - Drops/crafts from Skeleton king desperia ~ Shadow dragon irbert",
+                            "Epic (Alteia) - Drops/crafts from end-game bosses"
+                        ]
+                    ],
+                    "Added Coin of Effort exchange item",
+                    [
+                        "Bag expansion ticket (costs 2 Coins of Effort)",
+                        "Increases amount of bag slots by 6",
+                        "Can be bought up to 2 times"
+                    ]
+                ]
+            },
+            {
+                "name": "Soul Devourer",
+                "changes": [
+                    "Active cooldown: 40 seconds → 28 seconds"
+                ]
+            },
+            {
+                "name": "Ancient Writings",
+                "changes": [
+                    "Now only drops from Mage Lord"
+                ]
+            },
+            {
+                "name": "Sealed Archangel Wings",
+                "changes": [
+                    "Has been removed from all recipes",
+                    "If you still have it you can trade it away for 4 Prius Silver Coin"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Stats of stronger bosses have been reduced to ~30% of original",
+                    "Magic resistance has been removed from all bosses",
+                    "Bosses no longer share a single memory stone, instead when a boss dies an individual memory stone will spawn nearby",
+                    [
+                        "Number of available respawns depends on the boss and no longer requires mana"
+                    ]
+                ]
+            },
+            {
+                "name": "Early game bosses (Ruler of the Lav Sea ~ Demon Lord Beriel)",
+                "changes": [
+                    "Cinematic played by Ruler of Lav Sea ~ Wings of Death summon will play only for nearby players, and can be skipped by pressing Esc",
+                    "Anti-magic shield ability removed and some boss spells have been reworked",
+                    "Max HP reduced",
+                    "Difficulty system now applies",
+                    [
+                        "Starting from 2 players max HP increased by 50%, Combat spoils chest spawn rate increased by 25%",
+                        "Maxes out at 5 player max HP increased by 200%, combat spoils chest spawn rate increased by 100%"
+                    ],
+                    "Item and material droprates increased by 50 ~ 100% to accomodate for combat spoils chest system"
+                ]
+            },
+            {
+                "name": "Mid-game bosses (Spirit Beast ~ Turtle Lord)",
+                "changes": [
+                    "Some boss spells have been reworked"
+                ]
+            },
+            {
+                "name": "Combat spoils system",
+                "changes": [
+                    "Early and mid-game bosses now have a chance to spawn a combat spoils chest on death instead of dropping items",
+                    "All players that participated in boss fight can use Roll for loot (Q) button in chest for a chance to obtain personal boss drops",
+                    "Magical ore deposit and Remnants of darkness system has been removed",
+                    "Crystal golem tokens now have a chance to drop from bosses as usual",
+                    "Bonus drop rate increases chance of combat spoils chest spawning, but not chance of obtaining items from it",
+                    "Chest spawn rate is 50% (100% with 5+ players)"
+                ]
+            },
+            {
+                "name": "Archangel Samael",
+                "changes": [
+                    "Summoning: 2 Holy Powders → 3 White Magic Stones"
+                ]
+            },
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "Summoning: 20 Red Powders → 12 Red Magic Stones"
+                ]
+            },
+            {
+                "name": "Agareth",
+                "changes": [
+                    "Players can no longer teleport out of boss arena"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Hero notes",
+                "changes": [
+                    "Magic damage output of all spells has been reduced to match magic resistance being removed from bosses",
+                    "Due to magic resistance being removed some pure damage spells have been changed accordingly",
+                    [
+                        "Reaper - Whirl of Death (Q) base damage increased by ~120%, during Death's Dash (E) it no longer changes to pure damage and instead deals 200% more damage",
+                        "Paladin - Holy Aura (D) base damage increased by ~233%, when Aura of Retribution (Q) is active it no longer changes to pure damage and instead deals 100% more damage to boss units",
+                        "Dark Knight - Abyssal Slam (W) based damage increased by ~122%, if STR is main stat it no longer changes to pure damage and instead deals 0 ~ 200% more damage based on hero level"
+                    ]
+                ]
+            },
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Bag Slam (Q)",
+                    [
+                        "Damage buffed by 33%"
+                    ],
+                    "Holy Water of Resurrection (T)",
+                    [
+                        "Spell icon now shows while on cooldown and indicates remaining cooldown"
+                    ]
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Flash Strike (W)",
+                    [
+                        "Now reduces MOV SPD of targets hit by 90% for 2 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "Spells no longer cost mana",
+                    "Flame Shot (Q)",
+                    [
+                        "Damage buffed by 33%",
+                        "Bonus damage to stunned enemies"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Perfect Harmony (D)",
+                    [
+                        "Added base 25 HP heal"
+                    ]
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Swift Strike (D)",
+                    [
+                        "Attack now ingores 40% of target's armor",
+                        "Adds (150% ATK DMG + (STR + AGI) X 5) bonus damage every 4th attack → Every 4th attack hits twice"
+                    ],
+                    "Three Talon Strike (Q)",
+                    [
+                        "Next 3 attacks activate Swift Strike (D) as pure damage → Adds bonus pure damage to next 3 attacks"
+                    ]
+                ]
+            },
+            {
+                "name": "Sniper",
+                "changes": [
+                    "Glide (W)",
+                    [
+                        "Each arrow no longer counts as single-target effect"
+                    ]
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Fireball (Q)",
+                    [
+                        "Damage buffed by 33%"
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Ice Shard (Q)",
+                    [
+                        "Damage buffed by 60%",
+                        "Bonus damage to frozen enemies: 400% → 200%"
+                    ]
+                ]
+            },
+            {
+                "name": "Arcane Mage",
+                "changes": [
+                    "Magic Star (Q)",
+                    [
+                        "Healing: 4% of damage done → 25% of damage done (to accomodate for magic damage reduction)"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Guardian of Wind (F)",
+                    [
+                        "Duration listed in description corrected: 45 seconds → 50 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Dark Whisper (D)",
+                    [
+                        "Added base 50 MP regen"
+                    ],
+                    "Crucifixion (Q)",
+                    [
+                        "Damage buffed by 100%",
+                        "Bonus damage to targets in center: 300% → 100%"
+                    ],
+                    "Vengeance (E)",
+                    [
+                        "Damage buffed by 150%"
+                    ],
+                    "Demonic Fury (T)",
+                    [
+                        "Hunger (passive)",
+                        [
+                            "Damage nerfed by 27%"
+                        ],
+                        "Destruction (Q)",
+                        [
+                            "Activation count: 5 + ATK SPD / 15 → 5 + ATK SPD / 25"
+                        ],
+                        "Leap of Execution (W)",
+                        [
+                            "Damage buffed by 33%",
+                            "Now deals up to 150% more damage based on target's missing HP"
+                        ]
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Dark Aurora (E)",
+                    [
+                        "Damage buffed by 66%",
+                        "No longer deals damage based on target's missing HP"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Max level has been reduced: 420 → 100",
+            [
+                "When loading old code your level will be divided by 4 (players over level 400 will load at level 100)"
+            ],
+            "All spells are now set at level 1 and will be learned automatically",
+            [
+                "Some spells that are too powerful early on will be learned later"
+            ],
+            "Max stat points: 2396 → 697",
+            [
+                "When loading old code your stat point will be reset, please add them manually"
+            ],
+            "Leveling areas are now separated by 10 levels each",
+            "Short tutorial system has been added",
+            [
+                "It will guide players through the beginning of the game"
+            ],
+            "Terrain of early areas (Level 1 ~ 40) and fairy forest have been changed",
+            "Added Hearthstone to Alfon Village and Prius Captial to set respawn points for players",
+            "Coin trader, Weird Magician NPCs and Mage Tower are now located in Prius Captial",
+            "Added new training gym area to Prius Captial",
+            "Powder System",
+            [
+                "Power system reworked to make gameplay more natural for players without prior knowledge of it",
+                "Two types of Magic Veins have been added throughout map",
+                [
+                    "Small veins spawn randomly in leveling areas. Disappears after some hits from pickaxe",
+                    "Giant veins spawn in set locations and do not have a mining limit"
+                ],
+                "Powder box removed, magic stones are stored in bag when you press (E)",
+                "Magic stone absorption spell of token updated",
+                [
+                    "Absorbs all magic stones in target area",
+                    "If target area contains a magic vein starts mining it at 3 times speed",
+                    "Magic stones mined this way are gathered into bag automatically"
+                ],
+                "Elemental Key crafting: 3 magic stones of specific color + 3 chaos magic stones"
+            ],
+            "Fatigue system removed",
+            "Multiplayer bonuses changed and detailed info about them will be shown in-game",
+            [
+                "Old: EXP gain increases by 2.5% per player",
+                "New: EXP gain increases by 2%, Monster respawn times and item boss summon item cooldowns reduces by 4% per player"
+            ],
+            "Spell learning menu has been changed to stat point menu",
+            [
+                "You can still use stat commands to use stat points"
+            ],
+            "Added a separate Closet unit to bag space",
+            [
+                "Removed button from bags",
+                "With QWER / ASDF / ZXCV buttons you can browse cosmetic item sections in new closet"
+            ]
+        ]
+    },
+    {
         "name": "47a",
         "notes": [
             "Released on: April 11th, 2021",
