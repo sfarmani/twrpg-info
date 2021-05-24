@@ -693,12 +693,10 @@
             "Compatible Version: v0.30a ~"
         ],
         "events": [
-            {
-                "name": "Weird Event",
-                "changes": [
-                    "Weird Event ends"
-                ]
-            }
+            "Weird Event",
+            [
+                "Weird Event Ends"
+            ]
         ]
     },
     {
@@ -708,13 +706,11 @@
             "Compatible Version: v0.30a ~"
         ],
         "events": [
-            {
-                "name": "Weird Event",
-                "changes": [
-                    "Weird Event no longer requires 4 players to start",
-                    "Buying event info from event NPC now disables Weird event for current game"
-                ]
-            }
+            "Weird Event",
+            [
+                "Weird Event no longer requires 4 players to start",
+                "Buying event info from event NPC now disables Weird Event for current game"
+            ]
         ]
     },
     {
@@ -724,17 +720,15 @@
             "Compatible Version: v0.30a ~"
         ],
         "events": [
-            {
-                "name": "Weird Event",
-                "changes": [
-                    "Added NPC to Alfon Village that shares event info",
-                    "Weird boss summon cycle reduced: 5 minutes → 4 minutes (first 20 minutes)",
-                    "Increased chance of mid and late game bosses spawning",
-                    "Decreased chance of Mad Clown spawning",
-                    "Weird costume no longer drops from Weird bosses, instead the new NPC will provide it",
-                    "Weird Shadow Dragon no longer resets upon failure"
-                ]
-            }
+            "Weird Event",
+            [
+                "Added NPC to Alfon Village that shares event info",
+                "Weird boss summon cycle reduced: 5 minutes → 4 minutes (first 20 minutes)",
+                "Increased chance of mid and late game bosses spawning",
+                "Decreased chance of Mad Clown spawning",
+                "Weird costume no longer drops from Weird bosses, instead the new NPC will provide it",
+                "Weird Shadow Dragon no longer resets upon failure"
+            ]
         ]
     },
     {
@@ -754,13 +748,11 @@
             "Ring of Lies - Fixed translation error"
         ],
         "events": [
-            {
-                "name": "Weird Event",
-                "changes": [
-                    "Weird Valtora's summons now automatically disappear after 60 seconds",
-                    "Disabled ability to use color codes with Ring of Lies"
-                ]
-            }
+            "Weird Event",
+            [
+                "Weird Valtora's summons now automatically disappear after 60 seconds",
+                "Disabled ability to use color codes with Ring of Lies"
+            ]
         ]
     },
     {
@@ -770,13 +762,11 @@
             "Compatible Version: v0.30a ~"
         ],
         "events": [
-            {
-                "name": "Weird Event",
-                "changes": [
-                    "Weird Event starts this version",
-                    "Active until April 11th, 2021 at 23:59:59 UTC"
-                ]
-            }
+            "Weird Event",
+            [
+                "Weird Event starts this version",
+                "Active until April 11th, 2021 at 23:59:59 UTC"
+            ]
         ]
     },
     {
@@ -813,12 +803,10 @@
             "Fixed a bug where winter event items could still be crafted (crafted event items are not verified outside of the event period)"
         ],
         "events": [
-            {
-                "name": "Event notes",
-                "changes": [
-                    "April Fool's Day event will be active from: 3/27 to 4/11"
-                ]
-            }
+            "Weird Event",
+            [
+                "Active from: 3/27 → 4/11"
+            ]
         ],
         "items": [
             {
@@ -1469,12 +1457,10 @@
             "Cape of Corrupt Flame / Cloak of Fallen Shadows / Cape of Deep Abyss - Fixed skill damage, magic resistance and damage resistance applying twice to passive damage"
         ],
         "events": [
-            {
-                "name": "Event notes",
-                "changes": [
-                    "Winter Event ends this version"
-                ]
-            }
+            "Winter Event",
+            [
+                "Ends this version"
+            ]
         ],
         "items": [
             {
@@ -1576,25 +1562,23 @@
             "Compatible Version: v0.30a ~"
         ],
         "events": [
-            {
-                "name": "Event notes",
-                "changes": [
-                    "Decreased ticket drop chance from early game bosses",
-                    "Increased ticket drop chance from late game bosses",
-                    "Snowball game",
-                    [
-                        "Base snowball damage: 4 → 6",
-                        "Power rune damage increase: 2 → 3"
-                    ],
-                    "Winter Gifts",
-                    [
-                        "Droprate of first 8 Snow Crystals obtained after this patch: increased by 50% (players who already reached 8 or more will also benefit)",
-                        "Snow Crystal droprate increased by ~11%",
-                        "Other reward droprates increased by ~33%"
-                    ],
-                    "Boss units now have 12.5% chance to spawn with a buff that doubles their droprate"
-                ]
-            }
+            "Winter Event",
+            [
+                "Decreased ticket drop chance from early game bosses",
+                "Increased ticket drop chance from late game bosses",
+                "Snowball game",
+                [
+                    "Base snowball damage: 4 → 6",
+                    "Power rune damage increase: 2 → 3"
+                ],
+                "Winter Gifts",
+                [
+                    "Droprate of first 8 Snow Crystals obtained after this patch: increased by 50% (players who already reached 8 or more will also benefit)",
+                    "Snow Crystal droprate increased by ~11%",
+                    "Other reward droprates increased by ~33%"
+                ],
+                "Boss units now have 12.5% chance to spawn with a buff that doubles their droprate"
+            ]
         ]
     },
     {
@@ -1607,13 +1591,11 @@
             "Agareth - Fixed hellspawns not dissappearing or respawning after boss dies"
         ],
         "events": [
-            {
-                "name": "Event notes",
-                "changes": [
-                    "Decreased chance of getting billiards game by 50%",
-                    "Double amount of winter gifts obtainable through billiards game"
-                ]
-            }
+            "Winter Event",
+            [
+                "Decreased chance of getting billiards game by 50%",
+                "Double amount of winter gifts obtainable through billiards game"
+            ]
         ],
         "heroes": [
             {
@@ -1653,13 +1635,11 @@
             "Commands - Fixed -equipment clean command not working"
         ],
         "events": [
-            {
-                "name": "Event notes",
-                "changes": [
-                    "Christmas Event starts! Lasts until January 6th, 2021 at 23:59:59 UTC (forum time)",
-                    "This version is however, bugged so please use the latest version"
-                ]
-            }
+            "Winter Event",
+            [
+                "Event starts and lasts until January 6th, 2021 at 23:59:59 UTC",
+                "WARNING: This version is bugged so use the latest version"
+            ]
         ],
         "items": [
             {
@@ -2163,14 +2143,11 @@
             "Jupiter, the Robe of Heavens - Fixed not healing summons"
         ],
         "events": [
-            {
-                "name": "Event notes",
-                "changes": [
-                    "Halloween Event ends: December 3rd 23:59:59 UTC",
-                    "Version 0.40e can be played until this date (can backload from this version into it)",
-                    "Any even-related items obtained after this date will be disqualified"
-                ]
-            }
+            "Halloween Event ends",
+            [
+                "Version 0.40e can be played until this date (can backload from this version)",
+                "Any event-related items obtained after this date will be diqualified"
+            ]
         ],
         "items": [
             {
@@ -2691,12 +2668,7 @@
             "EXP lock - Fixed related bugs"
         ],
         "events": [
-            {
-                "name": "Halloween Event",
-                "changes": [
-                    "Halloween event starts, will last for 3 weeks"
-                ]
-            }
+            "Halloween Event active this version and will last for 3 weeks"
         ],
         "items": [
             {
@@ -4144,12 +4116,7 @@
             "Compatible Version: v0.24c ~"
         ],
         "events": [
-            {
-                "name": "Event notes",
-                "changes": [
-                    "Summer event 2020 is over"
-                ]
-            }
+            "Summer event ends"
         ]
     },
     {
@@ -4167,13 +4134,11 @@
             "Knight - Fixed sometimes getting stuck"
         ],
         "events": [
-            {
-                "name": "Event notes",
-                "changes": [
-                    "Seal sight: 350 → 1800",
-                    "If beach ball is spawned by Treasure of Death a seal will now spawn for every hero in Wallachia cemetery, regardless of their distance from Treasure of Death"
-                ]
-            }
+            "Summer Event",
+            [
+                "Seal sight: 350 → 1800",
+                "Regardless of distance, a seal will be spawned for every hero in cemetery area if beach ball is spawned by Treasure of Death"
+            ]
         ],
         "items": [
             {
@@ -4208,12 +4173,10 @@
             "Knight - Instincts (E) - Assualt (E) → fixed hero getting stuck"
         ],
         "events": [
-            {
-                "name": "Event notes",
-                "changes": [
-                    "Fixed beach balls spawning 1 sealed material instead of whole material"
-                ]
-            }
+            "Summer event",
+            [
+                "Fixed beach balls spawning 1 sealed material instead of whole material"
+            ]
         ]
     },
     {
@@ -4226,12 +4189,7 @@
             "Fixed portal location for SK and ZL area"
         ],
         "events": [
-            {
-                "name": "Summer Event",
-                "changes": [
-                    "Summer event will run until July 19th"
-                ]
-            }
+            "Summer Event active until July 19th"
         ],
         "items": [
             {
@@ -6479,12 +6437,7 @@
             "Compatible Version: v0.24c ~"
         ],
         "events": [
-            {
-                "name": "Weird Event",
-                "changes": [
-                    "Event ends!"
-                ]
-            }
+            "Weird Event ends!"
         ]
     },
     {
@@ -6537,12 +6490,7 @@
             "Nereid - Fixed a bug where phase 2 skill was avoided on some terrains"
         ],
         "events": [
-            {
-                "name": "Weird Event",
-                "changes": [
-                    "Currently active until until 4/12 23:59:59 UTC Time!!"
-                ]
-            }
+            "Weird Event active until 4/12"
         ],
         "items": [
             {
@@ -7767,13 +7715,10 @@
             "Compatible Version: v0.24c ~"
         ],
         "events": [
-            {
-                "name": "Winter Event",
-                "changes": [
-                    "Event ends!",
-                    "You may use the previous version until 1/5 23:59:59, but please complete the event replay verification before that"
-                ]
-            }
+            "Winter Event ends",
+            [
+                "Players can use previous version until 1/5 23:59:59 UTC, but please complete the event replay verification before that"
+            ]
         ]
     },
     {
@@ -7796,16 +7741,14 @@
             "Ifrit - Fixed wheel start position and initial rotation being reversed"
         ],
         "events": [
-            {
-                "name": "Winter Event",
-                "changes": [
-                    "Ticket droprate from Ancient Ent / Skeleton King / Archangel Samael / Zombie Lord / Shadow Dragon Irbert: 25% → 30%",
-                    "Winter survival minigame",
-                    [
-                        "Modified to make it easier for players to distinguish which unit they control on start"
-                    ]
+            "Winter Event",
+            [
+                "Ticket droprate from Ancient Ent / Skeleton King / Archangel Samael / Zombie Lord / Shadow Dragon Irbert: 25% → 30%",
+                "Winter survival minigame",
+                [
+                    "Modified to make it easier for players to distinguish which unit they control on start"
                 ]
-            }
+            ]
         ],
         "monsters": [
             {
@@ -7826,28 +7769,26 @@
             "Fixed bug where receiving costumes did not work properly"
         ],
         "events": [
-            {
-                "name": "Winter Event",
-                "changes": [
-                    "Santa sleigh removed",
-                    "Invitation drop rate increased",
-                    "Winner and loser gap: 5 - 14 → 9 - 14",
-                    "Snowball game",
-                    [
-                        "Damage per second after 30 seconds: 1 → (Elapsed time / 30)"
-                    ],
-                    "Snowman games",
-                    [
-                        "Increased chance to generate coins"
-                    ],
-                    "Billiards game",
-                    [
-                        "Players can continue even if penguin dies",
-                        "Last survival bonus removed",
-                        "Suicide is recognized as being killed"
-                    ]
+            "Winter Event",
+            [
+                "Santa sleigh removed",
+                "Invitation drop rate increased",
+                "Winner and loser gap: 5 - 14 → 9 - 14",
+                "Snowball game",
+                [
+                    "Damage per second after 30 seconds: 1 → (Elapsed time / 30)"
+                ],
+                "Snowman games",
+                [
+                    "Increased chance to generate coins"
+                ],
+                "Billiards game",
+                [
+                    "Players can continue even if penguin dies",
+                    "Last survival bonus removed",
+                    "Suicide is recognized as being killed"
                 ]
-            }
+            ]
         ]
     },
     {
@@ -7857,13 +7798,11 @@
             "Compatible Version: v0.24c ~"
         ],
         "events": [
-            {
-                "name": "Winter Event",
-                "changes": [
-                    "Fixed some bosses not dropping winter festival tickets",
-                    "Winter festival ticket droprate buffed and drop cooldown removed"
-                ]
-            }
+            "Winter Event",
+            [
+                "Fixed some bosses not dropping winter festival tickets",
+                "Winter festival ticket droprate buffed and drop cooldown removed"
+            ]
         ]
     },
     {
@@ -7877,12 +7816,7 @@
             "Bag of Universe - Fixed a bug where Merchant's D was not enhanced"
         ],
         "events": [
-            {
-                "name": "Winter Event",
-                "changes": [
-                    "Winter Event in progress. Details listed in: https://twrpg.com/viewtopic.php?f=44&t=5666"
-                ]
-            }
+            "Winter Event in progress. Details listed in: https://twrpg.com/viewtopic.php?f=44&t=5666"
         ],
         "items": [
             {
@@ -9474,12 +9408,10 @@
             "Fixed a bug that could unbind items"
         ],
         "events": [
-            {
-                "name": "Halloween Event",
-                "changes": [
-                    "End of event (You may use the previous version until 11/11 23:59:59, but you must verify all event repalys before that)"
-                ]
-            }
+            "Halloween Event ends",
+            [
+                "Players may use the previous version until 11/11 23:59:59 UTC, but please submit your replay verification before that"
+            ]
         ],
         "items": [
             {
@@ -9506,13 +9438,10 @@
             "Winter's Heart - Fixed Excalibur having at cooldown of 120 seconds instead of 60 seconds when equipped"
         ],
         "events": [
-            {
-                "name": "Halloween Event",
-                "changes": [
-                    "Active until November 10th, 2019 23:59:59 UTC",
-                    "Check out https://twrpg.com/viewtopic.php?f=44&t=5536 for more details!"
-                ]
-            }
+            "Halloween Event active until Nov 10th, 2019 23:59:59 UTC",
+            [
+                "Check out https://twrpg.com/viewtopic.php?f=44&t=5536 for more details!"
+            ]
         ],
         "items": [
             {
@@ -11074,12 +11003,10 @@
             "VERSION TO OBTAIN EVENT REWARDS UNTIL AUGUST 12TH 23:59:59 UTC"
         ],
         "events": [
-            {
-                "name": "Summer Event",
-                "changes": [
-                    "End of Summer Event"
-                ]
-            }
+            "Summer Event ends",
+            [
+                "Players may continue to use this version until August 12th 23:59:59 UTC, but please submit your replay verifications before then"
+            ]
         ],
         "misc": [
             "Disabled Mark of Rebirth costume for Thunderer"
@@ -11092,18 +11019,16 @@
             "Compatible Version: v0.24c ~"
         ],
         "events": [
-            {
-                "name": "Summer Event",
-                "changes": [
-                    "Lucky beach ball",
-                    [
-                        "Changed seals to be invincible",
-                        "Changed seals to be stun-immune",
-                        "Added player color to seals",
-                        "Seal teleport (Q) cooldown: 7.5 seconds → 10 seconds"
-                    ]
+            "Summer Event",
+            [
+                "Lucky beach ball",
+                [
+                    "Changed seals to be invincible",
+                    "Changed seals to be stun-immune",
+                    "Added player color to seals",
+                    "Seal teleport (Q) cooldown: 7.5 seconds → 10 seconds"
                 ]
-            }
+            ]
         ],
         "items": [
             {
@@ -11121,17 +11046,15 @@
             "Compatible Version: v0.24c ~"
         ],
         "events": [
-            {
-                "name": "Summer Event",
-                "changes": [
-                    "Reworked lucky beach ball",
-                    [
-                        "Changed to ignore terrain and objects again",
-                        "When ball spawns, each player gets a seal that can move through terrian and teleport with (Q); Slippers removed",
-                        "Beach balls no longer collide with heroes. Can only collide with seals"
-                    ]
+            "Summer Event",
+            [
+                "Reworked lucky beach ball",
+                [
+                    "Changed to ignore terrain and objects again",
+                    "When ball spawns, each player gets a seal that can move through terrian and teleport with (Q); Slippers removed",
+                    "Beach balls no longer collide with heroes. Can only collide with seals"
                 ]
-            }
+            ]
         ]
     },
     {
@@ -11145,19 +11068,17 @@
             "Blue Lotus Aura - Fixed not replacing some ring effects"
         ],
         "events": [
-            {
-                "name": "Event notes",
-                "changes": [
-                    "Added ticket/ball drop chance to more bosses",
-                    [
-                        "Item bosses",
-                        "Death Knight, Ragnaar, Giant Golem, Tentacle Lord, Mana Ancient, Mad Clown"
-                    ],
-                    "Added ball drop chance to Guardian Angels, Corrupt Angel (was ticket only before)",
-                    "Lucky beach ball changed to bounce off of terrian and objects; Max amount of bounces: 20 → 15",
-                    "Reduced damage of enemies in Seasea Caves"
-                ]
-            }
+            "Summer Event",
+            [
+                "Added ticket/ball drop chance to more bosses",
+                [
+                    "Item bosses",
+                    "Death Knight, Ragnaar, Giant Golem, Tentacle Lord, Mana Ancient, Mad Clown"
+                ],
+                "Added ball drop chance to Guardian Angels, Corrupt Angel (was ticket only before)",
+                "Lucky beach ball changed to bounce off of terrian and objects; Max amount of bounces: 20 → 15",
+                "Reduced damage of enemies in Seasea Caves"
+            ]
         ],
         "monsters": [
             {
@@ -11179,18 +11100,16 @@
             "Rudolph - Fixed not showing properly"
         ],
         "events": [
-            {
-                "name": "Summer Event",
-                "changes": [
-                    "Seasea ticket droprate increased by 50%",
-                    "Event item droprate from seasea red/green pouches decreased by 33%",
-                    "limited ticket/beach ball drops to these bosses:",
-                    [
-                        "Death Fiend, Valtora, Ifrit, Skeleton King, Zombie Lord, Ancient Ent, Samael, Shadow Dragon, Frostspider Lord, Demon Lord Beriel, Corruptor Rectus, Flame Nightmare, Turtle Lord, Hydra, Count, Jack, Wings of Death, Mage Lord, Spirit Beast, Bone Dragon, Guardian Angels (no ball), Corrupt Angel (No ball)"
-                    ],
-                    "Droprate reduction per 10 obtained shining seashells reduced"
-                ]
-            }
+            "Summer Event",
+            [
+                "Seasea ticket droprate increased by 50%",
+                "Event item droprate from seasea red/green pouches decreased by 33%",
+                "limited ticket/beach ball drops to these bosses:",
+                [
+                    "Death Fiend, Valtora, Ifrit, Skeleton King, Zombie Lord, Ancient Ent, Samael, Shadow Dragon, Frostspider Lord, Demon Lord Beriel, Corruptor Rectus, Flame Nightmare, Turtle Lord, Hydra, Count, Jack, Wings of Death, Mage Lord, Spirit Beast, Bone Dragon, Guardian Angels (no ball), Corrupt Angel (No ball)"
+                ],
+                "Droprate reduction per 10 obtained shining seashells reduced"
+            ]
         ],
         "monsters": [
             {
@@ -11211,13 +11130,11 @@
             "Shining Seashells - Fixed being unsavable (Obtained seashells will be auto-recovered. If you already used them on some crafts, please discard the auto-recovered seashells)"
         ],
         "events": [
-            {
-                "name": "Summer Event",
-                "changes": [
-                    "Shining Seashells - Droprate decrease after obtaining 10 reduced",
-                    "Lucky beachballs - Changed to only bounce off of dark borders and max bounce amount: 30 → 20"
-                ]
-            }
+            "Summer Event",
+            [
+                "Shining Seashells - Droprate decrease after obtaining 10 reduced",
+                "Lucky beachballs - Changed to only bounce off of dark borders and max bounce amount: 30 → 20"
+            ]
         ]
     },
     {
@@ -11231,12 +11148,7 @@
             "Fiend Token: Fixed cosmetic spell not being usable"
         ],
         "events": [
-            {
-                "name": "Summer Event",
-                "changes": [
-                    "Summer event will last from july 29th to august 12th 23:59:59 UTC"
-                ]
-            }
+            "Summer Event active from: July 29th → August 12th 23:59:59 UTC"
         ],
         "items": [
             {
@@ -11303,12 +11215,7 @@
             ]
         ],
         "events": [
-            {
-                "name": "Summer Event",
-                "changes": [
-                    "Summer event starts in next version"
-                ]
-            }
+            "Summer Event starts next version"
         ],
         "items": [
             {
@@ -14246,12 +14153,10 @@
             "Fixed a bug where Lightning Mage - W could skip terrains"
         ],
         "events": [
-            {
-                "name": "Weird Event",
-                "changes": [
-                    "End of event (You may use previous version up until April 8th 11:59:59 PM Forum time)"
-                ]
-            }
+            "Weird Event ends",
+            [
+                "Players may use previous version until April 8th 23:59:59 UTC"
+            ]
         ],
         "items": [
             {
@@ -14295,12 +14200,10 @@
             "Compatible Version: v0.13c ~"
         ],
         "events": [
-            {
-                "name": "Weird Event",
-                "changes": [
-                    "Changed to receive rewards even when dead near the boss"
-                ]
-            }
+            "Weird Event",
+            [
+                "Can now receive rewards even when dead near boss"
+            ]
         ],
         "bugs": [
             "Removed ability to pick up melons",
@@ -14329,12 +14232,7 @@
             "Compatible Version: v0.13c ~"
         ],
         "events": [
-            {
-                "name": "Weird Event",
-                "changes": [
-                    "Weird event has started! Runs from March 31st to April 8th"
-                ]
-            }
+            "Weird Event active from: March 31st → April 8th"
         ],
         "items": [
             {
@@ -16398,12 +16296,7 @@
             "Compatible Version: v0.13c ~"
         ],
         "events": [
-            {
-                "name": "Winter Event",
-                "changes": [
-                    "End of Winter Event. Crafting with snow crystals also disabled"
-                ]
-            }
+            "Winter Event ends. Crafting with snow crystals also disabled"
         ],
         "items": [
             {
@@ -16508,12 +16401,10 @@
             "Compatible Version: v0.13c ~"
         ],
         "events": [
-            {
-                "name": "Winter Event",
-                "changes": [
-                    "Multiple penguins in Snowball Fight dying at the same time now assigns them the lowest possible rankings instead of the highest possible rankings"
-                ]
-            }
+            "Winter Event",
+            [
+                "Multiple penguins in snowball fight dying at same time: gives highest possible rank → gives lowest possible rank"
+            ]
         ],
         "misc": [
             "Fixed issue with Lightning Mage's Halloween Costume name"
@@ -16529,12 +16420,7 @@
             "Fixed issue where AoE skills would sometimes fail to affect a couple of targets"
         ],
         "events": [
-            {
-                "name": "Winter Event",
-                "changes": [
-                    "Now active!"
-                ]
-            }
+            "Winter Event active!"
         ],
         "items": [
             {
@@ -17152,12 +17038,10 @@
             "Fixed Halloween Costume of witch crashing the game"
         ],
         "events": [
-            {
-                "name": "Halloween Event",
-                "changes": [
-                    "Ended, any items gained in the previous version will be invalid"
-                ]
-            }
+            "Halloween event ended",
+            [
+                "Any items gained in the previous version will be invalid"
+            ]
         ],
         "items": [
             {
@@ -17264,12 +17148,10 @@
             "Bow Master's Arrow Rain (T) bug fixed"
         ],
         "events": [
-            {
-                "name": "Halloween Event",
-                "changes": [
-                    "All models implemented"
-                ]
-            }
+            "Halloween Event",
+            [
+                "All models implemented"
+            ]
         ],
         "items": [
             {
@@ -17290,12 +17172,7 @@
             "Compatible Version: v0.13c ~"
         ],
         "events": [
-            {
-                "name": "Event notes",
-                "changes": [
-                    "Active until November 4th, 2018"
-                ]
-            }
+            "Halloween Event active until Nov 4th"
         ],
         "monsters": [
             {
