@@ -359,12 +359,7 @@
                         "Helmet/Hood have been fused into a single class",
                         "Longswords/Greatswords have been fused into 'melee' class",
                         "All-character weapons (like The Ender) can now be used by everyone"
-                    ]
-                ]
-            },
-            {
-                "name": "Item Notes",
-                "changes": [
+                    ],
                     "Item grade system has been reworked",
                     [
                         "Materials now also have a grade",
