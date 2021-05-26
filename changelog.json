@@ -1,5 +1,44 @@
 [
     {
+        "name": "50h",
+        "notes": [
+            "Released on: May 26th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Berserker - Fixed Berserk (T) not working properly"
+        ]
+    },
+    {
+        "name": "50g",
+        "notes": [
+            "Released on: May 26th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Areas - Fixed some boss arenas being close enough to each other to let heroes attack bosses across them",
+            "Bone dragon - Fixed some spells doing too much damage",
+            "Skeleton king Desperia - Fixed Howl hp restoration being too high",
+            "Ancient ent - Fixed Elder ent item droprate being incorrect after boss is revived",
+            "Berserker - Fixed Brandish (Q) setting crit chance to 100% when used at low lvl",
+            "Shooter - Fixed Stardust rain (T) passive activating before spell is learned",
+            "Priest - Fixed Holy wave (Q) healing being too low",
+            "Crown of great rage - Fixed armor being too low",
+            "Loading - Fixed hp of heroes being too low after loading, forcing players to re-equip their items",
+            "Tokens - Fixed cosmetic spell of Corrupt angel token not working",
+            "Areas - Fixed some terrain not blocking path",
+            "Systems - Disabled some optimization systems to minimize fatal errors"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Fixed some item descriptions"
+                ]
+            }
+        ]
+    },
+    {
         "name": "50f",
         "notes": [
             "Released on: May 23rd, 2021",

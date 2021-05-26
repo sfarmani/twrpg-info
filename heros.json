@@ -1,5 +1,6 @@
 [
     {
+        "id": "H015",
         "name": "Lyrio Farn",
         "heroClass": "Sniper",
         "mainstat": "AGI",
@@ -17,7 +18,8 @@
             "Long-range Burst DPS"
         ],
         "description": [
-            "A mysterious bow user that happens to have higher range than Bow Master."
+            "Long-range damage dealer.",
+            "Has good mobility."
         ],
         "spec": [
             "Soulstalker - Cursed Arrow",
@@ -25,6 +27,7 @@
         ]
     },
     {
+        "id": "H008",
         "name": "Stella Livve",
         "heroClass": "Soul Weaver",
         "mainstat": "INT",
@@ -43,14 +46,14 @@
             "Buffer/Debuffer"
         ],
         "description": [
-            "A girl not so good with jokes and always tense with pressure. Cold like a keen edged sword.",
-            "Likes to study dark magic alone.."
+            "Supporter. Focused on debuffs and utility skills."
         ],
         "spec": [
             "No Specs!"
         ]
     },
     {
+        "id": "H01I",
         "name": "Elric",
         "heroClass": "Alchemist",
         "mainstat": "INT",
@@ -70,9 +73,8 @@
             "Versatile Invoker. Has DPS, DoT, Support, Buffs, Debuffs"
         ],
         "description": [
-            "A youngster traveling through the Easts.",
-            "Specializes in alchemy, which doesn't use mana but rather reconstruction of elements to bring out phenomenons similar to magic.",
-            "Currently staying by Silver.."
+            "Ranged damage dealer. Focused on casting skills.",
+            "Requires more control compared to other characters, and skill combos are long."
         ],
         "spec": [
             "Potion of Corruption - Mad Alchemist",
@@ -83,6 +85,7 @@
         ]
     },
     {
+        "id": "H00J",
         "name": "Haran Tenebras",
         "heroClass": "Warlock",
         "mainstat": "INT",
@@ -102,8 +105,7 @@
             "DoT/DPS"
         ],
         "description": [
-            "A child who freely uses curses and witchcraft learnt through self-study; there are rumors of him bending even devils to his will.",
-            "Some others say his delusions have gone out of hand.."
+            "Ranged damage dealer. Good at burst damage."
         ],
         "spec": [
             "Ring of Deep Darkness - Forbidden Grimoire",
@@ -113,6 +115,7 @@
         ]
     },
     {
+        "id": "H02M",
         "name": "Loriro Livve",
         "heroClass": "Blood Weaver",
         "mainstat": "INT",
@@ -135,8 +138,8 @@
             "Sustain/DoT/Tank"
         ],
         "description": [
-            "An extroverted girl, unlike her sister. She adores beauty, and sees blood as the ultimate beauty.",
-            "Some say she has a screw loose.."
+            "Melee damage dealer. Uses a good mix of auto attacks and skill casts.",
+            "Uses HP as resource to cast skills. Has excellent mobility."
         ],
         "spec": [
             "Teperua, the Ring of Blood - Blood Shield",
@@ -144,6 +147,7 @@
         ]
     },
     {
+        "id": "H005",
         "name": "Rin T.",
         "heroClass": "Fire Mage",
         "mainstat": "INT",
@@ -163,15 +167,14 @@
             "Combo Burster"
         ],
         "description": [
-            "A prominent heir of Vagratia, an Empire renowned for its expertise in Magic.",
-            "She was raised strictly so that she could succeed her bloodline.",
-            "She is competitive and strives to prove her worth."
+            "Ranged damage dealer. Has high burst damage."
         ],
         "spec": [
             "No Specs!"
         ]
     },
     {
+        "id": "H00K",
         "name": "Rainbow R.",
         "heroClass": "Shooter",
         "mainstat": "AGI",
@@ -192,9 +195,8 @@
             "AGI: DPS with medium healing"
         ],
         "description": [
-            "Her origin is Maz Empire, the 'Third Empire' that perished from the clashes of the Empire War.",
-            "She is a proud successor of Magic Engineering, a lost art that once flourished in Maz Empire.",
-            "To fulfill her dream of imbuing life into machines, she travels around the world to search for the ancient remains of Magic Engineering."
+            "Ranged damage dealer.",
+            "If setup around INT-based items/stats, can also be utilized as a healer that excels in small parties."
         ],
         "spec": [
             "Red Cross - Bloody Protection",
@@ -214,6 +216,7 @@
         ]
     },
     {
+        "id": "H04R",
         "name": "Shiro",
         "heroClass": "Sword Enchanter",
         "mainstat": "AGI",
@@ -233,13 +236,15 @@
             "Pure DoT/Slight Debuffer"
         ],
         "description": [
-            "Rogue mage obsessed with swords, trying to improve her sword skills to be on par with her vast collection"
+            "Melee damage dealer. Focused on auto-attacks.",
+            "Playstyle is simple compared to most other characters."
         ],
         "spec": [
             "No Specs!"
         ]
     },
     {
+        "id": "H05B",
         "name": "Lucicree",
         "heroClass": "Gunner",
         "mainstat": "AGI",
@@ -257,7 +262,7 @@
             "High Mobility with mid-ranged DoT DPS"
         ],
         "description": [
-            "A gunner from the west. Not much is known about him."
+            "Ranged damage dealer. Uses a good mix of auto attacks and skill casts."
         ],
         "spec": [
             "Dante's Inferno - Abandon All Hope",
@@ -266,6 +271,7 @@
         ]
     },
     {
+        "id": "H001",
         "name": "Louis Arcienne",
         "heroClass": "Swordsman",
         "mainstat": "AGI",
@@ -285,9 +291,7 @@
             "High sustained damage (DoT dps), and strong stunner"
         ],
         "description": [
-            "He carries an exotic sword on his back.",
-            "His memorable appearance and blue hairs makes it easy to spot him in the capital.",
-            "He always wears a mask, and noone knows why."
+            "Melee damage dealer. Focused on casting skills, but it weaves auto-attacks in between skill casts."
         ],
         "spec": [
             "Brooch of Darkness - Improved Sword Storm",
@@ -296,6 +300,7 @@
         ]
     },
     {
+        "id": "H009",
         "name": "Dorothy de Merrian",
         "heroClass": "Elementalist",
         "mainstat": "INT",
@@ -314,8 +319,7 @@
             "Summoner: Tank/Support/Debuff"
         ],
         "description": [
-            "Her bloodlone, Merrian, released many prominent elementalists in the past.",
-            "She's still a young apprentice following the path of her ancestor Crianne de Merrian.."
+            "Ranged damage dealer & support. Focused on summons."
         ],
         "spec": [
             "Ripple Snow - Water Mastery",
@@ -330,6 +334,7 @@
         ]
     },
     {
+        "id": "H021",
         "name": "Sasuke",
         "heroClass": "Lightning Mage",
         "mainstat": "INT",
@@ -352,8 +357,7 @@
             "Melee to Mid-ranged Burst DPS"
         ],
         "description": [
-            "An innocent troublemaker, who often shows up randomly at the corners of Prius, snatches a fruit or two from the markets and run off into the darkness.",
-            "His mischieviousness may be what makes him suitable as a user of lightning-based magic which is also said to be difficult to control."
+            "Melee damaged dealer. Requires precision with casting skills."
         ],
         "spec": [
             "Spiritus, the Sword of Elements - Spirits",
@@ -365,6 +369,7 @@
         ]
     },
     {
+        "id": "H01V",
         "name": "Astarte",
         "heroClass": "Crusader",
         "mainstat": "STR",
@@ -384,11 +389,8 @@
             "Survivability/DPS"
         ],
         "description": [
-            "Long time ago, a decisive holy war between angels and demons took place; amidst the war, a man who would later become the founder of Ribeth bloodline emerged to single-handedly decimate countless demons with his sword.",
-            "With the both sides of war losing much of their forces from the prolonged war, the war was implicitly held off.",
-            "The Archangelus acknowledged the contributions of Ribeth bloodline and bestowed the title of Crusader upon them.",
-            "",
-            "Most of its heroes have fallen in the second Heaven-Hell War, leading to assumptions that the bloodline had perished but a few had survived and now live hidden among the humans.."
+            "Melee damage dealer. Focused on casting skills.",
+            "Has good survivability and offensive support for allies."
         ],
         "spec": [
             "Bahanar, the Sword of Illusion - Redemption",
@@ -400,6 +402,7 @@
         ]
     },
     {
+        "id": "H01V",
         "name": "Kenneth Deracoon",
         "heroClass": "Martial Artist",
         "mainstat": "AGI",
@@ -420,8 +423,8 @@
             "Close-range burst DPS, decent DoT dps"
         ],
         "description": [
-            "He originates from one of the most influential tribes, the Nuyans, in the Eastern Eloren.",
-            "He's also the only survivor of his tribe. He looks calm and peaceful, but..."
+            "Melee damage dealer. Focused HEAVILY on auto attacks, and has almost no skill casts.",
+            "Playstyle is simple compared to most other characters."
         ],
         "spec": [
             "Wanderer's Cape - Wanderer",
@@ -435,6 +438,7 @@
         ]
     },
     {
+        "id": "Hblm",
         "name": "Naomi Mercedes",
         "heroClass": "Lancer",
         "mainstat": "STR",
@@ -454,14 +458,15 @@
             "Shield Breaker/DPS/Medium survival"
         ],
         "description": [
-            "A spear-wielding female warrior who came from the Orients.",
-            "No one knows how she have arrived, but her innocent character makes no one suspicious of her."
+            "Melee damage dealer. Focused on skill casts.",
+            "Provides a bit of offensive support."
         ],
         "spec": [
             "No Specs!"
         ]
     },
     {
+        "id": "H04S",
         "name": "Aurelia",
         "heroClass": "Reaper",
         "mainstat": "AGI",
@@ -481,14 +486,15 @@
             "Burst DPS"
         ],
         "description": [
-            "A fearsom warrior known for her agility and expertise wielding large scythes.",
-            "The way she outmaneuvers her opponents and taking their lives in return has given her the title of a 'Reaper'."
+            "Melee damage dealer. Focused on skill casts.",
+            "Skill combos are more complex compared to other characters."
         ],
         "spec": [
             "No Specs!"
         ]
     },
     {
+        "id": "H004",
         "name": "Ayame",
         "heroClass": "Assassin",
         "mainstat": "AGI",
@@ -508,9 +514,8 @@
             "Short Burst Melee DPS"
         ],
         "description": [
-            "She's just about the same age as Alice.",
-            "She has innocent looking eyes and uses daggers with ease.",
-            "She follows the footsteps of adventures left by a man known as the Great Magician.."
+            "Melee damage dealer. Focused on casting skills.",
+            "Has stealth abilities."
         ],
         "spec": [
             "Brooch of Darkness - Improved Shadow Rush",
@@ -519,6 +524,7 @@
         ]
     },
     {
+        "id": "H01N",
         "name": "Aisha",
         "heroClass": "Wind Mage",
         "mainstat": "INT",
@@ -537,8 +543,7 @@
             "AOE Healer"
         ],
         "description": [
-            "Her clan has been exercising divine powers of wind since ancient times.",
-            "She grew bored of forecasting the weather and blessing the lands everyday, so she decided to leave her clan and wander around as a travelling magician."
+            "Supporter. Has various healing and supportive abilities."
         ],
         "spec": [
             "Spiritus, the Sword of Elements - Affinity",
@@ -553,6 +558,7 @@
         ]
     },
     {
+        "id": "H04Q",
         "name": "Catherine Yoi",
         "heroClass": "Merchant",
         "mainstat": "STR",
@@ -573,7 +579,7 @@
             "Tank Support"
         ],
         "description": [
-            "'I sell everything!' A girl wandering many continents, trying to sell her goodies."
+            "Supporter. Excels in adventurous parties where deaths are frequent."
         ],
         "spec": [
             "Bag of Strength - Heavy Bag",
@@ -595,6 +601,7 @@
         ]
     },
     {
+        "id": "H01H",
         "name": "Esteria",
         "heroClass": "Thunderer",
         "mainstat": "AGI",
@@ -615,8 +622,7 @@
             "Shield Breaker/DoT DPS with small Burst DPS"
         ],
         "description": [
-            "A young girl who succeeds a prestigious bloodline, known for its mastery with lightning magic.",
-            "She is now seeking revenge on an evil spirit that wiped out her bloodline."
+            "Melee damage dealer. Focused on auto-attacks."
         ],
         "spec": [
             "Guardian of the Skies - Improved Magnetic Field",
@@ -624,6 +630,7 @@
         ]
     },
     {
+        "id": "H00H",
         "name": "Elena",
         "heroClass": "Berserker",
         "mainstat": "STR",
@@ -643,14 +650,15 @@
             "DPS/Survivability"
         ],
         "description": [
-            "She was an ordinary girl born as a commoner.",
-            "However, the brutal experience of losing her family entwined her with crimson colored madness, and changed her personality..."
+            "Melee damage dealer. Focused on auto attacks.",
+            "Instead of MP, she uses HP to cast skills."
         ],
         "spec": [
             "No Specs!"
         ]
     },
     {
+        "id": "H00Z",
         "name": "Iris Millen",
         "heroClass": "Bow Master",
         "mainstat": "AGI",
@@ -668,8 +676,8 @@
             "Burst DPS, with small support"
         ],
         "description": [
-            "A girl of the Elven race, an ancient race that has existed since the beginning.",
-            "She is kind-hearted but is also fierce on battlegrounds; her keen ability to focus is sought by many others."
+            "Ranged damage dealer.",
+            "Provides some support for allies."
         ],
         "spec": [
             "Stalker - Improved Arrow Rain",
@@ -680,6 +688,7 @@
         ]
     },
     {
+        "id": "H000",
         "name": "Isabelle che Nyderre",
         "heroClass": "Knight",
         "mainstat": "STR",
@@ -699,9 +708,7 @@
             "Shield Breaker/Sustain/DoT/Tank"
         ],
         "description": [
-            "A girl with beatiful blue hair and amethyst colored eyes.",
-            "At age of 18, she is the heir of one of the most prestigious families in Prius.",
-            "Yet she leads the cavalry at the front line..."
+            "Melee all-rounder class. Quite tanky.Has supportive abilities such as moving/breaking monsters or providing shields to allies."
         ],
         "spec": [
             "Winter's Heart - Absolute Zero",
@@ -712,6 +719,7 @@
         ]
     },
     {
+        "id": "Hmkg",
         "name": "Karad Erin",
         "heroClass": "Dark Knight",
         "mainstat": "STR",
@@ -735,7 +743,7 @@
             "STR: Burst DPS"
         ],
         "description": [
-            "......"
+            "Melee damage dealer. Focused on skill casts."
         ],
         "spec": [
             "Requiem, the Armor of Lamentation - Eternal Lamentation",
@@ -744,6 +752,7 @@
         ]
     },
     {
+        "id": "H006",
         "name": "Eustia",
         "heroClass": "Arcane Mage",
         "mainstat": "INT",
@@ -762,14 +771,14 @@
             "Burst DPS/Semi-support"
         ],
         "description": [
-            "A girl born with the mana of corrupt eclipse that occured during the first God-Devil War.",
-            "With a pale look that resembles a doll, she wanders around continents looking for something dear to her.."
+            "Ranged damage dealer. Has high burst damage but skill combo is complex."
         ],
         "spec": [
             "No Specs!"
         ]
     },
     {
+        "id": "H002",
         "name": "Sherry P.",
         "heroClass": "Water Mage",
         "mainstat": "INT",
@@ -788,8 +797,7 @@
             "Support with Burst Capabilities"
         ],
         "description": [
-            "A girl blessed with pure mana of water, a rare megical talent that is passed down through only a few bloodlines.",
-            "Lightly attired and innocent; she does not make more destruction than necessary."
+            "Ranged damage dealer & support. Good with CC effects."
         ],
         "spec": [
             "Frozen Robe - Improved Frozen Emotion",
@@ -798,6 +806,7 @@
         ]
     },
     {
+        "id": "H007",
         "name": "Alice Dorneea",
         "heroClass": "Priest",
         "mainstat": "INT",
@@ -816,9 +825,7 @@
             "Support/Healer"
         ],
         "description": [
-            "She's always blessed with luck and divine spirits.",
-            "She occasionally causes troubles, but people overlook it with no problem.",
-            "Always good natured, she brings happiness to.."
+            "Supporter. Focused on healing skills. Excels in large parties."
         ],
         "spec": [
             "Staff of Abyss - Dark Healing",
@@ -831,6 +838,7 @@
         ]
     },
     {
+        "id": "H003",
         "name": "Frederic Kassia",
         "heroClass": "Paladin",
         "mainstat": "STR",
@@ -853,7 +861,8 @@
             "DPS/Semi-Support"
         ],
         "description": [
-            "현재는 용병 길드 실버 쉐도우에서 활동중. 골치 덩어리 Paladin이며 어렸을때부터 신전에서 자라나 Paladin으로서의 역할을 맡고 임무를 수행 하며 지내왔다."
+            "Melee damage dealer. Focused on casting skills.",
+            "Has good mobility and support for allies."
         ],
         "spec": [
             "Deathbringer - Darkened Light",
@@ -869,6 +878,7 @@
         ]
     },
     {
+        "id": "H05T",
         "name": "Harang",
         "heroClass": "Phantom Blade",
         "mainstat": "AGI",
@@ -888,15 +898,15 @@
             "DoT/DPS"
         ],
         "description": [
-            "A NEET highschool girl who was enjoying TWRPG from her basement..",
-            "When she opened her eyes, she realized she was summoned to the world of TWRPG.",
-            "Now begins her exciting adventure!"
+            "Ranged damage dealer. Focused on skill casts.",
+            "Requires constant input of keys; not recommended if you have a bad wrist."
         ],
         "spec": [
             "No Specs!"
         ]
     },
     {
+        "id": "H065",
         "name": "The Nameless One",
         "heroClass": "Hermit",
         "mainstat": "AGI",
@@ -920,14 +930,14 @@
             "Shield Breaker/DPS/Support depends on stat"
         ],
         "description": [
-            "A young man who ran away from the civilization at a young age to live in the woods.",
-            "While living alone, he obtained the mystic arts of the nature.."
+            "Supporter. Focused on healing skills."
         ],
         "spec": [
             "No Specs!"
         ]
     },
     {
+        "id": "H066",
         "name": "Yue Tenebras",
         "heroClass": "Witch",
         "mainstat": "INT",
@@ -946,13 +956,14 @@
             "Shield Breaker/DPS/Support"
         ],
         "description": [
-            "Hey guys.. I have returned."
+            "Supporter. Focused on utility skills."
         ],
         "spec": [
             "No Specs!"
         ]
     },
     {
+        "id": "H076",
         "name": "Noface",
         "heroClass": "Fighter",
         "mainstat": "STR",
@@ -973,16 +984,15 @@
             "Pure DPS"
         ],
         "description": [
-            "The man. The legend itself. The Faceless One.",
-            "After countless battles, his face ended up getting obliterated.",
-            "However, he can still accurately determine his opponent's position and actions by sensing the flow of air around him.",
-            "Now, he seeks to transcend humans and even conquer The World of monsters."
+            "Melee damage dealer. Focused on skill casts, and relies heavily on combos.",
+            "Requires constant input of keys; not recommended if you have a bad wrist."
         ],
         "spec": [
             "No Specs!"
         ]
     },
     {
+        "id": "H07X",
         "name": "Luk",
         "heroClass": "Trickster",
         "mainstat": "AGI",
@@ -1001,7 +1011,7 @@
             "Pure DPS"
         ],
         "description": [
-            "분신을 조종하는 공격형 영웅입니다."
+            "Melee damage dealer. Difficult as it requires controlling two characters at once."
         ],
         "spec": [
             "No Specs!"
