@@ -853,7 +853,7 @@
         ]
     },
     {
-        "id": "A0O8",
+        "id": "A00F",
         "name": "Recall",
         "heroClass": "Alchemist",
         "color": "52E252",
@@ -2653,6 +2653,7 @@
         ]
     },
     {
+        "id": "Afbk",
         "name": "Shock",
         "heroClass": "Elementalist",
         "color": "c39beb",
@@ -2661,8 +2662,8 @@
         "order": 15,
         "passive": [
             "Slowly charges electricity on each attack, and releases all of them at once.",
-            "Every attack deals summoner's INT X 7.5 bonus damage",
-            "Every 4th attack deals summoner's INT X 45 damage and chains to 2 additional enemies"
+            "Every attack deals summoner's INT X 1.25 bonus damage",
+            "Every 4th attack deals summoner's INT X 6.75 magic damage and chains to 2 additional enemies"
         ],
         "passive_tags": [
             "Summon",
@@ -2672,6 +2673,7 @@
         ]
     },
     {
+        "id": "Afbt",
         "name": "Charge",
         "heroClass": "Elementalist",
         "color": "c39beb",
@@ -2695,6 +2697,7 @@
         ]
     },
     {
+        "id": "A07D",
         "name": "Lightning Beam",
         "heroClass": "Elementalist",
         "color": "c39beb",
@@ -2704,7 +2707,7 @@
         "active": [
             "Releases contained lightning to fry enemies with high voltage.",
             "Consumes Max MP X 40% per second",
-            "Deals INT X 125 damage per second"
+            "Deals INT X 18.5 magic damage per second"
         ],
         "active_tags": [
             "Summon",
@@ -2714,6 +2717,7 @@
         ]
     },
     {
+        "id": "A07H",
         "name": "Blink",
         "heroClass": "Elementalist",
         "color": "b3ccff",
@@ -2722,13 +2726,14 @@
         "cooldown": 6,
         "order": 18,
         "active": [
-            "Travels at high speeds to reach the selected location"
+            "Moves to target point quickly."
         ],
         "active_tags": [
             "Summon"
         ]
     },
     {
+        "id": "A03J",
         "name": "Seal of Earth",
         "heroClass": "Elementalist",
         "color": "afeb8c",
@@ -2739,7 +2744,7 @@
         "active": [
             "Forms a contract with the elemental of earth, which is specialized in powerful attacks and protecting allies.",
             "HP = Max HP of Elementalist X 400%",
-            "Armor = Armor of Elementalist X 150%",
+            "Armor = Armor of Elementalist X 100%",
             "Lasts 40 seconds"
         ],
         "active_tags": [
@@ -2748,6 +2753,7 @@
         ]
     },
     {
+        "id": "A04F",
         "name": "Pillar of Earth",
         "heroClass": "Elementalist",
         "color": "dfbf9f",
@@ -2756,7 +2762,7 @@
         "order": 20,
         "passive": [
             "Raises the ground below to attack enemies.",
-            "Each attack deals INT X 40 damage in a line"
+            "Each attack deals INT X 6 magic damage in a line"
         ],
         "passive_tags": [
             "Summon",
@@ -2766,6 +2772,7 @@
         ]
     },
     {
+        "id": "A04Z",
         "name": "Earthen Protection",
         "heroClass": "Elementalist",
         "color": "dfbf9f",
@@ -2787,6 +2794,7 @@
         ]
     },
     {
+        "id": "A07L",
         "name": "Pulse of Protection",
         "heroClass": "Elementalist",
         "color": "ff8080",
@@ -2805,6 +2813,7 @@
         ]
     },
     {
+        "id": "A089",
         "name": "Elemental Link",
         "heroClass": "Elementalist",
         "color": "ffff80",
@@ -2839,6 +2848,7 @@
         ]
     },
     {
+        "id": "A08N",
         "name": "Seal of Chaos",
         "heroClass": "Elementalist",
         "color": "#ce2b7d",
@@ -2857,6 +2867,7 @@
         ]
     },
     {
+        "id": "A12R",
         "name": "Dark Reach",
         "heroClass": "Elementalist",
         "color": "#ce2b7d",
@@ -2865,9 +2876,8 @@
         "order": 25,
         "passive": [
             "Empowers attacks with corrupt power.",
-            "Every attack deals INT X 25 bonus damage to nearby enemies",
-            "Every 5th attack deals INT X 125 bonus damage to nearby enemies",
-            "Attack speed increased by 25%"
+            "Every attack deals INT X 2.25 magic damage",
+            "Every 5th attack deals INT X 11.5 bonus damage to nearby enemies"
         ],
         "passive_tags": [
             "Summon",
@@ -2879,6 +2889,7 @@
         ]
     },
     {
+        "id": "A08P",
         "name": "Power of Chaos",
         "heroClass": "Elementalist",
         "color": "#ce2b7d",
@@ -2896,6 +2907,7 @@
         ]
     },
     {
+        "id": "A08S",
         "name": "Abyss Walk",
         "heroClass": "Elementalist",
         "color": "#ce2b7d",
@@ -2905,8 +2917,7 @@
         "order": 27,
         "active": [
             "Submerges into the abyss to quickly travel to target location.",
-            "INT X 50 damage",
-            "Range: 1500"
+            "INT X 11.5 magic damage"
         ],
         "active_tags": [
             "Summon",
@@ -2915,6 +2926,7 @@
         ]
     },
     {
+        "id": "A12S",
         "name": "Collapse Dimension",
         "heroClass": "Elementalist",
         "color": "#ce2b7d",
@@ -2924,9 +2936,9 @@
         "order": 28,
         "active": [
             "Collapses the dimension around yourself.",
-            "Deals INT X 75 damage per second",
+            "Deals INT X 7.5 magic damage per second",
             "Pulls nearby enemies inward",
-            "Lasts 2 seconds"
+            "Lasts 1.5 seconds"
         ],
         "active_tags": [
             "Summon",
@@ -2935,6 +2947,7 @@
         ]
     },
     {
+        "id": "A08R",
         "name": "Eye of Chaos",
         "heroClass": "Elementalist",
         "color": "#ce2b7d",
@@ -2951,6 +2964,7 @@
         ]
     },
     {
+        "id": "A109",
         "name": "Short Circuit",
         "heroClass": "Lightning Mage",
         "color": "99bbff",
@@ -2973,6 +2987,7 @@
         ]
     },
     {
+        "id": "A0Y2",
         "name": "Lightning Bolt",
         "heroClass": "Lightning Mage",
         "color": "99ebff",
@@ -2981,8 +2996,8 @@
         "order": 2,
         "active": [
             "Create an orb of lightning and fling it forward.",
-            "INT X 20 damage",
-            "Explodes after 6 seconds to deal INT X 20 damage",
+            "INT X 3 magic damage",
+            "Explodes after 6 seconds to deal INT X 3 magic damage",
             "Bypasses terrain"
         ],
         "active_tags": [
@@ -2992,6 +3007,7 @@
         ]
     },
     {
+        "id": "A104",
         "name": "Static Sweep",
         "heroClass": "Lightning Mage",
         "color": "3385ff",
@@ -3001,7 +3017,7 @@
         "order": 3,
         "active": [
             "Perform a kick with the speed of lightning.",
-            "Attack Damage X 200% damage",
+            "Attack damage X 0.3 + (AGI + INT) X 3 magic damage",
             "(AGI + INT) X 20 additional damage",
             "If used to activate Short Circuit, can be chained with an additional skill"
         ],
@@ -3012,6 +3028,7 @@
         ]
     },
     {
+        "id": "A105",
         "name": "Breaker",
         "heroClass": "Lightning Mage",
         "color": "3385ff",
@@ -3020,8 +3037,7 @@
         "order": 4,
         "active": [
             "Throws a punch with the speed of lightning.",
-            "Attack Damage X (400 + 80 X Skill Level)% damage",
-            "AGI X 40 additional damage",
+            "Attack damage X 1.2 + AGI X 6 magic damage",
             "If used to activate Short Circuit, it can be chained with an additional skill"
         ],
         "active_tags": [
@@ -3031,6 +3047,7 @@
         ]
     },
     {
+        "id": "A106",
         "name": "Static Burst",
         "heroClass": "Lightning Mage",
         "color": "3385ff",
@@ -3039,7 +3056,7 @@
         "order": 5,
         "active": [
             "Release collected energy with an explosive burst.",
-            "INT X (20 + 4 X Skill Level) damage",
+            "INT X 6 damage",
             "Short stun effect",
             "If used to activate Short Circuit, explodes all nearby lightning orbs"
         ],
@@ -3050,6 +3067,7 @@
         ]
     },
     {
+        "id": "A107",
         "name": "Discharge",
         "heroClass": "Lightning Mage",
         "color": "b3f0ff",
@@ -3060,14 +3078,13 @@
         "toggle": [
             "Discharge body to quickly release mana, gaining immense speed in return.",
             "Consumes 50 energy per second",
-            "Deals up to INT X 80 damage based on dash distance",
-            "Reduces damage taken by 80%",
-            "Upon absorbing a lightning orb, becomes Charged for 0.75 seconds which removes energy consumption",
-            "Toggle again to deactivate the discharge",
-            "Ignores silence and stuns"
+            "Deals up to INT X 12 damage based on dash distance",
+            "Reduces damage taken by 80% and ignores CC effects",
+            "Upon absorbing a lightning orb, becomes Charged for 0.75 seconds which removes energy consumption"
         ]
     },
     {
+        "id": "A108",
         "name": "Lightning Strike",
         "heroClass": "Lightning Mage",
         "color": "3385ff",
@@ -3076,10 +3093,10 @@
         "cooldown": 15,
         "order": 7,
         "active": [
-            "Focus mana into a single point to call down a lightning strike.",
-            "INT X 150 damage",
-            "Creates 5 lightning orbs",
-            "1 second stun"
+            "Focuses mana into a single point to call down a lightning strike.",
+            "INT X 22.5 magic damage",
+            "Stuns for 1 second",
+            "Creates 5 lightning orbs"
         ],
         "active_tags": [
             "Hero",
@@ -3088,6 +3105,7 @@
         ]
     },
     {
+        "id": "A10A",
         "name": "Hypercharge",
         "heroClass": "Lightning Mage",
         "color": "4ddbff",
@@ -3097,7 +3115,7 @@
         "order": 8,
         "active": [
             "Absorb mana dispersed in the atmosphere to charge yourself.",
-            "After 0.5 seconds, deals INT X 125 damage per second",
+            "After 0.5 seconds, deals INT X 18.5 magic damage per second",
             "Short stun effect",
             "Invulnerable while active",
             "If used while charged, damage is increased by 100%",
@@ -3112,6 +3130,7 @@
         ]
     },
     {
+        "id": "A10B",
         "name": "Lightning Blade",
         "heroClass": "Lightning Mage",
         "color": "99ffff",
@@ -3123,7 +3142,7 @@
             "\"Disappear with the Lightning!\" - Mage",
             "Pauses unit for 1.5 seconds",
             "Refreshes duration of Short Circuit",
-            "Deals INT X 325 damage on expiration",
+            "Deals INT X 50 damage on expiration",
             "Damage and critical chance are increased up to 200% based on dash distance",
             "Breaks shield effects",
             "Invincible while casting",
@@ -3140,6 +3159,7 @@
         ]
     },
     {
+        "id": "A0TP",
         "name": "Execution Sword",
         "heroClass": "Crusader",
         "color": "f9feb8",
@@ -3149,7 +3169,8 @@
         "order": 1,
         "passive": [
             "Holy sword that brings down judgment upon the evil. Mana concentrates around the blade to give the sword a vibrant form.",
-            "Attack Damage X 3 + STR X 15 magic damage"
+            "20% chance to activate Flash Sword on attack",
+            "Attack damage X 0.45 + STR X 2.25 magic damage"
         ],
         "active": [
             "Sends down a flow of mana into the sword, awakening its true potential.",
@@ -3167,6 +3188,7 @@
         ]
     },
     {
+        "id": "A0TT",
         "name": "Remains of Rage",
         "heroClass": "Crusader",
         "color": "f9feb8",
@@ -3176,10 +3198,10 @@
         "order": 2,
         "active": [
             "Fires mana stored within your sword to target point.",
-            "Crusader's Max HP X 750% magic damage",
+            "MAX HP X 1.1 magic damage",
             "Stuns and pulls enemies toward center",
-            "For 3 seconds, reduces target's movement speed by 60% and increases your damage dealt to the target by 10%",
-            "Gains 1 charge every 6 seconds (max 4)"
+            "Reduces movement speed of targets hit by 60%, as well as increasing the damage they take by 10% for 3 seconds",
+            "Restore 1 charge every 6 seconds (Up to 4 charges)"
         ],
         "active_tags": [
             "Hero",
@@ -3190,6 +3212,7 @@
         ]
     },
     {
+        "id": "A0TQ",
         "name": "Flash of Immortality",
         "heroClass": "Crusader",
         "color": "f9feb8",
@@ -3217,6 +3240,7 @@
         ]
     },
     {
+        "id": "A0TR",
         "name": "Strike of Honor",
         "heroClass": "Crusader",
         "color": "f9feb8",
@@ -3226,8 +3250,8 @@
         "order": 4,
         "active": [
             "Leap quickly into air and slam down, shattering the ground.",
-            "Attack Damage X 1500% damage",
-            "STR X 50 bonus damage",
+            "Attack Damage X 2.25 magic damage",
+            "STR X 7.5 magic damage",
             "Stuns for 1 second"
         ],
         "active_tags": [
@@ -3237,6 +3261,7 @@
         ]
     },
     {
+        "id": "A0TN",
         "name": "1st Sword Dance: Strike",
         "heroClass": "Crusader",
         "color": "f9feb8",
@@ -3246,7 +3271,7 @@
         "order": 5,
         "active": [
             "Dash forward with lightning speed, striking all enemies.",
-            "Attack Damage X 2500% magic damage",
+            "Attack Damage X 3.75 magic damage",
             "Enhance next Remains of Rage cast within 3 seconds, increasing its damage by 250% and dashing to target location to inflict stun for 1 second",
             "Chain - 2nd Sword Dance: Sword"
         ],
@@ -3257,6 +3282,7 @@
         ]
     },
     {
+        "id": "A0TO",
         "name": "2nd Sword Dance: Sword",
         "heroClass": "Crusader",
         "color": "f9feb8",
@@ -3265,7 +3291,7 @@
         "order": 6,
         "active": [
             "Release mana stored within the Execution Sword to attack all nearby enemies.",
-            "STR X (25 + 50 X Skill Level) magic damage",
+            "STR X 27.5 magic damage",
             "Slows affected enemies by 50% for 4 seconds",
             "Empowers next Strike of Honor cast within 3 seconds, increasing its damage and stun duration by 200% and increasing damage taken by targets hit by 12% for 8 seconds",
             "Increases HP regen by (Crusader's Max HP X 10%) for 5 seconds"
@@ -3286,6 +3312,7 @@
         ]
     },
     {
+        "id": "A03D",
         "name": "Max Amplification: Execution Sword",
         "heroClass": "Crusader",
         "color": "f9feb8",
@@ -3317,6 +3344,7 @@
         ]
     },
     {
+        "id": "A0TU",
         "name": "Original Sin",
         "heroClass": "Crusader",
         "color": "f9feb8",
@@ -3326,9 +3354,9 @@
         "order": 8,
         "active": [
             "\"Light that can be bestowed upon the weak - that is the true light.\" - Astarte",
-            "Each slash deals STR X 250 damage",
-            "Final slash deals STR X 600 damage",
-            "Stun for 3 fixed seconds"
+            "Each slash deals STR X 37.5 magic damage",
+            "Final slash deals STR X 90 magic damage",
+            "Stuns for 3 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -3337,6 +3365,7 @@
         ]
     },
     {
+        "id": "A0CW",
         "name": "Martial Movement",
         "heroClass": "Martial Artist",
         "color": "8fbc8f",
@@ -3372,6 +3401,7 @@
         ]
     },
     {
+        "id": "A03V",
         "name": "Emperor's Strikes",
         "heroClass": "Martial Artist",
         "color": "8fbc8f",
@@ -3380,7 +3410,7 @@
         "order": 2,
         "passive": [
             "A martial art that strengthens the fist, passed down from the Shaolins of the orients.",
-            "15% chance to deal AGI X 30 damage on attack"
+            "15% chance to deal AGI X 4.5 magic damage on attack"
         ],
         "passive_tags": [
             "Hero",
@@ -3390,6 +3420,7 @@
         ]
     },
     {
+        "id": "A0B4",
         "name": "Eight Palm Strike",
         "heroClass": "Martial Artist",
         "color": "98fb98",
@@ -3398,9 +3429,8 @@
         "order": 3,
         "passive": [
             "Martial art that allows striking multiple foes on a single attack.",
-            "Adds splash effect to attack",
-            "8% Chance to deal Skill Level X 500 damage to nearby enemies on attack",
-            "AGI X 40 bonus damage"
+            "Adds 40% splash effect to attack",
+            "8% chance to deal AGI x 6 magic damage to nearby enemies on attack"
         ],
         "passive_tags": [
             "Hero",
@@ -3410,6 +3440,7 @@
         ]
     },
     {
+        "id": "A0B6",
         "name": "Vacuum Palm",
         "heroClass": "Martial Artist",
         "color": "9acd32",
@@ -3418,7 +3449,7 @@
         "order": 4,
         "passive": [
             "Apply sudden pressure to weak points, slowing down the target's movement.",
-            "Chance to slow target on attack",
+            "Basic attacks have a 15% chance to slow the target",
             "Temporarily decrease target's armor if debuff is stacked"
         ],
         "passive_tags": [
@@ -3432,6 +3463,7 @@
         ]
     },
     {
+        "id": "A0B3",
         "name": "Inner Meditation",
         "heroClass": "Martial Artist",
         "color": "2e8b57",
@@ -3440,8 +3472,8 @@
         "order": 5,
         "passive": [
             "Calm your mind and body to maintain control over yourself.",
-            "Increased attack speed",
-            "Chance to temporarily boost attack damage, damage resistance by 20% and HP regen on attack"
+            "Attack speed increased by 60%",
+            "Basic attacks have a 8% chance to increase attack damage by 120%, damage reduction by 20% for and regenerate HP equal to 2% + 90 every second for 5 seconds"
         ],
         "passive_tags": [
             "Hero",
@@ -3455,6 +3487,7 @@
         ]
     },
     {
+        "id": "A0B5",
         "name": "Heavenly Emperor's Strikes",
         "heroClass": "Martial Artist",
         "color": "20b2aa",
@@ -3463,8 +3496,7 @@
         "order": 6,
         "passive": [
             "An improved version of Emperor's strikes that boasts fearsome power.",
-            "Chance to deal 400% attack damage on attack",
-            "AGI X 60 bonus damage"
+            "8% chance to deal Attack Damage X 60% + AGI x 9 magic damage on attack"
         ],
         "passive_tags": [
             "Hero",
@@ -3474,6 +3506,7 @@
         ]
     },
     {
+        "id": "A01H",
         "name": "Nameless Arts",
         "heroClass": "Martial Artist",
         "color": "80ffff",
@@ -3495,6 +3528,7 @@
         ]
     },
     {
+        "id": "A0JZ",
         "name": "Oriental Spear Mastery",
         "heroClass": "Lancer",
         "color": "e2f9ae",
@@ -3509,7 +3543,7 @@
         ],
         "active": [
             "Temporarily augment the destructive power of spear techniques.",
-            "For 4 seconds, every attack deals STR X 7.5 bonus magic damage",
+            "For 4 seconds, every attack deals STR X 1.1 bonus magic damage",
             "Attack speed maximized",
             "Boosts next skill cast within duration"
         ],
@@ -3527,6 +3561,7 @@
         ]
     },
     {
+        "id": "A0K9",
         "name": "Pierce",
         "heroClass": "Lancer",
         "color": "f0e388",
@@ -3535,9 +3570,8 @@
         "cooldown": 6,
         "order": 2,
         "active": [
-            "Dash and skewer enemy with a single strike.",
-            "Attack Damage X 100% damage",
-            "STR X 7.5 bonus pure damage",
+            "Pierces through enemies.",
+            "Attack damage X 1 + STR X 7.5 pure damage",
             "Empowered: Increases target's damage taken by 5%, and increases the critical chance of your spear attacks toward target by 50% for 30 seconds"
         ],
         "active_tags": [
@@ -3552,6 +3586,7 @@
         ]
     },
     {
+        "id": "A0K6",
         "name": "Flash Strike",
         "heroClass": "Lancer",
         "color": "e9f08e",
@@ -3561,9 +3596,8 @@
         "order": 3,
         "active": [
             "Attack nearby enemies with a swift spear strike.",
-            "Attack Damage X 600% magic damage",
-            "STR X 30 bonus damage",
-            "Temporarily slows target",
+            "Attack damage X 0.9 + STR X 4.5 magic damage",
+            "Enemies hit are slowed by 90% for 2 seconds",
             "Resets duration of Oriental Spear Mastery",
             "Empowered: Increases the damage you deal to target with spear attacks by 100% for 5 seconds"
         ],
@@ -3579,6 +3613,7 @@
         ]
     },
     {
+        "id": "A0K4",
         "name": "Nerve Strike",
         "heroClass": "Lancer",
         "color": "86ea64",
@@ -3588,11 +3623,9 @@
         "order": 4,
         "active": [
             "Strikes target's vital point.",
-            "Attack Damage X 750% damage",
-            "STR X 40 bonus damage",
-            "If target has barriers, breaks them and lands as a critical strike. If barrier cannot be broken, still lands a critical strike",
-            "Empowered: Deals up to 150% bonus damage based on target's missing HP",
-            "Shield break efficiency: 40%"
+            "Attack damage X 1.2 + STR X 6 magic damage",
+            "If target has barriers, breaks them and lands as a critical strike",
+            "Empowered: Deals up to 150% bonus damage based on target's missing HP"
         ],
         "active_tags": [
             "Hero",
@@ -3602,6 +3635,7 @@
         ]
     },
     {
+        "id": "A0K3",
         "name": "Battle Recovery",
         "heroClass": "Lancer",
         "color": "80ff80",
@@ -3638,6 +3672,7 @@
         ]
     },
     {
+        "id": "A0K8",
         "name": "Meteor Spear",
         "heroClass": "Lancer",
         "color": "ffcbc1",
@@ -3647,10 +3682,9 @@
         "order": 6,
         "active": [
             "Focus ki into spear and launch it forward.",
-            "Skill Level X 5000 damage",
-            "STR X 175 bonus damage",
-            "Boosts all stats of allies hit by 10% for 30 seconds",
-            "Explosion deals 150% damage to nearby enemies and stun for 2 seconds"
+            "STR X 25 magic damage",
+            "Explodes to deal 150% damage to nearby enemies and stuns them for 1 second",
+            "Increases all stats of allies hit by 10% for 30 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -3661,6 +3695,7 @@
         ]
     },
     {
+        "id": "A0KE",
         "name": "Dragon Slam",
         "heroClass": "Lancer",
         "color": "df4040",
@@ -3670,9 +3705,9 @@
         "order": 7,
         "active": [
             "\"She disappeared the moment I saw her on the battlefield.. and then suddenly appeared at the center of the enemies' base, which formed a mountain of corpses.\" - Empire War Veteran",
-            "STR X 875 damage",
+            "STR X 130 magic damage",
             "Deals 50% bonus damage to enemies within 250 radius from target point",
-            "Restores all ki"
+            "Restores 100 ki"
         ],
         "active_tags": [
             "Hero",
@@ -3681,6 +3716,7 @@
         ]
     },
     {
+        "id": "A0E0",
         "name": "Scythe Mastery",
         "heroClass": "Reaper",
         "color": "ff9999",
@@ -3709,6 +3745,7 @@
         ]
     },
     {
+        "id": "A0E1",
         "name": "Whirl of Death",
         "heroClass": "Reaper",
         "color": "ff9999",
@@ -3718,8 +3755,7 @@
         "order": 2,
         "active": [
             "Attacks nearby enemies by spinning your scythe.",
-            "Attack Damage X 100% damage",
-            "AGI X 15 bonus damage",
+            "Attack damage X 0.33 + AGI X 5 magic damage",
             "On next 3 attack(s), reactivates with 25% damage"
         ],
         "active_tags": [
@@ -3730,6 +3766,7 @@
         ]
     },
     {
+        "id": "A0E2",
         "name": "Consecutive Strikes",
         "heroClass": "Reaper",
         "color": "ff9999",
@@ -3758,6 +3795,7 @@
         ]
     },
     {
+        "id": "A0E3",
         "name": "Death's Dash",
         "heroClass": "Reaper",
         "color": "ff9999",
@@ -3767,10 +3805,8 @@
         "order": 4,
         "active": [
             "Pierces through target, delivering a deadly strike.",
-            "Binds target's movement for 1 second",
-            "On finish, deals Attack Damage X 600% damage",
-            "AGI X 60 bonus damage",
-            "Whirl of Death will deal pure damage to the target and the damage of Death's Dash is increased by 50% while Death's Dash is active"
+            "After one second, inflict attack damage X 0.9 + AGI X 9 magic damage",
+            "While active, Whirl of Death (Q) will deal an additional 200% damage and Death's Dash's damage is increased by 50%"
         ],
         "active_tags": [
             "Hero",
@@ -3781,6 +3817,7 @@
         ]
     },
     {
+        "id": "A0E5",
         "name": "Death's Slash",
         "heroClass": "Reaper",
         "color": "ff9999",
@@ -3804,6 +3841,7 @@
         ]
     },
     {
+        "id": "A0E6",
         "name": "Extreme Focus",
         "heroClass": "Reaper",
         "color": "ff9999",
@@ -3813,7 +3851,7 @@
         "order": 6,
         "passive": [
             "Clears your mind to focus on taking the life of the target.",
-            "5% chance on attack to enter focused state for 4 seconds",
+            "Enters a focused state for 4 seconds on 5% chance on attack or when casting Death's Slash",
             "Reduces damage received by 30% and dodges attacks",
             "Death's Dash can be instantly cast once"
         ],
@@ -3833,6 +3871,7 @@
         ]
     },
     {
+        "id": "A0EA",
         "name": "Death Mark",
         "heroClass": "Reaper",
         "color": "ff9999",
@@ -3842,9 +3881,8 @@
         "order": 7,
         "active": [
             "\"You are already dead. You just haven't caught up to it yet.\" - Reaper",
-            "Increases your damage dealt to the target by 20% for 12 seconds",
-            "Increased up to 40% based on the target's missing HP (20% max HP)",
-            "On finish, deals AGI X 525 damage to the target",
+            "For 12 seconds, increases damage you deal to the target by 20~40% based on target's missing HP",
+            "Upon expiration, deals AGI X 80 magic damage to the target",
             "Re-use skill to manually finish"
         ],
         "active_tags": [
@@ -3854,6 +3892,7 @@
         ]
     },
     {
+        "id": "A05M",
         "name": "Dark Shroud",
         "heroClass": "Assassin",
         "color": "606aca",
@@ -3864,7 +3903,7 @@
             "Ability to meld into darkness and assassinate effortlessly.",
             "Allows all skills to critically strike",
             "Enters stealth if out of combat for 2.5 seconds",
-            "Backstabbing enemies while stealthed deals AGI X 35 bonus damage",
+            "Backstabbing enemies while stealthed deals AGI X 5 bonus damage",
             "Reduces damage taken by 30% while stealthed"
         ],
         "toggle": [
@@ -3881,6 +3920,7 @@
         ]
     },
     {
+        "id": "A05L",
         "name": "Shadow Slash",
         "heroClass": "Assassin",
         "color": "7f7f7f",
@@ -3890,9 +3930,8 @@
         "order": 2,
         "active": [
             "Perform a frontal slash aimed toward weak spots.",
-            "Attack Damage X 200% damage",
-            "AGI X 10 bonus damage",
-            "Chance to critically strike target with Assassin's abilities are increased by 12% for 10 seconds",
+            "Attack damage X 0.3 + AGI X 3 magic damage",
+            "Chance to critically strike target with Assassin's abilities are increased by 12% for 15 seconds",
             "Stacks up to 3 times"
         ],
         "active_tags": [
@@ -3902,6 +3941,7 @@
         ]
     },
     {
+        "id": "A05N",
         "name": "Ambush",
         "heroClass": "Assassin",
         "color": "8080c0",
@@ -3911,8 +3951,7 @@
         "order": 3,
         "active": [
             "Melds into the darkness to strike the enemy from behind.",
-            "Attack Damage X 750% damage",
-            "AGI X 50 bonus damage",
+            "Attack damage X 1.25 + AGI X 7.5 magic damage",
             "After cast, increases attack damage by 50% for 6 seconds",
             "Critical strike is guaranteed if used while invisible"
         ],
@@ -3925,6 +3964,7 @@
         ]
     },
     {
+        "id": "A11L",
         "name": "Shadow Walk",
         "heroClass": "Assassin",
         "color": "7f7f7f",
@@ -3934,10 +3974,9 @@
         "order": 4,
         "active": [
             "Becomes one with the shadow to avoid being seen by enemies.",
-            "Deals Attack Damage X 600% magic damage on next attack",
-            "AGI X 40 bonus damage",
-            "If struck from behind, damage increased by 100%",
-            "Increases movement speed"
+            "Immediately becomes invisible and gains bonus movement speed",
+            "Next attack within 6 seconds inflicts attack damage X 0.9 + AGI X 6 magic damage",
+            "If struck from behind, damage increased by 100%"
         ],
         "active_tags": [
             "Hero",
@@ -3949,6 +3988,7 @@
         ]
     },
     {
+        "id": "A05V",
         "name": "Smoke Bomb",
         "heroClass": "Assassin",
         "color": "8080c0",
@@ -3957,9 +3997,7 @@
         "order": 5,
         "active": [
             "Throw down a poisonous smoke bomb that confuses enemies.",
-            "Skill Level X 300 damage per second",
-            "AGI X 6 bonus damage",
-            "Decreases enemies' hit chance",
+            "AGI x 1 magic damage each second for 6 seconds",
             "Reduces damage taken by allies by 40%",
             "Invisibility transition speed increased by 400% while staying within the smoke"
         ],
@@ -3974,6 +4012,7 @@
         ]
     },
     {
+        "id": "A06G",
         "name": "Shadow Rush",
         "heroClass": "Assassin",
         "color": "6e6eaa",
@@ -3983,7 +4022,7 @@
         "order": 6,
         "active": [
             "Summon shadows from all directions and rush toward the target point.",
-            "AGI X 50 magic damage",
+            "AGI X 7.5 magic damage",
             "Summons 4 additional shadows to attack",
             "Empowers next Shadow Slash or Ambush",
             "Duration: 8 seconds"
@@ -3995,6 +4034,7 @@
         ]
     },
     {
+        "id": "A06E",
         "name": "Night Fury",
         "heroClass": "Assassin",
         "color": "8080ff",
@@ -4004,8 +4044,8 @@
         "order": 7,
         "active": [
             "\"Both sides of war tend to avoid fighting in the night because 'she' wanders around..\" - A Survivor of Empire War",
-            "Each wave deals AGI X 10 damage",
-            "Assassination deals AGI X 250 damage",
+            "Each wave deals AGI X 3 damage",
+            "Assassination deals AGI X 37.5 damage",
             "Deals 15% bonus damage for each stack of Shadow Slash on target",
             "Critically strikes enemies within 250 distance from the center"
         ],
@@ -4016,6 +4056,7 @@
         ]
     },
     {
+        "id": "A0N1",
         "name": "Feather of Aeolus",
         "heroClass": "Wind Mage",
         "color": "aef4c7",
@@ -4025,10 +4066,9 @@
         "order": 1,
         "active": [
             "Swiftly move by riding on the wind.",
-            "Moves at least 300 units (Max range 900 units)",
-            "Reduces damage taken by 40% for 2 seconds after casting",
-            "Leaves behind a feather that you can recall back to",
-            "Range: 1000"
+            "Moves at least 400 units",
+            "Increases movement speed and reduces damage taken by 40% for 2 seconds after casting",
+            "Leaves behind a feather that you can recall back to"
         ],
         "active_tags": [
             "Hero",
@@ -4037,7 +4077,8 @@
         ]
     },
     {
-        "name": "Grace of Zephyrus",
+        "id": "A0PN",
+        "name": "Blessing of Zephyrus",
         "heroClass": "Wind Mage",
         "color": "aef4c7",
         "hotkey": "[Q]",
@@ -4046,15 +4087,11 @@
         "order": 2,
         "passive": [
             "Warm spirits that heal the master's allies.",
-            "Heals for 150 + 0.75 X INT per spirit",
-            "Summons a spirit with 30% chance on attack, and summons 1 spirit when moving 300 distance",
-            "Critical attacks summons a spirit with 100% chance",
-            "Upon gathering more than 3 spirits, send out 3 spirits on next attack",
-            "Max of 3 spirts summoned"
+            "Summons a spirit with 30% chance on attack(critical strikes guarantee a spirit), and with every 300 distance traveled",
+            "When 3 spirits are summoned, your next attack heals an ally for 150 + INT X 0.75 health"
         ],
-        "active": [
-            "\"It's time to attack!\"",
-            "Switch to attack mode"
+        "toggle": [
+            "Change to attack mode."
         ],
         "passive_tags": [
             "Hero",
@@ -4069,6 +4106,7 @@
         ]
     },
     {
+        "id": "A0PN",
         "name": "Arrow of Zephyrus",
         "heroClass": "Wind Mage",
         "color": "aef4c7",
@@ -4078,13 +4116,11 @@
         "order": 3,
         "passive": [
             "Fierce spirits that chase the master's enemies.",
-            "Summons a spirit with 30% chance on attack, and with every 300 distance travelled",
-            "When 3 spirits are summoned, your next attack sends them out to deal Attack Damage X 150% + INT X 15 magic damage per spirit",
-            "Pierces enemies"
+            "Summons a spirit with 30% chance on attack(critical strikes guarantee a spirit), and with every 300 distance traveled",
+            "When 3 spirits are summoned, your next attack deals attack damage X 0.25 + INT X 2 magic damage"
         ],
-        "active": [
-            "\"It's time to relax!\"",
-            "Switch to healing mode"
+        "toggle": [
+            "Change to healing mode."
         ],
         "passive_tags": [
             "Hero",
@@ -4099,6 +4135,7 @@
         ]
     },
     {
+        "id": "A0PS",
         "name": "Gentle Winds",
         "heroClass": "Wind Mage",
         "color": "aef4c7",
@@ -4108,11 +4145,10 @@
         "order": 4,
         "active": [
             "Send out gentle winds infused with mana.",
-            "INT X 40 magic damage",
-            "Heals allies for INT X 2",
+            "INT X 10 magic damage",
+            "Upon reaching allies, heal INT X 2 health",
             "Cooldown reset upon casting Feather of Aeolus",
-            "When two gentle winds combine, strong winds are formed for 4 seconds, dealing Attack Damage X 750% damage per second",
-            "Range: 1500"
+            "When two gentle winds combine, strong winds are formed for 4 seconds, dealing attack damage X 1.25 magic damage"
         ],
         "active_tags": [
             "Hero",
@@ -4122,6 +4158,7 @@
         ]
     },
     {
+        "id": "A0PT",
         "name": "Mirror of Aeolus",
         "heroClass": "Wind Mage",
         "color": "aef4c7",
@@ -4137,8 +4174,8 @@
         "active": [
             "Summon a mirror of eon to redirect harm back to attackers.",
             "For 9 seconds, absorbs 45% of damage taken by nearby allies",
-            "Upon expiration or casting again, deals INT X 100 damage to nearby enemies and stuns for 0.5 seconds",
-            "Knockbacks non-boss enemies"
+            "Upon expiration or casting again, deals INT X 20 magic damage to nearby enemies",
+            "Knocks back non-boss units"
         ],
         "passive_tags": [
             "Hero",
@@ -4154,6 +4191,7 @@
         ]
     },
     {
+        "id": "A0PZ",
         "name": "Light Breeze",
         "heroClass": "Wind Mage",
         "color": "aef4c7",
@@ -4163,10 +4201,9 @@
         "order": 6,
         "active": [
             "Call down a light breeze on target area.",
-            "Periodically heals and buffs nearby allies",
-            "Increases allies' max HP by 10%",
-            "Increases allies' skill damage by 5%",
-            "Duration is refreshed upon stacking",
+            "Creates a field that lasts for 40 seconds",
+            "Heals allies for 25 + INT X 0.25 per second",
+            "Increase target's HP by 10%, skill damage by 5% for 5 seconds",
             "Lasts for 40 seconds"
         ],
         "active_tags": [
@@ -4178,6 +4215,7 @@
         ]
     },
     {
+        "id": "A0Q1",
         "name": "Horn of Notus",
         "heroClass": "Wind Mage",
         "color": "aef4c7",
@@ -4187,10 +4225,8 @@
         "order": 7,
         "active": [
             "Blow a horn gifted with divine powers.",
-            "Each pulse deals INT X 40 magic damage",
-            "Heals allies for INT X 2",
-            "Slows enemies",
-            "Removes debuffs from allies",
+            "Each pulse deals INT X 7.5 magic damage and slows enemies hit",
+            "Each pulse restores INT X 2 health and removes debuffs from allies",
             "Creates up to 6 pulses"
         ],
         "active_tags": [
@@ -4206,6 +4242,7 @@
         ]
     },
     {
+        "id": "A0PY",
         "name": "Guardian of Wind",
         "heroClass": "Wind Mage",
         "color": "aef4c7",
@@ -4216,8 +4253,7 @@
         "active": [
             "(Aisha) \"Dear divine beings! I thank you for bestowing all these blessings upon me !\"\n(Guardian) Grrrgrgrgr (it's because you're too cute)",
             "Summons a Guardian",
-            "Lasts 45 seconds",
-            "MP cost: 50"
+            "Lasts 45 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -4225,6 +4261,7 @@
         ]
     },
     {
+        "id": "A0Q3",
         "name": "Wind Guardian",
         "heroClass": "Wind Mage",
         "color": "aef4c7",
@@ -4249,6 +4286,7 @@
         ]
     },
     {
+        "id": "A0Q4",
         "name": "Gift",
         "heroClass": "Wind Mage",
         "color": "aef4c7",
@@ -4269,6 +4307,7 @@
         ]
     },
     {
+        "id": "A0Q5",
         "name": "Anger",
         "heroClass": "Wind Mage",
         "color": "aef4c7",
@@ -4278,7 +4317,7 @@
         "order": 11,
         "active": [
             "The anger of Vayu sweeps across, obliterating any foes in its path.",
-            "Deals (AGI + INT) X 50 damage to enemies hit",
+            "Deals (AGI + INT) X 7.5 magic damage to enemies hit",
             "Drags enemies along"
         ],
         "active_tags": [
@@ -4288,6 +4327,7 @@
         ]
     },
     {
+        "id": "A0Q7",
         "name": "Blessing of Vayu",
         "heroClass": "Wind Mage",
         "color": "aef4c7",
@@ -4297,10 +4337,8 @@
         "order": 12,
         "active": [
             "Bestows the blessing of life.",
-            "Consumes 60 MP",
-            "Revives a dead ally nearby",
-            "Restores Max HP X 100% after revival",
-            "Revived allies spawn near guardian"
+            "Consumes 50 MP",
+            "Revives a dead ally nearby after 1.5 seconds"
         ],
         "active_tags": [
             "Summon",
@@ -4308,6 +4346,7 @@
         ]
     },
     {
+        "id": "A0Q6",
         "name": "Judgment of Vayu",
         "heroClass": "Wind Mage",
         "color": "aef4c7",
@@ -4316,7 +4355,7 @@
         "order": 13,
         "active": [
             "Consumes all remaining mana to unleash series of fierce attacks to bring down judgment on enemies.",
-            "Each attack deals (AGI + INT) X 75 damage",
+            "Each attack deals (AGI + INT) X 11.25 damage",
             "Performs a total of (5 + remaining MP / 20) attacks",
             "Vanishes after cast"
         ],
@@ -4327,6 +4366,7 @@
         ]
     },
     {
+        "id": "A03F",
         "name": "This Bag isn't a Decoration!",
         "heroClass": "Merchant",
         "color": "ddddbb",
@@ -4336,8 +4376,7 @@
         "order": 1,
         "passive": [
             "Slaps enemy hard with a bag filled with many things.",
-            "On attack, deals Attack Damage X 50% bonus magic damage",
-            "STR X 2.5 bonus damage"
+            "Basic attacks inflict attack damage X 0.08 + STR X 0.38 magic damage"
         ],
         "active": [
             "Takes a random thing out of the bag to use it.",
@@ -4359,6 +4398,7 @@
         ]
     },
     {
+        "id": "A0D9",
         "name": "Bag Slam",
         "heroClass": "Merchant",
         "color": "ddddbb",
@@ -4368,8 +4408,7 @@
         "order": 2,
         "active": [
             "Pummels enemy down with a bag filled with many things.",
-            "Attack Damage X 500% damage",
-            "STR X 25 bonus damage",
+            "Attack damage X 1 + STR X 5 magic damage",
             "Stuns for 1 second",
             "Range: 800"
         ],
@@ -4380,6 +4419,7 @@
         ]
     },
     {
+        "id": "A0DA",
         "name": "Throwing Healing Potion",
         "heroClass": "Merchant",
         "color": "ddddbb",
@@ -4389,10 +4429,9 @@
         "order": 3,
         "active": [
             "Throws a potion made with your own blood, which is thick as troll's blood.",
-            "Heals for Skill Level X 400",
-            "STR X 2 bonus heal",
+            "Restores STR X 2 health",
             "Increases target's HP regen by (Target's Max HP X 3% + Your own HP Regen) for 8 seconds",
-            "Potion lasts 300 seconds, and you can maintain up to 5 potions at once"
+            "Potion lasts 300 seconds, and you can maintain up to 3 potions at once"
         ],
         "active_tags": [
             "Hero",
@@ -4401,6 +4440,7 @@
         ]
     },
     {
+        "id": "A0DB",
         "name": "Life Shield Scroll",
         "heroClass": "Merchant",
         "color": "ddddbb",
@@ -4421,6 +4461,7 @@
         ]
     },
     {
+        "id": "A0DC",
         "name": "Throw Money",
         "heroClass": "Merchant",
         "color": "ddddbb",
@@ -4430,10 +4471,9 @@
         "order": 6,
         "active": [
             "Throws money with great force, inflicting tetanus on enemies hit.",
-            "Each coin deals Skill Level X 1000 damage",
-            "STR X 10 bonus damage",
-            "Reduces healing taken by 20% and deals STR X 7.5 damage per second for 8 seconds",
-            "Throws up to 10 coins"
+            "Each coin inflicts STR X 1.5 magic damage",
+            "Reduces healing taken by 20% and deals STR X 1.1 damage per second for 8 seconds",
+            "Throws up to 6 coins"
         ],
         "active_tags": [
             "Hero",
@@ -4446,6 +4486,7 @@
         ]
     },
     {
+        "id": "A0DD",
         "name": "Holy Water of Resurrection",
         "heroClass": "Merchant",
         "color": "ddddbb",
@@ -4471,6 +4512,7 @@
         ]
     },
     {
+        "id": "A128",
         "name": "Dangerous Explosive",
         "heroClass": "Merchant",
         "color": "ddddbb",
@@ -4481,7 +4523,7 @@
         "active": [
             "Plants a very dangerous explosive.",
             "Plants an explosive that can be damaged",
-            "After 12 seconds, explodes dealing STR X 50 + damage taken X 5% pure damage and stunning for 3 seconds"
+            "After 12 seconds, explodes dealing STR X 100 + damage taken X 7.5% pure damage and stunning for 3 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -4491,6 +4533,7 @@
         ]
     },
     {
+        "id": "A0GI",
         "name": "Cursed Doll",
         "heroClass": "Merchant",
         "color": "bfa3d5",
@@ -4511,6 +4554,7 @@
         ]
     },
     {
+        "id": "A0D8",
         "name": "Scroll of God's Blessing",
         "heroClass": "Merchant",
         "color": "ddddbb",
@@ -4521,12 +4565,11 @@
         "active": [
             "\"Damn it.. there goes my rarest scroll! If I wasn't a merchant dealing with customer relationships, I'd never have used it for him.. \" - Merchant",
             "Empowers target with Indomitable Strength for 12 seconds",
-            "Increases movement speed by 100%",
+            "Grants immunity to slow effects",
             "Increases damage dealt by target by 35%",
             "Decreases damage taken by target by 60%",
             "Heals for Max HP X 30% per second",
-            "Except for self, the target cannot be affected by Indomitable Strength again for 120 seconds",
-            "Cast range: 1000"
+            "Except for self, the target cannot be affected by Indomitable Strength again for 120 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -4538,7 +4581,8 @@
         ]
     },
     {
-        "name": "Swift Strike",
+        "id": "A0MS",
+        "name": "Fierce Strikes",
         "heroClass": "Thunderer",
         "color": "fe2101",
         "hotkey": "[Passive]",
@@ -4557,6 +4601,7 @@
         ]
     },
     {
+        "id": "A102",
         "name": "Three Talon Strike",
         "heroClass": "Thunderer",
         "color": "fe2101",
@@ -4566,7 +4611,7 @@
         "order": 2,
         "active": [
             "Focuses strength onto the tip of the spear to deliver powerful strikes.",
-            "Next 3 attacks activates Fierce Strike that deals pure damage",
+            "Within the next 10 seconds, the next 3 attacks deal an additional attack damage x 1.5 + (STR + AGI) x 5 pure damage",
             "3rd attack deals double damage and knocks up non-boss target"
         ],
         "active_tags": [
@@ -4575,6 +4620,7 @@
         ]
     },
     {
+        "id": "A0MX",
         "name": "Magnetic Field",
         "heroClass": "Thunderer",
         "color": "fe2101",
@@ -4584,9 +4630,9 @@
         "passive": [
             "Surrounds yourself with a magnetic field to become less affected by air resistance.",
             "Builds magnetic field upon dealing damage or receiving damage (up to 8% per second)",
-            "Maximum attack damage: (STR X 2.5 + AGI X 2)",
-            "Maximum attack speed bonus: 75%",
-            "Maximum damage resistance: 20%"
+            "Max attack damage bonus: STR X 2.5 + AGI X 2",
+            "Max attack speed bonus: 75%",
+            "Max reduction bonus: 20%"
         ],
         "passive_tags": [
             "Hero",
@@ -4597,6 +4643,7 @@
         ]
     },
     {
+        "id": "A0N4",
         "name": "Lightning Rush",
         "heroClass": "Thunderer",
         "color": "fe2101",
@@ -4606,10 +4653,9 @@
         "order": 4,
         "active": [
             "Dashes with the speed of lightning.",
-            "Skill Level X 1000 damage",
-            "(STR + AGI) X 40 bonus damage",
-            "Stuns target for 1 second",
-            "Recharges Magnetic Field by 5% for each 200 distance travelled"
+            "(STR + AGI) X 6 magic damage",
+            "Stuns enemies hit for 1 second",
+            "Recharges Magnetic Field by 5% for every 200 distance traveled"
         ],
         "active_tags": [
             "Hero",
@@ -4618,6 +4664,7 @@
         ]
     },
     {
+        "id": "A103",
         "name": "Thunder Shield",
         "heroClass": "Thunderer",
         "color": "fe2101",
@@ -4627,8 +4674,7 @@
         "order": 5,
         "active": [
             "Activate the shield of thunder to protect yourself and damage nearby enemies.",
-            "Skill Level X 200 damage per second",
-            "STR X 6 + AGI X 8 bonus damage",
+            "Each second deals STR X 0.9 + AGI X 1.2 magic damage",
             "Reduces damage taken by 40%",
             "After 3 seconds, consumes 15% of Magnetic Field per second"
         ],
@@ -4641,6 +4687,7 @@
         ]
     },
     {
+        "id": "A0N0",
         "name": "Heart Break",
         "heroClass": "Thunderer",
         "color": "fe2101",
@@ -4650,11 +4697,9 @@
         "order": 6,
         "active": [
             "Deliver a fatal blow by striking target's heart.",
-            "Attack Damage X 3000% magic damage",
-            "(STR + AGI) X 200 bonus damage",
+            "Attack damage X 4.5 + (STR + AGI) X 30 magic damage",
             "Consumes Magnetic Field to deal up to a maximum of 100% bonus damage",
-            "Breaks barriers and stuns for 1.5 seconds if max gauge is consumed",
-            "Cast time: 0.5 seconds"
+            "Breaks barriers and stuns for 1.5 second if max gauge is consumed"
         ],
         "active_tags": [
             "Hero",
@@ -4663,6 +4708,7 @@
         ]
     },
     {
+        "id": "A0N3",
         "name": "Thunderfury",
         "heroClass": "Thunderer",
         "color": "fe2101",
@@ -4672,11 +4718,10 @@
         "order": 7,
         "active": [
             "\"Disappear with the thunder!\" - Thunderer",
-            "Each lightning deals Main Stat X 25 damage",
+            "Each lightning deals Highest Stat X 3.75 damage",
             "Stuns for 1 second",
             "Restores 25% of Magnetic Field every second",
-            "Binds nearby enemies' movements",
-            "Total of 64 lightning strikes over 4 seconds"
+            "Lasts 4 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -4685,6 +4730,7 @@
         ]
     },
     {
+        "id": "A01K",
         "name": "Bloodbath",
         "heroClass": "Berserker",
         "color": "ff8080",
@@ -4694,10 +4740,8 @@
         "passive": [
             "Drowns in enemies' blood to become immersed in battle.",
             "Heals for Max HP X 6% on each attack",
-            "17% chance to leave bleeding on each attack",
-            "Deals Attack Damage X 200% damage per second",
-            "Bleeding damage stacks with other Berserker players",
-            "Duration: 5 seconds"
+            "17% chance to inflict bleeding for 5 seconds on attack",
+            "Deals Attack Damage X 30% magic damage per second"
         ],
         "passive_tags": [
             "Hero",
@@ -4709,6 +4753,7 @@
         ]
     },
     {
+        "id": "A04S",
         "name": "Brandish",
         "heroClass": "Berserker",
         "color": "8b0000",
@@ -4728,6 +4773,7 @@
         ]
     },
     {
+        "id": "A01B",
         "name": "Howling",
         "heroClass": "Berserker",
         "color": "8b0000",
@@ -4738,7 +4784,7 @@
         "active": [
             "Consumes life to let out a fierce roar.",
             "Consumes HP X 30%",
-            "Max HP X 400% pure damage",
+            "Max HP (1 + 0.03 X hero level) pure damage",
             "Increases magic damage taken by target by 10% for 3 seconds"
         ],
         "active_tags": [
@@ -4750,6 +4796,7 @@
         ]
     },
     {
+        "id": "A0LL",
         "name": "Blood Fury",
         "heroClass": "Berserker",
         "color": "ff0000",
@@ -4763,8 +4810,8 @@
         ],
         "toggle": [
             "Drowns in blood to bring out full combat abilities.",
-            "Consumes current HP X 30% per second",
-            "Ignores all healing received",
+            "Consumes HP X 30% per second",
+            "Ignores all healing and silence effects",
             "Max efficiency threshold: 20% HP",
             "Provides silence immunity when toggled ON"
         ],
@@ -4779,6 +4826,7 @@
         ]
     },
     {
+        "id": "A0FI",
         "name": "Blade Rush",
         "heroClass": "Berserker",
         "color": "ff0000",
@@ -4789,11 +4837,8 @@
         "active": [
             "Rushes forward with a spinning blade of death.",
             "Consumes HP X 20%",
-            "Attack Damage X 500% damage per second",
-            "STR X 50 bonus damage",
-            "Deals 100% bonus damage to bleeding targets and resets bleed duration",
-            "When near enemies and Blade Rush is active, sets movement speed to 500",
-            "Ignores unit collision while active",
+            "Each second inflicts attack damage X 0.75 + STR X 7.5 magic damage",
+            "Deals 100% bonus damage to bleeding targets and reapplies bleeding",
             "Lasts 2 seconds"
         ],
         "active_tags": [
@@ -4804,6 +4849,7 @@
         ]
     },
     {
+        "id": "A0FI",
         "name": "Berserk",
         "heroClass": "Berserker",
         "color": "8b0000",
@@ -4813,7 +4859,7 @@
         "order": 6,
         "passive": [
             "Shrouds your sword with madness.",
-            "On attack, you have up to 25% chance based on missing HP to deal Attack Damage X 200% + STR X 20 bonus magic damage",
+            "On attack, you have up to 25% chance based on missing HP to deal Attack Damage X 30% + STR X 3 bonus magic damage",
             "Casting Brandish empowers next 3 attacks with bonus damage"
         ],
         "active": [
@@ -4838,6 +4884,7 @@
         ]
     },
     {
+        "id": "A00A",
         "name": "Rabid Storm",
         "heroClass": "Berserker",
         "color": "FF0000",
@@ -4847,11 +4894,9 @@
         "order": 7,
         "active": [
             "\"It is not a human but rather a monster! A monster crazed by battle! How could she move like that.. It sends shivers down my spines just to think about running into her as enemies in a war.\" - Survivor of Empire War",
-            "Each slash deals STR X 30 damage",
-            "Final slam deals STR X 675 damage",
-            "Total of 10 slashes",
-            "Fully restores HP after cast",
-            "Gain knockback immunity during cast"
+            "Each slash deals STR X 5 magic damage",
+            "Final slam deals STR X 100 magic damage",
+            "Fully restores HP after cast"
         ],
         "active_tags": [
             "Hero",
@@ -4862,6 +4907,7 @@
         ]
     },
     {
+        "id": "A01N",
         "name": "Elven Arrow",
         "heroClass": "Bow Master",
         "color": "b6de69",
@@ -4871,7 +4917,7 @@
         "passive": [
             "The elven archers of ancient origin possess superior intellect and archery skills.",
             "Increasees move speed by 100",
-            "Every 4 seconds, empowers next attack with magical explosion, dealing AGI X 40 magic damage",
+            "Every 4 seconds, empowers next attack with magical explosion, dealing AGI X 6 magic damage",
             "Next Flame Shot / Freezing Shot incurs no cooldown"
         ],
         "passive_tags": [
@@ -4884,6 +4930,7 @@
         ]
     },
     {
+        "id": "A05W",
         "name": "Flame Shot",
         "heroClass": "Bow Master",
         "color": "4682b4",
@@ -4893,11 +4940,9 @@
         "order": 2,
         "active": [
             "Dash back and shoot a powerful arrow of fire at the same time.",
-            "Attack Damage X 300% damage",
-            "AGI X 25 bonus damage",
-            "Deals 150% bonus damage to stunned targets",
-            "Explosion radius: 325/325",
-            "Stun Duration: 1 second"
+            "Attack Damage X 0.6 + AGI X 5 magic damage",
+            "Stuns for 1 second",
+            "Deals 100% bonus damage to already stunned targets"
         ],
         "active_tags": [
             "Hero",
@@ -4906,6 +4951,7 @@
         ]
     },
     {
+        "id": "A05Y",
         "name": "Freezing Shot",
         "heroClass": "Bow Master",
         "color": "4682b4",
@@ -4915,9 +4961,7 @@
         "order": 3,
         "active": [
             "Fire multiple frozen arrows in a frontal cone.",
-            "Attack Damage X 400% damage",
-            "AGI X 40 bonus damage",
-            "Slows enemies"
+            "Attack damage X 0.6 + AGI X 6 magic damage"
         ],
         "active_tags": [
             "Hero",
@@ -4930,6 +4974,7 @@
         ]
     },
     {
+        "id": "A060",
         "name": "Guardian Scout",
         "heroClass": "Bow Master",
         "color": "bf81d3",
@@ -4940,7 +4985,7 @@
         "passive": [
             "Summon a faithful guardian that follows Bow Master around.",
             "Increases nearby hero's attack damage and main stat by 8%",
-            "Supports every attack with Attack Damage X 50% + AGI X 2.5 bonus damage",
+            "Supports every attack with Attack Damage X 0.075 + AGI X 0.375 bonus damage",
             "Can critically strike"
         ],
         "active": [
@@ -4964,6 +5009,7 @@
         ]
     },
     {
+        "id": "A061",
         "name": "Purestorm Shot",
         "heroClass": "Bow Master",
         "color": "ddf45b",
@@ -4972,11 +5018,11 @@
         "cooldown": 15,
         "order": 5,
         "active": [
-            "Fire a magic-infused arrow to repeatedly strike down lightnings upon the targeted area.",
-            "AGI X 20 bonus damage",
-            "Guardian's next attack on target deals 300% for 1 second",
-            "Lasts 3 seconds",
-            "Radius: 375"
+            "Fires a mana-infused arrow to repeatedly strike down lightnings upon the targeted area.",
+            "Every 0.5 seconds, deal Agility X 3 magic damage",
+            "Stuns for 1 second",
+            "Increases target's damage taken by Guardian Scout by 300%",
+            "Lasts for 3 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -4985,6 +5031,7 @@
         ]
     },
     {
+        "id": "A06A",
         "name": "Arrow Rain",
         "heroClass": "Bow Master",
         "color": "80ff80",
@@ -4993,10 +5040,9 @@
         "cooldown": 30,
         "order": 6,
         "active": [
-            "Summons countless magical arrows to bombard an area.",
+            "Summons countless magical arrows to bombard target area.",
             "Summons 24 arrows",
-            "Each arrow deals Attack Damage X 250% magic damage",
-            "AGI X 25 bonus damage",
+            "Each arrow deals attack damage X 0.4 + AGI X 3.75 magic damage",
             "If chained with Flame Shot, explosion radius increased by 50%",
             "If chained with Freezing Shot, freezes enemies hit for 2.5 seconds"
         ],
@@ -5007,6 +5053,7 @@
         ]
     },
     {
+        "id": "A0QN",
         "name": "Heartseeker",
         "heroClass": "Bow Master",
         "color": "80ff80",
@@ -5015,10 +5062,9 @@
         "cooldown": 20,
         "order": 7,
         "active": [
-            "Bombard target area with heart-seeking arrows.",
-            "Each arrow deals Attack Damage X 800% damage",
-            "AGI X 80 bonus damage",
-            "Stuns targets hit for 5 seconds and decreases their armors"
+            "Bombards target area with heart-seeking arrows.",
+            "Fires 4 arrows that each deal attack damage X 1.2 + AGI X 12 magic damage",
+            "Stuns targets hit for 5 seconds and reduces their armor"
         ],
         "active_tags": [
             "Hero",
@@ -5029,6 +5075,7 @@
         ]
     },
     {
+        "id": "A06X",
         "name": "Magic Ballista",
         "heroClass": "Bow Master",
         "color": "88f0e6",
@@ -5038,9 +5085,9 @@
         "order": 8,
         "active": [
             "\"Without a warning, our enemies were swept across like dust by a magical arrow she shot.\" - A soldier of battlefield",
-            "AGI X 125 damage",
-            "Each arrow deals AGI X 5 damage",
-            "Explosion deals AGI X 475 damage",
+            "AGI X 17.5 magic damage",
+            "Each arrow deals AGI X 0.75 magic damage",
+            "Explosion deals AGI X 75 magic damage",
             "Stacks Elven Arrow every second for 6 seconds",
             "Stacks are usable for 15 seconds"
         ],
@@ -5051,6 +5098,7 @@
         ]
     },
     {
+        "id": "A08U",
         "name": "Release Mana",
         "heroClass": "Knight",
         "color": "66c2ff",
@@ -5082,6 +5130,7 @@
         ]
     },
     {
+        "id": "A01O",
         "name": "Grand Sword",
         "heroClass": "Knight",
         "color": "00bfff",
@@ -5090,9 +5139,8 @@
         "cooldown": 0.5,
         "order": 2,
         "active": [
-            "Perform a mighty slash with mana-infused sword.",
-            "Attack Damage X 400% damage",
-            "Consumed MP X 400% bonus damage",
+            "Performs a mighty slash with mana-infused sword.",
+            "Attack Damage X 0.6 + Consumed MP X 0.25 magic damage",
             "Reactivates with halved effectiveness on attack for 4 seconds"
         ],
         "active_tags": [
@@ -5102,6 +5150,7 @@
         ]
     },
     {
+        "id": "A00B",
         "name": "Blitz",
         "heroClass": "Knight",
         "color": "afaff5",
@@ -5110,10 +5159,10 @@
         "order": 3,
         "active": [
             "Quickly dash across the battlefield.",
-            "STR X 25 damage",
+            "STR X 3.75 magic damage",
             "Knockbacks enemies toward charge direction",
-            "Colliding from far distance breaks barriers and deals consumed MP X (1000 + 5 X charge distance)% bonus damage",
-            "Release Mana ON: Pierces through enemies, and provides (max MP X damage reduction) shield to allies for 3 seconds"
+            "Colliding from far distance breaks barriers and deals up to consumed MP X 3 bonus damage",
+            "Release Mana ON: Pierces through enemies and grants shield for 3 seconds that absorbs up to (Knight's Reduction X Knight's Max MP) to collided allies"
         ],
         "active_tags": [
             "Hero",
@@ -5125,6 +5174,7 @@
         ]
     },
     {
+        "id": "A019",
         "name": "Instincts",
         "heroClass": "Knight",
         "color": "4169e1",
@@ -5155,6 +5205,7 @@
         ]
     },
     {
+        "id": "A0WG",
         "name": "Assault",
         "heroClass": "Knight",
         "color": "66c2ff",
@@ -5163,10 +5214,8 @@
         "order": 5,
         "active": [
             "Quickly approaches target to perform a series of slashes.",
-            "Performs 6 attacks with (60% ATK DMG) pure damage",
-            "Ignores target's armor",
-            "If used after dodging, lands as critical strikes",
-            "Deactivates Release Mana"
+            "Attack 6 times dealing Attack Damage X 0.6 pure damage each time",
+            "If used after dodging, lands as critical strike"
         ],
         "active_tags": [
             "Hero",
@@ -5175,6 +5224,7 @@
         ]
     },
     {
+        "id": "A00D",
         "name": "Mana Blaster",
         "heroClass": "Knight",
         "color": "73b9ff",
@@ -5209,6 +5259,7 @@
         ]
     },
     {
+        "id": "A00N",
         "name": "Seal of Mana",
         "heroClass": "Knight",
         "color": "73b9ff",
@@ -5242,6 +5293,7 @@
         ]
     },
     {
+        "id": "A00S",
         "name": "Excalibur",
         "heroClass": "Knight",
         "color": "ffff00",
@@ -5251,7 +5303,7 @@
         "order": 8,
         "active": [
             "\"Corrupt evils that must not exist in this world! The end is nigh. O Holy sword, grant me victory over my foes!\" - Knight during the God-Devil War",
-            "STR X 500 damage",
+            "STR X 75 magic damage",
             "For each second channeled, size increased & damage increased by 25%",
             "Can be channeled up to a maximum of 4 seconds",
             "Grants 100% damage reduction and immunity to debuffs/CC effects to allies hit for 5 seconds",
@@ -5266,6 +5318,7 @@
         ]
     },
     {
+        "id": "A131",
         "name": "Deathblade",
         "heroClass": "Dark Knight",
         "color": "8080ff",
@@ -5274,7 +5327,7 @@
         "order": 1,
         "passive": [
             "A cursed blade that feeds upon life to give powerful abilities in return.",
-            "Every 6 seconds, empowers next attack with Main Stat X 50 magic damage",
+            "Every 6 seconds, empowers next attack with Main Stat X 7.5 magic damage",
             "Rips out target's soul, which heals you for Max HP X 6% + INT X 2 if you approach it",
             "Resets cooldown of Soul Break"
         ],
@@ -5294,6 +5347,7 @@
         ]
     },
     {
+        "id": "A0BI",
         "name": "Soul Break",
         "heroClass": "Dark Knight",
         "color": "8080ff",
@@ -5303,8 +5357,7 @@
         "order": 2,
         "active": [
             "Delivers a fierce strike that breaks the target's soul apart.",
-            "Attack Damage X 400% magic damage",
-            "STR X 30 bonus damage",
+            "Attack damage X 0.6 + STR X 4.5 magic damage",
             "Damage is increased by 100% for each 0.25 second channeled, and rips out target's soul if channeled to max",
             "If cast twice consecutively, next cast has no cast time and has 50% increased damage"
         ],
@@ -5315,6 +5368,7 @@
         ]
     },
     {
+        "id": "A0BK",
         "name": "Abyssal Slam",
         "heroClass": "Dark Knight",
         "color": "8080ff",
@@ -5324,10 +5378,9 @@
         "order": 3,
         "active": [
             "Slams down with strength powerful enough to awaken dormant souls lying beneath the grounds.",
-            "Attack Damage X 300% magic damage",
-            "(STR + INT) X 30 bonus damage",
+            "Attack damage X 1 + (STR X INT) X 10 magic damage",
             "Activates Deathblade and summons 4 souls",
-            "STR Main Stat: Damage is converted into pure damage"
+            "STR Main Stat: Increases damage of Abyssal Slam by (Hero Level X 2)%"
         ],
         "active_tags": [
             "Hero",
@@ -5338,6 +5391,7 @@
         ]
     },
     {
+        "id": "A0CR",
         "name": "Unholy Light",
         "heroClass": "Dark Knight",
         "color": "8080ff",
@@ -5348,7 +5402,7 @@
         "active": [
             "Offers an unholy prayer.",
             "Consumes Max HP X 25% per second",
-            "On finish, deals Max HP X 2000% magic damage to nearby enemies",
+            "On finish, deals Max HP X 3 magic damage to nearby enemies",
             "On finish, receives shield that absorbs Consumed HP X 100% damage for 8 seconds",
             "While casting, becomes immune to CC effects and reduces damage taken by 80%",
             "INT Main Stat: Nearby allies also receive the effect"
@@ -5364,6 +5418,7 @@
         ]
     },
     {
+        "id": "A12L",
         "name": "Dark Arts",
         "heroClass": "Dark Knight",
         "color": "8080ff",
@@ -5381,6 +5436,7 @@
         ]
     },
     {
+        "id": "A12N",
         "name": "Death Coil",
         "heroClass": "Dark Knight",
         "color": "8080ff",
@@ -5390,7 +5446,7 @@
         "order": 6,
         "active": [
             "Shoots a coil infused with dark magic.",
-            "Deals Main Stat X 50 magic damage to enemy",
+            "Deals Main Stat X 7.5 magic damage to enemy",
             "Heals allies for INT X 3"
         ],
         "active_tags": [
@@ -5401,6 +5457,7 @@
         ]
     },
     {
+        "id": "A12O",
         "name": "Death's Grasp",
         "heroClass": "Dark Knight",
         "color": "8080ff",
@@ -5417,6 +5474,7 @@
         ]
     },
     {
+        "id": "A12P",
         "name": "Defile",
         "heroClass": "Dark Knight",
         "color": "8080ff",
@@ -5424,9 +5482,9 @@
         "icon": "DarkKnightR_E",
         "order": 8,
         "active": [
-            "For 15 seconds, deals Main Stat X 15 magic damage per second",
+            "For 15 seconds, deals Main Stat X 2.25 magic damage per second",
             "Reduces target's speed by 25%",
-            "INT Main Stat: Increases magic damage taken by target by (4 + INT / 1250)%"
+            "INT Main Stat: Increases magic damage taken by target by (4 + INT / 375)%"
         ],
         "active_tags": [
             "Hero",
@@ -5442,7 +5500,8 @@
         ]
     },
     {
-        "name": "Eyes of Fear",
+        "id": "A12Q",
+        "name": "Eyes of Terror",
         "heroClass": "Dark Knight",
         "color": "8080ff",
         "hotkey": "[R] → [R]",
@@ -5451,7 +5510,7 @@
         "order": 9,
         "active": [
             "Gathers souls into a ball and blasts it away.",
-            "Main Stat X 100 magic damage",
+            "Main Stat X 15 magic damage",
             "Upon arrival, deals damage again and summons 4 souls",
             "INT Main Stat: Breaks barrier effects"
         ],
@@ -5464,6 +5523,7 @@
         ]
     },
     {
+        "id": "A0CY",
         "name": "Requiem",
         "heroClass": "Dark Knight",
         "color": "8080ff",
@@ -5473,9 +5533,9 @@
         "order": 10,
         "active": [
             "Bestows eternal rest to the souls of the dead.",
-            "Main Stat X 200 magic damage",
+            "Main Stat X 30 magic damage",
             "Seals target's abilities for 2 seconds",
-            "STR Main Stat: Consumes nearby souls to deal Main Stat X 100 bonus damage per soul",
+            "STR Main Stat: Consumes nearby souls to deal Main Stat X 15 bonus damage per soul",
             "INT Main Stat: Increases nearby allies HP regen by INT X 1 and magic defense by 60% for 6 seconds"
         ],
         "active_tags": [
@@ -5489,6 +5549,7 @@
         ]
     },
     {
+        "id": "A0D7",
         "name": "Unholy Tempest",
         "heroClass": "Dark Knight",
         "color": "8080c0",
@@ -5498,7 +5559,7 @@
         "order": 11,
         "active": [
             "\"Cry !\" - Dark Knight",
-            "Deals Main Stat X 775 magic damage over 2 seconds",
+            "Deals Main Stat X 115 magic damage over 2 seconds",
             "Periodically stuns target and deals up to 50% bonus damage based on target's missing HP",
             "On finish, resets cooldowns on other skills"
         ],
@@ -5511,6 +5572,7 @@
         ]
     },
     {
+        "id": "A00V",
         "name": "Moonlight Link",
         "heroClass": "Arcane Mage",
         "color": "d7afeb",
@@ -5532,6 +5594,7 @@
         ]
     },
     {
+        "id": "A00W",
         "name": "Magic Star",
         "heroClass": "Arcane Mage",
         "color": "82e1ff",
@@ -5541,9 +5604,9 @@
         "order": 2,
         "active": [
             "Fires a magical orb shaped like a star.",
-            "Skill Level X 200 damage",
-            "Max MP X 500% bonus damage",
-            "Heals allies for 4% of damage"
+            "Max MP X 75% magic damage",
+            "Heals allies for 25% of damage",
+            "If 2 magic stars collide with each other, creates an explosion dealing 500% damage"
         ],
         "active_tags": [
             "Hero",
@@ -5553,6 +5616,7 @@
         ]
     },
     {
+        "id": "A00Y",
         "name": "Flash Storm",
         "heroClass": "Arcane Mage",
         "color": "91b9e1",
@@ -5562,10 +5626,9 @@
         "order": 3,
         "active": [
             "Pulls down mana in the atmosphere as a shattering strike.",
-            "Max MP X 1500% magic damage",
+            "Max MP X 2.25 magic damage",
             "Stuns for 0.5 seconds",
-            "Increases magic damage taken from Mage by 4% for 30 seconds",
-            "Stacks up to 3 times"
+            "Increases magic damage taken from Mage by 4% for 30 seconds (Stacks up to 3 times)"
         ],
         "active_tags": [
             "Hero",
@@ -5576,6 +5639,7 @@
         ]
     },
     {
+        "id": "A013",
         "name": "Gravity Field",
         "heroClass": "Arcane Mage",
         "color": "d79bff",
@@ -5585,8 +5649,9 @@
         "order": 4,
         "active": [
             "Damage and slow enemies by amplifying the gravity.",
-            "Skill Level X 200 damage",
-            "INT X 4 bonus damage"
+            "Pulls in enemies",
+            "Deals INT X 2.5 magic damage per second",
+            "Lasts 5 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -5600,6 +5665,7 @@
         ]
     },
     {
+        "id": "A10V",
         "name": "Illusion",
         "heroClass": "Arcane Mage",
         "color": "91b9e1",
@@ -5609,7 +5675,7 @@
         "order": 5,
         "active": [
             "Dashes forward leaving a magical illusion behind.",
-            "Illusion explodes after 3 seconds, dealing INT X 40 magic damage",
+            "Illusion explodes after 3 seconds, dealing INT X 6 magic damage",
             "Becomes invisible and takes 40% reduced damage",
             "Can be cast twice in a row",
             "Chain: Magic Star"
@@ -5623,6 +5689,7 @@
         ]
     },
     {
+        "id": "A07J",
         "name": "Barrage",
         "heroClass": "Arcane Mage",
         "color": "4bebaf",
@@ -5631,8 +5698,8 @@
         "cooldown": 12,
         "order": 6,
         "active": [
-            "Fires magical missiles in all directions.",
-            "Each missile deals INT X 50 magic damage",
+            "Fires magical missiles everywhere.",
+            "Each missile deals INT X 7.5 magic damage",
             "Fires 5 missiles"
         ],
         "active_tags": [
@@ -5642,6 +5709,7 @@
         ]
     },
     {
+        "id": "A07F",
         "name": "Starlight",
         "heroClass": "Arcane Mage",
         "color": "80ffff",
@@ -5651,8 +5719,8 @@
         "order": 7,
         "active": [
             "\"It's not an ordinary spell. This parade of stars that formed from the harmony of mana will captivate anyone's mind who sees it.\" - Mage",
-            "Summons 5 stars that fires missiles every second and when you hit Magic Star",
-            "Each missile deals INT X 15 magic damage",
+            "Summons 5 stars that fires missiles every second and when you hit Magic Star on a boss unit",
+            "Each missile deals INT X 2.25 magic damage",
             "Resets cooldown on Moonlight Link"
         ],
         "active_tags": [
@@ -5662,6 +5730,7 @@
         ]
     },
     {
+        "id": "A07I",
         "name": "Protection of Stars",
         "heroClass": "Arcane Mage",
         "color": "80ffff",
@@ -5672,7 +5741,7 @@
         "active": [
             "\"Did you know that mana-filled stars are whimsy?\" - Mage",
             "Protects target ally",
-            "Heals for INT X 3.5 per missile",
+            "Fires missiles toward allies every 0.5 seconds that heals for INT X 2.5",
             "Lasts 4 seconds"
         ],
         "active_tags": [
@@ -5683,6 +5752,7 @@
         ]
     },
     {
+        "id": "A016",
         "name": "Water Blast",
         "heroClass": "Water Mage",
         "color": "87cefa",
@@ -5692,8 +5762,8 @@
         "order": 1,
         "active": [
             "Creates a watery explosion to drench enemies in water.",
-            "INT X 40 damage",
-            "Drenches enemies in wetness for 6 seconds, slowing their speeds"
+            "INT X 6 magic damage",
+            "Drenches enemies in wetness for 6 seconds, slowing their speed"
         ],
         "active_tags": [
             "Hero",
@@ -5706,6 +5776,7 @@
         ]
     },
     {
+        "id": "A00Z",
         "name": "Ice Shard",
         "heroClass": "Water Mage",
         "color": "87cefa",
@@ -5715,10 +5786,9 @@
         "order": 2,
         "active": [
             "Reconstruct water into a frozen shard of a suitable size and fire it at the target.",
-            "Skill Level X 200 damage",
-            "INT X 25 bonus damage",
+            "INT X 6 magic damage",
             "Freezes for 0.5 seconds",
-            "If frozen, consumes it to increase damage by 400%",
+            "If frozen, consumes it to increase damage by 200%",
             "If slowed, consumes it to increase freeze duration by 200%"
         ],
         "active_tags": [
@@ -5728,6 +5798,7 @@
         ]
     },
     {
+        "id": "A0WB",
         "name": "Frozen Emotion",
         "heroClass": "Water Mage",
         "color": "87cefa",
@@ -5737,8 +5808,8 @@
         "passive": [
             "Converts mana into a frozen barrier to surround yourself.",
             "Creates a barrier that absorbs INT X 1 damage",
-            "Increases skill damage by 12% (applied even when shield has depleted)",
-            "Recharges 10% of shield every second",
+            "Increases skill damage by 12%",
+            "Recharges 8% of shield every second",
             "Recharges 50% of shield when hit with Water Blast"
         ],
         "active": [
@@ -5759,6 +5830,7 @@
         ]
     },
     {
+        "id": "A010",
         "name": "Tidal Riding",
         "heroClass": "Water Mage",
         "color": "87cefa",
@@ -5768,8 +5840,7 @@
         "order": 4,
         "active": [
             "Lightly ride on tidal waves.",
-            "Skill Level X 750 damage",
-            "INT X 50 bonus damage",
+            "INT X 7.5 bonus damage",
             "Activates Water Blast and leaves a slowing pool"
         ],
         "active_tags": [
@@ -5779,6 +5850,7 @@
         ]
     },
     {
+        "id": "A017",
         "name": "Frost Nova",
         "heroClass": "Water Mage",
         "color": "87cefa",
@@ -5788,8 +5860,7 @@
         "order": 5,
         "active": [
             "Freeze nearby enemies by converting the mana in the atmosphere into ice.",
-            "Skill Level X 2000 damage",
-            "INT X 80 bonus damage",
+            "INT X 12 magic damage",
             "Freezes for 2 seconds",
             "If slowed, consumes it and increases damage by 200%",
             "If frozen, increases freeze duration by 100%",
@@ -5802,6 +5873,7 @@
         ]
     },
     {
+        "id": "A011",
         "name": "Glacier Orb",
         "heroClass": "Water Mage",
         "color": "87cefa",
@@ -5810,9 +5882,8 @@
         "cooldown": 30,
         "order": 6,
         "active": [
-            "Summon and control a magical orb overflowing with crystallized mana shards.",
-            "Each shard deals Skill Level X 500 damage",
-            "INT X 10 bonus damage",
+            "Summon and controls a magical orb overflowing with crystallized mana shards.",
+            "Each shard deals INT X 1.5 magic damage",
             "Freezes for 1 seconds",
             "Orb lasts 8 seconds",
             "Chain: If collided into Ice Shard, increases its damage by 300%"
@@ -5825,6 +5896,7 @@
         ]
     },
     {
+        "id": "A00L",
         "name": "Ice Age",
         "heroClass": "Water Mage",
         "color": "4682b4",
@@ -5847,6 +5919,7 @@
         ]
     },
     {
+        "id": "A0LF",
         "name": "Shatter",
         "heroClass": "Water Mage",
         "color": "c2c8f5",
@@ -5863,6 +5936,7 @@
         ]
     },
     {
+        "id": "A01M",
         "name": "Heal",
         "heroClass": "Priest",
         "color": "faf4b6",
@@ -5884,6 +5958,7 @@
         ]
     },
     {
+        "id": "A01A",
         "name": "Holy Wave",
         "heroClass": "Priest",
         "color": "f0e68c",
@@ -5893,10 +5968,9 @@
         "order": 2,
         "active": [
             "Release holy mana in the shape of a line.",
-            "INT X 20 magic damage",
-            "Heals allies for their Max HP X 12% + √(INT) X 180",
-            "If target is affected by Recovery, clears all debuffs",
-            "Also released from Divine Orb, and if both waves hit a boss unit, it will take Priest's Level X 300 bonus pure damage"
+            "INT X 5 magic damage",
+            "Heals allies for their Max HP X 12% + √(INT) X 100",
+            "If the target is affected by Recovery, clears any debuffs on the target"
         ],
         "active_tags": [
             "Hero",
@@ -5908,6 +5982,7 @@
         ]
     },
     {
+        "id": "A00R",
         "name": "Divine Orb",
         "heroClass": "Priest",
         "color": "fffacd",
@@ -5916,10 +5991,12 @@
         "cooldown": 20,
         "order": 3,
         "active": [
-            "Assists allies by summoning a holy orb.",
+            "Summons a holy orb that can be used to assist allies.",
             "Summons an orb that can be controlled for 12 seconds",
-            "Deals INT X 25 magic damage to enemies hit",
-            "Increases allies' movement speed by 200 and regenerates their HP by 8% per second"
+            "Deals INT X 5 magic damage to enemies hit",
+            "Increases allies' movement speed by 200 and regenerates their HP by 8% per second",
+            "Divine orb will also be casted by Holy Wave.",
+            "Hitting a target with both Holy Waves will deal an additional (Hero level x 400) magic damage (May only do up to a maximum of 25% health to the target)"
         ],
         "active_tags": [
             "Hero",
@@ -5931,6 +6008,7 @@
         ]
     },
     {
+        "id": "A092",
         "name": "Holy Aurora",
         "heroClass": "Priest",
         "color": "b6de69",
@@ -5946,8 +6024,8 @@
         ],
         "active": [
             "Consecerate nearby ground to protect allies and bring down judgment on enemies.",
-            "Deals INT X 15 magic damage per second",
-            "Heals nearby allies HP by 450 + INT X 0.5 per second",
+            "Deals INT X 2.25 magic damage per second",
+            "Heals nearby allies HP by 50 + INT X 0.5 per second",
             "Lasts 10 seconds"
         ],
         "passive_tags": [
@@ -5965,6 +6043,7 @@
         ]
     },
     {
+        "id": "A0FF",
         "name": "Dark Aurora [Lv 1]",
         "heroClass": "Priest",
         "color": "8000ff",
@@ -5974,12 +6053,11 @@
         "order": 5,
         "passive": [
             "The priest's presence alone brings great support to her allies.",
-            "Increases nearby allies' attack damage by 5% and all stats by (Priest's INT X 0.05)"
+            "Increases nearby allies' attack damage by 8% and all stats by (Priest's INT X 0.05)"
         ],
         "active": [
             "Devastates target ground with corrupt energy to cause havoc.",
-            "Deals INT X 60 magic damage per second",
-            "Target's max HP X 1.5 bonus damage",
+            "Every second, inflict INT X 15 magic damage",
             "Can be channeled for 3 seconds",
             "Damage interval decreases based on attack speed"
         ],
@@ -5998,6 +6076,7 @@
         ]
     },
     {
+        "id": "A0FF",
         "name": "Dark Aurora [Lv 2]",
         "heroClass": "Priest",
         "color": "8000ff",
@@ -6007,12 +6086,11 @@
         "order": 6,
         "passive": [
             "The priest's presence alone brings great support to her allies.",
-            "Increases nearby allies' attack damage by 5% and all stats by (Priest's INT X 0.05)"
+            "Increases nearby allies' attack damage by 8% and all stats by (Priest's INT X 0.05)"
         ],
         "active": [
             "Devastates target ground with corrupt energy to cause havoc.",
-            "Deals INT X 80 magic damage per second",
-            "Target's max HP X 1.5 bonus damage",
+            "Every second, inflict INT X 20 magic damage",
             "Can be channeled for 3 seconds",
             "Damage interval decreases based on attack speed"
         ],
@@ -6031,6 +6109,7 @@
         ]
     },
     {
+        "id": "A0FF",
         "name": "Dark Aurora [Lv 3]",
         "heroClass": "Priest",
         "color": "8000ff",
@@ -6044,8 +6123,7 @@
         ],
         "active": [
             "Devastates target ground with corrupt energy to cause havoc.",
-            "Deals INT X 100 magic damage per second",
-            "Target's max HP X 1.5% bonus damage",
+            "Every second, inflict INT X 25 magic damage",
             "Can be channeled for 3 seconds",
             "Damage interval decreases based on attack speed"
         ],
@@ -6064,6 +6142,7 @@
         ]
     },
     {
+        "id": "A01E",
         "name": "Divine Light",
         "heroClass": "Priest",
         "color": "f0e68c",
@@ -6073,7 +6152,7 @@
         "order": 8,
         "active": [
             "Convert targeted area's mana into holy energy, creating a holy explosion.",
-            "INT X 100 magic damage",
+            "INT X 15 magic damage",
             "Stuns enemies within area for 0.5 seconds and blinds them for 5 seconds",
             "Grants barriers to allies within area that absorbs INT X 6 damage for 6 seconds"
         ],
@@ -6085,6 +6164,7 @@
         ]
     },
     {
+        "id": "A02F",
         "name": "Heaven's Gate",
         "heroClass": "Priest",
         "color": "fffacd",
@@ -6095,8 +6175,6 @@
         "active": [
             "Temporarily opens the gate of heaven to summon an angel bound to the Priest by an old contract",
             "Summons Angel 'Raguel'",
-            "25% Magic Defense",
-            "Immune to CC",
             "Lasts for 100 seconds"
         ],
         "active_tags": [
@@ -6105,6 +6183,7 @@
         ]
     },
     {
+        "id": "A0WK",
         "name": "Holy Power",
         "heroClass": "Priest",
         "color": "ffff99",
@@ -6125,6 +6204,7 @@
         ]
     },
     {
+        "id": "A00F",
         "name": "Recall",
         "heroClass": "Priest",
         "color": "52E252",
@@ -6140,6 +6220,7 @@
         ]
     },
     {
+        "id": "A02Y",
         "name": "Holy Light",
         "heroClass": "Priest",
         "color": "ffff80",
@@ -6149,8 +6230,8 @@
         "order": 12,
         "active": [
             "Surround ally in light to heal his/her wounds.",
-            "Removes all debuffs",
-            "Restores all HP"
+            "Restores all HP",
+            "Removes all debuffs"
         ],
         "active_tags": [
             "Summon",
@@ -6159,6 +6240,7 @@
         ]
     },
     {
+        "id": "A082",
         "name": "Leap of Faith",
         "heroClass": "Priest",
         "color": "ffff80",
@@ -6177,6 +6259,7 @@
         ]
     },
     {
+        "id": "A048",
         "name": "God's Blessing",
         "heroClass": "Priest",
         "color": "ffff80",
@@ -6186,8 +6269,8 @@
         "order": 14,
         "active": [
             "Gift target with god's blessing.",
-            "Reduces damage taken by 50% for 3 seconds after resurrection",
-            "If killed while active, revives the target after 2 seconds"
+            "For 6 seconds, target will revive after 2 seconds upon dying",
+            "Reduces damage taken by 50% for 3 seconds on revival"
         ],
         "active_tags": [
             "Summon",
@@ -6197,6 +6280,7 @@
         ]
     },
     {
+        "id": "A02N",
         "name": "Heaven Field",
         "heroClass": "Priest",
         "color": "ffff00",
@@ -6209,7 +6293,7 @@
             "Summons Heaven Field for 30 seconds",
             "For allies on the field, increases their armor by 500 and regenerates their HP by 10% per second",
             "For your summons on the field, increases their attack speed by 50%",
-            "Revives a fallen ally (once per cast)"
+            "Revives a fallen ally (one ally per cast)"
         ],
         "active_tags": [
             "Hero",
@@ -6221,6 +6305,7 @@
         ]
     },
     {
+        "id": "Aspb",
         "name": "Holy Aura",
         "heroClass": "Paladin",
         "color": "b9faff",
@@ -6230,7 +6315,7 @@
         "active": [
             "Holy power allows you to emit a powerful aura.",
             "Every 7th attack empowers next attack with Judgment",
-            "Attack Damage X 150% magic damage"
+            "Attack Damage X 75% magic damage"
         ],
         "active_tags": [
             "Hero",
@@ -6240,6 +6325,7 @@
         ]
     },
     {
+        "id": "A031",
         "name": "Aura of Retribution",
         "heroClass": "Paladin",
         "color": "ff8080",
@@ -6249,7 +6335,7 @@
         "passive": [
             "An aspect of crusader who calls down retribution on his foes.",
             "Increase nearby allies' attack damage by 10%",
-            "Judgment - Deals (150% ATK DMG) pure damage",
+            "Judgment - deals 200% bonus damage to boss units",
             "Sigil - Increases skill damage by 12% for 20 seconds"
         ],
         "passive_tags": [
@@ -6259,6 +6345,7 @@
         ]
     },
     {
+        "id": "A032",
         "name": "Aura of Protection",
         "heroClass": "Paladin",
         "color": "ffff80",
@@ -6278,6 +6365,7 @@
         ]
     },
     {
+        "id": "A05T",
         "name": "Aura of Restoration",
         "heroClass": "Paladin",
         "color": "ffff80",
@@ -6297,6 +6385,7 @@
         ]
     },
     {
+        "id": "A09D",
         "name": "Aura of Awakening",
         "heroClass": "Paladin",
         "color": "b9faff",
@@ -6316,6 +6405,7 @@
         ]
     },
     {
+        "id": "A02M",
         "name": "Holy Divide",
         "heroClass": "Paladin",
         "color": "f5f59b",
@@ -6325,7 +6415,7 @@
         "order": 6,
         "active": [
             "Sends out a holy wave that only damages evil.",
-            "Attack Damage X 400% damage",
+            "Attack Damage X 1 magic damage",
             "Heals allies hit for INT X 2",
             "Leaves Mark of Light for 3 seconds that allows your next attack to ignore target's armor",
             "Cooldown reset on casting other skills"
@@ -6338,6 +6428,7 @@
         ]
     },
     {
+        "id": "A09L",
         "name": "Divine Spirit",
         "heroClass": "Paladin",
         "color": "ecca82",
@@ -6350,7 +6441,7 @@
         ],
         "active": [
             "Merges with the holy spirit to move at the speed of light.",
-            "STR X 30 magic damage",
+            "STR X 4.5 magic damage",
             "Deals 150% bonus damage to enemies afflicted with Mark of Light",
             "Activates Judgment on next attack",
             "Provides Sigil to a single ally"
@@ -6365,6 +6456,7 @@
         ]
     },
     {
+        "id": "A027",
         "name": "Holy Grace",
         "heroClass": "Paladin",
         "color": "f9d544",
@@ -6377,11 +6469,9 @@
             "Max HP and healing received increased by 15%"
         ],
         "active": [
-            "Receives the blessing of angels.",
-            "Applies Sigil to nearby allies",
             "Applies Judgment to nearby enemies",
-            "Summons 2 holy spirits",
-            "Applies ally buffs before applying judgment on enemies"
+            "Applies Sigil to nearby allies",
+            "Summons 2 holy spirits"
         ],
         "passive_tags": [
             "Hero",
@@ -6394,6 +6484,7 @@
         ]
     },
     {
+        "id": "A09M",
         "name": "Divine Cross",
         "heroClass": "Paladin",
         "color": "fafac8",
@@ -6403,7 +6494,7 @@
         "order": 9,
         "active": [
             "Summons a holy cross to bring down judgment on enemies.",
-            "Attack Damage X 5000% magic damage",
+            "Attack Damage X 7.5 magic damage",
             "Binds target's movement for 2 seconds",
             "Deals 75% bonus damage if target is already bound or is below 40% HP"
         ],
@@ -6416,6 +6507,7 @@
         ]
     },
     {
+        "id": "A09N",
         "name": "Divine Shield",
         "heroClass": "Paladin",
         "color": "fafac8",
@@ -6427,7 +6519,7 @@
             "Summons a holy shield to protect yourself from harm.",
             "Reduces damage taken by 80% for 5 seconds",
             "Regenerates nearby allies' HP by 15% every second",
-            "On recast, detonates the shield to deal STR X 175 magic damage to nearby enemies and stun them for 1 second"
+            "On recast, detonates the shield to deal STR X 25 magic damage to nearby enemies and stun them for 1 second"
         ],
         "active_tags": [
             "Hero",
@@ -6437,6 +6529,7 @@
         ]
     },
     {
+        "id": "A006",
         "name": "Genesis",
         "heroClass": "Paladin",
         "color": "ffd700",
@@ -6446,8 +6539,7 @@
         "order": 11,
         "active": [
             "\"Embrace the lights of heaven.\" - Paladin",
-            "Releases a pulse every second to deal STR X 275 magic damage",
-            "Each flash also heals 2 allies for INT X 5",
+            "Calls down rays of light on two allies every 0.25 seconds, healing them for INT X 5",
             "Lasts 4 seconds"
         ],
         "active_tags": [
@@ -6458,6 +6550,7 @@
         ]
     },
     {
+        "id": "A0K5",
         "name": "Slash",
         "heroClass": "Phantom Blade",
         "color": "c8f9dd",
@@ -6476,6 +6569,7 @@
         ]
     },
     {
+        "id": "A11N",
         "name": "Soul",
         "heroClass": "Phantom Blade",
         "color": "c8f9dd",
@@ -6485,7 +6579,7 @@
         "passive": [
             "Restores 1 soul every 2 seconds",
             "Can hold up to 8 souls",
-            "Regenerates HP X 0.5% per second for every soul held"
+            "Each soul regenerates your HP by 0.5% per second"
         ],
         "passive_tags": [
             "Hero",
@@ -6493,6 +6587,7 @@
         ]
     },
     {
+        "id": "A11N",
         "name": "Alacrity",
         "heroClass": "Phantom Blade",
         "color": "c8f9dd",
@@ -6500,11 +6595,12 @@
         "icon": "PBQ",
         "order": 3,
         "toggle": [
-            "40% chance to deal AGI X 40 bonus damage when delivering a slash",
+            "40% chance to deal AGI X 6 bonus magic damage when delivering a slash",
             "While under the effects of Release, has 70% chance to deals AGI X 85 bonus damage instead"
         ]
     },
     {
+        "id": "A11N",
         "name": "Deactivate Alacrity",
         "heroClass": "Phantom Blade",
         "color": "c8f9dd",
@@ -6516,6 +6612,7 @@
         ]
     },
     {
+        "id": "A11N",
         "name": "Crescent",
         "heroClass": "Phantom Blade",
         "color": "c8f9dd",
@@ -6523,10 +6620,9 @@
         "icon": "PBW",
         "order": 5,
         "active": [
-            "Attack Damage X 400% damage",
-            "AGI X 20 bonus damage",
-            "Pulls in non-boss enemies and stuns them for 0.25 seconds",
-            "Castable while casting other spells"
+            "Attack damage X 0.6 + AGI X 3 magic damage",
+            "Slows target's movement speed by 90% for 3 seconds",
+            "Pulls in non-boss units"
         ],
         "active_tags": [
             "Hero",
@@ -6535,6 +6631,7 @@
         ]
     },
     {
+        "id": "A11O",
         "name": "Daze",
         "heroClass": "Phantom Blade",
         "color": "c8f9dd",
@@ -6542,10 +6639,8 @@
         "icon": "PBE",
         "order": 6,
         "active": [
-            "Attack Damage X 600% damage",
-            "AGI X 40 bonus damage",
-            "Lands as critical strike on boss units",
-            "Castable while casting other spells"
+            "Attack damage X 0.9 + AGI X 6 magic damage",
+            "Lands as critical strike on boss units"
         ],
         "active_tags": [
             "Hero",
@@ -6554,6 +6649,7 @@
         ]
     },
     {
+        "id": "A0JD",
         "name": "Harmony",
         "heroClass": "Phantom Blade",
         "color": "c8f9dd",
@@ -6575,6 +6671,7 @@
         ]
     },
     {
+        "id": "A0KC",
         "name": "Release",
         "heroClass": "Phantom Blade",
         "color": "c8f9dd",
@@ -6585,7 +6682,6 @@
         "active": [
             "Removes all soul consumption for 8 seconds and reduces some skills' cooldowns",
             "Enables dash while active",
-            "Effects of max Soul is enabled while active",
             "Duration: 8 seconds"
         ],
         "active_tags": [
@@ -6593,6 +6689,7 @@
         ]
     },
     {
+        "id": "A0K1",
         "name": "Obliterate",
         "heroClass": "Phantom Blade",
         "color": "c8f9dd",
@@ -6602,9 +6699,9 @@
         "order": 9,
         "active": [
             "Pauses enemies for 1.8 seconds",
-            "Delivers Attack Damage X 17500% damage at the end",
-            "Stuns for 2 seconds",
-            "Deals up to 40% bonus damage based on target's missing HP (20% max HP)"
+            "Delivers Attack Damage X 27.5 magic damage at the end",
+            "Stuns for 2.5 seconds",
+            "Deals up to 40% bonus damage based on target's missing HP"
         ],
         "active_tags": [
             "Hero",
@@ -6613,6 +6710,7 @@
         ]
     },
     {
+        "id": "A0TX",
         "name": "Perfect Harmony",
         "heroClass": "Hermit",
         "color": "71d7bb",
@@ -6621,8 +6719,8 @@
         "order": 1,
         "passive": [
             "Forms a harmonious balance between attacking and healing.",
-            "Every 4th attack heals you and 2 nearby ally",
-            "Heals for target's max HP X 2% + INT X 0.5"
+            "Every 4th attack heals you and 2 nearby allies",
+            "25 + INT X 0.5 + Target's MAX HP X 2% heal"
         ],
         "passive_tags": [
             "Hero",
@@ -6631,6 +6729,7 @@
         ]
     },
     {
+        "id": "A0M9",
         "name": "Flowing Fist",
         "heroClass": "Hermit",
         "color": "acddbd",
@@ -6639,7 +6738,7 @@
         "order": 2,
         "active": [
             "Strikes target's weak points.",
-            "Attack Damage X 250% pure damage",
+            "Attack damage X 2.5 pure damage",
             "Grants increased attack speed for 1.5 seconds",
             "Deals Main Stat X 1 pure damage on each attack",
             "If cast from melee range or while Wind Walk is active, deals 100% bonus damage and stuns for 0.5 seconds"
@@ -6653,6 +6752,7 @@
         ]
     },
     {
+        "id": "A0MA",
         "name": "Restoration",
         "heroClass": "Hermit",
         "color": "94b9f8",
@@ -6664,7 +6764,7 @@
             "Instantly heals for Main Stat X 1.5",
             "Heals for (STR + INT) X 0.3 every second",
             "Reduces damage taken by 20%",
-            "Lasts 6~12 seconds based on distance from center"
+            "Lasts 6~12 seconds based on distance"
         ],
         "active_tags": [
             "Hero",
@@ -6674,6 +6774,7 @@
         ]
     },
     {
+        "id": "A129",
         "name": "Throw Bomb",
         "heroClass": [
             "Merchant",
@@ -6684,8 +6785,8 @@
         "icon": "MerchantW2",
         "order": 4,
         "active": [
-            "Throws an explosive bomb at the enemy.",
-            "STR X 30 magic damage",
+            "Throws a bomb.",
+            "STR X 4.5 magic damage",
             "Causes chain explosion on nearby bombs, adding 0.5 seconds stun and 100% damage (stacks up to 4 times)",
             "Explodes after 30 seconds or if thrown into another bomb",
             "Up to 10 bombs can be planted at once",
@@ -6700,6 +6801,7 @@
         ]
     },
     {
+        "id": "A0QB",
         "name": "Wind Walk",
         "heroClass": "Hermit",
         "color": "cffae8",
@@ -6727,6 +6829,7 @@
         ]
     },
     {
+        "id": "A0SR",
         "name": "Orb of Harmony",
         "heroClass": "Hermit",
         "color": "b9f9e6",
@@ -6737,8 +6840,8 @@
             "Summons an orb that heals allies.",
             "Regenerates HP by Main Stat X 0.5 per second",
             "Regenerates resource point by 5% per second",
-            "Grants 15% skill damage to allies in the orb",
-            "Lasts 4~8 seconds based on duration travelled"
+            "Increases skill damage by 15%",
+            "Lasts 4~8 seconds based on duration traveled"
         ],
         "active_tags": [
             "Hero",
@@ -6749,6 +6852,7 @@
         ]
     },
     {
+        "id": "A0T5",
         "name": "Purge",
         "heroClass": "Hermit",
         "color": "9abfed",
@@ -6758,7 +6862,7 @@
         "order": 7,
         "active": [
             "Purges inner evil within the soul.",
-            "Deals Main Stat X 250 magic damage to nearby enemies and stuns for 1.5 seconds",
+            "Deals Main Stat X 37.5 magic damage to nearby enemies and stuns for 1.5 seconds",
             "Clears debuffs and grants shield absorbing Main Stat X 5 damage to nearby allies for 3 seconds",
             "Also activates from summoned orbs",
             "Chain - Inner Release"
@@ -6772,6 +6876,7 @@
         ]
     },
     {
+        "id": "A0TW",
         "name": "Inner Release",
         "heroClass": "Hermit",
         "color": "bee7fc",
@@ -6787,6 +6892,7 @@
         ]
     },
     {
+        "id": "A0TA",
         "name": "Purify",
         "heroClass": "Hermit",
         "color": "bee7fc",
@@ -6796,7 +6902,7 @@
         "order": 9,
         "active": [
             "\"This water shall cleanse your body and soul.\" - Hermit",
-            "Deals Main Stat X 375 magic damage per second",
+            "Deals Main Stat X 57.5 magic damage per second",
             "Heals for Target's Max HP X 30% per second",
             "Clears debuffs from allies and prevents their HP from dropping below 1",
             "Breaks barriers on enemies",
@@ -6814,6 +6920,7 @@
         ]
     },
     {
+        "id": "A0TY",
         "name": "Magical Broom",
         "heroClass": "Witch",
         "color": "e1b8fa",
@@ -6823,7 +6930,7 @@
         "order": 1,
         "passive": [
             "A broom filled with uncontrollable mana.",
-            "Every attack deals INT X 10 magic damage",
+            "Every attack deals INT X 1.5 magic damage",
             "On skill cast, gains explosive attack speed for 1.5 seconds"
         ],
         "active": [
@@ -6845,6 +6952,7 @@
         ]
     },
     {
+        "id": "A0TZ",
         "name": "Death Bomb",
         "heroClass": "Witch",
         "color": "9f7ee2",
@@ -6854,11 +6962,11 @@
         "order": 2,
         "active": [
             "Explosion... is an art!",
-            "INT X 50 magic damage",
+            "INT X 7.5 magic damage",
             "Stuns for 0.5 seconds",
-            "Can be channeled up to 2 seconds, increasing damage by 200% and range/stun duration by 100% every second",
+            "Can be channeled up to 2 second, increasing damage by 200% and range/stun duration by 100% every second",
             "Star Shower can be cast during channeling",
-            "Increases channeling speed by 4% per 1% attack speed"
+            "Channeling speed can be increased by attack speed (4% per 1% attack speed)"
         ],
         "active_tags": [
             "Hero",
@@ -6867,6 +6975,7 @@
         ]
     },
     {
+        "id": "A0UF",
         "name": "Star Shower",
         "heroClass": "Witch",
         "color": "efcdf3",
@@ -6875,7 +6984,7 @@
         "order": 3,
         "active": [
             "Shoots stars out of your broom.",
-            "INT X 30 magic damage",
+            "INT X 4.5 magic damage",
             "Heals for INT X 1.5 (50% effectiveness for self)",
             "Refills 1 charge every 6 seconds",
             "Can hold up to 4 charges",
@@ -6889,6 +6998,7 @@
         ]
     },
     {
+        "id": "A0V8",
         "name": "Mystical Cauldron",
         "heroClass": "Witch",
         "color": "bb8be2",
@@ -6900,14 +7010,14 @@
             "Summons a cauldron filled with magical items.",
             "Creates a potion every 1.5 seconds for 18 seconds",
             "Potion lasts for 30 seconds and heals for INT X 3",
-            "Increases a target's main stat by 6% for 60 seconds",
-            "Cannot provide the same stat increase twice in a row"
+            "Increases a target's main stat by 6% for 60 seconds"
         ],
         "active_tags": [
             "Hero"
         ]
     },
     {
+        "id": "A0V9",
         "name": "Hex",
         "heroClass": "Witch",
         "color": "bba8e1",
@@ -6928,6 +7038,7 @@
         ]
     },
     {
+        "id": "A0VC",
         "name": "Hell Gate",
         "heroClass": "Witch",
         "color": "ab0c0c",
@@ -6945,6 +7056,7 @@
         ]
     },
     {
+        "id": "A00F",
         "name": "Recall",
         "heroClass": "Witch",
         "color": "8b3636",
@@ -6960,6 +7072,7 @@
         ]
     },
     {
+        "id": "A0Z1",
         "name": "Fallen Power",
         "heroClass": "Witch",
         "color": "8b3636",
@@ -6968,8 +7081,8 @@
         "order": 8,
         "passive": [
             "A fallen angel cannot receive the blessings of the God.",
-            "Each attack deals INT X 7.5 magic damage",
-            "Magic defense increased by 25%"
+            "Each attack deals INT X 1.1 magic damage",
+            "Magic defense increased by 40%"
         ],
         "passive_tags": [
             "Summon",
@@ -6981,6 +7094,7 @@
         ]
     },
     {
+        "id": "A0WJ",
         "name": "Arrow of Destruction",
         "heroClass": "Witch",
         "color": "6045c9",
@@ -6989,7 +7103,7 @@
         "cooldown": 30,
         "order": 9,
         "active": [
-            "INT X 150 magic damage",
+            "INT X 22.5 magic damage",
             "Breaks barriers"
         ],
         "active_tags": [
@@ -7000,6 +7114,7 @@
         ]
     },
     {
+        "id": "A0XO",
         "name": "Mark of Power",
         "heroClass": "Witch",
         "color": "6045c9",
@@ -7033,6 +7148,7 @@
         ]
     },
     {
+        "id": "A0YX",
         "name": "Unleash",
         "heroClass": "Witch",
         "color": "6045c9",
@@ -7040,9 +7156,10 @@
         "icon": "WitchT_E",
         "order": 11,
         "active": [
-            "Every 4th attack deals INT X 40 magic damage",
-            "Increases attack speed by 250% and movement speed by 300",
-            "Becomes immune to all CC and harmful effects",
+            "Every 4th attack deals INT X 6 magic damage",
+            "Increases attack speed by 250%",
+            "Increases movement speed by 300",
+            "Becomes immune to all harmful effects",
             "Vanishes after 12 seconds"
         ],
         "active_tags": [
@@ -7057,6 +7174,7 @@
         ]
     },
     {
+        "id": "A0VI",
         "name": "Death Field",
         "heroClass": "Witch",
         "color": "a498e9",
@@ -7066,8 +7184,8 @@
         "order": 12,
         "active": [
             "\"Get away from here. I will be using this zone as my lab..\" - Witch",
-            "Deals INT X 100 magic damage per second",
-            "Increases magic damage taken (Type-D) by 10%",
+            "Deals INT X 15 magic damage per second",
+            "Increases target's magic damage taken (Type-D) by 10%",
             "Lasts 8 seconds"
         ],
         "active_tags": [
@@ -7080,6 +7198,7 @@
         ]
     },
     {
+        "id": "A0IJ",
         "name": "Combo Mastery",
         "heroClass": "Fighter",
         "color": "c1c6c9",
@@ -7088,15 +7207,16 @@
         "order": 1,
         "passive": [
             "Lands your attacks with a flow.",
-            "If you land 3 hits in a row and fulfill one of the conditions below, restores 1 energy and activates combo effect",
-            "If same move was repeated: Increases attack damage by 20% for 5 seconds (stacks up to 3 times)",
-            "If no move was repeated in a row: Empowers next move"
+            "If you fulfill one of the conditions below, restores 1 energy and activates combo effect",
+            "If you repeat same move for next 3 hits: Increases attack damage by 20% for 5 seconds (stacks up to 4 times)",
+            "If you don't repeat same move for next 3 hits: Empowers next move"
         ],
         "passive_tags": [
             "Hero"
         ]
     },
     {
+        "id": "A0LC",
         "name": "Swing",
         "heroClass": "Fighter",
         "color": "f1ae9d",
@@ -7107,9 +7227,8 @@
         "active": [
             "Swings your arm forward.",
             "Attack Damage X 50% physical damage",
-            "Ignores 50% of target's armor",
-            "3rd hit deals 200% damage",
-            "Empowered: Restores 1 energy"
+            "Ignores 100% of target's armor",
+            "Empowered: Deals 300% damage and has 20% chance to leave target CRACKED for 6 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -7118,6 +7237,7 @@
         ]
     },
     {
+        "id": "A0GN",
         "name": "Skull Pounder",
         "heroClass": "Fighter",
         "color": "9e8e83",
@@ -7127,8 +7247,7 @@
         "order": 3,
         "active": [
             "Strikes down hard with a force strong enough to crack skulls.",
-            "Attack Damage X 500% magic damage",
-            "STR X 25 bonus damage",
+            "Attack damage X 0.75 + STR X 3.75 magic damage",
             "If target is CRACKED, cooldown is reset",
             "If target is SHATTERED, consumes it to deal 200% damage",
             "Empowered: Deals 300% damage and if target is CRACKED, has 50% chance to leave it SHATTERED for 5 seconds"
@@ -7140,6 +7259,7 @@
         ]
     },
     {
+        "id": "A0HN",
         "name": "Footwork",
         "heroClass": "Fighter",
         "color": "c2d4df",
@@ -7162,6 +7282,7 @@
         ]
     },
     {
+        "id": "A0HR",
         "name": "Chain Blow",
         "heroClass": "Fighter",
         "color": "efcd5c",
@@ -7176,9 +7297,8 @@
             "If target is SHATTERED, you can continuously activate the skill without losing stacks"
         ],
         "active": [
-            "Attack Damage X 400% magic damage",
-            "STR X 40 bonus damage",
-            "Empowered: Increases target's damage taken by 6% for 12 seconds and deal STR X 20 magic damage every second"
+            "Attack damage X 0.6 + STR X 6 magic damage",
+            "Empowered: Increases target's damage taken by 6% for 12 seconds and deal STR X 3 magic damage every second"
         ],
         "passive_tags": [
             "Hero"
@@ -7194,6 +7314,7 @@
         ]
     },
     {
+        "id": "A0MN",
         "name": "Iron Body",
         "heroClass": "Fighter",
         "color": "9e8e83",
@@ -7207,9 +7328,9 @@
         ],
         "active": [
             "Temporarily hardens your muscle as strong as steel.",
-            "Absorbs 70% of damage taken up to 1.5 seconds",
-            "HP does not drop below 1",
-            "Immune to CC effects"
+            "Absorbs 70% of damage taken while channeling and after channeling for 0.5 seconds (can be channeled up to 1.5 seconds)",
+            "While active, HP does not drop below 1 and grants immunity to CC effects",
+            "Resets duration of Combo Mastery and Chain Blow while active"
         ],
         "passive_tags": [
             "Hero",
@@ -7225,6 +7346,7 @@
         ]
     },
     {
+        "id": "A0K7",
         "name": "Dragon Fist",
         "heroClass": "Fighter",
         "color": "ff7e6a",
@@ -7234,9 +7356,8 @@
         "order": 7,
         "active": [
             "Gathers energy into your fist to release a powerful strike.",
-            "Attack Damage X 3000% magic damage",
-            "STR X 200 bonus damage",
-            "Empowered: Deals up to 300% damage based on travelled distance"
+            "Attack damage X 4.5 + STR X 30 magic damage",
+            "Empowered: Deals up to 300% damage based on traveled distance"
         ],
         "active_tags": [
             "Hero",
@@ -7245,6 +7366,7 @@
         ]
     },
     {
+        "id": "A0KA",
         "name": "Takedown",
         "heroClass": "Fighter",
         "color": "d15e2c",
@@ -7255,10 +7377,9 @@
         "active": [
             "\"Let's wrestle!\" -Fighter",
             "Hurls your body forward and latches onto a boss enemy",
-            "Each hit deals STR X 25 magic damage",
-            "Final hit deals STR X 575 magic damage and applies SHATTERED to target for 5 seconds",
-            "Resets duration of Combo Mastery",
-            "Pauses target while active"
+            "Each hit deals STR X 3.75 magic damage",
+            "Final hit deals STR X 85 magic damage and applies SHATTERED for 5 seconds",
+            "Resets duration of Combo Mastery and Chain Blow while active"
         ],
         "active_tags": [
             "Hero",
@@ -7267,6 +7388,7 @@
         ]
     },
     {
+        "id": "A141",
         "name": "Fantasm",
         "heroClass": "Trickster",
         "color": "89ddb5",
@@ -7284,6 +7406,7 @@
         ]
     },
     {
+        "id": "A14D",
         "name": "Recall",
         "heroClass": "Trickster",
         "color": "89ddb5",
@@ -7291,8 +7414,8 @@
         "icon": "TricksterD",
         "order": 2,
         "active": [
-            "분신을 회수한다.",
-            "재소환 쿨다운이 3초로 감소"
+            "Recalls your illusion.",
+            "Resummon cooldown is reduced to 3 seconds"
         ],
         "active_tags": [
             "Summon",
@@ -7300,6 +7423,7 @@
         ]
     },
     {
+        "id": "A13Q",
         "name": "Hidden Fang",
         "heroClass": "Trickster",
         "color": "89ddb5",
@@ -7309,8 +7433,7 @@
         "order": 3,
         "active": [
             "An expert mastery of dagger.",
-            "Attack Damage X 400% magic damage",
-            "AGI X 30 bonus damage",
+            "Attack damage X 0.6 + AGI X 4.5 magic damage",
             "Can critically strike",
             "On skill cast, 12% chance to refresh cooldown"
         ],
@@ -7321,6 +7444,7 @@
         ]
     },
     {
+        "id": "A13R",
         "name": "Wonder Hand",
         "heroClass": "Trickster",
         "color": "89ddb5",
@@ -7334,7 +7458,7 @@
             "On activation, increases AGI by 5% for 1.5 seconds (stacks up to 5 times; resets upon landing attack or skill)"
         ],
         "active": [
-            "AGI X 15 magic damage",
+            "AGI X 2.25 magic damage",
             "Allows you to dash quickly after casting",
             "If an enemy is struck, allows recasting (up to 2 times)"
         ],
@@ -7353,6 +7477,7 @@
         ]
     },
     {
+        "id": "A13U",
         "name": "Devil's Mirror",
         "heroClass": "Trickster",
         "color": "89ddb5",
@@ -7362,8 +7487,8 @@
         "order": 5,
         "active": [
             "Switches position with your illusion.",
-            "AGI X 75 magic damage",
-            "Increases your damage dealt to target by 20% for 3~12 seconds based on move distance"
+            "AGI X 12.5 magic damage",
+            "If cast outside 1000 range, increases your damage dealt to enemies within center by 20% for 12 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -7372,7 +7497,8 @@
         ]
     },
     {
-        "name": "Crazed Moon",
+        "id": "A13W",
+        "name": "Craze Moon",
         "heroClass": "Trickster",
         "color": "89ddb5",
         "hotkey": "[R]",
@@ -7383,7 +7509,7 @@
             "Launches a blade that flies toward various directions.",
             "Deals AGI X 50 pure damage per second",
             "Can be deflected by Wonder Hand",
-            "On recast, explodes the blade, stunning nearby enemies for 1.5 seconds and throwing 6 smaller blades at the nearest target dealing AGI X 10 magic damage per blade"
+            "On recast, explodes the blade, stunning nearby enemies for 1.5 seconds and throwing 6 smaller blades at the nearest target dealing AGI X 1.5 magic damage per blade"
         ],
         "active_tags": [
             "Hero",
@@ -7394,6 +7520,7 @@
         ]
     },
     {
+        "id": "A13W",
         "name": "Explode",
         "heroClass": "Trickster",
         "color": "89ddb5",
@@ -7408,6 +7535,7 @@
         ]
     },
     {
+        "id": "A140",
         "name": "Stage Finisher",
         "heroClass": "Trickster",
         "color": "89ddb5",
@@ -7421,10 +7549,9 @@
         ],
         "active": [
             "Delivers a grand finale.",
-            "Deals Attack Damage X 1250% magic damage per mark",
-            "AGI X 100 bonus damage",
+            "Each mark inflicts attack damage X 1.8 + AGI X 15 magic damage",
             "Can critically strike",
-            "Invincible for duration"
+            "Invulnerable for duration"
         ],
         "passive_tags": [
             "Hero"
@@ -7437,6 +7564,7 @@
         ]
     },
     {
+        "id": "A13Z",
         "name": "Sinister Trick",
         "heroClass": "Trickster",
         "color": "89ddb5",
@@ -7447,7 +7575,7 @@
         "active": [
             "\"Ladies and gentlemen... here's a magic trick. I shall make this one disappear from the world.\" - Trickster",
             "Pauses target",
-            "Afterwards, summons 30 spikes to pierce target dealing AGI X 30 magic damage per spike",
+            "Afterwards, summons 30 spikes to pierce target dealing AGI X 4.5 magic damage per spike",
             "Marks target in all directions"
         ],
         "active_tags": [
