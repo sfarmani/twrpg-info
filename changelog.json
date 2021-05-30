@@ -1,5 +1,34 @@
 [
     {
+        "name": "50k",
+        "notes": [
+            "Released on: May 29th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Monsters - Fixed bosses sometimes losing hp",
+            "Paladin - Fixed being able to cast Holy aura (D) - Aura of awakening (R) while silenced if Holy aura menu was open before silence",
+            "Tentacle lord - Fixed some spells dealing too much damage",
+            "Agareth - Fixed some terrain in bottom part of the arena to prevent units getting stuck",
+            "Items - Properly adjusted stats of Blazing soul, Blazing heart, Hatred, Vest of divine winds, Sacred armor, Wings of fury",
+            "Costumes - Changed color of Bow master's Guardian scout (E) with Weird costume back to purple",
+            "Costumes - Changed Hermit's Purge (T) with Casual costume to be less bright",
+            "Items - Fixed some item description and icon errors",
+            "Replays - Floating text for items sold for Prius silver coins now properly shows up",
+            "Replays - Fixed camera focusing on a player that has crafting menu open",
+            "Commands - Fixed -recipe command not showing stats of certain items, like icons"
+        ],
+        "misc": [
+            "Dev Note",
+            [
+                "Most serious bugs are fixed by this point.",
+                "Before new content release some balance adjustments will be made and balance-related suggestions until then will be looked at more thoroughly.",
+                "Additionally, late and end-game boss droprate increase is under consideration."
+            ]
+            
+        ]
+    },
+    {
         "name": "50h",
         "notes": [
             "Released on: May 26th, 2021",
