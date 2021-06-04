@@ -6539,6 +6539,7 @@
         "order": 11,
         "active": [
             "\"Embrace the lights of heaven.\" - Paladin",
+            "Releases a pulse every second to deal STR X 40 magic damage",
             "Calls down rays of light on two allies every 0.25 seconds, healing them for INT X 5",
             "Lasts 4 seconds"
         ],
