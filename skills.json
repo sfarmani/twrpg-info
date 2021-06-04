@@ -6587,7 +6587,7 @@
         ]
     },
     {
-        "id": "A11N",
+        "id": "A0II",
         "name": "Alacrity",
         "heroClass": "Phantom Blade",
         "color": "c8f9dd",
@@ -6595,12 +6595,11 @@
         "icon": "PBQ",
         "order": 3,
         "toggle": [
-            "40% chance to deal AGI X 6 bonus magic damage when delivering a slash",
-            "While under the effects of Release, has 70% chance to deals AGI X 85 bonus damage instead"
+            "40% chance to deal AGI X 6 bonus magic damage when delivering a slash"
         ]
     },
     {
-        "id": "A11N",
+        "id": "A0II",
         "name": "Deactivate Alacrity",
         "heroClass": "Phantom Blade",
         "color": "c8f9dd",
@@ -6612,7 +6611,7 @@
         ]
     },
     {
-        "id": "A11N",
+        "id": "A11P",
         "name": "Crescent",
         "heroClass": "Phantom Blade",
         "color": "c8f9dd",
