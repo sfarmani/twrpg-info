@@ -1,5 +1,338 @@
 [
     {
+        "name": "50n",
+        "notes": [
+            "Released on: June 5th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Reaper - Fixed Consecutive strikes (W) buff ending if Demonic fist active is used afterwards",
+            "Bow master - Fixed still having mana with Weird costume enabled",
+            "Valtora - Fixed tornadoes sometimes randomly teleporting",
+            "Items - Fixed some description errors",
+            [
+                "Astra, the Sword of Moonlight - Fixed every 3rd proc dealing 100% damage instead of 200%"
+            ]
+        ],
+        "items": [
+            {
+                "name": "Astra, the Sword of Moonlight",
+                "changes": [
+                    "Attack damage: 11250 → 10950",
+                    "STR: 705 → 700",
+                    "Passive",
+                    [
+                        "Damage: 450% attack damage + main stat X 4.5 → 350% attack damage + main stat X 3.5"
+                    ]
+                ]
+            },
+            {
+                "name": "Calamity",
+                "changes": [
+                    "Active - Silence duration: 3 seconds → 2 seconds"
+                ]
+            },
+            {
+                "name": "Benziena, the Earthen Pillar",
+                "changes": [
+                    "Active - Healing per second: 10% → 1500"
+                ]
+            },
+            {
+                "name": "Benziena, the Earthen Heart / Benziena, the Earthen Soul",
+                "changes": [
+                    "Active - Healing per second: 15% → 2000"
+                ]
+            },
+            {
+                "name": "Harmonia, the Sparkle of Life",
+                "changes": [
+                    "Active",
+                    [
+                        "Healing per second: 15% → 2000",
+                        "Duration: 10 seconds → 9 seconds",
+                        "Cooldown: 45 seconds → 50 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Ethenos, the Staff of Chaos",
+                "changes": [
+                    "Active",
+                    [
+                        "Damage: INT X 112.5 → INT X 105",
+                        "Stun duration: 3 seconds → 2.5 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Everfrostbane",
+                "changes": [
+                    "Bow Master Spec",
+                    [
+                        "Activation lag reduced",
+                        "No longer spawns extra projectiles",
+                        "Now deals 33% of its damage when it hits the target and 66% with the explosion (total damage is same)"
+                    ]
+                ]
+            },
+            {
+                "name": "Soulbane",
+                "changes": [
+                    "Bow master spec",
+                    [
+                        "Now activates every time instead of consecutive casts",
+                        "Activation lag reduced",
+                        "No longer spawns extra projectiles",
+                        "Now deals 33% of its damage when it hits the target and 66% with the explosion (total damage is the same)"
+                    ]
+                ]
+            },
+            {
+                "name": "Hellflame",
+                "changes": [
+                    "Flame affinity: 15% → 12%"
+                ]
+            },
+            {
+                "name": "Eternal Flame",
+                "changes": [
+                    "Flame affinity: 15% → 14%",
+                    "Passive - Magic resistance reduction: 2.5% → 2%"
+                ]
+            },
+            {
+                "name": "Rainmaker",
+                "changes": [
+                    "Passive - HP regen: INT X 0.3 → INT X 0.25"
+                ]
+            },
+            {
+                "name": "Robe of Archlich",
+                "changes": [
+                    "Active - Aura duration: 10 seconds → 8 seconds (to be equal to personal shield duration)"
+                ]
+            },
+            {
+                "name": "Heaven's Fist / Demonic Fist",
+                "changes": [
+                    "Crusader spec - Original Sin (F) stun duration reduced by 50%"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "Attack damage increased by 40% (to bring it closer to damage it dealt before rebalancing)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Deathblade (D)",
+                    [
+                        "No longer absorbs nearby souls",
+                        "Cooldown: 6 seconds → 7 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Divine Shield (T)",
+                    [
+                        "Added 1 second delay before allowing players to recast it"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Purge (T)",
+                    [
+                        "Reduced visual noise"
+                    ]
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Attack range: 50 → 100",
+                    "Shadow Slash (Q)",
+                    [
+                        "Damage: 30% attack damage + AGI X 3 → 40% attack damage + AGI X 4",
+                        "Instead of marking target it now increases assassin's crit chance by 7% per stack (up to 5 stacks)",
+                        [
+                            "Once max stack amount is reached cooldown of Shadow Slash and Shadow Rush (T) is reset but stack duration cannot be refreshed until they expire"
+                        ]
+                    ],
+                    "Ambush (W)",
+                    [
+                        "Cast time reduced"
+                    ],
+                    "Shadow Walk (E)",
+                    [
+                        "Cast time reduced",
+                        "Now only strikes once",
+                        "Damage: 90% attack damage + AGI X 6 → 100% attack damage + AGI X 7.5",
+                        "Backstab bonus damage: 100% → 75%"
+                    ],
+                    "Smoke Bomb (R)",
+                    [
+                        "Invisibility transition speed increase: 400% → 300%",
+                        "Now can attack within smoke range without interrupting invisiblity transition"
+                    ],
+                    "Shadow Rush (T)",
+                    [
+                        "Cast time reduced",
+                        "Cooldown: 25 seconds → 20 seconds"
+                    ],
+                    "Night Fury (F)",
+                    [
+                        "Bonus damage per stack of Shadow Slash (Q): 15% → 9%"
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Death's Slash (R)",
+                    [
+                        "Damage: 90% attack damage + AGI X 9 → 110% attack damage + AGI X 11"
+                    ],
+                    "Extreme Focus (T)",
+                    [
+                        "Cooldown: 30 seconds → 20 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Slash (A)",
+                    [
+                        "Damage to boss units: 50% → 60%"
+                    ],
+                    "Alacrity (E)",
+                    [
+                        "Damage: AGI X 6 → AGI X 8"
+                    ],
+                    "Release (T)",
+                    [
+                        "Now increases Alacrity (Q) damage by 100% for duration"
+                    ],
+                    "Obliterate (F)",
+                    [
+                        "Cast time: 1.6 seconds → 1 second",
+                        "Hero pause duration: 2.35 seconds → 1.75 seconds",
+                        "Target pause duration: 1.825 seconds → 1.5 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Fanning (R)",
+                    [
+                        "Damage per attack: 250% attack damage → 225% attack damage"
+                    ]
+                ]
+            },
+            {
+                "name": "Sniper",
+                "changes": [
+                    "Demolition (F)",
+                    [
+                        "Damage: AGI X 95 → AGI X 90"
+                    ]
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Flame Mastery (D)",
+                    [
+                        "Burn duration: 4 seconds → 3 seconds (total burn damage / Fireball (Q) bonus damage are the same)"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Short Circuit (D)",
+                    [
+                        "Fixed floating text getting obscured"
+                    ],
+                    "Static Sweep (W)",
+                    [
+                        "Damage: 30% attack damage + (AGI + INT) X 3 → 40% attack damage + (AGI X INT) X 4",
+                        "Breaker (W)",
+                        [
+                            "Damage: 120% attack damage + AGI X 6 → 160% attack damage + AGI X 8",
+                            "Static Burst (W)",
+                            [
+                                "Damage: INT X 6 → INT X 8"
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            {
+                "name": "Arcane Mage",
+                "changes": [
+                    "Magic Star (Q)",
+                    [
+                        "Cooldown: 6 seconds → 4 seconds"
+                    ],
+                    "Flash Storm (W)",
+                    [
+                        "Cooldown: 8 seconds → 6 seconds"
+                    ],
+                    "Gravity Field (E)",
+                    [
+                        "Cooldown: 10 seconds → 6 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Dimension Collapse (W)",
+                    [
+                        "If it hits the last target attacked by Warlock max attack range increases by 50%"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Conjure Water (W) - Water Stream (W)",
+                    [
+                        "Healing: 20% of damage dealt to INT X 0.6 (to bring it closer to healing it did before rebalancing)"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Hell Gate (T) - Mark of Power (W)",
+                    [
+                        "Can no longer use on itself"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Buffed xp gain from first area",
+            "Multiplayer bonus now shows up in status window",
+            "Battle status now resets when entering/exiting an area",
+            "Decreased visual noise of snow terrains"
+        ]
+    },
+    {
         "name": "50k",
         "notes": [
             "Released on: May 29th, 2021",
