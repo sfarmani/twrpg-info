@@ -1,5 +1,80 @@
 [
     {
+        "name": "50o",
+        "notes": [
+            "Released on: June 14th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Knight - Fixed Seal of mana (T) activating when not learned",
+            "Martial artist - Fixed Martial movement (D) being castable while silenced",
+            "Alchemist - Fixed Philosopher's stone (T) proc chance being too low",
+            "Witch - Fixed Hell gate (T) - Mark of power (W) being castable on enemies",
+            "Staff of domination - Fixed damage of summon being too low",
+            "Embrace of nature - Fixed hp increase from active being too low"
+        ],
+        "items": [
+            {
+                "name": "Cape of the Dead",
+                "changes": [
+                    "Now cannot be dropped during cooldown"
+                ]
+            },
+            {
+                "name": "Bag of Explosion / Bag of Despair",
+                "changes": [
+                    "Merchant spec - is now limited to 2 explosives/dolls within same explosion radius"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Shadow Slash (Q)",
+                    [
+                        "Damage: 40% attack damage + AGI X 4 → 40% attack damage + AGI X 3.5"
+                    ],
+                    "Shadow Rush (T)",
+                    [
+                        "Damage: AGI X 7.5 → AGI X 6.5"
+                    ]
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Sword of Illusion (R)",
+                    [
+                        "Damage per sword: AGI X 3 → AGI X 2.5"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Short Circuit (D)",
+                    [
+                        "Adjusted floating text for combo"
+                    ],
+                    "Lightning Blade (F)",
+                    [
+                        "Now sets energy to max after use"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Dimension Collapse (W)",
+                    [
+                        "Attack cooldown: 2.5 seconds → 3 seconds"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "50n",
         "notes": [
             "Released on: June 5th, 2021",
