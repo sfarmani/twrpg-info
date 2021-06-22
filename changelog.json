@@ -1,5 +1,99 @@
 [
     {
+        "name": "50p",
+        "notes": [
+            "Released on: June 21, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Ring of Nightmare - Fixed stat increase from passive being too low",
+            "Bag of Demise - Fixed potion from active effect staying on ground for longer than intended",
+            "Items - Fixed some icon and description errors"
+        ],
+        "items": [
+            {
+                "name": "Holy Water",
+                "changes": [
+                    "Cooldown: 10 seconds → 3 seconds"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Re-adjusted magic stone costs of early game bosses",
+                    [
+                        "Ruler of Lav Sea Hydra: 6 blue → 4 blue",
+                        "Count of Wallachia: 6 white → 4 white",
+                        "Jack o Lantern: 6 white → 4 white",
+                        "Wings of Death: 6 red → 4 red",
+                        "Mage Lord: 6 red → 4 red",
+                        "Castle Avalon: 4 blue + 4 white → 6 white",
+                        "Frostspider Cave: 8 blue → 6 blue",
+                        "Demon Realm Invasion: 8 red → 6 red"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Crusader",
+                "changes": [
+                    "1st Sword Dance: Strike (R) - 2nd Sword Dance: Sword (R)",
+                    [
+                        "Strike of Honor stun duration increase: 200% → 100%"
+                    ]
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Shadow Slash (Q)",
+                    [
+                        "Floating text duration increased"
+                    ]
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Thunder Shield (E)",
+                    [
+                        "Changed color of toggle OFF icon"
+                    ]
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Sword Enchant (D)",
+                    [
+                        "Now deals 50% of damage as splash damage"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Dimension Collapse (W)",
+                    [
+                        "Base attack delay: 3 seconds → 2.75 seconds"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Fixed hero death text appearing twice",
+            "Combat spoils chest use range: 450 → 1000",
+            "Moved corrupted mine entrance to middle of area",
+            "Move training center entrance up a little",
+            "Moved firelands portal up a little",
+            "Added Q hotkey to memory stone resummon",
+            "Resummon icon is now same for all bosses due to system limitations"
+        ]
+    },
+    {
         "name": "50o",
         "notes": [
             "Released on: June 14th, 2021",
