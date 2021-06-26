@@ -346,27 +346,20 @@
         "version": "38d",
         "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=6390",
         "description": [
-            "Radiance guts your damage, however it provides a low CD AMS.",
-            "The rest of the items are things you'd make before getting to the main build as they are probably easier to make"
+            "Ring of the One is easier to make than Ring of Frozen Soul and really solid until you reach Agareth",
+            "Mask of Demigod - Getting used to active timing is a bit difficult but it gives high burst.",
+            "Overall, Demigod is an unnecessary item unless you just want to burst stuff"
         ],
         "items": {
-            "Pheles, the Bow of God": [
-                "Everfrostbane"
-            ],
+            "Soulbane": [],
             "Eye of the Reaper": [
-                "Radiance of the One"
+                "Mask of Demigod"
             ],
-            "Ring of Insanity": [
-                "Ring of Frozen Soul"
+            "Ring of Frozen Soul": [
+                "Ring of the One"
             ],
-            "Athanasia, the Armor of the Reaper": [
-                "Vest of Storm",
-                "Nevedium, the Armor of Demonblood"
-            ],
-            "Storm": [
-                "Cloak of the Fallen Shadows",
-                "Cape of Deep Abyss"
-            ]
+            "Vest of Divine Winds": [],
+            "Wings of Night Lord": []
         }
     },
     {
