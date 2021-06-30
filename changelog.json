@@ -1,5 +1,150 @@
 [
     {
+        "name": "50q",
+        "notes": [
+            "Released on: June 30th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Nephthys, the Engraved Ring - Fixed active effect not wearing off",
+            "Paladin - Fixed not being able to wear staffs",
+            "Warlock - Fixed soul grimoire (R) not adding stats properly when loading after load failure",
+            "Death Fiend - Fixed Howl dealing too much damage",
+            "Ifrit - Fixed obsidian giants sometimes spawning with random damage resistance value"
+        ],
+        "events": [
+            "Attack event will start next week"
+        ],
+        "items": [
+            {
+                "name": "Holy Water",
+                "changes": [
+                    "Max trade amount increased to 10",
+                    "Max inventory stacking amount: unlimited → 5"
+                ]
+            },
+            {
+                "name": "Nightmare Rod",
+                "changes": [
+                    "Can now select which boss will be summoned to prevent incorrect summon. if no issues, will do the same to Orb of the Deep Sea"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Evil Lava Spawn",
+                "changes": [
+                    "Wheel",
+                    [
+                        "Now triggers at 66% and 33% HP",
+                        "Can no longer repeat if boss restores HP"
+                    ]
+                ]
+            },
+            {
+                "name": "Castle AValon",
+                "changes": [
+                    "White magic stone cost: 4 → 6 (was set incorrectly in previous version)"
+                ]
+            },
+            {
+                "name": "Demon Realm Invasion",
+                "changes": [
+                    "Demon Lord Beriel's spawn cinematic can now be skipped"
+                ]
+            },
+            {
+                "name": "Ancient Ent",
+                "changes": [
+                    "Green magic stone is now required only for first entry"
+                ]
+            },
+            {
+                "name": "Shadow Dragon Irbert",
+                "changes": [
+                    "Elder paracelsus cinematic can now be skipped"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Soul Break (Q)",
+                    [
+                        "Max channel time: 0.75 seconds → 0.6 seconds",
+                        "Charge cycle: 0.25 seconds → 0.2 seconds (keeps max damage same)"
+                    ]
+                ]
+            },
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Combo Mastery (D)",
+                    [
+                        "Now restores 1 energy per second if 5 seconds pass after last skill/combo cast"
+                    ]
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Swift Strike (D)",
+                    [
+                        "Amount of armor ignored: 25% → 40%"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Nameless Arts (F)",
+                    [
+                        "Now has floating text countdown for last 3 seconds of duration"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Purify (F)",
+                    [
+                        "Duration is now displayed as floating text"
+                    ]
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Alacrity (E)",
+                    [
+                        "On by default when hero revives"
+                    ],
+                    "Release (T)",
+                    [
+                        "Now automatically turns on Alacrity"
+                    ]
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Seal of Lightning (E)",
+                    [
+                        "Now spawns with max MP"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Reduced size of Guardian of Wind (F) for wind mage special costume",
+            "Re-arranged order of portals and elemental keys in elemental tower according to difficulty level (Valtora → Ifrit → Nereid)",
+            "Dummy damage test now resets when skill cooldown is reset in training center (Due to misleading damage test screenshots being shared)",
+            "Added unique models to boss summon items like Ancient Branches",
+            "Boss summon items are now automatically collected on drop"
+        ]
+    },
+    {
         "name": "50p",
         "notes": [
             "Released on: June 21, 2021",
