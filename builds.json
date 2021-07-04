@@ -1043,20 +1043,6 @@
         }
     },
     {
-        "for": "Soul Weaver",
-        "type": "DPS",
-        "order": 2,
-        "stat": "INT",
-        "version": "44b",
-        "items": {
-            "Ethenos, the Staff of Chaos": [],
-            "Horn of Demon God": [],
-            "Ring of Fate": [],
-            "Thanatos, the Robe of Hell": [],
-            "Wings of Frost Lord": []
-        }
-    },
-    {
         "for": "Warlock",
         "type": "DPS",
         "order": 1,
