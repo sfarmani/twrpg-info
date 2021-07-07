@@ -78,10 +78,10 @@
         ],
         "spec": [
             "Potion of Corruption - Mad Alchemist",
-            "Benziena, the Rod of Earth - Improved Stone Golem",
-            "Benziena, the Earthen Pillar - Improved Stone Golem",
-            "Benziena, the Earthen Soul - Improved Stone Golem",
-            "Benziena, the Earthen Heart - Improved Stone Golem"
+            "Benziena, the Rod of Earth - Enhanced Conjure Golem",
+            "Benziena, the Earthen Pillar - Enhanced Conjure Golem",
+            "Benziena, the Earthen Soul - Enhanced Conjure Golem",
+            "Benziena, the Earthen Heart - Enhanced Conjure Golem"
         ]
     },
     {
@@ -212,7 +212,7 @@
             "Dante's Inferno - Abandon All Hope",
             "Punisher - Abandon All Hope",
             "Last Word - Abandon All Hope",
-            "Heaven's Door - Heavenly Spirit"
+            "Heaven's Door - Heaven's Spirit"
         ]
     },
     {
@@ -294,7 +294,7 @@
             "Melee damage dealer. Focused on casting skills, but it weaves auto-attacks in between skill casts."
         ],
         "spec": [
-            "Brooch of Darkness - Improved Sword Storm",
+            "Brooch of Darkness - Improved Flash Step",
             "Cold Ring of Death - Cold Ring of Death",
             "Ring of Frozen Soul - Ring of Frozen Soul"
         ]
@@ -393,10 +393,10 @@
             "Has good survivability and offensive support for allies."
         ],
         "spec": [
-            "Bahanar, the Sword of Illusion - Redemption",
-            "Bahanar, the True Sword of Illusion - Redemption",
-            "Meacronacer, the Sword of Thousand Illusions - Redemption",
-            "Astra, the Sword of Moonlight - Redemption",
+            "Bahanar, the Sword of Illusion - Sword of Illusion",
+            "Bahanar, the True Sword of Illusion - Sword of Illusion",
+            "Meacronacer, the Sword of Thousand Illusions - Sword of Thousand Illusions",
+            "Astra, the Sword of Moonlight - Flash of Moonlight",
             "Heaven's Fist - Summary Judgment",
             "Demonic Fist - Demon's Grasp"
         ]
@@ -430,7 +430,7 @@
             "Wanderer's Cape - Wanderer",
             "Wings of Phoenix - Phoenix",
             "Wings of Flame Lord - Phoenix",
-            "Guardian Vest - Improved Nameless Arts",
+            "Guardian Vest - Nature's Protection",
             "Grandine, the Plates of Wraith - Wraith Possession",
             "Athanasia, the Armor of the Reaper - Reaper Possession",
             "Heaven's Fist - Holy Arts",

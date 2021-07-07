@@ -5358,7 +5358,7 @@
         "active": [
             "Delivers a fierce strike that breaks the target's soul apart.",
             "Attack damage X 0.6 + STR X 4.5 magic damage",
-            "Damage is increased by 100% for each 0.25 second channeled, and rips out target's soul if channeled to max",
+            "Damage is increased by 100% for each 0.2 second channeled, and rips out target's soul if channeled to max",
             "If cast twice consecutively, next cast has no cast time and has 50% increased damage"
         ],
         "active_tags": [

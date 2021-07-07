@@ -1,122 +1,215 @@
 [
     {
-        "id": "n01D",
-        "name": "Yeti",
-        "limit": "None",
-        "timer": "30s",
-        "category": "Field",
-        "location": "Southern part of Frosty Snowfield two reside below The Magician's Tower",
-        "conditions": "Level 120",
-        "drops": [
-            "I030",
-            "I08O"
-        ]
-    },
-    {
         "id": "n00A",
         "name": "Silverback Wolf",
         "limit": "1",
-        "timer": "50s",
-        "category": "Field",
-        "location": "Far East side of Alfon Forest",
-        "conditions": "Level 1",
+        "timer": "60s",
+        "category": "Mob",
+        "location": "Bottom left of the Kalidi Forest",
+        "conditions": "Recommended Level 1 ~ 10",
         "drops": [
-            "tin2",
-            "rlif"
+            "I009",
+            "I00P"
         ]
     },
     {
-        "id": "n00C",
-        "name": "Kobold Leader",
+        "id": "n00H",
+        "name": "Troll",
+        "limit": "0",
+        "timer": "15s",
+        "category": "Mob",
+        "location": "Bottom part of the Wild Life Habitat",
+        "conditions": "Recommended Level 10 ~ 20",
+        "drops": [
+            "I00D"
+        ]
+    },
+    {
+        "id": "n00I",
+        "name": "Troll Shaman",
+        "limit": "0",
+        "timer": "15s",
+        "category": "Mob",
+        "location": "Bottom part of the Wild Life Habitat",
+        "conditions": "Recommended Level 10 ~ 20",
+        "drops": [
+            "I00S"
+        ]
+    },
+    {
+        "id": "n00J",
+        "name": "Troll Berserker",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "Bottom part of the Wild Life Habitat",
+        "conditions": "Recommended Level 10 ~ 20",
+        "drops": [
+            "I01B"
+        ]
+    },
+    {
+        "id": "n00O",
+        "name": "Troll Lord",
+        "limit": "0",
+        "timer": "90s",
+        "category": "Mob",
+        "location": "Bottom part of the Wild Life Habitat",
+        "conditions": "Recommended Level 10 ~ 20",
+        "drops": [
+            "I01G",
+            "I013"
+        ]
+    },
+    {
+        "id": "n00G",
+        "name": "Furbolg",
+        "limit": "0",
+        "timer": "15s",
+        "category": "Mob",
+        "location": "Top side of the Wild Life Habitat",
+        "conditions": "Recommended Level 10 ~ 20",
+        "drops": [
+            "I00T",
+            "I0PY"
+        ]
+    },
+    {
+        "id": "n00K",
+        "name": "Furbolg Tracker",
+        "limit": "0",
+        "timer": "15s",
+        "category": "Mob",
+        "location": "Top side of the Wild Life Habitat",
+        "conditions": "Recommended Level 10 ~ 20",
+        "drops": [
+            "I01C",
+            "I0PY"
+        ]
+    },
+    {
+        "id": "n00L",
+        "name": "Furblog Shaman",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "Top side of the Wild Life Habitat",
+        "conditions": "Recommended Level 10 ~ 20",
+        "drops": [
+            "I01F",
+            "I0PY"
+        ]
+    },
+    {
+        "id": "n01B",
+        "name": "Furblog Giant",
         "limit": "1",
         "timer": "60s",
-        "category": "Field",
-        "location": "In the Northeast side of Kobolt Camp",
-        "conditions": "Level 10",
+        "category": "Mob",
+        "location": "Top side of the Wild Life Habitat",
+        "conditions": "Recommended Level 10 ~ 20",
         "drops": [
-            "manh",
-            "I0AK"
-        ]
-    },
-    {
-        "name": "Kobold Creeps",
-        "limit": "1",
-        "timer": "10s ~ 15s",
-        "category": "Field",
-        "location": "In Kobolt Camp",
-        "conditions": "Level 10",
-        "drops": [
-            "lure",
-            "I00V"
-        ]
-    },
-    {
-        "id": "n015",
-        "name": "Dragon Turtle",
-        "limit": "3",
-        "timer": "120s",
-        "category": "Field",
-        "location": "Far South of Capital Prius in Murlocs area",
-        "conditions": "Level 80",
-        "drops": [
-            "vddl"
-        ]
-    },
-    {
-        "id": "n01E",
-        "name": "Polar Bear Giant",
-        "limit": "3",
-        "timer": "90s",
-        "category": "Field",
-        "location": "Mid-South of Frosty Snowfield area",
-        "conditions": "Level 120",
-        "drops": [
-            "rnsp"
-        ]
-    },
-    {
-        "id": "n036",
-        "name": "Scarab",
-        "limit": "1",
-        "timer": "300s",
-        "category": "Field",
-        "location": "In the Abandoned Graveyard",
-        "conditions": "Level 270",
-        "drops": [
-            "sor2"
-        ]
-    },
-    {
-        "id": "n037",
-        "name": "Wallachia Wraith",
-        "limit": "1",
-        "timer": "450s",
-        "category": "Field",
-        "location": "In the Abandoned Graveyard",
-        "conditions": "Level 270",
-        "drops": [
-            "sora",
-            "I0AB"
+            "rhe2",
+            "I0PY"
         ]
     },
     {
         "id": "o003",
         "name": "Protector of Nature",
-        "limit": "3",
+        "limit": "2",
         "category": "Field",
-        "summon": "In Kalidi Forest where Giant Furbolg spawns",
-        "conditions": "Level 25 and 2 Nature Powder",
+        "summon": "Top side of the Wild Life Habitat",
+        "conditions": "Recommended Level 25 and Ancient Branch x3",
         "drops": [
-            "I0EA",
-            "I0EB",
-            "I0EC",
-            "I0ED",
-            "I0EE",
-            "I0E9",
-            "I0E8",
-            "I0EV",
             "I0DW",
+            "I016",
+            "I00B",
+            "I00E",
+            "I0AJ",
+            "I00I",
             "pclr"
+        ]
+    },
+    {
+        "id": "n00Y",
+        "name": "White Murloc",
+        "limit": "0",
+        "timer": "25s",
+        "category": "Mob",
+        "location": "Right side of Wild Life Habitat, Seaside",
+        "conditions": "Recommended Level 10 ~ 20",
+        "drops": [
+            "I02M",
+            "I038"
+        ]
+    },
+    {
+        "id": "n00X",
+        "name": "Green Murloc",
+        "limit": "0",
+        "timer": "25s",
+        "category": "Mob",
+        "location": "Right side of Wild Life Habitat, Seaside",
+        "conditions": "Recommended Level 10 ~ 20",
+        "drops": [
+            "I02M",
+            "I09B",
+            "I0EU"
+        ]
+    },
+    {
+        "id": "n00Z",
+        "name": "Orange Murloc",
+        "limit": "0",
+        "timer": "25s",
+        "category": "Mob",
+        "location": "Right side of Wild Life Habitat, Seaside",
+        "conditions": "Recommended Level 10 ~ 20",
+        "drops": [
+            "I038",
+            "I09B",
+            "I0EU"
+        ]
+    },
+    {
+        "id": "n011",
+        "name": "Blue Murloc",
+        "limit": "0",
+        "timer": "25s",
+        "category": "Mob",
+        "location": "Right side of Wild Life Habitat, Seaside",
+        "conditions": "Recommended Level 10 ~ 20",
+        "drops": [
+            "I03B",
+            "I039",
+            "I03C"
+        ]
+    },
+    {
+        "id": "n010",
+        "name": "Purple Murloc",
+        "limit": "0",
+        "timer": "25s",
+        "category": "Mob",
+        "location": "Right side of Wild Life Habitat, Seaside",
+        "conditions": "Recommended Level 10 ~ 20",
+        "drops": [
+            "I03B",
+            "I039",
+            "I03C"
+        ]
+    },
+    {
+        "id": "n015",
+        "name": "Dragon Turtle",
+        "limit": "0",
+        "timer": "120s",
+        "category": "Field",
+        "location": "Right side of Wild Life Habitat, far south of Seaside",
+        "conditions": "Recommended Level 10 ~ 20",
+        "drops": [
+            "vddl",
+            "I0Q3"
         ]
     },
     {
@@ -124,13 +217,12 @@
         "name": "King Crab",
         "limit": "2",
         "category": "Field",
-        "summon": "South of Captial Prius in murloc area",
-        "conditions": "Level 60 and usage of Mystical Horn",
+        "summon": "Right side of Wild Life Habitat, Seaside",
+        "conditions": "Recommended Level 10 ~ 20 and Magical Horn",
         "drops": [
             "pmna",
             "spsh",
-            "ciri",
-            "mort"
+            "ciri"
         ]
     },
     {
@@ -138,14 +230,65 @@
         "name": "Walrus",
         "limit": "2",
         "category": "Field",
-        "summon": "South of Captial Prius in murloc area",
-        "conditions": "Level 80 and usage of Mystical Horn",
+        "summon": "Right side of Wild Life Habitat, Seaside",
+        "conditions": "Recommended Level 10 ~ 20 and Magical Horn",
         "drops": [
             "I0DS",
-            "I0DT",
             "wneg",
-            "ciri",
-            "mort"
+            "I0DT"
+        ]
+    },
+    {
+        "id": "n018",
+        "name": "Ice Troll",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In Frosty Snowfield",
+        "conditions": "Level 40",
+        "drops": [
+            "I03K",
+            "I03H"
+        ]
+    },
+    {
+        "id": "n019",
+        "name": "Ice Troll Priest",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In Frosty Snowfield",
+        "conditions": "Level 40",
+        "drops": [
+            "I09H",
+            "I0EW"
+        ]
+    },
+    {
+        "id": "n01C",
+        "name": "Polar Bear",
+        "limit": "0",
+        "timer": "40s",
+        "category": "Mob",
+        "location": "In Frosty Snowfield",
+        "conditions": "Level 40",
+        "drops": [
+            "I03I",
+            "I03F",
+            "I03L"
+        ]
+    },
+    {
+        "id": "n01E",
+        "name": "Polar Bear Giant",
+        "limit": "None",
+        "timer": "120s",
+        "category": "Field",
+        "location": "In Frosty Snowfield",
+        "conditions": "Level 40",
+        "drops": [
+            "rnsp",
+            "I08O"
         ]
     },
     {
@@ -154,12 +297,11 @@
         "limit": "2",
         "category": "Field",
         "summon": "In Frosty Snowfield",
-        "conditions": "Level 120 and usage of Frozen Crystal",
+        "conditions": "Level 40 and Frozen Crystal",
         "drops": [
             "prvt",
-            "ssil",
             "lgdh",
-            "hval"
+            "ssil"
         ]
     },
     {
@@ -168,12 +310,83 @@
         "limit": "2",
         "category": "Field",
         "summon": "In Frosty Snowfield",
-        "conditions": "Level 120 and usage of Frozen Crystal",
+        "conditions": "Level 40 and Frozen Crystal",
         "drops": [
             "I0DU",
-            "I0DV",
-            "lgdh",
-            "hval"
+            "hval",
+            "I0DV"
+        ]
+    },
+    {
+        "id": "h00P",
+        "name": "Duchy of Wallachia Soldier",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In Duchy of Wallachia",
+        "conditions": "Level 50",
+        "drops": [
+            "I044",
+            "I0EZ"
+        ]
+    },
+    {
+        "id": "e01B",
+        "name": "Duchy of Wallachia Archer",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In Duchy of Wallachia",
+        "conditions": "Level 50",
+        "drops": [
+            "I045",
+            "I09J"
+        ]
+    },
+    {
+        "id": "h00R",
+        "name": "Duchy of Wallachia Cavalry",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In Duchy of Wallachia",
+        "conditions": "Level 50",
+        "drops": [
+            "I044",
+            "I045",
+            "I09J",
+            "I0EZ"
+        ]
+    },
+    {
+        "id": "h00S",
+        "name": "Duchy of Wallachia Guardian",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In Duchy of Wallachia",
+        "conditions": "Level 50",
+        "drops": [
+            "I040",
+            "I041",
+            "I046"
+        ]
+    },
+    {
+        "id": "h00T",
+        "name": "Wallachia Death Knight Lord",
+        "limit": "5",
+        "timer": "240s",
+        "category": "Field",
+        "location": "In Duchy of Wallachia",
+        "conditions": "Level 50",
+        "drops": [
+            "sor1",
+            "I05R",
+            "I05S",
+            "I09G",
+            "I0F0",
+            "sand"
         ]
     },
     {
@@ -182,7 +395,7 @@
         "limit": "2",
         "category": "Field",
         "summon": "In Duchy of Wallachia",
-        "conditions": "Level 160 and usage of Mask of Blood",
+        "conditions": "Level 50 and Cursed Mask",
         "drops": [
             "I0BQ",
             "I0CB",
@@ -198,7 +411,7 @@
         "limit": "2",
         "category": "Field",
         "summon": "In Duchy of Wallachia",
-        "conditions": "Level 160 and usage of Mask of Blood",
+        "conditions": "Level 50 and Cursed Mask",
         "drops": [
             "rspl",
             "I0BR",
@@ -209,18 +422,148 @@
         ]
     },
     {
+        "id": "n01F",
+        "name": "Lava Hatchling",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In Volcanic Lands",
+        "conditions": "Level 60",
+        "drops": [
+            "I05C",
+            "I05D"
+        ]
+    },
+    {
+        "id": "n01G",
+        "name": "Lava Spawn",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In Volcanic Lands",
+        "conditions": "Level 60",
+        "drops": [
+            "I05C",
+            "I09L",
+            "I0F1"
+        ]
+    },
+    {
+        "id": "n01H",
+        "name": "Lava Worm",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In Volcanic Lands",
+        "conditions": "Level 60",
+        "drops": [
+            "I05D",
+            "I09L",
+            "I0F1"
+        ]
+    },
+    {
+        "id": "n01I",
+        "name": "Lava Ancient",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In Volcanic Lands",
+        "conditions": "Level 60",
+        "drops": [
+            "I049",
+            "I059",
+            "I05F"
+        ]
+    },
+    {
+        "id": "n01J",
+        "name": "Ruler of Flames Ragnaar",
+        "limit": "2",
+        "timer": "240s",
+        "category": "Field",
+        "location": "In Volcanic Lands",
+        "conditions": "Level 60",
+        "drops": [
+            "dsum",
+            "I05U",
+            "I05W",
+            "I09E",
+            "I0F4",
+            "I0G5",
+            "nspi"
+        ]
+    },
+    {
         "id": "n02Z",
         "name": "Evil Lava Spawn",
         "limit": "2",
         "category": "Field",
         "summon": "In Volcanic Lands",
-        "conditions": "Level 200 and usage of Nightmare Rod",
+        "conditions": "Level 60 and Nightmare Rod",
         "drops": [
+            "shcw",
+            "rnec",
             "bfhr",
             "stwa",
-            "rnec",
-            "blba",
-            "shcw"
+            "blba"
+        ]
+    },
+    {
+        "id": "n02H",
+        "name": "Murloc Giant",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In the Deep Sea",
+        "conditions": "Recommended Level 70 ~ 90",
+        "drops": [
+            "I0BU",
+            "I0BV"
+        ]
+    },
+    {
+        "id": "n02I",
+        "name": "Tide Caller",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In the Deep Sea",
+        "conditions": "Recommended Level 70 ~ 90",
+        "drops": [
+            "I0BU",
+            "I0BV"
+        ]
+    },
+    {
+        "id": "n02J",
+        "name": "Sea Guardian",
+        "limit": "0",
+        "timer": "35s",
+        "category": "Mob",
+        "location": "In the Deep Sea",
+        "conditions": "Recommended Level 70 ~ 90",
+        "drops": [
+            "I0BW"
+        ]
+    },
+    {
+        "id": "h014",
+        "name": "Tentacle Lord",
+        "limit": "5",
+        "timer": "240s",
+        "category": "Field",
+        "location": "In the Deep Sea",
+        "conditions": "Recommended Level 70 ~ 90",
+        "drops": [
+            "I0BZ",
+            "I0BN",
+            "I0BP",
+            "I0BO",
+            "I0F6",
+            "I0BY",
+            "I0G6",
+            "gvsm"
         ]
     },
     {
@@ -229,7 +572,7 @@
         "limit": "2",
         "category": "Field",
         "summon": "In Deep Sea",
-        "conditions": "Level 240 and usage of Orb of the Deep Sea",
+        "conditions": "Recommended Level 70 ~ 90 and Orb of the Sea",
         "drops": [
             "I0OS",
             "I0OT",
@@ -238,115 +581,148 @@
         ]
     },
     {
-        "id": "h00T",
-        "name": "Death Knight",
-        "limit": "5",
-        "timer": "180s",
-        "category": "Field",
-        "location": "In Duchy of Wallachia",
-        "conditions": "Level 160",
+        "id": "n02A",
+        "name": "Stone Golem",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In the Cave",
+        "conditions": "Level 80",
         "drops": [
-            "I03Y",
-            "I044",
-            "I042",
-            "I045",
-            "I0EZ",
-            "I040",
-            "I041",
-            "I046",
-            "I047",
-            "I043",
-            "I09J",
-            "sor1",
-            "sand"
+            "I0A3",
+            "I0A4"
         ]
     },
     {
-        "id": "n01J",
-        "name": "Ruler of Flames Ragnaar",
-        "limit": "5",
-        "timer": "180s",
-        "category": "Field",
-        "location": "In Volcanic Lands",
-        "conditions": "Level 200",
+        "id": "n02B",
+        "name": "Solid Golem",
+        "limit": "0",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In the Cave",
+        "conditions": "Level 80",
         "drops": [
-            "I048",
-            "I05C",
-            "I05B",
-            "I05D",
-            "I0F1",
-            "I049",
-            "I059",
-            "I05F",
-            "I05G",
-            "I05A",
-            "I09L",
-            "dsum",
-            "I0G5",
-            "nspi"
-        ]
-    },
-    {
-        "id": "h014",
-        "name": "Tentacle Lord",
-        "limit": "5",
-        "timer": "180s",
-        "category": "Field",
-        "location": "In the Deep Sea",
-        "conditions": "Level 240",
-        "drops": [
-            "I0BL",
-            "I0BM",
-            "I0BN",
-            "I0BP",
-            "I0BO",
-            "I0F6",
-            "I0BZ",
-            "I0BY",
-            "I0G6",
-            "gvsm"
+            "I0A1"
         ]
     },
     {
         "id": "h00Y",
         "name": "Giant Golem",
-        "limit": "8",
-        "timer": "180s",
+        "limit": "2",
+        "timer": "240s",
         "category": "Field",
-        "location": "In the Mine Cave",
-        "conditions": "Level 280",
+        "location": "In the Cave",
+        "conditions": "Level 80",
         "drops": [
-            "I0A5",
-            "I0A6",
+            "I0AA",
             "I0A7",
             "I0A8",
             "I0A9",
             "I0F5",
-            "I0AA",
             "I0AB",
             "I0G7",
             "dtsb"
         ]
     },
     {
+        "id": "h01L",
+        "name": "Duchy of Wallachia Assassin",
+        "limit": "1",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In the Wallachia Graveyard",
+        "conditions": "Level 80",
+        "drops": [
+            "I0A3",
+            "I0A4"
+        ]
+    },
+    {
+        "id": "h01M",
+        "name": "Duchy of Wallachia Apostle",
+        "limit": "1",
+        "timer": "30s",
+        "category": "Mob",
+        "location": "In the Wallachia Graveyard",
+        "conditions": "Level 80",
+        "drops": [
+            "I0A1"
+        ]
+    },
+    {
+        "id": "n036",
+        "name": "Scarab",
+        "limit": "1",
+        "timer": "300s",
+        "category": "Mob",
+        "location": "In the Wallachia Graveyard",
+        "conditions": "Level 80",
+        "drops": [
+            "sor2"
+        ]
+    },
+    {
+        "id": "n037",
+        "name": "Wallachia Wraith",
+        "limit": "1",
+        "timer": "450s",
+        "category": "Mob",
+        "location": "In the Wallachia Graveyard",
+        "conditions": "Level 80",
+        "drops": [
+            "sora",
+            "I0AB"
+        ]
+    },
+    {
+        "id": "n038",
+        "name": "Wallachia Mad Clown",
+        "limit": "2",
+        "category": "Minor",
+        "location": "In the Wallachia Graveyard",
+        "conditions": "Level 80",
+        "drops": [
+            "sor2",
+            "sora",
+            "ram1",
+            "soul",
+            "I0GA",
+            "wcyc"
+        ]
+    },
+    {
+        "id": "h010",
+        "name": "Mana Ancient",
+        "limit": "2",
+        "timer": "240s",
+        "category": "Field",
+        "location": "In Fairy Forest",
+        "conditions": "Recommended Level 80+",
+        "drops": [
+            "I08X",
+            "I06D",
+            "I0AV",
+            "I06E",
+            "I0G9",
+            "grsl",
+            "envl"
+        ]
+    },
+    {
         "id": "n022",
         "name": "Ruler of the Lav Sea Hydra",
-        "limit": "None",
-        "manacost": "0",
-        "category": "Field",
-        "summon": "South of Capital Prius at wrecked ship in murloc area",
-        "conditions": "Level 80 and 2x White Powders",
+        "limit": "5",
+        "category": "Minor",
+        "summon": "Top right area of Seaside",
+        "conditions": "Recommended Level 50 and Blue Magic Stone x4",
         "drops": [
-            "I06Y",
-            "I070",
-            "I06Z",
-            "I071",
-            "I09F",
-            "I0F3",
+            "I077",
+            "I07A",
+            "I09D",
+            "I0F2",
             "I074",
             "I072",
             "I075",
-            "I076",
             "I073",
             "I068",
             "I06I",
@@ -355,65 +731,67 @@
     },
     {
         "id": "H00F",
-        "name": "Count Wallachia",
-        "limit": "None",
-        "manacost": "0",
+        "name": "Duchy of Wallachia Count",
+        "limit": "5",
         "category": "Minor",
-        "summon": "East area of Duchy of Wallachi at wrecked church near Death Knight",
-        "conditions": "Level 160 and 2x Green Powders",
+        "summon": "East area of Duchy of Wallachia at wrecked church near Death Knight",
+        "conditions": "Level 60 and White Magic Stone x4",
         "drops": [
+            "ajen",
             "I07I",
             "moon",
-            "I07D",
-            "I07C",
+            "I07K",
+            "I07L",
             "I07E",
-            "I07F",
             "I07H",
-            "ajen",
             "I06J",
-            "I07G",
             "tels",
-            "I06V",
+            "I07G",
             "shen"
         ]
     },
     {
         "id": "n01W",
-        "name": "Jack-o-Lantern",
-        "limit": "None",
-        "manacost": "0",
+        "name": "Jack o Lantern",
+        "limit": "3",
         "category": "Minor",
-        "summon": "East area of Capital Prius at Fountain",
-        "conditions": "Level 80 and 2x White Powders",
+        "summon": "Middle of Capital Prius, near the fountain",
+        "conditions": "Recommended Level 60 and White Magic Stone x4",
         "drops": [
             "I07O",
             "I07M",
             "I0AY",
             "cnob",
-            "drph",
-            "ore1"
+            "I060",
+            "sfog",
+            "drph"
         ]
     },
     {
-        "id": "ore1",
-        "name": "Magical Ore Deposit (Orichalcum)",
-        "limit": "2",
+        "id": "h01B",
+        "name": "Mage Lord",
+        "limit": "4",
         "category": "Minor",
-        "location": "Dropped by Jack-o-Lantern with a 7.5% chance",
-        "conditions": "Defeat Jack-o-Lantern",
+        "summon": "South area of Frosty Snowfield between two snowmen near Yetis'",
+        "conditions": "Recommended Level 70 and Red Magic Stone x4",
         "drops": [
-            "sfog",
-            "I060"
+            "I06F",
+            "I083",
+            "I084",
+            "I0AZ",
+            "I062",
+            "I06V",
+            "cosl",
+            "lnrn"
         ]
     },
     {
         "id": "n01K",
         "name": "Wings of Death",
-        "limit": "None",
-        "manacost": "0",
+        "limit": "5",
         "category": "Minor",
         "summon": "In Volcanic Lands in the Volcano where Ragnaar spawns",
-        "conditions": "Level 200 and 2x Green Powders",
+        "conditions": "Recommended Level 70 and Red Magic Stone x4",
         "drops": [
             "I07R",
             "I09S",
@@ -424,66 +802,16 @@
             "I06P",
             "I06Q",
             "I06O",
-            "I06V",
             "oli2"
         ]
     },
     {
-        "id": "h01B",
-        "name": "Mage Lord",
-        "limit": "None",
-        "manacost": "0",
-        "category": "Minor",
-        "summon": "South area of Frosty Snowfield between two snowmen near Yetis'",
-        "conditions": "Level 120 and 2x Blue Powders",
-        "drops": [
-            "I06F",
-            "I083",
-            "I084",
-            "I0AZ",
-            "I06V",
-            "lnrn",
-            "ore2"
-        ]
-    },
-    {
-        "id": "I06F",
-        "name": "Sealed Weapon",
-        "limit": "1",
-        "category": "Minor",
-        "location": "Dropped by Mage Lord with a 6% chance",
-        "conditions": "On use, can select which weapon to un-seal",
-        "notes": [
-            "The order below is the order of the menu to select when in game"
-        ],
-        "drops": [
-            "I080",
-            "I081",
-            "I082",
-            "I09M",
-            "I0F7"
-        ]
-    },
-    {
-        "id": "ore2",
-        "name": "Magical Ore Deposit (Mithril)",
-        "limit": "2",
-        "category": "Minor",
-        "location": "Dropped by Mage Lord with a 7.5% chance",
-        "conditions": "Defeat Mage Lord",
-        "drops": [
-            "cosl",
-            "I062"
-        ]
-    },
-    {
         "id": "H00V",
-        "name": "Guardian Spirit, Avalon's Gatekeeper",
+        "name": "Castle Avalon Gatekeeper",
         "limit": "None",
-        "manacost": "0",
         "category": "Minor",
         "location": "Before the entrance of Guardian Angels",
-        "conditions": "Level 200 and Angels summoned",
+        "conditions": "Level 80 and Avalon summoned",
         "drops": [
             "I0BJ",
             "I0FZ",
@@ -492,12 +820,11 @@
     },
     {
         "id": "n01N",
-        "name": "Guardian Angel",
-        "limit": "None",
-        "manacost": "0",
+        "name": "The 3rd Army's Guardian Angel",
+        "limit": "4",
         "category": "Minor",
-        "summon": "In mining cave located in the west part of Mining Town",
-        "conditions": "Level 200 and 1x Holy Powders",
+        "summon": "In the far top right of the Cave",
+        "conditions": "Level 80 and White Magic Stone x6",
         "drops": [
             "I085",
             "I087",
@@ -506,18 +833,16 @@
             "I089",
             "I06R",
             "I06T",
-            "I0AT",
             "tmmt"
         ]
     },
     {
         "id": "n01O",
-        "name": "Corrupt Angel",
-        "limit": "None",
-        "manacost": "0",
+        "name": "The Devil's Right Arm Corrupt Angel",
+        "limit": "4",
         "category": "Minor",
-        "location": "In Frosty Snowfield summoned after 2 minute of summoning Guardian Angel",
-        "conditions": "Level 200 and Angels summoned",
+        "location": "In Frosty Snowfield summoned after 2 minute of summoning Avalon",
+        "conditions": "Level 80 and Avalon summoned",
         "drops": [
             "I0C4",
             "I086",
@@ -530,30 +855,12 @@
         ]
     },
     {
-        "id": "n038",
-        "name": "Mad Clown",
-        "limit": "2",
-        "manacost": "0",
-        "category": "Minor",
-        "location": "In the Abandoned Graveyard",
-        "conditions": "Level 270",
-        "drops": [
-            "sor2",
-            "sora",
-            "ram1",
-            "soul",
-            "I0GA",
-            "wcyc"
-        ]
-    },
-    {
         "id": "n023",
-        "name": "Lord of Everfrost",
-        "limit": "None",
-        "manacost": "0",
+        "name": "Soul of Everfrost",
+        "limit": "4",
         "category": "Minor",
         "location": "Summoned during waves of Frostspider Lord",
-        "conditions": "Level 300 and Frostspider Lord summoned",
+        "conditions": "Level 90 and Frostspider Lord summoned",
         "drops": [
             "I08D",
             "I08R",
@@ -565,12 +872,11 @@
     },
     {
         "id": "H01F",
-        "name": "Spider Queen Ilshenar",
-        "limit": "None",
-        "manacost": "0",
+        "name": "Frostspider Queen",
+        "limit": "4",
         "category": "Minor",
         "location": "Summoned during waves of Frostspider Lord",
-        "conditions": "Level 300 and Frostspider Lord summoned",
+        "conditions": "Level 90 and Frostspider Lord summoned",
         "drops": [
             "rhth",
             "I0D6",
@@ -583,11 +889,10 @@
     {
         "id": "h034",
         "name": "Frostspider Lord",
-        "limit": "None",
-        "manacost": "2",
+        "limit": "4",
         "category": "Minor",
-        "summon": "In Frost Cave where 3 Pruis Magicians are gathered",
-        "conditions": "Level 300 and 6x Blue Powders",
+        "summon": "In Spider Cave where 3 Pruis Magicians are gathered",
+        "conditions": "Level 90 and Blue Magic Stone x6",
         "drops": [
             "I067",
             "bspd",
@@ -595,79 +900,37 @@
             "I096",
             "I06X",
             "I06K",
-            "tst2",
-            "ore3"
-        ]
-    },
-    {
-        "id": "ore3",
-        "name": "Magical Ore Deposit (Adamantium)",
-        "limit": "2",
-        "category": "Minor",
-        "location": "Dropped by Frostspider Lord",
-        "conditions": "Defeat Frostspider Lord",
-        "drops": [
+            "I061",
             "klmm",
-            "I061"
+            "tst2"
         ]
     },
     {
         "id": "n01Y",
         "name": "Demon Lord Beriel",
-        "limit": "None",
-        "manacost": "2",
+        "limit": "4",
         "category": "Minor",
         "summon": "In Duchy of Wallachia in a pile of skulls South of where Death Knight spawns",
-        "conditions": "Level 160, 6x Red Powders, and Waves defeated without killing the gate or letting the monsters kill the King in top-left side of Capital Prius",
+        "conditions": "Level 90, Red Magic Stone x6, and Waves defeated without killing the gate or letting the monsters kill the King in Capital Prius",
         "drops": [
             "kysn",
             "I0FG",
             "ktrm",
             "ches",
             "dphe",
+            "I06W",
             "I08K",
-            "wswd",
-            "n03C"
-        ]
-    },
-    {
-        "id": "n03C",
-        "name": "Remnants of Darkness",
-        "limit": "1",
-        "category": "Minor",
-        "location": "Dropped by Demon Lord Beriel",
-        "conditions": "Defeat Demon Lord Beriel, will be left behind after each defeat",
-        "drops": [
             "fgsk",
-            "I06W"
-        ]
-    },
-    {
-        "id": "h010",
-        "name": "Mana Ancient",
-        "limit": "2",
-        "timer": "180s",
-        "category": "Field",
-        "location": "In Fairy Forest",
-        "conditions": "Level 350",
-        "drops": [
-            "I08X",
-            "I06D",
-            "I0AV",
-            "I06E",
-            "I0G9",
-            "grsl",
-            "envl"
+            "wswd"
         ]
     },
     {
         "id": "n02M",
         "name": "Spirit Beast",
-        "limit": "4",
-        "manacost": "2",
+        "limit": "3",
         "category": "Mid",
         "location": "In Fairy Forest - Deep Forest",
-        "conditions": "Level 350",
+        "conditions": "Level 100",
         "drops": [
             "odef",
             "rag1",
@@ -675,18 +938,16 @@
             "grsl",
             "I0JT",
             "I0G8",
-            "ccmd",
-            "I0LN"
+            "ccmd"
         ]
     },
     {
         "id": "hmpr",
         "name": "Corruptor Rectus",
-        "limit": "3",
-        "manacost": "2",
+        "limit": "5",
         "category": "Mid",
         "location": "In Fairy Forest - Plagued Tower",
-        "conditions": "Level 350",
+        "conditions": "Level 100",
         "drops": [
             "phlt",
             "rin1",
@@ -697,18 +958,16 @@
             "rwiz",
             "stpg",
             "whwd",
-            "rugt",
-            "I0LN"
+            "rugt"
         ]
     },
     {
         "id": "n02N",
         "name": "Flame Nightmare",
-        "limit": "3",
-        "manacost": "2",
+        "limit": "4",
         "category": "Mid",
         "summon": "In Volcanic Lands",
-        "conditions": "Level 200 and usage of Nightmare Rod with 8x Red Powder",
+        "conditions": "Recommened Level 100 and Nightmare Rod with Red Magic Stone x8",
         "drops": [
             "I0CA",
             "I0C6",
@@ -717,18 +976,16 @@
             "I0C7",
             "rej1",
             "I0CD",
-            "shdt",
-            "I0LN"
+            "shdt"
         ]
     },
     {
         "id": "h018",
         "name": "Turtle Lord",
-        "limit": "3",
-        "manacost": "2",
+        "limit": "4",
         "category": "Mid",
         "summon": "In Deep Sea in the far East where light shines from above",
-        "conditions": "Level 240 and usage of Orb of the Deep Sea with 4x Blue Powder and 4x Green powder",
+        "conditions": "Level 100 and Orb of the Deep Sea with Green Magic Stone x4, Blue Magic Stone x4",
         "drops": [
             "skul",
             "I0CR",
@@ -738,18 +995,78 @@
             "I0CJ",
             "sror",
             "I0CK",
-            "wshs",
-            "I0LN"
+            "wshs"
+        ]
+    },
+    {
+        "id": "n03S",
+        "name": "Bone Dragon",
+        "limit": "None",
+        "category": "High",
+        "location": "To the Southeast of Volcanic Lands inside of Dragon Nest",
+        "conditions": "Level 100",
+        "drops": [
+            "pinv",
+            "sreg",
+            "tret",
+            "btst",
+            "I0OZ",
+            "I0M7",
+            "rre1"
+        ]
+    },
+    {
+        "id": "n02V",
+        "name": "Skeleton King Desperia",
+        "limit": "None",
+        "category": "High",
+        "location": "In Prius Forward camp, the Sealed Land to the North",
+        "conditions": "Level 100",
+        "notes": [
+            "1 sealed material also drops whenever a full material has been dropped"
+        ],
+        "drops": [
+            "ratc",
+            "rat6",
+            "ward",
+            "penr",
+            "rat9",
+            "I0EK",
+            "I0EL",
+            "nflg",
+            "gsou",
+            "I0OZ",
+            "fgrg"
+        ]
+    },
+    {
+        "id": "n033",
+        "name": "Zombie Lord",
+        "limit": "None",
+        "category": "High",
+        "location": "In Prius Forward camp, the Graveyard of Eternal Life to the East",
+        "conditions": "Level 100",
+        "notes": [
+            "1 sealed material also drops whenever a full material has been dropped"
+        ],
+        "drops": [
+            "belv",
+            "crys",
+            "stel",
+            "I0AS",
+            "rde1",
+            "I08P",
+            "I0OZ",
+            "pomn"
         ]
     },
     {
         "id": "n030",
         "name": "Ancient Ent",
         "limit": "None",
-        "manacost": "4",
         "category": "High",
-        "location": "In Fairy Forest above Deep Forest entrance, where a statue resides",
-        "conditions": "Level 370, 1 Green Powder on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
+        "location": "In Fairy Forest where a statue resides",
+        "conditions": "Level 100, 1 Green Magic Stone on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
         "notes": [
             "1 sealed material also drops whenever a full material has been dropped"
         ],
@@ -763,18 +1080,15 @@
             "shtm",
             "I0OZ",
             "pres"
-        ],
-        "stats": [
-            "Critical Hit damage: 1.5x"
         ]
     },
     {
         "id": "n03W",
         "name": "Elder Ent",
-        "limit": "2",
+        "limit": "None",
         "category": "High",
         "location": "Spawned by Ancient Ent",
-        "conditions": "Level 370",
+        "conditions": "Level 100",
         "notes": [
             "Elder Ent: Upon failure, droprate is reduced by 80%",
             "1 sealed material also drops whenever a full material has been dropped"
@@ -784,125 +1098,54 @@
             "srtl",
             "ofir",
             "shtm"
-        ],
-        "stats": [
-            "HP: 154,690"
         ]
     },
     {
         "id": "n03X",
         "name": "Giant Ent",
-        "limit": "2",
+        "limit": "None",
         "category": "High",
         "location": "Spawned by Ancient Ent",
-        "conditions": "Level 370",
+        "conditions": "Level 100",
         "notes": [
             "Giant Ent: Upon failure, droprate is reduced by 80%",
             "1 sealed material also drops whenever a full material has been dropped"
         ],
         "drops": [
-            "grsl",
             "ofir",
-            "shtm"
+            "shtm",
+            "grsl"
         ],
         "stats": [
             "HP: 34,690"
         ]
     },
     {
-        "id": "n02V",
-        "name": "Skeleton King Desperia",
-        "limit": "None",
-        "manacost": "4",
-        "category": "High",
-        "location": "In Prius Forward camp, the cave to the North",
-        "conditions": "Level 400",
-        "notes": [
-            "1 sealed material also drops whenever a full material has been dropped"
-        ],
-        "drops": [
-            "ratc",
-            "rat6",
-            "ward",
-            "penr",
-            "rat9",
-            "gsou",
-            "nflg",
-            "I0EK",
-            "I0EL",
-            "I0OZ",
-            "fgrg"
-        ]
-    },
-    {
-        "id": "n03S",
-        "name": "Bone Dragon",
-        "limit": "5",
-        "manacost": "4",
-        "category": "High",
-        "location": "To the Southeast inside of Dragon Nest",
-        "conditions": "Level 380",
-        "drops": [
-            "sreg",
-            "pinv",
-            "tret",
-            "btst",
-            "I0OZ",
-            "I0M7",
-            "rre1"
-        ]
-    },
-    {
         "id": "o000",
         "name": "Archangel Samael",
         "limit": "None",
-        "manacost": "4",
         "category": "High",
         "summon": "In Castle Avalon, fighting area of Guardian Angels",
-        "conditions": "Level 200, Guardian Angels defeated, and 3x Holy Powders",
+        "conditions": "Recommended Level 100, Guardian Angels defeated, and White Magic Stone x3",
         "notes": [
             "1 sealed material also drops whenever a full material has been dropped"
         ],
         "drops": [
-            "I0E5",
-            "I0E6",
-            "I0E7",
             "I0EG",
-            "I0AT",
+            "I0E5",
+            "I0E7",
+            "I0E6",
             "I0OZ",
             "sneg"
-        ]
-    },
-    {
-        "id": "n033",
-        "name": "Zombie Lord",
-        "limit": "None",
-        "manacost": "4",
-        "category": "High",
-        "location": "In Prius Forward camp, the cave to the East",
-        "conditions": "Level 410",
-        "notes": [
-            "1 sealed material also drops whenever a full material has been dropped"
-        ],
-        "drops": [
-            "belv",
-            "crys",
-            "stel",
-            "rde1",
-            "I08P",
-            "I0AS",
-            "I0OZ",
-            "pomn"
         ]
     },
     {
         "id": "n02Y",
         "name": "Shadow Dragon Irbert",
         "limit": "None",
-        "manacost": "6",
         "category": "High",
-        "location": "In Deep Snowfield",
-        "conditions": "Level 420 and 12x Blue Powder given to Elder Paracelsus",
+        "location": "South of Frosty Snowfield, in Deep Snowfield",
+        "conditions": "Level 100 and Blue Magic Stone x12",
         "notes": [
             "1 sealed material also drops whenever a full material has been dropped"
         ],
@@ -915,19 +1158,15 @@
             "I09N",
             "I0OZ",
             "shar"
-        ],
-        "stats": [
-            "HP: 31,821,000"
         ]
     },
     {
         "id": "h01K",
         "name": "Death Fiend",
         "limit": "1 for Death Fiend himself (token only), 4 for the Treasures of Death",
-        "manacost": "6",
         "category": "Endgame",
         "summon": "In Abandoned Graveyard, at spawn of Mad Clown",
-        "conditions": "Level 270 and 20x Red Powder",
+        "conditions": "Level 100 and Red Magic Stone x12",
         "drops": [
             "srbd",
             "oslo",
@@ -946,7 +1185,7 @@
         "limit": "1",
         "category": "Endgame",
         "location": "Spawns near the exit of the Secluded Forest",
-        "conditions": "Level 420. Spawns begin a little bit after the first person to enter the area.",
+        "conditions": "Level 100. Spawns begin a little bit after the first person to enter the area.",
         "drops": [
             "I0IO"
         ]
@@ -955,10 +1194,9 @@
         "id": "h04O",
         "name": "Valtora",
         "limit": "None",
-        "manacost": "6",
         "category": "Endgame",
         "summon": "The Left-most portal in the tower located east of the Secluded Forest",
-        "conditions": "Level 420 and Key of Storm crafted",
+        "conditions": "Level 100 and Key of Storm crafted",
         "drops": [
             "ocor",
             "I0IG",
@@ -972,10 +1210,9 @@
         "id": "h060",
         "name": "Ifrit",
         "limit": "None",
-        "manacost": "6",
         "category": "Endgame",
         "summon": "The Right-most portal in the tower located east of the Secluded Forest",
-        "conditions": "Level 420 and Key of Flame crafted",
+        "conditions": "Level 100 and Key of Flame crafted",
         "drops": [
             "I0JS",
             "I0IE",
@@ -989,10 +1226,9 @@
         "id": "h06T",
         "name": "Nereid",
         "limit": "None",
-        "manacost": "6",
         "category": "Endgame",
         "summon": "The Top-most portal in the tower located east of the Secluded Forest",
-        "conditions": "Level 420 and Key of Sea crafted",
+        "conditions": "Level 100 and Key of Sea crafted",
         "drops": [
             "I0LX",
             "I0II",
@@ -1006,10 +1242,9 @@
         "id": "h077",
         "name": "Underlord Agareth",
         "limit": "None",
-        "manacost": "8",
         "category": "Endgame",
         "summon": "Destroy the demonic portal during the Hell Invasion",
-        "conditions": "Level 420, Demon Lord summoned, and Demonic portal destroyed",
+        "conditions": "Level 100, Demon Lord summoned, and Demonic portal destroyed",
         "drops": [
             "I0O3",
             "I0NV",
