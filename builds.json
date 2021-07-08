@@ -299,19 +299,15 @@
         ],
         "items": {
             "Calamity": [],
-            "Horn of Demon God": [
-                "Spirit of Protector"
-            ],
+            "Horn of Demon God": [],
             "Demonic Fist": [
-                "Bell of Light",
-                "Ring of Fate"
+                "Bell of Light"
             ],
             "Felspike Armor": [
-                "Hades, the Armor of Despair",
-                "Harmony of Sky and Earth"
+                "Hades, the Armor of Despair"
             ],
             "Wings of Flame Lord": [
-                "Protection of the Fairies",
+                "Wings of Night Lord",
                 "Brave Heart"
             ]
         }

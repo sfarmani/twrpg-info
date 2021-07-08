@@ -5327,13 +5327,12 @@
         "order": 1,
         "passive": [
             "A cursed blade that feeds upon life to give powerful abilities in return.",
-            "Every 6 seconds, empowers next attack with Main Stat X 7.5 magic damage",
-            "Rips out target's soul, which heals you for Max HP X 6% + INT X 2 if you approach it",
+            "Every 7 seconds, empowers next attack, dealing Main Stat X 7.5 magic damage and ripping a soul out of it",
             "Resets cooldown of Soul Break"
         ],
         "active": [
             "Harvests souls.",
-            "Absorbs souls in a straight line"
+            "Absorbs souls in a straight line, healing for Max HP X 6% + INT X 2 per absorbed soul"
         ],
         "passive_tags": [
             "Hero",
@@ -5442,7 +5441,6 @@
         "color": "8080ff",
         "hotkey": "[R] → [Q]",
         "icon": "DarkKnightR_Q",
-        "cooldown": 12,
         "order": 6,
         "active": [
             "Shoots a coil infused with dark magic.",
@@ -5482,6 +5480,7 @@
         "icon": "DarkKnightR_E",
         "order": 8,
         "active": [
+            "Defiles nearby ground.",
             "For 15 seconds, deals Main Stat X 2.25 magic damage per second",
             "Reduces target's speed by 25%",
             "INT Main Stat: Increases magic damage taken by target by (4 + INT / 375)%"
@@ -6335,7 +6334,7 @@
         "passive": [
             "An aspect of crusader who calls down retribution on his foes.",
             "Increase nearby allies' attack damage by 10%",
-            "Judgment - deals 200% bonus damage to boss units",
+            "Judgment - deals 100% bonus damage to boss units",
             "Sigil - Increases skill damage by 12% for 20 seconds"
         ],
         "passive_tags": [
