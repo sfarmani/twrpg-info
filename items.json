@@ -412,7 +412,7 @@
     "type": "Armor",
     "color": "AFAFAF",
     "level": 20,
-    "droprate": 0.03,
+    "droprate": 0.09,
     "stats": {
       "armor": 18,
       "int": 18,
