@@ -18251,7 +18251,7 @@
         "On use, activates Sword of Calamity",
         "Sets stacks to max for 15 seconds",
         "Deals (MAIN STAT X 75) magic damage in selected area",
-        "Deals up to 125% more damage based on target's missing HP",
+        "Deals up to 100% more damage based on target's missing HP",
         "Reduces movement speed and attack damage by 50%, and silences for 2 seconds",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ],
