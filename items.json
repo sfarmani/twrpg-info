@@ -12739,7 +12739,7 @@
       "mdpercent": 0.05,
       "passive": [
         "On skill cast, activates Wind Fury for 1.5 seconds",
-        "Next 2 attacks hit once to deal bonus (50% ATK DMG) pure damage",
+        "Next 2 attacks hit once to deal bonus (50% ATK DMG) physical damage",
         "Increases movement speed by 300 (past limit)"
       ]
     }
@@ -16073,7 +16073,7 @@
       "mdpercent": 0.075,
       "passive": [
         "On skill cast, activates Storm Fury for 1.5 seconds",
-        "Next 3 attacks hit once more and deal (50% ATK DMG) pure damage",
+        "Next 3 attacks hit once more and deal (50% ATK DMG) physical damage",
         "Increases movement speed by 300 (past limit)"
       ]
     }
@@ -19469,8 +19469,8 @@
       "mdpercent": 0.1,
       "passive": [
         "On skill cast, activates Wind Fury for 1.5 seconds",
-        "Next 2 attacks hit 2 more times and deals (50% ATK DMG) pure damage",
-        "Increases AGI by 250 and movement speed by 400 (past limit)"
+        "Next 2 attacks hit 2 more times and deals (50% ATK DMG) physical damage",
+        "Increases AGI by 75 and movement speed by 400 (past limit)"
       ]
     }
   },
@@ -20284,7 +20284,7 @@
       "dtpercent": -0.075,
       "passive": [
         "Empowers next attack with Holy Fist every 6 seconds",
-        "Deals 3 additional attacks with (200% ATK DMG) pure damage",
+        "Deals 3 additional attacks with (200% ATK DMG) physical damage",
         "Reduces armor by 225 for 3 seconds"
       ],
       "spec": [
@@ -20758,7 +20758,7 @@
       "drpercent": 0.09,
       "passive": [
         "Empowers next attack with Demon's Grasp every 5 seconds (melee only)",
-        "Deals 5 additional attacks with (150% ATK DMG) pure damage",
+        "Deals 5 additional attacks with (150% ATK DMG) physical damage",
         "Reduces armor by 300 for 3 seconds (Type-A)",
         "Heals (7.5% max HP)"
       ],

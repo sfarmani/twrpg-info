@@ -6563,7 +6563,7 @@
             "Can be cast up to 3 times in a row",
             "Restores 1 soul if all 3 attacks land",
             "Cooldown is reduced based on bonus attack speed",
-            "Deals only 50% damage to boss units"
+            "Deals only 60% damage to boss units"
         ],
         "passive_tags": [
             "Hero"
@@ -6596,7 +6596,7 @@
         "icon": "PBQ",
         "order": 3,
         "toggle": [
-            "40% chance to deal AGI X 6 bonus magic damage when delivering a slash"
+            "When performing a slash, has 40% chance to consume a soul to deal AGI X 8 bonus magic damage"
         ]
     },
     {
@@ -6682,6 +6682,7 @@
         "active": [
             "Removes all soul consumption for 8 seconds and reduces some skills' cooldowns",
             "Enables dash while active",
+            "Increases damage of Alacrity by 100% while active",
             "Duration: 8 seconds"
         ],
         "active_tags": [
