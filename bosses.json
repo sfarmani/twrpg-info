@@ -89,7 +89,7 @@
     },
     {
         "id": "n00L",
-        "name": "Furblog Shaman",
+        "name": "Furbolg Shaman",
         "limit": "0",
         "timer": "30s",
         "category": "Mob",
@@ -102,7 +102,7 @@
     },
     {
         "id": "n01B",
-        "name": "Furblog Giant",
+        "name": "Furbolg Giant",
         "limit": "1",
         "timer": "60s",
         "category": "Mob",
