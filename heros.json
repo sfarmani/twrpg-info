@@ -7,12 +7,8 @@
         "color": "A2F76F",
         "icon": "SniperIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Bow]",
-            "[Armor]",
-            "[Helm]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Bow)"
         ],
         "role": [
             "Long-range Burst DPS"
@@ -34,13 +30,8 @@
         "color": "3A8732",
         "icon": "SoulWeaverIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Staff]",
-            "[Robe]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Staff)"
         ],
         "role": [
             "Buffer/Debuffer"
@@ -60,14 +51,9 @@
         "color": "C4C099",
         "icon": "AlchemistIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Staff]",
-            "[Bastard Sword]",
-            "[Robe]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Staff)",
+            "Weapon (Melee)"
         ],
         "role": [
             "Versatile Invoker. Has DPS, DoT, Support, Buffs, Debuffs"
@@ -92,14 +78,9 @@
         "color": "C3C3E1",
         "icon": "WarlockIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Staff]",
-            "[Bastard Sword]",
-            "[Robe]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Staff)",
+            "Weapon (Melee)"
         ],
         "role": [
             "DoT/DPS"
@@ -122,17 +103,9 @@
         "color": "FF6666",
         "icon": "BloodWeaverIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Staff]",
-            "[Greatsword]",
-            "[Bastard Sword]",
-            "[Armor]",
-            "[Robe]",
-            "[Helm]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Staff)",
+            "Weapon (Melee)"
         ],
         "role": [
             "Sustain/DoT/Tank"
@@ -154,14 +127,9 @@
         "color": "E4AFAF",
         "icon": "FireMageIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Staff]",
-            "[Bastard Sword]",
-            "[Robe]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Staff)",
+            "Weapon (Melee)"
         ],
         "role": [
             "Combo Burster"
@@ -181,14 +149,8 @@
         "color": "99FFDD",
         "icon": "ShooterIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Gun]",
-            "[Armor]",
-            "[Robe]",
-            "[Helm]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Gun)"
         ],
         "role": [
             "INT: Support/Healer with medium damage",
@@ -223,14 +185,8 @@
         "color": "DFDFDF",
         "icon": "SwordEnchanterIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Longsword]",
-            "[Bastard Sword]",
-            "[Armor]",
-            "[Helm]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Melee)"
         ],
         "role": [
             "Pure DoT/Slight Debuffer"
@@ -251,12 +207,8 @@
         "color": "DFBE9F",
         "icon": "GunnerIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Gun]",
-            "[Armor]",
-            "[Helm]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Gun)"
         ],
         "role": [
             "High Mobility with mid-ranged DoT DPS"
@@ -278,14 +230,8 @@
         "color": "869DD2",
         "icon": "SwordsmanIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Longsword]",
-            "[Bastard Sword]",
-            "[Armor]",
-            "[Helm]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Melee)"
         ],
         "role": [
             "High sustained damage (DoT dps), and strong stunner"
@@ -307,13 +253,8 @@
         "color": "FF69B4",
         "icon": "ElementalistIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Staff]",
-            "[Robe]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Staff)"
         ],
         "role": [
             "Summoner: Tank/Support/Debuff"
@@ -341,17 +282,9 @@
         "color": "B9F9F8",
         "icon": "LightningMageIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Bastard Sword]",
-            "[Longsword]",
-            "[Staff]",
-            "[Armor]",
-            "[Robe]",
-            "[Helm]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Staff)",
+            "Weapon (Melee)"
         ],
         "role": [
             "Melee to Mid-ranged Burst DPS"
@@ -376,14 +309,8 @@
         "color": "F7FC98",
         "icon": "CrusaderIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Greatsword]",
-            "[Bastard Sword]",
-            "[Armor]",
-            "[Helm]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Melee)"
         ],
         "role": [
             "Survivability/DPS"
@@ -409,15 +336,8 @@
         "color": "C0C0C0",
         "icon": "MartialArtistIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Longsword]",
-            "[Gloves]",
-            "[Bastard Sword]",
-            "[Armor]",
-            "[Helm]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Melee)"
         ],
         "role": [
             "Close-range burst DPS, decent DoT dps"
@@ -445,14 +365,8 @@
         "color": "84F9D2",
         "icon": "LancerIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Greatsword]",
-            "[Bastard Sword]",
-            "[Armor]",
-            "[Helm]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Melee)"
         ],
         "role": [
             "Shield Breaker/DPS/Medium survival"
@@ -473,14 +387,8 @@
         "color": "FF9999",
         "icon": "ReaperIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Longsword]",
-            "[Bastard Sword]",
-            "[Armor]",
-            "[Helm]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Melee)"
         ],
         "role": [
             "Burst DPS"
@@ -501,14 +409,8 @@
         "color": "ffff80",
         "icon": "AssassinIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Longsword]",
-            "[Bastard Sword]",
-            "[Armor]",
-            "[Helm]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Melee)"
         ],
         "role": [
             "Short Burst Melee DPS"
@@ -531,13 +433,8 @@
         "color": "caffca",
         "icon": "WindMageIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Staff]",
-            "[Robe]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Staff)"
         ],
         "role": [
             "AOE Healer"
@@ -565,15 +462,9 @@
         "color": "c3c388",
         "icon": "MerchantIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Greatsword]",
-            "[Bag]",
-            "[Bastard Sword]",
-            "[Armor]",
-            "[Helm]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Melee)",
+            "Weapon (Bag)"
         ],
         "role": [
             "Tank Support"
@@ -608,15 +499,8 @@
         "color": "fe2101",
         "icon": "ThundererIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Longsword]",
-            "[Bastard Sword]",
-            "[Greatsword]",
-            "[Armor]",
-            "[Helm]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Melee)"
         ],
         "role": [
             "Shield Breaker/DoT DPS with small Burst DPS"
@@ -637,14 +521,8 @@
         "color": "f75b40",
         "icon": "BerserkerIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Greatsword]",
-            "[Bastard Sword]",
-            "[Armor]",
-            "[Helm]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Melee)"
         ],
         "role": [
             "DPS/Survivability"
@@ -665,12 +543,8 @@
         "color": "d9bfa8",
         "icon": "BowMasterIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Bow]",
-            "[Armor]",
-            "[Helm]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Bow)"
         ],
         "role": [
             "Burst DPS, with small support"
@@ -695,14 +569,8 @@
         "color": "87cefa",
         "icon": "KnightIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Greatsword]",
-            "[Bastard Sword]",
-            "[Armor]",
-            "[Helm]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Melee)"
         ],
         "role": [
             "Shield Breaker/Sustain/DoT/Tank"
@@ -726,17 +594,9 @@
         "color": "bc8bf1",
         "icon": "DarkKnightIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Greatsword]",
-            "[Bastard Sword]",
-            "[Staff]",
-            "[Armor]",
-            "[Robe]",
-            "[Helm]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Staff)",
+            "Weapon (Melee)"
         ],
         "role": [
             "INT: Support Utility and AoE Healer",
@@ -759,13 +619,8 @@
         "color": "f9cdfe",
         "icon": "ArcaneMageIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Staff]",
-            "[Robe]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Staff)"
         ],
         "role": [
             "Burst DPS/Semi-support"
@@ -785,13 +640,8 @@
         "color": "bec6fa",
         "icon": "WaterMageIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Staff]",
-            "[Robe]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Staff)"
         ],
         "role": [
             "Support with Burst Capabilities"
@@ -813,13 +663,8 @@
         "color": "fffacd",
         "icon": "PriestIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Staff]",
-            "[Robe]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Staff)"
         ],
         "role": [
             "Support/Healer"
@@ -845,17 +690,9 @@
         "color": "7b68ee",
         "icon": "PaladinIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Greatsword]",
-            "[Bastard Sword]",
-            "[Staff]",
-            "[Armor]",
-            "[Robe]",
-            "[Helm]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Staff)",
+            "Weapon (Melee)"
         ],
         "role": [
             "DPS/Semi-Support"
@@ -885,14 +722,8 @@
         "color": "99ffbb",
         "icon": "PhantomBladeIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Longsword]",
-            "[Bastard Sword]",
-            "[Armor]",
-            "[Helm]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Melee)"
         ],
         "role": [
             "DoT/DPS"
@@ -913,18 +744,10 @@
         "color": "4faaae",
         "icon": "HermitIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Longsword]",
-            "[Greatsword]",
-            "[Bastard Sword]",
-            "[Staff]",
-            "[Armor]",
-            "[Robe]",
-            "[Helm]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Staff)",
+            "Weapon (Melee)",
+            "Weapon (Bag)"
         ],
         "role": [
             "Shield Breaker/DPS/Support depends on stat"
@@ -944,13 +767,8 @@
         "color": "b1a6d2",
         "icon": "WitchIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Weapon non-bow/gun classes]",
-            "[Staff]",
-            "[Robe]",
-            "[Hood]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Staff)"
         ],
         "role": [
             "Shield Breaker/DPS/Support"
@@ -970,15 +788,8 @@
         "color": "995c00",
         "icon": "FighterIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Longsword]",
-            "[Greatsword]",
-            "[Gloves]",
-            "[Bastard Sword]",
-            "[Helm]",
-            "[Armor]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Melee)"
         ],
         "role": [
             "Pure DPS"
@@ -999,13 +810,8 @@
         "color": "39ac73",
         "icon": "TricksterIcon",
         "wearable": [
-            "[Weapon all classes]",
-            "[Longsword]",
-            "[Bastard Sword]",
-            "[Helm]",
-            "[Armor]",
-            "[Ring]",
-            "[Wings]"
+            "Weapon (Shared)",
+            "Weapon (Melee)"
         ],
         "role": [
             "Pure DPS"

@@ -350,7 +350,7 @@
     "type": "Armor",
     "color": "AFAFAF",
     "level": 20,
-    "droprate": 0.3,
+    "droprate": 0.03,
     "stats": {
       "armor": 25,
       "str": 12,
@@ -372,10 +372,52 @@
     "grade": 0,
     "type": "Misc",
     "color": "D8C1BA",
-    "droprate": 0.5,
+    "droprate": [
+      0.05,
+      0.05,
+      0.25,
+      1
+    ],
     "required_by": [
       "Ancient Leaf Circlet"
     ]
+  },
+  {
+    "id": "I01C",
+    "name": "Forest Helm",
+    "koreanname": "숲의 투구",
+    "dropped_by": [
+      "Furbolg Tracker"
+    ],
+    "rank": "[Normal]",
+    "grade": 0,
+    "type": "Headwear",
+    "color": "AFAFAF",
+    "level": 20,
+    "droprate": 0.03,
+    "stats": {
+      "armor": 12,
+      "allstat": 8
+    }
+  },
+  {
+    "id": "I01F",
+    "name": "Forest Robe",
+    "koreanname": "숲의 로브",
+    "dropped_by": [
+      "Furbolg Shaman"
+    ],
+    "rank": "[Normal]",
+    "grade": 0,
+    "type": "Armor",
+    "color": "AFAFAF",
+    "level": 20,
+    "droprate": 0.03,
+    "stats": {
+      "armor": 18,
+      "int": 18,
+      "mp": 100
+    }
   },
   {
     "id": "I0DW",
@@ -514,7 +556,9 @@
     "dropped_by": [
       "Protector of Nature"
     ],
-    "type": "[Token]",
+    "rank": "none",
+    "grade": 0,
+    "type": "Token",
     "color": "DAA520",
     "droprate": 0.02,
     "required_by": [
@@ -3689,6 +3733,7 @@
     "id": "sfog",
     "emote_id": "771416224096976926",
     "name": "Yellow Crystal Golem Token",
+    "koreanname": "옐로우 크리스탈 골렘 토큰",
     "dropped_by": [
       "Jack o Lantern"
     ],
@@ -3699,8 +3744,7 @@
     "droprate": 0.0025,
     "required_by": [
       "Rainbow Crystal Golem Token"
-    ],
-    "koreanname": "옐로우 크리스탈 골렘 토큰"
+    ]
   },
   {
     "id": "drph",
@@ -5637,6 +5681,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Material",
+    "color": "FFFFFF",
     "droprate": 0.04,
     "required_by": [
       "Benziena, the Earthen Soul",
@@ -9856,9 +9901,6 @@
       },
       {
         "Orichalcum": 1
-      },
-      {
-        "Gold Ore": 30
       }
     ],
     "stats": {
@@ -16796,9 +16838,6 @@
         "Orb of Oblivion": 1
       },
       {
-        "Sealed Archangel Wings": 1
-      },
-      {
         "Frozen Debris": 1
       }
     ],
@@ -22029,9 +22068,6 @@
       },
       {
         "Guardian of the Skies": 1
-      },
-      {
-        "Sealed Archangel Wings": 1
       },
       {
         "Steel of God": 1
