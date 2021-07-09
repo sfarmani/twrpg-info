@@ -5063,8 +5063,8 @@
         "order": 7,
         "active": [
             "Bombards target area with heart-seeking arrows.",
-            "Fires 4 arrows that each deal attack damage X 1.2 + AGI X 12 magic damage",
-            "Stuns targets hit for 5 seconds and reduces their armor"
+            "Fires 5 arrows that each deal attack damage X 1.2 + AGI X 12 magic damage",
+            "Stuns targets hit for 2.5 seconds and reduces their armor by 175 for 6 seconds"
         ],
         "active_tags": [
             "Hero",

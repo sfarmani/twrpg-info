@@ -15133,10 +15133,8 @@
       "skilldamagepercent": 0.05,
       "passive": [
         "Empowers next attack with Corrupt Arrow every 6 seconds",
-        "Deals ((ATK DMG X 1.2) + (AGI X 12)) magic damage",
-        "Stuns for 2.5 seconds",
-        "Reduces armor by 175 for 6 seconds",
-        "Cooldown: 20 seconds, cannot be dropped during cooldown"
+        "Deals (AGI X 18) magic damage to target and (AGI X 12) magic damage to enemies around the target",
+        "Heals (15% max HP)"
       ],
       "spec": [
         "Specialty - Heartseeker",
@@ -18044,13 +18042,15 @@
       "skilldamagepercent": 0.1,
       "passive": [
         "On attack, 25% chance to activate Blade of Destruction",
+        "Deals (STR X 15) magic damage to enemies in a frontal cone",
         "Reduces enemy armor by 250 and magic damage taken by 2% for 6 seconds",
-        "Cooldown: 2 seconds"
+        "Cooldown: 5 seconds"
       ],
       "active": [
         "On use, activates Chaos",
         "Drains (900 + (seconds elapsed X 225)) HP per second",
         "Increases attack speed by 100%, STR by 60, and skill damage by 1.5% per stack (up to 10 stacks)",
+        "Reduces Blade of Destruction's cooldown to 2 seconds",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
