@@ -18050,7 +18050,7 @@
       "active": [
         "On use, activates Chaos",
         "Drains (900 + (seconds elapsed X 225)) HP per second",
-        "Increases attack speed by 100%, STR by 200, and skill damage by 1.5% per stack (up to 10 stacks)",
+        "Increases attack speed by 100%, STR by 60, and skill damage by 1.5% per stack (up to 10 stacks)",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }

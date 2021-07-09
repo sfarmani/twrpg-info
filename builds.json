@@ -293,6 +293,7 @@
         "order": 1,
         "stat": "STR",
         "version": "41b",
+        "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=6814",
         "description": [
             "The first items are for DPS purposes. In most of the cases below, the second item is used until you get to the first one.",
             "In other cases they are for supporting when needed"
@@ -301,6 +302,7 @@
             "Calamity": [],
             "Horn of Demon God": [],
             "Demonic Fist": [
+                "Ring of Hope",
                 "Bell of Light"
             ],
             "Felspike Armor": [
