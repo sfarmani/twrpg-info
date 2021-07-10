@@ -4590,8 +4590,8 @@
         "order": 1,
         "passive": [
             "Continuously attack like flowing water.",
-            "Every 3rd attack deals Attack Damage X 150% + 5 X (STR + AGI) bonus magic damage",
-            "Resets after 10 seconds without attack"
+            "Basic attacks ignore 70% of target's armor",
+            "Every 4th basic attack will strike twice"
         ],
         "passive_tags": [
             "Hero",
@@ -4611,7 +4611,8 @@
         "order": 2,
         "active": [
             "Focuses strength onto the tip of the spear to deliver powerful strikes.",
-            "Within the next 10 seconds, the next 3 attacks deal an additional attack damage x 1.5 + (STR + AGI) x 5 pure damage",
+            "Next 3 attacks deal an additional attack damage x 1.5 + (STR + AGI) x 5 pure damage",
+            "Lasts up to 10 seconds",
             "3rd attack deals double damage and knocks up non-boss target"
         ],
         "active_tags": [
@@ -4653,9 +4654,9 @@
         "order": 4,
         "active": [
             "Dashes with the speed of lightning.",
-            "(STR + AGI) X 6 magic damage",
+            "(STR + AGI) X 15 magic damage",
             "Stuns enemies hit for 1 second",
-            "Recharges Magnetic Field by 5% for every 200 distance traveled"
+            "Recharges Magnetic Field up to 25% based on distance travelled]"
         ],
         "active_tags": [
             "Hero",
@@ -4674,7 +4675,7 @@
         "order": 5,
         "active": [
             "Activate the shield of thunder to protect yourself and damage nearby enemies.",
-            "Each second deals STR X 0.9 + AGI X 1.2 magic damage",
+            "Deals (STR + AGI) X 2 magic damage per second",
             "Reduces damage taken by 40%",
             "After 3 seconds, consumes 15% of Magnetic Field per second"
         ],
@@ -4718,9 +4719,8 @@
         "order": 7,
         "active": [
             "\"Disappear with the thunder!\" - Thunderer",
-            "Each lightning deals Highest Stat X 3.75 damage",
-            "Stuns for 1 second",
-            "Restores 25% of Magnetic Field every second",
+            "Strike down 16 lightnings per second, each dealing Main Stat X 3.75 magic damage and stunning for 1 second",
+            "Restores 25% of Magnetic Field every second while inside the area",
             "Lasts 4 seconds"
         ],
         "active_tags": [
@@ -5140,7 +5140,7 @@
         "order": 2,
         "active": [
             "Performs a mighty slash with mana-infused sword.",
-            "Attack Damage X 0.6 + Consumed MP X 0.25 magic damage",
+            "Attack Damage X 0.6 + Consumed MP X 0.6 magic damage",
             "Reactivates with halved effectiveness on attack for 4 seconds"
         ],
         "active_tags": [

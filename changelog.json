@@ -1,5 +1,76 @@
 [
     {
+        "name": "50r",
+        "notes": [
+            "Released on: July 10th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Paladin - Fixed error in Holy aura (D) - Aura of retribution (Q) description",
+            "Dark knight - Fixed damage and soul generation of Soul break (Q)",
+            "Dark knight - Fixed cooldown reset interrupting Unholy light (E) channel",
+            "Hermit - Fixed shield break effect of Purify (F) happening later than intended",
+            "Winter's tear/Eternal winter - Fixed passive effect being affected by water affinity twice",
+            "Evil lava spirit - Fixed wheel projectiles not dissapearing if boss was killed during wheel",
+            "Items - Fixed some items having wrong equipment lvl requirement in description",
+            "Bosses - Fixed bosses not spawning combat spoils chest when killed from far distance",
+            "Holy water - Fixed exchange amount reducing when attempting to exchange it without required materials"
+        ],
+        "events": [
+            "Guide event start, will last until August 8th, 2021",
+            "New event rewards have been added to map"
+        ],
+        "monsters": [
+            {
+                "name": "Wings of Death",
+                "changes": [
+                    "Moved spawn location to top right"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Added close menu (S) hotkey"
+                ]
+            },
+            {
+                "name": "Knight",
+                "changes": [
+                    "Grand Sword (Q)",
+                    [
+                        "Damage: 60% ATK DMG + 0.25 X MP → 60% ATK DMG + 0.6 X MP"
+                    ]
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Order of spell icons changed to fit QWER",
+                    "Fierce Strikes (D)",
+                    [
+                        "Amount of armor ignored: 40% → 70%"
+                    ],
+                    "Lightning Rush (W)",
+                    [
+                        "Damage: (STR + AGI) X 6 → (STR + AGI) X 15",
+                        "Charge speed and visual effect changed"
+                    ],
+                    "Thunder Shield (E)",
+                    [
+                        "Damage per second: STR X 0.9 + AGI X 1.2 → (STR + AGI) X 2"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Titles no longer show up in item craft floating text",
+            "Sealed materials no longer show up in item drop floating text",
+            "Reduced lag that happens when multiple players deal damage to same boss"
+        ]
+    },
+    {
         "name": "50q",
         "notes": [
             "Released on: June 30th, 2021",

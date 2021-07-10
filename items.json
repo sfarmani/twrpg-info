@@ -19266,7 +19266,8 @@
       "active": [
         "On use, activates Hellspike",
         "Deals (max HP X 3) magic damage in an AoE",
-        "Empowered Hellspike deals (max HP X 7.5) magic damage in an AoE and stuns for 2 seconds",
+        "Empowered Hellspike deals (max HP X 7.5) magic damage in an AoE",
+        "Stuns for 2 seconds",
         "Increases attack damage by 1500 for 2.5 seconds",
         "Cooldown: 7.5 seconds, cannot be dropped during cooldown"
       ]
