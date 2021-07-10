@@ -6881,7 +6881,7 @@
         "heroClass": "Hermit",
         "color": "bee7fc",
         "hotkey": "[T] → [T]",
-        "icon": "HermitT",
+        "icon": "HermitT_2",
         "order": 8,
         "active": [
             "Releases all of your power.",

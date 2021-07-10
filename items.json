@@ -9487,9 +9487,9 @@
       }
     ],
     "stats": {
-      "armor": 230,
-      "int": 330,
-      "hp": 2000,
+      "armor": 55,
+      "int": 75,
+      "hp": 500,
       "skilldamagepercent": 0.05,
       "passive": [
         "Allows you to dodge a fatal attack every 45 seconds"
