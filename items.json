@@ -16539,7 +16539,7 @@
       "agi": 130,
       "aadamagepercent": 0.15,
       "passive": [
-        "On attack, activates Judgment (up to 3 stacks)",
+        "On attack, activates Judgment per 0.75 seconds (up to 3 stacks)",
         "Deals (MAIN STAT X 3.75) pure damage per stack"
       ],
       "active": [
@@ -19934,7 +19934,7 @@
       "agi": 210,
       "aadamagepercent": 0.18,
       "passive": [
-        "On attack, activates Power (up to 3 stacks)",
+        "On attack, activates Power per 0.75 seconds (up to 3 stacks)",
         "Deals (MAIN STAT X 5) pure damage per stack"
       ],
       "active": [
