@@ -12822,8 +12822,8 @@
       ],
       "spec": [
         "Specialties - Fairy Blessing",
-        "Lightning Mage - Removes any debuffs when Discharge is used.",
-        "Wind Mage - The Feathers of Zephyrus recovers 15% of your maximum health when used"
+        "Lightning Mage - Discharge: Clears debuffs on you when cast.",
+        "Wind Mage - Feather of Aeolus: Heals for max HP X 15%."
       ]
     }
   },
@@ -14070,10 +14070,10 @@
       ],
       "spec": [
         "Specialties",
-        "Lightning Mage - After a full cast of Hypercharge, heals 75% of max HP",
-        "Wind Mage - Arrow and Grace of Zephyrus: Chance to spawn fairies when attacking or attacked increased by 5%",
-        "Wind Mage - Also, an ally that has been affected more than 3 times by Horn of Notus gains resistance to debuff for 4 seconds at the end of the skill.",
-        "Elementalist - Spirit Link: Breath of Ancients empowers the summon linked by Elemental Link, and its cooldown is reduced by 2 seconds."
+        "Lightning Mage - Hypercharge: If fully casted, heals for 75% HP",
+        "Wind Mage - Blessing of Zephyrus: Chance to summon spirit increased by 5%.",
+        "Wind Mage - Horn of Notus: When the cast finishes, any allies that were hit 3 or more times gain immunity to debuffs for 4 seconds",
+        "Elementalist - Breath of Ancients empowers the summon linked by Elemental Link, and its cooldown is reduced by 2 seconds."
       ]
     }
   },
@@ -14865,7 +14865,7 @@
       ],
       "spec": [
         "Specialty - Dark Healing",
-        "Priest - Empowers the attacks of your allies or your summons when healing them."
+        "Priest - Empowers any ally healed by you, and empowers its next attack with Darkness if it's summoned by you."
       ]
     }
   },
@@ -16267,8 +16267,8 @@
       ],
       "spec": [
         "Specialties - Maiden's Blessing",
-        "Lightning Mage - Removes all debuffs when discharge is used and heals 5% max HP for each lightning orb recharged",
-        "Wind Mage - Restore 40% of Maximum HP when using Feather of Aeolus"
+        "Lightning Mage - Discharge: Clears debuffs on you when cast, and heals for 5% HP when you become Charged.",
+        "Wind Mage - Feather of Aeolus: Heals for max HP X 40%."
       ]
     }
   },
@@ -16850,7 +16850,7 @@
       ],
       "spec": [
         "Specialty - Summary Judgement",
-        "Wind Mage - Judgment of Vayu: Increase the damage of each swipe by 7.5%."
+        "Wind Mage - Protector of Wind - Judgment: Damage increased by 7.5%."
       ]
     }
   },
@@ -17831,7 +17831,7 @@
       ],
       "spec": [
         "Specialty - Heaven's Spirit",
-        "Shooter - Increases amount of Probes by 1 and increases ATK DMG and healing taken of probed allies (except self) by 12%"
+        "Shooter - Probe: Summons 1 additional probe, and increases attack damage and healing received by allies affected by probes by 12% (excludes self)"
       ]
     }
   },
@@ -17885,9 +17885,9 @@
       ],
       "spec": [
         "Specialty - Affinity",
-        "Wind Mage - Arrow and Grace of Zephyrus: Chance to spawn fairies when attacking or attacked increased by 5%",
-        "Wind Mage - Also, an ally that has been affected by Horn of Notus gains resistance to debuff for 5 seconds",
-        "Elementalist - Spirit Link: Breath of Chaos empowers the summon linked by Elemental Link, and its cooldown is reduced by 2 seconds."
+        "Wind Mage - Blessing of Zephyrus: Chance to summon spirit increased by 5%.",
+        "Wind Mage - Horn of Notus: Any allies hit gain immunity to debuffs for 5 seconds",
+        "Elementalist - Breath of Chaos empowers the summon linked by Elemental Link, and its cooldown is reduced by 2 seconds."
       ]
     }
   },
@@ -18865,7 +18865,7 @@
       ],
       "spec": [
         "Specialty - Dark Healing",
-        "Priest - Empowers the attacks of your allies or your summons when healing them."
+        "Priest - Empowers any ally healed by you, and empowers its next attack with Darkness if it's summoned by you."
       ]
     }
   },
@@ -19020,7 +19020,7 @@
         "Elementalist - Seal of Earth: Duration increased by 10 seconds",
         "Elementalist - Pulse of Protection: Cooldown reduced by 3 seconds",
         "Elementalist - Earthen Protection: Radius increased by 500",
-        "Alchemist - Enhanced Conjure Golem: Golem's HP increased by 50%, armor is increased by 50, and is permanently affected by Sparkle of Life. Also periodically heals nearby allies."
+        "Alchemist - Golem's HP increased by 50%, armor is increased by 50, and is permanently affected by Sparkle of Life. Also periodically heals nearby allies."
       ]
     }
   },
@@ -19618,8 +19618,8 @@
       ],
       "spec": [
         "Specialties - Heaven's Blessing",
-        "Lightning Mage - Removes all debuffs when discharge is used and heals 10% max HP for each lightning orb recharged",
-        "Wind Mage - Restore 50% of Maximum HP when using Feather of Aeolus"
+        "Lightning Mage - Discharge: Clears debuffs on you when cast, and heals for 10% HP when you become Charged.",
+        "Wind Mage - Feather of Aeolus: Heals for max HP X 50%."
       ]
     }
   },
@@ -21143,7 +21143,7 @@
       ],
       "spec": [
         "Specialty",
-        "Thunderer - Improved Magnetic Field: When passive is triggered, restores 33% of Magnetic Shield."
+        "Thunderer - When Power of Skies activates, magnetic field is recharged by 33%."
       ]
     }
   },
