@@ -2002,7 +2002,7 @@
         "order": 1,
         "passive": [
             "He insists on using a revolver even though countless firearms now surpass it in terms of power or convenience.",
-            "Attacks ignore 100% of target's armor",
+            "Attacks never miss and ignore 100% of target's armor",
             "Can reload up to 6 bullets",
             "Requires 1 second of reloading when depleted",
             "Attacks deal only 40% damage to boss units"
@@ -2098,7 +2098,7 @@
         "active": [
             "Fires all bullets in a quick succession.",
             "Consumes all bullets",
-            "Each attack deals Attack Damage X 2.5 physical damage"
+            "Each attack deals Attack Damage X 2.25 physical damage"
         ],
         "active_tags": [
             "Hero",
