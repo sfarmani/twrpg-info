@@ -476,8 +476,8 @@
       "damage": 200,
       "mainstat": 30,
       "active": [
-        "On attack, chance to activate Force Blast",
-        "8% chance to deal 500 magic damage in AoE"
+        "On attack, 8% chance to activate Force Blast",
+        "Deals 500 magic damage in an AoE"
       ]
     }
   },
@@ -522,7 +522,7 @@
       "agi": 35,
       "active": [
         "On attack, chance to activate Force Blast",
-        "8% chance to deal 500 magic damage in AoE"
+        "Deals 500 magic damage in an AoE"
       ]
     }
   },
@@ -544,7 +544,7 @@
       "agi": 35,
       "active": [
         "On attack, chance to activate Force Blast",
-        "8% chance to deal 500 magic damage in AoE"
+        "Deals 500 magic damage in an AoE"
       ]
     }
   },
