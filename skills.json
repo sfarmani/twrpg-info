@@ -2142,7 +2142,7 @@
         "active": [
             "\"Draw\" - Gunner",
             "Consumes all bullets",
-            "Attack damage X 12.5 + AGI X 75 magic damage",
+            "Attack damage X 15 + AGI X 90 magic damage",
             "Stuns for 1 second"
         ],
         "active_tags": [

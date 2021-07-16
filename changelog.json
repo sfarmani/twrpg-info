@@ -1,5 +1,52 @@
 [
     {
+        "name": "50u",
+        "notes": [
+            "Released on: July 16th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Damage output increase - Fixed not affecting physical damage",
+            "Combat status - Fixed effects of some items not working properly",
+            "Draconic Skin Rusalka - Fixed active not working poperly",
+            "Armageddon - Fixed active not working",
+            "Mounts - Fixed rider's position on Wings of Death and Shadow Dragon Irbert mounts being set too high",
+            "Damage recorder - fixed related bugs"
+        ],
+        "items": [
+            {
+                "name": "Mana Ancient Mount",
+                "changes": [
+                    "Sound effects volume reduced"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Deadeye (F)",
+                    [
+                        "Damage: 1250% ATK DMG + AGI X 75 → 1500% ATK DMG + AGI X 90"
+                    ]
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Obliterate (F)",
+                    [
+                        "Ki cost removed"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Difficulty system - boss HP no longer resets when a player leaves in the middle of fight",
+            "Removed EXP bonus text in statusboard (long text)"
+        ]
+    },
+    {
         "name": "50r",
         "notes": [
             "Released on: July 10th, 2021",
