@@ -437,7 +437,7 @@
     ],
     "stats": {
       "allstat": 15,
-      "expreceivedpercent": 0.1,
+      "expgainpercent": 0.1,
       "active": [
         "On use, creates a portal that connects to Alfon Village"
       ]
@@ -9363,7 +9363,7 @@
       "allstat": 40,
       "hpregen": 10,
       "mpregen": 10,
-      "expreceivedpercent": 0.1,
+      "expgainpercent": 0.1,
       "passive": [
         "On kill, 8% chance to activate Blessing of Sea",
         "Increases EXP gain by 10% for 10 seconds"
@@ -9551,7 +9551,7 @@
       "agi": 130,
       "int": 50,
       "attackspeedpercent": 0.2,
-      "expreceivedpercent": 0.08
+      "expgainpercent": 0.08
     }
   },
   {
@@ -10338,7 +10338,7 @@
       "agi": 250,
       "int": 130,
       "attackspeedpercent": 0.2,
-      "expreceivedpercent": 0.1
+      "expgainpercent": 0.1
     }
   },
   {
