@@ -163,7 +163,7 @@
     "type": "Pickaxe",
     "color": "AFAFAF",
     "required_by": [
-      "Sturdy Magic Pickaxe"
+      "Mithril Pickaxe"
     ],
     "stats": {
       "active": [
