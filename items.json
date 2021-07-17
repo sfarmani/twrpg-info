@@ -17627,7 +17627,7 @@
         "Deals ((MAIN STAT X 1.5) + AGI) pure damage",
         "Can crit based on user's critical chance",
         "Increases AGI by 27 for 6 seconds (up to 10 stacks)",
-        "At max stacks, increases skill damage by 10%"
+        "At max stacks, duration cannot be extended but increases skill damage by 10%"
       ]
     }
   },
@@ -20104,8 +20104,7 @@
         "Heals (25% max HP) of nearby allies",
         "Increases HP regen by 10% for 3 seconds",
         "Stuns for 1.5 seconds",
-        "Silences for 0.25 seconds",
-        "Reduces enemy movement speed and attack damage by 50% for 0.25 seconds",
+        "Silences and reduces enemy movement speed and attack damage by 50% every 0.25 seconds for 0.25 seconds (lasts 3 seconds)",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
     }
