@@ -8550,7 +8550,7 @@
     "type": "Accessory",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.01,
+    "droprate": 0.005,
     "required_by": [
       "Staff of Plague",
       "Heaven's Fist",
