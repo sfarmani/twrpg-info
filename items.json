@@ -5132,7 +5132,7 @@
       ],
       "spec": [
         "Specialty",
-        "Bow Master - Improved Freezing Shot: Casting Freezing Shot consecutively adds (water affinity X (ATK DMG X 6 + AGI X 12)) bonus damage."
+        "Bow Master - Casting Freezing Shot consecutively adds (water affinity X (ATK DMG X 6 + AGI X 12)) bonus damage."
       ]
     }
   },
@@ -15187,7 +15187,7 @@
       ],
       "spec": [
         "Specialty",
-        "Bow Master - Improved Freezing Shot - Casting it consecutively allows you to fire a more powerful ice arrow."
+        "Bow Master - Casting Freezing Shot consecutively deals (water affinity X (60% ATK DMG + (AGI X 18))) bonus pure damage."
       ]
     }
   },
@@ -18462,7 +18462,7 @@
       ],
       "spec": [
         "Specialties",
-        "Bow Master - Casting it consecutively allows you to fire a more powerful ice arrow.",
+        "Bow Master - Each Freezing Shot cast deals (water affinity X (60% ATK DMG + (AGI X 24))) bonus pure damage",
         "Sniper - Increases Snipe's damage by 30%, and silences sniped target for 1.5 seconds."
       ]
     }
