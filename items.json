@@ -14666,11 +14666,13 @@
       "passive": [
         "Every 14th attack activates Wrath of Blood",
         "Deals (MAIN STAT X 6) magic damage in an AoE",
-        "Heals (225 + (MAIN STAT X 0.45)) HP",
-        "Stuns for 0.375 seconds",
+        "Heals user for (300 + (MAIN STAT X 0.6)) HP",
         "On skill cast, 30% chance to activate Blood Awakening",
-        "Increases AGI by 240, attack speed by 30%, and empowers Wrath of Blood for 7.5 seconds",
+        "Increases AGI by 240 and empowers Wrath of Blood for 7.5 seconds",
         "Every 5th empowered attack, deals (1.25 X MAIN STAT X 6) magic damage in an AoE",
+        "Heals user for (450 + (MAIN STAT X 0.9)) HP",
+        "Heals nearby allies (225 + (MAIN STAT X 0.45)) HP",
+        "Stuns target for 0.375 seconds",
         "Blood Awakening cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
