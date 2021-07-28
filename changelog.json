@@ -1,5 +1,22 @@
 [
     {
+        "name": "50z",
+        "notes": [
+            "Released on: July 28th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Difficulty Scaling - Fixed boss's HP still resetting if a player leaves mid-fight"
+        ],
+        "misc": [
+            "Dev Note",
+            [
+                "This is the last v0.50 unless some serious bugs are found and need to fixed",
+                "v0.51 with new content and event is in development with release expected in early august, there will be no major patches until then"
+            ]
+        ]
+    },
+    {
         "name": "50u",
         "notes": [
             "Released on: July 16th, 2021",
