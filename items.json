@@ -16453,8 +16453,8 @@
       "active": [
         "On use, activates Bloodsoul",
         "Applies a shield of (1000 + 20% max HP) damage over 5 seconds",
-        "Deals (MAIN STAT X 20) magic damage in an AoE",
-        "Restores 1% HP and MP",
+        "Deals (MAIN STAT X 20) pure damage in an AoE",
+        "Heals HP and MP equal to absorbed damage",
         "Cooldown: 20 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -17096,8 +17096,8 @@
       "skilldamagepercent": 0.145,
       "active": [
         "On use, activate Darkness Ray",
-        "Blocks all damage for 3 seconds and reflects it around user (reflects up to 1000000 damage)",
-        "Deals (blocked DMG + (ATK DMG X 5)) pure damage",
+        "Blocks all damage for 3 seconds and reflects it around user",
+        "Deals (DMG TAKEN *before reductions* X 5) pure damage (up to (max HP X 5))",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
