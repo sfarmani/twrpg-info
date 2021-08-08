@@ -16453,7 +16453,7 @@
       "active": [
         "On use, activates Bloodsoul",
         "Applies a shield of (1000 + 20% max HP) damage over 5 seconds",
-        "Deals (MAIN STAT X 20) pure damage in an AoE",
+        "Deals (MAIN STAT X 20) magic damage in an AoE",
         "Heals HP and MP equal to absorbed damage",
         "Cooldown: 20 seconds, cannot be dropped during cooldown"
       ]
@@ -19718,7 +19718,7 @@
       "active": [
         "On use, activates Bloodsoul",
         "Applies a shield of (1500 + 25% max HP) for 5 seconds",
-        "Upon expiration, deals (MAIN STAT X 25) pure damage in an AoE",
+        "Upon expiration, deals (MAIN STAT X 25) magic damage in an AoE",
         "Heals HP and MP equal to absorbed damage",
         "Cooldown: 20 seconds, cannot be dropped during cooldown"
       ]
