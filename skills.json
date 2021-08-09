@@ -3930,9 +3930,9 @@
         "order": 2,
         "active": [
             "Perform a frontal slash aimed toward weak spots.",
-            "Attack damage X 0.3 + AGI X 3 magic damage",
-            "Chance to critically strike target with Assassin's abilities are increased by 12% for 15 seconds",
-            "Stacks up to 3 times"
+            "Attack damage X 0.4 + AGI X 3.5 magic damage",
+            "If an enemy is hit, obtains Shadow Mark for 10 seconds, increasing critical chance by 7% (up to 5 stacks)",
+            "At max stacks, the duration no longer refreshes but resets cooldown on Shadow Slash and Shadow Rush"
         ],
         "active_tags": [
             "Hero",
@@ -3952,6 +3952,7 @@
         "active": [
             "Melds into the darkness to strike the enemy from behind.",
             "Attack damage X 1.25 + AGI X 7.5 magic damage",
+            "Stuns for 1.5 seconds",
             "After cast, increases attack damage by 50% for 6 seconds",
             "Critical strike is guaranteed if used while invisible"
         ],
@@ -3975,8 +3976,9 @@
         "active": [
             "Becomes one with the shadow to avoid being seen by enemies.",
             "Immediately becomes invisible and gains bonus movement speed",
-            "Next attack within 6 seconds inflicts attack damage X 0.9 + AGI X 6 magic damage",
-            "If struck from behind, damage increased by 100%"
+            "Next attack within 6 seconds inflicts attack damage X 1 + AGI X 7.5 magic damage",
+            "Stuns for 1 second",
+            "If struck from behind, damage increased by 75%"
         ],
         "active_tags": [
             "Hero",
@@ -3994,12 +3996,13 @@
         "color": "8080c0",
         "hotkey": "[R]",
         "icon": "AssassinR",
+        "cooldown": 15,
         "order": 5,
         "active": [
             "Throw down a poisonous smoke bomb that confuses enemies.",
             "AGI x 1 magic damage each second for 6 seconds",
             "Reduces damage taken by allies by 40%",
-            "Invisibility transition speed increased by 400% while staying within the smoke"
+            "While staying within the smoke, invisibility transition speed increased by 300% and not interrupted by your attacks"
         ],
         "active_tags": [
             "Hero",
@@ -4018,14 +4021,14 @@
         "color": "6e6eaa",
         "hotkey": "[T]",
         "icon": "AssassinT",
-        "cooldown": 25,
+        "cooldown": 20,
         "order": 6,
         "active": [
             "Summon shadows from all directions and rush toward the target point.",
-            "AGI X 7.5 magic damage",
+            "AGI X 6.5 magic damage",
             "Summons 4 additional shadows to attack",
             "Empowers next Shadow Slash or Ambush",
-            "Duration: 8 seconds"
+            "Lasts 8 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -4046,7 +4049,7 @@
             "\"Both sides of war tend to avoid fighting in the night because 'she' wanders around..\" - A Survivor of Empire War",
             "Each wave deals AGI X 3 damage",
             "Assassination deals AGI X 37.5 damage",
-            "Deals 15% bonus damage for each stack of Shadow Slash on target",
+            "Deals 9% bonus damage for each stack of Shadow Mark",
             "Critically strikes enemies within 250 distance from the center"
         ],
         "active_tags": [
