@@ -1,5 +1,41 @@
 [
     {
+        "name": "51a",
+        "notes": [
+            "Released on: August 12th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Wings of Purification - Fixed passive healing 300 HP instead of intended 1000 HP",
+            "Ring of Lies - Fixed bug related to item drop sound effect",
+            "Crown of Fervor - Fixed description error",
+            "Grim Visage - Fixed a bug that decreased user's HP",
+            "Blazing Soul - Fixed icon showing up incorrectly in crafting menu",
+            "Nephthys, the Engraved Ring - Fixed active effect not wearing off",
+            "Icicle Storm - Fixed not providing skill damage",
+            "Skills - Fixed some skills not requiring any cast conditions in reforged game version"
+        ],
+        "events": [
+            "Summer event",
+            [
+                "Starts in this version, lasts until August 31st",
+                "Event post will be made on forum containing further details"
+            ]
+        ],
+        "heroes": [
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Added new character"
+                ]
+            }
+        ],
+        "misc": [
+            "If late game and higher bosses can't see any player heroes in their arena, they now gain visibility of all player heroes",
+            "If an item is exchanged for Prius Silver Coins without saving, game will now show along with save code text what item was converted for which amount of coins when player saves"
+        ]
+    },
+    {
         "name": "50z",
         "notes": [
             "Released on: July 28th, 2021",
