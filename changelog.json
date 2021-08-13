@@ -1,5 +1,50 @@
 [
     {
+        "name": "51b",
+        "notes": [
+            "Released on: August 13th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Shrine priestess - Fixed DW being castable on enemies",
+            "Shrine priestess - Fixed fire skill of R being activated by red player's character",
+            "Shrine priestess - Fixed T duration not ending",
+            "Shrine priestess - Fixed F not healing allies",
+            "Shrine priestess - Fixed F damage not being linked to W projectile",
+            "Shrine priestess - Fixed D summon being able to enter/exit areas by itself",
+            "Event - Fixed Blue crab party mini-game stopping if ticket was used right after a mini-game ends",
+            "Event - Fixed Shining seashells not being soulbound",
+            "Event - Fixed non-saved items created by Beach ball that were exchanged for Prius silver coins not making exchange text appear on save"
+        ],
+        "events": [
+            "Summer Event",
+            [
+                "Blue Crab Party",
+                [
+                    "Helicopter net radius: 175 → 250",
+                    "Added small light visual effect to Golden Pouch and slightly reduced model size (Collision radius is the same)"
+                ]
+            ]
+        ],
+        "heroes": [
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "TD",
+                    [
+                        "Cooldown removed"
+                    ],
+                    "F",
+                    [
+                        "Damage: (15 X INT X 5) + (INT X 55) → (20 X INT X 4) + (INT X 50)",
+                        "Cast time reduced"
+                    ]
+                ]
+            }
+        ],
+        "misc": []
+    },
+    {
         "name": "51a",
         "notes": [
             "Released on: August 12th, 2021",
