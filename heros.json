@@ -821,5 +821,27 @@
         "spec": [
             "No Specs!"
         ]
+    },
+    {
+        "id": "H08G",
+        "name": "Mina",
+        "heroClass": "Shrine Priestess",
+        "mainstat": "INT",
+        "color": "d3f9f8",
+        "icon": "ShrinePriestessIcon",
+        "wearable": [
+            "Weapon (Shared)",
+            "Weapon (Staff)"
+        ],
+        "role": [
+            "DPS",
+            "Semi-support"
+        ],
+        "description": [
+            "Ranged damage dealer. Has some supportive abilities."
+        ],
+        "spec": [
+            "No Specs!"
+        ]
     }
 ]

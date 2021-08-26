@@ -7587,5 +7587,276 @@
             "Damage",
             "Magic Damage"
         ]
+    },
+    {
+        "id": "A15H",
+        "name": "Go Forth Meeko!",
+        "heroClass": "Shrine Priestess",
+        "color": "b0d9ee",
+        "hotkey": "[D]",
+        "icon": "ShrinePriestessD",
+        "cooldown": 10,
+        "order": 1,
+        "passive": [
+            "Summons a pet fox that follows the Shrine Priestess.",
+            "Meeko will revive after 15 seconds if killed"
+        ],
+        "active": [
+            "Orders Meeko to attack.",
+            "Meeko will rush to target location and leave a Rune of Flame",
+            "The rune will explode after 0.75 seconds, dealing INT X 15 magic damage",
+            "If a Flame Talisman is consumed, this skill can be casted once without incurring cooldown"
+        ]
+    },
+    {
+        "id": "A15Z",
+        "name": "Bullet of Fire",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[D] → [A]",
+        "icon": "ShrineFoxA",
+        "order": 2,
+        "passive": [
+            "Sends forth fire.",
+            "Recharges 1 bullet per 6 seocnds (up to 4)",
+            "If you have any bullets, automatically fires the bullet to deal INT X 20 magic damage"
+        ],
+        "toggle": [
+            "On use, toggles auto-cast"
+        ]
+    },
+    {
+        "id": "A15T",
+        "name": "Spirit of Flame",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[D] → [Q]",
+        "icon": "ShrineFoxQ",
+        "cooldown": 2,
+        "order": 3,
+        "active": [
+            "Becomes a spirit of fire to attach yourself to Shrine Priestess.",
+            "Increases Shrine Priestess' skill damage by 5%",
+            "Becomes invulnerable while active"
+        ]
+    },
+    {
+        "id": "A15V",
+        "name": "Touch of Grace",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[D] → [W]",
+        "icon": "ShrineFoxW",
+        "cooldown": 5,
+        "order": 4,
+        "active": [
+            "Approaches target to heal it",
+            "Heals target's HP by INT X 0.75",
+            "This skill's cooldown is reset if Go Forth! Meeko is cast"
+        ]
+    },
+    {
+        "id": "A15W",
+        "name": "Shield of Grace",
+        "heroClass": "Shrine Priestess",
+        "color": "b0d9ee",
+        "hotkey": "[D] → [E]",
+        "icon": "ShrineFoxE",
+        "cooldown": 20,
+        "order": 5,
+        "active": [
+            "Creates a barrier to absorb damage.",
+            "Creates a barrier absorbing INT X 2 damage for 4 seconds",
+            "If attached to Shrine Priestess, also grants her a barrier"
+        ]
+    },
+    {
+        "id": "A15D",
+        "name": "Water Explosion",
+        "heroClass": "Shrine Priestess",
+        "color": "b0d9ee",
+        "hotkey": "[Q]",
+        "icon": "ShrinePriestessQ",
+        "cooldown": 8,
+        "order": 6,
+        "active": [
+            "Gathers element of water and detonates it.",
+            "INT X 7.5 magic damage",
+            "Charges up to maximum of 3 seconds, increasing damage by 100% and radius per second",
+            "If enhanced by Water Talisman, it will no longer require charging, have bigger AoE, and heal nearby allies' HP by INT X 3"
+        ]
+    },
+    {
+        "id": "A15E",
+        "name": "Water Sphere",
+        "heroClass": "Shrine Priestess",
+        "color": "b0d9ee",
+        "hotkey": "[W]",
+        "icon": "ShrinePriestessW",
+        "cooldown": 4,
+        "order": 7,
+        "active": [
+            "Gathers element of water and fires it.",
+            "INT X 10 magic damage",
+            "Meeko will also send out a small fire, dealing INT X 5 magic damage",
+            "If enhanced by Water Talisman, encapsulates enemies hit in water bubbles for 2.5 seconds, which will cause next skill of Shrine Priestess to deal 15% + INT X 5 bonus damage to target"
+        ]
+    },
+    {
+        "id": "A15K",
+        "name": "Water Pillar",
+        "heroClass": "Shrine Priestess",
+        "color": "b0d9ee",
+        "hotkey": "[E]",
+        "icon": "ShrinePriestessE",
+        "cooldown": 15,
+        "order": 8,
+        "active": [
+            "Gathers element of water and causes an explosion.",
+            "For 2 seconds, pulls targets center and deal INT X 7.5 magic damage per second",
+            "Creates an explosion afterwards, dealing INT X 30 magic damage",
+            "If enhanced with Water Talisman, creates a water pillar for 6 seconds that deals INT X 5 magic damage per second and knocks up nearby allies"
+        ]
+    },
+    {
+        "id": "A15L",
+        "name": "Form Talismans",
+        "heroClass": "Shrine Priestess",
+        "color": "b0d9ee",
+        "hotkey": "[R]",
+        "icon": "ShrinePriestessR",
+        "cooldown": 15,
+        "order": 9,
+        "active": [
+            "Forms talismans that can be used to enhance skills.",
+            "Forms 2 Water Talismans and 1 Fire Talisman",
+            "If you have a Water Talisman when casting skill, it is consumed automatically to enhance the skill",
+            "If you have a Fire Talisman when casting skill, you can additionally cast a fire version of the skill within 4 seconds",
+            "After casting Form Talismans, you can activate Water Dome once"
+        ]
+    },
+    {
+        "id": "A15M",
+        "name": "Water Dome",
+        "heroClass": "Shrine Priestess",
+        "color": "b0d9ee",
+        "hotkey": "[R] → [R]",
+        "icon": "ShrinePriestessR_R",
+        "cooldown": 10,
+        "order": 10,
+        "active": [
+            "Forms a dome made of water.",
+            "Forms 2 Water Talismans and 1 Fire Talisman",
+            "Creates a dome of water that lasts for 20 seconds at target location",
+            "Allies within the dome are healed for INT X 0.2 HP per second",
+            "Allies within the dome receive 15% water affinity and have damage taken reduced by 20%"
+        ]
+    },
+    {
+        "id": "A15O",
+        "name": "Spirit Fusion",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[T]",
+        "icon": "ShrinePriestessT",
+        "cooldown": 60,
+        "order": 11,
+        "active": [
+            "Obtains a strong power by combining with Meeko.",
+            "For 12 seconds, your skill damage is increased by 25% + 0.5% X (Water Affinity + Fire Affinity)",
+            "Your skills are converted to fire skills while Spirit Fusion is active"
+        ]
+    },
+    {
+        "id": "A15C",
+        "name": "Spirit Shift",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[T] → [D]",
+        "icon": "ShrinePriestessT_D",
+        "order": 12,
+        "active": [
+            "Turns into a spirit to quickly move to target location.",
+            "Deals INT X 10 magic damage to nearby enemies",
+            "While fully shifted, becomes invulnerable to harmful effects",
+            "Can be cast 1 additional time for each fire skill casted"
+        ]
+    },
+    {
+        "id": "A15G",
+        "name": "Fire Sphere",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[T] → [Q]",
+        "icon": "ShrinePriestessT_Q",
+        "cooldown": 5,
+        "order": 13,
+        "active": [
+            "Gathers element of fire and detonates it.",
+            "Deals INT X 40 magic damage to nearby enemies"
+        ]
+    },
+    {
+        "id": "A15F",
+        "name": "Fire Sphere",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[T] → [W]",
+        "icon": "ShrinePriestessT_W",
+        "cooldown": 3,
+        "order": 14,
+        "active": [
+            "Gathers element of water and fires it.",
+            "INT X 15 magic damage",
+            "Meeko will also send out a small fire, dealing INT X 5 magic damage",
+            "Applies Mark of Flame on targets hit for 4 seconds, making next Go Forth Meeko! or Spirit Shift consume the mark and deal 50% more damage"
+        ]
+    },
+    {
+        "id": "A15J",
+        "name": "Fire Pillar",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[T] → [E]",
+        "icon": "ShrinePriestessT_E",
+        "cooldown": 8,
+        "order": 15,
+        "active": [
+            "Gathers element of fire to create pillars of fire in a line.",
+            "Each pillar delas INT X 30 magic damage",
+            "Stuns targets hit for 1.5 seconds"
+        ]
+    },
+    {
+        "id": "A15N",
+        "name": "Fire Dome",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[T] → [R]",
+        "icon": "ShrinePriestessT_R",
+        "cooldown": 10,
+        "order": 16,
+        "active": [
+            "Forms a barrier made of fire.",
+            "Converts summoned Water Dome into Fire Dome",
+            "Enemies within the dome receive INT X 2 magic damage per second",
+            "Allies within the dome receive 15% fire affinity"
+        ]
+    },
+    {
+        "id": "A15S",
+        "name": "Dance of Fire",
+        "heroClass": "Shrine Priestess",
+        "color": "eebfb0",
+        "hotkey": "[F]",
+        "icon": "ShrinePriestessF",
+        "cooldown": 120,
+        "order": 17,
+        "active": [
+            "\"Feel the wrath of Fox God.\" - Shrine Priestess",
+            "Summons the Fox God to cause 4 fire explosions and create 5 Fire Talismans",
+            "Each explosion deals INT X 20 magic damage and heals allies for INT X 2",
+            "On expiration, deals INT X 50 magic damage"
+        ]
     }
 ]
