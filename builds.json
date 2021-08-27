@@ -325,9 +325,7 @@
             "Eye of the Reaper": [
                 "Mask of Demigod"
             ],
-            "Ring of Frozen Soul": [
-                "Ring of Fate"
-            ],
+            "Ring of Frozen Soul": [],
             "Nevedium, the Armor of Demonblood": [
                 "Athanasia, the Armor of the Reaper"
             ],
@@ -1122,9 +1120,9 @@
         "version": "44b",
         "items": {
             "Ethenos, the Staff of Chaos": [],
-            "Prophetia, the Greater Source of Mana": [],
-            "Ring of Divine Winds": [
-                "Ring of Frozen Soul"
+            "Prophetia, the Origin of Knowledge": [],
+            "Ring of Frozen Soul": [
+                "Ring of Divine Winds"
             ],
             "Thanatos, the Robe of Hell": [],
             "Wings of Frost Lord": []
@@ -1150,8 +1148,8 @@
             "Jupiter, the Robe of Heavens": [
                 "Robe of Archlich"
             ],
-            "Soul Devourer": [
-                "Protection of the Fairies",
+            "Protection of the Fairies": [
+                "Wings of Immortal",
                 "Brave Heart"
             ]
         }
