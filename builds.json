@@ -319,7 +319,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
-        "version": "38b",
+        "version": "51b",
         "items": {
             "Cosmic Reaper": [],
             "Eye of the Reaper": [
@@ -1133,7 +1133,7 @@
         "type": "Support",
         "order": 2,
         "stat": "INT",
-        "version": "44b",
+        "version": "51b",
         "items": {
             "Staff of Plague": [
                 "Armageddon",
