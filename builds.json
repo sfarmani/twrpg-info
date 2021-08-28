@@ -116,7 +116,8 @@
                 "Harmonia, the Sparkle of Life"
             ],
             "Prophetia, the Origin of Knowledge": [],
-            "Nebula Rose": [
+            "Ring of Despair": [
+                "Nebula Rose",
                 "Horn of God"
             ],
             "Hades, the Armor of Despair": [],
@@ -136,9 +137,13 @@
             "This build is meant for larger team presence"
         ],
         "items": {
-            "Benziena, the Earthen Heart": [],
-            "Hood of Apocalypse": [],
-            "Nebula Rose": [],
+            "Harmonia, the Sparkle of Life": [],
+            "Hood of Apocalypse": [
+                "Eye of the Flame Lord"
+            ],
+            "Nebula Rose": [
+                "Horn of God"
+            ],
             "Hades, the Armor of Despair": [],
             "Brave Heart": []
         }
@@ -156,9 +161,7 @@
             "Use Ring of the One for T combo playstyle"
         ],
         "items": {
-            "Astra, the Sword of Moonlight": [
-                "Splitting of the Sky and Earth"
-            ],
+            "Astra, the Sword of Moonlight": [],
             "Horn of Demon God": [
                 "Radiance of the One"
             ],
