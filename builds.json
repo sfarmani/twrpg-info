@@ -763,45 +763,37 @@
     },
     {
         "for": "Thunderer",
-        "type": "DPS / situational",
+        "type": "DoT",
         "order": 1,
         "stat": "AGI",
-        "version": "38b",
-        "description": [
-            "Use Bloodseeker Plates for a more tankier armor option"
-        ],
+        "version": "51b",
+        "guidelink": "https://docs.google.com/document/d/1O33M0XcWHd_dprsXT0s5BBS5KIEl-4wO5YhgsNz-gsg",
         "items": {
-            "Espishu, the Sword of Chaos": [
-                "Winter's Heart"
-            ],
+            "Espishu, the Sword of Chaos": [],
             "Radiance of the One": [],
-            "Ring of Insanity": [],
-            "Nevedium, the Armor of Demonblood": [
-                "Creation of the Sky and Earth",
-                "Bloodseeker Plates"
+            "Ring of Insanity": [
+                "Demonic Fist"
             ],
-            "Cape of Deep Abyss": []
+            "Vest of Divine Winds": [],
+            "Cape of Deep Abyss": [
+                "Ruler of the Skies"
+            ]
         }
     },
     {
         "for": "Thunderer",
-        "type": "Burst DPS / situational",
+        "type": "Burst DPS",
         "order": 2,
         "stat": "AGI",
-        "version": "38b",
-        "description": [
-            "Use Bloodseeker Plates for a more tankier armor option"
-        ],
+        "version": "51b",
+        "guidelink": "https://docs.google.com/document/d/1O33M0XcWHd_dprsXT0s5BBS5KIEl-4wO5YhgsNz-gsg",
         "items": {
-            "Espishu, the Sword of Chaos": [
-                "Winter's Heart"
-            ],
+            "Astra, the Sword of Moonlight": [],
             "Crown of Absolute Zero": [],
-            "Ring of Fate": [],
-            "Nevedium, the Armor of Demonblood": [
-                "Creation of the Sky and Earth",
-                "Bloodseeker Plates"
+            "Ring of Insanity": [
+                "Ring of the One"
             ],
+            "Nevedium, the Armor of Demonblood": [],
             "Ruler of the Skies": []
         }
     },
@@ -869,19 +861,19 @@
         "stat": "INT",
         "version": "51b",
         "guidelink": "https://docs.google.com/document/d/1xU6mbtDapoO8pdKIPZU6KkZrOExuD7sLMGWxLXVn5EA",
+        "description": [
+            "Archangel wings and Crimson Hatred are \"bridge\" items before reach agareth and should not be main items",
+            "Accessory progression: Mana Heart Frost → Seal of Deceiver → Latea, the Ring of Overlord → Ring of the One"
+        ],
         "items": {
             "Ethenos, the Staff of Chaos": [
                 "Crimson Hatred"
             ],
-            "Prophetia, the Origin of Knowledge": [
-                "Crown of Absolute Zero"
-            ],
+            "Prophetia, the Origin of Knowledge": [],
             "Ring of the One": [
                 "Ring of Fate"
             ],
-            "Thanatos, the Robe of Hell": [
-                "Winter Robe"
-            ],
+            "Thanatos, the Robe of Hell": [],
             "Wings of Frost Lord": [
                 "Archangel Wings"
             ]
@@ -1158,10 +1150,11 @@
         "type": "Support",
         "order": 1,
         "stat": "INT",
-        "version": "38b",
+        "version": "51b",
         "description": [
             "Swap between Ring of Hope and Bell of Light for different situations",
-            "Use Grim Heart until Protection of the Fairies"
+            "Use Grim Heart until Protection of the Fairies, then make Wings of Immortal",
+            "Protection of the Fairies will help farming the tower/aga"
         ],
         "items": {
             "Chaos Dagger": [],
@@ -1170,10 +1163,11 @@
             ],
             "Ring of Hope": [
                 "Ring of Fate",
-                "Bell of Light"
+                "Ring of Divine Winds"
             ],
             "Jupiter, the Robe of Heavens": [],
-            "Protection of the Fairies": [
+            "Wings of Immortal": [
+                "Protection of the Fairies",
                 "Grim Heart"
             ]
         }
