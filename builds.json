@@ -1068,8 +1068,7 @@
             "Eye of the Flame Lord really should be on priest, but if there are no priests, then its good to have one",
             "Both Druid and Jupiter are great, but each shine in different areas",
             "Jupiter: Great for non-targetted AoE healing/stun, has a long CD",
-            "Druid: Great for precise, single-target heals (esp snipers), harder to use",
-            "Only reason Archlich would be made is because of the fun combos with Archlich and Shackles"
+            "Druid: Great for precise, single-target heals (esp snipers), harder to use"
         ],
         "items": {
             "Armageddon": [
@@ -1082,7 +1081,8 @@
                 "Horn of God"
             ],
             "Thanatos, the Robe of Hell": [
-                "Jupiter, the Robe of Heavens"
+                "Jupiter, the Robe of Heavens",
+                "Druid's Mantle"
             ],
             "Wings of Immortal": [
                 "Protection of the Fairies",
