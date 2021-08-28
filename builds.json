@@ -154,6 +154,7 @@
         "order": 1,
         "stat": "STR",
         "version": "51b",
+        "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=6035",
         "description": [
             "Use Meacronacer until Ender",
             "Use Hades if no one else on your team has it for debuffs",
@@ -864,9 +865,7 @@
         "order": 1,
         "stat": "INT",
         "version": "51b",
-        "guidelink": [
-            "https://docs.google.com/document/d/1xU6mbtDapoO8pdKIPZU6KkZrOExuD7sLMGWxLXVn5EA"
-        ],
+        "guidelink": "https://docs.google.com/document/d/1xU6mbtDapoO8pdKIPZU6KkZrOExuD7sLMGWxLXVn5EA",
         "items": {
             "Ethenos, the Staff of Chaos": [
                 "Crimson Hatred"
