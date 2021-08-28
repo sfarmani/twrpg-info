@@ -863,7 +863,10 @@
         "type": "DPS with support",
         "order": 1,
         "stat": "INT",
-        "version": "38b",
+        "version": "51b",
+        "guidelink": [
+            "https://docs.google.com/document/d/1xU6mbtDapoO8pdKIPZU6KkZrOExuD7sLMGWxLXVn5EA"
+        ],
         "items": {
             "Ethenos, the Staff of Chaos": [
                 "Crimson Hatred"
@@ -871,9 +874,8 @@
             "Prophetia, the Origin of Knowledge": [
                 "Crown of Absolute Zero"
             ],
-            "Ring of Fate": [
-                "Latea, the Ring of Overlord",
-                "Seal of Deceiver"
+            "Ring of the One": [
+                "Ring of Fate"
             ],
             "Thanatos, the Robe of Hell": [
                 "Winter Robe"
