@@ -106,17 +106,21 @@
         "type": "Debuff",
         "order": 2,
         "stat": "INT",
-        "version": "41d",
+        "version": "51b",
         "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=4399",
         "description": [
             "This build is meant for getting the most out of R - E while maintaining a good presence"
         ],
         "items": {
-            "Benziena, the Earthen Heart": [],
+            "Armageddon": [
+                "Harmonia, the Sparkle of Life"
+            ],
             "Prophetia, the Origin of Knowledge": [],
-            "Ring of Despair": [],
+            "Nebula Rose": [
+                "Horn of God"
+            ],
             "Hades, the Armor of Despair": [],
-            "Brave Heart": []
+            "Soul Devourer": []
         }
     },
     {
@@ -146,7 +150,8 @@
         "description": [
             "Use Meacronacer until Ender",
             "Use Hades if no one else on your team has it for debuffs",
-            "Use Plates of Lightning until Felspike or Hades as Hellspike consumes your HP (unlike Felspike)"
+            "Use Plates of Lightning until Felspike or Hades as Hellspike consumes your HP (unlike Felspike)",
+            "Use Ring of the One for T combo playstyle"
         ],
         "items": {
             "Astra, the Sword of Moonlight": [
@@ -156,7 +161,8 @@
                 "Radiance of the One"
             ],
             "Demonic Fist": [
-                "Ring of Insanity"
+                "Ring of Insanity",
+                "Ring of the One"
             ],
             "Felspike Armor": [
                 "Hades, the Armor of Despair"
