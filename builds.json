@@ -142,24 +142,24 @@
         "type": "Pure DPS",
         "order": 1,
         "stat": "STR",
-        "version": "38d",
+        "version": "51b",
         "description": [
             "Use Meacronacer until Ender",
             "Use Hades if no one else on your team has it for debuffs",
             "Use Plates of Lightning until Felspike or Hades as Hellspike consumes your HP (unlike Felspike)"
         ],
         "items": {
-            "The Ender": [
-                "Tiberius, the Spear of Lightning",
-                "Aglaia, the Spear of Heavenly Flows"
+            "Astra, the Sword of Moonlight": [
+                "Splitting of the Sky and Earth"
             ],
             "Horn of Demon God": [
                 "Radiance of the One"
             ],
-            "Ring of Insanity": [],
-            "Hades, the Armor of Despair": [
-                "Felspike Armor",
-                "Plates of Lightning"
+            "Demonic Fist": [
+                "Ring of Insanity"
+            ],
+            "Felspike Armor": [
+                "Hades, the Armor of Despair"
             ],
             "Wings of Blood Lord": []
         }
@@ -292,7 +292,7 @@
         "type": "DPS",
         "order": 1,
         "stat": "STR",
-        "version": "41b",
+        "version": "51b",
         "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=6814",
         "description": [
             "The first items are for DPS purposes. In most of the cases below, the second item is used until you get to the first one.",
@@ -386,39 +386,89 @@
     },
     {
         "for": "Hermit",
-        "type": "Support DPS",
+        "type": "STR Full Support",
         "order": 1,
-        "stat": "AGI",
-        "version": "38b",
+        "stat": "STR",
+        "version": "51b",
         "guidelink": "https://docs.google.com/document/d/1xJGcGKLWDBu8iDUAcjknk1QRK34MYfPMnFRphjuLo3g/edit?usp=sharing",
         "description": [
-            "For weapon, choose something for the situation. In most cases Espishu should be fine, but there are cases where more breaks or more MR is needed",
-            "Helms are also situational, as each one provides a different set of supports along with good DPS.",
-            "To go with full support you can swtich to STR and use Spirit of Protector",
-            "The same can be said about the armors."
+            "For more heals, look at the INT Full Support build"
         ],
         "items": {
-            "Espishu, the Sword of Chaos": [
-                "Eternal Winter",
-                "Heaven's Door"
-            ],
+            "Eternal Winter": [],
             "Crown of Serenity": [
-                "Crown of Absolute Zero",
-                "Radiance of the One",
                 "Spirit of Protector"
             ],
-            "Ring of Hope": [
-                "Ring of Insanity"
+            "Ring of Hope": [],
+            "Harmony of Sky and Earth": [],
+            "Brave Heart": [
+                "Protection of the Fairies"
+            ]
+        }
+    },
+    {
+        "for": "Hermit",
+        "type": "INT Full Support",
+        "order": 2,
+        "stat": "INT",
+        "version": "51b",
+        "guidelink": "https://docs.google.com/document/d/1xJGcGKLWDBu8iDUAcjknk1QRK34MYfPMnFRphjuLo3g/edit?usp=sharing",
+        "description": [
+            "For more protection, look at the STR Full Support build",
+            "If your team uses serenity, then you can switch to another helm"
+        ],
+        "items": {
+            "Harmonia, the Sparkle of Life": [],
+            "Crown of Serenity": [
+                "Hood of Apocalypse"
             ],
-            "Vest of Storm": [
-                "Harmony of Sky and Earth",
-                "Plates of Lightning",
+            "Ring of Hope": [],
+            "Jupiter, the Robe of Heavens": [],
+            "Brave Heart": [
+                "Protection of the Fairies"
+            ]
+        }
+    },
+    {
+        "for": "Hermit",
+        "type": "AGI Support/DPS Hybrid",
+        "order": 3,
+        "stat": "AGI",
+        "version": "51b",
+        "description": [
+            "For full support builds, check out the first two builds",
+            "Hermit doesn't have much DPS so a hybrid build works better for me.",
+            "The point of this build is to be able to switch between",
+            "support and dps without switching items and still being decent at both"
+        ],
+        "items": {
+            "Eternal Winter": [],
+            "Crown of Serenity": [],
+            "Ring of Hope": [],
+            "Vest of Divine Winds": [
                 "Frostshard Armor"
             ],
-            "Protection of the Fairies": [
-                "Brave Heart",
-                "Wings of Immortal"
-            ]
+            "Protection of the Fairies": []
+        }
+    },
+    {
+        "for": "Hermit",
+        "type": "AGI Full DPS",
+        "order": 4,
+        "stat": "AGI",
+        "version": "51b",
+        "description": [
+            "For full support builds, check out the first two builds"
+        ],
+        "items": {
+            "Cosmic Reaper": [],
+            "Radiance of the One": [],
+            "Ring of Insanity": [
+                "Ring of Hope",
+                "Demonic Fist"
+            ],
+            "Vest of Divine Winds": [],
+            "Ruler of the Skies": []
         }
     },
     {
@@ -447,19 +497,19 @@
         "type": "Burst",
         "order": 1,
         "stat": "AGI",
-        "version": "38b",
-        "description": [
-            "Eye of the Reaper for 10 - 15% more burst per T"
-        ],
+        "version": "51b",
+        "description": [],
         "items": {
             "Cosmic Reaper": [
                 "The Ender"
             ],
-            "Radiance of the One": [
-                "Eye of the Reaper"
+            "Eye of the Reaper": [
+                "Radiance of the One"
             ],
-            "Ring of Fate": [],
-            "Vest of Storm": [],
+            "Ring of Insanity": [
+                "Ring of Fate"
+            ],
+            "Vest of Divine Winds": [],
             "Wings of Night Lord": []
         }
     },
@@ -635,14 +685,17 @@
         "description": [
             "Use Halo for AMS when needed",
             "Only make Cape of Deep Abyss if no one else on your team has it or Ring of Despair (however, always build Cloak of the Fallen Shadows)",
-            "Use Wings of Blood Lord for pre-tower bosses and Death Fiend as its useful in those situations"
+            "Use Wings of Blood Lord for pre-tower bosses and Death Fiend as its useful in those situations",
+            "Using Wings of Flame Lord is a MUST when using Astra",
+            "Build Lightning god until eye of the reaper"
         ],
         "items": {
             "Espishu, the Sword of Chaos": [
-                "The Ender"
+                "The Ender",
+                "Astra, the Sword of Moonlight"
             ],
-            "Horn of Demon God": [
-                "Eye of the Reaper",
+            "Eye of the Reaper": [
+                "Horn of Lightning God",
                 "Halo of Judgment"
             ],
             "Demonic Fist": [
@@ -770,7 +823,7 @@
         "type": "DPS with support",
         "order": 1,
         "stat": "INT",
-        "version": "40b",
+        "version": "51b",
         "guidelink": "https://www.twrpg.com/viewtopic.php?f=4&t=6452",
         "description": [
             "Attack speed is important for Alchemist, especially early game when you don't have Ring of Divine winds yet",
@@ -968,13 +1021,12 @@
             "Horn of Demon God": [
                 "Crown of Absolute Zero"
             ],
-            "Latea, the Ring of Overlord": [
-                "Ring of Fate",
+            "Ring of the One": [
                 "Ring of Frozen Soul",
                 "Nebula Rose"
             ],
             "Thanatos, the Robe of Hell": [
-                "Diana, the Robe of Holy Maiden"
+                "Jupiter, the Robe of Heavens"
             ],
             "Storm": [
                 "Soul Devourer"
@@ -1010,7 +1062,7 @@
         "type": "Support",
         "order": 1,
         "stat": "INT",
-        "version": "44b",
+        "version": "51b",
         "description": [
             "If you have enough healing use Armageddon to enhance team burst",
             "Eye of the Flame Lord really should be on priest, but if there are no priests, then its good to have one",
@@ -1020,22 +1072,21 @@
             "Only reason Archlich would be made is because of the fun combos with Archlich and Shackles"
         ],
         "items": {
-            "Harmonia, the Sparkle of Life": [
-                "Armageddon"
+            "Armageddon": [
+                "Harmonia, the Sparkle of Life"
             ],
             "Hood of Apocalypse": [
                 "Eye of the Flame Lord"
             ],
-            "Horn of God": [
-                "Ring of Time",
-                "Shackles of Heaven"
+            "Ring of Despair": [
+                "Horn of God"
             ],
-            "Jupiter, the Robe of Heavens": [
-                "Druid's Mantle",
-                "Robe of Archlich"
+            "Thanatos, the Robe of Hell": [
+                "Jupiter, the Robe of Heavens"
             ],
             "Wings of Immortal": [
-                "Protection of the Fairies"
+                "Protection of the Fairies",
+                "Soul Devourer"
             ]
         }
     },
