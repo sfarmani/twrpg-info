@@ -159,10 +159,12 @@
             "Use Meacronacer until Ender",
             "Use Hades if no one else on your team has it for debuffs",
             "Use Plates of Lightning until Felspike or Hades as Hellspike consumes your HP (unlike Felspike)",
-            "Use Ring of the One for T combo playstyle"
+            "Use Ring of the One and splitting for T combo playstyle"
         ],
         "items": {
-            "Astra, the Sword of Moonlight": [],
+            "Astra, the Sword of Moonlight": [
+                "Splitting of the Sky and Earth"
+            ],
             "Horn of Demon God": [
                 "Radiance of the One"
             ],
@@ -404,7 +406,8 @@
         "version": "51b",
         "guidelink": "https://docs.google.com/document/d/1xJGcGKLWDBu8iDUAcjknk1QRK34MYfPMnFRphjuLo3g/edit?usp=sharing",
         "description": [
-            "For more heals, look at the INT Full Support build"
+            "For more heals, look at the INT Full Support build",
+            "If your team uses serenity, then you can switch to another helm"
         ],
         "items": {
             "Eternal Winter": [],
@@ -475,8 +478,8 @@
         "items": {
             "Cosmic Reaper": [],
             "Radiance of the One": [],
-            "Ring of Insanity": [
-                "Ring of Hope",
+            "Ring of Hope": [
+                "Ring of Insanity",
                 "Demonic Fist"
             ],
             "Vest of Divine Winds": [],
