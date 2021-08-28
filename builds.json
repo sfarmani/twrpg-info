@@ -696,7 +696,8 @@
         "type": "DPS / buffer",
         "order": 1,
         "stat": "AGI",
-        "version": "38b",
+        "version": "51b",
+        "guidelink": "https://www.twrpg.com/viewtopic.php?f=4&t=6886",
         "description": [
             "Use Halo for AMS when needed",
             "Only make Cape of Deep Abyss if no one else on your team has it or Ring of Despair (however, always build Cloak of the Fallen Shadows)",
