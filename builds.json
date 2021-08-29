@@ -513,7 +513,6 @@
         "order": 1,
         "stat": "AGI",
         "version": "51b",
-        "description": [],
         "items": {
             "Cosmic Reaper": [
                 "The Ender"
@@ -521,8 +520,8 @@
             "Eye of the Reaper": [
                 "Radiance of the One"
             ],
-            "Ring of Insanity": [
-                "Ring of Fate"
+            "Ring of Fate": [
+                "Ring of Insanity"
             ],
             "Vest of Divine Winds": [],
             "Wings of Night Lord": []
