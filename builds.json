@@ -166,8 +166,7 @@
         "description": [
             "Use Meacronacer until Ender",
             "Use Hades if no one else on your team has it for debuffs",
-            "Use Plates of Lightning until Felspike or Hades as Hellspike consumes your HP (unlike Felspike)",
-            "Use Ring of the One and splitting for T combo playstyle"
+            "Use Plates of Lightning until Felspike or Hades as Hellspike consumes your HP (unlike Felspike)"
         ],
         "items": {
             "Astra, the Sword of Moonlight": [],
@@ -209,7 +208,7 @@
                 "Ring of Fate"
             ],
             "Felspike Armor": [],
-            "Wings of Frost Lord": []
+            "Wings of Flame Lord": []
         }
     },
     {
