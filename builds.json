@@ -92,7 +92,9 @@
         "order": 1,
         "stat": "STR",
         "version": "41d",
-        "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=4399",
+        "guidelink": [
+            "https://twrpg.com/viewtopic.php?f=4&t=4399"
+        ],
         "items": {
             "Splitting of the Sky and Earth": [],
             "Crown of Extreme Anger": [],
@@ -107,7 +109,9 @@
         "order": 2,
         "stat": "INT",
         "version": "51b",
-        "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=4399",
+        "guidelink": [
+            "https://twrpg.com/viewtopic.php?f=4&t=4399"
+        ],
         "description": [
             "This build is meant for getting the most out of R - E while maintaining a good presence"
         ],
@@ -132,7 +136,9 @@
         "order": 3,
         "stat": "INT",
         "version": "41d",
-        "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=4399",
+        "guidelink": [
+            "https://twrpg.com/viewtopic.php?f=4&t=4399"
+        ],
         "description": [
             "This build is meant for larger team presence"
         ],
@@ -154,7 +160,9 @@
         "order": 1,
         "stat": "STR",
         "version": "51b",
-        "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=6035",
+        "guidelink": [
+            "https://twrpg.com/viewtopic.php?f=4&t=6035"
+        ],
         "description": [
             "Use Meacronacer until Ender",
             "Use Hades if no one else on your team has it for debuffs",
@@ -162,20 +170,46 @@
             "Use Ring of the One and splitting for T combo playstyle"
         ],
         "items": {
-            "Astra, the Sword of Moonlight": [
-                "Splitting of the Sky and Earth"
-            ],
+            "Astra, the Sword of Moonlight": [],
             "Horn of Demon God": [
                 "Radiance of the One"
             ],
             "Demonic Fist": [
-                "Ring of Insanity",
-                "Ring of the One"
+                "Ring of Insanity"
             ],
             "Felspike Armor": [
                 "Hades, the Armor of Despair"
             ],
             "Wings of Blood Lord": []
+        }
+    },
+    {
+        "for": "Fighter",
+        "type": "Burst T Combo",
+        "order": 2,
+        "stat": "STR",
+        "version": "51b",
+        "guidelink": [
+            "https://cafe.naver.com/twrpgn/2049559",
+            "https://cafe.naver.com/twrpgn/2049830"
+        ],
+        "description": [
+            "This build is mainly used by korean players.",
+            "It utilizes [T] Combo playstyle",
+            "Ring of the One is a bit of a meme for this build but still viable",
+            "Splitting is a bridge item until Astra"
+        ],
+        "items": {
+            "Astra, the Sword of Moonlight": [
+                "Splitting of the Sky and Earth"
+            ],
+            "Crown of Absolute Zero": [],
+            "Ring of Frozen Soul": [
+                "Ring of the One",
+                "Ring of Fate"
+            ],
+            "Felspike Armor": [],
+            "Wings of Frost Lord": []
         }
     },
     {
@@ -242,7 +276,9 @@
         "order": 1,
         "stat": "STR",
         "version": "41b",
-        "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=3341",
+        "guidelink": [
+            "https://twrpg.com/viewtopic.php?f=4&t=3341"
+        ],
         "description": [
             "For max DPS it is recommended to go with the first items",
             "The alternate items are for bursting options, as well as defense / support if your team is lacking it",
@@ -307,7 +343,9 @@
         "order": 1,
         "stat": "STR",
         "version": "51b",
-        "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=6814",
+        "guidelink": [
+            "https://twrpg.com/viewtopic.php?f=4&t=6814"
+        ],
         "description": [
             "The first items are for DPS purposes. In most of the cases below, the second item is used until you get to the first one.",
             "In other cases they are for supporting when needed"
@@ -354,7 +392,9 @@
         "order": 1,
         "stat": "AGI",
         "version": "38d",
-        "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=6390",
+        "guidelink": [
+            "https://twrpg.com/viewtopic.php?f=4&t=6390"
+        ],
         "description": [
             "Ring of the One is easier to make than Ring of Frozen Soul and really solid until you reach Agareth",
             "Mask of Demigod - Getting used to active timing is a bit difficult but it gives high burst.",
@@ -404,7 +444,9 @@
         "order": 1,
         "stat": "STR",
         "version": "51b",
-        "guidelink": "https://docs.google.com/document/d/1xJGcGKLWDBu8iDUAcjknk1QRK34MYfPMnFRphjuLo3g/edit?usp=sharing",
+        "guidelink": [
+            "https://docs.google.com/document/d/1xJGcGKLWDBu8iDUAcjknk1QRK34MYfPMnFRphjuLo3g/edit?usp=sharing"
+        ],
         "description": [
             "For more heals, look at the INT Full Support build",
             "If your team uses serenity, then you can switch to another helm"
@@ -427,7 +469,9 @@
         "order": 2,
         "stat": "INT",
         "version": "51b",
-        "guidelink": "https://docs.google.com/document/d/1xJGcGKLWDBu8iDUAcjknk1QRK34MYfPMnFRphjuLo3g/edit?usp=sharing",
+        "guidelink": [
+            "https://docs.google.com/document/d/1xJGcGKLWDBu8iDUAcjknk1QRK34MYfPMnFRphjuLo3g/edit?usp=sharing"
+        ],
         "description": [
             "For more protection, look at the STR Full Support build",
             "If your team uses serenity, then you can switch to another helm"
@@ -696,7 +740,9 @@
         "order": 1,
         "stat": "AGI",
         "version": "51b",
-        "guidelink": "https://www.twrpg.com/viewtopic.php?f=4&t=6886",
+        "guidelink": [
+            "https://www.twrpg.com/viewtopic.php?f=4&t=6886"
+        ],
         "description": [
             "Use Halo for AMS when needed",
             "Only make Cape of Deep Abyss if no one else on your team has it or Ring of Despair (however, always build Cloak of the Fallen Shadows)",
@@ -767,7 +813,9 @@
         "order": 1,
         "stat": "AGI",
         "version": "51b",
-        "guidelink": "https://docs.google.com/document/d/1O33M0XcWHd_dprsXT0s5BBS5KIEl-4wO5YhgsNz-gsg",
+        "guidelink": [
+            "https://docs.google.com/document/d/1O33M0XcWHd_dprsXT0s5BBS5KIEl-4wO5YhgsNz-gsg"
+        ],
         "items": {
             "Espishu, the Sword of Chaos": [],
             "Radiance of the One": [],
@@ -786,7 +834,9 @@
         "order": 2,
         "stat": "AGI",
         "version": "51b",
-        "guidelink": "https://docs.google.com/document/d/1O33M0XcWHd_dprsXT0s5BBS5KIEl-4wO5YhgsNz-gsg",
+        "guidelink": [
+            "https://docs.google.com/document/d/1O33M0XcWHd_dprsXT0s5BBS5KIEl-4wO5YhgsNz-gsg"
+        ],
         "items": {
             "Astra, the Sword of Moonlight": [],
             "Crown of Absolute Zero": [],
@@ -831,7 +881,9 @@
         "order": 1,
         "stat": "INT",
         "version": "51b",
-        "guidelink": "https://www.twrpg.com/viewtopic.php?f=4&t=6452",
+        "guidelink": [
+            "https://www.twrpg.com/viewtopic.php?f=4&t=6452"
+        ],
         "description": [
             "Attack speed is important for Alchemist, especially early game when you don't have Ring of Divine winds yet",
             "Use this weapon progression to counter the lack of attack speed: Staff of Contagion → Staff of Domination → Staff of Plague",
@@ -860,7 +912,9 @@
         "order": 1,
         "stat": "INT",
         "version": "51b",
-        "guidelink": "https://docs.google.com/document/d/1xU6mbtDapoO8pdKIPZU6KkZrOExuD7sLMGWxLXVn5EA",
+        "guidelink": [
+            "https://docs.google.com/document/d/1xU6mbtDapoO8pdKIPZU6KkZrOExuD7sLMGWxLXVn5EA"
+        ],
         "description": [
             "Archangel wings and Crimson Hatred are \"bridge\" items before reach agareth and should not be main items",
             "Accessory progression: Mana Heart Frost → Seal of Deceiver → Latea, the Ring of Overlord → Ring of the One"
@@ -1019,7 +1073,9 @@
         "order": 1,
         "stat": "INT",
         "version": "38d",
-        "guidelink": "https://twrpg.com/viewtopic.php?f=4&t=6717",
+        "guidelink": [
+            "https://twrpg.com/viewtopic.php?f=4&t=6717"
+        ],
         "items": {
             "Ethenos, the Staff of Chaos": [
                 "The Ender",
