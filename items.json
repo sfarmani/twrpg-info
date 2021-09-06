@@ -14217,7 +14217,7 @@
       "dtpercent": -0.08,
       "passive": [
         "Every 8th attack activates Everfrost Blast",
-        "Deals (water affinity X ((STR X 3) + (AGI X 2))) pute damage in an AoE"
+        "Deals (water affinity X ((STR X 3) + (AGI X 2))) pure damage in an AoE"
       ],
       "active": [
         "On use, activates Frozen Break",
@@ -14961,7 +14961,7 @@
       "active": [
         "On use, activates Song of Despair",
         "Deals ((ATK DMG X 2.25) + (INT X 12.5)) magic damage in an AoE",
-        "Increases enemy magic damage taken (Type-A) for 8 seconds",
+        "Increases enemy magic damage taken by 6% (Type-A) for 10 seconds",
         "Stuns for 1 second",
         "Cooldown: 80 seconds, cannot be dropped during cooldown"
       ]
