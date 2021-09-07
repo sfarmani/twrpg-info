@@ -4,9 +4,10 @@
         "type": "Full DPS",
         "order": 1,
         "stat": "STR",
-        "version": "40b",
+        "version": "52b",
         "description": [
-            "Use Frostshard for tanking purposes"
+            "Use Frostshard for tanking purposes",
+            "Use Halo until Crown of Absolute Zero (even if you have crown of composure)"
         ],
         "items": {
             "Chaos": [
