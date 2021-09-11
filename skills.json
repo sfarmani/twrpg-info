@@ -1953,8 +1953,7 @@
         "order": 6,
         "passive": [
             "Profound mastery allows Sword Enchanter to disintegrate the armors of her enemies.",
-            "15% chance to activate Disenchant when activating Enchanted Sword",
-            "Increases damage taken by Enchanted Sword by 50% for 5 seconds"
+            "Increases damage of Sword Enchant by 25%"
         ],
         "active": [
             "Empowers your chant to make it resonate further.",
@@ -1981,7 +1980,7 @@
             "\"I'll show you the most powerful sword I have in my treasury !!\" - Sword Enchanter",
             "AGI X 125 magic damage",
             "Stuns for 3 seconds",
-            "Applies Disenchant and reduces healing taken by 20% for 7.5 seconds"
+            "Increases target's damage taken from Sword Enchant by 30% and reduces its healing taken by 20% for 7.5 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -2392,17 +2391,17 @@
         ]
     },
     {
-        "id": "A056",
+        "id": "A16N",
         "name": "Jump",
         "heroClass": "Elementalist",
         "color": "b3fff0",
-        "hotkey": "[D] → [Passive]",
-        "icon": "ElementalistD_Pass1",
+        "hotkey": "[D] → [D]",
+        "icon": "ElementalistD_D",
         "order": 2,
-        "passive": [
-            "Makes target's body light.",
-            "If Elementalist approaches, flings her upward",
-            "Upon landing, inflict INT X (5 + Elementalist Level / 4) pure damage",
+        "active": [
+            "Jumps up high using the power of Elemental of Wind.",
+            "Can only be used while nearby the Elemtental of Wind",
+            "Jumps high and upon landing, deals INT X (5 + Elementalist's LV / 4) pure damage",
             "Can be used up to 5 times"
         ],
         "passive_tags": [
@@ -3145,6 +3144,7 @@
             "Deals INT X 50 damage on expiration",
             "Damage and critical chance are increased up to 200% based on dash distance",
             "Breaks shield effects",
+            "Restores all your energy and resets cooldown on Discharge",
             "Invincible while casting",
             "Range: 1200"
         ],
@@ -4743,7 +4743,7 @@
         "passive": [
             "Drowns in enemies' blood to become immersed in battle.",
             "Heals for Max HP X 6% on each attack",
-            "17% chance to inflict bleeding for 5 seconds on attack",
+            "19% chance to inflict bleeding for 5 seconds on attack",
             "Deals Attack Damage X 30% magic damage per second"
         ],
         "passive_tags": [
@@ -4840,8 +4840,9 @@
         "active": [
             "Rushes forward with a spinning blade of death.",
             "Consumes HP X 20%",
-            "Each second inflicts attack damage X 0.75 + STR X 7.5 magic damage",
+            "Spins for 2 seconds, dealing attack damage X 0.75 + STR X 7.5 magic damage per second",
             "Deals 100% bonus damage to bleeding targets and reapplies bleeding",
+            "Become immune to CC effects while active",
             "Lasts 2 seconds"
         ],
         "active_tags": [
@@ -5165,6 +5166,7 @@
             "STR X 3.75 magic damage",
             "Knockbacks enemies toward charge direction",
             "Colliding from far distance breaks barriers and deals up to consumed MP X 3 bonus damage",
+            "Breaking a barrier increases this skill's damage by (20 + 0.1 X knight's damage reduction)%",
             "Release Mana ON: Pierces through enemies and grants shield for 3 seconds that absorbs up to (Knight's Reduction X Knight's Max MP) to collided allies"
         ],
         "active_tags": [
@@ -5514,6 +5516,7 @@
             "Gathers souls into a ball and blasts it away.",
             "Main Stat X 15 magic damage",
             "Upon arrival, deals damage again and summons 4 souls",
+            "STR Main Stat: Deals 200% bonus damage",
             "INT Main Stat: Breaks barrier effects"
         ],
         "active_tags": [
@@ -5701,7 +5704,7 @@
         "order": 6,
         "active": [
             "Fires magical missiles everywhere.",
-            "Each missile deals INT X 7.5 magic damage",
+            "Each missile deals INT X 8.5 magic damage",
             "Fires 5 missiles"
         ],
         "active_tags": [
@@ -5765,7 +5768,8 @@
         "active": [
             "Creates a watery explosion to drench enemies in water.",
             "INT X 6 magic damage",
-            "Drenches enemies in wetness for 6 seconds, slowing their speed"
+            "Drenches enemies in wetness for 6 seconds, slowing their speed",
+            "If target is affected by Frozen Emotion, fully recharges its barrier"
         ],
         "active_tags": [
             "Hero",
@@ -5808,17 +5812,15 @@
         "icon": "WaterMageW",
         "order": 3,
         "passive": [
-            "Converts mana into a frozen barrier to surround yourself.",
-            "Creates a barrier that absorbs INT X 1 damage",
+            "Summons ice fairies to protect yourself.",
+            "Creates a barrier that absorbs up to INT X 1 damage (recharges by 10% per second)",
             "Increases skill damage by 12%",
-            "Recharges 8% of shield every second",
-            "Recharges 50% of shield when hit with Water Blast"
+            "Frost Armament: Every attack deals attacker's Main Stat X 0.25 magic damage, and 20th proc deals Main Stat X 3 magic damage instead but puts this effect on 3 second cooldown"
         ],
         "active": [
-            "Sends a frozen spirit to bestow a frozen barrier to the target.",
-            "Lasts 30 seconds",
-            "Summons 1 spirit every 10 seconds",
-            "Up to 3 spirits can be summoned at once"
+            "Sends an ice fairy to protect an ally.",
+            "Provides the passive effect to up to 3 allies",
+            "The fairy will be recalled if you recast the skill or the target stays too far"
         ],
         "passive_tags": [
             "Hero",
@@ -5861,8 +5863,8 @@
         "cooldown": 15,
         "order": 5,
         "active": [
-            "Freeze nearby enemies by converting the mana in the atmosphere into ice.",
-            "INT X 12 magic damage",
+            "Freezes nearby enemies by converting the mana in the atmosphere into ice.",
+            "INT X 15 magic damage",
             "Freezes for 2 seconds",
             "If slowed, consumes it and increases damage by 200%",
             "If frozen, increases freeze duration by 100%",
@@ -5884,10 +5886,10 @@
         "cooldown": 30,
         "order": 6,
         "active": [
-            "Summon and controls a magical orb overflowing with crystallized mana shards.",
-            "Each shard deals INT X 1.5 magic damage",
-            "Freezes for 1 seconds",
-            "Orb lasts 8 seconds",
+            "Summons a magical orb surrounded by cold energy.",
+            "Periodically freezes nearby enemies for 1 second",
+            "Periodically summons ice shards that deal INT X 1.5 magic damage each",
+            "Lasts 8 seconds",
             "Chain: If collided into Ice Shard, increases its damage by 300%"
         ],
         "active_tags": [
@@ -5930,8 +5932,7 @@
         "order": 8,
         "active": [
             "\"Oops. That was a mistake..\" - Mage",
-            "Ends Ice Age prematurely",
-            "Defreeze any nearby enemies frozen from Ice Age"
+            "Ends Ice Age immediately"
         ],
         "active_tags": [
             "Hero"
@@ -7715,7 +7716,7 @@
             "Gathers element of water and causes an explosion.",
             "For 2 seconds, pulls targets center and deal INT X 7.5 magic damage per second",
             "Creates an explosion afterwards, dealing INT X 30 magic damage",
-            "If enhanced with Water Talisman, creates a water pillar for 6 seconds that deals INT X 5 magic damage per second and knocks up nearby allies"
+            "If enhanced with Water Talisman, creates a water pillar for 6 seconds that deals INT X 5 magic damage per second and knocks you up"
         ]
     },
     {
@@ -7730,8 +7731,8 @@
         "active": [
             "Forms talismans that can be used to enhance skills.",
             "Forms 2 Water Talismans and 1 Fire Talisman",
-            "If you have a Water Talisman when casting skill, it is consumed automatically to enhance the skill",
-            "If you have a Fire Talisman when casting skill, you can additionally cast a fire version of the skill within 4 seconds",
+            "If you have a Water Talisman when casting skill, it is consumed automatically to enhance the skill which deals (2 X Fire Affinity)% bonus damage",
+            "If you have a Fire Talisman when casting skill, you can additionally cast a fire version of the skill within 4 seconds which deals (2 X Water Affinity)% bonus damage",
             "After casting Form Talismans, you can activate Water Dome once"
         ]
     },
@@ -7746,7 +7747,6 @@
         "order": 10,
         "active": [
             "Forms a dome made of water.",
-            "Forms 2 Water Talismans and 1 Fire Talisman",
             "Creates a dome of water that lasts for 20 seconds at target location",
             "Allies within the dome are healed for INT X 0.2 HP per second",
             "Allies within the dome receive 15% water affinity and have damage taken reduced by 20%"
@@ -7763,7 +7763,7 @@
         "order": 11,
         "active": [
             "Obtains a strong power by combining with Meeko.",
-            "For 12 seconds, your skill damage is increased by 25% + 0.5% X (Water Affinity + Fire Affinity)",
+            "For 12 seconds, your skill damage is increased by 7.5% + 0.33% X (Water Affinity + Fire Affinity)",
             "Your skills are converted to fire skills while Spirit Fusion is active"
         ]
     },
@@ -7823,7 +7823,7 @@
         "order": 15,
         "active": [
             "Gathers element of fire to create pillars of fire in a line.",
-            "Each pillar delas INT X 30 magic damage",
+            "Each pillar deals INT X 30 magic damage",
             "Stuns targets hit for 1.5 seconds"
         ]
     },

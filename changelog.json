@@ -1,5 +1,365 @@
 [
     {
+        "name": "52b",
+        "notes": [
+            "Released on: September 1st, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Water mage - Fixed Frozen emotion (W) 20th attack proc happening on every attack",
+            "Water mage - Fixed Frozen emotion (W) proc sometimes killing units that are not supposed to die",
+            "Items - Fixed some Rod cosmetic items having wrong models",
+            "Events - Fixed bugs related to first batch of guide event rewards"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Cooldown of passive effects are now shown as stacks for following items",
+                    [
+                        "Cosmic Reaper",
+                        "Ring of Time",
+                        "Ring of Fate"
+                    ]
+                ]
+            },
+            {
+                "name": "Wings of Frost Lord",
+                "changes": [
+                    "Passive now goes on a 3 seconds cooldown if it activates 7 times in a short period of time"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Spirit Fusion (T)",
+                    [
+                        "Skill damage increase: 12.5% + (flame affinity + water affinity) X 0.5% → 7.5% + (flame affinity + water affinity) X 0.33%"
+                    ],
+                    "Spirit Fusion (T) - Spirit Shift (D)",
+                    [
+                        "Now counts as stack-based spell (For Ring of Divine Winds and such)"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Removed event related recipes / exchange options from NPCs"
+        ]
+    },
+    {
+        "name": "52a",
+        "notes": [
+            "Released on: August 31st, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Spells - If a spell hit 2 or more boss units, fixed it not affecting remaining units if one boss unit dies to it",
+            "Loading - Fixed heroes sometimes becoming invincible upon load",
+            "Memory stone - Fixed blocking path of ground units",
+            "Priest - Fixed Heaven field (F) description error (From 500 armor to 100 armor)",
+            "Shrine priestess - Fixed Fire pillar (E) description error (from 30 X int damage per pillar to 15 X int damage per pillar)",
+            "Shrine priestess - Fixed Spirit fusion (T) - Spirit shift (D) not activating 'On spellcast' effects",
+            "Shrine priestess - Fixed Spirit fusion (T) activating 'On spellcast' effects even when it wasn't cast",
+            "Winter's tear - Fixed description error (Removed crit chance)",
+            "Chaos - Fixed description error (Passive cooldown from 2 seconds to 5 seconds)",
+            "Crimson pumpkin rod - Fixed description error (From 50 int per stack to 15 int per stack)",
+            "Cruoris, the armor of blood - Fixed description error (From 6% skill damage to 2.5% skill damage)",
+            "Shadow dragon Irbert - Fixed running away into corner when taking damage from invincible or invisible units",
+            "Ifrit - Fixed Obsidian giants sometimes spawning with wrong shield percentage"
+        ],
+        "events": [
+            "Summer Event ends!",
+            "You can play previous version until event duration is over",
+            "First batch of guide event rewards added"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Passive effect cooldowns of some items are now shown as stack numbers on item icon (not implemented for all items)"
+                ]
+            },
+            {
+                "name": "Curse of Greed",
+                "changes": [
+                    "Passive stack amount is now displayed as stack number"
+                ]
+            },
+            {
+                "name": "The Ender",
+                "changes": [
+                    "If passive's wave does not reach the target it now travels slightly farther"
+                ]
+            },
+            {
+                "name": "Cursed Mask",
+                "changes": [
+                    "Now drops 100% chance from Mad Clown"
+                ]
+            },
+            {
+                "name": "Orb of the Deep Sea",
+                "changes": [
+                    "Can now select which boss to summon"
+                ]
+            },
+            {
+                "name": "Nightmare Rod",
+                "changes": [
+                    "Now drops with 100% chance from Ragnaar"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Increased droprate of all items by 20% ~ 50% for the following bosses",
+                    [
+                        "Bone Dragon",
+                        "Ancient Ent",
+                        "Skeleton King Desperia",
+                        "Zombie Lord",
+                        "Archangel Samael",
+                        "Shadown Dragon Irbert"
+                    ]
+                ]
+            },
+            {
+                "name": "Turtle Lord",
+                "changes": [
+                    "Removed screen flash when mini-turtles are spawning"
+                ]
+            },
+            {
+                "name": "Bone Dragon",
+                "changes": [
+                    "Icon droprate: 0.15% → 0.25%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Blitz (W)",
+                    [
+                        "Now deals bonus (20 + damage resistance X 0.1)% damage if it breaks shield"
+                    ],
+                    "Excalibur (F)",
+                    [
+                        "Buff now shows in status window"
+                    ]
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Pierce (Q)",
+                    [
+                        "No longer activates single-target effects"
+                    ]
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Bloodbath (D)",
+                    [
+                        "Activation chance: 17% → 19%"
+                    ],
+                    "Blade Rush (R)",
+                    [
+                        "Now provides CC immunity for duration"
+                    ]
+                ]
+            },
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Dark Arts (R) - Eyes of Terror (R)",
+                    [
+                        "If main stat is STR: deals 200% bonus damage (300% total)"
+                    ]
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Dark Shroud (D)",
+                    [
+                        "Toggle is now activated by D hotkey instead of right-click"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Stardust Rain (T)",
+                    [
+                        "Removed screen flash"
+                    ]
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Enchant Mastery (T)",
+                    [
+                        "Disenchant chance removed",
+                        "Now always increases damage of Sword Enchant (D) by 25%"
+                    ],
+                    "Ultimate Enchant (F)",
+                    [
+                        "Debuffed enemies now take 30% more damage from Sword Echant (D) instead of being Disenchanted"
+                    ]
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Fireball (Q)",
+                    [
+                        "Damage: INT X 6 → INT X 8"
+                    ],
+                    "Flame Spirit (W)",
+                    [
+                        "Damage per second: INT X 1.5 → INT X 1.75"
+                    ],
+                    "Flame Combustion (R)",
+                    [
+                        "Damage: INT X 7.5 → INT X 10"
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Frozen Emotion (W)",
+                    [
+                        "Now starts at 0% charge",
+                        "No longer activates 'on skill cast' effects (still activates single-target effects)",
+                        "Duration: 30 seconds → unlimited",
+                        "Cooldown: 10 seconds → 5 seconds",
+                        "Can only be on 3 units at once (excluding self)",
+                        "Casting it on target that already has effect, or when target is too far, now no longer spends a spirit (doesn't count as single-target effect this way)",
+                        "Added Ice Armament effect",
+                        [
+                            "Adds MAIN STAT X 0.25 magic damage to attacks of units affected by Frozen Emotion",
+                            "After activating 20 times this instead deals MAIN STAT X 3 damage and goes on a 3 second cooldown"
+                        ]
+                    ],
+                    "Frost Nova (R)",
+                    [
+                        "Damage: INT X 12 → INT X 15"
+                    ],
+                    "Glacier Orb (T)",
+                    [
+                        "Travel speed increased",
+                        "Max travel distance: 1200 → 1800",
+                        "Freeze effect is now attached to orb itself, not shards (to make freeze more consistent)"
+                    ],
+                    "Ice Age (F) - Shatter (F)",
+                    [
+                        "No longer has distance limit"
+                    ]
+                ]
+            },
+            {
+                "name": "Arcane Mage",
+                "changes": [
+                    "Barage (T)",
+                    [
+                        "Damage per projectile: INT X 7.5 → INT X 8.5"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Lightning Blade (F)",
+                    [
+                        "Now resets cooldown of Discharge (E) on cast"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Soul Grimoire (R)",
+                    [
+                        "When Demonic Fury (T) is active you now gain 4 Soul Shards and cooldown of Soul Grimoire is removed",
+                        "Soul Grimoire can be channeled up to 1 second per Soul Shard (can channel 4 short bursts or 1 long burst)"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Conjure Earth (R) - Potion Transmutation (W)",
+                    [
+                        "Elixir stack: 3 → 4"
+                    ]
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Seal of Wind (D) - Jump",
+                    [
+                        "No longer activates automatically, instead can be activated by pressing D as Elementalist while near Spirit of Wind"
+                    ]
+                ]
+            },
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Cooldowns of fire versions of spells now also reset if cooldown reset effect applies to water versions",
+                    "Go forth Meeko! (D)",
+                    [
+                        "No longer counts as a hero unit",
+                        "Now disappears from map if Shrine Priestess disappears (Agareth's maze and such)"
+                    ],
+                    "Water Pillar (E)",
+                    [
+                        "Pillar radius: 225 → 325",
+                        "Bouncing now only affects Shrine Priestess"
+                    ],
+                    "Form Talismans (R)",
+                    [
+                        "Spells empowered by Water Talismans now deal (flame affinity X 2)% bonus damage",
+                        "Spells empowered by Fire Talismans now deal (water affinity X 2)% bonus damage"
+                    ],
+                    "Form Talismans (R) - Water Dome / Fire Dome (R)",
+                    [
+                        "Radius: 425 → 525",
+                        "Buff linger time: 0.5 seconds → 2 seconds"
+                    ],
+                    "Spirit Fusion (T)",
+                    [
+                        "Skill damage increase: 25% + (flame affinity + water affinity) X 0.5% → 12.5% + (flame affinity + water affinity) X 0.5%",
+                        "Meeko is now attached to Shrine Priestess when re-summoned at the end of transformation"
+                    ],
+                    "Dance of Fire (F)",
+                    [
+                        "Changed visual effect of white circle to only be visible to Shrine Priestess"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Invisibility now provides immunity to stun/silence effects again",
+            "Firelands portal location moved to near Dragon's nest entrance",
+            "Removed cooldown from 'Abandon loot' button in loot chests",
+            "Increased detection range for Castle Avalon entrance button",
+            "Removed boss death/resummon text",
+            "Added 'Create shield' ability to Training room controls"
+        ]
+    },
+    {
         "name": "51b",
         "notes": [
             "Released on: August 13th, 2021",
