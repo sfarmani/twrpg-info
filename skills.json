@@ -2417,7 +2417,7 @@
         "heroClass": "Elementalist",
         "color": "b3fff0",
         "hotkey": "[D] → [Passive]",
-        "icon": "ElementalistD_Pass2",
+        "icon": "ElementalistD_Pass1",
         "order": 3,
         "passive": [
             "Allows nearby beings to move lightly as wind.",
@@ -2436,7 +2436,7 @@
         "heroClass": "Elementalist",
         "color": "b3fff0",
         "hotkey": "[D] → [Passive]",
-        "icon": "ElementalistD_Pass3",
+        "icon": "ElementalistD_Pass2",
         "order": 4,
         "passive": [
             "Becomes one with the wind.",
