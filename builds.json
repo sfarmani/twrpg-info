@@ -937,6 +937,81 @@
         "for": "Blood Weaver",
         "type": "Full DPS",
         "order": 1,
+        "stat": "STR",
+        "version": "52b",
+        "guidelink": [
+            "https://drive.google.com/file/d/1NllowdkKvO064DjJ3R644R0pVOKLT9pa/view"
+        ],
+        "description": [
+            "Needs to have healer",
+            "Use Ender with HoJ until Calamity",
+            "Use Trueblood Ring until Horn of God",
+            "Use Bloodseeker until Thanatos to survive",
+            "Bloodseeker/Frostshard with Winter's Heart for tanking",
+            "Use Brave Heart until Wings of Frost Lord or alternate with Soul Devourer"
+        ],
+        "items": {
+            "Calamity": [
+                "Ender",
+                "Winter's Heart"
+            ],
+            "Crown of Absolute Zero": [
+                "Halo of Judgment"
+            ],
+            "Ring of Frozen Soul": [
+                "Horn of God"
+            ],
+            "Thanatos, the Robe of Hell": [
+                "Bloodseeker Plates",
+                "Frosthard Armor"
+            ],
+            "Wings of Frost Lord": [
+                "Brave Heart",
+                "Soul Devourer"
+            ]
+        }
+    },
+    {
+        "for": "Blood Weaver",
+        "type": "Burst",
+        "order": 2,
+        "stat": "INT",
+        "version": "52b",
+        "guidelink": [
+            "https://drive.google.com/file/d/1NllowdkKvO064DjJ3R644R0pVOKLT9pa/view"
+        ],
+        "description": [
+            "Good when no healers",
+            "Use Ender with Halo until Ethenos (chaos)",
+            "Use Trueblood until Horn of God",
+            "Use Frostshard Armor with Winter's Heart for tanking",
+            "Soul Devourer for skill damage, cleanse, and heal",
+            "Frost Lord and Thanatos is good with healer for damage"
+        ],
+        "items": {
+            "Ethenos, the Staff of Chaos": [
+                "Ender",
+                "Winter's Heart"
+            ],
+            "Crown of Absolute Zero": [
+                "Halo of Judgment"
+            ],
+            "Horn of God": [
+                "Ring of Frozen Soul"
+            ],
+            "Jupiter, the Robe of Heavens": [
+                "Thanatos, the Robe of Hell"
+            ],
+            "Brave Heart": [
+                "Soul Devourer",
+                "Wings of Frost Lord"
+            ]
+        }
+    },
+    {
+        "for": "Blood Weaver",
+        "type": "Full DPS",
+        "order": 3,
         "stat": "INT",
         "version": "40b",
         "description": [
@@ -955,30 +1030,6 @@
             "Jupiter, the Robe of Heavens": [],
             "Brave Heart": [
                 "Wings of Immortal",
-                "Wings of Frost Lord"
-            ]
-        }
-    },
-    {
-        "for": "Blood Weaver",
-        "type": "Pure burst DPS",
-        "order": 2,
-        "stat": "INT",
-        "version": "38b",
-        "description": [
-            "Winter's Heart is situational",
-            "Use Trueblood Ring until Horn of God"
-        ],
-        "items": {
-            "Ethenos, the Staff of Chaos": [
-                "Winter's Heart"
-            ],
-            "Crown of Absolute Zero": [],
-            "Horn of God": [
-                "Trueblood Ring"
-            ],
-            "Thanatos, the Robe of Hell": [],
-            "Archangel Wings": [
                 "Wings of Frost Lord"
             ]
         }
