@@ -1,5 +1,259 @@
 [
     {
+        "name": "52c",
+        "notes": [
+            "Released on: September 23, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Reforged - Fixed some spell icons not showing spell cooldowns while they were still on cooldown",
+            "Terrain - Fixed some terrain in Troll forest causing heroes to get stuck",
+            "Units - Fixed some hidden units (like Shrine maiden's summon) being able to take damage from some damage-over-time effects",
+            "Crafting - Fixed bugs related to items on cooldown",
+            "Companions - Fixed Gold divinity companion causing a lot of lag",
+            "Hades, the armor of despair - Fixed debuff not being applied on every even activation",
+            "Demon realm invasion - Fixed a bug that allowed Demon lord Beriel to be summoned twice",
+            "Arcane mage - Fixed visual effect of Gravity field (E) staying longer than duration with Weird costume enabled",
+            "Arcane mage - While Illusion (R) is active, fixed Magic star (Q) projectile casted by it dissapearing if another Magic star is casted while it exists",
+            "Elementalist - Fixed Seal of wind (D) - Jump (D) being castable more than 5 time per summon",
+            "Elementalist - Fixed Seal of wind (D) - Jump (D) sometimes causing hero to get stuck",
+            "Shrine priestess - Fixed icon of Go forth Meeko! (D) - Spirit of flame (Q) dissapearing when hero is repicked",
+            "Fixed some description errors",
+            [
+                "HP regen per 1 point of STR: 0.03 → 0.01",
+                "MP regen per 1 point of INT: 0.01 → 0.03",
+                "Fire Mage - Flame Nova (E) damage: INT X 15 → INT X 22.5",
+                "Warlock - Soul Grimoire (R) MP regen: 25 → 75"
+            ]
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New items added (more items will be added over next few weeks before new boss is added) - not yet released due to boss not being released",
+                    [
+                        "Caedis, the Blade of Slaughter",
+                        "Fulminata, the Bringer of Storms",
+                        "Akhelius, the Staff of Duality",
+                        "Agnitus, the Bow of Divine Fury",
+                        "Fruit of Origin",
+                        "Bell of Divinity"
+                    ],
+                    "Added new items to serve as bridges between existing upgrades (Materials required for existing upgrades will be distributed according to them)",
+                    "More recipes like them will also be added over next few patches",
+                    [
+                        "Ethereal Dagger (between Spirit Dagger and Chaos Dagger)",
+                        "Desolation (between Oblivion and Chaos)",
+                        "Maw of Beriel (between Claws of Beriel and Power of Beriel)"
+                    ],
+                    "Active / Passive effect stack amount is now shown as item stacks for following items",
+                    [
+                        "Mask of Demigod",
+                        "Storm",
+                        "Wings of Night Lord"
+                    ],
+                    "Passive effect cooldown is now shown as item stacks for following items",
+                    [
+                        "Plates of Lightning",
+                        "Grandine, the Plates of Wrath",
+                        "Eye of Wallachia"
+                    ]
+                ]
+            },
+            {
+                "name": "Oblivion / Chaos",
+                "changes": [
+                    "Active",
+                    [
+                        "Stack cycle: 1 ~ 0.5 seconds based on missing HP → 0.5 seconds",
+                        "Attack speed increase removed"
+                    ]
+                ]
+            },
+            {
+                "name": "Wings of Frost Lord",
+                "changes": [
+                    "Passive",
+                    [
+                        "Removed cooldown based on consecutive casts",
+                        "Proc rate: 100% → (proc rate X 100)%"
+                    ]
+                ]
+            },
+            {
+                "name": "Prophetia, the Origin of Knowledge",
+                "changes": [
+                    "Passive proc rate: 7.5% → (proc rate X 7.5)%"
+                ]
+            },
+            {
+                "name": "Ring of Divine Winds",
+                "changes": [
+                    "Passive proc rate: 15% (8% for stack-based spells) → (proc rate X 15)%"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Remaining number of boss revives now displays on revival circle",
+                    "Combat spoils system",
+                    [
+                        "Item rolling: rolling for all items → players can choose one item to roll for",
+                        "Mad Clown / Bone Dragon / Ancient Ent / Skeleton King Desperia / Archangel Samael / Zombie Lord",
+                        [
+                            "Now also spawns a combat spoils chest"
+                        ],
+                        "Combat spoils chests from late game bosses will only be usable by players that were in boss arena at start of battle (even if they die before the boss)"
+                    ],
+                    "Late game bosses (except Shadow Dragon Irbert)",
+                    [
+                        "Difficulty scaling droprate increase per player past 5: 20% → 10%"
+                    ],
+                    "Re-adjusted droprate based on above changes",
+                    [
+                        "Early and mid-game bosses: significantly increased",
+                        "Prius Silver Coin droprate: 40%",
+                        "Icon drop rate: 0.25%",
+                        "Coin of Effort drop rate: 0.05%"
+                    ]
+                ]
+            },
+            {
+                "name": "Agareth",
+                "changes": [
+                    "Finger of Death",
+                    [
+                        "Can no longer bounce to invincible units"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Hero notes",
+                "changes": [
+                    "Added 'Proc rate' system to spells, which works similar to how Ring of Divine Winds did with stack-based spells but globally, all spells have proc rate of 1 but following ones have lower",
+                    [
+                        "Paladin - Divine spirit (W)",
+                        "Sniper - Explosive shot (R)",
+                        "Shooter - Distortion (R)",
+                        "Dark knight - Dark arts (R) (all spells within)",
+                        "Crusader - Remains of rage (Q)",
+                        "Knight - Grand sword (Q), Blitz (W) and Mana blaster (R)",
+                        "Witch - Star shower (W)",
+                        "Swordsman - Sword storm (E) - Flash step (Q)",
+                        "Shrine priestess - Fire talisman spells and Spirit fusion (T) - Spirit shift (D)",
+                        "Arcane mage - All spells have slightly reduced Proc rate except Moonlight link (D) and Starlight (F)",
+                        "Alchemist - Conjure fire/water/air/earth (QWER)"
+                    ]
+                ]
+            },
+            {
+                "name": "Knight",
+                "changes": [
+                    "Release Mana (D)",
+                    [
+                        "No longer procs on skill cast effects",
+                        "Cooldown removed"
+                    ]
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Blood Fury (E)",
+                    [
+                        "Max skill damage increase: 30% → 40%",
+                        "Now also provides up to 40% damage resistance based on missing HP",
+                        "Active now blocks Nereid's bubbles"
+                    ]
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Ambush (W)",
+                    [
+                        "Attack damage increase: 50% → 40%"
+                    ],
+                    "Shadow Walk (E)",
+                    [
+                        "Backstab bonus damage: 75% → 60%"
+                    ]
+                ]
+            },
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Form Talismans (R)",
+                    [
+                        "Bonus damage based on affinity: (affinity X 2)% → affinity%"
+                    ],
+                    "Water Dome (R) / Fire Dome (R)",
+                    [
+                        "Affinity increase: 15% → 10%"
+                    ],
+                    "Spirit Fusion (T)",
+                    [
+                        "Skill damage increase: 7.5% + (flame affinity + water affinity) X 0.33% → ((flame affinity + water affinity) X 0.5)%"
+                    ],
+                    "Dance of Fire (F)",
+                    [
+                        "Now counts as periodic damage"
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Frozen Emotion (W)",
+                    [
+                        "No procs on skill cast effects",
+                        "Shield now applies as full on cast",
+                        "Re-casting on same target now only charges shield to full",
+                        "Can be casted on self again",
+                        "Ice Armament final proc: main stat X 3 → main stat x 5",
+                        "Cooldown: 5 seconds → 7 seconds",
+                        "If target with shield goes too far, fairy now recalled after 5 seconds linger period"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Lightning Strike (R)",
+                    [
+                        "Angles and movement of lightning orbs changed to be less random"
+                    ]
+                ]
+            },
+            {
+                "name": "Arcane Mage",
+                "changes": [
+                    "Barrage (T)",
+                    [
+                        "Damage per projectile: INT X 8.5 → INT X 9.5"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Vengeance (E)",
+                    [
+                        "Absorbed damage is now calcuclated before effects like Soul Weaver's Soul Cradle (T)"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Weird Magician can now again provide lower tier icons if you possess a higher tier icon",
+            "MP regen % increase no longer affects MP regen provided by active effects"
+        ]
+    },
+    {
         "name": "52b",
         "notes": [
             "Released on: September 1st, 2021",

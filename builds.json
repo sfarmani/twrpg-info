@@ -690,6 +690,23 @@
         }
     },
     {
+        "for": "Shrine Priestess",
+        "type": "None!",
+        "order": 1,
+        "stat": "INT",
+        "version": "52c",
+        "description": [
+            "No build yet!"
+        ],
+        "items": {
+            "Placeholder Weapon": [],
+            "Placeholder Headwear": [],
+            "Placeholder Accessory": [],
+            "Placeholder Armor": [],
+            "Placeholder Wings": []
+        }
+    },
+    {
         "for": "Sniper",
         "type": "Full DPS",
         "order": 1,

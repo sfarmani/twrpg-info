@@ -271,6 +271,7 @@
             "Benziena, the Earthen Heart - Earth Mastery",
             "Spiritus, the Sword of Elements - Spirit Link",
             "Spirit Dagger - Spirit Link",
+            "Ethereal Dagger - Spirit Link",
             "Chaos Dagger - Spirit Link"
         ]
     },
@@ -445,6 +446,7 @@
         "spec": [
             "Spiritus, the Sword of Elements - Affinity",
             "Spirit Dagger - Affinity",
+            "Ethereal Dagger - Affinity",
             "Chaos Dagger - Affinity",
             "Fairy Garment - Fairy Blessing",
             "Diana, the Robe of Holy Maiden - Maiden's Blessing",

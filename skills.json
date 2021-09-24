@@ -109,6 +109,7 @@
         "color": "c9f227",
         "hotkey": "[R]",
         "icon": "SniperR",
+        "proc_rate": 0.005,
         "order": 5,
         "active": [
             "Loads next attack with explosive shells.",
@@ -421,6 +422,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [Q]",
         "icon": "AlchemistQ_Q",
+        "proc_rate": 0.007,
         "order": 3,
         "active": [
             "Fires a flame bullet.",
@@ -440,6 +442,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [W]",
         "icon": "AlchemistQ_W",
+        "proc_rate": 0.007,
         "order": 4,
         "active": [
             "Draw forth magma from the grounds.",
@@ -459,6 +462,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [E]",
         "icon": "AlchemistQ_E",
+        "proc_rate": 0.007,
         "order": 5,
         "active": [
             "Vent powerful heat forward.",
@@ -481,6 +485,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [R]",
         "icon": "AlchemistQ_R",
+        "proc_rate": 0.007,
         "order": 6,
         "active": [
             "Drops down a flaming boulder.",
@@ -533,6 +538,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [Q]",
         "icon": "AlchemistW_Q",
+        "proc_rate": 0.007,
         "order": 8,
         "active": [
             "Fire a water bomb that expands with steam.",
@@ -555,6 +561,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [W]",
         "icon": "AlchemistW_W",
+        "proc_rate": 0.007,
         "order": 9,
         "active": [
             "Fire streams of water frontward.",
@@ -579,6 +586,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [E]",
         "icon": "AlchemistW_E",
+        "proc_rate": 0.007,
         "order": 10,
         "active": [
             "Transmutes an icicle.",
@@ -599,6 +607,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [R]",
         "icon": "AlchemistW_R",
+        "proc_rate": 0.007,
         "order": 12,
         "active": [
             "Transmutate a cloud that brings down rain to nearby area.",
@@ -645,6 +654,7 @@
         "color": "ff8080",
         "hotkey": "[E] → [Q]",
         "icon": "AlchemistE_Q",
+        "proc_rate": 0.007,
         "order": 14,
         "active": [
             "Enchant target's hands with fire and wind.",
@@ -666,6 +676,7 @@
         "color": "d0dab1",
         "hotkey": "[E] → [W]",
         "icon": "AlchemistE_W",
+        "proc_rate": 0.007,
         "order": 15,
         "active": [
             "Summon an eye of the storm at the target location.",
@@ -689,6 +700,7 @@
         "color": "d0dab1",
         "hotkey": "[E] → [E]",
         "icon": "AlchemistE_E",
+        "proc_rate": 0.007,
         "order": 16,
         "active": [
             "Send forth a strong gust of wind.",
@@ -709,6 +721,7 @@
         "color": "d0dab1",
         "hotkey": "[E] → [R]",
         "icon": "AlchemistE_R",
+        "proc_rate": 0.007,
         "order": 17,
         "active": [
             "Creates a fierce storm of rocks.",
@@ -757,6 +770,7 @@
         "color": "c5aa83",
         "hotkey": "[R] → [Q]",
         "icon": "AlchemistR_Q",
+        "proc_rate": 0.007,
         "order": 19,
         "active": [
             "Transmutes a cannon to fire a powerful cannonball.",
@@ -777,6 +791,7 @@
         "color": "ff8080",
         "hotkey": "[R] → [W]",
         "icon": "AlchemistR_W",
+        "proc_rate": 0.007,
         "order": 20,
         "active": [
             "Conjures a useful potion.",
@@ -795,6 +810,7 @@
         "color": "c5aa83",
         "hotkey": "[R] → [E]",
         "icon": "AlchemistR_E",
+        "proc_rate": 0.007,
         "order": 21,
         "active": [
             "Collapses the ground with strong pulses.",
@@ -818,6 +834,7 @@
         "color": "c5aa83",
         "hotkey": "[R] → [R]",
         "icon": "AlchemistR_R",
+        "proc_rate": 0.007,
         "order": 22,
         "active": [
             "Summon a golem.",
@@ -835,8 +852,8 @@
         "name": "Earth Protection",
         "heroClass": "Alchemist",
         "color": "afeb8c",
-        "icon": "AlchemistSummonPass",
         "hotkey": "[R] → [R] → [Passive]",
+        "icon": "AlchemistSummonPass",
         "order": 23,
         "passive": [
             "Becomes hard like the earth.",
@@ -1075,10 +1092,9 @@
         "order": 4,
         "active": [
             "Summon a vengeful spirit that absorbs damage and reflects them back at the attackers.",
-            "INT X 7.5 magic damage",
+            "Deals INT X 7.5 magic damage per second for 3 seconds",
             "Absorbs own damage taken by 70% and allies' damage taken by 35%",
-            "On expiration, reflects 1500% of absorbed damage as pure damage at nearby enemies",
-            "Lasts 3 seconds"
+            "On expiration, reflects 1500% of absorbed damage as pure damage at nearby enemies"
         ],
         "active_tags": [
             "Hero",
@@ -1100,7 +1116,7 @@
         "passive": [
             "Amplify your magic with grimoire that is inscribed with ancient demons' powers.",
             "Max HP and skill damage increased by 25%",
-            "Increased MP regen by 250 + 100%"
+            "Increased MP regen by 75 + 100%"
         ],
         "active": [
             "Unleash the grimoire and let your magic run wild.",
@@ -1541,7 +1557,7 @@
         "order": 4,
         "active": [
             "Create a fiery explosion by converting mana in the atmosphere into fire.",
-            "INT X 15 magic damage",
+            "INT X 22.5 magic damage",
             "Damage amplified by 50% each time it travels outward"
         ],
         "active_tags": [
@@ -1753,6 +1769,7 @@
         "color": "80ccff",
         "hotkey": "[R]",
         "icon": "ShooterR",
+        "proc_rate": 0.005,
         "order": 6,
         "active": [
             "Fires a bullet that can distort dimensions.",
@@ -2286,6 +2303,7 @@
         "color": "fdbf82",
         "hotkey": "[E] → [Q]",
         "icon": "SwordsmanE_Q",
+        "proc_rate": 0.005,
         "order": 7,
         "active": [
             "Quickly moves to target.",
@@ -3194,6 +3212,7 @@
         "color": "f9feb8",
         "hotkey": "[Q]",
         "icon": "CrusaderQ",
+        "proc_rate": 0.005,
         "cooldown": 6,
         "order": 2,
         "active": [
@@ -3953,7 +3972,7 @@
             "Melds into the darkness to strike the enemy from behind.",
             "Attack damage X 1.25 + AGI X 7.5 magic damage",
             "Stuns for 1.5 seconds",
-            "After cast, increases attack damage by 50% for 6 seconds",
+            "After cast, increases attack damage by 40% for 6 seconds",
             "Critical strike is guaranteed if used while invisible"
         ],
         "active_tags": [
@@ -3978,7 +3997,7 @@
             "Immediately becomes invisible and gains bonus movement speed",
             "Next attack within 6 seconds inflicts attack damage X 1 + AGI X 7.5 magic damage",
             "Stuns for 1 second",
-            "If struck from behind, damage increased by 75%"
+            "If struck from behind, damage increased by 60%"
         ],
         "active_tags": [
             "Hero",
@@ -4814,9 +4833,8 @@
         "toggle": [
             "Drowns in blood to bring out full combat abilities.",
             "Consumes HP X 30% per second",
-            "Ignores all healing and silence effects",
-            "Max efficiency threshold: 20% HP",
-            "Provides silence immunity when toggled ON"
+            "Becomes unable to regenerate or restore HP",
+            "Becomes immune to silence effects"
         ],
         "passive_tags": [
             "Hero",
@@ -5108,7 +5126,6 @@
         "color": "66c2ff",
         "hotkey": "[D]",
         "icon": "KnightD",
-        "cooldown": 2,
         "order": 1,
         "passive": [
             "Prolonged training allows knight to never run out of mana.",
@@ -5140,6 +5157,7 @@
         "color": "00bfff",
         "hotkey": "[Q]",
         "icon": "KnightQ",
+        "proc_rate": 0.007,
         "cooldown": 0.5,
         "order": 2,
         "active": [
@@ -5160,6 +5178,7 @@
         "color": "afaff5",
         "hotkey": "[W]",
         "icon": "KnightW",
+        "proc_rate": 0.007,
         "order": 3,
         "active": [
             "Quickly dash across the battlefield.",
@@ -5235,6 +5254,7 @@
         "color": "73b9ff",
         "hotkey": "[R]",
         "icon": "KnightR",
+        "proc_rate": 0.005,
         "cooldown": 1.5,
         "order": 6,
         "passive": [
@@ -5446,6 +5466,7 @@
         "color": "8080ff",
         "hotkey": "[R] → [Q]",
         "icon": "DarkKnightR_Q",
+        "proc_rate": 0.005,
         "order": 6,
         "active": [
             "Shoots a coil infused with dark magic.",
@@ -5466,6 +5487,7 @@
         "color": "8080ff",
         "hotkey": "[R] → [W]",
         "icon": "DarkKnightR_W",
+        "proc_rate": 0.005,
         "order": 7,
         "active": [
             "Grasps target's soul.",
@@ -5483,6 +5505,7 @@
         "color": "8080ff",
         "hotkey": "[R] → [E]",
         "icon": "DarkKnightR_E",
+        "proc_rate": 0.005,
         "order": 8,
         "active": [
             "Defiles nearby ground.",
@@ -5510,6 +5533,7 @@
         "color": "8080ff",
         "hotkey": "[R] → [R]",
         "icon": "DarkKnightR_R",
+        "proc_rate": 0.005,
         "cooldown": 30,
         "order": 9,
         "active": [
@@ -5605,6 +5629,7 @@
         "color": "82e1ff",
         "hotkey": "[Q]",
         "icon": "ArcaneMageQ",
+        "proc_rate": 0.008,
         "cooldown": 6,
         "order": 2,
         "active": [
@@ -5627,6 +5652,7 @@
         "color": "91b9e1",
         "hotkey": "[W]",
         "icon": "ArcaneMageW",
+        "proc_rate": 0.008,
         "cooldown": 8,
         "order": 3,
         "active": [
@@ -5650,6 +5676,7 @@
         "color": "d79bff",
         "hotkey": "[E]",
         "icon": "ArcaneMageE",
+        "proc_rate": 0.008,
         "cooldown": 10,
         "order": 4,
         "active": [
@@ -5676,6 +5703,7 @@
         "color": "91b9e1",
         "hotkey": "[R]",
         "icon": "ArcaneMageR",
+        "proc_rate": 0.008,
         "cooldown": 12,
         "order": 5,
         "active": [
@@ -5700,11 +5728,12 @@
         "color": "4bebaf",
         "hotkey": "[T]",
         "icon": "ArcaneMageT",
+        "proc_rate": 0.008,
         "cooldown": 12,
         "order": 6,
         "active": [
             "Fires magical missiles everywhere.",
-            "Each missile deals INT X 8.5 magic damage",
+            "Each missile deals INT X 9.5 magic damage",
             "Fires 5 missiles"
         ],
         "active_tags": [
@@ -5815,12 +5844,12 @@
             "Summons ice fairies to protect yourself.",
             "Creates a barrier that absorbs up to INT X 1 damage (recharges by 10% per second)",
             "Increases skill damage by 12%",
-            "Frost Armament: Every attack deals attacker's Main Stat X 0.25 magic damage, and 20th proc deals Main Stat X 3 magic damage instead but puts this effect on 3 second cooldown"
+            "Frost Armament: Every attack deals attacker's Main Stat X 0.25 magic damage, and 20th proc deals Main Stat X 5 magic damage instead but puts this effect on 3 second cooldown"
         ],
         "active": [
             "Sends an ice fairy to protect an ally.",
             "Provides the passive effect to up to 3 allies",
-            "The fairy will be recalled if you recast the skill or the target stays too far"
+            "Recharges target's barrier"
         ],
         "passive_tags": [
             "Hero",
@@ -6437,6 +6466,7 @@
         "color": "ecca82",
         "hotkey": "[W]",
         "icon": "PaladinW",
+        "proc_rate": 0.005,
         "order": 7,
         "passive": [
             "Summons holy spirits that boosts your mobility.",
@@ -6985,6 +7015,7 @@
         "color": "efcdf3",
         "hotkey": "[W]",
         "icon": "WitchW",
+        "proc_rate": 0.005,
         "order": 3,
         "active": [
             "Shoots stars out of your broom.",
@@ -7731,8 +7762,8 @@
         "active": [
             "Forms talismans that can be used to enhance skills.",
             "Forms 2 Water Talismans and 1 Fire Talisman",
-            "If you have a Water Talisman when casting skill, it is consumed automatically to enhance the skill which deals (2 X Fire Affinity)% bonus damage",
-            "If you have a Fire Talisman when casting skill, you can additionally cast a fire version of the skill within 4 seconds which deals (2 X Water Affinity)% bonus damage",
+            "If you have a Water Talisman when casting skill, it is consumed automatically to enhance the skill which deals (1 X Fire Affinity)% bonus damage",
+            "If you have a Fire Talisman when casting skill, you can additionally cast a fire version of the skill within 4 seconds which deals (1 X Water Affinity)% bonus damage",
             "After casting Form Talismans, you can activate Water Dome once"
         ]
     },
@@ -7749,7 +7780,7 @@
             "Forms a dome made of water.",
             "Creates a dome of water that lasts for 20 seconds at target location",
             "Allies within the dome are healed for INT X 0.2 HP per second",
-            "Allies within the dome receive 15% water affinity and have damage taken reduced by 20%"
+            "Allies within the dome receive 12% water affinity and have damage taken reduced by 20%"
         ]
     },
     {
@@ -7763,7 +7794,7 @@
         "order": 11,
         "active": [
             "Obtains a strong power by combining with Meeko.",
-            "For 12 seconds, your skill damage is increased by 7.5% + 0.33% X (Water Affinity + Fire Affinity)",
+            "For 12 seconds, your skill damage is increased by 0.5% X (Water Affinity + Fire Affinity)",
             "Your skills are converted to fire skills while Spirit Fusion is active"
         ]
     },
@@ -7774,6 +7805,7 @@
         "color": "eebfb0",
         "hotkey": "[T] → [D]",
         "icon": "ShrinePriestessT_D",
+        "proc_rate": 0.005,
         "order": 12,
         "active": [
             "Turns into a spirit to quickly move to target location.",
@@ -7840,7 +7872,7 @@
             "Forms a barrier made of fire.",
             "Converts summoned Water Dome into Fire Dome",
             "Enemies within the dome receive INT X 2 magic damage per second",
-            "Allies within the dome receive 15% fire affinity"
+            "Allies within the dome receive 12% fire affinity"
         ]
     },
     {
