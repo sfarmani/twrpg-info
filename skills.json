@@ -109,7 +109,7 @@
         "color": "c9f227",
         "hotkey": "[R]",
         "icon": "SniperR",
-        "proc_rate": 0.005,
+        "proc_rate": 0.5,
         "order": 5,
         "active": [
             "Loads next attack with explosive shells.",
@@ -422,7 +422,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [Q]",
         "icon": "AlchemistQ_Q",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 3,
         "active": [
             "Fires a flame bullet.",
@@ -442,7 +442,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [W]",
         "icon": "AlchemistQ_W",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 4,
         "active": [
             "Draw forth magma from the grounds.",
@@ -462,7 +462,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [E]",
         "icon": "AlchemistQ_E",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 5,
         "active": [
             "Vent powerful heat forward.",
@@ -485,7 +485,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [R]",
         "icon": "AlchemistQ_R",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 6,
         "active": [
             "Drops down a flaming boulder.",
@@ -538,7 +538,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [Q]",
         "icon": "AlchemistW_Q",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 8,
         "active": [
             "Fire a water bomb that expands with steam.",
@@ -561,7 +561,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [W]",
         "icon": "AlchemistW_W",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 9,
         "active": [
             "Fire streams of water frontward.",
@@ -586,7 +586,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [E]",
         "icon": "AlchemistW_E",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 10,
         "active": [
             "Transmutes an icicle.",
@@ -607,7 +607,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [R]",
         "icon": "AlchemistW_R",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 12,
         "active": [
             "Transmutate a cloud that brings down rain to nearby area.",
@@ -654,7 +654,7 @@
         "color": "ff8080",
         "hotkey": "[E] → [Q]",
         "icon": "AlchemistE_Q",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 14,
         "active": [
             "Enchant target's hands with fire and wind.",
@@ -676,7 +676,7 @@
         "color": "d0dab1",
         "hotkey": "[E] → [W]",
         "icon": "AlchemistE_W",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 15,
         "active": [
             "Summon an eye of the storm at the target location.",
@@ -700,7 +700,7 @@
         "color": "d0dab1",
         "hotkey": "[E] → [E]",
         "icon": "AlchemistE_E",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 16,
         "active": [
             "Send forth a strong gust of wind.",
@@ -721,7 +721,7 @@
         "color": "d0dab1",
         "hotkey": "[E] → [R]",
         "icon": "AlchemistE_R",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 17,
         "active": [
             "Creates a fierce storm of rocks.",
@@ -770,7 +770,7 @@
         "color": "c5aa83",
         "hotkey": "[R] → [Q]",
         "icon": "AlchemistR_Q",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 19,
         "active": [
             "Transmutes a cannon to fire a powerful cannonball.",
@@ -791,7 +791,7 @@
         "color": "ff8080",
         "hotkey": "[R] → [W]",
         "icon": "AlchemistR_W",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 20,
         "active": [
             "Conjures a useful potion.",
@@ -810,7 +810,7 @@
         "color": "c5aa83",
         "hotkey": "[R] → [E]",
         "icon": "AlchemistR_E",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 21,
         "active": [
             "Collapses the ground with strong pulses.",
@@ -834,7 +834,7 @@
         "color": "c5aa83",
         "hotkey": "[R] → [R]",
         "icon": "AlchemistR_R",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 22,
         "active": [
             "Summon a golem.",
@@ -1769,7 +1769,7 @@
         "color": "80ccff",
         "hotkey": "[R]",
         "icon": "ShooterR",
-        "proc_rate": 0.005,
+        "proc_rate": 0.5,
         "order": 6,
         "active": [
             "Fires a bullet that can distort dimensions.",
@@ -2303,7 +2303,7 @@
         "color": "fdbf82",
         "hotkey": "[E] → [Q]",
         "icon": "SwordsmanE_Q",
-        "proc_rate": 0.005,
+        "proc_rate": 0.5,
         "order": 7,
         "active": [
             "Quickly moves to target.",
@@ -3212,7 +3212,7 @@
         "color": "f9feb8",
         "hotkey": "[Q]",
         "icon": "CrusaderQ",
-        "proc_rate": 0.005,
+        "proc_rate": 0.5,
         "cooldown": 6,
         "order": 2,
         "active": [
@@ -5157,7 +5157,7 @@
         "color": "00bfff",
         "hotkey": "[Q]",
         "icon": "KnightQ",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "cooldown": 0.5,
         "order": 2,
         "active": [
@@ -5178,7 +5178,7 @@
         "color": "afaff5",
         "hotkey": "[W]",
         "icon": "KnightW",
-        "proc_rate": 0.007,
+        "proc_rate": 0.7,
         "order": 3,
         "active": [
             "Quickly dash across the battlefield.",
@@ -5254,7 +5254,7 @@
         "color": "73b9ff",
         "hotkey": "[R]",
         "icon": "KnightR",
-        "proc_rate": 0.005,
+        "proc_rate": 0.5,
         "cooldown": 1.5,
         "order": 6,
         "passive": [
@@ -5466,7 +5466,7 @@
         "color": "8080ff",
         "hotkey": "[R] → [Q]",
         "icon": "DarkKnightR_Q",
-        "proc_rate": 0.005,
+        "proc_rate": 0.5,
         "order": 6,
         "active": [
             "Shoots a coil infused with dark magic.",
@@ -5487,7 +5487,7 @@
         "color": "8080ff",
         "hotkey": "[R] → [W]",
         "icon": "DarkKnightR_W",
-        "proc_rate": 0.005,
+        "proc_rate": 0.5,
         "order": 7,
         "active": [
             "Grasps target's soul.",
@@ -5505,7 +5505,7 @@
         "color": "8080ff",
         "hotkey": "[R] → [E]",
         "icon": "DarkKnightR_E",
-        "proc_rate": 0.005,
+        "proc_rate": 0.5,
         "order": 8,
         "active": [
             "Defiles nearby ground.",
@@ -5533,7 +5533,7 @@
         "color": "8080ff",
         "hotkey": "[R] → [R]",
         "icon": "DarkKnightR_R",
-        "proc_rate": 0.005,
+        "proc_rate": 0.5,
         "cooldown": 30,
         "order": 9,
         "active": [
@@ -5629,7 +5629,7 @@
         "color": "82e1ff",
         "hotkey": "[Q]",
         "icon": "ArcaneMageQ",
-        "proc_rate": 0.008,
+        "proc_rate": 0.8,
         "cooldown": 6,
         "order": 2,
         "active": [
@@ -5652,7 +5652,7 @@
         "color": "91b9e1",
         "hotkey": "[W]",
         "icon": "ArcaneMageW",
-        "proc_rate": 0.008,
+        "proc_rate": 0.8,
         "cooldown": 8,
         "order": 3,
         "active": [
@@ -5676,7 +5676,7 @@
         "color": "d79bff",
         "hotkey": "[E]",
         "icon": "ArcaneMageE",
-        "proc_rate": 0.008,
+        "proc_rate": 0.8,
         "cooldown": 10,
         "order": 4,
         "active": [
@@ -5703,7 +5703,7 @@
         "color": "91b9e1",
         "hotkey": "[R]",
         "icon": "ArcaneMageR",
-        "proc_rate": 0.008,
+        "proc_rate": 0.8,
         "cooldown": 12,
         "order": 5,
         "active": [
@@ -5728,7 +5728,7 @@
         "color": "4bebaf",
         "hotkey": "[T]",
         "icon": "ArcaneMageT",
-        "proc_rate": 0.008,
+        "proc_rate": 0.8,
         "cooldown": 12,
         "order": 6,
         "active": [
@@ -6466,7 +6466,7 @@
         "color": "ecca82",
         "hotkey": "[W]",
         "icon": "PaladinW",
-        "proc_rate": 0.005,
+        "proc_rate": 0.5,
         "order": 7,
         "passive": [
             "Summons holy spirits that boosts your mobility.",
@@ -7015,7 +7015,7 @@
         "color": "efcdf3",
         "hotkey": "[W]",
         "icon": "WitchW",
-        "proc_rate": 0.005,
+        "proc_rate": 0.5,
         "order": 3,
         "active": [
             "Shoots stars out of your broom.",
@@ -7805,7 +7805,7 @@
         "color": "eebfb0",
         "hotkey": "[T] → [D]",
         "icon": "ShrinePriestessT_D",
-        "proc_rate": 0.005,
+        "proc_rate": 0.5,
         "order": 12,
         "active": [
             "Turns into a spirit to quickly move to target location.",
