@@ -2822,7 +2822,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.001,
-      0.075
+      0.04
     ],
     "required_by": [
       "Tepethia, the Crimson Sword of Requiem",
@@ -2847,7 +2847,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.001,
-      0.075
+      0.04
     ],
     "required_by": [
       "Death Visage",
@@ -2869,7 +2869,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.075,
+    "droprate": 0.04,
     "required_by": [
       "Deathbringer",
       "Benziena, the Earthen Soul",
@@ -2900,7 +2900,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.075,
+    "droprate": 0.04,
     "required_by": [
       "Staff of Madness",
       "Grim Visage",
@@ -3130,7 +3130,7 @@
     "type": "Weapon (Melee)",
     "color": "EBD787",
     "level": 50,
-    "droprate": 0.40,
+    "droprate": 0.125,
     "required_by": [
       "Laksha, the Reigning Sword of Poison"
     ],
@@ -3154,7 +3154,7 @@
     "type": "Weapon (Staff)",
     "color": "EBD787",
     "level": 50,
-    "droprate": 0.40,
+    "droprate": 0.125,
     "stats": {
       "damage": 800,
       "int": 200,
@@ -3175,7 +3175,7 @@
     "type": "Weapon (Bow)",
     "color": "EBD787",
     "level": 50,
-    "droprate": 0.40,
+    "droprate": 0.125,
     "stats": {
       "damage": 1000,
       "agi": 170,
@@ -3196,7 +3196,7 @@
     "type": "Weapon (Gun)",
     "color": "EBD787",
     "level": 50,
-    "droprate": 0.40,
+    "droprate": 0.125,
     "stats": {
       "damage": 1000,
       "agi": 170,
@@ -3217,7 +3217,7 @@
     "type": "Armor",
     "color": "EBD787",
     "level": 50,
-    "droprate": 0.40,
+    "droprate": 0.125,
     "required_by": [
       "Bloodstone Plates"
     ],
@@ -3239,7 +3239,7 @@
     "type": "Armor",
     "color": "EBD787",
     "level": 50,
-    "droprate": 0.40,
+    "droprate": 0.125,
     "stats": {
       "armor": 60,
       "int": 110
@@ -3257,7 +3257,7 @@
     "type": "Headwear",
     "color": "EBD787",
     "level": 50,
-    "droprate": 0.40,
+    "droprate": 0.125,
     "stats": {
       "armor": 48,
       "mainstat": 45
@@ -3275,7 +3275,7 @@
     "type": "Accessory",
     "color": "EBD787",
     "level": 50,
-    "droprate": 0.40,
+    "droprate": 0.125,
     "required_by": [
       "Hydra Icon"
     ],
@@ -3296,7 +3296,7 @@
     "grade": 0,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.50,
+    "droprate": 0.20,
     "required_by": [
       "Laksha, the Reigning Sword of Poison",
       "Monster Hunter",
@@ -3317,7 +3317,7 @@
     "grade": 0,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.50,
+    "droprate": 0.20,
     "required_by": [
       "Monster Blaster",
       "Bag of Mighty Strength",
@@ -3357,7 +3357,7 @@
     "type": "Weapon (Melee)",
     "color": "52E252",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.075,
     "required_by": [
       "Sanguiel, the Bloodspear of Domination"
     ],
@@ -3382,7 +3382,7 @@
     "type": "Weapon (Melee)",
     "color": "52E252",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.075,
     "required_by": [
       "Tepethia, the Bloodsword of Domination"
     ],
@@ -3407,7 +3407,7 @@
     "type": "Weapon (Gun)",
     "color": "52E252",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.075,
     "required_by": [
       "True Blood Cannon Tepes"
     ],
@@ -3433,7 +3433,7 @@
     "type": "Armor",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.075,
     "required_by": [
       "Bloodstone Plates",
       "Count Icon"
@@ -3456,7 +3456,7 @@
     "type": "Armor",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.075,
     "required_by": [
       "Count Icon"
     ],
@@ -3477,7 +3477,7 @@
     "type": "Headwear",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.075,
     "stats": {
       "armor": 60,
       "mainstat": 55
@@ -3495,7 +3495,7 @@
     "type": "Headwear",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.075,
     "required_by": [
       "Teperua, the Ring of Blood"
     ],
@@ -3516,7 +3516,7 @@
     "grade": 1,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.25,
+    "droprate": 0.125,
     "required_by": [
       "Sanguiel, the Bloodspear of Domination",
       "Tepethia, the Bloodsword of Domination",
@@ -3537,7 +3537,7 @@
     "grade": 1,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.25,
+    "droprate": 0.125,
     "required_by": [
       "Cape of the Count",
       "Bloody Hatred",
@@ -3557,7 +3557,7 @@
     "grade": 1,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.25,
+    "droprate": 0.125,
     "required_by": [
       "Bahanar, the Sword of Illusion",
       "True Blood Cannon Tepes",
@@ -3620,7 +3620,7 @@
     "type": "Headwear",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.075,
     "required_by": [
       "Jack Pumpkin Hood +1",
       "Jack Icon"
@@ -3645,7 +3645,7 @@
     "type": "Weapon (Staff)",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.075,
     "required_by": [
       "Crimson Pumpkin Rod"
     ],
@@ -3671,7 +3671,7 @@
     "type": "Accessory",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.075,
     "required_by": [
       "Fruit Candy Pouch",
       "Candy-filled Bag"
@@ -3700,7 +3700,7 @@
     "grade": 1,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.25,
+    "droprate": 0.15,
     "required_by": [
       "Sanguiel, the Bloodspear of Domination",
       "Tepethia, the Bloodsword of Domination",
@@ -3773,7 +3773,7 @@
     "type": "Special",
     "color": "C6F5B1",
     "level": 70,
-    "droprate": 0.15,
+    "droprate": 0.075,
     "notes": [
       "The order below is the order of the menu to select when in game"
     ],
@@ -3929,7 +3929,7 @@
     "type": "Armor",
     "color": "52E252",
     "level": 70,
-    "droprate": 0.15,
+    "droprate": 0.075,
     "required_by": [
       "Robe of the Sage",
       "Mage Lord Icon"
@@ -3955,7 +3955,7 @@
     "type": "Headwear",
     "color": "52E252",
     "level": 70,
-    "droprate": 0.15,
+    "droprate": 0.075,
     "required_by": [
       "Prophetia, the Source of Mana",
       "Hood of Grim Reaper",
@@ -3984,7 +3984,7 @@
     "type": "Accessory",
     "color": "52E252",
     "level": 70,
-    "droprate": 0.15,
+    "droprate": 0.075,
     "required_by": [
       "Ring of the Sage",
       "Ring of Strike",
@@ -4012,7 +4012,7 @@
     "grade": 1,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.20,
+    "droprate": 0.125,
     "required_by": [
       "Flame Soul",
       "Tepethia, the Crimson Sword of Requiem",
@@ -4046,7 +4046,7 @@
     "grade": 1,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.20,
+    "droprate": 0.125,
     "required_by": [
       "Karonphniamm, the True Holy Sword",
       "Eximelia, the True Unholy Sword",
@@ -4116,7 +4116,7 @@
     "type": "Weapon (Melee)",
     "color": "52E252",
     "level": 70,
-    "droprate": 0.15,
+    "droprate": 0.075,
     "required_by": [
       "True Dragonsword Lainhart"
     ],
@@ -4142,7 +4142,7 @@
     "type": "Weapon (Bow)",
     "color": "52E252",
     "level": 70,
-    "droprate": 0.15,
+    "droprate": 0.075,
     "required_by": [
       "True Dragonbow Aience"
     ],
@@ -4168,7 +4168,7 @@
     "type": "Weapon (Staff)",
     "color": "52E252",
     "level": 70,
-    "droprate": 0.15,
+    "droprate": 0.075,
     "required_by": [
       "True Dragonstaff Irave"
     ],
@@ -4195,7 +4195,7 @@
     "type": "Weapon (Gun)",
     "color": "52E252",
     "level": 70,
-    "droprate": 0.15,
+    "droprate": 0.075,
     "required_by": [
       "True Dragon Cannon Belenus"
     ],
@@ -4221,7 +4221,7 @@
     "type": "Armor",
     "color": "52E252",
     "level": 70,
-    "droprate": 0.15,
+    "droprate": 0.075,
     "required_by": [
       "True Dragon Armor Magron"
     ],
@@ -4245,7 +4245,7 @@
     "type": "Headwear",
     "color": "52E252",
     "level": 70,
-    "droprate": 0.15,
+    "droprate": 0.075,
     "required_by": [
       "True Dragon Helm Agron"
     ],
@@ -4269,7 +4269,7 @@
     "grade": 1,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.20,
+    "droprate": 0.125,
     "required_by": [
       "True Dragonsword Lainhart",
       "True Dragonstaff Irave",
@@ -4291,7 +4291,7 @@
     "grade": 1,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.20,
+    "droprate": 0.125,
     "required_by": [
       "True Dragon Armor Magron",
       "True Dragon Helm Agron",
@@ -4312,7 +4312,7 @@
     "grade": 1,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.20,
+    "droprate": 0.125,
     "required_by": [
       "Leoreus, the Greatsword of Explosion",
       "Ring of the Sage",
@@ -4414,7 +4414,7 @@
     "grade": 1,
     "type": "Weapon (Melee)",
     "color": "52E252",
-    "droprate": 0.15,
+    "droprate": 0.075,
     "level": 80,
     "required_by": [
       "Karonphniamm, the True Holy Sword",
@@ -4442,7 +4442,7 @@
     "grade": 1,
     "type": "Weapon (Staff)",
     "color": "52E252",
-    "droprate": 0.15,
+    "droprate": 0.075,
     "level": 80,
     "required_by": [
       "Klenetia, the True Holy Staff",
@@ -4469,7 +4469,7 @@
     "grade": 1,
     "type": "Weapon (Gun)",
     "color": "52E252",
-    "droprate": 0.15,
+    "droprate": 0.075,
     "level": 80,
     "required_by": [
       "Eana, the True Holy Cannon"
@@ -4496,7 +4496,7 @@
     "grade": 1,
     "type": "Armor",
     "color": "52E252",
-    "droprate": 0.15,
+    "droprate": 0.075,
     "level": 80,
     "required_by": [
       "Purelight Armor",
@@ -4525,7 +4525,7 @@
     "grade": 1,
     "type": "Headwear",
     "color": "52E252",
-    "droprate": 0.15,
+    "droprate": 0.075,
     "level": 80,
     "required_by": [
       "Archangel Halo"
@@ -4550,7 +4550,7 @@
     "grade": 1,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.15,
+    "droprate": 0.125,
     "required_by": [
       "Bahanar, the Sword of Illusion",
       "Staff of Void",
@@ -4574,7 +4574,7 @@
     "grade": 1,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.15,
+    "droprate": 0.125,
     "required_by": [
       "Karonphniamm, the True Holy Sword",
       "Klenetia, the True Holy Staff",
@@ -4616,7 +4616,7 @@
     "grade": 1,
     "type": "Headwear",
     "color": "52E252",
-    "droprate": 0.15,
+    "droprate": 0.075,
     "level": 80,
     "required_by": [
       "Grim Visage"
@@ -4640,7 +4640,7 @@
     "grade": 1,
     "type": "Weapon (Melee)",
     "color": "52E252",
-    "droprate": 0.15,
+    "droprate": 0.075,
     "level": 80,
     "required_by": [
       "Eximelia, the True Unholy Sword",
@@ -4667,7 +4667,7 @@
     "grade": 1,
     "type": "Armor",
     "color": "52E252",
-    "droprate": 0.15,
+    "droprate": 0.075,
     "level": 80,
     "required_by": [
       "Cruoris, the Armor of Blood",
@@ -4696,7 +4696,7 @@
     "grade": 1,
     "type": "Weapon (Bow)",
     "color": "52E252",
-    "droprate": 0.15,
+    "droprate": 0.075,
     "level": 80,
     "required_by": [
       "Alkate, the True Unholy Bow",
@@ -4722,7 +4722,7 @@
     "grade": 1,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.15,
+    "droprate": 0.125,
     "required_by": [
       "Flame Soul",
       "Staff of Void",
@@ -4746,7 +4746,7 @@
     "grade": 1,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.15,
+    "droprate": 0.125,
     "required_by": [
       "Eximelia, the True Unholy Sword",
       "Alkate, the True Unholy Bow",
@@ -4791,7 +4791,7 @@
     "type": "Armor",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.08,
+    "droprate": 0.06,
     "required_by": [
       "Everfrost Icon",
       "Frozen Robe",
@@ -4819,7 +4819,7 @@
     "type": "Headwear",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.08,
+    "droprate": 0.06,
     "required_by": [
       "Frostshard Armor",
       "Everfrost Icon"
@@ -4846,7 +4846,7 @@
     "type": "Headwear",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.08,
+    "droprate": 0.06,
     "required_by": [
       "Crown of Composure",
       "Everfrost Icon"
@@ -4872,7 +4872,7 @@
     "type": "Accessory",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.08,
+    "droprate": 0.06,
     "required_by": [
       "Twin Snow",
       "Crimson Cross",
@@ -4901,7 +4901,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.1,
+    "droprate": 0.08,
     "required_by": [
       "Icicle Storm",
       "Bag of Life",
@@ -4940,7 +4940,7 @@
     "type": "Weapon (Melee)",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.08,
+    "droprate": 0.06,
     "required_by": [
       "Aglaia, the Spear of Heavenly Flows"
     ],
@@ -4967,7 +4967,7 @@
     "type": "Weapon (Bow)",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.08,
+    "droprate": 0.06,
     "required_by": [
       "Icicle Storm"
     ],
@@ -4994,7 +4994,7 @@
     "type": "Weapon (Gun)",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.08,
+    "droprate": 0.06,
     "required_by": [
       "Retus, the Bullet of Judgment"
     ],
@@ -5018,7 +5018,7 @@
     "type": "Accessory",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.08,
+    "droprate": 0.06,
     "required_by": [
       "Everfrost Gauntlet",
       "Heart of Ifrit"
@@ -5044,7 +5044,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.1,
+    "droprate": 0.08,
     "required_by": [
       "Twin Snow",
       "Bag of Corruption",
@@ -5087,7 +5087,7 @@
     "type": "Weapon (Melee)",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.06,
+    "droprate": 0.04,
     "required_by": [
       "Spider Queen Icon",
       "Winter's Heart"
@@ -5116,7 +5116,7 @@
     "type": "Weapon (Bow)",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.06,
+    "droprate": 0.04,
     "required_by": [
       "Everfrostbane",
       "Spider Queen Icon"
@@ -5149,7 +5149,7 @@
     "type": "Weapon (Melee)",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.08,
+    "droprate": 0.06,
     "required_by": [
       "Deathbringer"
     ],
@@ -5177,7 +5177,7 @@
     "type": "Weapon (Staff)",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.08,
+    "droprate": 0.06,
     "required_by": [
       "Twin Snow"
     ],
@@ -5207,7 +5207,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.1,
+    "droprate": 0.08,
     "required_by": [
       "Sanguiel, the Bloodspear of Requiem",
       "Anger",
@@ -5278,7 +5278,7 @@
     "type": "Weapon (Melee)",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.06,
+    "droprate": 0.04,
     "required_by": [
       "Maw of Greed",
       "Claws of Beriel",
@@ -5308,7 +5308,7 @@
     "type": "Weapon (Gun)",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.06,
+    "droprate": 0.04,
     "required_by": [
       "Bullet of Ruin",
       "Demon Lord Icon"
@@ -5337,7 +5337,7 @@
     "type": "Headwear",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.08,
+    "droprate": 0.06,
     "required_by": [
       "Horns of Destruction",
       "Bahanar, the True Sword of Illusion"
@@ -5368,7 +5368,7 @@
     "type": "Headwear",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.08,
+    "droprate": 0.06,
     "required_by": [
       "Devil Blaster",
       "Staff of Domination",
@@ -5401,7 +5401,7 @@
     "type": "Wings",
     "color": "52E252",
     "level": 90,
-    "droprate": 0.08,
+    "droprate": 0.06,
     "required_by": [
       "Wanderer's Cape",
       "Storm"
@@ -5425,7 +5425,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.1,
+    "droprate": 0.08,
     "required_by": [
       "Bahanar, the True Sword of Illusion",
       "Asmodeus, the Archdevil's Greatsword",
@@ -5460,7 +5460,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.1,
+    "droprate": 0.08,
     "required_by": [
       "Anger",
       "Flame Explosion",
@@ -5524,7 +5524,7 @@
     "type": "Weapon (Shared)",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.04,
     "required_by": [
       "Spirit Dagger"
     ],
@@ -5565,7 +5565,7 @@
     "type": "Headwear",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.04,
     "required_by": [
       "Aglaia, the Spear of Heavenly Flows",
       "Horn of Devil",
@@ -5602,7 +5602,7 @@
     "type": "Weapon (Melee)",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.04,
     "required_by": [
       "Blazing Soul"
     ],
@@ -5647,7 +5647,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.0005,
-      0.075,
+      0.04,
       0.0025
     ],
     "required_by": [
@@ -5681,7 +5681,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.075,
+    "droprate": 0.04,
     "required_by": [
       "Benziena, the Earthen Soul",
       "Vest of Cyclone",
@@ -5746,7 +5746,7 @@
     "type": "Weapon (Melee)",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.03,
     "required_by": [
       "Anger",
       "Corruptor Icon"
@@ -5781,7 +5781,7 @@
     "type": "Weapon (Bow)",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.03,
     "required_by": [
       "Heartseeker",
       "Soulstalker",
@@ -5821,7 +5821,7 @@
     "type": "Weapon (Melee)",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.03,
     "required_by": [
       "Laktrisha, the Illusional Sword of Poison",
       "Corruptor Icon"
@@ -5858,7 +5858,7 @@
     "type": "Weapon (Gun)",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.03,
     "required_by": [
       "Devil Chaser",
       "Corruptor Icon"
@@ -5895,7 +5895,7 @@
     "type": "Accessory",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.03,
     "required_by": [
       "Hood of Grim Reaper",
       "Ring of the Reaper",
@@ -5931,7 +5931,7 @@
     "type": "Accessory",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.03,
     "required_by": [
       "Corruptor Icon",
       "Soul Drinker",
@@ -5976,7 +5976,7 @@
     "type": "Weapon (Staff)",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.075,
+    "droprate": 0.02,
     "required_by": [
       "Staff of Plague",
       "Corruptor Icon"
@@ -6010,7 +6010,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.075,
+    "droprate": 0.04,
     "required_by": [
       "Bag of Corruption",
       "Ring of the Reaper",
@@ -6043,7 +6043,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.075,
+    "droprate": 0.04,
     "required_by": [
       "Hydro Buster",
       "Plates of Lightning",
@@ -6087,7 +6087,7 @@
     "type": "Weapon (Staff)",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.04,
     "required_by": [
       "Bloody Hatred",
       "Flame Nightmare Icon"
@@ -6126,7 +6126,7 @@
     "type": "Armor",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.04,
     "required_by": [
       "Bloodsoul Plates",
       "Frostshard Armor",
@@ -6165,7 +6165,7 @@
     "type": "Accessory",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.075,
+    "droprate": 0.04,
     "required_by": [
       "Blazing Soul",
       "Ring of Strike",
@@ -6201,7 +6201,7 @@
     "type": "Weapon (Gun)",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.04,
     "required_by": [
       "Dante's Inferno",
       "Flame Nightmare Icon"
@@ -6238,7 +6238,7 @@
     "type": "Headwear",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.075,
+    "droprate": 0.02,
     "required_by": [
       "Crown of Rage",
       "Crown of Composure",
@@ -6271,7 +6271,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.075,
+    "droprate": 0.04,
     "required_by": [
       "Laksha, the Ancient Sword of Poison",
       "Bahanar, the True Sword of Illusion",
@@ -6304,7 +6304,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.075,
+    "droprate": 0.04,
     "required_by": [
       "Anger",
       "Flame Explosion",
@@ -6358,7 +6358,7 @@
     "type": "Weapon (Gun)",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.04,
     "required_by": [
       "Hydro Buster",
       "Turtle Lord Icon"
@@ -6397,7 +6397,7 @@
     "type": "Armor",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.04,
     "required_by": [
       "Tunic of the Wraith",
       "Turtle Lord Icon"
@@ -6430,7 +6430,7 @@
     "type": "Accessory",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.04,
     "required_by": [
       "Staff of Madness",
       "Eternal Rose",
@@ -6469,7 +6469,7 @@
     "type": "Headwear",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.1,
+    "droprate": 0.04,
     "required_by": [
       "Protector's Will",
       "Turtle Lord Icon"
@@ -6507,7 +6507,7 @@
     "type": "Accessory",
     "color": "52E252",
     "level": 100,
-    "droprate": 0.075,
+    "droprate": 0.02,
     "required_by": [
       "Blazing Heart",
       "Eternal Rose",
@@ -6547,7 +6547,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.075,
+    "droprate": 0.04,
     "required_by": [
       "Deathbringer",
       "Oceanus, the Sword of Light",
@@ -6580,7 +6580,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.075,
+    "droprate": 0.04,
     "required_by": [
       "Storm Reaver",
       "Aglaia, the Spear of Heavenly Flows",
@@ -6612,7 +6612,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.075,
+    "droprate": 0.04,
     "required_by": [
       "Spirit Dagger",
       "Twin Snow",
@@ -6657,21 +6657,13 @@
     "koreanname": "프리우스 은화",
     "description": "A valuable coin. It can be traded with collectors for other items.",
     "notes": [
-      "Prius Silver Coin can either be dropped by mid-level bosses with 40% chance or exchanged",
       "To exchange, you can sell items dropped by mid-level bosses ('Used In' section except 'Spirit Beast Icon') to the Collector NPC",
       "Can be used to purchased items from the Collector NPC"
-    ],
-    "dropped_by": [
-      "Spirit Beast",
-      "Corruptor Rectus",
-      "Flame Nightmare",
-      "Turtle Lord"
     ],
     "rank": "none",
     "grade": 0,
     "type": "Coin",
     "color": "C0C0C0",
-    "droprate": 0.4,
     "required_by": [
       "Coin of Effort",
       "Corruptor",

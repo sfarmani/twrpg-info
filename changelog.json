@@ -1,8 +1,95 @@
 [
     {
+        "name": "52d",
+        "notes": [
+            "Released on: September 29th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Items - Fixed some items becoming different items on load",
+            "Mad clown - Fixed not spawning combat spoils chest",
+            "Elementalist - Re-fixed bugs related to Seal of wind (D) - Jump (D)",
+            "Water mage - Fixed stats provided by Frozen emotion (W) not changing based on items equipped by Water mage"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Passive effect stack amount is now shown as item stacks for the following item",
+                    [
+                        "Wings of Slayer"
+                    ],
+                    "Passive effect cooldown is now shown as item stacks for the following item",
+                    [
+                        "Ring of Strike"
+                    ]
+                ]
+            },
+            {
+                "name": "Fulminata, the Bringer of Storms",
+                "changes": [
+                    "Passive",
+                    [
+                        "Damage scaling: 3 → 3.5",
+                        "Cooldown: 20 seconds → 15 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Caedis, the Blade of Slaughter",
+                "changes": [
+                    "Passive",
+                    [
+                        "Stack duration: 3 seconds → 5 seconds",
+                        "Added 1.5% skill damage increase per stack"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Combat spoils system",
+                    [
+                        "Item rolling changed to pre-0.52c system (rolling for all items at once)",
+                        "Early ~ Mid-game boss drop rates changed to pre-0.52c accordingly",
+                        "Dropped items are now determined as soon as boss is killed and are shown as floating text",
+                        "Players can obtain items dropped for them through chest or abandom them",
+                        "Chest will disappear when all players obtained or abandoned their items"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Throw Bomb (W)",
+                    [
+                        "Bomb location now is indicated more clearly"
+                    ],
+                    "Scroll of God's Blessing (F)",
+                    [
+                        "Can no longer be casted on Arcane Mage's Illusion (R) and Shrine Priestess' Go Forth Meeko! (D)"
+                    ]
+                ]
+            },
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Go forth Meeko! (D)",
+                    [
+                        "Meeko is no longer recognized as 'allied hero' (to not be affected by effects like Merchant's Throwing healing potion (W), Valtora's Shackles, etc)"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "52c",
         "notes": [
-            "Released on: September 23, 2021",
+            "Released on: September 23rd, 2021",
             "Compatible Version: v0.44c ~"
         ],
         "bugs": [
@@ -6179,14 +6266,14 @@
             {
                 "name": "Bag of Explosion",
                 "changes": [
-                    "Throw Bomb",
+                    "Throw Bomb (W)",
                     [
                         "Switching cooldown: 1 second → 2 seconds",
                         "Range: 1000 → 1200",
                         "No longer explodes when landed on an enemy",
                         "Affected by Flame Affinity"
                     ],
-                    "Dangerous Explosives",
+                    "Dangerous Explosives (T)",
                     [
                         "Selected target point → current position of hero",
                         "Duration: 15 seconds → 12 seconds",
