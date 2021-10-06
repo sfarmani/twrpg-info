@@ -1,5 +1,83 @@
 [
     {
+        "name": "53a",
+        "notes": [
+            "Released on: October 5th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "items": [
+            {
+                "name": "Archangel Wings",
+                "changes": [
+                    "Passive",
+                    [
+                        "Now shown in status bar"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Mad Clown",
+                "changes": [
+                    "Reduced item drop rates (weren't done properly in v0.52d)"
+                ]
+            },
+            {
+                "name": "Flame Nightmare ~ Spirit Beast",
+                "changes": [
+                    "Items dropped can now be directly turned into Prius Silver Coins from chests"
+                ]
+            },
+            {
+                "name": "Skeletal King Desperia ~ Archangel Samael",
+                "changes": [
+                    "Drop rate / HP increase from difficulty scaling: 10 / 20% → 5 / 25% per player past 5"
+                ]
+            },
+            {
+                "name": "Skeletal King Desperia",
+                "changes": [
+                    "Fight now starts without breaking the sealing stone"
+                ]
+            },
+            {
+                "name": "Ancient Ent",
+                "changes": [
+                    "Seal-breaking gem no longer drops from Spirit Beast",
+                    "Mana Ancient seal-breaking gem droprate: 50% → 100%"
+                ]
+            },
+            {
+                "name": "Shadow Dragon Irbert",
+                "changes": [
+                    "Frozen Debris droprate: 2% → 1.25%"
+                ]
+            },
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "Frozen Debris droprate: 1.25% → 1.75%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Seal of Wind (D) - Jump (D)",
+                    [
+                        "No longer stops character"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Terrain of most boss arenas has been changed",
+            "Added new boss arena (Boss iteself will be added near end of month)"
+        ]
+    },
+    {
         "name": "52d",
         "notes": [
             "Released on: September 29th, 2021",

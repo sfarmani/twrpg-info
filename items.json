@@ -3106,15 +3106,16 @@
     "koreanname": "폭풍의 열쇠",
     "description": "Stone that can be used to break a seal.",
     "dropped_by": [
-      "Mana Ancient",
-      "Spirit Beast"
+      "Mana Ancient"
     ],
     "rank": "none",
     "grade": 0,
     "type": "Misc",
     "color": "D8C1BA",
+    "droprate": 1,
     "notes": [
-      "Droprate increases every 5 minutes that it does not drop",
+      "Droprate increases every 5 minutes that it does not drop from mobs",
+      "However, it is 100% drop rate from Mana Ancient",
       "Bring this to Ancient Ent to break its seal"
     ]
   },
@@ -8258,8 +8259,8 @@
     "type": "Material",
     "color": "FFFFFF",
     "droprate": [
-      0.0125,
-      0.02
+      0.0175,
+      0.0125
     ],
     "required_by": [
       "Winter's Heart",
