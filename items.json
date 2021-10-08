@@ -18759,7 +18759,7 @@
       "damage": 6750,
       "agi": 345,
       "int": 635,
-      "hp": 750,
+      "hp": 2250,
       "passive": [
         "Activates Empowerment upon healing allies",
         "Increases skill damage and healing recieved by 9% for 6 seconds"
