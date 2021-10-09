@@ -771,7 +771,7 @@
         "name": "Mage Lord",
         "limit": "4",
         "category": "Minor",
-        "summon": "South area of Frosty Snowfield between two snowmen near Yetis'",
+        "summon": "Middle right side of Frosty Snowfield where a small obelisk can be found",
         "conditions": "Recommended Level 70 and Red Magic Stone x4",
         "drops": [
             "I06F",
@@ -789,7 +789,7 @@
         "name": "Wings of Death",
         "limit": "5",
         "category": "Minor",
-        "summon": "In Volcanic Lands in the Volcano where Ragnaar spawns",
+        "summon": "In Volcanic Lands on the top right hand side of where Ragnaar spawns",
         "conditions": "Recommended Level 70 and Red Magic Stone x4",
         "drops": [
             "I07R",
@@ -822,7 +822,7 @@
         "name": "The 3rd Army's Guardian Angel",
         "limit": "4",
         "category": "Minor",
-        "summon": "In the far top right of the Cave",
+        "summon": "In the top side of the Golem Cave",
         "conditions": "Level 80 and White Magic Stone x6",
         "drops": [
             "I085",
