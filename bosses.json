@@ -890,7 +890,7 @@
         "name": "Frostspider Lord",
         "limit": "4",
         "category": "Minor",
-        "summon": "In Spider Cave where 3 Pruis Magicians are gathered",
+        "summon": "In Frosty Snowfield, there is a solider with a quest. Click his quest and it will take you to Spider Cave where 3 Pruis Magicians are gathered",
         "conditions": "Level 90 and Blue Magic Stone x6",
         "drops": [
             "I067",
