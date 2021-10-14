@@ -1,5 +1,49 @@
 [
     {
+        "name": "53c",
+        "notes": [
+            "Released on: October 14th, 2021",
+            "Compatible Version: v0.44c ~"
+        ],
+        "bugs": [
+            "Dark Knight - After casting Soul Break (Q) fixed hero automatically attacking another target nearby",
+            "Alchemist - Fixed HP consumption-related bug if 2 or more alchemists casted Gate of Truth (F) in same room",
+            "Sahdow Dragon Irbert - Fixed summon cinematic bug",
+            "Valtora - Fixed units getting stuck in upper part of boss arena",
+            "Skills - Fixed some skills getting deactivated when re-picking a character",
+            "Items - Fixed various description errors"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Passive effect stack amount is now shown as item stacks for following items",
+                    [
+                        "Crimson Pumpkin Rod",
+                        "Bloody Hatred",
+                        "Crimson Hatred"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Bone Dragon",
+                "changes": [
+                    "Tentacles no longer block cursor clicks"
+                ]
+            }
+        ],
+        "misc": [
+            "Dev note",
+            [
+                "Halloween Event is planned to start at the end of this month after new boss release",
+                "Several new boss-related items are also planned for release",
+                "All won't be added at same time, maybe some will be added after the boss"
+            ]
+        ]
+    },
+    {
         "name": "53a",
         "notes": [
             "Released on: October 5th, 2021",
