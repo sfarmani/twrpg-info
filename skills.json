@@ -7650,7 +7650,7 @@
         "order": 2,
         "passive": [
             "Sends forth fire.",
-            "Recharges 1 bullet per 6 seocnds (up to 4)",
+            "Recharges 1 bullet per 6 seconds (up to 4)",
             "If you have any bullets, automatically fires the bullet to deal INT X 20 magic damage"
         ],
         "toggle": [
