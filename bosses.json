@@ -1,25 +1,184 @@
 [
     {
+        "id": "n005",
+        "name": "Spider",
+        "level": "3",
+        "category": "Creep",
+        "type": "Mob",
+        "location": "East of Starter Village",
+        "stats": {
+            "health": "350",
+            "healthRegen": ".5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "0",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "25",
+            "attackSpread": "1",
+            "attackRange": "0",
+            "attackSpeed": ".625",
+            "moveSpeed": "300"
+        }
+    },
+    {
+        "id": "n008",
+        "name": "Giant Spider",
+        "level": "8",
+        "category": "Creep",
+        "type": "Mob",
+        "location": "East of Starter Village",
+        "stats": {
+            "health": "2000",
+            "healthRegen": ".5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "5",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "59",
+            "attackSpread": "1",
+            "attackRange": "0",
+            "attackSpeed": ".556",
+            "moveSpeed": "280"
+        }
+    },
+    {
+        "id": "n004",
+        "name": "Wolf",
+        "level": "5",
+        "category": "Creep",
+        "type": "Mob",
+        "location": "Southeast of Starter Village",
+        "stats": {
+            "health": "600",
+            "healthRegen": ".5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "3",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "32",
+            "attackSpread": "1",
+            "attackRange": "0",
+            "attackSpeed": ".625",
+            "moveSpeed": "400"
+        }
+    },
+    {
+        "id": "n007",
+        "name": "Dark Wolf",
+        "level": "6",
+        "category": "Creep",
+        "type": "Mob",
+        "location": "Southeast of Starter Village",
+        "stats": {
+            "health": "800",
+            "healthRegen": ".5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "0",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "35",
+            "attackSpread": "1",
+            "attackRange": "0",
+            "attackSpeed": ".625",
+            "moveSpeed": "400"
+        }
+    },
+    {
         "id": "n00A",
         "name": "Silverback Wolf",
+        "color": "ffffff",
+        "quote": "Grr..",
+        "level": "10",
+        "category": "Creep",
+        "type": "Boss",
         "limit": "1",
-        "timer": "60s",
-        "category": "Mob",
+        "timer": "60",
         "location": "Bottom left of the Kalidi Forest",
-        "conditions": "Recommended Level 1 ~ 10",
+        "conditions": "Level 1 ~ 10",
+        "stats": {
+            "health": "2500",
+            "healthRegen": "2.5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "10",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "106",
+            "attackSpread": "1",
+            "attackRange": "0",
+            "attackSpeed": ".5",
+            "moveSpeed": "400"
+        },
         "drops": [
             "I009",
             "I00P"
+        ],
+        "spells": [
+            "Summon Shadow Wolf",
+            "Critical Strike"
+        ],
+        "minions": [
+            "Shadow Wolf"
         ]
+    },
+    {
+        "id": "h08B",
+        "name": "Shadow Wolf",
+        "level": "10",
+        "category": "Creep",
+        "type": "Minion",
+        "location": "Bottom part of the Wild Life Habitat",
+        "conditions": "Summoned by Silverback Wolf",
+        "stats": {
+            "health": "1",
+            "healthRegen": "1",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "3",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "3",
+            "attackSpread": "5",
+            "attackRange": "0",
+            "attackSpeed": ".667",
+            "moveSpeed": "350"
+        }
     },
     {
         "id": "n00H",
         "name": "Troll",
-        "limit": "0",
-        "timer": "15s",
-        "category": "Mob",
+        "level": "12",
+        "category": "Creep",
+        "type": "Mob",
+        "timer": "15",
+        "limit": "1",
         "location": "Bottom part of the Wild Life Habitat",
-        "conditions": "Recommended Level 10 ~ 20",
+        "stats": {
+            "health": "1000",
+            "healthRegen": "2.5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "5",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "40",
+            "attackSpread": "3",
+            "attackRange": "0",
+            "attackSpeed": ".667",
+            "moveSpeed": "350"
+        },
+        "conditions": "Level 10 ~ 20",
         "drops": [
             "I00D"
         ]
@@ -27,11 +186,28 @@
     {
         "id": "n00I",
         "name": "Troll Shaman",
-        "limit": "0",
-        "timer": "15s",
-        "category": "Mob",
+        "level": "12",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "15",
         "location": "Bottom part of the Wild Life Habitat",
-        "conditions": "Recommended Level 10 ~ 20",
+        "stats": {
+            "health": "1150",
+            "healthRegen": "400",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "3",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "44",
+            "attackSpread": "7",
+            "attackRange": "200",
+            "attackSpeed": "1.053",
+            "moveSpeed": "480"
+        },
+        "conditions": "Level 10 ~ 20",
         "drops": [
             "I00S"
         ]
@@ -39,11 +215,28 @@
     {
         "id": "n00J",
         "name": "Troll Berserker",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "16",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
         "location": "Bottom part of the Wild Life Habitat",
-        "conditions": "Recommended Level 10 ~ 20",
+        "conditions": "Level 10 ~ 20",
+        "stats": {
+            "health": "2000",
+            "healthRegen": "400",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "5",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "77",
+            "attackSpread": "3",
+            "attackRange": "300",
+            "attackSpeed": "1",
+            "moveSpeed": "350"
+        },
         "drops": [
             "I01B"
         ]
@@ -51,24 +244,61 @@
     {
         "id": "n00O",
         "name": "Troll Lord",
-        "limit": "0",
-        "timer": "90s",
-        "category": "Mob",
+        "level": "20",
+        "category": "Creep",
+        "type": "Boss",
+        "limit": "1",
+        "timer": "90",
         "location": "Bottom part of the Wild Life Habitat",
         "conditions": "Recommended Level 10 ~ 20",
+        "stats": {
+            "health": "5000",
+            "healthRegen": "15",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "15",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "172",
+            "attackSpread": "3",
+            "attackRange": "400",
+            "attackSpeed": ".500",
+            "moveSpeed": "400"
+        },
         "drops": [
             "I01G",
             "I013"
+        ],
+        "spells": [
+            "Mirror Image"
         ]
     },
     {
         "id": "n00G",
         "name": "Furbolg",
-        "limit": "0",
-        "timer": "15s",
-        "category": "Mob",
+        "level": "24",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "15",
         "location": "Top side of the Wild Life Habitat",
-        "conditions": "Recommended Level 10 ~ 20",
+        "conditions": "Level 10 ~ 20",
+        "stats": {
+            "health": "2300",
+            "healthRegen": ".5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "7",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "64",
+            "attackSpread": "3",
+            "attackRange": "0",
+            "attackSpeed": ".833",
+            "moveSpeed": "300"
+        },
         "drops": [
             "I00T",
             "I0PY"
@@ -77,11 +307,28 @@
     {
         "id": "n00K",
         "name": "Furbolg Tracker",
-        "limit": "0",
-        "timer": "15s",
-        "category": "Mob",
+        "level": "25",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "15",
         "location": "Top side of the Wild Life Habitat",
-        "conditions": "Recommended Level 10 ~ 20",
+        "conditions": "Level 10 ~ 20",
+        "stats": {
+            "health": "2600",
+            "healthRegen": ".5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "8",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "82",
+            "attackSpread": "3",
+            "attackRange": "0",
+            "attackSpeed": ".833",
+            "moveSpeed": "300"
+        },
         "drops": [
             "I01C",
             "I0PY"
@@ -90,11 +337,28 @@
     {
         "id": "n00L",
         "name": "Furbolg Shaman",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "27",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
         "location": "Top side of the Wild Life Habitat",
-        "conditions": "Recommended Level 10 ~ 20",
+        "conditions": "Level 10 ~ 20",
+        "stats": {
+            "health": "3950",
+            "healthRegen": ".5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "13",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "125",
+            "attackSpread": "7",
+            "attackRange": "600",
+            "attackSpeed": ".5",
+            "moveSpeed": "300"
+        },
         "drops": [
             "I01F",
             "I0PY"
@@ -103,11 +367,28 @@
     {
         "id": "n01B",
         "name": "Furbolg Giant",
+        "level": "29",
+        "category": "Creep",
+        "type": "Boss",
         "limit": "1",
-        "timer": "60s",
-        "category": "Mob",
+        "timer": "60",
         "location": "Top side of the Wild Life Habitat",
-        "conditions": "Recommended Level 10 ~ 20",
+        "conditions": "Level 10 ~ 20",
+        "stats": {
+            "health": "5500",
+            "healthRegen": "12.5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "35",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "110",
+            "attackSpread": "4",
+            "attackRange": "0",
+            "attackSpeed": ".667",
+            "moveSpeed": "340"
+        },
         "drops": [
             "I0PY"
         ]
@@ -115,10 +396,29 @@
     {
         "id": "o003",
         "name": "Protector of Nature",
-        "limit": "2",
+        "color": "800080",
+        "quote": "The nature purges you!",
+        "level": "30",
         "category": "Field",
-        "summon": "Top side of the Wild Life Habitat",
-        "conditions": "Recommended Level 25 and Ancient Branch x3",
+        "type": "Boss",
+        "limit": "2",
+        "location": "At the big tree at the top side of Wild Life habitat",
+        "conditions": "Level 25 and Ancient Branch x3 at big tree",
+        "stats": {
+            "health": "12500",
+            "healthRegen": "15",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "30",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "240",
+            "attackSpread": "5",
+            "attackRange": "250",
+            "attackSpeed": ".5",
+            "moveSpeed": "200"
+        },
         "drops": [
             "I0DW",
             "I016",
@@ -127,16 +427,37 @@
             "I0AJ",
             "I00I",
             "pclr"
+        ],
+        "spells": [
+            "Wrath of Nature",
+            "Shackle of Nature"
         ]
     },
     {
         "id": "n00Y",
         "name": "White Murloc",
-        "limit": "0",
-        "timer": "25s",
-        "category": "Mob",
+        "level": "33",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "25",
         "location": "Right side of Wild Life Habitat, Seaside",
-        "conditions": "Recommended Level 10 ~ 20",
+        "conditions": "Level 10 ~ 20",
+        "stats": {
+            "health": "6300",
+            "healthRegen": ".5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "8",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "154",
+            "attackSpread": "1",
+            "attackRange": "0",
+            "attackSpeed": ".667",
+            "moveSpeed": "350"
+        },
         "drops": [
             "I02M",
             "I038"
@@ -145,11 +466,28 @@
     {
         "id": "n00X",
         "name": "Green Murloc",
-        "limit": "0",
-        "timer": "25s",
-        "category": "Mob",
+        "level": "35",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "25",
         "location": "Right side of Wild Life Habitat, Seaside",
-        "conditions": "Recommended Level 10 ~ 20",
+        "conditions": "Level 10 ~ 20",
+        "stats": {
+            "health": "6700",
+            "healthRegen": ".5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "9",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "160",
+            "attackSpread": "1",
+            "attackRange": "0",
+            "attackSpeed": ".667",
+            "moveSpeed": "350"
+        },
         "drops": [
             "I02M",
             "I09B",
@@ -159,11 +497,28 @@
     {
         "id": "n00Z",
         "name": "Orange Murloc",
-        "limit": "0",
-        "timer": "25s",
-        "category": "Mob",
+        "level": "37",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "25",
         "location": "Right side of Wild Life Habitat, Seaside",
         "conditions": "Recommended Level 10 ~ 20",
+        "stats": {
+            "health": "7150",
+            "healthRegen": ".5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "10",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "164",
+            "attackSpread": "1",
+            "attackRange": "0",
+            "attackSpeed": ".667",
+            "moveSpeed": "350"
+        },
         "drops": [
             "I038",
             "I09B",
@@ -173,11 +528,28 @@
     {
         "id": "n011",
         "name": "Blue Murloc",
-        "limit": "0",
-        "timer": "25s",
-        "category": "Mob",
+        "level": "41",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "25",
         "location": "Right side of Wild Life Habitat, Seaside",
-        "conditions": "Recommended Level 10 ~ 20",
+        "conditions": "Level 10 ~ 20",
+        "stats": {
+            "health": "7400",
+            "healthRegen": ".5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "11",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "168",
+            "attackSpread": "1",
+            "attackRange": "0",
+            "attackSpeed": ".667",
+            "moveSpeed": "350"
+        },
         "drops": [
             "I03B",
             "I039",
@@ -187,11 +559,28 @@
     {
         "id": "n010",
         "name": "Purple Murloc",
-        "limit": "0",
-        "timer": "25s",
-        "category": "Mob",
+        "level": "43",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "25",
         "location": "Right side of Wild Life Habitat, Seaside",
-        "conditions": "Recommended Level 10 ~ 20",
+        "conditions": "Level 10 ~ 20",
+        "stats": {
+            "health": "7800",
+            "healthRegen": ".5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "12",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "172",
+            "attackSpread": "1",
+            "attackRange": "0",
+            "attackSpeed": ".667",
+            "moveSpeed": "350"
+        },
         "drops": [
             "I03B",
             "I039",
@@ -201,11 +590,28 @@
     {
         "id": "n015",
         "name": "Dragon Turtle",
-        "limit": "0",
-        "timer": "120s",
-        "category": "Field",
+        "level": "45",
+        "category": "Creep",
+        "type": "Boss",
+        "limit": "1",
+        "timer": "120",
         "location": "Right side of Wild Life Habitat, far south of Seaside",
-        "conditions": "Recommended Level 10 ~ 20",
+        "conditions": "Level 10 ~ 20",
+        "stats": {
+            "health": "30000",
+            "healthRegen": "25",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "40",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "431",
+            "attackSpread": "18",
+            "attackRange": "250",
+            "attackSpeed": ".667",
+            "moveSpeed": "350"
+        },
         "drops": [
             "vddl",
             "I0Q3"
@@ -214,37 +620,102 @@
     {
         "id": "orai",
         "name": "King Crab",
-        "limit": "2",
+        "color": "dd4444",
+        "quote": "MRGLMRGL",
+        "level": "40",
         "category": "Field",
-        "summon": "Right side of Wild Life Habitat, Seaside",
-        "conditions": "Recommended Level 10 ~ 20 and Magical Horn",
+        "type": "Boss",
+        "limit": "2",
+        "location": "Right side of Wild Life Habitat, Seaside",
+        "conditions": "Level 10 ~ 20 and Magical Horn",
+        "stats": {
+            "health": "40000",
+            "healthRegen": "40",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "60",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "414",
+            "attackSpread": "4",
+            "attackRange": "0",
+            "attackSpeed": ".5",
+            "moveSpeed": "300"
+        },
         "drops": [
             "pmna",
             "spsh",
             "ciri"
+        ],
+        "spells": [
+            "Harden Shell",
+            "Sea Wave",
+            "Hold"
         ]
     },
     {
         "id": "o004",
         "name": "Walrus",
-        "limit": "2",
+        "color": "999b9b",
+        "quote": "It's slippery..",
+        "level": "40",
         "category": "Field",
-        "summon": "Right side of Wild Life Habitat, Seaside",
-        "conditions": "Recommended Level 10 ~ 20 and Magical Horn",
+        "type": "Boss",
+        "limit": "2",
+        "location": "Right side of Wild Life Habitat, Seaside",
+        "conditions": "Level 10 ~ 20 and Magical Horn",
+        "stats": {
+            "health": "40000",
+            "healthRegen": "50",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "50",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "362",
+            "attackSpread": "1",
+            "attackRange": "550",
+            "attackSpeed": ".5",
+            "moveSpeed": "250"
+        },
         "drops": [
             "I0DS",
             "wneg",
             "I0DT"
+        ],
+        "spells": [
+            "Slimy Ball",
+            "Slippery Skin",
+            "Headbutt"
         ]
     },
     {
         "id": "n018",
         "name": "Ice Troll",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "43",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
         "location": "In Frosty Snowfield",
         "conditions": "Level 40",
+        "stats": {
+            "health": "10300",
+            "healthRegen": ".5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "20",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "202",
+            "attackSpread": "3",
+            "attackRange": "500",
+            "attackSpeed": ".556",
+            "moveSpeed": "300"
+        },
         "drops": [
             "I03K",
             "I03H"
@@ -253,24 +724,61 @@
     {
         "id": "n019",
         "name": "Ice Troll Priest",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "45",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
         "location": "In Frosty Snowfield",
         "conditions": "Level 40",
+        "stats": {
+            "health": "11900",
+            "healthRegen": ".5",
+            "mana": "100",
+            "manaRegen": "0.5",
+            "armor": "20",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "214",
+            "attackSpread": "7",
+            "attackRange": "600",
+            "attackSpeed": ".526",
+            "moveSpeed": "300"
+        },
         "drops": [
             "I09H",
             "I0EW"
+        ],
+        "spells": [
+            "Heal"
         ]
     },
     {
         "id": "n01C",
         "name": "Polar Bear",
-        "limit": "0",
-        "timer": "40s",
-        "category": "Mob",
+        "level": "47",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "40",
         "location": "In Frosty Snowfield",
         "conditions": "Level 40",
+        "stats": {
+            "health": "13100",
+            "healthRegen": ".5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "25",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "230",
+            "attackSpread": "4",
+            "attackRange": "0",
+            "attackSpeed": ".667",
+            "moveSpeed": "330"
+        },
         "drops": [
             "I03I",
             "I03F",
@@ -280,11 +788,28 @@
     {
         "id": "n01E",
         "name": "Polar Bear Giant",
-        "limit": "None",
-        "timer": "120s",
-        "category": "Field",
+        "level": "50",
+        "category": "Creep",
+        "type": "Boss",
+        "limit": "1",
+        "timer": "120",
         "location": "In Frosty Snowfield",
         "conditions": "Level 40",
+        "stats": {
+            "health": "50000",
+            "healthRegen": "25",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "30",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "531",
+            "attackSpread": "3",
+            "attackRange": "0",
+            "attackSpeed": ".5",
+            "moveSpeed": "360"
+        },
         "drops": [
             "rnsp",
             "I08O"
@@ -293,37 +818,126 @@
     {
         "id": "oshm",
         "name": "Mammoth",
-        "limit": "2",
+        "color": "FFE4C4",
+        "quote": "BARANG",
+        "level": "50",
         "category": "Field",
-        "summon": "In Frosty Snowfield",
+        "type": "Boss",
+        "limit": "2",
+        "location": "In Frosty Snowfield",
         "conditions": "Level 40 and Frozen Crystal",
+        "stats": {
+            "health": "70000",
+            "healthRegen": "50",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "120",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "730",
+            "attackSpread": "1",
+            "attackRange": "0",
+            "attackSpeed": ".417",
+            "moveSpeed": "250"
+        },
         "drops": [
             "prvt",
             "lgdh",
             "ssil"
+        ],
+        "spells": [
+            "Massive Tusk",
+            "Charge",
+            "Hailstorm"
         ]
+    },
+    {
+        "id": "otau",
+        "name": "Snowman",
+        "level": "50",
+        "category": "Creep",
+        "type": "Minion",
+        "duration": "60",
+        "location": "In Frosty Snowfield",
+        "conditions": "Summoned by Mammoth",
+        "stats": {
+            "health": "7500",
+            "healthRegen": "0",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "75",
+            "armorType": "Hero",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "104",
+            "attackSpread": "6",
+            "attackRange": "500",
+            "attackSpeed": "2",
+            "moveSpeed": "360"
+        }
     },
     {
         "id": "o005",
         "name": "King Kong",
-        "limit": "2",
+        "color": "85745d",
+        "quote": "Monke.",
+        "level": "50",
         "category": "Field",
-        "summon": "In Frosty Snowfield",
+        "type": "Boss",
+        "limit": "2",
+        "location": "In Frosty Snowfield",
         "conditions": "Level 40 and Frozen Crystal",
+        "stats": {
+            "health": "70000",
+            "healthRegen": "50",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "100",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "640",
+            "attackSpread": "1",
+            "attackRange": "0",
+            "attackSpeed": ".455",
+            "moveSpeed": "250"
+        },
         "drops": [
             "I0DU",
             "hval",
             "I0DV"
+        ],
+        "spells": [
+            "Enrage",
+            "Throw"
         ]
     },
     {
         "id": "h00P",
         "name": "Duchy of Wallachia Soldier",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "62",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
         "location": "In Duchy of Wallachia",
         "conditions": "Level 50",
+        "stats": {
+            "health": "15300",
+            "healthRegen": "0",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "30",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "244",
+            "attackSpread": "1",
+            "attackRange": "0",
+            "attackSpeed": ".833",
+            "moveSpeed": "360"
+        },
         "drops": [
             "I044",
             "I0EZ"
@@ -332,11 +946,28 @@
     {
         "id": "e01B",
         "name": "Duchy of Wallachia Archer",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "63",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
         "location": "In Duchy of Wallachia",
         "conditions": "Level 50",
+        "stats": {
+            "health": "14800",
+            "healthRegen": "0",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "25",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "260",
+            "attackSpread": "2",
+            "attackRange": "600",
+            "attackSpeed": ".5",
+            "moveSpeed": "380"
+        },
         "drops": [
             "I045",
             "I09J"
@@ -345,11 +976,28 @@
     {
         "id": "h00R",
         "name": "Duchy of Wallachia Cavalry",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "65",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
         "location": "In Duchy of Wallachia",
         "conditions": "Level 50",
+        "stats": {
+            "health": "17500",
+            "healthRegen": "0",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "35",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "276",
+            "attackSpread": "8",
+            "attackRange": "0",
+            "attackSpeed": ".833",
+            "moveSpeed": "420"
+        },
         "drops": [
             "I044",
             "I045",
@@ -360,11 +1008,28 @@
     {
         "id": "h00S",
         "name": "Duchy of Wallachia Guardian",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "67",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
         "location": "In Duchy of Wallachia",
         "conditions": "Level 50",
+        "stats": {
+            "health": "22500",
+            "healthRegen": "0",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "50",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "326",
+            "attackSpread": "8",
+            "attackRange": "0",
+            "attackSpeed": "1",
+            "moveSpeed": "440"
+        },
         "drops": [
             "I040",
             "I041",
@@ -374,11 +1039,28 @@
     {
         "id": "h00T",
         "name": "Wallachia Death Knight Lord",
+        "level": "60",
+        "category": "Creep",
+        "type": "Boss",
         "limit": "5",
-        "timer": "240s",
-        "category": "Field",
+        "timer": "240",
         "location": "In Duchy of Wallachia",
         "conditions": "Level 50",
+        "stats": {
+            "health": "125000",
+            "healthRegen": "250",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "150",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "738",
+            "attackSpread": "8",
+            "attackRange": "0",
+            "attackSpeed": "1",
+            "moveSpeed": "480"
+        },
         "drops": [
             "sor1",
             "I05R",
@@ -386,15 +1068,66 @@
             "I09G",
             "I0F0",
             "sand"
+        ],
+        "spells": [
+            "Dark Strength",
+            "Death Finger",
+            "Summon Wraith"
+        ],
+        "minions": [
+            "Wraith"
         ]
+    },
+    {
+        "id": "h00I",
+        "name": "Wraith",
+        "level": "0",
+        "category": "Creep",
+        "type": "Minion",
+        "location": "In Duchy of Wallachia",
+        "conditions": "Summoned by Death Knight",
+        "stats": {
+            "health": "15000",
+            "healthRegen": "50",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "300",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "180",
+            "attackSpread": "4",
+            "attackRange": "0",
+            "attackSpeed": "1",
+            "moveSpeed": "300"
+        }
     },
     {
         "id": "n02L",
         "name": "Blood Wraith",
-        "limit": "2",
+        "color": "880808",
+        "quote": "I shall be unleashed!!",
+        "level": "60",
         "category": "Field",
-        "summon": "In Duchy of Wallachia",
+        "type": "Boss",
+        "limit": "2",
+        "location": "In Duchy of Wallachia",
         "conditions": "Level 50 and Cursed Mask",
+        "stats": {
+            "health": "200000",
+            "healthRegen": "500",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "420",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "437",
+            "attackSpread": "4",
+            "attackRange": "550",
+            "attackSpeed": "1.333",
+            "moveSpeed": "440"
+        },
         "drops": [
             "I0BQ",
             "I0CB",
@@ -402,15 +1135,71 @@
             "I0BS",
             "I0BT",
             "I0C3"
+        ],
+        "spells": [
+            "Bloody Echoes",
+            "Blood Anger",
+            "Craze",
+            "True Requiem"
+        ],
+        "minions": [
+            "Soldier of Blood"
+        ]
+    },
+    {
+        "id": "h017",
+        "name": "Soldier of Blood",
+        "level": "0",
+        "category": "Field",
+        "type": "Minion",
+        "limit": "2",
+        "summon": "In Duchy of Wallachia",
+        "conditions": "Summoned by Blood Wraith",
+        "stats": {
+            "health": "20000",
+            "healthRegen": "2500",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "300",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "391",
+            "attackSpread": "4",
+            "attackRange": "0",
+            "attackSpeed": ".8",
+            "moveSpeed": "450"
+        },
+        "spells": [
+            "Ghostly Strike"
         ]
     },
     {
         "id": "n03Y",
         "name": "Wallachia Monstrosity",
-        "limit": "2",
+        "color": "8d8e74 ",
+        "quote": "Bats! Bats! BATS!",
+        "level": "60",
         "category": "Field",
-        "summon": "In Duchy of Wallachia",
+        "type": "Boss",
+        "limit": "2",
+        "location": "In Duchy of Wallachia",
         "conditions": "Level 50 and Cursed Mask",
+        "stats": {
+            "health": "200000",
+            "healthRegen": "250",
+            "mana": "100",
+            "manaRegen": "25",
+            "armor": "450",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "380",
+            "attackSpread": "4",
+            "attackRange": "0",
+            "attackSpeed": ".8",
+            "moveSpeed": "500"
+        },
         "drops": [
             "rspl",
             "I0BR",
@@ -418,16 +1207,66 @@
             "I0C3",
             "I0BT",
             "rspd"
+        ],
+        "spells": [
+            "Death Cross",
+            "Summon Bat Statue",
+            "Hear me out!",
+            "Desperate Flight"
+        ],
+        "minions": [
+            "Bat Statue"
         ]
+    },
+    {
+        "id": "n03Z",
+        "name": "Bat Statue",
+        "level": "60",
+        "category": "Field",
+        "type": "Mechanic",
+        "summon": "In Duchy of Wallachia",
+        "conditions": "Summoned by Wallachia Monstrosity",
+        "stats": {
+            "health": "10000",
+            "healthRegen": "250",
+            "mana": "100",
+            "manaRegen": "20",
+            "armor": "320",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "0"
+        }
     },
     {
         "id": "n01F",
         "name": "Lava Hatchling",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "62",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
         "location": "In Volcanic Lands",
         "conditions": "Level 60",
+        "stats": {
+            "health": "20300",
+            "healthRegen": "50",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "50",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "294",
+            "attackSpread": "7",
+            "attackRange": "600",
+            "attackSpeed": ".444",
+            "moveSpeed": "300"
+        },
         "drops": [
             "I05C",
             "I05D"
@@ -436,11 +1275,28 @@
     {
         "id": "n01G",
         "name": "Lava Spawn",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "64",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
         "location": "In Volcanic Lands",
         "conditions": "Level 60",
+        "stats": {
+            "health": "21600",
+            "healthRegen": "75",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "60",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "306",
+            "attackSpread": "7",
+            "attackRange": "600",
+            "attackSpeed": ".444",
+            "moveSpeed": "310"
+        },
         "drops": [
             "I05C",
             "I09L",
@@ -450,11 +1306,28 @@
     {
         "id": "n01H",
         "name": "Lava Worm",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "64",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
         "location": "In Volcanic Lands",
         "conditions": "Level 60",
+        "stats": {
+            "health": "23500",
+            "healthRegen": "100",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "75",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "326",
+            "attackSpread": "7",
+            "attackRange": "600",
+            "attackSpeed": ".444",
+            "moveSpeed": "320"
+        },
         "drops": [
             "I05D",
             "I09L",
@@ -464,11 +1337,28 @@
     {
         "id": "n01I",
         "name": "Lava Ancient",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "68",
+        "category": "Creep",
+        "type": "Boss",
+        "limit": "1",
+        "timer": "30",
         "location": "In Volcanic Lands",
         "conditions": "Level 60",
+        "stats": {
+            "health": "50000",
+            "healthRegen": "250",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "100",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "540",
+            "attackSpread": "7",
+            "attackRange": "0",
+            "attackSpeed": ".571",
+            "moveSpeed": "400"
+        },
         "drops": [
             "I049",
             "I059",
@@ -478,11 +1368,28 @@
     {
         "id": "n01J",
         "name": "Ruler of Flames Ragnaar",
+        "level": "70",
+        "category": "Creep",
+        "type": "Boss",
         "limit": "2",
-        "timer": "240s",
-        "category": "Field",
+        "timer": "240",
         "location": "In Volcanic Lands",
         "conditions": "Level 60",
+        "stats": {
+            "health": "200000",
+            "healthRegen": "100",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "250",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "630",
+            "attackSpread": "4",
+            "attackRange": "200",
+            "attackSpeed": ".667",
+            "moveSpeed": "400"
+        },
         "drops": [
             "dsum",
             "I05U",
@@ -491,69 +1398,204 @@
             "I0F4",
             "I0G5",
             "nspi"
+        ],
+        "spells": [
+            "Craze",
+            "Hellflame Nova",
+            "Slaves of Trueflame"
+        ],
+        "minions": [
+            "Slave of Trueflame"
         ]
+    },
+    {
+        "id": "n024",
+        "name": "Slave of Trueflame",
+        "level": "70",
+        "category": "Creep",
+        "type": "Minion",
+        "location": "In Volcanic Lands",
+        "conditions": "Summoned by Ragnaar",
+        "stats": {
+            "health": "15000",
+            "healthRegen": "125",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "300",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "207",
+            "attackSpread": "7",
+            "attackRange": "600",
+            "attackSpeed": "1",
+            "moveSpeed": "400"
+        }
     },
     {
         "id": "n02Z",
         "name": "Evil Lava Spawn",
-        "limit": "2",
+        "color": "dc143c",
+        "quote": "Nyohoho!!",
+        "level": "70",
         "category": "Field",
-        "summon": "In Volcanic Lands",
+        "type": "Boss",
+        "limit": "2",
+        "location": "In Volcanic Lands, at the red circle",
         "conditions": "Level 60 and Nightmare Rod",
+        "stats": {
+            "health": "450000",
+            "healthRegen": "500",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "480",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "902",
+            "attackSpread": "18",
+            "attackRange": "550",
+            "attackSpeed": "1.667",
+            "moveSpeed": "500"
+        },
         "drops": [
             "shcw",
             "rnec",
             "bfhr",
             "stwa",
             "blba"
+        ],
+        "spells": [
+            "Fireball Barrage",
+            "Evil Power",
+            "Seal",
+            "Nyohoho",
+            "How fun!"
         ]
     },
     {
         "id": "n02H",
         "name": "Murloc Giant",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "73",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
         "location": "In the Deep Sea",
-        "conditions": "Recommended Level 70 ~ 90",
+        "conditions": "Level 70 ~ 90",
+        "stats": {
+            "health": "22000",
+            "healthRegen": "250",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "125",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "370",
+            "attackSpread": "7",
+            "attackRange": "0",
+            "attackSpeed": ".571",
+            "moveSpeed": "325"
+        },
         "drops": [
             "I0BU",
             "I0BV"
+        ],
+        "notes": [
+            "Summons 3 Blue Murlocs on death"
         ]
     },
     {
         "id": "n02I",
         "name": "Tide Caller",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "75",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
         "location": "In the Deep Sea",
         "conditions": "Recommended Level 70 ~ 90",
+        "stats": {
+            "health": "20000",
+            "healthRegen": "375",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "140",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "381",
+            "attackSpread": "7",
+            "attackRange": "500",
+            "attackSpeed": "1.667",
+            "moveSpeed": "350"
+        },
         "drops": [
             "I0BU",
             "I0BV"
+        ],
+        "spells": [
+            "Water Bolt"
         ]
     },
     {
         "id": "n02J",
         "name": "Sea Guardian",
-        "limit": "0",
-        "timer": "35s",
-        "category": "Mob",
+        "level": "77",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "35",
         "location": "In the Deep Sea",
-        "conditions": "Recommended Level 70 ~ 90",
+        "conditions": "Level 70 ~ 90",
+        "stats": {
+            "health": "24000",
+            "healthRegen": "500",
+            "mana": "3",
+            "manaRegen": "0",
+            "armor": "8",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "154",
+            "attackSpread": "1",
+            "attackRange": "0",
+            "attackSpeed": ".667",
+            "moveSpeed": "350"
+        },
         "drops": [
             "I0BW"
+        ],
+        "spells": [
+            "Water Shield"
         ]
     },
     {
         "id": "h014",
         "name": "Tentacle Lord",
+        "level": "80",
+        "category": "Creep",
+        "type": "Boss",
         "limit": "5",
-        "timer": "240s",
-        "category": "Field",
+        "timer": "240",
         "location": "In the Deep Sea",
-        "conditions": "Recommended Level 70 ~ 90",
+        "conditions": "Level 70 ~ 90",
+        "stats": {
+            "health": "300000",
+            "healthRegen": "300",
+            "mana": "6",
+            "manaRegen": "0",
+            "armor": "590",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "885",
+            "attackSpread": "8",
+            "attackRange": "300",
+            "attackSpeed": "2",
+            "moveSpeed": "360"
+        },
         "drops": [
             "I0BZ",
             "I0BN",
@@ -563,30 +1605,78 @@
             "I0BY",
             "I0G6",
             "gvsm"
+        ],
+        "spells": [
+            "Tentacle Slam",
+            "Tentacle Spike",
+            "Tentacles"
         ]
     },
     {
         "id": "h07P",
         "name": "Guardian of Sea",
-        "limit": "2",
+        "color": "7fcdff",
+        "quote": "Feel the might of sea!",
+        "level": "80",
         "category": "Field",
+        "type": "Boss",
+        "limit": "2",
         "summon": "In Deep Sea",
-        "conditions": "Recommended Level 70 ~ 90 and Orb of the Sea",
+        "location": "In Deep Sea, far east in the light",
+        "conditions": "70 ~ 90 and Orb of the Sea",
+        "stats": {
+            "health": "300000",
+            "healthRegen": "100",
+            "mana": "120",
+            "manaRegen": "1",
+            "armor": "580",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "941",
+            "attackSpread": "8",
+            "attackRange": "1000",
+            "attackSpeed": "1",
+            "moveSpeed": "500"
+        },
         "drops": [
             "I0OS",
             "I0OT",
             "I0OU",
             "I0OV"
+        ],
+        "spells": [
+            "Sea Beam",
+            "Summon Bubble",
+            "Water Splash",
+            "The Sea will Shallow You!"
         ]
     },
     {
         "id": "n02A",
         "name": "Stone Golem",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "86",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
         "location": "In the Cave",
         "conditions": "Level 80",
+        "stats": {
+            "health": "30000",
+            "healthRegen": "500",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "175",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "355",
+            "attackSpread": "28",
+            "attackRange": "0",
+            "attackSpeed": ".714",
+            "moveSpeed": "300"
+        },
         "drops": [
             "I0A3",
             "I0A4"
@@ -595,11 +1685,28 @@
     {
         "id": "n02B",
         "name": "Solid Golem",
-        "limit": "0",
-        "timer": "30s",
-        "category": "Mob",
+        "level": "89",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
         "location": "In the Cave",
         "conditions": "Level 80",
+        "stats": {
+            "health": "37500",
+            "healthRegen": "500",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "200",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "420",
+            "attackSpread": "49",
+            "attackRange": "0",
+            "attackSpeed": ".625",
+            "moveSpeed": "300"
+        },
         "drops": [
             "I0A1"
         ]
@@ -607,11 +1714,28 @@
     {
         "id": "h00Y",
         "name": "Giant Golem",
+        "level": "90",
+        "category": "Creep",
+        "type": "Boss",
         "limit": "2",
-        "timer": "240s",
-        "category": "Field",
+        "timer": "240",
         "location": "In the Cave",
         "conditions": "Level 80",
+        "stats": {
+            "health": "600000",
+            "healthRegen": "10",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "710",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "2393",
+            "attackSpread": "8",
+            "attackRange": "0",
+            "attackSpeed": ".833",
+            "moveSpeed": "425"
+        },
         "drops": [
             "I0AA",
             "I0A7",
@@ -621,29 +1745,70 @@
             "I0AB",
             "I0G7",
             "dtsb"
+        ],
+        "spells": [
+            "Crushing Slam",
+            "Unstoppable Force"
         ]
     },
     {
         "id": "h01L",
         "name": "Duchy of Wallachia Assassin",
+        "level": "84",
+        "category": "Creep",
+        "type": "Mob",
         "limit": "1",
-        "timer": "30s",
-        "category": "Mob",
+        "timer": "30",
         "location": "In the Wallachia Graveyard",
         "conditions": "Level 80",
+        "stats": {
+            "health": "30000",
+            "healthRegen": "250",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "125",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "221",
+            "attackSpread": "8",
+            "attackRange": "0",
+            "attackSpeed": "2.5",
+            "moveSpeed": "480"
+        },
         "drops": [
             "I0A3",
             "I0A4"
+        ],
+        "spells": [
+            "Evasive Movement"
         ]
     },
     {
         "id": "h01M",
         "name": "Duchy of Wallachia Apostle",
+        "level": "87",
+        "category": "Creep",
+        "type": "Mob",
         "limit": "1",
-        "timer": "30s",
-        "category": "Mob",
+        "timer": "30",
         "location": "In the Wallachia Graveyard",
         "conditions": "Level 80",
+        "stats": {
+            "health": "35000",
+            "healthRegen": "300",
+            "mana": "100",
+            "manaRegen": "1",
+            "armor": "140",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "494",
+            "attackSpread": "8",
+            "attackRange": "450",
+            "attackSpeed": ".5",
+            "moveSpeed": "380"
+        },
         "drops": [
             "I0A1"
         ]
@@ -651,11 +1816,28 @@
     {
         "id": "n036",
         "name": "Scarab",
+        "level": "100",
+        "category": "Creep",
+        "type": "Mob",
         "limit": "1",
-        "timer": "300s",
-        "category": "Mob",
+        "timer": "300",
         "location": "In the Wallachia Graveyard",
         "conditions": "Level 80",
+        "stats": {
+            "health": "120000",
+            "healthRegen": "3000",
+            "mana": "600",
+            "manaRegen": "5",
+            "armor": "300",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "440",
+            "attackSpread": "7",
+            "attackRange": "0",
+            "attackSpeed": "2.5",
+            "moveSpeed": "500"
+        },
         "drops": [
             "sor2"
         ]
@@ -663,23 +1845,64 @@
     {
         "id": "n037",
         "name": "Wallachia Wraith",
+        "level": "100",
+        "category": "Creep",
+        "type": "Mob",
         "limit": "1",
-        "timer": "450s",
-        "category": "Mob",
+        "timer": "450",
         "location": "In the Wallachia Graveyard",
         "conditions": "Level 80",
+        "stats": {
+            "health": "200000",
+            "healthRegen": "500",
+            "mana": "600",
+            "manaRegen": "5",
+            "armor": "325",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1040",
+            "attackSpread": "7",
+            "attackRange": "0",
+            "attackSpeed": "2.5",
+            "moveSpeed": "300"
+        },
         "drops": [
             "sora",
             "I0AB"
+        ],
+        "spells": [
+            "Evasive Movement",
+            "Dark Blast"
         ]
     },
     {
         "id": "n038",
         "name": "Wallachia Mad Clown",
-        "limit": "2",
+        "color": "e75480",
+        "quote": "Dance !",
+        "level": "100",
         "category": "Minor",
+        "type": "Boss",
+        "limit": "2",
+        "respawn": "4",
         "location": "In the Wallachia Graveyard",
         "conditions": "Level 80",
+        "stats": {
+            "health": "1500000",
+            "healthRegen": "123",
+            "mana": "100",
+            "manaRegen": "1",
+            "armor": "765",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1021",
+            "attackSpread": "18",
+            "attackRange": "300",
+            "attackSpeed": "3.33",
+            "moveSpeed": "480"
+        },
         "drops": [
             "sor2",
             "sora",
@@ -687,16 +1910,107 @@
             "soul",
             "I0GA",
             "wcyc"
+        ],
+        "spells": [
+            "Instincts",
+            "Darkness Wave",
+            "Mirror Image",
+            "Mad Howl",
+            "Wheel of Fate"
+        ]
+    },
+    {
+        "id": "n00B",
+        "name": "Forest Spirit",
+        "level": "100",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
+        "location": "In Fairy Forest",
+        "conditions": "Level 80",
+        "stats": {
+            "health": "60000",
+            "healthRegen": "90",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "300",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "682",
+            "attackSpread": "7",
+            "attackRange": "0",
+            "attackSpeed": "2.5",
+            "moveSpeed": "325"
+        },
+        "drops": [
+            "woms",
+            "I04W"
+        ],
+        "spells": [
+            "Thorns Aura"
+        ]
+    },
+    {
+        "id": "n01X",
+        "name": "Fairy",
+        "level": "100",
+        "category": "Creep",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
+        "location": "In Fairy Forest",
+        "conditions": "Level 80",
+        "stats": {
+            "health": "50000",
+            "healthRegen": "75",
+            "mana": "600",
+            "manaRegen": "5",
+            "armor": "250",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "330",
+            "attackSpread": "7",
+            "attackRange": "450",
+            "attackSpeed": "1.25",
+            "moveSpeed": "300"
+        },
+        "drops": [
+            "woms",
+            "I04W"
+        ],
+        "spells": [
+            "Rejuvination",
+            "Faerie Fire"
         ]
     },
     {
         "id": "h010",
         "name": "Mana Ancient",
+        "level": "90",
+        "category": "Creep",
+        "type": "Boss",
         "limit": "2",
-        "timer": "240s",
-        "category": "Field",
+        "timer": "240",
         "location": "In Fairy Forest",
-        "conditions": "Recommended Level 80+",
+        "conditions": "Level 90+",
+        "stats": {
+            "health": "1000000",
+            "healthRegen": "1000",
+            "mana": "100",
+            "manaRegen": ".5",
+            "armor": "740",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1837",
+            "attackSpread": "11",
+            "attackRange": "200",
+            "attackSpeed": ".571",
+            "moveSpeed": "400"
+        },
         "drops": [
             "I08X",
             "I06D",
@@ -705,36 +2019,86 @@
             "I0G9",
             "grsl",
             "envl"
+        ],
+        "spells": [
+            "Mana Swipe",
+            "Drain",
+            "Mana Explosion"
         ]
     },
-    {
-        "id": "n022",
-        "name": "Ruler of the Lav Sea Hydra",
-        "limit": "5",
-        "category": "Minor",
-        "summon": "Top right area of Seaside",
-        "conditions": "Recommended Level 50 and Blue Magic Stone x4",
-        "drops": [
-            "I077",
-            "I07A",
-            "I09D",
-            "I0F2",
-            "I074",
-            "I072",
-            "I075",
-            "I073",
-            "I068",
-            "I06I",
-            "oven"
-        ]
-    },
+	{
+		"id": "n022",
+		"name": "Ruler of the Lav Sea Hydra",
+		"color": "a0c4fc",
+		"quote": "grwwowowrwo !",
+		"level": "50",
+		"category": "Minor",
+		"type": "Boss",
+		"limit": "5",
+		"respawn": "4",
+		"location": "Top right area of Seaside at Area 3",
+		"conditions": "Level 50, and Blue Magic Stone x4 at shipwreck",
+		"stats": {
+			"health": "250000",
+			"healthRegen": "100",
+			"mana": "0",
+			"manaRegen": "0",
+			"armor": "350",
+			"armorType": "Medium",
+			"magicResist": "0",
+			"damageResist": "0",
+			"attackDamage": "439",
+			"attackSpread": "4",
+			"attackRange": "400",
+			"attackSpeed": ".833",
+			"moveSpeed": "400"
+		},
+		"drops": [
+			"I077",
+			"I07A",
+			"I09D",
+			"I0F2",
+			"I074",
+			"I072",
+			"I075",
+			"I073",
+			"I068",
+			"I06I",
+			"oven"
+		],
+		"spells": [
+			"Lethal Poison",
+			"Stomp",
+			"Sea Wave"
+		]
+	},
     {
         "id": "H00F",
         "name": "Duchy of Wallachia Count",
-        "limit": "5",
+        "color": "e00404",
+        "quote": "The night begins now !",
+        "level": "60",
         "category": "Minor",
-        "summon": "East area of Duchy of Wallachia at wrecked church near Death Knight",
-        "conditions": "Level 60 and White Magic Stone x4",
+        "type": "Boss",
+        "limit": "5",
+        "respawn": "5",
+        "location": "East area of Duchy of Wallachia, in the fort at Area 7",
+        "conditions": "Level 60, and White Magic Stone x4 in front of church",
+        "stats": {
+            "health": "400000",
+            "healthRegen": "75",
+            "mana": "100",
+            "manaRegen": "0",
+            "armor": "540",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1375",
+            "attackSpread": "10",
+            "attackRange": "200",
+            "attackSpeed": "1.111",
+            "moveSpeed": "480"
+        },
         "drops": [
             "ajen",
             "I07I",
@@ -747,15 +2111,42 @@
             "tels",
             "I07G",
             "shen"
+        ],
+        "spells": [
+            "Immortal Body",
+            "Death Bind",
+            "Hounds of Berskubil",
+            "Requiem of BLood",
+            "Unleash True Form"
         ]
     },
     {
         "id": "n01W",
         "name": "Jack o Lantern",
-        "limit": "3",
+        "color": "d06a04",
+        "quote": "..It's not Halloween yet !",
+        "level": "60",
         "category": "Minor",
-        "summon": "Middle of Capital Prius, near the fountain",
-        "conditions": "Recommended Level 60 and White Magic Stone x4",
+        "type": "Boss",
+        "limit": "3",
+        "respawn": "5",
+        "location": "Middle of Capital Prius, near the fountain",
+        "conditions": "Level 60, and White Magic Stone x4",
+        "stats": {
+            "health": "400000",
+            "healthRegen": "150",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "430",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "731",
+            "attackSpread": "18",
+            "attackRange": "500",
+            "attackSpeed": "1.111",
+            "moveSpeed": "400"
+        },
         "drops": [
             "I07O",
             "I07M",
@@ -764,15 +2155,40 @@
             "I060",
             "sfog",
             "drph"
+        ],
+        "spells": [
+            "Jack Impact",
+            "Jack Wave",
+            "Pumpkin Body"
         ]
     },
     {
         "id": "h01B",
         "name": "Mage Lord",
-        "limit": "4",
+        "color": "d5d5d5",
+        "quote": "I shall give you a taste of my magic!",
+        "level": "70",
         "category": "Minor",
-        "summon": "Middle right side of Frosty Snowfield where a small obelisk can be found",
-        "conditions": "Recommended Level 70 and Red Magic Stone x4",
+        "type": "Boss",
+        "limit": "4",
+        "respawn": "5",
+        "location": "South area of Frosty Snowfield, below the blue obelisk and next to the igloo",
+        "conditions": "Level 70, and Red Magic Stone x4",
+        "stats": {
+            "health": "600000",
+            "healthRegen": "400",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "590",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1292",
+            "attackSpread": "8",
+            "attackRange": "200",
+            "attackSpeed": "1.053",
+            "moveSpeed": "480"
+        },
         "drops": [
             "I06F",
             "I083",
@@ -782,15 +2198,41 @@
             "I06V",
             "cosl",
             "lnrn"
+        ],
+        "spells": [
+            "Blizzard",
+            "Chain Lightning",
+            "Dark Star",
+            "Magical Weapon"
         ]
     },
     {
         "id": "n01K",
         "name": "Wings of Death",
-        "limit": "5",
+        "color": "c91337",
+        "quote": "Feel the might of dragons !",
+        "level": "70",
         "category": "Minor",
-        "summon": "In Volcanic Lands on the top right hand side of where Ragnaar spawns",
-        "conditions": "Recommended Level 70 and Red Magic Stone x4",
+        "type": "Boss",
+        "limit": "5",
+        "respawn": "5",
+        "location": "In Volcanic Lands at the entrance to the Dragon Lair",
+        "conditions": "Level 70, and Red Magic Stone x4 above lava ancient",
+        "stats": {
+            "health": "600000",
+            "healthRegen": "375",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "620",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1330",
+            "attackSpread": "4",
+            "attackRange": "300",
+            "attackSpeed": "1.4",
+            "moveSpeed": "400"
+        },
         "drops": [
             "I07R",
             "I09S",
@@ -802,28 +2244,128 @@
             "I06Q",
             "I06O",
             "oli2"
+        ],
+        "spells": [
+            "Dragon Breath",
+            "Dragon Fear",
+            "Hell Flame",
+            "Dragon's Might"
         ]
+    },
+    {
+        "id": "n01L",
+        "name": "Avalon Defender",
+        "color": "bbbb04",
+        "level": "80",
+        "category": "Minor",
+        "type": "Minion",
+        "location": "Before the entrance of Guardian Angels",
+        "conditions": "Level 80, and Avalon summoned",
+        "stats": {
+            "health": "40000",
+            "healthRegen": "75",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "450",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "942",
+            "attackSpread": "14",
+            "attackRange": "800",
+            "attackSpeed": "1.25",
+            "moveSpeed": "400"
+        }
+    },
+    {
+        "id": "n01M",
+        "name": "Avalon Protector",
+        "color": "bbbb04",
+        "level": "80",
+        "category": "Minor",
+        "type": "Minion",
+        "location": "Before the entrance of Guardian Angels",
+        "conditions": "Level 80, and Avalon summoned",
+        "stats": {
+            "health": "50000",
+            "healthRegen": "75",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "700",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "843",
+            "attackSpread": "21",
+            "attackRange": "800",
+            "attackSpeed": "1.25",
+            "moveSpeed": "400"
+        }
     },
     {
         "id": "H00V",
         "name": "Castle Avalon Gatekeeper",
-        "limit": "None",
+        "color": "bbbb04",
+        "quote": "...",
+        "level": "80",
         "category": "Minor",
+        "type": "Boss",
+        "limit": "None",
+        "respawn": "5",
         "location": "Before the entrance of Guardian Angels",
-        "conditions": "Level 80 and Avalon summoned",
+        "conditions": "Level 80, and Avalon summoned",
+        "stats": {
+            "health": "500000",
+            "healthRegen": "75",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "640",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1232",
+            "attackSpread": "10",
+            "attackRange": "200",
+            "attackSpeed": "1.8",
+            "moveSpeed": "480"
+        },
         "drops": [
             "I0BJ",
             "I0FZ",
             "amrc"
+        ],
+        "spells": [
+            "Genocide Sword",
+            "Nanoscale Armor"
         ]
     },
     {
         "id": "n01N",
         "name": "The 3rd Army's Guardian Angel",
-        "limit": "4",
+        "color": "d1b004",
+        "quote": "Behold, your end is nigh !",
+        "level": "80",
         "category": "Minor",
-        "summon": "In the top side of the Golem Cave",
-        "conditions": "Level 80 and White Magic Stone x6",
+        "type": "Boss",
+        "limit": "4",
+        "respawn": "5",
+        "location": "In the inner-most sanctum of Avalon, next to East Prius Gate",
+        "conditions": "Level 80, and White Magic Stone x6 in the far top right of the Cave",
+        "stats": {
+            "health": "500000",
+            "healthRegen": "400",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "510",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "546",
+            "attackSpread": "4",
+            "attackRange": "200",
+            "attackSpeed": "1.33",
+            "moveSpeed": "320"
+        },
         "drops": [
             "I085",
             "I087",
@@ -833,15 +2375,41 @@
             "I06R",
             "I06T",
             "tmmt"
+        ],
+        "spells": [
+            "Blessed Wings",
+            "Holy Grab",
+            "Sacred Conviction",
+            "Sacred Judgment"
         ]
     },
     {
         "id": "n01O",
         "name": "The Devil's Right Arm Corrupt Angel",
-        "limit": "4",
+        "color": "d857d8",
+        "quote": "Die !!",
+        "level": "80",
         "category": "Minor",
-        "location": "In Frosty Snowfield summoned after 2 minute of summoning Avalon",
-        "conditions": "Level 80 and Avalon summoned",
+        "type": "Boss",
+        "limit": "4",
+        "respawn": "5",
+        "location": "In Frosty Snowfield after 2 minutes of summoning Avalon",
+        "conditions": "Level 80, and Avalon summoned",
+        "stats": {
+            "health": "800000",
+            "healthRegen": "600",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "650",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "737",
+            "attackSpread": "4",
+            "attackRange": "200",
+            "attackSpeed": "1.66",
+            "moveSpeed": "440"
+        },
         "drops": [
             "I0C4",
             "I086",
@@ -851,15 +2419,120 @@
             "I06U",
             "I0AB",
             "mnsf"
+        ],
+        "spells": [
+            "Hell Finger",
+            "Craze",
+            "Judgment of Darkness",
+            "Dark Wings",
+            "Darkness Wave"
+        ]
+    },
+    {
+        "id": "n014",
+        "name": "Frost Spider",
+        "color": "5e66ae",
+        "level": "90",
+        "category": "Minor",
+        "type": "Minion",
+        "location": "At the expedition in area 6",
+        "conditions": "Summoned during waves of Frostspider Lord",
+        "stats": {
+            "health": "40000",
+            "healthRegen": "375",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "750",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "362",
+            "attackSpread": "3",
+            "attackRange": "0",
+            "attackSpeed": "2.5",
+            "moveSpeed": "350"
+        }
+    },
+    {
+        "id": "n028",
+        "name": "Frost Skirmisher",
+        "color": "5e66ae",
+        "level": "90",
+        "category": "Minor",
+        "type": "Minion",
+        "location": "At the expedition in area 6",
+        "conditions": "Summoned during waves of Frostspider Lord",
+        "stats": {
+            "health": "30000",
+            "healthRegen": "125",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "540",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "318",
+            "attackSpread": "6",
+            "attackRange": "350",
+            "attackSpeed": "1.66",
+            "moveSpeed": "275"
+        }
+    },
+    {
+        "id": "n02C",
+        "name": "Frostvemon Spider",
+        "color": "5e66ae",
+        "level": "90",
+        "category": "Minor",
+        "type": "Minion",
+        "location": "At the expedition in area 6",
+        "conditions": "Summoned during waves of Frostspider Lord",
+        "stats": {
+            "health": "15000",
+            "healthRegen": "-100",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "240",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "316",
+            "attackSpread": "6",
+            "attackRange": "0",
+            "attackSpeed": "0.952",
+            "moveSpeed": "225"
+        },
+        "spells": [
+            "Frostvemon Explosion"
         ]
     },
     {
         "id": "n023",
         "name": "Soul of Everfrost",
-        "limit": "4",
+        "color": "5e66ae",
+        "quote": "Freeze !!",
+        "level": "90",
         "category": "Minor",
-        "location": "Summoned during waves of Frostspider Lord",
-        "conditions": "Level 90 and Frostspider Lord summoned",
+        "type": "Boss",
+        "limit": "4",
+        "respawn": "4",
+        "location": "Summoned during waves of Frostspider Lord at the expedition in area 6",
+        "conditions": "Level 90, and Frostspider Lord summoned",
+        "stats": {
+            "health": "800000",
+            "healthRegen": "600",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "540",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "951",
+            "attackSpread": "4",
+            "attackRange": "750",
+            "attackSpeed": "1.2",
+            "moveSpeed": "440"
+        },
         "drops": [
             "I08D",
             "I08R",
@@ -867,15 +2540,68 @@
             "I097",
             "I06X",
             "olig"
+        ],
+        "spells": [
+            "Hellfrost Nova",
+            "Frozen Soul"
+        ],
+        "minions": [
+            "Frozen Soul"
         ]
+    },
+    {
+        "id": "n025",
+        "name": "Frozen Soul",
+        "color": "5e66ae",
+        "level": "90",
+        "category": "Minor",
+        "type": "Minion",
+        "location": "At the expedition in area 6",
+        "conditions": "Summoned during fight with Soul of Everfrost",
+        "stats": {
+            "health": "50000",
+            "healthRegen": "200",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "500",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "540",
+            "attackSpread": "7",
+            "attackRange": "600",
+            "attackSpeed": "1.33",
+            "moveSpeed": "400"
+        },
+        "duration": "90"
     },
     {
         "id": "H01F",
         "name": "Frostspider Queen",
-        "limit": "4",
+        "color": "5e66ae",
+        "quote": "Kiiik !!",
+        "level": "90",
         "category": "Minor",
-        "location": "Summoned during waves of Frostspider Lord",
-        "conditions": "Level 90 and Frostspider Lord summoned",
+        "type": "Boss",
+        "limit": "4",
+        "respawn": "4",
+        "location": "Summoned during waves of Frostspider Lord at the expedition in area 6",
+        "conditions": "Level 90, and Frostspider Lord summoned",
+        "stats": {
+            "health": "800000",
+            "healthRegen": "500",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "600",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1021",
+            "attackSpread": "84",
+            "attackRange": "200",
+            "attackSpeed": "2.5",
+            "moveSpeed": "480"
+        },
         "drops": [
             "rhth",
             "I0D6",
@@ -883,15 +2609,39 @@
             "I099",
             "I06K",
             "stre"
+        ],
+        "spells": [
+            "Frost Aura",
+            "Frost Spike"
         ]
     },
     {
         "id": "h034",
         "name": "Frostspider Lord",
-        "limit": "4",
+        "color": "5a8abb",
+        "quote": "Be purged by Frost !!",
+        "level": "90",
         "category": "Minor",
-        "summon": "In Frosty Snowfield, there is a solider with a quest. Click his quest and it will take you to Spider Cave where 3 Pruis Magicians are gathered",
-        "conditions": "Level 90 and Blue Magic Stone x6",
+        "type": "Boss",
+        "limit": "4",
+        "respawn": "4",
+        "location": "In Spider Cave at the expedition at area 6",
+        "conditions": "Level 90, and Blue Magic Stone x6 where 3 Pruis Magicians are gathered",
+        "stats": {
+            "health": "1200000",
+            "healthRegen": "750",
+            "mana": "100",
+            "manaRegen": "25",
+            "armor": "840",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1605",
+            "attackSpread": "8",
+            "attackRange": "200",
+            "attackSpeed": "0.4",
+            "moveSpeed": "480"
+        },
         "drops": [
             "I067",
             "bspd",
@@ -902,15 +2652,42 @@
             "I061",
             "klmm",
             "tst2"
+        ],
+        "spells": [
+            "Frozen Barrier",
+            "Frozen Shatter",
+            "Ice Storm",
+            "Hellfrost Body",
+            "Web Binding"
         ]
     },
     {
         "id": "n01Y",
         "name": "Demon Lord Beriel",
-        "limit": "4",
+        "color": "bb2233",
+        "quote": "It's time for your doom !",
+        "level": "90",
         "category": "Minor",
-        "summon": "In Duchy of Wallachia in a pile of skulls South of where Death Knight spawns",
-        "conditions": "Level 90, Red Magic Stone x6, and Waves defeated without killing the gate or letting the monsters kill the King in Capital Prius",
+        "type": "Boss",
+        "limit": "4",
+        "respawn": "4",
+        "location": "East Prius Gate.",
+        "conditions": "Level 90, Red Magic Stone x6 in Area 7 at the pile of skulls south of the fort, and Waves defeated without killing the gate",
+        "stats": {
+            "health": "1200000",
+            "healthRegen": "150",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "730",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1540",
+            "attackSpread": "5",
+            "attackRange": "200",
+            "attackSpeed": "1.25",
+            "moveSpeed": "450"
+        },
         "drops": [
             "kysn",
             "I0FG",
@@ -921,15 +2698,227 @@
             "I08K",
             "fgsk",
             "wswd"
+        ],
+        "spells": [
+            "Rage",
+            "The Demon Lord's Power",
+            "Seal",
+            "Meteor",
+            "Destruction",
+            "Catacylsm"
+        ],
+        "minions": [
+            "Hell Golem"
         ]
+    },
+    {
+        "id": "n01Z",
+        "name": "Hell Portal",
+        "color": "bb2233",
+        "category": "Minor",
+        "type": "Mechanic",
+        "location": "East Prius Gate",
+        "conditions": "Summoned with Demon Lord Beriel",
+        "stats": {
+            "health": "6000000",
+            "healthRegen": ".5",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "1000",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "0"
+        },
+        "notes": [
+            "On death, leads to Underlord Agareth"
+        ]
+    },
+    {
+        "id": "h01E",
+        "name": "Slime Monster",
+        "color": "bb2233",
+        "level": "90",
+        "category": "Minor",
+        "type": "Minion",
+        "location": "Summoned during fight with Demon Lord Beriel's Portal",
+        "stats": {
+            "health": "90000",
+            "healthRegen": "500",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "0",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "977",
+            "attackSpread": "8",
+            "attackRange": "0",
+            "attackSpeed": "1",
+            "moveSpeed": "360"
+        }
+    },
+    {
+        "id": "h01D",
+        "name": "Golem Monster",
+        "color": "bb2233",
+        "level": "90",
+        "category": "Minor",
+        "type": "Minion",
+        "location": "Summoned during fight with Demon Lord Beriel's Portal",
+        "stats": {
+            "health": "60000",
+            "healthRegen": "200",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "750",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "841",
+            "attackSpread": "8",
+            "attackRange": "0",
+            "attackSpeed": "1",
+            "moveSpeed": "420"
+        }
+    },
+    {
+        "id": "h01E",
+        "name": "Hound Monster",
+        "color": "bb2233",
+        "level": "90",
+        "category": "Minor",
+        "type": "Minion",
+        "location": "Summoned during fight with Demon Lord Beriel's Portal",
+        "stats": {
+            "health": "45000",
+            "healthRegen": "100",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "550",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "612",
+            "attackSpread": "8",
+            "attackRange": "0",
+            "attackSpeed": "1",
+            "moveSpeed": "480"
+        }
+    },
+    {
+        "id": "n026",
+        "name": "Hell Golem",
+        "color": "bb2233",
+        "category": "Minor",
+        "type": "Minion",
+        "location": "East Prius Gate",
+        "conditions": "Summoned during fight with Demon Lord Beriel",
+        "stats": {
+            "health": "150000",
+            "healthRegen": "250",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "500",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1040",
+            "attackSpread": "7",
+            "attackRange": "225",
+            "attackSpeed": "1",
+            "moveSpeed": "150"
+        },
+        "notes": [
+            "Lasts for 90 seconds"
+        ],
+        "spells": [
+            "Permanent Immolation"
+        ]
+    },
+    {
+        "id": "n02T",
+        "name": "Fairy Spirit",
+        "level": "100",
+        "category": "Mid",
+        "type": "Mob",
+        "location": "In Fairy Forest - Deep Forest",
+        "conditions": "Level 100",
+        "stats": {
+            "health": "80000",
+            "healthRegen": "750",
+            "mana": "600",
+            "manaRegen": "5",
+            "armor": "400",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "540",
+            "attackSpread": "7",
+            "attackRange": "400",
+            "attackSpeed": "1.25",
+            "moveSpeed": "300"
+        },
+        "spells": [
+            "Rejuvination",
+            "Spirit Breath"
+        ]
+    },
+    {
+        "id": "n02U",
+        "name": "Dryad",
+        "level": "100",
+        "category": "Mid",
+        "type": "Mob",
+        "location": "In Fairy Forest - Deep Forest",
+        "conditions": "Level 100",
+        "stats": {
+            "health": "100000",
+            "healthRegen": "375",
+            "mana": "600",
+            "manaRegen": "5",
+            "armor": "450",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1237",
+            "attackSpread": "7",
+            "attackRange": "200",
+            "attackSpeed": "0.556",
+            "moveSpeed": "300"
+        }
     },
     {
         "id": "n02M",
         "name": "Spirit Beast",
-        "limit": "3",
+        "color": "C9E7CC",
+        "quote": "Oh Heaven, Aid Me!",
+        "level": "100",
         "category": "Mid",
+        "type": "Boss",
+        "limit": "3",
+        "respawn": "4",
         "location": "In Fairy Forest - Deep Forest",
         "conditions": "Level 100",
+        "stats": {
+            "health": "3500000",
+            "healthRegen": "1250",
+            "mana": "100",
+            "manaRegen": "33.33",
+            "armor": "1090",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1421",
+            "attackSpread": "6",
+            "attackRange": "225",
+            "attackSpeed": "0.66",
+            "moveSpeed": "440"
+        },
         "drops": [
             "odef",
             "rag1",
@@ -938,15 +2927,41 @@
             "I0JT",
             "I0G8",
             "ccmd"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Spirit Echo",
+            "Drain",
+            "Heaven's Wrath"
         ]
     },
     {
         "id": "hmpr",
         "name": "Corruptor Rectus",
-        "limit": "5",
+        "color": "40a640",
+        "quote": "Welcome to your ceremony of death!",
+        "level": "100",
         "category": "Mid",
+        "type": "Boss",
+        "limit": "5",
+        "respawn": "4",
         "location": "In Fairy Forest - Plagued Tower",
         "conditions": "Level 100",
+        "stats": {
+            "health": "3000000",
+            "healthRegen": "1000",
+            "mana": "100",
+            "manaRegen": "33.33",
+            "armor": "790",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "2193",
+            "attackSpread": "72",
+            "attackRange": "550",
+            "attackSpeed": "0.83",
+            "moveSpeed": "430"
+        },
         "drops": [
             "phlt",
             "rin1",
@@ -958,15 +2973,133 @@
             "stpg",
             "whwd",
             "rugt"
+        ],
+        "spells": [
+            "Corrupt Power",
+            "Corruption",
+            "Death Coil",
+            "Soul Swap",
+            "Corruption Overload",
+            "Corruption Aura",
+            "Corrupted Summoning"
+        ],
+        "minions": [
+            "Stalker",
+            "Avenger",
+            "Life Orb"
+        ]
+    },
+    {
+        "id": "ohun",
+        "name": "Avenger",
+        "color": "40a640",
+        "level": "100",
+        "category": "Mid",
+        "type": "Minion",
+        "location": "In Fairy Forest - Plagued Tower",
+        "conditions": "Summoned by Corruptor Rectus",
+        "stats": {
+            "health": "800000",
+            "healthRegen": "1250",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "780",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "2190",
+            "attackSpread": "16",
+            "attackRange": "0",
+            "attackSpeed": "0.364",
+            "moveSpeed": "250"
+        },
+        "spells": [
+            "Corruption Wave"
+        ]
+    },
+    {
+        "id": "odoc",
+        "name": "Stalker",
+        "color": "40a640",
+        "level": "100",
+        "category": "Mid",
+        "type": "Minion",
+        "location": "In Fairy Forest - Plagued Tower",
+        "conditions": "Summoned by Corruptor Rectus",
+        "stats": {
+            "health": "300000",
+            "healthRegen": "1250",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "540",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "417",
+            "attackSpread": "4",
+            "attackRange": "0",
+            "attackSpeed": "2.5",
+            "moveSpeed": "500"
+        },
+        "spells": [
+            "Corrupt Explosion"
+        ]
+    },
+    {
+        "id": "hsor",
+        "name": "Life Orb",
+        "color": "40a640",
+        "level": "100",
+        "category": "Mid",
+        "type": "Mechanic",
+        "location": "In Fairy Forest - Plagued Tower",
+        "conditions": "Summoned by Corruptor Rectus",
+        "stats": {
+            "health": "150000",
+            "healthRegen": "0",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "430",
+            "armorType": "Hero",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "0"
+        },
+        "spells": [
+            "Purification"
         ]
     },
     {
         "id": "n02N",
         "name": "Flame Nightmare",
-        "limit": "4",
+        "color": "ff5a00",
+        "quote": "Fall on your knees!",
+        "level": "100",
         "category": "Mid",
-        "summon": "In Volcanic Lands",
+        "type": "Boss",
+        "limit": "4",
+        "respawn": "4",
+        "location": "In Volcanic Lands",
         "conditions": "Recommened Level 100 and Nightmare Rod with Red Magic Stone x8",
+        "stats": {
+            "health": "3500000",
+            "healthRegen": "1250",
+            "mana": "100",
+            "manaRegen": "33.33",
+            "armor": "1090",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1421",
+            "attackSpread": "6",
+            "attackRange": "225",
+            "attackSpeed": "0.66",
+            "moveSpeed": "440"
+        },
         "drops": [
             "I0CA",
             "I0C6",
@@ -976,15 +3109,130 @@
             "rej1",
             "I0CD",
             "shdt"
+        ],
+        "spells": [
+            "Nightmare Body",
+            "Overload",
+            "Flame Barrage",
+            "On Your Knees!",
+            "Total Annihilation"
+        ],
+        "minions": [
+            "Flame Spawn",
+            "Anger",
+            "Hatred"
         ]
+    },
+    {
+        "id": "n02O",
+        "name": "Hatred",
+        "color": "ff5a00",
+        "level": "100",
+        "category": "Mid",
+        "type": "Minion",
+        "location": "In Volcanic Lands",
+        "conditions": "Summoned by Flame Nightmare",
+        "stats": {
+            "health": "10000000",
+            "healthRegen": "2400000",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "870",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "5"
+        },
+        "spells": [
+            "Mark of Hatred",
+            "Intense Hatred"
+        ]
+    },
+    {
+        "id": "n02P",
+        "name": "Anger",
+        "color": "ff5a00",
+        "level": "100",
+        "category": "Mid",
+        "type": "Minion",
+        "location": "In Volcanic Lands",
+        "conditions": "Summoned by Flame Nightmare",
+        "stats": {
+            "health": "10000000",
+            "healthRegen": "2400000",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "870",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1294",
+            "attackSpread": "7",
+            "attackRange": "1000",
+            "attackSpeed": "0.333",
+            "moveSpeed": "340"
+        },
+        "spells": [
+            "Berserk",
+            "Furious Attacks"
+        ]
+    },
+    {
+        "id": "n02Q",
+        "name": "Flame Spawn",
+        "color": "ff5a00",
+        "level": "100",
+        "category": "Mid",
+        "type": "Minion",
+        "location": "In Volcanic Lands",
+        "conditions": "Summoned by Flame Nightmare",
+        "stats": {
+            "health": "250000",
+            "healthRegen": "25000",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "680",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "125"
+        }
     },
     {
         "id": "h018",
         "name": "Turtle Lord",
-        "limit": "4",
+        "color": "00dfff",
+        "quote": "Gurgle!",
+        "level": "100",
         "category": "Mid",
-        "summon": "In Deep Sea in the far East where light shines from above",
+        "type": "Boss",
+        "limit": "4",
+        "respawn": "4",
+        "location": "In Deep Sea in the far East where light shines from above",
         "conditions": "Level 100 and Orb of the Deep Sea with Green Magic Stone x4, Blue Magic Stone x4",
+        "stats": {
+            "health": "3000000",
+            "healthRegen": "3000",
+            "mana": "40",
+            "manaRegen": "1",
+            "armor": "1040",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "2141",
+            "attackSpread": "8",
+            "attackRange": "200",
+            "attackSpeed": "0.714",
+            "moveSpeed": "380"
+        },
         "drops": [
             "skul",
             "I0CR",
@@ -995,15 +3243,189 @@
             "sror",
             "I0CK",
             "wshs"
+        ],
+        "spells": [
+            "Hard Shell",
+            "Turtle Ambush",
+            "Summon Healing Turtle",
+            "Mystic Shell",
+            "Chomp Armor",
+            "Mana Bombardment"
+        ],
+        "minions": [
+            "Turtle",
+            "Healing Turtle"
+        ]
+    },
+    {
+        "id": "hpxe",
+        "name": "Healing Turtle",
+        "color": "00dfff",
+        "level": "100",
+        "category": "Mid",
+        "type": "Minion",
+        "location": "In Deep Sea",
+        "conditions": "Summoned by Turtle Lord",
+        "stats": {
+            "health": "250000",
+            "healthRegen": "0",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "820",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "250"
+        }
+    },
+    {
+        "id": "n02R",
+        "name": "Turtle",
+        "color": "00dfff",
+        "level": "100",
+        "category": "Mid",
+        "type": "Minion",
+        "location": "In Deep Sea",
+        "conditions": "Summoned by Turtle Lord",
+        "stats": {
+            "health": "75000",
+            "healthRegen": "3000",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "310",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "332",
+            "attackSpread": "7",
+            "attackRange": "900",
+            "attackSpeed": "3.333",
+            "moveSpeed": "250"
+        }
+    },
+    {
+        "id": "n03F",
+        "name": "Dragon Hatchling",
+        "level": "100",
+        "category": "High",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
+        "location": "East of Volcanic Lands, within the Dragon Lair",
+        "conditions": "Level 100",
+        "stats": {
+            "health": "250000",
+            "healthRegen": "2500",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "500",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1504",
+            "attackSpread": "7",
+            "attackRange": "450",
+            "attackSpeed": "0.667",
+            "moveSpeed": "370"
+        },
+        "drops": [
+            "Nightmare Rod"
+        ]
+    },
+    {
+        "id": "n03G",
+        "name": "Dragonic Warrior",
+        "level": "100",
+        "category": "High",
+        "type": "Mob",
+        "limit": "1",
+        "timer": "30",
+        "location": "East of Volcanic Lands, within the Dragon Lair",
+        "conditions": "Level 100",
+        "stats": {
+            "health": "400000",
+            "healthRegen": "4000",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "550",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "3011",
+            "attackSpread": "7",
+            "attackRange": "200",
+            "attackSpeed": "0.4",
+            "moveSpeed": "420"
+        },
+        "drops": [
+            "Nightmare Rod"
+        ],
+        "spells": [
+            "Flame Bolt"
+        ],
+        "minions": [
+            "Flame Spirit"
+        ]
+    },
+    {
+        "id": "n03T",
+        "name": "Flame Spirit",
+        "color": "bf8888",
+        "level": "100",
+        "category": "High",
+        "type": "Minion",
+        "location": "Summoned by Bone Dragon, or Dragonic Warrior",
+        "conditions": "Level 100",
+        "stats": {
+            "health": "100000",
+            "healthRegen": "5000",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "590",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "620",
+            "attackSpread": "7",
+            "attackRange": "750",
+            "attackSpeed": "0.333",
+            "moveSpeed": "300"
+        },
+        "notes": [
+            "Burns all nearby enemies for 1000 magic damage per second"
         ]
     },
     {
         "id": "n03S",
         "name": "Bone Dragon",
-        "limit": "None",
+        "color": "bf8888",
+        "quote": "I'll show you my true powers!",
+        "level": "110",
         "category": "High",
+        "type": "Boss",
+        "limit": "None",
+        "respawn": "3",
         "location": "To the Southeast of Volcanic Lands inside of Dragon Nest",
         "conditions": "Level 100",
+        "stats": {
+            "health": "7200000",
+            "healthRegen": "3000",
+            "mana": "60",
+            "manaRegen": "0",
+            "armor": "1240",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "5270",
+            "attackSpread": "7",
+            "attackRange": "250",
+            "attackSpeed": "0.5",
+            "moveSpeed": "450"
+        },
         "drops": [
             "pinv",
             "sreg",
@@ -1012,18 +3434,45 @@
             "I0OZ",
             "I0M7",
             "rre1"
+        ],
+        "spells": [
+            "Swipe",
+            "Flame Breath",
+            "Hell Spike",
+            "Petrification",
+            "Dragon's Rage"
+        ],
+        "minions": [
+            "Flame Spirit"
         ]
     },
     {
         "id": "n02V",
         "name": "Skeleton King Desperia",
-        "limit": "None",
+        "color": "8a2be2",
+        "quote": "This is the difference between your power and mine!",
+        "level": "110",
         "category": "High",
+        "type": "Boss",
+        "limit": "None",
+        "respawn": "3",
         "location": "In Prius Forward camp, the Sealed Land to the North",
         "conditions": "Level 100",
-        "notes": [
-            "1 sealed material also drops whenever a full material has been dropped"
-        ],
+        "stats": {
+            "health": "8100000",
+            "healthRegen": "15000",
+            "mana": "100",
+            "manaRegen": "0",
+            "armor": "1320",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "8488",
+            "attackSpread": "5",
+            "attackRange": "225",
+            "attackSpeed": "1",
+            "moveSpeed": "300"
+        },
         "drops": [
             "ratc",
             "rat6",
@@ -1036,18 +3485,71 @@
             "gsou",
             "I0OZ",
             "fgrg"
+        ],
+        "spells": [
+            "Super Armor",
+            "Drain Soul",
+            "Soul Terror",
+            "Weapon of Nothingness",
+            "Absolute Devastation",
+            "True Power of Despair"
+        ]
+    },
+    {
+        "id": "h00W",
+        "name": "Skeletal Solider",
+        "color": "8a2be2",
+        "level": "110",
+        "category": "High",
+        "type": "Minion",
+        "location": "In Prius Forward camp, the Sealed Land to the North",
+        "conditions": "Summoned by Skeleton King Desperia",
+        "stats": {
+            "health": "75000",
+            "healthRegen": "1000",
+            "mana": "100",
+            "manaRegen": "5",
+            "armor": "740",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "2377",
+            "attackSpread": "4",
+            "attackRange": "150",
+            "attackSpeed": "1.333",
+            "moveSpeed": "240"
+        },
+        "spells": [
+            "Dead Man's Reach"
         ]
     },
     {
         "id": "n033",
         "name": "Zombie Lord",
-        "limit": "None",
+        "color": "b1b596",
+        "quote": "None shall take my eternal life away!",
+        "level": "110",
         "category": "High",
+        "type": "Boss",
+        "limit": "None",
+        "respawn": "3",
         "location": "In Prius Forward camp, the Graveyard of Eternal Life to the East",
         "conditions": "Level 100",
-        "notes": [
-            "1 sealed material also drops whenever a full material has been dropped"
-        ],
+        "stats": {
+            "health": "8100000",
+            "healthRegen": "0",
+            "mana": "100",
+            "manaRegen": "0",
+            "armor": "1320",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "8488",
+            "attackSpread": "5",
+            "attackRange": "225",
+            "attackSpeed": "1",
+            "moveSpeed": "300"
+        },
         "drops": [
             "belv",
             "crys",
@@ -1057,78 +3559,251 @@
             "I08P",
             "I0OZ",
             "pomn"
+        ],
+        "spells": [
+            "Hunger",
+            "Infected Claw",
+            "Infected Swipes",
+            "Infest",
+            "Aura of Death",
+            "Immortality"
+        ],
+        "minions": [
+            "Zombie",
+            "Worshipper of Immortality"
+        ]
+    },
+    {
+        "id": "n039",
+        "name": "Worshipper of Immortality",
+        "color": "b1b596",
+        "level": "110",
+        "category": "High",
+        "type": "Mechanic",
+        "location": "In Prius Forward camp, the Graveyard of Eternal Life to the East",
+        "conditions": "Summoned by Underlord Agareth",
+        "stats": {
+            "health": "5000000",
+            "healthRegen": "2500000",
+            "mana": "100",
+            "manaRegen": "1-4",
+            "armor": "1320",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "100",
+            "attackDamage": "8488",
+            "attackSpread": "5",
+            "attackRange": "225",
+            "attackSpeed": "1",
+            "moveSpeed": "300"
+        },
+        "spells": [
+            "Deathly Shroud",
+            "Gift of Immortality"
+        ]
+    },
+    {
+        "id": "n03A",
+        "name": "Zombie",
+        "color": "b1b596",
+        "level": "110",
+        "category": "High",
+        "type": "Minion",
+        "location": "In Prius Forward camp, the Graveyard of Eternal Life to the East",
+        "conditions": "Summoned by Zombie Lord",
+        "stats": {
+            "health": "50000",
+            "healthRegen": "0",
+            "mana": "60",
+            "manaRegen": "1",
+            "armor": "840",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1103",
+            "attackSpread": "6",
+            "attackRange": "150",
+            "attackSpeed": ".952",
+            "moveSpeed": "250"
+        },
+        "notes": [
+            "If there are 50 of these guys on the field, Zombie Lord Scenario Fails and a cutscene plays"
+        ],
+        "spells": [
+            "Lifesteal",
+            "Rise from the Grave"
         ]
     },
     {
         "id": "n030",
         "name": "Ancient Ent",
-        "limit": "None",
+        "color": "64b24c",
+        "quote": "Feel the might of Mother Nature!",
+        "level": "110",
         "category": "High",
+        "type": "Boss",
+        "limit": "None",
+        "respawn": "3",
         "location": "In Fairy Forest where a statue resides",
         "conditions": "Level 100, 1 Green Magic Stone on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
-        "notes": [
-            "1 sealed material also drops whenever a full material has been dropped"
-        ],
-        "sub-bosses": [
-            "n03W",
-            "n03X"
-        ],
+        "stats": {
+            "health": "75000000",
+            "healthRegen": "22500",
+            "mana": "100",
+            "manaRegen": "33.33",
+            "armor": "1120",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "4711",
+            "attackSpread": "4",
+            "attackRange": "1500",
+            "attackSpeed": ".5",
+            "moveSpeed": "0"
+        },
         "drops": [
+            "grsl",
             "I0D2",
             "ofir",
             "shtm",
+            "pgin",
+            "srtl",
             "I0OZ",
             "pres"
+        ],
+        "spells": [
+            "Earth Slam",
+            "Lightning Storm",
+            "Ent Power",
+            "Fortitude of Nature"
+        ],
+        "minions": [
+            "Elder Ent",
+            "Giant Ent",
+            "Ent"
         ]
     },
     {
         "id": "n03W",
         "name": "Elder Ent",
-        "limit": "None",
+        "color": "64b24c",
+        "level": "110",
         "category": "High",
-        "location": "Spawned by Ancient Ent",
-        "conditions": "Level 100",
+        "type": "Minion",
+        "limit": "None",
+        "location": "Within Ancient Ent's domain, north of Fairy Forest",
+        "conditions": "Spawned by Ancient Ent",
+        "stats": {
+            "health": "3750000",
+            "healthRegen": "7500",
+            "mana": "100",
+            "manaRegen": "50",
+            "armor": "1060",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "6961",
+            "attackSpread": "4",
+            "attackRange": "200",
+            "attackSpeed": ".667",
+            "moveSpeed": "220"
+        },
         "notes": [
-            "Elder Ent: Upon failure, droprate is reduced by 80%",
-            "1 sealed material also drops whenever a full material has been dropped"
+            "Spawns 5 Giant Ents on Death"
         ],
-        "drops": [
-            "pgin",
-            "srtl",
-            "ofir",
-            "shtm"
+        "spells": [
+            "Thorns Armor",
+            "Blessing of Nature",
+            "Weak Slam",
+            "Ent Power",
+            "Might of Nature"
+        ],
+        "minions": [
+            "Ent",
+            "Giant Ent"
         ]
     },
     {
         "id": "n03X",
         "name": "Giant Ent",
-        "limit": "None",
+        "color": "64b24c",
+        "level": "110",
         "category": "High",
-        "location": "Spawned by Ancient Ent",
-        "conditions": "Level 100",
+        "type": "Minion",
+        "limit": "None",
+        "location": "Within Ancient Ent's domain, north of Fairy Forest",
+        "conditions": "Spawned by Ancient Ent",
+        "stats": {
+            "health": "1500000",
+            "healthRegen": "7500",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "860",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1561",
+            "attackSpread": "4",
+            "attackRange": "200",
+            "attackSpeed": "1",
+            "moveSpeed": "280"
+        }
+    },
+    {
+        "id": "n032",
+        "name": "Ent",
+        "color": "64b24c",
+        "level": "110",
+        "category": "High",
+        "type": "Minion",
+        "location": "Within Ancient Ent's domain, north of Fairy Forest",
+        "conditions": "Spawned by Elder Ent",
+        "stats": {
+            "health": "600000",
+            "healthRegen": "1000",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "500",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1561",
+            "attackSpread": "4",
+            "attackRange": "200",
+            "attackSpeed": ".667",
+            "moveSpeed": "280"
+        },
         "notes": [
-            "Giant Ent: Upon failure, droprate is reduced by 80%",
-            "1 sealed material also drops whenever a full material has been dropped"
-        ],
-        "drops": [
-            "ofir",
-            "shtm",
-            "grsl"
-        ],
-        "stats": [
-            "HP: 34,690"
+            "Lasts for 90 seconds"
         ]
     },
     {
         "id": "o000",
         "name": "Archangel Samael",
-        "limit": "None",
+        "color": "EEEE9B",
+        "quote": "You mortals cannot escape your fate!",
+        "level": "110",
         "category": "High",
-        "summon": "In Castle Avalon, fighting area of Guardian Angels",
+        "type": "Boss",
+        "limit": "None",
+        "respawn": "3",
+        "location": "In Castle Avalon, fighting area of Guardian Angels",
         "conditions": "Recommended Level 100, Guardian Angels defeated, and White Magic Stone x3",
-        "notes": [
-            "1 sealed material also drops whenever a full material has been dropped"
-        ],
+        "stats": {
+            "health": "9000000",
+            "healthRegen": "2250",
+            "mana": "100",
+            "manaRegen": "0",
+            "armor": "1240",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "5428",
+            "attackSpread": "5",
+            "attackRange": "450",
+            "attackSpeed": ".417",
+            "moveSpeed": "380"
+        },
         "drops": [
             "I0EG",
             "I0E5",
@@ -1136,18 +3811,43 @@
             "I0E6",
             "I0OZ",
             "sneg"
+        ],
+        "spells": [
+            "Light Overload",
+            "Focused Light",
+            "Order of Light",
+            "Spirit of Light",
+            "Protection of Light",
+            "Purge of Light"
         ]
     },
     {
         "id": "n02Y",
         "name": "Shadow Dragon Irbert",
-        "limit": "None",
+        "color": "90a2cc",
+        "quote": "Face your inner evils...",
+        "level": "110",
         "category": "High",
+        "type": "Boss",
+        "limit": "None",
+        "respawn": "3",
         "location": "South of Frosty Snowfield, in Deep Snowfield",
         "conditions": "Level 100 and Blue Magic Stone x12",
-        "notes": [
-            "1 sealed material also drops whenever a full material has been dropped"
-        ],
+        "stats": {
+            "health": "8250000",
+            "healthRegen": "7500",
+            "mana": "100",
+            "manaRegen": "0",
+            "armor": "1090",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "5523",
+            "attackSpread": "7",
+            "attackRange": "800",
+            "attackSpeed": ".833",
+            "moveSpeed": "360"
+        },
         "drops": [
             "kymn",
             "bzbf",
@@ -1157,15 +3857,114 @@
             "I09N",
             "I0OZ",
             "shar"
+        ],
+        "spells": [
+            "Shadow Attack",
+            "Dragonic Skin",
+            "Shadow Breath",
+            "Seal",
+            "Shadow Rune",
+            "Super Armor",
+            "Illusions of Shadow",
+            "Eternity Link",
+            "Dark Blast"
+        ],
+        "minions": [
+            "Illusion of Irbert",
+            "Illusion of Irbert (Large)"
+        ]
+    },
+    {
+        "id": "n01Q",
+        "name": "Illusion of Irbert",
+        "color": "90a2cc",
+        "level": "110",
+        "category": "High",
+        "type": "Minion",
+        "location": "South of Frosty Snowfield, in Deep Snowfield",
+        "conditions": "Summoned by Shadow Dragon Irbert",
+        "stats": {
+            "health": "3000000",
+            "healthRegen": "3750",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "800",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "2701",
+            "attackSpread": "18",
+            "attackRange": "800",
+            "attackSpeed": ".833",
+            "moveSpeed": "360"
+        },
+        "spells": [
+            "Shadow Breath",
+            "Dark Detonation",
+            "Bindings of Darkness"
+        ]
+    },
+    {
+        "id": "n03I",
+        "name": "Illusion of Irbert (Large)",
+        "color": "90a2cc",
+        "level": "110",
+        "category": "High",
+        "type": "Minion",
+        "location": "South of Frosty Snowfield, in Deep Snowfield",
+        "conditions": "Summoned by Shadow Dragon Irbert",
+        "stats": {
+            "health": "5250000",
+            "healthRegen": "7600",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "1090",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "5523",
+            "attackSpread": "18",
+            "attackRange": "800",
+            "attackSpeed": ".833",
+            "moveSpeed": "360"
+        },
+        "spells": [
+            "Shadow Attack",
+            "Shadow Breath",
+            "Dragonic Skin",
+            "Seal",
+            "Dark Detonation",
+            "Reinforcement of Darkness",
+            "Bindings of Darkness"
         ]
     },
     {
         "id": "h01K",
         "name": "Death Fiend",
-        "limit": "1 for Death Fiend himself (token only), 4 for the Treasures of Death",
+        "color": "FF0000",
+        "quote": "Resistance is futile!",
+        "level": "120",
         "category": "Endgame",
-        "summon": "In Abandoned Graveyard, at spawn of Mad Clown",
+        "type": "Boss",
+        "limit": "4",
+        "respawn": "3",
+        "location": "In Abandoned Graveyard, at spawn of Mad Clown",
         "conditions": "Level 100 and Red Magic Stone x12",
+        "stats": {
+            "health": "9000000",
+            "healthRegen": "7500",
+            "mana": "100",
+            "manaRegen": "20",
+            "armor": "1170",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "10786",
+            "attackSpread": "8",
+            "attackRange": "325",
+            "attackSpeed": ".556",
+            "moveSpeed": "425"
+        },
         "drops": [
             "srbd",
             "oslo",
@@ -1176,26 +3975,235 @@
             "kygh",
             "I0OZ",
             "infs"
+        ],
+        "spells": [
+            "Mark of Death",
+            "Grasp of the Fiend",
+            "Crawling Death",
+            "Howl of Death",
+            "Deathly Cleave",
+            "Unholy Summoning",
+            "Determination of Death",
+            "Death Comes...",
+            "Doom"
+        ],
+        "minions": [
+            "Death Huntress",
+            "Death Devourer",
+            "Death Weaver",
+            "Treasures of Death"
+        ],
+        "notes": [
+            "Token can only drop from Death Fiend"
+        ]
+    },
+    {
+        "id": "h01S",
+        "name": "Death Huntress",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Minion",
+        "location": "In Abandoned Graveyard, at spawn of Mad Clown",
+        "conditions": "Summoned by Death Fiend",
+        "stats": {
+            "health": "5490000",
+            "healthRegen": "15000",
+            "mana": "10",
+            "manaRegen": "1",
+            "armor": "1020",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "5221",
+            "attackSpread": "8",
+            "attackRange": "1500",
+            "attackSpeed": ".8",
+            "moveSpeed": "500"
+        },
+        "spells": [
+            "Mark of Death",
+            "Bindings of Death",
+            "Heartpiercing Arrow",
+            "Weaken Soul",
+            "Arrow of Domination"
+        ],
+        "minions": [
+            "Death Hound"
+        ]
+    },
+    {
+        "id": "h01R",
+        "name": "Death Weaver",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Minion",
+        "location": "In Abandoned Graveyard, at spawn of Mad Clown",
+        "conditions": "Summoned by Death Fiend",
+        "stats": {
+            "health": "6090000",
+            "healthRegen": "15000",
+            "mana": "30",
+            "manaRegen": "1",
+            "armor": "1040",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "3641",
+            "attackSpread": "8",
+            "attackRange": "200",
+            "attackSpeed": "1.111",
+            "moveSpeed": "500"
+        },
+        "spells": [
+            "Mark of Death",
+            "Bindings of Death",
+            "Deadly Dance",
+            "Sword Blows",
+            "Unholy Teleportation"
+        ]
+    },
+    {
+        "id": "h01P",
+        "name": "Death Devourer",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Minion",
+        "location": "In Abandoned Graveyard, at spawn of Mad Clown",
+        "conditions": "Summoned by Death Fiend",
+        "stats": {
+            "health": "3150000",
+            "healthRegen": "15000",
+            "mana": "50",
+            "manaRegen": "5",
+            "armor": "810",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "50",
+            "attackDamage": "3085",
+            "attackSpread": "8",
+            "attackRange": "150",
+            "attackSpeed": ".833",
+            "moveSpeed": "500"
+        },
+        "spells": [
+            "Mark of Death",
+            "Bindings of Death",
+            "Essence of Death",
+            "Absorb Soul",
+            "Deathly Howl",
+            "Deathly Charge"
+        ]
+    },
+    {
+        "id": "h01T",
+        "name": "Death Hound",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Minion",
+        "location": "In Abandoned Graveyard, at spawn of Mad Clown",
+        "conditions": "Summoned by Death Huntress",
+        "stats": {
+            "health": "1200000",
+            "healthRegen": "15000",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "810",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1982",
+            "attackSpread": "8",
+            "attackRange": "1500",
+            "attackSpeed": ".3333",
+            "moveSpeed": "350"
+        }
+    },
+    {
+        "id": "h01U",
+        "name": "Treasures of Death",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Mechanic",
+        "location": "In Abandoned Graveyard, at spawn of Mad Clown",
+        "conditions": "Dropped by Death Fiend on death",
+        "stats": {
+            "health": "1500000",
+            "healthRegen": "0",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "500",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "0"
+        },
+        "notes": [
+            "This drops all of Death Fiend's loot",
+            "Only spawns at successful attempt"
         ]
     },
     {
         "id": "n043",
         "name": "Elemental of Chaos",
-        "limit": "1",
+        "level": "120",
         "category": "Endgame",
+        "type": "Mob",
+        "limit": "1",
         "location": "Spawns near the exit of the Secluded Forest",
         "conditions": "Level 100. Spawns begin a little bit after the first person to enter the area.",
+        "stats": {
+            "health": "2089000",
+            "healthRegen": "500",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "500",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1935",
+            "attackSpread": "7",
+            "attackRange": "450",
+            "attackSpeed": "1.667",
+            "moveSpeed": "300"
+        },
         "drops": [
             "I0IO"
+        ],
+        "spells": [
+            "Chaotic Affliction"
         ]
     },
     {
         "id": "h04O",
         "name": "Valtora",
-        "limit": "None",
+        "color": "c9c795",
+        "quote": "The skies shall judge you!",
+        "level": "120",
         "category": "Endgame",
-        "summon": "The Left-most portal in the tower located east of the Secluded Forest",
+        "type": "Boss",
+        "limit": "None",
+        "respawn": "3",
+        "location": "The Left-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 100 and Key of Storm crafted",
+        "stats": {
+            "health": "9750000",
+            "healthRegen": "7500",
+            "mana": "100",
+            "manaRegen": "33.33",
+            "armor": "1240",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": ".25",
+            "attackDamage": "10993",
+            "attackSpread": "8",
+            "attackRange": "750",
+            "attackSpeed": ".5",
+            "moveSpeed": "500"
+        },
         "drops": [
             "ocor",
             "I0IG",
@@ -1203,15 +4211,79 @@
             "phea",
             "I0OZ",
             "I0P0"
+        ],
+        "spells": [
+            "Magnetic Attraction",
+            "Storm Hammer",
+            "Servant of Lightning",
+            "Wrath of Heaven",
+            "Nasty Shock",
+            "Windy Presence",
+            "Electric Storm",
+            "Rage of the Thunder God"
+        ],
+        "minions": [
+            "Servant of Lightning God"
+        ]
+    },
+    {
+        "id": "h04P",
+        "name": "Servant of Lightning God",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Minion",
+        "location": "The Left-most portal in the tower located east of the Secluded Forest",
+        "conditions": "Summoned by Valtora",
+        "stats": {
+            "health": "2089000",
+            "healthRegen": "500",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "500",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1935",
+            "attackSpread": "7",
+            "attackRange": "450",
+            "attackSpeed": "1.667",
+            "moveSpeed": "300"
+        },
+        "spells": [
+            "Lightning Strike",
+            "Lightning Shield"
+        ],
+        "notes": [
+            "Lasts for 60 seconds"
         ]
     },
     {
         "id": "h060",
         "name": "Ifrit",
-        "limit": "None",
+        "color": "d35252",
+        "quote": "It's time for some serious fun...",
+        "level": "120",
         "category": "Endgame",
-        "summon": "The Right-most portal in the tower located east of the Secluded Forest",
+        "type": "Boss",
+        "limit": "None",
+        "respawn": "3",
+        "location": "The top-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 100 and Key of Flame crafted",
+        "stats": {
+            "health": "10500000",
+            "healthRegen": "7500",
+            "mana": "100",
+            "manaRegen": "4",
+            "armor": "1390",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": ".25",
+            "attackDamage": "8890",
+            "attackSpread": "8",
+            "attackRange": "225",
+            "attackSpeed": ".667",
+            "moveSpeed": "380"
+        },
         "drops": [
             "I0JS",
             "I0IE",
@@ -1219,15 +4291,128 @@
             "phea",
             "I0OZ",
             "I0P1"
+        ],
+        "spells": [
+            "Explosive Strike",
+            "Raging Flame",
+            "Flame Meteor",
+            "Seed of Flame",
+            "Hellfire",
+            "Hot Pursuit",
+            "Volcanic Party"
+        ],
+        "minions": [
+            "Obsidian Golem",
+            "Flame Spirit"
         ]
+    },
+    {
+        "id": "h063",
+        "name": "Obsidian Golem",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Minion",
+        "location": "The top-most portal in the tower located east of the Secluded Forest",
+        "conditions": "Summoned by Ifrit",
+        "stats": {
+            "health": "2400000",
+            "healthRegen": "7500",
+            "mana": "100",
+            "manaRegen": "5",
+            "armor": "1210",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": ".6",
+            "attackDamage": "6231",
+            "attackSpread": "8",
+            "attackRange": "250",
+            "attackSpeed": ".667",
+            "moveSpeed": "250"
+        },
+        "spells": [
+            "Obsidian Armor",
+            "Smash",
+            "Hot Pursuit"
+        ]
+    },
+    {
+        "id": "h062",
+        "name": "Lava Spirit",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Minion",
+        "location": "The top-most portal in the tower located east of the Secluded Forest",
+        "conditions": "Summoned by Ifrit",
+        "stats": {
+            "health": "900000",
+            "healthRegen": "7500",
+            "mana": "100",
+            "manaRegen": "2.5",
+            "armor": "1060",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "0"
+        },
+        "spells": [
+            "Fiery Bullets"
+        ]
+    },
+    {
+        "id": "h061",
+        "name": "Magma",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Mechanic",
+        "location": "The top-most portal in the tower located east of the Secluded Forest",
+        "conditions": "Summoned by Ifrit",
+        "stats": {
+            "health": "600000",
+            "healthRegen": "7500",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "760",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "100"
+        }
     },
     {
         "id": "h06T",
         "name": "Nereid",
-        "limit": "None",
+        "color": "9c9cd5",
+        "quote": "The sea shall consume you!",
+        "level": "120",
         "category": "Endgame",
-        "summon": "The Top-most portal in the tower located east of the Secluded Forest",
+        "type": "Boss",
+        "limit": "None",
+        "respawn": "3",
+        "location": "The right-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 100 and Key of Sea crafted",
+        "stats": {
+            "health": "11250000",
+            "healthRegen": "15000",
+            "mana": "100",
+            "manaRegen": "66.6",
+            "armor": "1315",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": ".50",
+            "attackDamage": "9882",
+            "attackSpread": "8",
+            "attackRange": "1500",
+            "attackSpeed": "0.667",
+            "moveSpeed": "500"
+        },
         "drops": [
             "I0LX",
             "I0II",
@@ -1235,15 +4420,133 @@
             "phea",
             "I0OZ",
             "I0P2"
+        ],
+        "spells": [
+            "Aegis of Sea",
+            "Water Barrage",
+            "Might of Sea",
+            "Purification of Water",
+            "Water Binding",
+            "Drown",
+            "Bubble Breath",
+            "Geyser",
+            "Water splash",
+            "Protection of Sea",
+            "Consumption of the Sea"
+        ],
+        "minions": [
+            "Wavecaller",
+            "Large Wavecaller"
+        ]
+    },
+    {
+        "id": "h06V",
+        "name": "Large Wavecaller",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Minion",
+        "location": "The right-most portal in the tower located east of the Secluded Forest",
+        "conditions": "Summoned by Nereid",
+        "stats": {
+            "health": "1800000",
+            "healthRegen": "3000",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "1120",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "250"
+        },
+        "spells": [
+            "Water Hose"
+        ]
+    },
+    {
+        "id": "h06U",
+        "name": "Wavecaller",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Minion",
+        "location": "The right-most portal in the tower located east of the Secluded Forest",
+        "conditions": "Summoned by Nereid",
+        "stats": {
+            "health": "900000",
+            "healthRegen": "3000",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "840",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "250"
+        },
+        "spells": [
+            "Refreshing Wave"
+        ]
+    },
+    {
+        "id": "h06W",
+        "name": "Water Bubble",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Mechanic",
+        "location": "The right-most portal in the tower located east of the Secluded Forest",
+        "conditions": "Summoned by Nereid",
+        "stats": {
+            "health": "900000",
+            "healthRegen": "0",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "1000",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "250"
+        },
+        "notes": [
+            "Any attack to this mechanic deals 10x damage"
         ]
     },
     {
         "id": "h077",
         "name": "Underlord Agareth",
-        "limit": "None",
+        "color": "650000",
+        "quote": "The end is high!",
+        "level": "120",
         "category": "Endgame",
-        "summon": "Destroy the demonic portal during the Hell Invasion",
+        "type": "Boss",
+        "limit": "None",
+        "respawn": "3",
+        "location": "Through the destroyed demonic portal during the Hell Invasion",
         "conditions": "Level 100, Demon Lord summoned, and Demonic portal destroyed",
+        "stats": {
+            "health": "13500000",
+            "healthRegen": "15000",
+            "mana": "100",
+            "manaRegen": "25",
+            "armor": "1240",
+            "armorType": "Heavy",
+            "magicResist": "",
+            "damageResist": ".50",
+            "attackDamage": "6556",
+            "attackSpread": "8",
+            "attackRange": "250",
+            "attackSpeed": "1",
+            "moveSpeed": "500"
+        },
         "drops": [
             "I0O3",
             "I0NV",
@@ -1251,6 +4554,170 @@
             "I0NW",
             "I0OZ",
             "I0P3"
+        ],
+        "spells": [
+            "Ethreal Strike",
+            "Color",
+            "Fear",
+            "Soul Burst",
+            "Empowered Soul Burst",
+            "Umbra Dance",
+            "Empowered Umbra Dance",
+            "Skewer",
+            "Empowered Skewer",
+            "Finger of Death",
+            "Hunt",
+            "It's Time to Hunt",
+            "Demonic Portal",
+            "Fear ",
+            "Void Fall",
+            "Abyssal Miasma",
+            "Armageddon"
+        ],
+        "minions": [
+            "Soul Crystal",
+            "Gatekeeper of Hell",
+            "Cursed Spirit",
+            "Hellspawn"
         ]
+    },
+    {
+        "id": "h07A",
+        "name": "Gatekeeper of Hell",
+        "level": "999",
+        "category": "Endgame",
+        "type": "Minion",
+        "location": "In the mini-game during the fight with Underlord Agareth",
+        "conditions": "Summoned by Underlord Agareth",
+        "stats": {
+            "health": "9",
+            "healthRegen": "0",
+            "mana": "10",
+            "manaRegen": "1",
+            "armor": "0",
+            "armorType": "Hero",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "4",
+            "attackSpread": "0",
+            "attackRange": "550",
+            "attackSpeed": "2.5",
+            "moveSpeed": "0"
+        },
+        "spells": [
+            "Finger of Death",
+            "Hellflame Meteorite",
+            "Hellfire"
+        ]
+    },
+    {
+        "id": "h07B",
+        "name": "Soul Crystal",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Minion",
+        "location": "In the mini-game during the fight with Underlord Agareth",
+        "conditions": "Summoned by Underlord Agareth",
+        "stats": {
+            "health": "2250000",
+            "healthRegen": "0",
+            "mana": "100",
+            "manaRegen": "5",
+            "armor": "1000",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "0"
+        },
+        "notes": [
+            "Purple version of Soul Crystal"
+        ],
+        "spells": [
+            "Soul Channel",
+            "Soul Shield"
+        ]
+    },
+    {
+        "id": "h07C",
+        "name": "Soul Crystal",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Minion",
+        "location": "In the mini-game during the fight with Underlord Agareth",
+        "conditions": "Summoned by Underlord Agareth",
+        "stats": {
+            "health": "2250000",
+            "healthRegen": "0",
+            "mana": "100",
+            "manaRegen": "5",
+            "armor": "1000",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "0"
+        },
+        "notes": [
+            "Green version of Soul Crystal"
+        ],
+        "spells": [
+            "Soul Channel",
+            "Soul Shield"
+        ]
+    },
+    {
+        "id": "h07D",
+        "name": "Cursed Spirit",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Minion",
+        "location": "In the mini-game during the fight with Underlord Agareth",
+        "conditions": "Summoned by Underlord Agareth",
+        "stats": {
+            "health": "1",
+            "healthRegen": "0",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "0",
+            "armorType": "Light",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1",
+            "attackSpread": "0",
+            "attackRange": "100",
+            "attackSpeed": "2",
+            "moveSpeed": "150"
+        }
+    },
+    {
+        "id": "h079",
+        "name": "Hellspawn",
+        "level": "120",
+        "category": "Endgame",
+        "type": "Minion",
+        "location": "Through the destroyed demonic portal during the Hell Invasion",
+        "conditions": "Summoned by Underlord Agareth",
+        "stats": {
+            "health": "1632123",
+            "healthRegen": "2500",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "1000",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "3262",
+            "attackSpread": "8",
+            "attackRange": "150",
+            "attackSpeed": "1.52",
+            "moveSpeed": "250"
+        }
     }
 ]
