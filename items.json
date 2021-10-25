@@ -5635,12 +5635,11 @@
     "name": "Spirit Orb",
     "koreanname": "정령의 구슬",
     "notes": [
-      "Giant Ent: Upon failure, droprate is reduced by 80% (0.25% → 0.05%)"
+      "Ancient Ent: Upon failure, droprate is reduced by 80% (0.25% → 0.05%)"
     ],
     "dropped_by": [
       "Mana Ancient",
-      "Spirit Beast",
-      "Giant Ent"
+      "Spirit Beast"
     ],
     "rank": "[Epic]",
     "grade": 2,
@@ -5648,8 +5647,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.0005,
-      0.04,
-      0.0025
+      0.04
     ],
     "required_by": [
       "Blazing Soul",
