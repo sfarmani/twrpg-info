@@ -1783,8 +1783,9 @@
       "hp": 600,
       "passive": [
         "Upon moving 400 distance, activates Drain on next attack",
-        "Deals bonus 33% ATK DMG pure damage and heal for 6% HP",
-        "cooldown: 0.125 seconds"
+        "Deals (33% ATK DMG) pure damage",
+        "Heals 6% max HP",
+        "Cooldown: 0.125 seconds"
       ]
     }
   },
@@ -13900,7 +13901,8 @@
         "Upon moving 400 distance, activates Hungry Drain on next attack",
         "Deals (40% ATK DMG) pure damage",
         "Heals 8% HP",
-        "cooldown: 0.125 seconds"
+        "Increases HP regen by 45 for 2 seconds (up to 5 stacks)",
+        "Cooldown: 0.125 seconds"
       ]
     }
   },
@@ -17398,7 +17400,8 @@
         "Upon moving 400 distance, activates Bloody Bite on next attack",
         "Deals (50% ATK DMG) pure damage",
         "Heals 8% max HP",
-        "Increases attack damage by 450, movement speed by 15, and HP regen by 75 for 4 seconds (up to 5 stacks)"
+        "Increases attack damage by 450, movement speed by 15, and HP regen by 75 for 4 seconds (up to 5 stacks)",
+        "cooldown: 0.125 seconds"
       ]
     }
   },
