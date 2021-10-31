@@ -3331,10 +3331,7 @@
             "attackRange": "450",
             "attackSpeed": "0.667",
             "moveSpeed": "370"
-        },
-        "drops": [
-            "Nightmare Rod"
-        ]
+        }
     },
     {
         "id": "n03G",
@@ -3361,9 +3358,6 @@
             "attackSpeed": "0.4",
             "moveSpeed": "420"
         },
-        "drops": [
-            "Nightmare Rod"
-        ],
         "spells": [
             "Flame Bolt"
         ],
