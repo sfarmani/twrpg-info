@@ -4522,7 +4522,7 @@
     {
         "id": "h077",
         "name": "Underlord Agareth",
-        "color": "650000",
+        "color": "883333",
         "quote": "The end is high!",
         "level": "120",
         "category": "Endgame",
@@ -4718,5 +4718,48 @@
             "attackSpeed": "1.52",
             "moveSpeed": "250"
         }
+    },
+    {
+        "id": "h08K",
+        "name": "Duke Lazarus",
+        "color": "883333",
+        "quote": "",
+        "level": "130",
+        "category": "Endgame",
+        "type": "Boss",
+        "limit": "None",
+        "respawn": "3",
+        "location": "Through the portal in front of Wallachia castle (next to Death Knight)",
+        "conditions": "Level 100",
+        "stats": {
+            "health": "30000000",
+            "healthRegen": "50000",
+            "mana": "100",
+            "manaRegen": "25",
+            "armor": "1290",
+            "armorType": "",
+            "magicResist": "",
+            "damageResist": "",
+            "attackDamage": "7530",
+            "attackSpread": "",
+            "attackRange": "2500",
+            "attackSpeed": "",
+            "moveSpeed": "250"
+        },
+        "drops": [
+            "I014",
+            "I0R2",
+            "I0R4",
+            "I0R3",
+            "I0OZ",
+            "I0R6"
+        ],
+        "spells": [],
+        "minions": [
+            "Soul Crystal",
+            "Gatekeeper of Hell",
+            "Cursed Spirit",
+            "Hellspawn"
+        ]
     }
 ]

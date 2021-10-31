@@ -1227,7 +1227,7 @@
         "order": 10,
         "active": [
             "Surge forward to execute enemies.",
-            "INT X 20 magic damage",
+            "INT X 25 magic damage",
             "Deal up to 150% bonus damage based on target's lost health",
             "Stuns for 1 second"
         ],

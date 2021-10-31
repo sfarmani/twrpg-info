@@ -2293,7 +2293,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "droprate": 0.05,
     "required_by": [
@@ -2490,7 +2490,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Shared)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "droprate": 0.20,
     "stats": {
@@ -2512,7 +2512,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Armor",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "droprate": 0.20,
     "stats": {
@@ -2534,7 +2534,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "droprate": 0.20,
     "stats": {
@@ -2559,9 +2559,12 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Wings",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "droprate": 0.20,
+    "required_by": [
+      "Guardian Angel"
+    ],
     "stats": {
       "allstat": 130,
       "movespeed": 50,
@@ -2639,7 +2642,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "droprate": 0.05,
     "required_by": [
@@ -2959,7 +2962,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Armor",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "droprate": 0.05,
     "required_by": [
@@ -2986,7 +2989,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Armor",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "droprate": 0.05,
     "required_by": [
@@ -3012,7 +3015,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Armor",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "droprate": 0.05,
     "required_by": [
@@ -3046,7 +3049,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "droprate": 0.05,
     "required_by": [
@@ -3357,7 +3360,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 60,
     "droprate": 0.075,
     "required_by": [
@@ -3382,7 +3385,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 60,
     "droprate": 0.075,
     "required_by": [
@@ -3407,7 +3410,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 60,
     "droprate": 0.075,
     "required_by": [
@@ -3798,7 +3801,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Leoreus, the Greatsword of Explosion"
@@ -3823,7 +3826,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Storm Reaver"
@@ -3848,7 +3851,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Pheles, the Bow of Skies"
@@ -3875,7 +3878,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Benziena, the Earthen Pillar"
@@ -3904,7 +3907,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Retus, the Bullet of Judgment"
@@ -3929,7 +3932,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Armor",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "droprate": 0.075,
     "required_by": [
@@ -3955,7 +3958,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "droprate": 0.075,
     "required_by": [
@@ -3984,7 +3987,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "droprate": 0.075,
     "required_by": [
@@ -4116,7 +4119,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "droprate": 0.075,
     "required_by": [
@@ -4142,7 +4145,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "droprate": 0.075,
     "required_by": [
@@ -4168,7 +4171,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "droprate": 0.075,
     "required_by": [
@@ -4195,7 +4198,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "droprate": 0.075,
     "required_by": [
@@ -4221,7 +4224,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Armor",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "droprate": 0.075,
     "required_by": [
@@ -4245,7 +4248,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "droprate": 0.075,
     "required_by": [
@@ -4352,7 +4355,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "droprate": 0.1,
     "required_by": [
@@ -4415,7 +4418,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "droprate": 0.075,
     "level": 80,
     "required_by": [
@@ -4443,7 +4446,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "C39BE1",
     "droprate": 0.075,
     "level": 80,
     "required_by": [
@@ -4470,7 +4473,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "C39BE1",
     "droprate": 0.075,
     "level": 80,
     "required_by": [
@@ -4497,7 +4500,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Armor",
-    "color": "52E252",
+    "color": "C39BE1",
     "droprate": 0.075,
     "level": 80,
     "required_by": [
@@ -4526,7 +4529,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "C39BE1",
     "droprate": 0.075,
     "level": 80,
     "required_by": [
@@ -4617,7 +4620,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "C39BE1",
     "droprate": 0.075,
     "level": 80,
     "required_by": [
@@ -4641,7 +4644,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "droprate": 0.075,
     "level": 80,
     "required_by": [
@@ -4668,7 +4671,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Armor",
-    "color": "52E252",
+    "color": "C39BE1",
     "droprate": 0.075,
     "level": 80,
     "required_by": [
@@ -4697,7 +4700,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "C39BE1",
     "droprate": 0.075,
     "level": 80,
     "required_by": [
@@ -4791,7 +4794,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Armor",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.06,
     "required_by": [
@@ -4819,7 +4822,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.06,
     "required_by": [
@@ -4846,7 +4849,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.06,
     "required_by": [
@@ -4872,7 +4875,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.06,
     "required_by": [
@@ -4940,7 +4943,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.06,
     "required_by": [
@@ -4967,7 +4970,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.06,
     "required_by": [
@@ -4994,7 +4997,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.06,
     "required_by": [
@@ -5018,7 +5021,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.06,
     "required_by": [
@@ -5087,7 +5090,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.04,
     "required_by": [
@@ -5116,7 +5119,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.04,
     "required_by": [
@@ -5149,7 +5152,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.06,
     "required_by": [
@@ -5177,7 +5180,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.06,
     "required_by": [
@@ -5278,7 +5281,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.04,
     "required_by": [
@@ -5308,7 +5311,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.04,
     "required_by": [
@@ -5337,7 +5340,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.06,
     "required_by": [
@@ -5368,7 +5371,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.06,
     "required_by": [
@@ -5401,7 +5404,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Wings",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 90,
     "droprate": 0.06,
     "required_by": [
@@ -5524,7 +5527,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Shared)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.04,
     "required_by": [
@@ -5565,7 +5568,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.04,
     "required_by": [
@@ -5602,7 +5605,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.04,
     "required_by": [
@@ -5744,7 +5747,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.03,
     "required_by": [
@@ -5779,7 +5782,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.03,
     "required_by": [
@@ -5819,7 +5822,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.03,
     "required_by": [
@@ -5856,7 +5859,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.03,
     "required_by": [
@@ -5893,7 +5896,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.03,
     "required_by": [
@@ -5929,7 +5932,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.03,
     "required_by": [
@@ -5974,7 +5977,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.02,
     "required_by": [
@@ -6085,7 +6088,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.04,
     "required_by": [
@@ -6124,7 +6127,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Armor",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.04,
     "required_by": [
@@ -6163,7 +6166,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.04,
     "required_by": [
@@ -6199,7 +6202,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.04,
     "required_by": [
@@ -6236,7 +6239,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.02,
     "required_by": [
@@ -6356,7 +6359,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.04,
     "required_by": [
@@ -6395,7 +6398,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Armor",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.04,
     "required_by": [
@@ -6428,7 +6431,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.04,
     "required_by": [
@@ -6467,7 +6470,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.04,
     "required_by": [
@@ -6505,7 +6508,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "droprate": 0.02,
     "required_by": [
@@ -6710,7 +6713,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "droprate": 0.0125,
     "required_by": [
@@ -6741,7 +6744,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Shared)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "droprate": 0.0125,
     "required_by": [
@@ -6786,7 +6789,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
       "Ruinbringer",
@@ -6809,7 +6812,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Claws of Beriel",
       "Chronos, the Cannon of Time",
@@ -6924,7 +6927,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "droprate": 0.01,
     "required_by": [
@@ -6960,7 +6963,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "droprate": 0.01,
     "required_by": [
@@ -6993,7 +6996,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "droprate": 0.0125,
     "required_by": [
@@ -7023,7 +7026,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "droprate": 0.0125,
     "required_by": [
@@ -7052,7 +7055,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "droprate": 0.0125,
     "required_by": [
@@ -7086,7 +7089,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -7135,7 +7138,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
       "Chronos, the Cannon of Time",
@@ -7184,7 +7187,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -7237,7 +7240,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Claws of Beriel",
       "Crimson Reaper",
@@ -7301,7 +7304,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "droprate": 0.015,
     "required_by": [
@@ -7334,7 +7337,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "droprate": 0.015,
     "required_by": [
@@ -7367,7 +7370,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Wings",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "droprate": 0.01,
     "required_by": [
@@ -7378,6 +7381,7 @@
       "Brave Heart",
       "Eternal Flame",
       "Wings of Immortal",
+      "Cape of Insatiable Hunger",
       "Zombie Lord Icon"
     ],
     "stats": {
@@ -7403,7 +7407,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Oceanus, the Sword of Light",
       "Tiberius, the Spear of Lightning",
@@ -7454,7 +7458,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Crimson Reaper",
       "Winter's Heart",
@@ -7506,7 +7510,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Bloody Hatred",
       "Staff of Abyss",
@@ -7572,7 +7576,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Wings",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "droprate": 0.01,
     "required_by": [
@@ -7598,24 +7602,94 @@
     }
   },
   {
+    "id": "pgin",
+    "emote_id": "771556928203259904",
+    "name": "Griseus, the Sword of Protection",
+    "koreanname": "수호의 검 그리세우스",
+    "description": "Sword protected by a mysterious power",
+    "dropped_by": [
+      "Ancient Ent"
+    ],
+    "rank": "[Epic]",
+    "grade": 3,
+    "type": "Weapon (Melee)",
+    "color": "DC143C",
+    "level": 100,
+    "droprate": 0.015,
+    "required_by": [
+      "Oceanus, the Sword of Light",
+      "Winter's Heart",
+      "Ancient Ent Icon"
+    ],
+    "stats": {
+      "damage": 6450,
+      "mainstat": 240,
+      "allstat": 240,
+      "dtpercent": -0.08,
+      "active": [
+        "On use, activates Ethereal Strike",
+        "If enemy: deals (max MP X 2) pure damage and stuns for 1 second",
+        "If ally: heals (25% max HP)",
+        "Cooldown: 15 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "srtl",
+    "emote_id": "771557006254669844",
+    "name": "Ring of the Storm",
+    "koreanname": "폭풍의 반지",
+    "description": "Storm!",
+    "dropped_by": [
+      "Ancient Ent"
+    ],
+    "rank": "[Epic]",
+    "grade": 3,
+    "type": "Accessory",
+    "color": "DC143C",
+    "level": 100,
+    "droprate": 0.0075,
+    "required_by": [
+      "Latea, the Ring of Overlord",
+      "Hydro Buster",
+      "Plates of Lightning",
+      "Ring of Fervor",
+      "Nebula Rose",
+      "Vest of Storm",
+      "Storm",
+      "Oblivion",
+      "Ring of Divine Winds",
+      "Ancient Ent Icon"
+    ],
+    "stats": {
+      "allstat": 280,
+      "passive": [
+        "On skill cast, increases skill damage by 3% for 6 seconds (stacks up to 4 times)"
+      ],
+      "active": [
+        "On use, summons a storm",
+        "Deals (MAIN STAT X 2) magic damage in an AoE per second for 4 seconds",
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialty",
+        "Wind Mage - Improved Gentle Winds: Improves the damage of generated tornadoes by 75%"
+      ]
+    }
+  },
+  {
     "id": "ofir",
     "emote_id": "771556850134024203",
     "name": "Purified Water of Nature",
     "koreanname": "대자연의 정수",
     "dropped_by": [
-      "Ancient Ent",
-      "Elder Ent",
-      "Giant Ent"
+      "Ancient Ent"
     ],
     "rank": "[Epic]",
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": [
-      0.0075,
-      0.005,
-      0.0005
-    ],
+    "droprate": 0.0175,
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -7665,19 +7739,13 @@
     "name": "Fragment of the Wind",
     "koreanname": "바람의 조각",
     "dropped_by": [
-      "Ancient Ent",
-      "Elder Ent",
-      "Giant Ent"
+      "Ancient Ent"
     ],
     "rank": "[Epic]",
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": [
-      0.0075,
-      0.005,
-      0.0005
-    ],
+    "droprate": 0.0175,
     "required_by": [
       "Spirit Dagger",
       "Pheles, the Bow of Skies",
@@ -7732,88 +7800,6 @@
     "droprate": 0.0001
   },
   {
-    "id": "pgin",
-    "emote_id": "771556928203259904",
-    "name": "Griseus, the Sword of Protection",
-    "koreanname": "수호의 검 그리세우스",
-    "description": "Sword protected by a mysterious power",
-    "dropped_by": [
-      "Elder Ent"
-    ],
-    "notes": [
-      "Elder Ent: Upon failure, droprate is reduced by 80% (0.75% → 0.15%)"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Weapon (Melee)",
-    "color": "52E252",
-    "level": 100,
-    "droprate": 0.0075,
-    "required_by": [
-      "Oceanus, the Sword of Light",
-      "Winter's Heart",
-      "Ancient Ent Icon"
-    ],
-    "stats": {
-      "damage": 6450,
-      "mainstat": 240,
-      "allstat": 240,
-      "dtpercent": -0.08,
-      "active": [
-        "On use, activates Ethereal Strike",
-        "If enemy: deals (max MP X 2) pure damage and stuns for 1 second",
-        "If ally: heals (25% max HP)",
-        "Cooldown: 15 seconds, cannot be dropped during cooldown"
-      ]
-    }
-  },
-  {
-    "id": "srtl",
-    "emote_id": "771557006254669844",
-    "name": "Ring of the Storm",
-    "koreanname": "폭풍의 반지",
-    "description": "Storm!",
-    "notes": [
-      "Elder Ent: Upon failure, droprate is reduced by 80% (0.75% → 0.15%)"
-    ],
-    "dropped_by": [
-      "Elder Ent"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Accessory",
-    "color": "52E252",
-    "level": 100,
-    "droprate": 0.0075,
-    "required_by": [
-      "Latea, the Ring of Overlord",
-      "Hydro Buster",
-      "Plates of Lightning",
-      "Ring of Fervor",
-      "Nebula Rose",
-      "Vest of Storm",
-      "Storm",
-      "Oblivion",
-      "Ring of Divine Winds",
-      "Ancient Ent Icon"
-    ],
-    "stats": {
-      "allstat": 280,
-      "passive": [
-        "On skill cast, increases skill damage by 3% for 6 seconds (stacks up to 4 times)"
-      ],
-      "active": [
-        "On use, summons a storm",
-        "Deals (MAIN STAT X 2) magic damage in an AoE per second for 4 seconds",
-        "Cooldown: 120 seconds, cannot be dropped during cooldown"
-      ],
-      "spec": [
-        "Specialty",
-        "Wind Mage - Improved Gentle Winds: Improves the damage of generated tornadoes by 75%"
-      ]
-    }
-  },
-  {
     "id": "I0EG",
     "emote_id": "771558315267719238",
     "name": "Guardian of the Skies",
@@ -7825,7 +7811,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Wings",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "droprate": 0.01,
     "required_by": [
@@ -7872,7 +7858,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Claws of Beriel",
       "Tiberius, the Spear of Lightning",
@@ -7888,6 +7874,7 @@
       "Rainmaker",
       "Astra, the Sword of Moonlight",
       "Benziena, the Earthen Heart",
+      "Agnitus, the Bow of Divine Fury",
       "Archangel Icon"
     ],
     "recipe": [
@@ -7923,7 +7910,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Ruinbringer",
       "Hell Riser",
@@ -7976,7 +7963,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Oceanus, the Sword of Light",
       "Halo of Judgment",
@@ -7992,6 +7979,8 @@
       "Cosmic Reaper",
       "Ethenos, the Staff of Chaos",
       "Harmonia, the Sparkle of Life",
+      "Star of Apotheosis",
+      "Guardian Angel",
       "Archangel Icon"
     ],
     "recipe": [
@@ -8041,7 +8030,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "droprate": 0.01,
     "required_by": [
@@ -8072,7 +8061,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "droprate": 0.0175,
     "required_by": [
@@ -8107,7 +8096,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "droprate": 0.0175,
     "required_by": [
@@ -8162,6 +8151,7 @@
       "Armageddon",
       "Voidshard Armor",
       "Staff of Plague",
+      "Bloodstorm",
       "Shadow Dragon Icon"
     ],
     "recipe": [
@@ -8331,12 +8321,15 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Shared)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
-    "droprate": 0.0025,
+    "droprate": 0.0035,
     "required_by": [
       "Calamity",
-      "Astra, the Sword of Moonlight"
+      "Astra, the Sword of Moonlight",
+      "Heartrender",
+      "Agnitus, the Bow of Divine Fury",
+      "Fulminata, the Bringer of Storms"
     ],
     "stats": {
       "damage": 9900,
@@ -8361,15 +8354,16 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Armor",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Hades, the Armor of Despair",
       "Athanasia, the Armor of the Reaper",
       "Felspike Armor",
       "Nevedium, the Armor of Demonblood",
-      "Bloodseeker Plates"
+      "Bloodseeker Plates",
+      "Plates of Sanguine Fury"
     ],
     "stats": {
       "armor": 200,
@@ -8395,7 +8389,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "droprate": 0.01,
     "required_by": [
@@ -8405,7 +8399,10 @@
       "Eye of the Reaper",
       "Crown of Extreme Anger",
       "Heaven's Door",
-      "Spirit of Protector"
+      "Spirit of Protector",
+      "Cage of Twisted Souls",
+      "Crescendo of Madness",
+      "Bloodstorm"
     ],
     "stats": {
       "armor": 100,
@@ -8432,7 +8429,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "droprate": 0.01,
     "required_by": [
@@ -8440,7 +8437,8 @@
       "Ring of Insanity",
       "Eternal Flame",
       "Power of Beriel",
-      "Bag of Demise"
+      "Bag of Demise",
+      "Heartrender"
     ],
     "stats": {
       "mainstat": 295,
@@ -8462,7 +8460,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Staff of Plague",
       "Crimson Hatred",
@@ -8503,7 +8501,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Protection of the Fairies",
       "Archangel Wings",
@@ -8519,6 +8517,9 @@
       "Ethenos, the Staff of Chaos",
       "Chaos Dagger",
       "Prophetia, the Origin of Knowledge",
+      "Agnitus, the Bow of Divine Fury",
+      "Crescendo of Madness",
+      "Cape of Insatiable Hunger",
       "Chaos Pickaxe"
     ]
   },
@@ -8548,9 +8549,9 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
-    "droprate": 0.005,
+    "droprate": 0.0055,
     "required_by": [
       "Staff of Plague",
       "Heaven's Fist",
@@ -8563,7 +8564,9 @@
       "Eternal Winter",
       "Jupiter, the Robe of Heavens",
       "Wings of Immortal",
-      "Ring of the One"
+      "Ring of the One",
+      "Spear of Judgment",
+      "Caedis, the Sword of Slaughter"
     ],
     "stats": {
       "mainstat": 360,
@@ -8590,7 +8593,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Horn of Lightning God",
       "Protection of the Fairies",
@@ -8606,7 +8609,10 @@
       "Mask of Demigod",
       "Bloodseeker Plates",
       "Prophetia, the Origin of Knowledge",
-      "Ring of Frozen Soul"
+      "Ring of Frozen Soul",
+      "Caedis, the Sword of Slaughter",
+      "Plates of Sanguine Fury",
+      "Heirloom of Lazarus"
     ]
   },
   {
@@ -8621,7 +8627,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Pheles, the Bow of God",
@@ -8641,7 +8647,13 @@
       "Vest of Divine Winds",
       "Astra, the Sword of Moonlight",
       "Harmonia, the Sparkle of Life",
-      "Ring of the One"
+      "Ring of the One",
+      "Heartrender",
+      "Spear of Judgment",
+      "Fulminata, the Bringer of Storms",
+      "Cage of Twisted Souls",
+      "Star of Apotheosis",
+      "Guardian Angel"
     ]
   },
   {
@@ -8697,7 +8709,10 @@
       "Bloodseeker Plates",
       "Ring of Divine Winds",
       "Chaos Pickaxe",
-      "Harmonia, the Sparkle of Life"
+      "Harmonia, the Sparkle of Life",
+      "Endless Snow",
+      "Crescendo of Madness",
+      "Crown of Cleansing"
     ]
   },
   {
@@ -8726,9 +8741,9 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
-    "droprate": 0.005,
+    "droprate": 0.0055,
     "required_by": [
       "Ring of Revival",
       "Robe of Archlich",
@@ -8740,7 +8755,10 @@
       "Thanatos, the Robe of Hell",
       "Armageddon",
       "Wings of Immortal",
-      "Harmonia, the Sparkle of Life"
+      "Harmonia, the Sparkle of Life",
+      "Heartrender",
+      "Crown of Cleansing",
+      "Star of Apotheosis"
     ],
     "stats": {
       "mainstat": 390,
@@ -8769,7 +8787,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Eye of the Flame Lord",
       "Protection of the Fairies",
@@ -8785,7 +8803,10 @@
       "Prophetia, the Origin of Knowledge",
       "Ring of Frozen Soul",
       "Mark of Sin",
-      "Voidshard Armor"
+      "Voidshard Armor",
+      "Caedis, the Sword of Slaughter",
+      "Endless Snow",
+      "Heirloom of Lazarus"
     ]
   },
   {
@@ -8800,7 +8821,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Staff of Plague",
@@ -8823,7 +8844,10 @@
       "Horn of Demon God",
       "Vest of Divine Winds",
       "Astra, the Sword of Moonlight",
-      "Ring of the One"
+      "Ring of the One",
+      "Spear of Judgment",
+      "Fulminata, the Bringer of Storms",
+      "Bloodstorm"
     ]
   },
   {
@@ -8852,9 +8876,9 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
-    "droprate": 0.005,
+    "droprate": 0.0055,
     "required_by": [
       "Ring of Fate",
       "Eternal Flame",
@@ -8864,7 +8888,9 @@
       "Heaven's Door",
       "Wings of Immortal",
       "Prophetia, the Origin of Knowledge",
-      "Ring of Frozen Soul"
+      "Ring of Frozen Soul",
+      "Endless Snow",
+      "Heirloom of Lazarus"
     ],
     "stats": {
       "allstat": 360,
@@ -8888,7 +8914,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Robe of Archlich",
       "Brave Heart",
@@ -8907,7 +8933,12 @@
       "Prophetia, the Origin of Knowledge",
       "Horn of Demon God",
       "Vest of Divine Winds",
-      "Voidshard Armor"
+      "Voidshard Armor",
+      "Caedis, the Sword of Slaughter",
+      "Agnitus, the Bow of Divine Fury",
+      "Endless Snow",
+      "Crescendo of Madness",
+      "Cape of Insatiable Hunger"
     ]
   },
   {
@@ -8922,7 +8953,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Ring of Fate",
       "Bag of Universe",
@@ -8943,7 +8974,14 @@
       "Demonic Fist",
       "Astra, the Sword of Moonlight",
       "Ring of Frozen Soul",
-      "Ring of the One"
+      "Ring of the One",
+      "Spear of Judgment",
+      "Fulminata, the Bringer of Storms",
+      "Cage of Twisted Souls",
+      "Plates of Sanguine Fury",
+      "Star of Apotheosis",
+      "Bloodstorm",
+      "Guardian Angel"
     ]
   },
   {
@@ -8972,16 +9010,21 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Wings",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
-    "droprate": 0.005,
+    "droprate": 0.0055,
     "required_by": [
       "Bag of Despair",
       "Nevedium, the Armor of Demonblood",
       "Bloodseeker Plates",
       "Wings of Immortal",
       "Soul Devourer",
-      "Demonic Fist"
+      "Demonic Fist",
+      "Fulminata, the Bringer of Storms",
+      "Endless Snow",
+      "Cage of Twisted Souls",
+      "Crown of Cleansing",
+      "Cape of Insatiable Hunger"
     ],
     "stats": {
       "mainstat": 405,
@@ -9009,7 +9052,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Ring of Hope",
       "Ring of Despair",
@@ -9028,7 +9071,13 @@
       "Soul Devourer",
       "Ring of Divine Winds",
       "Vest of Divine Winds",
-      "Astra, the Sword of Moonlight"
+      "Astra, the Sword of Moonlight",
+      "Heartrender",
+      "Caedis, the Sword of Slaughter",
+      "Fulminata, the Bringer of Storms",
+      "Crescendo of Madness",
+      "Star of Apotheosis",
+      "Bloodstorm"
     ]
   },
   {
@@ -9043,7 +9092,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Hood of Apocalypse",
       "Power of Beriel",
@@ -9057,7 +9106,9 @@
       "Demonic Fist",
       "Vest of Divine Winds",
       "Seed of Malice",
-      "Voidshard Armor"
+      "Voidshard Armor",
+      "Agnitus, the Bow of Divine Fury",
+      "Cape of Insatiable Hunger"
     ]
   },
   {
@@ -9072,7 +9123,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Radiance of the One",
       "Crown of Absolute Zero",
@@ -9085,7 +9136,11 @@
       "Prophetia, the Origin of Knowledge",
       "Horn of Demon God",
       "Ring of Frozen Soul",
-      "Voidshard Armor"
+      "Voidshard Armor",
+      "Spear of Judgment",
+      "Plates of Sanguine Fury",
+      "Heirloom of Lazarus",
+      "Guardian Angel"
     ]
   },
   {
@@ -9095,6 +9150,115 @@
     "koreanname": "지하 군주의 토큰",
     "dropped_by": [
       "Underlord Agareth"
+    ],
+    "rank": "none",
+    "grade": 0,
+    "type": "Token",
+    "color": "DAA520",
+    "droprate": 0.0001
+  },
+  {
+    "id": "I014",
+    "emote_id": "xxx",
+    "name": "Crimson Rose",
+    "koreanname": "핏빛 장미",
+    "description": "Many sacrifices have been made for this beautiful rose to be born.",
+    "dropped_by": [
+      "Duke Lazarus"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "droprate": 0.005,
+    "required_by": [
+      "Heartrender",
+      "Plates of Sanguine Fury",
+      "Crown of Cleansing"
+    ],
+    "stats": {
+      "mainstat": 420,
+      "skilldamagepercent": 0.08,
+      "periodicdamagepercent": 0.15,
+      "passive": [
+        "On use, activates Death and Decay"
+      ]
+    }
+  },
+  {
+    "id": "I0R2",
+    "emote_id": "xxx",
+    "name": "Blood Essence",
+    "koreanname": "피의 결정",
+    "dropped_by": [
+      "Duke Lazarus"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.0075,
+    "required_by": [
+      "Caedis, the Sword of Slaughter",
+      "Endless Snow",
+      "Cage of Twisted Souls",
+      "Bloodstorm",
+      "Guardian Angel"
+    ]
+  },
+  {
+    "id": "I0R4",
+    "emote_id": "xxx",
+    "name": "Emblem of Sacrifice",
+    "koreanname": "희생의 문장",
+    "dropped_by": [
+      "Duke Lazarus"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.0075,
+    "required_by": [
+      "Spear of Judgment",
+      "Agnitus, the Bow of Divine Fury",
+      "Fulminata, the Bringer of Storms",
+      "Crescendo of Madness",
+      "Star of Apotheosis",
+      "Heirloom of Lazarus",
+      "Cape of Insatiable Hunger"
+    ]
+  },
+  {
+    "id": "I0R3",
+    "emote_id": "xxx",
+    "name": "Soul Blossom",
+    "koreanname": "영혼의 꽃",
+    "dropped_by": [
+      "Duke Lazarus"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.005,
+    "required_by": [
+      "Heartrender",
+      "Cage of Twisted Souls",
+      "Plates of Sanguine Fury",
+      "Crown of Cleansing",
+      "Star of Apotheosis",
+      "Guardian Angel"
+    ]
+  },
+  {
+    "id": "I0R6",
+    "emote_id": "xxx",
+    "name": "Duke Token",
+    "koreanname": "공작의 토큰",
+    "dropped_by": [
+      "Duke Lazarus"
     ],
     "rank": "none",
     "grade": 0,
@@ -9278,7 +9442,7 @@
     ],
     "stats": {
       "armor": 15,
-      "allstats": 15,
+      "allstat": 15,
       "hpregen": 5,
       "mpregen": 5
     }
@@ -9714,7 +9878,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 60,
     "required_by": [
       "Sanguiel, the Bloodspear of Requiem"
@@ -9746,7 +9910,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 60,
     "required_by": [
       "Tepethia, the Crimson Sword of Requiem"
@@ -9778,7 +9942,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 60,
     "required_by": [
       "Flame Soul",
@@ -9813,7 +9977,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Flame Soul"
@@ -9848,7 +10012,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Asmodeus, the Archdevil's Greatsword"
@@ -9886,7 +10050,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Asmodeus, the Archdevil's Greatsword"
@@ -9923,7 +10087,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Blazing Soul"
@@ -9964,7 +10128,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Bahanar, the True Sword of Illusion"
@@ -10009,7 +10173,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Maw of Greed"
@@ -10049,7 +10213,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Crimson Reaper"
@@ -10089,7 +10253,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Crimson Pumpkin Rod"
@@ -10124,7 +10288,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Belius, the Archdevil's Staff"
@@ -10163,7 +10327,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Staff of Madness"
@@ -10200,7 +10364,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Benziena, the Earthen Soul",
@@ -10248,7 +10412,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Flame Explosion"
@@ -10281,7 +10445,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Yggrect, the Archdevil's Bow"
@@ -10317,7 +10481,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 60,
     "required_by": [
       "Dragon Blaster"
@@ -10349,7 +10513,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 60,
     "required_by": [
       "Red Cross"
@@ -10383,7 +10547,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Dragon Blaster"
@@ -10416,7 +10580,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Red Cross",
@@ -10458,7 +10622,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Alchatratz, the Archdevil's Cannon"
@@ -10496,7 +10660,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Crimson Cross"
@@ -10537,7 +10701,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Bag)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 60,
     "required_by": [
       "Bag of Mighty Strength +1"
@@ -10572,7 +10736,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Bag)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 60,
     "required_by": [
       "Candy-filled Bag +1"
@@ -10607,7 +10771,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Bag)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Bag of Hell"
@@ -10645,7 +10809,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Weapon (Bag)",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Bag of Heaven"
@@ -10683,7 +10847,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Armor",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "True Bloodstone Plates"
@@ -10727,7 +10891,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Armor",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "True Bloodstone Plates",
@@ -10762,7 +10926,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 60,
     "required_by": [
       "Death Visage"
@@ -10791,7 +10955,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 60,
     "required_by": [
       "Hood of Reaper"
@@ -10819,7 +10983,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Helm of Battle",
@@ -10853,7 +11017,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Grim Visage"
@@ -10892,7 +11056,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Hood of Grim Reaper"
@@ -10928,7 +11092,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 60,
     "required_by": [
       "Ring of the Reaper",
@@ -10964,7 +11128,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 60,
     "required_by": [
       "Jack Icon"
@@ -11001,7 +11165,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Ring of Holy Light",
@@ -11040,7 +11204,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Mana Heart Large"
@@ -11068,7 +11232,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "True Bloodstone Plates",
@@ -11097,7 +11261,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Azathos, the Pipe of Chaos"
@@ -11134,7 +11298,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Ring of Holy Light",
@@ -11169,7 +11333,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Demonis, the Devil Lord's Ring",
@@ -11202,7 +11366,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Bell of Light"
@@ -11251,7 +11415,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Wings",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Wings of Fury"
@@ -11288,7 +11452,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Wings",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 70,
     "required_by": [
       "Fairy Wings"
@@ -11321,7 +11485,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Wings",
-    "color": "52E252",
+    "color": "C39BE1",
     "level": 80,
     "required_by": [
       "Pure Crystal Wings",
@@ -11354,7 +11518,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Tiberius, the Spear of Lightning"
@@ -11397,7 +11561,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Oblivion"
@@ -11445,7 +11609,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Splitting of the Sky and Earth"
@@ -11469,11 +11633,11 @@
     ],
     "stats": {
       "damage": 6600,
-      "str": 565,
+      "str": 535,
       "skilldamagepercent": 0.08,
       "passive": [
         "Activates Song of Glory on skill cast",
-        "Increases STR by 12 and skill damage by 2.5% per stack for 5 seconds up to a max of 3 stacks"
+        "Increases STR by 25 and skill damage by 2.5% per stack for 5 seconds up to a max of 3 stacks"
       ]
     }
   },
@@ -11485,7 +11649,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Ruinbringer"
@@ -11529,7 +11693,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Meacronacer, the Sword of Thousand Illusions"
@@ -11574,7 +11738,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Espishu, the Sword of Eternity"
@@ -11620,7 +11784,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Blazing Heart"
@@ -11663,7 +11827,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Laktrisha, the Illusional Sword of Poison"
@@ -11707,7 +11871,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Crimson Reaper"
@@ -11741,7 +11905,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Ethenos, the Staff of Space"
@@ -11786,7 +11950,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Triple Snow"
@@ -11815,8 +11979,7 @@
       "affinityiwpercent": 0.06,
       "passive": [
         "On skill cast, empowers next attack with ice",
-        "Next attack deals (INT X 3) magic damage and drenches enemy with wetness for 6 seconds",
-        "If target is drenched, then deals (INT X 7.5) magic damage"
+        "Next attack deals (INT X 3) magic damage and drenches enemy with wetness for 6 seconds"
       ],
       "active": [
         "On use, activates Frozen Storm",
@@ -11839,7 +12002,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Staff of Domination",
@@ -11879,7 +12042,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Bloody Hatred"
@@ -11925,7 +12088,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Benziena, the Earthen Heart"
@@ -11973,7 +12136,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction"
@@ -12017,7 +12180,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Everfrostbane"
@@ -12054,7 +12217,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Hellflame"
@@ -12093,7 +12256,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Hydro Buster"
@@ -12132,7 +12295,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Devil Chaser"
@@ -12175,7 +12338,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Crimson Star"
@@ -12226,7 +12389,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Bullet of Ruin"
@@ -12267,7 +12430,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Chronos, the Cannon of Time"
@@ -12311,7 +12474,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Dante's Inferno"
@@ -12352,7 +12515,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Bag)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Bag of Corruption"
@@ -12391,7 +12554,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Bag)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Bag of Life"
@@ -12430,7 +12593,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Bag)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Bag of Destruction",
@@ -12473,7 +12636,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Bag)",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Bag of Mother Nature"
@@ -12515,7 +12678,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Armor",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Requiem, the Armor of Lamentation"
@@ -12552,7 +12715,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Armor",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Creation of the Sky and Earth",
@@ -12585,7 +12748,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Armor",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Hellspike Armor"
@@ -12624,7 +12787,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Armor",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Benedict, the Crimson Armor of Blood"
@@ -12674,7 +12837,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Armor",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Vest of Cyclone",
@@ -12711,7 +12874,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Armor",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Vest of Storm"
@@ -12750,7 +12913,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Armor",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Winter Robe"
@@ -12796,7 +12959,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Armor",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Diana, the Robe of Holy Maiden",
@@ -12835,7 +12998,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Armor",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Robe of the Necromancer"
@@ -12872,7 +13035,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Armor",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Bloodsoul Plates",
@@ -12920,7 +13083,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Horn of Devil",
@@ -12964,7 +13127,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Halo of Judgment"
@@ -13004,7 +13167,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Halo of Judgment",
@@ -13048,7 +13211,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Eye of Wallachia",
@@ -13094,7 +13257,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Eye of the Flame Lord"
@@ -13134,7 +13297,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Prophetia, the Greater Source of Mana"
@@ -13174,7 +13337,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Hood of Apocrypha"
@@ -13220,7 +13383,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Horn of Lightning God"
@@ -13263,7 +13426,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Ispion, the Runed Ring"
@@ -13302,7 +13465,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Latea, the Ring of Chaos"
@@ -13335,7 +13498,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Frostshard Armor",
@@ -13364,7 +13527,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Frozen Robe",
@@ -13396,7 +13559,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Ring of Time"
@@ -13433,7 +13596,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Grimoire of Darkness"
@@ -13476,7 +13639,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Cold Ring of Death"
@@ -13515,7 +13678,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Latea, the Ring of Overlord"
@@ -13548,7 +13711,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Crimson Star",
@@ -13593,7 +13756,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Heaven's Fist"
@@ -13624,7 +13787,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Heaven's Fist",
@@ -13667,7 +13830,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Soul Eater"
@@ -13709,7 +13872,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Azathos, the Pipe of Chaos"
@@ -13749,7 +13912,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Horn of God"
@@ -13788,7 +13951,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Wings",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Hellspike Armor",
@@ -13832,7 +13995,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Wings",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Wings of Slayer"
@@ -13871,7 +14034,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Wings",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Wings of Blood Lord"
@@ -13914,7 +14077,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Wings",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Wings of Phoenix"
@@ -13961,7 +14124,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Wings",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Frost Fairy Wings"
@@ -13995,7 +14158,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Wings",
-    "color": "52E252",
+    "color": "9BE1E1",
     "level": 100,
     "required_by": [
       "Winter Robe",
@@ -14035,7 +14198,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Shared)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Ethereal Dagger"
@@ -14085,7 +14248,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Maw of Beriel"
@@ -14137,7 +14300,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Desolation"
@@ -14185,7 +14348,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Eternal Winter"
@@ -14240,7 +14403,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "recipe": [
       {
@@ -14281,7 +14444,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Espishu, the Sword of Chaos"
@@ -14325,7 +14488,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Calamity"
@@ -14381,7 +14544,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Astra, the Sword of Moonlight"
@@ -14437,7 +14600,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Splitting of the Sky and Earth"
@@ -14487,7 +14650,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Atricia, the Sword of Dreams"
@@ -14534,7 +14697,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Maw of Beriel"
@@ -14579,7 +14742,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Atricia, the Sword of Dreams"
@@ -14634,10 +14797,11 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
-      "Cosmic Reaper"
+      "Cosmic Reaper",
+      "Caedis, the Sword of Slaughter"
     ],
     "recipe": [
       {
@@ -14686,7 +14850,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Ethereal Dagger"
@@ -14732,8 +14896,11 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
+    "required_by": [
+      "Endless Snow"
+    ],
     "recipe": [
       {
         "Twin Snow": 1
@@ -14780,7 +14947,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Harmonia, the Sparkle of Life"
@@ -14834,7 +15001,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Soul of Abyss"
@@ -14879,7 +15046,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Crimson Hatred",
@@ -14928,7 +15095,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Armageddon"
@@ -14976,7 +15143,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Ethenos, the Staff of Chaos"
@@ -15020,7 +15187,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Pheles, the Bow of God"
@@ -15058,7 +15225,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Eternal Flame"
@@ -15103,7 +15270,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Pheles, the Bow of God"
@@ -15152,7 +15319,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Soulbane"
@@ -15201,7 +15368,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Soulbane"
@@ -15249,7 +15416,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Eternal Flame"
@@ -15294,7 +15461,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Fiend Chaser"
@@ -15341,7 +15508,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Chrono Chaser"
@@ -15389,7 +15556,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Cosmic Star"
@@ -15445,7 +15612,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Rainmaker"
@@ -15499,7 +15666,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Punisher"
@@ -15542,7 +15709,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Last Word"
@@ -15588,7 +15755,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Last Word",
@@ -15634,7 +15801,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Bag)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Bag of Demise"
@@ -15677,7 +15844,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Bag)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Bag of Universe"
@@ -15720,7 +15887,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Bag)",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Bag of Despair"
@@ -15767,7 +15934,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Voidshard Armor"
@@ -15812,7 +15979,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Felspike Armor"
@@ -15862,7 +16029,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Harmony of Sky and Earth"
@@ -15908,7 +16075,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Hades, the Armor of Despair"
@@ -15955,8 +16122,11 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
+    "required_by": [
+      "Plates of Sanguine Fury"
+    ],
     "recipe": [
       {
         "Earthen Plates": 1
@@ -16002,7 +16172,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Grandine, the Plates of Wraith"
@@ -16044,7 +16214,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Vest of Divine Winds"
@@ -16084,7 +16254,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Nevedium, the Armor of Demonblood"
@@ -16135,7 +16305,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Athanasia, the Armor of the Reaper"
@@ -16187,7 +16357,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "recipe": [
       {
@@ -16231,7 +16401,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Jupiter, the Robe of Heavens"
@@ -16282,7 +16452,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Thanatos, the Robe of Hell"
@@ -16332,7 +16502,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Robe of Archlich"
@@ -16378,7 +16548,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "recipe": [
       {
@@ -16421,7 +16591,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Bloodseeker Plates"
@@ -16468,7 +16638,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Spirit of Protector"
@@ -16513,7 +16683,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Radiance of the One"
@@ -16559,7 +16729,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Eye of the Reaper"
@@ -16599,7 +16769,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Mask of Demigod"
@@ -16645,7 +16815,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Prophetia, the Origin of Knowledge"
@@ -16683,7 +16853,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Hood of Apocalypse"
@@ -16730,7 +16900,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Crown of Great Rage"
@@ -16780,7 +16950,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Crown of Absolute Zero"
@@ -16823,8 +16993,11 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
+    "required_by": [
+      "Crown of Cleansing"
+    ],
     "recipe": [
       {
         "Storm Headdress": 1
@@ -16864,7 +17037,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Nebula Rose"
@@ -16908,10 +17081,11 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
-      "Harmonia, the Sparkle of Life"
+      "Harmonia, the Sparkle of Life",
+      "Heirloom of Lazarus"
     ],
     "recipe": [
       {
@@ -16961,7 +17135,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Ring of Insanity"
@@ -17007,7 +17181,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Hood of Apocalypse",
@@ -17063,7 +17237,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Athanasia, the Armor of the Reaper",
@@ -17117,7 +17291,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Ring of Hope"
@@ -17141,6 +17315,7 @@
     ],
     "stats": {
       "allstat": 285,
+      "affinitylightpercent": 0.075,
       "passive": [
         "Increases nearby allies' armor by 25 and HP by 1500",
         "On skill cast, gathers Holy Light (up to 5 times)"
@@ -17155,9 +17330,9 @@
         "Paladin - Holy Aura: Effect radius increased by 50%",
         "Paladin - Holy Grace: Effect radius increased by 50%",
         "Paladin - Divine Shield: Nearby allies are also affected by received damage reduction",
-        "Priest - Divine Orb: Duration increased by 25%",
+        "Priest - Divine Orb: Duration increased by 15%",
         "Priest - Holy Aurora: Effect radius increased by 20%",
-        "Priest - Heaven Field: Duration increased by 20%",
+        "Priest - Heaven Field: Duration increased by 10%",
         "Wind Mage - Mirror of Aeolus gains 15% bonus damage reduction and 30% bonus radius."
       ]
     }
@@ -17170,7 +17345,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Ring of Fate",
@@ -17222,7 +17397,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Ring of Hope"
@@ -17269,7 +17444,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Ring of Despair"
@@ -17317,7 +17492,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Ring of Despair",
@@ -17368,10 +17543,11 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Wings",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
-      "Wings of Night Lord"
+      "Wings of Night Lord",
+      "Cape of Insatiable Hunger"
     ],
     "recipe": [
       {
@@ -17413,7 +17589,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Wings",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Archangel Wings"
@@ -17453,7 +17629,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Wings",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Wings of Frost Lord"
@@ -17495,7 +17671,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Wings",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Cape of Deep Abyss"
@@ -17542,7 +17718,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Wings",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Wings of Flame Lord"
@@ -17596,7 +17772,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Wings",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Wings of Night Lord"
@@ -17642,7 +17818,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Wings",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Protection of the Fairies",
@@ -17693,7 +17869,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Wings",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Brave Heart",
@@ -17740,7 +17916,7 @@
     "rank": "[Epic]",
     "grade": 3,
     "type": "Wings",
-    "color": "52E252",
+    "color": "DC143C",
     "level": 100,
     "required_by": [
       "Soul Devourer"
@@ -17792,7 +17968,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Shared)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -17820,9 +17996,10 @@
     "stats": {
       "damage": 6300,
       "allstat": 615,
-      "mdpercent": 0.15,
+      "mdpercent": 0.12,
+      "affinitylightpercent": 0.1,
       "passive": [
-        "Every 4 seconds, empowers next attack with Heaven's Light",
+        "On healing ally, activates Heaven's Light",
         "Deals (INT X 7.5) magic damage in an AoE",
         "Heals (INT X 1.5) HP in an AoE"
       ],
@@ -17831,10 +18008,6 @@
         "Refreshes a random non-ultimate spell of 2 closest nearby allies",
         "Allies cannot be affected by this more than once every 60 seconds",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
-      ],
-      "spec": [
-        "Specialty - Heaven's Spirit",
-        "Shooter - Probe: Summons 1 additional probe, and increases attack damage and healing received by allies affected by probes by 12% (excludes self)"
       ]
     }
   },
@@ -17846,7 +18019,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Shared)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "required_by": [
       "Chaos Dagger"
@@ -17892,7 +18065,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Shared)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -17939,7 +18112,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -17998,8 +18171,11 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Spear of Judgment"
+    ],
     "recipe": [
       {
         "Aglaia, the Spear of Heavenly Flows": 1
@@ -18051,7 +18227,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "required_by": [
       "Chaos"
@@ -18100,7 +18276,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18143,7 +18319,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18191,7 +18367,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18236,7 +18412,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18293,7 +18469,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18330,7 +18506,7 @@
       "active": [
         "On use, activates Sword of Calamity",
         "Sets stacks to max for 15 seconds",
-        "Deals (MAIN STAT X 75) magic damage in selected area",
+        "Deals (MAIN STAT X 60) magic damage in selected area",
         "Deals up to 100% more damage based on target's missing HP",
         "Reduces movement speed and attack damage by 50%, and silences for 2 seconds",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
@@ -18349,7 +18525,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18403,7 +18579,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "required_by": [
       "Power of Beriel"
@@ -18442,7 +18618,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Melee)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18485,8 +18661,11 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Agnitus, the Bow of Divine Fury"
+    ],
     "recipe": [
       {
         "Pheles, the Bow of Skies": 1
@@ -18529,7 +18708,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18585,7 +18764,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Bow)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18632,7 +18811,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18685,7 +18864,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18734,7 +18913,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18787,7 +18966,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Gun)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18837,7 +19016,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18885,7 +19064,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18935,7 +19114,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -18987,7 +19166,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19039,7 +19218,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19085,7 +19264,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Staff)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19142,7 +19321,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Bag)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19194,7 +19373,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Bag)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19247,7 +19426,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Bag)",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19294,7 +19473,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Armor",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19343,7 +19522,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Armor",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19391,7 +19570,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Armor",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19444,7 +19623,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Armor",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19496,7 +19675,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Armor",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19546,7 +19725,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Armor",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19591,8 +19770,11 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Armor",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Cage of Twisted Souls"
+    ],
     "recipe": [
       {
         "Requiem, the Armor of Lamentation": 1
@@ -19640,7 +19822,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Armor",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19686,7 +19868,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Armor",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19741,7 +19923,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Armor",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19789,7 +19971,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Armor",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19841,7 +20023,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "required_by": [
       "Horn of Demon God"
@@ -19883,7 +20065,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19928,7 +20110,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -19971,7 +20153,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20016,7 +20198,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20061,7 +20243,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "required_by": [
       "Crown of Extreme Anger"
@@ -20099,7 +20281,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20137,7 +20319,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20180,7 +20362,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20227,7 +20409,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20272,7 +20454,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20312,7 +20494,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Headwear",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20362,7 +20544,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "required_by": [
       "Demonic Fist"
@@ -20411,7 +20593,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20456,7 +20638,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20497,7 +20679,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20540,7 +20722,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20584,7 +20766,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20624,7 +20806,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20670,7 +20852,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20720,7 +20902,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "required_by": [
       "Ring of the One"
@@ -20759,7 +20941,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20796,7 +20978,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20839,7 +21021,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20890,7 +21072,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "required_by": [
       "Seed of Malice"
@@ -20932,7 +21114,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -20977,7 +21159,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Accessory",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -21020,7 +21202,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Wings",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -21071,7 +21253,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Wings",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -21116,7 +21298,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Wings",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -21164,8 +21346,11 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Wings",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Bloodstorm"
+    ],
     "recipe": [
       {
         "Slayer Boots": 1
@@ -21207,7 +21392,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Wings",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -21264,7 +21449,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Wings",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -21314,7 +21499,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Wings",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -21359,7 +21544,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Wings",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -21404,7 +21589,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Wings",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -21452,7 +21637,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Wings",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -21497,7 +21682,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Wings",
-    "color": "52E252",
+    "color": "99FF99",
     "level": 100,
     "recipe": [
       {
@@ -21535,6 +21720,665 @@
         "Cleanses debuffs from user",
         "Heals (40% max HP)",
         "Cooldown: 28 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0Q4",
+    "name": "Heartrender",
+    "koreanname": "하트렌더",
+    "description": "Offer your heart!",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Shared)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "The Ender": 1
+      },
+      {
+        "Ring of Destruction": 1
+      },
+      {
+        "Heart of Volcano": 1
+      },
+      {
+        "Crimson Rose": 1
+      },
+      {
+        "Essence of Storm": 1
+      },
+      {
+        "Fragment of Soul": 1
+      },
+      {
+        "Soul Blossom": 1
+      }
+    ],
+    "stats": {
+      "damage": 10700,
+      "mainstat": 900,
+      "attackspeedpercent": 0.3,
+      "skilldamagepercent": 0.05,
+      "passive": [
+        "Deals 15% bonus damage to enemies above 15% HP"
+      ],
+      "active": [
+        "On use, activates Heartrender"
+      ]
+    }
+  },
+  {
+    "id": "I015",
+    "name": "Spear of Judgment",
+    "koreanname": "심판의 창",
+    "description": "It's time of your judgment!",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Melee)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Splitting of the Sky and Earth": 1
+      },
+      {
+        "Shackles of Heaven": 1
+      },
+      {
+        "Essence of Storm": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Mark of Lord": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      }
+    ],
+    "stats": {
+      "damage": 10800,
+      "str": 800,
+      "skilldamagepercent": 0.14,
+      "passive": [
+        "On skill cast, activates Judgment"
+      ],
+      "active": [
+        "On use, activates Final Verdictr"
+      ]
+    }
+  },
+  {
+    "id": "arsc",
+    "name": "Caedis, the Sword of Slaughter",
+    "koreanname": "학살의 검 카에디스",
+    "description": "Stained with blood that cannot be washed away",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Melee)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Crimson Reaper": 1
+      },
+      {
+        "Shackles of Heaven": 1
+      },
+      {
+        "Aegis of Storm": 1
+      },
+      {
+        "Aegis of Flame": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Fragment of Soul": 1
+      },
+      {
+        "Blood Essence": 1
+      }
+    ],
+    "stats": {
+      "damage": 14800,
+      "movespeed": 50,
+      "passive": [
+        "On attack, leaves mark"
+      ],
+      "active": [
+        "On use, activates Slaughter"
+      ]
+    }
+  },
+  {
+    "id": "fgrd",
+    "name": "Agnitus, the Bow of Divine Fury",
+    "koreanname": "사자의 활 아그니투스",
+    "description": "Kneel before the divine power.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Bow)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Pheles, the Bow of God": 1
+      },
+      {
+        "The Ender": 1
+      },
+      {
+        "Steel of God": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Fragment of Chaos": 1
+      },
+      {
+        "Fragment of Hell": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      }
+    ],
+    "stats": {
+      "damage": 9800,
+      "agi": 760,
+      "attackspeedpercent": 0.4,
+      "passive": [
+        "On attack, activates Divine Poem"
+      ]
+    }
+  },
+  {
+    "id": "rwat",
+    "name": "Fulminata, the Bringer of Storms",
+    "koreanname": "천둥의 인도자 풀미나타",
+    "description": "Staff that calls down lightning as fierce as god's rage",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Staff)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "The Ender": 1
+      },
+      {
+        "Curse of Greed": 1
+      },
+      {
+        "Essence of Storm": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Fragment of Soul": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      }
+    ],
+    "stats": {
+      "damage": 10300,
+      "int": 840,
+      "critchancepercent": 0.05,
+      "critmultiplier": 0.40,
+      "passive": [
+        "On attack, activates Mark of Storm"
+      ]
+    }
+  },
+  {
+    "id": "I005",
+    "name": "Endless Snow",
+    "koreanname": "엔드리스 스노우",
+    "description": "In this endless snow, even the time freezes..",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Staff)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Triple Snow": 1
+      },
+      {
+        "Grail of Eternity": 1
+      },
+      {
+        "Curse of Greed": 1
+      },
+      {
+        "Aegis of Flame": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "damage": 9400,
+      "int": 800,
+      "hp": 2000,
+      "affinitywlpercent": 0.12,
+      "passive": [
+        "On skill cast, empowers next attack with Frozen Storm"
+      ],
+      "active": [
+        "On use, activates Dawn of Ice"
+      ]
+    }
+  },
+  {
+    "id": "I00F",
+    "name": "Cage of Twisted Souls",
+    "koreanname": "뒤틀린 영혼의 갑주",
+    "description": "Death makes me happy.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Hades, the Armor of Despair": 1
+      },
+      {
+        "Eyes of the Watcher": 1
+      },
+      {
+        "Curse of Greed": 1
+      },
+      {
+        "Essence of Storm": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Soul Blossom": 1
+      }
+    ],
+    "stats": {
+      "armor": 280,
+      "allstat": 300,
+      "attackspeedpercent": -0.75,
+      "passive": [
+        "Increases nearby allies' stats by 7%, enemies' damage taken by 4%"
+      ]
+    }
+  },
+  {
+    "id": "I00G",
+    "name": "Plates of Sanguine Fury",
+    "koreanname": "핏빛 분노의 갑주",
+    "description": "This rage can only be cooled down by your blood.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Plates of Lightning": 1
+      },
+      {
+        "Armor of Grudge": 1
+      },
+      {
+        "Crimson Rose": 1
+      },
+      {
+        "Aegis of Storm": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Mark of Lord": 1
+      },
+      {
+        "Soul Blossom": 1
+      }
+    ],
+    "stats": {
+      "armor": 280,
+      "str": 385,
+      "agi": 385,
+      "skilldamagepercent": 0.12,
+      "mdpercent": 0.12,
+      "passive": [
+        "On skill cast, activates Blood Nova"
+      ],
+      "active": [
+        "On use, activates Sanguine Fury"
+      ]
+    }
+  },
+  {
+    "id": "I00H",
+    "name": "Crescendo of Madness",
+    "koreanname": "핏빛 분노의 갑주",
+    "description": "Who... am I?",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Eyes of the Watcher": 1
+      },
+      {
+        "Fragment of Chaos": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Fragment of Soul": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      },
+      {
+        "Shining Fragment of Ruins": 2
+      }
+    ],
+    "stats": {
+      "armor": 140,
+      "allstat": 290,
+      "skilldamagepercent": 0.15,
+      "affinitydarkpercent": 0.05,
+      "active": [
+        "On use, summons Shade of Madness"
+      ]
+    }
+  },
+  {
+    "id": "I028",
+    "name": "Crown of Cleansing",
+    "koreanname": "정화의 화관",
+    "description": "The more you empty your mind, the fuller it becomes.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Crown of Serenity": 1
+      },
+      {
+        "Heart of Volcano": 1
+      },
+      {
+        "Curse of Greed": 1
+      },
+      {
+        "Crimson Rose": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Shining Fragment of Ruins":  2
+      }
+    ],
+    "stats": {
+      "armor": 135,
+      "allstat": 290,
+      "critchancepercent": 0.1,
+      "affinitywlpercent": 0.09,
+      "affinityiwpercent": 0.06,
+      "affinitylightpercent": 0.06,
+      "passive": [
+        "Chance to activate Serenity upon healing ally"
+      ],
+      "active": [
+        "On use, activates Cleansing"
+      ]
+    }
+  },
+  {
+    "id": "I00J",
+    "name": "Star of Apotheosis",
+    "koreanname": "숭배의 별",
+    "description": "Soar high, above the madness of the world.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Heart of Volcano": 1
+      },
+      {
+        "Essence of Light": 1
+      },
+      {
+        "Essence of Storm": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Fragment of Soul": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      },
+      {
+        "Soul Blossom": 1
+      }
+    ],
+    "stats": {
+      "allstat": 450,
+      "skilldamagepercent": 0.12,
+      "active": [
+        "On use, activates Apotheosis"
+      ]
+    }
+  },
+  {
+    "id": "mlst",
+    "name": "Heirloom of Lazarus",
+    "koreanname": "라자루스의 가보",
+    "description": "Our pact transcends death.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Ispion, the Runed Ring": 1
+      },
+      {
+        "Grail of Eternity": 1
+      },
+      {
+        "Aegis of Storm": 1
+      },
+      {
+        "Aegis of Flame": 1
+      },
+      {
+        "Mark of Lord": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      }
+    ],
+    "stats": {
+      "str": 550,
+      "agi": 200,
+      "int": 200,
+      "passive": [
+        "On equip, activates Crimson Pact"
+      ],
+      "active": [
+        "On use, summons Blood Rune"
+      ]
+    }
+  },
+  {
+    "id": "I00W",
+    "name": "Cape of Insatiable Hunger",
+    "koreanname": "끝없는 갈망의 망토",
+    "description": "This hunger can only be satisfied with more hunger.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Wings of Blood Lord": 1
+      },
+      {
+        "Shroud of Perseverance": 1
+      },
+      {
+        "Curse of Greed": 1
+      },
+      {
+        "Fragment of Chaos": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Fragment of Hell": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      }
+    ],
+    "stats": {
+      "allstat": 280,
+      "hp": 2000,
+      "skilldamagepercent": 0.05,
+      "movespeed": 75,
+      "passive": [
+        "Upon moving 400 distance, empowers next attack with Bloody Bite"
+      ],
+      "active": [
+        "On use, activates Endless Thirst"
+      ]
+    }
+  },
+  {
+    "id": "I00X",
+    "name": "Bloodstorm",
+    "koreanname": "블러드스톰",
+    "description": "Storm!",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Storm": 1
+      },
+      {
+        "Eyes of the Watcher": 1
+      },
+      {
+        "Essence of Darkness": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Fragment of Soul": 1
+      },
+      {
+        "Blood Essence": 1
+      }
+    ],
+    "stats": {
+      "damage": 1500,
+      "mainstat": 180,
+      "allstat": 150,
+      "critmultiplier": 0.30,
+      "passive": [
+        "On skill cast, increases skill damage and crit chance by 5% for 6 seconds"
+      ],
+      "active": [
+        "On use, activates Bloodstorm"
+      ]
+    }
+  },
+  {
+    "id": "I012",
+    "name": "Guardian Angel",
+    "koreanname": "수호천사",
+    "description": "Wings that guards over allies",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Wings of Purification": 1
+      },
+      {
+        "Essence of Light": 1
+      },
+      {
+        "Essence of Storm": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Mark of Lord": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Soul Blossom": 1
+      }
+    ],
+    "stats": {
+      "allstat": 300,
+      "mdpercent": 0.12,
+      "passive": [
+        "On equip, activates Guardian Aura"
+      ],
+      "active": [
+        "On use, activates Guardian Angel"
       ]
     }
   },
@@ -22340,7 +23184,7 @@
     "rank": "[Epic]",
     "grade": 1,
     "type": "Pickaxe",
-    "color": "52E252",
+    "color": "C39BE1",
     "required_by": [
       "Abyssal Pickaxe"
     ],
@@ -22365,7 +23209,7 @@
     "rank": "[Epic]",
     "grade": 2,
     "type": "Pickaxe",
-    "color": "52E252",
+    "color": "9BE1E1",
     "required_by": [
       "Chaos Pickaxe"
     ],
@@ -22391,7 +23235,7 @@
     "rank": "[Epic]",
     "grade": 4,
     "type": "Pickaxe",
-    "color": "52E252",
+    "color": "99FF99",
     "recipe": [
       {
         "Abyssal Pickaxe": 1

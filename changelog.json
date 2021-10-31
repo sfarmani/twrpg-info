@@ -1,5 +1,218 @@
 [
     {
+        "name": "54b",
+        "notes": [
+            "Released on: ",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Frostspider Lord - Fixed a bug where you could enter and exit the area during boss battles",
+            "Fixed description errors and typos",
+            [
+                "Warlock - Leap of Execution damage: INT X 20 → INT X 25"
+            ]
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New item grade 'Arcana' has been added",
+                    "New items added to go along with the item grade (only recipes at the moment)",
+                    "Weapon recipes:",
+                    [
+                        "Heartrender",
+                        "Spear of Judgment",
+                        "Caedis, the Sword of Slaughter",
+                        "Agnitus, the Bow of Divine Fury",
+                        "Endless Snow",
+                        "Fulminata, the Bringer of Storms"
+                    ],
+                    "Armor recipes:",
+                    [
+                        "Cage of Twisted Souls",
+                        "Plates of Sanguine Fury"
+                    ],
+                    "Headgear recipes:",
+                    [
+                        "Crescendo of Madness",
+                        "Crown of Cleansing"
+                    ],
+                    "Accessory recipes:",
+                    [
+                        "Star of Apotheosis",
+                        "Heirloom of Lazarus"
+                    ],
+                    "Wing recipes:",
+                    [
+                        "Cape of Insatiable Hunger",
+                        "Bloodstorm",
+                        "Guardian Angel"
+                    ],
+                    "Duke drop items:",
+                    [
+                        "Crimson Rose",
+                        "Blood Essence",
+                        "Soul Blossom",
+                        "Emblem of Sacrifice"
+                    ]
+                ]
+            },
+            {
+                "name": "Aglaia, the Spear of Heavenly Flows",
+                "changes": [
+                    "STR: 565 → 535",
+                    "STR per stack: 12 → 15"
+                ]
+            },
+            {
+                "name": "Calamity",
+                "changes": [
+                    "Active",
+                    [
+                        "Damage: main stat X 75 → main stat X 60"
+                    ]
+                ]
+            },
+            {
+                "name": "Twin Snow",
+                "changes": [
+                    "Passive",
+                    [
+                        "No longer deals bonus damage if target is slowed"
+                    ],
+                    "Active",
+                    [
+                        "Changed to deal consistent damage over time"
+                    ]
+                ]
+            },
+            {
+                "name": "Triple Snow",
+                "changes": [
+                    "Active",
+                    [
+                        "Changed to deal consistent damage over time"
+                    ]
+                ]
+            },
+            {
+                "name": "Felspike Armor",
+                "changes": [
+                    "Now shows percentage charged on item charges"
+                ]
+            },
+            {
+                "name": "Ispion, the Runed Ring / Harmonia, the Sparkle of Life",
+                "changes": [
+                    "Heal no longer ignores 'heal received' reductions"
+                ]
+            },
+            {
+                "name": "Heaven's Door",
+                "changes": [
+                    "Item reworked"
+                ]
+            },
+            {
+                "name": "Bell of Light",
+                "changes": [
+                    "Add 7.5% light affinity",
+                    "Priest spec",
+                    [
+                        "Heaven field duration increase: 20% → 10%",
+                        "Divine Orb duration increase: 25% → 15%",
+                        "Light affinity affects the duration of priest skills so duration from spec was reduced"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Frostspider Lord / Archangel Samael / Shadow Dragon Irbert",
+                "changes": [
+                    "Boss area is now illuminated when someone enters"
+                ]
+            },
+            {
+                "name": "Bone Dragon ~ Archangel Samael",
+                "changes": [
+                    "Material drop rate: reduced by 12.5%",
+                    "(Overall drop rate was too high when personal loot was introduced, this is to adjust the values)"
+                ]
+            },
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "The Ender drop rate: 0.25% → 0.35%",
+                    "Armor of Grudge drop rate: 0.75% → 0.80%",
+                    "Material drop rate: 0.75% → 0.80%"
+                ]
+            },
+            {
+                "name": "Valtora",
+                "changes": [
+                    "Shackles of Heaven drop rate: 0.50% → 0.55%",
+                    "Material drop rate: 0.75% → 0.80%"
+                ]
+            },
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "Heart of Volcano drop rate: 0.50% → 0.55%",
+                    "Material drop rate: 0.75% → 0.80%"
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Grail of Eternity drop rate: 0.50% → 0.55%",
+                    "Material drop rate: 0.75% → 0.80%"
+                ]
+            },
+            {
+                "name": "Agareth",
+                "changes": [
+                    "Curse of Greed drop rate: 0.50% → 0.55%",
+                    "Material drop rate: 0.75% → 0.80%"
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "New boss added",
+                    "To enter, there is a portal in Wallachia castle area",
+                    "Difficulty scaling for this boss is the same as other end game bosses"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Hero notes",
+                "changes": [
+                    "Added Light and Dark Affinity",
+                    [
+                        "Skills of several characters have been changed to be affected by light/dark affinity",
+                        "Affected numbers/elements are indicated in the skill description with a color corresponding to the element",
+                        "In addition to damage/recovery amount, it also affects skill duration and buff efficiency",
+                        "Depending on the character, the value of affinity may vary greatly"
+                    ]
+                ]
+            },
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Changed so that the soul starts at max when loaded"
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Changed magnetic field to start at 100 when loaded"
+                ]
+            }
+        ]
+    },
+    {
         "name": "53c",
         "notes": [
             "Released on: October 14th, 2021",
@@ -89,19 +302,19 @@
                 "name": "Ancient Ent",
                 "changes": [
                     "Seal-breaking gem no longer drops from Spirit Beast",
-                    "Mana Ancient seal-breaking gem droprate: 50% → 100%"
+                    "Mana Ancient seal-breaking gem drop rate: 50% → 100%"
                 ]
             },
             {
                 "name": "Shadow Dragon Irbert",
                 "changes": [
-                    "Frozen Debris droprate: 2% → 1.25%"
+                    "Frozen Debris drop rate: 2% → 1.25%"
                 ]
             },
             {
                 "name": "Death Fiend",
                 "changes": [
-                    "Frozen Debris droprate: 1.25% → 1.75%"
+                    "Frozen Debris drop rate: 1.25% → 1.75%"
                 ]
             }
         ],
@@ -318,12 +531,12 @@
                     ],
                     "Late game bosses (except Shadow Dragon Irbert)",
                     [
-                        "Difficulty scaling droprate increase per player past 5: 20% → 10%"
+                        "Difficulty scaling drop rate increase per player past 5: 20% → 10%"
                     ],
-                    "Re-adjusted droprate based on above changes",
+                    "Re-adjusted drop rate based on above changes",
                     [
                         "Early and mid-game bosses: significantly increased",
-                        "Prius Silver Coin droprate: 40%",
+                        "Prius Silver Coin drop rate: 40%",
                         "Icon drop rate: 0.25%",
                         "Coin of Effort drop rate: 0.05%"
                     ]
@@ -580,7 +793,7 @@
             {
                 "name": "Monster notes",
                 "changes": [
-                    "Increased droprate of all items by 20% ~ 50% for the following bosses",
+                    "Increased drop rate of all items by 20% ~ 50% for the following bosses",
                     [
                         "Bone Dragon",
                         "Ancient Ent",
@@ -600,7 +813,7 @@
             {
                 "name": "Bone Dragon",
                 "changes": [
-                    "Icon droprate: 0.15% → 0.25%"
+                    "Icon drop rate: 0.15% → 0.25%"
                 ]
             }
         ],
@@ -1709,7 +1922,7 @@
             [
                 "Most serious bugs are fixed by this point.",
                 "Before new content release some balance adjustments will be made and balance-related suggestions until then will be looked at more thoroughly.",
-                "Additionally, late and end-game boss droprate increase is under consideration."
+                "Additionally, late and end-game boss drop rate increase is under consideration."
             ]
             
         ]
@@ -1734,7 +1947,7 @@
             "Areas - Fixed some boss arenas being close enough to each other to let heroes attack bosses across them",
             "Bone dragon - Fixed some spells doing too much damage",
             "Skeleton king Desperia - Fixed Howl hp restoration being too high",
-            "Ancient ent - Fixed Elder ent item droprate being incorrect after boss is revived",
+            "Ancient ent - Fixed Elder ent item drop rate being incorrect after boss is revived",
             "Berserker - Fixed Brandish (Q) setting crit chance to 100% when used at low lvl",
             "Shooter - Fixed Stardust rain (T) passive activating before spell is learned",
             "Priest - Fixed Holy wave (Q) healing being too low",
@@ -1800,7 +2013,7 @@
             "Monsters - Fixed Furbolgs being able to drop Frozen crystal",
             "Spells - Fixed some spells being castable while hero is silenced",
             "Items - If an item can be stacked with itself then stacking will take priority when picking it up with bag",
-            "Tokens - Fixed Yellow/Blue/White crystal golem token droprates being 2% instead of intended 0.25%"
+            "Tokens - Fixed Yellow/Blue/White crystal golem token drop rates being 2% instead of intended 0.25%"
         ],
         "items": [
             {
@@ -1923,10 +2136,10 @@
             "Combat spoils system adjustments",
             [
                 "Chests now spawn always instead of 50% base chance",
-                "Bonus droprate now affects chance of obtaining items from chests",
-                "Droprate increase per player starting from 2 reduced from 25% to 12.5% (from 100% to 50% max)",
+                "Bonus drop rate now affects chance of obtaining items from chests",
+                "drop rate increase per player starting from 2 reduced from 25% to 12.5% (from 100% to 50% max)",
                 "Guardian angels now drop 1 chest once all 3 are killed",
-                "Early and mid-game boss droprates slightly re-adjusted to accommodate for above changes",
+                "Early and mid-game boss drop rates slightly re-adjusted to accommodate for above changes",
                 "Lvl requirement to use early game boss chests reduced from 60 to 0 (if there are no level 60 or above heroes present then chests cannot spawn or be used)"
             ],
             "Item Adjustments",
@@ -2180,7 +2393,7 @@
                         "Starting from 2 players max HP increased by 50%, Combat spoils chest spawn rate increased by 25%",
                         "Maxes out at 5 player max HP increased by 200%, combat spoils chest spawn rate increased by 100%"
                     ],
-                    "Item and material droprates increased by 50 ~ 100% to accomodate for combat spoils chest system"
+                    "Item and material drop rates increased by 50 ~ 100% to accomodate for combat spoils chest system"
                 ]
             },
             {
@@ -2489,7 +2702,7 @@
         "bugs": [
             "Event - Fixed Purple Lucky Aura not dropping",
             [
-                "As an apology its droprate will be increased by 50% until end of event"
+                "As an apology its drop rate will be increased by 50% until end of event"
             ],
             "Costumes - Fixed Weird costume not working",
             "Trickster - Fixed not being able to equip items when  weird costume is on",
@@ -3322,11 +3535,11 @@
                 ],
                 "Winter Gifts",
                 [
-                    "Droprate of first 8 Snow Crystals obtained after this patch: increased by 50% (players who already reached 8 or more will also benefit)",
-                    "Snow Crystal droprate increased by ~11%",
-                    "Other reward droprates increased by ~33%"
+                    "drop rate of first 8 Snow Crystals obtained after this patch: increased by 50% (players who already reached 8 or more will also benefit)",
+                    "Snow Crystal drop rate increased by ~11%",
+                    "Other reward drop rates increased by ~33%"
                 ],
-                "Boss units now have 12.5% chance to spawn with a buff that doubles their droprate"
+                "Boss units now have 12.5% chance to spawn with a buff that doubles their drop rate"
             ]
         ]
     },
@@ -4411,7 +4624,7 @@
             "Astra, the Sword of Moonlight - Fixed Crusader spec not working",
             "Harmony of Sky and Earth - Fixed active effect not working if Creation of Sky and Earth active is applied to targets",
             "Seed of Malice - Fixed Warlock / Priest spec not working",
-            "Coin of Effort - Fixed droprate-related bugs",
+            "Coin of Effort - Fixed drop rate-related bugs",
             "Demon Lord Beriel - Fixed silence spell going through silence immunity",
             "Thunderer - Fixed Thunder Shield (E) cooldown not being resettable",
             "EXP lock - Fixed related bugs"
@@ -4605,8 +4818,8 @@
             {
                 "name": "Underlord Agareth",
                 "changes": [
-                    "Material droprate: 0.6% → 0.75%",
-                    "Curse of Greed droprate: 0.4% → 0.5%"
+                    "Material drop rate: 0.6% → 0.75%",
+                    "Curse of Greed drop rate: 0.4% → 0.5%"
                 ]
             }
         ],
@@ -5604,22 +5817,22 @@
             {
                 "name": "Archangel Samael",
                 "changes": [
-                    "Guardian of the Skies droprate: 0.6% → 0.75%",
-                    "Material droprate: 1.2% → 1.5%"
+                    "Guardian of the Skies drop rate: 0.6% → 0.75%",
+                    "Material drop rate: 1.2% → 1.5%"
                 ]
             },
             {
                 "name": "Shadow Dragon Irbert",
                 "changes": [
                     "Damage of some spells reduced",
-                    "Material droprate: 1.2% / 0.9% → 1.5% / 1%",
+                    "Material drop rate: 1.2% / 0.9% → 1.5% / 1%",
                     "Can now be revived after failure"
                 ]
             },
             {
                 "name": "Death Fiend",
                 "changes": [
-                    "The Ender droprate: 0.2% → 0.25%"
+                    "The Ender drop rate: 0.2% → 0.25%"
                 ]
             },
             {
@@ -6232,21 +6445,21 @@
             {
                 "name": "Valtora",
                 "changes": [
-                    "Droprate increased to 25% (rollback)",
+                    "drop rate increased to 25% (rollback)",
                     "No longer summons Servants of Lightning God during the first phase"
                 ]
             },
             {
                 "name": "Irfrit / Nereid",
                 "changes": [
-                    "Droprate increased to 25% (rollback)"
+                    "drop rate increased to 25% (rollback)"
                 ]
             },
             {
                 "name": "Underlord Agareth",
                 "changes": [
-                    "Equipment droprates: 0.4% → 0.5%",
-                    "Material droprates: 0.6% → 0.75%"
+                    "Equipment drop rates: 0.4% → 0.5%",
+                    "Material drop rates: 0.6% → 0.75%"
                 ]
             }
         ]
@@ -6261,7 +6474,7 @@
             {
                 "name": "Valtora / Ifrit / Nereid",
                 "changes": [
-                    "Droprates reduced by 20%"
+                    "drop rates reduced by 20%"
                 ]
             },
             {
@@ -6269,8 +6482,8 @@
                 "changes": [
                     "Impale 2 strike / 3 strikes trigger delay 1 second → 1.25 seconds",
                     "Finger of Death chain radius 750 → 600",
-                    "Equipment droprates: 0.75% → 0.4%",
-                    "Material droprate: 1% → 0.6%"
+                    "Equipment drop rates: 0.75% → 0.4%",
+                    "Material drop rate: 1% → 0.6%"
                 ]
             }
         ]
@@ -6470,13 +6683,13 @@
                 "changes": [
                     "Difficulty system rebalanced for mid level bosses",
                     [
-                        "Before change: Starting from 5th player bosses gain 7.5% damage resistance and droprate per player (if damage resistance was HP increase it would've been 81.8% at max scaling)",
-                        "After change: Starting from 6th player bosses gain 20% HP and 20% droprate per player (100% bonus HP at max scaling)"
+                        "Before change: Starting from 5th player bosses gain 7.5% damage resistance and drop rate per player (if damage resistance was HP increase it would've been 81.8% at max scaling)",
+                        "After change: Starting from 6th player bosses gain 20% HP and 20% drop rate per player (100% bonus HP at max scaling)"
                     ],
                     "Difficulty system rebalanced for bosses Skeleton King and above",
                     [
-                        "Before change: Before change: Starting from 7th player bosses gain 7.5% damage resistance and droprate per player (if damage resistance was HP increase it would've been 42.9% at max scaling)",
-                        "After change:  Starting from 6th player bosses gain 20% HP and 20% droprate per player (100% bonus HP at max scaling)"
+                        "Before change: Before change: Starting from 7th player bosses gain 7.5% damage resistance and drop rate per player (if damage resistance was HP increase it would've been 42.9% at max scaling)",
+                        "After change:  Starting from 6th player bosses gain 20% HP and 20% drop rate per player (100% bonus HP at max scaling)"
                     ]
                 ]
             },
@@ -6489,13 +6702,13 @@
             {
                 "name": "Flame Nightmare",
                 "changes": [
-                    "Essence of Anger droprate: 2% → 3% (same as other materials)"
+                    "Essence of Anger drop rate: 2% → 3% (same as other materials)"
                 ]
             },
             {
                 "name": "Turtle Lord",
                 "changes": [
-                    "Mana Orb droprate: 2% → 3% (same as other materials)"
+                    "Mana Orb drop rate: 2% → 3% (same as other materials)"
                 ]
             },
             {
@@ -6563,10 +6776,10 @@
                 "name": "Underlord Agareth",
                 "changes": [
                     "HP: 52,860,000 → 42,500,000",
-                    "Droprate correction",
+                    "drop rate correction",
                     [
-                        "Curse of Greed droprate: 1% → 0.75%",
-                        "Material droprate: 1.5% → 1%"
+                        "Curse of Greed drop rate: 1% → 0.75%",
+                        "Material drop rate: 1.5% → 1%"
                     ],
                     "Soul Crystal",
                     [
@@ -7157,7 +7370,7 @@
             {
                 "name": "Corruptor Rectus / Flame Nightmare / Turtle Lord / Spirit Beast",
                 "changes": [
-                    "Prius Silver Coin droprate: (2 X number of players)% (0% ~ 20%) → 2% per person up to 5 players, 1% for 6 players and up (0% ~ 15%)"
+                    "Prius Silver Coin drop rate: (2 X number of players)% (0% ~ 20%) → 2% per person up to 5 players, 1% for 6 players and up (0% ~ 15%)"
                 ]
             },
             {
@@ -7380,14 +7593,14 @@
             {
                 "name": "Mad Clown",
                 "changes": [
-                    "Material droprate: 3% → 4%"
+                    "Material drop rate: 3% → 4%"
                 ]
             },
             {
                 "name": "Death Fiend",
                 "changes": [
-                    "Spearhead of Death / Fragment of Chaos droprate: 0.6% → 0.75%",
-                    "Frozen Debris droprate: 0.9% → 1.25%"
+                    "Spearhead of Death / Fragment of Chaos drop rate: 0.6% → 0.75%",
+                    "Frozen Debris drop rate: 0.9% → 1.25%"
                 ]
             }
         ],
@@ -7737,13 +7950,13 @@
                 "name": "Ifrit",
                 "changes": [
                     "Lava elementals now explode with 0.5 seconds delay after death",
-                    "Shining Fragment of Ruins droprate: 0.5% → 0.75%"
+                    "Shining Fragment of Ruins drop rate: 0.5% → 0.75%"
                 ]
             },
             {
                 "name": "Nereid",
                 "changes": [
-                    "Shining Fragment of Ruins droprate: 0.5% → 1%"
+                    "Shining Fragment of Ruins drop rate: 0.5% → 1%"
                 ]
             }
         ],
@@ -7844,7 +8057,7 @@
                 "name": "Chaos Elemental",
                 "changes": [
                     "Slightly moved summoning portal below elemental tower (to prevent spawning out of bounds)",
-                    "Chaos magic stone droprate: 7.5% → 10%"
+                    "Chaos magic stone drop rate: 7.5% → 10%"
                 ]
             }
         ],
@@ -7961,7 +8174,7 @@
             {
                 "name": "Elder Ent",
                 "changes": [
-                    "Ring of the Storm / Griseus, the Sword of Protection droprate: 0.5% → 0.75%"
+                    "Ring of the Storm / Griseus, the Sword of Protection drop rate: 0.5% → 0.75%"
                 ]
             }
         ],
@@ -8439,7 +8652,7 @@
             {
                 "name": "Mana Ancient",
                 "changes": [
-                    "Equipment droprates: 3% → 5%"
+                    "Equipment drop rates: 3% → 5%"
                 ]
             }
         ],
@@ -9222,8 +9435,8 @@
             {
                 "name": "Bone Dragon",
                 "changes": [
-                    "Item droprate: 0.75% → 1%",
-                    "Material droprate: 1% → 1.25%",
+                    "Item drop rate: 0.75% → 1%",
+                    "Material drop rate: 1% → 1.25%",
                     "Changed to be able to drop below 50% hp in rage mode"
                 ]
             },
@@ -9233,7 +9446,7 @@
                     "Drop limit removed",
                     "Materials",
                     [
-                        "Droprate: 1% → 1.5%",
+                        "drop rate: 1% → 1.5%",
                         "Changed to be split into two fragments (can fuse them together to obtain the material)"
                     ],
                     "Movement speed: 400 → 300",
@@ -9250,7 +9463,7 @@
                     "Drop limit removed",
                     "Materials",
                     [
-                        "Droprate: 1% → 1.5%",
+                        "drop rate: 1% → 1.5%",
                         "Changed to be split into two fragments (can fuse them together to obtain the material)"
                     ]
                 ]
@@ -9265,13 +9478,13 @@
             {
                 "name": "Elder Ent",
                 "changes": [
-                    "Fragment of the Wind / Purfied Water of Nature droprate: 0.25% → 0.5%"
+                    "Fragment of the Wind / Purfied Water of Nature drop rate: 0.25% → 0.5%"
                 ]
             },
             {
                 "name": "Giant Ent",
                 "changes": [
-                    "Spirit Orb droprate: 0.2% → 0.25%"
+                    "Spirit Orb drop rate: 0.2% → 0.25%"
                 ]
             },
             {
@@ -9280,7 +9493,7 @@
                     "Drop limit removed",
                     "Essence of Light / Steel of God / God's Page",
                     [
-                        "Droprate: 1% → 1.2%",
+                        "drop rate: 1% → 1.2%",
                         "Changed to be split into two fragments (can fuse them together to obtain the material)"
                     ]
                 ]
@@ -9289,8 +9502,8 @@
                 "name": "Shadow Dragon Irbert",
                 "changes": [
                     "Drop limit removed",
-                    "Essence of Darkness / Antimatter droprate: 0.9% → 1.2%",
-                    "Frozen Debris droprate: 0.75% → 0.9%",
+                    "Essence of Darkness / Antimatter drop rate: 0.9% → 1.2%",
+                    "Frozen Debris drop rate: 0.75% → 0.9%",
                     "Materials changed to be split into two fragments (can fuse them together to obtain the material)"
                 ]
             }
@@ -9332,7 +9545,7 @@
             {
                 "name": "Staff of Contagion / Crown of Fervor / Oath of Courage",
                 "changes": [
-                    "Droprate: 1.5% → 2%"
+                    "drop rate: 1.5% → 2%"
                 ]
             },
             {
@@ -9346,7 +9559,7 @@
             {
                 "name": "Spirit Beast / Corruptor Rectus / Flame Nightmare / Turtle Lord",
                 "changes": [
-                    "Difficulty setting: Applies from 7th player (up to 30% droprate / damage resistance increase) → Applies from 5th player (up to 45% droprate / damage resistance increase)"
+                    "Difficulty setting: Applies from 7th player (up to 30% drop rate / damage resistance increase) → Applies from 5th player (up to 45% drop rate / damage resistance increase)"
                 ]
             }
         ],
@@ -9492,7 +9705,7 @@
         "events": [
             "Winter Event",
             [
-                "Ticket droprate from Ancient Ent / Skeleton King / Archangel Samael / Zombie Lord / Shadow Dragon Irbert: 25% → 30%",
+                "Ticket drop rate from Ancient Ent / Skeleton King / Archangel Samael / Zombie Lord / Shadow Dragon Irbert: 25% → 30%",
                 "Winter survival minigame",
                 [
                     "Modified to make it easier for players to distinguish which unit they control on start"
@@ -9550,7 +9763,7 @@
             "Winter Event",
             [
                 "Fixed some bosses not dropping winter festival tickets",
-                "Winter festival ticket droprate buffed and drop cooldown removed"
+                "Winter festival ticket drop rate buffed and drop cooldown removed"
             ]
         ]
     },
@@ -9896,7 +10109,7 @@
             {
                 "name": "Tentacle Lord / Giant Golem",
                 "changes": [
-                    "Weapon droprate: 5% → 10%"
+                    "Weapon drop rate: 5% → 10%"
                 ]
             },
             {
@@ -10123,59 +10336,59 @@
             {
                 "name": "Ruler of the Lav Sea Hydra",
                 "changes": [
-                    "Hydra's Poisonous Tooth / Hydra Scale droprate: 50% → 25%"
+                    "Hydra's Poisonous Tooth / Hydra Scale drop rate: 50% → 25%"
                 ]
             },
             {
                 "name": "Count Wallachia",
                 "changes": [
-                    "Count's Memento / Bloodstone droprate: 10% → 12.5%",
-                    "Count's Old Cape droprate: 5% → 12.5%",
-                    "Ancient Writings droprate: 5% → 7.5%"
+                    "Count's Memento / Bloodstone drop rate: 10% → 12.5%",
+                    "Count's Old Cape drop rate: 5% → 12.5%",
+                    "Ancient Writings drop rate: 5% → 7.5%"
                 ]
             },
             {
                 "name": "Wings of Death",
                 "changes": [
-                    "Item droprate: 6% → 7.5%",
-                    "Dragon Bone / Dragon Heart / Dragon Scale droprate: 9% → 12.5%"
+                    "Item drop rate: 6% → 7.5%",
+                    "Dragon Bone / Dragon Heart / Dragon Scale drop rate: 9% → 12.5%"
                 ]
             },
             {
                 "name": "Mage Lord",
                 "changes": [
-                    "Item droprate: 6/4% → 7.5%"
+                    "Item drop rate: 6/4% → 7.5%"
                 ]
             },
             {
                 "name": "Guardian Angel",
                 "changes": [
-                    "Material droprate: 3% → 4%"
+                    "Material drop rate: 3% → 4%"
                 ]
             },
             {
                 "name": "Corrupt Angel",
                 "changes": [
-                    "Material droprate: 8% → 12.5%"
+                    "Material drop rate: 8% → 12.5%"
                 ]
             },
             {
                 "name": "Gatekeeper",
                 "changes": [
-                    "Guardian Ring droprate: 4% → 5%"
+                    "Guardian Ring drop rate: 4% → 5%"
                 ]
             },
             {
                 "name": "Demon Lord",
                 "changes": [
-                    "Claws of Destruction / Bullet of Destruction droprate: 1.75% → 2%",
-                    "Slayer Boots droprate: 2.5% → 3%"
+                    "Claws of Destruction / Bullet of Destruction drop rate: 1.75% → 2%",
+                    "Slayer Boots drop rate: 2.5% → 3%"
                 ]
             },
             {
                 "name": "Skeleton King Desperia / Zombie Lord",
                 "changes": [
-                    "Material droprate: 0.75% → 1%"
+                    "Material drop rate: 0.75% → 1%"
                 ]
             },
             {
@@ -10189,19 +10402,19 @@
             {
                 "name": "Archangel Samael",
                 "changes": [
-                    "Material droprate: 0.9% → 1%"
+                    "Material drop rate: 0.9% → 1%"
                 ]
             },
             {
                 "name": "Bone Dragon",
                 "changes": [
-                    "Item droprate: 0.66% → 0.75%"
+                    "Item drop rate: 0.66% → 0.75%"
                 ]
             },
             {
                 "name": "Shadow Dragon Irbert",
                 "changes": [
-                    "Material droprate: 0.75% / 0.6% → 0.9% / 0.75%"
+                    "Material drop rate: 0.75% / 0.6% → 0.9% / 0.75%"
                 ]
             }
         ]
@@ -10667,7 +10880,7 @@
             {
                 "name": "Yeti",
                 "changes": [
-                    "Warm Fur droprate: 0.5% → 3%"
+                    "Warm Fur drop rate: 0.5% → 3%"
                 ]
             },
             {
@@ -10948,8 +11161,8 @@
             {
                 "name": "Item bosses",
                 "changes": [
-                    "Increased droprate of summon items",
-                    "Droprates of bosses summoned by Mask of Blood: 12.5%"
+                    "Increased drop rate of summon items",
+                    "drop rates of bosses summoned by Mask of Blood: 12.5%"
                 ]
             }
         ],
@@ -11678,19 +11891,19 @@
             {
                 "name": "Tentacle Lord",
                 "changes": [
-                    "Horn of Deep Sea / Infested Tentacle droprate: 3% → 5%"
+                    "Horn of Deep Sea / Infested Tentacle drop rate: 3% → 5%"
                 ]
             },
             {
                 "name": "Giant Golem",
                 "changes": [
-                    "Corrupted Crystal Fragment / Corrupt Creations droprate: 3% → 5%"
+                    "Corrupted Crystal Fragment / Corrupt Creations drop rate: 3% → 5%"
                 ]
             },
             {
                 "name": "Mad Clown",
                 "changes": [
-                    "Material droprate: 2% → 3%"
+                    "Material drop rate: 2% → 3%"
                 ]
             },
             {
@@ -12160,10 +12373,10 @@
                     ],
                     "Added difficulty scaling based on amount of players",
                     [
-                        "7 players: 10% damage resistance and 5% droprate increase",
-                        "8 players: 20% damage resistance and 10% droprate increase",
-                        "9 players: 30% damage resistance and 15% droprate increase",
-                        "10 players: 40% damage resistance and 20% droprate increase",
+                        "7 players: 10% damage resistance and 5% drop rate increase",
+                        "8 players: 20% damage resistance and 10% drop rate increase",
+                        "9 players: 30% damage resistance and 15% drop rate increase",
+                        "10 players: 40% damage resistance and 20% drop rate increase",
                         "Removed difficulty scaling from Skeleton King Desperia, Archangel Samael, and Shadow Dragon Irbert"
                     ]
                 ]
@@ -12234,7 +12447,7 @@
             {
                 "name": "Corruptor Rectus",
                 "changes": [
-                    "Droprate of items: 3% → 2%"
+                    "drop rate of items: 3% → 2%"
                 ]
             },
             {
@@ -12553,7 +12766,7 @@
                     "Giant Ent",
                     [
                         "HP: 10,000,000 → 5,000,000",
-                        "Purified Water of Nature / Fragment of the Wind droprate: 0.02% → 0.04%"
+                        "Purified Water of Nature / Fragment of the Wind drop rate: 0.02% → 0.04%"
                     ]
                 ]
             },
@@ -12851,13 +13064,13 @@
         "events": [
             "Summer Event",
             [
-                "Seasea ticket droprate increased by 50%",
-                "Event item droprate from seasea red/green pouches decreased by 33%",
+                "Seasea ticket drop rate increased by 50%",
+                "Event item drop rate from seasea red/green pouches decreased by 33%",
                 "limited ticket/beach ball drops to these bosses:",
                 [
                     "Death Fiend, Valtora, Ifrit, Skeleton King, Zombie Lord, Ancient Ent, Samael, Shadow Dragon, Frostspider Lord, Demon Lord Beriel, Corruptor Rectus, Flame Nightmare, Turtle Lord, Hydra, Count, Jack, Wings of Death, Mage Lord, Spirit Beast, Bone Dragon, Guardian Angels (no ball), Corrupt Angel (No ball)"
                 ],
-                "Droprate reduction per 10 obtained shining seashells reduced"
+                "drop rate reduction per 10 obtained shining seashells reduced"
             ]
         ],
         "monsters": [
@@ -12881,7 +13094,7 @@
         "events": [
             "Summer Event",
             [
-                "Shining Seashells - Droprate decrease after obtaining 10 reduced",
+                "Shining Seashells - drop rate decrease after obtaining 10 reduced",
                 "Lucky beachballs - Changed to only bounce off of dark borders and max bounce amount: 30 → 20"
             ]
         ]
@@ -13777,26 +13990,26 @@
             {
                 "name": "Giant Golem",
                 "changes": [
-                    "Corrupt Crystal Fragment / Corrupt Creation droprate: 2% → 3%"
+                    "Corrupt Crystal Fragment / Corrupt Creation drop rate: 2% → 3%"
                 ]
             },
             {
                 "name": "Tentacle Lord",
                 "changes": [
-                    "Horn of Deep Sea droprate: 2% → 3%"
+                    "Horn of Deep Sea drop rate: 2% → 3%"
                 ]
             },
             {
                 "name": "Mana Ancient",
                 "changes": [
-                    "All equipment droprates: 2.5% → 3%"
+                    "All equipment drop rates: 2.5% → 3%"
                 ]
             },
             {
                 "name": "Mad Clown",
                 "changes": [
                     "No longer drops Corrupt Crystal Fragment",
-                    "Soul Stone / Mad Symbol droprate: 1% → 2%"
+                    "Soul Stone / Mad Symbol drop rate: 1% → 2%"
                 ]
             },
             {
@@ -14818,7 +15031,7 @@
             {
                 "name": "Monster notes",
                 "changes": [
-                    "HP / ATK / DEF / Droprate of item-summoned bosses (Frozen Crystal, Mask of Blood, etc)",
+                    "HP / ATK / DEF / drop rate of item-summoned bosses (Frozen Crystal, Mask of Blood, etc)",
                     "Increased EXP gained in Duchy of Wallachia / Volcanic Lands quests",
                     [
                         "Fused Wallachia gathering quests to single one, changed it to provide EXP and relocated to Prius"
@@ -14982,14 +15195,14 @@
             {
                 "name": "Zombie Lord",
                 "changes": [
-                    "Parasitic Staff / Hood of the Fallen droprate 1.5% → 1.25%",
-                    "Shroud of Perseverance droprate 0.5% → 0.75%"
+                    "Parasitic Staff / Hood of the Fallen drop rate 1.5% → 1.25%",
+                    "Shroud of Perseverance drop rate 0.5% → 0.75%"
                 ]
             },
             {
                 "name": "Archangel Samael",
                 "changes": [
-                    "Guardian of the Skies droprate 0.5% → 0.6%"
+                    "Guardian of the Skies drop rate 0.5% → 0.6%"
                 ]
             },
             {
@@ -15734,7 +15947,7 @@
             {
                 "name": "Mask of Blood (summon item)",
                 "changes": [
-                    "Droprate increased"
+                    "drop rate increased"
                 ]
             }
         ],
@@ -15767,7 +15980,7 @@
             {
                 "name": "Blood Wraith / Wallachia Monstrosity",
                 "changes": [
-                    "Mask of Blood / Blood Orb / Ring of the Dead droprate increase by 33%"
+                    "Mask of Blood / Blood Orb / Ring of the Dead drop rate increase by 33%"
                 ]
             },
             {
@@ -15917,7 +16130,7 @@
             {
                 "name": "Magical Horn / Frozen Crystal",
                 "changes": [
-                    "Droprate increased"
+                    "drop rate increased"
                 ]
             }
         ],
@@ -15993,7 +16206,7 @@
             {
                 "name": "Nightmare Rod",
                 "changes": [
-                    "Increased droprate from mobs"
+                    "Increased drop rate from mobs"
                 ]
             }
         ],
@@ -16001,7 +16214,7 @@
             {
                 "name": "Elemental of Chaos",
                 "changes": [
-                    "Chaos Magic Stone droprate 5% → 7.5%"
+                    "Chaos Magic Stone drop rate 5% → 7.5%"
                 ]
             },
             {
@@ -16128,7 +16341,7 @@
             {
                 "name": "Polar Bear Giant",
                 "changes": [
-                    "Bear Fur Cloak droprate 2% → 5%"
+                    "Bear Fur Cloak drop rate 2% → 5%"
                 ]
             },
             {
@@ -16239,8 +16452,8 @@
             {
                 "name": "Tentacle Lord",
                 "changes": [
-                    "Horn of Deep Sea droprate 1.25% → 2%",
-                    "Infected Tentacle droprate 2% → 3%"
+                    "Horn of Deep Sea drop rate 1.25% → 2%",
+                    "Infected Tentacle drop rate 2% → 3%"
                 ]
             },
             {
@@ -16353,66 +16566,66 @@
             {
                 "name": "Giant Golem",
                 "changes": [
-                    "Corrupt Crystal Fragment droprate 1% → 2%"
+                    "Corrupt Crystal Fragment drop rate 1% → 2%"
                 ]
             },
             {
                 "name": "Mana Ancient",
                 "changes": [
-                    "Plates of Rengeration / Vest of Protection / Fairy Robe / Lifestone droprate 1.75% → 2.5%"
+                    "Plates of Rengeration / Vest of Protection / Fairy Robe / Lifestone drop rate 1.75% → 2.5%"
                 ]
             },
             {
                 "name": "Mad Clown",
                 "changes": [
-                    "Corrupt Crystal Fragment droprate 1% → 2.5%"
+                    "Corrupt Crystal Fragment drop rate 1% → 2.5%"
                 ]
             },
             {
                 "name": "Jack-o-lantern",
                 "changes": [
-                    "Candy Bag droprate 6% → 7.5%",
-                    "Magical Ore Deposit droprate 5% → 7.5%"
+                    "Candy Bag drop rate 6% → 7.5%",
+                    "Magical Ore Deposit drop rate 5% → 7.5%"
                 ]
             },
             {
                 "name": "Count Wallachia",
                 "changes": [
                     "Pull stun duration 4 seconds → 1 second",
-                    "Count's Old Cape droprate 3% → 5%",
-                    "Ancient Writings droprate 3% → 5%"
+                    "Count's Old Cape drop rate 3% → 5%",
+                    "Ancient Writings drop rate 3% → 5%"
                 ]
             },
             {
                 "name": "Wings of Death",
                 "changes": [
                     "Avatar duration 30 seconds → 15 seconds",
-                    "Ancient Writings droprate 3% → 6%"
+                    "Ancient Writings drop rate 3% → 6%"
                 ]
             },
             {
                 "name": "Mage Lord",
                 "changes": [
-                    "Sealed Weapon droprate 5% → 6%",
-                    "Robe of the Mage / Hood of the Mage droprate 3.75% → 6%",
-                    "Ring of Resonance droprate 2.5% → 4%",
-                    "Ancient Writings droprate 3.75% → 7.5%",
-                    "Magical Ore Deposit droprate 5% → 7.5%"
+                    "Sealed Weapon drop rate 5% → 6%",
+                    "Robe of the Mage / Hood of the Mage drop rate 3.75% → 6%",
+                    "Ring of Resonance drop rate 2.5% → 4%",
+                    "Ancient Writings drop rate 3.75% → 7.5%",
+                    "Magical Ore Deposit drop rate 5% → 7.5%"
                 ]
             },
             {
                 "name": "Guardian Spirit, Avalon's Gatekeeper",
                 "changes": [
-                    "Guardian Ring droprate 2% → 4%"
+                    "Guardian Ring drop rate 2% → 4%"
                 ]
             },
             {
                 "name": "Guardian Angels",
                 "changes": [
                     "Pull stun duration 3 seconds → 1 second",
-                    "Holy Sword / Staff / Cannon droprate 2% → 2.5%",
-                    "Sacred Armor / Helm droprate 1.66% → 2.5%",
-                    "A Page of the Bible / Fragment of Angel's Feather droprate 2.5% → 3%"
+                    "Holy Sword / Staff / Cannon drop rate 2% → 2.5%",
+                    "Sacred Armor / Helm drop rate 1.66% → 2.5%",
+                    "A Page of the Bible / Fragment of Angel's Feather drop rate 2.5% → 3%"
                 ]
             },
             {
@@ -16426,11 +16639,11 @@
                 "changes": [
                     "Spider Queen",
                     [
-                        "Okelanq Spear / Bow / Lord of Revolvers droprate 4% → 6%"
+                        "Okelanq Spear / Bow / Lord of Revolvers drop rate 4% → 6%"
                     ],
-                    "Winter Tear / Frostbane droprate 1.75% → 2.5%",
-                    "Niflheim / Ripple Snow droprate 3.5% → 5%",
-                    "Magical Ore Deposit droprate 5% → 7.5%"
+                    "Winter Tear / Frostbane drop rate 1.75% → 2.5%",
+                    "Niflheim / Ripple Snow drop rate 3.5% → 5%",
+                    "Magical Ore Deposit drop rate 5% → 7.5%"
                 ]
             },
             {
@@ -16446,35 +16659,35 @@
                     [
                         "Skill damage / Damage reduction increased by 15% → 10% (up to 30%)",
                         "Attack speed increased by 25% → 10% (up to 30%)",
-                        "Droprate increase 33.33% → 16.66% (up to 50%)"
+                        "drop rate increase 33.33% → 16.66% (up to 50%)"
                     ],
-                    "Claws of Destruction / Bullet of Destruction droprate 0.6% → 1.75%",
-                    "Horn of Demon Lord / Eye of the Abyss droprate 1.2% → 3%",
-                    "Slayer Boots droprate 0.9% → 2.5%",
-                    "Dark Wings droprate 4% → 6%",
-                    "Dark Matter droprate 4 ~ 5% → Fixed 6%"
+                    "Claws of Destruction / Bullet of Destruction drop rate 0.6% → 1.75%",
+                    "Horn of Demon Lord / Eye of the Abyss drop rate 1.2% → 3%",
+                    "Slayer Boots drop rate 0.9% → 2.5%",
+                    "Dark Wings drop rate 4% → 6%",
+                    "Dark Matter drop rate 4 ~ 5% → Fixed 6%"
                 ]
             },
             {
                 "name": "Corruptor Rectus",
                 "changes": [
-                    "Essence of Corruption / Ancient Fragment of Ruins droprate 2% → 3%"
+                    "Essence of Corruption / Ancient Fragment of Ruins drop rate 2% → 3%"
                 ]
             },
             {
                 "name": "Flame Nightmare",
                 "changes": [
-                    "Spirit of Nightmare droprate 2% → 3%",
-                    "Essence of Anger droprate 1.5% → 2%",
-                    "Shard of Ange - Essence of Anger droprate 0.9% → 1.2%"
+                    "Spirit of Nightmare drop rate 2% → 3%",
+                    "Essence of Anger drop rate 1.5% → 2%",
+                    "Shard of Ange - Essence of Anger drop rate 0.9% → 1.2%"
                 ]
             },
             {
                 "name": "Turtle Lord",
                 "changes": [
-                    "Pure Steel / Mark of Storm droprate 2.25% → 3%",
-                    "Mana Orb droprate 1.5% → 2%",
-                    "Shard of Mana - Mana Orb droprate 0.9% → 1.2%"
+                    "Pure Steel / Mark of Storm drop rate 2.25% → 3%",
+                    "Mana Orb drop rate 1.5% → 2%",
+                    "Shard of Mana - Mana Orb drop rate 0.9% → 1.2%"
                 ]
             },
             {
@@ -16482,9 +16695,9 @@
                 "changes": [
                     "Boss reworked",
                     "Maximum number of drops 1 → 4",
-                    "Spiritus, the Sword of Elements droprate 2.5% → 3%",
-                    "Visvire, the Hammer of Storm / Storm Headdress droprate 1.5% → 2%",
-                    "Spirit Orb droprate 1.5% → 2.5%"
+                    "Spiritus, the Sword of Elements drop rate 2.5% → 3%",
+                    "Visvire, the Hammer of Storm / Storm Headdress drop rate 1.5% → 2%",
+                    "Spirit Orb drop rate 1.5% → 2.5%"
                 ]
             },
             {
@@ -16600,7 +16813,7 @@
                     [
                         "Cooldown 75 seconds → 100 seconds"
                     ],
-                    "Mad Symbol droprate 0.7% → 1%"
+                    "Mad Symbol drop rate 0.7% → 1%"
                 ]
             },
             {
@@ -16630,7 +16843,7 @@
             {
                 "name": "Corruptor Rectus",
                 "changes": [
-                    "Droprates",
+                    "drop rates",
                     [
                         "Corruptor 4% → 3%",
                         "Stalker 4% → 3%",
@@ -16645,7 +16858,7 @@
             {
                 "name": "Flame Nightmare",
                 "changes": [
-                    "Droprates",
+                    "drop rates",
                     [
                         "Hatred 4% → 3%",
                         "Flameshard Armor 4% → 3%",
@@ -16658,7 +16871,7 @@
             {
                 "name": "Turtle Lord",
                 "changes": [
-                    "Droprates",
+                    "drop rates",
                     [
                         "Water Cannon 4% → 3%",
                         "Tunic of Subtlety 4% → 3%",
@@ -16700,7 +16913,7 @@
             {
                 "name": "Skeleton King Desperia",
                 "changes": [
-                    "Droprates",
+                    "drop rates",
                     [
                         "Spirit of Abyss 0.5% → 0.6%",
                         "Fragment of Oblivion 0.5% → 0.6%",
@@ -16712,7 +16925,7 @@
             {
                 "name": "Shadow Dragon",
                 "changes": [
-                    "Droprates",
+                    "drop rates",
                     [
                         "Levante, the sword of Love and Hate 1.2% → 0.75%"
                     ]
@@ -16992,7 +17205,7 @@
             {
                 "name": "Zombie Lord",
                 "changes": [
-                    "Temporary droprate increase reverted to normal",
+                    "Temporary drop rate increase reverted to normal",
                     "Acolyte - Death Coil",
                     [
                         "Radius 275 → 175",
@@ -17077,7 +17290,7 @@
             {
                 "name": "Zombie Lord",
                 "changes": [
-                    "Droprate temporarily increased by 50%",
+                    "drop rate temporarily increased by 50%",
                     "Summoning cycle of mini-zombies slightly reduced",
                     "Infection",
                     [
@@ -18927,25 +19140,25 @@
             {
                 "name": "Corruptor Rectus",
                 "changes": [
-                    "Staff of Contagion's droprate reduced by 12.5%"
+                    "Staff of Contagion's drop rate reduced by 12.5%"
                 ]
             },
             {
                 "name": "Flame Nightmare",
                 "changes": [
-                    "Crown of Ferver's droprate reduced by 12.5%"
+                    "Crown of Ferver's drop rate reduced by 12.5%"
                 ]
             },
             {
                 "name": "Turtle Lord",
                 "changes": [
-                    "Oath of Courages's droprate reduced by 12.5%"
+                    "Oath of Courages's drop rate reduced by 12.5%"
                 ]
             },
             {
                 "name": "Giant Ent",
                 "changes": [
-                    "Spirit Orb's droprate increased by 100%"
+                    "Spirit Orb's drop rate increased by 100%"
                 ]
             }
         ],
