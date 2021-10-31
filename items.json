@@ -21980,7 +21980,7 @@
       "damage": 9400,
       "int": 800,
       "hp": 2000,
-      "affinitywlpercent": 0.12,
+      "affinityiwpercent": 0.12,
       "passive": [
         "On skill cast, empowers next attack with Frozen Storm"
       ],
