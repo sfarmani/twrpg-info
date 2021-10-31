@@ -1877,49 +1877,6 @@
         ]
     },
     {
-        "id": "n038",
-        "name": "Wallachia Mad Clown",
-        "color": "e75480",
-        "quote": "Dance !",
-        "level": "100",
-        "category": "Minor",
-        "type": "Boss",
-        "limit": "2",
-        "respawn": "4",
-        "location": "In the Wallachia Graveyard",
-        "conditions": "Level 80",
-        "stats": {
-            "health": "1500000",
-            "healthRegen": "123",
-            "mana": "100",
-            "manaRegen": "1",
-            "armor": "765",
-            "armorType": "Medium",
-            "magicResist": "0",
-            "damageResist": "0",
-            "attackDamage": "1021",
-            "attackSpread": "18",
-            "attackRange": "300",
-            "attackSpeed": "3.33",
-            "moveSpeed": "480"
-        },
-        "drops": [
-            "sor2",
-            "sora",
-            "ram1",
-            "soul",
-            "I0GA",
-            "wcyc"
-        ],
-        "spells": [
-            "Instincts",
-            "Darkness Wave",
-            "Mirror Image",
-            "Mad Howl",
-            "Wheel of Fate"
-        ]
-    },
-    {
         "id": "n00B",
         "name": "Forest Spirit",
         "level": "100",
@@ -2426,6 +2383,49 @@
             "Judgment of Darkness",
             "Dark Wings",
             "Darkness Wave"
+        ]
+    },
+    {
+        "id": "n038",
+        "name": "Wallachia Mad Clown",
+        "color": "e75480",
+        "quote": "Dance !",
+        "level": "100",
+        "category": "Minor",
+        "type": "Boss",
+        "limit": "2",
+        "respawn": "4",
+        "location": "In the Wallachia Graveyard",
+        "conditions": "Level 80",
+        "stats": {
+            "health": "1500000",
+            "healthRegen": "123",
+            "mana": "100",
+            "manaRegen": "1",
+            "armor": "765",
+            "armorType": "Medium",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1021",
+            "attackSpread": "18",
+            "attackRange": "300",
+            "attackSpeed": "3.33",
+            "moveSpeed": "480"
+        },
+        "drops": [
+            "sor2",
+            "sora",
+            "ram1",
+            "soul",
+            "I0GA",
+            "wcyc"
+        ],
+        "spells": [
+            "Instincts",
+            "Darkness Wave",
+            "Mirror Image",
+            "Mad Howl",
+            "Wheel of Fate"
         ]
     },
     {
