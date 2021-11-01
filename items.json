@@ -8414,7 +8414,7 @@
       "active": [
         "On use, activates Death Gaze",
         "Deals (MAIN STAT X 37.5) magic damage",
-        "Increases magic damage taken by enemies (Type-A) by 8% for 4 seconds",
+        "Increases magic damage taken by enemies [Type-A] by 8% for 4 seconds",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -9184,7 +9184,10 @@
       "skilldamagepercent": 0.08,
       "periodicdamagepercent": 0.15,
       "passive": [
-        "On use, activates Death and Decay"
+        "On use, activates Death and Decay",
+        "Targets area and deals 20000 magic damage per second for 15 seconds",
+        "Deals up to 100% bonus damage, depending on how long target stayed in area (max reached at 5 seconds)",
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -10354,7 +10357,7 @@
       "hp": 1000,
       "passive": [
         "On skill cast, empower nearby allies for 4 seconds",
-        "Increases attack speed by 12%, skill damage by 6% (Type-B), and HP regen by 45"
+        "Increases attack speed by 12%, skill damage by 6% [Type-B], and HP regen by 45"
       ]
     }
   },
@@ -13115,7 +13118,7 @@
       "active": [
         "On use, discharges a powerful beam of destruction",
         "Deals (MAIN STAT X 50) magic damage",
-        "Reduces armor of enemy by 200 for 12 seconds (Type-A)",
+        "Reduces armor of enemy by 200 for 12 seconds [Type-A]",
         "Stuns for 1 second",
         "Cooldown: 150 seconds, cannot be dropped during cooldown"
       ]
@@ -15032,7 +15035,7 @@
       "hp": 1800,
       "passive": [
         "On skill cast, empowers nearby allies for 8 seconds",
-        "Increases attack speed by 12%, skill damage by 10% (Type-B), and HP regen by 75"
+        "Increases attack speed by 12%, skill damage by 10% [Type-B], and HP regen by 75"
       ],
       "spec": [
         "Specialty - Dark Healing",
@@ -15131,7 +15134,7 @@
       "active": [
         "On use, activates Song of Despair",
         "Deals ((ATK DMG X 2.25) + (INT X 12.5)) magic damage in an AoE",
-        "Increases enemy magic damage taken by 6% (Type-A) for 10 seconds",
+        "Increases enemy magic damage taken by 6% [Type-A] for 10 seconds",
         "Stuns for 1 second",
         "Cooldown: 80 seconds, cannot be dropped during cooldown"
       ]
@@ -15590,7 +15593,7 @@
       "hp": 1800,
       "passive": [
         "Empowers allies upon healing them",
-        "Increases skill damage by 5% (Type-B) and healing received by 5% for 4 seconds"
+        "Increases skill damage by 5% [Type-B] and healing received by 5% for 4 seconds"
       ],
       "active": [
         "On use, activates Bloody Baptism",
@@ -17476,7 +17479,7 @@
       "mpregen": 60,
       "passive": [
         "On landing a direct hit on enemies, applies Composure",
-        "Increases enemy magic damage taken by 6% (Type-B) for 12 seconds"
+        "Increases enemy magic damage taken by 6% [Type-B] for 12 seconds"
       ],
       "active": [
         "On use, activates Statis",
@@ -17708,7 +17711,7 @@
       "passive": [
         "On single-target hits, engulfs target with Corruption",
         "Deals 12.5% bonus damage over 3 seconds (effect stacks)",
-        "Increases enemy magic damage taken by 4% (Type-B)"
+        "Increases enemy magic damage taken by 4% [Type-B]"
       ]
     }
   },
@@ -18001,14 +18004,15 @@
       "mdpercent": 0.12,
       "affinitylightpercent": 0.1,
       "passive": [
-        "On healing ally, activates Heaven's Light",
-        "Deals (INT X 7.5) magic damage in an AoE",
-        "Heals (INT X 1.5) HP in an AoE"
+        "Healing allies infuses them with Heaven's Light",
+        "Increases main stat by 60 + 3% [Type-A] for 6 seconds"
       ],
       "active": [
         "On use, activates Heaven's Door",
-        "Refreshes a random non-ultimate spell of 2 closest nearby allies",
-        "Allies cannot be affected by this more than once every 60 seconds",
+        "Sends an orb of light at target hero. Orb will latch onto target for 60 seconds, granting 12% skill damage.",
+        "Every 4 seconds, the target will be healed for 2000 HP.",
+        "Every 20 seconds, a random skill will be reset on the target.",
+        "The target will know which skill is being reset next by a letter above their head that shows 3 seconds before the skill resets",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -19147,7 +19151,7 @@
       "hp": 2250,
       "passive": [
         "On skill cast, activates Power of Abyss",
-        "Increases attack speed and skill damage by 12% (Type-B), and HP regen by 90 for 8 seconds"
+        "Increases attack speed and skill damage by 12% [Type-B], and HP regen by 90 for 8 seconds"
       ],
       "active": [
         "On use, activates Call of Abyss",
@@ -19205,7 +19209,7 @@
       "active": [
         "On use, activates Song of Destruction",
         "Deals ((INT X 20) + (ATK DMG X 3.75)) magic damage in an AoE per 0.25 seconds",
-        "Increases enemy magic damage taken by 9% (Type-A) for 10 seconds",
+        "Increases enemy magic damage taken by 9% [Type-A] for 10 seconds",
         "Stuns for 2 seconds",
         "User is invulnerable while channeling",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
@@ -20705,7 +20709,7 @@
       "mpregen": 120,
       "passive": [
         "On direct hit, applies Composure (single-taget spells on enemies)",
-        "Increases magic damage taken by 7.5% (Type-B) for 12 seconds"
+        "Increases magic damage taken by 7.5% [Type-B] for 12 seconds"
       ],
       "active": [
         "On use, activates Despair",
@@ -21051,7 +21055,7 @@
       "passive": [
         "Empowers next attack with Demon's Grasp every 5 seconds (melee only)",
         "Deals 5 additional attacks with (150% ATK DMG) physical damage",
-        "Reduces armor by 300 for 3 seconds (Type-A)",
+        "Reduces armor by 300 for 3 seconds [Type-A]",
         "Heals (7.5% max HP)"
       ],
       "active": [
@@ -21764,10 +21768,14 @@
       "attackspeedpercent": 0.3,
       "skilldamagepercent": 0.05,
       "passive": [
-        "Deals 15% bonus damage to enemies above 15% HP"
+        "Deals 15% bonus damage to enemies above 50% HP"
       ],
       "active": [
-        "On use, activates Heartrender"
+        "On use, activates Heartrender",
+        "Summons and launches a bloody spear at target, marking it and dealing 200000 magic damage and stunning it for 1 second",
+        "Deals 125% bonus damage to non-boss units",
+        "If the marked target dies, the cooldown of this effect will be reset",
+        "Cooldown: 20 seconds (minimum 3 seconds per cast), cannot be dropped during cooldown"
       ]
     }
   },
@@ -21809,10 +21817,15 @@
       "str": 800,
       "skilldamagepercent": 0.14,
       "passive": [
-        "On skill cast, activates Judgment"
+        "On skill cast, activates Judgment",
+        "Increases STR by 100 and skill damage by 3% per stack for 5 seconds (up to 4 stacks)",
+        "At max stacks, does not extend duration"
       ],
       "active": [
-        "On use, activates Final Verdictr"
+        "On use, activates Final Verdict",
+        "Soar high into sky then slam down in target area, dealing (STR X 50) magic damage and stunning for 2.5 seconds",
+        "Sets Judgment to max stacks and grants 9% damage output for 10 seconds",
+        "Cooldown: 75 sec, cannot be dropped during cooldown"
       ]
     }
   },
@@ -21853,10 +21866,17 @@
       "damage": 14800,
       "movespeed": 50,
       "passive": [
-        "On attack, leaves mark"
+        "On attack, leaves a Mark",
+        "Mark spawns from a random direction",
+        "Striking the Mark from the same direction will proc and deal (ATK DMG X 2.25) magic damage",
+        "Proccing the mark will increase damage gained from this weapon and the proc damage by 10%, and grants 1.5% skill damage",
+        "You can only assign mark to a single target at a time, and proccing the mark places this effect on 10 second cooldown"
       ],
       "active": [
-        "On use, activates Slaughter"
+        "On use, activates Slaughter",
+        "Summons 4 marks around target for 5 seconds",
+        "If all marks are procced, deals 300000 magic damage and stuns target for 2 seconds",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -21898,7 +21918,11 @@
       "agi": 760,
       "attackspeedpercent": 0.4,
       "passive": [
-        "On attack, activates Divine Poem"
+        "On attack, activates Divine Poem",
+        "Fires one or two additional arrows dealing Attack Damage X 10% pure damage (averages 1.7 arrows).",
+        "These arrows can proc 'on attack' effects",
+        "Applies Judgment for 5 seconds, increasing target's damage taken from Divine Poem by 10% for 3 seconds (up to 8 stacks)",
+        "Judgment cooldown: 1 second"
       ]
     }
   },
@@ -21980,14 +22004,28 @@
     ],
     "stats": {
       "damage": 9400,
-      "int": 800,
+      "int": 880,
       "hp": 2000,
       "affinityiwpercent": 0.12,
       "passive": [
-        "On skill cast, empowers next attack with Frozen Storm"
+        "On skill cast, empowers next attack with Frozen Tempest",
+        "Deals (INT X 5) magic damage to target",
+        "If target is not affected by Frozen Tempest, creates a Frozen Tempest at target's location",
+        "Frozen Tempest deals (INT X 25) magic damage over 8 seconds to nearby enemies"
       ],
       "active": [
-        "On use, activates Dawn of Ice"
+        "On use, activates Dawn of Ice",
+        "Deals (INT X 25) magic damage and freezes nearby enemies for 3 seconds",
+        "After 4 seconds, ice will shatter",
+        "Deals (15% damage dealt to target + INT X 2.5 X # of damage instances to target) magic damage (up to 20 damage instances)",
+        "Stuns for 3 seconds",
+        "Cooldown: 90 seconds"
+      ],
+      "spec": [
+        "Specialty - Water Mastery",
+        "Elementalist - Seal of Water: HP increased by 40%, duration increased by 10 seconds",
+        "Elementalist - Water Beam: Range increased by 150, can heal 2 additional allies",
+        "Elementalist - Refreshing Well: Radius increased by 250"
       ]
     }
   },
@@ -22029,7 +22067,17 @@
       "allstat": 300,
       "attackspeedpercent": -0.75,
       "passive": [
-        "Increases nearby allies' stats by 7%, enemies' damage taken by 4%"
+        "Increases nearby allies stats by 7%, enemies' damage taken by 4% [Type-B]",
+        "Obtains Twisted Souls during combat",
+        "You gain 1 soul every 40 seconds",
+        "You gain 3 souls when an ally dies",
+        "You can keep up to 5 souls, and each soul gives you 2% skill damage/magic defense and 1% HP regen"
+      ],
+      "active": [
+        "On use, activates Lamentation",
+        "Consumes a charge of Twisted Soul",
+        "For 6 seconds, deals 60000 magic damage per second to nearby enemies within 500 radius and increases their damage taken by 8% [Type-B]",
+        "Deals 200% bonus damage to non-boss units"
       ]
     }
   },
@@ -22073,10 +22121,17 @@
       "skilldamagepercent": 0.12,
       "mdpercent": 0.12,
       "passive": [
-        "On skill cast, activates Blood Nova"
+        "On skill cast, activates Blood Nova",
+        "Deals ((STR + AGI) X 4) magic damage to nearby enemies per second",
+        "Regenerates max HP X 4% per second",
+        "Duration: 3 seconds",
+        "Cooldown: 6 seconds"
       ],
       "active": [
-        "On use, activates Sanguine Fury"
+        "On use, activates Sanguine Fury",
+        "For 8 seconds, gains 8% damage dealt but loses 12% magic defense",
+        "Blood Nova will be active for the duration with 100% increased potency",
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -22116,7 +22171,11 @@
       "skilldamagepercent": 0.15,
       "affinitydarkpercent": 0.05,
       "active": [
-        "On use, summons Shade of Madness"
+        "On use, summons Shade of Madness",
+        "Consumes max HP X 10% to spawn a shade",
+        "Upon issuing move order (M) to a target, all summoned shades will fly toward the target to deal 75000 magic damage each",
+        "Up to 5 shades can be summoned at once",
+        "Cooldown: 3 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -22158,10 +22217,15 @@
       "affinityiwpercent": 0.06,
       "affinitylightpercent": 0.06,
       "passive": [
-        "Chance to activate Serenity upon healing ally"
+        "15% chance to activate Serenity upon healing ally",
+        "Increases skill damage by 6%",
+        "Restores (200 + INT X 0.15) HP and 1.2% MP per second",
+        "Lasts 5 seconds"
       ],
       "active": [
-        "On use, activates Cleansing"
+        "On use, activates Cleansing",
+        "Clears debuffs from all allies in 800 range and and applies Clarity to them for 12 seconds",
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -22202,7 +22266,11 @@
       "allstat": 450,
       "skilldamagepercent": 0.12,
       "active": [
-        "On use, activates Apotheosis"
+        "On use, activates Apotheosis",
+        "Gains 750 all stats for 10 seconds",
+        "Upon expiration, triggers an explosion dealing (base damage dealt to boss units X 15%) magic damage to nearby enemies",
+        "Upon expiration, loses 250 all stats and become unable to be revived by allies for 30 seconds",
+        "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -22241,10 +22309,17 @@
       "agi": 200,
       "int": 200,
       "passive": [
-        "On equip, activates Crimson Pact"
+        "On equip, activates Crimson Pact",
+        "Links yourself up to 2 nearest allies",
+        "Each linked player (and yourself) receive the following",
+        "+20% damage reduction [Type-A]",
+        "+20% healing received bonus [Type-A]",
+        "+4% skill damage per ally linked (up to 12%)"
       ],
       "active": [
-        "On use, summons Blood Rune"
+        "On use, summons Blood Rune",
+        "Heals (Max HP X 10%) every 0.5 seconds for 6 seconds",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -22285,12 +22360,17 @@
       "allstat": 280,
       "hp": 2000,
       "skilldamagepercent": 0.05,
-      "movespeed": 75,
+      "movespeed": 50,
       "passive": [
-        "Upon moving 400 distance, empowers next attack with Bloody Bite"
+        "Upon moving 400 distance, empowers next attack with Bloody Bite",
+        "Deals (3000 + Attack Damage X 50%) pure damage and heals you for max HP X 8%",
+        "Increases attack damage by 500, HP regen by 75 for 5 seconds",
+        "Can stack infinitely, but each stack beyond first 5 has only 10% effectiveness"
       ],
       "active": [
-        "On use, activates Endless Thirst"
+        "On use, activates Insatiable Hunger",
+        "Consumes (current HP X 35%) to empower next 3 attacks within 1.5 seconds with Bloody Bite",
+        "Cooldown: 10 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -22333,10 +22413,14 @@
       "allstat": 150,
       "critmultiplier": 0.30,
       "passive": [
-        "On skill cast, increases skill damage and crit chance by 5% for 6 seconds"
+        "On skill cast, increases skill damage and crit chance by 5% for 6 seconds. Stacks up to 3 times."
       ],
       "active": [
-        "On use, activates Bloodstorm"
+        "On use, activates Bloodstorm",
+        "Only usable at full stacks",
+        "Becomes invisible (for Assassin, triggers Dark Shroud instead) and gains 200 movement speed for 2 seconds",
+        "Next attack will will be empowered, dealing Main Stat X 4 X Crit Multiplier magic damage",
+        "Cooldown: 10 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -22377,10 +22461,17 @@
       "allstat": 300,
       "mdpercent": 0.12,
       "passive": [
-        "On equip, activates Guardian Aura"
+        "On equip, activates Guardian Aura",
+        "Increases nearby allies' main stat by 80 + 4% [Type-A]",
+        "Heals nearby allies within 500 radius (excluding yourself) by 2000 HP every 3 seconds",
+        "(Any affected ally cannot be healed by Holy Nova again within 3 seconds)"
       ],
       "active": [
-        "On use, activates Guardian Angel"
+        "On use, activate Guardian Angel",
+        "Become a holy spirit for 4 seconds, taking 75% reduced damage and being able to move quickly white staying afloat",
+        "Heals any allies coming into contact (400 radius) by 4000 HP and provides a shield absorbing up to 4000 damage for 5 seconds (once per ally)",
+        "Casting any other skills will deactivate the transformation",
+        "Cooldown: 40 seconds, cannot be dropped during cooldown"
       ]
     }
   },
