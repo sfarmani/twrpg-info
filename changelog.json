@@ -38,7 +38,7 @@
             {
                 "name": "Crimson Reaper",
                 "changes": [
-                    "No shows cooldown on item charges"
+                    "Now shows cooldown on item charges"
                 ]
             },
             {
@@ -71,7 +71,7 @@
                     ],
                     "Baron of Blood / Servant of Blood",
                     [
-                        "Now considered Boss Units"
+                        "Now considered as Boss units"
                     ],
                     "Blood Sickness",
                     [
