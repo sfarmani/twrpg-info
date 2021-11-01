@@ -21865,18 +21865,19 @@
     "stats": {
       "damage": 14800,
       "movespeed": 50,
+      "skilldamagepercent": 0.075,
       "passive": [
         "On attack, leaves a Mark",
         "Mark spawns from a random direction",
-        "Striking the Mark from the same direction will proc and deal (ATK DMG X 2.25) magic damage",
-        "Proccing the mark will increase damage gained from this weapon and the proc damage by 10%, and grants 1.5% skill damage",
+        "Striking the Mark from the same direction will proc and deal (ATK DMG X 3.5) magic damage",
+        "Proccing the mark will increase damage gained from this weapon and the proc damage by 10%",
         "You can only assign mark to a single target at a time, and proccing the mark places this effect on 10 second cooldown"
       ],
       "active": [
         "On use, activates Slaughter",
-        "Summons 4 marks around target for 5 seconds",
+        "Summons 4 marks around target for 6 seconds",
         "If all marks are procced, deals 300000 magic damage and stuns target for 2 seconds",
-        "Cooldown: 60 seconds, cannot be dropped during cooldown"
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -22226,6 +22227,10 @@
         "On use, activates Cleansing",
         "Clears debuffs from all allies in 800 range and and applies Clarity to them for 12 seconds",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialty - Protector of Wind",
+        "Wind Mage - Judgment: Damage increased by 7.5%."
       ]
     }
   },
@@ -22320,6 +22325,10 @@
         "On use, summons Blood Rune",
         "Heals (Max HP X 10%) every 0.5 seconds for 6 seconds",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialty",
+        "Knight - Improved Seal of Mana: Radius is increased by 30%."
       ]
     }
   },

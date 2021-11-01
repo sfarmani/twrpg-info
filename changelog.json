@@ -1,8 +1,177 @@
 [
     {
+        "name": "55a",
+        "notes": [
+            "Released on: November 1st, 2021",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Caedis, the Sword of Slaughter - Fixed bug where active didn’t work properly",
+            "Crown of Serenity - Fixed bug where buff only lasts 1 second instead of 5 seconds",
+            "Shackles of Heaven - Fixed bug where it can be used to pull knockback-immune targets",
+            "Underlord Agareth - Fixed bug with some skills",
+            "Fixed bug where AoE indicator wouldn’t show if clipped over screen edge"
+        ],
+        "events": [
+            "Halloween Event",
+            [
+                "Starts from November 1st to November 23rd, 23:59:59 UTC (forum time)"
+            ]
+        ],
+        "items": [
+            {
+                "name": "Caedis, the Sword of Slaughter",
+                "changes": [
+                    "Added 7.5% skill damage",
+                    "Passive",
+                    [
+                        "Proc damage: (ATK DMG X 2.25) → (ATK DMG X 3.5)",
+                        "No longer increases skill damage by 1.5%"
+                    ],
+                    "Active",
+                    [
+                        "Mark duration: 5 seconds → 6 seconds",
+                        "Cooldown: 60 seconds → 45 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Crimson Reaper",
+                "changes": [
+                    "No shows cooldown on item charges"
+                ]
+            },
+            {
+                "name": "Heirloom of Lazarus",
+                "changes": [
+                    "Knight spec added (same as Ispion)"
+                ]
+            },
+            {
+                "name": "Crown of Cleansing",
+                "changes": [
+                    "Wind Mage spec added (same as Crown of Serenity)"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Corrupt Angel",
+                "changes": [
+                    "Now spawns instantly after Avalon is summoned"
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Ritual of Sacrifice",
+                    [
+                        "Now pulls in nearest player instead of random player",
+                        "Debuff ramp up will now be shared across all players and will start after 5 seconds instead of 10 seconds (still feels a bit weird??)"
+                    ],
+                    "Baron of Blood / Servant of Blood",
+                    [
+                        "Now considered Boss Units"
+                    ],
+                    "Blood Sickness",
+                    [
+                        "Summons afflicted by Blood Sickness will no longer spawn monstrosities when killed/expired"
+                    ],
+                    "Blood Tendril",
+                    [
+                        "AoE indicator size increased to better match actual hitbox"
+                    ],
+                    "Upon entering phase 2, Duke will summon 1 vampiric monstrostity per each player, spread around the map",
+                    "Bloody Swipes",
+                    [
+                        "'...' text will be much more visible now"
+                    ],
+                    "Blood Howl (spears dropping from sky)",
+                    [
+                        "Color on AoE indicators changed from red to yellow",
+                        "Spear damage: 40000 split between targets → 7500 + max HP X 50%"
+                    ],
+                    "Blood Orb",
+                    [
+                        "Orb is now more visible (add some dark trails to it)"
+                    ],
+                    "Giant Tentacle",
+                    [
+                        "Lock-on time: 1.5 seconds → 2.5 seconds",
+                        "Hitbox for Duke slightly increased"
+                    ],
+                    "Spike",
+                    [
+                        "Fixed an issue with spike not being easily clickable"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Now spawns will full swords on loading"
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Now spawns with full distortion stacks on loading"
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Enchant Mastery (T)",
+                    [
+                        "Damage increase on Sword Enchant (D) 25% → 30%"
+                    ]
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Flame Spirit (W)",
+                    [
+                        "When used on ally, grants shield absorbing (INT X 1.5) damage"
+                    ],
+                    "Flame Nova (E)",
+                    [
+                        "Last pulse: AoE 311 ~ 439 → 311 ~ 500"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Heal (D)",
+                    [
+                        "Heals target for additional (max HP X 7%) per second if target is a summon"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Camera angle will now be savable within code",
+            "Save code display duration: 3 minutes → 15 seconds",
+            "Record shortcutes added ('-r' for record, '-rs' for record start, '-re' for record end)"
+        ]
+    },
+    {
+        "name": "54c",
+        "notes": [
+            "Released on: October 30th, 2021",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Water Mage - Fixed a bug where ultimate did not freeze enemies"
+        ]
+    },
+    {
         "name": "54b",
         "notes": [
-            "Released on: ",
+            "Released on: October 17th, 2021",
             "Compatible Version: v0.51a ~"
         ],
         "bugs": [

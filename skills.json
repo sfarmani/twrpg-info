@@ -1528,7 +1528,7 @@
             "Summons a spirit of flame to engulf the target or the ground.",
             "Each second deals INT X 1.5 magic damage",
             "Lasts 5 seconds",
-            "On ally: Removes debuffs",
+            "On ally: Removes debuffs and grants a shield that absorbs INT X 1.5 damage",
             "On ground: Stuns for 2 seconds, lasts 50% longer"
         ],
         "passive_tags": [
@@ -1970,7 +1970,7 @@
         "order": 6,
         "passive": [
             "Profound mastery allows Sword Enchanter to disintegrate the armors of her enemies.",
-            "Increases damage of Sword Enchant by 25%"
+            "Increases damage of Sword Enchant by 30%"
         ],
         "active": [
             "Empowers your chant to make it resonate further.",
@@ -5980,6 +5980,7 @@
             "Heal target's wounds",
             "Heals target's Max HP X 8% every second",
             "Reduces target's damage taken by 20% while active",
+            "If target is summon: heals for an additional max HP X 7% per second",
             "Lasts for 12 seconds"
         ],
         "active_tags": [
