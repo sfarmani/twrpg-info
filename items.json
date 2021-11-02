@@ -22473,7 +22473,7 @@
         "On equip, activates Guardian Aura",
         "Increases nearby allies' main stat by 80 + 4% [Type-A]",
         "Heals nearby allies within 500 radius (excluding yourself) by 2000 HP every 3 seconds",
-        "(Any affected ally cannot be healed by Holy Nova again within 3 seconds)"
+        "(Any affected ally cannot be healed by this effect again within 3 seconds)"
       ],
       "active": [
         "On use, activate Guardian Angel",
