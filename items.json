@@ -12708,7 +12708,7 @@
       "agi": 100,
       "skilldamagepercent": 0.05,
       "passive": [
-        "Increases nearby allies' stats by 5% (Type-A, excluding self)"
+        "Increases nearby allies' stats by 5% [Type-A, excluding self]"
       ]
     }
   },

@@ -147,5 +147,14 @@
             "Azathos, the Pipe of Chaos (Aura)",
             "Horn of God (Aura)"
         ]
+    },
+    {
+        "type": "Type-A",
+        "suffix": "None",
+        "bufftype": "Main Stat",
+        "names": [
+            "Heaven's Door (Aura) - (60 + 3%)",
+            "Guardian Angel (Aura) - (80 + 4%)"
+        ]
     }
 ]
