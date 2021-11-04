@@ -20696,7 +20696,7 @@
       "periodicdamagepercent": 0.30,
       "healreceivedpercent": -0.30,
       "passive": [
-        "On attack, 12.5% chance to activate Madness",
+        "On attack, 15% chance to activate Madness",
         "Next 3 hits will deal bonus (ATK DMG X 1) pure damage",
         "Increases attack damage by 7500, main stat and HP regen by 375 for 7.5 seconds",
         "Cooldown: 15 seconds, cannot be dropped during cooldown"

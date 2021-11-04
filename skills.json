@@ -1289,7 +1289,7 @@
             "Manipulate blood through black magic.",
             "Increases max HP by INT X 4",
             "Periodically charges blood gauge every (6 - 0.04 X Hero Level)",
-            "On next attack, consumes blood gauge to deal Max HP X 25% pure damage and heal for Max HP X 5%"
+            "On next attack, consumes blood gauge to deal Max HP X 25% pure damage and heal for Max HP X 6%"
         ],
         "passive_tags": [
             "Hero",
@@ -1429,7 +1429,7 @@
         "order": 6,
         "active": [
             "Purify enemies with a ritual of blood.",
-            "Max HP X 6 magic damage",
+            "Max HP X 7.5 magic damage",
             "Pulls in enemes that are far away"
         ],
         "active_tags": [
@@ -1449,7 +1449,7 @@
         "order": 7,
         "active": [
             "\"I shall beautify you even further !\"",
-            "Create 16 spears each second for 3 seconds, inflicting attack damage x 1 + MAX HP x 55% magic damage per spear",
+            "Create 10 spears each second for 2 seconds, inflicting Attack Damage X 1 + MAX HP X 70% magic damage per spear",
             "Deals 40% bonus damage to enemies under 40% HP",
             "Becomes immune to CC effects while casting"
         ],
@@ -1803,8 +1803,8 @@
         ],
         "active": [
             "Relentlessly fire magic bullets together with the probes.",
-            "Fires 12 bullets + 4 additional bullets per probe every second",
-            "Channeled up to a maximum of 4 seconds",
+            "Fires 12 bullets + 4 additional bullets per probe every second (each bullet deals 70% bonus damage)",
+            "Channeled up to a maximum of 3 seconds",
             "Each 1% increase in attack speed increases fire count by 0.5%"
         ],
         "passive_tags": [
@@ -5381,7 +5381,7 @@
         "order": 2,
         "active": [
             "Delivers a fierce strike that breaks the target's soul apart.",
-            "Attack damage X 0.6 + STR X 4.5 magic damage",
+            "Attack damage X 0.75 + STR X 5.5 magic damage",
             "Damage is increased by 100% for each 0.2 second channeled, and rips out target's soul if channeled to max",
             "If cast twice consecutively, next cast has no cast time and has 50% increased damage"
         ],
@@ -5398,12 +5398,12 @@
         "color": "8080ff",
         "hotkey": "[W]",
         "icon": "DarkKnightW",
-        "cooldown": 15,
+        "cooldown": 10,
         "order": 3,
         "active": [
             "Slams down with strength powerful enough to awaken dormant souls lying beneath the grounds.",
             "Attack damage X 1 + (STR X INT) X 10 magic damage",
-            "Activates Deathblade and summons 4 souls",
+            "Activates Deathblade and summons 3 souls",
             "STR Main Stat: Increases damage of Abyssal Slam by (Hero Level X 2)%"
         ],
         "active_tags": [
@@ -7244,7 +7244,7 @@
         "passive": [
             "Lands your attacks with a flow.",
             "If you fulfill one of the conditions below, restores 1 energy and activates combo effect",
-            "If you repeat same move for next 3 hits: Increases attack damage by 20% for 5 seconds (stacks up to 4 times)",
+            "If you repeat same move for next 3 hits: Increases attack damage by 25% for 5 seconds (stacks up to 3 times)",
             "If you don't repeat same move for next 3 hits: Empowers next move"
         ],
         "passive_tags": [
@@ -7305,11 +7305,10 @@
         "order": 4,
         "active": [
             "Quickly steps back.",
-            "Moves 300 distance back",
             "Next attack allows you to dash to target and ignore 100% of its armor",
             "Reduce target's movement speed by 75% for 2 seconds",
             "Does not activate 'on skill cast' effects",
-            "Empowered: Deals 300% damage and has 20% chance to leave target CRACKED for 6 seconds"
+            "Empowered: Deals 300% damage and has 20% chance to leave target CRACKED for 6 seconds. If Chain Blow has max stacks, you will have double chance to apply CRACKED (this effect has 20 seconds cooldown)"
         ],
         "active_tags": [
             "Hero",
@@ -7329,7 +7328,8 @@
         "order": 5,
         "passive": [
             "Attacks your target relentlessly.",
-            "If activating a combo different from before, your skills deal 10% increased damage for 10 seconds (stacks up to 7 times)",
+            "If activating a combo different from before, your skills deal 10% increased damage for 10 seconds (stacks up to 5 times)",
+            "At max stacks, your skills deal additional 20% increased damage",
             "33% chance to enable activation once within next 2.5 seconds",
             "If target is SHATTERED, you can continuously activate the skill without losing stacks"
         ],
@@ -7393,8 +7393,8 @@
         "order": 7,
         "active": [
             "Gathers energy into your fist to release a powerful strike.",
-            "Attack damage X 4.5 + STR X 30 magic damage",
-            "Empowered: Deals up to 300% damage based on traveled distance"
+            "Attack damage X 5 + STR X 30 magic damage",
+            "Empowered: Deals up to 250% damage based on traveled distance"
         ],
         "active_tags": [
             "Hero",
@@ -7414,7 +7414,7 @@
         "active": [
             "\"Let's wrestle!\" -Fighter",
             "Hurls your body forward and latches onto a boss enemy",
-            "Each hit deals STR X 3.75 magic damage",
+            "Each hit deals STR X 4.25 magic damage",
             "Final hit deals STR X 85 magic damage and applies SHATTERED for 5 seconds",
             "Resets duration of Combo Mastery and Chain Blow while active"
         ],

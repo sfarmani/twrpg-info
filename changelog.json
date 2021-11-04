@@ -1,5 +1,175 @@
 [
     {
+        "name": "55c",
+        "notes": [
+            "Released on: November 4th, 2021",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Fixed a bug where pumpkin land portal malfunctioned / invitations were not used"
+        ]
+    },
+    {
+        "name": "55b",
+        "notes": [
+            "Released on: November 4th, 2021",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Fixed issue -recipe/-recall commands displaying error messages",
+            "Splitting of Sky and Earth - Fixed issue with active not working properly",
+            "Ancient Ent - Fixed parts of terrain where you could get stuck on"
+        ],
+        "events": [
+            "Halloween Event",
+            [
+                "Pumpkin Lord - Special skill now activates only once when boss reaches 50% HP, instead of activating 2 times at 66%/33%",
+                "Pumpkin Lord - A return portal will be opened when Pumpkin Lord is defeated",
+                "Ghost Minigame - Ghost blink cast time reduced slightly",
+                "Ghost Minigame - Super candy will no longer do a discovery message/ping",
+                "Ghost Minigame - Only the central area (play area) will be revealed while playing the game"
+            ]
+        ],
+        "items": [
+            {
+                "name": "Ring of Insanity",
+                "changes": [
+                    "Passive",
+                    [
+                        "Proc chance 12.5% → 15%"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Count of Wallachia",
+                "changes": [
+                    "Summon location move to the right side of the castle"
+                ]
+            },
+            {
+                "name": "Turtle Lord",
+                "changes": [
+                    "Healing turtle warning sound/ping will only happen to users inside the boss zone"
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Blood Plague",
+                    [
+                        "Added 2 second delay before debuff is applied"
+                    ],
+                    "Blood Orb",
+                    [
+                        "Orbs will not spawn within 750 radius of Duke",
+                        "When Duke jumps, any orbs within 600 radius of target point will be pushed to the 600 range ring"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Soul Break (Q)",
+                    [
+                        "Damage: ATK DMG X 0.6 + STR X 4.5 → ATK DMG X 0.75 + STR X 5.5"
+                    ],
+                    "Abyssal Slam (W)",
+                    [
+                        "Cooldown: 15 seconds → 10 seconds",
+                        "Soul spawn count: 4 → 3"
+                    ],
+                    "Requiem (T)",
+                    [
+                        "All summoned souls will now be consumed to increase T damage regardless of distance (previously had 750 distance limit)"
+                    ]
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Divine Spirit (W)",
+                    [
+                        "Fixed issue with ally casting clipping your character with target"
+                    ]
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Will load with full MP"
+                ]
+            },
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Combo Mastery (D)",
+                    [
+                        "Attack damage increase per stack: 20% → 25%",
+                        "Max stacks: 4 → 3",
+                        "Max increase: 80% → 75%"
+                    ],
+                    "Footwork (W)",
+                    [
+                        "CRACKED chance will increase 2x if Chain Blow stacks are at max (once procc'd, will have 20 second cooldown before chance can be increased again)"
+                    ],
+                    "Chain Blow (E)",
+                    [
+                        "Max stacks 7 → 5",
+                        "Grants 20% bonus at max stacks"
+                    ],
+                    "Dragon Fist (T)",
+                    [
+                        "Damage: ATK DMG X 4.5 + STR X 30 → ATK DMG X 5 + STR X 30",
+                        "Max damage based on distance: 300% → 250%",
+                        "Cooldown: 30 seconds → 40 seconds"
+                    ],
+                    "Takedown (F)",
+                    [
+                        "Each hit damage: STR X 3.75 → STR X 4.25"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Stardust Rain (T)",
+                    [
+                        "Active duration: 4 seconds → 3 seconds",
+                        "Projectiles fired from active portion will now do 70% more damage"
+                    ]
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Mastery (D)",
+                    [
+                        "Heal amount: max HP X 5% → max HP X 6%"
+                    ],
+                    "Crimson Pillar (T)",
+                    [
+                        "Damage: Max HP X 6 → max HP X 7.5"
+                    ],
+                    "Sacrifice (F)",
+                    [
+                        "Hit consistency increased greatly",
+                        "Damage per spear: ATK DMG X 1 + HP X 65% → ATK DMG X 1 + HP X 70%",
+                        "Cast time: 4 seconds → 3 seconds",
+                        "Max spear count: 48 → 20"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Meteor sound removed from Hell Hound mount",
+            "Level recommendations on training zones adjusted"
+        ]
+    },
+    {
         "name": "55a",
         "notes": [
             "Released on: November 1st, 2021",
