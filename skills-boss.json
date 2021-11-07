@@ -2693,8 +2693,8 @@
         "color": "a3bccc",
         "type": "passive",
         "description": [
-            "When applied, reduces healing by 100%",
-            "Lasts for 5 seconds"
+            "When applied, reduces magic resistance by 100%",
+            "Lasts for 3 seconds"
         ]
     },
     {
@@ -2706,10 +2706,25 @@
         "cooldown": "5",
         "description": [
             "Sends down Meteors at random places around Ifrit",
-            "On Impact they'll deal 250% max hp Magic Damage",
-            "The waves will deal 7500 Magic Damage",
+            "On Impact they'll deal 250% max HP Magic Damage and stun for 3 seconds",
+            "The waves will deal 7500 Magic Damage and stun",
             "After the impact, create a lava pool that lasts 10 seconds",
-            "Lava pools deal 2%+3k hp Magic Damage per second"
+            "Lava pools deal 2% max HP + 3000 Magic Damage per second"
+        ]
+    },
+    {
+        "id": "",
+        "name": "Hot Pursuit",
+        "caster": "Ifrit",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "0",
+        "cost": "100",
+        "description": [
+            "Selects a random target to chase, after waiting 3 seconds, start moving toward that target",
+            "Kills all units on the floor in its path",
+            "If collide with debris, stop",
+            "Sends 2 lava pool waves behind self at a 'V' angle that deal 10000 Magic Damage"
         ]
     },
     {
@@ -2754,10 +2769,7 @@
     {
         "id": "",
         "name": "Hot Pursuit",
-        "caster": [
-            "Ifrit",
-            "Obsidian Golem"
-        ],
+        "caster": "Obsidian Golem",
         "color": "f89c34",
         "type": "active",
         "cooldown": "0",
@@ -2766,8 +2778,7 @@
             "Selects a random target to chase, after waiting 3 seconds, start moving toward that target",
             "Kills all units on the floor in its path",
             "If collide with debris, stop",
-            "If Golem break 30% armor of Obsidian Armor",
-            "If Ifrit, send 2 lava pool waves behind self at a 'V' angle that deal 10000 Magic Damage"
+            "Breaks 30% armor of Obsidian Armor"
         ]
     },
     {
