@@ -21978,6 +21978,10 @@
         "Consumes a charge of Twisted Soul",
         "For 6 seconds, deals 60000 magic damage per second to nearby enemies within 500 radius and increases their damage taken by 8% [Type-B]",
         "Deals 200% bonus damage to non-boss units"
+      ],
+      "spec": [
+        "Specialty - Eternal Lamentation",
+        "Dark Knight - After Requiem is cast, 4 additional souls are spawned."
       ]
     }
   },

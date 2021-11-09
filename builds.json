@@ -388,28 +388,42 @@
     },
     {
         "for": "Bow Master",
-        "type": "DPS",
+        "type": "DPS/Burst Hybrid",
         "order": 1,
         "stat": "AGI",
-        "version": "38d",
+        "version": "55c",
         "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=6390"
+            "https://twrpg.com/viewtopic.php?f=4&t=6892"
         ],
         "description": [
-            "Ring of the One is easier to make than Ring of Frozen Soul and really solid until you reach Agareth",
-            "Mask of Demigod - Getting used to active timing is a bit difficult but it gives high burst.",
-            "Overall, Demigod is an unnecessary item unless you just want to burst stuff"
+            "For a more detailed description of this build, please visit the guide linked above"
         ],
         "items": {
             "Soulbane": [],
-            "Eye of the Reaper": [
-                "Mask of Demigod"
-            ],
-            "Ring of Frozen Soul": [
-                "Ring of the One"
-            ],
+            "Eye of the Reaper": [],
+            "Ring of Frozen Soul": [],
             "Vest of Divine Winds": [],
             "Wings of Night Lord": []
+        }
+    },
+    {
+        "for": "Bow Master",
+        "type": "DPS",
+        "order": 2,
+        "stat": "AGI",
+        "version": "55c",
+        "guidelink": [
+            "https://twrpg.com/viewtopic.php?f=4&t=6892"
+        ],
+        "description": [
+            "For a more detailed description of this build, please visit the guide linked above"
+        ],
+        "items": {
+            "Agnitus, the Bow of Divine Fury": [],
+            "Eye of the Reaper": [],
+            "Ring of Insanity": [],
+            "Vest of Divine Winds": [],
+            "Bloodstorm": []
         }
     },
     {
