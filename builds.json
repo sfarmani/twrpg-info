@@ -400,7 +400,9 @@
         ],
         "items": {
             "Soulbane": [],
-            "Eye of the Reaper": [],
+            "Eye of the Reaper": [
+                "Mask of Demigod"
+            ],
             "Ring of Frozen Soul": [],
             "Vest of Divine Winds": [],
             "Wings of Night Lord": []
