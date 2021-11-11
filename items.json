@@ -776,7 +776,7 @@
     "type": "Weapon (Melee)",
     "color": "AFC3FF",
     "level": 30,
-    "droprate": 0.33,
+    "droprate": 1,
     "required_by": [
       "Parasitic Sword"
     ],
@@ -802,7 +802,7 @@
     "type": "Armor",
     "color": "AFC3FF",
     "level": 30,
-    "droprate": 0.33,
+    "droprate": 1,
     "required_by": [
       "Infected Crab Armor"
     ],
@@ -827,7 +827,7 @@
     "type": "Accessory",
     "color": "AFC3FF",
     "level": 30,
-    "droprate": 0.33,
+    "droprate": 1,
     "required_by": [
       "Wing of Sea"
     ],
@@ -854,7 +854,7 @@
     "type": "Weapon (Staff)",
     "color": "AFC3FF",
     "level": 30,
-    "droprate": 0.33,
+    "droprate": 1,
     "stats": {
       "damage": 280,
       "int": 60,
@@ -876,7 +876,7 @@
     "type": "Weapon (Gun)",
     "color": "AFC3FF",
     "level": 30,
-    "droprate": 0.33,
+    "droprate": 1,
     "required_by": [
       "Beast Hunter"
     ],
@@ -899,7 +899,7 @@
     "type": "Wings",
     "color": "AFC3FF",
     "level": 30,
-    "droprate": 0.33,
+    "droprate": 1,
     "required_by": [
       "Wing of Sea"
     ],
@@ -1112,7 +1112,7 @@
     "type": "Weapon (Bow)",
     "color": "AFC3FF",
     "level": 40,
-    "droprate": 0.33,
+    "droprate": 1,
     "required_by": [
       "Icicle Storm"
     ],
@@ -1138,7 +1138,7 @@
     "type": "Headwear",
     "color": "AFC3FF",
     "level": 40,
-    "droprate": 0.33,
+    "droprate": 1,
     "stats": {
       "armor": 30,
       "str": 30,
@@ -1160,7 +1160,7 @@
     "type": "Accessory",
     "color": "AFC3FF",
     "level": 40,
-    "droprate": 0.33,
+    "droprate": 1,
     "stats": {
       "int": 30,
       "hp": 500,
@@ -1186,7 +1186,7 @@
     "type": "Weapon (Melee)",
     "color": "AFC3FF",
     "level": 40,
-    "droprate": 0.33,
+    "droprate": 1,
     "required_by": [
       "Maw of Monster"
     ],
@@ -1212,7 +1212,7 @@
     "type": "Armor",
     "color": "AFC3FF",
     "level": 40,
-    "droprate": 0.33,
+    "droprate": 1,
     "required_by": [
       "Precious Wind-Protection Clothing",
       "Very Silky Bag"
@@ -1239,7 +1239,7 @@
     "type": "Accessory",
     "color": "AFC3FF",
     "level": 40,
-    "droprate": 0.33,
+    "droprate": 1,
     "required_by": [
       "Beast Hunter",
       "Very Sturdy Bag"
@@ -7969,7 +7969,7 @@
     "type": "Weapon (Melee)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.01,
+    "droprate": 0.0075,
     "required_by": [
       "Cosmic Reaper",
       "Shadow Dragon Icon"
@@ -7999,7 +7999,7 @@
     "type": "Armor",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.0175,
+    "droprate": 0.01,
     "required_by": [
       "Shadow Dragon Icon"
     ],
@@ -8033,7 +8033,7 @@
     "type": "Accessory",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.0175,
+    "droprate": 0.01,
     "required_by": [
       "Ring of Time",
       "Ispion, the Runed Ring",
@@ -8065,7 +8065,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.0125,
     "required_by": [
       "Crimson Reaper",
       "Ruinbringer",
@@ -8120,7 +8120,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.02,
+    "droprate": 0.0125,
     "required_by": [
       "Staff of Plague",
       "Pheles, the Bow of God",
@@ -8181,7 +8181,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.0175,
-      0.0125
+      0.0075
     ],
     "required_by": [
       "Winter's Heart",
@@ -16060,6 +16060,7 @@
       "agi": 255,
       "skilldamagepercent": 0.08,
       "mdpercent": 0.12,
+      "movespeed": 50,
       "passive": [
         "On skill cast, releases lightning for 3 seconds",
         "Deals ((STR + AGI) X 3) magic damage",
@@ -21763,7 +21764,7 @@
     ],
     "stats": {
       "damage": 14800,
-      "movespeed": 50,
+      "movespeed": 75,
       "skilldamagepercent": 0.075,
       "passive": [
         "On attack, leaves a Mark",
@@ -22024,6 +22025,7 @@
       "agi": 385,
       "skilldamagepercent": 0.12,
       "mdpercent": 0.12,
+      "movespeed": 50,
       "passive": [
         "On skill cast, activates Blood Nova",
         "Deals ((STR + AGI) X 4) magic damage to nearby enemies per second",
@@ -22276,8 +22278,8 @@
       "passive": [
         "Upon moving 400 distance, empowers next attack with Bloody Bite",
         "Deals (3000 + Attack Damage X 50%) pure damage and heals you for max HP X 8%",
-        "Increases attack damage by 500, HP regen by 75 for 5 seconds",
-        "Can stack infinitely, but each stack beyond first 5 has only 10% effectiveness"
+        "Increases attack damage by 500, HP regen by 75 for 6 seconds",
+        "Can stack infinitely, but each stack beyond first 5 has only 5% effectiveness"
       ],
       "active": [
         "On use, activates Insatiable Hunger",

@@ -1901,7 +1901,7 @@
             "Reads a chant that boosts speed.",
             "Projects 2 Enchanted Swords",
             "Increases movement speed by 400 & dodge chance by 60% for 6 seconds",
-            "Sword Enchant - Projects an Enchanted Sword for every 200 distance travelled",
+            "Sword Enchant - Projects an Enchanted Sword for every 175 distance travelled",
             "Does not stack with Power Enchant"
         ],
         "active_tags": [
@@ -3241,7 +3241,7 @@
         "order": 3,
         "passive": [
             "The blessing of god allows crusader to become a persevering light amidst her battles.",
-            "Increases your all stats by 12% and nearby allies' all stats by 6%",
+            "Increases nearby allies' all stats by 5% (2x for yourself)",
             "Damage received reduced by 20% if HP is below 50%"
         ],
         "active": [
@@ -3824,7 +3824,7 @@
         "order": 4,
         "active": [
             "Pierces through target, delivering a deadly strike.",
-            "After one second, inflict attack damage X 0.9 + AGI X 9 magic damage",
+            "After one second, inflict attack damage X 1.1 + AGI X 11 magic damage",
             "While active, Whirl of Death (Q) will deal an additional 200% damage and Death's Dash's damage is increased by 50%"
         ],
         "active_tags": [
@@ -3848,7 +3848,7 @@
             "Relentlessly slashes the target.",
             "Attacks with Attack Damage X 10% every 0.05 seconds",
             "While active, reduces damage taken by 80% and becomes immune to CC effects",
-            "Can be maintained up to 0.9 second"
+            "Can be maintained up to 1 second"
         ],
         "active_tags": [
             "Hero",
@@ -4827,7 +4827,7 @@
         "order": 4,
         "passive": [
             "As the hunger for blood increases, so do berserker's combat abilities.",
-            "Increases attack damage up to (STR X 6), skill damage up to 30% based on missing HP",
+            "Increases attack damage up to (STR X 6), move speed up to 125, skill damage and damage reduction up to 40% based on missing HP",
             "Each attack increases STR by 6%, attack speed by 15% for 6 seconds (stacks up to 5 times)"
         ],
         "toggle": [
@@ -4871,7 +4871,7 @@
         ]
     },
     {
-        "id": "A0FI",
+        "id": "A037",
         "name": "Berserk",
         "heroClass": "Berserker",
         "color": "8b0000",
@@ -4887,7 +4887,7 @@
         "active": [
             "Driven by madness, Berserker becomes a killing machine whose sole purpose is to battle.",
             "Consumes HP X 80%",
-            "Increases attack speed by 100% and movement speed by 125 for 12 seconds",
+            "Increases attack speed by 100% for 12 seconds",
             "Evades death for the duration"
         ],
         "passive_tags": [

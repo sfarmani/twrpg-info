@@ -625,7 +625,7 @@
         "level": "40",
         "category": "Field",
         "type": "Boss",
-        "limit": "2",
+        "limit": "1",
         "location": "Right side of Wild Life Habitat, Seaside",
         "conditions": "Level 10 ~ 20 and Magical Horn",
         "stats": {
@@ -662,7 +662,7 @@
         "level": "40",
         "category": "Field",
         "type": "Boss",
-        "limit": "2",
+        "limit": "1",
         "location": "Right side of Wild Life Habitat, Seaside",
         "conditions": "Level 10 ~ 20 and Magical Horn",
         "stats": {
@@ -823,7 +823,7 @@
         "level": "50",
         "category": "Field",
         "type": "Boss",
-        "limit": "2",
+        "limit": "1",
         "location": "In Frosty Snowfield",
         "conditions": "Level 40 and Frozen Crystal",
         "stats": {
@@ -885,7 +885,7 @@
         "level": "50",
         "category": "Field",
         "type": "Boss",
-        "limit": "2",
+        "limit": "1",
         "location": "In Frosty Snowfield",
         "conditions": "Level 40 and Frozen Crystal",
         "stats": {
@@ -3449,7 +3449,7 @@
         "category": "High",
         "type": "Boss",
         "limit": "None",
-        "respawn": "3",
+        "respawn": "4",
         "location": "In Prius Forward camp, the Sealed Land to the North",
         "conditions": "Level 100",
         "stats": {
@@ -3526,7 +3526,7 @@
         "category": "High",
         "type": "Boss",
         "limit": "None",
-        "respawn": "3",
+        "respawn": "4",
         "location": "In Prius Forward camp, the Graveyard of Eternal Life to the East",
         "conditions": "Level 100",
         "stats": {
@@ -3637,7 +3637,7 @@
         "category": "High",
         "type": "Boss",
         "limit": "None",
-        "respawn": "3",
+        "respawn": "4",
         "location": "In Fairy Forest where a statue resides",
         "conditions": "Level 100, 1 Green Magic Stone on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
         "stats": {
@@ -3683,7 +3683,6 @@
         "level": "110",
         "category": "High",
         "type": "Minion",
-        "limit": "None",
         "location": "Within Ancient Ent's domain, north of Fairy Forest",
         "conditions": "Spawned by Ancient Ent",
         "stats": {
@@ -3723,7 +3722,6 @@
         "level": "110",
         "category": "High",
         "type": "Minion",
-        "limit": "None",
         "location": "Within Ancient Ent's domain, north of Fairy Forest",
         "conditions": "Spawned by Ancient Ent",
         "stats": {
@@ -3779,7 +3777,7 @@
         "category": "High",
         "type": "Boss",
         "limit": "None",
-        "respawn": "3",
+        "respawn": "4",
         "location": "In Castle Avalon, fighting area of Guardian Angels",
         "conditions": "Recommended Level 100, Guardian Angels defeated, and White Magic Stone x3",
         "stats": {
@@ -3823,7 +3821,7 @@
         "category": "High",
         "type": "Boss",
         "limit": "None",
-        "respawn": "3",
+        "respawn": "4",
         "location": "South of Frosty Snowfield, in Deep Snowfield",
         "conditions": "Level 100 and Blue Magic Stone x12",
         "stats": {

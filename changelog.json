@@ -1,5 +1,210 @@
 [
     {
+        "name": "55e",
+        "notes": [
+            "Released on: November 11th, 2021",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Fixed a bug regarding Berserker and Mounts"
+        ]
+    },
+    {
+        "name": "55d",
+        "notes": [
+            "Released on: November 10th, 2021",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Duke Lazarus - Reduced fatal errors related to memory leak",
+            "Duke Lazarus - Fixed issue where boss shield gets reduced even if not being hit by tentacles",
+            "Duke Lazarus - Fixed bug where boss could be pulled (BW E, DK RW, etc.)",
+            "Duke Lazarus - Fixed issue where summons could fly over terrain",
+            "Soul Weaver - Fixed bug with Soul Blast (Q) displaying damage text to allies when using Halloween skin",
+            "Cape of Insatiable Hunger - Fixed error with description; fixed bug where the passive only lasted 4 seconds"
+        ],
+        "events": [
+            "Size of event tickets increased"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Only the highest source of movement speed will apply from any item stats/passive/active effects.",
+                    "New item added",
+                    [
+                        "Robe of Storm"
+                    ]
+                ]
+            },
+            {
+                "name": "Caedis, the Sword of Slaughter",
+                "changes": [
+                    "Movement Speed: 50 → 75"
+                ]
+            },
+            {
+                "name": "Plates of Lightning / Plates of Sanguine Fury",
+                "changes": [
+                    "Added 50 movement speed"
+                ]
+            },
+            {
+                "name": "Bloodseeker Plates",
+                "changes": [
+                    "Passive effect cooldown will be displayed as item charges"
+                ]
+            },
+            {
+                "name": "Cape of Insatiable Hunger",
+                "changes": [
+                    "Buff duration: 5 seconds → 6 seconds",
+                    "Buff efficiency beyond 20 stacks: 10% → 5%"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "King Crab / Walrus / Mammoth / King Kong",
+                "changes": [
+                    "Summon item drop rate increased, drop cooldown 5 minutes → 4 minutes",
+                    "Boss max item drop count: 2 → 1",
+                    "Boss item drop rate: 33% → 100%"
+                ]
+            },
+            {
+                "name": "Frostspider Lord",
+                "changes": [
+                    "Cave can now be entered even if someone is fighting the boss"
+                ]
+            },
+            {
+                "name": "Skeletal King Desperia ~ Shadow Dragon Irbert",
+                "changes": [
+                    "Max resummon count: 3 → 4"
+                ]
+            },
+            {
+                "name": "Archangel Samael",
+                "changes": [
+                    "Vanish circles disappear when boss starts wheel or when boss dies"
+                ]
+            },
+            {
+                "name": "Shadow Dragon Irbert",
+                "changes": [
+                    "Now uses loot chest (individual loot)",
+                    "Drop rates adjusted accordingly"
+                ]
+            },
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "Special pattern that activates at 20% HP will have a few seconds delay before activating"
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Blood Tendril",
+                    [
+                        "Fixed issue where there were some angles that the tendrils never hit",
+                        "Tendril will no longer pull CC immune units"
+                    ],
+                    "Blood Plague",
+                    [
+                        "Once Ritual of Sacrifices starts, the debuff will be applied onto two targets each time"
+                    ],
+                    "Vampiric Monstrosities",
+                    [
+                        "Attack Damage: 500 → 1500",
+                        "Spawn count: (1 X player count) → min 5, with 1 added at 8 and 10 players respectively (up to 7)",
+                        "They spawn farther out and are invul until one second after Duke is able to move"
+                    ],
+                    "Spike Curse",
+                    [
+                        "Added 1 second delay before spikes start to activate on target"
+                    ],
+                    "Spike",
+                    [
+                        "Applying 'Shield Break' effect on Spike will make it permanently take 40% more damage",
+                        "Can only happen once per spike"
+                    ],
+                    "Blood Howl",
+                    [
+                        "Small spears - Hit radius: 425 → 475 for 1 ~ 4 players, 425 for 5 ~ 7 players, 375 for 8 ~ 10 players",
+                        "Large spears - Time given for free dps: 2 seconds → 3 seconds"
+                    ],
+                    "Blood Orb",
+                    [
+                        "Only freshly spawned orbs can now be knocked back"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Hero notes",
+                "changes": [
+                    "Movement speed of heroes now capped at 1000 (default 500 + additional 500)"
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Blood Fury (E)",
+                    [
+                        "Grants up to 125 move speed bonus based on missing HP"
+                    ],
+                    "Berserk [T]",
+                    [
+                        "No longer grants 125 move speed bonus",
+                        "The skill's duration will now only pause while Blade Rush (R) / Rabid Storm (F) is active and not by any other means"
+                    ]
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Flash of Immortality (W)",
+                    [
+                        "Stat increase: 6% → 5%"
+                    ]
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Speed Enchant (W)",
+                    [
+                        "Move distance need to summon a sword: 200 → 175"
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Death's Dash (Q)",
+                    [
+                        "Damage: ATK DMG X 0.33 + AGI X 5 → ATK DMG X 0.5 + AGI X 5"
+                    ],
+                    "Death's Slash (R)",
+                    [
+                        "Duration: 0.9 seconds → 1 second"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Added ship captain to Seaside",
+            "Loot Chests dropped from bosses high bosses (sk and above) will now display the names of dropped items beside each player’s name",
+            "There have been small changes of terrain in Snowfield and Wallachia Graveyard",
+            "Resummoning bosses and magical loot (summon item) drops will no longer ping maps",
+            "Craft message has been moved to center of screen",
+            "Fixed some UI elements being untranslated"
+        ]
+    },
+    {
         "name": "55c",
         "notes": [
             "Released on: November 4th, 2021",
@@ -710,7 +915,7 @@
                 ]
             },
             {
-                "name": "Caedis, the Blade of Slaughter",
+                "name": "Caedis, the Sword of Slaughter",
                 "changes": [
                     "Passive",
                     [
@@ -793,7 +998,7 @@
                 "changes": [
                     "New items added (more items will be added over next few weeks before new boss is added) - not yet released due to boss not being released",
                     [
-                        "Caedis, the Blade of Slaughter",
+                        "Caedis, the Sword of Slaughter",
                         "Fulminata, the Bringer of Storms",
                         "Akhelius, the Staff of Duality",
                         "Agnitus, the Bow of Divine Fury",
