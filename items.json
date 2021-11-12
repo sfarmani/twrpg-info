@@ -7375,6 +7375,7 @@
       "Hydro Buster",
       "Bag of Explosion",
       "Spirit of Protector",
+      "Robe of Storm",
       "Zombie Lord Icon"
     ],
     "recipe": [
@@ -7605,6 +7606,7 @@
       "Storm",
       "Oblivion",
       "Ring of Divine Winds",
+      "Robe of Storm",
       "Ancient Ent Icon"
     ],
     "stats": {
@@ -8001,6 +8003,7 @@
     "level": 100,
     "droprate": 0.01,
     "required_by": [
+      "Robe of Storm",
       "Shadow Dragon Icon"
     ],
     "stats": {
@@ -8087,26 +8090,6 @@
       "Staff of Plague",
       "Bloodstorm",
       "Shadow Dragon Icon"
-    ],
-    "recipe": [
-      {
-        "Sealed Essence of Darkness": 2
-      }
-    ]
-  },
-  {
-    "id": "I0MQ",
-    "name": "Sealed Essence of Darkness",
-    "koreanname": "봉인된 암흑의 결정",
-    "notes": [
-      "1 sealed material also drops whenever a full material has been dropped"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "required_by": [
-      "Essence of Darkness"
     ]
   },
   {
@@ -8145,26 +8128,6 @@
       "Ring of Divine Winds",
       "Horn of Demon God",
       "Shadow Dragon Icon"
-    ],
-    "recipe": [
-      {
-        "Sealed Antimatter": 2
-      }
-    ]
-  },
-  {
-    "id": "I0MR",
-    "name": "Sealed Antimatter",
-    "koreanname": "봉인된 안티 매터",
-    "notes": [
-      "1 sealed material also drops whenever a full material has been dropped"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "required_by": [
-      "Antimatter"
     ]
   },
   {
@@ -8205,26 +8168,6 @@
       "Grim Heart",
       "Demonic Fist",
       "Shadow Dragon Icon"
-    ],
-    "recipe": [
-      {
-        "Sealed Frozen Debris": 2
-      }
-    ]
-  },
-  {
-    "id": "I0MS",
-    "name": "Sealed Frozen Debris",
-    "koreanname": "봉인된 한기의 조각",
-    "notes": [
-      "1 sealed material also drops whenever a full material has been dropped (only for Shadow Dragon)"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "required_by": [
-      "Frozen Debris"
     ]
   },
   {
@@ -8534,7 +8477,8 @@
       "Ring of Frozen Soul",
       "Caedis, the Sword of Slaughter",
       "Plates of Sanguine Fury",
-      "Heirloom of Lazarus"
+      "Heirloom of Lazarus",
+      "Robe of Storm"
     ]
   },
   {
@@ -19918,6 +19862,44 @@
         "Upon expiration, deals (MAIN STAT X 25) magic damage in an AoE",
         "Heals HP and MP equal to absorbed damage",
         "Cooldown: 20 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I027",
+    "name": "Robe of Storm",
+    "koreanname": "폭풍의 로브",
+    "description": "Feel the wrath of heaven!",
+    "rank": "[Epic]",
+    "grade": 4,
+    "type": "Armor",
+    "color": "99FF99",
+    "level": 100,
+    "recipe": [
+      {
+        "Draconic Skin Rusalka": 1
+      },
+      {
+        "Ring of the Storm": 1
+      },
+      {
+        "Proof of Purification": 1
+      },
+      {
+        "Aegis of Storm": 1
+      }
+    ],
+    "stats": {
+      "armor": 200,
+      "int": 390,
+      "movespeed": 50,
+      "skilldamagepercent": 0.11,
+      "passive": [
+        "During combat, activates Rig of Lightning",
+        "Deals (INT X 2) magic damage to enemies in 550 ~ 800 from you every second",
+        "Also grants a charge every time it hits enemy",
+        "When charge reaches 15 stacks, all charges are consumed and you gain 250 INT for 6 seconds",
+        "Cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
   },
