@@ -54,12 +54,19 @@
     {
         "type": "Type-B",
         "suffix": "None",
-        "bufftype": "Skill Damage",
+        "bufftype": "Skill Damage (Staff)",
         "names": [
             "Staff of Void (Buff)",
             "Staff of Madness (Buff)",
             "Staff of Abyss (Buff)",
-            "Soul of Abyss (Buff)",
+            "Soul of Abyss (Buff)"
+        ]
+    },
+    {
+        "type": "Type-B",
+        "suffix": "None",
+        "bufftype": "Skill Damage (Gun)",
+        "names": [
             "Red Cross (Buff)",
             "Crimson Cross (Buff)",
             "Crimson Star (Buff)",
