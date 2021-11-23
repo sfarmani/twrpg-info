@@ -459,7 +459,7 @@
         "type": "STR Full Support",
         "order": 1,
         "stat": "STR",
-        "version": "51b",
+        "version": "56a",
         "guidelink": [
             "https://docs.google.com/document/d/1xJGcGKLWDBu8iDUAcjknk1QRK34MYfPMnFRphjuLo3g/edit?usp=sharing"
         ],
@@ -469,7 +469,7 @@
         ],
         "items": {
             "Eternal Winter": [],
-            "Crown of Serenity": [
+            "Crown of Cleansing": [
                 "Spirit of Protector"
             ],
             "Ring of Hope": [],
@@ -484,7 +484,7 @@
         "type": "INT Full Support",
         "order": 2,
         "stat": "INT",
-        "version": "51b",
+        "version": "56a",
         "guidelink": [
             "https://docs.google.com/document/d/1xJGcGKLWDBu8iDUAcjknk1QRK34MYfPMnFRphjuLo3g/edit?usp=sharing"
         ],
@@ -493,43 +493,23 @@
             "If your team uses serenity, then you can switch to another helm"
         ],
         "items": {
-            "Harmonia, the Sparkle of Life": [],
-            "Crown of Serenity": [
+            "Endless Snow": [
+                "Harmonia, the Sparkle of Life"
+            ],
+            "Crown of Cleansing": [
                 "Hood of Apocalypse"
             ],
             "Ring of Hope": [],
             "Jupiter, the Robe of Heavens": [],
-            "Brave Heart": [
-                "Protection of the Fairies"
+            "Protection of the Fairies": [
+                "Brave Heart"
             ]
         }
     },
     {
         "for": "Hermit",
-        "type": "AGI Support/DPS Hybrid",
-        "order": 3,
-        "stat": "AGI",
-        "version": "51b",
-        "description": [
-            "For full support builds, check out the first two builds",
-            "Hermit doesn't have much DPS so a hybrid build works better for me.",
-            "The point of this build is to be able to switch between",
-            "support and dps without switching items and still being decent at both"
-        ],
-        "items": {
-            "Eternal Winter": [],
-            "Crown of Serenity": [],
-            "Ring of Hope": [],
-            "Vest of Divine Winds": [
-                "Frostshard Armor"
-            ],
-            "Protection of the Fairies": []
-        }
-    },
-    {
-        "for": "Hermit",
         "type": "AGI Full DPS",
-        "order": 4,
+        "order": 3,
         "stat": "AGI",
         "version": "51b",
         "description": [
