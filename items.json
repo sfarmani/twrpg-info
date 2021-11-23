@@ -1566,7 +1566,7 @@
     ],
     "rank": "[Rare]",
     "grade": 0,
-    "type": "Weapon (Melee)",
+    "type": "Weapon (Bow)",
     "color": "EBD787",
     "level": 50,
     "droprate": 0.25,
@@ -1628,7 +1628,7 @@
     ],
     "rank": "[Rare]",
     "grade": 0,
-    "type": "Weapon (Shared)",
+    "type": "Armor",
     "color": "EBD787",
     "level": 50,
     "droprate": 0.25,
@@ -7064,26 +7064,6 @@
       "Oblivion",
       "Bag of Explosion",
       "Skeleton King Icon"
-    ],
-    "recipe": [
-      {
-        "Sealed Fragment of Oblivion": 2
-      }
-    ]
-  },
-  {
-    "id": "I0ME",
-    "name": "Sealed Fragment of Oblivion",
-    "koreanname": "봉인된 망각의 파편",
-    "notes": [
-      "1 sealed material also drops whenever a full material has been dropped"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "required_by": [
-      "Fragment of Oblivion"
     ]
   },
   {
@@ -7112,26 +7092,6 @@
       "Soul of the Dead",
       "Bag of Destruction",
       "Skeleton King Icon"
-    ],
-    "recipe": [
-      {
-        "Sealed Skeleton Bone": 2
-      }
-    ]
-  },
-  {
-    "id": "I0MF",
-    "name": "Sealed Skeleton Bone",
-    "koreanname": "봉인된 스켈레톤 본",
-    "notes": [
-      "1 sealed material also drops whenever a full material has been dropped"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "required_by": [
-      "Skeleton Bone"
     ]
   },
   {
@@ -7164,26 +7124,6 @@
       "Ring of Composure",
       "Ring of Time",
       "Skeleton King Icon"
-    ],
-    "recipe": [
-      {
-        "Sealed Orb of Oblivion": 2
-      }
-    ]
-  },
-  {
-    "id": "I0MG",
-    "name": "Sealed Orb of Oblivion",
-    "koreanname": "봉인된 망각의 구슬",
-    "notes": [
-      "1 sealed material also drops whenever a full material has been dropped"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "required_by": [
-      "Orb of Oblivion"
     ]
   },
   {
@@ -7213,26 +7153,6 @@
       "Grimoire of Darkness",
       "Eye of the Reaper",
       "Skeleton King Icon"
-    ],
-    "recipe": [
-      {
-        "Sealed Spirit of Abyss": 2
-      }
-    ]
-  },
-  {
-    "id": "I0MH",
-    "name": "Sealed Spirit of Abyss",
-    "koreanname": "봉인된 심연의 기운",
-    "notes": [
-      "1 sealed material also drops whenever a full material has been dropped"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "required_by": [
-      "Spirit of Abyss"
     ]
   },
   {
@@ -7377,26 +7297,6 @@
       "Spirit of Protector",
       "Robe of Storm",
       "Zombie Lord Icon"
-    ],
-    "recipe": [
-      {
-        "Sealed Proof of Purification": 2
-      }
-    ]
-  },
-  {
-    "id": "I0MI",
-    "name": "Sealed Proof of Purification",
-    "koreanname": "봉인된 정화의 증표",
-    "notes": [
-      "1 sealed material also drops whenever a full material has been dropped"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "required_by": [
-      "Proof of Purification"
     ]
   },
   {
@@ -7428,26 +7328,6 @@
       "Felspike Armor",
       "Benziena, the Earthen Heart",
       "Zombie Lord Icon"
-    ],
-    "recipe": [
-      {
-        "Sealed Heart of Fire": 2
-      }
-    ]
-  },
-  {
-    "id": "I0MJ",
-    "name": "Sealed Heart of Fire",
-    "koreanname": "봉인된 불로의 심장",
-    "notes": [
-      "1 sealed material also drops whenever a full material has been dropped"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "required_by": [
-      "Heart of Fire"
     ]
   },
   {
@@ -7479,26 +7359,6 @@
       "Fiend Chaser",
       "Crown of Absolute Zero",
       "Zombie Lord Icon"
-    ],
-    "recipe": [
-      {
-        "Sealed Dark Crystal": 2
-      }
-    ]
-  },
-  {
-    "id": "I0MK",
-    "name": "Sealed Dark Crystal",
-    "koreanname": "봉인된 다크 크리스탈",
-    "notes": [
-      "1 sealed material also drops whenever a full material has been dropped"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "required_by": [
-      "Dark Crystal"
     ]
   },
   {
@@ -7658,26 +7518,6 @@
       "Ruler of the Skies",
       "Rainmaker",
       "Ancient Ent Icon"
-    ],
-    "recipe": [
-      {
-        "Sealed Purified Water of Nature": 2
-      }
-    ]
-  },
-  {
-    "id": "I0MM",
-    "name": "Sealed Purified Water of Nature",
-    "koreanname": "봉인된 대자연의 정수",
-    "notes": [
-      "1 sealed material also drops whenever a full material has been dropped"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "required_by": [
-      "Purified Water of Nature"
     ]
   },
   {
@@ -7709,26 +7549,6 @@
       "Horn of God",
       "Mask of Demigod",
       "Ancient Ent Icon"
-    ],
-    "recipe": [
-      {
-        "Sealed Fragment of the Wind": 2
-      }
-    ]
-  },
-  {
-    "id": "I0ML",
-    "name": "Sealed Fragment of the Wind",
-    "koreanname": "봉인된 바람의 조각",
-    "notes": [
-      "1 sealed material also drops whenever a full material has been dropped"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "required_by": [
-      "Fragment of the Wind"
     ]
   },
   {
@@ -7819,26 +7639,6 @@
       "Benziena, the Earthen Heart",
       "Agnitus, the Bow of Divine Fury",
       "Archangel Icon"
-    ],
-    "recipe": [
-      {
-        "Sealed Steel of God": 2
-      }
-    ]
-  },
-  {
-    "id": "I0MN",
-    "name": "Sealed Steel of God",
-    "koreanname": "봉인된 신의 금속",
-    "notes": [
-      "1 sealed material also drops whenever a full material has been dropped"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "required_by": [
-      "Steel of God"
     ]
   },
   {
@@ -7871,26 +7671,6 @@
       "Heaven's Door",
       "Bloodseeker Plates",
       "Archangel Icon"
-    ],
-    "recipe": [
-      {
-        "Sealed God's Page": 2
-      }
-    ]
-  },
-  {
-    "id": "I0MO",
-    "name": "Sealed God's Page",
-    "koreanname": "봉인된 위서의 한 페이지",
-    "notes": [
-      "1 sealed material also drops whenever a full material has been dropped"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "required_by": [
-      "God's Page"
     ]
   },
   {
@@ -7923,26 +7703,6 @@
       "Star of Apotheosis",
       "Guardian Angel",
       "Archangel Icon"
-    ],
-    "recipe": [
-      {
-        "Sealed Essence of Light": 2
-      }
-    ]
-  },
-  {
-    "id": "I0MP",
-    "name": "Sealed Essence of Light",
-    "koreanname": "봉인된 빛의 결정",
-    "notes": [
-      "1 sealed material also drops whenever a full material has been dropped"
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "required_by": [
-      "Essence of Light"
     ]
   },
   {
