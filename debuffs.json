@@ -64,7 +64,6 @@
             "Crusader - Empowered Strike of Honor [R] → [R] → [E]",
             "Merchant - Bag Slam [Q]",
             "Swordsman - Illusal Dance [T]",
-            "Shooter - Distortion [R]",
             "Alchemist - Rolling Golem [R] → [R] → [W]",
             "Fighter - Chain Blow [E]"
         ]
@@ -82,7 +81,8 @@
         "suffix": "None",
         "debufftype": "Increased Damage Taken",
         "names": [
-            "Soul Weaver - Unholy Blast [Q]"
+            "Soul Weaver - Unholy Blast [Q]",
+            "Shooter - Distortion [R]"
         ]
     },
     {

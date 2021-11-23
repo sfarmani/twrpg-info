@@ -1071,7 +1071,7 @@
         "active": [
             "Creates an opening in dimension that spews corrupt energy to attack nearby enemies.",
             "Consumes Max MP X 30%",
-            "Each attack deals Consumed MP X 0.9 magic damage",
+            "Attacks every 2.75 seconds, dealing Consumed MP X 0.9 magic damage",
             "Gate's attack speed is increased by 2% for each 1% bonus attack speed of Warlock",
             "Can maintain up to a maximum of 2 gates"
         ],
@@ -1312,12 +1312,14 @@
         "passive": [
             "Unleash blades made from the spilled blood of your enemies.",
             "Activates on every 4th attack",
-            "Attack Damage X 0.375 magic damage"
+            "Attack Damage X 0.5 magic damage"
         ],
         "active": [
             "Focus blood into the tips of your nails.",
             "Consumes Max HP X 15%",
-            "Consecutive casts increase damage by 300% and consumed HP by 100% each cast"
+            "Deals 200% of passive damage",
+            "Can be cast up to 4 additional times, each cast increasing damage by 250% and HP cost by 100%",
+            "After 5th cast, enters cooldown for 1.5 seconds"
         ],
         "passive_tags": [
             "Hero",
@@ -1343,7 +1345,7 @@
         "active": [
             "Swiftly move by transforming into bats.",
             "Consumes Max HP X 25%",
-            "Max HP X 1.5 magic damage",
+            "Max HP X 2 magic damage",
             "Invulnerable while travelling"
         ],
         "active_tags": [
@@ -1429,7 +1431,7 @@
         "order": 6,
         "active": [
             "Purify enemies with a ritual of blood.",
-            "Max HP X 7.5 magic damage",
+            "Max HP X 10 magic damage",
             "Pulls in enemes that are far away"
         ],
         "active_tags": [
@@ -1599,8 +1601,8 @@
         "order": 6,
         "active": [
             "Calls down meteor fragments that are drifting around the atmosphere.",
-            "Each meteorite deals INT X 9 magic damage",
-            "Drops a total of 8 fragments"
+            "Each meteorite deals INT X 15 magic damage",
+            "Drops a total of 5 fragments"
         ],
         "active_tags": [
             "Hero",
@@ -1618,10 +1620,13 @@
         "icon": "FireMageF",
         "cooldown": 100,
         "order": 7,
+        "passive": [
+            "Fireball's base damage increased by 200%"
+        ],
         "active": [
             "\"Imagine a huge rock falling through the atmosphere onto the ground. Don't worry, the Earth won't be destroyed. It's not that big, and only you will be engulfed in the explosion..  \" - Mage",
             "INT X 60 magic damage",
-            "Summons 12 little meteor fragments each dealing INT X 3 magic damage"
+            "Summons 10 little meteor fragments each dealing INT X 35 magic damage"
         ],
         "active_tags": [
             "Hero",
@@ -1774,7 +1779,7 @@
         "active": [
             "Fires a bullet that can distort dimensions.",
             "Main Stat X 7.5 magic damage",
-            "Increases target's damage taken by (6 + INT / 750)% and reduces its movement speed for 2 seconds",
+            "Increases target's damage taken by (5 + INT / 300)% and reduces its movement speed for 2 seconds",
             "Knocksback target if cast consecutively",
             "Recharges every (15 - pure attack speed / 15) seconds"
         ],
@@ -5182,10 +5187,10 @@
         "order": 3,
         "active": [
             "Quickly dash across the battlefield.",
-            "STR X 3.75 magic damage",
+            "STR X 10 magic damage",
             "Knockbacks enemies toward charge direction",
-            "Colliding from far distance breaks barriers and deals up to consumed MP X 3 bonus damage",
-            "Breaking a barrier increases this skill's damage by (20 + 0.1 X knight's damage reduction)%",
+            "Colliding from far distance breaks barriers and deals up to (8 X damage reduction + 4 X magic defense)% bonus damage",
+            "Breaking a barrier increases this skill's damage by 50%",
             "Release Mana ON: Pierces through enemies and grants shield for 3 seconds that absorbs up to (Knight's Reduction X Knight's Max MP) to collided allies"
         ],
         "active_tags": [
@@ -6630,7 +6635,7 @@
         "icon": "PBQ",
         "order": 3,
         "toggle": [
-            "When performing a slash, has 40% chance to consume a soul to deal AGI X 8 bonus magic damage"
+            "When performing a slash, has 40% chance to consume a soul to deal AGI X 10 bonus magic damage"
         ]
     },
     {
@@ -6654,7 +6659,7 @@
         "icon": "PBW",
         "order": 5,
         "active": [
-            "Attack damage X 0.6 + AGI X 3 magic damage",
+            "Attack damage X 0.8 + AGI X 5 magic damage",
             "Slows target's movement speed by 90% for 3 seconds",
             "Pulls in non-boss units"
         ],
@@ -6673,7 +6678,7 @@
         "icon": "PBE",
         "order": 6,
         "active": [
-            "Attack damage X 0.9 + AGI X 6 magic damage",
+            "Attack damage X 1 + AGI X 7.5 magic damage",
             "Lands as critical strike on boss units"
         ],
         "active_tags": [
@@ -6694,7 +6699,7 @@
         "active": [
             "Activates on damage received within next 1 second",
             "Reduces damage taken by 70% and removes all debuffs",
-            "Restores 4 souls",
+            "Restores 8 souls",
             "Resets cooldowns of Crescent and Daze"
         ],
         "active_tags": [
@@ -6716,7 +6721,7 @@
         "active": [
             "Removes all soul consumption for 8 seconds and reduces some skills' cooldowns",
             "Enables dash while active",
-            "Increases damage of Alacrity by 100% while active",
+            "Increases damage of Alacrity by 40% while active",
             "Duration: 8 seconds"
         ],
         "active_tags": [
@@ -6754,8 +6759,9 @@
         "order": 1,
         "passive": [
             "Forms a harmonious balance between attacking and healing.",
-            "Every 4th attack heals you and 2 nearby allies",
-            "25 + INT X 0.5 + Target's MAX HP X 2% heal"
+            "Every 4th attack heals you and 2 nearby allies for 25 + INT X 0.5 + Target's MAX HP X 2%",
+            "If AGI is highest, your skills deal 75% more damage",
+            "If STR or INT is highest, your skills heal and regenerate for 100% more and activates Harmony"
         ],
         "passive_tags": [
             "Hero",
@@ -6776,7 +6782,8 @@
             "Attack damage X 2.5 pure damage",
             "Grants increased attack speed for 1.5 seconds",
             "Deals Main Stat X 1 pure damage on each attack",
-            "If cast from melee range or while Wind Walk is active, deals 100% bonus damage and stuns for 0.5 seconds"
+            "If cast from melee range or while Wind Walk is active, deals 100% bonus damage and stuns for 0.5 seconds",
+            "Harmony: Ki cost is removed and can be cast on allies"
         ],
         "active_tags": [
             "Hero",
@@ -6796,10 +6803,11 @@
         "order": 3,
         "active": [
             "Heals wounds of allies within target area.",
-            "Instantly heals for Main Stat X 1.5",
-            "Heals for (STR + INT) X 0.3 every second",
+            "Instantly heals for Main Stat X 0.75",
+            "Heals for (STR + INT) X 0.15 every second",
             "Reduces damage taken by 20%",
-            "Lasts 6~12 seconds based on distance"
+            "Lasts 10~5 seconds based on distance from target point",
+            "Harmony: Duration increased by 100%"
         ],
         "active_tags": [
             "Hero",
@@ -6873,10 +6881,11 @@
         "order": 6,
         "active": [
             "Summons an orb that heals allies.",
-            "Regenerates HP by Main Stat X 0.5 per second",
+            "Regenerates HP by Main Stat X 0.25 per second",
             "Regenerates resource point by 5% per second",
-            "Increases skill damage by 15%",
-            "Lasts 4~8 seconds based on duration traveled"
+            "Increases skill damage by 10%",
+            "Lasts 5~10 seconds based on duration traveled",
+            "Harmony: Skill damage bonus is further increased by (Main Stat / 325)%"
         ],
         "active_tags": [
             "Hero",
@@ -6897,9 +6906,10 @@
         "order": 7,
         "active": [
             "Purges inner evil within the soul.",
-            "Deals Main Stat X 37.5 magic damage to nearby enemies and stuns for 1.5 seconds",
-            "Clears debuffs and grants shield absorbing Main Stat X 5 damage to nearby allies for 3 seconds",
-            "Also activates from summoned orbs",
+            "Deals Main Stat X 40 magic damage to nearby enemies and stuns for 1.5 seconds",
+            "Clears debuffs of allies",
+            "Also activates from any summoned Orb of Harmony",
+            "Harmony: Grants shield absorbing Main Stat X 5 damage for 5 seconds",
             "Chain - Inner Release"
         ],
         "active_tags": [
@@ -6920,7 +6930,8 @@
         "order": 8,
         "active": [
             "Releases all of your power.",
-            "Knocks back nearby enemies and stuns them for 1.5 seconds"
+            "Knocks back nearby enemies and stuns them for 1.5 seconds",
+            "Harmony: Pulls enemies in instead of knocking them back"
         ],
         "active_tags": [
             "Hero"
@@ -6937,11 +6948,8 @@
         "order": 9,
         "active": [
             "\"This water shall cleanse your body and soul.\" - Hermit",
-            "Deals Main Stat X 57.5 magic damage per second",
-            "Heals for Target's Max HP X 30% per second",
-            "Clears debuffs from allies and prevents their HP from dropping below 1",
-            "Breaks barriers on enemies",
-            "Lasts for 3.5 seconds"
+            "Deals Main Stat X 50 magic damage per second and breaks shield",
+            "Harmony: Clears debuffs of allies, heals them for Target's Max HP X 15% per second and prevents their HP from going below 1"
         ],
         "active_tags": [
             "Hero",
@@ -7434,7 +7442,7 @@
         "order": 1,
         "active": [
             "Creates an illusion that can mimic you.",
-            "Illusion deals 75% damage",
+            "Illusion deals 100% damage",
             "Has 10 second recast cooldown"
         ],
         "active_tags": [
@@ -7466,7 +7474,7 @@
         "color": "89ddb5",
         "hotkey": "[Q]",
         "icon": "TricksterQ",
-        "cooldown": 6,
+        "cooldown": 5,
         "order": 3,
         "active": [
             "An expert mastery of dagger.",
@@ -7613,7 +7621,7 @@
             "\"Ladies and gentlemen... here's a magic trick. I shall make this one disappear from the world.\" - Trickster",
             "Pauses target",
             "Afterwards, summons 30 spikes to pierce target dealing AGI X 4.5 magic damage per spike",
-            "Marks target in all directions"
+            "Marks the target in all directions and resets cooldown on Stage Finisher"
         ],
         "active_tags": [
             "Hero",

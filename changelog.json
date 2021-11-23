@@ -1,5 +1,328 @@
 [
     {
+        "name": "56a",
+        "notes": [
+            "Released on: November 21st, 2021",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Heartrender - Fixed issue where passive didn’t work",
+            "Duke Lazarus - Fixed bug with AOE cleanse not working properly on Blood Plague",
+            "Berserker - Fixed bug where E button shows up disabled after casting Rabid Storm (F)",
+            "Fighter - Fixed issue with F being able to pull bosses out of boss rooms",
+            "Hermit - Fixed bug where effect radius is reversed inner/outer edges on Restoration (W)",
+            "Shrine Priestess - Fixed bug where Go Forth Meeko (D) can be used while Meeko is paused",
+            "Fixed issue with knockbacks/pauses not working correctly"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Following items now show charge percentage using item charges",
+                    [
+                        "Horn of Devil series"
+                    ],
+                    "Following items now show passive cooldown using item charges",
+                    [
+                        "Pure Crystal Wing",
+                        "Heaven's Fist",
+                        "Demonic Fist"
+                    ],
+                    "Following items now have more accurate description",
+                    [
+                        "Levante, the Sword of Love and Hate",
+                        "The Ender",
+                        "Heartrender"
+                    ]
+                ]
+            },
+            {
+                "name": "Crimson Star series",
+                "changes": [
+                    "Shooter spec - Skill damage buff is now unique and stacks with Staff of Abyss / Soul of Abyss series"
+                ]
+            },
+            {
+                "name": "Heartrender",
+                "changes": [
+                    "Passive",
+                    [
+                        "Deals 15% bonus damage to units above 50% HP → below 50% HP (same as ender)"
+                    ]
+                ]
+            },
+            {
+                "name": "Robe of Storm",
+                "changes": [
+                    "Skill damage: 11% → 12%",
+                    "Passive",
+                     [
+                         "Tick damage: INT X 2 → 4000 + INT X 2",
+                         "Stacks needed for proc activation 15 → 10",
+                         "Buff duration: 6 seconds → 5 seconds",
+                         "Cooldown: (before you can start stacking it again) 15 seconds → 5 seconds"
+                     ]
+                ]
+            },
+            {
+                "name": "Crescendo of Madness",
+                "changes": [
+                    "QoL improved on active effect",
+                    "1st use (non-targetted): Every 3 seconds, consumes 10% HP to summon a wraith, up to 5 wraiths",
+                    "2nd use (targetted): Sends all summoned wraith toward target"
+                ]
+            },
+            {
+                "name": "Soul Devourer",
+                "changes": [
+                    "Warlock spec added"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Wallachia Graveyard",
+                "changes": [
+                    "The zone can now be exited/entered without cooldown, as long as Mad Clown is not casting Wheel of Despair and Death Fiend isn't summoned"
+                ]
+            },
+            {
+                "name": "Zombie Lord",
+                "changes": [
+                    "Skill damage reduced slightly",
+                    "Infest count fixed to 3 on players / 2 on zombies",
+                    "Infected players will now grow in size and turn green as well"
+                ]
+            },
+            {
+                "name": "Archangel Samael",
+                "changes": [
+                    "Zadkiel cutscene has been removed",
+                    "Boss can now be retried if failed",
+                    "Vanish runes damage reduced slightly",
+                    "Judgment",
+                    [
+                        "Heal amount per killed hero: 20% → 20% for 1 ~ 5 players, 20-12% for 6 ~ 10 players"
+                    ]
+                ]
+            },
+            {
+                "name": "Shadow Dragon Irbert",
+                "changes": [
+                    "Slightly increased range where you start taking increased damage from fog",
+                    "Runes will be much more visible",
+                    "Rune activation time: 1.75 seconds → 2 seconds"
+                ]
+            },
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "Summoning cinematic can now be skipped"
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Drain Blood",
+                    [
+                        "No longer works on summons"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Blitz (W)",
+                    [
+                        "Damage: STR X 3.75 → STR X 10",
+                        "Distanced damage: up to (max MP X 3) bonus damage and breaks barriers → up to (8 X damage reduction + 4 X magic defense)% bonus damage based on distance",
+                        "Breaking barriers increases this skill's damage by (20 + 0.1 X knight's damage reduction)% → increases this skill's damage by 50%"
+                    ]
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "Fantasm (D)",
+                    [
+                        "Illusion damage output: 75% → 100%"
+                    ],
+                    "Hidden Fang (Q)",
+                    [
+                        "Cooldown: 6 seconds → 5 seconds"
+                    ],
+                    "Stage Finisher (T)",
+                    [
+                        "Mark duration: 5 seconds → 10 seconds"
+                    ],
+                    "Sinister Trick (F)",
+                    [
+                        "Now resets cooldown of T"
+                    ],
+                    "Trickster will receive bigger changes later"
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Distortion (R)",
+                    [
+                        "Damage taken increase: (6 + INT / 750)% → (5 + INT / 300)%",
+                        "Type-A → Type-B"
+                    ]
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Alacrity (Q)",
+                    [
+                        "Damage: AGI X 8 → AGI X 10"
+                    ],
+                    "Crescent (W)",
+                    [
+                        "Damage: ATK DMG X 0.6 + AGI X 3 → ATK DMG X 0.8 + AGI X 5"
+                    ],
+                    "Daze (E)",
+                    [
+                        "Damage: ATK DMG X 0.9 + AGI X 6 → ATK DMG X 1 + AGI X 7.5"
+                    ],
+                    "Harmony (R)",
+                    [
+                        "On successful block, soul restore count: 4 → 8"
+                    ],
+                    "Release (T)",
+                    [
+                        "Damage increase on Alacrity (Q): 100% → 40% (AGI X 16 → AGI X 14)"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Perfect Harmony (D)",
+                    [
+                        "If AGI is higher, your skills will do 75% more damage",
+                        "If STR/INT is higher, your skills heal 100% more and gain Harmony effect"
+                    ],
+                    "Flowing Fist (Q)",
+                    [
+                        "Harmony: Does not cost MP (but incurs 2.5 second cooldown) and can be used on allies to dash to them"
+                    ],
+                    "Restoration (W)",
+                    [
+                        "Heal amount changed from MAIN STAT X 1.5 → MAIN STAT X 0.75",
+                        "Periodic heal reduced: (STR + INT) X 0.3 → (STR + INT) X 0.15",
+                        "Buff duration: 6 seconds → 5 seconds",
+                        "Harmony: Buff duration increased by 100%"
+                    ],
+                    "Orb of Harmony (R)",
+                    [
+                        "Heal amount: MAIN STAT X 0.5 → MAIN STAT X 0.25",
+                        "Skill damage bonus: 15% → 10%",
+                        "Duration: 4 + distance / 250 → 5 + distance / 200",
+                        "Harmony: Skill damage bonus increased by (MAIN STAT / 325)%"
+                    ],
+                    "Purge (T)",
+                    [
+                        "Damage: MAIN STAT X 37.5 → MAIN STAT X 40",
+                        "Base effect will only deal damage + cleanse allies",
+                        "Harmony: Provides shield to affected allies as well, release will pull in enemies instead of pushing them back"
+                    ],
+                    "Purify (F)",
+                    [
+                        "Damage per second: MAIN STAT X 57.5 → MAIN STAT X 50",
+                        "Base effect will only deal damage + break shield",
+                        "Harmony: cleanses allies and heals their HP by 15% per second and prevents their HP from dropping below 1",
+                        "Duration: 0.35 seconds + 3.65 cast time → 3 seconds cast time",
+                        "Cooldown: 60 seconds → 40 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Meteor Fragment (T)",
+                    [
+                        "Fragment count: 8 → 5",
+                        "Damage per fragment: INT X 9 → INT X 15 (total damage: INT X 72 → INT X 75)",
+                        "Now falls down faster and more accurately"
+                    ],
+                    "Meteor Strike (F)",
+                    [
+                        "Shard count: 12 → 10",
+                        "Damage per shard: INT X 3 → INT X 5 (total shard damage: INT X 36 → INT X 50)",
+                        "Cast time 3 seconds → 2.5 seconds",
+                        "Once learned, increases base damage by Fireball by 200% (INT X 8 → INT X 24 ; does nt increase bonus damage based on burn)"
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Frozen Emotion (W)",
+                    [
+                        "Frost Armament damage counts as periodic damage"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Combo text size increased"
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Fixed issue with golem being too transparent"
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Dimension Collapse (W)",
+                    [
+                        "Attack range is now doubled while Demonic Fury (T) is active"
+                    ]
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Claw (Q)",
+                    [
+                        "Base damage: ATK DMG X 0.375 → ATK DMG X 0.50",
+                        "Active base damage: 100% → 200%",
+                        "Damage increase per stack: 300% → 250%",
+                        "Max stacks: 6 → 5",
+                        "Before patch: 6 casts deal ATK DMG X 19.125 damage",
+                        "After patch: 5 casts deal ATK DMG X 17.5 damage",
+                        "After max stacks cast, the skill will be disabled and re-enabled with stack resets after 1.5 seconds"
+                    ],
+                    "Rose Dance (W)",
+                    [
+                        "Damage: HP X 1.15 → HP X 2"
+                    ],
+                    "Crimson Pillar (T)",
+                    [
+                        "Damage: HP X 7.5 → HP X 10"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "When reviving in town, mount will be summoned immediately",
+            "You can skip cinematics for minor bosses as soon as powders have been used before the cinematic triggers",
+            "Added “-skip” command, which toggles the option to automatically skip any cinematics (this option saves in to your code)",
+            "“-exp” command has been removed",
+            "Fixed issue with Soul Devourer VFX being slightly misaligned",
+            "Reduced size of rain VFX on Skylord slightly"
+        ]
+    },
+    {
         "name": "55e",
         "notes": [
             "Released on: November 11th, 2021",

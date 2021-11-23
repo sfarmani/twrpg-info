@@ -19653,13 +19653,13 @@
       "armor": 200,
       "int": 390,
       "movespeed": 50,
-      "skilldamagepercent": 0.11,
+      "skilldamagepercent": 0.12,
       "passive": [
         "During combat, activates Rig of Lightning",
-        "Deals (INT X 2) magic damage to enemies in 550 ~ 800 from you every second",
+        "Deals (4000 + INT X 2) magic damage to enemies in 550 ~ 800 from you every second",
         "Also grants a charge every time it hits enemy",
-        "When charge reaches 15 stacks, all charges are consumed and you gain 250 INT for 6 seconds",
-        "Cooldown: 15 seconds, cannot be dropped during cooldown"
+        "When charge reaches 10 stacks, all charges are consumed and you gain 250 INT for 5 seconds",
+        "Cooldown: 5 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -21368,6 +21368,10 @@
         "Cleanses debuffs from user",
         "Heals (40% max HP)",
         "Cooldown: 28 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialty - Soul Devour",
+        "Warlock - Soul Whisper's restored HP amount is increased by 30%."
       ]
     }
   },
@@ -21410,7 +21414,8 @@
       "attackspeedpercent": 0.3,
       "skilldamagepercent": 0.05,
       "passive": [
-        "Deals 15% bonus damage to enemies above 50% HP"
+        "Upon damaging enemies below 50% HP, activates Death's Door",
+        "Deals 15% bonus damage"
       ],
       "active": [
         "On use, activates Heartrender",
@@ -21820,9 +21825,9 @@
       "affinitydarkpercent": 0.05,
       "active": [
         "On use, summons Shade of Madness",
-        "Consumes max HP X 10% to spawn a shade",
-        "Upon issuing move order (M) to a target, all summoned shades will fly toward the target to deal 75000 magic damage each",
-        "Up to 5 shades can be summoned at once",
+        "Consumes max HP X 10% to spawn a shade (up to 5 shades)",
+        "Using it a second time will send all summoned shades towards target",
+        "Each shade deals 75000 magic damage",
         "Cooldown: 3 seconds, cannot be dropped during cooldown"
       ]
     }
