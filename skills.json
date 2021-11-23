@@ -6944,7 +6944,7 @@
         "color": "bee7fc",
         "hotkey": "[F]",
         "icon": "HermitF",
-        "cooldown": 60,
+        "cooldown": 40,
         "order": 9,
         "active": [
             "\"This water shall cleanse your body and soul.\" - Hermit",
