@@ -1,5 +1,41 @@
 [
     {
+        "name": "57b",
+        "notes": [
+            "Released on: November 24th, 2021",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Crescendo of Madness - Fixed bug where second cast procs 'on skill cast' events",
+            "Valtora - Fixed bug where you could get perma stunned",
+            "Agareth - Fixed issue with crystals disappearing",
+            "Fixed issue with Halloween music still playing",
+            "Fixed some typos"
+        ],
+        "items": [
+            {
+                "name": "Caedis, the Sword of Slaughter",
+                "changes": [
+                    "Mark is more visible now"
+                ]
+            },
+            {
+                "name": "Crescendo of Madness",
+                "changes": [
+                    "Ghost is only visible to you now"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Trickster",
+                "changes": [
+                    "Mark is now more visible"
+                ]
+            }
+        ]
+    },
+    {
         "name": "57a",
         "notes": [
             "Released on: November 23rd, 2021",
