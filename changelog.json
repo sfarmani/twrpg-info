@@ -1,5 +1,74 @@
 [
     {
+        "name": "57a",
+        "notes": [
+            "Released on: November 23rd, 2021",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Ancient Ent - Fixed bug where boss dying despawns Elder Ents",
+            "Crescendo of Madness - Fixed bug where the item grants 2 stacks instead of 1 stack per 3 seconds",
+            "Hermit - Fixed issue with fire angle being wonky when casting F",
+            "Mage (Wind) - Fixed abusable bug with D",
+            "Blood Weaver - Fixed issue with T doing Max HP X 8 damage instead of Max HP X 10"
+        ],
+        "events": [
+            "Halloween event ends"
+        ],
+        "items": [
+            {
+                "name": "Crescendo of Madness",
+                "changes": [
+                    "Dark Affinity: 5% → 7.5%",
+                    "Skill damage: 15% → 12.5%",
+                    "Now reduces heal received by 20%",
+                    "Active",
+                    [
+                        "Damage per ghost: 75000 → 70000"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Blood Plague",
+                    [
+                        "Circle will now be visible even if the center of it is outside your vision"
+                    ],
+                    "Boss will no longer spawn 1 small tentacle during Phase 3"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Blitz (W)",
+                    [
+                        "Negative reduction/armor will not cause W damage to go down",
+                        "Skill has been reprogrammed to deal damage in a more consistent manner"
+                    ]
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Slash (A)",
+                    [
+                        "Delay between cast: 0.2 seconds → 0.15 seconds",
+                        "Cooldown: 0.85 seconds → 0.65 seconds"
+                    ],
+                    "Release (T)",
+                    [
+                        "Q bonus damage: 40% → 60%"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "56a",
         "notes": [
             "Released on: November 21st, 2021",

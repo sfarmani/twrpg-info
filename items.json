@@ -21821,13 +21821,14 @@
     "stats": {
       "armor": 140,
       "allstat": 290,
-      "skilldamagepercent": 0.15,
-      "affinitydarkpercent": 0.05,
+      "skilldamagepercent": 0.125,
+      "affinitydarkpercent": 0.075,
+      "healreceivedpercent": -0.20,
       "active": [
         "On use, summons Shade of Madness",
         "Consumes max HP X 10% to spawn a shade (up to 5 shades)",
         "Using it a second time will send all summoned shades towards target",
-        "Each shade deals 75000 magic damage",
+        "Each shade deals 70000 magic damage",
         "Cooldown: 3 seconds, cannot be dropped during cooldown"
       ]
     }

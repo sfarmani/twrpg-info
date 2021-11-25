@@ -6721,7 +6721,7 @@
         "active": [
             "Removes all soul consumption for 8 seconds and reduces some skills' cooldowns",
             "Enables dash while active",
-            "Increases damage of Alacrity by 40% while active",
+            "Increases damage of Alacrity by 60% while active",
             "Duration: 8 seconds"
         ],
         "active_tags": [
@@ -6949,7 +6949,8 @@
         "active": [
             "\"This water shall cleanse your body and soul.\" - Hermit",
             "Deals Main Stat X 50 magic damage per second and breaks shield",
-            "Harmony: Clears debuffs of allies, heals them for Target's Max HP X 15% per second and prevents their HP from going below 1"
+            "Harmony: Clears debuffs of allies, heals them for Target's Max HP X 15% per second and prevents their HP from going below 1",
+            "Lasts 3 seconds"
         ],
         "active_tags": [
             "Hero",
