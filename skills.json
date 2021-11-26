@@ -5289,6 +5289,23 @@
         ]
     },
     {
+        "id": "A0KB",
+        "name": "Mana Blast",
+        "heroClass": "Knight",
+        "color": "73b9ff",
+        "hotkey": "[R] → [R]",
+        "icon": "KnightR_R",
+        "proc_rate": 0.5,
+        "cooldown": 1.5,
+        "order": 7,
+        "active": [
+            "Fires all mana orbs.",
+            "Each orb deals MP X 0.6 magic damage",
+            "Reduces movement speed by 50% for 3 seconds",
+            "Release Mana ON: Stuns for 1 second"
+        ]
+    },
+    {
         "id": "A00N",
         "name": "Seal of Mana",
         "heroClass": "Knight",
@@ -5296,7 +5313,7 @@
         "hotkey": "[T]",
         "icon": "KnightT",
         "cooldown": 15,
-        "order": 7,
+        "order": 8,
         "passive": [
             "Inscribe seal of mana onto enemies to amplify magic taken.",
             "On landing hit with a skill, applies Seal of Mana (up to 6 stacks)",
@@ -5330,7 +5347,7 @@
         "hotkey": "[F]",
         "icon": "KnightF",
         "cooldown": 60,
-        "order": 8,
+        "order": 9,
         "active": [
             "\"Corrupt evils that must not exist in this world! The end is nigh. O Holy sword, grant me victory over my foes!\" - Knight during the God-Devil War",
             "STR X 75 magic damage",
