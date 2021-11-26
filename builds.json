@@ -1227,19 +1227,18 @@
         "type": "DPS",
         "order": 1,
         "stat": "INT",
-        "version": "44h",
-        "description": [
-            "Frost lord provides more damage than Soul Devourer which is great in short burst fights",
-            "While Soul Devourer gives passive regen which allows Q spams in normal form and MP recovery during boss invul phase which is great in long fights"        ],
+        "version": "57b",
         "items": {
-            "Staff of Plague": [
-                "The Ender"
+            "Heartrender": [
+                "Staff of Plague"
             ],
-            "Prophetia, the Origin of Knowledge": [],
+            "Crescendo of Madness": [
+                "Prophetia, the Origin of Knowledge"
+            ],
             "Seed of Malice": [],
             "Thanatos, the Robe of Hell": [],
-            "Soul Devourer": [
-                "Wings of Frost Lord"
+            "Wings of Frost Lord": [
+                "Soul Devourer"
             ]
         }
     },
