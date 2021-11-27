@@ -458,7 +458,7 @@
     },
     {
         "for": "Assassin",
-        "type": "Early Game Build",
+        "type": "Early Game",
         "order": 1,
         "stat": "AGI",
         "version": "57b",
@@ -478,7 +478,7 @@
     },
     {
         "for": "Assassin",
-        "type": "Mid Game Build",
+        "type": "Mid Game",
         "order": 2,
         "stat": "AGI",
         "version": "57b",
@@ -500,7 +500,7 @@
     },
     {
         "for": "Assassin",
-        "type": "Late Game Build",
+        "type": "Late Game",
         "order": 3,
         "stat": "AGI",
         "version": "57b",
@@ -532,7 +532,7 @@
     },
     {
         "for": "Assassin",
-        "type": "Endgame Build",
+        "type": "Endgame",
         "order": 4,
         "stat": "AGI",
         "version": "57b",
@@ -555,7 +555,7 @@
     },
     {
         "for": "Assassin",
-        "type": "Omega Endgame Build",
+        "type": "Omega Endgame",
         "order": 5,
         "stat": "AGI",
         "version": "57b",
