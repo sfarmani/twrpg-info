@@ -18905,13 +18905,15 @@
       "affinityearthpercent": 0.1,
       "passive": [
         "On skill cast, activates Sparkle of Life",
-        "Heals (750 + INT X 16) HP per second in an AoE for 9 seconds",
-        "Reduces damage taken by 15% and increases movement speed by 50 for 9 seconds",
-        "Cooldown: 3 seconds"
+        "Applies to self and one random nearby hero",
+        "Heals (750 + INT X 0.16) HP per 1.5 seconds for 9 seconds",
+        "Increases damage reduction by 15% and movement speed by 50 for 9 seconds",
+        "Cooldown: 3 seconds, cannot be dropped during cooldown"
       ],
       "active": [
         "On use, activates Binding of Life",
-        "Heals 2000 HP and activates Spark of Life",
+        "Applies a 600-radius ground targeted AOE for 9 seconds",
+        "Heals 2000 HP per second and activates Sparkle of Life for those within",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
