@@ -23,163 +23,162 @@
             ],
             "Cape of Deep Abyss": []
         }
-    },[
-        {
-            "for": "Crusader",
-            "type": "Early Game",
-            "order": 1,
-            "stat": "STR",
-            "version": "57b",
-            "description": [
-                "Just equip anything you found the best"
+    },
+    {
+        "for": "Crusader",
+        "type": "Early Game",
+        "order": 1,
+        "stat": "STR",
+        "version": "57b",
+        "description": [
+            "Just equip anything you found the best"
+        ],
+        "items": {
+            "Bahanar, the Sword of Illusion": [
+                "Trident"
             ],
-            "items": {
-                "Bahanar, the Sword of Illusion": [
-                    "Trident"
-                ],
-                "Helm of Battle": [],
-                "Ring of Intrusion": [],
-                "Purelight Armor": [],
-                "Corrupt Crystal Wings": [
-                    "Wings of Purification"
-                ]
-            }
-        },
-        {
-            "for": "Crusader",
-            "type": "Mid Game",
-            "order": 2,
-            "stat": "STR",
-            "version": "57b",
-            "description": [
-                "Coin Gears",
-                "Optional gears will be used later on but not worth to use them now, gather them first."
-            ],
-            "items": {
-                "Bahanar, the True Sword of Illusion": [
-                    "Aglaia, the Spear of Heavenly Flows"
-                ],
-                "Horn of Devil": [
-                    "Archangel Halo",
-                    "Helm of Battle"
-                ],
-                "Ring of Intrusion": [
-                    "Heart of Ifrit",
-                    "Purefrost Gauntlet"
-                ],
-                "Flameshard Armor": [
-                    "Purelight Armor",
-                    "Reactive Armor"
-                ],
-                "Corrupt Crystal Wings": [
-                    "Cape of Corrupt Flame"
-                ]
-            }
-        },
-        {
-            "for": "Crusader",
-            "type": "Late Game Damage",
-            "order": 3,
-            "stat": "STR",
-            "version": "57b",
-            "description": [
-                "Full damage gear to farm efficiently",
-                "Defensive gear for learners on next page",
-                "Optional gears will be used later on but not worth to use them now, gather them first."
-            ],
-            "items": {
-                "Meacronacer, the Sword of Thousand Illusions": [
-                    "Tiberius, the Spear of Lightning",
-                    "Aglaia, the Spear of Heavenly Flows"
-                ],
-                "Halo of Judgment": [
-                    "Horn of Devil"
-                ],
-                "Ring of Time": [
-                    "Heart of Ifrit",
-                    "Purefrost Gauntlet"
-                ],
-                "Requiem, the Armor of Lamentation": [
-                    "Hellspike Armor"
-                ],
-                "Pure Crystal Wings": []
-            }
-        },
-        {
-            "for": "Crusader",
-            "type": "Late Game Learner/Defensive",
-            "order": 4,
-            "stat": "STR",
-            "version": "57b",
-            "description": [
-                "Defensive gear for learners",
-                "Swap equipments accordingly, never use full defensive build unless holding Death Fiend.",
-                "I personally only swap to defensive gears when lack of supports or learning new boss",
-                "For holding Death Fiend, Frostshard Armor is enough, add Protector's Will if unsafe, add Cold Ring of Death for 20 proc.",
-                "Winter's Heart for guard break, in Valtora.",
-                "Creation is very good in ifrit."
-            ],
-            "items": {
-                "Winter's Heart": [],
-                "Protector's Will": [
-                    "Halo of Judgment"
-                ],
-                "Ring of Time": [
-                    "Cold Ring of Death"
-                ],
-                "Frostshard Armor": [
-                    "Creation of the Sky and Earth"
-                ],
-                "Cloak of the Fallen Shadows": []
-            }
-        },
-        {
-            "for": "Crusader",
-            "type": "Endgame",
-            "order": 5,
-            "stat": "STR",
-            "version": "57b",
-            "description": [
-                "Just don't die - Lch#3181",
-                "Why would you use defensive gear in endgame, get supports.",
-                "Go swap to defensive build accordingly when holding Death Fiend or lack of supports",
-                "Weapon - Astra > Splitting > The Ender > Meacronacer"
-            ],
-            "items": {
-                "Astra, the Sword of Moonlight": [
-                    "Splitting of the Sky and Earth",
-                    "The Ender"
-                ],
-                "Horn of Demon God": [],
-                "Demonic Fist": [],
-                "Felspike Armor": [],
-                "Archangel Wings": []
-            }
-        },
-        {
-            "for": "Crusader",
-            "type": "Duke",
-            "order": 6,
-            "stat": "STR",
-            "version": "57b",
-            "guidelink": [
-                "https://i.imgflip.com/5sgfje.jpg"
-            ],
-            "description": [
-                "Why are you even reading this?",
-                "Go Farm Duke"
-            ],
-            "items": {
-                "Spear of Judgment": [],
-                "Crescendo of Madness": [],
-                "Demonic Fist": [],
-                "Plates of Sanguine Fury": [
-                    "Cage of Twisted Souls"
-                ],
-                "Archangel Wings": []
-            }
+            "Helm of Battle": [],
+            "Ring of Intrusion": [],
+            "Purelight Armor": [],
+            "Corrupt Crystal Wings": [
+                "Wings of Purification"
+            ]
         }
-    ],
+    },
+    {
+        "for": "Crusader",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "STR",
+        "version": "57b",
+        "description": [
+            "Coin Gears",
+            "Optional gears will be used later on but not worth to use them now, gather them first."
+        ],
+        "items": {
+            "Bahanar, the True Sword of Illusion": [
+                "Aglaia, the Spear of Heavenly Flows"
+            ],
+            "Horn of Devil": [
+                "Archangel Halo",
+                "Helm of Battle"
+            ],
+            "Ring of Intrusion": [
+                "Heart of Ifrit",
+                "Purefrost Gauntlet"
+            ],
+            "Flameshard Armor": [
+                "Purelight Armor",
+                "Reactive Armor"
+            ],
+            "Corrupt Crystal Wings": [
+                "Cape of Corrupt Flame"
+            ]
+        }
+    },
+    {
+        "for": "Crusader",
+        "type": "Late Game Damage",
+        "order": 3,
+        "stat": "STR",
+        "version": "57b",
+        "description": [
+            "Full damage gear to farm efficiently",
+            "Defensive gear for learners on next page",
+            "Optional gears will be used later on but not worth to use them now, gather them first."
+        ],
+        "items": {
+            "Meacronacer, the Sword of Thousand Illusions": [
+                "Tiberius, the Spear of Lightning",
+                "Aglaia, the Spear of Heavenly Flows"
+            ],
+            "Halo of Judgment": [
+                "Horn of Devil"
+            ],
+            "Ring of Time": [
+                "Heart of Ifrit",
+                "Purefrost Gauntlet"
+            ],
+            "Requiem, the Armor of Lamentation": [
+                "Hellspike Armor"
+            ],
+            "Pure Crystal Wings": []
+        }
+    },
+    {
+        "for": "Crusader",
+        "type": "Late Game Learner/Defensive",
+        "order": 4,
+        "stat": "STR",
+        "version": "57b",
+        "description": [
+            "Defensive gear for learners",
+            "Swap equipments accordingly, never use full defensive build unless holding Death Fiend.",
+            "I personally only swap to defensive gears when lack of supports or learning new boss",
+            "For holding Death Fiend, Frostshard Armor is enough, add Protector's Will if unsafe, add Cold Ring of Death for 20 proc.",
+            "Winter's Heart for guard break, in Valtora.",
+            "Creation is very good in ifrit."
+        ],
+        "items": {
+            "Winter's Heart": [],
+            "Protector's Will": [
+                "Halo of Judgment"
+            ],
+            "Ring of Time": [
+                "Cold Ring of Death"
+            ],
+            "Frostshard Armor": [
+                "Creation of the Sky and Earth"
+            ],
+            "Cloak of the Fallen Shadows": []
+        }
+    },
+    {
+        "for": "Crusader",
+        "type": "Endgame",
+        "order": 5,
+        "stat": "STR",
+        "version": "57b",
+        "description": [
+            "Just don't die - Lch#3181",
+            "Why would you use defensive gear in endgame, get supports.",
+            "Go swap to defensive build accordingly when holding Death Fiend or lack of supports",
+            "Weapon - Astra > Splitting > The Ender > Meacronacer"
+        ],
+        "items": {
+            "Astra, the Sword of Moonlight": [
+                "Splitting of the Sky and Earth",
+                "The Ender"
+            ],
+            "Horn of Demon God": [],
+            "Demonic Fist": [],
+            "Felspike Armor": [],
+            "Archangel Wings": []
+        }
+    },
+    {
+        "for": "Crusader",
+        "type": "Duke",
+        "order": 6,
+        "stat": "STR",
+        "version": "57b",
+        "guidelink": [
+            "https://i.imgflip.com/5sgfje.jpg"
+        ],
+        "description": [
+            "Why are you even reading this?",
+            "Go Farm Duke"
+        ],
+        "items": {
+            "Spear of Judgment": [],
+            "Crescendo of Madness": [],
+            "Demonic Fist": [],
+            "Plates of Sanguine Fury": [
+                "Cage of Twisted Souls"
+            ],
+            "Archangel Wings": []
+        }
+    },
     {
         "for": "Dark Knight",
         "type": "Burst",
