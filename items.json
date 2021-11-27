@@ -18906,7 +18906,7 @@
       "passive": [
         "On skill cast, activates Sparkle of Life",
         "Heals (750 + INT X 16) HP per second in an AoE for 9 seconds",
-        "Reduces damage taken by 15% and movement speed by 50 for 9 seconds",
+        "Reduces damage taken by 15% and increases movement speed by 50 for 9 seconds",
         "Cooldown: 3 seconds"
       ],
       "active": [
