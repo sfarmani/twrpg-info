@@ -29,7 +29,7 @@
             "type": "Early Game",
             "order": 1,
             "stat": "STR",
-            "version": "57a",
+            "version": "57b",
             "description": [
                 "Just equip anything you found the best"
             ],
@@ -50,7 +50,7 @@
             "type": "Mid Game",
             "order": 2,
             "stat": "STR",
-            "version": "57a",
+            "version": "57b",
             "description": [
                 "Coin Gears",
                 "Optional gears will be used later on but not worth to use them now, gather them first."
@@ -81,7 +81,7 @@
             "type": "Late Game Damage",
             "order": 3,
             "stat": "STR",
-            "version": "57a",
+            "version": "57b",
             "description": [
                 "Full damage gear to farm efficiently",
                 "Defensive gear for learners on next page",
@@ -110,7 +110,7 @@
             "type": "Late Game Learner/Defensive",
             "order": 4,
             "stat": "STR",
-            "version": "57a",
+            "version": "57b",
             "description": [
                 "Defensive gear for learners",
                 "Swap equipments accordingly, never use full defensive build unless holding Death Fiend.",
@@ -138,7 +138,7 @@
             "type": "Endgame",
             "order": 5,
             "stat": "STR",
-            "version": "57a",
+            "version": "57b",
             "description": [
                 "Just don't die - Lch#3181",
                 "Why would you use defensive gear in endgame, get supports.",
@@ -161,7 +161,7 @@
             "type": "Duke",
             "order": 6,
             "stat": "STR",
-            "version": "57a",
+            "version": "57b",
             "guidelink": [
                 "https://i.imgflip.com/5sgfje.jpg"
             ],
