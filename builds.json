@@ -364,17 +364,12 @@
     },
     {
         "for": "Lancer",
-        "type": "DPS",
+        "type": "DPS/Burst",
         "order": 1,
         "stat": "STR",
         "version": "57b",
         "guidelink": [
             "https://twrpg.com/viewtopic.php?f=4&t=3341"
-        ],
-        "description": [
-            "For max DPS it is recommended to go with the first items",
-            "The alternate items are for bursting options, as well as defense / support if your team is lacking it",
-            "Make your way to Aglaia until you reach Splitting as its easier to make first"
         ],
         "items": {
             "Spear of Judgment": [
@@ -393,17 +388,12 @@
     },
     {
         "for": "Lancer",
-        "type": "DPS",
+        "type": "DPS/Burst (more AA oriented)",
         "order": 2,
         "stat": "STR",
         "version": "57b",
         "guidelink": [
             "https://twrpg.com/viewtopic.php?f=4&t=3341"
-        ],
-        "description": [
-            "For max DPS it is recommended to go with the first items",
-            "The alternate items are for bursting options, as well as defense / support if your team is lacking it",
-            "Make your way to Aglaia until you reach Splitting as its easier to make first"
         ],
         "items": {
             "Astra, The Sword of Moonlight": [],
