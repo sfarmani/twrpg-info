@@ -23,70 +23,163 @@
             ],
             "Cape of Deep Abyss": []
         }
-    },
-    {
-        "for": "Crusader",
-        "type": "Tank DPS",
-        "order": 1,
-        "stat": "STR",
-        "version": "40b",
-        "description": [
-            "Build Meacronancer first, and eventually get to Calamity",
-            "Use Halo until you get Horn as it is good for AMS",
-            "Use Plates of Lightning as an in-between armor until Felspike/Hades",
-            "Ring of Strike is a good in between ring until you get to Heaven's Fist",
-            "Use Hades if no one else in your team is using it for the debuffs, otherwise use Felspike"
-        ],
-        "items": {
-            "Calamity": [
-                "Meacronacer, the Sword of Thousand Illusions"
+    },[
+        {
+            "for": "Crusader",
+            "type": "Early Game",
+            "order": 1,
+            "stat": "STR",
+            "version": "57a",
+            "description": [
+                "Just equip anything you found the best"
             ],
-            "Horn of Demon God": [
-                "Halo of Judgment"
+            "items": {
+                "Bahanar, the Sword of Illusion": [
+                    "Trident"
+                ],
+                "Helm of Battle": [],
+                "Ring of Intrusion": [],
+                "Purelight Armor": [],
+                "Corrupt Crystal Wings": [
+                    "Wings of Purification"
+                ]
+            }
+        },
+        {
+            "for": "Crusader",
+            "type": "Mid Game",
+            "order": 2,
+            "stat": "STR",
+            "version": "57a",
+            "description": [
+                "Coin Gears",
+                "Optional gears will be used later on but not worth to use them now, gather them first."
             ],
-            "Demonic Fist": [
-                "Ring of Strike"
+            "items": {
+                "Bahanar, the True Sword of Illusion": [
+                    "Aglaia, the Spear of Heavenly Flows"
+                ],
+                "Horn of Devil": [
+                    "Archangel Halo",
+                    "Helm of Battle"
+                ],
+                "Ring of Intrusion": [
+                    "Heart of Ifrit",
+                    "Purefrost Gauntlet"
+                ],
+                "Flameshard Armor": [
+                    "Purelight Armor",
+                    "Reactive Armor"
+                ],
+                "Corrupt Crystal Wings": [
+                    "Cape of Corrupt Flame"
+                ]
+            }
+        },
+        {
+            "for": "Crusader",
+            "type": "Late Game Damage",
+            "order": 3,
+            "stat": "STR",
+            "version": "57a",
+            "description": [
+                "Full damage gear to farm efficiently",
+                "Defensive gear for learners on next page",
+                "Optional gears will be used later on but not worth to use them now, gather them first."
             ],
-            "Felspike Armor": [
-                "Plates of Lightning",
-                "Hades, the Armor of Despair"
+            "items": {
+                "Meacronacer, the Sword of Thousand Illusions": [
+                    "Tiberius, the Spear of Lightning",
+                    "Aglaia, the Spear of Heavenly Flows"
+                ],
+                "Halo of Judgment": [
+                    "Horn of Devil"
+                ],
+                "Ring of Time": [
+                    "Heart of Ifrit",
+                    "Purefrost Gauntlet"
+                ],
+                "Requiem, the Armor of Lamentation": [
+                    "Hellspike Armor"
+                ],
+                "Pure Crystal Wings": []
+            }
+        },
+        {
+            "for": "Crusader",
+            "type": "Late Game Learner/Defensive",
+            "order": 4,
+            "stat": "STR",
+            "version": "57a",
+            "description": [
+                "Defensive gear for learners",
+                "Swap equipments accordingly, never use full defensive build unless holding Death Fiend.",
+                "I personally only swap to defensive gears when lack of supports or learning new boss",
+                "For holding Death Fiend, Frostshard Armor is enough, add Protector's Will if unsafe, add Cold Ring of Death for 20 proc.",
+                "Winter's Heart for guard break, in Valtora.",
+                "Creation is very good in ifrit."
             ],
-            "Cape of Deep Abyss": []
+            "items": {
+                "Winter's Heart": [],
+                "Protector's Will": [
+                    "Halo of Judgment"
+                ],
+                "Ring of Time": [
+                    "Cold Ring of Death"
+                ],
+                "Frostshard Armor": [
+                    "Creation of the Sky and Earth"
+                ],
+                "Cloak of the Fallen Shadows": []
+            }
+        },
+        {
+            "for": "Crusader",
+            "type": "Endgame",
+            "order": 5,
+            "stat": "STR",
+            "version": "57a",
+            "description": [
+                "Just don't die - Lch#3181",
+                "Why would you use defensive gear in endgame, get supports.",
+                "Go swap to defensive build accordingly when holding Death Fiend or lack of supports",
+                "Weapon - Astra > Splitting > The Ender > Meacronacer"
+            ],
+            "items": {
+                "Astra, the Sword of Moonlight": [
+                    "Splitting of the Sky and Earth",
+                    "The Ender"
+                ],
+                "Horn of Demon God": [],
+                "Demonic Fist": [],
+                "Felspike Armor": [],
+                "Archangel Wings": []
+            }
+        },
+        {
+            "for": "Crusader",
+            "type": "Duke",
+            "order": 6,
+            "stat": "STR",
+            "version": "57a",
+            "guidelink": [
+                "https://i.imgflip.com/5sgfje.jpg"
+            ],
+            "description": [
+                "Why are you even reading this?",
+                "Go Farm Duke"
+            ],
+            "items": {
+                "Spear of Judgment": [],
+                "Crescendo of Madness": [],
+                "Demonic Fist": [],
+                "Plates of Sanguine Fury": [
+                    "Cage of Twisted Souls"
+                ],
+                "Archangel Wings": []
+            }
         }
-    },
-    {
-        "for": "Crusader",
-        "type": "Burst",
-        "order": 2,
-        "stat": "STR",
-        "version": "43k",
-        "description": [
-            "Build Splitting first, and eventually get to Astra",
-            "Use Halo until you get Horn as it is good for AMS",
-            "Overlord and Cold Ring have similar DPS output, use Cold Ring for survivality until Demonic Fist / RoFS",
-            "Use Hades if no one else in your team is using it for the debuffs, otherwise use Felspike",
-            "Use HolG/CoC till HoDG/CoaZ, HoDG for fast pure dmg output, CoaZ for good stats and SD boost for full combo",
-            "Use Brave Heart as sustain wings"
-        ],
-        "items": {
-            "Astra, the Sword of Moonlight": [
-                "Splitting of the Sky and Earth"
-            ],
-            "Horn of Demon God": [
-                "Crown of Absolute Zero"
-            ],
-            "Demonic Fist": [
-                "Latea, the Ring of Overlord",
-                "Ring of Frozen Soul"
-            ],
-            "Felspike Armor": [
-                "Hades, the Armor of Despair"
-            ],
-            "Archangel Wings": [
-                "Brave Heart"
-            ]
-        }
-    },
+    ],
     {
         "for": "Dark Knight",
         "type": "Burst",
@@ -328,11 +421,10 @@
             ],
             "Ring of Fate": [],
             "Harmony of Sky and Earth": [
-                "Hades, the Armor of Despair"
+                "Cage of Twisted Souls"
             ],
-            "Protection of the Fairies": [
-                "Grim Heart",
-                "Embrace of Nature",
+            "Guardian Angel": [
+                "Protection of the Fairies",
                 "Wings of Immortal"
             ]
         }
@@ -1145,13 +1237,16 @@
         "guidelink": [
             "https://twrpg.com/viewtopic.php?f=4&t=6717"
         ],
+        "description": [
+            "Crown of Cleansing may be a good combo when used with Jupiter"
+        ],
         "items": {
-            "Ethenos, the Staff of Chaos": [
-                "The Ender",
+            "Fulminata, the Bringer of Storms": [
                 "Armageddon"
             ],
             "Horn of Demon God": [
-                "Crown of Absolute Zero"
+                "Crown of Absolute Zero",
+                "Crown of Cleansing"
             ],
             "Ring of the One": [
                 "Ring of Frozen Soul",
@@ -1160,7 +1255,7 @@
             "Thanatos, the Robe of Hell": [
                 "Jupiter, the Robe of Heavens"
             ],
-            "Storm": [
+            "Bloodstorm": [
                 "Soul Devourer"
             ]
         }
