@@ -408,7 +408,7 @@
         "description": [
             "Both Universe and Demise have their uses so make sure to get both. But first focus on Universe as it is essentially more useful",
             "Use Despair only if you want off-hand damage (have too much supports or something like that)",
-            "Embrace of Nature is easy to get since its not a craft and is still useful until you get Grim Heart and eventually Protection"
+            "Grim Heart can be used as a temp craft"
         ],
         "items": {
             "Bag of Universe": [
@@ -423,8 +423,7 @@
                 "Cage of Twisted Souls"
             ],
             "Guardian Angel": [
-                "Protection of the Fairies",
-                "Wings of Immortal"
+                "Protection of the Fairies"
             ]
         }
     },
