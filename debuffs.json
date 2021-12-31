@@ -73,7 +73,8 @@
         "suffix": "None",
         "debufftype": "Increased Damage Taken",
         "names": [
-            "Hades, the Armor of Despair (Passive)"
+            "Hades, the Armor of Despair [Passive]",
+            "Cage of Twisted Souls (4% [Passive], 8% [Active])"
         ]
     },
     {
@@ -91,6 +92,7 @@
         "debufftype": "Reduced Healing Received",
         "names": [
             "Parasitic Staff (Active)",
+            "Staff of Plague (Active)",
             "Merchant - Throw Money [R]",
             "Sword Enchanter - Ultimate Enchant [F]"
         ]

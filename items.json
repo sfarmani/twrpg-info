@@ -2047,6 +2047,11 @@
     "required_by": [
       "Wings of Death Icon"
     ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
+    ],
     "stats": {
       "hpregen": 12
     }
@@ -2433,6 +2438,11 @@
     "required_by": [
       "Spider Queen Icon"
     ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
+    ],
     "stats": {
       "mpregen": 6
     }
@@ -2790,6 +2800,11 @@
     "required_by": [
       "Corrupt Angel Icon"
     ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
+    ],
     "stats": {
       "critchancepercent": 0.01
     }
@@ -3080,6 +3095,11 @@
     "required_by": [
       "Everfrost Icon"
     ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
+    ],
     "stats": {
       "mp": 240
     }
@@ -3339,7 +3359,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "ajen",
@@ -3575,7 +3595,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "I07O",
@@ -3590,7 +3610,7 @@
     "type": "Headwear",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.075,
     "required_by": [
       "Jack Pumpkin Helm +1",
       "Jack Icon"
@@ -3752,7 +3772,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "I06F",
@@ -4093,7 +4113,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "I07R",
@@ -4328,7 +4348,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "I0BJ",
@@ -4390,7 +4410,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "I085",
@@ -4591,7 +4611,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "I0C4",
@@ -4764,7 +4784,88 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
+  },
+  {
+    "id": "rhth",
+    "name": "Okelanq, the Spear of Frost",
+    "koreanname": "빙결의 창 오켈렌크",
+    "description": "Stone spear formed from gathering of frozen crystals",
+    "dropped_by": [
+      "Soul of Everfrost",
+      "Frostspider Queen"
+    ],
+    "rank": "[Epic]",
+    "grade": 2,
+    "type": "Weapon (Melee)",
+    "color": "9BE1E1",
+    "level": 90,
+    "droprate": 0.075,
+    "required_by": [
+      "Aglaia, the Spear of Heavenly Flows"
+    ],
+    "stats": {
+      "damage": 4050,
+      "str": 375,
+      "critmultiplier": 0.15,
+      "passive": [
+        "13% chance to activate Frost effect on attack",
+        "Deals (MAIN STAT X 3) magic damage and reduces enemy's movement speed by 20% for 3 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I0D6",
+    "name": "Okelanq, the Bow of Frost",
+    "koreanname": "빙결의 활 오켈렌크",
+    "description": "Magical bow that shoots fragmented shards of ice.",
+    "dropped_by": [
+      "Soul of Everfrost",
+      "Frostspider Queen"
+    ],
+    "rank": "[Epic]",
+    "grade": 2,
+    "type": "Weapon (Bow)",
+    "color": "9BE1E1",
+    "level": 90,
+    "droprate": 0.075,
+    "required_by": [
+      "Icicle Storm"
+    ],
+    "stats": {
+      "damage": 3750,
+      "agi": 415,
+      "affinityiwpercent": 0.05,
+      "passive": [
+        "On attack, 13% chance to activate Frost Strike",
+        "Deals (MAIN STAT X 3) magic damage and reduces enemy's movement speed by 20% for 3 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I0FE",
+    "name": "Lord of Revolver",
+    "koreanname": "로드 오브 리볼버",
+    "description": "The secret weapon of Everfrost; it emits a chilling aura.",
+    "dropped_by": [
+      "Soul of Everfrost",
+      "Frostspider Queen"
+    ],
+    "rank": "[Epic]",
+    "grade": 2,
+    "type": "Weapon (Gun)",
+    "color": "9BE1E1",
+    "level": 90,
+    "droprate": 0.075,
+    "required_by": [
+      "Retus, the Bullet of Judgment"
+    ],
+    "stats": {
+      "damage": 6000,
+      "agi": 425,
+      "attackspeedpercent": -0.2,
+      "critmultiplier": 0.2
+    }
   },
   {
     "id": "I08D",
@@ -4772,14 +4873,15 @@
     "koreanname": "서리한의 로브 켈투자드",
     "description": "Fools that dare challenge me shall freeze for eternity.",
     "dropped_by": [
-      "Soul of Everfrost"
+      "Soul of Everfrost",
+      "Frostspider Queen"
     ],
     "rank": "[Epic]",
     "grade": 2,
     "type": "Armor",
     "color": "9BE1E1",
     "level": 90,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "Everfrost Icon",
       "Frozen Robe",
@@ -4800,14 +4902,15 @@
     "koreanname": "서리한의 투구 프로스트",
     "description": "You lowly beings cannot even touch my skin !!",
     "dropped_by": [
-      "Soul of Everfrost"
+      "Soul of Everfrost",
+      "Frostspider Queen"
     ],
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
     "color": "9BE1E1",
     "level": 90,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "Frostshard Armor",
       "Everfrost Icon"
@@ -4827,14 +4930,15 @@
     "koreanname": "서리한의 후드 프로스트",
     "description": "You lowly beings cannot even touch my skin !!",
     "dropped_by": [
-      "Soul of Everfrost"
+      "Soul of Everfrost",
+      "Frostspider Queen"
     ],
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
     "color": "9BE1E1",
     "level": 90,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "Crown of Composure",
       "Everfrost Icon"
@@ -4853,14 +4957,15 @@
     "koreanname": "윈터 로즈",
     "description": "This lone rose shall accompany your road to victory.",
     "dropped_by": [
-      "Soul of Everfrost"
+      "Soul of Everfrost",
+      "Frostspider Queen"
     ],
     "rank": "[Epic]",
     "grade": 2,
     "type": "Accessory",
     "color": "9BE1E1",
     "level": 90,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "Twin Snow",
       "Crimson Cross",
@@ -4878,126 +4983,12 @@
     }
   },
   {
-    "id": "I06X",
-    "name": "Frorist",
-    "koreanname": "프로리스트",
-    "dropped_by": [
-      "Soul of Everfrost",
-      "Frostspider Lord"
-    ],
-    "rank": "[Epic]",
-    "grade": 2,
-    "type": "Material",
-    "color": "FFFFFF",
-    "droprate": 0.08,
-    "required_by": [
-      "Icicle Storm",
-      "Bag of Life",
-      "Frozen Robe",
-      "Mana Heart Frost",
-      "Frozen Heart",
-      "Eternal Rose",
-      "Cold Ring of Death",
-      "Everfrost Icon"
-    ]
-  },
-  {
-    "id": "olig",
-    "name": "Everfrost Token",
-    "koreanname": "서리의 토큰",
-    "dropped_by": [
-      "Soul of Everfrost"
-    ],
-    "rank": "none",
-    "grade": 0,
-    "type": "Token",
-    "color": "DAA520",
-    "droprate": 0.0001
-  },
-  {
-    "id": "rhth",
-    "name": "Okelanq, the Spear of Frost",
-    "koreanname": "빙결의 창 오켈렌크",
-    "description": "Stone spear formed from gathering of frozen crystals",
-    "dropped_by": [
-      "Frostspider Queen"
-    ],
-    "rank": "[Epic]",
-    "grade": 2,
-    "type": "Weapon (Melee)",
-    "color": "9BE1E1",
-    "level": 90,
-    "droprate": 0.06,
-    "required_by": [
-      "Aglaia, the Spear of Heavenly Flows"
-    ],
-    "stats": {
-      "damage": 4050,
-      "str": 375,
-      "critmultiplier": 0.15,
-      "passive": [
-        "13% chance to activate Frost effect on attack",
-        "Deals (MAIN STAT X 3) magic damage and reduces enemy's movement speed by 20% for 3 seconds"
-      ]
-    }
-  },
-  {
-    "id": "I0D6",
-    "name": "Okelanq, the Bow of Frost",
-    "koreanname": "빙결의 활 오켈렌크",
-    "description": "Magical bow that shoots fragmented shards of ice.",
-    "dropped_by": [
-      "Frostspider Queen"
-    ],
-    "rank": "[Epic]",
-    "grade": 2,
-    "type": "Weapon (Bow)",
-    "color": "9BE1E1",
-    "level": 90,
-    "droprate": 0.06,
-    "required_by": [
-      "Icicle Storm"
-    ],
-    "stats": {
-      "damage": 3750,
-      "agi": 415,
-      "affinityiwpercent": 0.05,
-      "passive": [
-        "On attack, 13% chance to activate Frost Strike",
-        "Deals (MAIN STAT X 3) magic damage and reduces enemy's movement speed by 20% for 3 seconds"
-      ]
-    }
-  },
-  {
-    "id": "I0FE",
-    "name": "Lord of Revolver",
-    "koreanname": "로드 오브 리볼버",
-    "description": "The secret weapon of Everfrost; it emits a chilling aura.",
-    "dropped_by": [
-      "Frostspider Queen"
-    ],
-    "rank": "[Epic]",
-    "grade": 2,
-    "type": "Weapon (Gun)",
-    "color": "9BE1E1",
-    "level": 90,
-    "droprate": 0.06,
-    "required_by": [
-      "Retus, the Bullet of Judgment"
-    ],
-    "stats": {
-      "damage": 6000,
-      "agi": 425,
-      "attackspeedpercent": -0.2,
-      "critmultiplier": 0.2
-    }
-  },
-  {
     "id": "I099",
     "name": "Frost Web Brooch",
     "koreanname": "프로스트 웹 브로치",
     "description": "A meticulously woven brooch",
     "dropped_by": [
+      "Soul of Everfrost",
       "Frostspider Queen"
     ],
     "rank": "[Epic]",
@@ -5005,7 +4996,7 @@
     "type": "Accessory",
     "color": "9BE1E1",
     "level": 90,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "Everfrost Gauntlet",
       "Heart of Ifrit"
@@ -5020,18 +5011,52 @@
     }
   },
   {
-    "id": "I06K",
-    "name": "Frozen Cobweb",
-    "koreanname": "얼음 거미줄",
+    "id": "I06X",
+    "name": "Frorist",
+    "koreanname": "프로리스트",
     "dropped_by": [
-      "Frostspider Lord",
-      "Frostspider Queen"
+      "Soul of Everfrost",
+      "Frostspider Queen",
+      "Frostspider Lord"
     ],
     "rank": "[Epic]",
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.08,
+    "droprate": [
+      0.1,
+      0.1,
+      0.05
+    ],
+    "required_by": [
+      "Icicle Storm",
+      "Bag of Life",
+      "Frozen Robe",
+      "Mana Heart Frost",
+      "Frozen Heart",
+      "Eternal Rose",
+      "Cold Ring of Death",
+      "Everfrost Icon"
+    ]
+  },
+  {
+    "id": "I06K",
+    "name": "Frozen Cobweb",
+    "koreanname": "얼음 거미줄",
+    "dropped_by": [
+      "Soul of Everfrost",
+      "Frostspider Queen",
+      "Frostspider Lord"
+    ],
+    "rank": "[Epic]",
+    "grade": 2,
+    "type": "Material",
+    "color": "FFFFFF",
+    "droprate": [
+      0.1,
+      0.1,
+      0.05
+    ],
     "required_by": [
       "Twin Snow",
       "Bag of Corruption",
@@ -5061,6 +5086,19 @@
     "droprate": 0.0001
   },
   {
+    "id": "olig",
+    "name": "Everfrost Token",
+    "koreanname": "서리의 토큰",
+    "dropped_by": [
+      "Soul of Everfrost"
+    ],
+    "rank": "none",
+    "grade": 0,
+    "type": "Token",
+    "color": "DAA520",
+    "droprate": 0.00005
+  },
+  {
     "id": "I067",
     "name": "Winter's Tear",
     "koreanname": "겨울의 눈물",
@@ -5073,7 +5111,7 @@
     "type": "Weapon (Melee)",
     "color": "9BE1E1",
     "level": 90,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Spider Queen Icon",
       "Winter's Heart"
@@ -5102,7 +5140,7 @@
     "type": "Weapon (Bow)",
     "color": "9BE1E1",
     "level": 90,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Everfrostbane",
       "Spider Queen Icon"
@@ -5135,7 +5173,7 @@
     "type": "Weapon (Melee)",
     "color": "9BE1E1",
     "level": 90,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "Deathbringer"
     ],
@@ -5163,7 +5201,7 @@
     "type": "Weapon (Staff)",
     "color": "9BE1E1",
     "level": 90,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "Twin Snow"
     ],
@@ -5193,7 +5231,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.08,
+    "droprate": 0.1,
     "required_by": [
       "Sanguiel, the Bloodspear of Requiem",
       "Anger",
@@ -5247,7 +5285,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "kysn",
@@ -5262,7 +5300,7 @@
     "type": "Weapon (Melee)",
     "color": "9BE1E1",
     "level": 90,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Maw of Greed",
       "Claws of Beriel",
@@ -5292,7 +5330,7 @@
     "type": "Weapon (Gun)",
     "color": "9BE1E1",
     "level": 90,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Bullet of Ruin",
       "Demon Lord Icon"
@@ -5321,7 +5359,7 @@
     "type": "Headwear",
     "color": "9BE1E1",
     "level": 90,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "Horns of Destruction",
       "Bahanar, the True Sword of Illusion"
@@ -5352,7 +5390,7 @@
     "type": "Headwear",
     "color": "9BE1E1",
     "level": 90,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "Devil Blaster",
       "Staff of Domination",
@@ -5385,7 +5423,7 @@
     "type": "Wings",
     "color": "9BE1E1",
     "level": 90,
-    "droprate": 0.06,
+    "droprate": 0.075,
     "required_by": [
       "Wanderer's Cape",
       "Storm"
@@ -5409,7 +5447,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.08,
+    "droprate": 0.1,
     "required_by": [
       "Bahanar, the True Sword of Illusion",
       "Asmodeus, the Archdevil's Greatsword",
@@ -5444,7 +5482,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.08,
+    "droprate": 0.1,
     "required_by": [
       "Anger",
       "Flame Explosion",
@@ -5491,7 +5529,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "odef",
@@ -5691,7 +5729,7 @@
     ],
     "recipe": [
       {
-        "Prius Silver Coin": 250
+        "Prius Gold Coin": 4
       }
     ],
     "stats": {
@@ -6631,15 +6669,14 @@
     "koreanname": "프리우스 은화",
     "description": "A valuable coin. It can be traded with collectors for other items.",
     "notes": [
-      "To exchange, you can sell items dropped by mid-level bosses ('Used In' section except 'Spirit Beast Icon') to the Collector NPC",
+      "To exchange, you can sell items dropped by mid-level bosses ('Used In' section) to the Collector NPC",
       "Can be used to purchased items from the Collector NPC"
     ],
-    "rank": "none",
-    "grade": 0,
+    "rank": "[Epic]",
+    "grade": 2,
     "type": "Coin",
     "color": "C0C0C0",
     "required_by": [
-      "Coin of Effort",
       "Corruptor",
       "Stalker",
       "Avenger",
@@ -6668,8 +6705,72 @@
       "Oath of Courage",
       "Pure Steel",
       "Mark of Storm",
-      "Mana Orb",
-      "Spirit Beast Icon"
+      "Mana Orb"
+    ]
+  },
+  {
+    "id": "I0NZ",
+    "name": "Prius Gold Coin",
+    "koreanname": "프리우스 금화",
+    "description": "A valuable coin. It can be traded with collectors for other items.",
+    "notes": [
+      "Can be used to purchased items from the Collector NPC"
+    ],
+    "dropped_by": [
+      "Bone Dragon",
+      "Skeleton King Desperia",
+      "Zombie Lord",
+      "Ancient Ent",
+      "Archangel Samael",
+      "Shadow Dragon Irbert"
+    ],
+    "rank": "[Epic]",
+    "grade": 3,
+    "type": "Coin",
+    "color": "C0C0C0",
+    "droprate": 0.005,
+    "required_by": [
+      "Ragnaar Icon",
+      "Tentacle Lord Icon",
+      "Giant Golem Icon",
+      "Mana Ancient Icon",
+      "Spirit Beast Icon",
+      "Bone Dragon Icon",
+      "Coin of Effort",
+      "Ancient Hourglass",
+      "Dragonic Orb",
+      "Burning Bone Fragments",
+      "Dragon's Eye",
+      "Death Scythe",
+      "Staff of Souls",
+      "Robe of the Reaper",
+      "Brooch of Darkness",
+      "Bone Necklace",
+      "Fragment of Oblivion",
+      "Skeleton Bone",
+      "Orb of Oblivion",
+      "Spirit of Abyss",
+      "Parasitic Staff",
+      "Hood of the Fallen",
+      "Shroud of Perseverance",
+      "Proof of Purification",
+      "Heart of Fire",
+      "Dark Crystal",
+      "Embrace of Nature",
+      "Purified Water of Nature",
+      "Fragment of the Wind",
+      "Griseus, the Sword of Protection",
+      "Ring of the Storm",
+      "Guardian of the Skies",
+      "Steel of God",
+      "God's Page",
+      "Essence of Light",
+      "Levante, the Sword of Love and Hate",
+      "Draconic Skin Rusalka",
+      "Nephthys, the Engraved Ring",
+      "Essence of Darkness",
+      "Antimatter",
+      "Frozen Debris"
     ]
   },
   {
@@ -6690,6 +6791,11 @@
       "Espishu, the Sword of Eternity",
       "Ring of Time",
       "Heaven's Fist"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ],
     "stats": {
       "mainstat": 335,
@@ -6729,6 +6835,11 @@
       "Heaven's Door",
       "Benziena, the Earthen Heart"
     ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
+    ],
     "stats": {
       "damage": 5700,
       "allstat": 450,
@@ -6766,6 +6877,11 @@
       "Archangel Wings",
       "Bag of Destruction",
       "Hood of Apocalypse"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ]
   },
   {
@@ -6796,6 +6912,11 @@
       "Bag of Explosion",
       "Radiance of the One",
       "Crown of Great Rage"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ]
   },
   {
@@ -6808,16 +6929,10 @@
       "Mana Ancient Mount: Coin of Effort x6",
       "Shadow Dragon Mount: Coin of Effort x12",
       "Costume of Effort: Coin of Effort x8",
-      "In addtion to being dropped by bosses, it can also be exchanged for 100 Prius Silver Coin",
+      "In addtion to being dropped by bosses, it can also be exchanged for 5 Prius Gold Coin",
       "See Collector NPC to exchange"
     ],
     "dropped_by": [
-      "Ancient Ent",
-      "Bone Dragon",
-      "Skeleton King Desperia",
-      "Archangel Samael",
-      "Zombie Lord",
-      "Shadow Dragon Irbert",
       "Death Fiend",
       "Valtora",
       "Ifrit",
@@ -6830,22 +6945,16 @@
     "type": "Coin",
     "color": "C0C0C0",
     "droprate": [
-      0.0005,
-      0.0005,
-      0.0005,
-      0.0005,
-      0.0005,
-      0.0005,
-      0.0007,
-      0.0006,
-      0.0008,
-      0.0009,
       0.001,
-      0.001
+      0.001,
+      0.001,
+      0.0015,
+      0.0015,
+      0.0015
     ],
     "recipe": [
       {
-        "Prius Silver Coin": 100
+        "Prius Gold Coin": 5
       }
     ]
   },
@@ -6863,6 +6972,11 @@
     "droprate": 0.0025,
     "required_by": [
       "Shadow Dragon Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 8
+      }
     ],
     "stats": {
       "damagedealtpercent": 0.005
@@ -6898,6 +7012,11 @@
     "required_by": [
       "Claws of Beriel",
       "Skeleton King Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ],
     "stats": {
       "damage": 7050,
@@ -6935,6 +7054,11 @@
       "Crimson Hatred",
       "Skeleton King Icon"
     ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
+    ],
     "stats": {
       "damage": 5700,
       "int": 690,
@@ -6966,6 +7090,11 @@
       "Medea, the Robe of the Witch",
       "Skeleton King Icon"
     ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
+    ],
     "stats": {
       "armor": 175,
       "int": 275,
@@ -6995,6 +7124,11 @@
       "Cold Ring of Death",
       "Skeleton King Icon"
     ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
+    ],
     "stats": {
       "mainstat": 390,
       "skilldamagepercent": 0.12,
@@ -7023,6 +7157,11 @@
       "Requiem, the Armor of Lamentation",
       "Skeleton King Icon"
     ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
+    ],
     "stats": {
       "allstat": 340,
       "attackspeedpercent": 0.15,
@@ -7044,6 +7183,11 @@
     "koreanname": "망각의 파편",
     "dropped_by": [
       "Skeleton King Desperia"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ],
     "rank": "[Epic]",
     "grade": 3,
@@ -7072,6 +7216,11 @@
     "koreanname": "스켈레톤 본",
     "dropped_by": [
       "Skeleton King Desperia"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ],
     "rank": "[Epic]",
     "grade": 3,
@@ -7124,6 +7273,11 @@
       "Ring of Composure",
       "Ring of Time",
       "Skeleton King Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ]
   },
   {
@@ -7153,6 +7307,11 @@
       "Grimoire of Darkness",
       "Eye of the Reaper",
       "Skeleton King Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ]
   },
   {
@@ -7186,6 +7345,11 @@
       "Staff of Plague",
       "Zombie Lord Icon"
     ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
+    ],
     "stats": {
       "damage": 5850,
       "int": 660,
@@ -7218,6 +7382,11 @@
       "Hood of Apocrypha",
       "Soul of the Dead",
       "Zombie Lord Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ],
     "stats": {
       "armor": 95,
@@ -7256,6 +7425,11 @@
       "Wings of Immortal",
       "Cape of Insatiable Hunger",
       "Zombie Lord Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ],
     "stats": {
       "mainstat": 295,
@@ -7297,6 +7471,11 @@
       "Spirit of Protector",
       "Robe of Storm",
       "Zombie Lord Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ]
   },
   {
@@ -7328,6 +7507,11 @@
       "Felspike Armor",
       "Benziena, the Earthen Heart",
       "Zombie Lord Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ]
   },
   {
@@ -7359,6 +7543,11 @@
       "Fiend Chaser",
       "Crown of Absolute Zero",
       "Zombie Lord Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ]
   },
   {
@@ -7396,6 +7585,11 @@
       "Benziena, the Earthen Heart",
       "Ancient Ent Icon"
     ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
+    ],
     "stats": {
       "str": 315,
       "int": 315,
@@ -7428,6 +7622,11 @@
       "Oceanus, the Sword of Light",
       "Winter's Heart",
       "Ancient Ent Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ],
     "stats": {
       "damage": 6450,
@@ -7468,6 +7667,11 @@
       "Ring of Divine Winds",
       "Robe of Storm",
       "Ancient Ent Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ],
     "stats": {
       "allstat": 280,
@@ -7518,6 +7722,11 @@
       "Ruler of the Skies",
       "Rainmaker",
       "Ancient Ent Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ]
   },
   {
@@ -7549,6 +7758,11 @@
       "Horn of God",
       "Mask of Demigod",
       "Ancient Ent Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ]
   },
   {
@@ -7584,6 +7798,11 @@
       "Ruler of the Skies",
       "Vest of Divine Winds",
       "Archangel Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ],
     "stats": {
       "str": 250,
@@ -7639,6 +7858,11 @@
       "Benziena, the Earthen Heart",
       "Agnitus, the Bow of Divine Fury",
       "Archangel Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ]
   },
   {
@@ -7671,6 +7895,11 @@
       "Heaven's Door",
       "Bloodseeker Plates",
       "Archangel Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ]
   },
   {
@@ -7703,6 +7932,11 @@
       "Star of Apotheosis",
       "Guardian Angel",
       "Archangel Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ]
   },
   {
@@ -7736,6 +7970,11 @@
       "Cosmic Reaper",
       "Shadow Dragon Icon"
     ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
+    ],
     "stats": {
       "damage": 7650,
       "str": 500,
@@ -7765,6 +8004,11 @@
     "required_by": [
       "Robe of Storm",
       "Shadow Dragon Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ],
     "stats": {
       "armor": 205,
@@ -7804,6 +8048,11 @@
       "Crown of Absolute Zero",
       "Wings of Flame Lord",
       "Shadow Dragon Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ],
     "stats": {
       "allstat": 295,
@@ -7850,6 +8099,11 @@
       "Staff of Plague",
       "Bloodstorm",
       "Shadow Dragon Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 5
+      }
     ]
   },
   {
@@ -7888,6 +8142,11 @@
       "Ring of Divine Winds",
       "Horn of Demon God",
       "Shadow Dragon Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 5
+      }
     ]
   },
   {
@@ -7903,8 +8162,8 @@
     "type": "Material",
     "color": "FFFFFF",
     "droprate": [
-      0.0175,
-      0.0075
+      0.012,
+      0.0085
     ],
     "required_by": [
       "Winter's Heart",
@@ -7928,6 +8187,11 @@
       "Grim Heart",
       "Demonic Fist",
       "Shadow Dragon Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 5
+      }
     ]
   },
   {
@@ -7956,7 +8220,7 @@
     "type": "Weapon (Shared)",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.0035,
+    "droprate": 0.005,
     "required_by": [
       "Calamity",
       "Astra, the Sword of Moonlight",
@@ -7988,7 +8252,7 @@
     "type": "Armor",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.008,
+    "droprate": 0.012,
     "required_by": [
       "Hades, the Armor of Despair",
       "Athanasia, the Armor of the Reaper",
@@ -8022,7 +8286,7 @@
     "type": "Headwear",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.01,
+    "droprate": 0.012,
     "required_by": [
       "Cosmic Star",
       "Bag of Despair",
@@ -8061,7 +8325,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.01,
+    "droprate": 0.012,
     "required_by": [
       "Latea, the Ring of Overlord",
       "Ring of Insanity",
@@ -8089,7 +8353,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.0075,
     "required_by": [
       "Staff of Plague",
       "Crimson Hatred",
@@ -8129,7 +8393,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.0075,
     "required_by": [
       "Protection of the Fairies",
       "Archangel Wings",
@@ -8148,6 +8412,7 @@
       "Agnitus, the Bow of Divine Fury",
       "Crescendo of Madness",
       "Cape of Insatiable Hunger",
+      "Sanguis, the Robe of Sacrifice",
       "Chaos Pickaxe"
     ]
   },
@@ -8162,7 +8427,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "ocor",
@@ -8238,7 +8503,8 @@
       "Caedis, the Sword of Slaughter",
       "Plates of Sanguine Fury",
       "Heirloom of Lazarus",
-      "Robe of Storm"
+      "Robe of Storm",
+      "Sanguis, the Robe of Sacrifice"
     ]
   },
   {
@@ -8341,7 +8607,7 @@
   },
   {
     "id": "I0P0",
-    "name": "Token of Thunder Lord",
+    "name": "Lightning God Token",
     "koreanname": "뇌신의 토큰",
     "dropped_by": [
       "Valtora"
@@ -8380,7 +8646,8 @@
       "Harmonia, the Sparkle of Life",
       "Heartrender",
       "Crown of Cleansing",
-      "Star of Apotheosis"
+      "Star of Apotheosis",
+      "Sanguis, the Robe of Sacrifice"
     ],
     "stats": {
       "mainstat": 390,
@@ -8472,7 +8739,7 @@
   },
   {
     "id": "I0P1",
-    "name": "Token of Avatar",
+    "name": "Flame God Token",
     "koreanname": "화신의 토큰",
     "dropped_by": [
       "Ifrit"
@@ -8602,7 +8869,7 @@
   },
   {
     "id": "I0P2",
-    "name": "Token of Sea God",
+    "name": "Sea God Token",
     "koreanname": "해신의 토큰",
     "dropped_by": [
       "Nereid"
@@ -8720,7 +8987,8 @@
       "Seed of Malice",
       "Voidshard Armor",
       "Agnitus, the Bow of Divine Fury",
-      "Cape of Insatiable Hunger"
+      "Cape of Insatiable Hunger",
+      "Sanguis, the Robe of Sacrifice"
     ]
   },
   {
@@ -8837,7 +9105,8 @@
       "Crescendo of Madness",
       "Star of Apotheosis",
       "Heirloom of Lazarus",
-      "Cape of Insatiable Hunger"
+      "Cape of Insatiable Hunger",
+      "Sanguis, the Robe of Sacrifice"
     ]
   },
   {
@@ -8851,14 +9120,15 @@
     "grade": 5,
     "type": "Material",
     "color": "733CBE",
-    "droprate": 0.005,
+    "droprate": 0.0075,
     "required_by": [
       "Heartrender",
       "Cage of Twisted Souls",
       "Plates of Sanguine Fury",
       "Crown of Cleansing",
       "Star of Apotheosis",
-      "Guardian Angel"
+      "Guardian Angel",
+      "Sanguis, the Robe of Sacrifice"
     ]
   },
   {
@@ -15768,7 +16038,7 @@
       "passive": [
         "On skill cast, releases lightning for 3 seconds",
         "Deals ((STR + AGI) X 3) magic damage",
-        "Increases HP regen by 30% max HP",
+        "Increases HP regen by 3% max HP",
         "Cooldown: 6 seconds"
       ]
     }
@@ -17369,7 +17639,7 @@
       ],
       "spec": [
         "Specialty - Phoenix",
-        "Martial Artist - Nameless Art's cast time is removed. Also revives hero with 75% HP after 2 seconds if killed while active."
+        "Martial Artist - If you die while Nameless Art is active, you will revive with 75% HP after 2 seconds."
       ]
     }
   },
@@ -18307,6 +18577,10 @@
         "On attack, activates Poem of Wind",
         "Fires an arrow that deals (wind affinity X (10% ATK DMG)) pure damage",
         "50% chance to fire 2 arrows"
+      ],
+      "spec": [
+        "Specialty - Arrow of Judgment",
+        "Sniper - Storm Shaft's max stack is increased by 1"
       ]
     }
   },
@@ -18357,7 +18631,7 @@
         "Fires 4 arrows to selected area",
         "Each arrow deals (AGI X 30) magic damage in an AoE",
         "Stuns for 2.5 seconds",
-        "Cooldown: 120 seconds, cannot be dropped during cooldown"
+        "Cooldown: 80 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialties",
@@ -19637,6 +19911,9 @@
     "type": "Armor",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Sanguis, the Robe of Sacrifice"
+    ],
     "recipe": [
       {
         "Draconic Skin Rusalka": 1
@@ -20231,7 +20508,7 @@
         "Specialties - Summary Judgement, Holy Arts",
         "Crusader - If Original Sin is cast while Holy Fist is active, only the last slash is activated with stun duration reduced by 50% and cooldown by 66%.",
         "Paladin - Divine Cross' damage is increased by15% and speed is increased by 50%",
-        "Martial Artist - If Nameless Arts is cast while Holy Fist is active, its cast time and duration are reduced by 50% but its cooldown is also reduced by 66%"
+        "Martial Artist - If Nameless Arts is cast while Holy Fist is active, its duration are reduced by 50% but its cooldown is also reduced by 66%"
       ]
     }
   },
@@ -20710,7 +20987,7 @@
         "Specialties - Demon's Grasp",
         "Paladin - Divine Cross' damage is increased by 20% and speed is increased by 50%",
         "Crusader - If Original Sin is cast while Demon's Grasp is active, only the last slash is activated with stun duration reduced by 50% and cooldown by 66%.",
-        "Martial Artist - If Nameless Arts is cast while Demon's Grasp is active, its cast time and duration are reduced by 50% but its cooldown is also reduced by 66%"
+        "Martial Artist - If Nameless Arts is cast while Demon's Grasp is active, its duration are reduced by 50% but its cooldown is also reduced by 66%"
       ]
     }
   },
@@ -20891,7 +21168,7 @@
       ],
       "spec": [
         "Specialty - Phoenix",
-        "Martial Artist - Nameless Art's cast time is removed. Also revives hero with 75% HP after 2 seconds if killed while active."
+        "Martial Artist - If you die while Nameless Art is active, you will revive with 75% HP after 2 seconds."
       ]
     }
   },
@@ -21407,7 +21684,8 @@
         "Fragment of Soul": 1
       },
       {
-        "Soul Blossom": 1
+        "Soul Blossom": 1,
+        "Blood Essence": 1
       }
     ],
     "stats": {
@@ -21417,12 +21695,12 @@
       "skilldamagepercent": 0.05,
       "passive": [
         "Upon damaging enemies below 50% HP, activates Death's Door",
-        "Deals 15% bonus damage"
+        "Deals 10% bonus damage"
       ],
       "active": [
         "On use, activates Heartrender",
         "Summons and launches a bloody spear at target, marking it and dealing 200000 magic damage and stunning it for 1 second",
-        "Deals 125% bonus damage to non-boss units",
+        "Deals 125% bonus damage to non-boss units (includes elite units as well)",
         "If the marked target dies, the cooldown of this effect will be reset",
         "Cooldown: 20 seconds (minimum 3 seconds per cast), cannot be dropped during cooldown"
       ]
@@ -21512,7 +21790,8 @@
       }
     ],
     "stats": {
-      "damage": 14800,
+      "damage": 13600,
+      "mainstat": 500,
       "movespeed": 75,
       "skilldamagepercent": 0.075,
       "passive": [
@@ -21524,7 +21803,7 @@
       ],
       "active": [
         "On use, activates Slaughter",
-        "Summons 4 marks around target for 6 seconds",
+        "Summons 4 marks around target for 10 seconds",
         "If all marks are procced, deals 300000 magic damage and stuns target for 2 seconds",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
@@ -21573,6 +21852,10 @@
         "These arrows can proc 'on attack' effects",
         "Applies Judgment for 5 seconds, increasing target's damage taken from Divine Poem by 10% for 3 seconds (up to 8 stacks)",
         "Judgment cooldown: 1 second"
+      ],
+      "spec": [
+        "Specialty - Arrow of Judgment",
+        "Sniper - Storm Shaft's max stack is increased by 2"
       ]
     }
   },
@@ -21720,14 +22003,14 @@
         "Increases nearby allies stats by 7%, enemies' damage taken by 4% [Type-B]",
         "Obtains Twisted Souls during combat",
         "You gain 1 soul every 40 seconds",
-        "You gain 3 souls when an ally dies",
+        "You gain 2 souls when an ally dies",
         "You can keep up to 5 souls, and each soul gives you 2% skill damage/magic defense and 1% HP regen"
       ],
       "active": [
         "On use, activates Lamentation",
-        "Consumes a charge of Twisted Soul",
         "For 6 seconds, deals 60000 magic damage per second to nearby enemies within 500 radius and increases their damage taken by 8% [Type-B]",
-        "Deals 200% bonus damage to non-boss units"
+        "Deals 200% bonus damage to non-boss units",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Eternal Lamentation",
@@ -21765,7 +22048,8 @@
         "Mark of Lord": 1
       },
       {
-        "Soul Blossom": 1
+        "Soul Blossom": 1,
+        "Emblem of Sacrifice": 1
       }
     ],
     "stats": {
@@ -21787,6 +22071,52 @@
         "For 8 seconds, gains 8% damage dealt but loses 12% magic defense",
         "Blood Nova will be active for the duration with 100% increased potency",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I019",
+    "name": "Sanguis, the Robe of Sacrifice",
+    "koreanname": "희생의 로브 상기스",
+    "description": "Be purged by blood.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Robe of Storm": 1
+      },
+      {
+        "Heart of Volcano": 1
+      },
+      {
+        "Aegis of Storm": 1
+      },
+      {
+        "Fragment of Chaos": 1
+      },
+      {
+        "Fragment of Hell": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      },
+      {
+        "Soul Blossom": 1
+      }
+    ],
+    "stats": {
+      "armor": 225,
+      "int": 480,
+      "movespeed": 50,
+      "skilldamagepercent": 0.12,
+      "passive": [
+        "During combat, activates Ring of Blood"
+      ],
+      "active": [
+        "On use, adjusts the radius of Ring of Blood"
       ]
     }
   },
@@ -21825,12 +22155,11 @@
       "allstat": 290,
       "skilldamagepercent": 0.125,
       "affinitydarkpercent": 0.075,
-      "healreceivedpercent": -0.20,
       "active": [
         "On use, summons Shade of Madness",
         "Consumes max HP X 10% to spawn a shade (up to 5 shades)",
         "Using it a second time will send all summoned shades towards target",
-        "Each shade deals 70000 magic damage",
+        "Each shade deals 50000 magic damage",
         "Cooldown: 3 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -21875,13 +22204,13 @@
       "passive": [
         "15% chance to activate Serenity upon healing ally",
         "Increases skill damage by 6%",
-        "Restores (200 + INT X 0.15) HP and 1.2% MP per second",
+        "Restores (target's max HP X 2% + INT X 0.15) HP and 1.2% MP per second",
         "Lasts 5 seconds"
       ],
       "active": [
         "On use, activates Cleansing",
         "Clears debuffs from all allies in 800 range and and applies Serenity to them for 12 seconds",
-        "Cooldown: 120 seconds, cannot be dropped during cooldown"
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Protector of Wind",
@@ -21929,7 +22258,7 @@
         "On use, activates Apotheosis",
         "Gains 750 all stats for 10 seconds",
         "Upon expiration, triggers an explosion dealing (base damage dealt to boss units X 15%) magic damage to nearby enemies",
-        "Upon expiration, loses 250 all stats and become unable to be revived by allies for 30 seconds",
+        "Can use again to end prematurely",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -22034,6 +22363,7 @@
       "active": [
         "On use, activates Insatiable Hunger",
         "Consumes (current HP X 35%) to empower next 3 attacks within 1.5 seconds with Bloody Bite",
+        "Each empowered Bloody Bite will deal bonus 20000 pure damage",
         "Cooldown: 10 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -22083,7 +22413,7 @@
         "On use, activates Bloodstorm",
         "Only usable at full stacks",
         "Becomes invisible (for Assassin, triggers Dark Shroud instead) and gains 200 movement speed for 2 seconds",
-        "Next attack will will be empowered, dealing Main Stat X 4 X Crit Multiplier magic damage",
+        "Next attack will will be empowered, dealing MAIN STAT X 5 X crit multiplier magic damage",
         "Cooldown: 10 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -22118,7 +22448,8 @@
         "Blood Essence": 1
       },
       {
-        "Soul Blossom": 1
+        "Soul Blossom": 1,
+        "Crimson Rose": 1
       }
     ],
     "stats": {

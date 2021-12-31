@@ -133,7 +133,8 @@
         "names": [
             "Purelight Armor (Aura) - 4%",
             "Requiem, the Armor of Lamentation (Aura) - 5%",
-            "Hades, the Armor of Despair (Aura) - 6%"
+            "Hades, the Armor of Despair (Aura) - 6%",
+            "Cage of Twisted Souls (Aura) - 7%"
         ]
     },
     {
@@ -143,7 +144,7 @@
         "names": [
             "Elementalist - Refreshing Well [W] → [Passive] (Aura) - (10% allies)",
             "Lancer - Meteor Spear [T] → [Active] - (10% allies)",
-            "Crusader - Flash of Immortality [W] → [Passive] (Aura) - (12% self - 6% allies)"
+            "Crusader - Flash of Immortality [W] → [Passive] (Aura) - (10% self - 5% allies)"
         ]
     },
     {

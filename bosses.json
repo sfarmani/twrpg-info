@@ -1990,7 +1990,7 @@
 		"quote": "grwwowowrwo !",
 		"level": "50",
 		"category": "Minor",
-		"type": "Boss",
+        "type": "Boss",
 		"limit": "5",
 		"respawn": "4",
 		"location": "Top right area of Seaside at Area 3",
@@ -2534,11 +2534,16 @@
             "moveSpeed": "440"
         },
         "drops": [
+            "rhth",
+            "I0D6",
+            "I0FE",
             "I08D",
             "I08R",
             "I08E",
             "I097",
+            "I099",
             "I06X",
+            "I06K",
             "olig"
         ],
         "spells": [
@@ -2606,7 +2611,12 @@
             "rhth",
             "I0D6",
             "I0FE",
+            "I08D",
+            "I08R",
+            "I08E",
+            "I097",
             "I099",
+            "I06X",
             "I06K",
             "stre"
         ],
@@ -3425,7 +3435,7 @@
             "sreg",
             "tret",
             "btst",
-            "I0OZ",
+            "I0NZ",
             "I0M7",
             "rre1"
         ],
@@ -3477,7 +3487,7 @@
             "I0EL",
             "nflg",
             "gsou",
-            "I0OZ",
+            "I0NZ",
             "fgrg"
         ],
         "spells": [
@@ -3551,7 +3561,7 @@
             "I0AS",
             "rde1",
             "I08P",
-            "I0OZ",
+            "I0NZ",
             "pomn"
         ],
         "spells": [
@@ -3661,7 +3671,7 @@
             "shtm",
             "pgin",
             "srtl",
-            "I0OZ",
+            "I0NZ",
             "pres"
         ],
         "spells": [
@@ -3800,7 +3810,7 @@
             "I0E5",
             "I0E7",
             "I0E6",
-            "I0OZ",
+            "I0NZ",
             "sneg"
         ],
         "spells": [
@@ -3846,7 +3856,7 @@
             "mcri",
             "I08N",
             "I09N",
-            "I0OZ",
+            "I0NZ",
             "shar"
         ],
         "spells": [

@@ -1675,7 +1675,7 @@
         "order": 2,
         "active": [
             "Fire a magic bullet that splits into two directions.",
-            "(AGI + INT) X 5 pure damage per bullet",
+            "(AGI + INT) X 6 pure damage per bullet",
             "Deals 100% increased damage to non-boss units",
             "Cooldown is reset upon firing another magic bullet"
         ],
@@ -2363,7 +2363,7 @@
         "order": 9,
         "active": [
             "Brutally slash everything in range with rapid movements.",
-            "Cleave all nearby enemies for attack damage x 2 + AGI x 7.5 magic damage every second",
+            "Cleaves all nearby enemies for Attack Damage x 4 + AGI x 15 magic damage every second",
             "Increases damage taken by target by 10% for 8 seconds"
         ],
         "active_tags": [
@@ -3540,6 +3540,7 @@
         "order": 7,
         "active": [
             "\"None can match the skills of the martial artists of Eloren. Having obtained the knowledge of all advanced martial arts, each one of their techniques is deadly.\" - A Continent Traveller",
+            "Enables Inner Meditation",
             "Increases damage dealt by martial arts by 80% and reduces attack cooldown by 50%",
             "Gains immunity to unit collision, debuffs and CC effects",
             "Lasts 8 seconds"
@@ -4002,7 +4003,7 @@
             "Immediately becomes invisible and gains bonus movement speed",
             "Next attack within 6 seconds inflicts attack damage X 1 + AGI X 7.5 magic damage",
             "Stuns for 1 second",
-            "If struck from behind, damage increased by 60%"
+            "If struck from behind, damage increased by 50%"
         ],
         "active_tags": [
             "Hero",
@@ -4944,8 +4945,9 @@
         "passive": [
             "The elven archers of ancient origin possess superior intellect and archery skills.",
             "Increasees move speed by 100",
-            "Every 4 seconds, empowers next attack with magical explosion, dealing AGI X 6 magic damage",
-            "Next Flame Shot / Freezing Shot incurs no cooldown"
+            "Every 4 seconds, empowers next attack with a magical explosion, dealing AGI X 6 magic damage",
+            "Every 4 seconds, stacks a charge of Magic Arrow (up to 2 charges)",
+            "Casting Flame Shot or Freezing Shot will consume a stack of Magic Arrow and not incur any cooldown"
         ],
         "passive_tags": [
             "Hero",
@@ -5113,7 +5115,7 @@
         "active": [
             "\"Without a warning, our enemies were swept across like dust by a magical arrow she shot.\" - A soldier of battlefield",
             "AGI X 17.5 magic damage",
-            "Each arrow deals AGI X 0.75 magic damage",
+            "Each arrow deals AGI X 3 magic damage",
             "Explosion deals AGI X 75 magic damage",
             "Stacks Elven Arrow every second for 6 seconds",
             "Stacks are usable for 15 seconds"
@@ -5451,7 +5453,7 @@
             "On finish, deals Max HP X 3 magic damage to nearby enemies",
             "On finish, receives shield that absorbs Consumed HP X 100% damage for 8 seconds",
             "While casting, becomes immune to CC effects and reduces damage taken by 80%",
-            "INT Main Stat: Nearby allies also receive the effect"
+            "INT Main Stat: Nearby allies also receive shield and damage reduction"
         ],
         "active_tags": [
             "Hero",
@@ -5556,7 +5558,7 @@
         "hotkey": "[R] → [R]",
         "icon": "DarkKnightR_R",
         "proc_rate": 0.5,
-        "cooldown": 30,
+        "cooldown": 25,
         "order": 9,
         "active": [
             "Gathers souls into a ball and blasts it away.",
@@ -5771,7 +5773,7 @@
         "color": "80ffff",
         "hotkey": "[F]",
         "icon": "ArcaneMageF",
-        "cooldown": 100,
+        "cooldown": 90,
         "order": 7,
         "active": [
             "\"It's not an ordinary spell. This parade of stars that formed from the harmony of mana will captivate anyone's mind who sees it.\" - Mage",
@@ -6777,7 +6779,7 @@
         "passive": [
             "Forms a harmonious balance between attacking and healing.",
             "Every 4th attack heals you and 2 nearby allies for 25 + INT X 0.5 + Target's MAX HP X 2%",
-            "If AGI is highest, your skills deal 75% more damage",
+            "If AGI is highest, your skills deal 65% more damage",
             "If STR or INT is highest, your skills heal and regenerate for 100% more and activates Harmony"
         ],
         "passive_tags": [
@@ -6796,7 +6798,7 @@
         "order": 2,
         "active": [
             "Strikes target's weak points.",
-            "Attack damage X 2.5 pure damage",
+            "Attack Damage X 1.5 + Main Stat X 5 pure damage",
             "Grants increased attack speed for 1.5 seconds",
             "Deals Main Stat X 1 pure damage on each attack",
             "If cast from melee range or while Wind Walk is active, deals 100% bonus damage and stuns for 0.5 seconds",
@@ -6961,11 +6963,12 @@
         "color": "bee7fc",
         "hotkey": "[F]",
         "icon": "HermitF",
-        "cooldown": 40,
+        "cooldown": 60,
         "order": 9,
         "active": [
             "\"This water shall cleanse your body and soul.\" - Hermit",
             "Deals Main Stat X 50 magic damage per second and breaks shield",
+            "Your HP will not drop below 1 while casting this",
             "Harmony: Clears debuffs of allies, heals them for Target's Max HP X 15% per second and prevents their HP from going below 1",
             "Lasts 3 seconds"
         ],

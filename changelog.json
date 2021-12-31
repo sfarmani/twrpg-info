@@ -1,5 +1,1009 @@
 [
     {
+        "name": "59a",
+        "notes": [
+            "Released on: December, 29th, 2021",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Merchant - Fixed an abusable bug with T",
+            "Dark Knight - Fixed bug where RW is interrupted by cooldown reset",
+            "Shrine Priestess - Fixed bug where E pulls in knockback immune targets",
+            "Cage of Twisted Souls - Fixed issue with passive only granting 6% stat instead of 7%",
+            "Fixed bug where portals can be used while not in range of portals"
+        ],
+        "events": [
+            "Drop rate bonus of Winter Event will be enabled early",
+            [
+                "All bosses will have a 12% chance to appear with Festive Spirit, which grants 150% increased drop rate",
+                "This will stack multiplicatively with other drop rate bonuses"
+            ],
+            "Minigames and other event rewards will be enabled at a later date",
+            "Event will last for 2 and a half weeks once this happens"
+        ],
+        "items": [
+            {
+                "name": "Bloodstorm",
+                "changes": [
+                    "Active",
+                    [
+                        "Proc damage: 4 X MAIN STAT → 5 X MAIN STAT"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Loot chest",
+                    [
+                        "Hard mode bosses will indicate that the loot chest is from Hard Mode",
+                        "Loot chest text will be visible regardless of distance if you are within the boss zone",
+                        "Drop rate of Coin of Effort from loot chest (DF / VALT / IFRIT) 0.15% → 0.1%"
+                    ]
+                ]
+            },
+            {
+                "name": "Chaos Elemental",
+                "changes": [
+                    "Weakened and drop rate of Chaos Magic Stones increased"
+                ]
+            },
+            {
+                "name": "Bone Dragon",
+                "changes": [
+                    "Hell Spike",
+                    [
+                        "Cooldown: 8 seconds → 6 seconds"
+                    ],
+                    "Red phase",
+                    [
+                        "HP restored per second 2% → 3%",
+                        "Duration: 30 seconds → 20 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Skeletal King Desperia",
+                "changes": [
+                    "Drain Soul",
+                    [
+                        "Now affects heroes only"
+                    ]
+                ]
+            },
+            {
+                "name": "Zombie Lord",
+                "changes": [
+                    "Boss fight can now be retried on failures",
+                    "Having too many zombies will no longer trigger defeat cinematic"
+                ]
+            },
+            {
+                "name": "Ancient Ent",
+                "changes": [
+                    "Giant Ent HP: 1500000 → 1000000"
+                ]
+            },
+            {
+                "name": "Archangel Samael",
+                "changes": [
+                    "Size / hitbox increased slightly"
+                ]
+            },
+            {
+                "name": "Valtora",
+                "changes": [
+                    "HP increased by ~10%",
+                    "Hard mode",
+                    [
+                        "Damage reduction: +33% → +25%"
+                    ],
+                    "Servant of Lightning God",
+                    [
+                        "Detection range increased",
+                        "Auto attack range decreased"
+                    ],
+                    "Magnetic Curse",
+                    [
+                        "The pull-in will now be considered CC effect and can be ignored by CC immunity"
+                    ],
+                    "Lightning Shield",
+                    [
+                        "Damage per second: 250 / 750 → 500 / 750",
+                        "Normal mode",
+                        [
+                            "Stun added back in",
+                            "Will break after 15 seconds"
+                        ]
+                    ],
+                    "Tornado",
+                    [
+                        "Silence removed",
+                        "Damage per second: max HP X 4 / 8% → 6% / 10%",
+                        "Normal mode",
+                        [
+                            "Tornado move speed reduced"
+                        ]
+                    ],
+                    "Debuff",
+                    [
+                        "Damage per second: 500 / 750 → 750 / 750"
+                    ],
+                    "Reduced chance of tornadoes teleporting randomly"
+                ]
+            },
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "HP increased by ~10%",
+                    "Hard mode",
+                    [
+                        "Damage reduction: +33% → +25%"
+                    ],
+                    "Meteor",
+                    [
+                        "Direct hit damage: 12000 / 30000 → 15000 / 30000"
+                    ],
+                    "Seed",
+                    [
+                        "Explosion now deals daamge to main target, even in normal mode"
+                    ],
+                    "Pool",
+                    [
+                        "Damage per second: 400 + max HP X 5% / 750 + max HP X 10% → max HP X 10% / max HP X 15%"
+                    ],
+                    "ELS",
+                    [
+                        "Spawn count reverted to 2 in both difficulties",
+                        "Normal mode",
+                        [
+                            "Bolts fire rate: 0.25 seconds → 0.375 seconds"
+                        ]
+                    ],
+                    "Golem",
+                    [
+                        "Starting barrier amount: 50% / 100% → 50% + 10% X (player count / 2)"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Shadow Walk (E)",
+                    [
+                        "Backstab bonus damage: 60% → 50%"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Twin Star (Q)",
+                    [
+                        "Damage: 5 X (AGI + INT) → 6 X (AGI + INT)"
+                    ]
+                ]
+            },
+            {
+                "name": "Arcane Mage",
+                "changes": [
+                    "Starlight (F)",
+                    [
+                        "Cooldown: 100 seconds → 90 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "All transmuation cooldowns have been fixed to 10 seconds"
+                ]
+            }
+        ],
+        "misc": [
+            "Bags can no longer be summoned while they are paused (ex. while casting a skill)",
+            "Magical Loot - Magical loot summon item can be looted even if it dropped before the player loaded",
+            "Hermit - Summer costume's ult (Purify (F)) snow effect changed to be less blinding (reduced # of particles)",
+            "Guardian Angel - Sound FX removed from passive"
+        ]
+    },
+    {
+        "name": "58k",
+        "notes": [
+            "Released on: December 22nd, 2021",
+            "Compatible Version: v0.51a ~"
+        ],
+        "monsters": [
+            {
+                "name": "Valtora",
+                "changes": [
+                    "Normal mode",
+                    [
+                        "Hammer",
+                        [
+                            "Callout text size increased a bit"
+                        ],
+                        "Orb",
+                        [
+                            "Spawn rate: 2.25 seconds → 2 seconds",
+                            "Debuff duration: 2 seconds → 3 seconds (same as hard)"
+                        ],
+                        "Link",
+                        [
+                            "Activation HP increased a bit",
+                            "Collision damage: 0 / max HP X 33% → max HP X 25% / max HP X 50%",
+                            "Time needed to form link: 1 seconds → 2 seconds",
+                            "Time needed for link to snap: 4 seconds → 3 seconds",
+                            "Link no longer gets destroyed on snapping",
+                            "If target cannot be linked to another target, will be linked to the boss instead for 12 seconds",
+                            "If linked to boss, you take (250 + 250 X seconds elapsed in melee range) pure damage per second while in melee range of boss"
+                        ]
+                    ]
+                ]
+            },
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "Debuff",
+                    [
+                        "Magic defense reduction: 50% → 75%"
+                    ],
+                    "ELS",
+                    [
+                        "Now stuns again"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Perfect Harmony (D)",
+                    [
+                        "Damage bonus for AGI main stat: 75% → 65%"
+                    ],
+                    "Purify (F)",
+                    [
+                        "Cooldown: 40 seconds → 60 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Meeko will no longer pick up potions when attached to Shrine Priestess"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "58h",
+        "notes": [
+            "Released on: December, 22nd, 2021",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Skeletal King Desperia - Fixed bug with boss not spawning skeletal soldiers",
+            "Death Fiend - Fixed bug with boss sometimes not despawning",
+            "Alchemist - Fixed bug where all elemental skills can be used without reaching proper level",
+            "Hermit - Fixed bug where F doesn't prevent allies HP from dropping below 1 (with Harmony effect)",
+            "Fixed loot chest text not appearing if the boss is defeated while you're hidden",
+            "Fixed issue where some materials didn't show recipes when clicked in recipe window",
+            "Fixed some description errors"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Recipes updated",
+                    [
+                        "Heartrender",
+                        [
+                            "Soul Blossom can now be replaced by Blood Essence"
+                        ],
+                        "Plates of Sanguine Fury",
+                        [
+                            "Soul Blossom can now be replaced by Emblem of Sacrifice"
+                        ],
+                        "Guardian Angel",
+                        [
+                            "Soul Blossom can now be replaced by Crimson Rose"
+                        ]
+                    ]
+                ]
+            },
+            {
+                "name": "Pheles, the Bow of God",
+                "changes": [
+                    "Sniper Spec",
+                    [
+                        "Max stack on Q increased by 1"
+                    ]
+                ]
+            },
+            {
+                "name": "Agnitus, the Bow of Divine Fury",
+                "changes": [
+                    "Sniper Spec",
+                    [
+                        "Max stack on Q increased by 2"
+                    ]
+                ]
+            },
+            {
+                "name": "Soulbane",
+                "changes": [
+                    "Active",
+                    [
+                        "Cooldown: 120 seconds → 80 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Heaven's Door",
+                "changes": [
+                    "Active",
+                    [
+                        "Now can only be used on Heroes"
+                    ]
+                ]
+            },
+            {
+                "name": "Eye of Wallachia / Eye of the Reaper",
+                "changes": [
+                    "Passive",
+                    [
+                        "Added temporary tint at screen edge when the effect activates"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Token drop rate for bosses using loot chest reduced by 50%"
+                ]
+            },
+            {
+                "name": "Frostspider Lord",
+                "changes": [
+                    "Cave entrance min level: 100 → 90"
+                ]
+            },
+            {
+                "name": "Archangel Samael",
+                "changes": [
+                    "Judgment (wheel) lightning count reduced: 8 → 6"
+                ]
+            },
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "The Ender drop rate: 0.4% → 0.5%",
+                    "Material drop rate: 0.6% → 0.75%"
+                ]
+            },
+            {
+                "name": "Valtora",
+                "changes": [
+                    "Difficulty mode / personal loot implemented",
+                    [
+                        "HP decreased by 10%",
+                        "Attack damage decreased by 30%",
+                        "Hard mode",
+                        [
+                            "Damage reduction: +33%",
+                            "Drop rate: +50%"
+                        ],
+                        "Hammer",
+                        [
+                            "Cast on farthest target → Random hero",
+                            "2 second cast time added",
+                            "Debuff duration: 6 seconds → 5 seconds",
+                            "Damage: 3000 + max HP X 25% → 2500 + max HP X 25%",
+                            "Now calls out the targetted player",
+                            "Pool no longer has damage on its own",
+                            "Debuff linger duration: 3 seconds → 1 second",
+                            "Hard mode",
+                            [
+                                "will always summon pool while normal mode will summon pool only in Phase 2"
+                            ]
+                        ],
+                        "Lightning Orb",
+                        [
+                            "Damage: max HP X 25% → 20% / 25%",
+                            "Debuff duration: 3 seconds → 2 seconds / 3 seconds",
+                            "Spawn interval: 2 seconds → 2.5 seconds / 2 seconds"
+                        ],
+                        "Shock Debuff",
+                        [
+                            "Self damage: 750 → 500 / 750",
+                            "Ally damage: 3000 → 0 / 1500",
+                            "Healing reduction: 100% → 75% / 100%"
+                        ],
+                        "Servant of Lightning",
+                        [
+                            "Attack cooldown: 1 second → 1.25 seconds",
+                            "Chain lightning damage: max HP X 5 ~ 10% → 2.5% / 5%",
+                            "Hard mode",
+                            [
+                                "Grants boss 8% damage resistance per 1 alive"
+                            ]
+                        ],
+                        "Tornado",
+                        [
+                            "Damage per second: max HP X 10% → 4% / 8%"
+                        ],
+                        "Lightning Shield",
+                        [
+                            "Damage per second: 750 → 250 / 750",
+                            "Normal mode",
+                            [
+                                "No longer stuns"
+                            ]
+                        ],
+                        "Magnetic Curse",
+                        [
+                            "Reworked from passive to active",
+                            "Targets a random player and links it to the farthest target for 5 seconds",
+                            "If the targets stay apart for a long time, they will get pulled in together and be stunned",
+                            "Hard mode",
+                            [
+                                "Buff lasts longer",
+                                "Deals damage when pulling in",
+                                "Won't be cancelled even if targets are pulled together"
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "Difficulty mode / personal loot implemented",
+                    [
+                        "HP decreased by 5%",
+                        "Hard mode",
+                        [
+                            "Damage reduction: +33%",
+                            "Drop rate: +50%"
+                        ],
+                        "Pool",
+                        [
+                            "Damage per second: 600 + max HP X 10% → 400 + max HP X 5% / 750 + max HP X 10%"
+                        ],
+                        "ELS",
+                        [
+                            "Summon count per 10% HP dropped: 2 → 1 / 2",
+                            "Wave damage: 12000 → 8000 / 12000",
+                            "Normal mode",
+                            [
+                                "No longer stuns"
+                            ]
+                        ],
+                        "Debuff",
+                        [
+                            "Magic defense reduction: 100% → 50% / 100%"
+                        ],
+                        "Meteor",
+                        [
+                            "Direct land damage: 30000 → 12000 / 30000",
+                            "Wave damage: 7500 → 6000 / 7500"
+                        ],
+                        "Charge",
+                        [
+                            "Hard mode",
+                            [
+                                "Activation speed increased"
+                            ]
+                        ],
+                        "Seed",
+                        [
+                            "Explosion range changed: 99999 → 750 / 99999",
+                            "Normal mode",
+                            [
+                                "Explosion no longer deals damage to the main target"
+                            ],
+                            "Golem",
+                            [
+                                "Barrier start amount: 50% ~ 100% → 50% for normal, 100% for hard"
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Soul Blossom drop rate: 0.5% → 0.75%",
+                    "Note: Soul Blossom will not drop from upper level bosses"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "Magic Ballista (F)",
+                    [
+                        "Arrow Count reduced to 25%, damage increased to 400%"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Nameless Arts (F)",
+                    [
+                        "No longer cancels action",
+                        "Now activates Inner Meditation (R) for duration"
+                    ]
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Speed Enchant (W)",
+                    [
+                        "No longer cancels action"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Flowing Fist (Q)",
+                    [
+                        "No longer castable on bags"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Save file will no longer display information regarding EXP",
+            "Bag / Storage will now display which slots are being displayed through its MP",
+            "Raid boss EXP increased",
+            "All raid boss EXP can be earned starting from level 50, but will be capped to 1 level up per kill"
+        ]
+    },
+    {
+        "name": "58f",
+        "notes": [
+            "Released on: December 14th, 2021",
+            "Compatible Version: v0.51a ~",
+            "Loading from v0.58f → 0.58e does not work."
+        ],
+        "bugs": [
+            "Fixed bug with quest not saving properly",
+            "Endless Snow - Fixed bug with Elementalist specialty not working",
+            "Star of Apotheosis - Fixed bug where stat buff lingers for few extra seconds",
+            "Skeletal King Desperia - Fixed bug where dealing high damage to proc fall heals boss beyond normal amount",
+            "Ancient Ent - Reduced the chance that Elder Ents can get stuck in the upper area",
+            "Death Fiend - Fixed bug where summons were not affected by hard mode changes"
+        ],
+        "items": [
+            {
+                "name": "Star of Apotheosis",
+                "changes": [
+                    "No longer accumulates damage done to mini boss units",
+                    "Can now be reused to end buff + cause explosion prematurely",
+                    "Penalty removed"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Zombie Lord",
+                "changes": [
+                    "Infest count: 3 → 2",
+                    "Wheel damage: 10% ~ 60% → 0% ~ 50% (assuming you didn't die)"
+                ]
+            },
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "HP reduced by 7%",
+                    "HP bonus per player beyond 5 players: 25% → 20%",
+                    "Hard mode drop rate bonus: 33% → 50%",
+                    "Field size reduced",
+                    "Loot chest will now always appear at the location of Death Fiend",
+                    "7th Slash damage: 7500 / 15000 → 10000 / 25000",
+                    "Hard mode pool damage: 1500 / 2500",
+                    "Death Devourer / Death Weaver",
+                    [
+                        "Will return to original positions after they have finished casting their charge / blink"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Unholy Light (E)",
+                    [
+                        "No longer grants CC immunity to allies when main stat is INT"
+                    ],
+                    "Death Coil (R) → (Q)",
+                    [
+                        "Range increased by 30%"
+                    ],
+                    "Eyes of Terror (R) → (R)",
+                    [
+                        "Cooldown: 30 seconds → 25 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Flowing Fist (Q)",
+                    [
+                        "Damage: ATK DMG X 2.5 → ATK DMG X 1.5 + MAIN STAT X 5"
+                    ]
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Illusal Dance (T)",
+                    [
+                        "Damage per second: ATK DMG X 2 + AGI X 7.5 → ATK DMG X 4 + AGI X 15"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Nameless Arts (F)",
+                    [
+                        "Base cast time: 2 seconds → 0 seconds",
+                        "Cast time related specs removed from all items"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "1st batch of Halloween event titles applied",
+            "EXP given by non-boss creeps increased about 50 ~ 25% / drop rate on low level field bosses increased",
+            "Seaside area made smaller"
+        ]
+    },
+    {
+        "name": "58d",
+        "notes": [
+            "Released on: December 4th, 2021",
+            "Compatible Version: v0.51a ~",
+            "Versions b, c, and e are all minor bug fixes and are included in this changelog"
+        ],
+        "bugs": [
+            "Archangel Samael - Fixed issue with empowered lightning strikes happening from 3th wave instead of 4th wave on Judgment",
+            "Death Fiend - Fixed issue with HP & MP regen stopping for Death Fiend and players sometimes",
+            "Bloodstorm - Fixed issue where using the active removes Assassin's E buff",
+            "Cape of Insatiable Hunger - Fixed bug with active effect not granting 3 Bloody Bites if used with Bloody Bite already active"
+        ],
+        "items": [
+            {
+                "name": "Heartrender",
+                "changes": [
+                    "Passive",
+                    [
+                        "Damage dealt bonus: 15% → 10%"
+                    ],
+                    "Active",
+                    [
+                        "Now applies to elite units too (Ex. Ifrit Golems, Duke Barons & Servants)"
+                    ]
+                ]
+            },
+            {
+                "name": "Caedis, the Sword of Slaughter",
+                "changes": [
+                    "ATK DMG: 14800 → 13600",
+                    "Added 500 main stat",
+                    "Passive / Active",
+                    [
+                        "Mark duration: 6 / 9 → 10 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Sanguis, the Robe of Sacrifice",
+                "changes": [
+                    "Passive",
+                    [
+                        "Damage per hit: 2500 + INT X 1 → 5000 + INT X 2"
+                    ]
+                ]
+            },
+            {
+                "name": "Crown of Cleansing",
+                "changes": [
+                    "Passive",
+                    [
+                        "Heal amount per second: 200 + INT X 0.15 → Target's max HP X 2% + INT X 0.15"
+                    ],
+                    "Active",
+                    [
+                        "Cooldown: 120 seconds → 90 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Cape of Insatiable Hunger",
+                "changes": [
+                    "Active",
+                    [
+                        "Each empowered Bloody Bite resulting from the active will do 20k bonus damage"
+                    ]
+                ]
+            },
+            {
+                "name": "Bloodstorm",
+                "changes": [
+                    "Active",
+                    [
+                        "Consuming the bonus proc effect will not cancel the movement speed bonus"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Loot chests from hard mode will now be tinted in red",
+                    "Death Fiend & Hard Mode related changes are still being considered and will take some time"
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Spike Curse",
+                    [
+                        "Activation time: 1 second → 0.75 seconds",
+                        "Debuff duration: 3 seconds → 2 seconds",
+                        "Skill backswing: 0.75 seconds → 1 second",
+                        "Small spikes will now rise up at the same time as big spikes with 1.5 seconds delay"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "Elven Arrow (D)",
+                    [
+                        "Stacks will now accumulate automatically every 4 seconds, instead of accumulating when proccing explosion"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "58a",
+        "notes": [
+            "Released on: December 4th, 2021",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Mark of Sin - Fixed issue with Priest specialty not activating",
+            "Guardian Angel - Fixed issue with Guardian Angel disabling Soul Weaver's A skill",
+            "Death Fiend - Fixed bug where mobs in Wallachia Graveyard stop respawning if Death Fiend despawns from failed attempt",
+            "Underlord Agareth - Fixed bug where units like Trickster illusion / Shrine Priestess' Meeko were being sucked into Agareth Minigame and being spawned as wisps",
+            "Duke Lazarus - Fixed issue where Duke's skills sometimes glitch out and get shorter detection radius",
+            "Duke Lazarus - Fixed issue with Shrine Priestess' Meeko getting stuck in the dome"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New item added",
+                    [
+                        "Sanguis, the Robe of Sacrifice"
+                    ]
+                ]
+            },
+            {
+                "name": "Prius Silver Coin",
+                "changes": [
+                    "Prices adjusted",
+                    [
+                        "Equipment = 6 silver coins for purchase / 1 for sale",
+                        "Material = 9 silver coins for purchase / 1 for sale",
+                        "Spirit Beast Icon / Coin of Effort can no longer be purchased using silver coins"
+                    ],
+                    "Any silver coins that you had pre-v0.58a will be loaded as Magical Coin. Magical Coin can be traded with following ratios",
+                    [
+                        "1 Magical Coin → 1 Silver Coin",
+                        "100 Magical Coins → 1 Coin of Effort",
+                        "200 Magical Coins → 1 Spirit Beast Icon"
+                    ]
+                ]
+            },
+            {
+                "name": "Prius Gold Coin",
+                "changes": [
+                    "A new currency has been added",
+                    "Note that Gnosis items cannot be sold for Gold Coins",
+                    "It will only drop directly from Gnosis-tier bosses at a low chance",
+                    "Following items can be purchased with Gold Coins",
+                    [
+                        "3x Gold Coin → Field Boss Icons",
+                        "4x Gold Coin → Spirit Beast Icon",
+                        "8x Gold Coin → Bone Dragon Icon",
+                        "5x Gold Coin → Coin of Effort",
+                        "3x Gold coin → Any equipment / material from BD ~ SD excluding SD materials",
+                        "5x Gold Coin → Any material from SD"
+                    ]
+                ]
+            },
+            {
+                "name": "Caedis, the Sword of Slaughter",
+                "changes": [
+                    "Active",
+                    [
+                        "Mark duration: 6 seconds → 9 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Cage of Twisted Souls",
+                "changes": [
+                    "Passive",
+                    [
+                        "Soul gain on ally death: 3 → 2"
+                    ],
+                    "Active",
+                    [
+                        "Cooldown: 1 → 60 seconds, will no longer consume soul"
+                    ]
+                ]
+            },
+            {
+                "name": "Eye of Wallachia series",
+                "changes": [
+                    "Passive",
+                    [
+                        "No longer turns screen green"
+                    ]
+                ]
+            },
+            {
+                "name": "Crescendo of Madness",
+                "changes": [
+                    "Healing received: -20% → 0%",
+                    "Active",
+                    [
+                        "Base damage per ghost: 70000 → 50000"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "During all boss fights, players will remain in combat as long as the boss is in combat",
+                    "Alteia Bosses and above will use Wish system",
+                    [
+                        "you can roll for a single item with 100% chance or all items with 33% chance (excluding Coin and Token)"
+                    ]
+                ]
+            },
+            {
+                "name": "Mid bosses (Coin bosses)",
+                "changes": [
+                    "Base HP reduced by about 25%",
+                    "Base drop rate increased by about 25% on most items",
+                    "Difficulty bonus 25% HP / 12.5% drop rate per player from 2 ~ 5 → 40% HP / 5% drop rate per player from 4 ~ 8",
+                    "(In summary, bosses will have lower HP and more drop rate in small parties, and relatively similar values in large parties"
+                ]
+            },
+            {
+                "name": "High bosses (BD ~ SD)",
+                "changes": [
+                    "No longer drops Coin of Effort",
+                    "Will now drop Prius Gold Coin with 0.5% chance"
+                ]
+            },
+            {
+                "name": "End game bosses (DF and up)",
+                "changes": [
+                    "Coin of Effort drop rate fixed to 0.15%"
+                ]
+            },
+            {
+                "name": "Death Fiend / Skeletal King / Zombie Lord / Bone Dragon",
+                "changes": [
+                    "When entering the zone / fighting the boss, the zone will be revealed"
+                ]
+            },
+            {
+                "name": "Frostspider Lord",
+                "changes": [
+                    "Drop rate increased by 25%",
+                    "Wave only spawns 1 boss instead of 2",
+                    "Loot table has been merged so that a single boss will drop all items that the 2 bosses could drop"
+                ]
+            },
+            {
+                "name": "Demon Lord Beriel",
+                "changes": [
+                    "Drop rate increased by 25%"
+                ]
+            },
+            {
+                "name": "Turtle Lord",
+                "changes": [
+                    "Water Pump - Cooldown increased, now displays impact area",
+                    "Healing Turtle - Movement speed: 250 → 200",
+                    "Small Turtle - Damage reduced greatly"
+                ]
+            },
+            {
+                "name": "Archangel Samael",
+                "changes": [
+                    "Boss is no longer clickable during Judgment (wheel)"
+                ]
+            },
+            {
+                "name": "Shadow Dragon Irbert",
+                "changes": [
+                    "Frozen Debris drop rate: 0.75% → 0.85%"
+                ]
+            },
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "HP reduced by 10%",
+                    "Loot chest system has been added, and drop rate / player count difficulty re-adjusted",
+                    "Some skills have been changed and difficulty system has been added"
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Blood Spike",
+                    [
+                        "4 rows of small spikes will spawn in a cross shape once the large spike has risen"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Aura (D)",
+                    [
+                        "Aura buff will only apply to heroes now"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Purify (F)",
+                    [
+                        "Now prevents Hermit's HP from dropping below 1 regardless of whether Harmony effect is active or not"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Added back functionality to retrieve lower icons when you possess Master Icon",
+            "If an item can't be placed into bag, the map will attempt to place it into your storage first before resorting to dropping it in storage area"
+        ]
+    },
+    {
         "name": "57b",
         "notes": [
             "Released on: November 24th, 2021",

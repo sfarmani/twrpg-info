@@ -629,26 +629,118 @@
     },
     {
         "for": "Gunner",
-        "type": "Burst",
+        "type": "Early Game",
         "order": 1,
         "stat": "AGI",
-        "version": "39b",
+        "version": "59a",
         "description": [
-            "Use Grandine when needed, otherwise stick with Vest of Storm / Divine Winds",
-            "Use Halo for AMS when needed",
-            "Use Dragon Mask for Regen if needed"
+            "Minor Bosses",
+            "Item in brackets are fillers."
+        ],
+        "items": {
+            "Bullet of Ruin": [],
+            "Grim Visage": [
+                "Archangel Halo",
+                "Helm of Battle"
+            ],
+            "Demonis, the Devil Lord's Ring": [],
+            "Vest of Protection": [],
+            "Slayer Boots": []
+        }
+    },
+    {
+        "for": "Gunner",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "AGI",
+        "version": "59a",
+        "description": [
+            "Coin Bosses",
+            "Item in brackets are fillers."
+        ],
+        "items": {
+            "Bullet of Ruin": [],
+            "Grim Visage": [
+                "Archangel Halo",
+                "Helm of Battle"
+            ],
+            "Ring of Nightmare": [
+                "Ring of the Reaper"
+            ],
+            "Vest of Cyclone": [],
+            "Wanderer's Cape": []
+        }
+    },
+    {
+        "for": "Gunner",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "AGI",
+        "version": "59a",
+        "description": [
+            "SK ~ SD",
+            "Swap your armor based on what you need. Vest of Storm for damage and Grandine for survivability."
+        ],
+        "items": {
+            "Punisher": [],
+            "Eye of Wallachia": [
+                "Halo of Judgment",
+                "Dragon Mask"
+            ],
+            "Ring of Strike": [
+                "Cold Ring of Death"
+            ],
+            "Vest of Storm": [
+                "Grandine, the Plates of Wraith"
+            ],
+            "Wings of Phoenix": []
+        }
+    },
+    {
+        "for": "Gunner",
+        "type": "Endgame",
+        "order": 4,
+        "stat": "AGI",
+        "version": "59a",
+        "description": [
+            "DF ~ Aga",
+            "Swap your armor based on what you need. Vest of Divine Winds for damage and Athanasia for survivability."
         ],
         "items": {
             "Last Word": [],
             "Eye of the Reaper": [
-                "Dragon Mask",
-                "Halo of Judgment"
+                "Mask of Demigod"
             ],
             "Ring of Insanity": [],
             "Vest of Divine Winds": [
                 "Athanasia, the Armor of the Reaper"
             ],
             "Storm": [
+                "Wings of Flame Lord"
+            ]
+        }
+    },
+    {
+        "for": "Gunner",
+        "type": "Omega Endgame",
+        "order": 5,
+        "stat": "AGI",
+        "version": "59a",
+        "description": [
+            "Duke ~ TBA",
+            "Butts -Mii",
+            "Swap your armor based on what you need. Vest of Divine Winds for damage and Athanasia for survivability."
+        ],
+        "items": {
+            "Last Word": [],
+            "Eye of the Reaper": [
+                "Mask of Demigod"
+            ],
+            "Ring of Insanity": [],
+            "Vest of Divine Winds": [
+                "Athanasia, the Armor of the Reaper"
+            ],
+            "Bloodstorm": [
                 "Wings of Flame Lord"
             ]
         }
@@ -730,12 +822,12 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
-        "version": "44b",
+        "version": "59a",
         "description": [
             "The use of Nevedium is for a more advanced build. It can increase your overall dps, but it may not be useful for beginners"
         ],
         "items": {
-            "Power of Beriel": [
+            "Caedis, the Sword of Slaughter": [
                 "Espishu, the Sword of Chaos"
             ],
             "Eye of the Reaper": [],
@@ -748,10 +840,88 @@
     },
     {
         "for": "Phantom Blade",
-        "type": "Burst",
+        "type": "Early Game",
         "order": 1,
         "stat": "AGI",
-        "version": "51b",
+        "version": "59a",
+        "description": [
+            "Minor Bosses",
+            "Item in brackets are fillers."
+        ],
+        "items": {
+            "Tepethia, the Crimson Sword of Requiem": [],
+            "Grim Visage": [
+                "Archangel Halo",
+                "Helm of Battle"
+            ],
+            "Ring of Sage": [],
+            "Vest of Protection": [],
+            "Slayer Boots": []
+        }
+    },
+    {
+        "for": "Phantom Blade",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "AGI",
+        "version": "59a",
+        "description": [
+            "Coin Bosses",
+            "Item in brackets are fillers.",
+            "Ring of Resonance/Time/Fate for double T or Ring of Nightmare/Strike/Insanity for stronger hitting attack/spells but at the cost of RNG."
+        ],
+        "items": {
+            "Storm Reaver": [],
+            "Grim Visage": [
+                "Archangel Halo",
+                "Helm of Battle"
+            ],
+            "Ring of Intrusion": [
+                "Ring of Nightmare"
+            ],
+            "Vest of Cyclone": [],
+            "Wings of Fury": []
+        }
+    },
+    {
+        "for": "Phantom Blade",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "AGI",
+        "version": "59a",
+        "description": [
+            "SK ~ SD",
+            "Farm the items in the bracket first as they are easier to get.",
+            "Swap your armor based on what you need. Vest of Storm for damage and Grandine for survivability.",
+            "Ring of Resonance/Time/Fate for double T or Ring of Nightmare/Strike/Insanity for stronger hitting attack/spells but at the cost of RNG."
+        ],
+        "items": {
+            "Crimson Reaper": [
+                "Death Scythe"
+            ],
+            "Eye of Wallachia": [
+                "Halo of Judgment"
+            ],
+            "Ring of Time": [
+                "Ring of Strike"
+            ],
+            "Vest of Storm": [
+                "Grandine, the Plates of Wraith"
+            ],
+            "Wings of Slayer": []
+        }
+    },
+    {
+        "for": "Phantom Blade",
+        "type": "Endgame",
+        "order": 4,
+        "stat": "AGI",
+        "version": "59a",
+        "description": [
+            "DF ~ Aga",
+            "Ring of Resonance/Time/Fate for double T or Ring of Nightmare/Strike/Insanity for stronger hitting attack/spells but at the cost of RNG.",
+            "Radiance of the One should only be crafted if you have finished your main items and have spare Mark of Lords."
+        ],
         "items": {
             "Cosmic Reaper": [
                 "The Ender"
@@ -763,7 +933,37 @@
                 "Ring of Insanity"
             ],
             "Vest of Divine Winds": [],
-            "Wings of Night Lord": []
+            "Wings of Night Lord": [
+                "Storm"
+            ]
+        }
+    },
+    {
+        "for": "Phantom Blade",
+        "type": "Omega Endgame",
+        "order": 5,
+        "stat": "AGI",
+        "version": "59a",
+        "description": [
+            "Duke ~ TBA",
+            "The real exercise for fingering -3Years",
+            "Ring of Resonance/Time/Fate for double T or Ring of Nightmare/Strike/Insanity for stronger hitting attack/spells but at the cost of RNG.",
+            "Radiance of the One should only be crafted if you have finished your main items and have spare Mark of Lords."
+        ],
+        "items": {
+            "Heartrender": [
+                "Cosmic Reaper"
+            ],
+            "Eye of the Reaper": [
+                "Radiance of the One"
+            ],
+            "Ring of Fate": [
+                "Ring of Insanity"
+            ],
+            "Vest of Divine Winds": [],
+            "Bloodstorm": [
+                "Wings of Night Lord"
+            ]
         }
     },
     {
@@ -1504,10 +1704,10 @@
         "type": "DPS",
         "order": 1,
         "stat": "INT",
-        "version": "44b",
+        "version": "59a",
         "items": {
             "Ethenos, the Staff of Chaos": [],
-            "Prophetia, the Origin of Knowledge": [],
+            "Crescendo of Madness": [],
             "Ring of Frozen Soul": [
                 "Ring of Divine Winds"
             ],
@@ -1520,14 +1720,15 @@
         "type": "Support",
         "order": 2,
         "stat": "INT",
-        "version": "51b",
+        "version": "59a",
         "items": {
             "Staff of Plague": [
                 "Armageddon",
                 "Harmonia, the Sparkle of Life"
             ],
             "Hood of Apocalypse": [
-                "Eye of the Flame Lord"
+                "Eye of the Flame Lord",
+                "Crescendo of Madness"
             ],
             "Horn of God": [
                 "Ring of Divine Winds"
