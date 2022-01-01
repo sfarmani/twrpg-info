@@ -22111,12 +22111,18 @@
       "armor": 225,
       "int": 480,
       "movespeed": 50,
-      "skilldamagepercent": 0.12,
+      "skilldamagepercent": 0.15,
       "passive": [
-        "During combat, activates Ring of Blood"
+        "During combat, activates Ring of Blood",
+        "Summons 5 orbs of blood that circle around user",
+        "Each collision with enemy deals (5000 + INT X 2) magic damage",
+        "If target is a boss unit, increases INT by 10 and skill damage by 0.25% per hit (up to 25 stacks)",
+        "Upon reaching max stacks, explodes and deals (INT X 15) magic damage to nearby enemies (1000 range)",
+        "Stacks lasts 6 seconds"
       ],
       "active": [
-        "On use, adjusts the radius of Ring of Blood"
+        "On use, adjusts the radius of Ring of Blood",
+        "3 range settings are provided: close, medium, and far"
       ]
     }
   },
