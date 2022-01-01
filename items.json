@@ -21695,7 +21695,7 @@
       "skilldamagepercent": 0.05,
       "passive": [
         "Upon damaging enemies below 50% HP, activates Death's Door",
-        "Deals 10% bonus damage"
+        "Deals 18% bonus damage"
       ],
       "active": [
         "On use, activates Heartrender",
