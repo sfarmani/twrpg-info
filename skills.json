@@ -395,6 +395,7 @@
         "color": "ecca82",
         "hotkey": "[Q]",
         "icon": "AlchemistQ",
+        "proc_rate": 0,
         "cooldown": 8,
         "order": 2,
         "passive": [
@@ -508,6 +509,7 @@
         "color": "a2c6fb",
         "hotkey": "[W]",
         "icon": "AlchemistW",
+        "proc_rate": 0,
         "cooldown": 10,
         "order": 7,
         "passive": [
@@ -627,6 +629,7 @@
         "color": "ddf8cd",
         "hotkey": "[E]",
         "icon": "AlchemistE",
+        "proc_rate": 0,
         "cooldown": 20,
         "order": 13,
         "passive": [
@@ -743,6 +746,7 @@
         "color": "afeb8c",
         "hotkey": "[R]",
         "icon": "AlchemistR",
+        "proc_rate": 0,
         "cooldown": 30,
         "order": 18,
         "passive": [
