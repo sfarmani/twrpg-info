@@ -396,7 +396,7 @@
         "hotkey": "[Q]",
         "icon": "AlchemistQ",
         "proc_rate": 0,
-        "cooldown": 8,
+        "cooldown": 10,
         "order": 2,
         "passive": [
             "Affinity with fire bleses you with potent power.",
@@ -630,7 +630,7 @@
         "hotkey": "[E]",
         "icon": "AlchemistE",
         "proc_rate": 0,
-        "cooldown": 20,
+        "cooldown": 10,
         "order": 13,
         "passive": [
             "Affinity with wind blesses you with energy.",
@@ -747,7 +747,7 @@
         "hotkey": "[R]",
         "icon": "AlchemistR",
         "proc_rate": 0,
-        "cooldown": 30,
+        "cooldown": 10,
         "order": 18,
         "passive": [
             "Affinity with earth enhances your stamina.",
