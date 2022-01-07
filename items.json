@@ -18934,7 +18934,8 @@
       ],
       "active": [
         "On use, activates Beam of Hatred",
-        "Deals (flame affinity X (INT X 20)) magic damage per 0.125 seconds and stuns for 0.5 seconds (up to 16 stacks)",
+        "Deals (flame affinity X (INT X 2.5)) magic damage per 0.125 seconds (up to 16 stacks)",
+        "Continously stuns for 0.5 seconds per tick",
         "Deals up to 100% more damage based on target's missing HP",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
