@@ -9052,7 +9052,8 @@
     "required_by": [
       "Heartrender",
       "Plates of Sanguine Fury",
-      "Crown of Cleansing"
+      "Crown of Cleansing",
+      "Guardian Angel"
     ],
     "stats": {
       "mainstat": 420,
@@ -9083,7 +9084,8 @@
       "Endless Snow",
       "Cage of Twisted Souls",
       "Bloodstorm",
-      "Guardian Angel"
+      "Guardian Angel",
+      "Heartrender"
     ]
   },
   {
@@ -9106,7 +9108,8 @@
       "Star of Apotheosis",
       "Heirloom of Lazarus",
       "Cape of Insatiable Hunger",
-      "Sanguis, the Robe of Sacrifice"
+      "Sanguis, the Robe of Sacrifice",
+      "Plates of Sanguine Fury"
     ]
   },
   {
