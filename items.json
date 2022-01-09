@@ -19500,7 +19500,8 @@
       "active": [
         "On use, activates Event Horizon",
         "Prevents HP from dropping below 1 for 3 seconds",
-        "Afterwards, pauses nearby enemies for 2 seconds and activates Voidshard",
+        "Afterwards, pauses nearby enemies for 1.5 seconds and activates Voidshard",
+        "Cannot pause same unit twice within 60 seconds",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -22126,7 +22127,7 @@
       ],
       "active": [
         "On use, adjusts the radius of Ring of Blood",
-        "3 range settings are provided: close, medium, and far"
+        "3 range settings are provided: close, medium, and far (250, 600, 800)"
       ]
     }
   },

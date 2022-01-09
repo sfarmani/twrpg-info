@@ -1,5 +1,85 @@
 [
     {
+        "name": "59c",
+        "notes": [
+            "Released on: January 9th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "misc": [
+            "Correction of compensation error"
+        ]
+    },
+    {
+        "name": "59b",
+        "notes": [
+            "Released on: January 5th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Phantom Blade - Fixed bug where A knocks back units that are immune to knockback",
+            "Tentacle Lord - Fixed bug where silence goes through silence immunity",
+            "Underlord Agareth - Fixed areas that were not affected by pull",
+            "Zombie Lord - Fixed bug where acolyte regenerates mana while boss is reviving",
+            "Zombie Lord - Fixed bug where boss didn't reset properly",
+            "Summon Items - Fixed issue where items could be summoned over terrains",
+            [
+                "Eye of Abyss series"
+            ]
+        ],
+        "events": [
+            "Winter Event",
+            [
+                "Will run from: January 9th, 2022 to January 27th, 2022",
+                "Snow environment effect is now limited to capital city"
+            ]
+        ],
+        "items": [
+            {
+                "name": "Voidshard Armor",
+                "changes": [
+                    "Pause duration: 2 seconds → 1.5 seconds",
+                    "Once target has been paused by voidshard, it cannot be paused again by voidshard for 60 seconds"
+                ]
+            },
+            {
+                "name": "Sanguis, the Robe of Sacrifice",
+                "changes": [
+                    "Passive",
+                    [
+                        "Ring damage radius: 400 / 600 / 800 → 250 / 600 / 800"
+                    ]
+                ]
+            },
+            {
+                "name": "Star of Apotheosis",
+                "changes": [
+                    "Active",
+                    [
+                        "Explosion delay: 2.5 seconds → 2 seconds"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Spirit Fusion (T)",
+                    [
+                        "Cooldown: 60 seconds → 80 seconds"
+                    ],
+                    "Spirit Shift (T) → (D)",
+                    [
+                        "Damage: INT X 10 → INT X 8"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Increased size of Ifirit entrance"
+        ]
+    },
+    {
         "name": "59a",
         "notes": [
             "Released on: December, 29th, 2021",

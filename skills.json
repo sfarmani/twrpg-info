@@ -7824,7 +7824,7 @@
         "color": "eebfb0",
         "hotkey": "[T]",
         "icon": "ShrinePriestessT",
-        "cooldown": 60,
+        "cooldown": 80,
         "order": 11,
         "active": [
             "Obtains a strong power by combining with Meeko.",
@@ -7843,7 +7843,7 @@
         "order": 12,
         "active": [
             "Turns into a spirit to quickly move to target location.",
-            "Deals INT X 10 magic damage to nearby enemies",
+            "Deals INT X 8 magic damage to nearby enemies",
             "While fully shifted, becomes invulnerable to harmful effects",
             "Can be cast 1 additional time for each fire skill casted"
         ]
