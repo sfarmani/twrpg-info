@@ -4165,10 +4165,10 @@
             "armorType": "Light",
             "magicResist": "0",
             "damageResist": "0",
-            "attackDamage": "1935",
+            "attackDamage": "1435",
             "attackSpread": "7",
             "attackRange": "450",
-            "attackSpeed": "1.667",
+            "attackSpeed": "1.333",
             "moveSpeed": "300"
         },
         "drops": [
