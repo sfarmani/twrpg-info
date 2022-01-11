@@ -3735,7 +3735,7 @@
         "location": "Within Ancient Ent's domain, north of Fairy Forest",
         "conditions": "Spawned by Ancient Ent",
         "stats": {
-            "health": "1500000",
+            "health": "1000000",
             "healthRegen": "7500",
             "mana": "0",
             "manaRegen": "0",
@@ -4157,7 +4157,7 @@
         "location": "Spawns near the exit of the Secluded Forest",
         "conditions": "Level 100. Spawns begin a little bit after the first person to enter the area.",
         "stats": {
-            "health": "2089000",
+            "health": "1589000",
             "healthRegen": "500",
             "mana": "0",
             "manaRegen": "0",
