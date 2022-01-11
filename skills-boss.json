@@ -1665,7 +1665,7 @@
         "caster": "Bone Dragon",
         "color": "f89c34",
         "type": "active",
-        "cooldown": "8",
+        "cooldown": "6",
         "description": [
             "Chooses a random target to create a spike under",
             "After 4 seconds, locks that place down and after 1 second, creates a Hell Spike, instantly killing everyone in the area unless they're immune to instant kills",
@@ -1693,9 +1693,9 @@
         "color": "8a2be2",
         "type": "trigger",
         "description": [
-            "At 50% HP, become enraged, gaining 75% Damage Reduction and restore 2% HP per second",
+            "At 50% HP, become enraged, gaining 75% Damage Reduction and restore 3% HP per second",
             "This mode unlocks the Hell Spike ability forever, but locks Petrification until this mode is over",
-            "Lasts until mana is gone, which takes 30 seconds to fully deplete"
+            "Lasts until mana is gone, which takes 20 seconds to fully deplete"
         ]
     },
     {
@@ -1734,7 +1734,7 @@
         "type": "active",
         "cooldown": "15",
         "description": [
-            "Drains the souls of nearby targets, healing self for 10000 per nearby enemy",
+            "Drains the souls of nearby heroes, healing self for 10000 per nearby enemy",
             "Pushes all enemies away",
             "Decreases HP of affected (summons are not decreased) by 1200 until fight ends"
         ]
@@ -1875,7 +1875,7 @@
         "type": "active",
         "cooldown": "20",
         "description": [
-            "Infests a random amount of Zombies and Players",
+            "Infests 2 Zombies and 2 Players",
             "Gives a debuff that will turn the target green and increase in size",
             "Movement speed increases by 50%, does not break the cap",
             "After 5 seconds, the target will explode, dealing 50% Magic Damage to all nearby enemies",
@@ -1892,7 +1892,7 @@
         "description": [
             "Creates 2 hexagonal pattern of warning lights",
             "Those within the area after the flash will be instantly killed",
-            "Those outside the range will be dealt 25% max hp Magic Damage per blast",
+            "Those outside the range will be dealt 0% max hp Magic Damage the first blast, and 50% max HP the next",
             "Can be interrupted through a pause"
         ]
     },
@@ -2036,7 +2036,8 @@
         "description": [
             "Create 7 circles of light around Samael in random locations",
             "After .5 second of wind-up, circles will deal 6% max HP Magic Damage per .3 second and interrupt target for 2 seconds",
-            "On final tick, deal 31% Max HP Magic Damage"
+            "On final tick, deal 31% Max HP Magic Damage",
+            "These circles will disappear when Samael uses Judgment or dies."
         ]
     },
     {
@@ -2082,15 +2083,15 @@
     },
     {
         "id": "xxxx",
-        "name": "Purge of Light",
+        "name": "Judgment",
         "caster": "Archangel Samael",
         "color": "8a2be2",
         "type": "trigger",
         "description": [
             "After reaching 33% and 66% HP, summons a platform of light around Samael",
             "Players within the light will die after 1 second of wind-up",
-            "There are 8 rotations per set, lasting about 20 seconds",
-            "Each person dying to the wheel heals Samael by 15%",
+            "There are 6 rotations per set, lasting about 18 seconds",
+            "Each person dying to the wheel heals Samael by 20% max HP if there are less than 5 players, otherwise 20%-12% max HP from 6 players to 10",
             "These can reset if Samael reaches 90% HP and 50% HP respectively"
         ]
     },
@@ -2220,7 +2221,7 @@
         "type": "active",
         "cooldown": "7",
         "description": [
-            "Creates a purple circle at a random target that silences anyone who's in the circle after a second it was created",
+            "Creates a purple circle at a random target that silences anyone who's in the circle after 2 seconds it was created",
             "Deals 25% max HP Magic Damage and silences all in the circle for 4 seconds"
         ]
     },
@@ -2707,7 +2708,7 @@
         "description": [
             "Sends down Meteors at random places around Ifrit",
             "On Impact they'll deal 250% max HP Magic Damage and stun for 3 seconds",
-            "The waves will deal 7500 Magic Damage and stun",
+            "The waves will deal 7500 Magic Damage",
             "After the impact, create a lava pool that lasts 10 seconds",
             "Lava pools deal 2% max HP + 3000 Magic Damage per second"
         ]
