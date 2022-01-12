@@ -1,5 +1,28 @@
 [
     {
+        "name": "59d",
+        "notes": [
+            "Released on: January 9th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Event - Fixed bug where minigames sometimes break",
+            "Fixed issue with Room of Sea Key icon being wrong"
+        ],
+        "events": [
+            "Invitation tickets can now stack into 1 slot",
+            "Invitation ticket hero detection range (when used) 800 → 1200",
+            "Winter's Gift will now go into bag automatically",
+            "Winter's Gift item drop rate increased by 100%, ticket drop rate decreased by 60%",
+            [
+                "These changes take into account that less tickets = shorter games"
+            ],
+            "Mystery Box game will now end automatically if the box failed to take out a player",
+            "King Penguin token skill added",
+            "(one or two event costumes may be added before end of event)"
+        ]
+    },
+    {
         "name": "59c",
         "notes": [
             "Released on: January 9th, 2022",
