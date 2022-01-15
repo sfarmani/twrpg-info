@@ -3952,7 +3952,7 @@
         "location": "In Abandoned Graveyard, at spawn of Mad Clown",
         "conditions": "Level 100 and Red Magic Stone x12",
         "stats": {
-            "health": "9000000",
+            "health": "7533000",
             "healthRegen": "7500",
             "mana": "100",
             "manaRegen": "20",
@@ -3991,11 +3991,7 @@
         "minions": [
             "Death Huntress",
             "Death Devourer",
-            "Death Weaver",
-            "Treasures of Death"
-        ],
-        "notes": [
-            "Token can only drop from Death Fiend"
+            "Death Weaver"
         ]
     },
     {
@@ -4007,7 +4003,7 @@
         "location": "In Abandoned Graveyard, at spawn of Mad Clown",
         "conditions": "Summoned by Death Fiend",
         "stats": {
-            "health": "5490000",
+            "health": "4595000",
             "healthRegen": "15000",
             "mana": "10",
             "manaRegen": "1",
@@ -4041,7 +4037,7 @@
         "location": "In Abandoned Graveyard, at spawn of Mad Clown",
         "conditions": "Summoned by Death Fiend",
         "stats": {
-            "health": "6090000",
+            "health": "5097000",
             "healthRegen": "15000",
             "mana": "30",
             "manaRegen": "1",
@@ -4072,7 +4068,7 @@
         "location": "In Abandoned Graveyard, at spawn of Mad Clown",
         "conditions": "Summoned by Death Fiend",
         "stats": {
-            "health": "3150000",
+            "health": "2636000",
             "healthRegen": "15000",
             "mana": "50",
             "manaRegen": "5",
@@ -4191,7 +4187,7 @@
         "location": "The Left-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 100 and Key of Storm crafted",
         "stats": {
-            "health": "9750000",
+            "health": "10000000",
             "healthRegen": "7500",
             "mana": "100",
             "manaRegen": "33.33",
@@ -4199,7 +4195,7 @@
             "armorType": "Heavy",
             "magicResist": "0",
             "damageResist": ".25",
-            "attackDamage": "10993",
+            "attackDamage": "7993",
             "attackSpread": "8",
             "attackRange": "750",
             "attackSpeed": ".5",
@@ -4236,19 +4232,19 @@
         "location": "The Left-most portal in the tower located east of the Secluded Forest",
         "conditions": "Summoned by Valtora",
         "stats": {
-            "health": "2089000",
+            "health": "1800000",
             "healthRegen": "500",
             "mana": "0",
             "manaRegen": "0",
-            "armor": "500",
+            "armor": "1040",
             "armorType": "Heavy",
             "magicResist": "0",
             "damageResist": "0",
-            "attackDamage": "1935",
-            "attackSpread": "7",
-            "attackRange": "450",
-            "attackSpeed": "1.667",
-            "moveSpeed": "300"
+            "attackDamage": "2902",
+            "attackSpread": "8",
+            "attackRange": "200",
+            "attackSpeed": "0.8",
+            "moveSpeed": "500"
         },
         "spells": [
             "Lightning Strike",
@@ -4271,7 +4267,7 @@
         "location": "The top-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 100 and Key of Flame crafted",
         "stats": {
-            "health": "10500000",
+            "health": "11000000",
             "healthRegen": "7500",
             "mana": "100",
             "manaRegen": "4",
