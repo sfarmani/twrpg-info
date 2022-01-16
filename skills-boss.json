@@ -6,9 +6,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "30",
-        "description": [
-            "Summons 3 Shadow wolves with 1 HP"
-        ],
+        "description": {
+            "base": [
+                "Summons 3 Shadow wolves with 1 HP"
+            ]
+        },
         "summons": [
             "Shadow Wolf"
         ]
@@ -19,9 +21,11 @@
         "caster": "Silverback Wolf",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On Auto-Attack, 15% Chance to deal 1.75x Attack Damage"
-        ]
+        "description": {
+            "base": [
+                "On Auto-Attack, 15% Chance to deal 1.75x Attack Damage"
+            ]
+        }
     },
     {
         "id": "A0V0",
@@ -30,11 +34,13 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "40",
-        "description": [
-            "Increases attack speed by 100%",
-            "Decreases movement speed by 50%",
-            "Lasts 5 seconds"
-        ]
+        "description": {
+            "base": [
+                "Increases attack speed by 100%",
+                "Decreases movement speed by 50%",
+                "Lasts 5 seconds"
+            ]
+        }
     },
     {
         "id": "A0V1",
@@ -43,9 +49,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "10",
-        "description": [
-            "Entangles target for 1 second, dealing 200 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "Entangles target for 1 second, dealing 200 Magic Damage"
+            ]
+        }
     },
     {
         "id": "A0BB",
@@ -54,11 +62,13 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "60",
-        "description": [
-            "After .75 seconds of casting, hardens shell to return 100% damage dealt as pure damage",
-            "Decreases movement by 50%",
-            "Lasts 9 seconds"
-        ]
+        "description": {
+            "base": [
+                "After .75 seconds of casting, hardens shell to return 100% damage dealt as pure damage",
+                "Decreases movement by 50%",
+                "Lasts 9 seconds"
+            ]
+        }
     },
     {
         "id": "A0BA",
@@ -67,9 +77,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "45",
-        "description": [
-            "After 1.5 seconds of casting, summons a wave that deals 1000 Magic Damage to the first target it hits"
-        ]
+        "description": {
+            "base": [
+                "After 1.5 seconds of casting, summons a wave that deals 1000 Magic Damage to the first target it hits"
+            ]
+        }
     },
     {
         "id": "A0B2",
@@ -78,9 +90,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "40",
-        "description": [
-            "Pulls nearby target toward you and noms the target nine times, regaining 500 HP and dealing 300 Magic Damage per nom"
-        ]
+        "description": {
+            "base": [
+                "Pulls nearby target toward you and noms the target nine times, regaining 500 HP and dealing 300 Magic Damage per nom"
+            ]
+        }
     },
     {
         "id": "A0V4",
@@ -89,10 +103,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "60",
-        "description": [
-            "Spits on a target, making them slide forward for 6 seconds",
-            "If they collide with any object, they will be dealt 25% HP Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "Spits on a target, making them slide forward for 6 seconds",
+                "If they collide with any object, they will be dealt 25% HP Magic Damage"
+            ]
+        }
     },
     {
         "id": "A0V5",
@@ -101,9 +117,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "20",
-        "description": [
-            "On hit, cast a wave toward enemy that deals 500 Magic Damage for 5 seconds"
-        ]
+        "description": {
+            "base": [
+                "On hit, cast a wave toward enemy that deals 500 Magic Damage for 5 seconds"
+            ]
+        }
     },
     {
         "id": "A0V6",
@@ -112,10 +130,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "5",
-        "description": [
-            "Dashes toward and knocks back target",
-            "Deals 250 Magic Damage to those in impact"
-        ]
+        "description": {
+            "base": [
+                "Dashes toward and knocks back target",
+                "Deals 250 Magic Damage to those in impact"
+            ]
+        }
     },
     {
         "id": "A03Q",
@@ -125,9 +145,11 @@
         "type": "active",
         "cooldown": "1",
         "cost": "10",
-        "description": [
-            "Heals 400 HP"
-        ]
+        "description": {
+            "base": [
+                "Heals 400 HP"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -135,9 +157,11 @@
         "caster": "Mammoth",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Deals 100% auto Attack Damage to all enemies nearby (500 range)"
-        ]
+        "description": {
+            "base": [
+                "Deals 100% auto Attack Damage to all enemies nearby (500 range)"
+            ]
+        }
     },
     {
         "id": "A0BE",
@@ -146,10 +170,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "40",
-        "description": [
-            "Dashes a clone forward and knocks back all enemies in path",
-            "Deals 1500 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "Dashes a clone forward and knocks back all enemies in path",
+                "Deals 1500 Magic Damage"
+            ]
+        }
     },
     {
         "id": "A0BD",
@@ -158,10 +184,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "75",
-        "description": [
-            "Channels a blizzard for 5 seconds, which each shard dealing 300 Magic Damage",
-            "Each shard has a random chance to summon a snowman"
-        ],
+        "description": {
+            "base": [
+                "Channels a blizzard for 5 seconds, which each shard dealing 300 Magic Damage",
+                "Each shard has a random chance to summon a snowman"
+            ]
+        },
         "summons": [
             "Snowman"
         ]
@@ -173,9 +201,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "20",
-        "description": [
-            "Jumps into the air, after 2 seconds, land and deal 3000 Magic Damage to all surrounding enemies"
-        ]
+        "description": {
+            "base": [
+                "Jumps into the air, after 2 seconds, land and deal 3000 Magic Damage to all surrounding enemies"
+            ]
+        }
     },
     {
         "id": "A0V3",
@@ -184,10 +214,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "4",
-        "description": [
-            "Throws a tree covered in monke poo at target",
-            "Deals 500 Magic Damage and interrupts target"
-        ]
+        "description": {
+            "base": [
+                "Throws a tree covered in monke poo at target",
+                "Deals 500 Magic Damage and interrupts target"
+            ]
+        }
     },
     {
         "id": "A0AA",
@@ -195,9 +227,11 @@
         "caster": "Wallachia Death Knight Lord",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On attack, 15% chance to deal 1.5x Attack Damage"
-        ]
+        "description": {
+            "base": [
+                "On attack, 15% chance to deal 1.5x Attack Damage"
+            ]
+        }
     },
     {
         "id": "A0MM",
@@ -206,10 +240,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "60",
-        "description": [
-            "Throws a death coil at a target and stuns for 3 seconds",
-            "Deals 1250 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "Throws a death coil at a target and stuns for 3 seconds",
+                "Deals 1250 Magic Damage"
+            ]
+        }
     },
     {
         "id": "A0AC",
@@ -218,9 +254,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "90",
-        "description": [
-            "Summons 4 Wraiths for 60 seconds"
-        ],
+        "description": {
+            "base": [
+                "Summons 4 Wraiths for 60 seconds"
+            ]
+        },
         "summons": [
             "Wraith"
         ]
@@ -232,11 +270,13 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "60",
-        "description": [
-            "Decreases movement speed by 50% to increase attack speed by 200%",
-            "Attacks drag targets toward self",
-            "Lasts 8 seconds"
-        ]
+        "description": {
+            "base": [
+                "Decreases movement speed by 50% to increase attack speed by 200%",
+                "Attacks drag targets toward self",
+                "Lasts 8 seconds"
+            ]
+        }
     },
     {
         "id": "A0H6",
@@ -245,9 +285,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "30",
-        "description": [
-            "Summons 2 Soldiers of Blood at target location, dealing 750 Magic Damage"
-        ],
+        "description": {
+            "base": [
+                "Summons 2 Soldiers of Blood at target location, dealing 750 Magic Damage"
+            ]
+        },
         "summons": [
             "Soldier of Blood"
         ]
@@ -259,11 +301,13 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "60",
-        "description": [
-            "Summons six blood lines that spread in a hexagonal pattern around self",
-            "After reaching max distance, move 30 degrees counter-clockwise around target and return",
-            "Deals 75% max HP to all those in path"
-        ]
+        "description": {
+            "base": [
+                "Summons six blood lines that spread in a hexagonal pattern around self",
+                "After reaching max distance, move 30 degrees counter-clockwise around target and return",
+                "Deals 75% max HP to all those in path"
+            ]
+        }
     },
     {
         "id": "A0H8",
@@ -272,9 +316,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "120",
-        "description": [
-            "After 3 seconds of channeling, deals 3000 Magic Damage to nearby enemies (900 range)"
-        ]
+        "description": {
+            "base": [
+                "After 3 seconds of channeling, deals 3000 Magic Damage to nearby enemies (900 range)"
+            ]
+        }
     },
     {
         "id": "A0AB",
@@ -282,9 +328,11 @@
         "caster": "Soldier of Blood",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On attack, 25% chance to stun for .3 seconds and deal 1000 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "On attack, 25% chance to stun for .3 seconds and deal 1000 Magic Damage"
+            ]
+        }
     },
     {
         "id": "A0Z8",
@@ -293,9 +341,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "30",
-        "description": [
-            "Summon 4 waves that will travel either cardinal OR diagonal directions that kills all in its path"
-        ]
+        "description": {
+            "base": [
+                "Summon 4 waves that will travel either cardinal OR diagonal directions that kills all in its path"
+            ]
+        }
     },
     {
         "id": "A0Z9",
@@ -304,9 +354,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "40",
-        "description": [
-            "Summons a bat statue that will heal caster 2000 HP per second"
-        ],
+        "description": {
+            "base": [
+                "Summons a bat statue that will heal caster 2000 HP per second"
+            ]
+        },
         "summons": [
             "Bat Statue"
         ]
@@ -318,9 +370,11 @@
         "color": "8a2be2",
         "type": "trigger",
         "cooldown": "30",
-        "description": [
-            "On hit, the caster reflects 100% damage for 5 seconds"
-        ]
+        "description": {
+            "base": [
+                "On hit, the caster reflects 100% damage for 5 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -328,11 +382,13 @@
         "caster": "Wallachia Monstrosity",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "After reaching below 50% HP, teleport to a random area in area 7",
-            "After teleporting, heal self by 1000 HP every second",
-            "Spells will do the opposite of what the caster says below 50%"
-        ]
+        "description": {
+            "base": [
+                "After reaching below 50% HP, teleport to a random area in area 7",
+                "After teleporting, heal self by 1000 HP every second",
+                "Spells will do the opposite of what the caster says below 50%"
+            ]
+        }
     },
     {
         "id": "A0AE",
@@ -341,10 +397,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "90",
-        "description": [
-            "Summons 4 Lava elementals to fight for Ragnaar",
-            "Lasts 60 seconds"
-        ],
+        "description": {
+            "base": [
+                "Summons 4 Lava elementals to fight for Ragnaar",
+                "Lasts 60 seconds"
+            ]
+        },
         "summons": [
             "Slave of Trueflame"
         ]
@@ -356,9 +414,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "90",
-        "description": [
-            "Increase movement speed by 50% and attack speed by 100% for 20 seconds"
-        ]
+        "description": {
+            "base": [
+                "Increase movement speed by 50% and attack speed by 100% for 20 seconds"
+            ]
+        }
     },
     {
         "id": "A0KY",
@@ -367,9 +427,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "80",
-        "description": [
-            "After channeling for 3 seconds, creates pillars of fire around Ragnaar dealing 3000 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "After channeling for 3 seconds, creates pillars of fire around Ragnaar dealing 3000 Magic Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -377,9 +439,11 @@
         "caster": "Evil Lava Spawn",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Throws 3-5 fireballs every second around self, dealing 300 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "Throws 3-5 fireballs every second around self, dealing 300 Magic Damage"
+            ]
+        }
     },
     {
         "id": "A0LO",
@@ -387,9 +451,11 @@
         "caster": "Evil Lava Spawn",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "While in combat, gain 250 Attack Damage and increase health by 1000 per second 20 times"
-        ]
+        "description": {
+            "base": [
+                "While in combat, gain 250 Attack Damage and increase health by 1000 per second 20 times"
+            ]
+        }
     },
     {
         "id": "A07U",
@@ -398,9 +464,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "5",
-        "description": [
-            "Silences target for 1 second"
-        ]
+        "description": {
+            "base": [
+                "Silences target for 1 second"
+            ]
+        }
     },
     {
         "id": "A0LP",
@@ -409,10 +477,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "20",
-        "description": [
-            "Increases attack speed by 100% for 4 seconds",
-            "Moves opposite of attacker on hit"
-        ]
+        "description": {
+            "base": [
+                "Increases attack speed by 100% for 4 seconds",
+                "Moves opposite of attacker on hit"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -420,9 +490,11 @@
         "caster": "Evil Lava Spawn",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "Upon reaching 66% and 33% HP, summon a barrage of fireballs that insta-kill any enemy that touches them moving clockwise starting at 3'o'clock"
-        ]
+        "description": {
+            "base": [
+                "Upon reaching 66% and 33% HP, summon a barrage of fireballs that insta-kill any enemy that touches them moving clockwise starting at 3'o'clock"
+            ]
+        }
     },
     {
         "id": "A13P",
@@ -430,9 +502,11 @@
         "caster": "Tide Caller",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Reduces movement speed by 25%"
-        ]
+        "description": {
+            "base": [
+                "Reduces movement speed by 25%"
+            ]
+        }
     },
     {
         "id": "A0JA",
@@ -441,9 +515,11 @@
         "color": "a3bccc",
         "type": "passive",
         "cooldown": "3",
-        "description": [
-            "Uses all mana to block next attack"
-        ]
+        "description": {
+            "base": [
+                "Uses all mana to block next attack"
+            ]
+        }
     },
     {
         "id": "A0G8",
@@ -452,9 +528,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "4",
-        "description": [
-            "Summons a spike from above the target and mini-stuns them, dealing 1000 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "Summons a spike from above the target and mini-stuns them, dealing 1000 Magic Damage"
+            ]
+        }
     },
     {
         "id": "A0G9",
@@ -463,13 +541,15 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "30",
-        "description": [
-            "Slams the ground, after a second, tentacles spike up, insta-killing everyone it the vicinity",
-            "Can either surround caster or be 300 range around caster",
-            "Each cast recharges 1 mana",
-            "If anyone dies, regain 50% HP",
-            "On max mana, Tentacle slam will fill both inner and outer layer"
-        ]
+        "description": {
+            "base": [
+                "Slams the ground, after a second, tentacles spike up, insta-killing everyone it the vicinity",
+                "Can either surround caster or be 300 range around caster",
+                "Each cast recharges 1 mana",
+                "If anyone dies, regain 50% HP",
+                "On max mana, Tentacle slam will fill both inner and outer layer"
+            ]
+        }
     },
     {
         "id": "A0GB",
@@ -478,9 +558,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "12",
-        "description": [
-            "Silences target and deals 500 Phyiscal Damage per second for 3 seconds"
-        ]
+        "description": {
+            "base": [
+                "Silences target and deals 500 Phyiscal Damage per second for 3 seconds"
+            ]
+        }
     },
     {
         "id": "A13A",
@@ -489,9 +571,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "3",
-        "description": [
-            "Hits a target for 500 Magic Damage and jumps to 3 nearby enemies, dealing 100% damage"
-        ]
+        "description": {
+            "base": [
+                "Hits a target for 500 Magic Damage and jumps to 3 nearby enemies, dealing 100% damage"
+            ]
+        }
     },
     {
         "id": "A139",
@@ -500,9 +584,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "15",
-        "description": [
-            "After one second channel, knockback all nearby enemies by 1000 range, dealing 1000 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "After one second channel, knockback all nearby enemies by 1000 range, dealing 1000 Magic Damage"
+            ]
+        }
     },
     {
         "id": "A138",
@@ -511,10 +597,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "10",
-        "description": [
-            "Spawns two bubbles randomly around the caster",
-            "If stepped on or after 15 seconds, deals 2500 Magic Damage to all enemies in a cross"
-        ]
+        "description": {
+            "base": [
+                "Spawns two bubbles randomly around the caster",
+                "If stepped on or after 15 seconds, deals 2500 Magic Damage to all enemies in a cross"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -523,10 +611,12 @@
         "color": "8a2be2",
         "type": "trigger",
         "cooldown": "120",
-        "description": [
-            "Upon reaching 50%, become invulnerable and transforms into a beam of water that will circle the nearest enemy in a counter - clockwise pattern, charging at you every 5 seconds for 15 seconds",
-            "After this, he will have 0 mana and cannot cast this again until full mana is reached"
-        ]
+        "description": {
+            "base": [
+                "Upon reaching 50%, become invulnerable and transforms into a beam of water that will circle the nearest enemy in a counter - clockwise pattern, charging at you every 5 seconds for 15 seconds",
+                "After this, he will have 0 mana and cannot cast this again until full mana is reached"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -535,10 +625,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "60",
-        "description": [
-            "Targets a place to run to (in the direction of a Hero) and with full dedication rushes towards it",
-            "Any Heroes in its path will immediately die"
-        ]
+        "description": {
+            "base": [
+                "Targets a place to run to (in the direction of a Hero) and with full dedication rushes towards it",
+                "Any Heroes in its path will immediately die"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -547,10 +639,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "80",
-        "description": [
-            "Slams the ground causing a shockwave in the nearby area, dealing 25% max hp Magic Damage",
-            "Any Heroes caught in it will be stunned for 2 seconds"
-        ]
+        "description": {
+            "base": [
+                "Slams the ground causing a shockwave in the nearby area, dealing 25% max hp Magic Damage",
+                "Any Heroes caught in it will be stunned for 2 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -562,9 +656,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "10",
-        "description": [
-            "Dodges any attack for 1 second, increases movement speed to full"
-        ]
+        "description": {
+            "base": [
+                "Dodges any attack for 1 second, increases movement speed to full"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -573,9 +669,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "30",
-        "description": [
-            "Knocks enemies away and deals 1000 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "Knocks enemies away and deals 1000 Magic Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -584,9 +682,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "1",
-        "description": [
-            "Decreases enemy armor by 25"
-        ]
+        "description": {
+            "base": [
+                "Decreases enemy armor by 25"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -594,9 +694,11 @@
         "caster": "Forest Spirit",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On hit, returns 5% damage to sender and gives self +250 armor"
-        ]
+        "description": {
+            "base": [
+                "On hit, returns 5% damage to sender and gives self +250 armor"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -604,9 +706,11 @@
         "caster": "Mana Ancient",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Deals 100% Attack Damage to all nearby enemies"
-        ]
+        "description": {
+            "base": [
+                "Deals 100% Attack Damage to all nearby enemies"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -615,10 +719,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "10",
-        "description": [
-            "Targets beneath a Hero's feet and creates an enclosing whirlpool of mana",
-            "Heroes caught will take 4000 Magic Damage and their movement speed reduced for 5 seconds"
-        ]
+        "description": {
+            "base": [
+                "Targets beneath a Hero's feet and creates an enclosing whirlpool of mana",
+                "Heroes caught will take 4000 Magic Damage and their movement speed reduced for 5 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -627,10 +733,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "60",
-        "description": [
-            "Creates a vacuum beneath itself, sucking in any nearby Heroes and finally exploding after a few seconds.",
-            "Can only be used once it reaches full mana"
-        ]
+        "description": {
+            "base": [
+                "Creates a vacuum beneath itself, sucking in any nearby Heroes and finally exploding after a few seconds.",
+                "Can only be used once it reaches full mana"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -638,9 +746,11 @@
         "caster": "Ruler of the Lav Sea Hydra",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On Auto-Attack, applies a Debuff that deals 50 Magic Damage per second for 5 seconds"
-        ]
+        "description": {
+            "base": [
+                "On Auto-Attack, applies a Debuff that deals 50 Magic Damage per second for 5 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -649,9 +759,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "90",
-        "description": [
-            "After 3 seconds of channeling, deals 2500 Magic Damage to all enemies nearby and stuns them for 3 seconds in 600 AoE."
-        ]
+        "description": {
+            "base": [
+                "After 3 seconds of channeling, deals 2500 Magic Damage to all enemies nearby and stuns them for 3 seconds in 600 AoE"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -660,10 +772,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "60",
-        "description": [
-            "After 1.5 seconds of casting, sends a wave that will deal 1500 Magic Damage to the first enemy in its path",
-            "Launches enemies in the air, stunning them for 3 seconds"
-        ]
+        "description": {
+            "base": [
+                "After 1.5 seconds of casting, sends a wave that will deal 1500 Magic Damage to the first enemy in its path",
+                "Launches enemies in the air, stunning them for 3 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -671,9 +785,11 @@
         "caster": "Jack o Lantern",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On Auto-Attack, 15% chance to deal 1.5x Attack Damage."
-        ]
+        "description": {
+            "base": [
+                "On Auto-Attack, 15% chance to deal 1.5x Attack Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -682,10 +798,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "120",
-        "description": [
-            "After 2.75 seconds of channeling, blasts the surrounding area (1000 AoE) with a nova",
-            "Deals 6000 Magic Damage to any nearby Heroes"
-        ]
+        "description": {
+            "base": [
+                "After 2.75 seconds of channeling, blasts the surrounding area (1000 AoE) with a nova",
+                "Deals 6000 Magic Damage to any nearby Heroes"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -694,10 +812,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "40",
-        "description": [
-            "After 1.75 seconds of casting, shoots a ball of energy in a straight line",
-            "Deals 2500 Magic Damage to any Heroes in the path"
-        ]
+        "description": {
+            "base": [
+                "After 1.75 seconds of casting, shoots a ball of energy in a straight line",
+                "Deals 2500 Magic Damage to any Heroes in the path"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -706,10 +826,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "40",
-        "description": [
-            "After 1 second of casting, releases his hound to attack the Heroes",
-            "Attacks in a single line, dealing 2000 Magic Damage to each Hero in the path"
-        ]
+        "description": {
+            "base": [
+                "After 1 second of casting, releases his hound to attack the Heroes",
+                "Attacks in a single line, dealing 2000 Magic Damage to each Hero in the path"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -718,10 +840,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "55",
-        "description": [
-            "Pulls a Hero towards itself, stunning them for .2 seconds",
-            "Deals 1000 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "Pulls a Hero towards itself, stunning them for .2 seconds",
+                "Deals 1000 Magic Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -729,9 +853,11 @@
         "caster": "Duchy of Wallachia Count",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On Auto-Attack, 15% chance to deal 1.5x Attack Damage."
-        ]
+        "description": {
+            "base": [
+                "On Auto-Attack, 15% chance to deal 1.5x Attack Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -740,10 +866,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "120",
-        "description": [
-            "After 3 seconds of channeling, blasts the area around him with a nova of blood (1000 range)",
-            "Deals 7500 Magic Damage to all enemies in the nova and stuns them for .1 second"
-        ]
+        "description": {
+            "base": [
+                "After 3 seconds of channeling, blasts the area around him with a nova of blood (1000 range)",
+                "Deals 7500 Magic Damage to all enemies in the nova and stuns them for .1 second"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -751,11 +879,13 @@
         "caster": "Duchy of Wallachia Count",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "When HP goes below 50% HP, Count assumes his true form and gains 75% attack speed, 3000 extra Attack Damage",
-            "Also deals 1000 Magic Damage per second to all enemies nearby (400 range)",
-            "Lasts until mana runs out"
-        ],
+        "description": {
+            "base": [
+                "When HP goes below 50% HP, Count assumes his true form and gains 75% attack speed, 3000 extra Attack Damage",
+                "Also deals 1000 Magic Damage per second to all enemies nearby (400 range)",
+                "Lasts until mana runs out"
+            ]
+        },
         "cooldown": "120"
     },
     {
@@ -764,10 +894,12 @@
         "caster": "Mage Lord",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On any spell or attack, 15% to cause lightning or frost to hit the target",
-            "Lighting deals 1500 Magic Damage and frost deals 500 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "On any spell or attack, 15% to cause lightning or frost to hit the target",
+                "Lighting deals 1500 Magic Damage and frost deals 500 Magic Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -776,9 +908,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "80",
-        "description": [
-            "After 3.5 seconds of casting, summons a dark star that deals 10000 Magic Damage to all nearby enemies (900 range)"
-        ]
+        "description": {
+            "base": [
+                "After 3.5 seconds of casting, summons a dark star that deals 10000 Magic Damage to all nearby enemies (900 range)"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -787,12 +921,14 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "60",
-        "description": [
-            "After 1 second of casting, channels a Blizzard at Target Area",
-            "Blizzard lasts for 10 waves with 12 shards dealing 1000 Phyiscal Damage each",
-            "Maximum of 1000 Phyiscal Damage can be taken per wave",
-            "Each wave can proc Magical Weapon"
-        ]
+        "description": {
+            "base": [
+                "After 1 second of casting, channels a Blizzard at Target Area",
+                "Blizzard lasts for 10 waves with 12 shards dealing 1000 Phyiscal Damage each",
+                "Maximum of 1000 Phyiscal Damage can be taken per wave",
+                "Each wave can proc Magical Weapon"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -801,9 +937,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "9",
-        "description": [
-            "Shoots lightning at a nearby target, dealing 1000 Phyiscal Damage that bounces 4 times to nearby enemies"
-        ]
+        "description": {
+            "base": [
+                "Shoots lightning at a nearby target, dealing 1000 Phyiscal Damage that bounces 4 times to nearby enemies"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -812,11 +950,13 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "60",
-        "description": [
-            "After .5 seconds of preparing, the dragon's howl causes fear in the hearts of the any nearby (1000 range)",
-            "Enemies are dealt 1000 Magic Damage",
-            "Heroes affected by it will have 30% attack speed reduction and 10% movement speed reduction for 5 seconds"
-        ]
+        "description": {
+            "base": [
+                "After .5 seconds of preparing, the dragon's howl causes fear in the hearts of the any nearby (1000 range)",
+                "Enemies are dealt 1000 Magic Damage",
+                "Heroes affected by it will have 30% attack speed reduction and 10% movement speed reduction for 5 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -825,10 +965,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "80",
-        "description": [
-            "After 3 sconds of channeling, blasts fire all around him (1000 range)",
-            "Deals 5000 Magic Damage to nearby Heroes and interrupts them"
-        ]
+        "description": {
+            "base": [
+                "After 3 sconds of channeling, blasts fire all around him (1000 range)",
+                "Deals 5000 Magic Damage to nearby Heroes and interrupts them"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -837,10 +979,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "180",
-        "description": [
-            "After 3 seconds of channeling, blasts a beam of fire from his mouth in a straight line",
-            "Deals 7500 Magic Damage to all Heroes in its path"
-        ]
+        "description": {
+            "base": [
+                "After 3 seconds of channeling, blasts a beam of fire from his mouth in a straight line",
+                "Deals 7500 Magic Damage to all Heroes in its path"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -848,10 +992,12 @@
         "caster": "Wings of Death",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "When HP goes below 50%, takes flight and replaces its Auto-Attack with an AoE attack that deals 2500 Magic Damage in 400 AoE",
-            "Lasts for 5 seconds"
-        ],
+        "description": {
+            "base": [
+                "When HP goes below 50%, takes flight and replaces its Auto-Attack with an AoE attack that deals 2500 Magic Damage in 400 AoE",
+                "Lasts for 5 seconds"
+            ]
+        },
         "cooldown": "120"
     },
     {
@@ -860,9 +1006,11 @@
         "caster": "Castle Avalon Gatekeeper",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On Auto-Attack, 10% chance to deal 3x Attack Damage"
-        ]
+        "description": {
+            "base": [
+                "On Auto-Attack, 10% chance to deal 3x Attack Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -871,9 +1019,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "120",
-        "description": [
-            "After 3 seconds of channeling, blasts the area in holy light dealing 7500 Magic Damage to all enemies within 600 range"
-        ]
+        "description": {
+            "base": [
+                "After 3 seconds of channeling, blasts the area in holy light dealing 7500 Magic Damage to all enemies within 600 range"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -881,9 +1031,11 @@
         "caster": "The 3rd Army's Guardian Angel",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On attack, 15% chance to deal 1.75x Attack Damage"
-        ]
+        "description": {
+            "base": [
+                "On attack, 15% chance to deal 1.75x Attack Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -892,9 +1044,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "60",
-        "description": [
-            "After 3 seconds of channeling, sends a wave of light where it's facing, dealing 6000 Magic Damage to enemies in its path"
-        ]
+        "description": {
+            "base": [
+                "After 3 seconds of channeling, sends a wave of light where it's facing, dealing 6000 Magic Damage to enemies in its path"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -903,9 +1057,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "60",
-        "description": [
-            "Pulls target toward them with a holy velocity, dealing 2000 Magic Damage to target and interrupting them"
-        ]
+        "description": {
+            "base": [
+                "Pulls target toward them with a holy velocity, dealing 2000 Magic Damage to target and interrupting them"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -914,9 +1070,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "120",
-        "description": [
-            "After 3 seconds of calling the Archangel's might, sends it down onto the area (1000 range) dealing 15000 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "After 3 seconds of calling the Archangel's might, sends it down onto the area (1000 range) dealing 15000 Magic Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -925,9 +1083,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "120",
-        "description": [
-            "After channeling for 3 seconds, deals 15000 damage to all enemies nearby (1200 range) and interrupts them"
-        ]
+        "description": {
+            "base": [
+                "After channeling for 3 seconds, deals 15000 damage to all enemies nearby (1200 range) and interrupts them"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -936,9 +1096,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "15",
-        "description": [
-            "Gives 400% bonus attack speed for 15 seconds"
-        ]
+        "description": {
+            "base": [
+                "Gives 400% bonus attack speed for 15 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -946,9 +1108,11 @@
         "caster": "The Devil's Right Arm Corrupt Angel",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On Auto-Attack, 15% chance to deal 1.75x damage"
-        ]
+        "description": {
+            "base": [
+                "On Auto-Attack, 15% chance to deal 1.75x damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -957,9 +1121,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "60",
-        "description": [
-            "Pulls a target toward caster, dealing 3000 Magic Damage and interrupts them"
-        ]
+        "description": {
+            "base": [
+                "Pulls a target toward caster, dealing 3000 Magic Damage and interrupts them"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -972,224 +1138,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "40",
-        "description": [
-            "After two seconds of casting, the caster will send a wave of darkness toward the target area",
-            "This will deal 3000 Magic Damage per green explosion"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Frostvemon Explosion",
-        "caster": "Frostvemon Spider",
-        "color": "a3bccc",
-        "type": "passive",
-        "description": [
-            "On death, grow in size for one second and deal 2500 Magic Damage to all nearby enemies"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Hellfrost Nova",
-        "caster": "Soul of Everfrost",
-        "color": "f89c34",
-        "type": "active",
-        "cooldown": "20",
-        "description": [
-            "After channeling for 1.25 seconds, casts a froze nova on a target, dealing 5000 Magic Damage to all nearby",
-            "Those affected will have 50% less movement speed and 25% less attack speed for 8 seconds"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Frozen Soul",
-        "caster": "Soul of Everfrost",
-        "color": "f89c34",
-        "type": "active",
-        "cooldown": "90",
-        "description": [
-            "Summons 4 Frozen Souls after .5 seconds of channeling that last 90 seconds"
-        ],
-        "summons": [
-            "Frozen Soul"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Hellfrost Attack",
-        "caster": "Soul of Everfrost",
-        "color": "a3bccc",
-        "type": "passive",
-        "description": [
-            "On attack, applies debuff that rduces movement speed by 40% and attack speed by 20%"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Frost Spike",
-        "caster": "Frostspider Queen",
-        "color": "f89c34",
-        "type": "active",
-        "cooldown": "12.5",
-        "description": [
-            "After .75 seconds of channeling, shoots three spikes in a 30 degree arc that deals 7000 Magic Damage and stuns for 1 seconds"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Frost Aura",
-        "caster": "Frostspider Queen",
-        "color": "a3bccc",
-        "type": "passive",
-        "description": [
-            "All enemies nearby will be 'Chilled'",
-            "Chilled Enemies will have -40% attack speed and -40% movement speed"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Hellfrost Body",
-        "caster": "Frostspider Lord",
-        "color": "a3bccc",
-        "type": "passive",
-        "description": [
-            "Deals 200 damage a second to all nearby enemies (1200 range)",
-            "On Auto-Attack, 15% chance to deal 1.75x Attack Damage"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Ice Storm",
-        "caster": "Frostspider Lord",
-        "color": "f89c34",
-        "type": "active",
-        "cost": "100",
-        "cooldown": "12",
-        "description": [
-            "Chooses a target to be targeted by a blizzard. Spawns 21 Waves at target location, dealing 375 Magic Damage each over 3 seconds",
-            "Applies 'Wet' debuff",
-            "Wet enemies have their movement speed reduced by 20%"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Web Binding",
-        "caster": "Frostspider Lord",
-        "color": "f89c34",
-        "type": "active",
-        "cost": "100",
-        "description": [
-            "After .5 seconds of channeling, chooses a target to wrap up in webs",
-            "The web can be destroyed in 3 hits or any movement spell"
-        ],
-        "cooldown": "15"
-    },
-    {
-        "id": "xxxx",
-        "name": "Frozen Barrier",
-        "caster": "Frostspider Lord",
-        "color": "8a2be2",
-        "type": "trigger",
-        "cost": "100",
-        "description": [
-            "When cast, creates a shield that can absorb 10% HP that can be broken that lasts 10 seconds",
-            "When destroyed, freezes all enemies in place for 1 second",
-            "Will cast regardless at 66% and 33% HP"
-        ],
-        "cooldown": "30"
-    },
-    {
-        "id": "xxxx",
-        "name": "Frozen Shatter",
-        "caster": "Frostspider Lord",
-        "color": "f89c34",
-        "type": "active",
-        "cost": "100",
-        "cooldown": "40",
-        "description": [
-            "Upon cast, pushes all enemies away. When a target is nearby, the caster will face toward that target for 3 seconds",
-            "before unleash a wave that will insta-kill all those in its path",
-            "If no target is selected, it will swipe where its face in a 150 degree arc, insta-killing everyone in the swipe",
-            "Cannot be cast above 66% HP"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "The Demon Lord's Power",
-        "caster": "Demon Lord Beriel",
-        "color": "a3bccc",
-        "type": "passive",
-        "description": [
-            "On Auto-Attack, 15% chance to deal 2.5x Attack Damage"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Seal",
-        "caster": "Demon Lord Beriel",
-        "color": "f89c34",
-        "type": "active",
-        "cooldown": "10",
-        "description": [
-            "On cast, silences and slows down target by 50% (attack and movement) for 7.5 seconds"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Meteor",
-        "caster": "Demon Lord Beriel",
-        "color": "f89c34",
-        "type": "active",
-        "cooldown": "20",
-        "description": [
-            "Chooses a target to spawn a firey infernal at location, dealing 4000 damage on impact"
-        ],
-        "summons": [
-            "Hell Golem"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Destruction",
-        "caster": "Demon Lord Beriel",
-        "color": "f89c34",
-        "type": "active",
-        "cooldown": "12",
-        "description": [
-            "On cast, deals 2000 damage to surrounding enemies (400 range)",
-            "On third cast, channels spell for 3 seconds before dealing 75% HP to all enemies (1000 range) and stuns self for 5 seconds"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Catacylsm",
-        "caster": "Demon Lord Beriel",
-        "color": "f89c34",
-        "type": "active",
-        "cooldown": "75",
-        "description": [
-            "On cast, summons a line going counter clockwise every 45 degree angle starting a 3-o-clock every second that kills all within its range"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Rage",
-        "caster": "Demon Lord Beriel",
-        "color": "f89c34",
-        "type": "active",
-        "cooldown": "40",
-        "description": [
-            "Gains .125 attack speed and 100 Attack Damage per Auto-Attack for 10 seconds"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Permanent Immolation",
-        "caster": "Hell Golem",
-        "color": "a3bccc",
-        "type": "passive",
-        "description": [
-            "Deals 500 Magic Damage to all nearby enemies per second"
-        ]
+        "description": {
+            "base": [
+                "After two seconds of casting, the caster will send a wave of darkness toward the target area",
+                "This will deal 3000 Magic Damage per green explosion"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1198,15 +1152,17 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "20",
-        "description": [
-            "When activated, it places a purple circle on the ground",
-            "The circle will pulse once per second for 3 seconds and then pulse seven times for 2 seconds",
-            "Enemies on circle will be dealt 10% HP per pulse",
-            "If Mad Clown is on circle, he will heal 2.5% max HP per pulse",
-            "On finish, if Mad Clown is not on circle, he will teleport to circle and face where he was",
-            "He will shoot three balls that deal 25% HP each toward where he was in a 30 degree arc",
-            "Lasts 5 seconds"
-        ]
+        "description": {
+            "base": [
+                "When activated, it places a purple circle on the ground",
+                "The circle will pulse once per second for 3 seconds and then pulse seven times for 2 seconds",
+                "Enemies on circle will be dealt 10% HP per pulse",
+                "If Mad Clown is on circle, he will heal 2.5% max HP per pulse",
+                "On finish, if Mad Clown is not on circle, he will teleport to circle and face where he was",
+                "He will shoot three balls that deal 25% HP each toward where he was in a 30 degree arc",
+                "Lasts 5 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1218,10 +1174,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "40",
-        "description": [
-            "Dispels all magic from the caster and creates two images that deal 20% Attack Damage and take 250% Damage",
-            "Lasts 40 seconds"
-        ]
+        "description": {
+            "base": [
+                "Dispels all magic from the caster and creates two images that deal 20% Attack Damage and take 250% Damage",
+                "Lasts 40 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1231,11 +1189,13 @@
         "type": "active",
         "cost": "100",
         "cooldown": "100",
-        "description": [
-            "Upon reaching half of his HP, Mad Clown will create a wheel that reaches 1000 range and can suck in anyone within 2000 range for 12 seconds",
-            "The wheel will have an inner and outer layer with 5 lines that move counter-clockwise",
-            "Every 3 seconds, lights will appear in either the inner or outer layer, if enemies are within that light after 1 second, they will be stunned for 10 seconds"
-        ]
+        "description": {
+            "base": [
+                "Upon reaching half of his HP, Mad Clown will create a wheel that reaches 1000 range and can suck in anyone within 2000 range for 12 seconds",
+                "The wheel will have an inner and outer layer with 5 lines that move counter-clockwise",
+                "Every 3 seconds, lights will appear in either the inner or outer layer, if enemies are within that light after 1 second, they will be stunned for 10 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1246,9 +1206,261 @@
         ],
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On Auto-Attack, 20% chance to deal 1.75x Attack Damage"
+        "description": {
+            "base": [
+                "On Auto-Attack, 20% chance to deal 1.75x Attack Damage"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Frostvemon Explosion",
+        "caster": "Frostvemon Spider",
+        "color": "a3bccc",
+        "type": "passive",
+        "description": {
+            "base": [
+                "On death, grow in size for one second and deal 2500 Magic Damage to all nearby enemies"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Hellfrost Nova",
+        "caster": "Soul of Everfrost",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "20",
+        "description": {
+            "base": [
+                "After channeling for 1.25 seconds, casts a froze nova on a target, dealing 5000 Magic Damage to all nearby",
+                "Those affected will have 50% less movement speed and 25% less attack speed for 8 seconds"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Frozen Soul",
+        "caster": "Soul of Everfrost",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "90",
+        "description": {
+            "base": [
+                 "Summons 4 Frozen Souls after .5 seconds of channeling that last 90 seconds"
+            ]
+        },
+        "summons": [
+            "Frozen Soul"
         ]
+    },
+    {
+        "id": "xxxx",
+        "name": "Hellfrost Attack",
+        "caster": "Soul of Everfrost",
+        "color": "a3bccc",
+        "type": "passive",
+        "description": {
+            "base": [
+                "On attack, applies debuff that rduces movement speed by 40% and attack speed by 20%"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Frost Spike",
+        "caster": "Frostspider Queen",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "12.5",
+        "description": {
+            "base": [
+                "After .75 seconds of channeling, shoots three spikes in a 30 degree arc that deals 7000 Magic Damage and stuns for 1 seconds"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Frost Aura",
+        "caster": "Frostspider Queen",
+        "color": "a3bccc",
+        "type": "passive",
+        "description": {
+            "base": [
+                 "All enemies nearby will be 'Chilled'",
+                "Chilled Enemies will have -40% attack speed and -40% movement speed"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Hellfrost Body",
+        "caster": "Frostspider Lord",
+        "color": "a3bccc",
+        "type": "passive",
+        "description": {
+            "base": [
+                "Deals 200 damage a second to all nearby enemies (1200 range)",
+                "On Auto-Attack, 15% chance to deal 1.75x Attack Damage"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Ice Storm",
+        "caster": "Frostspider Lord",
+        "color": "f89c34",
+        "type": "active",
+        "cost": "100",
+        "cooldown": "12",
+        "description": {
+            "base": [
+                "Chooses a target to be targeted by a blizzard. Spawns 21 Waves at target location, dealing 375 Magic Damage each over 3 seconds",
+                "Applies 'Wet' debuff",
+                "Wet enemies have their movement speed reduced by 20%"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Web Binding",
+        "caster": "Frostspider Lord",
+        "color": "f89c34",
+        "type": "active",
+        "cost": "100",
+        "description": {
+            "base": [
+                "After .5 seconds of channeling, chooses a target to wrap up in webs",
+                "The web can be destroyed in 3 hits or any movement spell"
+            ]
+        },
+        "cooldown": "15"
+    },
+    {
+        "id": "xxxx",
+        "name": "Frozen Barrier",
+        "caster": "Frostspider Lord",
+        "color": "8a2be2",
+        "type": "trigger",
+        "cost": "100",
+        "description": {
+            "base": [
+                "When cast, creates a shield that can absorb 10% HP that can be broken that lasts 10 seconds",
+                "When destroyed, freezes all enemies in place for 1 second",
+                "Will cast regardless at 66% and 33% HP"
+            ]
+        },
+        "cooldown": "30"
+    },
+    {
+        "id": "xxxx",
+        "name": "Frozen Shatter",
+        "caster": "Frostspider Lord",
+        "color": "f89c34",
+        "type": "active",
+        "cost": "100",
+        "cooldown": "40",
+        "description": {
+            "base": [
+                "Upon cast, pushes all enemies away. When a target is nearby, the caster will face toward that target for 3 seconds",
+                "before unleash a wave that will insta-kill all those in its path",
+                "If no target is selected, it will swipe where its face in a 150 degree arc, insta-killing everyone in the swipe",
+                "Cannot be cast above 66% HP"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "The Demon Lord's Power",
+        "caster": "Demon Lord Beriel",
+        "color": "a3bccc",
+        "type": "passive",
+        "description": {
+            "base": [
+                "On Auto-Attack, 15% chance to deal 2.5x Attack Damage"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Seal",
+        "caster": "Demon Lord Beriel",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "10",
+        "description": {
+            "base": [
+                "On cast, silences and slows down target by 50% (attack and movement) for 7.5 seconds"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Meteor",
+        "caster": "Demon Lord Beriel",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "20",
+        "description": {
+            "base": [
+                "Chooses a target to spawn a firey infernal at location, dealing 4000 damage on impact"
+            ]
+        },
+        "summons": [
+            "Hell Golem"
+        ]
+    },
+    {
+        "id": "xxxx",
+        "name": "Destruction",
+        "caster": "Demon Lord Beriel",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "12",
+        "description": {
+            "base": [
+                "On cast, deals 2000 damage to surrounding enemies (400 range)",
+                "On third cast, channels spell for 3 seconds before dealing 75% HP to all enemies (1000 range) and stuns self for 5 seconds"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Catacylsm",
+        "caster": "Demon Lord Beriel",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "75",
+        "description": {
+            "base": [
+                "On cast, summons a line going counter clockwise every 45 degree angle starting a 3-o-clock every second that kills all within its range"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Rage",
+        "caster": "Demon Lord Beriel",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "40",
+        "description": {
+            "base": [
+                "Gains .125 attack speed and 100 Attack Damage per Auto-Attack for 10 seconds"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Permanent Immolation",
+        "caster": "Hell Golem",
+        "color": "a3bccc",
+        "type": "passive",
+        "description": {
+            "base": [
+                "Deals 500 Magic Damage to all nearby enemies per second"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1256,10 +1468,12 @@
         "caster": "Fairy Spirit",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On attack, give -5 armor debuff on enemy",
-            "Stacks 5 times"
-        ]
+        "description": {
+            "base": [
+                "On attack, give -5 armor debuff on enemy",
+                "Stacks 5 times"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1271,9 +1485,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "1",
-        "description": [
-            "Heals a target for 12500 HP over 12 seconds"
-        ]
+        "description": {
+            "base": [
+                "Heals a target for 12500 HP over 12 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1283,11 +1499,13 @@
         "type": "active",
         "cooldown": "12",
         "cost": "100",
-        "description": [
-            "After choosing a target to follow, channels for 1.5 seconds sends a wave of green flames where Spirit Beast is facing",
-            "On impact, deals 25% HP Magic Damage",
-            "The flames last for 10 seconds dealing 450 Magic Damage per half second"
-        ]
+        "description": {
+            "base": [
+                "After choosing a target to follow, channels for 1.5 seconds sends a wave of green flames where Spirit Beast is facing",
+                "On impact, deals 25% HP Magic Damage",
+                "The flames last for 10 seconds dealing 450 Magic Damage per half second"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1297,11 +1515,13 @@
         "type": "active",
         "cooldown": "20",
         "cost": "100",
-        "description": [
-            "Creates a clone to cast Etheral Strike to a random target",
-            "Will pull targets into Spirit Beast during Heaven's Wrath",
-            "Etheral Strike will not be affected by Heaven's Wrath"
-        ]
+        "description": {
+            "base": [
+                "Creates a clone to cast Etheral Strike to a random target",
+                "Will pull targets into Spirit Beast during Heaven's Wrath",
+                "Etheral Strike will not be affected by Heaven's Wrath"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1313,10 +1533,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "16",
-        "description": [
-            "Spawns eight green orbs around caster that slowly travels towards the caster",
-            "When orbs reach caster, they heal 1% HP each and give 5 mana, if they blocked, they deal 500 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "Spawns eight green orbs around caster that slowly travels towards the caster",
+                "When orbs reach caster, they heal 1% HP each and give 5 mana, if they blocked, they deal 500 Magic Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1324,12 +1546,14 @@
         "caster": "Spirit Beast",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "On reaching 50% HP, gain 25% damage reduction and changes spells",
-            "Etheral Strike now moves toward the target again when it reaches its length",
-            "Three thunder bolts now strike every second, dealing 1500 damage each and stunning enemies for 1 second",
-            "Dispels when healed to full"
-        ]
+        "description": {
+            "base": [
+                "On reaching 50% HP, gain 25% damage reduction and changes spells",
+                "Etheral Strike now moves toward the target again when it reaches its length",
+                "Three thunder bolts now strike every second, dealing 1500 damage each and stunning enemies for 1 second",
+                "Dispels when healed to full"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1337,9 +1561,11 @@
         "caster": "Corruptor Rectus",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On Auto-Attack, 40% chance to deal 1.5x Attack Damage"
-        ]
+        "description": {
+            "base": [
+                "On Auto-Attack, 40% chance to deal 1.5x Attack Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1349,11 +1575,14 @@
         "type": "active",
         "cost": "100",
         "cooldown": "27",
-        "description": [
-            "On cast with .15 delay, chooses a random target to corrupt and deal 25% damage to all nearby enemies",
-            "On corruption, the enemy will spawn green circles every 2 seconds below which will deal a stackable 5% HP per second",
-            "Lasts for 20 seconds, circles remain on ground for 60 seconds"
-        ]
+        "description": {
+            "base": [
+                "On cast with .15 delay, chooses a random target to corrupt and deal 25% damage to all nearby enemies",
+                "On corruption, the enemy will spawn green circles every 2 seconds below which will deal a stackable 5% HP per second",
+                "Lasts for 20 seconds, circles remain on ground for 60 seconds"
+
+            ]
+        } 
     },
     {
         "id": "xxxx",
@@ -1363,10 +1592,12 @@
         "type": "active",
         "cost": "100",
         "cooldown": "12",
-        "description": [
-            "Chooses a target area that will explode for 20% HP and interrupt Players after a 2 second delay",
-            "At past 50% HP, after the initial blast, 8 coils will shoot out in diagonal and cardinal directions, dealing 1000 Magic Damage each and interrupting the first person they touch"
-        ]
+        "description": {
+            "base": [
+                "Chooses a target area that will explode for 20% HP and interrupt Players after a 2 second delay",
+                "At past 50% HP, after the initial blast, 8 coils will shoot out in diagonal and cardinal directions, dealing 1000 Magic Damage each and interrupting the first person they touch"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1376,9 +1607,11 @@
         "type": "active",
         "cost": "100",
         "cooldown": "30",
-        "description": [
-            "Binds two target's souls to be swapped. When their orbs each the other Player, they will swap, insta-killing all nearby Players on their locations"
-        ]
+        "description": {
+            "base": [
+                "Binds two target's souls to be swapped. When their orbs each the other Player, they will swap, insta-killing all nearby Players on their locations"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1386,9 +1619,11 @@
         "caster": "Corruptor Rectus",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Every 3 seconds second, Rectus will emit a blast of corruption that will deal increasing Magic Damage as the fight goes on"
-        ]
+        "description": {
+            "base": [
+                "Every 3 seconds second, Rectus will emit a blast of corruption that will deal increasing Magic Damage as the fight goes on"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1396,9 +1631,11 @@
         "caster": "Corruptor Rectus",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Decreases nearby Players armor by 25"
-        ]
+        "description": {
+            "base": [
+                "Decreases nearby Players armor by 25"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1406,12 +1643,14 @@
         "caster": "Corruptor Rectus",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "At every 25% HP missing, Rectus will summon his minions",
-            "At 75%, he'll summon 1 Avenger, Rectus is invulnerable until Avenger is killed",
-            "At 50%, he'll summon 1 Avenger and 8 Stalkers, Rectus is invulnerable until Avenger is killed",
-            "At 25%, he'll summon 1 Avenger and 8 Stalkers, Rectus will become vulnerable after 10 seconds"
-        ],
+        "description": {
+            "base": [
+                "At every 25% HP missing, Rectus will summon his minions",
+                "At 75%, he'll summon 1 Avenger, Rectus is invulnerable until Avenger is killed",
+                "At 50%, he'll summon 1 Avenger and 8 Stalkers, Rectus is invulnerable until Avenger is killed",
+                "At 25%, he'll summon 1 Avenger and 8 Stalkers, Rectus will become vulnerable after 10 seconds"
+            ]
+        },
         "summons": [
             "Avenger",
             "Stalker"
@@ -1424,9 +1663,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "15",
-        "description": [
-            "After 1 second wind-up, creates a 150 degree arc in front of the Avenger that deals 2500 Magic Damage and adds a -150 armor debuff on target that lasts 10 seconds"
-        ]
+        "description": {
+            "base": [
+                "After 1 second wind-up, creates a 150 degree arc in front of the Avenger that deals 2500 Magic Damage and adds a -150 armor debuff on target that lasts 10 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1434,9 +1675,11 @@
         "caster": "Stalker",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On death, deals 10% HP Magic Damage to all nearby enemies. Heals Avenger for 10% if nearby"
-        ]
+        "description": {
+            "base": [
+                "On death, deals 10% HP Magic Damage to all nearby enemies. Heals Avenger for 10% if nearby"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1444,10 +1687,13 @@
         "caster": "Life Orb",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On death, heals Players 3000 HP per second for 15 seconds with a 20 second recharge",
-            "On 2nd death, deals 50% Magic Damage to nearby Players every 5 seconds"
-        ]
+        "description": {
+            "base": [
+                "On death, heals Players 3000 HP per second for 15 seconds with a 20 second recharge",
+                "On 2nd death, deals 50% Magic Damage to nearby Players every 5 seconds"
+
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1455,9 +1701,11 @@
         "caster": "Flame Nightmare",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On Auto-Attack, 20% chance to deal 2x Attack Damage"
-        ]
+        "description": {
+            "base": [
+                "On Auto-Attack, 20% chance to deal 2x Attack Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1466,10 +1714,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "30",
-        "description": [
-            "Targets a random Player and fires dual meteors every half second target the target location",
-            "Each impact stuns all enemies nearby for .5 seconds and deals 5000 Magic Damage each"
-        ]
+        "description": {
+            "base": [
+                "Targets a random Player and fires dual meteors every half second target the target location",
+                "Each impact stuns all enemies nearby for .5 seconds and deals 5000 Magic Damage each"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1477,10 +1727,12 @@
         "caster": "Flame Nightmare",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On every Auto-Attack, Flame Nightmare will drain all of his own mana",
-            "If he reaches full mana, whenever he gets stunned or silenced, he begins to push all Players away for 5 seconds and becomes immune to crowd control effects"
-        ]
+        "description": {
+            "base": [
+                "On every Auto-Attack, Flame Nightmare will drain all of his own mana",
+                "If he reaches full mana, whenever he gets stunned or silenced, he begins to push all Players away for 5 seconds and becomes immune to crowd control effects"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1488,12 +1740,14 @@
         "caster": "Flame Nightmare",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "At 80% HP, target a random Player to jump toward, dealing 2000 Magic Damage on impact",
-            "Creates 8 lava spawns that walk toward the impact after spawning",
-            "Creates flame paths that deal 5% max HP Magic Damage per second that last 3 seconds",
-            "On collision with the impact zone, heal Flame Nightmare for 10% if its near"
-        ],
+        "description": {
+            "base": [
+                "At 80% HP, target a random Player to jump toward, dealing 2000 Magic Damage on impact",
+                "Creates 8 lava spawns that walk toward the impact after spawning",
+                "Creates flame paths that deal 5% max HP Magic Damage per second that last 3 seconds",
+                "On collision with the impact zone, heal Flame Nightmare for 10% if its near"
+            ]
+        },
         "summons": [
             "Flame Spawn"
         ]
@@ -1504,10 +1758,12 @@
         "caster": "Flame Nightmare",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "At 25% HP, becomes invulnerable and choose the closest Player to target with Flame Barrage for ten seconds",
-            "Become vulnerable after duration is over"
-        ]
+        "description": {
+            "base": [
+                "At 25% HP, becomes invulnerable and choose the closest Player to target with Flame Barrage for ten seconds",
+                "Become vulnerable after duration is over"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1516,9 +1772,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "0",
-        "description": [
-            "Increases attack speed by 100%"
-        ]
+        "description": {
+            "base": [
+                "Increases attack speed by 100%"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1526,10 +1784,12 @@
         "caster": "Anger",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "After the second strike on a target, stun for .1 second and deal 100% more damage on every attack",
-            "Disappears after losing target"
-        ]
+        "description": {
+            "base": [
+                "After the second strike on a target, stun for .1 second and deal 100% more damage on every attack",
+                "Disappears after losing target"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1537,10 +1797,12 @@
         "caster": "Hatred",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Picks a nearby target to gaze at, marking them with a purple circle",
-            "After 10 seconds, fires a ball that will explode on contact, dealing 99% max HP Magic Damage to all but the target"
-        ]
+        "description": {
+            "base": [
+                "Picks a nearby target to gaze at, marking them with a purple circle",
+                "After 10 seconds, fires a ball that will explode on contact, dealing 99% max HP Magic Damage to all but the target"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1548,10 +1810,12 @@
         "caster": "Turtle Lord",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On every attack, reduce armor of target by -5 for 3 seconds",
-            "Stacks until -50 armor"
-        ]
+        "description": {
+            "base": [
+                "On every attack, reduce armor of target by -5 for 3 seconds",
+                "Stacks until -50 armor"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1559,9 +1823,11 @@
         "caster": "Turtle Lord",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Reduces enemy movement speed and attack speed by 20%"
-        ]
+        "description": {
+            "base": [
+                "Reduces enemy movement speed and attack speed by 20%"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1569,9 +1835,11 @@
         "caster": "Turtle Lord",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On Auto-Attack, 15% chance to deal 2.5x Attack Damage"
-        ]
+        "description": {
+            "base": [
+                "On Auto-Attack, 15% chance to deal 2.5x Attack Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1579,12 +1847,14 @@
         "caster": "Turtle Lord",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "When reaching every 25% HP, gain 90% damage reduction and summons 8 Turtles",
-            "Turtles will stun all players in landing zone for 1 second",
-            "2 of these eight turtles will have 50% Magic Reduction",
-            "Lose Damage Reduction when all turtles are dead"
-        ],
+        "description": {
+            "base": [
+                "When reaching every 25% HP, gain 90% damage reduction and summons 8 Turtles",
+                "Turtles will stun all players in landing zone for 1 second",
+                "2 of these eight turtles will have 50% Magic Reduction",
+                "Lose Damage Reduction when all turtles are dead"
+            ]
+        },
         "summons": [
             "Turtle"
         ]
@@ -1596,11 +1866,13 @@
         "color": "8a2be2",
         "type": "trigger",
         "cost": "40",
-        "description": [
-            "Summons a Healing Turtle from either end of the arena that walks toward Turtle Lord",
-            "Upon contact, heals Turtle Lord for 25% max HP",
-            "Upon death, knocks back all enemies"
-        ],
+        "description": {
+            "base": [
+                "Summons a Healing Turtle from either end of the arena that walks toward Turtle Lord",
+                "Upon contact, heals Turtle Lord for 25% max HP",
+                "Upon death, knocks back all enemies"
+            ]
+        },
         "summons": [
             "Healing Turtle"
         ]
@@ -1611,10 +1883,12 @@
         "caster": "Turtle Lord",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Every second, sends a mana orb toward a random target",
-            "Deals 10% max HP Magic Damage to everyone nearby impact zone"
-        ]
+        "description": {
+            "base": [
+                "Every second, sends a mana orb toward a random target",
+                "Deals 10% max HP Magic Damage to everyone nearby impact zone"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1623,10 +1897,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "20",
-        "description": [
-            "For every second for 3 seconds, fire a fireball which deals 25% HP Magic Damage in 300 AOE around the nearest target",
-            "Each Fireball spawns a Flame Spirit"
-        ],
+        "description": {
+            "base": [
+                "For every second for 3 seconds, fire a fireball which deals 25% HP Magic Damage in 300 AOE around the nearest target",
+                "Each Fireball spawns a Flame Spirit"
+            ]
+        },
         "summons": [
             "Flame Spirit"
         ]
@@ -1638,10 +1914,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "8",
-        "description": [
-            "After 1 second of wind-up, deal 50% max HP + 3750 Magic Damage and knockback everyone in front of Bone Dragon",
-            "If no one is hit, Bone dragon will howl, which delas 150% max HP Magic Damage to everyone in the arena"
-        ]
+        "description": {
+            "base": [
+                "After 1 second of wind-up, deal 50% max HP + 3750 Magic Damage and knockback everyone in front of Bone Dragon",
+                "If no one is hit, Bone dragon will howl, which delas 150% max HP Magic Damage to everyone in the arena"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1650,11 +1928,13 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "12",
-        "description": [
-            "Every second for four seconds, fire a fire ball at the nearest target",
-            "Each fireball deals 3000 Magic Damage on impact",
-            "Each fireball spawns a Flame Spirit"
-        ],
+        "description": {
+            "base": [
+                "Every second for four seconds, fire a fire ball at the nearest target",
+                "Each fireball deals 3000 Magic Damage on impact",
+                "Each fireball spawns a Flame Spirit"
+            ]
+        },
         "summons": [
             "Flame Spirit"
         ]
@@ -1666,11 +1946,13 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "6",
-        "description": [
-            "Chooses a random target to create a spike under",
-            "After 4 seconds, locks that place down and after 1 second, creates a Hell Spike, instantly killing everyone in the area unless they're immune to instant kills",
-            "Every third Hell Spike, create an unstable spike that will kill everyone in the arena that isn't behind another Hell spike after three seconds have passed"
-        ],
+        "description": {
+            "base": [
+                "Chooses a random target to create a spike under",
+                "After 4 seconds, locks that place down and after 1 second, creates a Hell Spike, instantly killing everyone in the area unless they're immune to instant kills",
+                "Every third Hell Spike, create an unstable spike that will kill everyone in the arena that isn't behind another Hell spike after three seconds have passed"
+            ]
+        },
         "summons": [
             "Hell Spike"
         ]
@@ -1682,9 +1964,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "5",
-        "description": [
-            "After 2 seconds of wind-up, anyone staring at Bone Dragon will be paused and vulnerable for 10 seconds"
-        ]
+        "description": {
+            "base": [
+                "After 2 seconds of wind-up, anyone staring at Bone Dragon will be paused and vulnerable for 10 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1692,11 +1976,13 @@
         "caster": "Bone Dragon",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "At 50% HP, become enraged, gaining 75% Damage Reduction and restore 3% HP per second",
-            "This mode unlocks the Hell Spike ability forever, but locks Petrification until this mode is over",
-            "Lasts until mana is gone, which takes 20 seconds to fully deplete"
-        ]
+        "description": {
+            "base": [
+                "At 50% HP, become enraged, gaining 75% Damage Reduction and restore 3% HP per second",
+                "This mode unlocks the Hell Spike ability forever, but locks Petrification until this mode is over",
+                "Lasts until mana is gone, which takes 20 seconds to fully deplete"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1706,9 +1992,11 @@
         "type": "active",
         "cost": "100",
         "cooldown": "0",
-        "description": [
-            "Interrupts and pulls target toward caster"
-        ]
+        "description": {
+            "base": [
+                "Interrupts and pulls target toward caster"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1720,11 +2008,13 @@
         "color": "8a2be2",
         "type": "trigger",
         "cooldown": "0",
-        "description": [
-            "When stunned or silenced, gain 10 mana per second",
-            "At full mana, gain super armor, which gives the user crowd control immunity",
-            "Can still be stunned or silenced if spell is longer than 3 seconds"
-        ]
+        "description": {
+            "base": [
+                "When stunned or silenced, gain 10 mana per second",
+                "At full mana, gain super armor, which gives the user crowd control immunity",
+                "Can still be stunned or silenced if spell is longer than 3 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1733,11 +2023,13 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "15",
-        "description": [
-            "Drains the souls of nearby heroes, healing self for 10000 per nearby enemy",
-            "Pushes all enemies away",
-            "Decreases HP of affected (summons are not decreased) by 1200 until fight ends"
-        ]
+        "description": {
+            "base": [
+                "Drains the souls of nearby heroes, healing self for 10000 per nearby enemy",
+                "Pushes all enemies away",
+                "Decreases HP of affected (summons are not decreased) by 1200 until fight ends"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1746,9 +2038,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "16",
-        "description": [
-            "Silences a target area and deals 10% max HP Magic Damage to those affected for 5 seconds"
-        ]
+        "description": {
+            "base": [
+                "Silences a target area and deals 10% max HP Magic Damage to those affected for 5 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1757,10 +2051,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "8",
-        "description": [
-            "After 1 second of channeling, slashes the air, dealing 7500 Magic Damage to all those in the path",
-            "Reduces movement speed by those affected by 25%"
-        ]
+        "description": {
+            "base": [
+                "After 1 second of channeling, slashes the air, dealing 7500 Magic Damage to all those in the path",
+                "Reduces movement speed by those affected by 25%"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1769,9 +2065,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "50",
-        "description": [
-            "After channeling for 2.25 seconds, summons a wave of devastation that instantly kills all underneath it"
-        ]
+        "description": {
+            "base": [
+                "After channeling for 2.25 seconds, summons a wave of devastation that instantly kills all underneath it"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1779,11 +2077,13 @@
         "caster": "Skeleton King Desperia",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "At every 25% HP reached, he will build up power for three seconds and devastate the area, killing everyone in the area",
-            "Only people who can survive insta-kill or invulnerable can survive",
-            "Gains 50% Damage Reduction for 2.5 seconds"
-        ]
+        "description": {
+            "base": [
+                "At every 25% HP reached, he will build up power for three seconds and devastate the area, killing everyone in the area",
+                "Only people who can survive insta-kill or invulnerable can survive",
+                "Gains 50% Damage Reduction for 2.5 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1791,9 +2091,11 @@
         "caster": "Zombie",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On attack, gain 100% of Auto-Attack Damage back as HP"
-        ]
+        "description": {
+            "base": [
+                "On attack, gain 100% of Auto-Attack Damage back as HP"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1801,9 +2103,11 @@
         "caster": "Zombie",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "On Death, use all mana to come back to life"
-        ]
+        "description": {
+            "base": [
+                "On Death, use all mana to come back to life"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1811,10 +2115,12 @@
         "caster": "Worshipper of Immortality",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Immune to Crowd Control",
-            "Gets removed with Holy Water from the Church"
-        ]
+        "description": {
+            "base": [
+                "Immune to Crowd Control",
+                "Gets removed with Holy Water from the Church"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1822,11 +2128,13 @@
         "caster": "Worshipper of Immortality",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "At 100% mana, channel for 1 second and send a death coil to Zombie Lord",
-            "Heals him for 25% HP and 25% Mana",
-            "Death Coil instantly kills all those in path"
-        ]
+        "description": {
+            "base": [
+                "At 100% mana, channel for 1 second and send a death coil to Zombie Lord",
+                "Heals him for 25% HP and 25% Mana",
+                "Death Coil instantly kills all those in path"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1835,14 +2143,16 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "24",
-        "description": [
-            "Reduces movement speed by 50% and increases attack speed by 400%",
-            "Has 100% Damage reduction during this mode",
-            "Every attack also interrupts enemies",
-            "Every hit also regens 1 mana",
-            "Lasts for 5 seconds",
-            "Will only cast if HP is missing"
-        ]
+        "description": {
+            "base": [
+                "Reduces movement speed by 50% and increases attack speed by 400%",
+                "Has 100% Damage reduction during this mode",
+                "Every attack also interrupts enemies",
+                "Every hit also regens 1 mana",
+                "Lasts for 5 seconds",
+                "Will only cast if HP is missing"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1850,10 +2160,12 @@
         "caster": "Zombie Lord",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On auto attack, gain 50% of damage back as HP",
-            "Auto attacks deal 100% damage to a small AoE"
-        ]
+        "description": {
+            "base": [
+                "On auto attack, gain 50% of damage back as HP",
+                "Auto attacks deal 100% damage to a small AoE"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1861,11 +2173,13 @@
         "caster": "Zombie Lord",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On auto attack, apply debuff that deals 375 Magic Damage per second",
-            "On every five stacks reduces healing by 20% until 100%",
-            "Lasts for 15 seconds"
-        ]
+        "description": {
+            "base": [
+                "On auto attack, apply debuff that deals 375 Magic Damage per second",
+                "On every five stacks reduces healing by 20% until 100%",
+                "Lasts for 15 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1874,13 +2188,15 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "20",
-        "description": [
-            "Infests 2 Zombies and 2 Players",
-            "Gives a debuff that will turn the target green and increase in size",
-            "Movement speed increases by 50%, does not break the cap",
-            "After 5 seconds, the target will explode, dealing 50% Magic Damage to all nearby enemies",
-            "Can be cleansed to remove the explosion"
-        ]
+        "description": {
+            "base": [
+                "Infests 2 Zombies and 2 Players",
+                "Gives a debuff that will turn the target green and increase in size",
+                "Movement speed increases by 50%, does not break the cap",
+                "After 5 seconds, the target will explode, dealing 50% Magic Damage to all nearby enemies",
+                "Can be cleansed to remove the explosion"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1889,12 +2205,14 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "60",
-        "description": [
-            "Creates 2 hexagonal pattern of warning lights",
-            "Those within the area after the flash will be instantly killed",
-            "Those outside the range will be dealt 0% max hp Magic Damage the first blast, and 50% max HP the next",
-            "Can be interrupted through a pause"
-        ]
+        "description": {
+            "base": [
+                "Creates 2 hexagonal pattern of warning lights",
+                "Those within the area after the flash will be instantly killed",
+                "Those outside the range will be dealt 0% max hp Magic Damage the first blast, and 50% max HP the next",
+                "Can be interrupted through a pause"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1902,14 +2220,16 @@
         "caster": "Zombie Lord",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "When damage goes below 1 HP, if Zombie lord has full mana, he will ressurect",
-            "During the 3 second ressurection, he will deal 40% max HP pure damage per second to all enemies in the green light",
-            "He will automaticaly gain hunger after ressurection",
-            "His damage will increase by 25% every life past 4th life",
-            "His DR will increase logarithmically",
-            "His DR up to ninth life is as listed: 0, 25, 43.8, 57.8, 74.7, 84.8, 90.9, 94.5, 96.7"
-        ]
+        "description": {
+            "base": [
+                "When damage goes below 1 HP, if Zombie lord has full mana, he will ressurect",
+                "During the 3 second ressurection, he will deal 40% max HP pure damage per second to all enemies in the green light",
+                "He will automaticaly gain hunger after ressurection",
+                "His damage will increase by 25% every life past 4th life",
+                "His DR will increase logarithmically",
+                "His DR up to ninth life is as listed: 0, 25, 43.8, 57.8, 74.7, 84.8, 90.9, 94.5, 96.7"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1918,10 +2238,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "10",
-        "description": [
-            "Create a ring of spikes at one of the 4 layers around Ancient Ent, each starting about 300 range more than the last",
-            "When an enemy is hit by these spikes after 1.5 seconds of wind-up, deal 12000 Magic Damage and stun enemies for 3 seconds"
-        ]
+        "description": {
+            "base": [
+                "Create a ring of spikes at one of the 4 layers around Ancient Ent, each starting about 300 range more than the last",
+                "When an enemy is hit by these spikes after 1.5 seconds of wind-up, deal 12000 Magic Damage and stun enemies for 3 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1930,12 +2252,14 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "30",
-        "description": [
-            "After 2.5 seconds of channeling, conjure a lightning storm that takes up a third of the arena vertically or a half horizontally",
-            "Positions are random",
-            "Deals 300% Max HP Magic Damage and breaks players shields",
-            "Deals 25% Max HP Magic Damage to those outside the storm"
-        ]
+        "description": {
+            "base": [
+                "After 2.5 seconds of channeling, conjure a lightning storm that takes up a third of the arena vertically or a half horizontally",
+                "Positions are random",
+                "Deals 300% Max HP Magic Damage and breaks players shields",
+                "Deals 25% Max HP Magic Damage to those outside the storm"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1946,9 +2270,11 @@
         ],
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On Auto-Attack, 20% chance to deal 1.5x Attack Damage"
-        ]
+        "description": {
+            "base": [
+                "On Auto-Attack, 20% chance to deal 1.5x Attack Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1956,12 +2282,14 @@
         "caster": "Ancient Ent",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "At 50% HP, plants its roots down into the ground, gaining 66.7% Damge reduction and spawn 2 Elder Ents",
-            "Lasts until one of the Elder Ents are down",
-            "Also increases orb spawn rate by 50%",
-            "Can reset if Ancient Ent reaches 100% HP"
-        ],
+        "description": {
+            "base": [
+                "At 50% HP, plants its roots down into the ground, gaining 66.7% Damge reduction and spawn 2 Elder Ents",
+                "Lasts until one of the Elder Ents are down",
+                "Also increases orb spawn rate by 50%",
+                "Can reset if Ancient Ent reaches 100% HP"
+            ]
+        },
         "summons": [
             "Elder Ent"
         ]
@@ -1974,9 +2302,11 @@
         "type": "active",
         "cooldown": "5",
         "cost": "100",
-        "description": [
-            "After 1.5 second of wind-up, the ground in front of Elder Ent spikes up, dealing 7500 Magic Damage and stunning all those in the path for 1 second"
-        ]
+        "description": {
+            "base": [
+                "After 1.5 second of wind-up, the ground in front of Elder Ent spikes up, dealing 7500 Magic Damage and stunning all those in the path for 1 second"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1986,10 +2316,12 @@
         "type": "active",
         "cooldown": "15",
         "cost": "100",
-        "description": [
-            "Creates a breakable shield that returns 33% of damage dealt as pure damage to the attacker",
-            "Lasts 5 seconds"
-        ]
+        "description": {
+            "base": [
+                "Creates a breakable shield that returns 33% of damage dealt as pure damage to the attacker",
+                "Lasts 5 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -1997,9 +2329,11 @@
         "caster": "Elder Ent",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Heals all allies by 10% per second when within 200 range"
-        ]
+        "description": {
+            "base": [
+                "Heals all allies by 10% per second when within 200 range"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2007,11 +2341,13 @@
         "caster": "Elder Ent",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "When reaching 66% and 33% HP, gain 100% Damage reduction and select a random target in the arena",
-            "Elder Ent will then jump into the air and follow that target for 3 seconds, then it locks onto that place to land on",
-            "Anyone in the impact zone is instantly killed"
-        ]
+        "description": {
+            "base": [
+                "When reaching 66% and 33% HP, gain 100% Damage reduction and select a random target in the arena",
+                "Elder Ent will then jump into the air and follow that target for 3 seconds, then it locks onto that place to land on",
+                "Anyone in the impact zone is instantly killed"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2020,11 +2356,13 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "18",
-        "description": [
-            "Target the nearest Player to throw 7 waves of light at",
-            "Each wave deal 2000 Magic Damage and stuns all those in the path for .5 seconds",
-            "Waves come once per second"
-        ]
+        "description": {
+            "base": [
+                "Target the nearest Player to throw 7 waves of light at",
+                "Each wave deal 2000 Magic Damage and stuns all those in the path for .5 seconds",
+                "Waves come once per second"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2033,12 +2371,14 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "20",
-        "description": [
-            "Create 7 circles of light around Samael in random locations",
-            "After .5 second of wind-up, circles will deal 6% max HP Magic Damage per .3 second and interrupt target for 2 seconds",
-            "On final tick, deal 31% Max HP Magic Damage",
-            "These circles will disappear when Samael uses Judgment or dies."
-        ]
+        "description": {
+            "base": [
+                "Create 7 circles of light around Samael in random locations",
+                "After .5 second of wind-up, circles will deal 6% max HP Magic Damage per .3 second and interrupt target for 2 seconds",
+                "On final tick, deal 31% Max HP Magic Damage",
+                "These circles will disappear when Samael uses Judgment or dies"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2047,12 +2387,14 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "24",
-        "description": [
-            "Summon 12-18 orbs of light, dpeending on the amount of players, that will float towards Samael",
-            "Samael will heal 15000 HP per orb",
-            "If blocked by another unit, deal 1500 Magic Damage and reduces Healing by 50% for 4 seconds",
-            "Explodes on contact"
-        ]
+        "description": {
+            "base": [
+                "Summon 12-18 orbs of light, dpeending on the amount of players, that will float towards Samael",
+                "Samael will heal 15000 HP per orb",
+                "If blocked by another unit, deal 1500 Magic Damage and reduces Healing by 50% for 4 seconds",
+                "Explodes on contact"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2061,11 +2403,13 @@
         "color": "8a2be2",
         "type": "trigger",
         "cooldown": "24",
-        "description": [
-            "Regenerate 1% HP per second and gain 25% Damage reduction",
-            "Can be broken",
-            "Cannot be cast above 85% max HP"
-        ]
+        "description": {
+            "base": [
+                "Regenerate 1% HP per second and gain 25% Damage reduction",
+                "Can be broken",
+                "Cannot be cast above 85% max HP"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2073,13 +2417,15 @@
         "caster": "Archangel Samael",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "When stunned or silenced, gain 10 mana per second",
-            "When full mana, become cc-immune and knockback all enemies for 5 seconds",
-            "Can still be stunned or silenced if spell is longer than 3 seconds",
-            "Breaks all player shields",
-            "Loses all mana when triggered"
-        ]
+        "description": {
+            "base": [
+                "When stunned or silenced, gain 10 mana per second",
+                "When full mana, become cc-immune and knockback all enemies for 5 seconds",
+                "Can still be stunned or silenced if spell is longer than 3 seconds",
+                "Breaks all player shields",
+                "Loses all mana when triggered"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2087,13 +2433,15 @@
         "caster": "Archangel Samael",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "After reaching 33% and 66% HP, summons a platform of light around Samael",
-            "Players within the light will die after 1 second of wind-up",
-            "There are 6 rotations per set, lasting about 18 seconds",
-            "Each person dying to the wheel heals Samael by 20% max HP if there are less than 5 players, otherwise 20%-12% max HP from 6 players to 10",
-            "These can reset if Samael reaches 90% HP and 50% HP respectively"
-        ]
+        "description": {
+            "base": [
+                "After reaching 33% and 66% HP, summons a platform of light around Samael",
+                "Players within the light will die after 1 second of wind-up",
+                "There are 6 rotations per set, lasting about 18 seconds",
+                "Each person dying to the wheel heals Samael by 20% max HP if there are less than 5 players, otherwise 20%-12% max HP from 6 players to 10",
+                "These can reset if Samael reaches 90% HP and 50% HP respectively"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2106,11 +2454,13 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "9",
-        "description": [
-            "Deals 30% Max HP Magic Damage to all those in path after .5 second of wind-up",
-            "Slows down enemies by 50%, and prevents direct healing for 7 seconds",
-            "Size of wave depends on monster size"
-        ]
+        "description": {
+            "base": [
+                "Deals 30% Max HP Magic Damage to all those in path after .5 second of wind-up",
+                "Slows down enemies by 50%, and prevents direct healing for 7 seconds",
+                "Size of wave depends on monster size"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2122,9 +2472,11 @@
         "color": "a3bccc",
         "type": "passive",
         "cooldown": "15",
-        "description": [
-            "On hit, creates a breakable shield that converts 1000% of damage taken to health for 3 seconds"
-        ]
+        "description": {
+            "base": [
+                "On hit, creates a breakable shield that converts 1000% of damage taken to health for 3 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2135,9 +2487,11 @@
         ],
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Allows Shadow Dragon and his Large Illusion to strike three enemies at once"
-        ]
+        "description": {
+            "base": [
+                "Allows Shadow Dragon and his Large Illusion to strike three enemies at once"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2149,13 +2503,15 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "15",
-        "description": [
-            "After .25 seconds of wind-up, deals 4500 damage to all enemies nearby",
-            "Ignites one random Player, dealing 1000 Magic Damage per second to all nearby enemies"
-        ]
+        "description": {
+            "base": [
+                "After .25 seconds of wind-up, deals 4500 damage to all enemies nearby",
+                "Ignites one random Player, dealing 1000 Magic Damage per second to all nearby enemies"
+            ]
+        }
     },
     {
-        "id": "",
+        "id": "xxxx",
         "name": "Reinforcement of Darkness",
         "caster": [
             "Illusion of Irbert (Large)",
@@ -2164,13 +2520,15 @@
         "color": "a3bccc",
         "type": "passive",
         "cooldown": "20",
-        "description": [
-            "Increases Damage Reduction by 10% at first permamently",
-            "Every follow up proc increases damage reduction by roughly 1+(.9/times procced)x current reduction up to 100%"
-        ]
+        "description": {
+            "base": [
+                "Increases Damage Reduction by 10% at first permamently",
+                "Every follow up proc increases damage reduction by roughly 1+(.9/times procced)x current reduction up to 100%"
+            ]
+        }
     },
     {
-        "id": "",
+        "id": "xxxx",
         "name": "Dark Detonation",
         "caster": [
             "Illusion of Irbert (Large)",
@@ -2178,13 +2536,15 @@
         ],
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "On death, sends a spirit of darkness to all enemies",
-            "After 5 seconds of channeling (timer resets on application), instantly kill all Players around target, if a dragon is near, heal that dragon by 50%"
-        ]
+        "description": {
+            "base": [
+                "On death, sends a spirit of darkness to all enemies",
+                "After 5 seconds of channeling (timer resets on application), instantly kill all Players around target, if a dragon is near, heal that dragon by 50%"
+            ]
+        }
     },
     {
-        "id": "",
+        "id": "xxxx",
         "name": "Bindings of Darkness",
         "caster": [
             "Illusion of Irbert (Large)",
@@ -2192,9 +2552,11 @@
         ],
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Whenever three Illusions and one Large Illusion are together, they will gain 100% Damage Reduction and 250% Attack Speed"
-        ]
+        "description": {
+            "base": [
+                "Whenever three Illusions and one Large Illusion are together, they will gain 100% Damage Reduction and 250% Attack Speed"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2202,12 +2564,14 @@
         "caster": "Shadow Dragon Irbert",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "Upon reaching 50%, regain full HP and summon 3 Illusions of Irbert and 1 Large Illusion of Irbert that appear on either side of Shadow Dragon",
-            "However, Shadow Dragon becomes invulnerable and paused until the minions are dead",
-            "Shadow Dragon also creates an aura that deals 1.5% Max HP Magic Damage per second that lasts the rest of the fight",
-            "Shadow Aura deals 50% more damage every 500 range away from him up to 2000 range"
-        ],
+        "description": {
+            "base": [
+                "Upon reaching 50%, regain full HP and summon 3 Illusions of Irbert and 1 Large Illusion of Irbert that appear on either side of Shadow Dragon",
+                "However, Shadow Dragon becomes invulnerable and paused until the minions are dead",
+                "Shadow Dragon also creates an aura that deals 1.5% Max HP Magic Damage per second that lasts the rest of the fight",
+                "Shadow Aura deals 50% more damage every 500 range away from him up to 2000 range"
+            ]
+        },
         "summons": [
             "Illusion of Irbert (Large)",
             "Illusion of Irbert"
@@ -2220,10 +2584,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "7",
-        "description": [
-            "Creates a purple circle at a random target that silences anyone who's in the circle after 2 seconds it was created",
-            "Deals 25% max HP Magic Damage and silences all in the circle for 4 seconds"
-        ]
+        "description": {
+            "base": [
+                "Creates a purple circle at a random target that silences anyone who's in the circle after 2 seconds it was created",
+                "Deals 25% max HP Magic Damage and silences all in the circle for 4 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2232,12 +2598,14 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "12",
-        "description": [
-            "Selects a target, if that target is alone, it will die instantly",
-            "If there is a second enemy nearby, link the target and that enemy",
-            "While this link is up, reduce damage by 50%",
-            "Can be broken if the distance between enemy links is at least 1200 range"
-        ]
+        "description": {
+            "base": [
+                "Selects a target, if that target is alone, it will die instantly",
+                "If there is a second enemy nearby, link the target and that enemy",
+                "While this link is up, reduce damage by 50%",
+                "Can be broken if the distance between enemy links is at least 1200 range"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2246,53 +2614,60 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "35",
-        "description": [
-            "Selects a random target and charges up a blast for 1.75 seconds",
-            "Any enemy in the circle after the ball of darkness is launched is instantly killed"
-        ]
+        "description": {
+            "base": [
+                "Selects a random target and charges up a blast for 1.75 seconds",
+                "Any enemy in the circle after the ball of darkness is launched is instantly killed"
+            ]
+        }
     },
     {
         "id": "xxxx",
         "name": "Mark of Death",
         "caster": [
-            "Death Fiend",
             "Death Devourer",
             "Death Weaver",
             "Mark of Death"
         ],
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "Grants user special effects from Death Fiend bosses",
-            "Death Fiend's Mark grants the user immunity to Howl of Death and cannot be targeted by Crawling Death",
-            "Death Huntresses' Mark prioritizes that target for Domination Arrow",
-            "Death Weaver's Mark prioritizes that target to be insta-killed by Deadly Dance and teleportation",
-            "Death Devourer's mark prioritizes that target to be focused during Hungering Charge"
-        ]
+        "description": {
+            "base": [
+                "Grants user special effects from Death Fiend minions",
+                "Death Huntresses' Mark prioritizes that target for Domination Arrow",
+                "Death Weaver's Mark prioritizes that target for Teleportation",
+                "Death Devourer's mark prioritizes that target to be focused during Hungering Charge"
+            ],
+            "hard": [
+                "Grants user special effects from Death Fiend minions",
+                "Death Huntresses' Mark prioritizes that target for Domination Arrow",
+                "Death Weaver's Mark prioritizes that target for Teleportation and will instantly kill marked with Deadly Dance",
+                "Death Devourer's mark prioritizes that target to be focused during Hungering Charge"
+            ]
+        }
     },
     {
         "id": "xxxx",
-        "name": "Grasp of the Fiend",
-        "caster": "Death Fiend",
-        "color": "f89c34",
-        "type": "passive",
-        "description": [
-            "On auto attack, decreases armor of target by 100"
-        ]
-    },
-    {
-        "id": "xxxx",
-        "name": "Crawling Death",
+        "name": "Creeping Death",
         "caster": "Death Fiend",
         "color": "f89c34",
         "type": "active",
         "cooldown": "20",
-        "description": [
-            "Create two death coils that spiral around the target",
-            "On contact with any Player, applies debuff that lasts 5 seconds",
-            "When debuff is stacked twice, instantly kill person",
-            "On contact, deals 11250 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "Create two death coils that spiral around the target",
+                "On contact with any Player, applies debuff to those in area that lasts 5 seconds",
+                "When debuff is stacked twice, instantly kill person",
+                "On contact, deals 6000 Magic Damage"
+            ],
+            "hard": [
+                "Create two death coils that spiral around the target",
+                "On contact with any Player, applies debuff to those in area that lasts 5 seconds",
+                "Faster in Hard Mode",
+                "When debuff is stacked twice, instantly kill person",
+                "On contact, deals 11000 Magic Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2301,21 +2676,39 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "30",
-        "description": [
-            "Afer 2 seconds of casting, apply 'Impeding Doom' to all enemies within 1200 range",
-            "After 3 seconds, deal 99999 Magic Damage and instantly kill target, if target survives, stun for 2 seconds"
-        ]
+        "description": {
+            "base": [
+                "Afer 2 seconds of casting, apply 'Impeding Doom' to 2 enemies that have attacked Death Fiend for 5 seconds",
+                "It deals 3000 magic damage every second until the debuff is over"
+            ],
+            "hard": [
+                "Afer 1 second of casting, apply 'Impeding Doom' to 2 enemies that have attacked Death Fiend for 5 seconds",
+                "It deals 3000 magic damage every second until the debuff is over",
+                "If not cleansed, will instantly kill those affected when timer is over"
+            ]
+        }
     },
     {
         "id": "xxxx",
-        "name": "Deathly Cleave",
+        "name": "Strike of Death",
         "caster": "Death Fiend",
         "color": "a3bccc",
-        "type": "passive",
-        "description": [
-            "On Auto-Attack, create an orb of death that flies around Death Fiend",
-            "On 7th attack, destroy all orbs and deals 100% Max HP Phyiscal Damage that reaches 1000 range in a 150 degree arc in front of Death Fiend"
-        ]
+        "type": "active",
+        "cooldown": "0",
+        "cost": "100",
+        "description": {
+            "base": [
+                "On Auto-Attack, create an orb of death that flies around Death Fiend",
+                "On 7th attack and a 4 second wind up, destroy all orbs and deals 10000 Magic Damage that reaches 1000 range in a 150 degree arc in front of Death Fiend",
+                "Stuns players for 3 seconds if they're in the attack"
+            ],
+            "hard": [
+                "On Auto-Attack, create an orb of death that flies around Death Fiend",
+                "On 7th attack and a 4 second wind up, destroy all orbs and deals 25000 Magic Damage that reaches 1000 range in a 150 degree arc in front of Death Fiend",
+                "Stuns players for 3 seconds if they're in the attack",
+                "Afterward, creates 3 pools of dark energy in front of Death Fiend that deals 2500 Magic Damage per .5 second that last for 18 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2323,12 +2716,14 @@
         "caster": "Death Fiend",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "At 80% and 60% HP, gain 90% Damage Reduction for 10 seconds",
-            "Summons one of three minions randomly at two set locations",
-            "Same minion cannot be summoned twice",
-            "Does not trigger if Determination of Death is triggered"
-        ]
+        "description": {
+            "base": [
+                "At 80% and 60% HP, gain 90% Damage Reduction for 10 seconds",
+                "Summons one of three minions randomly at two set locations",
+                "Same minion cannot be summoned twice",
+                "Does not trigger if Determination of Death is triggered"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2336,11 +2731,13 @@
         "caster": "Death Fiend",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "At 20% HP, deal 200% max hp Magic Damage to everyone in the arena and heals back to full",
-            "Increases attack speed by 60%",
-            "Disables Unholy Summoning"
-        ]
+        "description": {
+            "base": [
+                "At 20% HP, deal 200% max hp Magic Damage to everyone in the arena and heals back to full",
+                "Increases attack speed by 60%, becomes immune to CC effects",
+                "Disables Unholy Summoning"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2348,11 +2745,13 @@
         "caster": "Death Fiend",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "If no one near Death Fiend (800 range), teleport to nearest Player and winds-up an axe swipe",
-            "If Player is hit, instantly kill him",
-            "If Player dodges, mark it with Mark of Death"
-        ]
+        "description": {
+            "base": [
+                "If no one near Death Fiend (800 range), teleport to nearest Player and winds-up an axe swipe",
+                "If Player is hit, instantly kill him",
+                "Can be dodged"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2365,11 +2764,13 @@
         ],
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "When one of Death Fiend's minions or Death Fiend himself dies, give 4 second countdown",
-            "After 4 seconds, gain 100% Damage Reduction forever",
-            "This is a fail condition"
-        ]
+        "description": {
+            "base": [
+                "When one of Death Fiend's minions or Death Fiend himself dies, give 4 second countdown",
+                "After 4 seconds, gain 100% Damage Reduction forever",
+                "This is a fail condition"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2381,9 +2782,11 @@
         ],
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Whenever this caster is near another user with this spell (800 range), gain 100% Damage Reduction"
-        ]
+        "description": {
+            "base": [
+                "Whenever this caster is near another user with this spell (800 range), gain 100% Damage Reduction"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2392,11 +2795,13 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "6",
-        "description": [
-            "Targets a random Player to track with a purple beam within the arena with unlimited range",
-            "Deals 10000 pure damage, breaks all shields, and applies a debuff that lasts 30 seconds and slows down target movement speed by 30%",
-            "If the target with the debuff is hit twice, they will instantly be killed"
-        ]
+        "description": {
+            "base": [
+               "Targets a random Player to track with a purple beam within the arena with unlimited range",
+                "Deals 40% max HP + 4500 pure damage, breaks all shields, and applies a debuff that lasts 30 seconds and slows down target movement speed by 30%",
+                "If the target with the debuff is hit twice, they will be instantly killed"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2404,13 +2809,15 @@
         "caster": "Death Huntress",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Every 3 attacks, weaken's the target soul by reducing healing taken by 5%, stacks until 100%",
-            "Creates a small vortex at location that will pull the Player",
-            "Vortexes can grow three times, after that it will grow no more",
-            "During the last 4 seconds, the vortex will grow more and more red until it explodes, instantly killing everyone being pulled",
-            "Vortexes last for 30 seconds, the timer resets when they grow"
-        ]
+        "description": {
+            "base": [
+                "Every 3 attacks, weaken's the target soul by reducing healing taken by 5%, stacks until 100%",
+                "Creates a small vortex at location that will pull the Player",
+                "Vortexes can grow three times, after that it will grow no more",
+                "During the last 4 seconds, the vortex will grow more and more red until it explodes, instantly killing everyone being pulled",
+                "Vortexes last for 30 seconds, the timer resets when they grow"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2419,11 +2826,13 @@
         "color": "8a2be2",
         "type": "active",
         "cooldown": "6",
-        "description": [
-            "Every time Death Huntress reaches full mana, she will fire an arrow into the sky, marking one place",
-            "Every fourth arrow, these marks will ignite, dealing 999k damage and insantly killing everyone in range of the mark (200 range)",
-            "Each explosion spawns 4 Death Hounds"
-        ],
+        "description": {
+            "base": [
+                "Every time Death Huntress reaches full mana, she will fire an arrow into the sky, marking one place",
+                "Every fourth arrow, these marks will ignite, dealing 999k damage and insantly killing everyone in range of the mark (200 range)",
+                "Each explosion spawns 4 Death Hounds"
+            ]
+        },
         "summons": [
             "Death Hound"
         ]
@@ -2435,10 +2844,16 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "15",
-        "description": [
-            "Drags target in front of you, after .5 seconds of windup, swipes 13 times in 3 seconds",
-            "Each swipe does 3600 Magic Damage and interrupts everyone in the swipe"
-        ]
+        "description": {
+            "base": [
+                "Drags target in front of you, after 1 second of windup, swipes 13 times in 3 seconds",
+                "Each swipe does 1800 Magic Damage and interrupts everyone in the swipe"
+            ],
+            "hard": [
+                "Drags target in front of you, after .5 seconds of windup, swipes 13 times in 3 seconds",
+                "Each swipe does 1800 Magic Damage and interrupts everyone in the swipe"
+            ]
+        } 
     },
     {
         "id": "xxxx",
@@ -2447,11 +2862,16 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "30",
-        "description": [
-            "After 1 second of wind-up, sends 8 waves around caster",
-            "Each wave does 12000 Magic Damage and slows Player's movement speed by 50% for 5 seconds",
-            "Instantly kills target with Weaver's mark"
-        ]
+        "description": {
+            "base": [
+                "After 1 second of wind-up, sends 8 waves around caster",
+                "Each wave does 7500 Magic Damage and slows Player's movement speed by 50% for 5 seconds"
+            ],
+            "hard": [
+                "After .5 seconds of wind-up, sends 8 waves around caster",
+                "Each wave does 7500 Magic Damage and slows Player's movement speed by 50% for 5 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2459,10 +2879,13 @@
         "caster": "Death Weaver",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "When reaching max mana, choose a random target to teleport to",
-            "Stun that Player for 3 seconds and automatically start casting either Sword Blows or Deadly Dance"
-        ]
+        "description": {
+            "base": [
+                "When reaching max mana, choose a random target to teleport to and mark them with a skull above them",
+                "After 3 seconds, stun target (cc effect) for 3 seconds and automatically start casting either Sword Blows or Deadly Dance",
+                "Will teleport back to its original position afterward"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2470,11 +2893,13 @@
         "caster": "Death Devourer",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Creates orbs around the arena that travel toward Death Devourer",
-            "On contact with enemy, deals 15% max HP Magic Damage",
-            "Each orb heals Death Devourer by 10%"
-        ]
+        "description": {
+            "base": [
+                "Creates orbs around the arena that travel toward Death Devourer",
+                "On contact with enemy, deals 15% max HP Magic Damage",
+                "Each orb heals Death Devourer by 10%"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2482,10 +2907,13 @@
         "caster": "Death Devourer",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Every enemy in 400 range of Death Devourer decreases their regen by 1.25% max HP every .3 seconds",
-            "Removed immediately after going out of 400 range"
-        ]
+        "description": {
+            "base": [
+                "Every enemy in the marked circle around Death Devourer will have their regen decrease by 5% max HP every second",
+                "Will also take .24*(x%/10)% Max HP Magic Damage every tick",
+                "Removed immediately after going out of the circle"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2494,9 +2922,11 @@
         "color": "8a2be2",
         "type": "trigger",
         "cooldown": "15",
-        "description": [
-            "After 3 seconds of interruptable wind-up, silences all enemies in arena"
-        ]
+        "description": {
+            "base": [
+                "After 3 seconds of interruptable wind-up, silences all enemies in arena"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2504,11 +2934,22 @@
         "caster": "Death Devourer",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "At full mana, choose a random target in arena to chase for 10 seconds",
-            "Will instantly kill all those in path and run downs tree",
-            "If Devourer hits the border, it gets stunned for 3 seconds"
-        ]
+        "description": {
+            "base": [
+                "At full mana, choose a random target in arena to chase for 10 seconds",
+                "Will deal 90% Magic Damage to those in its path and run down trees",
+                "Once Death Devourer reaches its target it will instantly kill it",
+                "Once finished, Death Devourer will teleport back to its starting position",
+                "If Devourer hits the border, it stops but continues afterwards"
+            ],
+            "hard": [
+                "At full mana, choose a random target in arena to chase for 10 seconds",
+                "Will instantly kill all those in its path and run down trees",
+                "Once Death Devourer reaches its target it will instantly kill it",
+                "Once finished, Death Devourer will teleport back to its starting position",
+                "If Devourer hits the border, it stops but continues afterwards"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2516,24 +2957,38 @@
         "caster": "Element of Chaos",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "On hit, apply a debuff that decreases the target's visibility",
-            "After 20 hits, instantly kill target",
-            "Lasts for 5 seconds, reapplies every application",
-            "Can be cleansed"
-        ]
+        "description": {
+            "base": [
+                "On hit, apply a debuff that decreases the target's visibility",
+                "After 20 hits, instantly kill target",
+                "Lasts for 5 seconds, reapplies every application",
+                "Can be cleansed"
+            ]
+        }
     },
     {
         "id": "xxxx",
-        "name": "Magnetic Attraction",
+        "name": "Magnetic Curse",
         "caster": "Valtora",
         "color": "f89c34",
-        "type": "trigger",
-        "description": [
-            "The first person that attacks Valtora will attract all other Players",
-            "Players blocked by debris will be stunned",
-            "When one Player is near the magnet, no one gets attracted, but the other Player is chained to the Player with the magnet mechanic"
-        ]
+        "type": "active",
+        "cooldown": "20",
+        "description": {
+            "base": [
+                "Targets a random player and after 2 seconds, links them to the furthest target for 5 seconds",
+                "When these two players are far apart for 3 seconds, they will be pulled together (CC Effect), dealing 25% max HP magic damage to everyone at the collision point and stuns for 3 seconds",
+                "Once the players are near each other the timer will go down",
+                "Once the timer reaches zero, they will be released",
+                "If there are no players near Valtora, he will link the player to himself for 12 seconds, dealing (250 + 250*elapsed time) Pure Damage in melee range"
+            ],
+            "hard": [
+                "Targets a random player and after 2 seconds, links them to the furthest target for 10 seconds",
+                "When these two players are far apart for 3 seconds, they will be pulled together (CC Effect), dealing 50% max HP magic damage to everyone at the collision point and stuns for 3 seconds",
+                "Once the players are near each other the timer will go down",
+                "Once the timer reaches zero, they will be released",
+                "If there are no players near Valtora, he will link the player to himself for 12 seconds, dealing (250 + 250*elapsed time) Pure Damage in melee range"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2542,13 +2997,22 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "12",
-        "description": [
-            "Throws a hammer at the farthest target in 1500 range",
-            "Does 25% max hp Magic Damage and applies Nasty Shock",
-            "After Rage of the Thunder God, hammers apply a lightning pool",
-            "This pool applies nasty shock and deals 5% max Magic Damage per .5 seconds",
-            "If Valtora is in the lightning pool, he heas 10% HP per second"
-        ]
+        "description": {
+            "base": [
+                "After calling out a random player in 1500 range, Valtora will wait 2 seconds before throwing a hammer",
+                "Does 25% max hp + 2500 Magic Damage and applies Nasty Shock for 5 seconds",
+                "After Rage of the Thunder God, hammers apply a lightning pool",
+                "This pool applies nasty shock for 1 second",
+                "If Valtora is in the lightning pool, he heas 10% HP per second"
+            ],
+            "hard": [
+                "After calling out a random player in 1500 range, Valtora will wait 2 seconds before throwing a hammer",
+                "Does 25% Max Hp + 2500 Magic Damage and applies Nasty Shock for 5 seconds",
+                "Hammers apply a lightning pool regardless of phase",
+                "This pool applies nasty shock for 1 second",
+                "If Valtora is in the lightning pool, he heas 10% HP per second"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2557,10 +3021,17 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "40",
-        "description": [
-            "Summons two Servants of Lightning God",
-            "Cannot be cast if above 85% HP"
-        ]
+        "description": {
+            "base": [
+                "Summons two Servants of Lightning God",
+                "Cannot be cast if above 85% HP"
+            ],
+            "hard": [
+                "Summons two Servants of Lightning God",
+                "Cannot be cast if above 85% HP",
+                "Each Servant alive gives Valtora 8% Damage Reduction"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2569,13 +3040,15 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "45",
-        "description": [
-            "Summons a red line that sweeps vertically or horizontally across the arena",
-            "Anyone in its path will instantly be killed and be dealt 1500 pure damage",
-            "Breaks through kill immunity and invulnerablity",
-            "Can be dodged with height",
-            "Cannot be cast before 50% HP is reached"
-        ]
+        "description": {
+            "base": [
+                "Summons a red line that sweeps vertically or horizontally across the arena",
+                "Anyone in its path will instantly be killed and be dealt 1500 pure damage",
+                "Breaks through kill immunity and invulnerablity",
+                "Can be dodged with height",
+                "Cannot be cast before 50% HP is reached"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2583,12 +3056,20 @@
         "caster": "Valtora",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Create four tornados that travel around four quadrants around Valtora",
-            "Once these tornados are on an enemy, applies 'Windy' debuff",
-            "Windy silences enemies and deals 1.25% max hp pure damage per .25 seconds",
-            "Tornados also increase height of enemies by 400, allowing them to dodge Wrath of Heaven"
-        ]
+        "description": {
+            "base": [
+                "Create four tornados that travel around four quadrants around Valtora",
+                "Once these tornados are on an enemy, applies 'Windy' debuff",
+                "Windy deals 6% Max HP Pure Damage per second",
+                "Tornados also increase height of enemies by 400, allowing them to dodge Wrath of Heaven"
+            ],
+            "hard": [
+                "Create four tornados that travel around four quadrants around Valtora",
+                "Once these tornados are on an enemy, applies 'Windy' debuff",
+                "Windy deals 10% Max HP Pure Damage per second",
+                "Tornados also increase height of enemies by 400, allowing them to dodge Wrath of Heaven"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2596,10 +3077,16 @@
         "caster": "Valtora",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Sparks the atmosphere with electrically charged orbs",
-            "When orbs hit the enemy, deal 25% max hp Magic Damage and applies Nasty Shock"
-        ]
+        "description": {
+            "base": [
+                "Sparks the atmosphere with electrically charged orbs",
+                "When orbs hit the player, deal 20% max hp Magic Damage and applies Nasty Shock for 3 seconds"
+            ],
+            "hard": [
+                "Sparks the atmosphere with electrically charged orbs",
+                "When orbs hit the player, deal 25% max hp Magic Damage and applies Nasty Shock"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2607,10 +3094,16 @@
         "caster": "Valtora",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Deals 25% max hp Magic Damage to nearby allies three times",
-            "Orbs also reduce healing by 100% and reduce damage done by target by 40% for 4 seconds"
-        ]
+        "description": {
+            "base": [
+                "Deals 750 Magic Damage to player every second",
+                "Orbs also reduce healing by 75% and reduce damage done by target by 40%"
+            ],
+            "hard": [
+                "Deals 750 Magic Damage to player and 1500 Magic Damage to nearby allies every second",
+                "Reduces healing by 100% and reduces damage done by target by 40%"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2618,11 +3111,13 @@
         "caster": "Valtora",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "Becomes unselectable and flies up into the air, casts three Wrath of Heavens and then flies back down",
-            "Lasts for 30 seconds",
-            "Gain 30% Damage Reduction"
-        ]
+        "description": {
+            "base": [
+                "Becomes unselectable and flies up into the air, casts three Wrath of Heavens and then flies back down",
+                "Lasts for 30 seconds",
+                "Gain 30% Damage Reduction"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2630,10 +3125,17 @@
         "caster": "Servant of Lightning God",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Breakable shield that deals 750 Magic Damage per second to nearby enemies and grants 50% magic defense",
-            "Makes Auto-Attacks interrupt target"
-        ]
+        "description": {
+            "base": [
+                "Breakable shield that deals 500 Magic Damage per second to nearby enemies and grants 50% magic defense",
+                "Makes Auto-Attacks interrupt target",
+                "Disappears after 15 seconds"
+            ],
+            "hard": [
+                "Breakable shield that deals 750 Magic Damage per second to nearby enemies and grants 50% magic defense",
+                "Makes Auto-Attacks interrupt target"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2641,11 +3143,18 @@
         "caster": "Servant of Lightning God",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Deals 5.5% max HP Magic Damage to enemy",
-            "Bounces to nearby enemies 10 times",
-            "Does not lose damage on bounce"
-        ]
+        "description": {
+            "base": [
+                "Deals 2.5% max HP Magic Damage to enemy",
+                "Bounces to nearby enemies 10 times",
+                "Does not lose damage on bounce"
+            ],
+            "hard": [
+                "Deals 5% max HP Magic Damage to enemy",
+                "Bounces to nearby enemies 10 times",
+                "Does not lose damage on bounce"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2653,10 +3162,12 @@
         "caster": "Ifrit",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Every strike deals 100% AoE damage and spawns 2 magmas around Ifrit",
-            "Magmas crawl toward Ifrit and on contact, heal him .5% HP"
-        ]
+        "description": {
+            "base": [
+                "Every strike deals 100% AoE damage and spawns 2 magmas around Ifrit",
+                "Magmas crawl toward Ifrit and on contact, heal him .5% HP"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2667,11 +3178,13 @@
         ],
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Random chance to proc an attack speed buff",
-            "Once proc, increase attack speed by 10% every hit until attack speed is 2/sec",
-            "Lasts for 5 seconds if not reapplied"
-        ]
+        "description": {
+            "base": [
+                "Random chance to proc an attack speed buff",
+                "Once proc, increase attack speed by 10% every hit until attack speed is 2/sec",
+                "Lasts for 5 seconds if not reapplied"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2680,12 +3193,20 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "15",
-        "description": [
-            "Selects a target to explode with a 10 second countdown",
-            "On explosion, deal 50% max hp Magic Damage to all enemies",
-            "Can be cleansed",
-            "After 50% HP, apply this to two targets"
-        ]
+        "description": {
+            "base": [
+                "Selects a target to explode with a 10 second countdown",
+                "On explosion, deal 50% max hp Magic Damage to all players WITHIN 750 range",
+                "Can be cleansed",
+                "After 50% HP, apply this to two targets"
+            ],
+            "hard": [
+                "Selects a target to explode with a 10 second countdown",
+                "On explosion, deal 50% max hp Magic Damage to ALL players",
+                "Can be cleansed",
+                "After 50% HP, apply this to two targets"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2693,10 +3214,16 @@
         "caster": "Ifrit",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "When applied, reduces magic resistance by 100%",
-            "Lasts for 3 seconds"
-        ]
+        "description": {
+            "base": [
+                "When applied, reduces magic resistance by 75%",
+                "Lasts for 3 seconds"
+            ],
+            "hard": [
+                "When applied, reduces magic resistance by 100%",
+                "Lasts for 3 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2705,28 +3232,45 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "5",
-        "description": [
-            "Sends down Meteors at random places around Ifrit",
-            "On Impact they'll deal 250% max HP Magic Damage and stun for 3 seconds",
-            "The waves will deal 7500 Magic Damage",
-            "After the impact, create a lava pool that lasts 10 seconds",
-            "Lava pools deal 2% max HP + 3000 Magic Damage per second"
-        ]
+        "description": {
+            "base": [
+                "Sends down Meteors at random places around Ifrit",
+                "On Impact they'll deal 15000 Magic Damage and stun for 3 seconds",
+                "The waves will deal 6000 Magic Damage",
+                "After the impact, create a lava pool that lasts 10 seconds",
+                "Lava pools deal 10% max HP Magic Damage per second"
+            ],
+            "hard": [
+                "Sends down Meteors at random places around Ifrit",
+                "On Impact they'll deal 30000 Magic Damage and stun for 3 seconds",
+                "The waves will deal 7500 Magic Damage",
+                "After the impact, create a lava pool that lasts 10 seconds",
+                "Lava pools deal 15% max HP Magic Damage per second"
+            ]
+        }
     },
     {
-        "id": "",
+        "id": "xxxx",
         "name": "Hot Pursuit",
         "caster": "Ifrit",
         "color": "f89c34",
         "type": "active",
         "cooldown": "0",
         "cost": "100",
-        "description": [
-            "Selects a random target to chase, after waiting 3 seconds, start moving toward that target",
-            "Kills all units on the floor in its path",
-            "If collide with debris, stop",
-            "Sends 2 lava pool waves behind self at a 'V' angle that deal 10000 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "Selects a random target to chase, after waiting 3 seconds, start moving toward that target",
+                "Kills all units on the floor in its path",
+                "If collide with debris, stop",
+                "Sends 2 lava pool waves behind self at a 'V' angle that deal 10000 Magic Damage"
+            ],
+            "hard": [
+                "Selects a random target to chase, after waiting 1 second, start moving toward that target",
+                "Kills all units on the floor in its path",
+                "If collide with debris, stop",
+                "Sends 2 lava pool waves behind self at a 'V' angle that deal 10000 Magic Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2734,13 +3278,15 @@
         "caster": "Ifrit",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "At 75% and 25% HP, become invulnerable and spawn 2 Obsidian Golems to the side",
-            "Meteors will fall every 5 seconds",
-            "Create 5 lines that will move in either direction that will deal a ton of Magic Damage per second and stun anyone it its path",
-            "Lasts 30 seconds and cannot be triggered again",
-            "Spawns 2 Lava Spirits to the sides on the second wheel"
-        ]
+        "description": {
+            "base": [
+                "At 75% and 25% HP, become invulnerable and spawn 2 Obsidian Golems to the side",
+                "Meteors will fall every 5 seconds",
+                "Create 5 lines that will move in either direction that will deal a ton of Magic Damage per second and stun anyone it its path",
+                "Lasts 30 seconds and cannot be triggered again",
+                "Spawns 2 Lava Spirits to the sides on the second wheel"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2748,12 +3294,14 @@
         "caster": "Obsidian Golem",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Grants 10% damage reduction and 100 armor per stack",
-            "Can have up to 10 stacks",
-            "Can be broken by either meteors (30%) or break effects",
-            "Full list is in Ifrit Guide"
-        ]
+        "description": {
+            "base": [
+                "Grants 10% damage reduction and 100 armor per stack",
+                "Can have up to 10 stacks, depending on players: (5 + 1 X (player count / 2))",
+                "Can be broken by either meteors (30%) or break effects",
+                "Full list is in Ifrit Guide"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2762,25 +3310,29 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "8",
-        "description": [
-            "After 1 second of wind-up, smacks the target away 300 range and stuns them for 2 second",
-            "Deals 7500 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "After 1 second of wind-up, smacks the target away 300 range and stuns them for 2 second",
+                "Deals 7500 Magic Damage"
+            ]
+        }
     },
     {
-        "id": "",
+        "id": "xxxx",
         "name": "Hot Pursuit",
         "caster": "Obsidian Golem",
         "color": "f89c34",
         "type": "active",
         "cooldown": "0",
         "cost": "100",
-        "description": [
-            "Selects a random target to chase, after waiting 3 seconds, start moving toward that target",
-            "Kills all units on the floor in its path",
-            "If collide with debris, stop",
-            "Breaks 30% armor of Obsidian Armor"
-        ]
+        "description": {
+            "base": [
+                "Selects a random target to chase, after waiting 3 seconds, start moving toward that target",
+                "Kills all units on the floor in its path",
+                "If collide with debris, stop",
+                "Breaks 30% armor of Obsidian Armor"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2790,10 +3342,16 @@
         "type": "active",
         "cooldown": "0",
         "cost": "100",
-        "description": [
-            "Fires 13 bullets at a target in 3 seconds",
-            "Each bullet deals 600 Magic Damage and interrupts target"
-        ]
+        "description": {
+            "base": [
+                "Fires a bullet every .375 seconds for 3 seconds",
+                "Each bullet deals 600 Magic Damage and interrupts target"
+            ],
+            "hard": [
+                "Fires a bullet every .25 seconds for 3 seconds",
+                "Each bullet deals 600 Magic Damage and interrupts target"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2801,11 +3359,13 @@
         "caster": "Nereid",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "Applies when Nereid enters combat",
-            "Grants 50% magic defense and cc immunity",
-            "Lasts 5 seconds"
-        ]
+        "description": {
+            "base": [
+                "Applies when Nereid enters combat",
+                "Grants 50% magic defense and cc immunity",
+                "Lasts 5 seconds"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2814,10 +3374,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "9",
-        "description": [
-            "Fires three bullets that deal 7500 Magic Damage each",
-            "Applies bubble to those affected"
-        ]
+        "description": {
+            "base": [
+                "Fires three bullets that deal 7500 Magic Damage each",
+                "Applies bubble to those affected"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2825,10 +3387,12 @@
         "caster": "Nereid",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "Teleports to a random area in the arena and pulses 4 times",
-            "Each pulse knocks Players back 400 range"
-        ]
+        "description": {
+            "base": [
+                "Teleports to a random area in the arena and pulses 4 times",
+                "Each pulse knocks Players back 400 range"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2836,10 +3400,12 @@
         "caster": "Nereid",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "Fires 6 blasts at each person that deal 20% max hp Magic Damage in a 300 range AoE",
-            "They can stack"
-        ]
+        "description": {
+            "base": [
+                "Fires 6 blasts at each person that deal 20% max hp Magic Damage in a 300 range AoE",
+                "They can stack"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2848,11 +3414,13 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "9",
-        "description": [
-            "Creates a small impact zone where 2, 3 or 5 orbs will converge",
-            "One these orbs converge, they send a line of water toward where they came",
-            "Each line deals 9000 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "Creates a small impact zone where 2, 3 or 5 orbs will converge",
+                "One these orbs converge, they send a line of water toward where they came",
+                "Each line deals 9000 Magic Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2861,10 +3429,12 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "9",
-        "description": [
-            "Chooses 2 random targets to drown",
-            "Once 5 seconds have passed, they will be encased in a bubble"
-        ]
+        "description": {
+            "base": [
+                "Chooses 2 random targets to drown",
+                "Once 5 seconds have passed, they will be encased in a bubble"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2873,9 +3443,11 @@
         "color": "f89c34",
         "type": "active",
         "cooldown": "30",
-        "description": [
-            "Sprays 10 bubbles in an arc in front of Nereid"
-        ]
+        "description": {
+            "base": [
+                "Sprays 10 bubbles in an arc in front of Nereid"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2883,12 +3455,13 @@
         "caster": "Nereid",
         "color": "a3bccc",
         "type": "passive",
-        "cooldown": "",
-        "description": [
-            "Creates a build-up of water underneath a random target or Nereid himself",
-            "After 3 seconds of channel, releases the pressure and knocks everyone that weighs less than Nereid upward",
-            "Deals 45000 Magic Damage"
-        ]
+        "description": {
+            "base": [
+                "Creates a build-up of water underneath a random target or Nereid himself",
+                "After 3 seconds of channel, releases the pressure and knocks everyone that weighs less than Nereid upward",
+                "Deals 45000 Magic Damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2896,9 +3469,11 @@
         "caster": "Nereid",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Deals an extra 4000 AoE Magic Damage on auto attack"
-        ]
+        "description": {
+            "base": [
+                "Deals an extra 4000 AoE Magic Damage on auto attack"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2907,16 +3482,18 @@
         "color": "8a2be2",
         "type": "trigger",
         "cooldown": "120",
-        "description": [
-            "At 66% and 33% HP, Nereid creates a bubble around Nereid that consists of 40% of his HP",
-            "Also deals 10% max hp Magic Damage to everyone in the arena",
-            "Begins to cast Water barrage all over the arena",
-            "Creates waves that last the rest of the fight",
-            "These waves can push people off the arena",
-            "Cannot do anything else when this is up",
-            "Lasts until the shield is over",
-            "Cannot be triggered before 1st shield"
-        ]
+        "description": {
+            "base": [
+                "At 66% and 33% HP, Nereid creates a bubble around Nereid that consists of 40% of his HP",
+                "Also deals 10% max hp Magic Damage to everyone in the arena",
+                "Begins to cast Water barrage all over the arena",
+                "Creates waves that last the rest of the fight",
+                "These waves can push people off the arena",
+                "Cannot do anything else when this is up",
+                "Lasts until the shield is over",
+                "Cannot be triggered before 1st shield"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2924,12 +3501,14 @@
         "caster": "Nereid",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "After reaching 33% HP, knocks back all Players and begins aborbing water orbs",
-            "Water orbs slow down Players by 50%",
-            "After absorption, launch a wave at that general direction, instantly killing all in the path",
-            "Can only be triggered once"
-        ]
+        "description": {
+            "base": [
+                "After reaching 33% HP, knocks back all Players and begins aborbing water orbs",
+                "Water orbs slow down Players by 50%",
+                "After absorption, launch a wave at that general direction, instantly killing all in the path",
+                "Can only be triggered once"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2939,9 +3518,11 @@
         "type": "trigger",
         "cooldown": "0",
         "cost": "100",
-        "description": [
-            "Focuses a healing wave toward Nereid that heals .5% HP/sec"
-        ]
+        "description": {
+            "base": [
+                "Focuses a healing wave toward Nereid that heals .5% HP/sec"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2949,11 +3530,13 @@
         "caster": "Large Wavecaller",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "Focuses down a target with a water hose that pushes all enemies",
-            "Deals 2% max hp Magic Damage per second to those at the impact zone",
-            "Deals 20% max hp to bubbles"
-        ]
+        "description": {
+            "base": [
+                "Focuses down a target with a water hose that pushes all enemies",
+                "Deals 2% max hp Magic Damage per second to those at the impact zone",
+                "Deals 20% max hp to bubbles"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2961,11 +3544,13 @@
         "caster": "Underlord Agareth",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "Taking damage from the same color will recive a debuff and increase that color stack by 1 - 2",
-            "To reset stacks, take damage from ability from different",
-            "Every stack deals 2.5% max HP magical damage per second, maxing out at 10% max hp per second"
-        ]
+        "description": {
+            "base": [
+                "Taking damage from the same color will recive a debuff and increase that color stack by 1 - 2",
+                "To reset stacks, take damage from ability from different",
+                "Every stack deals 2.5% max HP magical damage per second, maxing out at 10% max hp per second"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2973,10 +3558,12 @@
         "caster": "Underlord Agareth",
         "color": "a3bccc",
         "type": "passive",
-        "description": [
-            "Reduces healing received by 80% and damage dealt by 40%",
-            "Lasts 5 seconds, can be cleansed"
-        ]
+        "description": {
+            "base": [
+                "Reduces healing received by 80% and damage dealt by 40%",
+                "Lasts 5 seconds, can be cleansed"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -2986,11 +3573,13 @@
         "type": "active",
         "cooldown": "5",
         "cost": "100",
-        "description": [
-            "Targets a random Player and fires a line of shadow after 2 seconds",
-            "Deals 33% max hp magical damage to impact zone",
-            "Recive Soulburn Debuff"
-        ]
+        "description": {
+            "base": [
+                "Targets a random Player and fires a line of shadow after 2 seconds",
+                "Deals 33% max hp magical damage to impact zone",
+                "Recive Soulburn Debuff"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3000,11 +3589,13 @@
         "type": "active",
         "cooldown": "5",
         "cost": "100",
-        "description": [
-            "Targets a random Player and fires 3 lines of shadow in an arc after 2 seconds",
-            "Deals 33% max hp magical damage to impact zone",
-            "Recive Soulburn Debuff"
-        ]
+        "description": {
+            "base": [
+                "Targets a random Player and fires 3 lines of shadow in an arc after 2 seconds",
+                "Deals 33% max hp magical damage to impact zone",
+                "Recive Soulburn Debuff"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3014,10 +3605,12 @@
         "type": "active",
         "cooldown": "10",
         "cost": "100",
-        "description": [
-            "Pulls all nearby units within 600 range to Agareth and swipes 4 times",
-            "Each strike Interrupts and deals 750 pure damage"
-        ]
+        "description": {
+            "base": [
+                "Pulls all nearby units within 600 range to Agareth and swipes 4 times",
+                "Each strike Interrupts and deals 750 pure damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3027,11 +3620,13 @@
         "type": "active",
         "cooldown": "10",
         "cost": "100",
-        "description": [
-            "Doubles the radius of Umbra Dance",
-            "Pushes people outward instead of pullingand swipes 4 times",
-            "Each strike Interrupts and deals 750 pure damage"
-        ]
+        "description": {
+            "base": [
+                "Doubles the radius of Umbra Dance",
+                "Pushes people outward instead of pullingand swipes 4 times",
+                "Each strike Interrupts and deals 750 pure damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3041,11 +3636,13 @@
         "type": "active",
         "cooldown": "15",
         "cost": "100",
-        "description": [
-            "Create a ring of spikes at one of the 3 layers around Agareth after 2 second",
-            "Or create 3 rings of spikes at all 3 layers around Agareth starting from close to far",
-            "Deals 50% max hp and 7500 magical damage to impact zone and applies a purple stack"
-        ]
+        "description": {
+            "base": [
+                "Create a ring of spikes at one of the 3 layers around Agareth after 2 second",
+                "Or create 3 rings of spikes at all 3 layers around Agareth starting from close to far",
+                "Deals 50% max hp and 7500 magical damage to impact zone and applies a purple stack"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3055,11 +3652,13 @@
         "type": "active",
         "cooldown": "15",
         "cost": "100",
-        "description": [
-            "Create a ring of spikes at one of the 3 layers around Agareth after 2 second",
-            "Or create 3 rings of spikes at all 3 layers around Agareth starting from close to far",
-            "Deals 50% max hp and 7500 magical damage to impact zone and applies a green stack"
-        ]
+        "description": {
+            "base": [
+                "Create a ring of spikes at one of the 3 layers around Agareth after 2 second",
+                "Or create 3 rings of spikes at all 3 layers around Agareth starting from close to far",
+                "Deals 50% max hp and 7500 magical damage to impact zone and applies a green stack"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3069,11 +3668,13 @@
         "type": "active",
         "cooldown": "10",
         "cost": "100",
-        "description": [
-            "Deals 900 magical damage to target and bounces to nearby units",
-            "Each bounce increases damage by 150 infinitely",
-            "Can only expire when no nearby unit in range"
-        ]
+        "description": {
+            "base": [
+                "Deals 900 magical damage to target and bounces to nearby units",
+                "Each bounce increases damage by 150 infinitely",
+                "Can only expire when no nearby unit in range"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3083,11 +3684,13 @@
         "type": "active",
         "cooldown": "10",
         "cost": "100",
-        "description": [
-            "Calls out a random hero and after 1 second will lunge at them",
-            "Deals 33% map hp magical damage to units on the way and target",
-            "Instantly kills target if they are not facing Agareth"
-        ]
+        "description": {
+            "base": [
+                "Calls out a random hero and after 1 second will lunge at them",
+                "Deals 33% map hp magical damage to units on the way and target",
+                "Instantly kills target if they are not facing Agareth"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3097,11 +3700,13 @@
         "type": "active",
         "cooldown": "10",
         "cost": "100",
-        "description": [
-            "Lunge at a player then another player after 1 second",
-            "Deals 33% map hp magical damage to units on the way and target",
-            "Instantly kills target that is not facing Agareth and lunges at another player instantly"
-        ]
+        "description": {
+            "base": [
+                "Lunge at a player then another player after 1 second",
+                "Deals 33% map hp magical damage to units on the way and target",
+                "Instantly kills target that is not facing Agareth and lunges at another player instantly"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3111,13 +3716,15 @@
         "type": "active",
         "cooldown": "15",
         "cost": "100",
-        "description": [
-            "Summons 1-2 portal at a random location after 2 seconds",
-            "Instantly kills anyone standing in impact zone",
-            "Portal size will keep increasing and spawn minions based on the portal's size",
-            "And unit standing on it to shrink the portal until it is destroyed",
-            "Standing on portal will recive 5% max hp magical damage per second and revice Soulburn"
-        ]
+        "description": {
+            "base": [
+                "Summons 1-2 portal at a random location after 2 seconds",
+                "Instantly kills anyone standing in impact zone",
+                "Portal size will keep increasing and spawn minions based on the portal's size",
+                "And unit standing on it to shrink the portal until it is destroyed",
+                "Standing on portal will recive 5% max hp magical damage per second and revice Soulburn"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3127,12 +3734,14 @@
         "type": "active",
         "cooldown": "15",
         "cost": "100",
-        "description": [
-            "Teleports to random location in arena",
-            "Freezes all heroes who is facing Agareth for 3 seconds",
-            "Fire 10 purple orbs around him",
-            "Each purple orb deals 33% max hp damage per second and revice Soulburn debuff"
-        ]
+        "description": {
+            "base": [
+                "Teleports to random location in arena",
+                "Freezes all heroes who is facing Agareth for 3 seconds",
+                "Fire 10 purple orbs around him",
+                "Each purple orb deals 33% max hp damage per second and revice Soulburn debuff"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3142,11 +3751,13 @@
         "type": "active",
         "cooldown": "15",
         "cost": "100",
-        "description": [
-            "Summon 6 purple circle where a meteor will fall after 5 seconds",
-            "The first hero touches the circle will summon another one follows that hero",
-            "Deals 100% max hp magical damage"
-        ]
+        "description": {
+            "base": [
+                "Summon 6 purple circle where a meteor will fall after 5 seconds",
+                "The first hero touches the circle will summon another one follows that hero",
+                "Deals 100% max hp magical damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3156,15 +3767,17 @@
         "type": "active",
         "cooldown": "60",
         "cost": "100",
-        "description": [
-            "Infect 2 players after 2 seconds",
-            "Infection explodes around the target and fire out lines in a star pattern after 20 seconds",
-            "Instantly kills any unit in the explosion",
-            "Any hero touches the lines will be infected",
-            "When a line hits the wall, it will explode and instantly kills any unit in it",
-            "Infection can denote early from cleanse or die",
-            "Reset Abyssal Miasma cooldown if initial targets die from it own infection"
-        ]
+        "description": {
+            "base": [
+                "Infect 2 players after 2 seconds",
+                "Infection explodes around the target and fire out lines in a star pattern after 20 seconds",
+                "Instantly kills any unit in the explosion",
+                "Any hero touches the lines will be infected",
+                "When a line hits the wall, it will explode and instantly kills any unit in it",
+                "Infection can denote early from cleanse or die",
+                "Reset Abyssal Miasma cooldown if initial targets die from it own infection"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3174,11 +3787,13 @@
         "type": "active",
         "cooldown": "60",
         "cost": "100",
-        "description": [
-            "Will do three consecutive Fears and then begin to channel a giant explosion for 3 seconds",
-            "Deals 100% - 300% max hp magical damage based on how close to the center of the explosion",
-            "Breaks any shield before the damage"
-        ]
+        "description": {
+            "base": [
+                "Will do three consecutive Fears and then begin to channel a giant explosion for 3 seconds",
+                "Deals 100% - 300% max hp magical damage based on how close to the center of the explosion",
+                "Breaks any shield before the damage"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3186,12 +3801,14 @@
         "caster": "Underlord Agareth",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "Whenever 3 or more players are too close to each others, they all gain 5% fear per second",
-            "Can stack up to infinity",
-            "It amplifies how much damage you take from Agareth based on how much fear you have",
-            "Fear resets after 1 second when less than 3 heroes around you"
-        ]
+        "description": {
+            "base": [
+                "Whenever 3 or more players are too close to each others, they all gain 5% fear per second",
+                "Can stack up to infinity",
+                "It amplifies how much damage you take from Agareth based on how much fear you have",
+                "Fear resets after 1 second when less than 3 heroes around you"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3199,10 +3816,12 @@
         "caster": "Soul Crystal",
         "color": "f89c34",
         "type": "active",
-        "description": [
-            "When crystal is at full mana it will start healing Agareth 0.5% max HP per second",
-            "When interrupted with any crowd control, will lose all mana"
-        ]
+        "description": {
+            "base": [
+                "When crystal is at full mana it will start healing Agareth 0.5% max HP per second",
+                "When interrupted with any crowd control, will lose all mana"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3210,13 +3829,15 @@
         "caster": "Soul Crystal",
         "color": "8a2be2",
         "type": "trigger",
-        "description": [
-            "Once crystal is at 50% or less hp",
-            "Gain a shield based on players amount",
-            "When shield is broken, fire 10 lines around it and apply color debuff",
-            "Deals 50% max hp magical damage",
-            "Can be broken by Guard Break"
-        ]
+        "description": {
+            "base": [
+                "Once crystal is at 50% or less hp",
+                "Gain a shield based on players amount",
+                "When shield is broken, fire 10 lines around it and apply color debuff",
+                "Deals 50% max hp magical damage",
+                "Can be broken by Guard Break"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3225,10 +3846,12 @@
         "color": "f89c34",
         "type": "active",
         "cost": "10",
-        "description": [
-            "Deals 5 magical damage to target and bounces to nearby units infinitely",
-            "Expire when no nearby unit in range"
-        ]
+        "description": {
+            "base": [
+                "Deals 5 magical damage to target and bounces to nearby units infinitely",
+                "Expire when no nearby unit in range"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3237,11 +3860,13 @@
         "color": "f89c34",
         "type": "active",
         "cost": "10",
-        "description": [
-            "Summon a homing Meteor infront of a player",
-            "Explodes on contact, knocking all units 200 range away",
-            "Deals 40 hp to impact zone"
-        ]
+        "description": {
+            "base": [
+                "Summon a homing Meteor infront of a player",
+                "Explodes on contact, knocking all units 200 range away",
+                "Deals 40 hp to impact zone"
+            ]
+        }
     },
     {
         "id": "xxxx",
@@ -3251,9 +3876,11 @@
         "type": "passive",
         "cooldown": "60",
         "cost": "10",
-        "description": [
-            "Launch a fire ball to player location",
-            "Deals 20 hp to impact zone"
-        ]
+        "description": {
+            "base": [
+                "Launch a fire ball to player location",
+                "Deals 20 hp to impact zone"
+            ]
+        }
     }
 ]
