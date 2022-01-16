@@ -3067,7 +3067,8 @@
                 "Create four tornados that travel around four quadrants around Valtora",
                 "Once these tornados are on an enemy, applies 'Windy' debuff",
                 "Windy deals 10% Max HP Pure Damage per second",
-                "Tornados also increase height of enemies by 400, allowing them to dodge Wrath of Heaven"
+                "Tornados also increase height of enemies by 400, allowing them to dodge Wrath of Heaven",
+                "Tornados are also faster on Hard Mode"
             ]
         }
     },
