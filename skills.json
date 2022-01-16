@@ -6680,6 +6680,7 @@
         "color": "c8f9dd",
         "hotkey": "[W]",
         "icon": "PBW",
+        "proc_rate": 0.7,
         "order": 5,
         "active": [
             "Attack damage X 0.8 + AGI X 5 magic damage",
@@ -6699,6 +6700,7 @@
         "color": "c8f9dd",
         "hotkey": "[E]",
         "icon": "PBE",
+        "proc_rate": 0.7,
         "order": 6,
         "active": [
             "Attack damage X 1 + AGI X 7.5 magic damage",
