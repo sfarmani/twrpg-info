@@ -3883,5 +3883,355 @@
                 "Deals 20 hp to impact zone"
             ]
         }
+    },
+    {
+        "id": "xxxx",
+        "name": "Blood Burst",
+        "caster": "Duke Lazarus",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "8",
+        "cost": "100",
+        "description": {
+            "base": [
+                "Summons 3 balls around Duke. After a wind-up, target three random players and launch them",
+                "Each ball deals 10000 Magic Damage",
+                "After impact, separate into 3 smaller balls which land evenly around initial impact",
+                "Smaller balls deal 5000 Magic Damage",
+                "All balls apply Blood Sickness"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Blood Tendril",
+        "caster": "Duke Lazarus",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "14",
+        "cost": "100",
+        "description": {
+            "base": [
+                "Summons 4 Large Tentacles that will reach across the room after a 1 second wind-up",
+                "Grabs all enemies within its grasp and pulls them toward center (CC Effect, invulnerable units can be pulled)",
+                "Holds targets for 5 seconds, dealing 5000 Magic Damage every second",
+                "Applies an uninterruptable Blood Drain to those grabbed",
+                "Afterwards, launch players toward wall, on impact with another player or wall, deal 10000 Magic Damage to those affected",
+                "Apples Blood Sickness"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Blood Drain",
+        "caster": "Duke Lazarus",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "18",
+        "cost": "100",
+        "description": {
+            "base": [
+                "Targets all nearby players and deals 500 + 5% Max HP Magic Damage to those affected",
+                "Heals Duke for (1 + .1*Total Links)% HP per second",
+                "Can be interrupted"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Blood Plague",
+        "caster": "Duke Lazarus",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "10",
+        "cost": "100",
+        "description": {
+            "base": [
+                "Targets a random player (two if past 1st phase) and marks them",
+                "After 2 seconds, applies the debuff which reduces movespeed by 20% and prevents healing on target",
+                "After 10 seconds, or when cleansed, explode and deal 5000 Magic Damage to all players nearby",
+                "Creates a Blood Circle which expands to about a quarter of the size of the Arena",
+                "The Circle lasts for 30 seconds",
+                "The Circle will do (750 + 150*Half Second Spent in Circle) Magic Damage",
+                "If players die in this circle, will spawn a Vampiric Monstrosity",
+                "Applies Blood Sickness"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Blood Sickness",
+        "caster": "Duke Lazarus",
+        "color": "a3bccc",
+        "type": "passive",
+        "description": {
+            "base": [
+                "When applied, a blood mark will appear on the player's head",
+                "Will decrease movespeed by 20%, reduce healing received by 50%",
+                "When a player dies with this debuff, will spawn a Vampiric Monstrosity"
+            ]
+        },
+        "summons": [
+            "Vampiric Monstrosity"
+        ]
+    },
+    {
+        "id": "xxxx",
+        "name": "Blood Whips",
+        "caster": "Duke Lazarus",
+        "color": "8a2be2",
+        "type": "trigger",
+        "description": {
+            "base": [
+                "During combat, Duke will spawn 2 Tentacles at random locations around him",
+                "These tentacles will lock onto the nearest player and after a second will deal 4000 Magic Damage and stun them for 1 second",
+                "Will apply Blood Sickness on impact"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Blood Explosion",
+        "caster": "Duke Lazarus",
+        "color": "8a2be2",
+        "type": "trigger",
+        "description": {
+            "base": [
+                "When Duke reaches 90% HP, a gauge will appear above his head",
+                "He will spawn 4 Blood Barons around him that siphon 4 blood points every 2 seconds",
+                "After 35 seconds, he will deal a porportional amount of damage based on the gauge",
+                "Any players hit with any spell fills this gauge by a random amount",
+                "If the gauge reaches 100, he will instantly kill everyone"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Blood Sacrifice",
+        "caster": "Duke Lazarus",
+        "color": "8a2be2",
+        "type": "trigger",
+        "description": {
+            "base": [
+                "When Duke reaches 75% HP, he will push everyone away, forming a Blood Dome for 45 seconds",
+                "He will choose a porportional amount of people to be offered as sacrifices",
+                "These people inside will receive no healing nor regen and start to degen 5% Max HP",
+                "A porportional amount of liches will spawn in around the dome, each giving 1% more degen every second",
+                "When a player stands on the lich's circle, they will give some regen to the sacrifices",
+                "If a sacrifice dies, they will reset the timer",
+                "If all circles are occupied by players, the Dome will be 2x faster"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Blood Swipe",
+        "caster": "Duke Lazarus",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "14",
+        "cost": "100",
+        "description": {
+            "base": [
+                "Duke will swipe 3 times toward a random player",
+                "Each swipe pushes players away and deals 10000 Magic Damage",
+                "If the player is impaled, will be instantly killed"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Leap of Terror",
+        "caster": "Duke Lazarus",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "24",
+        "cost": "100",
+        "description": {
+            "base": [
+                "After a second of wind-up, Duke will leap up into the air and slam down onto a random player",
+                "On impact, will deal 17500 Magic Damage and send out a wave of spikes in 8 Directions",
+                "Spikes impale heroes, which disables movement and spell casting until freed",
+                "Leap will instantly kill impaled players"
+            ]
+        },
+        "summons": [
+            "Spike"
+        ]
+    },
+    {
+        "id": "xxxx",
+        "name": "Blood Spike",
+        "caster": "Duke Lazarus",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "14",
+        "cost": "100",
+        "description": {
+            "base": [
+                "Duke will call out 2 players and after 1 second spikes will appear in their current location for 3 seconds",
+                "At the end of the spell, a large pattern of spikes will appear at the end",
+                "Spikes impale heroes, which disables movement and spell casting until freed",
+                "Leap will instantly kill impaled players"
+            ]
+        },
+        "summons": [
+            "Spike"
+        ]
+    },
+    {
+        "id": "xxxx",
+        "name": "Blood Howl",
+        "caster": "Duke Lazarus",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "40",
+        "cost": "100",
+        "description": {
+            "base": [
+                "Can be only be cast when he reaches 35% HP",
+                "Summons a spear above every player which will slam down and deal 7500 Magic Damage after 2 seconds",
+                "Anyone taking 2 spears will be instantly killed",
+                "Afterward Duke will be paused for 3 seconds"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Empowered Blood Swipe",
+        "caster": "Duke Lazarus",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "14",
+        "cost": "100",
+        "description": {
+            "base": [
+                "Duke will swipe 3 times toward a random player",
+                "Each swipe will apply two damage instances of 12500 Magic Damage",
+                "Will be faster than the unempowered version",
+                "If the player is impaled, will be instantly killed"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Empowered Leap of Terror",
+        "caster": "Duke Lazarus",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "24",
+        "cost": "100",
+        "description": {
+            "base": [
+                "After a second of wind-up, Duke will teleport onto a random player",
+                "On impact, will deal 17500 Magic Damage and send out a wave of spikes in 8 Directions",
+                "Faster than the unempowered version",
+                "Spikes impale heroes, which disables movement and spell casting until freed",
+                "Leap will instantly kill impaled players"
+            ]
+        },
+        "summons": [
+            "Spike"
+        ]
+    },
+    {
+        "id": "xxxx",
+        "name": "Empowered Blood Howl",
+        "caster": "Duke Lazarus",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "",
+        "cost": "100",
+        "description": {
+            "base": [
+                "Summons a spear above every player which will slam down and deal 7500 Magic Damage after 2 seconds",
+                "Anyone taking 2 spears will be instantly killed",
+                "Afterwards, will summon 1-3 Large Spears depending on the amount of players",
+                "Each spear will deal 7500 + 50% Max HP Magic Damage",
+                "Damage of these spears can be spread across multiple units",
+                "Anyone taking 2 large spears or are alone will be instantly killed",
+                "Afterward Duke will be paused for 3 seconds"
+            ]
+        },
+        "summons": [
+            "Spike"
+        ]
+    },
+    {
+        "id": "xxxx",
+        "name": "Blood Orb",
+        "caster": "Duke Lazarus",
+        "color": "a3bccc",
+        "type": "passive",
+        "description": {
+            "base": [
+                "Will spawn Orbs beyond 600 range around Duke on the edges of the Arena",
+                "When an orb reaches Duke, it will heal him for 5% HP",
+                "When picked up by a player, deals 15% Magic Damage"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Blood Shield",
+        "caster": "Duke Lazarus",
+        "color": "8a2be2",
+        "type": "trigger",
+        "description": {
+            "base": [
+                "When entering his Empowered Phase, he will gain a shield that will block 100% Damage",
+                "Spawns 2 giant Tentacles which will slam down, dealing 7500 Magic Damage and stunning players for 2 seconds",
+                "If Duke is hit with these tentacles, he will lose 20% of his shield per Tentacle Slam",
+                "Other guard breaks will work too, similar to Obsidian Armor from Ifrit Golems but 10x less effective",
+                "Tentacles will instantly kill players if two or more hit them",
+                "After 3 minutes, one more tentacle will spawn, after 4 minutes, 6 tentacles will spawn"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Blood Swipe",
+        "caster": "Vampiric Monstrosity",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "14",
+        "cost": "100",
+        "description": {
+            "base": [
+                "After locking onto a random nearby player, swipe 3 times toward them",
+                "Each swipe pushes players and deals 5000 Magic Damage"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Leap of Terror",
+        "caster": "Vampiric Monstrosity",
+        "color": "f89c34",
+        "type": "active",
+        "cooldown": "24",
+        "cost": "100",
+        "description": {
+            "base": [
+                "Chooses a random target and leaps towards them",
+                "On impact, deals 7500 Magic Damage to all those in range",
+                "Stuns for 2 seconds"
+            ]
+        }
+    },
+    {
+        "id": "xxxx",
+        "name": "Bleeding",
+        "caster": [
+            "Duke Lazarus", 
+            "Vampiric Monstrosity"
+        ],
+        "color": "a3bccc",
+        "type": "passive",
+        "description": {
+            "base": [
+                "Deals 500 magic damage per second for 10 seconds"
+            ]
+        }
     }
 ]
