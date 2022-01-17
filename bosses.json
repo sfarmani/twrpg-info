@@ -4506,7 +4506,7 @@
             "manaRegen": "25",
             "armor": "1240",
             "armorType": "Heavy",
-            "magicResist": "",
+            "magicResist": "0",
             "damageResist": "50",
             "attackDamage": "6556",
             "attackSpread": "8",
@@ -4515,19 +4515,7 @@
             "moveSpeed": "500"
         },
         "empoweredStats": {
-            "health": "13500000",
-            "healthRegen": "15000",
-            "mana": "100",
-            "manaRegen": "25",
-            "armor": "1240",
-            "armorType": "Heavy",
-            "magicResist": "0",
-            "damageResist": "75",
-            "attackDamage": "6556",
-            "attackSpread": "8",
-            "attackRange": "250",
-            "attackSpeed": "1",
-            "moveSpeed": "500"
+            "damageResist": "75"
         },
         "drops": [
             "I0O3",
@@ -4730,16 +4718,8 @@
             "moveSpeed": "0"
         },
         "empoweredStats": {
-            "health": "30000000",
-            "healthRegen": "50000",
-            "mana": "100",
-            "manaRegen": "25",
-            "armor": "1290",
-            "armorType": "Heavy",
-            "magicResist": "0",
             "damageResist": "62.5",
             "attackDamage": "10392",
-            "attackSpread": "8",
             "attackRange": "250",
             "attackSpeed": "1",
             "moveSpeed": "500"
@@ -4775,7 +4755,8 @@
         "minions": [
             "Vampiric Monstrosity",
             "Servant of Blood",
-            "Blood Baron"
+            "Blood Baron",
+            "Spike"
         ]
     },
     {
@@ -4844,6 +4825,31 @@
         "conditions": "Summoned by Duke Lazarus when he reaches 75% HP",
         "stats": {
             "health": "5000000",
+            "healthRegen": "0",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "1000",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "0"
+        }
+    },
+    {
+        "id": "h08R",
+        "name": "Spike",
+        "color": "883333",
+        "level": "130",
+        "category": "Endgame",
+        "type": "Mechanic",
+        "location": "Through the portal in front of Wallachia castle (next to Death Knight)",
+        "conditions": "Summoned by Lord of Sacrifice Duke",
+        "stats": {
+            "health": "1300000",
             "healthRegen": "0",
             "mana": "0",
             "manaRegen": "0",
