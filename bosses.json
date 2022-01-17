@@ -3819,7 +3819,7 @@
             "Order of Light",
             "Spirit of Light",
             "Protection of Light",
-            "Purge of Light"
+            "Judgment"
         ]
     },
     {
@@ -3978,11 +3978,9 @@
             "infs"
         ],
         "spells": [
-            "Mark of Death",
-            "Grasp of the Fiend",
-            "Crawling Death",
+            "Creeping Death",
             "Howl of Death",
-            "Deathly Cleave",
+            "Strike of Death",
             "Unholy Summoning",
             "Determination of Death",
             "Death Comes...",
@@ -4114,34 +4112,6 @@
             "attackSpeed": ".3333",
             "moveSpeed": "350"
         }
-    },
-    {
-        "id": "h01U",
-        "name": "Treasures of Death",
-        "level": "120",
-        "category": "Late",
-        "type": "Mechanic",
-        "location": "In Abandoned Graveyard, at spawn of Mad Clown",
-        "conditions": "Dropped by Death Fiend on death",
-        "stats": {
-            "health": "1500000",
-            "healthRegen": "0",
-            "mana": "0",
-            "manaRegen": "0",
-            "armor": "500",
-            "armorType": "Heavy",
-            "magicResist": "0",
-            "damageResist": "0",
-            "attackDamage": "0",
-            "attackSpread": "0",
-            "attackRange": "0",
-            "attackSpeed": "0",
-            "moveSpeed": "0"
-        },
-        "notes": [
-            "This drops all of Death Fiend's loot",
-            "Only spawns at successful attempt"
-        ]
     },
     {
         "id": "n043",
@@ -4518,10 +4488,10 @@
         ]
     },
     {
-        "id": "h077",
+        "id": ["h077", "h078"],
         "name": "Underlord Agareth",
         "color": "883333",
-        "quote": "The end is high!",
+        "quote": "The end is nigh!",
         "level": "120",
         "category": "Endgame",
         "type": "Boss",
@@ -4537,7 +4507,22 @@
             "armor": "1240",
             "armorType": "Heavy",
             "magicResist": "",
-            "damageResist": ".50",
+            "damageResist": "50",
+            "attackDamage": "6556",
+            "attackSpread": "8",
+            "attackRange": "250",
+            "attackSpeed": "1",
+            "moveSpeed": "500"
+        },
+        "empoweredStats": {
+            "health": "13500000",
+            "healthRegen": "15000",
+            "mana": "100",
+            "manaRegen": "25",
+            "armor": "1240",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "75",
             "attackDamage": "6556",
             "attackSpread": "8",
             "attackRange": "250",
@@ -4718,10 +4703,10 @@
         }
     },
     {
-        "id": "h08K",
+        "id": ["h08K", "h08L"],
         "name": "Duke Lazarus",
         "color": "883333",
-        "quote": "",
+        "quote": "Dance Mortals and delight me further!",
         "level": "130",
         "category": "Endgame",
         "type": "Boss",
@@ -4735,14 +4720,29 @@
             "mana": "100",
             "manaRegen": "25",
             "armor": "1290",
-            "armorType": "",
-            "magicResist": "",
-            "damageResist": "",
-            "attackDamage": "7530",
-            "attackSpread": "",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "25",
+            "attackDamage": "7532",
+            "attackSpread": "8",
             "attackRange": "2500",
-            "attackSpeed": "",
-            "moveSpeed": "250"
+            "attackSpeed": ".5",
+            "moveSpeed": "0"
+        },
+        "empoweredStats": {
+            "health": "30000000",
+            "healthRegen": "50000",
+            "mana": "100",
+            "manaRegen": "25",
+            "armor": "1290",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "62.5",
+            "attackDamage": "10392",
+            "attackSpread": "8",
+            "attackRange": "250",
+            "attackSpeed": "1",
+            "moveSpeed": "500"
         },
         "drops": [
             "I014",
@@ -4752,12 +4752,110 @@
             "I0OZ",
             "I0R6"
         ],
-        "spells": [],
+        "spells": [
+            "Blood Burst",
+            "Blood Tendril",
+            "Blood Drain",
+            "Blood Plague",
+            "Blood Sickness",
+            "Blood Tentacles",
+            "Blood Sacrifice",
+            "Blood Explosion",
+            "Blood Swipe",
+            "Leap of Terror",
+            "Blood Spike",
+            "Blood Howl",
+            "Empowered Blood Swipe",
+            "Empowered Leap of Terror",
+            "Empowered Blood Howl",
+            "Blood Orb",
+            "Blood Shield",
+            "Bleeding"
+        ],
         "minions": [
-            "Soul Crystal",
-            "Gatekeeper of Hell",
-            "Cursed Spirit",
-            "Hellspawn"
+            "Vampiric Monstrosity",
+            "Servant of Blood",
+            "Blood Baron"
         ]
+    },
+    {
+        "id": "h08Q",
+        "name": "Vampiric Monstrosity",
+        "color": "883333",
+        "level": "130",
+        "category": "Endgame",
+        "type": "Minion",
+        "location": "Through the portal in front of Wallachia castle (next to Death Knight)",
+        "conditions": "Summoned by Duke Lazarus when player sides with Debuff",
+        "stats": {
+            "health": "6000000",
+            "healthRegen": "0",
+            "mana": "100",
+            "manaRegen": "25",
+            "armor": "1000",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "1521",
+            "attackSpread": "8",
+            "attackRange": "150",
+            "attackSpeed": "1",
+            "moveSpeed": "500"
+        },
+        "spells": [
+            "Blood Swipe",
+            "Leap of Terror",
+            "Bleeding"
+        ]
+    },
+    {
+        "id": "h08M",
+        "name": "Blood Baron",
+        "color": "883333",
+        "level": "130",
+        "category": "Endgame",
+        "type": "Mechanic",
+        "location": "Through the portal in front of Wallachia castle (next to Death Knight)",
+        "conditions": "Summoned by Duke Lazarus when during the First Phase",
+        "stats": {
+            "health": "5000000",
+            "healthRegen": "0",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "1000",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "0"
+        }
+    },
+    {
+        "id": "h08P",
+        "name": "Servant of Blood",
+        "color": "883333",
+        "level": "130",
+        "category": "Endgame",
+        "type": "Mechanic",
+        "location": "Through the portal in front of Wallachia castle (next to Death Knight)",
+        "conditions": "Summoned by Duke Lazarus when he reaches 75% HP",
+        "stats": {
+            "health": "5000000",
+            "healthRegen": "0",
+            "mana": "0",
+            "manaRegen": "0",
+            "armor": "1000",
+            "armorType": "Heavy",
+            "magicResist": "0",
+            "damageResist": "0",
+            "attackDamage": "0",
+            "attackSpread": "0",
+            "attackRange": "0",
+            "attackSpeed": "0",
+            "moveSpeed": "0"
+        }
     }
 ]
