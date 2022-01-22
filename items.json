@@ -5652,9 +5652,6 @@
     "id": "grsl",
     "name": "Spirit Orb",
     "koreanname": "정령의 구슬",
-    "notes": [
-      "Ancient Ent: Upon failure, droprate is reduced by 80% (0.25% → 0.05%)"
-    ],
     "dropped_by": [
       "Mana Ancient",
       "Spirit Beast"
