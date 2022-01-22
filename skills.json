@@ -490,10 +490,9 @@
         "order": 6,
         "active": [
             "Drops down a flaming boulder.",
-            "INT X 7.5 magic damage",
-            "Deals 150% bonus damage to units stunned or resistant to stun effects",
-            "Has 3 second delay",
-            "Range: 600"
+            "INT X 10 magic damage",
+            "Deals up to 300% bonus damage based on missing HP",
+            "Deals max damage to rooted/stunned/paused units"
         ],
         "active_tags": [
             "Hero",
@@ -543,11 +542,13 @@
         "proc_rate": 0.7,
         "order": 8,
         "active": [
-            "Fire a water bomb that expands with steam.",
-            "Skill Level X 2.25 damage",
-            "Deals 15% additional damage per second traveled (Up to 5 seconds)",
-            "Deals 100% bonus damage to burning targets",
-            "Chain: Healing Rain"
+            "Transmutes a water bomb.",
+            "INT X 12.5 magic damage",
+            "Explodes when it touches a boss unit or 10 seconds elapse",
+            "Burning units take 100% bonus damage",
+            "On recast, refreshes the duration and increases its damage by 100% (up to 10 times)",
+            "Up to 1 bomb can be active at once",
+            "Chain: Wind Blast (pushes the bomb away)"
         ],
         "active_tags": [
             "Hero",
@@ -708,7 +709,7 @@
         "active": [
             "Send forth a strong gust of wind.",
             "INT X 7.5 bonus damage",
-            "Knocks back non-boss enemies and Water Bombs"
+            "Knocks back non-boss enemies"
         ],
         "active_tags": [
             "Hero",
@@ -728,9 +729,9 @@
         "order": 17,
         "active": [
             "Creates a fierce storm of rocks.",
-            "Drops 6 rocks over target area",
-            "Each rock deals INT X 3.3 bonus damage",
-            "Chain: Magma Explosion"
+            "Drops 5 rocks over target area",
+            "Each rock deals INT X 3 bonus damage",
+            "Chain: Magma Explosion (increases damage of rock by 100~150%)"
         ],
         "active_tags": [
             "Hero",
@@ -778,8 +779,10 @@
         "order": 19,
         "active": [
             "Transmutes a cannon to fire a powerful cannonball.",
-            "INT X 9 bonus damage",
-            "Cannon can be reused on subsequent casts for a short duration"
+            "INT X 7.5 magic damage",
+            "Also fired from existing cannons",
+            "Cannon will disappear if you move far away from it or 10 seconds elapse",
+            "Up to 4 cannons can be active at once"
         ],
         "active_tags": [
             "Hero",
@@ -957,16 +960,11 @@
         "icon": "AlchemistT",
         "cooldown": 45,
         "order": 28,
-        "passive": [
-            "It seems to temporarily augment user's abilities but it seems to be an artificial one.",
-            "Transmutation has chance to not proc any cooldown",
-            "This effect will take precedence over active effect"
-        ],
         "active": [
-            "Uses the unstable Philosopher's stone.",
-            "Next 5 transmutations do not proc cooldown",
-            "Increases skill damage by 15% while active",
-            "Lasts up to 15 seconds"
+            "Uses a mystical reagent known as Philosopher's Stone to amplify your transmutations.",
+            "Resets cooldowns on all transmutations",
+            "For 10 seconds, increases skill damage by 15%",
+            "Next 5 transmutations do not trigger cooldown"
         ],
         "passive_tags": [
             "Hero",
@@ -1762,7 +1760,7 @@
         "order": 5,
         "active": [
             "Fire a charged magic bullet, and disengage using the recoil.",
-            "Attack damage X 0.75 + AGI X 4.5 magic damage",
+            "Attack damage X 0.75 + MAIN STAT X 4.5 magic damage",
             "Deals up to (400 + 2 X Skill Damage increase)% damage based on knockback distance"
         ],
         "active_tags": [
@@ -1783,7 +1781,7 @@
         "active": [
             "Fires a bullet that can distort dimensions.",
             "Main Stat X 7.5 magic damage",
-            "Increases target's damage taken by (5 + INT / 300)% and reduces its movement speed for 2 seconds",
+            "Increases target's damage taken by (5 + INT / 300)% and reduces its movement speed for 3 seconds",
             "Knocksback target if cast consecutively",
             "Recharges every (15 - pure attack speed / 15) seconds"
         ],
@@ -2187,7 +2185,7 @@
         "passive": [
             "Focus ki into every action to perform powerful attacks.",
             "Attack hits all enemies within radius",
-            "On skill cast, empowers next attack to deal (Attack Damage X .75 + AGI X 5) pure damage",
+            "On skill cast, empowers next attack to deal (Attack Damage X 0.85 + AGI X 5.5) pure damage",
             "Can critically strike",
             "Base attack speed decreased"
         ],
@@ -2389,8 +2387,8 @@
         "order": 10,
         "active": [
             "\"I couldn't see anything. Only the corpses of my comrades were left at where he slashed through.\" - A Survivor of Empire War",
-            "Each slash deals AGI X 4 magic damage",
-            "Final slash deals AGI X 80 magic damage"
+            "Each slash deals AGI X 4.5 magic damage",
+            "Final slash deals AGI X 88 magic damage"
         ],
         "active_tags": [
             "Hero",
@@ -3438,7 +3436,7 @@
         "order": 2,
         "passive": [
             "A martial art that strengthens the fist, passed down from the Shaolins of the orients.",
-            "15% chance to deal AGI X 4.5 magic damage on attack"
+            "15% chance to deal AGI X 5 magic damage on attack"
         ],
         "passive_tags": [
             "Hero",
@@ -3458,7 +3456,7 @@
         "passive": [
             "Martial art that allows striking multiple foes on a single attack.",
             "Adds 40% splash effect to attack",
-            "8% chance to deal AGI x 6 magic damage to nearby enemies on attack"
+            "8% chance to deal AGI x 8 magic damage to nearby enemies on attack"
         ],
         "passive_tags": [
             "Hero",
@@ -3501,7 +3499,7 @@
         "passive": [
             "Calm your mind and body to maintain control over yourself.",
             "Attack speed increased by 60%",
-            "Basic attacks have a 8% chance to increase attack damage by 120%, damage reduction by 20% for and regenerate HP equal to 2% + 90 every second for 5 seconds"
+            "Basic attacks have a 10% chance to increase attack damage by 120%, damage reduction by 20% for and regenerate HP equal to 2% + 90 every second for 5 seconds"
         ],
         "passive_tags": [
             "Hero",
@@ -4457,13 +4455,15 @@
         "color": "ddddbb",
         "hotkey": "[W]",
         "icon": "MerchantW",
+        "proc_rate": 0.5,
         "cooldown": 4,
         "order": 3,
         "active": [
             "Throws a potion made with your own blood, which is thick as troll's blood.",
             "Restores STR X 2 health",
             "Increases target's HP regen by (Target's Max HP X 3% + Your own HP Regen) for 8 seconds",
-            "Potion lasts 300 seconds, and you can maintain up to 3 potions at once"
+            "Potion lasts 300 seconds, and you can maintain up to 3 potions at once",
+            "Radius: 500"
         ],
         "active_tags": [
             "Hero",
@@ -4726,7 +4726,7 @@
         "color": "fe2101",
         "hotkey": "[R]",
         "icon": "ThundererR",
-        "cooldown": 45,
+        "cooldown": 30,
         "order": 6,
         "active": [
             "Deliver a fatal blow by striking target's heart.",
@@ -6236,7 +6236,7 @@
         "active": [
             "Temporarily opens the gate of heaven to summon an angel bound to the Priest by an old contract",
             "Summons Angel 'Raguel'",
-            "Lasts for 100 seconds"
+            "Lasts for 120 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -6352,6 +6352,7 @@
         "active": [
             "\"As my body suddenly start bursting out light, I've felt like I could keep on fighting without ever growing tired. It was only later that I realized the Priest had arrived.\" - Soldier of Empire Army",
             "Summons Heaven Field for 30 seconds",
+            "Increases damage dealt by 4% (light affinity)",
             "For allies on the field, increases their armor by 500 and regenerates their HP by 10% per second",
             "For your summons on the field, increases their attack speed by 50%",
             "Revives a fallen ally (one ally per cast)"
@@ -6680,7 +6681,7 @@
         "color": "c8f9dd",
         "hotkey": "[W]",
         "icon": "PBW",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 5,
         "active": [
             "Attack damage X 0.8 + AGI X 5 magic damage",
@@ -6700,7 +6701,7 @@
         "color": "c8f9dd",
         "hotkey": "[E]",
         "icon": "PBE",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 6,
         "active": [
             "Attack damage X 1 + AGI X 7.5 magic damage",

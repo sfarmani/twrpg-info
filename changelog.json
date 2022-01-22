@@ -1,5 +1,306 @@
 [
     {
+        "name": "59e",
+        "notes": [
+            "Released on: January 21st, 2021",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Dark Knight - Fixed issue where F doesn't do max damage at 20% HP",
+            "Soul Weaver - Fixed bug where Q damage taken increase debuff lasted forever",
+            "Bloodstorm - Fixed bug where MS bonus effect stacked with other item effects",
+            "Duke Lazarus - Fixed bug where tentacles were targeted by some skills (ex. Arcane Mage T)"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New recipes added",
+                    [
+                        "Abyss Fall"
+                    ]
+                ]
+            },
+            {
+                "name": "Caedis, the Sword of Slaughter",
+                "changes": [
+                    "Active",
+                    [
+                        "Cooldown: 45 seconds → 30 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Eternal Winter",
+                "changes": [
+                    "Active",
+                    [
+                        "Now breaks barriers on each tick"
+                    ]
+                ]
+            },
+            {
+                "name": "Pheles, the Bow of God",
+                "changes": [
+                    "Sniper spec",
+                    [
+                        "Storm shaft max stack: 1 → 2"
+                    ]
+                ]
+            },
+            {
+                "name": "Agnitus, the Bow of Divine Fury",
+                "changes": [
+                    "Attack damage: 9800 → 10200",
+                    "Sniper spec",
+                    [
+                        "Storm shaft max stack: 2 → 3"
+                    ]
+                ]
+            },
+            {
+                "name": "Crimson Star",
+                "changes": [
+                    "HP: 1800 → attack speed 15%"
+                ]
+            },
+            {
+                "name": "Cosmic Star",
+                "changes": [
+                    "HP: 2250 → attack speed 25%",
+                    "Passive",
+                    [
+                        "Skill damage and healing received bonus: 9% → 10%"
+                    ]
+                ]
+            },
+            {
+                "name": "Sanguis, the Robe of Sacrifice",
+                "changes": [
+                    "While in melee range setting (250), all orbs will now share hit cooldowns instead of tracking it individually",
+                    [
+                        "A change made in 0.59b reduced the melee range but it had unintentional effects that increased the damage"
+                    ]
+                ]
+            },
+            {
+                "name": "Crown of Cleansing",
+                "changes": [
+                    "Wind affinity: 9% → 10%",
+                    "Passive",
+                    [
+                        "Skill damage: 6% → 8%",
+                        "added movement speed: 30"
+                    ],
+                    "Active",
+                    [
+                        "Effect radius 800 → 900"
+                    ]
+                ]
+            },
+            {
+                "name": "Bloodstorm",
+                "changes": [
+                    "Active",
+                    [
+                        "Proc damage: main stat X 5 → main stat X 6"
+                    ]
+                ]
+            },
+            {
+                "name": "Cape of Insatiable Hunger",
+                "changes": [
+                    "Skill damage: 5% → 7.5%",
+                    "Active",
+                    [
+                        "Bonus damage per proc: 20000 → 25000"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Shadow Dragon Irbert",
+                "changes": [
+                    "Silence runes will be destroyed once boss fight resets"
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Blood orb spawn period: 3 seconds → (5 - 0.2 X player count) seconds"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Throwing Healing Potion (W)",
+                    [
+                        "Skill cast coefficient: 1 → 0.5"
+                    ],
+                    "Life Shield Scroll (E)",
+                    [
+                        "Radius: 425 → 500"
+                    ]
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Attack cooldown: 0.9 seconds → 0.85 seconds",
+                    "Heart Break (T)",
+                    [
+                        "Cooldown: 45 seconds → 30 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Quick Draw (D)",
+                    [
+                        "Damage: attack damage X 0.75 + AGI X 5 → attack damage X 0.85 + AGI X 5.5"
+                    ],
+                    "Genocide Storm (F)",
+                    [
+                        "Damage: AGI X 4 / AGI X 80 → AGI X 4.5 / AGI X 88"
+                    ]
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Crescent (W) / Daze (E)",
+                    [
+                        "Skill cast coefficient: 0.7 → 0.5"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Emperor's Strikes (Q)",
+                    [
+                        "Damage: AGI X 4.5 → AGI X 5"
+                    ],
+                    "Eight Palm Strike (W)",
+                    [
+                        "Damage: AGI X 6 → AGI X 8"
+                    ],
+                    "Inner Meditation (R)",
+                    [
+                        "Activation chance: 8% → 10%"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Break Shot (E)",
+                    [
+                        "Damage: AGI based → main stat based"
+                    ],
+                    "Distortion (R)",
+                    [
+                        "Debuff duration: 2 seconds → 3 seconds",
+                        "Detection duration for knockback: 2 seconds → 1 second"
+                    ]
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Meteor Strike (F)",
+                    [
+                        "Small meteor fragment accuracy increased"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Light Breeze (R)",
+                    [
+                        "Effect radius: 400 → 450"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Holy Aurora (E)",
+                    [
+                        "Changed to be targetted spell",
+                        "Effect radius: 500 → 450"
+                    ],
+                    "Heaven's Gate (T)",
+                    [
+                        "Duration: 100 seconds → 120 seconds"
+                    ],
+                    "Heaven Field (F)",
+                    [
+                        "Now adds 4% (light affinity) damage dealt bonus"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Conjure Fire (Q) - Boulder Strike (R)",
+                    [
+                        "Damage: INT X 7.5 → INT X 10",
+                        "Deals 150% bonus damage to stunned targets → deals up to 300% bonus damage based on missing HP",
+                        "Max damage will be applied to units unable to move / stunned paused",
+                        "No longer considers stun-immune units to take max damage"
+                    ],
+                    "Conjure Water (W) - Water Bomb (Q)",
+                    [
+                        "Max summon count limited to 1",
+                        "Damage: INT X 2.25 (INT X 9.75 with Wind Blast) → INT X 12.5 (unaffected by Wind Blast)",
+                        "Explodes upon contact with boss units or when 10 seconds elapse",
+                        "No longer targetted and only Wind Blast can knock it back",
+                        "No longer grows in damage over time",
+                        "Casting Water Bomb near a Wind Blast will refresh its duration, makes it bigger (increase AoE slightly), and increases damage by 100% (up to 10 times)"
+                    ],
+                    "Conjure Air (E) → Rock Storm (R)",
+                    [
+                        "Rock count: 6 → 5",
+                        "Damage per rock: INT X 3.3 → INT X 3",
+                        "Randomness decreased"
+                    ],
+                    "Conjure Earth (R) - Conjure Cannon (Q)",
+                    [
+                        "Max summon count limited to 4",
+                        "Cast range: 700 → 1200",
+                        "Damage per cannon: INT X 9 → INT X 7.5",
+                        "Cannon no longer has a limit firing range",
+                        "Cannon summon / firign speed has been greatly increased",
+                        "Spam casting will queue attacks without loss",
+                        "Disappear if you move far away from it or if 10 seconds elapsed from last cast"
+                    ],
+                    "Philosopher's Stone (T)",
+                    [
+                        "Passive effect removed",
+                        "Now resets cooldown on the conjures",
+                        "Skill damage increase will now last for fixed 10 seconds regardless of resets"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Priest default model has been changed",
+            "New years costumes have been added for",
+            [
+                "Phantom Blade / Swordman (#2)",
+                "Dark Knight / Reaper",
+                "Witch / Arcane Mage",
+                "Bow Master / Sniper"
+            ]
+        ]
+    },
+    {
         "name": "59d",
         "notes": [
             "Released on: January 9th, 2022",

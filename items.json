@@ -7503,6 +7503,7 @@
       "Punisher",
       "Felspike Armor",
       "Benziena, the Earthen Heart",
+      "Abyss Fall",
       "Zombie Lord Icon"
     ],
     "recipe": [
@@ -8223,7 +8224,8 @@
       "Astra, the Sword of Moonlight",
       "Heartrender",
       "Agnitus, the Bow of Divine Fury",
-      "Fulminata, the Bringer of Storms"
+      "Fulminata, the Bringer of Storms",
+      "Abyss Fall"
     ],
     "stats": {
       "damage": 9900,
@@ -8861,7 +8863,8 @@
       "Plates of Sanguine Fury",
       "Star of Apotheosis",
       "Bloodstorm",
-      "Guardian Angel"
+      "Guardian Angel",
+      "Abyss Fall"
     ]
   },
   {
@@ -8985,7 +8988,8 @@
       "Voidshard Armor",
       "Agnitus, the Bow of Divine Fury",
       "Cape of Insatiable Hunger",
-      "Sanguis, the Robe of Sacrifice"
+      "Sanguis, the Robe of Sacrifice",
+      "Abyss Fall"
     ]
   },
   {
@@ -9050,7 +9054,8 @@
       "Heartrender",
       "Plates of Sanguine Fury",
       "Crown of Cleansing",
-      "Guardian Angel"
+      "Guardian Angel",
+      "Abyss Fall"
     ],
     "stats": {
       "mainstat": 420,
@@ -9082,7 +9087,8 @@
       "Cage of Twisted Souls",
       "Bloodstorm",
       "Guardian Angel",
-      "Heartrender"
+      "Heartrender",
+      "Abyss Fall"
     ]
   },
   {
@@ -15463,7 +15469,7 @@
       "damage": 6000,
       "agi": 255,
       "int": 560,
-      "hp": 1800,
+      "attackspeedpercent": 0.15,
       "passive": [
         "Empowers allies upon healing them",
         "Increases skill damage by 5% [Type-B] and healing received by 5% for 4 seconds"
@@ -18031,7 +18037,7 @@
         "On use, activates Permafrost",
         "Applies a shield of (30% max HP) for 5 seconds",
         "Deals (max MP X 3) pure damage in an AoE",
-        "Breaks shields",
+        "Breaks shields per tick",
         "Freezes enemies for 1 second",
         "Afterwards, deals (max MP X 1.5) pure damage and freezes enemies per second for 3 seconds",
         "Re-applies shield for allies within the AoE",
@@ -18580,7 +18586,7 @@
       ],
       "spec": [
         "Specialty - Arrow of Judgment",
-        "Sniper - Storm Shaft's max stack is increased by 1"
+        "Sniper - Storm Shaft's max stack is increased by 2"
       ]
     }
   },
@@ -18799,6 +18805,9 @@
     "type": "Weapon (Gun)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Abyss Fall"
+    ],
     "recipe": [
       {
         "Crimson Star": 1
@@ -18823,10 +18832,10 @@
       "damage": 6750,
       "agi": 345,
       "int": 635,
-      "hp": 2250,
+      "attackspeedpercent": 0.25,
       "passive": [
         "Activates Empowerment upon healing allies",
-        "Increases skill damage and healing recieved by 9% for 6 seconds"
+        "Increases skill damage and healing recieved by 10% for 6 seconds"
       ],
       "active": [
         "On use, activates Holy Baptism",
@@ -21807,7 +21816,7 @@
         "On use, activates Slaughter",
         "Summons 4 marks around target for 10 seconds",
         "If all marks are procced, deals 300000 magic damage and stuns target for 2 seconds",
-        "Cooldown: 45 seconds, cannot be dropped during cooldown"
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -21845,7 +21854,7 @@
       }
     ],
     "stats": {
-      "damage": 9800,
+      "damage": 10200,
       "agi": 760,
       "attackspeedpercent": 0.4,
       "passive": [
@@ -21857,7 +21866,64 @@
       ],
       "spec": [
         "Specialty - Arrow of Judgment",
-        "Sniper - Storm Shaft's max stack is increased by 2"
+        "Sniper - Storm Shaft's max stack is increased by 3"
+      ]
+    }
+  },
+  {
+    "id": "I0BG",
+    "name": "Abyss Fall",
+    "koreanname": "어비스 폴",
+    "description": "The abyss shall devour you.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Gun)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Cosmic Star": 1
+      },
+      {
+        "The Ender": 1
+      },
+      {
+        "Crimson Rose": 1
+      },
+      {
+        "Heart of Fire": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Fragment of Hell": 1
+      },
+      {
+        "Blood Essence": 1
+      }
+    ],
+    "stats": {
+      "damage": 7800,
+      "agi": 390,
+      "int": 760,
+      "attackspeedpercent": 0.3,
+      "passive": [
+        "Empowers any allies that you heal",
+        "Increases skill damage and healing received by 12% for 6 seconds"
+      ],
+      "active": [
+        "On use, activates Abyss Fall",
+        "Summons a corrupt star which lands onto target area after 1.5 seconds (350 AoE)",
+        "Deals (INT X 15) magic damage and 1 second stun upon impact",
+        "Leaves a pool of darkness for 6 seconds that heals allies for (INT X 1)",
+        "Pools deal (INT X 2.5) magic damage per second to enemies and increases their damage taken by 4%",
+        "Every 10 seconds, increases stack by 1 (up to 3 stacks)"
+      ],
+      "spec": [
+        "Specialty - Abyss Fall",
+        "Shooter - Twin Star: Heals allies hit for (INT X 0.5 + Target's Max HP X 15%)",
+        "Shooter - Nanomachine Injection: Healing speed increased by 60% and duration increased by 100%; while buff is active, target is immune to debuffs"
       ]
     }
   },
@@ -22206,18 +22272,18 @@
       "armor": 135,
       "allstat": 290,
       "critchancepercent": 0.1,
-      "affinitywlpercent": 0.09,
+      "affinitywlpercent": 0.1,
       "affinityiwpercent": 0.06,
       "affinitylightpercent": 0.06,
       "passive": [
         "15% chance to activate Serenity upon healing ally",
-        "Increases skill damage by 6%",
+        "Increases skill damage by 8% and movement speed by 30",
         "Restores (target's max HP X 2% + INT X 0.15) HP and 1.2% MP per second",
         "Lasts 5 seconds"
       ],
       "active": [
         "On use, activates Cleansing",
-        "Clears debuffs from all allies in 800 range and and applies Serenity to them for 12 seconds",
+        "Clears debuffs from all allies in 900 range and and applies Serenity to them for 12 seconds",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -22360,7 +22426,7 @@
     "stats": {
       "allstat": 280,
       "hp": 2000,
-      "skilldamagepercent": 0.05,
+      "skilldamagepercent": 0.075,
       "movespeed": 50,
       "passive": [
         "Upon moving 400 distance, empowers next attack with Bloody Bite",
@@ -22371,7 +22437,7 @@
       "active": [
         "On use, activates Insatiable Hunger",
         "Consumes (current HP X 35%) to empower next 3 attacks within 1.5 seconds with Bloody Bite",
-        "Each empowered Bloody Bite will deal bonus 20000 pure damage",
+        "Each empowered Bloody Bite will deal bonus 25000 pure damage",
         "Cooldown: 10 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -22421,7 +22487,7 @@
         "On use, activates Bloodstorm",
         "Only usable at full stacks",
         "Becomes invisible (for Assassin, triggers Dark Shroud instead) and gains 200 movement speed for 2 seconds",
-        "Next attack will will be empowered, dealing MAIN STAT X 5 X crit multiplier magic damage",
+        "Next attack will will be empowered, dealing MAIN STAT X 6 X crit multiplier magic damage",
         "Cooldown: 10 seconds, cannot be dropped during cooldown"
       ]
     }

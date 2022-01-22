@@ -4167,7 +4167,8 @@
             "base": [
                 "Will spawn Orbs beyond 600 range around Duke on the edges of the Arena",
                 "When an orb reaches Duke, it will heal him for 5% HP",
-                "When picked up by a player, deals 15% Magic Damage"
+                "When picked up by a player, deals 15% Magic Damage",
+                "Spawn period: (5 - 0.2 X player count) seconds"
             ]
         }
     },
