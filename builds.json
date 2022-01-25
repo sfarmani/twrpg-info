@@ -1572,22 +1572,24 @@
         "type": "Full Support",
         "order": 1,
         "stat": "INT",
-        "version": "38b",
+        "version": "59e",
         "description": [
-            "Use Grimoire of Darkness for off-hand DPS"
+            "Secondary items are better used in case main ones are used by another ally",
+            "Use Wings of Immortal if no other reviver"
         ],
         "items": {
-            "Soul of Abyss": [],
-            "Eye of the Flame Lord": [
-                "Hood of Apocalypse"
+            "Soul of Abyss": [
+                "Heaven's Door"
             ],
-            "Bell of Light": [
-                "Grimoire of Darkness",
-                "Horn of God"
+            "Eye of the Flame Lord": [
+                "Crown of Cleansing"
+            ],
+            "Horn of God": [
+                "Ring of Divine Winds"
             ],
             "Jupiter, the Robe of Heavens": [],
-            "Protection of the Fairies": [
-                "Grim Heart"
+            "Wings of Immortal": [
+                "Protection of the Fairies"
             ]
         }
     },
