@@ -280,28 +280,29 @@
         "type": "Burst T Combo",
         "order": 2,
         "stat": "STR",
-        "version": "51b",
+        "version": "59e",
         "guidelink": [
-            "https://cafe.naver.com/twrpgn/2049559",
-            "https://cafe.naver.com/twrpgn/2049830"
+            "https://www.twrpg.com/viewtopic.php?f=4&t=6999&p=34467#p34467"
         ],
-        "description": [
-            "This build is mainly used by korean players.",
-            "It utilizes [T] Combo playstyle",
-            "Ring of the One is a bit of a meme for this build but still viable",
-            "Splitting is a bridge item until Astra"
-        ],
+        "description": [],
         "items": {
             "Astra, the Sword of Moonlight": [
                 "Splitting of the Sky and Earth"
             ],
-            "Crown of Absolute Zero": [],
+            "Horn of Demon God": [
+                "Crown of Absolute Zero"
+            ],
             "Ring of Frozen Soul": [
                 "Ring of the One",
                 "Ring of Fate"
             ],
-            "Felspike Armor": [],
-            "Wings of Flame Lord": []
+            "Plates of Sanguine Fury": [
+                "Cage of Twisted Soul",
+                "Felspike Armor"
+            ],
+            "Wings of Flame Lord": [
+                "Cape of Insatiable Hunger"
+            ]
         }
     },
     {
