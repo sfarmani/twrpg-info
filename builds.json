@@ -1357,7 +1357,8 @@
         "stat": "INT",
         "version": "59e",
         "description": [
-            "If you don't have enough supports and would like a safer option, use RoTo"
+            "If you don't have enough supports and would like a safer option, use RoTo",
+            "use Grim Heart before WOFL/SD"
         ],
         "items": {
             "Calamity": [],
