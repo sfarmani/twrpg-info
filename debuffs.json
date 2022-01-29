@@ -1,17 +1,37 @@
 [
     {
         "type": "Type-A",
-        "suffix": "Fixed Reduction",
+        "suffix": "None",
         "debufftype": "Armor Reduction",
         "names": [
             "Corruptor (Passive)",
-            "Anger (Passive)",
-            "Heart of Ifrit (Passive)",
-            "Frost Web Brooch (Passive)",
+            "Anger (Passive) - 15%",
+            "Oblivion (Passive) - 15%",
+            "Desolation (Passive) - 15%",
+            "Chaos (Passive) - 15%",
+            "Heart of Ifrit (Passive) - 12%",
+            "Frost Web Brooch (Passive) - 12%",
             "Fairy Robe - Fairy Fire (Active)",
-            "Guardian of the Skies (Active)",
             "Horns of Destruction (Active)",
-            "Demonic Fist (Active)"
+            "Heaven's Fist (Passive) - 15%",
+            "Demonic Fist (Passive) - 15%"
+        ]
+    },
+    {
+        "type": "Type-B",
+        "suffix": "None",
+        "debufftype": "Armor Reduction",
+        "names": [
+            "Guardian of the Skies (Active) - 20%",
+            "Ruler of the Skies (Active) - 20%"
+        ]
+    },
+    {
+        "type": "Type-C",
+        "suffix": "None",
+        "debufftype": "Armor Reduction",
+        "names": [
+            "Martial Artist - Vacuum Palm (Passive) - 15%"
         ]
     },
     {

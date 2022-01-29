@@ -2436,7 +2436,7 @@
     "color": "008000",
     "droprate": 0.0015,
     "required_by": [
-      "Spider Queen Icon"
+      "Spider Lord Icon"
     ],
     "recipe": [
       {
@@ -5006,7 +5006,7 @@
       "hp": 750,
       "aadamagepercent": 0.1,
       "passive": [
-        "On attack, 9% chance to reduce target's armor by 175 for 5 seconds"
+        "On attack, 9% chance to reduce target's armor by 12% [Type-A] for 5 seconds"
       ]
     }
   },
@@ -5069,7 +5069,7 @@
       "Frozen Heart",
       "Soulstalker",
       "Hydro Buster",
-      "Spider Queen Icon"
+      "Spider Lord Icon"
     ]
   },
   {
@@ -5113,7 +5113,7 @@
     "level": 90,
     "droprate": 0.05,
     "required_by": [
-      "Spider Queen Icon",
+      "Spider Lord Icon",
       "Winter's Heart"
     ],
     "stats": {
@@ -5143,7 +5143,7 @@
     "droprate": 0.05,
     "required_by": [
       "Everfrostbane",
-      "Spider Queen Icon"
+      "Spider Lord Icon"
     ],
     "stats": {
       "damage": 4950,
@@ -5255,7 +5255,7 @@
       "Spirit Dagger",
       "Meacronacer, the Sword of Thousand Illusions",
       "Glasses",
-      "Spider Queen Icon"
+      "Spider Lord Icon"
     ]
   },
   {
@@ -7818,7 +7818,7 @@
         "Deals (MAIN STAT X 2.5) magic damage in selected area",
         "Stuns for 2 seconds",
         "Upon expiration, explodes and deals (MAIN STAT X 15) magic damage",
-        "Reduces enemy armor by 250 for 10 seconds",
+        "Reduces enemy armor by 20% [Type-B] for 10 seconds",
         "Cooldown: 150 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -11474,7 +11474,7 @@
       "passive": [
         "On attack, 25% chance to activate Devastation",
         "Deals (STR X 10.5) magic damage to enemies in a frontal cone",
-        "Reduce armor by 200 for 6 seconds",
+        "Reduce armor by 15% [Type-A] for 6 seconds",
         "Cooldown: 5 seconds"
       ],
       "active": [
@@ -13702,7 +13702,7 @@
       "agi": 320,
       "skilldamagepercent": 0.09,
       "passive": [
-        "13% chance to reduce target's armor by 225 on attack for 5 seconds"
+        "13% chance to reduce target's armor by 12% [Type-A] on attack for 5 seconds"
       ]
     }
   },
@@ -14213,7 +14213,7 @@
       "passive": [
         "On attack, 25% chance to activate Devastation on attack",
         "Deals (STR X 12.75) magic damage in a frontal cone",
-        "Reduces enemy armor by 225 and magic damage taken by 1% for 6 seconds",
+        "Reduces enemy armor by 15% [Type-A] and magic damage taken by 1% for 6 seconds",
         "Cooldown: 5 seconds"
       ],
       "active": [
@@ -15380,7 +15380,7 @@
       ],
       "spec": [
         "Specialty - Evil Chaser",
-        "Shooter - Break Shot pierces non-boss units, and deals 2x damage to non-boss enemies or boss enemies below 25% HP."
+        "Shooter - Break Shot now pierces non-boss units and deals 25% increased damage. Deals up to 60% bonus damage based on target's missing HP (max damage to non-boss units)"
       ]
     }
   },
@@ -15428,7 +15428,7 @@
       ],
       "spec": [
         "Specialty - Evil Chaser",
-        "Shooter - Break Shot pierces non-boss units, and deals 2x damage to non-boss enemies or boss enemies below 30% HP."
+        "Shooter - Break Shot now pierces non-boss units and deals 35% increased damage. Deals up to 60% bonus damage based on target's missing HP (max damage to non-boss units)"
       ]
     }
   },
@@ -18139,7 +18139,7 @@
       "passive": [
         "On attack, 25% chance to activate Blade of Destruction",
         "Deals (STR X 13.5) magic damage to enemies in a frontal cone",
-        "Reduces enemy armor by 235 and magic damage taken by 2% for 6 seconds",
+        "Reduces enemy armor by 15% [Type-A] and magic damage taken by 2% for 6 seconds",
         "Cooldown: 5 seconds"
       ],
       "active": [
@@ -18185,7 +18185,7 @@
       "passive": [
         "On attack, 25% chance to activate Blade of Destruction",
         "Deals (STR X 15) magic damage to enemies in a frontal cone",
-        "Reduces enemy armor by 250 and magic damage taken by 2% for 6 seconds",
+        "Reduces enemy armor by 15% [Type-A] and magic damage taken by 2% for 6 seconds",
         "Cooldown: 5 seconds"
       ],
       "active": [
@@ -18742,7 +18742,7 @@
       ],
       "spec": [
         "Specialty - Evil Chaser",
-        "Shooter - Break Shot pierces non-boss units, and deals 2x damage to non-boss enemies or boss enemies below 40% HP."
+        "Shooter - Break Shot now pierces non-boss units and deals 45% increased damage. Deals up to 60% bonus damage based on target's missing HP (max damage to non-boss units)"
       ]
     }
   },
@@ -20513,12 +20513,12 @@
       "passive": [
         "Empowers next attack with Holy Fist every 6 seconds",
         "Deals 3 additional attacks with (200% ATK DMG) physical damage",
-        "Reduces armor by 225 for 3 seconds"
+        "Reduces armor by 15% [Type-A] for 3 seconds"
       ],
       "spec": [
         "Specialties - Summary Judgement, Holy Arts",
         "Crusader - If Original Sin is cast while Holy Fist is active, only the last slash is activated with stun duration reduced by 50% and cooldown by 66%.",
-        "Paladin - Divine Cross' damage is increased by15% and speed is increased by 50%",
+        "Paladin - Divine Cross' damage is increased by 15% and speed is increased by 50%",
         "Martial Artist - If Nameless Arts is cast while Holy Fist is active, its duration are reduced by 50% but its cooldown is also reduced by 66%"
       ]
     }
@@ -20987,7 +20987,7 @@
       "passive": [
         "Empowers next attack with Demon's Grasp every 5 seconds (melee only)",
         "Deals 5 additional attacks with (150% ATK DMG) physical damage",
-        "Reduces armor by 300 for 3 seconds [Type-A]",
+        "Reduces armor by 15% [Type-A] for 3 seconds",
         "Heals (7.5% max HP)"
       ],
       "active": [
@@ -21369,7 +21369,7 @@
       "active": [
         "On use, activates Star of Destruction",
         "Deals ((STR + AGI) X 37.5) magic damage to selected area",
-        "Reduces enemy armor by 300 for 10 seconds",
+        "Reduces enemy armor by 20% [Type-B] for 10 seconds",
         "Stuns for 2.5 seconds",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
       ],
@@ -22779,7 +22779,7 @@
     "type": "Icon",
     "color": "008000",
     "required_by": [
-      "Spider Queen Icon"
+      "Spider Lord Icon"
     ],
     "recipe": [
       {
@@ -22809,8 +22809,8 @@
   },
   {
     "id": "I0G3",
-    "name": "Spider Queen Icon",
-    "koreanname": "거미 여왕 아이콘",
+    "name": "Spider Lord Icon",
+    "koreanname": "거미 제왕 아이콘",
     "rank": "none",
     "grade": 0,
     "type": "Icon",
@@ -22947,7 +22947,7 @@
     ],
     "recipe": [
       {
-        "Spider Queen Icon": 1
+        "Spider Lord Icon": 1
       },
       {
         "Water Cannon": 1

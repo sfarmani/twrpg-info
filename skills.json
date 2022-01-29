@@ -490,9 +490,9 @@
         "order": 6,
         "active": [
             "Drops down a flaming boulder.",
-            "INT X 10 magic damage",
-            "Deals up to 300% bonus damage based on missing HP",
-            "Deals max damage to rooted/stunned/paused units"
+            "INT X 20 magic damage",
+            "Deals up to 60% bonus damage based on target's missing HP",
+            "Deals max damage to stunned/paused units"
         ],
         "active_tags": [
             "Hero",
@@ -543,10 +543,10 @@
         "order": 8,
         "active": [
             "Transmutes a water bomb.",
-            "INT X 12.5 magic damage",
+            "INT X 15 magic damage",
             "Explodes when it touches a boss unit or 10 seconds elapse",
             "Burning units take 100% bonus damage",
-            "On recast, refreshes the duration and increases its damage by 100% (up to 10 times)",
+            "On recast, refreshes the duration and increases its damage by 100% (up to 5 times)",
             "Up to 1 bomb can be active at once",
             "Chain: Wind Blast (pushes the bomb away)"
         ],
@@ -730,7 +730,7 @@
         "active": [
             "Creates a fierce storm of rocks.",
             "Drops 5 rocks over target area",
-            "Each rock deals INT X 3 bonus damage",
+            "Each rock deals INT X 3.3 bonus damage",
             "Chain: Magma Explosion (increases damage of rock by 100~150%)"
         ],
         "active_tags": [
@@ -782,7 +782,7 @@
             "INT X 7.5 magic damage",
             "Also fired from existing cannons",
             "Cannon will disappear if you move far away from it or 10 seconds elapse",
-            "Up to 4 cannons can be active at once"
+            "Up to 5 cannons can be active at once"
         ],
         "active_tags": [
             "Hero",
@@ -1810,8 +1810,8 @@
         ],
         "active": [
             "Relentlessly fire magic bullets together with the probes.",
-            "Fires 12 bullets + 4 additional bullets per probe every second (each bullet deals 70% bonus damage)",
-            "Channeled up to a maximum of 3 seconds",
+            "Fires 12 bullets + 4 additional bullets per probe every second (each bullet deals 100% bonus damage)",
+            "Channeled up to a maximum of 2.5 seconds",
             "Each 1% increase in attack speed increases fire count by 0.5%"
         ],
         "passive_tags": [
@@ -1829,7 +1829,7 @@
         ]
     },
     {
-        "id": "A0VJ",
+        "id": "A0VZ",
         "name": "Comet Storm",
         "heroClass": "Shooter",
         "color": "b3ffe6",
@@ -3476,7 +3476,7 @@
         "passive": [
             "Apply sudden pressure to weak points, slowing down the target's movement.",
             "Basic attacks have a 15% chance to slow the target",
-            "Temporarily decrease target's armor if debuff is stacked"
+            "Temporarily decrease target's armor by 15% [Type-C] if debuff is stacked"
         ],
         "passive_tags": [
             "Hero",
@@ -6397,7 +6397,7 @@
         "passive": [
             "An aspect of crusader who calls down retribution on his foes.",
             "Increase nearby allies' attack damage by 10%",
-            "Judgment - deals 100% bonus damage to boss units",
+            "Judgment - deals 150% bonus damage",
             "Sigil - Increases skill damage by 12% for 20 seconds"
         ],
         "passive_tags": [
@@ -6504,7 +6504,7 @@
         ],
         "active": [
             "Merges with the holy spirit to move at the speed of light.",
-            "STR X 4.5 magic damage",
+            "STR X 5 magic damage",
             "Deals 150% bonus damage to enemies afflicted with Mark of Light",
             "Activates Judgment on next attack",
             "Provides Sigil to a single ally"
@@ -6557,9 +6557,9 @@
         "order": 9,
         "active": [
             "Summons a holy cross to bring down judgment on enemies.",
-            "Attack Damage X 7.5 magic damage",
+            "Attack Damage X 8 magic damage",
             "Binds target's movement for 2 seconds",
-            "Deals 75% bonus damage if target is already bound or is below 40% HP"
+            "Deals up to 75% bonus damage based on target's missing HP (max damage to rooted targets)"
         ],
         "active_tags": [
             "Hero",
@@ -6765,7 +6765,7 @@
         "order": 9,
         "active": [
             "Pauses enemies for 1.8 seconds",
-            "Delivers Attack Damage X 27.5 magic damage at the end",
+            "Delivers Attack Damage X 40 magic damage at the end",
             "Stuns for 2.5 seconds",
             "Deals up to 40% bonus damage based on target's missing HP"
         ],

@@ -1,5 +1,237 @@
 [
     {
+        "name": "59g",
+        "notes": [
+            "Released on: January 28th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Caedis, the Sword of Slaughter - Fixed bug with marks randomly resetting",
+            "Crusader - Fixed bug with light affinity not working on W correctly",
+            "Alchemist - Fixed bug with Philosopher's Stone (T) not working correctly",
+            "Samael - Fixed bug where Judgment didn't kill anything"
+        ],
+        "items": [
+            {
+                "name": "Mask of Demigod",
+                "changes": [
+                    "Pressing M during active on enemy unit will also teleport you the target instead of doing nothing",
+                    "(QoL change)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Obliterate (F)",
+                    [
+                        "Damage: ATK DMG X 27.5 → ATK DMG X 40"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Break Shot (E)",
+                    [
+                        "Fixed damage font size being too big"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Conjure Fire (Q) - Magma Explosion (W)",
+                    [
+                        "Rock Storm damage amplifier affected by flame affinity again"
+                    ],
+                    "Conjure Fire (Q) - Boulder Strike (R)",
+                    [
+                        "Base damage: INT X 15 → INT X 20",
+                        "Max damage increase: 100% → 60%",
+                        "Fall time: 3 seconds → 2 seconds"
+                    ],
+                    "Conjure Earth (R) - Conjure Cannon (Q)",
+                    [
+                        "Fire period reduced by aprox 20%",
+                        "Distance allowed apart: 1000 → 1200"
+                    ]
+                ]
+            }
+        ],
+        "misc": []
+    },
+    {
+        "name": "59f",
+        "notes": [
+            "Released on: January 28th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Thunderer - Fixed issue where attack delay wasn't changed from last patch",
+	        "Alchemist - Fixed issue where recasting T didn't refresh duration"
+        ],
+        "events": [
+            "Winter Event is over as of 2022/01/27"
+        ],
+        "items": [
+            {
+                "name": "Devil / Fiend / Chronos Chaser series",
+                "changes": [
+                    "Shooter Spec",
+                    [
+                        "Before",
+                        [
+                            "E - Deals 100% bonus damage to non-boss units or enemies below 25% / 30% / 40% HP"
+                        ],
+                        "After",
+                        [
+                            "E - Damage increased by 25% / 35% / 45%",
+                            "Deals up to 60% bonus damage based on target's missing HP or if target is non-boss",
+                            "Both damage bonuses are multiplicative"
+                        ]
+                    ]
+                ]
+            },
+            {
+                "name": "Spider Queen Icon",
+                "changes": [
+                    "Renamed to Spider Lord Icon"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Archangel Samael",
+                "changes": [
+                    "Judgment - No longer affects summons"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Aura (D)",
+                    [
+                        "Retribution judgment bonus damage: 100% → 150%"
+                    ],
+                    "Divine Spirit (W)",
+                    [
+                        "Damage increased from STR X 3.75 → STR X 5"
+                    ],
+                    "Divine Cross (R)",
+                    [
+                        "Damage increased from ATK DMG X 7.5 → ATK DMG X 8",
+                        "Now deals scaling bonus damage based on lost HP"
+                    ]
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Rabid Storm (F)",
+                    [
+                        "Will cancel any active knockbacks when activated"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Auto attack range: 750 → 900",
+                    "Stardust Rain (T)",
+                    [
+                        "Active bonus damage: 70% → 100%",
+                        "Knockback duration: 600 → 300",
+                        "Max channel time: 3 seconds → 2.5 seconds",
+                        "(theoretical max damage should be just slightly lower than before)"
+                    ],
+                    "Comet Storm (F)",
+                    [
+                        "Cast time reduced slightly"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Gentle Winds (W)",
+                    [
+                        "No longer combines with Gentle Winds cast by other wind mages"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Affinities no longer affect amplifiers for QW(ER) / QR / WR",
+                    "Conjure Fire (Q) - Boulder Strike (R)",
+                    [
+                        "Base damage: INT X 10 → INT X 15",
+                        "Max damage increase: 300% → 100%"
+                    ],
+                    "Conjure Water (W) - Water Bomb (Q)",
+                    [
+                        "Base damage: INT X 12.5 → INT X 15",
+                        "Max stacks: 10 → 5"
+                    ],
+                    "Conjure Air (E) → Rock Storm (R)",
+                    [
+                        "Base damage per rock: INT X 3 → INT X 3.3"
+                    ],
+                    "Conjure Earth (R) - Conjure Cannon (Q)",
+                    [
+                        "Max summon count: 4 → 5"
+                    ],
+                    "Philosopher's Stone (T)",
+                    [
+                        "Changed to display remaining reset count clearly"
+                    ]
+                ]
+            },
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Dance of Fire (F)",
+                    [
+                        "Lag reduced"
+                    ],
+                    "Meeko will no longer take damage from Nereid water when attached to Shrine Priestess",
+                    "When exiting from the minigame of Underlord Agareth, Meeko will also gain 10 second immunity to harmful effects"
+                ]
+            }
+        ],
+        "misc": [
+            "Armor system changes",
+            [
+                "Boss armor changed to following levels: 400 ~ 900",
+                [
+                    "Any summons of the boss, such as Agareth's soul crystal, may have lower armor than the boss itself"
+                ],
+                "Armor reductions will now be % based",
+                [
+                    "Corruptor / Anger / Oblivion / Desolation / Chaos will give 15% armor reduction [Type-A]",
+                    "Frostweb Brooch / Heart of Ifrit / Heaven's Fist / Demonic Fist gives 12 / 15% armor reduction [Type-A]",
+                    "Guardian of the skies / Ruler of the Skies will give 20% armor reduction [Type-B]",
+                    "Martial Artist's E skill will now give 15% armor reduction [Type-C]"
+                ],
+                "Any values of armor ignore / armor debuff will stack multiplicatively with each other",
+                [
+                    "EX: With Thunderer's passive 70% armor ignore, demonic fist debuff 15%, Martial Artist E debuff 15%, target's armor will be treated as 900 * (1 - 0.7) * (1 - 0.15) * (1 - 0.15) = 195",
+                    "(explanation of changes: end-game bosses will take more physical damage than before. note that your physical damage may be slightly lower than before on dummies. % reduction keeps the efficiency of armor debuffs at similar levels whether the target's armor is low or high, and will prevent physical damage from rising too high by stacking armor debuffs)"
+                ]
+            ],
+            "Duke token skill has been added",
+            "Training dummy",
+            [
+                "Collision size increased to 96 to better match the size of most bosses",
+                "Attack land timing has been updated to better match the attack animation"
+            ]
+        ]
+    },
+    {
         "name": "59e",
         "notes": [
             "Released on: January 21st, 2021",
