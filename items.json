@@ -17311,7 +17311,7 @@
       "allstat": 285,
       "hpregen": 120,
       "passive": [
-        "On direct hit, applies Fervor (single-taget spells on allies)",
+        "On direct hit, applies Fervor (single-target spells on allies)",
         "Increases damage output by 5% and main stat by 90 for 12 seconds"
       ],
       "active": [
