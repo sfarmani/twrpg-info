@@ -19018,7 +19018,7 @@
       "periodicdamagepercent": 0.1,
       "active": [
         "On use, activates Chain of Plague",
-        "Affects units closets to initial target",
+        "Affects units closest to initial target",
         "If enemy: deals (INT X 0.5) magic damage per 0.5 seconds and reduces healing received by 10%",
         "If ally: heals (INT X 0.5) HP per 0.5 seconds and increases magic defense by 40% (heals half HP for self)",
         "Upon expiration, explodes and deals (INT X 6) magic damage in an AoE",
