@@ -6783,7 +6783,7 @@
     "type": "Accessory",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.0125,
+    "droprate": 0.016,
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ring of Time",
@@ -6818,7 +6818,7 @@
     "type": "Weapon (Shared)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.0125,
+    "droprate": 0.016,
     "required_by": [
       "Ethenos, the Staff of Space",
       "Triple Snow",
@@ -6865,7 +6865,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.0225,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
       "Ruinbringer",
@@ -6892,7 +6892,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.0225,
     "required_by": [
       "Claws of Beriel",
       "Chronos, the Cannon of Time",
@@ -6966,7 +6966,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.0025,
+    "droprate": 0.0033,
     "required_by": [
       "Shadow Dragon Icon"
     ],
@@ -6990,7 +6990,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "ratc",
@@ -7005,7 +7005,7 @@
     "type": "Weapon (Melee)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.01,
+    "droprate": 0.013,
     "required_by": [
       "Claws of Beriel",
       "Skeleton King Icon"
@@ -7045,7 +7045,7 @@
     "type": "Weapon (Staff)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.01,
+    "droprate": 0.013,
     "required_by": [
       "Hell Riser",
       "Crimson Hatred",
@@ -7082,7 +7082,7 @@
     "type": "Armor",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.0125,
+    "droprate": 0.016,
     "required_by": [
       "Medea, the Robe of the Witch",
       "Skeleton King Icon"
@@ -7116,7 +7116,7 @@
     "type": "Accessory",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.0125,
+    "droprate": 0.016,
     "required_by": [
       "Cold Ring of Death",
       "Skeleton King Icon"
@@ -7149,7 +7149,7 @@
     "type": "Accessory",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.0125,
+    "droprate": 0.016,
     "required_by": [
       "Requiem, the Armor of Lamentation",
       "Skeleton King Icon"
@@ -7190,7 +7190,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.0225,
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -7223,7 +7223,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.0225,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
       "Chronos, the Cannon of Time",
@@ -7251,7 +7251,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.0225,
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -7288,7 +7288,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.0225,
     "required_by": [
       "Claws of Beriel",
       "Crimson Reaper",
@@ -7322,7 +7322,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "belv",
@@ -7337,7 +7337,7 @@
     "type": "Weapon (Staff)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.015,
+    "droprate": 0.019,
     "required_by": [
       "Staff of Plague",
       "Zombie Lord Icon"
@@ -7374,7 +7374,7 @@
     "type": "Headwear",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.015,
+    "droprate": 0.019,
     "required_by": [
       "Hood of Apocrypha",
       "Soul of the Dead",
@@ -7411,7 +7411,7 @@
     "type": "Wings",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.01,
+    "droprate": 0.013,
     "required_by": [
       "Blazing Heart",
       "Ring of Revival",
@@ -7450,7 +7450,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.0225,
     "required_by": [
       "Oceanus, the Sword of Light",
       "Tiberius, the Spear of Lightning",
@@ -7486,7 +7486,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.0225,
     "required_by": [
       "Crimson Reaper",
       "Winter's Heart",
@@ -7523,7 +7523,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.0225,
     "required_by": [
       "Bloody Hatred",
       "Staff of Abyss",
@@ -7559,7 +7559,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "I0D2",
@@ -7574,7 +7574,7 @@
     "type": "Wings",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.01,
+    "droprate": 0.013,
     "required_by": [
       "Protection of the Fairies",
       "Bag of Mother Nature",
@@ -7615,7 +7615,7 @@
     "type": "Weapon (Melee)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.015,
+    "droprate": 0.019,
     "required_by": [
       "Oceanus, the Sword of Light",
       "Winter's Heart",
@@ -7652,7 +7652,7 @@
     "type": "Accessory",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.0075,
+    "droprate": 0.019,
     "required_by": [
       "Latea, the Ring of Overlord",
       "Hydro Buster",
@@ -7698,7 +7698,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.0225,
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -7738,7 +7738,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.0225,
     "required_by": [
       "Spirit Dagger",
       "Pheles, the Bow of Skies",
@@ -7774,7 +7774,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "I0EG",
@@ -7789,7 +7789,7 @@
     "type": "Wings",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.01,
+    "droprate": 0.013,
     "required_by": [
       "Archangel Wings",
       "Brave Heart",
@@ -7838,7 +7838,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.0225,
     "required_by": [
       "Claws of Beriel",
       "Tiberius, the Spear of Lightning",
@@ -7874,7 +7874,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.0225,
     "required_by": [
       "Ruinbringer",
       "Hell Riser",
@@ -7887,7 +7887,7 @@
       "Ring of Time",
       "Fiend Chaser",
       "Desolation",
-      "Espishu, the Sword of Chaos",
+      "Espishu, the True Sword of Eternity",
       "Radiance of the One",
       "Eternal Winter",
       "Heaven's Door",
@@ -7911,7 +7911,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.0225,
     "required_by": [
       "Oceanus, the Sword of Light",
       "Halo of Judgment",
@@ -7925,7 +7925,7 @@
       "Bag of Universe",
       "Soul of Abyss",
       "Cosmic Reaper",
-      "Ethenos, the Staff of Chaos",
+      "Ethenos, the True Staff of Space",
       "Harmonia, the Sparkle of Life",
       "Star of Apotheosis",
       "Guardian Angel",
@@ -7948,7 +7948,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "kymn",
@@ -7963,7 +7963,7 @@
     "type": "Weapon (Melee)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.0075,
+    "droprate": 0.0095,
     "required_by": [
       "Cosmic Reaper",
       "Shadow Dragon Icon"
@@ -7998,7 +7998,7 @@
     "type": "Armor",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.01,
+    "droprate": 0.013,
     "required_by": [
       "Robe of Storm",
       "Shadow Dragon Icon"
@@ -8038,7 +8038,7 @@
     "type": "Accessory",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.01,
+    "droprate": 0.013,
     "required_by": [
       "Ring of Time",
       "Ispion, the Runed Ring",
@@ -8075,7 +8075,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0125,
+    "droprate": 0.016,
     "required_by": [
       "Crimson Reaper",
       "Ruinbringer",
@@ -8115,7 +8115,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0125,
+    "droprate": 0.016,
     "required_by": [
       "Staff of Plague",
       "Pheles, the Bow of God",
@@ -8161,7 +8161,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.012,
-      0.0085
+      0.011
     ],
     "required_by": [
       "Winter's Heart",
@@ -8203,7 +8203,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "srbd",
@@ -8401,11 +8401,11 @@
       "Bag of Universe",
       "Ruler of the Skies",
       "Chaos",
-      "Espishu, the Sword of Chaos",
+      "Espishu, the True Sword of Eternity",
+      "Ethenos, the True Staff of Space",
       "Wings of Flame Lord",
       "Wings of Frost Lord",
       "Wings of Night Lord",
-      "Ethenos, the Staff of Chaos",
       "Chaos Dagger",
       "Prophetia, the Origin of Knowledge",
       "Agnitus, the Bow of Divine Fury",
@@ -8449,7 +8449,7 @@
       "Soul of Abyss",
       "Ruler of the Skies",
       "Desolation",
-      "Espishu, the Sword of Chaos",
+      "Espishu, the True Sword of Eternity",
       "Bag of Despair",
       "Eternal Winter",
       "Jupiter, the Robe of Heavens",
@@ -8723,7 +8723,7 @@
       "Calamity",
       "Soulbane",
       "Last Word",
-      "Ethenos, the Staff of Chaos",
+      "Ethenos, the True Staff of Space",
       "Heaven's Door",
       "Cape of Deep Abyss",
       "Soul Devourer",
@@ -8937,7 +8937,7 @@
       "Ring of Hope",
       "Ring of Despair",
       "Chaos",
-      "Espishu, the Sword of Chaos",
+      "Ethenos, the Staff of Chaos",
       "Eternal Winter",
       "Soulbane",
       "Last Word",
@@ -8955,9 +8955,7 @@
       "Heartrender",
       "Caedis, the Sword of Slaughter",
       "Fulminata, the Bringer of Storms",
-      "Crescendo of Madness",
-      "Star of Apotheosis",
-      "Bloodstorm"
+      "Star of Apotheosis"
     ]
   },
   {
@@ -8989,7 +8987,8 @@
       "Agnitus, the Bow of Divine Fury",
       "Cape of Insatiable Hunger",
       "Sanguis, the Robe of Sacrifice",
-      "Abyss Fall"
+      "Abyss Fall",
+      "Crescendo of Madness"
     ]
   },
   {
@@ -14331,7 +14330,7 @@
     "color": "DC143C",
     "level": 100,
     "required_by": [
-      "Espishu, the Sword of Chaos"
+      "Espishu, the True Sword of Eternity"
     ],
     "recipe": [
       {
@@ -15030,7 +15029,7 @@
     "color": "DC143C",
     "level": 100,
     "required_by": [
-      "Ethenos, the Staff of Chaos"
+      "Ethenos, the True Staff of Space"
     ],
     "recipe": [
       {
@@ -18246,10 +18245,10 @@
     }
   },
   {
-    "id": "I0AM",
-    "name": "Espishu, the Sword of Chaos",
-    "koreanname": "혼돈의 검 에스피슈",
-    "description": "Do you wish for endless power? If so, step into the primordial chaos ..",
+    "id": "I0F3",
+    "name": "Espishu, the True Sword of Eternity",
+    "koreanname": "진 영겁의 검 에스피슈",
+    "description": "The only truth is your strength.",
     "rank": "[Epic]",
     "grade": 4,
     "type": "Weapon (Melee)",
@@ -18266,10 +18265,37 @@
         "God's Page": 1
       },
       {
-        "Spearhead of Death": 1
+        "Fragment of Chaos": 1
+      }
+    ],
+    "stats": {
+      "damage": 9000,
+      "str": 480,
+      "agi": 480,
+      "mainstat": 250,
+      "skilldamagepercent": 0.105,
+      "passive": [
+        "On attack, 10% chance to activate Chaos Strike",
+        "Deals ((STR + AGI) X 6) magic damage"
+      ]
+    }
+  },
+  {
+    "id": "I0AM",
+    "name": "Espishu, the Sword of Chaos",
+    "koreanname": "혼돈의 검 에스피슈",
+    "description": "Do you wish for endless power? If so, step into the primordial chaos ..",
+    "rank": "[Epic]",
+    "grade": 4,
+    "type": "Weapon (Melee)",
+    "color": "99FF99",
+    "level": 100,
+    "recipe": [
+      {
+        "Espishu, the True Sword of Eternity": 1
       },
       {
-        "Fragment of Chaos": 1
+        "Spearhead of Death": 1
       },
       {
         "Fragment of Soul": 1
@@ -19105,6 +19131,46 @@
     }
   },
   {
+    "id": "I0FR",
+    "name": "Ethenos, the True Staff of Space",
+    "koreanname": "진 차원의 지팡이 에테노스",
+    "description": "The only truth is your strength.",
+    "rank": "[Epic]",
+    "grade": 4,
+    "type": "Weapon (Staff)",
+    "color": "99FF99",
+    "level": 100,
+    "required_by": [
+      "Ethenos, the Staff of Chaos"
+    ],
+    "recipe": [
+      {
+        "Ethenos, the Staff of Space": 1
+      },
+      {
+        "Fragment of Chaos": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Essence of Light": 1
+      }
+    ],
+    "stats": {
+      "damage": 8000,
+      "str": 410,
+      "int": 780,
+      "skilldamagepercent": 0.14,
+      "active": [
+        "On use, activates Dimensional Explosion",
+        "Deals (INT X 75) magic damage in an AoE",
+        "Stuns for 1.5 seconds",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
     "id": "pspd",
     "name": "Ethenos, the Staff of Chaos",
     "koreanname": "혼돈의 지팡이 에테노스",
@@ -19116,22 +19182,13 @@
     "level": 100,
     "recipe": [
       {
-        "Ethenos, the Staff of Space": 1
+        "Ethenos, the True Staff of Space": 1
       },
       {
         "Fragment of Soul": 1
       },
       {
-        "Fragment of Chaos": 1
-      },
-      {
-        "Essence of Flame": 1
-      },
-      {
         "Spearhead of Death": 1
-      },
-      {
-        "Essence of Light": 1
       },
       {
         "Essence of Darkness": 1
@@ -22215,7 +22272,7 @@
         "Aegis of Sea": 1
       },
       {
-        "Fragment of Soul": 1
+        "Fragment of Hell": 1
       },
       {
         "Emblem of Sacrifice": 1
@@ -22469,7 +22526,7 @@
         "Essence of Sea": 1
       },
       {
-        "Fragment of Soul": 1
+        "Mark of Lord": 1
       },
       {
         "Blood Essence": 1

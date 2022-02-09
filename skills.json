@@ -2543,10 +2543,13 @@
         "icon": "ElementalistQ_Q",
         "cooldown": 60,
         "order": 8,
-        "active": [
-            "Explodes by overheating, dealing huge damage to nearby enemies.",
+        "passive": [
+            "Creates a massive explosion upon death.",
             "Summoner's INT X 22.5 magic damage",
             "Stuns for 2 seconds"
+        ],
+        "active": [
+            "Detonates manually"
         ],
         "active_tags": [
             "Summon",
@@ -2565,8 +2568,8 @@
         "order": 9,
         "active": [
             "Forms a contract with the elemental of water, which is specialized in healing and empowering allies.",
-            "HP = Elementalist Max HP X 125%",
-            "Armor = Elementalist Armor X 75%",
+            "HP = Elementalist's Max HP X 150%",
+            "Armor = Elementalist's Armor X 100%",
             "Lasts 20 seconds"
         ],
         "active_tags": [
@@ -2631,7 +2634,7 @@
         "active": [
             "Fires a beam of water that heals allies' wounds.",
             "Heals for (Target's Missing HP X 5% + Summoner's INT X 0.3)",
-            "Heals up to 3 allies"
+            "Heals up to 4 allies"
         ],
         "active_tags": [
             "Summon",
@@ -2649,7 +2652,7 @@
         "order": 13,
         "active": [
             "Liquidifies the elemental to allow it to travel rapidly to target location.",
-            "Heals allies hit for (target's max HP X 20%)"
+            "Heals allies hit for (INT X 2 + target's max HP X 20%)"
         ],
         "active_tags": [
             "Summon",
@@ -2667,9 +2670,9 @@
         "order": 14,
         "active": [
             "Forms a contract with the elemental of lightning, which is specialized in ranged attacks.",
-            "HP = Max HP of Elementalist X 150%",
-            "Armor = Armor of Elementalist X 100%",
-            "Lasts 40 seconds"
+            "HP = Elementalist's Max HP X 200%",
+            "Armor = Elementalist's Armor X 100%",
+            "Lasts 30 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -2805,8 +2808,9 @@
         "order": 21,
         "passive": [
             "Blessed with the endurance of the earth.",
-            "Resistant to all debuffs",
-            "Reduces damage taken by self and nearby allies by 20%"
+            "Ignores debuffs and instant kill effects",
+            "Reduces damage taken by you and nearby allies by 205",
+            "Upon reaching 1 HP, becomes invincible"
         ],
         "passive_tags": [
             "Summon",
@@ -2847,13 +2851,14 @@
         "order": 23,
         "passive": [
             "Affinity with summons allows you to bring out their potentials.",
-            "Increases your summons' damage dealt by 12%"
+            "Increases your summons' damage dealt by 12%",
+            "Decreases your summons' damage taken by 40%"
         ],
         "active": [
             "Forms a spiritual link with summon, granting it various stat bonuses. The link breaks if the summon strays too far from the summoner.",
-            "Provides 40% skill damage and 50% damage reduction to target",
-            "Provides immunity to instant death spells",
+            "Provides 40% skill damage",
             "Heals for (Target's Max HP X 5%) per second",
+            "Provides immunity to instant death spells",
             "Forming links with some summons may provide an additional ability to Elementalist"
         ],
         "passive_tags": [
@@ -2883,7 +2888,7 @@
         "active": [
             "\"It is a dangerous gamble, but controlling a twisted elemental boasts destructive power that matches the Demon Lord.\" - Elementalist",
             "Summons Chaos Elemental",
-            "Lasts 20 seconds"
+            "Lasts 12 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -2922,7 +2927,7 @@
         "order": 26,
         "passive": [
             "The power of chaos bends to none.",
-            "Immune to all harmful abilities (except empowered attacks like Zombie Lord's Craze or Death Fiends Empowered attacks)"
+            "Immune to all harmful abilities"
         ],
         "passive_tags": [
             "Summon",
@@ -3455,7 +3460,7 @@
         "order": 3,
         "passive": [
             "Martial art that allows striking multiple foes on a single attack.",
-            "Adds 40% splash effect to attack",
+            "Adds splash effect to attack",
             "8% chance to deal AGI x 8 magic damage to nearby enemies on attack"
         ],
         "passive_tags": [

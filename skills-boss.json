@@ -3460,7 +3460,8 @@
             "base": [
                 "Creates a build-up of water underneath a random target or Nereid himself",
                 "After 3 seconds of channel, releases the pressure and knocks everyone that weighs less than Nereid upward",
-                "Deals 45000 Magic Damage"
+                "Deals 45000 Magic Damage to heroes",
+                "Deals 22500 Magic Damage to summons"
             ]
         }
     },

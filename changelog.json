@@ -1,5 +1,193 @@
 [
     {
+        "name": "59k",
+        "notes": [
+            "Released on: February 7th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Minor bug fixes"
+        ]
+    },
+    {
+        "name": "59h",
+        "notes": [
+            "Released on: February 6th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New recipes added",
+                    [
+                        "Espishu, the True Sword of Eternity - Espishu, the Sword of Eternity + Shackles of Heaven + Fragment of Chaos + God's Page",
+                        "Ethenos, the True Staff of Space - Ethenos, the Staff of Space + Essence of Light + Essence of Flame + Fragment of Chaos"
+                    ],
+                    "Recipes updated",
+                    [
+                        "Espishu, the Sword of Chaos - Espishu, the True Sword of Eternity + Spearhead of Death + Shining Fragment of Ruins + Fragment of Soul",
+                        "Ethenos, the Staff of Chaos - Ethenos, the True Staff of Space + Essence of Darkness + Spearhead of Death + Fragment of Soul",
+                        "Crescendo of Madness - Can now use Fragment of Hell instead of Fragment of Soul",
+                        "Bloodstorm - Can now use Mark of Lord instead of Fragment of Soul"
+                    ]
+                ]
+            },
+            {
+                "name": "Thanatos, the Robe of Hell",
+                "changes": [
+                    "Active",
+                    [
+                        "Duration will now be displayed as item charges"
+                    ]
+                ]
+            },
+            {
+                "name": "Star of Apotheosis",
+                "changes": [
+                    "Active",
+                    [
+                        "Proc damage is now visible to all players"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Bone Dragon ~ Shadow Dragon Irbert",
+                "changes": [
+                    "Base drop rate increased by ~28%",
+                    "Wish system implemented",
+                    "Drop rate with wish: 100%, without wish: 75%"
+                ]
+            },
+            {
+                "name": "Death Fiend / Valtora / Ifrit",
+                "changes": [
+                    "Drop rate without wish: 33% → 40%"
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Geyser (big circle) - Damage: 45000 → 45000 for heroes, 22500 for summons"
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Mini Tentacles",
+                    [
+                        "Add more distinct visual indicator to show where the tentacle is spawning",
+                        "Once the tentacle is locked onto a target, it will no longer change targets",
+                        "Mini tentacles attack: attack time 0.75 seconds → 1 seconds"
+                    ],
+                    "Transformation",
+                    [
+                        "Magic defense bonus: 0% → 15%",
+                        "Damage reduction bonus: 50% → 40%"
+                    ],
+                    "Spike",
+                    [
+                        "Damage: Current HP X 33% pure damage when a target is spiked",
+                        "Break - Increases damage taken by spike by 60% (up to once)",
+                        "Cleanse - Cuts HP of spike by half (up to once)"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Eight Palm Strike (W)",
+                    [
+                        "Splash damage no longer ignores armor",
+                        "Splash damage: ATK DMG X 0.4 → ATK DMG X 1"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Blessing of Zephyrus (Q)",
+                    [
+                        "Detection range: 900 → 1000",
+                        "If everyone is at full HP, will detect random units to heal instead"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Magical Broom (D)",
+                    [
+                        "When using W to cancel D flight, you will be able to start attacking right away"
+                    ]
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "All summons except Q will gain immunity to harmful effects for 3 seconds after summoning",
+                    "Seal of Wind (D)",
+                    [
+                        "Cast time removed"
+                    ],
+                    "Seal of Flame (Q)",
+                    [
+                        "Duration: 15 seconds → 10 seconds",
+                        "Cooldown: 20 seconds → 10 seconds",
+                        "Now automatically activates Explosion of Death"
+                    ],
+                    "Seal of Water (W)",
+                    [
+                        "HP: 125% → 150%",
+                        "Armor: 75% → 100%",
+                        "Cooldown automatically reset if there isn't any water elemental summoned for 4 consecutive seconds"
+                    ],
+                    "Seal of Lightning (E)",
+                    [
+                        "HP: 150% → 200%",
+                        "Cooldown will automatically reset if there isn't any lightning elemental summoned for 4 consecutive seconds"
+                    ],
+                    "Seal of Earth (R)",
+                    [
+                        "Earth elemental is now immune to instant kill effects by default",
+                        "When Earth elemental falls below 1 HP, it will become invulnerable"
+                    ],
+                    "Elemental Link (T)",
+                    [
+                        "Now passively grants 40% DR to all your summons",
+                        "Active no longer grants 50% DR to target summons"
+                    ],
+                    "Seal of Chaos (F)",
+                    [
+                        "Duration: 20 seconds → 12 seconds",
+                        "Proc damage: INT X 3.75 / 18.75 → INT X 5 / 25",
+                        "Attack cooldown: 0.75 seconds → 0.60 seconds"
+                    ],
+                    "Link skill for W",
+                    [
+                        "Added INT X 2 multiplier to heal",
+                        "Cooldown: 6 seconds → 5 seconds"
+                    ],
+                    "Link skill for E",
+                    [
+                        "Cooldown: 6 seconds → 5 seconds"
+                    ],
+                    "Link skill for R added",
+                    [
+                        "Grants target 40% damage reduction and immunity from CC effects for 5 + INT / 1000 seconds",
+                        "Cooldown: 20 seconds"
+                    ],
+                    "Link skills will no longer reset in cooldown if you switch between different elementals"
+                ]
+            }
+        ],
+        "misc": []
+    },
+    {
         "name": "59g",
         "notes": [
             "Released on: January 28th, 2022",

@@ -4718,11 +4718,12 @@
             "moveSpeed": "0"
         },
         "empoweredStats": {
-            "damageResist": "62.5",
+            "damageResist": "40",
             "attackDamage": "10392",
             "attackRange": "250",
             "attackSpeed": "1",
-            "moveSpeed": "500"
+            "moveSpeed": "500",
+            "magicResist": "15"
         },
         "drops": [
             "I014",
