@@ -1,5 +1,44 @@
 [
     {
+        "name": "59m",
+        "notes": [
+            "Released on: February 9th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "True Sword of Eternity - Fixed bug where passive effect was not working",
+            "True Staff of Chaos - Fixed bug where active effect was not working",
+            "Dark Knight - Fixed bug where cooldown reset is not working on D",
+            "Dark Knight - Fixed bug where Q cooldown is not restored if interrupted in some situations",
+            "Elementalist - Fixed bug where W duration was fixed to 30 seconds and was not affected by specialties",
+            "Elementalist - Chaos Dagger Specialty now displays properly (chaos elemental duration +30%)"
+        ],
+        "items": [
+            {
+                "name": "Heartrender",
+                "changes": [
+                    "Recipe update",
+                    [
+                        "Crimson Rose → Crimson Rose / Emblem of Sacrifice"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Crimson Rose drop rate 0.5% → 0.6%",
+                    "Spike",
+                    [
+                        "Break DR reduction: 60% → 50%",
+                        "Cleanse HP reduction: 50% → 33%"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "59k",
         "notes": [
             "Released on: February 7th, 2022",
