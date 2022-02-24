@@ -136,7 +136,7 @@
             {
                 "name": "Alchemist",
                 "changes": [
-                    "Conjure Fire (Q) - Blaze (Q)",
+                    "Conjure Fire (Q) - Boulder Strike (R)",
                     [
                         "Damage: INT X 20, up to 60% based on missing HP → INT X 17, x2 if target is below 40% HP"
                     ],

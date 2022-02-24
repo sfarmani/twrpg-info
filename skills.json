@@ -490,9 +490,8 @@
         "order": 6,
         "active": [
             "Drops down a flaming boulder.",
-            "INT X 20 magic damage",
-            "Deals up to 60% bonus damage based on target's missing HP",
-            "Deals max damage to stunned/paused units"
+            "INT X 17 magic damage",
+            "Deals 100% bonus damage to enemies below 40% HP/stunned/paused"
         ],
         "active_tags": [
             "Hero",
