@@ -1,5 +1,174 @@
 [
     {
+        "name": "59p",
+        "notes": [
+            "Released on: February 19th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New recipes added",
+                    [
+                        "Divine Slayer = Cosmic Reaper + The Ender + Soul Blossom + Aegis of Sea + Mark of Lord + Shining Fragment of Ruins",
+                        "Visage of Vengeance = Radiance of the One + Blood Essence + Aegis of Sea + Shining Fragment of Ruins",
+                        "Ring of Desolate Soul = Ring of Frozen Soul + Soul Blossom OR Blood Essence + Shining Fragment of Ruins x2"
+                    ]
+                ]
+            },
+            {
+                "name": "Heirloom of Lazarus",
+                "changes": [
+                    "Passive",
+                    [
+                        "Skill damage bonus per player: 4% → 5%"
+                    ],
+                    "Active",
+                    [
+                        "Blood field duration: 6 seconds → 8 seconds"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Zombie Lord",
+                "changes": [
+                    "Debuff inflicted on Zombie's attack damage per second: 500 → 400"
+                ]
+            },
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "The Ender drop rate increased by 20%"
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Tentacle damage now counts as damage from Duke"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Enchant Mastery (T)",
+                    [
+                        "Now is a spell book",
+                        "You can use W / E / R inside spellbook (all 3 share cooldowns) that applies to allies only"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Nameless Arts (F)",
+                    [
+                        "All skill damage bonus: 80% → 60% for counter, 100% for others"
+                    ]
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "Fantasm (D)",
+                    [
+                        "Resummon cooldown: 10 seconds → 5 seconds (if illusion dies)",
+                        "Illusion can now be controlled using D (can dash)",
+                        "Illusion will mimic your AA and QWE casts (Illusion can no longer cast QWERT separately)",
+                        "Illusion now deals 50% damage only"
+                    ],
+                    "Hidden Fang (Q)",
+                    [
+                        "No longer resets on chance",
+                        "No longer consumes marks to increase damage",
+                        "Range increased slightly",
+                        "Cast time reduced slightly"
+                    ],
+                    "Wonder Hand (W)",
+                    [
+                        "Passive",
+                        [
+                            "No longer charges every 2 seconds (only on skill cast now)",
+                            "When the passive procs, increase AGI by 5% for 1.5 seconds (stacks up to 2 times) → On attack, increase AGI by 2% for 6 seconds (stacks up to 10 times)"
+                        ],
+                        "Active",
+                        [
+                            "No longer grants dashes or chain casts (only a brief surge in movement speed now)",
+                            "Damage: AGI X 2.25 → AGI X 6",
+                            "Can crit now"
+                        ]
+                    ],
+                    "Devil's Mirror (E)",
+                    [
+                        "No longer applies 20% damage increase debuff",
+                        "Damage: AGI X 12.5 → AGI X 9",
+                        "Consumes all marks on targets hit, dealing 200% bonus damage per mark"
+                    ],
+                    "Craze Moon (R)",
+                    [
+                        "Reworked - renamed to Card Trick",
+                        "Throws magic cards around you",
+                        "Deals AGI X 4 magic damage per second for 15 seconds",
+                        "Right clicking a card will make it disappear and immediately teleport you to it, resetting the cooldown of your Q",
+                        "1 card is restored every 9 seconds, up to 4 cards",
+                        "You can recall any unused cards by pressing R again"
+                    ],
+                    "Stage Finisher (T)",
+                    [
+                        "Passive",
+                        [
+                            "Mark duration: 10 seconds → 300 seconds",
+                            "Each stack of mark increases damage you deal to target with your skills by 4%"
+                        ],
+                        "Active",
+                        [
+                            "Always crits now",
+                            "Damage per slash: ATK DMG X 1.8 + AGI X 15 → ATK DMG X 1.5 + AGI X 15",
+                            "Cooldown: 45 seconds → 30 seconds"
+                        ]
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Conjure Fire (Q) - Blaze (Q)",
+                    [
+                        "Damage: INT X 20, up to 60% based on missing HP → INT X 17, x2 if target is below 40% HP"
+                    ],
+                    "Conjure Air (E) → Rock Storm (R)",
+                    [
+                        "Collision radius per rock: 325 → 340"
+                    ],
+                    "Conjure Earth (R) - Conjure Cannon (Q)",
+                    [
+                        "Damage per cannon: INT X 7.5 → INT X 9"
+                    ]
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Mastery (D)",
+                    [
+                        "HP restored: 6% → 7%"
+                    ],
+                    "Blood Boil (R)",
+                    [
+                        "Duration increased by 1 second"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Reduced EXP required to level up by 25%"
+        ]
+    },
+    {
         "name": "59m",
         "notes": [
             "Released on: February 9th, 2022",

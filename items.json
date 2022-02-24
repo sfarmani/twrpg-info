@@ -8225,7 +8225,8 @@
       "Heartrender",
       "Agnitus, the Bow of Divine Fury",
       "Fulminata, the Bringer of Storms",
-      "Abyss Fall"
+      "Abyss Fall",
+      "Divine Slayer"
     ],
     "stats": {
       "damage": 9900,
@@ -8601,7 +8602,10 @@
       "Harmonia, the Sparkle of Life",
       "Endless Snow",
       "Crescendo of Madness",
-      "Crown of Cleansing"
+      "Crown of Cleansing",
+      "Ring of Desolate Soul",
+      "Visage of Vengeance",
+      "Divine Slayer"
     ]
   },
   {
@@ -8821,7 +8825,9 @@
       "Agnitus, the Bow of Divine Fury",
       "Endless Snow",
       "Crescendo of Madness",
-      "Cape of Insatiable Hunger"
+      "Cape of Insatiable Hunger",
+      "Visage of Vengeance",
+      "Divine Slayer"
     ]
   },
   {
@@ -9019,7 +9025,8 @@
       "Spear of Judgment",
       "Plates of Sanguine Fury",
       "Heirloom of Lazarus",
-      "Guardian Angel"
+      "Guardian Angel",
+      "Divine Slayer"
     ]
   },
   {
@@ -9087,7 +9094,9 @@
       "Bloodstorm",
       "Guardian Angel",
       "Heartrender",
-      "Abyss Fall"
+      "Abyss Fall",
+      "Ring of Desolate Soul",
+      "Visage of Vengeance"
     ]
   },
   {
@@ -9134,7 +9143,9 @@
       "Crown of Cleansing",
       "Star of Apotheosis",
       "Guardian Angel",
-      "Sanguis, the Robe of Sacrifice"
+      "Sanguis, the Robe of Sacrifice",
+      "Ring of Desolate Soul",
+      "Divine Slayer"
     ]
   },
   {
@@ -18207,6 +18218,9 @@
     "type": "Weapon (Melee)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Divine Slayer"
+    ],
     "recipe": [
       {
         "Crimson Reaper": 1
@@ -20196,6 +20210,9 @@
     "type": "Headwear",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Visage of Vengeance"
+    ],
     "recipe": [
       {
         "Halo of Judgment": 1
@@ -20850,6 +20867,9 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Ring of Desolate Soul"
+    ],
     "recipe": [
       {
         "Cold Ring of Death": 1
@@ -21880,6 +21900,52 @@
     }
   },
   {
+    "id": "I0MZ",
+    "name": "Divine Slayer",
+    "koreanname": "디바인 슬레이어",
+    "description": "A sword that has power to cut down divine beings.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Melee)",
+    "color": "99FF99",
+    "level": 100,
+    "recipe": [
+      {
+        "Cosmic Reaper": 1
+      },
+      {
+        "The Ender": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Mark of Lord": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "damage": 9400,
+      "agi": 880,
+      "hp": 2500,
+      "critmultiplier": 0.5,
+      "passive": [
+        "Every 12th attack activates Divine Slayer",
+        "Deals (4500 + MAIN STAT X 7.5) magic damage in an AoE",
+        "Deals 20% bonus damage to enemies below 50% HP",
+        "On skill cast, activates Transcendence",
+        "Increases AGI by 450 and HP regen by (Max HP X 7.5%) for 7.5 seconds",
+        "Divine Cut activates every 4th attack (except Martial Artist)",
+        "Cooldown: 15 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
     "id": "fgrd",
     "name": "Agnitus, the Bow of Divine Fury",
     "koreanname": "사자의 활 아그니투스",
@@ -22352,6 +22418,49 @@
     }
   },
   {
+    "id": "I0D7",
+    "name": "Visage of Vengeance",
+    "koreanname": "복수자의 형상",
+    "description": "Death to all who opposes our creed.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "99FF99",
+    "level": 100,
+    "recipe": [
+      {
+        "Radiance of the One": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "armor": 160,
+      "str": 280,
+      "agi": 265,
+      "aadamagepercent": 0.2,
+      "passive": [
+        "On attack, activates Judgment",
+        "Deals (Main Stat X 5) pure damage",
+        "Gains 1 stack of vengeance for 5 seconds",
+        "At 6 stacks of vengeance, Judgment deals 20% more damage and you gain 400 main stat that fades over 5 seconds",
+        "Cooldown: 0.75 seconds, cannot be dropped during cooldown (with precharge mechanism, up to 3 charges)"
+      ],
+      "active": [
+        "On use, activates Anti Magic Shield",
+        "Blocks all magic damage for 5 seconds",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
     "id": "I00J",
     "name": "Star of Apotheosis",
     "koreanname": "숭배의 별",
@@ -22436,16 +22545,58 @@
         "Each linked player (and yourself) receive the following",
         "+20% damage reduction [Type-A]",
         "+20% healing received bonus [Type-A]",
-        "+4% skill damage per ally linked (up to 12%)"
+        "+5% skill damage per ally linked (up to 12%)"
       ],
       "active": [
         "On use, summons Blood Rune",
-        "Heals (Max HP X 10%) every 0.5 seconds for 6 seconds",
+        "Heals (Max HP X 10%) every 0.5 seconds for 8 seconds",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty",
         "Knight - Improved Seal of Mana: Radius is increased by 30%."
+      ]
+    }
+  },
+  {
+    "id": "I0GR",
+    "name": "Ring of Desolate Soul",
+    "koreanname": "황폐한 영혼의 반지",
+    "description": "Ring infused with twisted souls",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "99FF99",
+    "level": 100,
+    "recipe": [
+      {
+        "Ring of Frozen Soul": 1
+      },
+      {
+        "Soul Blossom": 1,
+        "Blood Essence": 1
+      },
+      {
+        "Shining Fragment of Ruins": 2
+      }
+    ],
+    "stats": {
+      "mainstat": 625,
+      "attackspeedpercent": 0.35,
+      "skilldamagepercent": 0.20,
+      "hpregen": 100,
+      "mpregen": 50,
+      "active": [
+        "On use, activates Desolate Array",
+        "Grants immunity to damage, debuffs and CC effects for 3 seconds",
+        "Upon expiration, deals (damage received X 15) pure damage in an aoe (up to (max HP x 15))",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialties - Ring of Frozen Soul",
+        "Swordsman - Flash Step: Can be cast once more.",
+        "Assassin - Shadow Rush: An additional shadow clone is created.",
+        "Assassin - Shadow Slash: Damage increased by 100%."
       ]
     }
   },

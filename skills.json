@@ -779,7 +779,7 @@
         "order": 19,
         "active": [
             "Transmutes a cannon to fire a powerful cannonball.",
-            "INT X 7.5 magic damage",
+            "INT X 9 magic damage",
             "Also fired from existing cannons",
             "Cannon will disappear if you move far away from it or 10 seconds elapse",
             "Up to 5 cannons can be active at once"
@@ -1291,7 +1291,7 @@
             "Manipulate blood through black magic.",
             "Increases max HP by INT X 4",
             "Periodically charges blood gauge every (6 - 0.04 X Hero Level)",
-            "On next attack, consumes blood gauge to deal Max HP X 25% pure damage and heal for Max HP X 6%"
+            "On next attack, consumes blood gauge to deal Max HP X 25% pure damage and heal for Max HP X 7%"
         ],
         "passive_tags": [
             "Hero",
@@ -1405,7 +1405,7 @@
         ],
         "active": [
             "Rallies allies by stimulating their blood.",
-            "Increases attack damage and HP by 20% for (5 + STR / 750) seconds",
+            "Increases attack damage and HP by 20% for (6 + STR / 750) seconds",
             "Increases your attack speed by 50% and grants each attack a 50% chance to refill 1 blood gauge on attack",
             "Rose Dance's cast time and cooldown are removed and can be cast up to 3 times without incurring HP consumption"
         ],
@@ -1896,7 +1896,7 @@
         ]
     },
     {
-        "id": "A0DI",
+        "id": "A17W",
         "name": "Speed Enchant",
         "heroClass": "Sword Enchanter",
         "color": "dfdfdf",
@@ -1992,6 +1992,69 @@
         ]
     },
     {
+        "id": "A0DI",
+        "name": "Speed Enchant - allies only",
+        "heroClass": "Sword Enchanter",
+        "color": "dfdfdf",
+        "hotkey": "[T] → [W]",
+        "icon": "SwordEnchanterW",
+        "cooldown": 30,
+        "order": 7,
+        "active": [
+            "Reads a chant that boosts speed.",
+            "Increases movement speed by 400 & dodge chance by 60% for 6 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Buff",
+            "Movement Speed",
+            "Physical Dodge",
+            "Unclear"
+        ]
+    },
+    {
+        "id": "A18J",
+        "name": "Power Enchant - allies only",
+        "heroClass": "Sword Enchanter",
+        "color": "dfdfdf",
+        "hotkey": "[T] → [E]",
+        "icon": "SwordEnchanterE",
+        "cooldown": 30,
+        "order": 8,
+        "active": [
+            "Reads a chant that boosts strength.",
+            "Increases movement speed by 400 & dodge chance by 60% for 6 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Buff",
+            "Attack Speed",
+            "Attack Damage"
+        ]
+    },
+    {
+        "id": "A13Y",
+        "name": "Guard Enchant - allies only",
+        "heroClass": "Sword Enchanter",
+        "color": "dfdfdf",
+        "hotkey": "[T] → [R]",
+        "icon": "SwordEnchanterR",
+        "cooldown": 30,
+        "order": 9,
+        "active": [
+            "Reads a chant that boosts endurance.",
+            "Clears debuffs and reduces damage taken by 50% for 3 seconds"
+        ],
+        "active_tags": [
+            "Hero",
+            "Trigger",
+            "Debuff Removal",
+            "Buff",
+            "Overall Damage Taken"
+        ]
+    },
+    {
         "id": "A0DY",
         "name": "Ultimate Enchant",
         "heroClass": "Sword Enchanter",
@@ -1999,7 +2062,7 @@
         "hotkey": "[F]",
         "icon": "SwordEnchanterF",
         "cooldown": 60,
-        "order": 7,
+        "order": 10,
         "active": [
             "\"I'll show you the most powerful sword I have in my treasury !!\" - Sword Enchanter",
             "AGI X 125 magic damage",
@@ -7475,8 +7538,8 @@
         "order": 1,
         "active": [
             "Creates an illusion that can mimic you.",
-            "Illusion deals 100% damage",
-            "Has 10 second recast cooldown"
+            "Illusion only deals 50% damage",
+            "Has 5 second recast cooldown if killed"
         ],
         "active_tags": [
             "Hero",
@@ -7492,8 +7555,7 @@
         "icon": "TricksterD",
         "order": 2,
         "active": [
-            "Recalls your illusion.",
-            "Resummon cooldown is reduced to 3 seconds"
+            "Orders your illusion."
         ],
         "active_tags": [
             "Summon",
@@ -7512,8 +7574,7 @@
         "active": [
             "An expert mastery of dagger.",
             "Attack damage X 0.6 + AGI X 4.5 magic damage",
-            "Can critically strike",
-            "On skill cast, 12% chance to refresh cooldown"
+            "Can critically strike"
         ],
         "active_tags": [
             "Hero",
@@ -7528,17 +7589,17 @@
         "color": "89ddb5",
         "hotkey": "[W]",
         "icon": "TricksterW",
-        "cooldown": 6,
+        "cooldown": 0,
         "order": 4,
         "passive": [
             "The movement of his hands are said to be almost magical.",
-            "Empowers next attack on each skill cast and every 2 seconds, attacking 3 more times dealing AGI X 1 pure damage each time",
-            "On activation, increases AGI by 5% for 1.5 seconds (stacks up to 5 times; resets upon landing attack or skill)"
+            "On attack, increases AGI by 2% for 6 seconds (stacks up to 10 times)",
+            "On skill cast, empowers next attack to strike 3 additional times, each dealing AGI X 1 pure damage"
         ],
         "active": [
-            "AGI X 2.25 magic damage",
-            "Allows you to dash quickly after casting",
-            "If an enemy is struck, allows recasting (up to 2 times)"
+            "AGI X 6 magic damage",
+            "Temporarily boosts your movement speed",
+            "Can critically strike"
         ],
         "passive_tags": [
             "Hero",
@@ -7565,8 +7626,8 @@
         "order": 5,
         "active": [
             "Switches position with your illusion.",
-            "AGI X 12.5 magic damage",
-            "If cast outside 1000 range, increases your damage dealt to enemies within center by 20% for 12 seconds"
+            "AGI X 9 magic damage",
+            "Consumes all marks placed on target to increase damage by 200% per mark"
         ],
         "active_tags": [
             "Hero",
@@ -7576,18 +7637,22 @@
     },
     {
         "id": "A13W",
-        "name": "Craze Moon",
+        "name": "Card Trick",
         "heroClass": "Trickster",
         "color": "89ddb5",
         "hotkey": "[R]",
         "icon": "TricksterR",
-        "cooldown": 30,
+        "cooldown": 3,
         "order": 6,
+        "passive": [
+            "\"Handling cards is a basic in our trade.\"",
+            "Charges 1 card every 9 seconds",
+            "Can store up to 4 cards"
+        ],
         "active": [
-            "Launches a blade that flies toward various directions.",
-            "Deals AGI X 50 pure damage per second",
-            "Can be deflected by Wonder Hand",
-            "On recast, explodes the blade, stunning nearby enemies for 1.5 seconds and throwing 6 smaller blades at the nearest target dealing AGI X 1.5 magic damage per blade"
+            "Sends out all your cards.",
+            "Deals AGI X 4 magic damage per second for 15 seconds",
+            "By right-clicking a card, you can teleport to it and reset cooldown on Hidden Fang"
         ],
         "active_tags": [
             "Hero",
@@ -7598,15 +7663,15 @@
         ]
     },
     {
-        "id": "A13W",
-        "name": "Explode",
+        "id": "A14D",
+        "name": "Retrieve Cards",
         "heroClass": "Trickster",
         "color": "89ddb5",
         "hotkey": "[R] → [R]",
         "icon": "TricksterR",
         "order": 7,
         "active": [
-            "EXPLOOOOODE"
+            "Retrieves all your cards."
         ],
         "active_tags": [
             "Hero"
@@ -7619,17 +7684,16 @@
         "color": "89ddb5",
         "hotkey": "[T]",
         "icon": "TricksterT",
-        "cooldown": 45,
+        "cooldown": 30,
         "order": 8,
         "passive": [
-            "Leaves a mark on target hit by Hidden Fang for 3 seconds (landing hits on the target refreshes the duration of marks)",
-            "Landing Hidden Fang on the same direction as a mark consumes all marks and deals 150% increased damage"
+            "Leaves a mark on target hit by Hidden Fang",
+            "Each mark on target increases the damage you deal to target with your skills by 4%"
         ],
         "active": [
             "Delivers a grand finale.",
-            "Each mark inflicts attack damage X 1.8 + AGI X 15 magic damage",
-            "Can critically strike",
-            "Invulnerable for duration"
+            "Consumes all marks to deal attack damage X 1.5 + AGI X 15 magic damage each",
+            "Can critically strike"
         ],
         "passive_tags": [
             "Hero"
