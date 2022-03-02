@@ -8218,7 +8218,7 @@
     "type": "Weapon (Shared)",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.005,
+    "droprate": 0.006,
     "required_by": [
       "Calamity",
       "Astra, the Sword of Moonlight",
