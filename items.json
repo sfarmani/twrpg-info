@@ -2943,6 +2943,11 @@
     "required_by": [
       "Flame Nightmare Icon"
     ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
+    ],
     "stats": {
       "hp": 240
     }
@@ -4394,6 +4399,11 @@
     "droprate": 0.0025,
     "required_by": [
       "Guardian Angel Icon"
+    ],
+    "recipe": [
+      {
+        "Prius Gold Coin": 3
+      }
     ],
     "stats": {
       "drpercent": 0.015
@@ -6729,7 +6739,9 @@
     "required_by": [
       "Ragnaar Icon",
       "Tentacle Lord Icon",
+      "Gatekeeper Icon",
       "Giant Golem Icon",
+      "Mad Clown Icon",
       "Mana Ancient Icon",
       "Spirit Beast Icon",
       "Bone Dragon Icon",
@@ -18269,6 +18281,9 @@
     "type": "Weapon (Melee)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Espishu, the Sword of Chaos"
+    ],
     "recipe": [
       {
         "Espishu, the Sword of Eternity": 1
