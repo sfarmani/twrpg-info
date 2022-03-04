@@ -7546,7 +7546,7 @@
         ]
     },
     {
-        "id": "A14D",
+        "id": "A18M",
         "name": "Recall",
         "heroClass": "Trickster",
         "color": "89ddb5",
@@ -7554,7 +7554,8 @@
         "icon": "TricksterD",
         "order": 2,
         "active": [
-            "Orders your illusion."
+            "Orders your illusion.",
+            "If used on illuion, the illusion will be unsummoned"
         ],
         "active_tags": [
             "Summon",
@@ -7570,6 +7571,9 @@
         "icon": "TricksterQ",
         "cooldown": 5,
         "order": 3,
+        "passive": [
+            "Increases crit chance by 15%"
+        ],
         "active": [
             "An expert mastery of dagger.",
             "Attack damage X 0.6 + AGI X 4.5 magic damage",
@@ -7596,7 +7600,7 @@
             "On skill cast, empowers next attack to strike 3 additional times, each dealing AGI X 1 pure damage"
         ],
         "active": [
-            "AGI X 6 magic damage",
+            "AGI X 7.5 magic damage",
             "Temporarily boosts your movement speed",
             "Can critically strike"
         ],
@@ -7687,7 +7691,7 @@
         "order": 8,
         "passive": [
             "Leaves a mark on target hit by Hidden Fang",
-            "Each mark on target increases the damage you deal to target with your skills by 4%"
+            "Each mark on target increases the damage you deal to target with your skills by 5%"
         ],
         "active": [
             "Delivers a grand finale.",
@@ -7716,7 +7720,7 @@
         "active": [
             "\"Ladies and gentlemen... here's a magic trick. I shall make this one disappear from the world.\" - Trickster",
             "Pauses target",
-            "Afterwards, summons 30 spikes to pierce target dealing AGI X 4.5 magic damage per spike",
+            "Afterwards, summons 30 spikes to pierce target dealing AGI X 5 magic damage per spike",
             "Marks the target in all directions and resets cooldown on Stage Finisher"
         ],
         "active_tags": [

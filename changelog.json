@@ -1,5 +1,98 @@
 [
     {
+        "name": "59q",
+        "notes": [
+            "Released on: March 2nd, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Lancer - Fixed description error with E (empower deals up to 150% bonus damage → 100% bonus damage)",
+            "Paladin - Fixed bug where DW increases magic defense by 61% for a second",
+            "Alchemist - Fixed bug where Robe of Sacrifice active cancels D",
+            "Crown of Cleansing - Fixed bug where item was bound for longer than actual cooldown",
+            "Duke Lazarus - Fixed bug where Hood of Apocrypha and Knight's T skill could heal allies affected by Blood Sacrifice"
+        ],
+        "items": [
+            {
+                "name": "Caedis, the Sword of Slaughter",
+                "changes": [
+                    "Marks will now have priority when being displayed (over other skill effects)"
+                ]
+            },
+            {
+                "name": "Mask of Demigod",
+                "changes": [
+                    "Active",
+                    [
+                        "Teleport can now target ally players too (Additional QoL update to last change, which made it targettable on enemies)"
+                    ]
+                ]
+            },
+            {
+                "name": "Heirloom of Lazarus",
+                "changes": [
+                    "Active effect reworked",
+                    "Active 1",
+                    [
+                        "Links yourself to a target (up to 2 targets)",
+                        "You and linked targets receive (5 + link count X 5)% skill damage, 20% damage reduction and 1% HP regen"
+                    ],
+                    "Active 2",
+                    [
+                        "Heals you and linked allies for (target's max HP X 10%) every 1 second for 8 seconds",
+                        "Links can be reset by dropping item",
+                        "Cooldown: 60 seconds, cannot be dropped during cooldown"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Trickster",
+                "changes": [
+                    "Card Trick (R) / Stage Finisher (T)",
+                    [
+                        "Marks will now have priority when being displayed (over other skill effects)"
+                    ],
+                    "Fantasm (D)",
+                    [
+                        "Illusion can now be unsummoned by pressing D (from illusion)",
+                        "No longer heals Samael if killed by wheel"
+                    ],
+                    "Hidden Fang (Q)",
+                    [
+                        "Now addes 15% crit chance passively"
+                    ],
+                    "Wonder Hand (W)",
+                    [
+                        "Damage: AGI X 6 → AGI X 7.5"
+                    ],
+                    "Card Trick (R)",
+                    [
+                        "Card teleport will now work, even when right-clicking an enemy unit"
+                    ],
+                    "Stage Finisher (T)",
+                    [
+                        "Damage amplifier per mark: 4% → 5%"
+                    ],
+                    "Sinister Trick (F)",
+                    [
+                        "Damage per needle: AGI X 4.5 → AGI X 5"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Heaven's Gate (T)",
+                    [
+                        "Raguel can no longer cast pull on allies impaled in Duke Lazarus"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "59p",
         "notes": [
             "Released on: February 19th, 2022",

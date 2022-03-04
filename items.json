@@ -22554,17 +22554,16 @@
       "str": 550,
       "agi": 200,
       "int": 200,
-      "passive": [
-        "On equip, activates Crimson Pact",
-        "Links yourself up to 2 nearest allies",
-        "Each linked player (and yourself) receive the following",
-        "+20% damage reduction [Type-A]",
-        "+20% healing received bonus [Type-A]",
-        "+5% skill damage per ally linked (up to 12%)"
-      ],
       "active": [
-        "On use, summons Blood Rune",
-        "Heals (Max HP X 10%) every 0.5 seconds for 8 seconds",
+        "On use, activates Crimson Pact",
+        "Choose up to 2 allies to link yourself to",
+        "Linked allies (and self) receive the following:",
+        "(5 + link count X 5)% skill damage",
+        "+20% damage reduction [Type-A]",
+        "+1% HP regen",
+        "Links can be reset by dropping item",
+        "On second use (with linked allies), activates Blood Rune",
+        "Heals for (target's max HP X 10%) every 1 second for 8 seconds",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
