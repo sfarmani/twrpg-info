@@ -22761,7 +22761,7 @@
       ],
       "active": [
         "On use, activate Guardian Angel",
-        "Become a holy spirit for 4 seconds, taking 75% reduced damage and being able to move quickly white staying afloat",
+        "Become a holy spirit for 4 seconds, taking 75% reduced damage and being able to move quickly while staying afloat",
         "Heals any allies coming into contact (400 radius) by 4000 HP and provides a shield absorbing up to 4000 damage for 5 seconds (once per ally)",
         "Casting any other skills will deactivate the transformation",
         "Cooldown: 40 seconds, cannot be dropped during cooldown"
