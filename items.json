@@ -21915,14 +21915,14 @@
     }
   },
   {
-    "id": "I0MZ",
+    "id": "I0GS",
     "name": "Divine Slayer",
     "koreanname": "디바인 슬레이어",
     "description": "A sword that has power to cut down divine beings.",
     "rank": "[Epic]",
     "grade": 5,
     "type": "Weapon (Melee)",
-    "color": "99FF99",
+    "color": "733CBE",
     "level": 100,
     "recipe": [
       {
@@ -22440,7 +22440,7 @@
     "rank": "[Epic]",
     "grade": 5,
     "type": "Headwear",
-    "color": "99FF99",
+    "color": "733CBE",
     "level": 100,
     "recipe": [
       {
@@ -22580,7 +22580,7 @@
     "rank": "[Epic]",
     "grade": 5,
     "type": "Accessory",
-    "color": "99FF99",
+    "color": "733CBE",
     "level": 100,
     "recipe": [
       {
