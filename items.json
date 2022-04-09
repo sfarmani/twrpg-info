@@ -2781,8 +2781,7 @@
       "Hood of Apocrypha",
       "Soul Eater",
       "Grimoire of Darkness",
-      "Ring of Strike",
-      "Hydra Icon"
+      "Ring of Strike"
     ]
   },
   {
@@ -22515,7 +22514,7 @@
         "Gains 750 all stats for 10 seconds",
         "Upon expiration, triggers an explosion dealing (base damage dealt to boss units X 15%) magic damage to nearby enemies",
         "Can use again to end prematurely",
-        "Cooldown: 120 seconds, cannot be dropped during cooldown"
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -22787,9 +22786,6 @@
       },
       {
         "Hydra Scale": 1
-      },
-      {
-        "Corrupt Creations": 1
       }
     ],
     "stats": {

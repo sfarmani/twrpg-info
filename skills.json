@@ -977,7 +977,7 @@
         ]
     },
     {
-        "id": "A0NN",
+        "id": "A0OC",
         "name": "Gate of Truth",
         "heroClass": "Alchemist",
         "color": "f7b395",
@@ -2137,8 +2137,8 @@
         "active": [
             "Barrages nearby area with bullets.",
             "Consumes 3 bullets",
-            "Each bullet inflicts attack damage X 0.375 + AGI X 3.75 magic damage",
-            "AGI X 25 bonus damage",
+            "Each bullet inflicts attack damage X 0.25 + AGI X 2.5 magic damage",
+            "Has (33% + crit chance) to critically strike",
             "If cast after Tumble, consumes 100% additional bullets"
         ],
         "active_tags": [
@@ -2183,7 +2183,8 @@
         "active": [
             "Fires all bullets in a quick succession.",
             "Consumes all bullets",
-            "Each attack deals Attack Damage X 2.25 physical damage"
+            "Each attack deals Attack Damage X 2 physical damage",
+            "Instantly reloads all bullets when used during Bullet Time"
         ],
         "active_tags": [
             "Hero",
@@ -3294,7 +3295,7 @@
             "MAX HP X 1.1 magic damage",
             "Stuns and pulls enemies toward center",
             "Reduces movement speed of targets hit by 60%, as well as increasing the damage they take by 10% for 3 seconds",
-            "Restore 1 charge every 6 seconds (Up to 4 charges)"
+            "Restore 1 charge every 5 seconds (Up to 4 charges)"
         ],
         "active_tags": [
             "Hero",
@@ -3339,7 +3340,7 @@
         "color": "f9feb8",
         "hotkey": "[E]",
         "icon": "CrusaderE",
-        "cooldown": 7.5,
+        "cooldown": 6,
         "order": 4,
         "active": [
             "Leap quickly into air and slam down, shattering the ground.",
@@ -3360,11 +3361,11 @@
         "color": "f9feb8",
         "hotkey": "[R]",
         "icon": "CrusaderR",
-        "cooldown": 17.5,
+        "cooldown": 15,
         "order": 5,
         "active": [
             "Dash forward with lightning speed, striking all enemies.",
-            "Attack Damage X 3.75 magic damage",
+            "Attack Damage X 5 magic damage",
             "Enhance next Remains of Rage cast within 3 seconds, increasing its damage by 250% and dashing to target location to inflict stun for 1 second",
             "Chain - 2nd Sword Dance: Sword"
         ],
@@ -3384,9 +3385,9 @@
         "order": 6,
         "active": [
             "Release mana stored within the Execution Sword to attack all nearby enemies.",
-            "STR X 27.5 magic damage",
+            "STR X 35 magic damage",
             "Slows affected enemies by 50% for 4 seconds",
-            "Empowers next Strike of Honor cast within 3 seconds, increasing its damage and stun duration by 200% and increasing damage taken by targets hit by 12% for 8 seconds",
+            "Empowers next Strike of Honor cast within 3 seconds, increasing its damage and stun duration by 200% and increasing damage taken by targets hit by 10% for 8 seconds",
             "Increases HP regen by (Crusader's Max HP X 10%) for 5 seconds"
         ],
         "active_tags": [
@@ -3448,7 +3449,7 @@
         "active": [
             "\"Light that can be bestowed upon the weak - that is the true light.\" - Astarte",
             "Each slash deals STR X 37.5 magic damage",
-            "Final slash deals STR X 90 magic damage",
+            "Final slash deals STR X 110 magic damage",
             "Stuns for 3 seconds"
         ],
         "active_tags": [
@@ -3666,7 +3667,7 @@
         "active": [
             "Pierces through enemies.",
             "Attack damage X 1 + STR X 7.5 pure damage",
-            "Empowered: Increases target's damage taken by 5%, and increases the critical chance of your spear attacks toward target by 50% for 30 seconds"
+            "Empowered: Increases target's damage taken by 5%, and increases the critical chance of your spear attacks by 50% for 30 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -6146,7 +6147,7 @@
         "order": 4,
         "passive": [
             "The priest's presence alone brings great support to her allies.",
-            "Increases nearby allies' attack damage by 5% and all stats by (Priest's INT X 0.05)",
+            "Increases nearby allies' attack damage by 5% and all stats by (Priest's INT X 0.06)",
             "Effect radius: 900",
             "Buff linger time: 60 seconds"
         ],
@@ -7572,11 +7573,11 @@
         "cooldown": 5,
         "order": 3,
         "passive": [
-            "Increases crit chance by 15%"
+            "Increases crit chance by 20%"
         ],
         "active": [
             "An expert mastery of dagger.",
-            "Attack damage X 0.6 + AGI X 4.5 magic damage",
+            "Attack damage X 0.7 + AGI X 5 magic damage",
             "Can critically strike"
         ],
         "active_tags": [
@@ -7592,11 +7593,11 @@
         "color": "89ddb5",
         "hotkey": "[W]",
         "icon": "TricksterW",
-        "cooldown": 0,
+        "cooldown": 5,
         "order": 4,
         "passive": [
             "The movement of his hands are said to be almost magical.",
-            "On attack, increases AGI by 2% for 6 seconds (stacks up to 10 times)",
+            "On attack, increases AGI by 2.5% for 6 seconds (stacks up to 8 times)",
             "On skill cast, empowers next attack to strike 3 additional times, each dealing AGI X 1 pure damage"
         ],
         "active": [
@@ -7629,7 +7630,7 @@
         "order": 5,
         "active": [
             "Switches position with your illusion.",
-            "AGI X 9 magic damage",
+            "AGI X 10 magic damage",
             "Consumes all marks placed on target to increase damage by 200% per mark"
         ],
         "active_tags": [
@@ -7866,7 +7867,7 @@
         "color": "b0d9ee",
         "hotkey": "[R]",
         "icon": "ShrinePriestessR",
-        "cooldown": 15,
+        "cooldown": 12,
         "order": 9,
         "active": [
             "Forms talismans that can be used to enhance skills.",
@@ -7899,7 +7900,7 @@
         "color": "eebfb0",
         "hotkey": "[T]",
         "icon": "ShrinePriestessT",
-        "cooldown": 80,
+        "cooldown": 60,
         "order": 11,
         "active": [
             "Obtains a strong power by combining with Meeko.",
@@ -7964,7 +7965,7 @@
         "order": 15,
         "active": [
             "Gathers element of fire to create pillars of fire in a line.",
-            "Each pillar deals INT X 30 magic damage",
+            "Each pillar deals INT X 25 magic damage",
             "Stuns targets hit for 1.5 seconds"
         ]
     },

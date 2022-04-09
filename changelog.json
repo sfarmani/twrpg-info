@@ -1,5 +1,418 @@
 [
     {
+        "name": "59t2",
+        "notes": [
+            "Released on: April 5th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Fixed issue with Gunner R not consuming Q damage bonus during T",
+            "Fixed issue with Shrine Priestess T cooldown not being adjusted from last patch"
+        ],
+        "heroes": [
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Fanning (R)",
+                    [
+                        "During T: no longer consumes bullets → immediately reloads all bullets on cast"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "59t",
+        "notes": [
+            "Released on: April 4th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Knight - Fixed issue where EE didn't register as a skill cast",
+            "Shrine Priestess - Fixed bug where casting QTQ would multiply the first Q's damage multiple times",
+            "Water Mage - Fixed bug where F didn't receive color changes on some costumes",
+            "Seaside Zone - Removed a certain rectangular area in where players could not pass through",
+            "Fixed bug where some bosses reset to max HP when players leave in certain scenarios",
+            "Fixed bugs on some of the new items"
+        ],
+        "events": [
+            "Added a separate button for event toggle, and it will now display the name of the player that uses it",
+            "Added a visible indicator for whether event is toggled on or not",
+            "Shrine Priestess weird costume added",
+            "Temporary vision will be created for areas where event mob spawned"
+        ],
+        "items": [
+            {
+                "name": "Wing Frame crafts",
+                "changes": [
+                    "New wing frame added to:",
+                    [
+                        "Archangel Wings"
+                    ]
+                ]
+            },
+            {
+                "name": "Atricia, the Sword of Nightmare",
+                "changes": [
+                    "Passive",
+                    [
+                        "Second strike now always crits",
+                        "Each stack of Nightmare Energy now increases passive damage by 1%"
+                    ],
+                    "Active",
+                    [
+                        "Damage: (150000 + 15000 X stack) → (150000 + 25000 X stack)"
+                    ]
+                ]
+            },
+            {
+                "name": "Wings of Sacred Provenance",
+                "changes": [
+                    "Main stat: 360 → 390",
+                    "Passive",
+                    [
+                        "Proc chance: 35% → 100%",
+                        "Skill damage per stack: 1% → 1.5%",
+                        "Max stacks: 9 → 5"
+                    ],
+                    "Active",
+                    [
+                        "Buff duration: 8 seconds → 12 seconds",
+                        "No longer grants damage dealt bonus"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Outlaw (W)",
+                    [
+                        "Bonus chance to crit: 25% → 33%"
+                    ],
+                    "Fanning (R)",
+                    [
+                        "No longer consumes bullet during T"
+                    ]
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "Hidden Fang (Q)",
+                    [
+                        "Damage: ATK DMG X 0.6 + AGI X 4.5 → ATK DMG X 0.7 + AGI X 5",
+                        "Crit chance bonus: 15% → 20%"
+                    ],
+                    "Wonder Hand (W)",
+                    [
+                        "Passive buff: AGI bonus per stack: 2% → 2.5%",
+                        "Passive max stack: 10 → 8",
+                        "Active cooldown: 6 seconds → 5 seconds"
+                    ],
+                    "Devil's Mirror (E)",
+                    [
+                        "Damage: AGI X 9 → AGI X 10"
+                    ]
+                ]
+            },
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Spirit Fusion (T) → Fire Pillar (E)",
+                    [
+                        "Fire Pillar damage: INT X 30 (desc says INT X 15) → INT X 25"
+                    ],
+                    "Form Talismans (R)",
+                    [
+                        "Cooldown: 15 seconds → 12 seconds"
+                    ],
+                    "Spirit Fusion (T)",
+                    [
+                        "Transform time: 1.25 seconds → 0.5 seconds",
+                        "Cooldown: 80 seconds → 60 seconds"
+                    ],
+                    "Dance of Fire (F)",
+                    [
+                        "Channel time reduced by approximately 1 second"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "59s",
+        "notes": [
+            "Released on: March 27th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Crimson Curse - Fixed bug where active effect killed players at 1 HP",
+	        "Gunner - Fixed issue with W using 1 extra bullet / fixed description error"
+        ],
+        "events": [
+            "Weird Event will run from 2022/03/27 ~ 2022/04/10"
+        ],
+        "items": [
+            {
+                "name": "Atricia, the Sword of Nightmare",
+                "changes": [
+                    "ATK DMG: 10800 → 11000",
+                    "AGI: 760 → 780",
+                    "Skill Damage: 7.5% → 10%",
+                    "Crit Chance: 7.5% → 10%",
+                    "Crit Multiplier removed",
+                    "Passive",
+                    [
+                        "Damage: (3000 + MAIN STAT X 6) → (MAIN STAT X 6)",
+                        "Consecutive activation within 2 seconds can now critically strike"
+                    ],
+                    "Active",
+                    [
+                        "1st / 2nd activation effects removed"
+                    ]
+                ]
+            },
+            {
+                "name": "Final Omen",
+                "changes": [
+                    "Passive",
+                    [
+                        "Now deals 25% bonus damage to enemies below 50% HP"
+                    ]
+                ]
+            },
+            {
+                "name": "Crown of Cataclysm",
+                "changes": [
+                    "Wind / Earth affinity: 9% → 4%"
+                ]
+            },
+            {
+                "name": "Bell of Divinity",
+                "changes": [
+                    "Damage dealt: -15% → 0%"
+                ]
+            },
+            {
+                "name": "Ring of Eternity",
+                "changes": [
+                    "Passive",
+                    [
+                        "No longer grants skill damage / damage reduction buff",
+                        "Cooldown: 300 seconds → 240 seconds"
+                    ],
+                    "Active",
+                    [
+                        "Now grants 7% skill damage for the duration of buff"
+                    ]
+                ]
+            },
+            {
+                "name": "Heirloom of Lazarus",
+                "changes": [
+                    "Visible markers will be placed on the linked targets (only seen by the user of Heirloom of Lazarus)"
+                ]
+            },
+            {
+                "name": "Star of Apotheosis",
+                "changes": [
+                    "Active",
+                    [
+                        "Time needed for explosion: 2 seconds → 1.5 seconds",
+                        "Cooldown: 120 seconds → 90 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Wings of Cosmos",
+                "changes": [
+                    "Manual activation will only grant 50% stat bonus (125 stat, 5% skd, 25% dr)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Blitz (W)",
+                    [
+                        "Impact at the end of dash will also apply shield to allies in range"
+                    ]
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Remains of Rage (Q)",
+                    [
+                        "Recharge cooldown: 6 seconds → 5 seconds"
+                    ],
+                    "Strike of Honor (E)",
+                    [
+                        "Cooldown: 7.5 seconds → 6 seconds"
+                    ],
+                    "1st Sword Dance: Strike (R)",
+                    [
+                        "Cast delay removed",
+                        "First hit damage: ATK DMG X 3.75 → ATK DMG X 5",
+                        "Second hit damage: STR X 27.5 → STR X 35",
+                        "Cooldown: 17.5 seconds → 15 seconds",
+                        "Empowered damage taken bonus: 12% → 10%"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Holy Aurora (E)",
+                    [
+                        "Passive aura stat bonus: (INT X 0.05) → (INT X 0.06)"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Light Breeze (R)",
+                    [
+                        "Skill damage bonus: 5% → (4 + INT / 750)%"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Added back 'Retrieve Icon' option on Weird Mage NPC",
+            "Text position for training dummy has been moved up for better visiblity",
+            "Training Area now allows refreshing HP/MP of character"
+        ]
+    },
+    {
+        "name": "59r",
+        "notes": [
+            "Released on: March 18th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Spear of Judgment - Fixed bug where the active could be used to teleport over boundaries",
+            "Guardian Angel - Fixed bug where the active effect causes glitches when interacting with valtora tornadoes",
+            "Duke Lazarus - Fixed an issue where some targets could take damage from explosion when using Witch R",
+            "Trickster - Fixed bug where illusion didn't receive crit chance",
+            "Trickster - Fixed bug where illusion can still cast Q while dead"
+        ],
+        "items": [
+            {
+                "name": "New Item Recipes",
+                "changes": [
+                    "Atricia, the Sword of Nightmares",
+                    "Final Omen",
+                    "Titan's Plate",
+                    "Exitium, the Armor of Ruin",
+                    "Frost Herald's Robe",
+                    "Crown of Cataclysm",
+                    "Crimson Curse",
+                    "Ring of Eternity",
+                    "Bell of Divinity",
+                    "Wings of Cosmos",
+                    "Wings of Sacred Provenance"
+                ]
+            },
+            {
+                "name": "Heartrender",
+                "changes": [
+                    "Active effect now shows damage"
+                ]
+            },
+            {
+                "name": "Hydra Icon",
+                "changes": [
+                    "No longer requires Corrupt Creations"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Paladin",
+                "changes": [
+                    "No longer uses mana (mana bar will now be used to display spirit count on W)"
+                ]
+            },
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Skull Pounder (Q)",
+                    [
+                        "Cast time removed"
+                    ]
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Pierce (Q)",
+                    [
+                        "Crit chance bonus will no longer be limited to the target hit by empowered Q (the 5% damage bonus is still limited to the target hit)"
+                    ]
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Tumble (Q)",
+                    [
+                        "Damage reduction will now linger for 0.25 seconds after tumble finishes"
+                    ],
+                    "Outlaw (W)",
+                    [
+                        "Damage: ATK DMG X 0.375 + AGI X 3.7 → ATK DMG X 0.25 + AGI X 2.5",
+                        "Can now crit with 25% base crit chance bonus"
+                    ],
+                    "Fanning (R)",
+                    [
+                        "Damage per shot: ATK DMG X 225% → ATK DMG X 200%"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Light Breeze (R)",
+                    [
+                        "Travel speed increased"
+                    ]
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Seal of Wind (D)",
+                    [
+                        "Summon now shows a timer for remaining duration"
+                    ],
+                    "Eye of Chaos (F) - (E)",
+                    [
+                        "Now deals max damage regardless of distance from the summon"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Gate of Truth (F)",
+                    [
+                        "If D is active, D duration will be reset after casting F",
+                        "(this is a rollback of an unintended change introduced in last patch)"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Random targetting no longer considers Trickster clone / Meeko Fox",
+            "Slightly reduced the time damage text lingers"
+        ]
+    },
+    {
         "name": "59q",
         "notes": [
             "Released on: March 2nd, 2022",

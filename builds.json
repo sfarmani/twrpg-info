@@ -81,7 +81,7 @@
         "type": "Late Game Damage",
         "order": 3,
         "stat": "STR",
-        "version": "57b",
+        "version": "59s",
         "description": [
             "Full damage gear to farm efficiently",
             "Defensive gear for learners on next page",
@@ -110,12 +110,12 @@
         "type": "Late Game Learner/Defensive",
         "order": 4,
         "stat": "STR",
-        "version": "57b",
+        "version": "59s",
         "description": [
             "Defensive gear for learners",
             "Swap equipments accordingly, never use full defensive build unless holding Death Fiend.",
             "I personally only swap to defensive gears when lack of supports or learning new boss",
-            "For holding Death Fiend, Frostshard Armor is enough, add Protector's Will if unsafe, add Cold Ring of Death for 20 proc.",
+            "frostshard armor alone is usually more than enough to carry you to agareth",
             "Winter's Heart for guard break, in Valtora.",
             "Creation is very good in ifrit."
         ],
@@ -138,7 +138,7 @@
         "type": "Endgame",
         "order": 5,
         "stat": "STR",
-        "version": "57b",
+        "version": "59s",
         "description": [
             "Just don't die - Lch#3181",
             "Why would you use defensive gear in endgame, get supports.",
@@ -152,7 +152,9 @@
             ],
             "Horn of Demon God": [],
             "Demonic Fist": [],
-            "Felspike Armor": [],
+            "Felspike Armor": [
+                "Hades, the Armor of Despair"
+            ],
             "Archangel Wings": []
         }
     },
@@ -161,16 +163,20 @@
         "type": "Duke",
         "order": 6,
         "stat": "STR",
-        "version": "57b",
+        "version": "59s",
         "guidelink": [
             "https://i.imgflip.com/5sgfje.jpg"
         ],
         "description": [
             "Why are you even reading this?",
-            "Go Farm Duke"
+            "Go Farm Duke",
+            "Weapon in general - Spear of Judgment > All",
+            "Weapon in Duke - Heartrender only and only"
         ],
         "items": {
-            "Spear of Judgment": [],
+            "Spear of Judgment": [
+                "Heartrender"
+            ],
             "Crescendo of Madness": [],
             "Demonic Fist": [],
             "Plates of Sanguine Fury": [
@@ -574,11 +580,11 @@
             "I personally only use Athanasia in Ifrit and Nevedium for everything else"
         ],
         "items": {
-            "Cosmic Reaper": [],
+            "Divine Slayer": [],
             "Eye of the Reaper": [
                 "Mask of Demigod"
             ],
-            "Ring of Frozen Soul": [],
+            "Ring of Desolate Soul": [],
             "Nevedium, the Armor of Demonblood": [
                 "Athanasia, the Armor of the Reaper"
             ],
@@ -750,7 +756,7 @@
         "type": "STR Full Support",
         "order": 1,
         "stat": "STR",
-        "version": "56a",
+        "version": "59s",
         "guidelink": [
             "https://docs.google.com/document/d/1xJGcGKLWDBu8iDUAcjknk1QRK34MYfPMnFRphjuLo3g/edit?usp=sharing"
         ],
@@ -759,15 +765,15 @@
             "If your team uses serenity, then you can switch to another helm"
         ],
         "items": {
-            "Eternal Winter": [],
+            "Eternal Winter": [
+                "Heaven's Door"
+            ],
             "Crown of Cleansing": [
                 "Spirit of Protector"
             ],
             "Ring of Hope": [],
             "Harmony of Sky and Earth": [],
-            "Brave Heart": [
-                "Protection of the Fairies"
-            ]
+            "Protection of the Fairies": []
         }
     },
     {
@@ -784,7 +790,8 @@
             "If your team uses serenity, then you can switch to another helm"
         ],
         "items": {
-            "Endless Snow": [
+            "Heaven's Door": [
+                "Endless Snow",
                 "Harmonia, the Sparkle of Life"
             ],
             "Crown of Cleansing": [
@@ -792,9 +799,7 @@
             ],
             "Ring of Hope": [],
             "Jupiter, the Robe of Heavens": [],
-            "Protection of the Fairies": [
-                "Brave Heart"
-            ]
+            "Protection of the Fairies": []
         }
     },
     {
