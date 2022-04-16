@@ -2347,7 +2347,7 @@
         "color": "8eaffd",
         "hotkey": "[E]",
         "icon": "SwordsmanE",
-        "cooldown": 8,
+        "cooldown": 15,
         "order": 6,
         "active": [
             "Surrounds yourself with a fierce bladestorm.",
@@ -3611,7 +3611,8 @@
         "active": [
             "\"None can match the skills of the martial artists of Eloren. Having obtained the knowledge of all advanced martial arts, each one of their techniques is deadly.\" - A Continent Traveller",
             "Enables Inner Meditation",
-            "Increases damage dealt by martial arts by 80% and reduces attack cooldown by 50%",
+            "Increases damage dealt by martial arts by 60% for counter, 100% for others",
+            "Also reduces attack cooldown by 50%",
             "Gains immunity to unit collision, debuffs and CC effects",
             "Lasts 8 seconds"
         ],
@@ -7493,7 +7494,7 @@
         "color": "ff7e6a",
         "hotkey": "[T]",
         "icon": "FighterT",
-        "cooldown": 30,
+        "cooldown": 40,
         "order": 7,
         "active": [
             "Gathers energy into your fist to release a powerful strike.",
