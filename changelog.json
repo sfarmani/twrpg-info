@@ -1,5 +1,162 @@
 [
     {
+        "name": "59x",
+        "notes": [
+            "Released on: April 16th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Trickster - Fixed issue where casting Q didn't proc 'on skill cast' effect on illusion",
+            "Crown of Cleansing - Fixed bug where active didn't apply to summons",
+            "Duke Lazarus - Fixed bug where some heroes could not eat Blood Orb",
+            "Fixed text errors on some skills"
+        ],
+        "items": [
+            {
+                "name": "Bomb Bag series",
+                "changes": [
+                    "Merchant spec",
+                    [
+                        "Dangerous Explosive damage: STR X 50 + DMG TKN X 5% → STR X 50 + DMG TKN X 4%",
+                        "Cursed Doll damage: STR X 125 + DMG TKN X 5% → STR X 100 + DMG TKN X 4%"
+                    ]
+                ]
+            },
+            {
+                "name": "Frost Herald's Garment",
+                "changes": [
+                    "INT: 505 → 475",
+                    "Water affinity: 5%"
+                ]
+            },
+            {
+                "name": "Visage of Vengance",
+                "changes": [
+                    "Passive",
+                    [
+                        "Max stacks judgment bonus damage: 20% → 25%",
+                        "Temp stat bonus: 400 → 450"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Added Personal Loot and Wish (no hard mode)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Ambush (W)",
+                    [
+                        "Buff attack damage bonus: 40% → 25%"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Probe (D)",
+                    [
+                        "Max distance that probe can be at will now be calculated between Shooter and target instead of Shooter and probe",
+                        "(this is to prevent any scenarios where prob can attach and detach after spinning)"
+                    ]
+                ]
+            },
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "Cast delay reduced",
+                    "Freezing Shot (W)",
+                    [
+                        "Cooldown: 9 seconds → 6 seconds"
+                    ],
+                    "Purestorm Shot (R)",
+                    [
+                        "Small rework",
+                        [
+                            "Summons a rain cloud above target unit that follows the target for 8 seconds",
+                            "Deals (AGI X 2.5) magic damage in the area every 0.5 seconds",
+                            "While active, Bow master can press R up to 3 times to strike a lightning bolt down the cloud each time",
+                            "Deals (AGI X 10) magic damage in area, inflicting a short stun and applying a mark that increases damage from E by 300% for 1 seconds",
+                            "If marks overlap, the duration will be added onto the existing duration",
+                            "These activations do not have cast time and do not interrupt Bow Master's orders",
+                            "However, they will also not proc 'on skill cast' effects such as that of Vest of Storm",
+                            "You can no longer see/benefit from marks applied by other Bow Masters now"
+                        ]
+                    ],
+                    "Arrow Rain (T)",
+                    [
+                        "Damage per arrow: ATK DMG X 0.4 + AGI X 3.75 → ATK DMG X 0.5 + AGI X 4"
+                    ]
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "Hidden Fang (Q)",
+                    [
+                        "Cast time has been removed"
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Frozen Emotion (W)",
+                    [
+                        "Frost armament damage: INT X 0.25 / 5 → INT X 0.2 / 3",
+                        "Skill damage bonus: 12% → (10 + INT / 700)%"
+                    ],
+                    "Tidal Riding (E)",
+                    [
+                        "Cast speed increased",
+                        "Pool now deals INT X 5 magic damage per second"
+                    ],
+                    "Frost Nova (R)",
+                    [
+                        "Cooldown: 15 seconds → 12 seconds"
+                    ],
+                    "Glacier Orb (T)",
+                    [
+                        "Cooldown: 30 seconds → 20 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Magical Broom (D)",
+                    [
+                        "Bonus damage per hit: INT X 1.5 → INT X 1.7",
+                        "Witch can no longer be slowed while on broom"
+                    ],
+                    "Star Shower (W)",
+                    [
+                        "Removed the slight delay that was in self-heal"
+                    ],
+                    "Mystical Cauldron (E)",
+                    [
+                        "Main stat increase: 6% → (4 + INT / 1000)%"
+                    ],
+                    "Hellgate (T) - Arrow of Destruction (Q)",
+                    [
+                        "Damage: INT X 22.5 → INT X 30"
+                    ],
+                    "Hell Gate (T) - Mark of Power (W)",
+                    [
+                        "Damage dealt increase is now affected by dark affinity"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "59t2",
         "notes": [
             "Released on: April 5th, 2022",
@@ -2653,7 +2810,7 @@
             "Compatible Version: v0.51a ~"
         ],
         "bugs": [
-            "Heartrender - Fixed issue where passive didn’t work",
+            "Heartrender - Fixed issue where passive didn't work",
             "Duke Lazarus - Fixed bug with AOE cleanse not working properly on Blood Plague",
             "Berserker - Fixed bug where E button shows up disabled after casting Rabid Storm (F)",
             "Fighter - Fixed issue with F being able to pull bosses out of boss rooms",
@@ -3167,7 +3324,7 @@
         ],
         "misc": [
             "Added ship captain to Seaside",
-            "Loot Chests dropped from bosses high bosses (sk and above) will now display the names of dropped items beside each player’s name",
+            "Loot Chests dropped from bosses high bosses (sk and above) will now display the names of dropped items beside each player's name",
             "There have been small changes of terrain in Snowfield and Wallachia Graveyard",
             "Resummoning bosses and magical loot (summon item) drops will no longer ping maps",
             "Craft message has been moved to center of screen",
@@ -3351,11 +3508,11 @@
             "Compatible Version: v0.51a ~"
         ],
         "bugs": [
-            "Caedis, the Sword of Slaughter - Fixed bug where active didn’t work properly",
+            "Caedis, the Sword of Slaughter - Fixed bug where active didn't work properly",
             "Crown of Serenity - Fixed bug where buff only lasts 1 second instead of 5 seconds",
             "Shackles of Heaven - Fixed bug where it can be used to pull knockback-immune targets",
             "Underlord Agareth - Fixed bug with some skills",
-            "Fixed bug where AoE indicator wouldn’t show if clipped over screen edge"
+            "Fixed bug where AoE indicator wouldn't show if clipped over screen edge"
         ],
         "events": [
             "Halloween Event",

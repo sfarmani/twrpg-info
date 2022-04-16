@@ -22463,7 +22463,7 @@
         "On attack, activates Judgment",
         "Deals (Main Stat X 5) pure damage",
         "Gains 1 stack of vengeance for 5 seconds",
-        "At 6 stacks of vengeance, Judgment deals 20% more damage and you gain 400 main stat that fades over 5 seconds",
+        "At 6 stacks of vengeance, Judgment deals 25% more damage and you gain 450 main stat that fades over 5 seconds",
         "Cooldown: 0.75 seconds, cannot be dropped during cooldown (with precharge mechanism, up to 3 charges)"
       ],
       "active": [

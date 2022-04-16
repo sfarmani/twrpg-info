@@ -4049,7 +4049,7 @@
             "Melds into the darkness to strike the enemy from behind.",
             "Attack damage X 1.25 + AGI X 7.5 magic damage",
             "Stuns for 1.5 seconds",
-            "After cast, increases attack damage by 40% for 6 seconds",
+            "After cast, increases attack damage by 25% for 6 seconds",
             "Critical strike is guaranteed if used while invisible"
         ],
         "active_tags": [
@@ -4624,7 +4624,7 @@
         "active": [
             "Plants a very dangerous explosive.",
             "Plants an explosive that can be damaged",
-            "After 12 seconds, explodes dealing STR X 100 + damage taken X 7.5% pure damage and stunning for 3 seconds"
+            "After 12 seconds, explodes dealing STR X 50 + damage taken X 4% pure damage and stunning for 3 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -4645,7 +4645,7 @@
         "active": [
             "Plants a cursed doll.",
             "Plants a doll that can be damaged",
-            "After 15 seconds, explodes dealing STR X 125 + damage taken X 5% pure damage and stunning for 3 seconds"
+            "After 15 seconds, explodes dealing STR X 100 + damage taken X 4% pure damage and stunning for 3 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -5062,8 +5062,10 @@
         "cooldown": 9,
         "order": 3,
         "active": [
-            "Fire multiple frozen arrows in a frontal cone.",
-            "Attack damage X 0.6 + AGI X 6 magic damage"
+            "Fires multiple frozen arrows in a frontal cone.",
+            "Attack damage X 0.6 + AGI X 6 magic damage",
+            "Slows target by 40% for 2 seconds",
+            "Damage is applied only once regardless of arrows hit"
         ],
         "active_tags": [
             "Hero",
@@ -5120,11 +5122,10 @@
         "cooldown": 15,
         "order": 5,
         "active": [
-            "Fires a mana-infused arrow to repeatedly strike down lightnings upon the targeted area.",
-            "Every 0.5 seconds, deal Agility X 3 magic damage",
-            "Stuns for 1 second",
-            "Increases target's damage taken by Guardian Scout by 300%",
-            "Lasts for 3 seconds"
+            "Fires a mana-infused arrow to repeatedly strike down lightnings upon target.",
+            "Every 0.5 seconds, deal Agility X 2.5 magic damage",
+            "Lasts 8 seconds",
+            "Can activate Lightning Strike 3 times while active"
         ],
         "active_tags": [
             "Hero",
@@ -5144,7 +5145,7 @@
         "active": [
             "Summons countless magical arrows to bombard target area.",
             "Summons 24 arrows",
-            "Each arrow deals attack damage X 0.4 + AGI X 3.75 magic damage",
+            "Each arrow deals attack damage X 0.5 + AGI X 4 magic damage",
             "If chained with Flame Shot, explosion radius increased by 50%",
             "If chained with Freezing Shot, freezes enemies hit for 2.5 seconds"
         ],
@@ -5940,8 +5941,8 @@
         "passive": [
             "Summons ice fairies to protect yourself.",
             "Creates a barrier that absorbs up to INT X 1 damage (recharges by 10% per second)",
-            "Increases skill damage by 12%",
-            "Frost Armament: Every attack deals attacker's Main Stat X 0.25 magic damage, and 20th proc deals Main Stat X 5 magic damage instead but puts this effect on 3 second cooldown"
+            "Increases skill damage by (10 + INT / 700)%",
+            "Frost Armament: Every attack deals attacker's Main Stat X 0.2 magic damage, and 20th proc deals Main Stat X 3 magic damage instead but puts this effect on 3 second cooldown"
         ],
         "active": [
             "Sends an ice fairy to protect an ally.",
@@ -5971,7 +5972,8 @@
         "active": [
             "Lightly ride on tidal waves.",
             "INT X 7.5 bonus damage",
-            "Activates Water Blast and leaves a slowing pool"
+            "Activates Water Blast and leaves water pools for 5 seconds",
+            "Water pool deals INT X 5 magic damage per second and slows nearby enemies"
         ],
         "active_tags": [
             "Hero",
@@ -5986,7 +5988,7 @@
         "color": "87cefa",
         "hotkey": "[R]",
         "icon": "WaterMageR",
-        "cooldown": 15,
+        "cooldown": 12,
         "order": 5,
         "active": [
             "Freezes nearby enemies by converting the mana in the atmosphere into ice.",
@@ -6009,7 +6011,7 @@
         "color": "87cefa",
         "hotkey": "[T]",
         "icon": "WaterMageT",
-        "cooldown": 30,
+        "cooldown": 20,
         "order": 6,
         "active": [
             "Summons a magical orb surrounded by cold energy.",
@@ -7070,7 +7072,7 @@
         "order": 1,
         "passive": [
             "A broom filled with uncontrollable mana.",
-            "Every attack deals INT X 1.5 magic damage",
+            "Every attack deals INT X 1.7 magic damage",
             "On skill cast, gains explosive attack speed for 1.5 seconds"
         ],
         "active": [
@@ -7151,7 +7153,7 @@
             "Summons a cauldron filled with magical items.",
             "Creates a potion every 1.5 seconds for 18 seconds",
             "Potion lasts for 30 seconds and heals for INT X 3",
-            "Increases a target's main stat by 6% for 60 seconds"
+            "Increases target's main stat by (4 + INT / 1000)% for 60 seconds"
         ],
         "active_tags": [
             "Hero"
@@ -7244,7 +7246,7 @@
         "cooldown": 30,
         "order": 9,
         "active": [
-            "INT X 22.5 magic damage",
+            "INT X 30 magic damage",
             "Breaks barriers"
         ],
         "active_tags": [
@@ -7574,6 +7576,7 @@
         "cooldown": 5,
         "order": 3,
         "passive": [
+            "An expert mastery of dagger.",
             "Increases crit chance by 20%"
         ],
         "active": [
