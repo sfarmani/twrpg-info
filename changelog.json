@@ -8631,6 +8631,12 @@
                 ]
             },
             {
+                "name": "Ring of Despair",
+                "changes": [
+                    "Active - Damage: 1.5% max HP → 1% max HP"
+                ]
+            },
+            {
                 "name": "Guardian of the Skies",
                 "changes": [
                     "Passive - Proc damage: (MAIN STAT X 0.75) → (MAIN STAT X 0.5)"

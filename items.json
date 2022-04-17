@@ -20734,7 +20734,7 @@
       "active": [
         "On use, activates Despair",
         "Deals (water affinity X (1% max HP)) pure damage to enemies with Composure",
-        "Freezes for 2 seconds",
+        "Freezes for 3 seconds",
         "Increases enemy damage taken by 5% for 2 seconds",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"
       ]

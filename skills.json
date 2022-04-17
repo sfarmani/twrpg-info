@@ -5059,7 +5059,7 @@
         "color": "4682b4",
         "hotkey": "[W]",
         "icon": "BowMasterW",
-        "cooldown": 9,
+        "cooldown": 6,
         "order": 3,
         "active": [
             "Fires multiple frozen arrows in a frontal cone.",
@@ -5125,7 +5125,10 @@
             "Fires a mana-infused arrow to repeatedly strike down lightnings upon target.",
             "Every 0.5 seconds, deal Agility X 2.5 magic damage",
             "Lasts 8 seconds",
-            "Can activate Lightning Strike 3 times while active"
+            "Can activate Lightning Strike 3 times while active",
+            "Deals (AGI X 10) magic damage",
+            "Lightning Strike increases Guardian Scout's damage on the marked target by 300% for 1.25 second",
+            "Each strike refreshes duration (up to 3.75 seconds)"
         ],
         "active_tags": [
             "Hero",
@@ -7078,8 +7081,7 @@
         "active": [
             "Hops onto your broom.",
             "Increases movement speed by 500 for 1.5 seconds",
-            "Ignores unit collision",
-            "Flight height of 225"
+            "Ignores unit collision and slowing effects"
         ],
         "passive_tags": [
             "Hero",
