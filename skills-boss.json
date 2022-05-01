@@ -2002,7 +2002,7 @@
         "id": "xxxx",
         "name": "Super Armor",
         "caster": [
-            "Skeleton King Desperia",
+            "Skeletal King Desperia",
             "Shadow Dragon Irbert"
         ],
         "color": "8a2be2",
@@ -2019,7 +2019,7 @@
     {
         "id": "xxxx",
         "name": "Drain Soul",
-        "caster": "Skeleton King Desperia",
+        "caster": "Skeletal King Desperia",
         "color": "f89c34",
         "type": "active",
         "cooldown": "15",
@@ -2034,7 +2034,7 @@
     {
         "id": "xxxx",
         "name": "Soul Terror",
-        "caster": "Skeleton King Desperia",
+        "caster": "Skeletal King Desperia",
         "color": "f89c34",
         "type": "active",
         "cooldown": "16",
@@ -2047,7 +2047,7 @@
     {
         "id": "xxxx",
         "name": "Weapon of Nothingness",
-        "caster": "Skeleton King Desperia",
+        "caster": "Skeletal King Desperia",
         "color": "f89c34",
         "type": "active",
         "cooldown": "8",
@@ -2061,7 +2061,7 @@
     {
         "id": "xxxx",
         "name": "Absolute Devastation",
-        "caster": "Skeleton King Desperia",
+        "caster": "Skeletal King Desperia",
         "color": "f89c34",
         "type": "active",
         "cooldown": "50",
@@ -2074,7 +2074,7 @@
     {
         "id": "xxxx",
         "name": "True Power of Despair",
-        "caster": "Skeleton King Desperia",
+        "caster": "Skeletal King Desperia",
         "color": "8a2be2",
         "type": "trigger",
         "description": {

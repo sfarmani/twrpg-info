@@ -6724,7 +6724,7 @@
     ],
     "dropped_by": [
       "Bone Dragon",
-      "Skeleton King Desperia",
+      "Skeletal King Desperia",
       "Zombie Lord",
       "Ancient Ent",
       "Archangel Samael",
@@ -7009,7 +7009,7 @@
     "koreanname": "데스 사이드",
     "description": "Weapon used by the grim reapers of despair",
     "dropped_by": [
-      "Skeleton King Desperia"
+      "Skeletal King Desperia"
     ],
     "rank": "[Epic]",
     "grade": 3,
@@ -7019,7 +7019,7 @@
     "droprate": 0.013,
     "required_by": [
       "Claws of Beriel",
-      "Skeleton King Icon"
+      "Skeletal King Icon"
     ],
     "recipe": [
       {
@@ -7049,7 +7049,7 @@
     "koreanname": "영혼의 지팡이",
     "description": "Staff infused with countless souls that were taken away by the Skeletal King",
     "dropped_by": [
-      "Skeleton King Desperia"
+      "Skeletal King Desperia"
     ],
     "rank": "[Epic]",
     "grade": 3,
@@ -7060,7 +7060,7 @@
     "required_by": [
       "Hell Riser",
       "Crimson Hatred",
-      "Skeleton King Icon"
+      "Skeletal King Icon"
     ],
     "recipe": [
       {
@@ -7086,7 +7086,7 @@
     "koreanname": "사신의 로브",
     "description": "A bizarre robe worn by the reaper.",
     "dropped_by": [
-      "Skeleton King Desperia"
+      "Skeletal King Desperia"
     ],
     "rank": "[Epic]",
     "grade": 3,
@@ -7096,7 +7096,7 @@
     "droprate": 0.016,
     "required_by": [
       "Medea, the Robe of the Witch",
-      "Skeleton King Icon"
+      "Skeletal King Icon"
     ],
     "recipe": [
       {
@@ -7120,7 +7120,7 @@
     "koreanname": "암흑의 브로치",
     "description": "The brooch of the Skeletal King that contains a pecular blessing",
     "dropped_by": [
-      "Skeleton King Desperia"
+      "Skeletal King Desperia"
     ],
     "rank": "[Epic]",
     "grade": 3,
@@ -7130,7 +7130,7 @@
     "droprate": 0.016,
     "required_by": [
       "Cold Ring of Death",
-      "Skeleton King Icon"
+      "Skeletal King Icon"
     ],
     "recipe": [
       {
@@ -7153,7 +7153,7 @@
     "koreanname": "본 네크리스",
     "description": "Ornament with evil mana flowing through",
     "dropped_by": [
-      "Skeleton King Desperia"
+      "Skeletal King Desperia"
     ],
     "rank": "[Epic]",
     "grade": 3,
@@ -7163,7 +7163,7 @@
     "droprate": 0.016,
     "required_by": [
       "Requiem, the Armor of Lamentation",
-      "Skeleton King Icon"
+      "Skeletal King Icon"
     ],
     "recipe": [
       {
@@ -7190,7 +7190,7 @@
     "name": "Fragment of Oblivion",
     "koreanname": "망각의 파편",
     "dropped_by": [
-      "Skeleton King Desperia"
+      "Skeletal King Desperia"
     ],
     "recipe": [
       {
@@ -7215,7 +7215,7 @@
       "Wings of Slayer",
       "Oblivion",
       "Bag of Explosion",
-      "Skeleton King Icon"
+      "Skeletal King Icon"
     ]
   },
   {
@@ -7223,7 +7223,7 @@
     "name": "Skeleton Bone",
     "koreanname": "스켈레톤 본",
     "dropped_by": [
-      "Skeleton King Desperia"
+      "Skeletal King Desperia"
     ],
     "recipe": [
       {
@@ -7248,7 +7248,7 @@
       "Hades, the Armor of Despair",
       "Soul of the Dead",
       "Bag of Destruction",
-      "Skeleton King Icon"
+      "Skeletal King Icon"
     ]
   },
   {
@@ -7256,7 +7256,7 @@
     "name": "Orb of Oblivion",
     "koreanname": "망각의 구슬",
     "dropped_by": [
-      "Skeleton King Desperia"
+      "Skeletal King Desperia"
     ],
     "rank": "[Epic]",
     "grade": 3,
@@ -7280,7 +7280,7 @@
       "Pure Crystal Wings",
       "Ring of Composure",
       "Ring of Time",
-      "Skeleton King Icon"
+      "Skeletal King Icon"
     ],
     "recipe": [
       {
@@ -7293,7 +7293,7 @@
     "name": "Spirit of Abyss",
     "koreanname": "심연의 기운",
     "dropped_by": [
-      "Skeleton King Desperia"
+      "Skeletal King Desperia"
     ],
     "rank": "[Epic]",
     "grade": 3,
@@ -7314,7 +7314,7 @@
       "Bag of Mother Nature",
       "Grimoire of Darkness",
       "Eye of the Reaper",
-      "Skeleton King Icon"
+      "Skeletal King Icon"
     ],
     "recipe": [
       {
@@ -7327,7 +7327,7 @@
     "name": "Skeleton Token",
     "koreanname": "스켈레톤 토큰",
     "dropped_by": [
-      "Skeleton King Desperia"
+      "Skeletal King Desperia"
     ],
     "rank": "none",
     "grade": 0,
@@ -22104,7 +22104,15 @@
       "critchancepercent": 0.05,
       "critmultiplier": 0.40,
       "passive": [
-        "On attack, activates Mark of Storm"
+        "On attack, activates Mark of Storm",
+        "Attacking the same target 4 times applies Mark of Storm",
+        "The next PROC will consume the mark to activate Eye of the Storm",
+        "While Eye of the Storm is active, you accumulate 20% charge for each 200 distance moved (up to 400%)",
+        "If you attack again with more than 100% charge or after 10 seconds, consumes Eye of the Storm to release a burst of lightning",
+        "Lightning deals magic damage to nearby enemies (can critically strike)",
+        "Damage: INT X 4 X (100 + charge %) X crit multiplier",
+        "Crit chance: (your critical chance) X (charge %)",
+        "Cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -22324,7 +22332,7 @@
         "Each collision with enemy deals (5000 + INT X 2) magic damage",
         "If target is a boss unit, increases INT by 10 and skill damage by 0.25% per hit (up to 25 stacks)",
         "Upon reaching max stacks, explodes and deals (INT X 15) magic damage to nearby enemies (1000 range)",
-        "Stacks lasts 6 seconds"
+        "Stacks last 6 seconds"
       ],
       "active": [
         "On use, adjusts the radius of Ring of Blood",
@@ -23209,7 +23217,7 @@
     "type": "Icon",
     "color": "008000",
     "required_by": [
-      "Skeleton King Icon",
+      "Skeletal King Icon",
       "Master Icon"
     ],
     "recipe": [
@@ -23255,7 +23263,7 @@
   },
   {
     "id": "I0M8",
-    "name": "Skeleton King Icon",
+    "name": "Skeletal King Icon",
     "koreanname": "해골 왕 아이콘",
     "rank": "none",
     "grade": 0,
@@ -23505,7 +23513,7 @@
         "Master Icon": 1
       },
       {
-        "Skeleton King Icon": 1
+        "Skeletal King Icon": 1
       },
       {
         "Zombie Lord Icon": 1

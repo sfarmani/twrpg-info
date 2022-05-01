@@ -3452,7 +3452,7 @@
     },
     {
         "id": "n02V",
-        "name": "Skeleton King Desperia",
+        "name": "Skeletal King Desperia",
         "color": "8a2be2",
         "quote": "This is the difference between your power and mine!",
         "level": "110",
@@ -3507,7 +3507,7 @@
         "category": "High",
         "type": "Minion",
         "location": "In Prius Forward camp, the Sealed Land to the North",
-        "conditions": "Summoned by Skeleton King Desperia",
+        "conditions": "Summoned by Skeletal King Desperia",
         "stats": {
             "health": "75000",
             "healthRegen": "1000",
