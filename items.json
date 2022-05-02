@@ -8453,7 +8453,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.0055,
+    "droprate": 0.0075,
     "required_by": [
       "Staff of Plague",
       "Heaven's Fist",
@@ -8494,7 +8494,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.0065,
     "required_by": [
       "Horn of Lightning God",
       "Protection of the Fairies",
@@ -8529,7 +8529,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.0065,
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Pheles, the Bow of God",
@@ -8572,8 +8572,8 @@
     "type": "Material",
     "color": "FFFFFF",
     "droprate": [
-      0.005,
-      0.0075,
+      0.007,
+      0.0085,
       0.01
     ],
     "required_by": [
@@ -8630,7 +8630,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "I0JS",
@@ -8645,7 +8645,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.0055,
+    "droprate": 0.0075,
     "required_by": [
       "Ring of Revival",
       "Robe of Archlich",
@@ -8689,7 +8689,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.0065,
     "required_by": [
       "Eye of the Flame Lord",
       "Protection of the Fairies",
@@ -8722,7 +8722,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.0065,
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Staff of Plague",
@@ -8762,7 +8762,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "I0LX",
@@ -8777,7 +8777,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.0055,
+    "droprate": 0.0075,
     "required_by": [
       "Ring of Fate",
       "Eternal Flame",
@@ -8812,7 +8812,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.0065,
     "required_by": [
       "Robe of Archlich",
       "Brave Heart",
@@ -8852,7 +8852,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.0065,
     "required_by": [
       "Ring of Fate",
       "Bag of Universe",
@@ -8895,7 +8895,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "I0O3",
