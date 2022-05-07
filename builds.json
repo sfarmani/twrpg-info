@@ -756,13 +756,14 @@
         "type": "STR Full Support",
         "order": 1,
         "stat": "STR",
-        "version": "59s",
+        "version": "59z",
         "guidelink": [
             "https://docs.google.com/document/d/1xJGcGKLWDBu8iDUAcjknk1QRK34MYfPMnFRphjuLo3g/edit?usp=sharing"
         ],
         "description": [
             "For more heals, look at the INT Full Support build",
-            "If your team uses serenity, then you can switch to another helm"
+            "If your team uses serenity, then you can switch to another helm",
+            "Use deep abyss as a fill in"
         ],
         "items": {
             "Eternal Winter": [
@@ -773,7 +774,9 @@
             ],
             "Ring of Hope": [],
             "Harmony of Sky and Earth": [],
-            "Protection of the Fairies": []
+            "Protection of the Fairies": [
+                "Cape of Deep Abyss"
+            ]
         }
     },
     {
@@ -781,7 +784,7 @@
         "type": "INT Full Support",
         "order": 2,
         "stat": "INT",
-        "version": "56a",
+        "version": "59z",
         "guidelink": [
             "https://docs.google.com/document/d/1xJGcGKLWDBu8iDUAcjknk1QRK34MYfPMnFRphjuLo3g/edit?usp=sharing"
         ],
@@ -807,19 +810,23 @@
         "type": "AGI Full DPS",
         "order": 3,
         "stat": "AGI",
-        "version": "51b",
+        "version": "59z",
         "description": [
-            "For full support builds, check out the first two builds"
+            "For full support builds, check out the first two builds",
+            "Use Cage as a fill in for your team"
         ],
         "items": {
-            "Cosmic Reaper": [],
-            "Radiance of the One": [],
-            "Ring of Hope": [
-                "Ring of Insanity",
+            "Divine Slayer": [],
+            "Eye of the Reaper": [
+                "Vision of Vengeance"
+            ],
+            "Ring of Insanity": [
                 "Demonic Fist"
             ],
             "Vest of Divine Winds": [],
-            "Ruler of the Skies": []
+            "Ruler of the Skies": [
+                "Cage of Twisted Souls"
+            ]
         }
     },
     {
