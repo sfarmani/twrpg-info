@@ -1,5 +1,20 @@
 [
     {
+        "name": "59z",
+        "notes": [
+            "Released on: April 17th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "monsters": [
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Multiplayer drop rate bonus adjusted to be normal"
+                ]
+            }
+        ]
+    },
+    {
         "name": "59x",
         "notes": [
             "Released on: April 16th, 2022",
