@@ -6946,7 +6946,8 @@
       "Ifrit",
       "Nereid",
       "Underlord Agareth",
-      "Duke Lazarus"
+      "Duke Lazarus",
+      "Gaia, the Earth Goddess"
     ],
     "rank": "none",
     "grade": 0,
@@ -6956,6 +6957,7 @@
       0.001,
       0.001,
       0.001,
+      0.0015,
       0.0015,
       0.0015,
       0.0015
@@ -8237,7 +8239,8 @@
       "Agnitus, the Bow of Divine Fury",
       "Fulminata, the Bringer of Storms",
       "Abyss Fall",
-      "Divine Slayer"
+      "Divine Slayer",
+      "Final Omen"
     ],
     "stats": {
       "damage": 9900,
@@ -8616,7 +8619,11 @@
       "Crown of Cleansing",
       "Ring of Desolate Soul",
       "Visage of Vengeance",
-      "Divine Slayer"
+      "Divine Slayer",
+      "Exitium, the Armor of Ruin",
+      "Crimson Curse",
+      "Ring of Eternity",
+      "Wings of Sacred Provenance"
     ]
   },
   {
@@ -8661,7 +8668,8 @@
       "Heartrender",
       "Crown of Cleansing",
       "Star of Apotheosis",
-      "Sanguis, the Robe of Sacrifice"
+      "Sanguis, the Robe of Sacrifice",
+      "Wings of Sacred Provenance"
     ],
     "stats": {
       "mainstat": 390,
@@ -8789,7 +8797,8 @@
       "Prophetia, the Origin of Knowledge",
       "Ring of Frozen Soul",
       "Endless Snow",
-      "Heirloom of Lazarus"
+      "Heirloom of Lazarus",
+      "Crimson Curse"
     ],
     "stats": {
       "allstat": 360,
@@ -8838,7 +8847,9 @@
       "Crescendo of Madness",
       "Cape of Insatiable Hunger",
       "Visage of Vengeance",
-      "Divine Slayer"
+      "Divine Slayer",
+      "Seal of Corruption",
+      "Heart of Life"
     ]
   },
   {
@@ -8881,7 +8892,9 @@
       "Star of Apotheosis",
       "Bloodstorm",
       "Guardian Angel",
-      "Abyss Fall"
+      "Abyss Fall",
+      "Atricia, the Sword of Nightmares",
+      "Wings of Cosmos"
     ]
   },
   {
@@ -8922,7 +8935,10 @@
       "Endless Snow",
       "Cage of Twisted Souls",
       "Crown of Cleansing",
-      "Cape of Insatiable Hunger"
+      "Cape of Insatiable Hunger",
+      "Exitium, the Armor of Ruin",
+      "Ring of Eternity",
+      "Wings of Cosmos"
     ],
     "stats": {
       "mainstat": 405,
@@ -8971,7 +8987,9 @@
       "Heartrender",
       "Caedis, the Sword of Slaughter",
       "Fulminata, the Bringer of Storms",
-      "Star of Apotheosis"
+      "Star of Apotheosis",
+      "Atricia, the Sword of Nightmares",
+      "Wings of Sacred Provenance"
     ]
   },
   {
@@ -9004,7 +9022,9 @@
       "Cape of Insatiable Hunger",
       "Sanguis, the Robe of Sacrifice",
       "Abyss Fall",
-      "Crescendo of Madness"
+      "Crescendo of Madness",
+      "Titan's Plates",
+      "Heart of Life"
     ]
   },
   {
@@ -9036,7 +9056,8 @@
       "Plates of Sanguine Fury",
       "Heirloom of Lazarus",
       "Guardian Angel",
-      "Divine Slayer"
+      "Divine Slayer",
+      "Seal of Corruption"
     ]
   },
   {
@@ -9071,7 +9092,10 @@
       "Plates of Sanguine Fury",
       "Crown of Cleansing",
       "Guardian Angel",
-      "Abyss Fall"
+      "Abyss Fall",
+      "Titan's Plates",
+      "Crimson Curse",
+      "Seal of Corruption"
     ],
     "stats": {
       "mainstat": 420,
@@ -9106,7 +9130,10 @@
       "Heartrender",
       "Abyss Fall",
       "Ring of Desolate Soul",
-      "Visage of Vengeance"
+      "Visage of Vengeance",
+      "Atricia, the Sword of Nightmares",
+      "Exitium, the Armor of Ruin",
+      "Wings of Sacred Provenance"
     ]
   },
   {
@@ -9131,7 +9158,11 @@
       "Cape of Insatiable Hunger",
       "Sanguis, the Robe of Sacrifice",
       "Plates of Sanguine Fury",
-      "Heartrender"
+      "Heartrender",
+      "Atricia, the Sword of Nightmares",
+      "Ring of Eternity",
+      "Heart of Life",
+      "Wings of Cosmos"
     ]
   },
   {
@@ -9155,7 +9186,9 @@
       "Guardian Angel",
       "Sanguis, the Robe of Sacrifice",
       "Ring of Desolate Soul",
-      "Divine Slayer"
+      "Divine Slayer",
+      "Final Omen",
+      "Seal of Corruption"
     ]
   },
   {
@@ -9169,6 +9202,90 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
+    "droprate": 0.0001
+  },
+  {
+    "id": "I01Z",
+    "name": "Gown of Life",
+    "koreanname": "생명의 가운",
+    "description": "The mother nature embraces all.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "droprate": 0.06,
+    "required_by": [
+      "Titan's Plates",
+      "Wings of Cosmos",
+      "Wings of Sacred Provenance"
+    ],
+    "stats": {
+      "armor": 260,
+      "mainstat": 370,
+      "skilldamagepercent": 0.075,
+      "passive": [
+        "On use, activates Regeneration",
+        "Clears all debuffs and restores 12000 HP over 10s",
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I05Q",
+    "name": "Essence of Earth",
+    "koreanname": "대지의 결정",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.075,
+    "required_by": [
+      "Final Omen",
+      "Seal of Corruption",
+      "Ring of Eternity",
+      "Wings of Cosmos",
+      "Wings of Sacred Provenance"
+    ]
+  },
+  {
+    "id": "I09R",
+    "name": "Aegis of Earth",
+    "koreanname": "대지의 가호",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.075,
+    "required_by": [
+      "Titan's Plates",
+      "Heart of Life"
+    ]
+  },
+  {
+    "id": "I05P",
+    "name": "Twisted Fragment of Ruins",
+    "koreanname": "뒤틀린 유적의 조각",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.075,
+    "required_by": [
+      "Atricia, the Sword of Nightmares",
+      "Final Omen",
+      "Exitium, the Armor of Ruin",
+      "Crimson Curse"
+    ]
+  },
+  {
+    "id": "I0R7",
+    "name": "Gaia Token",
+    "koreanname": "지신의 토큰",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Token",
+    "color": "733CBE",
     "droprate": 0.0001
   },
   {
@@ -17091,7 +17208,8 @@
     "level": 100,
     "required_by": [
       "Hood of Apocalypse",
-      "Mark of Sin"
+      "Mark of Sin",
+      "Seal of Corruption"
     ],
     "recipe": [
       {
@@ -18467,6 +18585,9 @@
     "type": "Weapon (Melee)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Atricia, the Sword of Nightmares"
+    ],
     "recipe": [
       {
         "Oceanus, the Sword of Light": 1
@@ -18810,6 +18931,9 @@
     "type": "Weapon (Gun)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Final Omen"
+    ],
     "recipe": [
       {
         "Punisher": 1
@@ -19505,6 +19629,9 @@
     "type": "Armor",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Titan's Plates"
+    ],
     "recipe": [
       {
         "Hellspike Armor": 1
@@ -19659,6 +19786,9 @@
     "type": "Armor",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Exitium, the Armor of Ruin"
+    ],
     "recipe": [
       {
         "Grandine, the Plates of Wraith": 1
@@ -20750,6 +20880,9 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Ring of Eternity"
+    ],
     "recipe": [
       {
         "Ring of Time": 1
@@ -20794,6 +20927,9 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Crimson Curse"
+    ],
     "recipe": [
       {
         "Ring of Strike": 1
@@ -20834,6 +20970,9 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Heart of Life"
+    ],
     "recipe": [
       {
         "Azathos, the Pipe of Chaos": 1
@@ -21530,6 +21669,9 @@
     "type": "Wings",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Wings of Cosmos"
+    ],
     "recipe": [
       {
         "Pure Crystal Wings": 1
@@ -21959,6 +22101,57 @@
     }
   },
   {
+    "id": "I02A",
+    "name": "Atricia, the Sword of Nightmares",
+    "koreanname": "악몽의 검 아트리샤",
+    "description": "I shall become your nightmare.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Melee)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Atricia, the Sword of Dreams": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Fragment of Soul": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "damage": 11000,
+      "str": 610,
+      "agi": 780,
+      "skilldamagepercent": 0.1,
+      "critchancepercent": 0.1,
+      "passive": [
+        "On skill cast, empowers next attack with Nightmare Slash",
+        "Infuses the sword with Nightmare Energy (stacks up to 20 times; lost when exiting combat)",
+        "Deals (3000 + Main Stat X 6) pure damage to target and heals you for (Main Stat X 0.15) HP",
+        "Each stack increases the damage above by 1%",
+        "If reactivated within 2s, becomes infused with darkness and lands as a critical strike"
+      ],
+      "active": [
+        "On use, activates Dream Ender",
+        "Consumes all stacks of Nightmare Energy, dealing (150000 + 25000 X stack) magic damage",
+        "Becomes immune to damage and CC for 3 seconds",
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
     "id": "fgrd",
     "name": "Agnitus, the Bow of Divine Fury",
     "koreanname": "사자의 활 아그니투스",
@@ -22062,6 +22255,51 @@
         "Specialty - Abyss Fall",
         "Shooter - Twin Star: Heals allies hit for (INT X 0.5 + Target's Max HP X 15%)",
         "Shooter - Nanomachine Injection: Healing speed increased by 60% and duration increased by 100%; while buff is active, target is immune to debuffs"
+      ]
+    }
+  },
+  {
+    "id": "I0IK",
+    "name": "Final Omen",
+    "koreanname": "파이널 오멘",
+    "description": "The end is here.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Gun)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Last Word": 1
+      },
+      {
+        "The Ender": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "damage": 12000,
+      "agi": 895,
+      "critmultiplier": 0.4,
+      "passive": [
+        "Loads Bullet of Omen every 3 seconds",
+        "Deals ((AGI x 7.5) + (Attack Damage x 1.4)) magic damage per stack",
+        "Deals 25% bonus damage to enemies under 50% HP",
+        "Stuns for 0.25 seconds",
+        "Can charge up to 4 stacks"
+      ],
+      "spec": [
+        "Specialty - Abandon All Hope",
+        "Shooter - Casting Break Shot loads one Bullet of Omen",
+        "Gunner - Casting Outlaw loads one Bullet of Omen"
       ]
     }
   },
@@ -22337,6 +22575,99 @@
       "active": [
         "On use, adjusts the radius of Ring of Blood",
         "3 range settings are provided: close, medium, and far (250, 600, 800)"
+      ]
+    }
+  },
+  {
+    "id": "I0CT",
+    "name": "Titan's Plates",
+    "koreanname": "거신의 갑주",
+    "description": "Armor infused with mighty power",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Felspike Armor": 1
+      },
+      {
+        "Gown of Life": 1
+      },
+      {
+        "Crimson Rose": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Fragment of Hell": 1
+      }
+    ],
+    "stats": {
+      "armor": 275,
+      "str": 480,
+      "skilldamagepercent": 0.15,
+      "passive": [
+        "On skill cast, activates Titanic Roar",
+        "Deals (15000 + Max HP X 3) magic damage to nearby enemies",
+        "Grants 500 damage bonus for 10 seconds (stacks up to 5 times)",
+        "Only activates if an enemy is nearby",
+        "Cooldown: 5 seconds"
+      ],
+      "active": [
+        "On use, activates Titan's Fury",
+        "Clears all debuffs",
+        "Activates Titanic Roar 5 times in a row",
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0IL",
+    "name": "Exitium, the Armor of Ruin",
+    "koreanname": "파멸의 갑주 엑시티움",
+    "description": "Doomsday, is it the destruction of the world, or its restoration?",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Athanasia, the Armor of the Reaper": 1
+      },
+      {
+        "Curse of Greed": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Shining Fragment of Ruins": 2
+      }
+    ],
+    "stats": {
+      "armor": 230,
+      "str": 190,
+      "agi": 440,
+      "skilldamagepercent": 0.14,
+      "critchancepercent": 0.14,
+      "passive": [
+        "On attack, applies Mark of Ruin",
+        "Increases your damage dealt to target up to 8% based on target's missing HP for 4 seconds",
+        "If HP drops below 20%, summons Reaper",
+        "Prevents HP from dropping below 1 for 6 seconds",
+        "Afterwards, heals you to full and deals (AGI X 50 ~ 125) pure damage to nearby enemies based on their missing HP",
+        "Cooldown 60 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialties - Bringer of Ruin",
+        "Martial Artist - Nameless Arts reduces damage taken by 20% while active. Also grants immunity to instant death spell"
       ]
     }
   },
@@ -22621,6 +22952,195 @@
     }
   },
   {
+    "id": "I0DL",
+    "name": "Crimson Curse",
+    "koreanname": "핏빛 저주",
+    "description": "Drenched in blood that cannot be washed away",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Ring of Insanity": 1
+      },
+      {
+        "Grail of Eternity": 1
+      },
+      {
+        "Crimson Rose": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "str": 455,
+      "agi": 425,
+      "periodicdamagepercent": 0.35,
+      "healreceivedpercent": -0.35,
+      "passive": [
+        "Chance to activate Lunacy on attack",
+        "15% chance to activate on attack",
+        "Next 3 attacks, and every 12th hit afterwards deals (ATK DMG X 100%) bonus pure damage",
+        "For 7.5 seconds, increases ATK DMG by 8500, Main Stat/HP regen by 425",
+        "Cooldown: 15 seconds"
+      ],
+      "active": [
+        "On use, activates Gift of the Old One",
+        "Consumes 75% of your current HP to activate Lunacy",
+        "Cooldown: 90 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I00V",
+    "name": "Seal of Corruption",
+    "koreanname": "타락의 인장",
+    "description": "Countless innocent souls have been sacrificed to create this item.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Seal of Deceiver": 1
+      },
+      {
+        "Crimson Rose": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Mark of Lord": 1
+      },
+      {
+        "Soul Blossom": 1
+      }
+    ],
+    "stats": {
+      "str": 470,
+      "int": 430,
+      "skilldamagepercent": 0.12,
+      "periodicdamagepercent": 0.15,
+      "passive": [
+        "During combat, activates Corruption",
+        "Increases STR and INT by 4 for each stack",
+        "Gains 1 stack every second and for each 25% of max HP you heal yourself",
+        "Stacks up to 60 times"
+      ],
+      "active": [
+        "On use, activates Hand of Corruption",
+        "Consumes 40 stacks of Corruption",
+        "Deals 150000 magic damage and silences enemies in target area for 1.5 seconds",
+        "Inflicts target with Corruption for 5 seconds, dealing 50000 magic damage per second",
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialty - Power of Inversion",
+        "Dark Knight - Unholy Tempest's damage is increased by 15%, and it always deals its maximum damage regardless of target's HP."
+      ]
+    }
+  },
+  {
+    "id": "I0DR",
+    "name": "Ring of Eternity",
+    "koreanname": "영원의 반지",
+    "description": "The haven of all desires",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Ring of Fate": 1
+      },
+      {
+        "Curse of Greed": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      },
+      {
+        "Shining Fragment of Ruins": 2
+      }
+    ],
+    "stats": {
+      "allstat": 460,
+      "skilldamagepercent": 0.13,
+      "passive": [
+        "If HP drops below 1, activates Fate Reversal",
+        "Restore health to full",
+        "Cooldown: 300 seconds"
+      ],
+      "active": [
+        "On use, activates Time Distortion",
+        "Consumes 75 stacks",
+        "Once you enter combat, you will gain 75 stacks immediately",
+        "You also gain 1 stack per second and with 40% chance on each skill cast",
+        "Refreshes the cooldown of the last used non-ultimate skill",
+        "Grants 7% skill damage, 1000 HP/MP regen, and CC immunity for 10 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I0BE",
+    "name": "Heart of Life",
+    "koreanname": "영원의 반지",
+    "description": "Bloom with life.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Horn of God": 1
+      },
+      {
+        "Aegis of Sea": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Fragment of Hell": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      }
+    ],
+    "stats": {
+      "int": 535,
+      "hp": 3550,
+      "skilldamagepercent": 0.1,
+      "passive": [
+        "Increases ATK DMG by (INT X 0.7) (up to 2400)",
+        "Increases ATK SPD by 20% and HP regen by 120",
+        "Upon healing allies, amplifies the passive stat bonus given by 50% for 6 seconds (this effect has 12s cd per target)"
+      ],
+      "active": [
+        "On use, activates Flourishing Life",
+        "Prevents HP from dropping below 1 for 3 seconds",
+        "Restores 12% of max health each second",
+        "Cleanses debuffs for duration"
+      ]
+    }
+  },
+  {
     "id": "I00W",
     "name": "Cape of Insatiable Hunger",
     "koreanname": "끝없는 갈망의 망토",
@@ -22771,6 +23291,109 @@
         "Heals any allies coming into contact (400 radius) by 4000 HP and provides a shield absorbing up to 4000 damage for 5 seconds (once per ally)",
         "Casting any other skills will deactivate the transformation",
         "Cooldown: 40 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0EJ",
+    "name": "Wings of Cosmos",
+    "koreanname": "창조의 날개",
+    "description": "Flourish with life.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Archangel Wings": 1
+      },
+      {
+        "Gown of Life": 1
+      },
+      {
+        "Curse of Greed": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      }
+    ],
+    "stats": {
+      "allstat": 250,
+      "mainstat": 100,
+      "hpregen": 120,
+      "mpregen": 60,
+      "skilldamagepercent": 0.175,
+      "movespeed": 50,
+      "passive": [
+        "On use, activates Gift of Life",
+        "Increases main stat by 125, skill damage by 5%, and damage reduction by 25% for 6 seconds",
+        "Cooldown: 45 seconds"
+      ],
+      "active": [
+        "Chance to activate Rebirth on skill cast",
+        "6% chance to activate",
+        "After 2 seconds, refreshes cooldown of all non-ultimate skills",
+        "Also activates Gift of Life with double stat bonus/duration",
+        "Cooldown: 120 seconds "
+      ]
+    }
+  },
+  {
+    "id": "I0EI",
+    "name": "Wings of Sacred Provenance",
+    "koreanname": "신성한 기원의 날개",
+    "description": "All evil shall be purged by my flame",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Gown of Life": 1
+      },
+      {
+        "Heart of Volcano": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Fragment of Soul": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "mainstat": 390,
+      "hp": 1500,
+      "skilldamagepercent": 0.1,
+      "affinityflamepercent": 0.05,
+      "passive": [
+        "Activate Sacred Flame on dealing magic damage",
+        "Deals 33000 magic damage around user in 450 AoE",
+        "Gain a stack of Sacred Dawn",
+        "Each stack increases skill damage by 1.5% and fire affinity by 0.5% for 6 seconds (up to 5 stacks)",
+        "Upon max stacks, the user can no longer refresh stacks",
+        "Cooldown: 2 seconds, cannot be dropped during cooldown"
+      ],
+      "active": [
+        "On use, activates Blazing Dawn",
+        "Deals (66000 X stack) magic damage around user in 600 AoE",
+        "User will not gain or lose Sacred Dawn stacks while this is active; all stacks will be lost at end",
+        "Lasts 12 seconds",
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
   },

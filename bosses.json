@@ -4864,5 +4864,36 @@
             "attackSpeed": "0",
             "moveSpeed": "0"
         }
+    },
+    {
+        "id": "h09B",
+        "name": "Gaia",
+        "color": "A6DAA4",
+        "quote": "",
+        "level": "130",
+        "category": "Endgame",
+        "type": "Boss",
+        "limit": "None",
+        "respawn": "3",
+        "location": "Top right portal in the elemental tower",
+        "conditions": "Level 100",
+        "stats": {
+            
+        },
+        "empoweredStats": {
+            
+        },
+        "drops": [
+            "I01Z",
+            "I05Q",
+            "I09R",
+            "I05P",
+            "I0OZ",
+            "I0R7"
+        ],
+        "spells": [
+        ],
+        "minions": [
+        ]
     }
 ]

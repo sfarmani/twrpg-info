@@ -1,5 +1,80 @@
 [
     {
+        "name": "60b",
+        "notes": [
+            "Released on: May 10th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Fixed issue where Blood Orb in Duke Lazarus could not be absorbed",
+	        "Fixed bug with Horn of God active not cleansing immediately"
+        ],
+        "monsters": [
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Plant",
+                    [
+                        "Spawn period: 15 ~ 20 seconds → 18 ~ 21 seconds",
+                        "Red plant energy restoration amount: 10 ~ 20 → 12 ~ 24",
+                        "Radius: 600 → 750"
+                    ],
+                    "Spirit Bomb",
+                    [
+                        "Cooldown: 45 seconds → 55 seconds"
+                    ],
+                    "Life Sap",
+                    [
+                        "3rd life sap drain (40 X player count) → (35 X player count)",
+                        "If mana is full after life sap, boss will prioritize going into empowerment phase over final phase"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "60a",
+        "notes": [
+            "Released on: May 9th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Duke Lazarus - Fixed bug where Blood Orb doesn't disappear if you run into it before it starts moving"
+        ],
+        "items": [
+            {
+                "name": "New recipes added",
+                "changes": [
+                    "Atricia, the Sword of Nightmare",
+                    "Final Omen",
+                    "Titan's Plates",
+                    "Exitium, the Armor of Ruin",
+                    "Frost Herald's Garment",
+                    "Crimson Curse",
+                    "Seal of Corruption",
+                    "Ring of Eternity",
+                    "Heart of Life",
+                    "Wings of Sacred Provenance",
+                    "Wings of Cosmos"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Gaia",
+                "changes": [
+                    "New boss has been added"
+                ]
+            }
+        ],
+        "misc": [
+            "Attacks against following units are considered back attacks all the time",[
+                "Agareth - Soul Crystals",
+                "Gaia - Spirit Bomb"
+            ]
+        ]
+    },
+    {
         "name": "59z",
         "notes": [
             "Released on: April 17th, 2022",
