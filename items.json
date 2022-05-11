@@ -6947,7 +6947,7 @@
       "Nereid",
       "Underlord Agareth",
       "Duke Lazarus",
-      "Gaia, the Earth Goddess"
+      "Gaia"
     ],
     "rank": "none",
     "grade": 0,
@@ -9209,12 +9209,15 @@
     "name": "Gown of Life",
     "koreanname": "생명의 가운",
     "description": "The mother nature embraces all.",
+    "dropped_by": [
+      "Gaia"
+    ],
     "rank": "[Epic]",
     "grade": 5,
     "type": "Armor",
     "color": "733CBE",
     "level": 100,
-    "droprate": 0.06,
+    "droprate": 0.006,
     "required_by": [
       "Titan's Plates",
       "Wings of Cosmos",
@@ -9235,11 +9238,14 @@
     "id": "I05Q",
     "name": "Essence of Earth",
     "koreanname": "대지의 결정",
+    "dropped_by": [
+      "Gaia"
+    ],
     "rank": "[Epic]",
     "grade": 5,
     "type": "Material",
     "color": "733CBE",
-    "droprate": 0.075,
+    "droprate": 0.0075,
     "required_by": [
       "Final Omen",
       "Seal of Corruption",
@@ -9252,11 +9258,14 @@
     "id": "I09R",
     "name": "Aegis of Earth",
     "koreanname": "대지의 가호",
+    "dropped_by": [
+      "Gaia"
+    ],
     "rank": "[Epic]",
     "grade": 5,
     "type": "Material",
     "color": "733CBE",
-    "droprate": 0.075,
+    "droprate": 0.0075,
     "required_by": [
       "Titan's Plates",
       "Heart of Life"
@@ -9266,11 +9275,14 @@
     "id": "I05P",
     "name": "Twisted Fragment of Ruins",
     "koreanname": "뒤틀린 유적의 조각",
+    "dropped_by": [
+      "Gaia"
+    ],
     "rank": "[Epic]",
     "grade": 5,
     "type": "Material",
     "color": "733CBE",
-    "droprate": 0.075,
+    "droprate": 0.0075,
     "required_by": [
       "Atricia, the Sword of Nightmares",
       "Final Omen",
@@ -9282,6 +9294,9 @@
     "id": "I0R7",
     "name": "Gaia Token",
     "koreanname": "지신의 토큰",
+    "dropped_by": [
+      "Gaia"
+    ],
     "rank": "[Epic]",
     "grade": 5,
     "type": "Token",
