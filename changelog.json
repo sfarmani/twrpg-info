@@ -1,5 +1,119 @@
 [
     {
+        "name": "60d",
+        "notes": [
+            "Released on: May 11th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Fixed korean version being in english"
+        ]
+    },
+    {
+        "name": "60c",
+        "notes": [
+            "Released on: May 11th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "monsters": [
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Soulburn",
+                    [
+                        "Healing reduction: 80% → 70%"
+                    ]
+                ]
+            },
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Red Plant",
+                    [
+                        "Before: when killed, restores 12 ~ 24 energy in 750 radius",
+                        "After: when killed, restores 10 energy to everyone in room",
+                        "Base HP: 60 → 2000000",
+                        "Red plant will take approximately 1/60 of its HP as bonus damage from all sources of damage (less for periodic damage)"
+                    ],
+                    "Force Blast",
+                    [
+                        "Display marker has been added",
+                        "Knockback distance: 950 → 1000 for normal, 800 for empowered",
+                        "Empowered channel time: 3 seconds → 3.25 seconds",
+                        "No longer hits units behind Gaia when fired",
+                        "Energy reduction when hit is empowered blast: 50 → 40"
+                    ],
+                    "Spirit Bomb",
+                    [
+                        "Will become invulnerable and not progress in duration while Life Sap / Spirit Call happens",
+                        "Cooldown: 55 seconds → 60 seconds"
+                    ],
+                    "Life Sap",
+                    [
+                        "3rd activation drain amount (35 X player count) → (30 X player count)"
+                    ],
+                    "Spirit Call",
+                    [
+                        "Orb speed and orb spawn interval slowed down"
+                    ],
+                    "Protection of Light",
+                    [
+                        "Boss will now be immune to cc effects while this effect is active"
+                    ],
+                    "Empowerment Phase",
+                    [
+                        "Safety spots will now spawn more quickly, and its more visible than before",
+                        "Delay before final explosion has been increased by 1 second"
+                    ],
+                    "Corrupt Energy",
+                    [
+                        "Fixed issue where it applied to only 1 person",
+                        "Now will be active in 1 out of 1 ~ 4 players, 2 out of 5 ~ 7 players, 3 out of 8 ~ 10 players (based on players alive)"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Oriental Spear Mastery (D)",
+                    [
+                        "Cooldown: 6 seconds → 5 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Lightning Bolt (Q)",
+                    [
+                        "Range: 1200 → 1300"
+                    ]
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Flame Nova (E)",
+                    [
+                        "Damage: INT X 22.5 → 30",
+                        "Damage amp per wave: 50% → 33%"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Heaven Field (F)",
+                    [
+                        "Damage dealt increase: 4% → 5%"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "60b",
         "notes": [
             "Released on: May 10th, 2022",

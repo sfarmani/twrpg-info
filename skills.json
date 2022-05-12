@@ -1560,8 +1560,8 @@
         "order": 4,
         "active": [
             "Create a fiery explosion by converting mana in the atmosphere into fire.",
-            "INT X 22.5 magic damage",
-            "Damage amplified by 50% each time it travels outward"
+            "INT X 30 magic damage",
+            "Damage amplified by 33% each time it travels outward"
         ],
         "active_tags": [
             "Hero",
@@ -3630,7 +3630,7 @@
         "color": "e2f9ae",
         "hotkey": "[D]",
         "icon": "LancerD",
-        "cooldown": 6,
+        "cooldown": 5,
         "order": 1,
         "passive": [
             "Spear techniques passed down from the orients that boasts destructive power.",
@@ -4302,8 +4302,7 @@
             "Call down a light breeze on target area.",
             "Creates a field that lasts for 40 seconds",
             "Heals allies for 25 + INT X 0.25 per second",
-            "Increase target's HP by 10%, skill damage by 5% for 5 seconds",
-            "Lasts for 40 seconds"
+            "Increase target's HP by 10%, skill damage by (4 + INT / 750)% for 5 seconds"
         ],
         "active_tags": [
             "Hero",
@@ -6426,8 +6425,7 @@
         "active": [
             "\"As my body suddenly start bursting out light, I've felt like I could keep on fighting without ever growing tired. It was only later that I realized the Priest had arrived.\" - Soldier of Empire Army",
             "Summons Heaven Field for 30 seconds",
-            "Increases damage dealt by 4% (light affinity)",
-            "For allies on the field, increases their armor by 500 and regenerates their HP by 10% per second",
+            "For allies on the field, increases their damage dealt by 5%, armor by 100 and regenerates their HP by 10% per second",
             "For your summons on the field, increases their attack speed by 50%",
             "Revives a fallen ally (one ally per cast)"
         ],
