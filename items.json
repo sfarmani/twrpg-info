@@ -9188,7 +9188,8 @@
       "Ring of Desolate Soul",
       "Divine Slayer",
       "Final Omen",
-      "Seal of Corruption"
+      "Seal of Corruption",
+      "Frost Herald's Garment"
     ]
   },
   {
@@ -9268,7 +9269,8 @@
     "droprate": 0.0075,
     "required_by": [
       "Titan's Plates",
-      "Heart of Life"
+      "Heart of Life",
+      "Frost Herald's Garment"
     ]
   },
   {
@@ -9287,7 +9289,8 @@
       "Atricia, the Sword of Nightmares",
       "Final Omen",
       "Exitium, the Armor of Ruin",
-      "Crimson Curse"
+      "Crimson Curse",
+      "Frost Herald's Garment"
     ]
   },
   {
@@ -16397,6 +16400,9 @@
     "type": "Armor",
     "color": "DC143C",
     "level": 100,
+    "required_by": [
+      "Frost Herald's Garment"
+    ],
     "recipe": [
       {
         "Frozen Robe": 1
@@ -19951,6 +19957,9 @@
     "type": "Armor",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Frost Herald's Garment"
+    ],
     "recipe": [
       {
         "Robe of the Necromancer": 1
@@ -22683,6 +22692,55 @@
       "spec": [
         "Specialties - Bringer of Ruin",
         "Martial Artist - Nameless Arts reduces damage taken by 20% while active. Also grants immunity to instant death spell"
+      ]
+    }
+  },
+  {
+    "id": "I018",
+    "name": "Frost Herald's Garment",
+    "koreanname": "서리사자의 망토",
+    "description": "The world shall be covered with snow and blizzard",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Winter Robe": 1
+      },
+      {
+        "Robe of Archlich": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      }
+    ],
+    "stats": {
+      "armor": 235,
+      "int": 475,
+      "hp": 1500,
+      "skilldamagepercent": 0.1,
+      "mdpercent": 0.1,
+      "affinityiwpercent": 0.05,
+      "passive": [
+        "On equip, enables Frost Aura",
+        "Increases damage taken by enemies within 750 range by 3%"
+      ],
+      "active": [
+        "On use, summons Frost Herald",
+        "Applies shield absorbing (INT X 8) for 10 seconds",
+        "Continuously fires frost missiles at nearby targets",
+        "Each missle deals 10000 magic damage and freezing non-boss unit for 1 second",
+        "While active, you can use item up to 2 times to dash",
+        "Each dash deals 150000 magic damage and freezing non-boss units for 3 seconds in line",
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
     }
   },
