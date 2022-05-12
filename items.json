@@ -23405,16 +23405,16 @@
       "skilldamagepercent": 0.175,
       "movespeed": 50,
       "passive": [
-        "On use, activates Gift of Life",
-        "Increases main stat by 125, skill damage by 5%, and damage reduction by 25% for 6 seconds",
-        "Cooldown: 45 seconds"
-      ],
-      "active": [
         "Chance to activate Rebirth on skill cast",
         "6% chance to activate",
         "After 2 seconds, refreshes cooldown of all non-ultimate skills",
         "Also activates Gift of Life with double stat bonus/duration",
         "Cooldown: 120 seconds "
+      ],
+      "active": [
+        "On use, activates Gift of Life",
+        "Increases main stat by 125, skill damage by 5%, and damage reduction by 25% for 6 seconds",
+        "Cooldown: 45 seconds"
       ]
     }
   },
