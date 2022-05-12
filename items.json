@@ -22737,7 +22737,7 @@
         "On use, summons Frost Herald",
         "Applies shield absorbing (INT X 8) for 10 seconds",
         "Continuously fires frost missiles at nearby targets",
-        "Each missle deals 10000 magic damage and freezing non-boss unit for 1 second",
+        "Each missile deals 10000 magic damage and freezing non-boss unit for 1 second",
         "While active, you can use item up to 2 times to dash",
         "Each dash deals 150000 magic damage and freezing non-boss units for 3 seconds in line",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
