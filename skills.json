@@ -3193,6 +3193,24 @@
         ]
     },
     {
+        "id": "A129-2",
+        "name": "Throw Bomb",
+        "heroClass": "Merchant",
+        "color": "ddddbb",
+        "hotkey": "[W]",
+        "icon": "MerchantW2",
+        "order": 4,
+        "active": [
+            "Throws a bomb.",
+            "STR X 4.5 magic damage",
+            "Causes chain explosion on nearby bombs, adding 0.5 seconds stun and 100% damage (stacks up to 4 times)",
+            "Explodes after 30 seconds or if thrown into another bomb",
+            "Up to 10 bombs can be planted at once",
+            "Recharges 1 per second (up to 5)",
+            "Throw range: 1200"
+        ]
+    },
+    {
         "id": "A0DB",
         "name": "Life Shield Scroll",
         "heroClass": "Merchant",
@@ -4877,12 +4895,9 @@
         ]
     },
     {
-        "id": "A129",
+        "id": "A129-1",
         "name": "Throw Bomb",
-        "heroClass": [
-            "Merchant",
-            "Hermit"
-        ],
+        "heroClass": "Hermit",
         "color": "ddddbb",
         "hotkey": "[W]",
         "icon": "MerchantW2",
@@ -4893,8 +4908,7 @@
             "Causes chain explosion on nearby bombs, adding 0.5 seconds stun and 100% damage (stacks up to 4 times)",
             "Explodes after 30 seconds or if thrown into another bomb",
             "Up to 10 bombs can be planted at once",
-            "If Hermit, cooldown: 2 seconds",
-            "If Merchant, Recharges 1 per second (up to 5)",
+            "Cooldown: 2 seconds",
             "Throw range: 1200"
         ]
     },
