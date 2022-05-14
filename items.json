@@ -23156,8 +23156,10 @@
       "skilldamagepercent": 0.13,
       "passive": [
         "If HP drops below 1, activates Fate Reversal",
-        "Restore health to full",
-        "Cooldown: 300 seconds"
+        "Restore health to full (cooldown: 300 seconds)",
+        "On equip, instantly stores 75 stacks",
+        "On skill cast during combat, 40% chance to add 1 stack",
+        "Also adds 1 stack every second"
       ],
       "active": [
         "On use, activates Time Distortion",
@@ -24329,7 +24331,7 @@
         "Fragment of Chaos": 1
       },
       {
-        "Shining Fragment of Ruins": 3
+        "Shining Fragment of Ruins": 2
       }
     ],
     "stats": {

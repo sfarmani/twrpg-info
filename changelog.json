@@ -1,5 +1,135 @@
 [
     {
+        "name": "60e",
+        "notes": [
+            "Released on: May 14th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Warlock - F will no longer root CC immune targets",
+            "Blood Weaver - W can no longer be cast on unwalkable terrain",
+            "Priest - W can no longer be summoned on unwalkable terrain",
+            "Bag of Life - Fixed bug where given HP regen was 180 instead of 240",
+            "Heirloom of Lazarus - Fixed bug where Knight Specialty didn't work after linking to targets",
+            "Ring of Lies - Fixed issue where the item doesn't work properly if applied multiple times on the same target",
+            "Gaia - Fixed bug where hero may not die with 0 life energy left",
+            "Gaia - Fixed bug where Corrupt Energy isn't removed once Gaia has fallen",
+            "Typo's fixed",
+            [
+                "Wind Mage - F duration 45s → 50s",
+                "And some other typos"
+            ]
+        ],
+        "items": [
+            {
+                "name": "Ring of Eternity",
+                "changes": [
+                    "Now builds 75 stacks on equip",
+                    "1 stack every second",
+                    "On skill cast during combat, has 40% chance to add 1 stack"
+                ]
+            },
+            {
+                "name": "Chaos Pickaxe",
+                "changes": [
+                    "Recipe: Shining Fragment of Ruins: 3 → 2"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Turtle Lord",
+                "changes": [
+                    "Small Turtle",
+                    [
+                        "Attack damage reduced by half",
+                        "No longer reflects damage"
+                    ],
+                    "Healing Turtle",
+                    [
+                        "Spawn cooldown: 40 seconds → 50 seconds",
+                        "Now takes max HP X 5% damage from all sources of damage (less for periodic)"
+                    ]
+                ]
+            },
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Gaia's HP will not drop below the activation thresholds of Life Sap / Spirit Call if they haven't been activated yet",
+                    "(for example, Gaia's HP will not drop below 80% before activating its 1st Lift)",
+                    "Spirit Rift",
+                    [
+                        "Explosion delay for empowered cast increased by 0.33 seconds"
+                    ],
+                    "Life Sap",
+                    [
+                        "Drain delay increased by 0.5 seconds"
+                    ],
+                    "Safety Spot",
+                    [
+                        "Model changed again fro better visiblity"
+                    ],
+                    "Last Phase",
+                    [
+                        "Meteor explosion damage: 5000 → 4000",
+                        "Life energy damage: 10 → 8"
+                    ],
+                    "Corrupt Energy",
+                    [
+                        "Count - before:",
+                        [
+                            "1 for 1 ~ 4 players",
+                            "2 for 5 ~ 7 players",
+                            "3 for 8 ~ 10 players"
+                        ],
+                        "After:",
+                        [
+                            "1 for 1 ~ 5",
+                            "2 for 6 ~ 10"
+                        ],
+                        "Applied count will now be fixed and not change mid-fight depending on # of players alive",
+                        "Corrupt energy will be removed during Life Sap (and reapplied once it ends)",
+                        "Corrupt energy will still be active in Spirit Call, but will no longer accumulate or do damage / reduce life energy during it",
+                        "When passed to another player, a small notification will be displayed"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Blood Fury (E)",
+                    [
+                        "While active, will no longer be affected by Wind Mage Q, Hermit D, Shooter Q (with Rainmaker), Elementalist W heal"
+                    ]
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "Card Trick (R)",
+                    [
+                        "Card size increased slightly"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Soul Grimoire (R)",
+                    [
+                        "If you recast R while channeling R in demon form, it will swith the aim without costing 1 mana (or proccing on skill cast event)"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Merchant E, Water Mage W shield text have been oved up",
+            "Fixed some health bars on some skins being abnormally long"
+        ]
+    },
+    {
         "name": "60d",
         "notes": [
             "Released on: May 11th, 2022",
