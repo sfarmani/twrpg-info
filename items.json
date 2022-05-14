@@ -9249,7 +9249,6 @@
     "droprate": 0.0075,
     "required_by": [
       "Final Omen",
-      "Seal of Corruption",
       "Ring of Eternity",
       "Wings of Cosmos",
       "Wings of Sacred Provenance"
@@ -9270,7 +9269,8 @@
     "required_by": [
       "Titan's Plates",
       "Heart of Life",
-      "Frost Herald's Garment"
+      "Frost Herald's Garment",
+      "Seal of Corruption"
     ]
   },
   {
@@ -23091,7 +23091,7 @@
         "Aegis of Sea": 1
       },
       {
-        "Essence of Earth": 1
+        "Aegis of Earth": 1
       },
       {
         "Mark of Lord": 1
