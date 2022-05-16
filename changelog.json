@@ -1,5 +1,63 @@
 [
     {
+        "name": "60g",
+        "notes": [
+            "Released on: May 15th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Priest - Fixed bug with D not being affected by light affinity",
+            "Priest - Fixed bug with E buff duration being incorrect",
+            "Priest - Fixed bug with T Raguel being treated as melee unit",
+            "Priest - Fixed bug with F still reviving / granting armor"
+        ],
+        "monsters": [
+            {
+                "name": "Gaia",
+                "changes": [
+                    "HP of boss/summon reduced by approx. 12.5%",
+                    "HP increase per player beyond 5 players 20% → 30%",
+                    "(roughly same as now at 7 players)",
+                    "Spirit Bomb - Can now be cast after 80% HP → after first Life Sap",
+                    "Protection of Life - Now also activates after empowerment is over, for 15s"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Sword Enchant (D)",
+                    [
+                        "Damage: ATK DMG X 1.15 → ATK DMG X 1.25"
+                    ],
+                    "Enchant Mastery (T)",
+                    [
+                        "Damage increase: 30% → 50%"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Holy Aurora (E)",
+                    [
+                        "Ring radius: 300 → 325",
+                        "Radius no longer affected by light affinity"
+                    ],
+                    "Heaven's Gate (T)",
+                    [
+                        "Cooldown: 100 seconds → 90 seconds",
+                        "Raguel movement speed: 500 → 575",
+                        "Magic defense: 25% → 30%",
+                        "Revival cooldown: 110 seconds → 100 seconds",
+                        "Revival cooldown: is now displayed by mana and no longer affected by light affinity"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "60f",
         "notes": [
             "Released on: May 15th, 2022",

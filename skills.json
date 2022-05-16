@@ -1309,7 +1309,7 @@
         "passive": [
             "Ability to project swords.",
             "On every 8th attack, summons an Enchanted Sword",
-            "On next attack, Enchanted Sword can be consumed to deal Attack Damage X 1.15 bonus damage",
+            "On next attack, Enchanted Sword can be consumed to deal Attack Damage X 1.25 bonus damage",
             "While Enchanted Sword is active, you can quickly dash onto enemies",
             "Can summon up to 5 swords at once"
         ],
@@ -1392,7 +1392,7 @@
         "order": 6,
         "passive": [
             "Profound mastery allows Sword Enchanter to disintegrate the armors of her enemies.",
-            "Increases damage of Sword Enchant by 30%"
+            "Increases damage of Sword Enchant by 50%"
         ],
         "active": [
             "Empowers your chant to make it resonate further.",
@@ -4359,7 +4359,7 @@
         ],
         "active": [
             "Consecerate nearby ground to protect allies and bring down judgment on enemies.",
-            "Creates a ring of 300 radius",
+            "Creates a ring of 325 radius",
             "Deals INT X 5 magic damage per second",
             "Lasts 7 seconds and increases in radius by 50% over duration",
             "Chain - Release Light"
@@ -4463,7 +4463,7 @@
         "color": "fffacd",
         "hotkey": "[T]",
         "icon": "PriestT",
-        "cooldown": 100,
+        "cooldown": 90,
         "order": 10,
         "active": [
             "Temporarily opens the gate of heaven to summon an angel bound to the Priest by an old contract",
@@ -4482,7 +4482,7 @@
         "passive": [
             "Cleanses multiple enemies using power bestowed by the god.",
             "Attacks all nearby targets at once",
-            "Magic defense increased by 25%",
+            "Magic defense increased by 30%",
             "Immune to CC effects"
         ]
     },
@@ -4541,7 +4541,7 @@
             "Gift target with god's blessing.",
             "Revives a fallen ally after 2 seconds of channeling",
             "After revival, target takes 50% reduced damage for 3 seconds",
-            "Has 110 seconds of cooldown shared between summons"
+            "Has 100 seconds of cooldown shared between summons"
         ]
     },
     {
