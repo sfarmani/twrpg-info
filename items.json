@@ -15069,12 +15069,10 @@
       "int": 665,
       "hp": 1800,
       "passive": [
-        "On skill cast, empowers nearby allies for 8 seconds",
-        "Increases attack speed by 12%, skill damage by 10% [Type-B], and HP regen by 75"
-      ],
-      "spec": [
-        "Specialty - Dark Healing",
-        "Priest - Empowers any ally healed by you, and empowers its next attack with Darkness if it's summoned by you."
+        "On skill cast and healing, grants Mad Enhancement",
+        "Increases attack speed by 12%, skill damage by 10% [Type-B], and HP regen by 75",
+        "Healed ally will also get empowered",
+        "Lasts for 8 seconds"
       ]
     }
   },
@@ -17375,9 +17373,7 @@
         "Paladin - Holy Aura: Effect radius increased by 50%",
         "Paladin - Holy Grace: Effect radius increased by 50%",
         "Paladin - Divine Shield: Nearby allies are also affected by received damage reduction",
-        "Priest - Divine Orb: Duration increased by 15%",
-        "Priest - Holy Aurora: Effect radius increased by 20%",
-        "Priest - Heaven Field: Duration increased by 10%",
+        "Priest - Duration of Divine Orb and Heaven Field are increased by 15%.",
         "Wind Mage - Mirror of Aeolus gains 15% bonus damage reduction and 30% bonus radius."
       ]
     }
@@ -19237,17 +19233,15 @@
       "int": 735,
       "hp": 2250,
       "passive": [
-        "On skill cast, activates Power of Abyss",
-        "Increases attack speed and skill damage by 12% [Type-B], and HP regen by 90 for 8 seconds"
+        "On skill cast and healing, grants Power of Abyss",
+        "Increases attack speed and skill damage by 12% [Type-B], and HP regen by 90",
+        "Healed ally will also get empowered",
+        "Lasts for 8 seconds"
       ],
       "active": [
         "On use, activates Call of Abyss",
         "Increases damage output by 8% and HP regen by (15% max HP) for 10 seconds",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
-      ],
-      "spec": [
-        "Specialty - Dark Healing",
-        "Priest - Empowers any ally healed by you, and empowers its next attack with Darkness if it's summoned by you."
       ]
     }
   },

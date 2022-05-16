@@ -1,5 +1,155 @@
 [
     {
+        "name": "60f",
+        "notes": [
+            "Released on: May 15th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Fixed issue with some items changing slots when dying/using item",
+            "Gaia - Fixed issue where some heroes could survive not standing on Safety Spots"
+        ],
+        "items": [
+            {
+                "name": "Staff of Abyss / Soul of Abyss",
+                "changes": [
+                    "Priest Spec",
+                    [
+                        "Effect turned into base item effect",
+                        "1.5 seconds cooldown added to summon empower effect"
+                    ]
+                ]
+            },
+            {
+                "name": "Bell of Light",
+                "changes": [
+                    "Priest Spec",
+                    [
+                        "No longer increases E effect radius",
+                        "F duration increase: 10% → 15%",
+                        "(a lot of priest skills now benefit from light affinity by default, so specialty that was meant to do that is being removed/simplified)"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Life Energy",
+                    [
+                        "Upon revival, your life energy will be fixed to 50 even if you had over 50 life energy before dying"
+                    ],
+                    "Protection of Life",
+                    [
+                        "Fixed issue where duration doesn't reset if re-applied before current one expires",
+                        "Applied duration after Life Sap / Spirit Call: 10 seconds → 15 seconds",
+                        "Note: damage reduction fades to 0 over shield duration"
+                    ],
+                    "Force Blast",
+                    [
+                        "Empowered channel time: 3.25 seconds → 3 seconds"
+                    ],
+                    "Spirit Barrage",
+                    [
+                        "Collision damage: max HP X 20% / 30% → HP X 30% / 30%",
+                        "Explosion damage: 3000 + HP X 20% / 5000 + HP X 30% → 3000 + HP X 30% / 5000 + HP X 50%",
+                        "for non-empowered / empowered respectively"
+                    ],
+                    "Tear of Earth",
+                    [
+                        "Damage: 4000 → 5000",
+                        "Life Energy damage: 8 → 10",
+                        "Slightly increased distance pushed when attacked by ranged characters",
+                        "Made easier to click"
+                    ],
+                    "Corrupt Energy",
+                    [
+                        "Stack reduction per second: 10 → 8",
+                        "Damage per second: max HP X 5% → max HP X 6 ~ 12% (depends on corrupt energy stacks)",
+                        "Now deals damage during Spirit Call",
+                        "Corrupt Orb damage: 3000 → 4000",
+                        "Corrupt Energy stacks will no longer be reduced during Spirit Call / Life Sap (Regardless of whether you have the item or not)",
+                        "(during Life Sap, Corrupt Energy will be gone, but you will still retain corrupt energy stacks in the background)",
+                        "(during Spirit Call, Corrupt Energy will be there but only deals damage, and will not reduce life energy or build / lose stacks)"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Restoration (W)",
+                    [
+                        "Damage reduction: 20% → 15%",
+                        "Duration: 10 ~ 5 seconds → 8 ~ 4 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Heal (D)",
+                    [
+                        "Damage reduction now affected by light affinity"
+                    ],
+                    "Holy Aurora (E)",
+                    [
+                        "Effect radius now affected by light affinity",
+                        "Reworked",
+                        [
+                            "First cast summons a ring that grows over time",
+                            "Heals allies and damages enemies",
+                            "Second cast detonates the ring",
+                            "Heals allies and grants a skill damage buff that lasts for a duration based on how longe the skill was kept up"
+                        ]
+                    ],
+                    "Heaven's Gate (T) - God's Blessing (F)",
+                    [
+                        "Reworked",
+                        [
+                            "Revives a target ally after 2 seconds of channeling (can be canceled)",
+                            "Grants 50% damage reduction for 3 seconds once revived",
+                            "110 seconds cooldown that is shared across summons and can be reduced by light affinity"
+                        ]
+                    ],
+                    "Heaven Field (F)",
+                    [
+                        "Grants 100 armor → 15% damage reduction",
+                        "No longer revives an ally",
+                        "(the changes regarding revival is not necessarily meant to buff priest's revival capacity",
+                        "Rather it can be seen as a nerf in some scenarios where TF is used well",
+                        "It is primarily meant to ease the decision of using F for either revive or for optimal buff usage",
+                        "The reworked E should be better than old E in various aspects though)"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Guardian of Wind (F) - Gift (Q)",
+                    [
+                        "Heal period: 0.5 seconds → 1 second",
+                        "Total heal remains the same"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Death Field (F)",
+                    [
+                        "Magic damage taken increase now stacks with Dark Knight RE"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "On heal effects will now activate on heals cast by summons"
+        ]
+    },
+    {
         "name": "60e",
         "notes": [
             "Released on: May 14th, 2022",

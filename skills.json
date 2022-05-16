@@ -4302,9 +4302,9 @@
         "order": 1,
         "active": [
             "Heal target's wounds",
-            "Heals target's Max HP X 8% every second",
+            "Heals for INT X 0.40 HP every second",
+            "Heals for additional max HP X 7% per second if target is a summon",
             "Reduces target's damage taken by 20% while active",
-            "If target is summon: heals for an additional max HP X 7% per second",
             "Lasts for 12 seconds"
         ]
     },
@@ -4359,9 +4359,25 @@
         ],
         "active": [
             "Consecerate nearby ground to protect allies and bring down judgment on enemies.",
-            "Deals INT X 2.25 magic damage per second",
-            "Heals nearby allies HP by 50 + INT X 0.5 per second",
-            "Lasts 10 seconds"
+            "Creates a ring of 300 radius",
+            "Deals INT X 5 magic damage per second",
+            "Lasts 7 seconds and increases in radius by 50% over duration",
+            "Chain - Release Light"
+        ]
+    },
+    {
+        "id": "A19K",
+        "name": "Release Light",
+        "heroClass": "Priest",
+        "color": "f0e68c",
+        "hotkey": "[E] → [E]",
+        "icon": "PriestE_Release",
+        "order": 5,
+        "active": [
+            "Releases a holy nova.",
+            "Heals allies within radius for INT X 2.5",
+            "Increases target's skill damage by (7 + INT / 450)% for 5 seconds",
+            "Buff duration is increased up to 100% based on how long Holy Aurora was maintained"
         ]
     },
     {
@@ -4372,7 +4388,7 @@
         "hotkey": "[E]",
         "icon": "PriestE_2",
         "cooldown": 10,
-        "order": 5,
+        "order": 6,
         "passive": [
             "The priest's presence alone brings great support to her allies.",
             "Increases nearby allies' attack damage by 5% and all stats by (Priest's INT X 0.05)"
@@ -4392,7 +4408,7 @@
         "hotkey": "[E]",
         "icon": "PriestE_2",
         "cooldown": 10,
-        "order": 6,
+        "order": 7,
         "passive": [
             "The priest's presence alone brings great support to her allies.",
             "Increases nearby allies' attack damage by 5% and all stats by (Priest's INT X 0.05)"
@@ -4412,7 +4428,7 @@
         "hotkey": "[E]",
         "icon": "PriestE_2",
         "cooldown": 10,
-        "order": 7,
+        "order": 8,
         "passive": [
             "The priest's presence alone brings great support to her allies.",
             "Increases nearby allies' attack damage by 5% and all stats by (Priest's INT X 0.05)"
@@ -4432,7 +4448,7 @@
         "hotkey": "[R]",
         "icon": "PriestR",
         "cooldown": 25,
-        "order": 8,
+        "order": 9,
         "active": [
             "Convert targeted area's mana into holy energy, creating a holy explosion.",
             "INT X 15 magic damage",
@@ -4448,7 +4464,7 @@
         "hotkey": "[T]",
         "icon": "PriestT",
         "cooldown": 100,
-        "order": 9,
+        "order": 10,
         "active": [
             "Temporarily opens the gate of heaven to summon an angel bound to the Priest by an old contract",
             "Summons Angel 'Raguel'",
@@ -4462,7 +4478,7 @@
         "color": "ffff99",
         "hotkey": "[T] → [Passive]",
         "icon": "PriestT_Pass",
-        "order": 10,
+        "order": 11,
         "passive": [
             "Cleanses multiple enemies using power bestowed by the god.",
             "Attacks all nearby targets at once",
@@ -4478,7 +4494,7 @@
         "hotkey": "[T] → [D]",
         "icon": "Recall",
         "cooldown": 1,
-        "order": 11,
+        "order": 12,
         "active": [
             "Teleport to summoner's position."
         ]
@@ -4491,7 +4507,7 @@
         "hotkey": "[T] → [Q]",
         "icon": "PriestT_Q",
         "cooldown": 15,
-        "order": 12,
+        "order": 13,
         "active": [
             "Surround ally in light to heal his/her wounds.",
             "Restores all HP",
@@ -4506,7 +4522,7 @@
         "hotkey": "[T] → [W]",
         "icon": "PriestT_W",
         "cooldown": 15,
-        "order": 13,
+        "order": 14,
         "active": [
             "Pulls target ally toward your location.",
             "Grants invulnerability to target and self while casting"
@@ -4514,17 +4530,18 @@
     },
     {
         "id": "A048",
-        "name": "God's Blessing",
+        "name": "Divine Blessing",
         "heroClass": "Priest",
         "color": "ffff80",
         "hotkey": "[T] → [F]",
         "icon": "PriestT_F",
         "cooldown": 60,
-        "order": 14,
+        "order": 15,
         "active": [
             "Gift target with god's blessing.",
-            "For 6 seconds, target will revive after 2 seconds upon dying",
-            "Reduces damage taken by 50% for 3 seconds on revival"
+            "Revives a fallen ally after 2 seconds of channeling",
+            "After revival, target takes 50% reduced damage for 3 seconds",
+            "Has 110 seconds of cooldown shared between summons"
         ]
     },
     {
@@ -4535,13 +4552,12 @@
         "hotkey": "[F]",
         "icon": "PriestF",
         "cooldown": 120,
-        "order": 15,
+        "order": 16,
         "active": [
             "\"As my body suddenly start bursting out light, I've felt like I could keep on fighting without ever growing tired. It was only later that I realized the Priest had arrived.\" - Soldier of Empire Army",
             "Summons Heaven Field for 30 seconds",
-            "For allies on the field, increases their damage dealt by 5%, armor by 100 and regenerates their HP by 10% per second",
-            "For your summons on the field, increases their attack speed by 50%",
-            "Revives a fallen ally (one ally per cast)"
+            "For allies on the field, increases their damage dealt by 5%, reduces their damage taken by 15% and regenerates their HP by 10% per second",
+            "For your summons on the field, increases their attack speed by 50%"
         ]
     },
     {
@@ -4889,8 +4905,8 @@
             "Heals wounds of allies within target area.",
             "Instantly heals for Main Stat X 0.75",
             "Heals for (STR + INT) X 0.15 every second",
-            "Reduces damage taken by 20%",
-            "Lasts 10~5 seconds based on distance from target point",
+            "Reduces damage taken by 15%",
+            "Lasts 8 ~ 4 seconds based on distance from target point",
             "Harmony: Duration increased by 100%"
         ]
     },
