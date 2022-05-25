@@ -29,7 +29,7 @@
         "type": "Early Game",
         "order": 1,
         "stat": "STR",
-        "version": "57b",
+        "version": "60g",
         "description": [
             "Just equip anything you found the best"
         ],
@@ -50,9 +50,9 @@
         "type": "Mid Game",
         "order": 2,
         "stat": "STR",
-        "version": "57b",
+        "version": "60g",
         "description": [
-            "Coin Gears",
+            "Coin Gear",
             "Optional gears will be used later on but not worth to use them now, gather them first."
         ],
         "items": {
@@ -78,13 +78,13 @@
     },
     {
         "for": "Crusader",
-        "type": "Late Game Damage",
+        "type": "Late Game",
         "order": 3,
         "stat": "STR",
-        "version": "59s",
+        "version": "60g",
         "description": [
             "Full damage gear to farm efficiently",
-            "Defensive gear for learners on next page",
+            "Defensive gear for learning or lack of supports",
             "Optional gears will be used later on but not worth to use them now, gather them first."
         ],
         "items": {
@@ -100,6 +100,7 @@
                 "Purefrost Gauntlet"
             ],
             "Requiem, the Armor of Lamentation": [
+                "frostshard Armor",
                 "Hellspike Armor"
             ],
             "Pure Crystal Wings": []
@@ -107,10 +108,10 @@
     },
     {
         "for": "Crusader",
-        "type": "Late Game Learner/Defensive",
+        "type": "Late Game Learner/lack of support",
         "order": 4,
         "stat": "STR",
-        "version": "59s",
+        "version": "60g",
         "description": [
             "Defensive gear for learners",
             "Swap equipments accordingly, never use full defensive build unless holding Death Fiend.",
@@ -125,7 +126,8 @@
                 "Halo of Judgment"
             ],
             "Ring of Time": [
-                "Cold Ring of Death"
+                "Heart of Ifrit",
+                "Purefrost Gauntlet"
             ],
             "Frostshard Armor": [
                 "Creation of the Sky and Earth"
@@ -138,12 +140,13 @@
         "type": "Endgame",
         "order": 5,
         "stat": "STR",
-        "version": "59s",
+        "version": "60g",
         "description": [
             "Just don't die - Lch#3181",
             "Why would you use defensive gear in endgame, get supports.",
-            "Go swap to defensive build accordingly when holding Death Fiend or lack of supports",
-            "Weapon - Astra > Splitting > The Ender > Meacronacer"
+            "Go swap to defensive build accordingly when lack of supports",
+            "Weapon - Astra > Splitting > The Ender > Meacronacer",
+            "Voidshard Armor pause is stupidly strong in twrpg, but only 1 works in team"
         ],
         "items": {
             "Astra, the Sword of Moonlight": [
@@ -152,7 +155,8 @@
             ],
             "Horn of Demon God": [],
             "Demonic Fist": [],
-            "Felspike Armor": [
+            "Voidshard Armor": [
+                "Felspike Armor",
                 "Hades, the Armor of Despair"
             ],
             "Archangel Wings": []
@@ -160,29 +164,29 @@
     },
     {
         "for": "Crusader",
-        "type": "Duke",
+        "type": "Arcana",
         "order": 6,
         "stat": "STR",
-        "version": "59s",
+        "version": "60g",
         "guidelink": [
             "https://i.imgflip.com/5sgfje.jpg"
         ],
         "description": [
             "Why are you even reading this?",
             "Go Farm Duke",
-            "Weapon in general - Spear of Judgment > All",
-            "Weapon in Duke - Heartrender only and only"
+            "Weapon in dummy - Spear of Judgment > All",
+            "Weapon in real fight - Heartrender only and only"
         ],
         "items": {
-            "Spear of Judgment": [
-                "Heartrender"
+            "Heartrender": [
+                "Spear of Judgment"
             ],
             "Crescendo of Madness": [],
             "Demonic Fist": [],
-            "Plates of Sanguine Fury": [
+            "Titan Plates": [
                 "Cage of Twisted Souls"
             ],
-            "Archangel Wings": []
+            "Wings of Sacred Provenance": []
         }
     },
     {
