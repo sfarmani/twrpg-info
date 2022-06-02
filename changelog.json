@@ -1,5 +1,271 @@
 [
     {
+        "name": "60o",
+        "notes": [
+            "Released on: May 30th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Fixed a game breaking bug"
+        ]
+    },
+    {
+        "name": "60m",
+        "notes": [
+            "Released on: May 30th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Fixed glitch with stat system",
+            "Lightning Mage - Fixed issue with F sometimes not pausing properly like other pause abilities",
+            "Wings of Sacred Provenance - Fixed item giving only 360 main stat instead of 390",
+            "Fixed some description errors",
+            [
+                "Priest - Dark Aurora",
+		        "Sword Enchanter - Power Enchant"
+            ]
+        ],
+        "items": [
+            {
+                "name": "Atricia, the Sword of Nightmare",
+                "changes": [
+                    "Crit timer: 2 seconds → 3 seconds"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Skeletal King ~ Shadow Dragon",
+                "changes": [
+                    "Drop rate: increased by ~11%"
+                ]
+            },
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "Removed bag summon restriction from area",
+                    "Death Fiend can no longer be summoned if a mad clown is alive"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Fanning (R)",
+                    [
+                        "Changed from physical → pure damage"
+                    ],
+                    "Deadeye (F)",
+                    [
+                        "Cast time reduced",
+                        "Damage ATK DMG X 15 + AGI X 90 → ATK DMG X 15 + AGI X 100"
+                    ]
+                ]
+            },
+            {
+                "name": "Soul Weaver",
+                "changes": [
+                    "Harvest (A)",
+                    [
+                        "Can now be cast on impassable terrain"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Lightning Bolt (Q)",
+                    [
+                        "Energy Cost: 30 → 25"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "60k2",
+        "notes": [
+            "Released on: May 27th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Priest - Fixed bug with Raguel's revive going on cooldown even if target is revived mid-cast",
+            "Endless Snow - Fixed issue with passive effect not being affected by water affinity",
+            "Titan's Plates / Wings of Sacred Provenance - Fixed issue with stacks being displayed incorrectly",
+            "Fixed issue with some items not having proper colors/sizes that matches their grades"
+        ],
+        "items": [
+            {
+                "name": "Titan's Plates",
+                "changes": [
+                    "Passive",
+                    [
+                        "Max stacks: 5 → 3",
+                        "Proc damage: 15000 + max HP X 3 → 15000 + max HP X 2.5",
+                        "Each stack grants 500 ATK DMG → 450 ATK DMG / 50 STR"
+                    ],
+                    "Active",
+                    [
+                        "Proc count: 5 → 3",
+                        "Each slam deals: 150% damage"
+                    ]
+                ]
+            },
+            {
+                "name": "Plates of Sanguine Fury",
+                "changes": [
+                    "Active",
+                    [
+                        "Cooldown: 120 seconds → 60 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Crimson Curse",
+                "changes": [
+                    "Passive",
+                    [
+                        "Bonus proc after 3 procs will activate every 12th attack → Every 6th attack, up to 5 times (8 times total)"
+                    ]
+                ]
+            },
+            {
+                "name": "Heart of Life",
+                "changes": [
+                    "Now starts with 1 stack when picked up"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "Drop rate increased by 15% ~ 20%",
+                    "Bags can no longer be summoned by ESC in this zone"
+                ]
+            },
+            {
+                "name": "Valtora / Ifrit / Nereid",
+                "changes": [
+                    "Drop rate increased by ~8%",
+                    "Shining Fragment of Ruins drop rate: 0.7% / 0.85% / 1% → 0.75% / 0.9% / 1.2%"
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "In P1, summons / Meeko / Trickster Clone being hit will no longer generate stacks for Blood Annihilation (x / 100 orb)"
+                ]
+            },
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Life Energy",
+                    [
+                        "Transfer cooldown: 4 seconds → 3 seconds"
+                    ],
+                    "Life Sap",
+                    [
+                        "Now places heroes at fixed positions",
+                        "Happens faster"
+                    ],
+                    "Spirit Rift",
+                    [
+                        "Cooldown: 6 seconds → 4 seconds during empowered phase"
+                    ],
+                    "Spirit Barrage",
+                    [
+                        "Happens faster"
+                    ],
+                    "Spirit Call",
+                    [
+                        "Happens faster",
+                        "Made the orb from North direction easier to see"
+                    ],
+                    "Spirit Bomb",
+                    [
+                        "Now activates only once during final phase (automatically)"
+                    ],
+                    "Protection of Life (shield)",
+                    [
+                        "Duration: 15 seconds → 10 seconds"
+                    ],
+                    "Empowerment Phase",
+                    [
+                        "Duration: 25 seconds → 20 seconds"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Brandish (Q)",
+                    [
+                        "No longer knocks back enemies"
+                    ]
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Slash (A)",
+                    [
+                        "No longer knocks back enemies"
+                    ]
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Crescent Slash (W) - Wind Slash (E)",
+                    [
+                        "No longer knocks back enemies"
+                    ]
+                ]
+            },
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Skull Pounder (Q)",
+                    [
+                        "Shattered chance: 40% → 40% / 70% / 100% based on fail count"
+                    ]
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Power Enchant (E)",
+                    [
+                        "Increases ATK DMG by 25% and ATK SPD by 50% for 6 seconds → ATK DMG by 20% and DMG DEALT by 5% for 4 seconds",
+                        "Sword Enchant will now deal 30% more damage while E is active"
+                    ]
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "Fixed issue with clone being affected by some boss skills that shouldn't be affecting it"
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "TE",
+                    [
+                        "Cast time: 2 seconds → 1.5 seconds"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Main stat bonus now increases hero's highest allocated stat instead of stat pre-determined per character "
+        ]
+    },
+    {
         "name": "60g",
         "notes": [
             "Released on: May 15th, 2022",

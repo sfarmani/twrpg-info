@@ -1360,8 +1360,8 @@
         "active": [
             "Reads a chant that boosts strength.",
             "Projects 2 Enchanted Swords",
-            "Increases attack speed by 50% & attack damage by 25% for 6 seconds",
-            "Sword Enchant - Attack count needed for sword projection is reduced to 2",
+            "Increases damage dealt by 5% & attack damage by 20% for 4 seconds",
+            "Sword Enchant - Deals 30% more damage and attack count needed for sword projection is reduced to 2",
             "Does not stack with Speed Enchant"
         ]
     },
@@ -1538,7 +1538,7 @@
         "active": [
             "Fires all bullets in a quick succession.",
             "Consumes all bullets",
-            "Each attack deals Attack Damage X 2 physical damage",
+            "Each attack deals Attack Damage X 2 pure damage",
             "Instantly reloads all bullets when used during Bullet Time"
         ]
     },
@@ -1572,7 +1572,7 @@
         "active": [
             "\"Draw\" - Gunner",
             "Consumes all bullets",
-            "Attack damage X 15 + AGI X 90 magic damage",
+            "Attack damage X 15 + AGI X 100 magic damage",
             "Stuns for 1 second"
         ]
     },
@@ -5252,7 +5252,7 @@
             "Attack damage X 0.75 + STR X 3.75 magic damage",
             "If target is CRACKED, cooldown is reset",
             "If target is SHATTERED, consumes it to deal 200% damage",
-            "Empowered: Deals 300% damage and if target is CRACKED, has 50% chance to leave it SHATTERED for 5 seconds"
+            "Empowered: Deals 300% damage and if target is CRACKED, has chance to leave it SHATTERED for 5 seconds (chance increases based on fail count)"
         ]
     },
     {

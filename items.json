@@ -7018,7 +7018,7 @@
     "type": "Weapon (Melee)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.013,
+    "droprate": 0.015,
     "required_by": [
       "Claws of Beriel",
       "Skeletal King Icon"
@@ -7058,7 +7058,7 @@
     "type": "Weapon (Staff)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.013,
+    "droprate": 0.015,
     "required_by": [
       "Hell Riser",
       "Crimson Hatred",
@@ -7095,7 +7095,7 @@
     "type": "Armor",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.016,
+    "droprate": 0.0175,
     "required_by": [
       "Medea, the Robe of the Witch",
       "Skeletal King Icon"
@@ -7129,7 +7129,7 @@
     "type": "Accessory",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.016,
+    "droprate": 0.0175,
     "required_by": [
       "Cold Ring of Death",
       "Skeletal King Icon"
@@ -7162,7 +7162,7 @@
     "type": "Accessory",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.016,
+    "droprate": 0.0175,
     "required_by": [
       "Requiem, the Armor of Lamentation",
       "Skeletal King Icon"
@@ -7203,7 +7203,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0225,
+    "droprate": 0.025,
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -7236,7 +7236,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0225,
+    "droprate": 0.025,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
       "Chronos, the Cannon of Time",
@@ -7264,7 +7264,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0225,
+    "droprate": 0.025,
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -7301,7 +7301,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0225,
+    "droprate": 0.025,
     "required_by": [
       "Claws of Beriel",
       "Crimson Reaper",
@@ -7350,7 +7350,7 @@
     "type": "Weapon (Staff)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.019,
+    "droprate": 0.02,
     "required_by": [
       "Staff of Plague",
       "Zombie Lord Icon"
@@ -7387,7 +7387,7 @@
     "type": "Headwear",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.019,
+    "droprate": 0.02,
     "required_by": [
       "Hood of Apocrypha",
       "Soul of the Dead",
@@ -7424,7 +7424,7 @@
     "type": "Wings",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.013,
+    "droprate": 0.015,
     "required_by": [
       "Blazing Heart",
       "Ring of Revival",
@@ -7463,7 +7463,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0225,
+    "droprate": 0.025,
     "required_by": [
       "Oceanus, the Sword of Light",
       "Tiberius, the Spear of Lightning",
@@ -7499,7 +7499,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0225,
+    "droprate": 0.025,
     "required_by": [
       "Crimson Reaper",
       "Winter's Heart",
@@ -7536,7 +7536,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0225,
+    "droprate": 0.025,
     "required_by": [
       "Bloody Hatred",
       "Staff of Abyss",
@@ -7587,7 +7587,7 @@
     "type": "Wings",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.013,
+    "droprate": 0.015,
     "required_by": [
       "Protection of the Fairies",
       "Bag of Mother Nature",
@@ -7628,7 +7628,7 @@
     "type": "Weapon (Melee)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.019,
+    "droprate": 0.02,
     "required_by": [
       "Oceanus, the Sword of Light",
       "Winter's Heart",
@@ -7665,7 +7665,7 @@
     "type": "Accessory",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.019,
+    "droprate": 0.02,
     "required_by": [
       "Latea, the Ring of Overlord",
       "Hydro Buster",
@@ -7711,7 +7711,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0225,
+    "droprate": 0.025,
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
@@ -7751,7 +7751,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0225,
+    "droprate": 0.025,
     "required_by": [
       "Spirit Dagger",
       "Pheles, the Bow of Skies",
@@ -7802,7 +7802,7 @@
     "type": "Wings",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.013,
+    "droprate": 0.015,
     "required_by": [
       "Archangel Wings",
       "Brave Heart",
@@ -7851,7 +7851,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0225,
+    "droprate": 0.025,
     "required_by": [
       "Claws of Beriel",
       "Tiberius, the Spear of Lightning",
@@ -7887,7 +7887,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0225,
+    "droprate": 0.025,
     "required_by": [
       "Ruinbringer",
       "Hell Riser",
@@ -7924,7 +7924,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0225,
+    "droprate": 0.025,
     "required_by": [
       "Oceanus, the Sword of Light",
       "Halo of Judgment",
@@ -7976,7 +7976,7 @@
     "type": "Weapon (Melee)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.0095,
+    "droprate": 0.001,
     "required_by": [
       "Cosmic Reaper",
       "Shadow Dragon Icon"
@@ -8011,7 +8011,7 @@
     "type": "Armor",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.013,
+    "droprate": 0.015,
     "required_by": [
       "Robe of Storm",
       "Shadow Dragon Icon"
@@ -8051,7 +8051,7 @@
     "type": "Accessory",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.013,
+    "droprate": 0.015,
     "required_by": [
       "Ring of Time",
       "Ispion, the Runed Ring",
@@ -8088,7 +8088,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.016,
+    "droprate": 0.0175,
     "required_by": [
       "Crimson Reaper",
       "Ruinbringer",
@@ -8128,7 +8128,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.016,
+    "droprate": 0.0175,
     "required_by": [
       "Staff of Plague",
       "Pheles, the Bow of God",
@@ -8174,7 +8174,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.012,
-      0.011
+      0.01
     ],
     "required_by": [
       "Winter's Heart",
@@ -8231,7 +8231,7 @@
     "type": "Weapon (Shared)",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.006,
+    "droprate": 0.008,
     "required_by": [
       "Calamity",
       "Astra, the Sword of Moonlight",
@@ -8266,7 +8266,7 @@
     "type": "Armor",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.012,
+    "droprate": 0.013,
     "required_by": [
       "Hades, the Armor of Despair",
       "Athanasia, the Armor of the Reaper",
@@ -8300,7 +8300,7 @@
     "type": "Headwear",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.012,
+    "droprate": 0.013,
     "required_by": [
       "Cosmic Star",
       "Bag of Despair",
@@ -8339,7 +8339,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.012,
+    "droprate": 0.013,
     "required_by": [
       "Latea, the Ring of Overlord",
       "Ring of Insanity",
@@ -8367,7 +8367,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.009,
     "required_by": [
       "Staff of Plague",
       "Crimson Hatred",
@@ -8407,7 +8407,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0075,
+    "droprate": 0.009,
     "required_by": [
       "Protection of the Fairies",
       "Archangel Wings",
@@ -8456,7 +8456,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Staff of Plague",
       "Heaven's Fist",
@@ -8497,7 +8497,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0065,
+    "droprate": 0.007,
     "required_by": [
       "Horn of Lightning God",
       "Protection of the Fairies",
@@ -8532,7 +8532,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0065,
+    "droprate": 0.007,
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Pheles, the Bow of God",
@@ -8575,9 +8575,9 @@
     "type": "Material",
     "color": "FFFFFF",
     "droprate": [
-      0.007,
-      0.0085,
-      0.01
+      0.0075,
+      0.009,
+      0.012
     ],
     "required_by": [
       "Pheles, the Bow of God",
@@ -8652,7 +8652,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Ring of Revival",
       "Robe of Archlich",
@@ -8697,7 +8697,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0065,
+    "droprate": 0.007,
     "required_by": [
       "Eye of the Flame Lord",
       "Protection of the Fairies",
@@ -8730,7 +8730,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0065,
+    "droprate": 0.007,
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Staff of Plague",
@@ -8785,7 +8785,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Ring of Fate",
       "Eternal Flame",
@@ -8821,7 +8821,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0065,
+    "droprate": 0.007,
     "required_by": [
       "Robe of Archlich",
       "Brave Heart",
@@ -8863,7 +8863,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0065,
+    "droprate": 0.007,
     "required_by": [
       "Ring of Fate",
       "Bag of Universe",
@@ -22540,7 +22540,7 @@
         "On use, activates Sanguine Fury",
         "For 8 seconds, gains 8% damage dealt but loses 12% magic defense",
         "Blood Nova will be active for the duration with 100% increased potency",
-        "Cooldown: 120 seconds, cannot be dropped during cooldown"
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -22629,15 +22629,16 @@
       "skilldamagepercent": 0.15,
       "passive": [
         "On skill cast, activates Titanic Roar",
-        "Deals (15000 + Max HP X 3) magic damage to nearby enemies",
-        "Grants 500 damage bonus for 10 seconds (stacks up to 5 times)",
+        "Deals (15000 + Max HP X 2.5) magic damage to nearby enemies",
+        "Grants 450 ATK DMG and 50 STR for 10 seconds (stacks up to 3 times)",
         "Only activates if an enemy is nearby",
         "Cooldown: 5 seconds"
       ],
       "active": [
         "On use, activates Titan's Fury",
         "Clears all debuffs",
-        "Activates Titanic Roar 5 times in a row",
+        "Activates Titanic Roar 3 times in a row",
+        "Each roar deals 150% damage",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -23051,8 +23052,7 @@
       "periodicdamagepercent": 0.35,
       "healreceivedpercent": -0.35,
       "passive": [
-        "Chance to activate Lunacy on attack",
-        "15% chance to activate on attack",
+        "15% Chance to activate Lunacy on attack",
         "Next 3 attacks, and every 12th hit afterwards deals (ATK DMG X 100%) bonus pure damage",
         "For 7.5 seconds, increases ATK DMG by 8500, Main Stat/HP regen by 425",
         "Cooldown: 15 seconds"
