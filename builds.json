@@ -195,11 +195,11 @@
         "order": 1,
         "stat": "STR",
         "version": "60o",
-        "Notes": [
-            "Use Crown of Extreme Anger Path until Crescendo"
-            ],
         "guidelink": [
             "https://twrpg.com/viewtopic.php?f=4&t=4399"
+        ],
+        "description": [
+            "Use Crown of Extreme Anger Path until Crescendo"
         ],
         "items": {
             "Spear of Judgment": [],
