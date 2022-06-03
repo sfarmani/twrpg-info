@@ -191,70 +191,59 @@
     },
     {
         "for": "Dark Knight",
-        "type": "Burst",
+        "type": "Burst damage",
         "order": 1,
         "stat": "STR",
-        "version": "41d",
+        "version": "60o",
+        "Notes": [
+            "Use Crown of Extreme Anger Path until Crescendo"
+            ],
         "guidelink": [
             "https://twrpg.com/viewtopic.php?f=4&t=4399"
         ],
         "items": {
-            "Splitting of the Sky and Earth": [],
-            "Crown of Extreme Anger": [],
-            "Seal of Deceiver": [],
-            "Hades, the Armor of Despair": [],
-            "Archangel Wings": []
+            "Spear of Judgment": [],
+            "Crescendo of Madness": [
+                "Crown of Extreme Anger"
+            ],
+            "Seal of Corruption": [],
+            "Cage of Twisted Souls": [],
+            "Wings of Cosmos": []
         }
     },
     {
         "for": "Dark Knight",
-        "type": "Debuff",
+        "type": "Debuff-Support",
         "order": 2,
         "stat": "INT",
-        "version": "51b",
+        "version": "60o",
         "guidelink": [
             "https://twrpg.com/viewtopic.php?f=4&t=4399"
         ],
         "description": [
-            "This build is meant for getting the most out of R - E while maintaining a good presence"
+            "Main items for getting the most out of R - E while maintaining a good presence.",
+            "Use Harmonia when your team really need healers or if you want to use Heart of Life",
+            "Swap Helmets and Rings for situanionary, dont overlap items with teammates",
+            "Heartrender, Heirloom, Soul devourer so much valuable for teams. Just use them."
         ],
         "items": {
             "Armageddon": [
+                "Heartrender",
                 "Harmonia, the Sparkle of Life"
             ],
-            "Prophetia, the Origin of Knowledge": [],
-            "Ring of Despair": [
-                "Nebula Rose",
-                "Horn of God"
-            ],
-            "Hades, the Armor of Despair": [],
-            "Brave Heart": [
-                "Soul Devourer"
-            ]
-        }
-    },
-    {
-        "for": "Dark Knight",
-        "type": "Regen",
-        "order": 3,
-        "stat": "INT",
-        "version": "41d",
-        "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=4399"
-        ],
-        "description": [
-            "This build is meant for larger team presence"
-        ],
-        "items": {
-            "Harmonia, the Sparkle of Life": [],
-            "Hood of Apocalypse": [
+            "Prophetia, the Origin of Knowledge": [
+                "Hood of Apocalypse",
                 "Eye of the Flame Lord"
             ],
-            "Nebula Rose": [
-                "Horn of God"
+            "Ring of Despair": [
+                "Heirloom of Lazarus",
+                "Nebula Rose"
             ],
-            "Hades, the Armor of Despair": [],
-            "Brave Heart": []
+            "Cage of Twisted Souls": [],
+            "Wings of Immortal": [
+                "Soul Devourer",
+                "Brave Heart"
+            ]
         }
     },
     {
