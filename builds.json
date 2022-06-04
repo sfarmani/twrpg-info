@@ -469,7 +469,7 @@
         "type": "Early Game",
         "order": 1,
         "stat": "AGI",
-        "version": "57b",
+        "version": "60o",
         "description": [
             "Minor",
             "Bracket items are fillers."
@@ -489,7 +489,7 @@
         "type": "Mid Game",
         "order": 2,
         "stat": "AGI",
-        "version": "57b",
+        "version": "60o",
         "description": [
             "Coins",
             "Bracket items are fillers."
@@ -511,7 +511,7 @@
         "type": "Late Game",
         "order": 3,
         "stat": "AGI",
-        "version": "57b",
+        "version": "60o",
         "description": [
             "SK ~ SD",
             "Farm the items in the bracket first as they are easier to get",
@@ -542,7 +542,7 @@
         "type": "Endgame",
         "order": 4,
         "stat": "AGI",
-        "version": "57b",
+        "version": "60o",
         "description": [
             "DF ~ Aga",
             "Mask of Demigod should only be crafted after Nevedium and Ring of Frozen Soul have been completed",
@@ -565,21 +565,15 @@
         "type": "Omega Endgame",
         "order": 5,
         "stat": "AGI",
-        "version": "57b",
-        "description": [
-            "Duke ~ TBA",
-            "Proceed to watch people die while you're invis -Elu",
-            "Swap your armor based on what you need. Nevedium for burst and Athanasia for survivability.",
-            "I personally only use Athanasia in Ifrit and Nevedium for everything else"
-        ],
+        "version": "60o",
         "items": {
             "Divine Slayer": [],
             "Eye of the Reaper": [
                 "Mask of Demigod"
             ],
             "Ring of Desolate Soul": [],
-            "Nevedium, the Armor of Demonblood": [
-                "Athanasia, the Armor of the Reaper"
+            "Exitium, the Armor of Ruin": [
+                "Nevedium, the Armor of Demonblood"
             ],
             "Bloodstorm": []
         }
@@ -1640,15 +1634,28 @@
         "type": "DPS",
         "order": 1,
         "stat": "INT",
-        "version": "59a",
+        "version": "60o",
+		"description":[
+			"With the attack speed from Heartrender you can swap rings to fit the team's needs (Recommend Heart of LIfe)",
+			"I would recommend using survival wings more than dps as you are made of paper ~ Zany"
+		],
         "items": {
-            "Ethenos, the Staff of Chaos": [],
+            "Heartrender": [
+				"Ethenos, the Staff of Chaos"
+			],
             "Crescendo of Madness": [],
-            "Ring of Frozen Soul": [
-                "Ring of Divine Winds"
+            "Ring of Desolate Soul": [
+                "Ring of Divine Winds",
+				"Heart of Life"
             ],
-            "Thanatos, the Robe of Hell": [],
-            "Wings of Frost Lord": []
+            "Sanguis, the Robe of Sacrifice": [
+				"Thanatos, the Robe of Hell", 
+				"Frost Herald's Garment"
+			],
+            "Wings of Frost Lord": [
+			    "Wings of Immortal",
+                "Brave Heart"
+			]
         }
     },
     {
@@ -1656,21 +1663,27 @@
         "type": "Support",
         "order": 2,
         "stat": "INT",
-        "version": "59a",
+        "version": "60o",
+		"description":[
+			"Use Sanguis if there is someone else using Frost Herald and Jupiter"
+			"Once Fruit of Origin is released use that as the main ring (If it ever comes copium) ~ Zany"
+		],
         "items": {
-            "Staff of Plague": [
+            "Harmonia , the Sparkle of Life": [
                 "Armageddon",
-                "Harmonia, the Sparkle of Life"
+                "Staff of Plague"
             ],
             "Hood of Apocalypse": [
                 "Eye of the Flame Lord",
                 "Crescendo of Madness"
             ],
-            "Horn of God": [
-                "Ring of Divine Winds"
+            "Heart of Life": [
+                "Ring of Divine Winds",
+				"Ring of Eternity"
             ],
-            "Jupiter, the Robe of Heavens": [
-                "Robe of Archlich"
+            "Frost Herald's Garment": [
+                "Jupiter, the Robe of Heavens",
+				"Sanguis, the Robe of Sacrifice"
             ],
             "Protection of the Fairies": [
                 "Wings of Immortal",
