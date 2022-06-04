@@ -811,7 +811,7 @@
         "items": {
             "Divine Slayer": [],
             "Eye of the Reaper": [
-                "Vision of Vengeance"
+                "Visage of Vengeance"
             ],
             "Ring of Insanity": [
                 "Demonic Fist"
@@ -1234,17 +1234,24 @@
         "type": "DoT",
         "order": 1,
         "stat": "AGI",
-        "version": "51b",
+        "version": "60o",
         "guidelink": [
             "https://docs.google.com/document/d/1O33M0XcWHd_dprsXT0s5BBS5KIEl-4wO5YhgsNz-gsg"
         ],
+        "description": [
+            "Use Visage if the run is lacking supports and you need AMS",
+            "Use Exitium if you think you need to save yourself",
+            "Use Ruler if there is already a Ring of Despair or another Deep Abyss in the team"
+        ],
         "items": {
             "Espishu, the Sword of Chaos": [],
-            "Radiance of the One": [],
-            "Ring of Insanity": [
-                "Demonic Fist"
+            "Eye of the Reaper": [
+                "Visage of Vengeance"
             ],
-            "Vest of Divine Winds": [],
+            "Crimson Curse": [],
+            "Plates of Sanguine Fury": [
+                "Exitium, the Armor of Ruin"
+            ],
             "Cape of Deep Abyss": [
                 "Ruler of the Skies"
             ]
