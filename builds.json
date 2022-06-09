@@ -777,16 +777,20 @@
         "type": "INT Full Support",
         "order": 2,
         "stat": "INT",
-        "version": "59z",
+        "version": "60o",
         "guidelink": [
             "https://docs.google.com/document/d/1xJGcGKLWDBu8iDUAcjknk1QRK34MYfPMnFRphjuLo3g/edit?usp=sharing"
         ],
         "description": [
             "For more protection, look at the STR Full Support build",
-            "If your team uses serenity, then you can switch to another helm"
+            "If your team uses serenity, then you can switch to another helm",
+            "Use Heaven's Door for lowman",
+            "Use Eternal Snow for speedrunning - due to stuns",
+            "Use Harmonia for healing if no healer present (such as priest)"
         ],
         "items": {
-            "Heaven's Door": [
+            "Soul of Abyss": [
+                "Heaven's Door",
                 "Endless Snow",
                 "Harmonia, the Sparkle of Life"
             ],
