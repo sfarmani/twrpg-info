@@ -23055,7 +23055,7 @@
       "healreceivedpercent": -0.35,
       "passive": [
         "15% Chance to activate Lunacy on attack",
-        "Next 3 attacks, and every 12th hit afterwards deals (ATK DMG X 100%) bonus pure damage",
+        "Next 3 attacks, and every 6th attack afterwards (up to 8 attacks total) deals (ATK DMG X 100%) bonus pure damage",
         "For 7.5 seconds, increases ATK DMG by 8500, Main Stat/HP regen by 425",
         "Cooldown: 15 seconds"
       ],
