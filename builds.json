@@ -1639,7 +1639,7 @@
         "order": 1,
         "stat": "INT",
         "version": "60o",
-		"description":[
+        "description": [
 			"With the attack speed from Heartrender you can swap rings to fit the team's needs (Recommend Heart of LIfe)",
 			"I would recommend using survival wings more than dps as you are made of paper ~ Zany"
 		],
@@ -1668,8 +1668,8 @@
         "order": 2,
         "stat": "INT",
         "version": "60o",
-		"description":[
-			"Use Sanguis if there is someone else using Frost Herald and Jupiter"
+        "description": [
+			"Use Sanguis if there is someone else using Frost Herald and Jupiter",
 			"Once Fruit of Origin is released use that as the main ring (If it ever comes copium) ~ Zany"
 		],
         "items": {
