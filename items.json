@@ -7687,16 +7687,12 @@
     "stats": {
       "allstat": 280,
       "passive": [
-        "On skill cast, increases skill damage by 3% for 6 seconds (stacks up to 4 times)"
+        "On skill cast, increases attack speed by 15% and skill damage by 3% for 6 seconds (stacks up to 4 times)"
       ],
       "active": [
         "On use, summons a storm",
         "Deals (MAIN STAT X 2) magic damage in an AoE per second for 4 seconds",
         "Cooldown: 120 seconds, cannot be dropped during cooldown"
-      ],
-      "spec": [
-        "Specialty",
-        "Wind Mage - Improved Gentle Winds: Improves the damage of generated tornadoes by 75%"
       ]
     }
   },
@@ -7821,7 +7817,7 @@
       "skilldamagepercent": 0.075,
       "mdpercent": 0.075,
       "passive": [
-        "On skill cast, activates Power of Skies",
+        "On attack after skill cast (within 2 seconds), activates Power of Skies",
         "Every 4th attack deals (MAIN STAT X 2) pure damage",
         "Increases main stat by 50 for 4 seconds",
         "Cooldown: 16 seconds, cannot be dropped during cooldown"
@@ -7976,7 +7972,7 @@
     "type": "Weapon (Melee)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.001,
+    "droprate": 0.01,
     "required_by": [
       "Cosmic Reaper",
       "Shadow Dragon Icon"
@@ -8240,7 +8236,8 @@
       "Fulminata, the Bringer of Storms",
       "Abyss Fall",
       "Divine Slayer",
-      "Final Omen"
+      "Final Omen",
+      "Gate of Abyss"
     ],
     "stats": {
       "damage": 9900,
@@ -8497,7 +8494,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.007,
+    "droprate": 0.008,
     "required_by": [
       "Horn of Lightning God",
       "Protection of the Fairies",
@@ -8532,7 +8529,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.007,
+    "droprate": 0.008,
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Pheles, the Bow of God",
@@ -8697,7 +8694,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.007,
+    "droprate": 0.008,
     "required_by": [
       "Eye of the Flame Lord",
       "Protection of the Fairies",
@@ -8730,7 +8727,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.007,
+    "droprate": 0.008,
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Staff of Plague",
@@ -8821,7 +8818,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.007,
+    "droprate": 0.008,
     "required_by": [
       "Robe of Archlich",
       "Brave Heart",
@@ -8863,7 +8860,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.007,
+    "droprate": 0.008,
     "required_by": [
       "Ring of Fate",
       "Bag of Universe",
@@ -9025,7 +9022,8 @@
       "Abyss Fall",
       "Crescendo of Madness",
       "Titan's Plates",
-      "Heart of Life"
+      "Heart of Life",
+      "Horn of Dragon"
     ]
   },
   {
@@ -9058,7 +9056,8 @@
       "Heirloom of Lazarus",
       "Guardian Angel",
       "Divine Slayer",
-      "Seal of Corruption"
+      "Seal of Corruption",
+      "Gate of Abyss"
     ]
   },
   {
@@ -9134,7 +9133,8 @@
       "Visage of Vengeance",
       "Atricia, the Sword of Nightmares",
       "Exitium, the Armor of Ruin",
-      "Wings of Sacred Provenance"
+      "Wings of Sacred Provenance",
+      "Gate of Abyss"
     ]
   },
   {
@@ -9190,7 +9190,8 @@
       "Divine Slayer",
       "Final Omen",
       "Seal of Corruption",
-      "Frost Herald's Garment"
+      "Frost Herald's Garment",
+      "Horn of Dragon"
     ]
   },
   {
@@ -9252,7 +9253,9 @@
       "Final Omen",
       "Ring of Eternity",
       "Wings of Cosmos",
-      "Wings of Sacred Provenance"
+      "Wings of Sacred Provenance",
+      "Horn of Dragon",
+      "Gate of Abyss"
     ]
   },
   {
@@ -9271,7 +9274,8 @@
       "Titan's Plates",
       "Heart of Life",
       "Frost Herald's Garment",
-      "Seal of Corruption"
+      "Seal of Corruption",
+      "Horn of Dragon"
     ]
   },
   {
@@ -14764,7 +14768,7 @@
       }
     ],
     "stats": {
-      "damage": 6300,
+      "damage": 7100,
       "str": 210,
       "agi": 570,
       "critmultiplier": 0.3,
@@ -15071,7 +15075,7 @@
       "hp": 1800,
       "passive": [
         "On skill cast and healing, grants Mad Enhancement",
-        "Increases attack speed by 12%, skill damage by 10% [Type-B], and HP regen by 75",
+        "Increases skill damage by 10% [Type-B], and HP regen by 75",
         "Healed ally will also get empowered",
         "Lasts for 8 seconds"
       ]
@@ -18400,7 +18404,7 @@
         "Deals (MAIN STAT X 7.5) magic damage in an AoE",
         "On skill cast, activates Transcendence",
         "Increases AGI by 300 and HP regen by (7.5% max HP) for 7.5 seconds",
-        "While awakened, Dimension Cut activates every 4th attack (except Martial Artist)",
+        "While awakened, Dimension Cut activates every 4th attack",
         "Skill cast Cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -18678,13 +18682,13 @@
       }
     ],
     "stats": {
-      "damage": 7200,
+      "damage": 8200,
       "str": 260,
       "agi": 625,
       "critmultiplier": 0.35,
       "passive": [
         "(1 + HIT COUNT X 0.125)% chance to activate Doomsday on attack",
-        "Deals (ATK DMG X 1.75 + (STR + AGI) X 10.5) magic damage",
+        "Deals (ATK DMG X 1.9 + (STR + AGI) X 10.5) magic damage",
         "Stuns for 0.1 seconds"
       ]
     }
@@ -19206,6 +19210,9 @@
     "type": "Weapon (Staff)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Gate of Abyss"
+    ],
     "recipe": [
       {
         "Staff of Abyss": 1
@@ -19235,7 +19242,7 @@
       "hp": 2250,
       "passive": [
         "On skill cast and healing, grants Power of Abyss",
-        "Increases attack speed and skill damage by 12% [Type-B], and HP regen by 90",
+        "Increases skill damage by 12% [Type-B], and HP regen by 90",
         "Healed ally will also get empowered",
         "Lasts for 8 seconds"
       ],
@@ -20586,6 +20593,9 @@
     "type": "Headwear",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Horn of Dragon"
+    ],
     "recipe": [
       {
         "Horn of Lightning God": 1
@@ -20755,8 +20765,7 @@
       "spec": [
         "Specialties - Summary Judgement, Holy Arts",
         "Crusader - If Original Sin is cast while Holy Fist is active, only the last slash is activated with stun duration reduced by 50% and cooldown by 66%.",
-        "Paladin - Divine Cross' damage is increased by 15% and speed is increased by 50%",
-        "Martial Artist - If Nameless Arts is cast while Holy Fist is active, its duration are reduced by 50% but its cooldown is also reduced by 66%"
+        "Paladin - Divine Cross' damage is increased by 15% and speed is increased by 50%"
       ]
     }
   },
@@ -21236,7 +21245,7 @@
       "passive": [
         "Empowers next attack with Demon's Grasp every 5 seconds (melee only)",
         "Deals 5 additional attacks with (150% ATK DMG) physical damage",
-        "Reduces armor by 15% [Type-A] for 3 seconds",
+        "Reduces armor by 20% [Type-A] for 3 seconds",
         "Heals (7.5% max HP)"
       ],
       "active": [
@@ -21246,8 +21255,7 @@
       "spec": [
         "Specialties - Demon's Grasp",
         "Paladin - Divine Cross' damage is increased by 20% and speed is increased by 50%",
-        "Crusader - If Original Sin is cast while Demon's Grasp is active, only the last slash is activated with stun duration reduced by 50% and cooldown by 66%.",
-        "Martial Artist - If Nameless Arts is cast while Demon's Grasp is active, its duration are reduced by 50% but its cooldown is also reduced by 66%"
+        "Crusader - If Original Sin is cast while Demon's Grasp is active, only the last slash is activated with stun duration reduced by 50% and cooldown by 66%."
       ]
     }
   },
@@ -22423,13 +22431,57 @@
         "After 4 seconds, ice will shatter",
         "Deals (15% damage dealt to target + INT X 2.5 X # of damage instances to target) magic damage (up to 20 damage instances)",
         "Stuns for 3 seconds",
-        "Cooldown: 90 seconds"
+        "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialty - Water Mastery",
         "Elementalist - Seal of Water: HP increased by 40%, duration increased by 10 seconds",
         "Elementalist - Water Beam: Range increased by 150, can heal 2 additional allies",
         "Elementalist - Refreshing Well: Radius increased by 250"
+      ]
+    }
+  },
+  {
+    "id": "I0BF",
+    "name": "Gate of Abyss",
+    "koreanname": "드래곤의 뿔",
+    "description": "Drown in this endless hell.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Staff)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Soul of Abyss": 1
+      },
+      {
+        "The Ender": 1
+      },
+      {
+        "Mark of Lord": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Essence of Earth": 1
+      }
+    ],
+    "stats": {
+      "damage": 7600,
+      "int": 850,
+      "hp": 2500,
+      "passive": [
+        "On skill cast and healing, grants Power of Abyss",
+        "Applied to allies within 375 range on skill cast",
+        "Increases skill damage by 14% [Type-B] and HP regen by 105 for 8 seconds",
+        "If target is your summon, empowers next attack (cooldown: 1.5s)"
+      ],
+      "active": [
+        "On use, activates Call of Abyss",
+        "Increases damage output by 10% and HP regen by (15% max HP) for 10 seconds",
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -22631,7 +22683,7 @@
       "passive": [
         "On skill cast, activates Titanic Roar",
         "Deals (15000 + Max HP X 2.5) magic damage to nearby enemies",
-        "Grants 450 ATK DMG and 50 STR for 10 seconds (stacks up to 3 times)",
+        "Grants 450 ATK DMG and 75 STR for 10 seconds (stacks up to 3 times)",
         "Only activates if an enemy is nearby",
         "Cooldown: 5 seconds"
       ],
@@ -22733,8 +22785,8 @@
         "On use, summons Frost Herald",
         "Applies shield absorbing (INT X 8) for 10 seconds",
         "Continuously fires frost missiles at nearby targets",
-        "Each missile deals 10000 magic damage and freezing non-boss unit for 1 second",
-        "While active, you can use item up to 2 times to dash",
+        "Each missile deals 10000 magic damage and freezing non-boss unit for 0.25 seconds",
+        "While active, you can use item up to 3 times to dash",
         "Each dash deals 150000 magic damage and freezing non-boss units for 3 seconds in line",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
@@ -22879,6 +22931,48 @@
         "On use, activates Anti Magic Shield",
         "Blocks all magic damage for 5 seconds",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I06H",
+    "name": "Horn of Dragon",
+    "koreanname": "게이트 오브 어비스",
+    "description": "Feel the might of the dragon.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Horn of Demon God": 1
+      },
+      {
+        "Fragment of Hell": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Essence of Earth": 1,
+        "Aegis of Earth": 1
+      }
+    ],
+    "stats": {
+      "armor": 120,
+      "mainstat": 125,
+      "allstat": 190,
+      "skilldamagepercent": 0.18,
+      "critchancepercent": 0.18,
+      "dtpercent": 0.15,
+      "passive": [
+        "Upon moving 3000 distance, unleashes Dragon's Breath on next attack",
+        "Launches a shockwave in a straight path and explodes",
+        "Deals (MAIN STAT X 30) pure damage",
+        "Increases damage output by 9% for 4 seconds (only for self towards target)",
+        "Can activate up to 2 more times within 5 seconds, dealing 20% of original damage and extending debuff by 1 second",
+        "Cooldown: 5 seconds"
       ]
     }
   },
@@ -23153,14 +23247,14 @@
       "passive": [
         "If HP drops below 1, activates Fate Reversal",
         "Restore health to full (cooldown: 300 seconds)",
-        "On equip, instantly stores 75 stacks",
+        "On equip, instantly stores 70 stacks",
         "On skill cast during combat, 40% chance to add 1 stack",
         "Also adds 1 stack every second"
       ],
       "active": [
         "On use, activates Time Distortion",
-        "Consumes 75 stacks",
-        "Once you enter combat, you will gain 75 stacks immediately",
+        "Consumes 70 stacks",
+        "Once you enter combat, you will gain 70 stacks immediately",
         "You also gain 1 stack per second and with 40% chance on each skill cast",
         "Refreshes the cooldown of the last used non-ultimate skill",
         "Grants 7% skill damage, 1000 HP/MP regen, and CC immunity for 10 seconds"
@@ -23453,7 +23547,7 @@
       "affinityflamepercent": 0.05,
       "passive": [
         "Activate Sacred Flame on dealing magic damage",
-        "Deals 33000 magic damage around user in 450 AoE",
+        "Deals 33000 magic damage to and around target (450 AoE)",
         "Gain a stack of Sacred Dawn",
         "Each stack increases skill damage by 1.5% and fire affinity by 0.5% for 6 seconds (up to 5 stacks)",
         "Upon max stacks, the user can no longer refresh stacks",
@@ -23461,7 +23555,7 @@
       ],
       "active": [
         "On use, activates Blazing Dawn",
-        "Deals (66000 X stack) magic damage around user in 600 AoE",
+        "Deals (66000 X stack) magic damage around user in 750 AoE",
         "User will not gain or lose Sacred Dawn stacks while this is active; all stacks will be lost at end",
         "Lasts 12 seconds",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"

@@ -1309,7 +1309,7 @@
         "passive": [
             "Ability to project swords.",
             "On every 8th attack, summons an Enchanted Sword",
-            "On next attack, Enchanted Sword can be consumed to deal Attack Damage X 1.25 bonus damage",
+            "On next attack, Enchanted Sword can be consumed to deal Attack Damage X 1.25 bonus damage (50% damage to nearby targets)",
             "While Enchanted Sword is active, you can quickly dash onto enemies",
             "Can summon up to 5 swords at once"
         ],
@@ -1338,7 +1338,7 @@
         "color": "dfdfdf",
         "hotkey": "[W]",
         "icon": "SwordEnchanterW",
-        "cooldown": 10,
+        "cooldown": 8,
         "order": 3,
         "active": [
             "Reads a chant that boosts speed.",
@@ -1361,7 +1361,7 @@
             "Reads a chant that boosts strength.",
             "Projects 2 Enchanted Swords",
             "Increases damage dealt by 5% & attack damage by 20% for 4 seconds",
-            "Sword Enchant - Deals 30% more damage and attack count needed for sword projection is reduced to 2",
+            "Sword Enchant - Damage increased by 30% and attack count needed for sword projection is reduced to 2",
             "Does not stack with Speed Enchant"
         ]
     },
@@ -1392,7 +1392,7 @@
         "order": 6,
         "passive": [
             "Profound mastery allows Sword Enchanter to disintegrate the armors of her enemies.",
-            "Increases damage of Sword Enchant by 50%"
+            "Increases damage of Sword Enchant by 30%"
         ],
         "active": [
             "Empowers your chant to make it resonate further.",
@@ -1424,7 +1424,7 @@
         "order": 8,
         "active": [
             "Reads a chant that boosts strength.",
-            "Increases movement speed by 400 & dodge chance by 60% for 6 seconds"
+            "Increases damage dealt by 5% & attack damage by 20% for 4 seconds"
         ]
     },
     {
@@ -1454,7 +1454,7 @@
             "\"I'll show you the most powerful sword I have in my treasury !!\" - Sword Enchanter",
             "AGI X 125 magic damage",
             "Stuns for 3 seconds",
-            "Increases target's damage taken from Sword Enchant by 30% and reduces its healing taken by 20% for 7.5 seconds"
+            "Increases target's damage taken from Sword Enchant by 50% and reduces its healing taken by 20% for 7.5 seconds"
         ]
     },
     {
@@ -2513,7 +2513,7 @@
         "passive": [
             "Apply sudden pressure to weak points, slowing down the target's movement.",
             "Basic attacks have a 15% chance to slow the target",
-            "Temporarily decrease target's armor by 15% [Type-C] if debuff is stacked"
+            "Temporarily decrease target's armor by 30% [Type-C] if debuff is stacked"
         ]
     },
     {
@@ -2544,7 +2544,7 @@
         ]
     },
     {
-        "id": "A01H",
+        "id": "A17U",
         "name": "Nameless Arts",
         "heroClass": "Martial Artist",
         "color": "80ffff",
@@ -2555,10 +2555,10 @@
         "active": [
             "\"None can match the skills of the martial artists of Eloren. Having obtained the knowledge of all advanced martial arts, each one of their techniques is deadly.\" - A Continent Traveller",
             "Enables Inner Meditation",
-            "Increases damage dealt by martial arts by 60% for counter, 100% for others",
-            "Also reduces attack cooldown by 50%",
+            "Increases damage dealt by counter by 60%, all other skills by 100% and reduces attack cooldown by 50%",
             "Gains immunity to unit collision, debuffs and CC effects",
-            "Lasts 8 seconds"
+            "If cast once, lasts 4 seconds and has 40 seconds cooldown",
+            "If cast twice, lasts 8 seconds and has 120 seconds cooldown"
         ]
     },
     {
@@ -2953,7 +2953,7 @@
         "order": 2,
         "passive": [
             "Warm spirits that heal the master's allies.",
-            "Summons a spirit with 30% chance on attack(critical strikes guarantee a spirit), and with every 300 distance traveled",
+            "Summons a spirit with 30% chance on attack (critical strikes guarantee a spirit), and with every 300 distance traveled",
             "When 3 spirits are summoned, your next attack heals an ally for 150 + INT X 0.75 health"
         ],
         "toggle": [
@@ -2992,7 +2992,7 @@
             "INT X 10 magic damage",
             "Upon reaching allies, heal INT X 2 health",
             "Cooldown reset upon casting Feather of Aeolus",
-            "When two gentle winds combine, strong winds are formed for 4 seconds, dealing attack damage X 1.25 magic damage"
+            "When combined, forms a tornado for 5 seconds, dealing Attack Damage X 2 magic damage per second and activating Grace of Zephyrus (scales with attack speed)"
         ]
     },
     {
@@ -3916,7 +3916,7 @@
         ]
     },
     {
-        "id": "A12L",
+        "id": "A12M",
         "name": "Dark Arts",
         "heroClass": "Dark Knight",
         "color": "8080ff",
@@ -4004,9 +4004,9 @@
         "order": 10,
         "active": [
             "Bestows eternal rest to the souls of the dead.",
-            "Main Stat X 30 magic damage",
+            "Main Stat X 25 magic damage",
             "Seals target's abilities for 2 seconds",
-            "STR Main Stat: Consumes nearby souls to deal Main Stat X 15 bonus damage per soul",
+            "STR Main Stat: Consumes summoned souls to deal Main Stat X 12.5 bonus damage per soul",
             "INT Main Stat: Increases nearby allies HP regen by INT X 1 and magic defense by 60% for 6 seconds"
         ]
     },
@@ -4764,9 +4764,12 @@
         "icon": "PBD",
         "order": 2,
         "passive": [
-            "Restores 1 soul every 2 seconds",
+            "Restores 1 soul every 1.5 seconds",
             "Can hold up to 8 souls",
             "Each soul regenerates your HP by 0.5% per second"
+        ],
+        "active": [
+            "Turns toward target direction."
         ]
     },
     {
@@ -4794,7 +4797,7 @@
         "proc_rate": 0.5,
         "order": 4,
         "active": [
-            "Attack damage X 0.8 + AGI X 5 magic damage",
+            "Attack damage X 1 + AGI X 7.5 magic damage",
             "Slows target's movement speed by 90% for 3 seconds",
             "Pulls in non-boss units"
         ]
@@ -4809,7 +4812,7 @@
         "proc_rate": 0.5,
         "order": 5,
         "active": [
-            "Attack damage X 1 + AGI X 7.5 magic damage",
+            "Attack damage X 1.4 + AGI X 10 magic damage",
             "Lands as critical strike on boss units"
         ]
     },
@@ -4841,7 +4844,7 @@
         "active": [
             "Removes all soul consumption for 8 seconds and reduces some skills' cooldowns",
             "Enables dash while active",
-            "Increases damage of Alacrity by 60% while active",
+            "Increases damage of Alacrity by 75% while active",
             "Duration: 8 seconds"
         ]
     },

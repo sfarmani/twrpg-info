@@ -1,5 +1,328 @@
 [
     {
+        "name": "60s",
+        "notes": [
+            "Released on: June 11th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Atricia, the Sword of Nightmare - Incorrect cooldown fixed (90s → 75s)",
+            "Robe of Frost Herald - Incorrect active reactivation count fixed (2 → 3)",
+            "Exitium, the Armor of Ruin - Fixed issue with Martial Artist specialty not working properly",
+            "Horn of Demon God - Fixed issue where if one person applied debuff, others couldn't apply it",
+            "Duke Lazarus - Fixed bug where 2nd/4th/6th swipe didn't kill spiked heroes (only 1st/3rd/5th did)",
+            "Gaia - Fixed bug where Gaia's wave could be dodged at the end of her transformation",
+            "Fixed issue with wing effect disappearing on some characters after transforming"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New items added",
+                    [
+                        "Gate of abyss",
+                        "Horn of Dragon"
+                    ]
+                ]
+            },
+            {
+                "name": "The Ender / Heartrender",
+                "changes": [
+                    "Buff will now be removed if you unequip the item"
+                ]
+            },
+            {
+                "name": "Claws of Beriel",
+                "changes": [
+                    "ATK DMG: 6300 → 7100"
+                ]
+            },
+            {
+                "name": "Maw of Beriel",
+                "changes": [
+                    "ATK DMG: 7200 → 8200"
+                ]
+            },
+            {
+                "name": "Power of Beriel",
+                "changes": [
+                    "ATK DMG: 8100 → 9300",
+                    "Proc ATK DMG scaling: 1.9 → 2.2"
+                ]
+            },
+            {
+                "name": "Staff of Abyss / Soul of Abyss",
+                "changes": [
+                    "Removed 12% ATK SPD bonus from buff"
+                ]
+            },
+            {
+                "name": "Crimson Reaper / Cosmic Reaper / Divine Slayer",
+                "changes": [
+                    "Penalty removed for Martial Artist"
+                ]
+            },
+            {
+                "name": "Titan's Plates",
+                "changes": [
+                    "Passive",
+                    [
+                        "STR bonus per stack: 50 → 75"
+                    ]
+                ]
+            },
+            {
+                "name": "Frost Herald's Garment",
+                "changes": [
+                    "Active",
+                    [
+                        "Dash cooldown: 1 second → 0.25 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Ring of the Storm",
+                "changes": [
+                    "ATK SPD: 15% added",
+                    "Spec removed for Wind Mage"
+                ]
+            },
+            {
+                "name": "Heaven's Fist / Demonic Fist",
+                "changes": [
+                    "Armor reduction: 12% / 15% → 15% 20%",
+                    "Spec removed for Martial Artist"
+                ]
+            },
+            {
+                "name": "Guardian of the Skies / Ruler of the Skies",
+                "changes": [
+                    "Activates on skill cast → activates on attack after skill cast (within 2 seconds)"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Magical Horn / Frozen Cyrstal drop rates increased"
+                ]
+            },
+            {
+                "name": "Agareth",
+                "changes": [
+                    "Hunt",
+                    [
+                        "Backstab: instant death → max HP X 125% damage",
+                        "Collision damage: max HP X 33% → max HP X 25%"
+                    ],
+                    "Crystal",
+                    [
+                        "Burn damage reduced by 25%"
+                    ],
+                    "Gate",
+                    [
+                        "No longer applies Soulburn on units standing in it"
+                    ],
+                    "Miasma",
+                    [
+                        "Visuals for trail made more visible",
+                        "Agareth will no longer pull in players while anyone is affected by Misama"
+                    ]
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Blood Howl",
+                    [
+                        "No longer spawns swords over Meeko / Trickster clone"
+                    ]
+                ]
+            },
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Life Sap",
+                    [
+                        "Any heroes targetted / teleported by Life Sap won't be affected by Spirit Rifts that were on the ground before activation"
+                    ],
+                    "Spirit Call",
+                    [
+                        "Purple Orb made more visible",
+                        "Made the light pillar that spawns on the boss more transparent to prevent it from hiding orbs that spawn in north direction"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "T",
+                    [
+                        "Damage: main stat X 27 → main stat X 25",
+                        "Bonus damage per soul: main stat X 15 → main stat X 12.5"
+                    ]
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "D",
+                    [
+                        "Soul refill period: 2 seconds → 1.5 seconds"
+                    ],
+                    "W",
+                    [
+                        "Damage: ATK DMG X 0.8 + AGI X 5 → ATK DMG X 1 + AGI X 7.5"
+                    ],
+                    "E",
+                    [
+                        "Damage: ATK DMG X 1 + AGI X 7.5 → ATK DMG X 1.4 + AGI X 10"
+                    ],
+                    "T",
+                    [
+                        "Q damage bonus: 60% → 75%",
+                        "Soul will be recharged to max after skill is finished"
+                    ]
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "w",
+                    [
+                        "Cooldown: 10 seconds → 8 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "F",
+                    [
+                        "Activation speed increased"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "E",
+                    [
+                        "Armor reduction: 15% → 30%"
+                    ],
+                    "F",
+                    [
+                        "Duration / cooldown changed",
+                        "1 cast: 4 seconds duration, 40 seconds cooldown",
+                        "2 cast: 8 seconds duration, 120 seconds cooldown"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Q",
+                    [
+                        "Attack mode projectiles are now locked onto target as well",
+                        "Crit chance now follows wind mage's crit chance"
+                    ],
+                    "w",
+                    [
+                        "Big tornado damage: ATK DMG X 1.25 → ATK DMG X 2",
+                        "Fire interval: 1.25 seconds → 1.5 seconds",
+                        "Speed slowed down",
+                        "No longer combines with W cast by other people",
+                        "Damage interval / fire interval now scales with attack speed",
+                        "Q fired will now depend on Q mode"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Floating units will no longer collide with each other (ex. while riding on tornadoes in Valtora fight)",
+	        "If players are not in combat, they will be able to spend stat points regardless of whether they are in a boss zone or not"
+        ]
+    },
+    {
+        "name": "60p",
+        "notes": [
+            "Released on: June 4th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Dark Knight / Hermit",
+            [
+                "Fixed description of skills saying 'main stat' when it is based on additional stats instead of the basic stat"
+            ],
+            "Endless Snow - Fixed a bug where the item was still bound even after cooldown was complete",
+            "Frost Herald's Garment - Fixed a bug where active effects could pierce through terrain",
+            "Heirloom of Lazarus - Fixed a bug where item could disappear when sent to warehouse"
+        ],
+        "items": [
+            {
+                "name": "Ring of Eternity",
+                "changes": [
+                    "Max stacks: 75 → 70"
+                ]
+            },
+            {
+                "name": "Wings of Sacred Provenance",
+                "changes": [
+                    "Passive",
+                    [
+                        "Damage is now affected by fire affinity",
+                        "Damage: 33000 magic damage around user → Throws a projectile at target dealing 33000 magic damage (450 AoE)"
+                    ],
+                    "Active",
+                    [
+                        "Radius: 600 → 750"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Valtora / Ifrit / Nereid",
+                "changes": [
+                    "Aegis and Essence drop rate: 0.7% → 0.8%"
+                ]
+            },
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Changed to an air unit (you can pass under the boss, boss no longer gets stuck or moves in place)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Requiem (T)",
+                    [
+                        "Damage: main stat X 30 → main stat X 27"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Gentle Winds (W)",
+                    [
+                        "Gale duration: 4 seconds → 5 seconds",
+                        "Changed to continuously fire Q healing projectiles at nearby allies while it lasts"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Stat changes are now restricted in most of the boss areas (you will not be able to change the main stat while in combat)"
+        ]
+    },
+    {
         "name": "60o",
         "notes": [
             "Released on: May 30th, 2022",
