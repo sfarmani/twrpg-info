@@ -1584,21 +1584,24 @@
         "type": "Support / CC / Damage booster",
         "order": 1,
         "stat": "INT",
-        "version": "38b",
+        "version": "60s",
         "description": [
             "Use Protection of the Fairies as support wings",
             "Before getting Nebula Rose, can use Ring of Composure or stick to Eternal Rose if you get it first",
+	    "Use Star of Apotheosis if you want to maxed out the burst damage, Nebula Rose for your team survivability and Ring of Despair for debuff",
             "Can use Hood of Apocrypha before getting Crown of Composure since that requires Shadow Dragon"
         ],
         "items": {
-            "Triple Snow": [],
+            "Endless Snow": [
+	        "Ethenos, the Staff of Chaos"   
+	    ],
             "Crown of Absolute Zero": [
                 "Hood of Apocalypse"
             ],
-            "Nebula Rose": [
-                "Ring of Despair"
+            "Star of Apotheosis": [
+                "Nebula Rose","Ring of Despair"
             ],
-            "Winter Robe": [
+            "Frost Herald's Garment": [
                 "Thanatos, the Robe of Hell"
             ],
             "Wings of Frost Lord": [
