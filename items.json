@@ -21677,7 +21677,8 @@
       "periodicdamagepercent": 0.135,
       "passive": [
         "On direct hit, activates Drowning Abyss",
-        "Single-target spells deal 15% bonus pure damage per skill cast over 5 seconds",
+        "Single-target spells deal 15% bonus damage per skill cast over 5 seconds",
+        "(Bonus damage type is same as the spell used)",
         "Increases enemy magic damage taken by 6% ~ 9% (based on seconds elapsed, up to 15 seconds)",
         "If target dies with Drowning Abyss, explodes and deals (MAIN STAT X 30) pure damage to in an AoE"
       ],
