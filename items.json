@@ -116,6 +116,21 @@
     ]
   },
   {
+    "id": "I0RU",
+    "name": "Storage Expansion Coupon",
+    "koreanname": "창고 확장권",
+    "rank": "none",
+    "grade": 0,
+    "type": "Misc",
+    "color": "D8C1BA",
+    "stats": {
+      "active": [
+        "Expands your storage by 1 slot",
+        "Can only be used up to 6 times"
+      ]
+    }
+  },
+  {
     "id": "I01E",
     "name": "Lucky Acorn",
     "koreanname": "행운의 도토리",
@@ -6937,6 +6952,7 @@
       "Mana Ancient Mount: Coin of Effort x6",
       "Shadow Dragon Mount: Coin of Effort x12",
       "Costume of Effort: Coin of Effort x8",
+      "Storage Expansion Coupon: Coin of Effort x2",
       "In addtion to being dropped by bosses, it can also be exchanged for 5 Prius Gold Coin",
       "See Collector NPC to exchange"
     ],
@@ -20765,7 +20781,8 @@
       "spec": [
         "Specialties - Summary Judgement, Holy Arts",
         "Crusader - If Original Sin is cast while Holy Fist is active, only the last slash is activated with stun duration reduced by 50% and cooldown by 66%.",
-        "Paladin - Divine Cross' damage is increased by 15% and speed is increased by 50%"
+        "Paladin - Divine Cross' damage is increased by 15% and speed is increased by 50%",
+        "Martial Artist - Increases attack damage amplifier on Inner Meditation by 20%"
       ]
     }
   },
@@ -21330,11 +21347,12 @@
         "On landing a skill hit, creates Seed of Malice",
         "Heals 1200 HP and 3000 MP",
         "Increases damage output by 2% per stack (up to 5 stacks)",
+        "Seeds will gravitate towards the user if they move towards one",
         "Cooldown: 4 seconds"
       ],
       "active": [
         "On use, activates Forbidden Magic",
-        "Consumes (50% max MP)",
+        "Consumes (50% current MP)",
         "Increases main stat by (MP consumed / 60) and attack speed by 60% for 10 seconds",
         "Deals (INT X 3.75) magic damage per stack in an AoE",
         "Cooldown: 30 seconds, cannot be dropped during cooldown"

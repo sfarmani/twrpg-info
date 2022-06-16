@@ -1,5 +1,95 @@
 [
     {
+        "name": "60t",
+        "notes": [
+            "Released on: June 15th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Horn of Dragon - Fixed bug where the proc did magic damage instead of pure damage",
+	        "Merchant - Fixed issue with T not granting immunity after revival"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New item added",
+                    [
+                        "Storage Expansion Coupon",
+                        [
+                            "When used, expands your storage by 1 slot",
+                            "Cost: 2 Coins of Effor (purchased at Coin Trader)",
+                            "Can be used up to 6 times"
+                        ]
+                    ]
+                ]
+            },
+            {
+                "name": "Claws of Beriel / Power of Beriel",
+                "changes": [
+                    "Proc damage text now shows actual damage dealt instead of base damage before modifiers"
+                ]
+            },
+            {
+                "name": "Heaven's Fist / Demonic Fist",
+                "changes": [
+                    "Martial Artist spec added",
+                    [
+                        "Increases attack damage amplifier on R by 20%",
+                        "(Unlike the old spec, this spec should not affect Martial Artist's DPS cycle.",
+                        "The intention is to nerf MA, but not MA using Demonic Fist, at least for now)"
+                    ]
+                ]
+            },
+            {
+                "name": "Grimoire of Darkness / Mark of Sin / Seed of Malice",
+                "changes": [
+                    "Passive",
+                    [
+                        "Seeds will now gravitate towards the user any time they are moving towards one"
+                    ],
+                    "Active",
+                    [
+                        "Consumes % of max HP → of current MP (stat gained will still refer to max MP)"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Infection trails made more transparent"
+                ]
+            },
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Gaia's skills will no longer cause reduction of life energy if negeated by Martial Artist's D, Knight's E abilities"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "R",
+                    [
+                        "ATK DMG amplifier 120% → 100%"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Damage recorder updated",
+            [
+                "Type -record/-r to display results of an ongoing/last boss fight",
+                "(record will be kept up to a minute after the boss fight has ended)",
+                "Type -analyze/-a to display selected unit's information"
+            ]
+        ]
+    },
+    {
         "name": "60s",
         "notes": [
             "Released on: June 11th, 2022",

@@ -2527,7 +2527,7 @@
         "passive": [
             "Calm your mind and body to maintain control over yourself.",
             "Attack speed increased by 60%",
-            "Basic attacks have a 10% chance to increase attack damage by 120%, damage reduction by 20% for and regenerate HP equal to 2% + 90 every second for 5 seconds"
+            "Basic attacks have a 10% chance to increase attack damage by 100%, damage reduction by 20% for and regenerate HP equal to 2% + 90 every second for 5 seconds"
         ]
     },
     {
