@@ -2527,7 +2527,7 @@
         "passive": [
             "Calm your mind and body to maintain control over yourself.",
             "Attack speed increased by 60%",
-            "Basic attacks have a 10% chance to increase attack damage by 100%, damage reduction by 20% for and regenerate HP equal to 2% + 90 every second for 5 seconds"
+            "Basic attacks have a 10% chance to increase attack damage by 120%, damage reduction by 20% for and regenerate HP equal to 2% + 90 every second for 5 seconds"
         ]
     },
     {
@@ -3187,7 +3187,7 @@
         "active": [
             "Throws a potion made with your own blood, which is thick as troll's blood.",
             "Restores STR X 2 health",
-            "Increases target's HP regen by (Target's Max HP X 3% + Your own HP Regen) for 8 seconds",
+            "Increases target's HP regen by (Target's Max HP X 3% + Your own HP Regen) for 10 seconds",
             "Potion lasts 300 seconds, and you can maintain up to 3 potions at once",
             "Radius: 500"
         ]
@@ -5046,9 +5046,10 @@
         "order": 2,
         "active": [
             "Explosion... is an art!",
-            "INT X 7.5 magic damage",
-            "Stuns for 0.5 seconds",
+            "INT X 9 magic damage",
+            "Stuns for 1 second",
             "Can be channeled up to 2 second, increasing damage by 200% and range/stun duration by 100% every second",
+            "(Max stun duration: 2 seconds)",
             "Star Shower can be cast during channeling",
             "Channeling speed can be increased by attack speed (4% per 1% attack speed)"
         ]

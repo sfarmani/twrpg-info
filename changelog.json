@@ -1,5 +1,71 @@
 [
     {
+        "name": "60u",
+        "notes": [
+            "Released on: June 16th, 2022",
+            "Compatible Version: v0.51a ~"
+        ],
+        "bugs": [
+            "Fixed issue where some item effects were affected by % multiplier bonus (ex. Crimson Curse)"
+        ],
+        "items": [
+            {
+                "name": "Crimson Curse",
+                "changes": [
+                    "Passive",
+                    [
+                        "ATK DMG bonus: 8500 → 9500"
+                    ]
+                ]
+            },
+            {
+                "name": "Demonic Fist",
+                "changes": [
+                    "Martial Artist spec - removed (rollback)"
+                ]
+            },
+            {
+                "name": "Power Recorder",
+                "changes": [
+                    "Now displays elemental affinities as well+"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Throwing Healing Potion (W)",
+                    [
+                        "Buff duration: 8 seconds → 10 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Inner Meditation (R)",
+                    [
+                        "ATK DMG amplifier 100% → 120% (rollback)"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Skill cast delay reduced",
+                    "Death Bomb (Q)",
+                    [
+                        "Damage: INT X 7.5 → 9",
+                        "Range: 500 ~ 1500 → 750 ~ 1500",
+                        "Stun duration: 0.5 seconds ~ 1.5 seconds → 1 second ~ 2 seconds",
+                        "Max charge time: 2 seconds → 1.5 seconds"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "60t",
         "notes": [
             "Released on: June 15th, 2022",
