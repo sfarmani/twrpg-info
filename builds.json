@@ -367,21 +367,20 @@
         "type": "DPS/Burst",
         "order": 1,
         "stat": "STR",
-        "version": "57b",
+        "version": "60u",
         "guidelink": [
             "https://twrpg.com/viewtopic.php?f=4&t=3341"
         ],
         "items": {
             "Spear of Judgment": [
-                "Splitting of the Sky and Earth",
-                "Calamity"
+                "Heartrender"
             ],
-            "Horn of Demon God": [],
-            "Ring of Frozen Soul": [
+            "Horn of Dragon": [],
+            "Ring of Desolate Soul": [
                 "Ring of the One"
             ],
-            "Plates of Sanguine Fury": [
-                "Felspike Armor"
+            "Titan's Plates": [
+                "Plates of Sanguine Fury"
             ],
             "Bloodstorm": []
         }
@@ -825,20 +824,24 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
-        "version": "59a",
+        "version": "60u",
         "description": [
             "The use of Nevedium is for a more advanced build. It can increase your overall dps, but it may not be useful for beginners"
         ],
         "items": {
             "Caedis, the Sword of Slaughter": [
-                "Espishu, the Sword of Chaos"
+                "Power of Beriel"
             ],
             "Eye of the Reaper": [],
-            "Demonic Fist": [],
-            "Athanasia, the Armor of the Reaper": [
+            "Crimson Curse": [
+                "Demonic Fist"
+            ],
+            "Exitium, the Armor of Ruin": [
                 "Nevedium, the Armor of Demonblood"
             ],
-            "Wings of Flame Lord": []
+            "Cape of Deep Abyss": [
+                "Wings of Flame Lord"
+            ]
         }
     },
     {
