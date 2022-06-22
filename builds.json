@@ -1582,33 +1582,126 @@
             ]
         }
     },
-    {
+        {
         "for": "Water Mage",
-        "type": "Support / CC / Damage booster",
+        "type": "Early Game",
         "order": 1,
         "stat": "INT",
-        "version": "60s",
+        "version": "60u",
         "description": [
-            "Use Protection of the Fairies as support wings",
-            "Before getting Nebula Rose, can use Ring of Composure or stick to Eternal Rose if you get it first",
-            "Use Star of Apotheosis if you want to maxed out the burst damage, Nebula Rose for your team survivability and Ring of Despair for debuff",
-            "Can use Hood of Apocrypha before getting Crown of Composure since that requires Shadow Dragon"
+            "Minor."
         ],
         "items": {
-            "Endless Snow": [
-                "Ethenos, the Staff of Chaos"
+            "Ripple Snow": [],
+            "Hood of Grim Reaper": [],
+            "Winter Rose": [],
+            "Frozen Robe": [],
+            "Fairy Wings": []
+        }
+    },
+    {
+        "for": "Water Mage",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "INT",
+        "version": "60u",
+        "description": [
+            "Coin Gears."    
+        ],
+        "items": {
+            "Twin Snow": [],
+            "Crown of Fervor": [
+                "Hood of Grim Reaper"
             ],
-            "Crown of Absolute Zero": [
-                "Hood of Apocalypse"
+            "Latea, the Ring of Chaos": [
+                "Winter Rose"
             ],
+            "Frozen Robe": [],
+            "Fairy Wings": []
+        }
+    },
+    {
+        "for": "Water Mage",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "INT",
+        "version": "60u",
+        "description": [
+            "SK -> SD",
+            "Optional gears will be used later on and useful in some situations, you can consider gather them or not."
+        ],
+        "items": {
+            "Triple Snow": [
+                "Ethenos, the Staff of Space"
+            ],
+            "Crown of Composure": [
+                "Hood of Apocrypha"
+            ],
+            "Eternal Rose": [
+                "Ring of Composure"
+            ],
+            "Winter Robe": [
+                "Robe of the Necromancer"
+            ],
+            "Frost Fairy Wings": [
+                "Soul of the Dead"
+            ]
+        }
+    },
+    {
+        "for": "Water Mage",
+        "type": "End Game",
+        "order": 4,
+        "stat": "INT",
+        "version": "60u",
+        "description": [
+            "DF -> Agareth",
+            "Keep using Triple Snow if you can leech Duke, otherwise make Ethenos.",
+            "Harmonia is not really worth to make but some public runs will lack of healer and it would be useful.",
+            "Nebula Rose will be your main ring because water affinity is good civilization.",
+            "Use Ring of Despair if your team lack of debuff, Horn of God if your team lack of cleanse.",
+            "Thanatos is a big boost for your damage, Archlich and Winter Robe if you want to play safe.",
+            "Protection of the Fairies swapable when it's out of revive."
+        ],
+        "items": {
+            "Ethenos, the Staff of Chaos": [
+                "Harmonia, the Sparkle of Life",
+                "Triple Snow"
+            ],
+            "Crown of Absolute Zero": [],
+            "Nebula Rose": [
+                "Ring of Despair",
+                "Horn of God"
+            ],
+            "Thanatos, the Robe of Hell": [
+                "Robe of Archlich",
+                "Winter Robe"
+            ],
+            "Wings of Frost Lord": [
+                "Protection of the Fairies"
+            ]
+        }
+    },
+    {
+        "for": "Water Mage",
+        "type": "Arcana",
+        "order": 5,
+        "stat": "INT",
+        "version": "60u",
+        "description": [
+            "Duke -> TBD",
+            "Just gitgud mates.",
+            "Star for burst, Rose for survivalability and Despair for debuffs."
+        ],
+        "items": {
+            "Endless Snow": [],
+            "Crown of Absolute Zero": [],
             "Star of Apotheosis": [
                 "Nebula Rose",
                 "Ring of Despair"
             ],
-            "Frost Herald's Garment": [
-                "Thanatos, the Robe of Hell"
-            ],
-            "Wings of Frost Lord": [
+            "Frost Herald's Garment": [],
+            "Wing of Frost Lord": [
                 "Protection of the Fairies"
             ]
         }
