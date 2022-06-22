@@ -1582,7 +1582,7 @@
             ]
         }
     },
-        {
+    {
         "for": "Water Mage",
         "type": "Early Game",
         "order": 1,
@@ -1690,14 +1690,12 @@
         "version": "60u",
         "description": [
             "Duke -> TBD",
-            "Just gitgud mates.",
-            "Star for burst, Rose for survivalability and Despair for debuffs."
+            "Just gitgud mates."
         ],
         "items": {
             "Endless Snow": [],
             "Crown of Absolute Zero": [],
-            "Star of Apotheosis": [
-                "Nebula Rose",
+            "Nebula Rose": [
                 "Ring of Despair"
             ],
             "Frost Herald's Garment": [],
