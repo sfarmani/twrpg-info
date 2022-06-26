@@ -550,7 +550,7 @@
         "order": 19,
         "active": [
             "Transmutes a cannon to fire a powerful cannonball.",
-            "INT X 9 magic damage",
+            "INT X 8.5 magic damage",
             "Also fired from existing cannons",
             "Cannon will disappear if you move far away from it or 10 seconds elapse",
             "Up to 5 cannons can be active at once"
@@ -1728,8 +1728,8 @@
         "order": 10,
         "active": [
             "\"I couldn't see anything. Only the corpses of my comrades were left at where he slashed through.\" - A Survivor of Empire War",
-            "Each slash deals AGI X 4.5 magic damage",
-            "Final slash deals AGI X 88 magic damage"
+            "Each slash deals AGI X 5 magic damage",
+            "Final slash deals AGI X 100 magic damage"
         ]
     },
     {
@@ -2801,7 +2801,7 @@
         "order": 7,
         "active": [
             "\"You are already dead. You just haven't caught up to it yet.\" - Reaper",
-            "For 12 seconds, increases damage you deal to the target by 20~40% based on target's missing HP",
+            "For 12 seconds, increases damage you deal to the target by 15~35% based on target's missing HP",
             "Upon expiration, deals AGI X 80 magic damage to the target",
             "Re-use skill to manually finish"
         ]
@@ -2979,7 +2979,7 @@
         ]
     },
     {
-        "id": "A0PS",
+        "id": "A19P",
         "name": "Gentle Winds",
         "heroClass": "Wind Mage",
         "color": "aef4c7",
@@ -3521,7 +3521,7 @@
         "active": [
             "Driven by madness, Berserker becomes a killing machine whose sole purpose is to battle.",
             "Consumes HP X 80%",
-            "Increases attack speed by 100% for 12 seconds",
+            "Increases attack speed by 100% and guarantees activation of Bloodbath for 12 seconds",
             "Evades death for the duration"
         ]
     },
@@ -3710,7 +3710,7 @@
         "order": 2,
         "active": [
             "Performs a mighty slash with mana-infused sword.",
-            "Attack Damage X 0.6 + Consumed MP X 0.6 magic damage",
+            "Attack Damage X 0.65 + Consumed MP X 0.65 magic damage",
             "Reactivates with halved effectiveness on attack for 4 seconds"
         ]
     },
@@ -3841,8 +3841,8 @@
         "active": [
             "\"Corrupt evils that must not exist in this world! The end is nigh. O Holy sword, grant me victory over my foes!\" - Knight during the God-Devil War",
             "STR X 75 magic damage",
-            "For each second channeled, size increased & damage increased by 25%",
-            "Can be channeled up to a maximum of 4 seconds",
+            "For each second channeled, size increased & damage increased by 33%",
+            "Can be channeled up to a maximum of 3 seconds",
             "Grants 100% damage reduction and immunity to debuffs/CC effects to allies hit for 5 seconds",
             "Cancels Release Mana"
         ]

@@ -8469,7 +8469,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.008,
+    "droprate": 0.01,
     "required_by": [
       "Staff of Plague",
       "Heaven's Fist",
@@ -8510,7 +8510,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.01,
     "required_by": [
       "Horn of Lightning God",
       "Protection of the Fairies",
@@ -8545,7 +8545,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.01,
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Pheles, the Bow of God",
@@ -8589,8 +8589,8 @@
     "color": "FFFFFF",
     "droprate": [
       0.0075,
-      0.009,
-      0.012
+      0.01,
+      0.0125
     ],
     "required_by": [
       "Pheles, the Bow of God",
@@ -8665,7 +8665,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.008,
+    "droprate": 0.01,
     "required_by": [
       "Ring of Revival",
       "Robe of Archlich",
@@ -8710,7 +8710,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.01,
     "required_by": [
       "Eye of the Flame Lord",
       "Protection of the Fairies",
@@ -8743,7 +8743,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.01,
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Staff of Plague",
@@ -8798,7 +8798,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.008,
+    "droprate": 0.01,
     "required_by": [
       "Ring of Fate",
       "Eternal Flame",
@@ -8834,7 +8834,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.01,
     "required_by": [
       "Robe of Archlich",
       "Brave Heart",
@@ -8876,7 +8876,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.01,
     "required_by": [
       "Ring of Fate",
       "Bag of Universe",
@@ -11658,7 +11658,7 @@
         "On use, activates Anger",
         "Increases attack speed by 50%, STR by 30, and skill damage by 1% per 0.5 ~ 1 seconds while draining user's HP",
         "Stacks up to 10 times and drains (240 + seconds elapsed X 120) HP per second",
-        "Cooldown: 60 seconds, cannot be dropped during cooldown"
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -14397,7 +14397,7 @@
         "On use, activates Oblivion",
         "Increases STR by 45 and skill damage by 1.5% (up to 10 stacks)",
         "Drains user's HP, (450 + (seconds elapsed X 150)) HP per 0.5 seconds",
-        "Cooldown: 60 seconds, cannot be dropped during cooldown"
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -15036,8 +15036,7 @@
       "affinityearthpercent": 0.08,
       "passive": [
         "On skill cast, activates Rejuvenation",
-        "Heals (750 + INT X 16) HP per second",
-        "Reduces damage taken by 15% for 9 seconds",
+        "Heals (750 + INT X 0.16) HP per 1.5 seconds and reduces damage taken by 15% for 9 seconds",
         "Cooldown: 3 seconds"
       ],
       "active": [
@@ -18324,7 +18323,7 @@
         "Drains (900 + (seconds elapsed X 225)) HP per second",
         "Increases STR by 55 and skill damage by 1.5% per stack (up to 10 stacks)",
         "Reduces Blade of Destruction's cooldown to 3 seconds",
-        "Cooldown: 60 seconds, cannot be dropped during cooldown"
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -18370,7 +18369,7 @@
         "Drains (900 + (seconds elapsed X 225)) HP per second",
         "Increases STR by 60 and skill damage by 1.5% per stack (up to 10 stacks)",
         "Reduces Blade of Destruction's cooldown to 2 seconds",
-        "Cooldown: 60 seconds, cannot be dropped during cooldown"
+        "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -21991,7 +21990,7 @@
       "active": [
         "On use, activates Heartrender",
         "Summons and launches a bloody spear at target, marking it and dealing 200000 magic damage and stunning it for 1 second",
-        "Deals 125% bonus damage to non-boss units (includes elite units as well)",
+        "Deals 100% bonus damage to non-boss units (includes elite units as well)",
         "If the marked target dies, the cooldown of this effect will be reset",
         "Cooldown: 20 seconds (minimum 3 seconds per cast), cannot be dropped during cooldown"
       ]
@@ -23509,7 +23508,7 @@
       }
     ],
     "stats": {
-      "allstat": 250,
+      "allstat": 275,
       "mainstat": 100,
       "hpregen": 120,
       "mpregen": 60,
@@ -23560,13 +23559,13 @@
       }
     ],
     "stats": {
-      "mainstat": 390,
+      "mainstat": 400,
       "hp": 1500,
       "skilldamagepercent": 0.1,
       "affinityflamepercent": 0.05,
       "passive": [
-        "Activate Sacred Flame on dealing magic damage",
-        "Deals 33000 magic damage to and around target (450 AoE)",
+        "Activate Sacred Flame on dealing magic damage to boss units",
+        "Deals 36000 magic damage to and around target (450 AoE)",
         "Gain a stack of Sacred Dawn",
         "Each stack increases skill damage by 1.5% and fire affinity by 0.5% for 6 seconds (up to 5 stacks)",
         "Upon max stacks, the user can no longer refresh stacks",
