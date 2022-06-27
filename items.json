@@ -22140,7 +22140,7 @@
         "Deals 20% bonus damage to enemies below 50% HP",
         "On skill cast, activates Transcendence",
         "Increases AGI by 450 and HP regen by (Max HP X 7.5%) for 7.5 seconds",
-        "Divine Cut activates every 4th attack (except Martial Artist)",
+        "Divine Cut activates every 4th attack",
         "Cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
