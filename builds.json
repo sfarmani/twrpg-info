@@ -1531,34 +1531,164 @@
     },
     {
         "for": "Soul Weaver",
-        "type": "Support",
+        "type": "Early Game",
         "order": 1,
         "stat": "INT",
-        "version": "51b",
+        "version": "60v",
         "description": [
-            "If you have enough healing use Armageddon to enhance team burst",
-            "Eye of the Flame Lord really should be on priest, but if there are no priests, then its good to have one",
-            "Both Druid and Jupiter are great, but each shine in different areas",
-            "Jupiter: Great for non-targetted AoE healing/stun, has a long CD",
-            "Druid: Great for precise, single-target heals (esp snipers), harder to use"
+            "Minors to Coin"
         ],
         "items": {
-            "Armageddon": [
-                "Harmonia, the Sparkle of Life"
+            "Benziena, the Earthen Soul": [
+                "Staff of Void"
+            ],
+            "Hood of Grim Reaper": [
+                "Void Eye"
+            ],
+            "Azathos, the Pipe of Chaos": [],
+            "Fairy Garment": [
+                "Frozen Robe"
+            ],
+            "Frozen Heart": [
+                "Soul Drinker"
+            ]
+        }
+    },
+    {
+        "for": "Soul Weaver",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "INT",
+        "version": "60v",
+        "description": [
+            "SK - SD",
+            "If run is lacking heal, go use Benziena, Earthen Heart.",
+            "If you want to boost your team damage to use Hell Riser / Staff of Abyss"
+        ],
+        "items": {
+            "Hell Riser": [
+                "Staff of Abyss",
+                "Benziena, the Earthen Heart"
+            ],
+            "Hood of Apocrypha": [
+                "Void Eye"
+            ],
+            "Ring of Composure": [
+                "Azathos, the Pipe of Chaos"
+            ],
+            "Diana, the Robe of Holy Maiden": [
+                "Druid Mantle"
+            ],
+            "Soul Eater": [
+                "Grim Heart",
+                "Embrace of Nature"
+            ]
+        }
+    },
+    {
+        "for": "Soul Weaver",
+        "type": "End Game",
+        "order": 3,
+        "stat": "INT",
+        "version": "60v",
+        "description": [
+            "Valtora - Agareth +",
+            "You can use Hell Riser if your team is already using Soul of Abyss",
+            "If both are taken you can go Harmonia, Sparkle of Life.",
+            "You can use Druid Mantle to close portals in Agareth with its passive also with Druid Mantle you can heal long range carries.",
+            "You can use Hood of Apocrpyha if you missing healing in runs or else go Eye of Flame Lord if no one uses it.",
+            "If you dont have cleanse in runs you can stick to Horn of God but if your team not having problem with cleanse use Ring of Composure to boost their damage."
+        ],
+        "items": {
+            "Soul of Abyss": [
+                "Armageddon",
+                "Harmonia, Sparkle of Life"
             ],
             "Hood of Apocalypse": [
                 "Eye of the Flame Lord"
             ],
-            "Ring of Despair": [
-                "Horn of God"
+            "Horn of God": [
+                "Ring Of Despair",
+                "Nebula Rose"
             ],
-            "Thanatos, the Robe of Hell": [
-                "Jupiter, the Robe of Heavens",
-                "Druid's Mantle"
+            "Jupiter, the Robe of Heavens": [
+                "Hades, the Armor of Despair",
+                "Druid Mantle"
             ],
-            "Wings of Immortal": [
+            "Protection of the Fairies": [
+                "Soul Devourer",
+                "Wings of Immortal"
+            ]
+        }
+    },
+    {
+        "for": "Soul Weaver",
+        "type": "Arcana",
+        "order": 4,
+        "stat": "INT",
+        "version": "60v",
+        "description": [
+            "Duke +",
+            "Use Heartrender to save people from Duke Spikes / Nereid Bubbles.",
+            "You can use Armageddon if your team is already using Gate of Abyss.",
+            "If both are taken you can go Harmonia, Sparkle of Life.",
+            "Having 2 Heirloom wont be a problem if you have more than 2 dps players but you can go Ring of Despair if no one using Cape of Deep Abyss.",
+            "You can use Hood of Apocalypse if no one using Eye of Flame Lord ( always priority Eye of Flame Lord )",
+            "If you still have question, my discord is Darsinki#0004 always open to help."
+        ],
+        "items": {
+            "Gate of Abyss": [
+                "Heartrender",
+                "Armageddon",
+                "Harmonia, Sparkle of Life"
+            ],
+            "Hood of Apocalypse": [
+                "Eye of the Flame Lord"
+            ],
+            "Heirloom of Lazarus": [
+                "Ring of Despair"
+            ],
+            "Cage of Twisted Souls": [
+                "Jupiter, the Robe of Heavens"
+            ],
+            "Guardian Angel": [
                 "Protection of the Fairies",
-                "Soul Devourer"
+                "Soul Devourer",
+                "Wings of Immortal"
+            ]
+        }
+    },
+    {
+        "for": "Soul Weaver",
+        "type": "Damage amplification",
+        "order": 5,
+        "stat": "INT",
+        "version": "60v",
+        "items": {
+            "Armageddon": [],
+            "Hood of Apocalypse": [],
+            "Ring of Despair": [],
+            "Cage of Twisted Souls": [],
+            "Soul Devourer": []
+        }
+    },
+    {
+        "for": "Soul Weaver",
+        "type": "Team Buff",
+        "order": 6,
+        "stat": "INT",
+        "version": "60v",
+        "items": {
+            "Gate of Abyss": [],
+            "Eye of the Flame Lord": [],
+            "Heirloom of Lazarus": [
+                "Nebula Rose"
+            ],
+            "Jupiter, the Robe of Heavens": [
+                "Cage of Twisted Souls"
+            ],
+            "Guardian Angel": [
+                "Protection of the Fairies"
             ]
         }
     },
