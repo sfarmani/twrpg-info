@@ -949,22 +949,20 @@
         "type": "Omega Endgame",
         "order": 5,
         "stat": "AGI",
-        "version": "59a",
+        "version": "60v",
         "description": [
-            "Duke ~ TBA",
+            "Duke+",
             "The real exercise for fingering -3Years",
-            "Ring of Resonance/Time/Fate for double T or Ring of Nightmare/Strike/Insanity for stronger hitting attack/spells but at the cost of RNG.",
-            "Radiance of the One should only be crafted if you have finished your main items and have spare Mark of Lords."
+            "9/10 would break my keyboard and fingers again -Ches",
+            "Ring of Resonance/Time/Fate/Eternity for double T or Ring of Nightmare/Strike/Insanity/Crimson Curse for stronger hitting attack/spells but at the cost of RNG."
         ],
         "items": {
             "Heartrender": [
-                "Cosmic Reaper"
+                "Divine Slayer"
             ],
-            "Eye of the Reaper": [
-                "Radiance of the One"
-            ],
-            "Ring of Fate": [
-                "Ring of Insanity"
+            "Eye of the Reaper": [],
+            "Crimson Curse": [
+                "Ring of Eternity"
             ],
             "Vest of Divine Winds": [],
             "Bloodstorm": [
@@ -1592,7 +1590,7 @@
         "stat": "INT",
         "version": "60v",
         "description": [
-            "Valtora - Agareth +",
+            "Valtora - Agareth+",
             "You can use Hell Riser if your team is already using Soul of Abyss",
             "If both are taken you can go Harmonia, Sparkle of Life.",
             "You can use Druid Mantle to close portals in Agareth with its passive also with Druid Mantle you can heal long range carries.",
@@ -1628,7 +1626,7 @@
         "stat": "INT",
         "version": "60v",
         "description": [
-            "Duke +",
+            "Duke+",
             "Use Heartrender to save people from Duke Spikes / Nereid Bubbles.",
             "You can use Armageddon if your team is already using Gate of Abyss.",
             "If both are taken you can go Harmonia, Sparkle of Life.",
