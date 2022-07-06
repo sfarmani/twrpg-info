@@ -8701,7 +8701,8 @@
     "stats": {
       "agi": 30,
       "passive": [
-        "Chance to activate Elemental Fury on attack and skill cast"
+        "5% Chance to activate Elemental Fury on attack and skill cast",
+        "Increases main stat by 2% for 30 seconds"
       ]
     }
   },
@@ -8862,7 +8863,8 @@
     "stats": {
       "str": 30,
       "passive": [
-        "Chance to activate Elemental Fury on attack and skill cast"
+        "5% Chance to activate Elemental Fury on attack and skill cast",
+        "Increases main stat by 2% for 30 seconds"
       ]
     }
   },
@@ -9028,7 +9030,8 @@
     "stats": {
       "int": 30,
       "passive": [
-        "Chance to activate Elemental Fury on attack and skill cast"
+        "5% Chance to activate Elemental Fury on attack and skill cast",
+        "Increases main stat by 2% for 30 seconds"
       ]
     }
   },
@@ -24494,7 +24497,10 @@
       "hp": 250,
       "mp": 250,
       "hpregen": 7.5,
-      "mpregen": 7.5
+      "mpregen": 7.5,
+      "passive": [
+        "Deltirama ~ Gnosis personal loot drop rate increased by 50%"
+      ]
     }
   },
   {
@@ -24530,7 +24536,7 @@
       "allstat": 45,
       "attackspeedpercent": 0.05,
       "critchancepercent": 0.025,
-      "dtpercent": 0.025,
+      "dtpercent": -0.025,
       "skilldamagepercent": 0.025,
       "damagedealtpercent": 0.025,
       "hp": 300,
@@ -24539,7 +24545,8 @@
       "mpregen": 10,
       "passive": [
         "Deltirama ~ Alteia personal loot drop rate increased by 50%",
-        "Chance to activate Elemental Fury on attack and skill cast"
+        "5% Chance to activate Elemental Fury on attack and skill cast",
+        "Increases main stat by 2% for 30 seconds"
       ]
     }
   },
