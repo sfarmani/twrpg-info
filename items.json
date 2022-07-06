@@ -123,6 +123,11 @@
     "grade": 0,
     "type": "Misc",
     "color": "D8C1BA",
+    "recipe": [
+      {
+        "Coin of Effort": 2
+      }
+    ],
     "stats": {
       "active": [
         "Expands your storage by 1 slot",
@@ -6952,7 +6957,6 @@
       "Mana Ancient Mount: Coin of Effort x6",
       "Shadow Dragon Mount: Coin of Effort x12",
       "Costume of Effort: Coin of Effort x8",
-      "Storage Expansion Coupon: Coin of Effort x2",
       "In addtion to being dropped by bosses, it can also be exchanged for 5 Prius Gold Coin",
       "See Collector NPC to exchange"
     ],
@@ -6964,6 +6968,15 @@
       "Underlord Agareth",
       "Duke Lazarus",
       "Gaia"
+    ],
+    "required_by": [
+      "Storage Expansion Coupon",
+      "Death Fiend Icon",
+      "Valtora Icon",
+      "Ifrit Icon",
+      "Nereid Icon",
+      "Agareth Icon",
+      "Legend Icon"
     ],
     "rank": "none",
     "grade": 0,
@@ -8444,6 +8457,31 @@
     ]
   },
   {
+    "id": "I0QH",
+    "name": "Death Fiend Icon",
+    "koreanname": "데스 핀드 아이콘",
+    "description": "!Warning! Please save a replay of this game.",
+    "dropped_by": [
+      "Death Fiend"
+    ],
+    "rank": "none",
+    "grade": 0,
+    "type": "Icon",
+    "color": "008000",
+    "droprate": 0.0033,
+    "required_by": [
+      "Legend Icon"
+    ],
+    "recipe": [
+      {
+        "Coin of Effort": 5
+      }
+    ],
+    "stats": {
+      "skilldamagepercent": 0.02
+    }
+  },
+  {
     "id": "infs",
     "name": "Fiend Token",
     "koreanname": "핀드 토큰",
@@ -8640,6 +8678,34 @@
     ]
   },
   {
+    "id": "I02E",
+    "name": "Valtora Icon",
+    "koreanname": "발토라 아이콘",
+    "description": "!Warning! Please save a replay of this game.",
+    "dropped_by": [
+      "Valtora"
+    ],
+    "rank": "none",
+    "grade": 0,
+    "type": "Icon",
+    "color": "008000",
+    "droprate": 0.0033,
+    "required_by": [
+      "Legend Icon"
+    ],
+    "recipe": [
+      {
+        "Coin of Effort": 5
+      }
+    ],
+    "stats": {
+      "agi": 30,
+      "passive": [
+        "Chance to activate Elemental Fury on attack and skill cast"
+      ]
+    }
+  },
+  {
     "id": "I0P0",
     "name": "Lightning God Token",
     "koreanname": "뇌신의 토큰",
@@ -8771,6 +8837,34 @@
       "Fulminata, the Bringer of Storms",
       "Bloodstorm"
     ]
+  },
+  {
+    "id": "I02D",
+    "name": "Ifrit Icon",
+    "koreanname": "이프리트 아이콘",
+    "description": "!Warning! Please save a replay of this game.",
+    "dropped_by": [
+      "Ifrit"
+    ],
+    "rank": "none",
+    "grade": 0,
+    "type": "Icon",
+    "color": "008000",
+    "droprate": 0.0033,
+    "required_by": [
+      "Legend Icon"
+    ],
+    "recipe": [
+      {
+        "Coin of Effort": 5
+      }
+    ],
+    "stats": {
+      "str": 30,
+      "passive": [
+        "Chance to activate Elemental Fury on attack and skill cast"
+      ]
+    }
   },
   {
     "id": "I0P1",
@@ -8911,6 +9005,34 @@
     ]
   },
   {
+    "id": "I002",
+    "name": "Nereid Icon",
+    "koreanname": "네레이드 아이콘",
+    "description": "!Warning! Please save a replay of this game.",
+    "dropped_by": [
+      "Nereid"
+    ],
+    "rank": "none",
+    "grade": 0,
+    "type": "Icon",
+    "color": "008000",
+    "droprate": 0.0033,
+    "required_by": [
+      "Legend Icon"
+    ],
+    "recipe": [
+      {
+        "Coin of Effort": 5
+      }
+    ],
+    "stats": {
+      "int": 30,
+      "passive": [
+        "Chance to activate Elemental Fury on attack and skill cast"
+      ]
+    }
+  },
+  {
     "id": "I0P2",
     "name": "Sea God Token",
     "koreanname": "해신의 토큰",
@@ -8936,7 +9058,7 @@
     "type": "Wings",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.0055,
+    "droprate": 0.006,
     "required_by": [
       "Bag of Despair",
       "Nevedium, the Armor of Demonblood",
@@ -8978,7 +9100,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.009,
     "required_by": [
       "Ring of Hope",
       "Ring of Despair",
@@ -9017,7 +9139,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.009,
     "required_by": [
       "Hood of Apocalypse",
       "Power of Beriel",
@@ -9053,7 +9175,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.008,
+    "droprate": 0.009,
     "required_by": [
       "Radiance of the One",
       "Crown of Absolute Zero",
@@ -9075,6 +9197,31 @@
       "Seal of Corruption",
       "Gate of Abyss"
     ]
+  },
+  {
+    "id": "I02S",
+    "name": "Agareth Icon",
+    "koreanname": "아가레스 아이콘",
+    "description": "!Warning! Please save a replay of this game.",
+    "dropped_by": [
+      "Agareth"
+    ],
+    "rank": "none",
+    "grade": 0,
+    "type": "Icon",
+    "color": "008000",
+    "droprate": 0.0033,
+    "required_by": [
+      "Legend Icon"
+    ],
+    "recipe": [
+      {
+        "Coin of Effort": 10
+      }
+    ],
+    "stats": {
+      "damagedealtpercent": 0.02
+    }
   },
   {
     "id": "I0P3",
@@ -24314,6 +24461,9 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
+    "required_by": [
+      "Legend Icon"
+    ],
     "recipe": [
       {
         "Master Icon": 1
@@ -24345,6 +24495,52 @@
       "mp": 250,
       "hpregen": 7.5,
       "mpregen": 7.5
+    }
+  },
+  {
+    "id": "I02T",
+    "name": "Legend Icon",
+    "koreanname": "레전드 아이콘",
+    "description": "!Warning! Please save a replay of this game.",
+    "rank": "none",
+    "grade": 0,
+    "type": "Icon",
+    "color": "008000",
+    "recipe": [
+      {
+        "Grandmaster Icon": 1
+      },
+      {
+        "Death Fiend Icon": 1
+      },
+      {
+        "Valtora Icon": 1
+      },
+      {
+        "Ifrit Icon": 1
+      },
+      {
+        "Nereid Icon": 1
+      },
+      {
+        "Agareth Icon": 1
+      }
+    ],
+    "stats": {
+      "allstat": 45,
+      "attackspeedpercent": 0.05,
+      "critchancepercent": 0.025,
+      "dtpercent": 0.025,
+      "skilldamagepercent": 0.025,
+      "damagedealtpercent": 0.025,
+      "hp": 300,
+      "mp": 300,
+      "hpregen": 10,
+      "mpregen": 10,
+      "passive": [
+        "Deltirama ~ Alteia personal loot drop rate increased by 50%",
+        "Chance to activate Elemental Fury on attack and skill cast"
+      ]
     }
   },
   {

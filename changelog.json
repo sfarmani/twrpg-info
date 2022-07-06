@@ -1,5 +1,66 @@
 [
     {
+        "name": "60z",
+        "notes": [
+            "Released on: June 4th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Alteia icon drop rate changed to 0.33%"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "60x",
+        "notes": [
+            "Released on: June 3rd, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "events": [
+            "Event is being worked on and will be released in 1 ~ 2 weeks"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New icons added",
+                    [
+                        "Death Fiend Icon",
+                        "Valtora Icon",
+                        "Ifrit Icon",
+                        "Nereid Icon",
+                        "Agareth Icon",
+                        "Legend Icon"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Agareth",
+                "changes": [
+                    "Curse of Greed drop rate: 0.55% → 0.6%",
+                    "Material drop rate: 0.8% → 0.9%"
+                ]
+            }
+        ],
+        "misc": [
+            "System",
+            [
+                "You can no longer -load before loading cinematic finishes",
+                "-asave / -aload commands have been added",
+                [
+                    "This saves/loads any account-wide items",
+                    "Currently, only two items are account-wide: Grandmaster Icon and Legend Icon"
+                ]
+            ]
+        ]
+    },
+    {
         "name": "60v",
         "notes": [
             "Released on: July 25th, 2022",
