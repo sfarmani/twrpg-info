@@ -1062,7 +1062,7 @@
         "order": 2,
         "active": [
             "Gather the element of fire into a single orb, and shoot it at the target.",
-            "INT X 6 magic damage",
+            "INT X 8 magic damage",
             "Deals additional damage equal to 25% of the burn damage the target is currently taking",
             "Stuns for 1 second"
         ]
@@ -1082,7 +1082,7 @@
         ],
         "active": [
             "Summons a spirit of flame to engulf the target or the ground.",
-            "Each second deals INT X 1.5 magic damage",
+            "Each second deals INT X 1.75 magic damage",
             "Lasts 5 seconds",
             "On ally: Removes debuffs and grants a shield that absorbs INT X 1.5 damage",
             "On ground: Stuns for 2 seconds, lasts 50% longer"
@@ -1114,7 +1114,7 @@
         "order": 5,
         "active": [
             "Concentrate flames into a single point, creating a massive combustion of mana.",
-            "INT X 7.5 magic damage",
+            "INT X 10 magic damage",
             "Amplifies burn damage inflicted by Fire Mage by 66% for 5 seconds"
         ]
     },
@@ -1145,10 +1145,10 @@
         "passive": [
             "Fireball's base damage increased by 200%"
         ],
-        "active": [
+        "active": [ 
             "\"Imagine a huge rock falling through the atmosphere onto the ground. Don't worry, the Earth won't be destroyed. It's not that big, and only you will be engulfed in the explosion..  \" - Mage",
             "INT X 60 magic damage",
-            "Summons 10 little meteor fragments each dealing INT X 35 magic damage"
+            "Summons 10 little meteor fragments each dealing INT X 5 magic damage"
         ]
     },
     {
