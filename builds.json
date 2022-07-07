@@ -571,44 +571,120 @@
     },
     {
         "for": "Bow Master",
-        "type": "DPS/Burst Hybrid",
+        "type": "Early Game",
         "order": 1,
         "stat": "AGI",
-        "version": "55c",
+        "version": "60z",
         "guidelink": [
             "https://twrpg.com/viewtopic.php?f=4&t=6892"
         ],
+        "items": {
+            "Icicle Storm": [],
+            "Grim Visage": [],
+            "Demonis, the Devil Lord's Ring": [],
+            "Vest of Protection": [],
+            "Slayer Boots": []
+        }
+    },
+    {
+        "for": "Bow Master",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "AGI",
+        "version": "60z",
+        "guidelink": [
+            "https://twrpg.com/viewtopic.php?f=4&t=6892"
+        ],
+        "items": {
+            "Flame Explosion": [],
+            "Grim Visage": [],
+            "Latea, the Ring of Chaos": [],
+            "Vest of Cyclone": [],
+            "Wings of Fury": []
+        }
+    },
+    {
+        "for": "Bow Master",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "AGI",
+        "version": "60z",
+        "guidelink": [
+            "https://twrpg.com/viewtopic.php?f=4&t=6892"
+        ],
+        "items": {
+            "Everfrostbane": [
+                "Hellflame"
+            ],
+            "Eye of Wallachia": [],
+            "Cold Ring of Death": [],
+            "Vest of Storm": [],
+            "Wings of Slayer": []
+        }
+    },
+    {
+        "for": "Bow Master",
+        "type": "End Game - Agnitus",
+        "order": 4,
+        "stat": "AGI",
+        "version": "60z",
         "description": [
-            "For a more detailed description of this build, please visit the guide linked above"
+            "Current BIS build. Focused heavily around DPS and is really good at it.",
+            "Must follow Ring of Insanity path for ring and Storm Path for wings."
+        ],
+        "guidelink": [
+            "https://twrpg.com/viewtopic.php?f=4&t=6892"
+        ],
+        "items": {
+            "Agnitus, the Bow of Divine Fury": [],
+            "Eye of the Reaper": [],
+            "Crimson Curse": [],
+            "Vest of Divine Winds": [],
+            "Bloodstorm": []
+        }
+    },
+    {
+        "for": "Bow Master",
+        "type": "End Game - Soulbane",
+        "order": 5,
+        "stat": "AGI",
+        "version": "60z",
+        "description": [
+            "Good for short and fast fights, good for burst but mediocre for dps"
+        ],
+        "guidelink": [
+            "https://twrpg.com/viewtopic.php?f=4&t=6892"
         ],
         "items": {
             "Soulbane": [],
-            "Eye of the Reaper": [
-                "Mask of Demigod"
+            "Eye of the Reaper": [],
+            "Ring of Frozen Soul": [
+                "Ring of the One"
             ],
-            "Ring of Frozen Soul": [],
             "Vest of Divine Winds": [],
             "Wings of Night Lord": []
         }
     },
     {
         "for": "Bow Master",
-        "type": "DPS",
-        "order": 2,
+        "type": "End Game - Eternal Flame",
+        "order": 6,
         "stat": "AGI",
-        "version": "55c",
+        "version": "60z",
+        "description": [
+            "In longer fights like Gaia, Duke or very slow Agareth Runs it is better than Build 2 and should be preferred over Build 2"
+        ],
         "guidelink": [
             "https://twrpg.com/viewtopic.php?f=4&t=6892"
         ],
-        "description": [
-            "For a more detailed description of this build, please visit the guide linked above"
-        ],
         "items": {
-            "Agnitus, the Bow of Divine Fury": [],
+            "Eternal Flame": [],
             "Eye of the Reaper": [],
-            "Ring of Insanity": [],
+            "Ring of Frozen Soul": [
+                "Ring of the One"
+            ],
             "Vest of Divine Winds": [],
-            "Bloodstorm": []
+            "Wings of Night Lord": []
         }
     },
     {

@@ -6952,13 +6952,13 @@
     "name": "Coin of Effort",
     "koreanname": "노력의 재화",
     "notes": [
-      "Coin of Effort is used to craft several items:",
+      "Coin of Effort is used to exchange several items:",
       "Wings of Death Mount: Coin of Effort x8",
       "Mana Ancient Mount: Coin of Effort x6",
       "Shadow Dragon Mount: Coin of Effort x12",
       "Costume of Effort: Coin of Effort x8",
       "In addtion to being dropped by bosses, it can also be exchanged for 5 Prius Gold Coin",
-      "See Collector NPC to exchange"
+      "See Collector NPC to exchange (all item recipes that include Coin of Effort will be here too)"
     ],
     "dropped_by": [
       "Death Fiend",
@@ -6975,8 +6975,7 @@
       "Valtora Icon",
       "Ifrit Icon",
       "Nereid Icon",
-      "Agareth Icon",
-      "Legend Icon"
+      "Agareth Icon"
     ],
     "rank": "none",
     "grade": 0,
