@@ -1,27 +1,37 @@
 [
     {
         "for": "Berserker",
-        "type": "Full DPS",
+        "type": "Early Endgame",
         "order": 1,
         "stat": "STR",
-        "version": "52b",
-        "description": [
-            "Use Frostshard for tanking purposes",
-            "Use Halo until Crown of Absolute Zero (even if you have crown of composure)"
-        ],
+        "version": "60z",
         "items": {
-            "Chaos": [
-                "Blazing Heart"
-            ],
-            "Crown of Absolute Zero": [],
+            "Chaos": [],
+            "Radiance of the One": [],
             "Ring of Insanity": [
                 "Ring of Fate"
             ],
-            "Felspike Armor": [
-                "Frostshard Armor",
-                "Bloodseeker Plates"
+            "VoidShard Armor": [
+                "Bloodseeker Plates",
+                "Felspike Armor"
             ],
             "Cape of Deep Abyss": []
+        }
+    },
+    {
+        "for": "Berserker",
+        "type": "Endgame",
+        "order": 2,
+        "stat": "STR",
+        "version": "60z",
+        "items": {
+            "Heartrender": [],
+            "Visage of Vengeance": [],
+            "Crimson Curse": [],
+            "Titan's Plates": [
+                "Plates of Sanguine Fury"
+            ],
+            "Wings of Sacred Provenance": []
         }
     },
     {
@@ -274,7 +284,6 @@
         "guidelink": [
             "https://www.twrpg.com/viewtopic.php?f=4&t=6999&p=34467#p34467"
         ],
-        "description": [],
         "items": {
             "Astra, the Sword of Moonlight": [
                 "Splitting of the Sky and Earth"
@@ -1278,26 +1287,184 @@
     },
     {
         "for": "Alchemist",
-        "type": "DPS with support",
+        "type": "Early Game",
         "order": 1,
         "stat": "INT",
         "version": "60v",
-        "guidelink": [
-            "https://www.twrpg.com/viewtopic.php?f=4&t=6452"
-        ],
         "description": [
-            "Curse of Greed is better if you can stack and survive with it",
-            "Soul Devourer when lack of support",
-            "Get ZL/GM Icon & Crimson Hatred for optimal performance"
+            "Just equip anything you found the best and start gathering whatever is necessary for future crafts, part of it is below."
         ],
         "items": {
-            "Heartender": [],
-            "Prophetia, the Origin of Knowledge": [],
+            "Pumpkin Rod": [
+                "Benziena, the Rod of Earth",
+                "Staff of Void"
+            ],
+            "Prophetia, the Source of Mana": [],
+            "Ring of the Sage": [
+                "Ring of the Dead"
+            ],
+            "Frozen Robe": [],
+            "Fairy Wings": [
+                "Wings of Purification"
+            ]
+        }
+    },
+    {
+        "for": "Alchemist",
+        "type": "Coin Gear",
+        "order": 2,
+        "stat": "INT",
+        "version": "60v",
+        "description": [
+            "Coin Gear",
+            "Optional gears will be used later on but not worth to use them now, gather them first.",
+            "There are two Benziena, one for Staff of Domination and one for the spec. (Rush Earthen Pillar mainly)"
+        ],
+        "items": {
+            "Staff of Contagion": [
+                "Benziena, the Earthen Pillar",
+                "Staff of Madness",
+                "Benziena, the Earthen Soul"
+            ],
+            "Prophetia, the Source of Mana": [
+                "Crown of Fervor",
+                "Horns of Destruction"
+            ],
+            "Ring of the Reaper": [
+                "Ring of Intrusion",
+                "Soul Drinker"
+            ],
+            "Robe of the Reaper": [
+                "Frozen Robe"
+            ],
+            "Fairy Wings": [
+                "Wings of Purification"
+            ]
+        }
+    },
+    {
+        "for": "Alchemist",
+        "type": "Shadow Dragon Gear",
+        "order": 3,
+        "stat": "INT",
+        "version": "60v",
+        "description": [
+            "Optional gears will be used later on but not worth to use them now, gather them first."
+        ],
+        "items": {
+            "Staff of Domination": [
+                "Benziena, the Earthen Heart"
+            ],
+            "Prophetia, the Greater Source of Mana": [
+                "Crown of Composure",
+                "Crown of Rage"
+            ],
+            "Cold Ring of Death": [
+                "Ring of Time"
+            ],
+            "Medea, the Robe of the Witch": [
+                "Draconic Skin Rusalka"
+            ],
+            "Frost Fairy Wings": [
+                "Soul Eater"
+            ]
+        }
+    },
+    {
+        "for": "Alchemist",
+        "type": "Tower Gear",
+        "order": 4,
+        "stat": "INT",
+        "version": "60v",
+        "description": [
+            "If you have Zombie Lord or Grandmaster Icon, you can skip Staff of Plague. Eventually, you can keep using Staff of Domination until you get the required icons.",
+            "Robe of Storm is only to prepare for its upgrade, keep using Medea. Do not use Ring of Time as an active ring, it will only be used for Ring of Divine Winds although you can skip it if you will go only for Ring of Frozen Soul",
+            "Although I like Crown of Great Rage and its other upgrades, you can keep using Prophetia if you'd like.",
+            "You do not have many upgrades until Agareth, persevere through my friend."
+        ],
+        "items": {
+            "Staff of Plague": [
+                "The Ender",
+                "Staff of Domination",
+                "Harmonia, the Sparkle of Life"
+            ],
+            "Crown of Great Rage": [
+                "Prophetia, the Greater Source of Mana",
+                "Crown of Composure"
+            ],
+            "Cold Ring of Death": [
+                "Ring of Time"
+            ],
+            "Medea, the Robe of the Witch": [
+                "Robe of Storm"
+            ],
+            "Frost Fairy Wings": [
+                "Soul Eater"
+            ]
+        }
+    },
+    {
+        "for": "Alchemist",
+        "type": "Agareth Gear",
+        "order": 5,
+        "stat": "INT",
+        "version": "60v",
+        "description": [
+            "Just don't die - Maki",
+            "Why would you use defensive gear in endgame, get supports.",
+            "Weapon - Ethenos only with Ring of Divine Winds and Zombie Lord/Grandmaster Icon but it can be skipped as you'll get your core weapon (Heartrender) at Duke tier and The Ender isn't so bad if you have icons.",
+            "Armor - Either craft Thanatos or decide to skip it for Sanguis at Duke tier if you can manage to get boosted by your team or pubs.",
+            "Ring - Read above, I believe that Ring of Divine Winds is a bit better at this tier until you get Heartrender and Ring of Desolate Soul with Zombie Lord/Grandmaster Icon",
+            "Helm - Preference, but Prophetia is likely better right here, Crown of Absolute Zero for CC immunity, Crown of Extreme Anger will be used for Attack speed buff with item swap (not mandatory craft)",
+            "Wings - Curse of Greed if you have good supports and can afford the extra damage taken. Soul Devourer otherwise which will give you a cleanse, defensive stats etc. I do not like Wings of Frost Lord anymore."
+        ],
+        "items": {
+            "Ethenos, the Staff of Chaos": [
+                "The Ender",
+                "Staff of Plague",
+                "Harmonia, the Sparkle of Life"
+            ],
+            "Prophetia, the Origin of Knowledge": [
+                "Crown of Absolute Zero",
+                "Crown of Extreme Anger"
+            ],
+            "Ring of Divine Winds": [
+                "Ring of Frozen Soul"
+            ],
+            "Thanatos, the Robe of Hell": [
+                "Robe of Storm"
+            ],
+            "Curse of Greed": [
+                "Soul Devourer"
+            ]
+        }
+    },
+    {
+        "for": "Alchemist",
+        "type": "Arcana Gear",
+        "order": 6,
+        "stat": "INT",
+        "version": "60v",
+        "guidelink": [
+            "https://i.imgflip.com/5sgfje.jpg"
+        ],
+        "description": [
+            "Why are you even reading this?",
+            "Go Farm Duke and Gaia",
+            "Fire Wing are ass",
+            "Learn Fire Affinity item swap on your own if you wanna do it"
+        ],
+        "items": {
+            "Heartrender": [],
+            "Prophetia, the Origin of Knowledge": [
+                "Crown of Absolute Zero",
+                "Crown of Extreme Anger"
+            ],
             "Ring of Desolate Soul": [],
             "Sanguis, the Robe of Sacrifice": [],
-            "Wings of Frost Lord": [
-                "Curse of Greed",
-                "Soul Devourer"
+            "Curse of Greed": [
+                "Soul Devourer",
+                "Wings of Sacred Provenance"
             ]
         }
     },
@@ -1588,6 +1755,7 @@
             "If both are taken you can go Harmonia, Sparkle of Life.",
             "Having 2 Heirloom wont be a problem if you have more than 2 dps players but you can go Ring of Despair if no one using Cape of Deep Abyss.",
             "You can use Hood of Apocalypse if no one using Eye of Flame Lord ( always priority Eye of Flame Lord )",
+            "Only use Heart of Life when you are wearing Guardian Angel.",
             "If you still have question, my discord is Darsinki#0004 always open to help."
         ],
         "items": {
@@ -1600,7 +1768,8 @@
                 "Eye of the Flame Lord"
             ],
             "Heirloom of Lazarus": [
-                "Ring of Despair"
+                "Ring of Despair",
+                "Heart of Life"
             ],
             "Cage of Twisted Souls": [
                 "Jupiter, the Robe of Heavens"
