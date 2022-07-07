@@ -8701,7 +8701,8 @@
     "stats": {
       "agi": 30,
       "passive": [
-        "5% Chance to activate Elemental Fury on attack and skill cast",
+        "~5% Chance to activate Elemental Fury on attack and skill cast",
+        "Requires 1 second cooldown interval for checking the proc",
         "Increases main stat by 2% for 30 seconds"
       ]
     }
@@ -8863,7 +8864,8 @@
     "stats": {
       "str": 30,
       "passive": [
-        "5% Chance to activate Elemental Fury on attack and skill cast",
+        "~5% Chance to activate Elemental Fury on attack and skill cast",
+        "Requires 1 second cooldown interval for checking the proc",
         "Increases main stat by 2% for 30 seconds"
       ]
     }
@@ -9030,7 +9032,8 @@
     "stats": {
       "int": 30,
       "passive": [
-        "5% Chance to activate Elemental Fury on attack and skill cast",
+        "~5% Chance to activate Elemental Fury on attack and skill cast",
+        "Requires 1 second cooldown interval for checking the proc",
         "Increases main stat by 2% for 30 seconds"
       ]
     }
@@ -24545,7 +24548,8 @@
       "mpregen": 10,
       "passive": [
         "Deltirama ~ Alteia personal loot drop rate increased by 50%",
-        "5% Chance to activate Elemental Fury on attack and skill cast",
+        "~5% Chance to activate Elemental Fury on attack and skill cast",
+        "Requires 1 second cooldown interval for checking the proc",
         "Increases main stat by 2% for 30 seconds"
       ]
     }
