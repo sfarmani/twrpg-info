@@ -1,5 +1,111 @@
 [
     {
+        "name": "61a",
+        "notes": [
+            "Released on: July 10th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Berserker - Fixed issue with E being in weird icon after F",
+            "Water Mage - Fixed issue with F not working correctly when applied by multiple WM at same time",
+            "Merchant - Fixed issue with T not granting immunity",
+            "Seal of Corruption - Fixed bug where the item stacks out of combat"
+        ],
+        "events": [
+            "Lucky Beachball event is enabled from this version",
+            "Minigame event is still being prepared, and should be available soon",
+            "Event details will be posted once Ticket event is added to upcoming version",
+            "Please note that minor bosses (= bosses dropping Deltirama grade gear) no longer drops or triggers any event related things"
+        ],
+        "items": [
+            {
+                "name": "Jupiter, the Robe of Heavens",
+                "changes": [
+                    "Toned down VFX"
+                ]
+            },
+            {
+                "name": "Seal of Corruption",
+                "changes": [
+                    "Darkness affinity 4% added"
+                ]
+            },
+            {
+                "name": "Wings of Sacred Provenance",
+                "changes": [
+                    "When reaching full stacks, a message will be displayed like Felspike Amror"
+                ]
+            },
+            {
+                "name": "Nightmare Rod / Cursed Mask / Orb of Deep Sea",
+                "changes": [
+                    "drop cooldown: 10 minutes → 4 minutes"
+                ]
+            },
+            {
+                "name": "Magical Gravestone",
+                "changes": [
+                    "A new item has been added that can be purchased for 50000 gold at Mage Tower",
+                    "When enabled, the gravestone that appears on death will be more flashy"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Frostspider Lord",
+                "changes": [
+                    "No longer damages heroes out of combat"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Swing (A)",
+                    [
+                        "AAA will reset cooldown of next A"
+                    ]
+                ]
+            },
+            {
+                "name": "Knight",
+                "changes": [
+                    "Grand Sword (Q)",
+                    [
+                        "Damage AD X 0.65 + Consumed MP X 0.65 -> AD X 0.7 + Consumed MP X 0.7"
+                    ],
+                    "Mana Blaster (R) - Mana Blast (R)",
+                    [
+                        "Damage Max MP X 0.6 -> Max MP X 0.7, cast time removed"
+                    ]
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Sword of Illusion (R)",
+                    [
+                        "Now refills out of combat"
+                    ]
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Heart Break (R)",
+                    [
+                        "Now refills out of combat"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "-refresh command can now be abbreviated to -rf",
+	        "Collectibles in storage will also be used automatically when saving"
+        ]
+    },
+    {
         "name": "60z",
         "notes": [
             "Released on: June 4th, 2022",

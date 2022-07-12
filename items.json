@@ -1540,6 +1540,10 @@
     "grade": 0,
     "type": "Misc",
     "color": "D8C1BA",
+    "notes": [
+      "Droprate increases every 5 minutes that it does not drop",
+      "Drop cooldown: 4 minutes"
+    ],
     "stats": {
       "active": [
         "Summons a field boss"
@@ -2106,7 +2110,8 @@
     "type": "Misc",
     "color": "D8C1BA",
     "notes": [
-      "Droprate increases every 5 minutes that it does not drop"
+      "Droprate increases every 5 minutes that it does not drop",
+      "Drop cooldown: 4 minutes"
     ],
     "stats": {
       "active": [
@@ -2496,7 +2501,8 @@
     "type": "Misc",
     "color": "D8C1BA",
     "notes": [
-      "Droprate increases each 5 minutes that it does not drop, 100% from Tentacle Lord"
+      "Droprate increases each 5 minutes that it does not drop, 100% from Tentacle Lord",
+      "Drop cooldown: 4 minutes"
     ],
     "stats": {
       "active": [
@@ -23365,6 +23371,7 @@
       "int": 430,
       "skilldamagepercent": 0.12,
       "periodicdamagepercent": 0.15,
+      "affinitydarkpercent": 0.04,
       "passive": [
         "During combat, activates Corruption",
         "Increases STR and INT by 4 for each stack",

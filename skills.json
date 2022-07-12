@@ -1698,7 +1698,7 @@
         ],
         "active": [
             "Directs all swords toward a single target.",
-            "Each sword deals AGI X 3 magic damage",
+            "Each sword deals AGI X 2.5 magic damage",
             "Consecutive swords deal 100% bonus damage"
         ]
     },
@@ -3710,7 +3710,7 @@
         "order": 2,
         "active": [
             "Performs a mighty slash with mana-infused sword.",
-            "Attack Damage X 0.65 + Consumed MP X 0.65 magic damage",
+            "Attack Damage X 0.7 + Max MP X 0.7 magic damage",
             "Reactivates with halved effectiveness on attack for 4 seconds"
         ]
     },
@@ -3802,7 +3802,7 @@
         "order": 7,
         "active": [
             "Fires all mana orbs.",
-            "Each orb deals MP X 0.6 magic damage",
+            "Each orb deals MP X 0.7 magic damage",
             "Reduces movement speed by 50% for 3 seconds",
             "Release Mana ON: Stuns for 1 second"
         ]
@@ -5238,7 +5238,7 @@
             "Swings your arm forward.",
             "Attack Damage X 50% physical damage",
             "Ignores 50% of target's armor",
-            "3rd hit deals 200% damage",
+            "3rd hit deals 200% damage and resets cooldown of A",
             "Empowered: Restores 1 energy"
         ]
     },
