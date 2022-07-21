@@ -1,5 +1,152 @@
 [
     {
+        "name": "61d",
+        "notes": [
+            "Released on: July 20th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            	"Fixed issue with Wind Mage R / Priest F not showing properly",
+	            "Fixed teleport glitch with Brave Crab token"
+        ],
+        "events": [
+            	"Fixed issue with DF beachball/ticket not dropping",
+                "Scent of Summer (one of the event rewards) made more visible",
+                "Summer's Gift",
+                [
+                    "Internal drop chances reduced by 25%",
+                    "Shining Seashell drop rate multiplier beyond 10 changed from 30~10% → 40~15%"
+                ],
+                "Lucky Beachball",
+                [
+                    "Movement speed buffs no longer affect Lucky Seal"
+                ],
+                "Summer Event Ticket",
+                [
+                    "Drop rate from Gnosis level boss (SK~SD) 17.5% → 20%",
+                    "Crab Party / SeaSea Cave distribution 75%/25% → 66%/33%"
+                ],
+                "Crab Party",
+                [
+                    "Monster Lobster HP 30 → 20, can now be damaged while stunned/paused",
+                    "Helicopter - Throw net cooldown 0.75s → 0.5s, can now be cast without interrupting orders"
+                ],
+                "Sea Cave",
+                [
+                    "Elite mobs' damage reduced slightly",
+                    "Tornado speed/effect radius/spawn speed reduced",
+                    "Bomb lobster damage to boss 200 → 250"
+                ]
+        ],
+        "monsters": [
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Big wave no longer hits Trickster clone / Meeko"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "61c",
+        "notes": [
+            "Released on: July 20th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Major bug preventing skill usage on some characters with skins fixed"
+        ]
+    },
+    {
+        "name": "61b",
+        "notes": [
+            "Released on: July 20th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            	"Mad Clown - Fixed issue with boss not resetting MP if non-hero units remain present in wheel",
+                "Archangel Samael - Non-hero units such as Beachball Seal or Shooter Probes can no longer use the return portal spawned from Samael kill ",
+                "Agareth - Fixed bug where boss could spawn unusual amount of gates",
+                "Crusader - Fixed issue with Q debuff only working for 1 Crusader if there's multiple Crusaders"
+        ],
+        "events": [
+            "Beachball chance 15% → 15% ~ 20% depending on difficulty of boss",
+            "Death Fiend now properly spawns Lucky Beachball",
+            "Costume / Coin of Effort Exchange buttons added to Weird Mage",
+            "Minigame event is now available"
+        ],
+        "items": [
+            {
+                "name": "Athanasia, the Armor of the Reaper",
+                "changes": [
+                    "Passive",
+                    [
+                        "Reaper FX size reduced"
+                    ]
+                ]
+            },
+            {
+                "name": "Heart of Life",
+                "changes": [
+                    "Passive",
+                    [
+                        "Sound FX removed"
+                    ]
+                ]
+            },
+            {
+                "name": "Wings of Sacred Provenance",
+                "changes": [
+                    "Passive",
+                    [
+                        "Rolled back to proc on non-boss units"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Mad Clown",
+                "changes": [
+                    "Wheel no longer teleports players on activation"
+                ]
+            },
+            {
+                "name": "Shadow Dragon Irbert",
+                "changes": [
+                    "Seed of Darkness",
+                    [
+                        "No longer affects Trickster Clone / Meeko"
+                    ]
+                ]
+            },
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Soul Burst",
+                    [
+                        "Line width: 250 → 200"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Witch",
+                "changes": [
+                    "Hell Gate (T) - Unleash (E)",
+                    [
+                        "Summon will be immune to debuff after casting Unleash"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Fixed some skill FX being affected by UI",
+            "HP Bar size on bags have been consolidated"
+        ]
+    },
+    {
         "name": "61a",
         "notes": [
             "Released on: July 10th, 2022",
@@ -73,11 +220,11 @@
                 "changes": [
                     "Grand Sword (Q)",
                     [
-                        "Damage AD X 0.65 + Consumed MP X 0.65 -> AD X 0.7 + Consumed MP X 0.7"
+                        "Damage AD X 0.65 + Consumed MP X 0.65 → AD X 0.7 + Consumed MP X 0.7"
                     ],
                     "Mana Blaster (R) - Mana Blast (R)",
                     [
-                        "Damage Max MP X 0.6 -> Max MP X 0.7, cast time removed"
+                        "Damage Max MP X 0.6 → Max MP X 0.7, cast time removed"
                     ]
                 ]
             },
