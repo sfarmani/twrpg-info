@@ -3445,7 +3445,7 @@
         "cooldown": 6,
         "order": 2,
         "active": [
-            "Slash nearby targets, knocking them back.",
+            "Slashes nearby enemies.",
             "Consumes HP X 10%",
             "Attack Damage X 200% pure damage"
         ]
