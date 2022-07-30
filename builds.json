@@ -1659,23 +1659,33 @@
     },
     {
         "for": "Fire Mage",
-        "type": "Full DPS",
+        "type": "Burst",
         "order": 1,
         "stat": "INT",
-        "version": "38b",
+        "version": "61e",
+        "items": {
+            "Crimson Hatred": [],
+            "Crown of Extreme Anger": [],
+            "Star of Apotheosis": [],
+            "Thanatos, the Robe of Hell": [],
+            "Wing of Cosmos": []
+        }
+    },
+    {
+        "for": "Fire Mage",
+        "type": "Balance",
+        "order": 2,
+        "stat": "INT",
+        "version": "61e",
         "description": [
-            "Use Soul Devourer for a hybrid of sustain and DPS"
+            "Less burst - more dps, good for long fights"
         ],
         "items": {
             "Crimson Hatred": [],
             "Crown of Extreme Anger": [],
-            "Ring of Fate": [],
-            "Thanatos, the Robe of Hell": [
-                "Winter Robe"
-            ],
-            "Archangel Wings": [
-                "Soul Devourer"
-            ]
+            "Seal of Corruption": [],
+            "Sanguis, the Robe of Sacrifice": [],
+            "Wings of Sacred Provenance": []
         }
     },
     {
@@ -2038,25 +2048,29 @@
         "type": "Support",
         "order": 1,
         "stat": "INT",
-        "version": "51b",
+        "version": "61e",
         "description": [
-            "Swap between Ring of Hope and Bell of Light for different situations",
-            "Use Grim Heart until Protection of the Fairies, then make Wings of Immortal",
-            "Protection of the Fairies will help farming the tower/aga"
+            "Try to get Eye of the Flame Lord before crown or if it is taken by hermit already",
+            "Use Heart of Life if Hope is taken",
+            "All other rings listed is usable if both heart and hope is taken",
+            "Use Immortal wings if guardian is taken",
+            "Use Protection of the fairies for pre-agareth and swap wings"
         ],
         "items": {
             "Chaos Dagger": [],
-            "Crown of Serenity": [
-                "Hood of Apocalypse"
+            "Crown of Cleansing": [
+                "Eye of the Flame"
             ],
             "Ring of Hope": [
-                "Ring of Fate",
+                "Heart of Life",
+                "Heirloom of Lazarus",
+                "Ring of Eternity",
                 "Ring of Divine Winds"
             ],
             "Jupiter, the Robe of Heavens": [],
-            "Wings of Immortal": [
-                "Protection of the Fairies",
-                "Grim Heart"
+            "Guardian Angel": [
+                "Wings of Immortal",
+                "Protection of the Fairies"
             ]
         }
     },
