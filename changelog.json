@@ -1,5 +1,349 @@
 [
     {
+        "name": "61m",
+        "notes": [
+            "Released on: August 7th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Fixed a critical bug"
+        ]
+    },
+    {
+        "name": "61k",
+        "notes": [
+            "Released on: August 7th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Ancient Ent - Fixed issue with some item interactions with Elder Ent causing game to break"
+        ],
+        "events": [
+            "Summer event has ended"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "New recipes added",
+                    [
+                        "Akhelius, the Staff of Duality",
+                        "Spirit Flame",
+                        "crown of Cataclysm",
+                        "Crown of Transcendence"
+                    ]
+                ]
+            },
+            {
+                "name": "Heaven's Door",
+                "changes": [
+                    "Cooldown: 30 seconds → 5 seconds",
+                    "No longer expires, but can only be applied up to 2 targets at once"
+                ]
+            },
+            {
+                "name": "Cape of Insatiable Hunger",
+                "changes": [
+                    "Active",
+                    [
+                        "Using active will refresh duration of the existing stacks"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Blast damage: max HP X 50% → 60%",
+                    "Empowered blast bonus damage: max HP X 75% → 60%",
+                    "While empowered (after it reaches 100 MP), Gaia will cause players on field to lose 3.33% of their max HP per second",
+                    "This effect cannot directly kill players (will not drop HP below 1)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Skull Pounder (Q)",
+                    [
+                        "Damage: ATK DMG X 0.75 + STR X 3.75 → ATK DMG X 0.75 + STR X 5",
+                        "SHATTERED chance 40% ~ 100% → 50% ~ 100%"
+                    ],
+                    "Footwork (W)",
+                    [
+                        "Chance to apply CRACKED at max E stacks 40% → 100%",
+                        "This effect can only occur if CRACKED hasn't been procced in the last 15 seconds"
+                    ],
+                    "Dragon Fist (T)",
+                    [
+                        "Max damage: 250% → 230%"
+                    ]
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Backswing reduced when casting without R buff"
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Conjure Earth (R)",
+                    [
+                        "Magic defense bonus: 20% → 15%"
+                    ],
+                    "Gate of Truth (F)",
+                    [
+                        "Max INT bonus: 60% → 50%",
+                        "Damage reduction bonus: 40% → 30%",
+                        "CC immunity removed",
+                        "No longer drains HP or increases HP drained per second while Alchemist is stunned, silenced, or paused",
+                        "Cooldown: 120 seconds → 80 seconds"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "61h",
+        "notes": [
+            "Released on: August 1st, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Desolation - Fixed active cooldown being 60s instead of 45s",
+            "Cage of Twisted Souls - Fixed bug with active not applying damage taken increase bonus",
+            "Fixed issue with Sword Enchanter weird costume not showing"
+        ],
+        "items": [
+            {
+                "name": "Bomb Bag series",
+                "changes": [
+                    "Merchant T - Cursed doll triples the damage accumulated from Merchant"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Mad Clown",
+                "changes": [
+                    "Respawn time / mat and icon drop rate changes rolled back from last version"
+                ]
+            },
+            {
+                "name": "Field bosses (other than Mad Clown)",
+                "changes": [
+                    "Respawn time: 120 seconds → 90 seconds",
+                    "Icon drop rate: 0.75% → 0.6%"
+                ]
+            },
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Plant changes rolled back",
+                    "Spirit Orb",
+                    [
+                        "Damage: 6000 → 2000 + Target's max HP X 30%"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "HP bar size increased back on some summons"
+        ]
+    },
+    {
+        "name": "61g",
+        "notes": [
+            "Released on: June 31st, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Ring of Eternity - incorrectly written as Ring of Fate on this patch note"
+        ]
+    },
+    {
+        "name": "61f",
+        "notes": [
+            "Released on: June 31st, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Trickster - Fixed issue with item cooldowns resetting on unsummon",
+	        "Mage (Wind) - Fixed issue with crit chance not working properly on Q attack mode"
+        ],
+        "events": [
+            "Event is ending in a week. Make sure to post all your replays before then"
+        ],
+        "items": [
+            {
+                "name": "Magical Gravestone",
+                "changes": [
+                    "Before: changes your grave model",
+                    "After: changes how all graves appear to you only"
+                ]
+            },
+            {
+                "name": "Bomb Bag series",
+                "changes": [
+                    "Dangerous Explosive / Cursed Doll",
+                    [
+                        "Damage accumulated now considers the original damage taken without any modifications"
+                    ]
+                ]
+            },
+            {
+                "name": "Ring of Fate",
+                "changes": [
+                    "Active now usable at 0 stacks",
+                    "stacks now go from 70 → 0 instead of 0 → 70"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "At 6 players or above, field boss / minor boss max respawn count will be increased to 15"
+                ]
+            },
+            {
+                "name": "Ragnaar / Mana Ancient / Giant Golem / Tentacle Lord / Mad Clown",
+                "changes": [
+                    "Rare item drop rates increased by approx. 50%",
+                    "Icon drop rate increased from by 300 ~ 500% (0.15% ~ 0.25% → 0.75%)",
+                    "No longer respawns automatically",
+                    [
+                        "Can now be resummoned 5 times via Memory Stone, but takes 120s to respawn unlike raid respawns"
+                    ]
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "P2",
+                    [
+                        "Magic defense / reduction increased from 15% / 40% → 15% / 42.5%",
+                        "Tendrils will no longer pull invulnerable units"
+                    ]
+                ]
+            },
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Damage reduction: 33% → 36%",
+                    "Life Energy bar repositioned to be easier to see (less overlap with HP Bar)",
+                    "Few skills have been sped up a bit, such as transition into final phase / Life Sap / Spirit Call",
+                    "Spirit Orb",
+                    [
+                        "Collision damage: 4000 → 6000"
+                    ],
+                    "Plants",
+                    [
+                        "Spawn intervals 20 seconds → 25 seconds",
+                        "No longer clears during empowered but they will only do damage and not give / drain Life Energy during Empowered Phase"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Genesis (F)",
+                    [
+                        "Pulse damage: STR X 40 → ATK DMG X 2.5 + STR X 30"
+                    ]
+                ]
+            },
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "Guardian Scout (E)",
+                    [
+                        "Aura range: 900 → 1000"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Orb of Harmony (R)",
+                    [
+                        "Skill damage increase (10 + MAIN STAT / 325)% → (10 + MAIN STAT / 400)%"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Holy Aurora (E)",
+                    [
+                        "Skill damage increase (7 + INT / 450)% → (7 + INT / 500)%"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Blessing of Zephyrus (Q)",
+                    [
+                        "Icon changed for attack / heal mode"
+                    ],
+                    "Light Breeze (R)",
+                    [
+                        "Skill damage increase (4 + INT / 750)% → (5 + INT / 600)%",
+                        "Cast time reduced"
+                    ],
+                    "Guardian of Wind (F)",
+                    [
+                        "Cast time reduced"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Conjure Water (W)",
+                    [
+                        "Regenerates 20% HP / MP over 6 seconds → 15% HP over 6 seconds"
+                    ],
+                    "Conjure Water (W) → Healing Rain (R)",
+                    [
+                        "Heal per second: INT X 0.75 → INT X 0.07",
+                        "While active, F will no longer drain your HP"
+                    ],
+                    "Gate of Truth (F)",
+                    [
+                        "Max stacks: 32 → 30",
+                        "HP drained will start off from 5% per second again once Healing Rain wears off"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "HP bar sizes on heroes / summons consolidated",
+            "Lag reduced on some skills",
+            "Training room reset now resets Trickster clone as well",
+            "Craft message will now display to all players even in replay mode",
+            "Added a stat exchange NPC by Prius portal"
+        ]
+    },
+    {
+        "name": "61e",
+        "notes": [
+            "Released on: June, 22nd, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Fixed issue with Sea Lord not giving rewards sometimes",
+            "Fixed issue with Zombie Lord not giving kitty token on 9th revive"
+        ]
+    },
+    {
         "name": "61d",
         "notes": [
             "Released on: July 20th, 2022",

@@ -366,7 +366,7 @@
         "order": 7,
         "passive": [
             "Affinity with water grants regenerative properties.",
-            "Water-related transmutation restores 20% of max HP and max MP over 6 seconds"
+            "Water-based alchemy regenerates 15% HP over 6 seconds"
         ],
         "active": [
             "Create a transmutation circle of water to cast skills.",
@@ -434,8 +434,9 @@
         "order": 12,
         "active": [
             "Transmutate a cloud that brings down rain to nearby area.",
-            "INT X .75 bonus heal",
-            "Chainable: Eye of the Storm"
+            "Heals for INT X 0.07 per second",
+            "Nullifies HP lost from Gate of Truth while active",
+            "Chain: Eye of the Storm"
         ]
     },
     {
@@ -532,7 +533,7 @@
         "order": 18,
         "passive": [
             "Affinity with earth enhances your stamina.",
-            "Earth transmutation increases magic defense by 20% for 6 seconds"
+            "Earth transmutation increases magic defense by 15% for 6 seconds"
         ],
         "active": [
             "Create a transmutation circle of earth to cast skills.",
@@ -703,8 +704,8 @@
         "active": [
             "\"I don't know what is the 'truth' of this world. However, as I look at his efforts and sacrifices in attempts to reach it, I believe something truly fascinating is awaiting him at the end of his road.\" - A Scholar of Prius",
             "Consumes Max HP X (5 + 0.50 X elapsed seconds)% per second",
-            "Increases INT by 2% on every second and on every skill cast (up to 32 times)",
-            "Reduces damage taken by 40% and grants immunity to silence effects",
+            "Increases INT by 2% on every second and on every skill cast (up to 50%)",
+            "Reduces damage taken by 30%",
             "On expiration, deals INT X 60 damage to nearby enemies and stuns for 2.5 seconds"
         ]
     },
@@ -2971,7 +2972,7 @@
         "order": 3,
         "passive": [
             "Fierce spirits that chase the master's enemies.",
-            "Summons a spirit with 30% chance on attack(critical strikes guarantee a spirit), and with every 300 distance traveled",
+            "Summons a spirit with 30% chance on attack (critical strikes guarantee a spirit), and with every 300 distance traveled",
             "When 3 spirits are summoned, your next attack deals attack damage X 0.25 + INT X 2 magic damage"
         ],
         "toggle": [
@@ -3029,7 +3030,7 @@
             "Call down a light breeze on target area.",
             "Creates a field that lasts for 40 seconds",
             "Heals allies for 25 + INT X 0.25 per second",
-            "Increase target's HP by 10%, skill damage by (4 + INT / 750)% for 5 seconds"
+            "Increase target's HP by 10%, skill damage by (5 + INT / 600)% for 5 seconds"
         ]
     },
     {
@@ -3273,7 +3274,8 @@
         "active": [
             "Plants a very dangerous explosive.",
             "Plants an explosive that can be damaged",
-            "After 12 seconds, explodes dealing STR X 50 + damage taken X 4% pure damage and stunning for 3 seconds"
+            "After 12 seconds, explodes dealing STR X 50 + damage taken X 4% pure damage and stunning for 3 seconds",
+            "Damage accumulated from Merchant is tripled"
         ]
     },
     {
@@ -3288,7 +3290,8 @@
         "active": [
             "Plants a cursed doll.",
             "Plants a doll that can be damaged",
-            "After 15 seconds, explodes dealing STR X 100 + damage taken X 4% pure damage and stunning for 3 seconds"
+            "After 15 seconds, explodes dealing STR X 100 + damage taken X 4% pure damage and stunning for 3 seconds",
+            "Damage accumulated from Merchant is tripled"
         ]
     },
     {
@@ -3599,13 +3602,13 @@
         "cooldown": 12,
         "order": 4,
         "passive": [
-            "Summon a faithful guardian that follows Bow Master around.",
+            "Summons a faithful guardian that follows Bow Master around.",
             "Increases nearby hero's attack damage and main stat by 8%",
             "Supports every attack with Attack Damage X 0.075 + AGI X 0.375 bonus damage",
             "Can critically strike"
         ],
         "active": [
-            "Send out the guardian to support your allies.",
+            "Sends out the guardian to support your allies.",
             "Increases nearby allies' HP regen by (Target's Max HP X 10%)",
             "Lasts up to a maximum of 4 seconds"
         ]
@@ -4353,14 +4356,12 @@
         "order": 4,
         "passive": [
             "The priest's presence alone brings great support to her allies.",
-            "Increases nearby allies' attack damage by 5% and all stats by (Priest's INT X 0.06)",
-            "Effect radius: 900",
-            "Buff linger time: 60 seconds"
+            "Increases nearby allies' attack damage by 5% and all stats by (Priest's INT X 0.06)"
         ],
         "active": [
-            "Consecerate nearby ground to protect allies and bring down judgment on enemies.",
-            "Creates a ring of 325 radius",
+            "Creates a holy ring to protect allies and bring down judgment on enemies",
             "Deals INT X 5 magic damage per second",
+            "Heals for 50 + INT X 0.7 per second",
             "Lasts 7 seconds and increases in radius by 50% over duration",
             "Chain - Release Light"
         ]
@@ -4734,7 +4735,7 @@
         "order": 11,
         "active": [
             "\"Embrace the lights of heaven.\" - Paladin",
-            "Releases a pulse every second to deal STR X 40 magic damage",
+            "Releases a pulse every second to deal AD X 2.5 + STR X 30 magic damage",
             "Calls down rays of light on two allies every 0.25 seconds, healing them for INT X 5",
             "Lasts 4 seconds"
         ]
@@ -4963,7 +4964,7 @@
             "Regenerates resource point by 5% per second",
             "Increases skill damage by 10%",
             "Lasts 5~10 seconds based on duration traveled",
-            "Harmony: Skill damage bonus is further increased by (Main Stat / 325)%"
+            "Harmony: Skill damage bonus is further increased by (Main Stat / 400)%"
         ]
     },
     {
@@ -5253,7 +5254,7 @@
         "order": 3,
         "active": [
             "Strikes down hard with a force strong enough to crack skulls.",
-            "Attack damage X 0.75 + STR X 3.75 magic damage",
+            "Attack damage X 0.75 + STR X 5 magic damage",
             "If target is CRACKED, cooldown is reset",
             "If target is SHATTERED, consumes it to deal 200% damage",
             "Empowered: Deals 300% damage and if target is CRACKED, has chance to leave it SHATTERED for 5 seconds (chance increases based on fail count)"
@@ -5272,7 +5273,7 @@
             "Next attack allows you to dash to target and ignore 100% of its armor",
             "Reduce target's movement speed by 75% for 2 seconds",
             "Does not activate 'on skill cast' effects",
-            "Empowered: Deals 300% damage and has 20% chance to leave target CRACKED for 6 seconds. If Chain Blow has max stacks, you will have double chance to apply CRACKED (this effect has 20 seconds cooldown)"
+            "Empowered: Deals 300% damage and has 20% chance to leave target CRACKED for 6 seconds. If Chain Blow has max stacks, this will be guaranteed (can only occur if CRACKED hasn't been procced in last 15 seconds)"
         ]
     },
     {
@@ -5328,7 +5329,7 @@
         "active": [
             "Gathers energy into your fist to release a powerful strike.",
             "Attack damage X 5 + STR X 30 magic damage",
-            "Empowered: Deals up to 250% damage based on traveled distance"
+            "Empowered: Deals up to 230% damage based on traveled distance"
         ]
     },
     {

@@ -1954,7 +1954,7 @@
     "type": "Wings",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.125,
+    "droprate": 0.20,
     "required_by": [
       "Flame Soul",
       "Cape of Corrupt Flame"
@@ -2067,7 +2067,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.0015,
+    "droprate": 0.006,
     "required_by": [
       "Wings of Death Icon"
     ],
@@ -2322,7 +2322,7 @@
     "type": "Accessory",
     "color": "C39BE1",
     "level": 70,
-    "droprate": 0.05,
+    "droprate": 0.075,
     "required_by": [
       "Tentacle Horn"
     ],
@@ -2435,7 +2435,7 @@
     "grade": 0,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.1,
+    "droprate": 0.15,
     "required_by": [
       "Parasitic Sword",
       "Staff of Tentacles",
@@ -2459,7 +2459,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.0015,
+    "droprate": 0.006,
     "required_by": [
       "Spider Lord Icon"
     ],
@@ -2676,7 +2676,7 @@
     "type": "Accessory",
     "color": "C39BE1",
     "level": 80,
-    "droprate": 0.05,
+    "droprate": 0.075,
     "required_by": [
       "Maw of Monster",
       "Corrupt Crystal Wings",
@@ -2794,7 +2794,7 @@
     "type": "Material",
     "color": "FFFFFF",
     "droprate": [
-      0.05,
+      0.075,
       0.05,
       0.125
     ],
@@ -2821,7 +2821,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.0015,
+    "droprate": 0.006,
     "required_by": [
       "Corrupt Angel Icon"
     ],
@@ -2861,7 +2861,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.001,
-      0.04
+      0.05
     ],
     "required_by": [
       "Tepethia, the Crimson Sword of Requiem",
@@ -2886,7 +2886,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.001,
-      0.04
+      0.05
     ],
     "required_by": [
       "Death Visage",
@@ -2908,7 +2908,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Deathbringer",
       "Benziena, the Earthen Soul",
@@ -2939,7 +2939,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Staff of Madness",
       "Grim Visage",
@@ -2988,7 +2988,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "I08X",
@@ -3003,7 +3003,7 @@
     "type": "Armor",
     "color": "C39BE1",
     "level": 80,
-    "droprate": 0.05,
+    "droprate": 0.075,
     "required_by": [
       "Earthen Plates"
     ],
@@ -3030,7 +3030,7 @@
     "type": "Armor",
     "color": "C39BE1",
     "level": 80,
-    "droprate": 0.05,
+    "droprate": 0.075,
     "required_by": [
       "Guardian Vest"
     ],
@@ -3056,7 +3056,7 @@
     "type": "Armor",
     "color": "C39BE1",
     "level": 80,
-    "droprate": 0.05,
+    "droprate": 0.075,
     "required_by": [
       "Fairy Garment",
       "Fairy Wings"
@@ -3090,7 +3090,7 @@
     "type": "Accessory",
     "color": "C39BE1",
     "level": 80,
-    "droprate": 0.05,
+    "droprate": 0.075,
     "required_by": [
       "Benziena, the Earthen Pillar",
       "Purelight Armor",
@@ -3121,7 +3121,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.0015,
+    "droprate": 0.006,
     "required_by": [
       "Everfrost Icon"
     ],
@@ -8679,7 +8679,8 @@
       "Exitium, the Armor of Ruin",
       "Crimson Curse",
       "Ring of Eternity",
-      "Wings of Sacred Provenance"
+      "Wings of Sacred Provenance",
+      "Spirit Flame"
     ]
   },
   {
@@ -8842,7 +8843,8 @@
       "Ring of the One",
       "Spear of Judgment",
       "Fulminata, the Bringer of Storms",
-      "Bloodstorm"
+      "Bloodstorm",
+      "Akhelius, the Staff of Duality"
     ]
   },
   {
@@ -9010,7 +9012,8 @@
       "Guardian Angel",
       "Abyss Fall",
       "Atricia, the Sword of Nightmares",
-      "Wings of Cosmos"
+      "Wings of Cosmos",
+      "Akhelius, the Staff of Duality"
     ]
   },
   {
@@ -9084,7 +9087,8 @@
       "Cape of Insatiable Hunger",
       "Exitium, the Armor of Ruin",
       "Ring of Eternity",
-      "Wings of Cosmos"
+      "Wings of Cosmos",
+      "Crown of Cataclysm"
     ],
     "stats": {
       "mainstat": 405,
@@ -9172,7 +9176,8 @@
       "Crescendo of Madness",
       "Titan's Plates",
       "Heart of Life",
-      "Horn of Dragon"
+      "Horn of Dragon",
+      "Spirit Flame"
     ]
   },
   {
@@ -9206,7 +9211,8 @@
       "Guardian Angel",
       "Divine Slayer",
       "Seal of Corruption",
-      "Gate of Abyss"
+      "Gate of Abyss",
+      "Crown of Transcendance"
     ]
   },
   {
@@ -9269,7 +9275,9 @@
       "Abyss Fall",
       "Titan's Plates",
       "Crimson Curse",
-      "Seal of Corruption"
+      "Seal of Corruption",
+      "Akhelius, the Staff of Duality",
+      "Crown of Cataclysm"
     ],
     "stats": {
       "mainstat": 420,
@@ -9308,7 +9316,9 @@
       "Atricia, the Sword of Nightmares",
       "Exitium, the Armor of Ruin",
       "Wings of Sacred Provenance",
-      "Gate of Abyss"
+      "Gate of Abyss",
+      "Akhelius, the Staff of Duality",
+      "Spirit Flame"
     ]
   },
   {
@@ -9337,7 +9347,8 @@
       "Atricia, the Sword of Nightmares",
       "Ring of Eternity",
       "Heart of Life",
-      "Wings of Cosmos"
+      "Wings of Cosmos",
+      "Crown of Transcendance"
     ]
   },
   {
@@ -9398,7 +9409,8 @@
     "required_by": [
       "Titan's Plates",
       "Wings of Cosmos",
-      "Wings of Sacred Provenance"
+      "Wings of Sacred Provenance",
+      "Crown of Cataclysm"
     ],
     "stats": {
       "armor": 260,
@@ -9429,7 +9441,9 @@
       "Wings of Cosmos",
       "Wings of Sacred Provenance",
       "Horn of Dragon",
-      "Gate of Abyss"
+      "Gate of Abyss",
+      "Akhelius, the Staff of Duality",
+      "Spirit Flame"
     ]
   },
   {
@@ -9449,7 +9463,8 @@
       "Heart of Life",
       "Frost Herald's Garment",
       "Seal of Corruption",
-      "Horn of Dragon"
+      "Horn of Dragon",
+      "Crown of Transcendance"
     ]
   },
   {
@@ -9469,7 +9484,8 @@
       "Final Omen",
       "Exitium, the Armor of Ruin",
       "Crimson Curse",
-      "Frost Herald's Garment"
+      "Frost Herald's Garment",
+      "Spirit Flame"
     ]
   },
   {
@@ -18223,11 +18239,11 @@
       ],
       "active": [
         "On use, activates Heaven's Door",
-        "Sends an orb of light at target hero. Orb will latch onto target for 60 seconds, granting 12% skill damage.",
+        "Sends an orb of light at 2 target heroes",
+        "Grants 12% skill damage to latched heroes",
         "Every 4 seconds, the target will be healed for 2000 HP.",
         "Every 20 seconds, a random skill will be reset on the target.",
-        "The target will know which skill is being reset next by a letter above their head that shows 3 seconds before the skill resets",
-        "Cooldown: 30 seconds, cannot be dropped during cooldown"
+        "Cooldown: 5 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -19026,6 +19042,9 @@
     "type": "Weapon (Bow)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Spirit Flame"
+    ],
     "recipe": [
       {
         "Hellflame": 1
@@ -19284,6 +19303,9 @@
     "type": "Weapon (Staff)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Akhelius, the Staff of Duality"
+    ],
     "recipe": [
       {
         "Bloody Hatred": 1
@@ -20638,6 +20660,9 @@
     "type": "Headwear",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Crown of Cataclysm"
+    ],
     "recipe": [
       {
         "Crown of Great Rage": 1
@@ -20676,6 +20701,9 @@
     "type": "Headwear",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Crown of Transcendance"
+    ],
     "recipe": [
       {
         "Crown of Composure": 1
@@ -22405,6 +22433,51 @@
     }
   },
   {
+    "id": "I0AW",
+    "name": "Spirit Flame",
+    "koreanname": "스피릿 플레임",
+    "description": "The flame of life burns within me.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Bow)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Eternal Flame": 1
+      },
+      {
+        "Fragment of Hell": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Shining Fragment of Ruins": 2
+      }
+    ],
+    "stats": {
+      "damage": 10700,
+      "str": 345,
+      "agi": 795,
+      "affinityflamepercent": 0.16,
+      "passive": [
+        "On attack, 15% chance to activate Mark of Flame",
+        "Initially deals AGI X 5 magic damage",
+        "Afterwards deals AGI X 2.5 magic damage per second and increases magic damage taken by 2.5% for 10 seconds",
+        "When Heat stacks are above 10, becomes Spirit Flame, dealing 20% additional damage and increasing your damage dealt to target by 2.5% (becomes different color)",
+        "Accumulates Heat while in combat",
+        "Every 4 seconds, increases skill damage and flame affinity by 1% (up to 15 stacks)"
+      ]
+    }
+  },
+  {
     "id": "I0BG",
     "name": "Abyss Fall",
     "koreanname": "어비스 폴",
@@ -22658,6 +22731,55 @@
         "On use, activates Call of Abyss",
         "Increases damage output by 10% and HP regen by (15% max HP) for 10 seconds",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "shea",
+    "name": "Akhelius, the Staff of Duality",
+    "koreanname": "양면의 지팡이 아켈리우스",
+    "description": "The power of fire and water endlessly rotates and repels each other.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Staff)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Crimson Hatred": 1
+      },
+      {
+        "Crimson Rose": 1
+      },
+      {
+        "Essence of Flame": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Essence of Earth": 1
+      }
+    ],
+    "stats": {
+      "damage": 8400,
+      "int": 790,
+      "affinityflamepercent": 0.1,
+      "affinityiwpercent": 0.1,
+      "passive": [
+        "On equip, activates Elemental Amplification",
+        "If fire affinity is higher, increases fire affinity by 10%",
+        "If water affinity is higher, increases water affinity by 10%"
+      ],
+      "active": [
+        "On use, activates Elemental Release",
+        "If fire affinity is higher, increases skill damage by (0.50 X fire affinity)% for 10 sconds",
+        "If water affinity is higher, summons 3 water spirits every (10 - 0.10 X water affinity) seconds that attaches to nearby allies",
+        "Water spirit periodically heal target if target is missing HP, up to INT X 2.5 HP",
+        "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -23153,6 +23275,84 @@
     }
   },
   {
+    "id": "I0DA",
+    "name": "Crown of Cataclysm",
+    "koreanname": "대격변의 화관",
+    "description": "Chaos! Destruction! Oblivion!",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Crown of Extreme Anger": 1
+      },
+      {
+        "Curse of Greed": 1
+      },
+      {
+        "Crimson Rose": 1
+      },
+      {
+        "Gown of Life": 1
+      }
+    ],
+    "stats": {
+      "armor": 145,
+      "allstat": 300,
+      "skilldamagepercent": 0.10,
+      "affinityflamepercent": 0.075,
+      "affinityearthpercent": 0.05,
+      "active": [
+        "On use, activates Cataclysm",
+        "Consumes 50% of current HP",
+        "For 15 seconds, increases all stats by 1.50% consumed HP (double for main stat) and flame affinity by 10% for 15 seconds",
+        "While active, any magic damage you deal will trigger fiery explosion, dealing 10000 magic damage (cd: 0.75s)",
+        "On reuse, sends down an inferno in target area, dealing Main Stat X 40 magic damage, increased by 2.5% for each time the proc occurred. Can only be used once per active.",
+        "Cooldown: 30 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0AX",
+    "name": "Crown of Transcendance",
+    "koreanname": "초월의 화관",
+    "description": "None can control me.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Crown of Absolute Zero": 1
+      },
+      {
+        "Mark of Lord": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      },
+      {
+        "Aegis of Earth": 1
+      }
+    ],
+    "stats": {
+      "armor": 150,
+      "allstat": 315,
+      "skilldamagepercent": 0.15,
+      "affinityiwpercent": 0.1,
+      "active": [
+        "Skill cast has chance to trigger Eclipse",
+        "30% chance to activate (affected by proc coefficient)",
+        "For 6 seconds, increases all stats by 100 and skill damage by 5%",
+        "Active cooldown charges 100% faster while active",
+        "Cooldown: 12 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
     "id": "I00J",
     "name": "Star of Apotheosis",
     "koreanname": "숭배의 별",
@@ -23430,9 +23630,7 @@
       ],
       "active": [
         "On use, activates Time Distortion",
-        "Consumes 70 stacks",
-        "Once you enter combat, you will gain 70 stacks immediately",
-        "You also gain 1 stack per second and with 40% chance on each skill cast",
+        "Reduce stacks by 1 per second on 40% skill cast (cooldown: 70 seconds)",
         "Refreshes the cooldown of the last used non-ultimate skill",
         "Grants 7% skill damage, 1000 HP/MP regen, and CC immunity for 10 seconds"
       ]

@@ -1372,7 +1372,7 @@
         "category": "Creep",
         "type": "Boss",
         "limit": "2",
-        "timer": "240",
+        "timer": "90",
         "location": "In Volcanic Lands",
         "conditions": "Level 60",
         "stats": {
@@ -1578,7 +1578,7 @@
         "category": "Creep",
         "type": "Boss",
         "limit": "5",
-        "timer": "240",
+        "timer": "90",
         "location": "In the Deep Sea",
         "conditions": "Level 70 ~ 90",
         "stats": {
@@ -1718,7 +1718,7 @@
         "category": "Creep",
         "type": "Boss",
         "limit": "2",
-        "timer": "240",
+        "timer": "90",
         "location": "In the Cave",
         "conditions": "Level 80",
         "stats": {
@@ -1950,7 +1950,7 @@
         "category": "Creep",
         "type": "Boss",
         "limit": "2",
-        "timer": "240",
+        "timer": "90",
         "location": "In Fairy Forest",
         "conditions": "Level 90+",
         "stats": {
