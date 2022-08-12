@@ -23087,6 +23087,10 @@
         "While active, you can use item up to 3 times to dash",
         "Each dash deals 150000 magic damage and freezing non-boss units for 3 seconds in line",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Specialty",
+        "Water Mage - Improved Frozen Emotion: Reduces target's damage taken by 12%."
       ]
     }
   },
