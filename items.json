@@ -4927,7 +4927,7 @@
       "int": 215,
       "passive": [
         "On being hit, 10% chance to activate Frost Armor",
-        "Increases armor by 400 for 15 seconds"
+        "Increases armor by 50 for 15 seconds"
       ]
     }
   },
@@ -23351,7 +23351,7 @@
         "Skill cast has chance to trigger Eclipse",
         "30% chance to activate (affected by proc coefficient)",
         "For 6 seconds, increases all stats by 100 and skill damage by 5%",
-        "Active cooldown charges 100% faster while active",
+        "Active cooldown charges 100% faster while active or out of combat",
         "Cooldown: 12 seconds, cannot be dropped during cooldown"
       ]
     }

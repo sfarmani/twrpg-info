@@ -1,5 +1,85 @@
 [
     {
+        "name": "61o",
+        "notes": [
+            "Released on: August 15th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Fixed incorrect resummon count for bosses"
+        ]
+    },
+    {
+        "name": "61n",
+        "notes": [
+            "Released on: August, 15th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Crown of Transcendance - Fixed bug where active effect does not provide CC immunity",
+	        "Gaia Token - Fixed issue with token not working properly"
+        ],
+        "items": [
+            {
+                "name": "Heaven's Door",
+                "changes": [
+                    "Max range: 3000 → 4000",
+                    "Reset text will now only display to the applied player"
+                ]
+            },
+            {
+                "name": "Robe of Everfrost",
+                "changes": [
+                    "Passive effect armor bonus: 400 → 50"
+                ]
+            },
+            {
+                "name": "Crown of Transcendance",
+                "changes": [
+                    "Cooldown will be recharged 100% faster while out of combat too"
+                ]
+            },
+            {
+                "name": "Heirloom of Lazarus",
+                "changes": [
+                    "Max range: 3000 → 4000"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Resummon count increased for bosses",
+                "changes": [
+                    "Gnosis-teir boss: 4 → 5",
+                    "Valtora / Ifrit / Nereid: 3 → 5",
+                    "Agareth: 3 → 4"
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Sword count",
+                    [
+                        "1 at 1 ~ 4 players",
+                        "2 at 5 ~ 7 players → 5 ~ 8 players",
+                        "3 at 8 ~ 10 players → 9 ~ 10 players"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Sword of Illusion (R)",
+                    [
+                        "Sword count is now displayed by MP"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "61m",
         "notes": [
             "Released on: August 7th, 2022",
