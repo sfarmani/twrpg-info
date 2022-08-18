@@ -5166,7 +5166,7 @@
         "color": "6045c9",
         "hotkey": "[T] → [W]",
         "icon": "WitchT_W",
-        "cooldown": 15,
+        "cooldown": 1,
         "order": 10,
         "passive": [
             "Armaros's Power",

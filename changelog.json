@@ -1,5 +1,87 @@
 [
     {
+        "name": "61p",
+        "notes": [
+            "Released on: August 18th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Gatekeeper - Fixed issue with resummon count not being affected by multiplayer bonus",
+	        "Gaia - Fixed issue with Red Plant failing to give back Life Energy to some players"
+        ],
+        "items": [
+            {
+                "name": "Jupiter, the Robe of Heavens",
+                "changes": [
+                    "Passive",
+                    [
+                        "No longer shows up on the status bar (to give space to track more important buffs)"
+                    ]
+                ]
+            },
+            {
+                "name": "Horn of Dragon",
+                "changes": [
+                    "Passive",
+                    [
+                        "VFX updated"
+                    ]
+                ]
+            },
+            {
+                "name": "Crown of Transcendance",
+                "changes": [
+                    "Now displays a message when passive effect procs"
+                ]
+            },
+            {
+                "name": "Guardian of the Skies",
+                "changes": [
+                    "Active",
+                    [
+                        "VFX made less flashy"
+                    ]
+                ]
+            },
+            {
+                "name": "Corrupt Angel Icon",
+                "changes": [
+                    "Image updated to be different from Agareth Icon"
+                ]
+            },
+            {
+                "name": "Tokens",
+                "changes": [
+                    "Tokens without absorb function, such as Immortal Kitty token, can now absorb if you own other tokens that have absorb function"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Witch",
+                "changes": [
+                    "Hell Gate (T) - Mark of Power (W)",
+                    [
+                        "Range: 600 → 750",
+                        "Cooldown: 15 seconds → 1 second",
+                        "Now lasts indefinitely if Armaros is alive / expires after 15 seconds if Armaros dies",
+                        "Can be applied onto 3 targets at once."
+                    ]
+                ]
+            },
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Meeko will revive with Shrine Priestess when she revives"
+                ]
+            }
+        ],
+        "misc": [
+            "Loot Chest / Boss Fairy now allows you to inspect drops from the boss and associated item recipes",
+            "Fixed issue with buttons on recipe window having inaccurate click boxes"
+        ]
+    },
+    {
         "name": "61o",
         "notes": [
             "Released on: August 15th, 2022",
