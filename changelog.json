@@ -1,5 +1,51 @@
 [
     {
+        "name": "61q",
+        "notes": [
+            "Released on: August 24th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Witch - Fixed bug with T summon buff being removed after 45 seconds",
+            "Witch - Fixed bug with D flight being canceled if WD is cast too fast",
+            "Ancient Ent - Bug with reflect fixed again"
+        ],
+        "heroes": [
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Skill cast delay reduced slightly",
+                    "Holy Aura (D)",
+                    [
+                        "Aura range: 600 → 800"
+                    ]
+                ]
+            },
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Scroll of God's Blessing (F)",
+                    [
+                        "Made only usable on heroes"
+                    ]
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Sword Enchant (D)",
+                    [
+                        "Dash range: 500 → 650"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            	"Retrieve icon option expanded to work on other icons as well (it will not work on account-shared icons though)",
+	            "Boss resummon will play a ticking sound at 5 seconds or below (only plays if your screen is facing it)"
+        ]
+    },
+    {
         "name": "61p",
         "notes": [
             "Released on: August 18th, 2022",
