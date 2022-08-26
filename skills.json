@@ -2470,10 +2470,8 @@
         ],
         "active": [
             "A stance that reacts faster than the mind.",
-            "Evades next attack and moves back",
-            "On recast, launches a counter strike",
-            "Deals Skill Level X 200 pure damage",
-            "Damage evaded (up to 500% max HP) and (ATK DMG X 7.5) bonus damage"
+            "Evades next attack, dashing back and enabling Inner Meditation",
+            "On recast, launches a counter strike"
         ]
     },
     {
@@ -5221,9 +5219,10 @@
         "order": 1,
         "passive": [
             "Lands your attacks with a flow.",
-            "If you fulfill one of the conditions below, restores 1 energy and activates combo effect",
-            "If you repeat same move for next 3 hits: Increases attack damage by 25% for 5 seconds (stacks up to 3 times)",
-            "If you don't repeat same move for next 3 hits: Empowers next move"
+            "Fulfilling one of conditions below will trigger a combo effect, restoring 1 energy",
+            "When repeating an action (ex. AAA, WWW)",
+            "When alternating between different action (ex. AWA, AWE): Empowers next skill",
+            "If you activate a different combo than before (ex. AAA -> AWA): Increases attack damage by 15% and damage dealt by skills by 14% (stacks up to 5 times; resets on failure)"
         ]
     },
     {
@@ -5273,7 +5272,7 @@
             "Next attack allows you to dash to target and ignore 100% of its armor",
             "Reduce target's movement speed by 75% for 2 seconds",
             "Does not activate 'on skill cast' effects",
-            "Empowered: Deals 300% damage and has 20% chance to leave target CRACKED for 6 seconds. If Chain Blow has max stacks, this will be guaranteed (can only occur if CRACKED hasn't been procced in last 15 seconds)"
+            "Empowered: Deals 300% damage and has 20% chance to leave target CRACKED for 6 seconds. If Combo Mastery is at max stacks, this will be guaranteed (can only occur if CRACKED hasn't been procced in last 15 seconds)"
         ]
     },
     {
@@ -5287,10 +5286,8 @@
         "order": 5,
         "passive": [
             "Attacks your target relentlessly.",
-            "If activating a combo different from before, your skills deal 10% increased damage for 10 seconds (stacks up to 5 times)",
-            "At max stacks, your skills deal additional 20% increased damage",
-            "33% chance to enable activation once within next 2.5 seconds",
-            "If target is SHATTERED, you can continuously activate the skill without losing stacks"
+            "If activating a combo different from before, has 33% chance to reset cooldown",
+            "If target is SHATTERED, cooldown will be greatly reduced"
         ],
         "active": [
             "Attack damage X 0.6 + STR X 6 magic damage",
@@ -5308,13 +5305,12 @@
         "order": 6,
         "passive": [
             "Strengthens your body.",
-            "Reduces damage taken by 25%"
+            "Reduces damage taken by 20%"
         ],
         "active": [
             "Temporarily hardens your muscle as strong as steel.",
-            "Absorbs 70% of damage taken while channeling and after channeling for 0.5 seconds (can be channeled up to 1.5 seconds)",
-            "While active, HP does not drop below 1 and grants immunity to CC effects",
-            "Resets duration of Combo Mastery and Chain Blow while active"
+            "Reduces 70% of damage taken for 1.5 seconds",
+            "While active, HP does not drop below 1 and grants immunity to CC effects"
         ]
     },
     {
@@ -5329,7 +5325,7 @@
         "active": [
             "Gathers energy into your fist to release a powerful strike.",
             "Attack damage X 5 + STR X 30 magic damage",
-            "Empowered: Deals up to 230% damage based on traveled distance"
+            "Empowered: Restores all energy and deals up to 230% damage based on traveled distance"
         ]
     },
     {
@@ -5344,9 +5340,8 @@
         "active": [
             "\"Let's wrestle!\" -Fighter",
             "Hurls your body forward and latches onto a boss enemy",
-            "Each hit deals STR X 4.25 magic damage",
-            "Final hit deals STR X 85 magic damage and applies SHATTERED for 5 seconds",
-            "Resets duration of Combo Mastery and Chain Blow while active"
+            "Each hit deals STR X 6 magic damage",
+            "Final hit deals STR X 85 magic damage and applies SHATTERED for 5 seconds"
         ]
     },
     {

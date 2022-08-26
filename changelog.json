@@ -1,5 +1,81 @@
 [
     {
+        "name": "61r",
+        "notes": [
+            "Released on: August 25th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Agareth - Fixed bugs with Fear + Armageddon / Hunt introduced last patch",
+            "Agareth - Fixed issue with Hunt occasionally working on 2 targets instead of 3",
+            "Ancient Ent - Elder / Giant ents will now be considered properly as adds for Heartrender",
+            "Soul Weaver - D typo fixed (MP regen / 15 -> MP regen / 30)"
+        ],
+        "items": [
+            {
+                "name": "Horn of Dragon",
+                "changes": [
+                    "Aura effect changed slightly"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Max energy: 3 → 4",
+                    "Combo tag position moved up to be more visible",
+                    "Combo Mastery (D)",
+                    [
+                        "Each stack of buff grants 25% ATK DMG → 15% ATK DMG and 14% increase to Fighter's skill damage",
+                        "Buff max stacks: 3 → 5",
+                        "Buff duration 5 seconds → permanent (while in combat)",
+                        "Now resets on failed combo (like previous E passive)"
+                    ],
+                    "Footwork (W)",
+                    [
+                        "Now counts as single target effect"
+                    ],
+                    "Chain Blow (E)",
+                    [
+                        "No longer grants passive buff (merged with D)",
+                        "Active cooldown: 0.15 seconds → 4 seconds",
+                        "Can now be used without passive proc",
+                        "DoT damage no longer counts as single target effect",
+                        "Passive proc will now reset the active effect's cooldown",
+                        "SHATTERED proc will refresh and reduce active effect's cooldown to 0.15 seconds while active"
+                    ],
+                    "Iron Body (R)",
+                    [
+                        "Damage reduction: 25% → 20%",
+                        "No longer lasts for additional 0.5 seconds after channeling",
+                        "No longer refreshes passive buff duration"
+                    ],
+                    "Dragon Fist (T)",
+                    [
+                        "Empowered cast now refills all energy"
+                    ],
+                    "Takedown (F)",
+                    [
+                        "Activation speed increased",
+                        "Hit count: 15 → 10",
+                        "Damage per hit: STR X 4.25 → STR X 6"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Martial Movement (D)",
+                    [
+                        "On successful dodge, R buff will be activated",
+                        "Counter max distance: 1000 → 1500"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "61q",
         "notes": [
             "Released on: August 24th, 2022",
