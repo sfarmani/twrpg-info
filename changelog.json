@@ -1,5 +1,89 @@
 [
     {
+        "name": "61s",
+        "notes": [
+            "Released on: September 3rd, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Fixed issue with item icon/stats not matching between recipe menu vs inventory for some items",
+            "Fixed issue with some korean stat commands not working",
+            "Agareth - Fixed bug where crystals may not take AoE damage when damaging them at the same time Agareth activates Drain",
+            "Witch - Fixed issue with W not sending Witch high enough"
+        ],
+        "items": [
+            {
+                "name": "Soul of Abyss / Gate of Abyss / Heirloom of Lazarus",
+                "changes": [
+                    "Active",
+                    [
+                        "Can no longer be used on summons"
+                    ]
+                ]
+            },
+            {
+                "name": "Crown of Transcendance",
+                "changes": [
+                    "Passive",
+                    [
+                        "Can now proc outside of combat"
+                    ]
+                ]
+            },
+            {
+                "name": "Heart of Life",
+                "changes": [
+                    "Active",
+                    [
+                        "0.5 seconds cooldown added between usages"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "Height adjusted for spear that summons at 20% HP so that it is easier to see on low cam settings"
+                ]
+            },
+            {
+                "name": "Agareth",
+                "changes": [
+                    "Hunt",
+                    [
+                        "Non-backstab damage: max HP X 25% → max HP X 20%"
+                    ],
+                    "Triple Hunt",
+                    [
+                        "0.5 seconds delay added between each hunt"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Combo text position re-adjusted",
+                    "Skull Pounder (Q)",
+                    [
+                        "0.5 seconds delay added before cooldown reset during CRACKED status"
+                    ],
+                    "Chain Blow (E)",
+                    [
+                        "Flash indicator added back for proc"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "You can now opt out of resummon sounds by typing -소리/-sound",
+            "This option saves into your code",
+            "Item craft messages will now show the item name in color based on its grade"
+        ]
+    },
+    {
         "name": "61r",
         "notes": [
             "Released on: August 25th, 2022",

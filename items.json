@@ -19443,7 +19443,7 @@
       ],
       "active": [
         "On use, activates Call of Abyss",
-        "Increases damage output by 8% and HP regen by (15% max HP) for 10 seconds",
+        "Increases damage output of heroes by 8% and HP regen by (15% max HP) for 10 seconds",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -22729,7 +22729,7 @@
       ],
       "active": [
         "On use, activates Call of Abyss",
-        "Increases damage output by 10% and HP regen by (15% max HP) for 10 seconds",
+        "Increases damage output of heroes by 10% and HP regen by (15% max HP) for 10 seconds",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -23347,12 +23347,19 @@
       "allstat": 315,
       "skilldamagepercent": 0.15,
       "affinityiwpercent": 0.1,
-      "active": [
+      "passive": [
         "Skill cast has chance to trigger Eclipse",
         "30% chance to activate (affected by proc coefficient)",
         "For 6 seconds, increases all stats by 100 and skill damage by 5%",
         "Active cooldown charges 100% faster while active or out of combat",
-        "Cooldown: 12 seconds, cannot be dropped during cooldown"
+        "Cooldown: 12 seconds"
+      ],
+      "active": [
+        "On use, activates Transcendance",
+        "For 12 seconds, increases all stats by 200 and skill damage by 15%",
+        "Grants CC immunity while active",
+        "Overrides Eclipse",
+        "Cooldown: 100 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -23437,7 +23444,7 @@
       "int": 200,
       "active": [
         "On use, activates Crimson Pact",
-        "Choose up to 2 allies to link yourself to",
+        "Choose up to 2 allied heroes to link to yourself",
         "Linked allies (and self) receive the following:",
         "(5 + link count X 5)% skill damage",
         "+20% damage reduction [Type-A]",
