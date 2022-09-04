@@ -2626,7 +2626,7 @@
             "Strikes target's vital point.",
             "Attack damage X 1.2 + STR X 6 magic damage",
             "If target has barriers, breaks them and lands as a critical strike",
-            "Empowered: Deals up to 150% bonus damage based on target's missing HP"
+            "Empowered: Deals up to 100% bonus damage based on target's missing HP"
         ]
     },
     {
