@@ -1698,14 +1698,17 @@
             "https://twrpg.com/viewtopic.php?f=4&t=6717"
         ],
         "description": [
-            "Jupiter and Crown of Cleansing for self sustain."
+            "Jupiter and Crown of Cleansing for self sustain.",
+            "Eternity can be used for the save ability but its not much better than desolate soul"
         ],
         "items": {
             "Fulminata, the Bringer of Storms": [],
             "Horn of Dragon": [
                 "Crown of Cleansing"
             ],
-            "Ring of eternity": [],
+            "Ring of Desolate Soul": [
+                "Ring of Eternity"
+            ],
             "Sanguis, the Robe of Sacrifice": [
                 "Jupiter, the Robe of Heavens"
             ],
