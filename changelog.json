@@ -1,5 +1,171 @@
 [
     {
+        "name": "61t",
+        "notes": [
+            "Released on: September 9th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Duke Token - Fixed movement speed being lower than normal token",
+            "Merchant - Fixed issue where cooldown restarts when throwing 2nd potion (from Life bag series special effect)",
+            "Merchant - Fixed issue where clicking W twice fast would not make Merchant throw the second potion",
+            "Merchant - Fixed bug where some skills like STR Hermit's Q couldn't target dummy summoned using Explosive Bag series",
+            "Sword Enchanter - Fixed MP bar displaying incorrect D charges after revival"
+        ],
+        "items": [
+            {
+                "name": "Final Omen",
+                "changes": [
+                    "Damage: 12000 → 12400"
+                ]
+            },
+            {
+                "name": "Ring of Eternity",
+                "changes": [
+                    "All stats: 460 → 475",
+                    "Skill damage: 13% → 14%",
+                    "Cooldown reduction chance: 40% → 50%"
+                ]
+            },
+            {
+                "name": "Icicle Storm",
+                "changes": [
+                    "No longer craftable and removed from Everfrostbane recipe"
+                ]
+            },
+            {
+                "name": "Helm of Everfrost",
+                "changes": [
+                    "STR +55 / AGI +75 -> Main Stat +75"
+                ]
+            },
+            {
+                "name": "Lord of Revolver",
+                "changes": [
+                    "No longer drops and removed from Retus, the Bullet of Judgment recipe"
+                ]
+            },
+            {
+                "name": "Okelanq, the Spear of Frost",
+                "changes": [
+                    "No longer drops and replaced with Niflheim in all recipes"
+                ]
+            },
+            {
+                "name": "Okelanq, the Bow of Frost",
+                "changes": [
+                    "No longer drops and replaced with Frostbane in all recipes"
+                ]
+            },
+            {
+                "name": "Hood of Everfrost",
+                "changes": [
+                    "No longer drops and replaced with Helm of Everfrost in all recipes"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Ancient Ent",
+                "changes": [
+                    "Boss will now reset properly on failed attempts",
+                    "Boss can no longer be killed until both Elder Ents are dead"
+                ]
+            },
+            {
+                "name": "Agareth",
+                "changes": [
+                    "Hunt",
+                    [
+                        "Chain hunt activated on hunting 3 targets → 2 targets",
+                        "Delay removed on chain hunt once again",
+                        "Backstab damage max HP X 125% → instant kill / max HP X 100% if target is immune",
+                        "cancelling chain hunt via pause will clear hunted marks on all targets once again"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Combo tag position re-adjusted once again"
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Genesis (F)",
+                    [
+                        "Damage per pulse: ATK DMG X 2.5 + STR X 30 → ATK DMG X 2.5 + STR X 40"
+                    ]
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Meteor Spear (T)",
+                    [
+                        "Collision damage: STR X 25 → 0 (removed)",
+                        "Explosion damage: STR X 37.5 → STR X 65",
+                        "Missile speed increased",
+                        "Now resets D on use",
+                        "Stat buff application range on explosion: 550 → 1000"
+                    ]
+                ]
+            },
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Bag Slam (Q)",
+                    [
+                        "Strength bag series - debuff duration: 5 seconds / 6 seconds → 6 seconds / 8 seconds"
+                    ],
+                    "Throwing Healing Potion (W)",
+                    [
+                        "Buff is now displayed on status bar",
+                        "Strength bag series now adds 5 second duration to buff: 10 seconds → 15 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Orb of Harmony (R)",
+                    [
+                        "No longer restores Swordsman's swords"
+                    ]
+                ]
+            },
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Spirit Fusion (T) → Fire Explosion (Q)",
+                    [
+                        "Fire-version explosion range: 600 → 720",
+                        "(Same as enchanged water-version Q)"
+                    ]
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Frozen Emotion (W)",
+                    [
+                        "No longer incurs cooldown if used outside of combat"
+                    ],
+                    "Glacier Orb (T)",
+                    [
+                        "Orb now displays remaining duration with a text tag"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "If there are no significant bugs with this patch, new character will be released on the next version"
+        ]
+    },
+    {
         "name": "61s",
         "notes": [
             "Released on: September 3rd, 2022",

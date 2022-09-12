@@ -2661,9 +2661,9 @@
         "order": 6,
         "active": [
             "Focus ki into spear and launch it forward.",
-            "STR X 25 magic damage",
-            "Explodes to deal 150% damage to nearby enemies and stuns them for 1 second",
-            "Increases all stats of allies hit by 10% for 30 seconds"
+            "STR X 65 magic damage",
+            "Increases all stats by 10% for self and allies within 1000 range from explosion",
+            "Resets cooldown of Oriental Spear Mastery"
         ]
     },
     {
@@ -4733,7 +4733,7 @@
         "order": 11,
         "active": [
             "\"Embrace the lights of heaven.\" - Paladin",
-            "Releases a pulse every second to deal AD X 2.5 + STR X 30 magic damage",
+            "Releases a pulse every second to deal AD X 2.5 + STR X 40 magic damage",
             "Calls down rays of light on two allies every 0.25 seconds, healing them for INT X 5",
             "Lasts 4 seconds"
         ]

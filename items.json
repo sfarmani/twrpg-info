@@ -1133,9 +1133,6 @@
     "color": "AFC3FF",
     "level": 40,
     "droprate": 1,
-    "required_by": [
-      "Icicle Storm"
-    ],
     "stats": {
       "damage": 500,
       "agi": 75,
@@ -4836,9 +4833,6 @@
     "color": "9BE1E1",
     "level": 90,
     "droprate": 0.075,
-    "required_by": [
-      "Aglaia, the Spear of Heavenly Flows"
-    ],
     "stats": {
       "damage": 4050,
       "str": 375,
@@ -4864,9 +4858,6 @@
     "color": "9BE1E1",
     "level": 90,
     "droprate": 0.075,
-    "required_by": [
-      "Icicle Storm"
-    ],
     "stats": {
       "damage": 3750,
       "agi": 415,
@@ -4892,9 +4883,6 @@
     "color": "9BE1E1",
     "level": 90,
     "droprate": 0.075,
-    "required_by": [
-      "Retus, the Bullet of Judgment"
-    ],
     "stats": {
       "damage": 6000,
       "agi": 425,
@@ -4948,12 +4936,12 @@
     "droprate": 0.075,
     "required_by": [
       "Frostshard Armor",
+      "Crown of Composure",
       "Everfrost Icon"
     ],
     "stats": {
+      "mainstat": 75,
       "armor": 95,
-      "str": 55,
-      "agi": 75,
       "passive": [
         "On being hit, 10% chance to freeze the attacker"
       ]
@@ -5064,7 +5052,6 @@
       0.05
     ],
     "required_by": [
-      "Icicle Storm",
       "Bag of Life",
       "Frozen Robe",
       "Mana Heart Frost",
@@ -5210,6 +5197,7 @@
     "level": 90,
     "droprate": 0.075,
     "required_by": [
+      "Aglaia, the Spear of Heavenly Flows",
       "Deathbringer"
     ],
     "stats": {
@@ -10959,7 +10947,7 @@
       "dtpercent": -0.15,
       "spec": [
         "Merchant Specialty - Heavy Bag",
-        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds."
+        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 6 seconds."
       ]
     }
   },
@@ -11032,7 +11020,7 @@
       "dtpercent": -0.15,
       "spec": [
         "Merchant Specialty - Heavy Bag",
-        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds."
+        "Merchant - Bag Slam: damage is increased by 150%, and it increases target's damage taken by 6% for 6 seconds."
       ]
     }
   },
@@ -11851,7 +11839,7 @@
     ],
     "recipe": [
       {
-        "Okelanq, the Spear of Frost": 1
+        "Niflheim": 1
       },
       {
         "Storm Headdress": 1
@@ -12417,20 +12405,6 @@
     "type": "Weapon (Bow)",
     "color": "9BE1E1",
     "level": 100,
-    "required_by": [
-      "Everfrostbane"
-    ],
-    "recipe": [
-      {
-        "Okelanq, the Bow of Frost": 1
-      },
-      {
-        "Icicle Bow": 1
-      },
-      {
-        "Frorist": 1
-      }
-    ],
     "stats": {
       "damage": 4950,
       "agi": 490,
@@ -12634,9 +12608,6 @@
         "Retus, the Iron Bullet": 1
       },
       {
-        "Lord of Revolver": 1
-      },
-      {
         "Corrupt Creations": 1
       },
       {
@@ -12776,8 +12747,8 @@
       "dtpercent": -0.18,
       "spec": [
         "Merchant Specialty - Very Heavy Bag",
-        "Merchant - Bag Slam: Damage is increased by 150%, and it increases target's damage taken by 6% for 5 seconds.",
-        "Merchant - Throwing Healing Potion: Increases target's skill damage by 5%"
+        "Merchant - Bag Slam: Damage is increased by 150%, and it increases target's damage taken by 6% for 6 seconds.",
+        "Merchant - Throwing Healing Potion: Duration increased by 5s, increases target's skill damage by 5%"
       ]
     }
   },
@@ -12858,8 +12829,8 @@
       "dtpercent": -0.2,
       "spec": [
         "Merchant Specialty - Very Heavy Bag",
-        "Merchant - Bag Slam: Damage is increased by 300%, and it increases target's damage taken by 8% for 6 seconds.",
-        "Merchant - Throwing Healing Potion: Increases target's skill damage by 5%"
+        "Merchant - Bag Slam: Damage is increased by 300%, and it increases target's damage taken by 8% for 8 seconds.",
+        "Merchant - Throwing Healing Potion: Duration increased by 5s, increases target's skill damage by 5%"
       ]
     }
   },
@@ -15561,9 +15532,6 @@
         "Frostbane": 1
       },
       {
-        "Icicle Storm": 1
-      },
-      {
         "Crossbow of Requiem": 1
       },
       {
@@ -16062,8 +16030,8 @@
       "dtpercent": -0.22,
       "spec": [
         "Merchant Specialty - Very Heavy Bag",
-        "Merchant - Bag Slam: Damage is increased by 400%, and it increases target's damage taken by 8% for 6 seconds",
-        "Merchant - Throwing Healing Potion: Increases target's skill damage by 8%",
+        "Merchant - Bag Slam: Damage is increased by 400%, and it increases target's damage taken by 8% for 8 seconds",
+        "Merchant - Throwing Healing Potion: Duration increased by 5s, increases target's skill damage by 8%",
         "Merchant - Throw Money: Each coin stuns for 0.5 seconds"
       ]
     }
@@ -17196,7 +17164,7 @@
         "Crown of Fervor": 1
       },
       {
-        "Hood of Everfrost": 1
+        "Helm of Everfrost": 1
       },
       {
         "Essence of Darkness": 1
@@ -19682,8 +19650,8 @@
       ],
       "spec": [
         "Merchant Specialty - Very Heavy Bag",
-        "Merchant - Bag Slam: Damage is increased by 400%, and it increases target's damage taken by 10% for 6 seconds",
-        "Merchant - Throwing Healing Potion: Increases target's skill damage by 10%",
+        "Merchant - Bag Slam: Damage is increased by 400%, and it increases target's damage taken by 10% for 8 seconds",
+        "Merchant - Throwing Healing Potion: Duration increased by 5s, increases target's skill damage by 10%",
         "Merchant - Throw Money: Each coin stuns for 0.5 seconds"
       ]
     }
@@ -22562,7 +22530,7 @@
       }
     ],
     "stats": {
-      "damage": 12000,
+      "damage": 12400,
       "agi": 895,
       "critmultiplier": 0.4,
       "passive": [
@@ -23630,18 +23598,18 @@
       }
     ],
     "stats": {
-      "allstat": 460,
-      "skilldamagepercent": 0.13,
+      "allstat": 475,
+      "skilldamagepercent": 0.14,
       "passive": [
         "If HP drops below 1, activates Fate Reversal",
         "Restore health to full (cooldown: 300 seconds)",
         "On equip, instantly stores 70 stacks",
-        "On skill cast during combat, 40% chance to add 1 stack",
+        "On skill cast during combat, 50% chance to add 1 stack",
         "Also adds 1 stack every second"
       ],
       "active": [
         "On use, activates Time Distortion",
-        "Reduce stacks by 1 per second on 40% skill cast (cooldown: 70 seconds)",
+        "Reduce stacks by 1 per second on 50% skill cast (cooldown: 70 seconds)",
         "Refreshes the cooldown of the last used non-ultimate skill",
         "Grants 7% skill damage, 1000 HP/MP regen, and CC immunity for 10 seconds"
       ]
@@ -24194,9 +24162,6 @@
       },
       {
         "Helm of Everfrost": 1
-      },
-      {
-        "Hood of Everfrost": 1
       },
       {
         "Frorist": 1
