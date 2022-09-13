@@ -363,6 +363,23 @@
         }
     },
     {
+        "for": "Knight",
+        "type": "DPS",
+        "order": 3,
+        "stat": "INT",
+        "version": "61t",
+        "description": [
+            "Very squishy, only recommended with prior boss knowledge"
+        ],
+        "items": {
+            "Heartender": [],
+            "Horn of Dragon": [],
+            "Demonic Fist": [],
+            "Vest of Divine Winds": [],
+            "Wings of Frost Lord": []
+        }
+    },
+    {
         "for": "Lancer",
         "type": "DPS/Burst",
         "order": 1,
