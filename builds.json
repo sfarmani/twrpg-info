@@ -373,7 +373,9 @@
         ],
         "items": {
             "Heartender": [],
-            "Horn of Dragon": [],
+            "Horn of Dragon": [
+                "Crown of Transcendance"
+            ],
             "Demonic Fist": [],
             "Vest of Divine Winds": [],
             "Wings of Frost Lord": []
