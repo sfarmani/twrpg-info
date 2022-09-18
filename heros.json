@@ -849,5 +849,26 @@
         "spec": [
             "No Specs!"
         ]
+    },
+    {
+        "id": "H09M",
+        "name": "Maru",
+        "heroClass": "Lightseeker",
+        "mainstat": "STR",
+        "color": "f2f7b9",
+        "icon": "LightseekerIcon",
+        "wearable": [
+            "Weapon (Shared)",
+            "Weapon (Melee)"
+        ],
+        "role": [
+            "DPS"
+        ],
+        "description": [
+            "Damage dealer. Relies on numerous skill casts."
+        ],
+        "spec": [
+            "No Specs!"
+        ]
     }
 ]

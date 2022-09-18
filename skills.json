@@ -5762,5 +5762,131 @@
             "Each explosion deals INT X 20 magic damage and heals allies for INT X 2",
             "On expiration, deals INT X 50 magic damage"
         ]
+    },
+    {
+        "id": "A1AF",
+        "name": "Gather Light",
+        "heroClass": "Lightseeker",
+        "color": "f2f7b9",
+        "hotkey": "[D]",
+        "icon": "LightseekerD",
+        "cooldown": 4,
+        "order": 1,
+        "active": [
+            "Gathers and consumes all Orbs of Light nearby.",
+            "Heals for (Max HP X 2%) per orb"
+        ]
+    },
+    {
+        "id": "A1AG",
+        "name": "Light Dash",
+        "heroClass": "Lightseeker",
+        "color": "f2f7b9",
+        "hotkey": "[Q]",
+        "icon": "LightseekerQ",
+        "cooldown": 8,
+        "order": 2,
+        "active": [
+            "In a flash of light, dashes towards target location immediately.",
+            "STR X 9 magic damage",
+            "Leaves an Orb of Light at your original location",
+            "Can be cast twice in a row"
+        ]
+    },
+    {
+        "id": "A1AI",
+        "name": "Converging Light",
+        "heroClass": "Lightseeker",
+        "color": "f2f7b9",
+        "hotkey": "[W]",
+        "icon": "LightseekerW",
+        "cooldown": 6,
+        "order": 2,
+        "active": [
+            "Sends all Orbs of Light towards target location.",
+            "Each orb deals STR X 6 magic damage"
+        ]
+    },
+    {
+        "id": "A1AJ",
+        "name": "Scatter Light",
+        "heroClass": "Lightseeker",
+        "color": "f2f7b9",
+        "hotkey": "[E]",
+        "icon": "LightseekerE",
+        "cooldown": 15,
+        "order": 3,
+        "active": [
+            "Infuses your light into the ground, causing the ground to erupt with Orbs of Light.",
+            "Spawns 3 orbs, then pushes them outward",
+            "Chain - Resonance of Light"
+        ]
+    },
+    {
+        "id": "A1AK",
+        "name": "Resonance of Light",
+        "heroClass": "Lightseeker",
+        "color": "f2f7b9",
+        "hotkey": "[E] → [E]",
+        "icon": "LightseekerE_2",
+        "cooldown": 0,
+        "order": 4,
+        "active": [
+            "Creates a pulse of light that resonates with Orbs of Light nearby.",
+            "Gains Empowering Light for each orb resonated (up to 20 stacks)",
+            "Empowering Light lasts 15 seconds and is removed upon exiting combat"
+        ]
+    },
+    {
+        "id": "A1AM",
+        "name": "Light Seeker",
+        "heroClass": "Lightseeker",
+        "color": "f2f7b9",
+        "hotkey": "[R]",
+        "icon": "LightseekerR",
+        "cooldown": 10,
+        "order": 5,
+        "active": [
+            "Gathers light into your knee and kick outward.",
+            "STR X 7.5 magic damage",
+            "Can be charged up to 1 second, increases the damage dealt up to 500%",
+            "Consumes Empowering light, increasing damage dealt by 15% and charge speed by 5% per stack"
+        ]
+    },
+    {
+        "id": "A1AO",
+        "name": "Enlightenment",
+        "heroClass": "Lightseeker",
+        "color": "f2f7b9",
+        "hotkey": "[T]",
+        "icon": "LightseekerT",
+        "cooldown": 0,
+        "order": 6,
+        "passive": [
+            "Absorbing an Orb of Light generates a Mote of Light (stacks up to 50)",
+            "Upon generating 5 motes, active is enabled"
+        ],
+        "active": [
+            "At full Motes of Light, consumes it all to become empowered",
+            "Resets cooldown on basic skills (if empowered, allows 4 more resets)",
+            "Damage dealt by skills is increased by 15% for 10 seconds (if empowered, increased by 40%)",
+            "If empowered, charges all Empowering Light and allows it to empower 2 skill casts"
+        ]
+    },
+    {
+        "id": "A1AR",
+        "name": "Light of Judgment",
+        "heroClass": "Lightseeker",
+        "color": "f2f7b9",
+        "hotkey": "[F]",
+        "icon": "LightseekerF",
+        "cooldown": 120,
+        "order": 7,
+        "active": [
+            "\"No one can escape the Light of Judgment.\" - Lightseeker",
+            "STR X 100 magic damage",
+            "Leaves a pool of light for 2.5 seconds, dealing STR X 25 magic damage per second",
+            "Consumes Empowering light, increasing damage dealt by 5% per stack"
+        ]
     }
 ]

@@ -1,5 +1,62 @@
 [
     {
+        "name": "61v2",
+        "notes": [
+            "Released on: September 18th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Gunner - R bug fixed",
+            "Lightseeker - T bug fixed"
+        ],
+        "heroes": [
+            {
+                "name": "Lightseeker",
+                "changes": [
+                    "Attack interval: 0.6 seconds → 1 second",
+                    "Enlightenment (T)",
+                    [
+                        "Empowered cast now charges all E stacks",
+                        "Auto regen outside of combat stops for 5 seconds when casting skills"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "61v",
+        "notes": [
+            "Released on: September 18th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Mage (Water) - Fixed issue with T text not being removed properly in some cases",
+            "Ancient Ent - Fixed some bugs",
+            "Fixed issue with graphics flashing error in some zones in Reforged version",
+            "Fixed issue with some abusable tokens"
+        ],
+        "monsters": [
+            {
+                "name": "Ancient Ent",
+                "changes": [
+                    "Elder Ent",
+                    [
+                        "Shield is now breakable once text appears"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Lightseeker",
+                "changes": [
+                    "New character has been added",
+                    "Main stat type is STR"
+                ]
+            }
+        ]
+    },
+    {
         "name": "61t",
         "notes": [
             "Released on: September 9th, 2022",
