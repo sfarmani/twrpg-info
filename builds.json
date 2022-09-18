@@ -369,16 +369,23 @@
         "stat": "INT",
         "version": "61t",
         "description": [
-            "Very squishy, only recommended with prior boss knowledge"
+            "Very squishy, only recommended with prior boss knowledge",
+            "Main items are used for max DPS, alt items trade DPS for either burst/survivability/utility"
         ],
         "items": {
             "Heartender": [],
             "Horn of Dragon": [
-                "Crown of Transcendance"
+                "Crown of Transcendance",
+                "Crescendo of Madness"
             ],
-            "Demonic Fist": [],
+            "Demonic Fist": [
+                "Star of Apotheosis"
+            ],
             "Vest of Divine Winds": [],
-            "Wings of Frost Lord": []
+            "Wings of Frost Lord": [
+                "Soul Devourer",
+                "Cape of Deep Abyss"
+            ]
         }
     },
     {
