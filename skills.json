@@ -2252,9 +2252,9 @@
         "toggle": [
             "Discharge body to quickly release mana, gaining immense speed in return.",
             "Consumes 50 energy per second",
-            "Deals up to INT X 12 damage based on dash distance",
+            "Becomes charged after travelling 500 distance, dealing INT X 12 magic damage",
             "Reduces damage taken by 80% and ignores CC effects",
-            "Upon absorbing a lightning orb, becomes Charged for 0.75 seconds which removes energy consumption"
+            "Upon absorbing a lightning orb, becomes Charged for 0.75 seconds which removes energy consumption and allows dealing damage once more"
         ]
     },
     {

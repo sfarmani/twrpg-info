@@ -1,5 +1,138 @@
 [
     {
+        "name": "61w",
+        "notes": [
+            "Released on: September 25th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Fighter - Fixed bug where E applies Merchant W buff",
+            "Lightseeker - Fixed issue with death message being displayed twice",
+            "Lightseeker - Fixed bug where F explosion AoE didn't match cast AoE",
+            "Sanguis, the Robe of Sacrifice - Fixed bug where stack could go over 25",
+            "Underlord Agareth - Fixed issues where some hero skills could reach minigame zone",
+            "Fixed some bugs with damage/skill texts disappearing"
+        ],
+        "items": [
+            {
+                "name": "Heaven's Door",
+                "changes": [
+                    "Active Cooldown: 5 seconds → 3 seconds"
+                ]
+            },
+            {
+                "name": "Sanguis, the Robe of Sacrifice",
+                "changes": [
+                    "When entering combat, ring size setting will be same as last time"
+                ]
+            },
+            {
+                "name": "Horn of Demon God",
+                "changes": [
+                    "Mark of Lord can now be replaced via Fragment of Hell"
+                ]
+            },
+            {
+                "name": "Crown of Absolute Zero",
+                "changes": [
+                    "Mark of Lord can now be replaced via Fragment of Hell"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Stun duration when entrance portal activated: 3 seconds → 1.5 seconds"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "T",
+                    [
+                        "T will cancel w buff",
+                        "(EX. AFter casting AWA-WWW-T fast, next A will register as A instead of W)"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightseeker",
+                "changes": [
+                    "D",
+                    [
+                        "Orb will be semi-transparent for other players"
+                    ],
+                    "E",
+                    [
+                        "Cast time: 0.75 seconds → 0.15 seconds"
+                    ],
+                    "T",
+                    [
+                        "Stacks will now be reset when using training zone reset"
+                    ],
+                    "F",
+                    [
+                        "2 second stun added"
+                    ]
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Weird costume portrait issue fixed"
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Orb duration: 6 seconds → 10 seconds",
+                    "E",
+                    [
+                        "Now deals consistent damage",
+                        "Description updated to be more accurate"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "T",
+                    [
+                        "Buff can now expire if Armaros is too far away (EX. outside the boss zone)"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Multiplayer bonus",
+            [
+                "At 6+ players, drop rate of bosses in Field ~ Neptinos tier will be increased by 10%",
+                "Multiplayer bonuses are now trackable at capital"
+            ],
+            "Practice Mode added",
+            [
+                "In practice mode, boss deals 75% reduced damage, takes 300% additional damage, and does not drop any items",
+                "At the moment, practice mode can only be enabled on Alteia tier bosses (DF ~ Agareth). More bosses may be available in future."
+            ],
+            "-track/-t command added",
+            [
+                "Shows/hides icons of your teammates, under your hero icon",
+                "You cannot hide icon of your own hero",
+                "Up to 4 players (other than you) can be tracked due to system limitations",
+                "This command does NOT save into your code, as player slots can change every game",
+                "Example useage",
+                [
+                    "EX: -t 2 4 10 (tracks player 2/4/10)",
+                    "EX: -t (clears all tracked players)"
+                ]
+            ],
+            "-save/-load now works with capital letters"
+        ]
+    },
+    {
         "name": "61v2",
         "notes": [
             "Released on: September 18th, 2022",

@@ -9166,7 +9166,9 @@
       "Titan's Plates",
       "Heart of Life",
       "Horn of Dragon",
-      "Spirit Flame"
+      "Spirit Flame",
+      "Horn of Demon God",
+      "Crown of Absolute Zero"
     ]
   },
   {
@@ -18212,7 +18214,7 @@
         "Grants 12% skill damage to latched heroes",
         "Every 4 seconds, the target will be healed for 2000 HP.",
         "Every 20 seconds, a random skill will be reset on the target.",
-        "Cooldown: 5 seconds, cannot be dropped during cooldown"
+        "Cooldown: 3 seconds, cannot be dropped during cooldown"
       ]
     }
   },
@@ -20687,7 +20689,8 @@
         "Essence of Sea": 1
       },
       {
-        "Mark of Lord": 1
+        "Mark of Lord": 1,
+        "Fragment of Hell": 1
       },
       {
         "Shining Fragment of Ruins": 1
@@ -20783,7 +20786,8 @@
         "Aegis of Sea": 1
       },
       {
-        "Mark of Lord": 1
+        "Mark of Lord": 1,
+        "Fragment of Hell": 1
       }
     ],
     "stats": {
