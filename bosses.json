@@ -2393,7 +2393,7 @@
         "level": "100",
         "category": "Minor",
         "type": "Boss",
-        "limit": "2",
+        "limit": "3",
         "respawn": "4",
         "location": "In the Wallachia Graveyard",
         "conditions": "Level 80",

@@ -316,9 +316,9 @@
         "items": {
             "Eternal Winter": [],
             "Spirit of Protector": [],
-            "Ispion, the Runed Ring": [],
+            "Heirloom of Lazarus": [],
             "Harmony of Sky and Earth": [
-                "Hades, the Armor of Despair"
+                "Cage of Twisted Souls"
             ],
             "Brave Heart": [
                 "Protection of the Fairies"
@@ -329,43 +329,6 @@
         "for": "Knight",
         "type": "DPS",
         "order": 2,
-        "stat": "STR",
-        "version": "44b",
-        "items": {
-            "Splitting of the Sky and Earth": [
-                "Calamity"
-            ],
-            "Crown of Absolute Zero": [
-                "Horn of Demon God"
-            ],
-            "Ring of the One": [
-                "Ring of Frozen Soul"
-            ],
-            "Hades, the Armor of Despair": [
-                "Felspike Armor",
-                "Voidshard Armor"
-            ],
-            "Wings of Immortal": []
-        }
-    },
-    {
-        "for": "Knight",
-        "type": "Hybrid",
-        "order": 3,
-        "stat": "STR",
-        "version": "44b",
-        "items": {
-            "Eternal Winter": [],
-            "Crown of Absolute Zero": [],
-            "Ring of the One": [],
-            "Hades, the Armor of Despair": [],
-            "Wings of Immortal": []
-        }
-    },
-    {
-        "for": "Knight",
-        "type": "DPS",
-        "order": 3,
         "stat": "INT",
         "version": "61t",
         "description": [
@@ -373,7 +336,9 @@
             "Main items are used for max DPS, alt items trade DPS for either burst/survivability/utility"
         ],
         "items": {
-            "Heartender": [],
+            "Heartender": [
+                "The Ender"
+            ],
             "Horn of Dragon": [
                 "Crown of Transcendance",
                 "Crescendo of Madness"
@@ -1688,30 +1653,19 @@
         "type": "Burst",
         "order": 1,
         "stat": "INT",
-        "version": "61e",
+        "version": "61w2",
         "items": {
-            "Crimson Hatred": [],
-            "Crown of Extreme Anger": [],
-            "Star of Apotheosis": [],
-            "Thanatos, the Robe of Hell": [],
-            "Wing of Cosmos": []
-        }
-    },
-    {
-        "for": "Fire Mage",
-        "type": "Balance",
-        "order": 2,
-        "stat": "INT",
-        "version": "61e",
-        "description": [
-            "Less burst - more dps, good for long fights"
-        ],
-        "items": {
-            "Crimson Hatred": [],
-            "Crown of Extreme Anger": [],
-            "Seal of Corruption": [],
-            "Sanguis, the Robe of Sacrifice": [],
-            "Wings of Sacred Provenance": []
+            "Akhelius, the Staff of Duality": [],
+            "Crown of Cataclysm": [],
+            "Star of Apotheosis": [
+                "Seal of Corruption"
+            ],
+            "Sanguis robe of sacrifice": [
+                "Thanatos, robe of hell"
+            ],
+            "Wings of Sacred Provenance": [
+                "Wings of Cosmos"
+            ]
         }
     },
     {
