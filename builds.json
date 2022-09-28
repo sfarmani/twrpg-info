@@ -1511,7 +1511,7 @@
         "type": "Arcana Gear",
         "order": 6,
         "stat": "INT",
-        "version": "60v",
+        "version": "61w2",
         "guidelink": [
             "https://i.imgflip.com/5sgfje.jpg"
         ],
@@ -1523,10 +1523,7 @@
         ],
         "items": {
             "Heartrender": [],
-            "Prophetia, the Origin of Knowledge": [
-                "Crown of Absolute Zero",
-                "Crown of Extreme Anger"
-            ],
+            "Crown of Cataclysm": [],
             "Ring of Desolate Soul": [],
             "Sanguis, the Robe of Sacrifice": [],
             "Curse of Greed": [
