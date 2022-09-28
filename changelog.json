@@ -1,5 +1,19 @@
 [
     {
+        "name": "61w2",
+        "notes": [
+            "Released on: September 26th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Fixed bug where Guardian Angel, Zombie Lord and Death Fiend were not dropping items",
+	        "Fixed bug where attempting to share unit control would disable control of your own units"
+        ],
+        "misc": [
+            "This version has 20% increased drop rates on Guardian Angel, Zombie Lord and Death Fiend"
+        ]
+    },
+    {
         "name": "61w",
         "notes": [
             "Released on: September 25th, 2022",
