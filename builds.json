@@ -336,7 +336,7 @@
             "Main items are used for max DPS, alt items trade DPS for either burst/survivability/utility"
         ],
         "items": {
-            "Heartender": [
+            "Heartrender": [
                 "The Ender"
             ],
             "Horn of Dragon": [
@@ -439,7 +439,7 @@
             "In other cases they are for supporting when needed"
         ],
         "items": {
-            "Heartender": [],
+            "Heartrender": [],
             "Horn of Dragon": [],
             "Demonic Fist": [],
             "Titan's plates": [],
@@ -1228,7 +1228,7 @@
             "Use Cape of Deep Abyss if debuff stackable."
         ],
         "items": {
-            "Heartender": [],
+            "Heartrender": [],
             "Horn of Dragon": [],
             "Demonic Fist": [
                 "Crimson Curse"
@@ -1564,21 +1564,19 @@
         "type": "Full DPS",
         "order": 1,
         "stat": "INT",
-        "version": "59e",
+        "version": "61w2",
         "description": [
-            "If you don't have enough supports and would like a safer option, use RoTo",
-            "use Grim Heart before WOFL/SD"
+            "Secondary items for Ultimate burst build."
         ],
         "items": {
-            "Calamity": [],
-            "Crown of Absolute Zero": [],
-            "Ring of Insanity": [
-                "Ring of the One",
-                "Horn of God"
+            "Heartrender": [],
+            "Crown of Transcendance": [],
+            "Crimson Curse": [],
+            "Sanguis, the Robe of Sacrifice": [
+                "Titan's Plates"
             ],
-            "Thanatos, the Robe of Hell": [],
-            "Wings of Frost Lord": [
-                "Soul Devourer"
+            "Wings of Sacred Provenance": [
+                "Cape of Deep Abyss"
             ]
         }
     },
