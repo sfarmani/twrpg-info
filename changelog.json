@@ -1,5 +1,78 @@
 [
     {
+        "name": "61x",
+        "notes": [
+            "Released on: October 2nd, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Elementalist - R link skill can no longer be used on bag / Shooter's probes",
+            "Agareth - Fixed issue where game could get glitched after defeating Agareth",
+            "Fixed bug where Death Fiend skills would act like Hard Mode difficulty on Practice Mode",
+            "Fixed bug where picking level 1 characters affected some bosses difficulty"
+        ],
+        "items": [
+            {
+                "name": "Last Word series",
+                "changes": [
+                    "All items will now display passive stacks as item charges"
+                ]
+            },
+            {
+                "name": "Wing Frame crafts",
+                "changes": [
+                    "New wing frames added",
+                    [
+                        "Wings of Sea",
+                        "Wings of Purification",
+                        "All 5 Arcana Wings"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Drop rate bonus reverted on Guardian Angel / Zombie Lord / Death Fiend"
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Drown / Bubble Breath cooldown increased in practice mode",
+                    "Wavecaller spawn will be less frequent in practice mode"
+                ]
+            },
+            {
+                "name": "Agareth",
+                "changes": [
+                    "Portal spawn will be less frequent in practice mode"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Meeko will no longer be displayed as a separate hero icon"
+                ]
+            }
+        ],
+        "misc": [
+            "Lag reduced on some skin FX",
+            "Using Reset in Training Room will now exist you out of combat",
+            "Vanity items crafted will go straight into your closet now",
+            "Track command improvements",
+            [
+                "You will no longer get pings / sounds when a tracked player gets damaged outside your screen",
+                "Player number used for tracking will now be based on player's order on status board instead of the number associated with player color",
+                "EX: before patch, blue / purple / gray in 3-player lobby would be tracked using -t 2 4 10",
+                "EX: After patch, blue / purple / gray in 3-player lobby would be tracked using -t 1 2 3"
+            ]
+        ]
+    },
+    {
         "name": "61w2",
         "notes": [
             "Released on: September 26th, 2022",

@@ -2191,7 +2191,7 @@
         "active": [
             "Create an orb of lightning and fling it forward.",
             "INT X 3 magic damage",
-            "Explodes after 6 seconds to deal INT X 3 magic damage",
+            "Explodes after 10 seconds dealing INT X 3 magic damage",
             "Bypasses terrain"
         ]
     },
@@ -2206,8 +2206,7 @@
         "order": 3,
         "active": [
             "Perform a kick with the speed of lightning.",
-            "Attack damage X 0.3 + (AGI + INT) X 3 magic damage",
-            "(AGI + INT) X 20 additional damage",
+            "Attack damage X 0.4 + (AGI + INT) X 4 magic damage",
             "If used to activate Short Circuit, can be chained with an additional skill"
         ]
     },
@@ -2221,7 +2220,7 @@
         "order": 4,
         "active": [
             "Throws a punch with the speed of lightning.",
-            "Attack damage X 1.2 + AGI X 6 magic damage",
+            "Attack damage X 1.6 + AGI X 8 magic damage",
             "If used to activate Short Circuit, it can be chained with an additional skill"
         ]
     },
@@ -2235,7 +2234,7 @@
         "order": 5,
         "active": [
             "Release collected energy with an explosive burst.",
-            "INT X 6 damage",
+            "INT X 8 magic damage",
             "Short stun effect",
             "If used to activate Short Circuit, explodes all nearby lightning orbs"
         ]
