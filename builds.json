@@ -1555,7 +1555,7 @@
         "stat": "INT",
         "version": "61w2",
         "guidelink": [
-            "https://i.imgflip.com/5sgfje.jpg"
+            "https://twrpg.com/viewtopic.php?f=4&t=6452"
         ],
         "description": [
             "Why are you even reading this?",
@@ -1568,9 +1568,8 @@
             "Crown of Cataclysm": [],
             "Ring of Desolate Soul": [],
             "Sanguis, the Robe of Sacrifice": [],
-            "Curse of Greed": [
-                "Soul Devourer",
-                "Wings of Sacred Provenance"
+            "Wings of Sacred Provenance": [
+                "Soul Devourer"
             ]
         }
     },
