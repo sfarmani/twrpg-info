@@ -880,8 +880,50 @@
     },
     {
         "for": "Martial Artist",
-        "type": "DPS",
+        "type": "DPS - Early",
         "order": 1,
+        "stat": "AGI",
+        "version": "61x",
+        "items": {
+            "Claws of Destruction": [],
+            "Grim Visage": [],
+            "Ring of Nightmare": [],
+            "Guardian Vest": [],
+            "Cape of Corrupt Flame": []
+        }
+    },
+    {
+        "for": "Martial Artist",
+        "type": "DPS - Mid",
+        "order": 2,
+        "stat": "AGI",
+        "version": "61x",
+        "items": {
+            "Claws of Beriel": [],
+            "Eye of Wallachia": [],
+            "Ring of Strike": [],
+            "Grandine, the Plates of Wraith": [],
+            "Cloak of the Fallen Shadows": []
+        }
+    },
+    {
+        "for": "Martial Artist",
+        "type": "DPS - Late",
+        "order": 3,
+        "stat": "AGI",
+        "version": "61x",
+        "items": {
+            "Maw of Beriel": [],
+            "Eye of Wallachia": [],
+            "Ring of Insanity": [],
+            "Athanasia, the Armor of the Reaper": [],
+            "Cloak of the Fallen Shadows": []
+        }
+    },
+    {
+        "for": "Martial Artist",
+        "type": "DPS - End",
+        "order": 4,
         "stat": "AGI",
         "version": "60u",
         "description": [
