@@ -1,5 +1,230 @@
 [
     {
+        "name": "61y",
+        "notes": [
+            "Released on: October 11th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Fixed bug with difficulty mode not working properly",
+            "Fixed bug with some items being displayed as 'Default String' in recipe menu",
+            "Fighter - Fixed bug where T restores mana even if not empowered",
+            "Wind Mage - Fixed bug where E passive shield didn't apply properly when healing allies"
+        ],
+        "items": [
+            {
+                "name": "Heartrender",
+                "changes": [
+                    "Main stat: 900 → 930",
+                    "Active",
+                    [
+                        "damage: 200000 → 250000",
+                        "Non-boss bonus damage: 100% → 50%",
+                        "Cooldown on kill: 3 seconds → 10 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Soulbane",
+                "changes": 
+                "Cooldown: 80 seconds → 60 seconds"
+            },
+            {
+                "name": "Crimson Curse",
+                "changes": [
+                    "Passive",
+                    [
+                        "ATK DMG increase: 9500 → 9000",
+                        "Max attack empower count: 8 → 7"
+                    ]
+                ]
+            },
+            {
+                "name": "Wings of Sacred Provenance",
+                "changes": [
+                    "Passive",
+                    [
+                        "Damage per projectile: 12000 → 11000"
+                    ]
+                ]
+            },
+            {
+                "name": "Wings of Night Lord",
+                "changes": [
+                    "Effect toned down a bit / made purple"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Nereid",
+                "changes": [
+                    "When wheel phase starts, any bubbles on map created by Breath skill will be removed"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Dragon Slam (F)",
+                    [
+                        "Cast range: 800 → 1000"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightseeker",
+                "changes": [
+                    "Enlightenment (T)",
+                    [
+                        "Active skill damage amp 15% / 40% → 0% / 25%"
+                    ],
+                    "Light of Judgment (F)",
+                    [
+                        "Initial damage: STR X 100 → STR X 80"
+                    ]
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Shadow Slash (Q)",
+                    [
+                        "Crit chance bonus per stack: 7% → 6%"
+                    ],
+                    "Ambush (W)",
+                    [
+                        "ATK DMG bonus after cast: 25% → 20%"
+                    ],
+                    "Shadow Rush (T)",
+                    [
+                        "Damage per illusion: AGI X 6.5 → AGI X 6"
+                    ]
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "Stage Finisher (T)",
+                    [
+                        "Damage per strike: ATK DMG X 1.5 + AGI X 15 → ATK DMG X 1 + AGI X 15"
+                    ]
+                ]
+            },
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "Magic Ballista (F)",
+                    [
+                        "Reworked",
+                        "Summons a set of 7 arrows in a form of a ballista, which fire after a short delay",
+                        "Each of the first 6 arrows deal AGI X 15 magic damage and restores a charge of Elven Arrow",
+                        "The final arrow deals AGI X 100 magic damage"
+                    ]
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Flame Nova (E)",
+                    [
+                        "Damage amp per wave: 33% → 30%"
+                    ],
+                    "Flame Combustion (R)",
+                    [
+                        "Burn damage amp: 66% → 50%"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Mirror of Aeolus (E)",
+                    [
+                        "Passive",
+                        [
+                            "Max shield amount: INT X 5 → INT X 1"
+                        ],
+                        "Active",
+                        [
+                            "Damage INT X 20 → INT X 20 + absorbed damage X 10 (max: INT X 200)"
+                        ]
+                    ]
+                ]
+            },
+            {
+                "name": "Arcane Mage",
+                "changes": [
+                    "Barrage (T)",
+                    [
+                        "Bolt damage: INT X 9.5 → INT X 10"
+                    ],
+                    "Starlight (F)",
+                    [
+                        "Bolt damage: INT X 2.25 → INT X 2.5",
+                        "Bolt damage when hitting Q: INT X 2.25 → INT X 5"
+                    ]
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Infusion (D)",
+                    [
+                        "INT bonus: 20% → 10%"
+                    ],
+                    "Conjure Water (W) - Water Bomb (Q)",
+                    [
+                        "Damage bonus per stack: 100% → 133%",
+                        "Max stack 5 → 3"
+                    ],
+                    "Conjure Earth (R) - Conjure Cannon (Q)",
+                    [
+                        "Damage per cannon INT X 8.5 → INT X 7.5"
+                    ],
+                    "Philosopher's Stone (T)",
+                    [
+                        "Increases skill damage by 15% → damage dealt by 15%",
+                        "Activating a unique trasmutation will have its damage increased by 50%",
+                        "Cooldown: 45 seconds → 40 seconds"
+                    ],
+                    "Gate of Truth (F)",
+                    [
+                        "Max INT bonus: 50% → 30%",
+                        "Reduction: 30% → 25%",
+                        "Explosion damage: INT X 60 → INT X 100",
+                        "Cooldown: 80 seconds → 60 seconds",
+                        "(note: this is meant to be a nerf in general)"
+                    ]
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Claw (Q)",
+                    [
+                        "Cooldown: 0.5 seconds → 0.4 seconds"
+                    ],
+                    "Rose Dance (W)",
+                    [
+                        "HP cost: 25% → 20%",
+                        "Damage: max HP X 2 → max HP X 2.5"
+                    ],
+                    "Crimson Pillar (T)",
+                    [
+                        "Damage: max HP X 10 → max HP X 12.5"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Icon updated on some characters",
+            "Added 'replay needed' description for tokens",
+            "Blaster will be released on the next version"
+        ]
+    },
+    {
         "name": "61x",
         "notes": [
             "Released on: October 2nd, 2022",

@@ -267,7 +267,7 @@
         "order": 1,
         "passive": [
             "Affinity with the elementals allows one to practice effective alchemy",
-            "Gains 20% bonus in INT while all elemental conjurings are active"
+            "Gains 10% bonus in INT while all elemental conjurings are active"
         ],
         "active": [
             "Use mana to allow sudden conjuring.",
@@ -386,8 +386,8 @@
             "Transmutes a water bomb.",
             "INT X 15 magic damage",
             "Explodes when it touches a boss unit or 10 seconds elapse",
-            "Burning units take 100% bonus damage",
-            "On recast, refreshes the duration and increases its damage by 100% (up to 5 times)",
+            "Burning units take 133% bonus damage",
+            "On recast, refreshes the duration and increases its damage by 100% (up to 3 times)",
             "Up to 1 bomb can be active at once",
             "Chain: Wind Blast (pushes the bomb away)"
         ]
@@ -551,7 +551,7 @@
         "order": 19,
         "active": [
             "Transmutes a cannon to fire a powerful cannonball.",
-            "INT X 8.5 magic damage",
+            "INT X 7.5 magic damage",
             "Also fired from existing cannons",
             "Cannon will disappear if you move far away from it or 10 seconds elapse",
             "Up to 5 cannons can be active at once"
@@ -683,13 +683,13 @@
         "color": "ddb3f7P",
         "hotkey": "[T]",
         "icon": "AlchemistT",
-        "cooldown": 45,
+        "cooldown": 40,
         "order": 28,
         "active": [
             "Uses a mystical reagent known as Philosopher's Stone to amplify your transmutations.",
             "Resets cooldowns on all transmutations",
-            "For 10 seconds, increases skill damage by 15%",
-            "Next 5 transmutations do not trigger cooldown"
+            "Increases damage dealt by 15% for 10 seconds",
+            "Next 5 transmutations do not incur cooldown and deals 50% more damage if it hasn't been activated previously"
         ]
     },
     {
@@ -699,14 +699,14 @@
         "color": "f7b395",
         "hotkey": "[F]",
         "icon": "AlchemistF",
-        "cooldown": 120,
+        "cooldown": 60,
         "order": 29,
         "active": [
             "\"I don't know what is the 'truth' of this world. However, as I look at his efforts and sacrifices in attempts to reach it, I believe something truly fascinating is awaiting him at the end of his road.\" - A Scholar of Prius",
             "Consumes Max HP X (5 + 0.50 X elapsed seconds)% per second",
-            "Increases INT by 2% on every second and on every skill cast (up to 50%)",
-            "Reduces damage taken by 30%",
-            "On expiration, deals INT X 60 damage to nearby enemies and stuns for 2.5 seconds"
+            "Increases INT by 1.5% on every second and on every skill cast (up to 30%)",
+            "Reduces damage taken by 25%",
+            "On expiration, deals INT X 100 magic damage to nearby enemies and stuns for 2.5 seconds"
         ]
     },
     {
@@ -933,7 +933,7 @@
         "color": "ff1a1a",
         "hotkey": "[Q]",
         "icon": "BloodWeaverQ",
-        "cooldown": 0.5,
+        "cooldown": 0.4,
         "order": 2,
         "passive": [
             "Unleash blades made from the spilled blood of your enemies.",
@@ -959,8 +959,8 @@
         "order": 3,
         "active": [
             "Swiftly move by transforming into bats.",
-            "Consumes Max HP X 25%",
-            "Max HP X 2 magic damage",
+            "Consumes Max HP X 20%",
+            "Max HP X 2.5 magic damage",
             "Invulnerable while travelling"
         ]
     },
@@ -1017,7 +1017,7 @@
         "order": 6,
         "active": [
             "Purify enemies with a ritual of blood.",
-            "Max HP X 10 magic damage",
+            "Max HP X 12.5 magic damage",
             "Pulls in enemes that are far away"
         ]
     },
@@ -1101,7 +1101,7 @@
         "active": [
             "Create a fiery explosion by converting mana in the atmosphere into fire.",
             "INT X 30 magic damage",
-            "Damage amplified by 33% each time it travels outward"
+            "Damage amplified by 30% each time it travels outward"
         ]
     },
     {
@@ -1116,7 +1116,7 @@
         "active": [
             "Concentrate flames into a single point, creating a massive combustion of mana.",
             "INT X 10 magic damage",
-            "Amplifies burn damage inflicted by Fire Mage by 66% for 5 seconds"
+            "Amplifies burn damage inflicted by Fire Mage by 50% for 5 seconds"
         ]
     },
     {
@@ -2836,7 +2836,7 @@
         "active": [
             "Perform a frontal slash aimed toward weak spots.",
             "Attack damage X 0.4 + AGI X 3.5 magic damage",
-            "If an enemy is hit, obtains Shadow Mark for 10 seconds, increasing critical chance by 7% (up to 5 stacks)",
+            "If an enemy is hit, obtains Shadow Mark for 10 seconds, increasing critical chance by 6% (up to 5 stacks)",
             "At max stacks, the duration no longer refreshes but resets cooldown on Shadow Slash and Shadow Rush"
         ]
     },
@@ -2853,7 +2853,7 @@
             "Melds into the darkness to strike the enemy from behind.",
             "Attack damage X 1.25 + AGI X 7.5 magic damage",
             "Stuns for 1.5 seconds",
-            "After cast, increases attack damage by 25% for 6 seconds",
+            "After cast, increases attack damage by 20% for 6 seconds",
             "Critical strike is guaranteed if used while invisible"
         ]
     },
@@ -2901,10 +2901,9 @@
         "order": 6,
         "active": [
             "Summon shadows from all directions and rush toward the target point.",
-            "AGI X 6.5 magic damage",
-            "Summons 4 additional shadows to attack",
-            "Empowers next Shadow Slash or Ambush",
-            "Lasts 8 seconds"
+            "AGI X 6 magic damage",
+            "Summons 4 additional shadows that imitates the skill",
+            "Shadows will also imitate next Shadow Slash or Ambush, dealing 50% damage"
         ]
     },
     {
@@ -3005,12 +3004,12 @@
         "passive": [
             "Heals grant resistance to allies.",
             "Creates barrier that absorbs damage equal to 20% X healed amount",
-            "Stacks up to a maximum of INT X 5"
+            "Stacks up to a maximum of INT X 1"
         ],
         "active": [
             "Summon a mirror of eon to redirect harm back to attackers.",
             "For 9 seconds, absorbs 45% of damage taken by nearby allies",
-            "Upon expiration or casting again, deals INT X 20 magic damage to nearby enemies",
+            "Upon expiration or casting again, deals INT X 20 + absorbed damage X 10 (max: INT X 200) magic damage to nearby enemies",
             "Knocks back non-boss units"
         ]
     },
@@ -3672,11 +3671,10 @@
         "order": 8,
         "active": [
             "\"Without a warning, our enemies were swept across like dust by a magical arrow she shot.\" - A soldier of battlefield",
-            "AGI X 17.5 magic damage",
-            "Each arrow deals AGI X 3 magic damage",
-            "Explosion deals AGI X 75 magic damage",
-            "Stacks Elven Arrow every second for 6 seconds",
-            "Stacks are usable for 15 seconds"
+            "Summons 6 small arrows that deals AGI X 15 magic damage each",
+            "Afterwards, fires a large arrow that deals AGI X 100 magic damage",
+            "On cast, resets cooldown of Flame Shot and Freezing Shot",
+            "Gains 1 charge of Elven Arrow each time small arrow is fired"
         ]
     },
     {
@@ -4122,7 +4120,7 @@
         "order": 6,
         "active": [
             "Fires magical missiles everywhere.",
-            "Each missile deals INT X 9.5 magic damage",
+            "Each missile deals INT X 10 magic damage",
             "Fires 5 missiles"
         ]
     },
@@ -4137,9 +4135,10 @@
         "order": 7,
         "active": [
             "\"It's not an ordinary spell. This parade of stars that formed from the harmony of mana will captivate anyone's mind who sees it.\" - Mage",
-            "Summons 5 stars that fires missiles every second and when you hit Magic Star on a boss unit",
-            "Each missile deals INT X 2.25 magic damage",
-            "Resets cooldown on Moonlight Link"
+            "Summons 5 stars for 10 seconds",
+            "Every second, each star fires a magic missile dealing INT X 2.5 magic damage",
+            "When you Magic Star, each star fires a magic missile dealing  INT X 5 magic damage",
+            "On use, resets cooldown on Moonlight Link"
         ]
     },
     {
@@ -5471,7 +5470,7 @@
         ],
         "active": [
             "Delivers a grand finale.",
-            "Consumes all marks to deal attack damage X 1.5 + AGI X 15 magic damage each",
+            "Consumes all marks to deal Attack Damage X 1 + AGI X 15 magic damage each",
             "Can critically strike"
         ]
     },
@@ -5866,10 +5865,10 @@
             "Upon generating 5 motes, active is enabled"
         ],
         "active": [
+            "Resets cooldown of basic skills",
             "At full Motes of Light, consumes it all to become empowered",
-            "Resets cooldown on basic skills (if empowered, allows 4 more resets)",
-            "Damage dealt by skills is increased by 15% for 10 seconds (if empowered, increased by 40%)",
-            "If empowered, charges all Empowering Light and allows it to empower 2 skill casts"
+            "Increases damage dealt by skills by 25% for 10 seconds and allows 4 additional resets",
+            "Charges all Empowering Light and allows it to empower 2 skill casts"
         ]
     },
     {
@@ -5883,7 +5882,8 @@
         "order": 7,
         "active": [
             "\"No one can escape the Light of Judgment.\" - Lightseeker",
-            "STR X 100 magic damage",
+            "STR X 80 magic damage",
+            "Stuns for 2 seconds",
             "Leaves a pool of light for 2.5 seconds, dealing STR X 25 magic damage per second",
             "Consumes Empowering light, increasing damage dealt by 5% per stack"
         ]

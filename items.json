@@ -18994,7 +18994,7 @@
         "Fires 4 arrows to selected area",
         "Each arrow deals (AGI X 30) magic damage in an AoE",
         "Stuns for 2.5 seconds",
-        "Cooldown: 80 seconds, cannot be dropped during cooldown"
+        "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
         "Specialties",
@@ -22139,7 +22139,7 @@
     ],
     "stats": {
       "damage": 10700,
-      "mainstat": 900,
+      "mainstat": 930,
       "attackspeedpercent": 0.3,
       "skilldamagepercent": 0.05,
       "passive": [
@@ -22148,10 +22148,10 @@
       ],
       "active": [
         "On use, activates Heartrender",
-        "Summons and launches a bloody spear at target, marking it and dealing 200000 magic damage and stunning it for 1 second",
-        "Deals 100% bonus damage to non-boss units (includes elite units as well)",
+        "Summons and launches a bloody spear at target, marking it and dealing 250000 magic damage and stunning it for 1 second",
+        "Deals 50% bonus damage to non-boss units (includes elite units as well)",
         "If the marked target dies, the cooldown of this effect will be reset",
-        "Cooldown: 20 seconds (minimum 3 seconds per cast), cannot be dropped during cooldown"
+        "Cooldown: 20 seconds (minimum 10 seconds per cast), cannot be dropped during cooldown"
       ]
     }
   },
@@ -23509,8 +23509,8 @@
       "healreceivedpercent": -0.35,
       "passive": [
         "15% Chance to activate Lunacy on attack",
-        "Next 3 attacks, and every 6th attack afterwards (up to 8 attacks total) deals (ATK DMG X 100%) bonus pure damage",
-        "For 7.5 seconds, increases ATK DMG by 9500, Main Stat/HP regen by 425",
+        "Next 3 attacks, and every 6th attack afterwards (up to 7 attacks total) deals (ATK DMG X 100%) bonus pure damage",
+        "For 7.5 seconds, increases ATK DMG by 9000, Main Stat/HP regen by 425",
         "Cooldown: 15 seconds"
       ],
       "active": [
@@ -23907,7 +23907,7 @@
       "affinityflamepercent": 0.05,
       "passive": [
         "Activate Sacred Flame on dealing magic damage",
-        "Deals 36000 magic damage to and around target (450 AoE)",
+        "Deals 11000 per arrow (3 arrows) magic damage to and around target (450 AoE)",
         "Gain a stack of Sacred Dawn",
         "Each stack increases skill damage by 1.5% and fire affinity by 0.5% for 6 seconds (up to 5 stacks)",
         "Upon max stacks, the user can no longer refresh stacks",
