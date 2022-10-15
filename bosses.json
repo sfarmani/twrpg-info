@@ -3415,6 +3415,10 @@
         "respawn": "3",
         "location": "To the Southeast of Volcanic Lands inside of Dragon Nest",
         "conditions": "Level 100",
+        "notes": [
+            "Wish droprate: 100%",
+            "Without wish droprate: 75%"
+        ],
         "stats": {
             "health": "7200000",
             "healthRegen": "3000",
@@ -3462,6 +3466,10 @@
         "respawn": "5",
         "location": "In Prius Forward camp, the Sealed Land to the North",
         "conditions": "Level 100",
+        "notes": [
+            "Wish droprate: 100%",
+            "Without wish droprate: 75%"
+        ],
         "stats": {
             "health": "8100000",
             "healthRegen": "15000",
@@ -3539,6 +3547,10 @@
         "respawn": "5",
         "location": "In Prius Forward camp, the Graveyard of Eternal Life to the East",
         "conditions": "Level 100",
+        "notes": [
+            "Wish droprate: 100%",
+            "Without wish droprate: 75%"
+        ],
         "stats": {
             "health": "8100000",
             "healthRegen": "0",
@@ -3650,6 +3662,10 @@
         "respawn": "5",
         "location": "In Fairy Forest where a statue resides",
         "conditions": "Level 100, 1 Green Magic Stone on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
+        "notes": [
+            "Wish droprate: 100%",
+            "Without wish droprate: 75%"
+        ],
         "stats": {
             "health": "75000000",
             "healthRegen": "22500",
@@ -3790,6 +3806,10 @@
         "respawn": "5",
         "location": "In Castle Avalon, fighting area of Guardian Angels",
         "conditions": "Recommended Level 100, Guardian Angels defeated, and White Magic Stone x3",
+        "notes": [
+            "Wish droprate: 100%",
+            "Without wish droprate: 75%"
+        ],
         "stats": {
             "health": "9000000",
             "healthRegen": "2250",
@@ -3834,6 +3854,10 @@
         "respawn": "5",
         "location": "South of Frosty Snowfield, in Deep Snowfield",
         "conditions": "Level 100 and Blue Magic Stone x12",
+        "notes": [
+            "Wish droprate: 100%",
+            "Without wish droprate: 75%"
+        ],
         "stats": {
             "health": "8250000",
             "healthRegen": "7500",
@@ -3951,6 +3975,10 @@
         "respawn": "3",
         "location": "In Abandoned Graveyard, at spawn of Mad Clown",
         "conditions": "Level 100 and Red Magic Stone x12",
+        "notes": [
+            "Wish droprate: 100%",
+            "Without wish droprate: 40%"
+        ],
         "stats": {
             "health": "7533000",
             "healthRegen": "7500",
@@ -4157,6 +4185,10 @@
         "respawn": "5",
         "location": "The Left-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 100 and Key of Storm crafted",
+        "notes": [
+            "Wish droprate: 100%",
+            "Without wish droprate: 40%"
+        ],
         "stats": {
             "health": "10000000",
             "healthRegen": "7500",
@@ -4238,6 +4270,10 @@
         "respawn": "5",
         "location": "The top-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 100 and Key of Flame crafted",
+        "notes": [
+            "Wish droprate: 100%",
+            "Without wish droprate: 40%"
+        ],
         "stats": {
             "health": "11000000",
             "healthRegen": "7500",
@@ -4368,6 +4404,10 @@
         "respawn": "5",
         "location": "The right-most portal in the tower located east of the Secluded Forest",
         "conditions": "Level 100 and Key of Sea crafted",
+        "notes": [
+            "Wish droprate: 100%",
+            "Without wish droprate: 40%"
+        ],
         "stats": {
             "health": "11250000",
             "healthRegen": "15000",
