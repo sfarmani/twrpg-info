@@ -1100,92 +1100,82 @@
     },
     {
         "for": "Shooter",
-        "type": "DPS",
+        "type": "Damage",
         "order": 1,
         "stat": "AGI",
-        "version": "47a",
+        "version": "61y",
         "description": [
-            "Ring of Divine winds is mainly there for the fun aspect of it, its not really preferred above the rest.",
-            "Brave Heart and Wings of Immortal is used for defense."
+            "if you want an int variant of damage @phony; and i'll tell you why you're wrong."
         ],
         "items": {
             "Chrono Chaser": [],
-            "Crown of Absolute Zero": [
+            "Crown of Transcendence": [
             ],
-            "Ring of Frozen Soul": [
-                "Ring of the One",
-                "Ring of Divine Winds"
-            ],
+            "Ring of Desolate Soul": [],
             "Nevedium, the Armor of Demonblood": [],
-            "Archangel Wings": [
-                "Wings of Flame Lord",
-                "Brave Heart",
-                "Wings of Immortal"
-            ]
+            "Wings of Cosmos": []
         }
     },
     {
         "for": "Shooter",
-        "type": "Support",
+        "type": "Healing focused support",
         "order": 2,
         "stat": "INT",
-        "version": "47a",
+        "version": "61y",
         "description": [
-            "Use Crown of Serenity if no one else has it on the team.",
-            "Cosmic Star is situational - Targetted healing vs aoe healing"
+            "Items can vary depending on team comp, swap to Protection of the Fairies to revive allies."
         ],
         "items": {
-            "Rainmaker": [
-                "Cosmic Star"
-            ],
-            "Crown of Serenity": [
-                "Hood of Apocalypse",
-                "Crown of Absolute Zero"
+            "Rainmaker": [],
+            "Crown of Cleansing": [
+                "Eye of the Flame Lord",
+                "Hood of Apocalypse"
             ],
             "Ring of Hope": [
+                "Heirloom of Lazarus",
                 "Nebula Rose",
                 "Horn of God"
             ],
             "Jupiter, the Robe of Heavens": [
+                "Frost Herald's Garment",
                 "Harmony of Sky and Earth"
             ],
-            "Wings of Immortal": [
-                "Protection of the Fairies",
-                "Brave Heart"
+            "Guardian Angel": [
+                "Wings of Immortal",
+                "Protection of the Fairies"
             ]
         }
     },
     {
         "for": "Shooter",
-        "type": "Cosmic Star (support/hybrid) build",
+        "type": "TOP ECHELON AUXILIARY",
         "order": 3,
         "stat": "INT",
-        "version": "47a",
+        "version": "61y",
         "description": [
-            "Crown of Absolute Zero is used for damage while Hood of Apocalypse is support",
-            "Can use Crown of Serenity if no one else has it on the team",
-            "Use Jupiter if you are INT, Nevedium as AGI. Harmony is another support option",
-            "Use Horn of God and Nebula Rose interchangably as INT and Ring of the One as AGI for damage",
-            "Archangel Wings are an AGI yolo build..."
+            "Swap items according to team composition.",
+            "Revive non-chad gamers with Protection of The Fairies.",
+            "Can use damage items to attribute to greater bursts."
         ],
         "items": {
-            "Cosmic Star": [],
-            "Crown of Absolute Zero": [
-                "Hood of Apocalypse",
-                "Crown of Serenity"
+            "Abyss Fall": [],
+            "Crown of Cleansing": [
+                "Eye of the Flame Lord",
+                "Prophetia, the Origin of Knowledge"
             ],
-            "Horn of God": [
+            "Ring of Despair": [
+                "Heirloom of Lazarus",
                 "Nebula Rose",
-                "Ring of the One"
+                "Horn of God"
             ],
-            "Jupiter, the Robe of Heavens": [
-                "Nevedium, the Armor of Demonblood",
-                "Harmony of Sky and Earth"
+            "Frost Herald's Garment": [
+                "Jupiter, the Robe of Heavens",
+                "Thanatos, the Robe of Hell"
             ],
-            "Wings of Immortal": [
+            "Guardian Angel": [
+                "Wings of Immortal",
                 "Protection of the Fairies",
-                "Brave Heart",
-                "Archangel Wings"
+                "Wings of Cosmos"
             ]
         }
     },
