@@ -870,5 +870,26 @@
         "spec": [
             "No Specs!"
         ]
+    },
+    {
+        "id": "H09N",
+        "name": "Yuzuka",
+        "heroClass": "Blaster",
+        "mainstat": "STR",
+        "color": "c57372",
+        "icon": "BlasterIcon",
+        "wearable": [
+            "Weapon (Shared)",
+            "Weapon (Gun)"
+        ],
+        "role": [
+            "DPS"
+        ],
+        "description": [
+            "Ranged damage dealer. Relies greatly on attacks."
+        ],
+        "spec": [
+            "No Specs!"
+        ]
     }
 ]

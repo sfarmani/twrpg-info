@@ -1,5 +1,128 @@
 [
     {
+        "name": "61z2",
+        "notes": [
+            "Released on: October, 20th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Titan's Plates - Passive will no longer proc if the boss is invulnerable",
+            "Ring of Eternity - Fixed issue where item could be dropped while on cooldown"
+        ],
+        "heroes": [
+            {
+                "name": "Blaster",
+                "changes": [
+                    "Auto attack cooldown: 0.6s → 0.5s",
+                    "Heavy Tech (D)",
+                    [
+                        "Damage dealt by attacks: 100% → 115%",
+                        "Weapon stat conversion will now only work on guns without STR",
+                        "stat conversion ratio: 100% → 125%"
+                    ],
+                    "Steam Blast (W)",
+                    [
+                        "Proc chance: 25% → 30%",
+                        "Bonus damage: 25% → 30%"
+                    ],
+                    "Buster Shot (E)",
+                    [
+                        "Fixed issue where 2nd break icon is harder to see than 1st break icon",
+                        "Base cast time: 0.5s → 0.4s"
+                    ],
+                    "Mecha Call (R)",
+                    [
+                        "Assist damage: (STR + INT) X 3 → (STR + INT) X 5",
+                        "Blast damage: STR X 12.5 → STR X 10"
+                    ],
+                    "Homing Missile (T)",
+                    [
+                        "Missile damage: STR X 4 → STR X 5",
+                        "Passive missiles will no longer stun (active missiles still do)",
+                        [
+                            "Proc cooldown: 2.5s → 2s"
+                        ],
+                        "Active will now properly proc 'on skill cast' events",
+                        [
+                            "Activation delay (0.25s) removed"
+                        ]
+                    ],
+                    "Orbital Bombardment (F)",
+                    [
+                        "Ray damage: STR X 10 → STR X 7.5",
+                        "Big bomb damage: STR X 80 → STR X 60"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "61z",
+        "notes": [
+            "Released on: October, 20th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Alchemist - Fixed bug where WQ could stack up to 4 times instead of 3",
+            "Wind Mage - Fixed description error on R"
+        ],
+        "items": [
+            {
+                "name": "Chrono Chaser / Last Word series",
+                "changes": [
+                    "AGI scaling on passive / active damaging effects changed to main stat scaling"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Bone Dragon",
+                "changes": [
+                    "Wish fairy moved to a safter spot"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Blaster",
+                "changes": [
+                    "New character has been released (main stat: STR, weapon: gun)"
+                ]
+            },
+            {
+                "name": "Knight",
+                "changes": [
+                    "Updated skill description to include MP costs"
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Execution Sword (D)",
+                    [
+                        "Buff duration: 6 seconds → 10 seconds"
+                    ],
+                    "1st Sword Dance: Strike (R)",
+                    [
+                        "Damage taken debuff moved from empowered E to R1"
+                    ]
+                ]
+            },
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "F",
+                    [
+                        "Activation speed slightly increased"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Setting -angle to 0 will set it to 1 instead (to prevent visual glitches)"
+        ]
+    },
+    {
         "name": "61y",
         "notes": [
             "Released on: October 11th, 2022",

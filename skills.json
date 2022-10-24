@@ -2328,7 +2328,7 @@
         "active": [
             "Sends down a flow of mana into the sword, awakening its true potential.",
             "Empowers next 3 attacks with Flash Sword",
-            "Lasts 6 seconds"
+            "Lasts 10 seconds"
         ]
     },
     {
@@ -2397,6 +2397,7 @@
         "active": [
             "Dash forward with lightning speed, striking all enemies.",
             "Attack Damage X 5 magic damage",
+            "Increases damage taken by target by 10% for 8 seconds",
             "Enhance next Remains of Rage cast within 3 seconds, increasing its damage by 250% and dashing to target location to inflict stun for 1 second",
             "Chain - 2nd Sword Dance: Sword"
         ]
@@ -3708,6 +3709,7 @@
         "order": 2,
         "active": [
             "Performs a mighty slash with mana-infused sword.",
+            "Consumes Max MP X 40%",
             "Attack Damage X 0.7 + Max MP X 0.7 magic damage",
             "Reactivates with halved effectiveness on attack for 4 seconds"
         ]
@@ -3723,6 +3725,7 @@
         "order": 3,
         "active": [
             "Quickly dash across the battlefield.",
+            "Consumes Max MP X 40%",
             "STR X 10 magic damage",
             "Knockbacks enemies toward charge direction",
             "Colliding from far distance breaks barriers and deals up to (8 X damage reduction + 4 X magic defense)% bonus damage",
@@ -3777,11 +3780,12 @@
         "order": 6,
         "passive": [
             "Reduce magical effects imposed upon Knight.",
-            "Each orb increases magic defense by 8%",
-            "One orb is generated automatically every 3 seconds"
+            "Creates a mana orb every 3 seconds (up to 3 orbs)",
+            "Each orb increases magic defense by 8%"
         ],
         "active": [
             "Materialize mana into an orb.",
+            "Consumes Max MP X 10% per orb created",
             "If 3 orbs are charged, it sends all 3 orbs to target location with each orb dealing 400% max MP",
             "If Release Mana is toggled on, each orb stuns target",
             "If Release Mana is toggled off, each orb slows target movement speed by 50% for 3 seconds",
@@ -5886,6 +5890,146 @@
             "Stuns for 2 seconds",
             "Leaves a pool of light for 2.5 seconds, dealing STR X 25 magic damage per second",
             "Consumes Empowering light, increasing damage dealt by 5% per stack"
+        ]
+    },
+    {
+        "id": "A1AT",
+        "name": "Heavy Tech",
+        "heroClass": "Blaster",
+        "color": "d09696",
+        "hotkey": "[D]",
+        "icon": "BlasterD",
+        "order": 1,
+        "passive": [
+            "Equipped with heavy but high-tech armaments..",
+            "Your attacks deal 15% bonus damage, ignore all armor and splashes for 50% damage",
+            "Every second, gains a shield that absorbs up to Max HP X 1% damage (stacks up to Max HP X 25%)",
+            "If using a gun without STR stat, converts 125% of AGI to STR",
+            "You do not benefit from attack speed from AGI increase, and only 1/3 of pure attack speed"
+        ]
+    },
+    {
+        "id": "A1AU",
+        "name": "Rapid Fire",
+        "heroClass": "Blaster",
+        "color": "d09696",
+        "hotkey": "[Q]",
+        "icon": "BlasterQ",
+        "cooldown": 8,
+        "order": 2,
+        "active": [
+            "Focuses your firing power.",
+            "Increases attack speed by 100% for 2.5 seconds"
+        ]
+    },
+    {
+        "id": "A1AW",
+        "name": "Steam Blast",
+        "heroClass": "Blaster",
+        "color": "d09696",
+        "hotkey": "[W]",
+        "icon": "BlasterW",
+        "cooldown": 6,
+        "order": 3,
+        "active": [
+            "Blasts fiery steam toward target direction.",
+            "STR X 3 magic damage",
+            "Burns target for 25 seconds",
+            "Basic attacks against target has 30% chance to deal 30% bonus damage and apply as pure damage"
+        ]
+    },
+    {
+        "id": "A1AX",
+        "name": "Buster Shot",
+        "heroClass": "Blaster",
+        "color": "d09696",
+        "hotkey": "[E]",
+        "icon": "BlasterE",
+        "cooldown": 10,
+        "order": 4,
+        "passive": [
+            "Basic attacks and Homing Missiles against bosses have 15% chance to critically strike and apply Armor Break",
+            "Increases damage dealt by your attacks to target by 20% for 4 seconds (stacks up to 2 times)"
+        ],
+        "active": [
+            "Charges to fires a destructive missile.",
+            "Attack Damage X 1 + STR X 10 magic damage and slow",
+            "If Armor Break is at max stacks, cooldown is reset",
+            "Converts Armor Break into Critical Break for 2 seconds, which also increases damage dealt by your skills",
+            "Consumes Critical Break to land as critical strike",
+            "Charging speed is affected by attack speed"
+        ]
+    },
+    {
+        "id": "A1AZ",
+        "name": "Mecha Call",
+        "heroClass": "Blaster",
+        "color": "d09696",
+        "hotkey": "[R]",
+        "icon": "BlasterR",
+        "cooldown": 40,
+        "order": 5,
+        "active": [
+            "Calls down assist from the sky.",
+            "Summons 4 drones for 15 seconds that assist your basic attacks, dealing (STR + INT) X 5 magic damage (cooldown: 1s)",
+            "Fully recharges barrier and basic skill cooldowns",
+            "Chain Cast - Mecha Blast"
+        ]
+    },
+    {
+        "id": "A1B0",
+        "name": "Mecha Blast",
+        "heroClass": "Blaster",
+        "color": "d09696",
+        "hotkey": "[R → R]",
+        "icon": "BlasterR2",
+        "cooldown": 0,
+        "order": 6,
+        "active": [
+            "Sends your drone to causes an explosion.",
+            "STR X 10 magic damage",
+            "Converts Armor Break into Critical Break",
+            "Consumes Critical Break to land as critical strike"
+        ]
+    },
+    {
+        "id": "A1B1",
+        "name": "Homing Missile",
+        "heroClass": "Blaster",
+        "color": "d09696",
+        "hotkey": "[T]",
+        "icon": "BlasterT",
+        "cooldown": 5,
+        "order": 7,
+        "passive": [
+            "Loads missiles periodically.",
+            "1 missile is loaded every 3 seconds and on every 6rd basic attack",
+            "3 missiles are loaded on casting Buster Shot",
+            "10 missiles are loaded on casting Mecha Call",
+            "You can store up to 25 missiles, and at max capacity your next attack will release an excess missile (cooldown: 2.5s)"
+        ],
+        "active": [
+            "Bombards target area with all your homing missiles.",
+            "Every 0.1s, deals STR X 5 magic damage and short stun",
+            "Refreshes Critical Break",
+            "Firing speed is affected by pure attack speed"
+        ]
+    },
+    {
+        "id": "A1B2",
+        "name": "Orbital Bombardment",
+        "heroClass": "Blaster",
+        "color": "d09696",
+        "hotkey": "[F]",
+        "icon": "BlasterF",
+        "cooldown": 120,
+        "order": 8,
+        "active": [
+            "\"Blast away!\" - Blaster",
+            "For 2.5 seconds, deals STR X 7.5 magic damage and short stun every 0.25 seconds",
+            "Applies Critical Break to boss",
+            "Afterwards, drops a big bomb dealing STR X 60 magic damage",
+            "Lands as critical strike"
         ]
     }
 ]

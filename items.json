@@ -3953,7 +3953,7 @@
       "agi": 180,
       "passive": [
         "Empowers next attack with Iron Bullet every 8 seconds",
-        "Empowered attacks deal (7.5 X AGI) magic damage and stuns for 0.25 seconds"
+        "Empowered attacks deal (7.5 X MAIN STAT) magic damage and stuns for 0.25 seconds"
       ]
     }
   },
@@ -10835,7 +10835,7 @@
       "skilldamagepercent": 0.04,
       "active": [
         "On use, activates Dragon Blast",
-        "Deals ((AGI X 20) + 1% max HP) magic damage",
+        "Deals ((MAIN STAT X 20) + 1% max HP) magic damage",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -12537,7 +12537,7 @@
       "skilldamagepercent": 0.06,
       "active": [
         "On use, activates Devil Blast",
-        "Deals ((AGI X 25) + (1% max HP)) magic damage",
+        "Deals ((MAIN STAT X 25) + (1% max HP)) magic damage",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -12626,7 +12626,7 @@
       "critmultiplier": 0.2,
       "passive": [
         "Empowers next attack with Iron Bullet every 8 seconds",
-        "Deals ((ATK DMG X 0.7) + (AGI X 7.5)) magic damage per stack (up to 1 stack)",
+        "Deals ((ATK DMG X 0.7) + (MAIN STAT X 7.5)) magic damage per stack (up to 1 stack)",
         "Stuns for 0.25 seconds"
       ]
     }
@@ -12711,7 +12711,7 @@
       "critmultiplier": 0.2,
       "passive": [
         "Empowers next attack with Bullet of Ruin every 6 seconds",
-        "Deals ((ATK DMG X 0.85) + (AGI X 7.5)) magic damage per stack (up to 3 stacks)",
+        "Deals ((ATK DMG X 0.85) + (MAIN STAT X 7.5)) magic damage per stack (up to 3 stacks)",
         "Stuns for 0.25 seconds"
       ]
     }
@@ -15694,7 +15694,7 @@
       "skilldamagepercent": 0.08,
       "active": [
         "On use, activates Devil Chaser",
-        "Deals ((AGI X 30) + (1.25% max HP)) magic damage",
+        "Deals ((MAIN STAT X 30) + (1.25% max HP)) magic damage",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -15742,7 +15742,7 @@
       "active": [
         "On use, activates Fiend Chaser",
         "Breaks shields",
-        "Deals ((AGI X 37.5) + (1.25% max HP)) magic damage",
+        "Deals ((MAIN STAT X 37.5) + (1.25% max HP)) magic damage",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -15894,7 +15894,7 @@
       "critmultiplier": 0.25,
       "passive": [
         "Charges a Bullet of Ruin every 6 seconds",
-        "Deals ((AGI X 7.5) + (ATK DMG X 0.85)) magic damage per stack (up to 2 stacks)",
+        "Deals ((MAIN STAT X 7.5) + (ATK DMG X 0.85)) magic damage per stack (up to 2 stacks)",
         "Stuns for 0.25 seconds"
       ],
       "spec": [
@@ -15940,7 +15940,7 @@
       "critmultiplier": 0.3,
       "passive": [
         "Reloads a Bullet of Punishment every 6 seconds",
-        "Deals ((AGI X 7.5) + ATK DMG) magic damage per stack (up to 3 stacks)",
+        "Deals ((MAIN STAT X 7.5) + ATK DMG) magic damage per stack (up to 3 stacks)",
         "Stuns for 0.25 seconds"
       ],
       "spec": [
@@ -19094,7 +19094,7 @@
       "skilldamagepercent": 0.12,
       "active": [
         "On use, activates Chrono Chaser",
-        "Intially deals ((AGI X 37.5) + (1.25% max HP)) magic damage in an AoE",
+        "Intially deals ((MAIN STAT X 37.5) + (1.25% max HP)) magic damage in an AoE",
         "Stuns for 1 second",
         "Afterwards deals (20% initial damage) magic damage per second for 4 seconds",
         "Continually breaks shields",
@@ -19148,7 +19148,7 @@
       "critmultiplier": 0.35,
       "passive": [
         "Charges a Bullet of Penance every 4 seconds",
-        "Deals ((AGI X 7.5) + (ATK DMG X 1.2)) magic damage per stack (up to 3 stacks)",
+        "Deals ((MAIN STAT X 7.5) + (ATK DMG X 1.2)) magic damage per stack (up to 3 stacks)",
         "Stuns for 0.25 seconds"
       ],
       "spec": [

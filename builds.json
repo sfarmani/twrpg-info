@@ -249,58 +249,24 @@
     },
     {
         "for": "Fighter",
-        "type": "Pure DPS",
+        "type": "Burst T Combo",
         "order": 1,
         "stat": "STR",
-        "version": "51b",
-        "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=6035"
-        ],
-        "description": [
-            "Use Meacronacer until Ender",
-            "Use Hades if no one else on your team has it for debuffs",
-            "Use Plates of Lightning until Felspike or Hades as Hellspike consumes your HP (unlike Felspike)"
-        ],
-        "items": {
-            "Astra, the Sword of Moonlight": [],
-            "Horn of Demon God": [
-                "Radiance of the One"
-            ],
-            "Demonic Fist": [
-                "Ring of Insanity"
-            ],
-            "Felspike Armor": [
-                "Hades, the Armor of Despair"
-            ],
-            "Wings of Blood Lord": []
-        }
-    },
-    {
-        "for": "Fighter",
-        "type": "Burst T Combo",
-        "order": 2,
-        "stat": "STR",
-        "version": "59e",
+        "version": "61z2",
         "guidelink": [
             "https://www.twrpg.com/viewtopic.php?f=4&t=6999&p=34467#p34467"
         ],
         "items": {
-            "Astra, the Sword of Moonlight": [
-                "Splitting of the Sky and Earth"
+            "Spear of Judgment": [
+                "Astra, the Sword of Moonlight"
             ],
-            "Horn of Demon God": [
-                "Crown of Absolute Zero"
+            "Horn of Dragon": [],
+            "Crimson Curse": [
+                "Ring of Desolate Soul"
             ],
-            "Ring of Frozen Soul": [
-                "Ring of the One",
-                "Ring of Fate"
-            ],
-            "Plates of Sanguine Fury": [
-                "Cage of Twisted Soul",
-                "Felspike Armor"
-            ],
-            "Wings of Flame Lord": [
-                "Cape of Insatiable Hunger"
+            "Titan's Plates": [],
+            "Cape of Insatiable Hunger": [
+                "Wings of Flame Lord"
             ]
         }
     },
@@ -442,7 +408,7 @@
             "Heartrender": [],
             "Horn of Dragon": [],
             "Demonic Fist": [],
-            "Titan's plates": [],
+            "Titan's Plates": [],
             "Cape of Insatiable Hunger": []
         }
     },
