@@ -15894,7 +15894,7 @@
       "critmultiplier": 0.25,
       "passive": [
         "Charges a Bullet of Ruin every 6 seconds",
-        "Deals ((MAIN STAT X 7.5) + (ATK DMG X 0.85)) magic damage per stack (up to 2 stacks)",
+        "Deals ((MAIN STAT X 7.5) + (ATK DMG X 0.85)) magic damage per stack (up to 3 stacks)",
         "Stuns for 0.25 seconds"
       ],
       "spec": [
