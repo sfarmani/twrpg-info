@@ -184,7 +184,7 @@
             ],
             "Crescendo of Madness": [],
             "Demonic Fist": [],
-            "Titan Plates": [
+            "Titan's Plates": [
                 "Cage of Twisted Souls"
             ],
             "Wings of Sacred Provenance": []
@@ -2108,6 +2108,164 @@
             "Protection of the Fairies": [
                 "Wings of Immortal",
                 "Brave Heart"
+            ]
+        }
+    },
+    {
+        "for": "Lightseeker",
+        "type": "Minor Gear",
+        "order": 1,
+        "stat": "STR",
+        "version": "62c",
+        "items": {
+            "Niflheim": [],
+            "Horn of Destruction": [],
+            "Ring of Darkness": [],
+            "Infected Crab Armor": [
+                "Plates of Regeneration"
+            ],
+            "Corrupt Crystal Wings": [
+                "Frozen Heart"
+            ]
+        }
+    },
+    {
+        "for": "Lightseeker",
+        "type": "Coin Gear",
+        "order": 2,
+        "stat": "STR",
+        "version": "62c",
+        "items": {
+            "Aglaia, the Spear of Heavenly Flows": [],
+            "Horn of Devil": [],
+            "Latea, the Ring of Chaos": [],
+            "Reactive Armor": [
+                "Earthen Plates",
+                "Purelight Armor"
+            ],
+            "Corrupt Crystal Wings": [
+                "Frozen Heart"
+            ]
+        }
+    },
+    {
+        "for": "Lightseeker",
+        "type": "High Gear",
+        "order": 3,
+        "stat": "STR",
+        "version": "62c",
+        "items": {
+            "Tiberius, the Spear of Lightning": [],
+            "Crown of Composure": [],
+            "Cold Ring of Death": [],
+            "Hellspike Armor": [
+                "Plates of Lightning",
+                "Requiem, the Armor of Lamentation"
+            ],
+            "Pure Crystal Wings": [
+                "Grim Heart"
+            ]
+        }
+    },
+    {
+        "for": "Lightseeker",
+        "type": "Late Gear",
+        "order": 4,
+        "stat": "STR",
+        "version": "62c",
+        "items": {
+            "Splitting of the Sky and Earth": [],
+            "Crown of Composure": [
+                "Horn of Lightning God"
+            ],
+            "Cold Ring of Death": [
+                "Ring of the One"
+            ],
+            "Felspike Armor": [
+                "Hades, the Armor of Despair"
+            ],
+            "Archangel Wings": [
+                "Brave Heart"
+            ]
+        }
+    },
+    {
+        "for": "Lightseeker",
+        "type": "Agareth Gear",
+        "order": 5,
+        "stat": "STR",
+        "version": "62c",
+        "items": {
+            "Splitting of the Sky and Earth": [],
+            "Crown of Absolute Zero": [
+                "Horn of Demon God"
+            ],
+            "Ring of Frozen Soul": [],
+            "Felspike Armor": [
+                "Hades, the Armor of Despair"
+            ],
+            "Archangel Wings": [
+                "Brave Heart"
+            ]
+        }
+    },
+    {
+        "for": "Lightseeker",
+        "type": "Endgame Gear",
+        "order": 6,
+        "stat": "STR",
+        "version": "62c",
+        "items": {
+            "Spear of Judgment": [],
+            "Crown of Transcendance": [
+                "Horn of Dragon"
+            ],
+            "Ring of Desolate Soul": [],
+            "Titan's Plates": [
+                "Cage of Twisted Souls"
+            ],
+            "Wings of Cosmos": [
+                "Wings of Sacred Provenance"
+            ]
+        }
+    },
+    {
+        "for": "Blaster",
+        "type": "Normal bursting critical",
+        "order": 1,
+        "stat": "STR",
+        "version": "62c",
+        "description": [
+            "Use plates of Sanguine Fury for a more defensive option"
+        ],
+        "items": {
+            "Final Omen": [],
+            "Crown of Cataclysm": [],
+            "Ring of Desolate Soul": [],
+            "Titan's Plates": [
+                "Plates of Sanguine Fury"
+            ],
+            "Bloodstorm": []
+        }
+    },
+    {
+        "for": "Blaster",
+        "type": "Auto attacker",
+        "order": 2,
+        "stat": "STR",
+        "version": "62c",
+        "description": [
+            "Use chrono chaser in need of breaks"
+        ],
+        "items": {
+            "Heartrender": [
+                "Chrono Chaser"
+            ],
+            "Visage of Vengeance": [],
+            "Ring of Divine Winds": [],
+            "Plates of Sanguine Fury": [],
+            "Bloodstorm": [
+                "Cape of Deep Abyss"
             ]
         }
     }

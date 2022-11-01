@@ -19901,7 +19901,8 @@
         "If HP drops below 50%, activates Voidshard",
         "Heals (20% max HP)",
         "Deals (STR X 12.5) magic damage in an AoE",
-        "Increases STR by 15%, attack and movement speed by 75%, and reduces damage taken by 7.5% for 12 seconds",
+        "Increases STR by 15%, movement speed by 75%",
+        "Reduces damage taken by 7.5% for 12 seconds",
         "Cooldown: 8 seconds"
       ],
       "active": [
