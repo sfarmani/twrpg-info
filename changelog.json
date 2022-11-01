@@ -1,5 +1,189 @@
 [
     {
+        "name": "62c",
+        "notes": [
+            "Released on: October 30th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "events": [
+            "Practice Mode will now be disabled during any event version"
+        ],
+        "monsters": [
+            {
+                "name": "Bone Dragon",
+                "changes": [
+                    "Tentacles no longer causes map pings"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Blaster",
+                "changes": [
+                    "E/T cast speed will no longer becomes slower than base cast speed if you have attack speed at negative value",
+                    "(issue with Curse of Greed still exists, and will be fixed at later date)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "62b",
+        "notes": [
+            "Released on: October 26th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "misc": [
+            "Halloween Event Costume / Coin of Effort can now be exchanged at Weird Mage NPC in each city"
+        ]
+    },
+    {
+        "name": "62a2",
+        "notes": [
+            "Released on: October 26th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Crusader - Fixed issue with D cooldown having been set to 10s incorrectly last patch",
+            "Duke - Fixed issue with transparency issue on tentacle mark introduced last patch",
+            "Fixed bug where EXP increases a tiny bit on each save"
+        ],
+        "events": [
+            "Halloween Event starts (refer to announcement for more details)",
+            "New costumes added",
+            [
+                "Crusader (Halloween)",
+                "Trickster (Halloween)",
+                "Shrine Priestess (Halloween)",
+                "Hermit (Halloween)",
+                "Priest (New Years) - this costume will be used at a later event"
+            ]
+        ],
+        "monsters": [
+            {
+                "name": "Ancient Ent",
+                "changes": [
+                    "Elder Ent's jump count: 2 → 1"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Crusader",
+                "changes": [
+                    "You can now pre-input commands while paused casting R/E",
+                    [
+                        "(to allow smoother combos)"
+                    ],
+                    "Original Sin (F)",
+                    [
+                        "Damage: STR X 37.5 X 2 + STR X 110 → STR X 45 X 2 + STR X 125"
+                    ]
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Reduceed backswing on Q/W/E",
+                    "Oriental Spear Mastery (D)",
+                    [
+                        "Bonus damage on attack: STR X 1.1 → STR X 1.25"
+                    ],
+                    "Pierce (Q)",
+                    [
+                        "Buff/debuff duration: 30 seconds → 40 seconds",
+                        "Buff will now be given to Lancer regardless of hitting a unit or not and duration will now be displayed on top of lancer"
+                    ],
+                    "Meteor Spear (T)",
+                    [
+                        "Damage: STR X 65 → STR X 70"
+                    ],
+                    "Dragon Slam (F)",
+                    [
+                        "Damage: STR X 130 → STR X 140"
+                    ]
+                ]
+            },
+            {
+                "name": "Blaster",
+                "changes": [
+                    "Proc coefficient set to 0.50 for R2/T",
+                    "Heavy Tech (D)",
+                    [
+                        "Pure attack speed benefits: 1/3 of pure attack speed → 1/2 of pure attack speed"
+                    ],
+                    "Steam Blast (W)",
+                    [
+                        "Knockback distance: 133 ~ 400 → 200 ~ 450 based on cast distance"
+                    ],
+                    "Buster Shot (E)",
+                    [
+                        "Damage increase per stack: 20% → 15%",
+                        "active can no longer be cancelled",
+                        "fixed issue where pre-inputing T while casting E didn't work"
+                    ],
+                    "Mecha Call (R)",
+                    [
+                        "Blast damage: STR X 10 → STR X 7.5",
+                        "Cooldown: 40 seconds → 30 seconds",
+                        "No longer refreshes cooldown of T (only refills 10 missiles)",
+                        "Fixed issue where R2 didn't proc 'on skill cast' events",
+                        "No longer affected by fire affinity"
+                    ],
+                    "Homing Missile (T)",
+                    [
+                        "Attacks needed for recharge: 6 → 5",
+                        "Refreshing cooldown of T now refills all missiles",
+                        "Cooldown: 5 seconds → 8 seconds"
+                    ],
+                    "Orbital Bombardment (F)",
+                    [
+                        "Periodic damage: STR X 7.5 → STR X 7",
+                        "Big bomb damage: STR X 60 → STR X 50"
+                    ]
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Fanning (R)",
+                    [
+                        "Damage per bullet: ATK DMG X 2 → ATK DMG X 1.75"
+                    ],
+                    "Deadeye (F)",
+                    [
+                        "Now deals up to 40% bonus damage based on target's missing HP",
+                        "(ult buffed but overall nerf)"
+                    ]
+                ]
+            },
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Meeko will be invulnerable and no longer be damaged, be affected by harmful effects or be killed"
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Reduced backswing on R"
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Restoration (W)",
+                    [
+                        "Effect radius: 300 → 275",
+                        "Harmony buff duration bonus: 100% → 50%"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Global camera shaking removed on some boss skills (ex. Demon Lord Beriel)"
+        ]
+    },
+    {
         "name": "61z2",
         "notes": [
             "Released on: October, 20th, 2022",

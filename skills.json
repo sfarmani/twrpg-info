@@ -1539,7 +1539,7 @@
         "active": [
             "Fires all bullets in a quick succession.",
             "Consumes all bullets",
-            "Each attack deals Attack Damage X 2 pure damage",
+            "Each attack deals Attack Damage X 1.75 pure damage",
             "Instantly reloads all bullets when used during Bullet Time"
         ]
     },
@@ -1574,7 +1574,8 @@
             "\"Draw\" - Gunner",
             "Consumes all bullets",
             "Attack damage X 15 + AGI X 100 magic damage",
-            "Stuns for 1 second"
+            "Stuns for 1 second",
+            "Deals up to 40% bonus damage based on target's missing HP"
         ]
     },
     {
@@ -2449,8 +2450,8 @@
         "order": 8,
         "active": [
             "\"Light that can be bestowed upon the weak - that is the true light.\" - Astarte",
-            "Each slash deals STR X 37.5 magic damage",
-            "Final slash deals STR X 110 magic damage",
+            "Each slash deals STR X 45 magic damage",
+            "Final slash deals STR X 125 magic damage",
             "Stuns for 3 seconds"
         ]
     },
@@ -2576,7 +2577,7 @@
         ],
         "active": [
             "Temporarily augment the destructive power of spear techniques.",
-            "For 4 seconds, every attack deals STR X 1.1 bonus magic damage",
+            "For 4 seconds, every attack deals STR X 1.25 bonus magic damage",
             "Attack speed maximized",
             "Boosts next skill cast within duration"
         ]
@@ -2593,7 +2594,7 @@
         "active": [
             "Pierces through enemies.",
             "Attack damage X 1 + STR X 7.5 pure damage",
-            "Empowered: Increases target's damage taken by 5%, and increases the critical chance of your spear attacks by 50% for 30 seconds"
+            "Empowered: Increases target's damage taken by 5%, and increases the critical chance of your spear attacks by 50% for 40 seconds"
         ]
     },
     {
@@ -2661,7 +2662,7 @@
         "order": 6,
         "active": [
             "Focus ki into spear and launch it forward.",
-            "STR X 65 magic damage",
+            "STR X 70 magic damage",
             "Increases all stats by 10% for self and allies within 1000 range from explosion",
             "Resets cooldown of Oriental Spear Mastery"
         ]
@@ -2677,7 +2678,7 @@
         "order": 7,
         "active": [
             "\"She disappeared the moment I saw her on the battlefield.. and then suddenly appeared at the center of the enemies' base, which formed a mountain of corpses.\" - Empire War Veteran",
-            "STR X 130 magic damage",
+            "STR X 140 magic damage",
             "Deals 50% bonus damage to enemies within 250 radius from target point",
             "Restores 100 ki"
         ]
@@ -4911,7 +4912,7 @@
             "Heals for (STR + INT) X 0.15 every second",
             "Reduces damage taken by 15%",
             "Lasts 8 ~ 4 seconds based on distance from target point",
-            "Harmony: Duration increased by 100%"
+            "Harmony: Duration increased by 50%"
         ]
     },
     {
@@ -5905,7 +5906,7 @@
             "Your attacks deal 15% bonus damage, ignore all armor and splashes for 50% damage",
             "Every second, gains a shield that absorbs up to Max HP X 1% damage (stacks up to Max HP X 25%)",
             "If using a gun without STR stat, converts 125% of AGI to STR",
-            "You do not benefit from attack speed from AGI increase, and only 1/3 of pure attack speed"
+            "You do not benefit from attack speed from AGI increase, and only 1/2 of pure attack speed"
         ]
     },
     {
@@ -5949,7 +5950,7 @@
         "order": 4,
         "passive": [
             "Basic attacks and Homing Missiles against bosses have 15% chance to critically strike and apply Armor Break",
-            "Increases damage dealt by your attacks to target by 20% for 4 seconds (stacks up to 2 times)"
+            "Increases damage dealt by your attacks to target by 15% for 4 seconds (stacks up to 2 times)"
         ],
         "active": [
             "Charges to fires a destructive missile.",
@@ -5967,11 +5968,12 @@
         "color": "d09696",
         "hotkey": "[R]",
         "icon": "BlasterR",
-        "cooldown": 40,
+        "cooldown": 30,
         "order": 5,
         "active": [
             "Calls down assist from the sky.",
             "Summons 4 drones for 15 seconds that assist your basic attacks, dealing (STR + INT) X 5 magic damage (cooldown: 1s)",
+            "Blast damage: STR X 10 → STR X 7.5",
             "Fully recharges barrier and basic skill cooldowns",
             "Chain Cast - Mecha Blast"
         ]
@@ -6003,10 +6005,10 @@
         "order": 7,
         "passive": [
             "Loads missiles periodically.",
-            "1 missile is loaded every 3 seconds and on every 6rd basic attack",
+            "1 missile is loaded every 3 seconds and on every 5th basic attack",
             "3 missiles are loaded on casting Buster Shot",
             "10 missiles are loaded on casting Mecha Call",
-            "You can store up to 25 missiles, and at max capacity your next attack will release an excess missile (cooldown: 2.5s)"
+            "You can store up to 25 missiles, and at max capacity your next attack will release an excess missile (cooldown: 2s)"
         ],
         "active": [
             "Bombards target area with all your homing missiles.",
@@ -6026,9 +6028,9 @@
         "order": 8,
         "active": [
             "\"Blast away!\" - Blaster",
-            "For 2.5 seconds, deals STR X 7.5 magic damage and short stun every 0.25 seconds",
+            "For 2.5 seconds, deals STR X 7 magic damage and short stun every 0.25 seconds",
             "Applies Critical Break to boss",
-            "Afterwards, drops a big bomb dealing STR X 60 magic damage",
+            "Afterwards, drops a big bomb dealing STR X 50 magic damage",
             "Lands as critical strike"
         ]
     }
