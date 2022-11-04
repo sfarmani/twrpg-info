@@ -3100,8 +3100,8 @@
     ],
     "stats": {
       "allstat": 200,
+      "attackspeedpercent": 0.15,
       "passive": [
-        "Increases nearby allies' ATK SPD by 15%",
         "On death, revives you after a short delay (cooldown: 3 minutes)",
         "Cooldown: 180 seconds, cannot be dropped during cooldown"
       ]
@@ -20531,7 +20531,7 @@
         "On use, activates Demigod Infusion",
         "Increases AGI by 240, critical damage by 0.25 and HP regen by 600 for 15 seconds",
         "During active, empowers the above by 10% per skill cast (up to 100%)",
-        "Use [M] hotkey to teleport (up to 800 distance, up to 3 times)",
+        "Use again to teleport (up to 800 distance, up to 3 times)",
         "Cooldown: 40 seconds, cannot be dropped during cooldown"
       ]
     }

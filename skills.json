@@ -5955,8 +5955,8 @@
         "active": [
             "Charges to fires a destructive missile.",
             "Attack Damage X 1 + STR X 10 magic damage and slow",
-            "If Armor Break is at max stacks, cooldown is reset",
             "Converts Armor Break into Critical Break for 2 seconds, which also increases damage dealt by your skills",
+            "Cooldown is reset if target is boss with max stacks",
             "Consumes Critical Break to land as critical strike",
             "Charging speed is affected by attack speed"
         ]

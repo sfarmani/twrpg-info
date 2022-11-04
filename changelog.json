@@ -1,5 +1,87 @@
 [
     {
+        "name": "62d",
+        "notes": [
+            "Released on: November 2nd, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Ancient Tree Rifle - Fixed issue with proc effect not working",
+            "Crusader / Trickster - Fixed issue with Halloween Costume not displaying properly in Reforged mode",
+            "Paladin - Fixed issue with base skin not displaying properly in Reforged mode",
+            "Blaster - Fixed bug with W not knocking you back if you have CC immunity",
+            "Blaster - Fixed bug with interaction between Curse of Greed"
+        ],
+        "items": [
+            {
+                "name": "Mask of Demigod",
+                "changes": [
+                    "Teleports changed from using M key to pressing item"
+                ]
+            },
+            {
+                "name": "Lifestone",
+                "changes": [
+                    "15% attack speed added",
+                    "No longer grants attack speed bonus to nearby allies"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Bone Dragon",
+                "changes": [
+                    "Aggro range reduced slightly"
+                ]
+            },
+            {
+                "name": "Zombie Lord",
+                "changes": [
+                    "Holy Water NPC moved to entrance"
+                ]
+            },
+            {
+                "name": "Shadow Dragon Irbert",
+                "changes": [
+                    "Entrance will no longer be blocked immediately once boss goes into combat"
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Reset timer reduced"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Grace (E)",
+                    [
+                        "Effect radius 450 → 500"
+                    ]
+                ]
+            },
+            {
+                "name": "Blaster",
+                "changes": [
+                    "Attack speed penalty will apply to non-pure attack speed bonus as well (ex. Buff from Witch’s summon or Heart of Life)",
+                    "Buster Shot (E)",
+                    [
+                        "Can now crit/apply marks to non-boss units.",
+                        "However, active skill's cooldown reset will only work on boss units."
+                    ],
+                    "Mecha Call (R)",
+                    [
+                        "Now resets cooldown of T once again.",
+                        "However, it will only fill 10 missiles instead of all 25 missiles."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "62c",
         "notes": [
             "Released on: October 30th, 2022",
