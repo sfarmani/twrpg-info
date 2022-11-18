@@ -1,5 +1,52 @@
 [
     {
+        "name": "62f",
+        "notes": [
+            "Released on: November 16th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Valtora - Fixed issue with hammer thrown before P2 creating pool",
+            "Blaster - Fixed issue with Q not granting 100% attack speed",
+            "Blaster - Fixed issue with E stunning you",
+            "Witch - Fixed issue with texture glitch in reforged mode"
+        ],
+        "events": [
+            "Halloween Event will be disabled with this update"
+        ],
+        "monsters": [
+            {
+                "name": "Valtora",
+                "changes": [
+                    "Hammer target will receive warning message and sound"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Horn of Notus (T)",
+                    [
+                        "Hero can now issue orders mid-cast to cancel the skill cast"
+                    ]
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Seal of Earth (R)",
+                    [
+                        "Reduced lag greatly on R summon"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "All units will ignore collision with each other now"
+        ]
+    },
+    {
         "name": "62d",
         "notes": [
             "Released on: November 2nd, 2022",
