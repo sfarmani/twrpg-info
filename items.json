@@ -2210,7 +2210,6 @@
     "required_by": [
       "Staff of Void",
       "Crimson Pumpkin Rod",
-      "Dragon Buster",
       "Hungry Bat Wings"
     ],
     "stats": {
@@ -4070,7 +4069,6 @@
       "Helm of Battle",
       "Prophetia, the Source of Mana",
       "True Guardian Ring",
-      "Crimson Star",
       "Mithril Pickaxe",
       "Glasses",
       "Mage Lord Icon"
@@ -4110,7 +4108,7 @@
       "Heart of Ifrit",
       "Cape of Corrupt Flame",
       "Wanderer's Cape",
-      "Crimson Star"
+      "Red Cross"
     ]
   },
   {
@@ -4796,7 +4794,7 @@
       "Belius, the Archdevil's Staff",
       "Staff of Madness",
       "Yggrect, the Archdevil's Bow",
-      "Crimson Cross",
+      "Red Cross",
       "Retus, the Bullet of Judgment",
       "Alchatratz, the Archdevil's Cannon",
       "Cruoris, the Armor of Blood",
@@ -5090,7 +5088,6 @@
       "Fairy Wings",
       "Frozen Heart",
       "Soulstalker",
-      "Hydro Buster",
       "Spider Lord Icon"
     ]
   },
@@ -5262,7 +5259,6 @@
       "Belius, the Archdevil's Staff",
       "Crimson Pumpkin Rod",
       "Yggrect, the Archdevil's Bow",
-      "Dragon Buster",
       "Devil Blaster",
       "Alchatratz, the Archdevil's Cannon",
       "Bag of Hell",
@@ -5477,7 +5473,6 @@
       "Belius, the Archdevil's Staff",
       "Twin Snow",
       "Yggrect, the Archdevil's Bow",
-      "Dragon Buster",
       "Alchatratz, the Archdevil's Cannon",
       "Bag of Hell",
       "Bag of Heaven",
@@ -10809,8 +10804,7 @@
     "color": "C39BE1",
     "level": 70,
     "required_by": [
-      "Red Cross",
-      "Dragon Buster",
+      "Hydro Buster",
       "Devil Blaster"
     ],
     "recipe": [
@@ -10835,7 +10829,7 @@
       "skilldamagepercent": 0.04,
       "active": [
         "On use, activates Dragon Blast",
-        "Deals ((MAIN STAT X 20) + 1% max HP) magic damage",
+        "Deals ((ATK DMG X 4) + (MAIN STAT X 30)) magic damage",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -10896,7 +10890,10 @@
         "True Blood Cannon Tepes": 1
       },
       {
-        "Dragon Blaster": 1
+        "Ancient Writings": 1
+      },
+      {
+        "A Page of the Unholy Book": 1
       },
       {
         "Corrupt Creations": 1
@@ -12461,45 +12458,6 @@
     }
   },
   {
-    "id": "shas",
-    "name": "Dragon Buster",
-    "koreanname": "드래곤 버스터",
-    "description": "Cannon specialized for hunting dragons",
-    "rank": "[Epic]",
-    "grade": 2,
-    "type": "Weapon (Gun)",
-    "color": "9BE1E1",
-    "level": 100,
-    "required_by": [
-      "Hydro Buster"
-    ],
-    "recipe": [
-      {
-        "Dragon Blaster": 1
-      },
-      {
-        "Crimson Stone": 1
-      },
-      {
-        "Adamantium": 1
-      },
-      {
-        "Dark Matter": 1
-      }
-    ],
-    "stats": {
-      "damage": 4200,
-      "agi": 430,
-      "int": 320,
-      "skilldamagepercent": 0.05,
-      "active": [
-        "On use, activates Dragon Buster",
-        "Deals (0.25 X ((MAIN STAT X 12.5) + (0.5% max HP))) magic damage per 0.25 seconds",
-        "Cooldown: 45 seconds, cannot be dropped during cooldown"
-      ]
-    }
-  },
-  {
     "id": "I0FI",
     "name": "Devil Blaster",
     "koreanname": "데블 블래스터",
@@ -12537,7 +12495,7 @@
       "skilldamagepercent": 0.06,
       "active": [
         "On use, activates Devil Blast",
-        "Deals ((MAIN STAT X 25) + (1% max HP)) magic damage",
+        "Deals ((ATK DMG X 5) + (MAIN STAT X 35)) magic damage",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -12564,9 +12522,6 @@
       },
       {
         "Scarab Bone": 1
-      },
-      {
-        "A Page of the Unholy Book": 1
       },
       {
         "Dark Wings": 1
@@ -15600,7 +15555,7 @@
     "stats": {
       "damage": 8700,
       "agi": 615,
-      "skilldamagepercent": 0.09,
+      "skilldamagepercent": 0.12,
       "passive": [
         "10% chance to activate Soul Reaping on attack",
         "Deals (MAIN STAT X 7.5) magic damage"
@@ -15687,14 +15642,14 @@
       }
     ],
     "stats": {
-      "damage": 6450,
+      "damage": 7000,
       "agi": 570,
       "int": 275,
       "attackspeedpercent": 0.25,
       "skilldamagepercent": 0.08,
       "active": [
         "On use, activates Devil Chaser",
-        "Deals ((MAIN STAT X 30) + (1.25% max HP)) magic damage",
+        "Deals ((ATK DMG X 6) + (MAIN STAT X 40)) magic damage",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -15734,7 +15689,7 @@
       }
     ],
     "stats": {
-      "damage": 7650,
+      "damage": 8100,
       "agi": 645,
       "int": 345,
       "attackspeedpercent": 0.3,
@@ -15742,7 +15697,7 @@
       "active": [
         "On use, activates Fiend Chaser",
         "Breaks shields",
-        "Deals ((MAIN STAT X 37.5) + (1.25% max HP)) magic damage",
+        "Deals ((ATK DMG X 7.5) + (MAIN STAT X 50)) magic damage",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
       ],
       "spec": [
@@ -15770,12 +15725,6 @@
       },
       {
         "Trueblood Ring": 1
-      },
-      {
-        "Mithril": 1
-      },
-      {
-        "Ancient Writings": 1
       },
       {
         "Spirit of Abyss": 1
@@ -15825,16 +15774,13 @@
         "Water Cannon": 1
       },
       {
-        "Dragon Buster": 1
+        "Dragon Blaster": 1
       },
       {
         "Ring of the Storm": 1
       },
       {
         "Ancient Fragment of Ruins": 1
-      },
-      {
-        "Frozen Cobweb": 1
       },
       {
         "Proof of Purification": 1
@@ -18984,7 +18930,7 @@
       "damage": 9750,
       "agi": 705,
       "hp": 1500,
-      "skilldamagepercent": 0.12,
+      "skilldamagepercent": 0.15,
       "passive": [
         "On attack, 10% chance to activate Soul Reaping",
         "Deals (MAIN STAT X 9) magic damage"
@@ -19087,16 +19033,16 @@
       }
     ],
     "stats": {
-      "damage": 9000,
+      "damage": 9500,
       "agi": 705,
       "int": 405,
       "attackspeedpercent": 0.4,
       "skilldamagepercent": 0.12,
       "active": [
         "On use, activates Chrono Chaser",
-        "Intially deals ((MAIN STAT X 37.5) + (1.25% max HP)) magic damage in an AoE",
+        "Intially deals ((ATK DMG X 7.5) + (MAIN STAT X 50)) magic damage in an AoE",
         "Stuns for 1 second",
-        "Afterwards deals (20% initial damage) magic damage per second for 4 seconds",
+        "Afterwards deals (1.4 X initial damage) magic damage per second for 4 seconds",
         "Continually breaks shields",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
       ],
@@ -23661,7 +23607,9 @@
         "On use, activates Flourishing Life",
         "Prevents HP from dropping below 1 for 3 seconds",
         "Restores 12% of max health each second",
-        "Cleanses debuffs for duration"
+        "Cleanses debuffs for duration",
+        "Has 2 charges",
+        "Cooldown: 20 seconds (to gain a charge)"
       ]
     }
   },

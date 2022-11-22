@@ -1183,8 +1183,8 @@
         "order": 2,
         "active": [
             "Fire a magic bullet that splits into two directions.",
-            "(AGI + INT) X 6 pure damage per bullet",
-            "Deals 100% increased damage to non-boss units",
+            "(AGI + INT) X 6 magic damage per bullet",
+            "Consecutive hits increases damage dealt by 50% (up to 2 times)",
             "Cooldown is reset upon firing another magic bullet"
         ]
     },
@@ -1241,8 +1241,8 @@
         "order": 5,
         "active": [
             "Fire a charged magic bullet, and disengage using the recoil.",
-            "Attack damage X 0.75 + MAIN STAT X 4.5 magic damage",
-            "Deals up to (400 + 2 X Skill Damage increase)% damage based on knockback distance"
+            "Attack damage X 1.5 + AGI X 7.5 magic damage",
+            "Deals up to 400% damage based on knockback distance"
         ]
     },
     {
@@ -1273,7 +1273,7 @@
         "order": 7,
         "passive": [
             "Enhance probes' attacks.",
-            "When landing Q/E/R on a boss unit, fires additional magic bullets dealing Attack Damage X 0.15 + Main Stat X 1.1 magic damage (3 bullets for Q/R, 6 bullets for E)"
+            "When landing Q/E/R on a boss unit, fires additional magic bullets dealing Attack Damage X 0.15 + Main Stat X 1.25 magic damage (3 bullets for Q/R, 6 bullets for E)"
         ],
         "active": [
             "Relentlessly fire magic bullets together with the probes.",
@@ -1293,7 +1293,7 @@
         "order": 8,
         "active": [
             "\"Justice rains from the sky!\" - Shooter",
-            "Each bullet deals attack damage X 1.8 + main stat X 9 magic damage",
+            "Each bullet deals attack damage X 2.5 + Main Stat X 10 magic damage",
             "A total of 10 bullets are fired",
             "Binds target's actions for 2 seconds"
         ]
@@ -1691,7 +1691,7 @@
         "color": "6f83d2",
         "hotkey": "[R]",
         "icon": "SwordsmanR",
-        "cooldown": 20,
+        "cooldown": 10,
         "order": 8,
         "passive": [
             "Finishing a combo leaves a sword of illusion behind.",
@@ -1715,8 +1715,9 @@
         "order": 9,
         "active": [
             "Brutally slash everything in range with rapid movements.",
-            "Cleaves all nearby enemies for Attack Damage x 4 + AGI x 15 magic damage every second",
-            "Increases damage taken by target by 10% for 8 seconds"
+            "Deals Attack Damage x 5 + AGI x 25 magic damage every second for 2.5 seconds",
+            "Increases target's damage taken by 10% for 8 seconds",
+            "Summons 4 Swords of Illusion"
         ]
     },
     {
@@ -2550,7 +2551,7 @@
         "color": "80ffff",
         "hotkey": "[F]",
         "icon": "MartialArtistF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 7,
         "active": [
             "\"None can match the skills of the martial artists of Eloren. Having obtained the knowledge of all advanced martial arts, each one of their techniques is deadly.\" - A Continent Traveller",
@@ -3401,7 +3402,7 @@
         "active": [
             "Deliver a fatal blow by striking target's heart.",
             "Attack damage X 4.5 + (STR + AGI) X 30 magic damage",
-            "Consumes Magnetic Field to deal up to a maximum of 100% bonus damage",
+            "Consumes Magnetic Field to deal up to a maximum of 150% bonus damage",
             "Breaks barriers and stuns for 1.5 second if max gauge is consumed"
         ]
     },
@@ -3416,7 +3417,7 @@
         "order": 7,
         "active": [
             "\"Disappear with the thunder!\" - Thunderer",
-            "Strike down 16 lightnings per second, each dealing Main Stat X 3.75 magic damage and stunning for 1 second",
+            "Strike down 16 lightnings per second, each dealing Main Stat X 4 magic damage and stunning for 1 second",
             "Restores 25% of Magnetic Field every second while inside the area",
             "Lasts 4 seconds"
         ]
@@ -3478,7 +3479,7 @@
         "passive": [
             "As the hunger for blood increases, so do berserker's combat abilities.",
             "Increases attack damage up to (STR X 6), move speed up to 125, skill damage and damage reduction up to 40% based on missing HP",
-            "Each attack increases STR by 6%, attack speed by 15% for 6 seconds (stacks up to 5 times)"
+            "Each attack increases STR by 10%, attack speed by 25% for 6 seconds (stacks up to 3 times)"
         ],
         "toggle": [
             "Drowns in blood to bring out full combat abilities.",
@@ -3643,7 +3644,7 @@
             "Summons countless magical arrows to bombard target area.",
             "Summons 24 arrows",
             "Each arrow deals attack damage X 0.5 + AGI X 4 magic damage",
-            "If chained with Flame Shot, explosion radius increased by 50%",
+            "If chained with Flame Shot, damage increased by 20%",
             "If chained with Freezing Shot, freezes enemies hit for 2.5 seconds"
         ]
     },
@@ -4573,7 +4574,7 @@
         "active": [
             "Holy power allows you to emit a powerful aura.",
             "Every 7th attack empowers next attack with Judgment",
-            "Attack Damage X 75% magic damage"
+            "Attack Damage X 1 magic damage"
         ]
     },
     {
@@ -4877,7 +4878,7 @@
         "passive": [
             "Forms a harmonious balance between attacking and healing.",
             "Every 4th attack heals you and 2 nearby allies for 25 + INT X 0.5 + Target's MAX HP X 2%",
-            "If AGI is highest, your skills deal 65% more damage",
+            "If AGI is highest, your skills deal 75% more damage",
             "If STR or INT is highest, your skills heal and regenerate for 100% more and activates Harmony"
         ]
     },

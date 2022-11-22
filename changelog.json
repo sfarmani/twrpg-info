@@ -1,5 +1,289 @@
 [
     {
+        "name": "62g",
+        "notes": [
+            "Released on: November 21st, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Crimson Curse - Fixed issue with only 2 procs being guaranteed instead of 3"
+        ],
+        "items": [
+            {
+                "name": "Soulstalker",
+                "changes": [
+                    "Skill damage: 9% → 12%"
+                ]
+            },
+            {
+                "name": "Soulbane",
+                "changes": [
+                    "Skill damage: 12% → 15%"
+                ]
+            },
+            {
+                "name": "Dragon Blaster",
+                "changes": [
+                    "Active damage: (Target's HP X 1% + MAIN STAT X 20) → (ATK DMG X 4 + MAIN STAT X 30)"
+                ]
+            },
+            {
+                "name": "Devil Blaster",
+                "changes": [
+                    "Active damage: (Target's HP X 1% + MAIN STAT X 25) → (ATK DMG X 5 + MAIN STAT X 35)"
+                ]
+            },
+            {
+                "name": "Devil Chaser",
+                "changes": [
+                    "Damage: 6450 → 7000",
+                    "Active damage: (Target's HP X 1.25% + MAIN STAT X 30) → (ATK DMG X 6 + MAIN STAT X 40)"
+                ]
+            },
+            {
+                "name": "Fiend Chaser",
+                "changes": [
+                    "Damage: 7650 → 8100",
+                    "Active damage: (Target's HP X 1.25% + MAIN STAT X 37.5) → (ATK DMG X 7.5 + MAIN STAT X 50)"
+                ]
+            },
+            {
+                "name": "Chrono Chaser",
+                "changes": [
+                    "Damage: 9000 → 9500",
+                    "Active base damage: 1.8 X (Target's HP X 1.25% + MAIN STAT X 37.5) → 1.4 X (ATK DMG X 7.5 + MAIN STAT X 50)"
+                ]
+            },
+            {
+                "name": "Dragon Buster",
+                "changes": [
+                    "Can no longer be crafted"
+                ]
+            },
+            {
+                "name": "Red Cross",
+                "changes": [
+                    "Recipe before: True Blood Cannon + Dragon Blaster + Corrupt Creations",
+                    "Recipe after: True Blood Cannon + Ancient Writings + A Page of the Unholy Book + Corrupt Creations"
+                ]
+            },
+            {
+                "name": "Crimson Cross",
+                "changes": [
+                    "Recipe before: Red Cross + Winter Rose + Scarab Bone + A Page of the Unholy Book + Dark Wings",
+                    "Recipe after: Red Cross + Winter Rose + Scarab Bone + Dark Wings"
+                ]
+            },
+            {
+                "name": "Crimson Star",
+                "changes": [
+                    "Recipe before: Crimson Cross + Trueblood Ring + Mithril + Ancient Writings + Spirit of Abyss + Pure Steel",
+                    "Recipe after: Crimson Cross + Trueblood Ring + Spirit of Abyss + Pure Steel"
+                ]
+            },
+            {
+                "name": "Hydro Buster",
+                "changes": [
+                    "Recipe before: Water Cannon + Dragon Buster + Ring of Storm + Ancient Ruin Fragment + Frozen Cobweb + Proof of Purification",
+                    "Recipe after: Water Cannon + Dragon Blaster + Ring of Storm + Ancient Ruin Fragment + Proof of Purification"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Stat and mechanism changes",
+                    [
+                        "Damage reduction: 36% → 50%",
+                        "Shield damage reduction: 50% → 0%",
+                        "HP lock ignores 100% of damage taken → 50% of damage taken until next skill cast"
+                    ],
+                    "Red Plant",
+                    [
+                        "ATK DMG: 13050 → 9450",
+                        "ATK SPD ramp up 0 ~ 200% → 0 ~ 100%",
+                        "Life Energy restoration: 10 → 10 ~ 5",
+                        [
+                            "Based on number of players"
+                        ]
+                    ],
+                    "Green Plant",
+                    [
+                        "HP: 2750000 → 2500000",
+                        "Damage per second on summon (max HP X 18%) → (max HP X 15%)",
+                        "Heal per second (max HP X 12%) → (max HP X 5%)",
+                        "Recast delay when stunned: 1.5 seconds → 2.5 seconds"
+                    ],
+                    "Life Sap",
+                    [
+                        "Activation HP 80% / 60% / 20% (3 times) → 80% / 20% (2 times)",
+                        "Boss will go into Empowerment phase right after the first activation"
+                    ],
+                    "Spirit Call",
+                    [
+                        "Activation HP 40% → 50%",
+                        "Green Orb Life Energy restoration 10 → 5"
+                    ],
+                    "Empowerment",
+                    [
+                        "Aura HP regen decrease 3.33% → 5% per second"
+                    ],
+                    "Final phase",
+                    [
+                        "Heal amount: (max HP X 20%) → (missing HP X 35%)",
+                        "Bomb",
+                        [
+                            "Damage: 5000 → max HP X 25%",
+                            "Explosion radius: 600 → 450",
+                            "Explosion no longer stuns",
+                            "Spawn speed reduced"
+                        ],
+                        "Red plants",
+                        [
+                            "Will spawn instead of root plants",
+                            "They will NOT give back Life Energy when killed"
+                        ],
+                        "Force Blast will be changed into Spirit Charge",
+                        [
+                            "Boss will mark a target and spawn spirit deers on the edges of the map, which will charge toward target after a short delay",
+                            "Any players hit will take a max HP X 50% damage, lose 20 Life Energy and receive a debuff that reduces damage dealt by 33% for 6 seconds",
+                            "Getting hit by two will result in instant death.",
+                            "Does not push back players. Cannot be interrupted.",
+                            "Cooldown decreases faster based on cast count/HP of the boss (parties with slower dps will see it at lesser speed)"
+                        ],
+                        "Few skills have been sped up"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Aura (D)",
+                    [
+                        "Judgment damage: ATK DMG X 0.75 → ATK DMG X 1"
+                    ]
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Blood Fury (E)",
+                    [
+                        "Max stacks: 5 → 3",
+                        "STR bonus per stack: 6% → 10%",
+                        "Attack speed bonus per stack: 15% → 25%"
+                    ]
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Shadow Slash (Q)",
+                    [
+                        "Stacks will now be displayed by mana"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Nameless Arts (F)",
+                    [
+                        "Cooldown: 40 / 120 seconds → 30 / 90 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Perfect Harmony (D)",
+                    [
+                        "Damage bonus for AGI main stat: 65% → 75%"
+                    ]
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Sword of Illusion (R)",
+                    [
+                        "Cooldown: 20 seconds → 10 seconds",
+                        "(You are still limited by # of swords however)"
+                    ],
+                    "Illusal Dance (T)",
+                    [
+                        "Damage per second: ATK DMG X 4 + AGI X 15 → ATK DMG X 5 + AGI X 25",
+                        "Can now issue orders mid-cast to cancel the skill",
+                        "Cooldown: 40 seconds → 30 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "(These changes takes chrono chaser nerf into account as well)",
+                    "Twin Star (Q)",
+                    [
+                        "Damage type: pure → magic",
+                        "No longer deals 100% bonus damage to non-boss units",
+                        "Consecutive hits deals 50% bonus damage, stacks up to 2 times"
+                    ],
+                    "Break Shot (E)",
+                    [
+                        "Damage: ATK DMG X 0.75 + MAIN STAT X 4.5 → ATK DMG X 1.5 + AGI X 7.5",
+                        "Max damage amp (400 + 2 X skill damage)% → 400%"
+                    ],
+                    "Stardust Rain (T)",
+                    [
+                        "Damage per bullet: (ATK DMG X 0.15 + MAIN STAT X 1.1) → (ATK DMG X 0.15 + MAIN STAT X 1.25)",
+                        "Cooldown: 40 seconds → 30 seconds"
+                    ],
+                    "Comet Storm (F)",
+                    [
+                        "Damage per bullet: (ATK DMG X 1.8 + MAIN STAT X 9) → (ATK DMG X 2.5 + MAIN STAT X 10)"                    ]
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Heart Break (R)",
+                    [
+                        "Max damage amplifier: 100% → 150%"
+                    ],
+                    "Thunderfury (F)",
+                    [
+                        "Damage per lightning: MAIN STAT X 3.75 → MAIN STAT X 4"
+                    ]
+                ]
+            },
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "Arrow Rain (T)",
+                    [
+                        "Chaining with Flame Shot increases AoE by 50% → damage by 20%"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Dimension Collapse (W)",
+                    [
+                        "Duration will be displayed on orb"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Training dummy HP adjusted from 10M → 75M",
+            "Fairy in boss zones will only show # of players that are alive"
+        ]
+    },
+    {
         "name": "62f",
         "notes": [
             "Released on: November 16th, 2022",
