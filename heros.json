@@ -157,8 +157,8 @@
             "Weapon (Gun)"
         ],
         "role": [
-            "INT: Support/Healer with medium damage",
-            "AGI: DPS with medium healing"
+            "AGI: DPS with medium healing",
+            "INT: Support/Healer with medium damage"
         ],
         "description": [
             "Ranged damage dealer.",
@@ -610,8 +610,8 @@
             "Weapon (Melee)"
         ],
         "role": [
-            "INT: Support Utility and AoE Healer",
-            "STR: Burst DPS"
+            "STR: Burst DPS",
+            "INT: Support Utility and AoE Healer"
         ],
         "description": [
             "Melee damage dealer. Focused on skill casts."
