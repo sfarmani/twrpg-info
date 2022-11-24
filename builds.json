@@ -2116,10 +2116,10 @@
         "type": "Minor Gear",
         "order": 1,
         "stat": "STR",
-        "version": "62c",
+        "version": "62g",
         "items": {
-            "Niflheim": [],
-            "Horn of Destruction": [],
+            "Sanguiel, the Bloodspear of Requiem": [],
+            "Horn of Demon Lord": [],
             "Ring of Darkness": [],
             "Infected Crab Armor": [
                 "Plates of Regeneration"
@@ -2134,10 +2134,10 @@
         "type": "Coin Gear",
         "order": 2,
         "stat": "STR",
-        "version": "62c",
+        "version": "62g",
         "items": {
             "Aglaia, the Spear of Heavenly Flows": [],
-            "Horn of Devil": [],
+            "Crown of Fervor": [],
             "Latea, the Ring of Chaos": [],
             "Reactive Armor": [
                 "Earthen Plates",
@@ -2153,7 +2153,7 @@
         "type": "High Gear",
         "order": 3,
         "stat": "STR",
-        "version": "62c",
+        "version": "62g",
         "items": {
             "Tiberius, the Spear of Lightning": [],
             "Crown of Composure": [],
@@ -2172,7 +2172,7 @@
         "type": "Late Gear",
         "order": 4,
         "stat": "STR",
-        "version": "62c",
+        "version": "62g",
         "items": {
             "Splitting of the Sky and Earth": [],
             "Crown of Composure": [
@@ -2194,7 +2194,7 @@
         "type": "Agareth Gear",
         "order": 5,
         "stat": "STR",
-        "version": "62c",
+        "version": "62g",
         "items": {
             "Splitting of the Sky and Earth": [],
             "Crown of Absolute Zero": [
@@ -2214,13 +2214,15 @@
         "type": "Endgame Gear",
         "order": 6,
         "stat": "STR",
-        "version": "62c",
+        "version": "62g",
         "items": {
             "Spear of Judgment": [],
             "Crown of Transcendance": [
                 "Horn of Dragon"
             ],
-            "Ring of Desolate Soul": [],
+            "Star of Apotheosis": [
+                "Ring of Desolate Soul"
+            ],
             "Titan's Plates": [
                 "Cage of Twisted Souls"
             ],
