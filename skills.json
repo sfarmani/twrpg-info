@@ -5176,6 +5176,8 @@
         ],
         "active": [
             "Brands the target with power.",
+            "Can be applied on 3 targets",
+            "Will dissipate after 15 seconds if Armaros is unsummoned",
             "Lasts 45 seconds"
         ]
     },
@@ -5985,6 +5987,7 @@
         "hotkey": "[R → R]",
         "icon": "BlasterR2",
         "cooldown": 0,
+        "proc_rate": 0.5,
         "order": 6,
         "active": [
             "Sends your drone to causes an explosion.",
@@ -6001,6 +6004,7 @@
         "hotkey": "[T]",
         "icon": "BlasterT",
         "cooldown": 5,
+        "proc_rate": 0.5,
         "order": 7,
         "passive": [
             "Loads missiles periodically.",

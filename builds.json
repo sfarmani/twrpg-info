@@ -1172,22 +1172,24 @@
         "type": "Full DPS",
         "order": 1,
         "stat": "AGI",
-        "version": "44b",
+        "version": "62h",
         "description": [
             "Use alternate build for more safety (much more expensive. Less damage, but it's much easier to play)"
         ],
         "items": {
-            "Eternal Flame": [],
-            "Horn of Demon God": [
-                "Radiance of the One"
+            "Spirit Flame": [],
+            "Horn of Dragon": [
+                "Visage of Vengeance"
             ],
-            "Ring of the One": [
-                "Ring of Frozen Soul"
+            "Crimson Curse": [
+                "Ring of the One"
             ],
             "Vest of Divine Winds": [
                 "Athanasia, the Armor of the Reaper"
             ],
-            "Wings of Night Lord": []
+            "Wings of Sacred Provenance": [
+                "Wings of Night Lord"
+            ]
         }
     },
     {
@@ -1692,23 +1694,26 @@
         "type": "Full Support",
         "order": 1,
         "stat": "INT",
-        "version": "59e",
+        "version": "64h",
         "description": [
             "Secondary items are better used in case main ones are used by another ally",
             "Use Wings of Immortal if no other reviver"
         ],
         "items": {
-            "Soul of Abyss": [
+            "Gate of Abyss": [
                 "Heaven's Door"
             ],
-            "Eye of the Flame Lord": [
-                "Crown of Cleansing"
+            "Crown of Cleansing": [
+                "Eye of the Flame Lord"
             ],
-            "Horn of God": [
-                "Ring of Divine Winds"
+            "Heart of Life": [
+                "Bell of Light"
             ],
-            "Jupiter, the Robe of Heavens": [],
-            "Wings of Immortal": [
+            "Jupiter, the Robe of Heavens": [
+                "Frost Herald's Garment"
+            ],
+            "Guardian Angel": [
+                "Wings of Immortal",
                 "Protection of the Fairies"
             ]
         }
