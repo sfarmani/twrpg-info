@@ -13790,8 +13790,7 @@
       ],
       "spec": [
         "Specialties - Transmission of Darkness, Forbidden Grimoire",
-        "Priest - Holy Aurora is replaced by Dark Aurora [Lv 1]",
-        "Warlock - While Forbidden Magic is active, Soul Grimoire does not consume MP"
+        "Priest - Holy Aurora is replaced by Dark Aurora [Lv 1]"
       ]
     }
   },
@@ -17682,8 +17681,7 @@
       ],
       "spec": [
         "Specialties - Transmission of Darkness, Forbidden Grimoire",
-        "Priest - Holy Aurora is replaced by Dark Aurora [Lv 2]",
-        "Warlock - While Forbidden Magic is active, Soul Grimoire does not consume MP"
+        "Priest - Holy Aurora is replaced by Dark Aurora [Lv 2]"
       ]
     }
   },
@@ -21418,7 +21416,6 @@
       ],
       "spec": [
         "Specialties - Transmission of Darkness, Forbidden Grimoire",
-        "Warlock - Forbidden Grimoire: While Forbidden Magic is active Soul Grimoire consumes no MP",
         "Priest - Dark Aurora: Holy Aurora changes to Dark Aurora [Lv. 2], removing healing effect but increasing damage dealt"
       ]
     }
@@ -21464,7 +21461,6 @@
       ],
       "spec": [
         "Specialties - Transmission of Darkness, Forbidden Grimoire",
-        "Warlock - Forbidden Grimoire: While Forbidden Magic is active, Soul Grimoire does not consume MP",
         "Priest - Transmission of Darkness: Holy Aurora is replaced by Dark Aurora [Lv 3]"
       ]
     }

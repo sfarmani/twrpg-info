@@ -27,13 +27,13 @@
         "order": 2,
         "passive": [
             "Infuses the spirit of lightning into your arrows.",
-            "On every 4th attack, deals AGI X 3 magic damage and stores a charge of lightning",
+            "On every 4th attack, deals AGI X 5 magic damage and stores a charge of lightning",
             "Increases AGI by 5% and attack speed by 15% for 10 seconds",
             "Stacks up to 4 times"
         ],
         "active": [
             "Fires an arrow that pierces the wind.",
-            "Attack Damage X 1.15 damage",
+            "Attack Damage X 1.5 damage",
             "Reduces target's movement speed by 50% for 2 seconds",
             "Consumes lightning charges to deal 75% bonus damage per consumed charge"
         ]
@@ -49,7 +49,7 @@
         "order": 3,
         "active": [
             "Swiftly disengages while attacking at the same time.",
-            "Each arrow deals attack damage X 0.3 + AGI X 1.2 magic damage",
+            "Each arrow deals Attack Damage X 0.5 + AGI X 2 magic damage",
             "First 4 arrows are fired at last attacked target",
             "Fires up to 20 arrows based on moved distance"
         ]
@@ -65,9 +65,8 @@
         "order": 4,
         "active": [
             "Surrounds yourself with a protective barrier of wind.",
-            "Deals AGI X 2.25 damage per second",
-            "Pushes enemies outward",
             "Gains maximum charges of lightning",
+            "Continuously pushes enemies outward",
             "Decreases damage dealt from outside the barrier up to 80% based on distance from attacker",
             "Lasts 5 seconds"
         ]
@@ -83,8 +82,8 @@
         "order": 5,
         "active": [
             "Loads next attack with explosive shells.",
-            "Each arrow deals AGI X 12 bonus magic damage",
-            "Stuns enemies for 0.5 seconds",
+            "AGI X 15 magic damage",
+            "Stuns targets hit for 0.5 seconds",
             "Recharges every 8 seconds, up to 4 charges",
             "Recharge cycle affected by flame affinity: (8 / (1 + 2 X flame affinity)) seconds",
             "Chain: Glide - Decreases damage by 75% and adds splash effect",
@@ -98,16 +97,16 @@
         "color": "96ed9a",
         "hotkey": "[T]",
         "icon": "SniperT",
-        "cooldown": 40,
+        "cooldown": 30,
         "order": 6,
         "passive": [
             "Captures enemies' weak points precisely from a far range.",
             "Enhanced vision",
-            "Deals up to 20~60% bonus damage based on distance from target (0~1500 distance)"
+            "Deals up to 30% bonus damage based on distance from target"
         ],
         "active": [
             "Finishes off an enemy from a far range.",
-            "Attack damage X 7.5 + AGI X 30 magic damage",
+            "Attack Damage X 15 + AGI X 60 magic damage",
             "Deals 50% damage to other enemies that are hit by the arrow"
         ]
     },
@@ -122,8 +121,8 @@
         "order": 7,
         "active": [
             "\"Ruthless? Evil beings need no mercy..\" - Sniper",
-            "Deals AGI X 95 magic damage",
-            "Deals up to 40% bonus damage, based on target's missing health (20% max HP)",
+            "Deals AGI X 125 magic damage",
+            "Deals up to 40% bonus damage, based on target's missing health",
             "If cast from melee range, leaps before firing"
         ]
     },
@@ -764,8 +763,8 @@
         "active": [
             "Creates an opening in dimension that spews corrupt energy to attack nearby enemies.",
             "Consumes Max MP X 30%",
-            "Attacks every 2.75 seconds, dealing Consumed MP X 0.9 magic damage",
-            "Gate's attack speed is increased by 2% for each 1% bonus attack speed of Warlock",
+            "Attacks every 2.5 seconds, dealing Max MP X 0.75 magic damage",
+            "Gate's attack speed is increased by 1% for each 1% of pure attack speed bonus",
             "Can maintain up to a maximum of 2 gates"
         ]
     },
@@ -780,7 +779,8 @@
         "order": 4,
         "active": [
             "Summon a vengeful spirit that absorbs damage and reflects them back at the attackers.",
-            "Deals INT X 7.5 magic damage per second for 3 seconds",
+            "Deals INT X 7.5 magic damage per second for 2.5 seconds",
+            "Increases movement speed by 150",
             "Absorbs own damage taken by 70% and allies' damage taken by 35%",
             "On expiration, reflects 1500% of absorbed damage as pure damage at nearby enemies"
         ]
@@ -801,9 +801,10 @@
         ],
         "active": [
             "Unleash the grimoire and let your magic run wild.",
-            "Consume Max MP X 25% per second",
+            "Consumes 5 souls per second",
             "Focus attacks of Dimension Collapse onto targeted area",
-            "Caster is immune to CC while channeling Soul grimoire. Orbs have 100% increased damage and 200% increased attack speed for channeled duration"
+            "Gates have 100% increased damage and 200% increased attack speed for the cast",
+            "1 soul is restored when landing Crucifixion and every 1.5 seconds (up to 20)"
         ]
     },
     {
@@ -818,6 +819,7 @@
         "active": [
             "Obtains a demon's body at the cost of one's own soul.",
             "Consumes 150 MP per second",
+            "Restores all MP and souls",
             "Armor increased by 100 & max HP and magic defense increased by 25%",
             "Changes skills partially",
             "After 5 seconds, consumed MP increases by 50% and skill damage increases by 1.5% every second"
@@ -833,9 +835,8 @@
         "order": 7,
         "passive": [
             "Try to satisfy my hunger..",
-            "Every attack deals INT X 1.1 damage",
-            "Every 4th attack splashes for 500% damage and heals you for Max HP X 7.5%",
-            "Every 12th attack activates Crucifixion"
+            "Gains 1 stack of Hunger every 0.75 seconds (up to 10 stacks)",
+            "Next attack consumes all Hunger stacks, dealing INT X 7.5 magic damage and healing you for Max HP X 4% per consumed stack"
         ]
     },
     {
@@ -1182,8 +1183,8 @@
         "cooldown": 6,
         "order": 2,
         "active": [
-            "Fire a magic bullet that splits into two directions.",
-            "(AGI + INT) X 6 magic damage per bullet",
+            "Fires magic bullets in two directions.",
+            "(AGI + INT) X 7.5 pure damage per bullet",
             "Consecutive hits increases damage dealt by 50% (up to 2 times)",
             "Cooldown is reset upon firing another magic bullet"
         ]
@@ -1222,12 +1223,9 @@
         ],
         "active": [
             "Form protective barriers by driving nanomachines into a frenzy.",
-            "Creates a barrier that absorbs damage up to 25% of max HP for 1 second",
-            "Additionally absorbs for INT X 2.5",
-            "Gives 100 movement speed for duration",
-            "Removes target's debuffs",
-            "No casting delay",
-            "Duration: 2 seconds"
+            "Creates a barrier that absorbs (Target's MAX HP X 25% + INT X 2.5) damage for 2 seconds",
+            "Increases target's movement speed by 100",
+            "Removes target's debuffs"
         ]
     },
     {
@@ -1259,7 +1257,7 @@
             "Main Stat X 7.5 magic damage",
             "Increases target's damage taken by (5 + INT / 300)% and reduces its movement speed for 3 seconds",
             "Knocksback target if cast consecutively",
-            "Recharges every (15 - pure attack speed / 15) seconds"
+            "Recharges every 15 seconds (affected by pure attack speed)"
         ]
     },
     {
@@ -1273,13 +1271,12 @@
         "order": 7,
         "passive": [
             "Enhance probes' attacks.",
-            "When landing Q/E/R on a boss unit, fires additional magic bullets dealing Attack Damage X 0.15 + Main Stat X 1.25 magic damage (3 bullets for Q/R, 6 bullets for E)"
+            "When landing Q/E/R on a boss unit, fires additional magic bullets dealing Attack Damage X 0.3 + Main Stat X 2.5 magic damage (3 bullets for Q/R, 6 bullets for E)"
         ],
         "active": [
             "Relentlessly fire magic bullets together with the probes.",
-            "Fires 12 bullets + 4 additional bullets per probe every second (each bullet deals 100% bonus damage)",
-            "Channeled up to a maximum of 2.5 seconds",
-            "Each 1% increase in attack speed increases fire count by 0.5%"
+            "Fires 24 missiles per second up to 2.5 seconds",
+            "Each 1% bonus in pure attack speed increases fire count by 0.5%"
         ]
     },
     {
@@ -2299,7 +2296,7 @@
         "color": "99ffff",
         "hotkey": "[F]",
         "icon": "LightningMageF",
-        "cooldown": 100,
+        "cooldown": 90,
         "order": 9,
         "active": [
             "\"Disappear with the Lightning!\" - Mage",
@@ -2463,7 +2460,7 @@
         "color": "8fbc8f",
         "hotkey": "[D]",
         "icon": "MartialArtistD",
-        "cooldown": 20,
+        "cooldown": 15,
         "order": 1,
         "passive": [
             "A stance that reacts faster than the mind.",
@@ -3447,9 +3444,10 @@
         "cooldown": 6,
         "order": 2,
         "active": [
-            "Slashes nearby enemies.",
-            "Consumes HP X 10%",
-            "Attack Damage X 200% pure damage"
+            "Dashes forward slashing through enemies. ",
+            "Consumes HP X 5%",
+            "Attack Damage X 0.75 pure damage",
+            "Can be cast 3 times in a row, with last cast dealing 200% damage"
         ]
     },
     {

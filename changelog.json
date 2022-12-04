@@ -1,5 +1,219 @@
 [
     {
+        "name": "62h",
+        "notes": [
+            "Released on: November 30th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Bone Dragon - Fixed issue with tentacle causing map pings",
+            "Blaster - Fixed issue where damage from some item effects could be randomly amplified by Critical Break debuff as well",
+            "Reaper - Fixed issue with hero gaining collision after casting F"
+        ],
+        "items": [
+            {
+                "name": "Dragon Buster",
+                "changes": [
+                    "Can now be converted (crafted) into Dragon Blaster"
+                ]
+            },
+            {
+                "name": "Seed of Malice series",
+                "changes": [
+                    "Warlock spec removed"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Ancient Ent",
+                "changes": [
+                    "Giant Ent will no longer be treated as boss unit"
+                ]
+            },
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Fixed issue with boss resetting its HP back to activation thresholds after Life Sap / Spirit Call",
+                    "Red Plant",
+                    [
+                        "Life Energy recover amount: 10 ~ 5 → 10 ~ 7"
+                    ],
+                    "Green Plant",
+                    [
+                        "There can only be up to 2 Green Plants at any given time",
+                        "Now takes bonus HP based damage like Red Plants"
+                    ],
+                    "Spirit Rift",
+                    [
+                        "There will now be gaps between rings during Empowerment phase",
+                        "Cooldown during empowerment phase: 4 seconds → 4.5 seconds"
+                    ],
+                    "Spirit Charge",
+                    [
+                        "Marked target gains 250 bonus movement",
+                        "Extra 0.25 second delay added for mark repositioning",
+                        "Cooldown: 18 ~ 9 seconds → 16 ~ 8 seconds"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Brandish (Q)",
+                    [
+                        "Reworked",
+                        "HP cost: 10% → 5%",
+                        "Base damage: ATK DMG X 200% → ATK DMG X 75%",
+                        "T stack gain per cast: 3 → 1",
+                        "Moves you slightly forward if no enemy is in front of you",
+                        "Can now be cast 3 times in a row",
+                        "The last cast deals 200% damage"
+                    ],
+                    "Blade Rush (R)",
+                    [
+                        "Lasts 2 seconds from point of cast → 2 seconds from point of first hit"
+                    ]
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "Fantasm (Q)",
+                    [
+                        "After casting Q, hero will automatically attack target"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Martial Movement (D)",
+                    [
+                        "Cooldown: 20 seconds → 15 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Sniper",
+                "changes": [
+                    "Storm Shaft (Q)",
+                    [
+                        "Proc damage: AGI X 3 → AGI X 5",
+                        "Active damage: ATK DMG X 1.15 → ATK DMG X 1.5"
+                    ],
+                    "Glide (W)",
+                    [
+                        "Damage per arrow: ATK DMG X 0.3 + AGI X 1.2 → ATK DMG X 0.5 + AGI X 2",
+                        "Max dash distance: 1000 → 600",
+                        "No longer cancels AA"
+                    ],
+                    "Storm Aegis (E)",
+                    [
+                        "Damage removed",
+                        "No longer cancels AA"
+                    ],
+                    "Explosive Shot (R)",
+                    [
+                        "Damage: AGI X 12 → AGI X 15"
+                    ],
+                    "Snipe (T)",
+                    [
+                        "Passive",
+                        [
+                            "Damage bonus based on distance: 20% ~ 60% → 0% ~ 30%"
+                        ],
+                        "Active",
+                        [
+                            "Distance required to achieve max damage: 1500 → 1000",
+                            "Damage: ATK DMG X 7.5 + AGI X 30 → ATK DMG X 15 + AGI X 60",
+                            "Cast time 0.75 seconds → 0.5 seconds",
+                            "Missle speed: 4500 → 6000",
+                            "Cooldown: 40 seconds → 30 seconds"
+                        ]
+                    ],
+                    "Demolition (F)",
+                    [
+                        "Damage: AGI X 90 → AGI X 125",
+                        "Cast time: 0.75 seconds → 0.5 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Twin Star (Q)",
+                    [
+                        "Damage: (AGI + INT) X 6 → (AGI + INT) X 7.5"
+                    ],
+                    "Nanomachine Injection (E)",
+                    [
+                        "Skill description updated to be more clear (no actual changes)",
+                        "Knockback distance: 200 ~ 1000 → 150 ~ 600"
+                    ],
+                    "Distortion (R)",
+                    [
+                        "Refill period (15 - ATK SPD / 15) seconds → 15 / (1 + 0.01 X ATK SPD) seconds",
+                        "Knockback chain time: 1 second → 0.5 seconds"
+                    ],
+                    "Stardust Rain (T)",
+                    [
+                        "Passive missle will now have same damage as active missle (ATK DMG X 0.3 + MAIN STAT X 2.5)",
+                        "Q will now only fire 3 instead of 6 passive missiles"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Dimension Collapse (W)",
+                    [
+                        "Damage per projectile (max MP X 0.9 → max MP X 0.75)",
+                        "ATK Cooldown: 2.75 seconds → 2.5 seconds",
+                        "Incorrect description fixed (1% of ATK SPD = 2% of orb ATK SPD → 1%"
+                    ],
+                    "Vengeance (E)",
+                    [
+                        "No longer grants slow immunity, instead grants 150 MOV SPD bonus",
+                        "Duration: 3 seconds → 2.5 seconds"
+                    ],
+                    "Soul Grimoire (R)",
+                    [
+                        "1 soul will be recharged every 1.5 seconds when landing Q (up to 20 souls)",
+                        "No longer has cooldown",
+                        "Consumes 5 souls per second instead of MP",
+                        "No longer grants CC immunity when cast in human form",
+                        "No longer triggers skill cast event",
+                        "Missile AoE greatly increased (for less RNG)"
+                    ],
+                    "Demonic Fury (T)",
+                    [
+                        "Cast time: 1 second → 0.75 seconds",
+                        "Cooldown: 100 seconds → 90 seconds",
+                        "Now restores MP and soul to full on cast"
+                    ],
+                    "Demonic Fury (T) → Hunger (D)",
+                    [
+                        "Reworked",
+                        "Gains a stack every 0.75 seconds (stacks up to 10 times, stack speed is also affected by Soul Offering)",
+                        "On attack, consumes all stacks and deals INT X 7.5 magic damage and heals you for 4% HP per stack"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Lightning Blade (F)",
+                    [
+                        "Cooldown: 100 seconds → 90 seconds"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "62g",
         "notes": [
             "Released on: November 21st, 2022 ",
