@@ -1,5 +1,595 @@
 [
     {
+        "name": "62j2",
+        "notes": [
+            "Released on: December 18th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "items": [
+            {
+                "name": "Cape of Deep Abyss",
+                "changes": [
+                    "Skill damage 7.5% → 9%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Seal of Mana (T) - No longer grants total damage buff to allies",
+                    "Excalibur (F) - Damage rolled back from STR X 100 to STR X 75"
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Mastery (D) - HP restored 10% → 8%, damage Max HP X 30% → Max HP X 25%",
+                    "Blood Claw (Q) - HP consumed 10% → 12%, damage AD X 1 → AD X 0.8"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "62j",
+        "notes": [
+            "Released on: December 18th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Paladin - Fixed bug where DW/DE/DR sigils received Devotion effects even if Paladin's main stat is STR",
+            "Shrine Priestess - Fixed bug where Meeko could pass through terrains",
+            "Bloodstorm - Fixed issue with wrong damage calculation",
+            "Gaia - Fixed bug where you could transfer Corrupt Energy to dead heroes",
+            "Fixed issue with -convert command not working for some long IDs",
+            "Fixed some description errors on skills",
+            [
+                "Priest - Q",
+                "Mage (Wind) - W",
+                "Hermit - R"
+            ]
+        ],
+        "items": [
+            {
+                "name": "Atricia, the Sword of Dreams",
+                "changes": [
+                    "Stacks will be displayed properly on item"
+                ]
+            },
+            {
+                "name": "Mask of Demigod",
+                "changes": [
+                    "Teleports will now work even when clicking beyond max teleport range"
+                ]
+            },
+            {
+                "name": "Cape of Corrupt Flame",
+                "changes": [
+                    "STR 255 + AGI/INT 100 → All Stats 195",
+                    "Magic Defense 9% → Skill Damage 4%",
+                    "HP Regen penalty removed"
+                ]
+            },
+            {
+                "name": "Cloak of the Fallen Shadows",
+                "changes": [
+                    "STR 315 + AGI/INT 160 → All Stats 255",
+                    "Magic Defense 12% → Skill Damage 6%",
+                    "HP Regen penalty removed"
+                ]
+            },
+            {
+                "name": "Cape of Deep Abyss",
+                "changes": [
+                    "STR 420 + AGI/INT 210 → All Stats 325",
+                    "Magic Defense 13.5% → Skill Damage 7.5%",
+                    "Duration needed for full damage to be dealt 5s → 3s",
+                    "Magic damage taken increase 6~9% → 5%",
+                    "Explosion effect removed"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Boss will no longer drop below 3% HP before the boss finishes healing during the last phase",
+                    "Boss will no longer drop items if killed before the boss finishes healing during the last phase - drop rate will display as 0% before it triggers",
+                    "(This is to prevent a critical bug that causes the boss to die randomly.",
+                    "I have been unable to fix the bug yet, and I can't really tell people to not kill the boss either, so I've implemented a workaround for now.)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Instincts (E) - Assault (E) - Can properly reset E after casting",
+                    "Seal of Mana (T) - Grants 4% damage dealt buff [Type-A] to allies inside",
+                    "Excalibur (F) - Damage STR X 75 → STR X 100, max charge time 3s → 2s, now grants invul buff to self as well"
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Aura (D) - Currently activated aura can be activated again to exit out of spellbook, aura FX have been merged to sigil buff FX",
+                    "Divine Cross (R) - Now shows break text",
+                    "Divine Shield (T) - Now shows duration text"
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Restoration (W) - Effect radius 275 → 325",
+                    "(a small rollback considering recent nerfs in other areas)"
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Mastery (D) - Bonus damage HP healed 9% → 10%",
+                    "Blood Claw (Q) - HP consumption 15% → 10%, no longer interrupts attacks",
+                    "Rose Dance (W) - HP consumption 20% → 15%",
+                    "Crimson Pillar (T) - Damage Max HP X 12.5 → Max HP X 15",
+                    "Sacrifice (F) - Damage per spike AD X 1 + HP X 1 → AD X 1 + HP X 0.7, max damage will be reached at 40% hp instead of 20% hp, activation delay 1s → 0.5s",
+                    "(F damage has been rolled back mostly, but other parts have been buffed instead)"
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Short Circuit (E) - 0.5s cooldown will now start after finishing E"
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Guardian of Wind (F) - Judgment of Vayu (R) - Damage per attack (AGI + INT) X 12.5 → (AGI + INT) X 20, base attack count 3 → 5, bonus damage to non-boss removed, now causes wolf to disappear and grant AoE shield like previous versions",
+                    "(functionality mostly rolled back. damage should also be similar to max MP cast on prev versions)"
+                ]
+            },
+            {
+                "name": "Soul Weaver",
+                "changes": [
+                    "Harvest (A) - Damage type changed from physical to pure, hit count per second reduced to reduce lag (total damage/soul gained is same)",
+                    "Unholy Blast (Q) - Damage taken amount (4 + INT / 1200)% → (5 + INT / 900)%, changed from Type-C to Type-D",
+                    "Soul Cradle (T) - Soul cost 60 → 0",
+                    "(there are no other debuffs in Type-D category at the moment)"
+                ]
+            }
+        ],
+        "misc": [
+            "Stuns will no longer cancel pre-inputed movement orders",
+            "Event next patch if nothing requires quick hotfix"
+        ]
+    },
+    {
+        "name": "62i2",
+        "notes": [
+            "Released on: December 12th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Fixed bugs where skills get interrupted by stuns even with CC immunity"
+        ],
+        "monsters": [
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Abyssal Miasma - Cooldown 90s → 60s (rollback)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Devotion: damage dealt reduction 50% → 40%",
+                    "Holy Aura (D) - Aura of Protection (W) - Judgment no longer provides shield, devotion effect added: if chained via E, shield strength and duration increased by 100%.",
+                    "Holy Aura (D) - Aura of Restoration (E) - Sigil heal amount (max hp x 20% + INT X 4) → (max hp x 20% + INT X 2) and no longer provides buff; devotion effect added: additionally heals for INT X 1 every 4s for 20s",
+                    "Holy Aura (D) - Aura of Awakening (R) - Devotion effect added: if chained via E, provides debuff immunity for 3s",
+                    "Holy Divide (Q) - Heal amount INT X 1.5 → INT 2, width 175 → 225",
+                    "Divine Spirit (W) - No longer applies sigil on collision (only on end point), devotion effect: affects 1 additional ally",
+                    "Divine Cross (R) - Devotion effect changed from applying sigil → breaks shield and applying damage taken increase of (6 + INT / 900)% for 6s [Type-C] "
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Static Sweep (W) - Damage AD x 1 + agi x 8 → AD x 1.5 + agi x 5",
+                    "Static Sweep (W) - Breaker (W) - Damage AD x 1.5 + agi x 12 → AD x 2.5 + agi x 10",
+                    "Static Sweep (W) - Breaker (W) - Static Burst (W) - Energy req 40 → 30, damage INT X 10 → INT X 12.5",
+                    "Discharge (E) - damage int x 9 → int x 10, cooldown 0.5s added to prevent accidental double cast, energy restoration 10 → 20 on orb pick up",
+                    "Lightning Strike (R) - damage int x 30 → int x 40",
+                    "Hypercharge (T) - damage int x 40 → int x 50, cooldown 40s → 30s",
+                    "Lightning Blade (F) - pause time 0.75s → 1s"
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Mastery (D) - Heal per proc HP X 7% → HP X 9%",
+                    "Sacrifice (F) - Spear damage AD X 1 + HP X 70% → AD X 1 + HP X 100%, Damage increases by 40% below 40% HP → Increases up to 40% based on missing HP"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "62i",
+        "notes": [
+            "Released on: December 12th, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Dark Knight - Fixed bug with Q sometimes charging indefinitely",
+            "Duke Lazarus - Fixed bug with boss gaining collision after transformation",
+            "Gaia - Fixed bug boss dying randomly",
+            "Gaia - Fixed bug where boss ignores damage that triggers phase transition"
+        ],
+        "items": [
+            {
+                "name": "Heartrender",
+                "changes": [
+                    "Skill Damage 5% → 7.5%",
+                    "Damage dealt bonus 18% → 15%"
+                ]
+            },
+            {
+                "name": "Fulminata, the Bringer of Storms",
+                "changes": [
+                    "HP 2000 added",
+                    "Crit chance 5% → Skill damage 5%",
+                    "Crit multiplier 0.4x → 0.3x",
+                    "Mark is now applied on first attack instead of 8th attack. Damage changed from (INT X 4 X (100 + charge %) X crit mult) → INT X 7.5 X (100 + charge%), crit is now guaranteed",
+                    "(overall nerf is intended; LM F has been buffed)"
+                ]
+            },
+            {
+                "name": "Bag of Heaven series",
+                "changes": [
+                    "Merchant Specialty - You can now throw 2 potions at once → recharge cooldown reduced to 2.5 seconds"
+                ]
+            },
+            {
+                "name": "Fairy Robe series",
+                "changes": [
+                    "Mage (Lightning) specialty - Now only clears debuff on casting E; Heal on orb absorb removed (moved to base kit)"
+                ]
+            },
+            {
+                "name": "Ring of Fervor",
+                "changes": [
+                    "Damage dealt bonus 5% → Skill damage bonus 6%"
+                ]
+            },
+            {
+                "name": "Ring of Hope",
+                "changes": [
+                    "Light Affinity 5% added",
+                    "Damage dealt bonus 6% → Skill damage bonus 8%",
+                    "(overall nerf is intended; light affinity addition is NOT meant to compensate the type change)"
+                ]
+            },
+            {
+                "name": "Nebula Rose",
+                "changes": [
+                    "Damage dealt bonus 4% → Skill damage bonus 8%",
+                    "Damage reduction type changed to [Type-A]"
+                ]
+            },
+            {
+                "name": "Bloodstorm",
+                "changes": [
+                    "Active - Proc damage will now be treated properly as crit"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Soulburn - Heal reduction 70% → 60%",
+                    "Abyssal Miasma - Cooldown 60s → 90s"
+                ]
+            },
+            {
+                "name": "Gaia",
+                "changes": [
+                    "Life Energy - Healing reduction per point lost 1% → 0.8%",
+                    "Spirit Rift (Empowered) - No longer creates a ring directly underneath the boss. Gap between each ring increased slightly",
+                    "Life Sap - Drained targets will receive invulnerable buff for 2s after being drained"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Max Amplification: Execution Sword (T)",
+                    [
+                        "Passive skill damage bonus 15% → total damage bonus 10%"
+                    ]
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Aura (D)",
+                    [
+                        "INT main stat: Reduces Paladin's damage dealt by 50%, but increases aura radius by 50% and enables Devotion effect on skills."
+                    ],
+                    "Holy Aura (D) - Aura of Retribution (Q)",
+                    [
+                        "AD increase is no longer affected by Light Affinity",
+                        "Devotion: SKD increase increased by (INT / 750)%"
+                    ],
+                    "Holy Divide (Q)",
+                    [
+                        "Only heals self for INT X 1.5 now",
+                        "Devotion: Heals allies as well"
+                    ],
+                    "Divine Spirit (W)",
+                    [
+                        "Devotion: Increase recharge speed based on INT (roughly 35% at 5000 INT)"
+                    ],
+                    "Holy Grace (E)",
+                    [
+                        "Devotion: Effect radius +50%"
+                    ],
+                    "Divine Cross (R)",
+                    [
+                        "Effect radius 275 → 375",
+                        "Devotion: Applies Sigil to allies hit"
+                    ],
+                    "Divine Shield (T)",
+                    [
+                        "Effect radius 375 → 450",
+                        "No longer increases HP regen of allies. Explosion damage STR X 25 → STR X (25 X elapsed seconds) magic damage",
+                        "Devotion: Applies to allies around you",
+                        "Cooldown 40s → 30s"
+                    ],
+                    "Genesis (F)",
+                    [
+                        "Effect radius 550 → 600",
+                        "Devotion: Each pulse grants buff to allies hit for 4 seconds, increasing damage dealt by 8% [Type-A] and preventing HP from falling below 1"
+                    ]
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Brandish (Q)",
+                    [
+                        "No longer causes hero to dash forward if mid-R"
+                    ],
+                    "Blood Fury (E)",
+                    [
+                        "Passive max skill damage bonus 40% → total damage bonus 25%"
+                    ],
+                    "Blade Rush (R)",
+                    [
+                        "Damage per second AD X 0.75 + STR X 7.5 → AD X 1 + STR X 10, total duration 2s → 1.5s (max damage is same)"
+                    ]
+                ]
+            },
+            {
+                "name": "Fighter",
+                "changes": [
+                    "Combo Mastery (D)",
+                    [
+                        "AD increase per stack 15% → 10%, skill damage bonus per stack 14% → 12%"
+                    ],
+                    "Dragon Fist (T)",
+                    [
+                        "Max damage bonus based on distance 130% → 150%"
+                    ]
+                ]
+            },
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Throwing Healing Potion (W)",
+                    [
+                        "Proc coefficient 0.5 → 0.33",
+                        "Heal amount STR X 2 → STR X 2.5",
+                        "Can now be thrown while walking",
+                        "Now works on a charge-based system. 1 charge refills every 4s, up to 5 charges",
+                        "Cooldown 4s → 0s"
+                    ],
+                    "Throw Money (R)",
+                    [
+                        "Damage per second STR X 1.1 → STR X 1.5",
+                        "Debuff no longer decreases healing taken but instead increases target's damage taken by (4 + STR / 1200)% [Type-C].",
+                        "Debuff duration 8s → 5s."
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Twin Star (Q) (Crimson Star series)",
+                    [
+                        "Heal amount per bolt INT X 0.25~0.5 + Max HP X 10~15% → INT X 0.75",
+                        "Fixed issue with Abyss Fall healing for much less than Cosmic Star"
+                    ],
+                    "Break Shot (E)",
+                    [
+                        "Missile travel distance 1000 → 1200, cast range 2000 → 1200"
+                    ],
+                    "Distortion (R)",
+                    [
+                        "Damage taken increase (5 + INT / 300)% → (7.5 + INT / 600)%"
+                    ]
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "Stage Finisher (T)",
+                    [
+                        "Damage per slash AD X 1 + AGI X 15 → AD X 1 + AGI X 12.5"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Orb of Harmony (R)",
+                    [
+                        "Harmony - SKD bonus (Main Stat / 400)% → (Main Stat / 500)%"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Smaller damage texts will now be displayed even without Short Circuit",
+                    "Short Circuit (D)",
+                    [
+                        "Proc AoE 250 → 375",
+                        "Base crit chance 30% → 35%",
+                        "Short Circuit base skill damage 50% bonus removed"
+                    ],
+                    "Lightning Bolt (Q)",
+                    [
+                        "Cast range 1300 → 1200",
+                        "Base damage INT X 3 → INT X 6",
+                        "Orb duration 10s → 8s, orb flight speed increased, no longer causes INT X 3 damage on explosion",
+                        "You can only maintain up to 1 orb spawned using Q"
+                    ],
+                    "Static Sweep (W)",
+                    [
+                        "Damage AD X 0.4 + (AGI + INT) X 4 → AD X 1 + AGI X 8"
+                    ],
+                    "Static Sweep (W) - Breaker (W)",
+                    [
+                        "Damage AD X 1.6 + AGI X 8 → AD X 1.5 + AGI X 12"
+                    ],
+                    "Static Sweep (W) - Breaker (W) - Static Burst (W)",
+                    [
+                        "Damage INT X 8 → INT X 10",
+                        "Effect radius 750 → 450",
+                        "Explodes all nearby orbs → Consumes all orbs regardless of distance, increasing base damage by 100% (up to 5 times)"
+                    ],
+                    "Discharge (E)",
+                    [
+                        "Cooldown removed",
+                        "Energy cost 25 → 50, now lasts for flat 1s without consuming 50 energy per second",
+                        "Damage INT X 12 → INT X 9, damage reduction 80% → 70%",
+                        "Charging yourself restores 8% HP and 10 energy, refreshes E duration and causes E to deal 100% bonus damage",
+                        "500 distance limit removed, but you can now only damage an enemy when moving in from out of range",
+                        "You can no longer cast Q during E"
+                    ],
+                    "Lightning Strike (R)",
+                    [
+                        "Energy cost 40 → 0",
+                        "Damage INT X 22.5 → INT X 30",
+                        "RNG reduced for orb spawns, spawn angle slightly adjusted"
+                    ],
+                    "Hyperchargec (T)",
+                    [
+                        "Damage per second INT X 21.43 (description was incorrect) → INT X 40",
+                        "Damage duration 1.5s → 1s (total channel time 2s → 1.5s)"
+                    ],
+                    "Lightning Blade (F)",
+                    [
+                        "Base damage INT X 50 → INT X 100 (takes D change and Fulminata nerf into account; will hit for 33.33% stronger than previous version)",
+                        "Cast time 0.75s → 0.5s",
+                        "Damage delay/pause time 1.5s → 0.75s",
+                        "Dash distance affects only damage now. Crit is guaranteed"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Gentle Winds (W)",
+                    [
+                        "Heal INT X 2 → INT X 2.5"
+                    ],
+                    "Light Breeze (R)",
+                    [
+                        "Heal per second 25 + INT X 0.25 → INT X 0.3"
+                    ],
+                    "Guardian of Wind (F) - Anger (W)",
+                    [
+                        "Dash speed increased"
+                    ],
+                    "Guardian of Wind (F) - Judgment of Vayu (R)",
+                    [
+                        "No longer costs mana or causes summon to disappear. Deals (AGI + INT) X 12.5 damage each attack, up to (3 + Base Attack Speed / 25) attacks. Deals 100% bonus damage to non-boss units. 15s CD. Specialty removed, now affected by wind affinity."
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "Heal (D)",
+                    [
+                        "Heal per second INT X 0.4 + INT X 0.5, bonus heal for summon Max HP X 7% → Max HP X 10%"
+                    ],
+                    "Holy Wave (Q)",
+                    [
+                        "Heal amount Max HP X 12% + 100 X Root(INT) → INT X 2.5"
+                    ],
+                    "Divine Orb (W)",
+                    [
+                        "Cross intersection damage (400 x level) → INT X 30, damage cap removed"
+                    ],
+                    "Divine Light (R)",
+                    [
+                        "Damage INT X 15 → INT X 45"
+                    ],
+                    "Heaven Field (F)",
+                    [
+                        "Buff type changed to [Type-A]"
+                    ]
+                ]
+            },
+            {
+                "name": "Soul Weaver",
+                "changes": [
+                    "Soul Collector (Q)",
+                    [
+                        "Damage taken increase 5% → (4 + INT / 1200)%"
+                    ]
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Seal of Earth (R)",
+                    [
+                        "Damage on attack INT X 6 → INT X 7.5",
+                        "Damage reduction bonus to allies 20% → 15%"
+                    ]
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Soul Grimoire (R)",
+                    [
+                        "Passive skill damage bonus 25% → total damage bonus 15%"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Player number added beside class for easier tracking",
+            "When heroes are stunned, any queued orders will be reset",
+            "(this also fixes issue with Soul Weaver re-casting skill that was being cast after stun expires)",
+            "Skill damage no longer affects healing on some healing abilities",
+            "(Note: Not all skills were affected by skill damage.",
+            "Most self-healing abilities (ex. Berserker D, Lancer R, Crusader T, Blood Weaver D/E, etc.),",
+            "most item effects (ex. Heirloom of Lazarus active, Crown of Cleansing passive, etc.) and",
+            "all HP regen effects were not previously affected by skill damage.",
+            "Small adjustments have been made on bosses and classes, but overall intention is to reduce healing",
+            "especially in full party scenarios where main stat/skill damage bonuses are amplified greatly through buff stacking.",
+            "If bosses feel too difficult due to these changes, some additional changes may be made in upcoming patches.)"
+        ]
+    },
+    {
         "name": "62h",
         "notes": [
             "Released on: November 30th, 2022",
@@ -611,7 +1201,7 @@
             {
                 "name": "Blaster",
                 "changes": [
-                    "Attack speed penalty will apply to non-pure attack speed bonus as well (ex. Buff from Witch’s summon or Heart of Life)",
+                    "Attack speed penalty will apply to non-pure attack speed bonus as well (ex. Buff from Witch's summon or Heart of Life)",
                     "Buster Shot (E)",
                     [
                         "Can now crit/apply marks to non-boss units.",

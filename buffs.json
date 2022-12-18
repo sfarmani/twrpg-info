@@ -1,6 +1,26 @@
 [
     {
         "type": "Type-A",
+        "suffix": "None",
+        "bufftype": "Damage Dealt",
+        "names": [
+            "Sword Enchanter - Power Enchant [E] (Buff) - 5%",
+            "Witch - Mark of Power [T] -> [W] (Buff) - 5%",
+            "Priest - Heaven Field [F] (Buff) - 5%",
+            "Paladin - Genesis [F] (Buff) - 8%"
+        ]
+    },
+    {
+        "type": "Type-B",
+        "suffix": "None",
+        "bufftype": "Damage Dealt",
+        "names": [
+            "The Ender - 15%",
+            "Heartrender - 15%"
+        ]
+    },
+    {
+        "type": "Type-A",
         "suffix": "Fixed",
         "bufftype": "Attack Damage",
         "names": [

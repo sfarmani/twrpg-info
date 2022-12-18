@@ -136,7 +136,7 @@
         "order": 1,
         "passive": [
             "Expertise in black magic allows Soul Weaver to subjugate souls to her will.",
-            "Regenerates (12 + MP regen / 15) souls per second",
+            "Regenerates (12 + MP regen / 30) souls per second",
             "Restores Max HP X 0.5% for each soul absorbed"
         ]
     },
@@ -151,7 +151,7 @@
         "order": 2,
         "active": [
             "Sends out a spinning scythe that harvests the souls of enemies.",
-            "Attack Damage X 150% physical damage per second (ignore's target's defense)",
+            "Attack Damage X 150% pure damage per second (ignores target's defense)",
             "Absorbs 4 souls (10 souls for boss) per second",
             "Reduces target's healing received by 15% and movement speed by 60%",
             "Damage period reduced based on attack speed bonus"
@@ -168,10 +168,8 @@
         "active": [
             "Fires shards made from concentrated souls.",
             "INT X 3 magic damage",
-            "Increases damage taken by 5% and reduces speed by 40% for 5 seconds",
-            "On consecutive casts, fires additional shards and stuns for 0.5 seconds",
-            "Projectile bypasses terrain",
-            "Lasts 5 seconds"
+            "Increases damage taken by (5 + INT / 800)% and reduces speed by 40% for 5 seconds",
+            "On consecutive casts, fires additional shards and stuns for 0.5 seconds"
         ]
     },
     {
@@ -234,8 +232,7 @@
             "INT X 9 magic damage per second",
             "Periodically stuns for 1 second",
             "Prevents nearby allies' HP from dropping below 1",
-            "Lasts 6 seconds",
-            "Consumes 60 souls"
+            "Lasts 6 seconds"
         ]
     },
     {
@@ -796,11 +793,11 @@
         "order": 5,
         "passive": [
             "Amplify your magic with grimoire that is inscribed with ancient demons' powers.",
-            "Max HP and skill damage increased by 25%",
-            "Increased MP regen by 75 + 100%"
+            "Total damage increased by 15%, max HP increased by 25%",
+            "MP regen increased by 75 + 100%"
         ],
         "active": [
-            "Unleash the grimoire and let your magic run wild.",
+            "Unleashes the grimoire and let your magic run wild.",
             "Consumes 5 souls per second",
             "Focus attacks of Dimension Collapse onto targeted area",
             "Gates have 100% increased damage and 200% increased attack speed for the cast",
@@ -924,11 +921,11 @@
             "Manipulate blood through black magic.",
             "Increases max HP by INT X 4",
             "Periodically charges blood gauge every (6 - 0.04 X Hero Level)",
-            "On next attack, consumes blood gauge to deal Max HP X 25% pure damage and heal for Max HP X 7%"
+            "On next attack, consumes blood gauge to deal Max HP X 25% pure damage and heal for Max HP X 8%"
         ]
     },
     {
-        "id": "A0YV",
+        "id": "A1BB",
         "name": "Blood Claw",
         "heroClass": "Blood Weaver",
         "color": "ff1a1a",
@@ -943,9 +940,9 @@
         ],
         "active": [
             "Focus blood into the tips of your nails.",
-            "Consumes Max HP X 15%",
-            "Deals 200% of passive damage",
-            "Can be cast up to 4 additional times, each cast increasing damage by 250% and HP cost by 100%",
+            "Consumes Max HP X 12%",
+            "Deals Attack Damage X 0.8 magic damage",
+            "Can be cast up to 4 additional times, each cast increasing damage by 125% and HP cost by 100%",
             "After 5th cast, enters cooldown for 1.5 seconds"
         ]
     },
@@ -960,7 +957,7 @@
         "order": 3,
         "active": [
             "Swiftly move by transforming into bats.",
-            "Consumes Max HP X 20%",
+            "Consumes Max HP X 15%",
             "Max HP X 2.5 magic damage",
             "Invulnerable while travelling"
         ]
@@ -1018,7 +1015,7 @@
         "order": 6,
         "active": [
             "Purify enemies with a ritual of blood.",
-            "Max HP X 12.5 magic damage",
+            "Max HP X 15 magic damage",
             "Pulls in enemes that are far away"
         ]
     },
@@ -1033,8 +1030,8 @@
         "order": 7,
         "active": [
             "\"I shall beautify you even further !\"",
-            "Create 10 spears each second for 2 seconds, inflicting Attack Damage X 1 + MAX HP X 70% magic damage per spear",
-            "Deals 40% bonus damage to enemies under 40% HP",
+            "Creates 20 spears over 2 seconds, inflicting Attack Damage X 1 + MAX HP X 70% magic damage per spear",
+            "Deals up to 40% bonus damage based on target's missing HP (max damage reached at 40% HP)",
             "Becomes immune to CC effects while casting"
         ]
     },
@@ -1240,7 +1237,7 @@
         "active": [
             "Fire a charged magic bullet, and disengage using the recoil.",
             "Attack damage X 1.5 + AGI X 7.5 magic damage",
-            "Deals up to 400% damage based on knockback distance"
+            "Deals up to 300% bonus damage based on knockback distance"
         ]
     },
     {
@@ -1255,7 +1252,7 @@
         "active": [
             "Fires a bullet that can distort dimensions.",
             "Main Stat X 7.5 magic damage",
-            "Increases target's damage taken by (5 + INT / 300)% and reduces its movement speed for 3 seconds",
+            "Increases target's damage taken by (7 + INT / 600)% and reduces its movement speed for 3 seconds",
             "Knocksback target if cast consecutively",
             "Recharges every 15 seconds (affected by pure attack speed)"
         ]
@@ -2021,7 +2018,7 @@
         "order": 20,
         "passive": [
             "Raises the ground below to attack enemies.",
-            "Each attack deals INT X 6 magic damage in a line"
+            "Each attack deals INT X 7.5 magic damage in a line"
         ]
     },
     {
@@ -2035,7 +2032,7 @@
         "passive": [
             "Blessed with the endurance of the earth.",
             "Ignores debuffs and instant kill effects",
-            "Reduces damage taken by you and nearby allies by 205",
+            "Reduces damage taken by you and nearby allies by 15%",
             "Upon reaching 1 HP, becomes invincible"
         ]
     },
@@ -2169,14 +2166,13 @@
         "color": "99bbff",
         "hotkey": "[Passive]",
         "icon": "LightningMagePass",
+        "cooldown": 0.5,
         "order": 1,
         "passive": [
             "Lightning magic reacts strongly to other lightning magic, which amplifies their effects.",
-            "Every 4th attack Shocks nearby enemies for 1.5 seconds",
-            "INT X 6 pure damage",
-            "Attacking Shocked units restores 4 energy",
-            "Landing skills on Shocked units activates Short Circuit",
-            "For 1 second, your skills deal 50% more damage to target and also can critically strike with (30 + 1.5 X Critical Chance)% chance"
+            "4th consecutive attack deals INT X 6 pure damage and applies Shock for 1.5 seconds",
+            "Attacking Shocked enemies restores 4 Energy",
+            "Landing skill on Shocked enemies activates Short Circuit for 1 second, allowing skills to critically strike the target for (35 + 1.5 X Crit Chance)% chance"
         ]
     },
     {
@@ -2189,9 +2185,8 @@
         "order": 2,
         "active": [
             "Create an orb of lightning and fling it forward.",
-            "INT X 3 magic damage",
-            "Explodes after 10 seconds dealing INT X 3 magic damage",
-            "Bypasses terrain"
+            "INT X 6 magic damage",
+            "Creates 1 Lightning Orb"
         ]
     },
     {
@@ -2205,7 +2200,7 @@
         "order": 3,
         "active": [
             "Perform a kick with the speed of lightning.",
-            "Attack damage X 0.4 + (AGI + INT) X 4 magic damage",
+            "Attack Damage X 1.5 + AGI X 5 magic damage",
             "If used to activate Short Circuit, can be chained with an additional skill"
         ]
     },
@@ -2219,7 +2214,7 @@
         "order": 4,
         "active": [
             "Throws a punch with the speed of lightning.",
-            "Attack damage X 1.6 + AGI X 8 magic damage",
+            "Attack Damage X 2.5 + AGI X 10 magic damage",
             "If used to activate Short Circuit, it can be chained with an additional skill"
         ]
     },
@@ -2233,7 +2228,7 @@
         "order": 5,
         "active": [
             "Release collected energy with an explosive burst.",
-            "INT X 8 magic damage",
+            "INT X 12.5 magic damage",
             "Short stun effect",
             "If used to activate Short Circuit, explodes all nearby lightning orbs"
         ]
@@ -2245,14 +2240,14 @@
         "color": "b3f0ff",
         "hotkey": "[E]",
         "icon": "LightningMageE",
-        "cooldown": 5,
+        "cooldown": 0.5,
         "order": 6,
         "toggle": [
-            "Discharge body to quickly release mana, gaining immense speed in return.",
-            "Consumes 50 energy per second",
-            "Becomes charged after travelling 500 distance, dealing INT X 12 magic damage",
-            "Reduces damage taken by 80% and ignores CC effects",
-            "Upon absorbing a lightning orb, becomes Charged for 0.75 seconds which removes energy consumption and allows dealing damage once more"
+            "Discharges body to quickly release mana, gaining immense speed in return.",
+            "For 1 second, deals INT X 10 magic damage to collided enemies",
+            "Reduces damage taken by 70% and ignores CC effects while active",
+            "Can absorb Lightning Orbs, healing you for 8% HP and 20 energy and granting you Charged status, which refreshes the duration of skill and allows you to deal damage once more",
+            "While Charged, Discharge and Hypercharge deals 100% increased damage"
         ]
     },
     {
@@ -2266,7 +2261,7 @@
         "order": 7,
         "active": [
             "Focuses mana into a single point to call down a lightning strike.",
-            "INT X 22.5 magic damage",
+            "INT X 40 magic damage",
             "Stuns for 1 second",
             "Creates 5 lightning orbs"
         ]
@@ -2282,11 +2277,10 @@
         "order": 8,
         "active": [
             "Absorb mana dispersed in the atmosphere to charge yourself.",
-            "After 0.5 seconds, deals INT X 18.5 magic damage per second",
+            "After 0.5 seconds, deals INT X 50 magic damage over 1 second",
             "Short stun effect",
             "Invulnerable while active",
-            "If used while charged, damage is increased by 100%",
-            "If channeled for 2 seconds, refreshes energy and skill cooldowns"
+            "If fully channeled, refills all Energy and refreshes basic skill cooldowns"
         ]
     },
     {
@@ -2300,14 +2294,11 @@
         "order": 9,
         "active": [
             "\"Disappear with the Lightning!\" - Mage",
-            "Pauses unit for 1.5 seconds",
-            "Refreshes duration of Short Circuit",
-            "Deals INT X 50 damage on expiration",
-            "Damage and critical chance are increased up to 200% based on dash distance",
-            "Breaks shield effects",
-            "Restores all your energy and resets cooldown on Discharge",
-            "Invincible while casting",
-            "Range: 1200"
+            "Pauses target for 1 second and deals INT X 100 magic damage",
+            "Breaks any shield effects and critically strikes if target is affected by Short Circuit",
+            "Damage dealt is increased up to 100% based on dash distance",
+            "While casting, duration of Shock and Short Circuit will be refreshed on target",
+            "After cast, refills all Energy"
         ]
     },
     {
@@ -2428,7 +2419,7 @@
         "order": 7,
         "passive": [
             "Increases the power of the Execution Sword.",
-            "Attack damage and skill damage increased by 15%"
+            "Attack damage increased by 15% and total damage increased by 10%"
         ],
         "active": [
             "Summons an angel using your own body as a vessel to break the limits on the Execution Sword.",
@@ -2987,7 +2978,7 @@
         "active": [
             "Send out gentle winds infused with mana.",
             "INT X 10 magic damage",
-            "Upon reaching allies, heal INT X 2 health",
+            "Upon reaching allies, heal INT X 2.5 HP",
             "Cooldown reset upon casting Feather of Aeolus",
             "When combined, forms a tornado for 5 seconds, dealing Attack Damage X 2 magic damage per second and activating Grace of Zephyrus (scales with attack speed)"
         ]
@@ -3128,12 +3119,13 @@
         "color": "aef4c7",
         "hotkey": "[F] → [R]",
         "icon": "WindMageF_R",
+        "cooldown": 15,
         "order": 13,
         "active": [
-            "Consumes all remaining mana to unleash series of fierce attacks to bring down judgment on enemies.",
-            "Each attack deals (AGI + INT) X 11.25 damage",
-            "Performs a total of (5 + remaining MP / 20) attacks",
-            "Vanishes after cast"
+            "Brings down judgment on enemies.",
+            "Each attack deals 1(AGI + INT) X 20 magic damage",
+            "Attacks up to (5 + Pure Attack Speed / 25)% times",
+            "Disappears after cast"
         ]
     },
     {
@@ -3172,21 +3164,20 @@
         ]
     },
     {
-        "id": "A0DA",
+        "id": "A1BC",
         "name": "Throwing Healing Potion",
         "heroClass": "Merchant",
         "color": "ddddbb",
         "hotkey": "[W]",
         "icon": "MerchantW",
-        "proc_rate": 0.5,
-        "cooldown": 4,
+        "proc_rate": 0.33,
         "order": 3,
         "active": [
             "Throws a potion made with your own blood, which is thick as troll's blood.",
-            "Restores STR X 2 health",
+            "Heals target for STR X 2.5 HP",
             "Increases target's HP regen by (Target's Max HP X 3% + Your own HP Regen) for 10 seconds",
-            "Potion lasts 300 seconds, and you can maintain up to 3 potions at once",
-            "Radius: 500"
+            "Potion lasts 300 seconds, and you can maintain up to 5 potions on ground at once",
+            "1 potion is refilled every 4 seconds (up to 5 potions)"
         ]
     },
     {
@@ -3236,8 +3227,8 @@
         "active": [
             "Throws money with great force, inflicting tetanus on enemies hit.",
             "Each coin inflicts STR X 1.5 magic damage",
-            "Reduces healing taken by 20% and deals STR X 1.1 damage per second for 8 seconds",
-            "Throws up to 6 coins"
+            "For 5 seconds, deals STR X 1.5 magic damage per second and increases damage taken by (4 + STR / 1200)%",
+            "Throws up to 10 coins"
         ]
     },
     {
@@ -3476,7 +3467,7 @@
         "order": 4,
         "passive": [
             "As the hunger for blood increases, so do berserker's combat abilities.",
-            "Increases attack damage up to (STR X 6), move speed up to 125, skill damage and damage reduction up to 40% based on missing HP",
+            "Increases attack damage up to (STR X 6), total damage up to 25%, move speed up to 125, and damage reduction up to 40% based on missing HP",
             "Each attack increases STR by 10%, attack speed by 25% for 6 seconds (stacks up to 3 times)"
         ],
         "toggle": [
@@ -3498,10 +3489,9 @@
         "active": [
             "Rushes forward with a spinning blade of death.",
             "Consumes HP X 20%",
-            "Spins for 2 seconds, dealing attack damage X 0.75 + STR X 7.5 magic damage per second",
+            "Spins for 1.5 seconds, dealing Attack Damage X 1 + STR X 10 magic damage per second",
             "Deals 100% bonus damage to bleeding targets and reapplies bleeding",
-            "Become immune to CC effects while active",
-            "Lasts 2 seconds"
+            "Become immune to CC effects while active"
         ]
     },
     {
@@ -3825,8 +3815,8 @@
             "For each stack consumed, deals 20% bonus damage and restores max MP X 2% (max MP X 4% for boss)"
         ],
         "active": [
-            "Inscribe seal of mana onto the ground to protect allies from damage.",
-            "Shares damage reduction and HP recovery with allies",
+            "Inscribes seal of mana onto the ground to protect allies from damage.",
+            "Shares Knight's reduction and healing with allies",
             "Restores Knight's MP by 10% per second",
             "Lasts 6 seconds"
         ]
@@ -3843,10 +3833,9 @@
         "active": [
             "\"Corrupt evils that must not exist in this world! The end is nigh. O Holy sword, grant me victory over my foes!\" - Knight during the God-Devil War",
             "STR X 75 magic damage",
-            "For each second channeled, size increased & damage increased by 33%",
-            "Can be channeled up to a maximum of 3 seconds",
-            "Grants 100% damage reduction and immunity to debuffs/CC effects to allies hit for 5 seconds",
-            "Cancels Release Mana"
+            "For each second channeled, size increased & damage increased by 50%",
+            "Can be channeled up to a maximum of 2 seconds",
+            "Grants 100% damage reduction and immunity to debuffs/CC effects to allies hit for 5 seconds"
         ]
     },
     {
@@ -4305,8 +4294,8 @@
         "order": 1,
         "active": [
             "Heal target's wounds",
-            "Heals for INT X 0.40 HP every second",
-            "Heals for additional max HP X 7% per second if target is a summon",
+            "Heals for INT X 0.5 HP every second",
+            "Additionally heals for Max HP X 10% per second if target is a summon",
             "Reduces target's damage taken by 20% while active",
             "Lasts for 12 seconds"
         ]
@@ -4323,7 +4312,7 @@
         "active": [
             "Release holy mana in the shape of a line.",
             "INT X 5 magic damage",
-            "Heals allies for their Max HP X 12% + √(INT) X 100",
+            "Heals allies for INT X 2.5 HP",
             "If the target is affected by Recovery, clears any debuffs on the target"
         ]
     },
@@ -4341,8 +4330,8 @@
             "Summons an orb that can be controlled for 12 seconds",
             "Deals INT X 5 magic damage to enemies hit",
             "Increases allies' movement speed by 200 and regenerates their HP by 8% per second",
-            "Divine orb will also be casted by Holy Wave.",
-            "Hitting a target with both Holy Waves will deal an additional (Hero level x 400) magic damage (May only do up to a maximum of 25% health to the target)"
+            "Replicates Holy Wave and Holy Aurora cast by Priest",
+            "Hitting a target with both waves will deal additional INT X 30 magic damage"
         ]
     },
     {
@@ -4452,7 +4441,7 @@
         "order": 9,
         "active": [
             "Convert targeted area's mana into holy energy, creating a holy explosion.",
-            "INT X 15 magic damage",
+            "INT X 45 magic damage",
             "Stuns enemies within area for 0.5 seconds and blinds them for 5 seconds",
             "Grants barriers to allies within area that absorbs INT X 6 damage for 6 seconds"
         ]
@@ -4572,7 +4561,8 @@
         "active": [
             "Holy power allows you to emit a powerful aura.",
             "Every 7th attack empowers next attack with Judgment",
-            "Attack Damage X 1 magic damage"
+            "Attack Damage X 1 magic damage",
+            "If INT is main stat, total damage is decreased by 40% but aura radius is increased by 50% and Devotion Effect is activated"
         ]
     },
     {
@@ -4587,7 +4577,8 @@
             "An aspect of crusader who calls down retribution on his foes.",
             "Increase nearby allies' attack damage by 10%",
             "Judgment - deals 150% bonus damage",
-            "Sigil - Increases skill damage by 12% for 20 seconds"
+            "Sigil - Increases skill damage by 12% for 20 seconds",
+            "Devotion: Increases skill damage by additional (INT / 750)%"
         ]
     },
     {
@@ -4601,8 +4592,9 @@
         "passive": [
             "An aspect of protector who defends his allies.",
             "Increases nearby allies' magic defense by 15%",
-            "Judgment - Grants shield that absorbs (STR + INT X 2) damage for 2 seconds and reduces damage dealt by target by 40% for 2 seconds",
-            "Sigil - Grants shield for 4 seconds"
+            "Judgment - Reduces damage dealt by target by 40% for 2 seconds",
+            "Sigil - Grants a shield that absorbs (STR + INT X 2) damage for 4 seconds",
+            "Devotion: When chained with Holy Grace, shield amount and duration is increased by 100%"
         ]
     },
     {
@@ -4617,11 +4609,12 @@
             "Aspect of priest that cures the inner wounds of allies.",
             "Increases nearby allies' HP regen by target's max HP X 1% + INT X 0.2",
             "Judgment - Restores max HP X 30%",
-            "Sigil - Heals for target's max HP X 20% + INT X 4, increases heal received by 50% for 10 seconds"
+            "Sigil - Heals for target's max HP X 20% + INT X 2",
+            "Devotion: Additionally heals for INT X 1 every 4 seconds for 20 seconds"
         ]
     },
     {
-        "id": "A09D",
+        "id": "A0AJ",
         "name": "Aura of Awakening",
         "heroClass": "Paladin",
         "color": "b9faff",
@@ -4632,7 +4625,8 @@
             "An aspect of paragon who awakens his allies.",
             "Increases nearby allies' movement speed by 75",
             "Judgment - Stuns target for 0.5 seconds",
-            "Sigil - Removes debuffs"
+            "Sigil - Removes debuffs",
+            "Devotion: When chained with Holy Grace, grants immunity to debuffs for 3 seconds"
         ]
     },
     {
@@ -4648,8 +4642,9 @@
             "Sends out a holy wave that only damages evil.",
             "Attack Damage X 1 magic damage",
             "Heals allies hit for INT X 2",
-            "Leaves Mark of Light for 3 seconds that allows your next attack to ignore target's armor",
-            "Cooldown reset on casting other skills"
+            "Leaves Mark of Light for 3 seconds that allows your next attack from range to dash to the target and attack while ignoring the target's armor",
+            "Cooldown reset on casting other skills",
+            "Devotion: Heals any allies hit as well"
         ]
     },
     {
@@ -4663,14 +4658,16 @@
         "order": 7,
         "passive": [
             "Summons holy spirits that boosts your mobility.",
-            "Summons every 6 seconds (up to 3 spirits)"
+            "Summons every 6 seconds (up to 3 spirits)",
+            "Devotion: Summon cooldown reduced based on INT"
         ],
         "active": [
             "Merges with the holy spirit to move at the speed of light.",
             "STR X 5 magic damage",
             "Deals 150% bonus damage to enemies afflicted with Mark of Light",
             "Activates Judgment on next attack",
-            "Provides Sigil to a single ally"
+            "Provides Sigil to a single ally",
+            "Devotion: Grants Sigil to 2 allies"
         ]
     },
     {
@@ -4689,7 +4686,8 @@
         "active": [
             "Applies Judgment to nearby enemies",
             "Applies Sigil to nearby allies",
-            "Summons 2 holy spirits"
+            "Summons 2 holy spirits",
+            "Devotion: Effect radius increased by 50%"
         ]
     },
     {
@@ -4705,7 +4703,8 @@
             "Summons a holy cross to bring down judgment on enemies.",
             "Attack Damage X 8 magic damage",
             "Binds target's movement for 2 seconds",
-            "Deals up to 75% bonus damage based on target's missing HP (max damage to rooted targets)"
+            "Deals up to 75% bonus damage based on target's missing HP (max damage to rooted targets)",
+            "Devotion: Breaks shield effects and increases damage taken by target by (6 + INT/900)% for 6 seconds"
         ]
     },
     {
@@ -4715,13 +4714,13 @@
         "color": "fafac8",
         "hotkey": "[T]",
         "icon": "PaladinT",
-        "cooldown": 40,
+        "cooldown": 30,
         "order": 10,
         "active": [
             "Summons a holy shield to protect yourself from harm.",
-            "Reduces damage taken by 80% for 5 seconds",
-            "Regenerates nearby allies' HP by 15% every second",
-            "On recast, detonates the shield to deal STR X 25 magic damage to nearby enemies and stun them for 1 second"
+            "For 5 seconds, regenerates 15% HP per second and decreases damage taken by 80%",
+            "On recast, deals (STR X 25 X elapsed seconds) magic damage to nearby enemies and stuns for 2.5 seconds",
+            "Devotion: Applies to nearby allies"
         ]
     },
     {
@@ -4737,7 +4736,8 @@
             "\"Embrace the lights of heaven.\" - Paladin",
             "Releases a pulse every second to deal AD X 2.5 + STR X 40 magic damage",
             "Calls down rays of light on two allies every 0.25 seconds, healing them for INT X 5",
-            "Lasts 4 seconds"
+            "Lasts 4 seconds",
+            "Devotion: Each pulse provides allies with buff for 4 seconds, increasing their total damage by 8% and preventing their HP from dropping below 1"
         ]
     },
     {
@@ -4910,7 +4910,7 @@
             "Instantly heals for Main Stat X 0.75",
             "Heals for (STR + INT) X 0.15 every second",
             "Reduces damage taken by 15%",
-            "Lasts 8 ~ 4 seconds based on distance from target point",
+            "Lasts 8~4 seconds based on distance from target point",
             "Harmony: Duration increased by 50%"
         ]
     },
@@ -4964,7 +4964,7 @@
             "Regenerates resource point by 5% per second",
             "Increases skill damage by 10%",
             "Lasts 5~10 seconds based on duration traveled",
-            "Harmony: Skill damage bonus is further increased by (Main Stat / 400)%"
+            "Harmony: Skill damage bonus is further increased by (Main Stat / 500)%"
         ]
     },
     {
@@ -5226,7 +5226,7 @@
             "Fulfilling one of conditions below will trigger a combo effect, restoring 1 energy",
             "When repeating an action (ex. AAA, WWW)",
             "When alternating between different action (ex. AWA, AWE): Empowers next skill",
-            "If you activate a different combo than before (ex. AAA -> AWA): Increases attack damage by 15% and damage dealt by skills by 14% (stacks up to 5 times; resets on failure)"
+            "If you activate a different combo than before (ex. AAA -> AWA): Increases attack damage by 10% and damage dealt by skills by 12% (stacks up to 5 times; resets on failure)"
         ]
     },
     {
@@ -5329,7 +5329,7 @@
         "active": [
             "Gathers energy into your fist to release a powerful strike.",
             "Attack damage X 5 + STR X 30 magic damage",
-            "Empowered: Restores all energy and deals up to 230% damage based on traveled distance"
+            "Empowered: Restores all energy and deals up to 250% damage based on traveled distance"
         ]
     },
     {
@@ -5476,7 +5476,7 @@
         ],
         "active": [
             "Delivers a grand finale.",
-            "Consumes all marks to deal Attack Damage X 1 + AGI X 15 magic damage each",
+            "Consumes all marks to deal Attack Damage X 1 + AGI X 12.5 magic damage each",
             "Can critically strike"
         ]
     },

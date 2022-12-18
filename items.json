@@ -3066,10 +3066,6 @@
         "Heals 12500 HP over 12 seconds",
         "Decreases target's armor by 15 for 5 seconds (stacks up to 5 times)",
         "Cooldown: 90 seconds"
-      ],
-      "spec": [
-        "Specialty - Fairy Blessing",
-        "Lightning Mage - Cleanse any debuffs when Discharge is used."
       ]
     }
   },
@@ -12744,7 +12740,7 @@
       "mdpercent": 0.12,
       "spec": [
         "Merchant Specialty - Very Light Bag",
-        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's DMG TAKEN by 8%",
+        "Merchant - Throwing Healing Potion: Refill period is reduced to 2.5 seconds, and it reduces target's damage taken by 8%.",
         "Merchant - Life Shield Scroll: Duration increased by 5 seconds"
       ]
     }
@@ -12829,7 +12825,7 @@
       "mdpercent": 0.12,
       "spec": [
         "Merchant Specialty - Very Light Bag",
-        "Merchant - Throwing Healing Potion: You can throw up to 2 of it at once, and it reduces target's damage taken by 12%.",
+        "Merchant - Throwing Healing Potion: Refill period is reduced to 2.5 seconds, and it reduces target's damage taken by 12%.",
         "Merchant - Life Shield Scroll: Duration increased by 5 seconds"
       ]
     }
@@ -13149,7 +13145,6 @@
       ],
       "spec": [
         "Specialties - Fairy Blessing",
-        "Lightning Mage - Discharge: Clears debuffs on you when cast.",
         "Wind Mage - Feather of Aeolus: Heals for max HP X 15%."
       ]
     }
@@ -14138,11 +14133,8 @@
       }
     ],
     "stats": {
-      "str": 255,
-      "agi": 100,
-      "int": 100,
-      "hpregen": -50,
-      "mdpercent": 0.09,
+      "allstat": 195,
+      "skilldamagepercent": 0.04,
       "periodicdamagepercent": 0.09,
       "passive": [
         "On landing a single-target effect, engulfs target in corrupt flames",
@@ -16022,7 +16014,7 @@
       "spec": [
         "Merchant Specialty - Very Light Bag",
         "Merchant - This Bag isn't a Decoration!: You can drink up to 2 potions at once.",
-        "Merchant - Throwing Healing Potion: Can be thrown twice in a row, number of placeable potions increased by 3, and reduces target's damage taken by 12%.",
+        "Merchant - Throwing Healing Potion: Refill period is reduced to 2.5 seconds, number of placeable potions increased by 3, and reduces target's damage taken by 12%.",
         "Merchant - Life Shield Scroll: Duration increased by 5 seconds and increases target's magic defense by 15%."
       ]
     }
@@ -16591,7 +16583,6 @@
       ],
       "spec": [
         "Specialties - Maiden's Blessing",
-        "Lightning Mage - Discharge: Clears debuffs on you when cast, and heals for 5% HP when you become Charged.",
         "Wind Mage - Feather of Aeolus: Heals for max HP X 40%."
       ]
     }
@@ -17578,7 +17569,7 @@
       "hpregen": 120,
       "passive": [
         "On direct hit, applies Fervor (single-target spells on allies)",
-        "Increases damage output by 5% and main stat by 90 for 12 seconds"
+        "Increases skill damage by 6% and main stat by 90 for 12 seconds"
       ],
       "active": [
         "On use, activates Joy",
@@ -17847,11 +17838,8 @@
       }
     ],
     "stats": {
-      "str": 315,
-      "agi": 160,
-      "int": 160,
-      "hpregen": -75,
-      "mdpercent": 0.12,
+      "allstat": 255,
+      "skilldamagepercent": 0.06,
       "periodicdamagepercent": 0.12,
       "passive": [
         "On single-target hits, engulfs target with Corruption",
@@ -19651,7 +19639,7 @@
       "spec": [
         "Merchant Specialty - Very Light Bag",
         "Merchant - This Bag isn't a Decoration!: You can drink up to 2 potions at once.",
-        "Merchant - Throwing Healing Potion: Can be thrown twice in a row, number of placeable potions increased by 6, and reduces target's damage taken by 15%.",
+        "Merchant - Throwing Healing Potion: Refill period is reduced to 2.5 seconds, number of placeable potions increased by 6, and reduces target's damage taken by 15%.",
         "Merchant - Life Shield Scroll: Duration increased by 5 seconds and increases target's magic defense by 15%."
       ]
     }
@@ -20159,7 +20147,6 @@
       ],
       "spec": [
         "Specialties - Heaven's Blessing",
-        "Lightning Mage - Discharge: Clears debuffs on you when cast, and heals for 10% HP when you become Charged.",
         "Wind Mage - Feather of Aeolus: Heals for max HP X 50%."
       ]
     }
@@ -20964,9 +20951,10 @@
     "stats": {
       "allstat": 360,
       "hpregen": 180,
+      "affinitylightpercent": 0.05,
       "passive": [
         "On direct hit, applies Fervor (single-taget spells on allies)",
-        "Increases damage output by 6% and main stat by 120 for 12 seconds"
+        "Increases skill damage by 8% and main stat by 120 for 12 seconds"
       ],
       "active": [
         "On use, activates Hope",
@@ -21324,7 +21312,7 @@
       "active": [
         "On use, activates Cosmic Protection",
         "Applies a shield of ((INT X 5) + (max HP X 0.2)) for 5 seconds",
-        "Increases damage output by 4% and damage reduction by 12% when shielded allies take spell damage for 30 seconds",
+        "Increases skill damage by 8% and damage reduction by 12% [Type-A] when shielded allies take spell damage for 30 seconds",
         "Cooldown: 45 seconds, cannot be dropped during cooldown"
       ]
     }
@@ -21789,17 +21777,14 @@
       }
     ],
     "stats": {
-      "str": 420,
-      "agi": 210,
-      "int": 210,
-      "mdpercent": 0.135,
+      "allstat": 325,
+      "skilldamagepercent": 0.09,
       "periodicdamagepercent": 0.135,
       "passive": [
         "On direct hit, activates Drowning Abyss",
-        "Single-target spells deal 15% bonus damage per skill cast over 5 seconds",
+        "Single-target spells deal 15% bonus damage per skill cast over 3 seconds",
         "(Bonus damage type is same as the spell used)",
-        "Increases enemy magic damage taken by 6% ~ 9% (based on seconds elapsed, up to 15 seconds)",
-        "If target dies with Drowning Abyss, explodes and deals (MAIN STAT X 30) pure damage to in an AoE"
+        "Increases enemy magic damage taken by 5% (based on seconds elapsed, up to 15 seconds)"
       ],
       "active": [
         "On use, manually activate explosion on targets with max magic damage taken stacks"
@@ -22084,10 +22069,10 @@
       "damage": 10700,
       "mainstat": 930,
       "attackspeedpercent": 0.3,
-      "skilldamagepercent": 0.05,
+      "skilldamagepercent": 0.075,
       "passive": [
         "Upon damaging enemies below 50% HP, activates Death's Door",
-        "Deals 18% bonus damage"
+        "Deals 15% bonus damage"
       ],
       "active": [
         "On use, activates Heartrender",
@@ -22531,8 +22516,9 @@
     "stats": {
       "damage": 10300,
       "int": 840,
-      "critchancepercent": 0.05,
-      "critmultiplier": 0.40,
+      "hp": 2000,
+      "skilldamagepercent": 0.05,
+      "critmultiplier": 0.30,
       "passive": [
         "On attack, activates Mark of Storm",
         "Attacking the same target 4 times applies Mark of Storm",
@@ -22540,8 +22526,7 @@
         "While Eye of the Storm is active, you accumulate 20% charge for each 200 distance moved (up to 400%)",
         "If you attack again with more than 100% charge or after 10 seconds, consumes Eye of the Storm to release a burst of lightning",
         "Lightning deals magic damage to nearby enemies (can critically strike)",
-        "Damage: INT X 4 X (100 + charge %) X crit multiplier",
-        "Crit chance: (your critical chance) X (charge %)",
+        "Damage: INT X 7.5 X (100 + charge%), crit is guaranteed",
         "Cooldown: 15 seconds, cannot be dropped during cooldown"
       ]
     }
