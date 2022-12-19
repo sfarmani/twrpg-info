@@ -127,7 +127,7 @@
             "Jupiter, the Robe of Heavens (Aura) - 10%",
             "Oath of Courage (Aura) - 8%",
             "Eternal Rose (Aura) - 8%",
-            "Nebula Rose (Aura) - 10%"
+            "Nebula Rose (Aura) - 12%"
         ]
     },
     {
@@ -135,7 +135,9 @@
         "suffix": "None",
         "bufftype": "Reduced damage received",
         "names": [
-            "Ispion, the Runed Ring (Aura) - 6%"
+            "Ispion, the Runed Ring (Aura) - 6%",
+            "Nebula Rose (Active) - 12%",
+            "Seal of Lazarus (Active) - 20%"
         ]
     },
     {
