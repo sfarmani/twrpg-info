@@ -1,5 +1,33 @@
 [
     {
+        "name": "62k",
+        "notes": [
+            "Released on: December 23rd, 2022",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Paladin - Fixed issue with R displaying BREAK text incorrectly",
+            "Blood Weaver - Fixed issue where Q starts at 2 stacks instead of 1",
+            "Blood Weaver - Alleviated issue with hero aggroing different units when casting Q",
+            "Fixed issue with invulnerable units getting stunned",
+            "Monster",
+            "Gnosis-Tier Bosses",
+            "Max HP bonus per player beyond 3 players 30% → 25%"
+        ],
+        "events": [
+            "Winter Event will run from 2022/12/23 ~ 2023/01/08"
+        ],
+        "monsters": [
+            "Gnosis-Tier Bosses",
+            [
+                "Max HP bonus per player beyond 3 players: 30% → 25%"
+            ]
+        ],
+        "misc": [
+            "Players will now have vision around Loot Chest"
+        ]
+    },
+    {
         "name": "62j2",
         "notes": [
             "Released on: December 18th, 2022",
