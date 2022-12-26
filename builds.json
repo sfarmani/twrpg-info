@@ -2098,10 +2098,52 @@
     },
     {
         "for": "Witch",
-        "type": "DPS",
+        "type": "DPS: Early Game",
         "order": 1,
         "stat": "INT",
-        "version": "60o",
+        "version": "62k",
+        "items": {
+            "Staff of Contagion": [],
+            "Prophetia, the Source of Mana": [],
+            "Ring of Deep Darkness": [],
+            "Frozen Robe": [],
+            "Fairy Wings": []
+        }
+    },
+    {
+        "for": "Witch",
+        "type": "DPS: Mid Game",
+        "order": 2,
+        "stat": "INT",
+        "version": "62k",
+        "items": {
+            "Parasitic Staff": [],
+            "Prophetia, the Greater Source of Mana": [],
+            "Grimoire of Darkness": [],
+            "Frozen Robe": [],
+            "Soul Eater": []
+        }
+    },
+    {
+        "for": "Witch",
+        "type": "DPS: Late Game",
+        "order": 3,
+        "stat": "INT",
+        "version": "62k",
+        "items": {
+            "Staff of Plague": [],
+            "Prophetia, the Greater Source of Mana": [],
+            "Mark of Sin": [],
+            "Robe of Storm": [],
+            "Soul Eater": []
+        }
+    },
+    {
+        "for": "Witch",
+        "type": "DPS",
+        "order": 4,
+        "stat": "INT",
+        "version": "62k",
         "description": [
 			"With the attack speed from Heartrender you can swap rings to fit the team's needs (Recommend Heart of LIfe)",
 			"I would recommend using survival wings more than dps as you are made of paper ~ Zany"
@@ -2128,7 +2170,7 @@
     {
         "for": "Witch",
         "type": "Support",
-        "order": 2,
+        "order": 5,
         "stat": "INT",
         "version": "60o",
         "description": [
