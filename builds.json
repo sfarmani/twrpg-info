@@ -413,6 +413,32 @@
         }
     },
     {
+        "for": "Paladin",
+        "type": "DPS",
+        "order": 2,
+        "stat": "INT",
+        "version": "62k",
+        "items": {
+            "Heaven's Door ": [
+                "Gate of Abyss"
+            ],
+            "Crown of Cleansing ": [
+                "Eye of the Flame Lord"
+            ],
+            "Ring of Hope": [
+                "Heart of Life",
+                "Heirloom of Lazarus",
+                "Nebula Rose"
+            ],
+            "Cage of Twisted Souls ": [
+                "Jupiter the Robe of Heavens"
+            ],
+            "Guardian Angel ": [
+                "Protection of the Fairies"
+            ]
+        }
+    },
+    {
         "for": "Assassin",
         "type": "Early Game",
         "order": 1,
@@ -1664,8 +1690,50 @@
     },
     {
         "for": "Lightning Mage",
-        "type": "Full DPS",
+        "type": "Early Game",
         "order": 1,
+        "stat": "INT",
+        "version": "62k",
+        "items": {
+            "Belius, the Archdevil's Staff": [],
+            "Horns of Destruction": [],
+            "Ring of the Reaper": [],
+            "Frozen Robe": [],
+            "Fairy Wings": []
+        }
+    },
+    {
+        "for": "Lightning Mage",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "INT",
+        "version": "62k",
+        "items": {
+            "Parasitic Staff": [],
+            "Horn of Devil": [],
+            "Cold Ring of Death": [],
+            "Frozen Robe": [],
+            "Soul Eater": []
+        }
+    },
+    {
+        "for": "Lightning Mage",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "INT",
+        "version": "62k",
+        "items": {
+            "The Ender": [],
+            "Horn of Lightning God": [],
+            "Cold Ring of Death": [],
+            "Robe of Storm": [],
+            "Storm": []
+        }
+    },
+    {
+        "for": "Lightning Mage",
+        "type": "Full DPS",
+        "order": 4,
         "stat": "INT",
         "version": "60v",
         "guidelink": [
