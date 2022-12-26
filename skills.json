@@ -811,7 +811,7 @@
         "color": "9465e2",
         "hotkey": "[T]",
         "icon": "WarlockT",
-        "cooldown": 100,
+        "cooldown": 90,
         "order": 6,
         "active": [
             "Obtains a demon's body at the cost of one's own soul.",
