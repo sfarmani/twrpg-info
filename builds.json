@@ -1068,26 +1068,16 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
-        "version": "38d",
+        "version": "62k",
         "description": [
-            "If you can get Ender early on, you do not need Espishu anymore.",
-            "Ring of Fate is very situational and only good for fights with lots of CC"
+            "\"this might not be the very optimal build but its way better and up to date than the current one\" - Takashiro"
         ],
         "items": {
-            "Cosmic Reaper": [],
-            "Horn of Demon God": [
-                "Eye of the Reaper"
-            ],
-            "Demonic Fist": [
-                "Ring of Insanity"
-            ],
-            "Nevedium, the Armor of Demonblood": [
-                "Athanasia, the Armor of the Reaper",
-                "Vest of Storm"
-            ],
-            "Ruler of the Skies": [
-                "Wings of Blood Lord"
-            ]
+            "Divine Slayer": [],
+            "Horn of Dragon": [],
+            "Crimson Curse": [],
+            "Vest of Divine Winds": [],
+            "Ruler of the Skies": []
         }
     },
     {
