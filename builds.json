@@ -1691,8 +1691,50 @@
     },
     {
         "for": "Priest",
-        "type": "Full Support",
+        "type": "Early Game",
         "order": 1,
+        "stat": "INT",
+        "version": "62k",
+        "items": {
+            "Staff of Void": [],
+            "Eye of the Abyss": [],
+            "Living Dragon Heart": [],
+            "Fairy Robe": [],
+            "Wings of Purification": []
+        }
+    },
+    {
+        "for": "Priest",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "INT",
+        "version": "62k",
+        "items": {
+            "Staff of Abyss": [],
+            "Void Eye": [],
+            "Azathos, the Pipe of Chaos": [],
+            "Diana, the Robe of Holy Maiden": [],
+            "Soul of the Dead": []
+        }
+    },
+    {
+        "for": "Priest",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "INT",
+        "version": "62k",
+        "items": {
+            "Soul of Abyss": [],
+            "Eye of the Flame Lord": [],
+            "Horn of God": [],
+            "Diana, the Robe of Holy Maiden": [],
+            "Protection of the Fairies": []
+        }
+    },
+    {
+        "for": "Priest",
+        "type": "Full Support",
+        "order": 4,
         "stat": "INT",
         "version": "64h",
         "description": [
