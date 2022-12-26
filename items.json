@@ -6681,7 +6681,7 @@
     "description": "A valuable coin. It can be traded with collectors for other items.",
     "notes": [
       "To exchange, you can sell items dropped by mid-level bosses ('Used In' section) to the Collector NPC",
-      "Can be used to purchased items from the Collector NPC"
+      "Can be used to purchase items from the Collector NPC"
     ],
     "rank": "[Epic]",
     "grade": 2,
@@ -6725,7 +6725,7 @@
     "koreanname": "프리우스 금화",
     "description": "A valuable coin. It can be traded with collectors for other items.",
     "notes": [
-      "Can be used to purchased items from the Collector NPC"
+      "Can be used to purchase items from the Collector NPC"
     ],
     "dropped_by": [
       "Bone Dragon",
