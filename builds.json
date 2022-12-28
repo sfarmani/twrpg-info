@@ -200,7 +200,9 @@
             "https://twrpg.com/viewtopic.php?f=4&t=4399"
         ],
         "description": [
-            "Use Crown of Extreme Anger Path until Crescendo"
+            "Use Crown of Extreme Anger Path until Crescendo",
+            "Wings of Sacred Provenance give stable damage, while Wings of Cosmos passive is pure random",
+            "If Cage isn't needed in run, use Titan's Plates for higher damage"
         ],
         "items": {
             "Spear of Judgment": [],
@@ -208,8 +210,12 @@
                 "Crown of Extreme Anger"
             ],
             "Seal of Corruption": [],
-            "Cage of Twisted Souls": [],
-            "Wings of Cosmos": []
+            "Cage of Twisted Souls": [
+                "Titan's Plates"
+            ],
+            "Wings of Sacred Provenance": [
+                "Wings of Cosmos"
+            ]
         }
     },
     {
