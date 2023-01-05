@@ -833,22 +833,24 @@
         ],
         "description": [
             "For more protection, look at the STR Full Support build",
-            "If your team uses serenity, then you can switch to another helm",
+            "If your team uses serenity/RoH/Jupiter, then you can switch to an alt helm for more buff/debuff variants",
             "Use Heaven's Door for lowman",
-            "Use Eternal Snow for speedrunning - due to stuns",
             "Use Harmonia for healing if no healer present (such as priest)"
         ],
         "items": {
             "Soul of Abyss": [
                 "Heaven's Door",
-                "Endless Snow",
                 "Harmonia, the Sparkle of Life"
             ],
             "Crown of Cleansing": [
                 "Hood of Apocalypse"
             ],
-            "Ring of Hope": [],
-            "Jupiter, the Robe of Heavens": [],
+            "Ring of Hope": [
+                "Heirloom of Lazarus"
+            ],
+            "Jupiter, the Robe of Heavens": [
+                "Frost Herald's Garment"
+            ],
             "Protection of the Fairies": []
         }
     },
