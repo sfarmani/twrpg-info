@@ -1,5 +1,92 @@
 [
     {
+        "name": "62l",
+        "notes": [
+            "Released on: January 9th, 2023",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Santa Token - Fixed issue with token skill opening magic stone inventory",
+            "Fixed issue with some abilities not going on cooldown when breaking shield effects"
+        ],
+        "events": [
+            "Winter Event is deactivated"
+        ],
+        "monsters": [
+            {
+                "name": "Turtle Lord",
+                "changes": [
+                    "Small turtles spawn count reduced from 3 (at 75%/50%/25%) to 2 (at 66%/33%)"
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
+                    "Fixed issue with bubble being too hard to break in practice mode"
+                ]
+            },
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Personal loot & wish system implemented (non-wish drop rate multiplier is 0.25x), drop rates adjusted accordingly",
+                    "Difficulty multipliers have been adjusted to be similar as other bosses",
+                    "When a Soul Crystal is broken, a Hope Fragment will be dropped nearby. Using Hope Fragment clears any debuffs on you.",
+                    "Fixed issue with Soul Crystal gaining unit collision during some parts of the fight",
+                    "DoT damage on high burn stacks slightly reduced"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Aura (D) - Aura of Protection (W) - Improved visual clarity on shield",
+                    "Divine Cross (R) - Default speed increased; Heavens Fist/Demonic Fist specialty no longer increases default speed"
+                ]
+            },
+            {
+                "name": "Blaster",
+                "changes": [
+                    "Buster Shot (E) - Mark made slightly bigger"
+                ]
+            },
+            {
+                "name": "Knight",
+                "changes": [
+                    "Instincts (E) - Assault (E) - Attack angles are less random now"
+                ]
+            },
+            {
+                "name": "Lightseeker",
+                "changes": [
+                    "Orbs will be visible to only Lightseeker now",
+                    "Gather Light (D) - Cooldown 4s → 3s",
+                    "Enlightenment (T) - Cooldown reset enabled after absorbing 5 → 4 orbs"
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Release (T) - Duration will be paused while hero is paused (ex. while casting F)"
+                ]
+            },
+            {
+                "name": "Arcane Mage",
+                "changes": [
+                    "Moonlight Link (D)/Illusion (R)/Barrage (T) - Cooldown 12s → 10s",
+                    "Magic Star (Q) - Damage MP X 0.75 → MP X 1",
+                    "Flash Storm (W) - Damage MP X 2.25 → MP X 2.5",
+                    "Starlight (F) - Periodic damage INT X 2.5 → INT X 2, bonus damage on Q INT X 5 → INT X 4"
+                ]
+            }
+        ],
+        "misc": [
+            "Reduced gold cost of power recorder by half",
+            "Removed gold cost on stat reallocation",
+            "Spending stat points via command menu will now put all points into it"
+        ]
+    },
+    {
         "name": "62k",
         "notes": [
             "Released on: December 23rd, 2022",

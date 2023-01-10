@@ -6972,7 +6972,7 @@
       0.001,
       0.0015,
       0.0015,
-      0.0015,
+      0.001,
       0.0015
     ],
     "recipe": [
@@ -9051,7 +9051,7 @@
     "type": "Wings",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.006,
+    "droprate": 0.009,
     "required_by": [
       "Bag of Despair",
       "Nevedium, the Armor of Demonblood",
@@ -9094,7 +9094,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.009,
+    "droprate": 0.006,
     "required_by": [
       "Ring of Hope",
       "Ring of Despair",
@@ -9134,7 +9134,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.009,
+    "droprate": 0.006,
     "required_by": [
       "Hood of Apocalypse",
       "Power of Beriel",
@@ -9173,7 +9173,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.009,
+    "droprate": 0.006,
     "required_by": [
       "Radiance of the One",
       "Crown of Absolute Zero",
@@ -9233,7 +9233,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.00005
   },
   {
     "id": "I014",
@@ -20871,7 +20871,7 @@
       "spec": [
         "Specialties - Summary Judgement, Holy Arts",
         "Crusader - If Original Sin is cast while Holy Fist is active, only the last slash is activated with stun duration reduced by 50% and cooldown by 66%.",
-        "Paladin - Divine Cross' damage is increased by 15% and speed is increased by 50%",
+        "Paladin - Divine Cross' damage is increased by 15%",
         "Martial Artist - Increases attack damage amplifier on Inner Meditation by 20%"
       ]
     }
@@ -21362,7 +21362,7 @@
       ],
       "spec": [
         "Specialties - Demon's Grasp",
-        "Paladin - Divine Cross' damage is increased by 20% and speed is increased by 50%",
+        "Paladin - Divine Cross' damage is increased by 20%",
         "Crusader - If Original Sin is cast while Demon's Grasp is active, only the last slash is activated with stun duration reduced by 50% and cooldown by 66%."
       ]
     }
