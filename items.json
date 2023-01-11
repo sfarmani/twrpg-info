@@ -9051,7 +9051,7 @@
     "type": "Wings",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.009,
+    "droprate": 0.01,
     "required_by": [
       "Bag of Despair",
       "Nevedium, the Armor of Demonblood",
@@ -9094,7 +9094,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.006,
+    "droprate": 0.007,
     "required_by": [
       "Ring of Hope",
       "Ring of Despair",
@@ -9134,7 +9134,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.006,
+    "droprate": 0.007,
     "required_by": [
       "Hood of Apocalypse",
       "Power of Beriel",
@@ -9173,7 +9173,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.006,
+    "droprate": 0.007,
     "required_by": [
       "Radiance of the One",
       "Crown of Absolute Zero",

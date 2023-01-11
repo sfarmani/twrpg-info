@@ -1,5 +1,31 @@
 [
     {
+        "name": "62l2",
+        "notes": [
+            "Released on: January 11th, 2023",
+            "Compatible Version: v0.60c ~"
+        ],
+        "monsters": [
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Green drop rate 0.9% → 1%, mat drop rate 0.6% → 0.7%, non-wish drop rate multiplier 25% → 30%",
+                    "When entering the boss zone, all players will start with 0 charges of Fragment of Hope. Destroying a crystal will give 1 charge to all players."
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Lightseeker",
+                "changes": [
+                    "Light Dash (Q) - Damage STR X 9 → STR X 8",
+                    "Converging Light (W) - Damage per orb STR X 6 → STR X 5",
+                    "Light Seeker (R) - Base damage STR X 7.5 → STR X 6.5"
+                ]
+            }
+        ]
+    },
+    {
         "name": "62l",
         "notes": [
             "Released on: January 9th, 2023",
