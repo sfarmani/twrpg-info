@@ -420,7 +420,7 @@
     },
     {
         "for": "Paladin",
-        "type": "DPS",
+        "type": "Support",
         "order": 2,
         "stat": "INT",
         "version": "62k",
