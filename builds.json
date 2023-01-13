@@ -1991,21 +1991,62 @@
     },
     {
         "for": "Warlock",
-        "type": "DPS",
+        "type": "Early Game",
         "order": 1,
         "stat": "INT",
-        "version": "57b",
+        "version": "62l2",
         "items": {
-            "Heartrender": [
-                "Staff of Plague"
-            ],
-            "Crescendo of Madness": [
-                "Prophetia, the Origin of Knowledge"
-            ],
+            "Staff of Contagion": [],
+            "Prophetia, the Source of Mana": [],
+            "Ring of Deep Darkness": [],
+            "Frozen Robe": [],
+            "Fairy Wings": []
+        }
+    },
+    {
+        "for": "Warlock",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "INT",
+        "version": "62l2",
+        "items": {
+            "Parasitic Staff": [],
+            "Prophetia, the Greater Source of Mana": [],
+            "Grimoire of Darkness": [],
+            "Frozen Robe": [],
+            "Soul Eater": []
+        }
+    },
+    {
+        "for": "Warlock",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "INT",
+        "version": "62l2",
+        "items": {
+            "Staff of Plague": [],
+            "Prophetia, the Greater Source of Mana": [],
+            "Mark of Sin": [],
+            "Robe of Storm": [],
+            "Soul Eater": []
+        }
+    },
+    {
+        "for": "Warlock",
+        "type": "End Game",
+        "order": 4,
+        "stat": "INT",
+        "version": "62l2",
+        "description": [
+            "Use Curse of Greed if you can survive."
+        ],
+        "items": {
+            "Heartrender": [],
+            "Crescendo of Madness": [],
             "Seed of Malice": [],
-            "Thanatos, the Robe of Hell": [],
-            "Wings of Frost Lord": [
-                "Soul Devourer"
+            "Sanguis, the Robe of Sacrifice": [],
+            "Soul Devourer": [
+                "Curse of Greed"
             ]
         }
     },
