@@ -1350,30 +1350,50 @@
     },
     {
         "for": "Trickster",
-        "type": "DPS",
+        "type": "End Game DPS",
         "order": 1,
         "stat": "AGI",
-        "version": "43h",
+        "version": "62l2",
         "description": [
-            "This build is a spell caster build with items that give crit since Trickster's Q and T have crit.",
-            "The alt items are support items, since they can be used twice."
+            "Using ring of the one if there is a lot of support/cleanses in group.",
+            "Using clone for items only work if clone stays alive; Otherwise the effects does not work.",
+            "Clone will not have the option for Heaven's Door. So your main will only have the Weapon.",
+            "Protection of the fairies good for end game runs where your team doesn't have enough revives."
         ],
         "items": {
-            "Cosmic Reaper": [
+            "Divine Slayer": [],
+            "Horn of Dragon": [
+                "Eye of the Reaper"
+            ],
+            "Ring of Desolate Soul": [
+                "Ring of the One"
+            ],
+            "Exitium, the Armor of Ruin": [],
+            "Bloodstorm": [
+                "Protection of the fairies"
+            ]
+        }
+    },
+    {
+        "for": "Trickster",
+        "type": "Optional Support",
+        "order": 2,
+        "stat": "AGI",
+        "version": "62l2",
+        "items": {
+            "Eternal Winter": [
                 "Heaven's Door"
             ],
-            "Horn of Demon God": [
+            "Crown of Cleansing": [
                 "Spirit of Protector"
             ],
-            "Ring of Frozen Soul": [
-                "Horn of God"
+            "Heart of Life": [
+                "Heirloom of Lazarus"
             ],
-            "Athanasia, the Armor of the Reaper": [
-                "Harmony of Sky and Earth"
+            "Harmony of Sky and Earth": [
+                "Jupiter, the Robe of Heavens"
             ],
-            "Storm": [
-                "Protection of the Fairies"
-            ]
+            "Protection of the fairies": []
         }
     },
     {
