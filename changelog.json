@@ -1,5 +1,70 @@
 [
     {
+        "name": "62m",
+        "notes": [
+            "Released on: January 26th, 2023",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Blood Weaver - Fixed issue where Q could be fired without enough HP",
+            "Phantom Blade - Fixed issue where T duration didn't elapse while affected by spike in Duke Lazarus battle",
+            "Martial Artist - Fixed issue where using D during Gaia battle could cause loss of Life Energy item",
+            "Fixed issues where 'damage dealt' tracking effects (ex. Star of Apotheosis) didn't calculate crit damage properly",
+            "Fixed issue where Wings of Deep Abyss series didn't proc properly on physical skill effects"
+        ],
+        "items": [
+            {
+                "name": "New items have been added",
+                "changes": [
+                    "Shadow Waltz",
+                    "Astral Fury",
+                    "Call of Gehenna",
+                    "Keeper of the Grove",
+                    "Ring of Malevolence",
+                    "Bell of Divinity",
+                    "Living Flame",
+                    "Thread of Life",
+                    "Blood Devourer"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Max HP 13.5M → 12.5M, Soul Crystal Max HP 2.5M → 2.25M, HP increase per player 20% → 25%",
+                    "Fragment of Hope removed",
+                    "Minigame - Better visual indicator added (portal will be red for first minigame, blue for second minigame)",
+                    "Infest - Can now be cleared by pressing ESC. No longer removed via debuff cleanse."
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Dark Arts (R) - Defile (E) - Effect radius 450 → 500"
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Three Talon Strike (Q) - Instead of dealing a separate damage instance, Thunderer's attack will be converted into pure type (affected by auto-attack damage and skill damage bonus), with third strike landing as critical strike. Damage per strike AD X 1.5 + (STR + AGI) X 5 → AD X 1.25 + (STR + AGI) X 5.",
+                    "(will now generate a cleaner damage text as well)"
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Seal of Chaos (F) - Chaos Elemental will have display priority over summon from Chaos Dagger"
+                ]
+            }
+        ],
+        "misc": [
+            "Training Room - Added a feature to set dummy's HP to 1"
+        ]
+    },
+    {
         "name": "62l2",
         "notes": [
             "Released on: January 11th, 2023",

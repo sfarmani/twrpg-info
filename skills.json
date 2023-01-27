@@ -3325,9 +3325,9 @@
         "order": 2,
         "active": [
             "Focuses strength onto the tip of the spear to deliver powerful strikes.",
-            "Next 3 attacks deal an additional attack damage x 1.5 + (STR + AGI) x 5 pure damage",
-            "Lasts up to 10 seconds",
-            "3rd attack deals double damage and knocks up non-boss target"
+            "Next 3 attacks are converted into pure type, each dealing Attack Damage X 1.25 + (STR + AGI) X 5 damage",
+            "Lasts 10 seconds",
+            "3rd attack critically strikes and knocks-up non-boss target,"
         ]
     },
     {
