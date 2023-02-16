@@ -2452,15 +2452,26 @@
         "type": "Normal bursting critical",
         "order": 1,
         "stat": "STR",
-        "version": "62c",
+        "version": "62m2",
         "description": [
-            "Use plates of Sanguine Fury for a more defensive option"
+            "Final Omen is a must as the only way to increase physical damage is critical multiplier.",
+            "Heartrender can be used as transition weapon between Last Word and Final Omen",
+            "Use plates of Sanguine Fury for a more defensive option",
+            "Ring of Divine Winds is a must, anyway you can use Ring of Desolate Soul if you feel that need more defense or immunity",
+            "Crimson Curse is a yolo item",
+            "Cold Ring of Death and its upgrades should be used in place of Ring of Divine Winds on Death Fiend unless you have some protection",
+            "DM asmodium#1713 to discuss"
         ],
         "items": {
-            "Final Omen": [],
-            "Crown of Cataclysm": [],
-            "Ring of Desolate Soul": [],
-            "Titan's Plates": [
+            "Final Omen": [
+                "Heartrender"
+            ],
+            "Visage of Vengeance": [],
+            "Ring of Divine Winds": [
+                "Ring of Desolate Soul",
+                "Crimson Curse"
+            ],
+            "Bloodseeker Plates": [
                 "Plates of Sanguine Fury"
             ],
             "Bloodstorm": []
