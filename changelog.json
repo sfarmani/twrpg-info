@@ -1,5 +1,127 @@
 [
     {
+        "name": "62p2",
+        "notes": [
+            "Released on: February 27th, 2023",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Fixed damage of various skills not being affected by new items",
+            "Trickster - Fixed issue where Q occasionally didn't go on cooldown",
+            "Trickster - Fixed issue where E was not affected by T damage bonus",
+            "Mad Clown - Fixied issue where Trickster clone/Shrine Priestess Meeko dying healed boss",
+            "Fixed bug where '1' stat point is displayed under hero icon after spending stat points via menu"
+        ],
+        "items": [
+            {
+                "name": "Armor of Despair series",
+                "changes": [
+                    "Dark Knight Specialty - T spawn soul count specialty removed (merged with base kit)"
+                ]
+            },
+            {
+                "name": "Ring of Desolate Soul Series",
+                "changes": [
+                    "Swordsman Specialty - E cast increase count specialty removed (merged with base kit)",
+                    "Assassin Specialty - T illusion increase count specialty removed (merged with base kit), Q damage bonus 100% → 50%"
+                ]
+            },
+            {
+                "name": "Wings of Cosmos",
+                "changes": [
+                    "Base all stat 275 → 300",
+                    "Passive main stat bonus 125 → 150 (active 250 → 300)"
+                ]
+            },
+            {
+                "name": "New items have been added",
+                "changes": [
+                    "Aeon Sphere",
+                    "Prelude to Demise",
+                    "Bag of All Evils",
+                    "Dread Incarnate"
+                ]
+            },
+            {
+                "name": "New recipes have been added",
+                "changes": [
+                    "Materials not yet obtainable will be displayed in question mark"
+                ]
+            },
+            {
+                "name": "Following items will use charges to display following elements",
+                "changes": [
+                    "Hellspike Armor - Charge amount",
+                    "Druid Robe - Fairy count",
+                    "Heavens Door - Applied count"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Arcane Construct",
+                "changes": [
+                    "A new Arcana-tier boss has been added",
+                    "Boss can be encountered by entering Ancient Ruins (max 6 player limit)",
+                    "Drops: Mask of Truth, Arcane Core, Ancient Tome"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Dark Arts (R) - Defile (E) - Dark affinity now affects debuff scaling",
+                    "Requiem (T) - Now summons 4 additional souls after casting is finished"
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Pierce (Q) - Backswing time reduced"
+                ]
+            },
+            {
+                "name": "Blaster",
+                "changes": [
+                    "Heavy Tech (D) - Auto attack damage bonus 15% → 25%",
+                    "Homing Missile (T) - Damage per missile STR X 5 → STR X 6 "
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Sword Storm (E) - Flash Step (Q) - Chain count 3 → 4"
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Shadow Slash (Q) - Base damage AD X 0.4 + AGI X 3.5 → AD X 0.5 + AGI X 5",
+                    "Shadow Rush (T) - Summoned illusion count 4 → 5"
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Mastery (D) - Proc damage no longer counts as another attack",
+                    "(D proc can no longer build D procs again)",
+                    "Blood Boil (R) - D proc build chance 50% → 75%"
+                ]
+            },
+            {
+                "name": "Soul Weaver",
+                "changes": [
+                    "Skill damage and debuff scalings now scale with dark affinity"
+                ]
+            }
+        ],
+        "misc": [
+            "Multiplayer bonus will now increase resummon count of Neptinos bosses from 5 to 10",
+            "Stuns will no longer cancel unit orders"
+        ]
+    },
+    {
         "name": "62m2",
         "notes": [
             "Released on: January 28th, 2023",

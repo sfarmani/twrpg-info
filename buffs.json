@@ -16,7 +16,8 @@
         "bufftype": "Damage Dealt",
         "names": [
             "The Ender - 15%",
-            "Heartrender - 15%"
+            "Heartrender - 15%",
+            "Ring of Malevolence - 10%"
         ]
     },
     {
@@ -137,7 +138,8 @@
         "names": [
             "Ispion, the Runed Ring (Aura) - 6%",
             "Nebula Rose (Active) - 12%",
-            "Seal of Lazarus (Active) - 20%"
+            "Seal of Lazarus (Active) - 20%",
+            "Keeper of the Grove - 20%"
         ]
     },
     {
@@ -185,7 +187,8 @@
         "bufftype": "Main Stat",
         "names": [
             "Heaven's Door - (60 + 3%)",
-            "Guardian Angel (Aura) - (80 + 4%)"
+            "Guardian Angel (Aura) - (80 + 4%)",
+            "Aeon Sphere - (150 + 3%)"
         ]
     }
 ]

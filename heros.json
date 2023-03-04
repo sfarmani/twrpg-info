@@ -243,9 +243,7 @@
             "Melee damage dealer. Focused on casting skills, but it weaves auto-attacks in between skill casts."
         ],
         "spec": [
-            "Brooch of Darkness - Improved Flash Step",
-            "Cold Ring of Death - Cold Ring of Death",
-            "Ring of Frozen Soul - Ring of Frozen Soul"
+            "No Specs!"
         ]
     },
     {
@@ -482,6 +480,7 @@
             "Bag of Corruption - Very Heavy Bag",
             "Bag of Destruction - Very Heavy Bag",
             "Bag of Demise - Very Heavy Bag",
+            "Bag of All Evils - Very Heavy Bag",
             "Bag of Explosion - Dangerous Bag",
             "Bag of Despair - Dangerous Bag",
             "Fruit-filled Bag - Light Bag",
@@ -611,9 +610,6 @@
             "Melee damage dealer. Focused on skill casts."
         ],
         "spec": [
-            "Requiem, the Armor of Lamentation - Eternal Lamentation",
-            "Hades, the Armor of Despair - Eternal Lamentation",
-            "Cage of Twisted Souls - Eternal Lamentation",
             "Seal of Deceiver - Power of Inversion"
         ]
     },

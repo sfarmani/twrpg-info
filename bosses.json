@@ -4940,5 +4940,22 @@
         ],
         "minions": [
         ]
+    },
+    {
+        "id": "h09V",
+        "name": "Arcane Construct",
+        "color": "e4d7ad",
+        "level": "130",
+        "category": "Endgame",
+        "type": "Boss",
+        "limit": "None",
+        "respawn": "3",
+        "location": "Right side of Golem Cave",
+        "conditions": "Level 100, destroy Stange Rock",
+        "drops": [
+            "I095",
+            "I0LP",
+            "I0O1"
+        ]
     }
 ]

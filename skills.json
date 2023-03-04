@@ -918,7 +918,7 @@
         "icon": "BloodWeaverPass",
         "order": 1,
         "passive": [
-            "Manipulate blood through black magic.",
+            "Manipulates blood through black magic.",
             "Increases max HP by INT X 4",
             "Periodically charges blood gauge every (6 - 0.04 X Hero Level)",
             "On next attack, consumes blood gauge to deal Max HP X 25% pure damage and heal for Max HP X 8%"
@@ -994,13 +994,13 @@
         "cooldown": 15,
         "order": 5,
         "passive": [
-            "Incite yourself through stimulation of blood.",
+            "Incites yourself through stimulation of blood.",
             "Casting a skill refills 1 blood gauge"
         ],
         "active": [
             "Rallies allies by stimulating their blood.",
             "Increases attack damage and HP by 20% for (6 + STR / 750) seconds",
-            "Increases your attack speed by 50% and grants each attack a 50% chance to refill 1 blood gauge on attack",
+            "Increases your attack speed by 50% and grants each attack 75% chance to refill 1 blood gauge on attack",
             "Rose Dance's cast time and cooldown are removed and can be cast up to 3 times without incurring HP consumption"
         ]
     },
@@ -1675,7 +1675,7 @@
         "active": [
             "Quickly moves to target.",
             "AGI X 4.5 magic damage",
-            "Can be cast upto 3 times in succession"
+            "Can be cast up to 4 times in succession"
         ]
     },
     {
@@ -2825,8 +2825,8 @@
         "cooldown": 3,
         "order": 2,
         "active": [
-            "Perform a frontal slash aimed toward weak spots.",
-            "Attack damage X 0.4 + AGI X 3.5 magic damage",
+            "Performs a frontal slash aimed toward weak spots.",
+            "Attack damage X 0.5 + AGI X 5 magic damage",
             "If an enemy is hit, obtains Shadow Mark for 10 seconds, increasing critical chance by 6% (up to 5 stacks)",
             "At max stacks, the duration no longer refreshes but resets cooldown on Shadow Slash and Shadow Rush"
         ]
@@ -2891,7 +2891,7 @@
         "cooldown": 20,
         "order": 6,
         "active": [
-            "Summon shadows from all directions and rush toward the target point.",
+            "Summons shadows from all directions and rush toward the target point.",
             "AGI X 6 magic damage",
             "Summons 4 additional shadows that imitates the skill",
             "Shadows will also imitate next Shadow Slash or Ambush, dealing 50% damage"
@@ -3232,6 +3232,21 @@
         ]
     },
     {
+        "id": "A1BM",
+        "name": "Devour",
+        "heroClass": "Merchant",
+        "color": "ddddbb",
+        "hotkey": "[R]",
+        "icon": "MerchantR_2",
+        "cooldown": 20,
+        "order": 7,
+        "description": [
+            "Opens up the devouring bag.",
+            "Channeled for maximum for 3 seconds, pulling in nearby enemies and dealing STR X 20 magic damage per second",
+            "Upon finishing, deals STR X 40 magic damage, stuns for 2 seconds and increases damage taken by (5 + STR / 1000)% for 6 seconds"
+        ]
+    },
+    {
         "id": "A0DD",
         "name": "Holy Water of Resurrection",
         "heroClass": "Merchant",
@@ -3239,7 +3254,7 @@
         "hotkey": "[T]",
         "icon": "MerchantT",
         "cooldown": 90,
-        "order": 7,
+        "order": 8,
         "active": [
             "Revives an ally by using a bottle of holy water, which is very rare.",
             "Revives a nearby ally",
@@ -3257,7 +3272,7 @@
         "hotkey": "[T]",
         "icon": "MerchantT2",
         "cooldown": 60,
-        "order": 8,
+        "order": 9,
         "active": [
             "Plants a very dangerous explosive.",
             "Plants an explosive that can be damaged",
@@ -3273,7 +3288,7 @@
         "hotkey": "[T]",
         "icon": "MerchantT3",
         "cooldown": 60,
-        "order": 9,
+        "order": 10,
         "active": [
             "Plants a cursed doll.",
             "Plants a doll that can be damaged",
@@ -3289,7 +3304,7 @@
         "hotkey": "[F]",
         "icon": "MerchantF",
         "cooldown": 60,
-        "order": 10,
+        "order": 11,
         "active": [
             "\"Damn it.. there goes my rarest scroll! If I wasn't a merchant dealing with customer relationships, I'd never have used it for him.. \" - Merchant",
             "Empowers target with Indomitable Strength for 12 seconds",
@@ -3998,7 +4013,8 @@
             "Main Stat X 25 magic damage",
             "Seals target's abilities for 2 seconds",
             "STR Main Stat: Consumes summoned souls to deal Main Stat X 12.5 bonus damage per soul",
-            "INT Main Stat: Increases nearby allies HP regen by INT X 1 and magic defense by 60% for 6 seconds"
+            "INT Main Stat: Increases nearby allies HP regen by INT X 1 and magic defense by 60% for 6 seconds",
+            "Summons 4 additional souls afterwards"
         ]
     },
     {
@@ -5903,10 +5919,10 @@
         "order": 1,
         "passive": [
             "Equipped with heavy but high-tech armaments..",
-            "Your attacks deal 15% bonus damage, ignore all armor and splashes for 50% damage",
+            "Your attacks deal 25% bonus damage, ignore all armor and splashes for 50% damage",
             "Every second, gains a shield that absorbs up to Max HP X 1% damage (stacks up to Max HP X 25%)",
             "If using a gun without STR stat, converts 125% of AGI to STR",
-            "You do not benefit from attack speed from AGI increase, and only 1/2 of pure attack speed"
+            "You do not gain attack speed from AGI increase, and only half from other sources"
         ]
     },
     {
@@ -6014,7 +6030,7 @@
         ],
         "active": [
             "Bombards target area with all your homing missiles.",
-            "Every 0.1s, deals STR X 5 magic damage and short stun",
+            "Every 0.1s, deals STR X 6 magic damage and short stun",
             "Refreshes Critical Break",
             "Firing speed is affected by pure attack speed"
         ]

@@ -1,4 +1,22 @@
-[
+[{
+    "id": "I0LZ",
+    "name": "Mystical Materials",
+    "koreanname": "미지의 재료",
+    "description": "Unknown materials that are not yet revealed",
+    "rank": "none",
+    "grade": 0,
+    "type": "Material",
+    "color": "A52A2A",
+    "required_by": [
+      "Thread of Life",
+      "Call of Gehenna",
+      "Dread Incarnate",
+      "Prelude to Demise",
+      "Aeon Sphere",
+      "Living Flame",
+      "Shadow Waltz"
+    ]
+  },
   {
     "id": "I0B9",
     "name": "Tomato",
@@ -7154,12 +7172,7 @@
     ],
     "stats": {
       "mainstat": 390,
-      "skilldamagepercent": 0.12,
-      "spec": [
-        "Specialties",
-        "Swordsman - Improved Flash Step: Can be cast once more.",
-        "Assassin - Improved Shadow Rush: An additional shadow clone is created."
-      ]
+      "skilldamagepercent": 0.12
     }
   },
   {
@@ -8067,6 +8080,7 @@
       "Seal of Deceiver",
       "Crown of Absolute Zero",
       "Wings of Flame Lord",
+      "Ring of Malevolence",
       "Shadow Dragon Icon"
     ],
     "recipe": [
@@ -9300,7 +9314,8 @@
       "Wings of Sacred Provenance",
       "Gate of Abyss",
       "Akhelius, the Staff of Duality",
-      "Spirit Flame"
+      "Spirit Flame",
+      "Blood Devourer"
     ]
   },
   {
@@ -9330,7 +9345,8 @@
       "Ring of Eternity",
       "Heart of Life",
       "Wings of Cosmos",
-      "Crown of Transcendance"
+      "Crown of Transcendance",
+      "Ring of Malevolence"
     ]
   },
   {
@@ -9358,7 +9374,9 @@
       "Final Omen",
       "Seal of Corruption",
       "Frost Herald's Garment",
-      "Horn of Dragon"
+      "Horn of Dragon",
+      "Bell of Divinity",
+      "Living Flame"
     ]
   },
   {
@@ -9392,7 +9410,9 @@
       "Titan's Plates",
       "Wings of Cosmos",
       "Wings of Sacred Provenance",
-      "Crown of Cataclysm"
+      "Crown of Cataclysm",
+      "Thread of Life",
+      "Keeper of the Grove"
     ],
     "stats": {
       "armor": 260,
@@ -9425,7 +9445,9 @@
       "Horn of Dragon",
       "Gate of Abyss",
       "Akhelius, the Staff of Duality",
-      "Spirit Flame"
+      "Spirit Flame",
+      "Prelude to Demise",
+      "Shadow Waltz"
     ]
   },
   {
@@ -9446,7 +9468,10 @@
       "Frost Herald's Garment",
       "Seal of Corruption",
       "Horn of Dragon",
-      "Crown of Transcendance"
+      "Crown of Transcendance",
+      "Call of Gehenna",
+      "Ring of Malevolence",
+      "Keeper of the Grove"
     ]
   },
   {
@@ -9467,7 +9492,11 @@
       "Exitium, the Armor of Ruin",
       "Crimson Curse",
       "Frost Herald's Garment",
-      "Spirit Flame"
+      "Spirit Flame",
+      "Bell of Divinity",
+      "Dread Incarnate",
+      "Blood Devourer",
+      "Aeon Sphere"
     ]
   },
   {
@@ -9482,6 +9511,73 @@
     "type": "Token",
     "color": "733CBE",
     "droprate": 0.0001
+  },
+  {
+    "id": "I095",
+    "name": "Mask of Truth",
+    "koreanname": "진실의 가면",
+    "description": "Mask blessed by unchanging fortitude",
+    "dropped_by": [
+      "Arcane Construct"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "droprate": 0.005,
+    "required_by": [
+      "Call of Gehenna",
+      "Keeper of the Grove"
+    ],
+    "stats": {
+      "armor": 150,
+      "mainstat": 300,
+      "skilldamagepercent": 0.075,
+      "passive": [
+        "Activates Eye of Truth every 15s",
+        "For 3 seconds, any skill damage dealt can critically strike but crit multiplier is fixed to 1.2x"
+      ]
+    }
+  },
+  {
+    "id": "I0LP",
+    "name": "Arcane Core",
+    "koreanname": "마도 핵",
+    "dropped_by": [
+      "Arcane Construct"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.006,
+    "required_by": [
+      "Thread of Life",
+      "Ring of Malevolence",
+      "Blood Devourer",
+      "Shadow Waltz"
+    ]
+  },
+  {
+    "id": "I0O1",
+    "name": "Ancient Tome",
+    "koreanname": "마도 핵",
+    "dropped_by": [
+      "Arcane Construct"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.006,
+    "required_by": [
+      "Bell of Divinity",
+      "Dread Incarnate",
+      "Prelude to Demise",
+      "Aeon Sphere",
+      "Living Flame"
+    ]
   },
   {
     "id": "I0IZ",
@@ -16247,10 +16343,6 @@
         "Oblivion: +16% damage reduction",
         "Obsession: (MAIN STAT X 20%) HP regen",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
-      ],
-      "spec": [
-        "Specialty - Eternal Lamentation",
-        "Dark Knight - After Requiem is cast, 4 additional souls are spawned."
       ]
     }
   },
@@ -17421,9 +17513,7 @@
       ],
       "spec": [
         "Specialties - Cold Ring of Death",
-        "Swordsman - Improved Flash Step: Can be cast once more.",
-        "Assassin - Shadow Rush: An additional shadow clone is created.",
-        "Assassin - Shadow Slash: Damage increased by 75%."
+        "Assassin - Shadow Slash: Damage increased by 50%."
       ]
     }
   },
@@ -18108,6 +18198,9 @@
     "type": "Weapon (Shared)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Aeon Sphere"
+    ],
     "recipe": [
       {
         "Dragonic Orb": 1
@@ -18550,6 +18643,9 @@
     "type": "Weapon (Melee)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Shadow Waltz"
+    ],
     "recipe": [
       {
         "Espishu, the True Sword of Eternity": 1
@@ -19361,6 +19457,9 @@
     "type": "Weapon (Staff)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Prelude to Demise"
+    ],
     "recipe": [
       {
         "Hell Riser": 1
@@ -19592,6 +19691,52 @@
     }
   },
   {
+    "id": "I00R",
+    "name": "Bag of All Evils",
+    "koreanname": "만악의 배낭",
+    "description": "Bag that should never be opened",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Bag)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Bag of Demise": 1
+      },
+      {
+        "Crimson Rose": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Ancient Tome": 1
+      }
+    ],
+    "stats": {
+      "damage": 9400,
+      "str": 850,
+      "skilldamagepercent": 0.16,
+      "dtpercent": -0.24,
+      "active": [
+        "On use, throws Eitr",
+        "Increases target's damage output by 9% for 15 seconds",
+        "Lasts 30 seconds on ground",
+        "Cooldown: 15 seconds, cannot be dropped during cooldown"
+      ],
+      "spec": [
+        "Merchant Specialty - Very Heavy Bag",
+        "Merchant - Bag Slam: Damage is increased by 500%, and it increases target's damage taken by 10% for 8 seconds",
+        "Merchant - Throwing Healing Potion: Duration increased by 5s, increases target's skill damage by 12.5%",
+        "Merchant - Throw Money: Changed into Devour"
+      ]
+    }
+  },
+  {
     "id": "I0LU",
     "name": "Bag of Universe",
     "koreanname": "만물의 배낭",
@@ -19801,6 +19946,9 @@
     "type": "Armor",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Dread Incarnate"
+    ],
     "recipe": [
       {
         "Frostshard Armor": 1
@@ -20041,10 +20189,6 @@
         "Deals ((STR + AGI + INT) X 3) magic damage in an AoE",
         "Increases enemy damage taken by 4% for 6 seconds",
         "On next attack, heals (6% max HP)"
-      ],
-      "spec": [
-        "Specialty - Eternal Lamentation",
-        "Dark Knight - After Requiem is cast, 4 additional souls are spawned."
       ]
     }
   },
@@ -20161,6 +20305,9 @@
     "type": "Armor",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Call of Gehenna"
+    ],
     "recipe": [
       {
         "Medea, the Robe of the Witch": 1
@@ -20344,6 +20491,9 @@
     "type": "Headwear",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Keeper of the Grove"
+    ],
     "recipe": [
       {
         "Protector's Will": 1
@@ -20931,6 +21081,9 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Bell of Divinity"
+    ],
     "recipe": [
       {
         "Ring of Fervor": 1
@@ -21192,9 +21345,7 @@
       ],
       "spec": [
         "Specialties - Ring of Frozen Soul",
-        "Swordsman - Flash Step: Can be cast once more.",
-        "Assassin - Shadow Rush: An additional shadow clone is created.",
-        "Assassin - Shadow Slash: Damage increased by 100%."
+        "Assassin - Shadow Slash: Damage increased by 50%."
       ]
     }
   },
@@ -21506,6 +21657,9 @@
     "type": "Wings",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Living Flame"
+    ],
     "recipe": [
       {
         "Wings of Phoenix": 1
@@ -21849,6 +22003,9 @@
     "type": "Wings",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Thread of Life"
+    ],
     "recipe": [
       {
         "Embrace of Nature": 1
@@ -21987,6 +22144,9 @@
     "type": "Wings",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Blood Devourer"
+    ],
     "recipe": [
       {
         "Soul Eater": 1
@@ -22080,6 +22240,49 @@
         "Deals 50% bonus damage to non-boss units (includes elite units as well)",
         "If the marked target dies, the cooldown of this effect will be reset",
         "Cooldown: 20 seconds (minimum 10 seconds per cast), cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I078",
+    "name": "Aeon Sphere",
+    "koreanname": "에온 스피어",
+    "description": "Orb infused with ultimate wisdom",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Shared)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Heaven's Door": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "damage": 7200,
+      "allstat": 760,
+      "mdpercent": 0.12,
+      "affinitylightpercent": 0.12,
+      "passive": [
+        "Healing allies infuses them with Eternal Blessing",
+        "Increases main stat by 150 + 3% [Type-A] for 6 seconds"
+      ],
+      "active": [
+        "On use, activates Aeon Sphere",
+        "Sends an orb of time at 2 target heroes",
+        "Grants 16% skill damage to latched heroes",
+        "Every 3.5 seconds, the target will be healed for 2000 HP",
+        "Every 17.5 seconds, a random skill will be reset on the target",
+        "Cooldown: 3 seconds"
       ]
     }
   },
@@ -22280,6 +22483,49 @@
         "Consumes all stacks of Nightmare Energy, dealing (150000 + 25000 X stack) magic damage",
         "Becomes immune to damage and CC for 3 seconds",
         "Cooldown: 75 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I07F",
+    "name": "Shadow Waltz",
+    "koreanname": "그림자 왈츠",
+    "description": "Shadow, my only partner",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Melee)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Espishu, the Sword of Chaos": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "damage": 11500,
+      "str": 610,
+      "agi": 610,
+      "mainstat": 340,
+      "skilldamagepercent": 0.15,
+      "passive": [
+        "Chance to activate Umbral Edge on attack",
+        "12% chance to deal (STR + AGI) X 6 magic damage to target",
+        "Every 4th attack crits and builds a stack of Shadow Waltz (up to 5 stacks)"
+      ],
+      "active": [
+        "On use, activates Shadow Waltz",
+        "Consumes all stacks and for (1 X consumed stack) seconds, gains surge in movement speed",
+        "Attacks will deal 7500 bonus magic damage and attacks/resulting proc effects deal 12% bonus damage",
+        "Cooldown: 5 seconds"
       ]
     }
   },
@@ -22685,6 +22931,49 @@
     }
   },
   {
+    "id": "I079",
+    "name": "Prelude to Demise",
+    "koreanname": "종말의 서곡",
+    "description": "Embrace the new world.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Staff)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Armageddon": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "damage": 10800,
+      "int": 940,
+      "skilldamagepercent": 0.13,
+      "affinitydarkpercent": 0.06,
+      "passive": [
+        "On skill cast, activates Nightmare",
+        "Increases ATK DMG by 4444, base attack speed by 44% and MP regen by 444 for 4 seconds",
+        "Cooldown: 12 seconds"
+      ],
+      "active": [
+        "On use, activates Song of Demise",
+        "Deals (ATK DMG X 5 + INT X 30) to nearby enemies and increases their magic damage taken by 12% for 10 seconds",
+        "Breaks any shields effects",
+        "Caster is invulnerable while casting this skill",
+        "Cooldown: 60 seconds"
+      ]
+    }
+  },
+  {
     "id": "I00F",
     "name": "Cage of Twisted Souls",
     "koreanname": "뒤틀린 영혼의 갑주",
@@ -22733,10 +23022,6 @@
         "For 6 seconds, deals 60000 magic damage per second to nearby enemies within 500 radius and increases their damage taken by 8% [Type-B]",
         "Deals 200% bonus damage to non-boss units",
         "Cooldown: 60 seconds, cannot be dropped during cooldown"
-      ],
-      "spec": [
-        "Specialty - Eternal Lamentation",
-        "Dark Knight - After Requiem is cast, 4 additional souls are spawned."
       ]
     }
   },
@@ -22992,6 +23277,91 @@
       "spec": [
         "Specialty",
         "Water Mage - Improved Frozen Emotion: Reduces target's damage taken by 12%."
+      ]
+    }
+  },
+  {
+    "id": "I00Q",
+    "name": "Call of Gehenna",
+    "koreanname": "게헨나의 부름",
+    "description": "Robe infused with power of hell",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Thanatos, the Robe of Hell": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "armor": 220,
+      "int": 600,
+      "mpregen": 75,
+      "skilldamagepercent": 0.2,
+      "passive": [
+        "On skill hit, activates Hellspear",
+        "Deals (INT X 15) magic damage in AoE and increases your skill damage dealt to target by 7% for 4 seconds",
+        "Cooldown: 10 seconds, reduced by 2 seconds per skill cast (affected by proc coefficient)"
+      ],
+      "active": [
+        "On use, activates Call of Gehenna",
+        "For 7 seconds, increases your INT by 400 and reduces cooldown of Hell Spear to 2 seconds",
+        "Afterwards, drops a large Hellspear dealing (INT X 75) magic damage",
+        "Cooldown: 90 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I0EY",
+    "name": "Dread Incarnate",
+    "koreanname": "공포의 현신",
+    "description": "It makes you tremble with fear.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Voidshard Armor": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "armor": 300,
+      "str": 575,
+      "skilldamagepercent": 0.15,
+      "periodicdamagepercent": 0.1,
+      "passive": [
+        "On skill cast, builds Dread",
+        "Upon reaching 4 stacks, gains 400 STR and 3% HP regen for 5 seconds",
+        "Damaging an enemy will summon a tentacle that deals 50000 magic damage in line (cooldown: 3s)",
+        "Once it expires, has 5 second cooldown until it can start stacking again"
+      ],
+      "active": [
+        "On use, activates Mayhem",
+        "Sets ablaze a large area for 10 seconds, dealing 25000 damage per second",
+        "While the user is standing in the area, Dread will be set to max stacks and your skills will deal 10% bonus damage",
+        "Cooldown: 90 seconds"
       ]
     }
   },
@@ -23265,6 +23635,53 @@
     }
   },
   {
+    "id": "I01J",
+    "name": "Keeper of the Grove",
+    "koreanname": "숲의 수호자",
+    "description": "Helm infused with spirit of grand nature",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Spirit of Protector": 1
+      },
+      {
+        "Gown of Life": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Aegis of Earth": 1
+      }
+    ],
+    "stats": {
+      "armor": 160,
+      "mainstat": 340,
+      "hpregen": 100,
+      "dtpercent": -0.15,
+      "passive": [
+        "Creates Lifeseed as you walk around",
+        "Seed spawns upon travelling 1500 distance during combat.",
+        "Seed will bloom after 5 seconds into a colored fruit which lasts for 30 seconds",
+        "Hero can pick it up by getting close to it, gaining different effect based on type of fruit:",
+        "Fire: 15% Skill Damage and 7% ATK DMG",
+        "Lightning: 15% pure attack speed, 75 movement speed and 0.1x Crit Damage",
+        "Earth: Regenerates (Max HP X 4%) per second, grants 20% reduction [Type-A]",
+        "Golden: Grants all 3 effects",
+        "Spawn Cooldown: 10 seconds"
+      ],
+      "active": [
+        "On use, activates Will of Protector",
+        "Grants 40% dr in 1000 radius around you for 10 seconds",
+        "Cooldown: 90 seconds"
+      ]
+    }
+  },
+  {
     "id": "I00J",
     "name": "Star of Apotheosis",
     "koreanname": "숭배의 별",
@@ -23397,9 +23814,7 @@
       ],
       "spec": [
         "Specialties - Ring of Frozen Soul",
-        "Swordsman - Flash Step: Can be cast once more.",
-        "Assassin - Shadow Rush: An additional shadow clone is created.",
-        "Assassin - Shadow Slash: Damage increased by 100%."
+        "Assassin - Shadow Slash: Damage increased by 50%."
       ]
     }
   },
@@ -23595,6 +24010,86 @@
     }
   },
   {
+    "id": "tstr",
+    "name": "Bell of Divinity",
+    "koreanname": "신성의 종",
+    "description": "Lord save us",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Ring of Hope": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Ancient Tome": 1
+      }
+    ],
+    "stats": {
+      "allstat": 450,
+      "hpregen": 200,
+      "affinitylightpercent": 0.075,
+      "passive": [
+        "On direct hit, applies Hope for 12 seconds",
+        "Increases skill damage by 10% and main stat by 180"
+      ],
+      "active": [
+        "On use, activates Salvation",
+        "Clears debuffs from allies affected by Hope",
+        "Heals them for Max HP X 50% and increases HP regen by 500 and movement speed by 75 for 5 seconds.",
+        "Cooldown: 30 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I01H",
+    "name": "Ring of Malevolence",
+    "koreanname": "악의의 반지",
+    "description": "You can feel malevolence sharp as dagger",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Nephthys, the Engraved Ring": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Arcane Core": 1
+      }
+    ],
+    "stats": {
+      "mainstat": 675,
+      "skilldamagepercent": 0.15,
+      "critmultiplier": 0.15,
+      "movespeed": 50,
+      "passive": [
+        "Landing skill crit on boss activates Soul Harvest",
+        "Deals (MAIN STAT X 15) magic damage and restores 10% HP",
+        "Cooldown: 6 seconds"
+      ],
+      "active": [
+        "Activates Malevolence when damaging boss units below 50% HP",
+        "Increases total damage by 10% [Type-B] for 5 seconds"
+      ]
+    }
+  },
+  {
     "id": "I00W",
     "name": "Cape of Insatiable Hunger",
     "koreanname": "끝없는 갈망의 망토",
@@ -23780,7 +24275,7 @@
       }
     ],
     "stats": {
-      "allstat": 275,
+      "allstat": 300,
       "mainstat": 100,
       "hpregen": 120,
       "mpregen": 60,
@@ -23795,7 +24290,7 @@
       ],
       "active": [
         "On use, activates Gift of Life",
-        "Increases main stat by 125, skill damage by 5%, and damage reduction by 25% for 6 seconds",
+        "Increases main stat by 150, skill damage by 5%, and damage reduction by 25% for 6 seconds",
         "Cooldown: 45 seconds"
       ]
     }
@@ -23849,6 +24344,129 @@
         "User will not gain or lose Sacred Dawn stacks while this is active; all stacks will be lost at end",
         "Lasts 12 seconds",
         "Cooldown: 90 seconds, cannot be dropped during cooldown"
+      ]
+    }
+  },
+  {
+    "id": "I0A2",
+    "name": "Thread of Life",
+    "koreanname": "생명의 실",
+    "description": "It vibrates with life",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Protection of the Fairies": 1
+      },
+      {
+        "Gown of Life": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "mainstat": 420,
+      "affinityflamepercent": 0.075,
+      "affinityiwpercent": 0.075,
+      "affinitywlpercent": 0.075,
+      "passive": [
+        "Skills have 7% chance to reset CD"
+      ],
+      "active": [
+        "On use, revives a fallen ally with full HP and MP",
+        "Also activates for self on death",
+        "Revived ally gains immunity to harmful effects for 5s",
+        "Cooldown: 240 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I076",
+    "name": "Blood Devourer",
+    "koreanname": "블러드 디바우러",
+    "description": "The sky rains with your blood !",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Soul Devourer": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Arcane Core": 1
+      }
+    ],
+    "stats": {
+      "allstat": 300,
+      "mainstat": 250,
+      "skilldamagepercent": 0.12,
+      "mdpercent": 0.09,
+      "passive": [
+        "During combat, activates Flowing Blood",
+        "Every 5s, heals you for 10% HP & MP, increases main stat by 15, and base attack speed by 1% (15 stacks max)"
+      ],
+      "active": [
+        "On use, activates Soul Devour",
+        "Clears all debuffs and heals you for 40% of max HP",
+        "Cooldown: 28 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I0EX",
+    "name": "Living Flame",
+    "koreanname": "살아있는 불꽃",
+    "description": "The flame flickers with life",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Wings of Flame Lord": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "damage": 4500,
+      "str": 360,
+      "agi": 360,
+      "dtpercent": -0.1,
+      "movespeed": 75,
+      "passive": [
+        "On attack, activates Burning Soul",
+        "Deals 100000 magic damage to nearby enemies and gains 10% ATK DMG for 3 seconds",
+        "Cooldown: 10 seconds"
+      ],
+      "active": [
+        "On use, activates Flame Descent",
+        "Deals ((ATK DMG X 2.25) + (MAIN STAT X 20)) magic damage in selected area",
+        "Stuns for 1.5 seconds",
+        "Cooldown: 30 seconds"
       ]
     }
   },
