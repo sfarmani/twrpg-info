@@ -14,7 +14,8 @@
       "Prelude to Demise",
       "Aeon Sphere",
       "Living Flame",
-      "Shadow Waltz"
+      "Shadow Waltz",
+      "Astral Fury"
     ]
   },
   {
@@ -9412,7 +9413,8 @@
       "Wings of Sacred Provenance",
       "Crown of Cataclysm",
       "Thread of Life",
-      "Keeper of the Grove"
+      "Keeper of the Grove",
+      "Astral Fury"
     ],
     "stats": {
       "armor": 260,
@@ -9556,7 +9558,8 @@
       "Thread of Life",
       "Ring of Malevolence",
       "Blood Devourer",
-      "Shadow Waltz"
+      "Shadow Waltz",
+      "Astral Fury"
     ]
   },
   {
@@ -20109,6 +20112,9 @@
     "type": "Armor",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Astral Fury"
+    ],
     "recipe": [
       {
         "Vest of Storm": 1
@@ -23362,6 +23368,44 @@
         "Sets ablaze a large area for 10 seconds, dealing 25000 damage per second",
         "While the user is standing in the area, Dread will be set to max stacks and your skills will deal 10% bonus damage",
         "Cooldown: 90 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I09F",
+    "name": "Astral Fury",
+    "koreanname": "성운의 분노",
+    "description": "Armor blessed with astral power",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Vest of Divine Winds": 1
+      },
+      {
+        "Gown of Life": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "armor": 215,
+      "agi": 540,
+      "skilldamagepercent": 0.15,
+      "mdpercent": 0.12,
+      "passive": [
+        "On skill cast, activates Astral Fury",
+        "Increases AGI by 150 and movement speed for 1.5 seconds",
+        "Next 2 attacks strikes 2 additional times for 50% physical damage",
+        "On 3rd consecutive proc, increases damage dealt by skills by 5% for 4 seconds and next 3 attacks calls down comets, each dealing 12500 magic damage (can critically strike)",
+        "Proc cooldown: 0.5 seconds"
       ]
     }
   },
