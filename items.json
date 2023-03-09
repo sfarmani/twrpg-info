@@ -8,14 +8,10 @@
     "type": "Material",
     "color": "A52A2A",
     "required_by": [
-      "Thread of Life",
-      "Call of Gehenna",
-      "Dread Incarnate",
       "Prelude to Demise",
       "Aeon Sphere",
       "Living Flame",
-      "Shadow Waltz",
-      "Astral Fury"
+      "Shadow Waltz"
     ]
   },
   {
@@ -9274,7 +9270,8 @@
       "Crimson Curse",
       "Seal of Corruption",
       "Akhelius, the Staff of Duality",
-      "Crown of Cataclysm"
+      "Crown of Cataclysm",
+      "Thread of Life"
     ],
     "stats": {
       "mainstat": 420,
@@ -9316,7 +9313,8 @@
       "Gate of Abyss",
       "Akhelius, the Staff of Duality",
       "Spirit Flame",
-      "Blood Devourer"
+      "Blood Devourer",
+      "Call of Gehenna"
     ]
   },
   {
@@ -9347,7 +9345,8 @@
       "Heart of Life",
       "Wings of Cosmos",
       "Crown of Transcendance",
-      "Ring of Malevolence"
+      "Ring of Malevolence",
+      "Astral Fury"
     ]
   },
   {
@@ -9449,7 +9448,9 @@
       "Akhelius, the Staff of Duality",
       "Spirit Flame",
       "Prelude to Demise",
-      "Shadow Waltz"
+      "Shadow Waltz",
+      "Keeper of the Grove",
+      "Call of Gehenna"
     ]
   },
   {
@@ -9530,7 +9531,8 @@
     "droprate": 0.005,
     "required_by": [
       "Call of Gehenna",
-      "Keeper of the Grove"
+      "Keeper of the Grove",
+      "Thread of Life"
     ],
     "stats": {
       "armor": 150,
@@ -9579,7 +9581,9 @@
       "Dread Incarnate",
       "Prelude to Demise",
       "Aeon Sphere",
-      "Living Flame"
+      "Living Flame",
+      "Call of Gehenna",
+      "Astral Fury"
     ]
   },
   {
@@ -23304,10 +23308,14 @@
         "Mask of Truth": 1
       },
       {
-        "Aegis of Earth": 1
+        "Ancient Tome": 1
       },
       {
-        "Mystical Materials": 1
+        "Aegis of Earth": 1,
+        "Essence of Earth": 1
+      },
+      {
+        "Blood Essence": 1
       }
     ],
     "stats": {
@@ -23343,13 +23351,16 @@
         "Voidshard Armor": 1
       },
       {
-        "Twisted Fragment of Ruins": 1
+        "Mask of Truth": 1
       },
       {
         "Ancient Tome": 1
       },
       {
-        "Mystical Materials": 1
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Soul Blossom": 1
       }
     ],
     "stats": {
@@ -23392,7 +23403,10 @@
         "Arcane Core": 1
       },
       {
-        "Mystical Materials": 1
+        "Ancient Tome": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
       }
     ],
     "stats": {
@@ -23699,6 +23713,7 @@
         "Mask of Truth": 1
       },
       {
+        "Essence of Earth": 1,
         "Aegis of Earth": 1
       }
     ],
@@ -24088,7 +24103,7 @@
       "active": [
         "On use, activates Salvation",
         "Clears debuffs from allies affected by Hope",
-        "Heals them for Max HP X 50% and increases HP regen by 500 and movement speed by 75 for 5 seconds.",
+        "Heals them for (Max HP X 50%), increases HP regen by 500, and movement speed by 75 for 5 seconds",
         "Cooldown: 30 seconds"
       ]
     }
@@ -24406,13 +24421,16 @@
         "Protection of the Fairies": 1
       },
       {
+        "Crimson Rose": 1
+      },
+      {
         "Gown of Life": 1
       },
       {
-        "Arcane Core": 1
+        "Mask of Truth": 1
       },
       {
-        "Mystical Materials": 1
+        "Arcane Core": 1
       }
     ],
     "stats": {

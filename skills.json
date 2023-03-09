@@ -999,8 +999,8 @@
         ],
         "active": [
             "Rallies allies by stimulating their blood.",
-            "Increases attack damage and HP by 20% for (6 + STR / 750) seconds",
-            "Increases your attack speed by 50% and grants each attack 75% chance to refill 1 blood gauge on attack",
+            "Increases attack damage, HP and healing received by 20% for (6 + STR / 750) seconds",
+            "Increases your attack speed by 50% and each attack will restore 1 blood gauge on attack",
             "Rose Dance's cast time and cooldown are removed and can be cast up to 3 times without incurring HP consumption"
         ]
     },
@@ -3190,7 +3190,7 @@
         "order": 4,
         "active": [
             "Throws a bomb.",
-            "STR X 4.5 magic damage",
+            "STR X 7.5 magic damage",
             "Causes chain explosion on nearby bombs, adding 0.5 seconds stun and 100% damage (stacks up to 4 times)",
             "Explodes after 30 seconds or if thrown into another bomb",
             "Up to 10 bombs can be planted at once",
@@ -3340,9 +3340,9 @@
         "order": 2,
         "active": [
             "Focuses strength onto the tip of the spear to deliver powerful strikes.",
-            "Next 3 attacks are converted into pure type, each dealing Attack Damage X 1.25 + (STR + AGI) X 5 damage",
+            "Next 3 attacks are converted into pure type, each dealing Attack Damage X 1.5 + (STR + AGI) X 5 damage",
             "Lasts 10 seconds",
-            "3rd attack critically strikes and knocks-up non-boss target,"
+            "3rd attack critically strikes and knocks-up non-boss target"
         ]
     },
     {
@@ -3482,14 +3482,13 @@
         "order": 4,
         "passive": [
             "As the hunger for blood increases, so do berserker's combat abilities.",
-            "Increases attack damage up to (STR X 6), total damage up to 25%, move speed up to 125, and damage reduction up to 40% based on missing HP",
+            "Increases attack damage up to (STR X 6), total damage up to 20%, move speed up to 125, and damage reduction up to 40% based on missing HP",
             "Each attack increases STR by 10%, attack speed by 25% for 6 seconds (stacks up to 3 times)"
         ],
         "toggle": [
             "Drowns in blood to bring out full combat abilities.",
             "Consumes HP X 30% per second",
-            "Becomes unable to regenerate or restore HP",
-            "Becomes immune to silence effects"
+            "Becomes unable to regenerate or restore HP"
         ]
     },
     {
@@ -4140,11 +4139,11 @@
         "color": "80ffff",
         "hotkey": "[F]",
         "icon": "ArcaneMageF",
-        "cooldown": 90,
+        "cooldown": 60,
         "order": 7,
         "active": [
             "\"It's not an ordinary spell. This parade of stars that formed from the harmony of mana will captivate anyone's mind who sees it.\" - Mage",
-            "Summons 5 stars for 10 seconds",
+            "Summons 5 stars for 8 seconds",
             "Every second, each star fires a magic missile dealing INT X 2 magic damage",
             "When you Magic Star, each star fires a magic missile dealing  INT X 4 magic damage",
             "On use, resets cooldown on Moonlight Link"
@@ -4718,8 +4717,8 @@
         "active": [
             "Summons a holy cross to bring down judgment on enemies.",
             "Attack Damage X 8 magic damage",
-            "Binds target's movement for 2 seconds",
-            "Deals up to 75% bonus damage based on target's missing HP (max damage to rooted targets)",
+            "Stuns target for 1.5 seconds",
+            "Deals up to 75% bonus damage based on target's missing HP (max damage to immobile targets)",
             "Devotion: Breaks shield effects and increases damage taken by target by (6 + INT/900)% for 6 seconds"
         ]
     },
@@ -4939,7 +4938,7 @@
         "order": 4,
         "active": [
             "Throws a bomb.",
-            "STR X 4.5 magic damage",
+            "STR X 6 magic damage",
             "Causes chain explosion on nearby bombs, adding 0.5 seconds stun and 100% damage (stacks up to 4 times)",
             "Explodes after 30 seconds or if thrown into another bomb",
             "Up to 10 bombs can be planted at once",

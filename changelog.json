@@ -1,5 +1,97 @@
 [
     {
+        "name": "62q",
+        "notes": [
+            "Released on: March 8th, 2023",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Arcane Construct - Fixed bug where player units may die when touching outside area",
+            "Soul Weaver - Fixed issue with Q debuff not being affected by dark affinity",
+            "Phantom Blade - Fixed issue with E not being detected as critical strike",
+            "Elementalist - Fixed issue with D doing magic instead of pure damage",
+            "Typos fixed on skills"
+        ],
+        "items": [
+            {
+                "name": "Keeper of the Grove",
+                "changes": [
+                    "Essence of Earth can now replace Aegis of Earth"
+                ]
+            },
+            {
+                "name": "Bell of Divinity",
+                "changes": [
+                    "Active - MS bonus will decay from 250 to 75 over 0.75s"
+                ]
+            },
+            {
+                "name": "New recipes added",
+                "changes": [
+                    "Dread Incarnate",
+                    "Astral Fury",
+                    "Call of Gehenna",
+                    "Thread of Life"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Arcane Construct",
+                "changes": [
+                    "Lava made less vibrant and move more slowly",
+                    "Tracking visibility increased",
+                    "Killing the boss will spawn a portal that leads outside ",
+                    "Fairy created to check boss drops / player count in zone",
+                    "You can no longer revive from insta kill that results from failing the boss mechanic that happens at 40% HP"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Throw Bomb (W) - Damage per bomb STR X 4.5/6 → STR X 6/7.5"
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Blood Fury (E) - Max damage bonus 25% → 20%. No longer grants immunity to silence effects. Instead, the skill will be toggled off automatically when silenced."
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Divine Cross (R) - 2s bind → 1.5s stun"
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Three Talon Strike (Q) - Damage per strike AD X 1.25 + 5 X (STR + AGI) → AD X 1.5 + 5 X (STR + AGI)",
+                    "(rollback of previous damage nerf)"
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Boil (R) - Now grants 20% healing received. Blood Point restore chance 75% → 100%"
+                ]
+            },
+            {
+                "name": "Arcane Mage",
+                "changes": [
+                    "Starlight (F) - Duration 10s → 8s. Cooldown 90s → 60s. Skill duration starts after unit is unpaused."
+                ]
+            }
+        ],
+        "misc": [
+            "Summons now replicate summoner's skill damage / total damage bonus",
+            "Valtora token no longer damages heroes"
+        ]
+    },
+    {
         "name": "62p2",
         "notes": [
             "Released on: February 27th, 2023",
