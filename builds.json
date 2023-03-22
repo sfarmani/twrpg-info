@@ -423,24 +423,25 @@
         "type": "Support",
         "order": 2,
         "stat": "INT",
-        "version": "62k",
+        "version": "62r",
         "items": {
-            "Heaven's Door ": [
+            "Heaven's Door": [
                 "Gate of Abyss"
             ],
-            "Crown of Cleansing ": [
+            "Crown of Cleansing": [
                 "Eye of the Flame Lord"
             ],
-            "Ring of Hope": [
+            "Bell of Divinity": [
                 "Heart of Life",
-                "Heirloom of Lazarus",
-                "Nebula Rose"
+                "Heirloom of Lazarus"
             ],
-            "Cage of Twisted Souls ": [
+            "Cage of Twisted Souls": [
                 "Jupiter the Robe of Heavens"
             ],
-            "Guardian Angel ": [
-                "Protection of the Fairies"
+            "Thread of Life": [
+                "Protection of the Fairies",
+                "Guardian Angel",
+                "Cape of Deep Abyss"
             ]
         }
     },
@@ -1941,25 +1942,24 @@
         "type": "Arcana",
         "order": 4,
         "stat": "INT",
-        "version": "60v",
+        "version": "62r",
         "description": [
             "Duke+",
-            "Use Heartrender to save people from Duke Spikes / Nereid Bubbles.",
             "You can use Armageddon if your team is already using Gate of Abyss.",
             "If both are taken you can go Harmonia, Sparkle of Life.",
             "Having 2 Heirloom wont be a problem if you have more than 2 dps players but you can go Ring of Despair if no one using Cape of Deep Abyss.",
-            "You can use Hood of Apocalypse if no one using Eye of Flame Lord ( always priority Eye of Flame Lord )",
+            "add tip Only use Crescendo of Madness it if all helmet options are taken for affinity.",
             "Only use Heart of Life when you are wearing Guardian Angel.",
             "If you still have question, my discord is Darsinki#0004 always open to help."
         ],
         "items": {
             "Gate of Abyss": [
-                "Heartrender",
                 "Armageddon",
                 "Harmonia, Sparkle of Life"
             ],
-            "Hood of Apocalypse": [
-                "Eye of the Flame Lord"
+            "Keeper of the Grove": [
+                "Hood of Apocalypse",
+                "Crescendo of Madness"
             ],
             "Heirloom of Lazarus": [
                 "Ring of Despair",
@@ -2332,9 +2332,14 @@
         "type": "Minor Gear",
         "order": 1,
         "stat": "STR",
-        "version": "62g",
+        "version": "62r",
+        "description": [
+            "Minor build is just whatever you find until make main items tbh."
+        ],
         "items": {
-            "Sanguiel, the Bloodspear of Requiem": [],
+            "Sanguiel, the Bloodspear of Requiem": [
+                "Niflheim"
+            ],
             "Horn of Demon Lord": [],
             "Ring of Darkness": [],
             "Infected Crab Armor": [
@@ -2350,14 +2355,18 @@
         "type": "Coin Gear",
         "order": 2,
         "stat": "STR",
-        "version": "62g",
+        "version": "62r",
+        "description": [
+            "Flameshard path is bad until \"Dread Incarnate\" but you can go if you don't wanna build optional items.",
+            "Purelight path is usefull for team but only usefull if no one uses it."
+        ],
         "items": {
             "Aglaia, the Spear of Heavenly Flows": [],
             "Crown of Fervor": [],
             "Latea, the Ring of Chaos": [],
             "Reactive Armor": [
-                "Earthen Plates",
-                "Purelight Armor"
+                "Purelight Armor",
+                "Flameshard Armor"
             ],
             "Corrupt Crystal Wings": [
                 "Frozen Heart"
@@ -2366,17 +2375,20 @@
     },
     {
         "for": "Lightseeker",
-        "type": "High Gear",
+        "type": "Mid Gear",
         "order": 3,
         "stat": "STR",
-        "version": "62g",
+        "version": "62r",
+        "description": [
+            "Use Aglaia until Splitting better than tiberius due to passive."
+        ],
         "items": {
-            "Tiberius, the Spear of Lightning": [],
+            "Aglaia, the Spear of Heavenly Flows": [],
             "Crown of Composure": [],
             "Cold Ring of Death": [],
             "Hellspike Armor": [
-                "Plates of Lightning",
-                "Requiem, the Armor of Lamentation"
+                "Requiem, the Armor of Lamentation",
+                "Frostshard Armor"
             ],
             "Pure Crystal Wings": [
                 "Grim Heart"
@@ -2388,37 +2400,19 @@
         "type": "Late Gear",
         "order": 4,
         "stat": "STR",
-        "version": "62g",
+        "version": "62r",
+        "description": [
+            "if crafted Roto use it until Rods/Star, use Rofs when protection needed."
+        ],
         "items": {
             "Splitting of the Sky and Earth": [],
-            "Crown of Composure": [
-                "Horn of Lightning God"
-            ],
-            "Cold Ring of Death": [
+            "Crown of Composure": [],
+            "Ring of Frozen Soul": [
                 "Ring of the One"
             ],
             "Felspike Armor": [
-                "Hades, the Armor of Despair"
-            ],
-            "Archangel Wings": [
-                "Brave Heart"
-            ]
-        }
-    },
-    {
-        "for": "Lightseeker",
-        "type": "Agareth Gear",
-        "order": 5,
-        "stat": "STR",
-        "version": "62g",
-        "items": {
-            "Splitting of the Sky and Earth": [],
-            "Crown of Absolute Zero": [
-                "Horn of Demon God"
-            ],
-            "Ring of Frozen Soul": [],
-            "Felspike Armor": [
-                "Hades, the Armor of Despair"
+                "Hades, the Armor of Despair",
+                "Voidshard Armor"
             ],
             "Archangel Wings": [
                 "Brave Heart"
@@ -2428,73 +2422,55 @@
     {
         "for": "Lightseeker",
         "type": "Endgame Gear",
-        "order": 6,
+        "order": 5,
         "stat": "STR",
-        "version": "62g",
+        "version": "62r",
         "items": {
             "Spear of Judgment": [],
-            "Crown of Transcendance": [
-                "Horn of Dragon"
+            "Crown of Transcendance": [],
+            "Ring of Desolate Soul": [
+                "Star of Apotheosis"
             ],
-            "Star of Apotheosis": [
-                "Ring of Desolate Soul"
+            "Dread Incarnate": [
+                "Cage of Twisted Souls",
+                "Titan's Plates"
             ],
-            "Titan's Plates": [
-                "Cage of Twisted Souls"
-            ],
-            "Wings of Cosmos": [
-                "Wings of Sacred Provenance"
+            "Wings of Sacred Provenance": [
+                "Wings of Cosmos"
             ]
         }
     },
     {
         "for": "Blaster",
-        "type": "Normal bursting critical",
+        "type": "Fire Burst",
         "order": 1,
         "stat": "STR",
-        "version": "62m2",
-        "description": [
-            "Final Omen is a must as the only way to increase physical damage is critical multiplier.",
-            "Heartrender can be used as transition weapon between Last Word and Final Omen",
-            "Use plates of Sanguine Fury for a more defensive option",
-            "Ring of Divine Winds is a must, anyway you can use Ring of Desolate Soul if you feel that need more defense or immunity",
-            "Crimson Curse is a yolo item",
-            "Cold Ring of Death and its upgrades should be used in place of Ring of Divine Winds on Death Fiend unless you have some protection",
-            "DM asmodium#1713 to discuss"
-        ],
+        "version": "62r",
         "items": {
-            "Final Omen": [
-                "Heartrender"
+            "Final Omen": [],
+            "Crown of Cataclysm": [],
+            "Ring of Malevolence": [
+                "Ring of Desolate Soul"
             ],
-            "Visage of Vengeance": [],
-            "Ring of Divine Winds": [
-                "Ring of Desolate Soul",
-                "Crimson Curse"
-            ],
-            "Bloodseeker Plates": [
-                "Plates of Sanguine Fury"
-            ],
-            "Bloodstorm": []
+            "Dread Incarnate": [],
+            "Wings of Sacred Provenance": []
         }
     },
     {
         "for": "Blaster",
-        "type": "Auto attacker",
+        "type": "Physical/Pure Dealer",
         "order": 2,
         "stat": "STR",
-        "version": "62c",
-        "description": [
-            "Use chrono chaser in need of breaks"
-        ],
+        "version": "62r",
         "items": {
-            "Heartrender": [
-                "Chrono Chaser"
-            ],
+            "Final Omen": [],
             "Visage of Vengeance": [],
-            "Ring of Divine Winds": [],
-            "Plates of Sanguine Fury": [],
+            "Ring of Divine Winds": [
+                "Crimson Curse"
+            ],
+            "Dread Incarnate": [],
             "Bloodstorm": [
-                "Cape of Deep Abyss"
+                "Wings of Sacred Provenance"
             ]
         }
     }
