@@ -1671,8 +1671,7 @@
     "required_by": [
       "Tunic of the Wraith",
       "Robe of the Necromancer",
-      "Wings of Fury",
-      "Soul of the Dead"
+      "Wings of Fury"
     ],
     "stats": {
       "armor": 60,
@@ -1700,7 +1699,6 @@
     "level": 50,
     "droprate": 0.25,
     "required_by": [
-      "Grim Visage",
       "Ring of the Reaper",
       "Soul of the Dead",
       "Ring of Composure"
@@ -1730,8 +1728,7 @@
     "level": 50,
     "droprate": 0.25,
     "required_by": [
-      "Death Visage",
-      "Bloodstone Plates"
+      "Death Visage"
     ],
     "stats": {
       "armor": 40,
@@ -2451,7 +2448,6 @@
       "Parasitic Sword",
       "Staff of Tentacles",
       "Infected Crab Armor",
-      "Maw of Monster",
       "Dragon Blaster",
       "Tentacle Horn",
       "Ring of Deep Darkness",
@@ -2902,7 +2898,6 @@
     "required_by": [
       "Death Visage",
       "Sanguiel, the Bloodspear of Requiem",
-      "Hood of Grim Reaper",
       "Dante's Inferno",
       "Tunic of the Wraith",
       "Grim Heart"
@@ -3273,9 +3268,6 @@
     "color": "EBD787",
     "level": 50,
     "droprate": 0.125,
-    "required_by": [
-      "Bloodstone Plates"
-    ],
     "stats": {
       "armor": 80,
       "str": 70,
@@ -3581,26 +3573,6 @@
     ]
   },
   {
-    "id": "tels",
-    "name": "Count's Old Cape",
-    "koreanname": "백작의 낡은 망토",
-    "dropped_by": [
-      "Duchy of Wallachia Count"
-    ],
-    "rank": "[Epic]",
-    "grade": 1,
-    "type": "Material",
-    "color": "FFFFFF",
-    "droprate": 0.125,
-    "required_by": [
-      "Cape of the Count",
-      "Bloody Hatred",
-      "Eye of Wallachia",
-      "Cloak of the Fallen Shadows",
-      "Count Icon"
-    ]
-  },
-  {
     "id": "I07G",
     "name": "Count's Memento",
     "koreanname": "왈라키아 백작가의 유품",
@@ -3617,8 +3589,9 @@
       "True Blood Cannon Tepes",
       "Teperua, the Ring of Blood",
       "Cape of the Count",
-      "Cruoris, the Armor of Blood",
-      "Soul Drinker"
+      "Soul Drinker",
+      "Eye of Wallachia",
+      "Cloak of the Fallen Shadows"
     ]
   },
   {
@@ -4077,8 +4050,6 @@
       "Frozen Robe",
       "Robe of the Sage",
       "Archangel Halo",
-      "Helm of Battle",
-      "Prophetia, the Source of Mana",
       "True Guardian Ring",
       "Mithril Pickaxe",
       "Glasses",
@@ -4636,7 +4607,6 @@
       "Yggrect, the Archdevil's Bow",
       "Retus, the Bullet of Judgment",
       "Alchatratz, the Archdevil's Cannon",
-      "Archangel Halo",
       "Pure Crystal Wings",
       "Guardian Angel Icon"
     ]
@@ -4808,7 +4778,6 @@
       "Red Cross",
       "Retus, the Bullet of Judgment",
       "Alchatratz, the Archdevil's Cannon",
-      "Cruoris, the Armor of Blood",
       "Void Eye",
       "Prophetia, the Source of Mana",
       "Corrupt Angel Icon"
@@ -5062,7 +5031,6 @@
     ],
     "required_by": [
       "Bag of Life",
-      "Frozen Robe",
       "Mana Heart Frost",
       "Frozen Heart",
       "Eternal Rose",
@@ -5280,7 +5248,6 @@
       "True Guardian Ring",
       "Trueblood Ring",
       "Heart of Ifrit",
-      "Wanderer's Cape",
       "Frozen Heart",
       "Spirit Dagger",
       "Meacronacer, the Sword of Thousand Illusions",
@@ -5491,7 +5458,6 @@
       "Horns of Destruction",
       "Archangel Halo",
       "Prophetia, the Source of Mana",
-      "Horn of Devil",
       "Demonis, the Devil Lord's Ring",
       "Living Dragon Heart",
       "Staff of Abyss",
@@ -6281,7 +6247,6 @@
     "level": 100,
     "droprate": 0.02,
     "required_by": [
-      "Crown of Rage",
       "Crown of Composure",
       "Flame Nightmare Icon"
     ],
@@ -6360,7 +6325,6 @@
       "Latea, the Ring of Chaos",
       "Trueblood Ring",
       "Wings of Fury",
-      "Wings of Phoenix",
       "Flame Nightmare Icon",
       "Bag of Life",
       "Ring of Fervor"
@@ -6629,7 +6593,6 @@
       "Protector's Will",
       "Wanderer's Cape",
       "Horn of Devil",
-      "Crown of Rage",
       "Plates of Lightning",
       "Hungry Bat Wings",
       "Turtle Lord Icon"
@@ -6666,7 +6629,6 @@
       "Creation of the Sky and Earth",
       "Bloodsoul Plates",
       "Ring of Intrusion",
-      "Heart of Ifrit",
       "Turtle Lord Icon"
     ],
     "worth": 2,
@@ -6961,13 +6923,9 @@
       "See Collector NPC to exchange (all item recipes that include Coin of Effort will be here too)"
     ],
     "dropped_by": [
-      "Death Fiend",
-      "Valtora",
-      "Ifrit",
-      "Nereid",
-      "Underlord Agareth",
       "Duke Lazarus",
-      "Gaia"
+      "Gaia",
+      "Arcane Construct"
     ],
     "required_by": [
       "Storage Expansion Coupon",
@@ -8452,6 +8410,57 @@
     ]
   },
   {
+    "id": "I0O0",
+    "name": "Prius Platinum Coin",
+    "koreanname": "프리우스 백금화",
+    "description": "A valuable coin. It can be traded with collectors for other items.",
+    "notes": [
+      "Can be used to purchase items from the Collector NPC"
+    ],
+    "dropped_by": [
+      "Death Fiend",
+      "Valtora",
+      "Ifrit",
+      "Nereid",
+      "Agareth"
+    ],
+    "rank": "[Epic]",
+    "grade": 4,
+    "type": "Coin",
+    "color": "C0C0C0",
+    "droprate": [
+      0.002,
+      0.002,
+      0.002,
+      0.0025,
+      0.003
+    ],
+    "required_by": [
+      "Prius Gold Coin",
+      "Coin of Effort",
+      "The Ender",
+      "Armor of Grudge",
+      "Eyes of the Watcher",
+      "Ring of Destruction",
+      "Spearhead of Death",
+      "Fragment of Chaos",
+      "Shining Fragment of Ruins",
+      "Shackles of Heaven",
+      "Aegis of Storm",
+      "Essence of Storm",
+      "Heart of Volcano",
+      "Aegis of Flame",
+      "Essence of Flame",
+      "Grail of Eternity",
+      "Aegis of Sea",
+      "Essence of Sea",
+      "Curse of Greed",
+      "Fragment of Soul",
+      "Fragment of Hell",
+      "Mark of Lord"
+    ]
+  },
+  {
     "id": "I0QH",
     "name": "Death Fiend Icon",
     "koreanname": "데스 핀드 아이콘",
@@ -9105,7 +9114,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.007,
+    "droprate": 0.0075,
     "required_by": [
       "Ring of Hope",
       "Ring of Despair",
@@ -9145,7 +9154,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.007,
+    "droprate": 0.0075,
     "required_by": [
       "Hood of Apocalypse",
       "Power of Beriel",
@@ -9184,7 +9193,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.007,
+    "droprate": 0.0075,
     "required_by": [
       "Radiance of the One",
       "Crown of Absolute Zero",
@@ -9376,7 +9385,8 @@
       "Frost Herald's Garment",
       "Horn of Dragon",
       "Bell of Divinity",
-      "Living Flame"
+      "Living Flame",
+      "Soul Chaser"
     ]
   },
   {
@@ -9450,7 +9460,8 @@
       "Prelude to Demise",
       "Shadow Waltz",
       "Keeper of the Grove",
-      "Call of Gehenna"
+      "Call of Gehenna",
+      "Soul Chaser"
     ]
   },
   {
@@ -9499,7 +9510,8 @@
       "Bell of Divinity",
       "Dread Incarnate",
       "Blood Devourer",
-      "Aeon Sphere"
+      "Aeon Sphere",
+      "Soul Chaser"
     ]
   },
   {
@@ -9583,7 +9595,8 @@
       "Aeon Sphere",
       "Living Flame",
       "Call of Gehenna",
-      "Astral Fury"
+      "Astral Fury",
+      "Soul Chaser"
     ]
   },
   {
@@ -10509,9 +10522,6 @@
         "Corrupt Crystal Fragment": 1
       },
       {
-        "Infected Tentacle": 1
-      },
-      {
         "Hydra Poison Tooth": 1
       }
     ],
@@ -11182,12 +11192,6 @@
         "Bloody Armor": 1
       },
       {
-        "Armor of Poison": 1
-      },
-      {
-        "Mask of Blood": 1
-      },
-      {
         "Orichalcum": 1
       }
     ],
@@ -11557,7 +11561,6 @@
     "color": "C39BE1",
     "level": 70,
     "required_by": [
-      "True Bloodstone Plates",
       "Mana Heart Frost"
     ],
     "recipe": [
@@ -11743,9 +11746,6 @@
       "Wings of Fury"
     ],
     "recipe": [
-      {
-        "Count's Old Cape": 1
-      },
       {
         "Count's Memento": 1
       },
@@ -13063,13 +13063,7 @@
         "Dark Wings": 1
       },
       {
-        "A Page of the Unholy Book": 1
-      },
-      {
         "Bloodstone": 1
-      },
-      {
-        "Count's Memento": 1
       },
       {
         "Dragon Bone": 1
@@ -13192,9 +13186,6 @@
         "Frozen Cobweb": 1
       },
       {
-        "Frorist": 1
-      },
-      {
         "Mithril": 1
       }
     ],
@@ -13311,9 +13302,6 @@
         "True Dragon Armor Magron": 1
       },
       {
-        "Mana Heart Large": 1
-      },
-      {
         "Lifestone": 1
       },
       {
@@ -13349,7 +13337,6 @@
     "level": 100,
     "required_by": [
       "Horn of Devil",
-      "Dragon Mask",
       "Crown of Rage"
     ],
     "recipe": [
@@ -13405,9 +13392,6 @@
         "Dark Matter": 1
       },
       {
-        "A Page of the Bible": 1
-      },
-      {
         "Frozen Cobweb": 1
       }
     ],
@@ -13447,9 +13431,6 @@
       },
       {
         "Fragment of Angel's Feather": 1
-      },
-      {
-        "Mithril": 1
       }
     ],
     "stats": {
@@ -13488,9 +13469,6 @@
       },
       {
         "A Small Piece of Wrath": 1
-      },
-      {
-        "Ring of the Dead": 1
       },
       {
         "Mad Symbol": 1
@@ -13569,9 +13547,6 @@
         "Hood of Mage": 1
       },
       {
-        "Mithril": 1
-      },
-      {
         "Dark Matter": 1
       },
       {
@@ -13613,9 +13588,6 @@
       },
       {
         "Skull Seal": 1
-      },
-      {
-        "Ghostly Thread": 1
       },
       {
         "Mad Symbol": 1
@@ -13662,9 +13634,6 @@
       },
       {
         "Mark of Storm": 1
-      },
-      {
-        "Dark Matter": 1
       }
     ],
     "stats": {
@@ -14069,9 +14038,6 @@
       },
       {
         "Dragon Heart": 1
-      },
-      {
-        "Mana Orb": 1
       }
     ],
     "stats": {
@@ -14343,9 +14309,6 @@
     "recipe": [
       {
         "Slayer Boots": 1
-      },
-      {
-        "Adamantium": 1
       },
       {
         "Dark Wings": 1
@@ -15319,9 +15282,6 @@
       },
       {
         "Dark Wings": 1
-      },
-      {
-        "Count's Old Cape": 1
       },
       {
         "Dark Crystal": 1
@@ -16981,7 +16941,7 @@
         "Grim Visage": 1
       },
       {
-        "Count's Old Cape": 1
+        "Count's Memento": 1
       },
       {
         "Antimatter": 1
@@ -17022,9 +16982,6 @@
       },
       {
         "Helm of Battle": 1
-      },
-      {
-        "Horns of Destruction": 1
       },
       {
         "Dragon's Eye": 1
@@ -17149,9 +17106,6 @@
     ],
     "recipe": [
       {
-        "Crown of Fervor": 1
-      },
-      {
         "Horns of Destruction": 1
       },
       {
@@ -17166,9 +17120,6 @@
       },
       {
         "Mad Symbol": 1
-      },
-      {
-        "Mark of Storm": 1
       }
     ],
     "stats": {
@@ -17931,7 +17882,7 @@
         "Essence of Corruption": 1
       },
       {
-        "Count's Old Cape": 1
+        "Count's Memento": 1
       }
     ],
     "stats": {
@@ -17973,9 +17924,6 @@
       },
       {
         "Burning Bone Fragments": 1
-      },
-      {
-        "Essence of Anger": 1
       },
       {
         "Mad Symbol": 1
@@ -18060,9 +18008,6 @@
       "Wings of Immortal"
     ],
     "recipe": [
-      {
-        "Cape of the Dead": 1
-      },
       {
         "Hood of the Fallen": 1
       },
@@ -19098,6 +19043,9 @@
     "type": "Weapon (Gun)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Soul Chaser"
+    ],
     "recipe": [
       {
         "Fiend Chaser": 1
@@ -21030,7 +20978,7 @@
       ],
       "spec": [
         "Specialties - Summary Judgement, Holy Arts",
-        "Crusader - If Original Sin is cast while Holy Fist is active, only the last slash is activated with stun duration reduced by 50% and cooldown by 66%.",
+        "Crusader - Original Sin: Only activates the final slash. Stun duration reduced by 50% and cooldown reduced by 66%.",
         "Paladin - Divine Cross' damage is increased by 15%",
         "Martial Artist - Increases attack damage amplifier on Inner Meditation by 20%"
       ]
@@ -21524,7 +21472,7 @@
       "spec": [
         "Specialties - Demon's Grasp",
         "Paladin - Divine Cross' damage is increased by 20%",
-        "Crusader - If Original Sin is cast while Demon's Grasp is active, only the last slash is activated with stun duration reduced by 50% and cooldown by 66%."
+        "Crusader - Original Sin: Only activates the final slash. Stun duration reduced by 50% and cooldown reduced by 66%."
       ]
     }
   },
@@ -22733,6 +22681,53 @@
         "Specialty - Abandon All Hope",
         "Shooter - Casting Break Shot loads one Bullet of Omen",
         "Gunner - Casting Outlaw loads one Bullet of Omen"
+      ]
+    }
+  },
+  {
+    "id": "I09K",
+    "name": "Soul Chaser",
+    "koreanname": "소울 체이서",
+    "description": "A mystic bullet that chases souls",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Gun)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Chrono Chaser": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Ancient Tome": 1
+      }
+    ],
+    "stats": {
+      "damage": 10500,
+      "agi": 845,
+      "int": 425,
+      "attackspeedpercent": 0.45,
+      "skilldamagepercent": 0.175,
+      "passive": [
+        "Skill hits accumulates Soul Gauge",
+        "Each stack grants 0.07% bonus in damage dealt by skills",
+        "Can gain up to 10 stacks per second, and upon reaching 100 stacks, allows usage of empowered active effect regardless of cooldown",
+        "Accumulates automatically outside of combat"
+      ],
+      "active": [
+        "On use, activates Soul Chaser",
+        "Breaks shield and deals (Attack Damage X 5 + Main Stat X 35) magic damage and stuns for 1 second",
+        "Empowered: Deals 25% bonus damage and increases your skill damage dealt to target by 10% for 6 seconds. Consumes all Soul Gauge and becomes unable to accumulate it for 15 seconds.",
+        "Cooldown: 45 seconds"
       ]
     }
   },
@@ -24581,9 +24576,6 @@
       },
       {
         "Teperua, the Ring of Blood": 1
-      },
-      {
-        "Count's Old Cape": 1
       }
     ],
     "stats": {

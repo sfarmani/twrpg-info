@@ -999,8 +999,8 @@
         ],
         "active": [
             "Rallies allies by stimulating their blood.",
-            "Increases attack damage, HP and healing received by 20% for (6 + STR / 750) seconds",
-            "Increases your attack speed by 50% and each attack will restore 1 blood gauge on attack",
+            "Increases attack damage and HP by 20% for (6 + STR / 750) seconds",
+            "Increases your attack speed by 50%, healing received by 20% and each attack will restore 1 blood gauge on attack",
             "Rose Dance's cast time and cooldown are removed and can be cast up to 3 times without incurring HP consumption"
         ]
     },
@@ -1161,7 +1161,7 @@
         "order": 1,
         "passive": [
             "Control drones that can assist allies.",
-            "Assists Shooter's attacks with AGI X 2 pure damage (affected by attack speed)",
+            "Assists Shooter's attacks with AGI X 5 pure damage (affected by attack speed)",
             "Can attach onto allies",
             "Can summon up to 3 probes"
         ],
@@ -2062,7 +2062,7 @@
         "order": 23,
         "passive": [
             "Affinity with summons allows you to bring out their potentials.",
-            "Increases your summons' damage dealt by 12%",
+            "Total damage increased by 12%",
             "Decreases your summons' damage taken by 40%"
         ],
         "active": [

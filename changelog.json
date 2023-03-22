@@ -1,5 +1,139 @@
 [
     {
+        "name": "62r",
+        "notes": [
+            "Released on: March 20th, 2023",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Shrine Priestess - Fixed issue where aggro range was greater than attack range",
+            "Arcane Construct - Fixed issue with boss becoming permanently immune to CC effects even after resetting",
+            "Arcane Construct - Fixed issue with fairy at entrance changing positions after boss fight",
+            "Typo fixed on some skills"
+        ],
+        "items": [
+            {
+                "name": "New recipe added",
+                "changes": [
+                    "Soul Chaser"
+                ]
+            },
+            {
+                "name": "Demonic Fist series",
+                "changes": [
+                    "Crusader specialty on F will now always activate regardless of passive proc"
+                ]
+            },
+            {
+                "name": "Prius Platinum Coin",
+                "changes": [
+                    "A new currency has been added",
+                    "Exchange List",
+                    [
+                        "Prius Gold Coin = x1",
+                        "Coin of Effort = x3",
+                        "Death Fiend drops = x5 for The Ender, x3 for other equipment, x4 for materials",
+                        "Valtora, Ifrit drops = x4 for each",
+                        "Nereid drops = x5 for each",
+                        "Agareth drops = x6 for Curse of Greed, x8 for materials"
+                    ]
+                ]
+            },
+            {
+                "name": "Some low-tier recipes have been shortened",
+                "changes": [
+                    "Maw of Monster - Infected Tentacle removed",
+                    "Bloody Hatred - Count's Old Cape removed",
+                    "Bloodstone Plates - Poison Armor, Blood Mask removed",
+                    "Cruoris, the Armor of Blood - Count's Heirloom and Page of Unholy Bible Removed",
+                    "Frozen Robe - Frorist Removed",
+                    "True Bloodstone Plates - Mana Heart Large Removed",
+                    "Archangel Halo - Page of Holy Bible Removed",
+                    "Helm of Battle - Mithril Removed",
+                    "Grim Visage - Ring of the Dead Removed",
+                    "Prophetia, the Source of Mana - Mithril Removed",
+                    "Hood of Grim Reaper - Ghostly Thread Removed",
+                    "Horn of Devil - Dark Matter removed",
+                    "Eye of Wallachia - Count's Old Cape → Count's Memento",
+                    "Dragon Mask - Horn of Destruction removed",
+                    "Crown of Rage - Helm of Fervor and Mark of Storm removed",
+                    "Heart of Ifrit - Mana Orb removed",
+                    "Cape of the Count - Count's Old Cape removed",
+                    "Wanderer's Cape - Adamantium removed",
+                    "Wings of Phoenix - Essence of Anger removed",
+                    "Cloak of the Fallen Shadows - Count's Old Cape → Count's Memento",
+                    "Soul of the Dead - Clothing of the Dead removed",
+                    "Count Icon - Count's Old Cape removed"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Count of Wallachia",
+                "changes": [
+                    "No longer drops Count's Old Cape"
+                ]
+            },
+            {
+                "name": "Neptinos-tier Bosses (Demon Lord ~ Turtle Lord)",
+                "changes": [
+                    "Base HP reduced by 15~25%",
+                    "Difficulty bonus now scales from 3~7 players (40% hp and 7.5% drop rate per player) instead of 4~8 players (40% hp and 5% drop rate per player)"
+                ]
+            },
+            {
+                "name": "Alteia-tier Bosses (Death Fiend ~ Agareth)",
+                "changes": [
+                    "Will now drop Prius Platinum Coin instead of Coin Effort",
+                    "Agareth's material drop rate increased from 0.7% to 0.75%"
+                ]
+            },
+            {
+                "name": "Arcane Construct",
+                "changes": [
+                    "Coin of Effort added to loot table",
+                    "Dodging stomp via dodging effects (ex. Martial Artist's D, Knight's E) will now negate Break debuff application"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Blaster",
+                "changes": [
+                    "Orbital Bombardment (F) - Activation delay reduced"
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Attack cooldown after 3 attacks (when not using T) 0.55s → 0.4s"
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Probe (D) - Probe attack damage AGI X2 → X5, proc cooldown 2s → 4s, attack speed scaling 4x → 1x",
+                    "(this is not meant to be a meaningful buff/nerf as this skill had very little part in shooter damage anyway; just a minor adjustment with new weapon in mind)"
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Elemental Link (T) - Total damage bonus now applies to hero itself so that summons can properly mirror the bonus"
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Boil (R) - Healing bonus only applies to Bloodweaver herself now"
+                ]
+            }
+        ],
+        "misc": [
+            "Dodge chance removed from items/skill effects as part of system optimization"
+        ]
+    },
+    {
         "name": "62q",
         "notes": [
             "Released on: March 8th, 2023",
