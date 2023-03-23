@@ -22673,7 +22673,7 @@
       "critmultiplier": 0.4,
       "passive": [
         "Loads Bullet of Omen every 3 seconds",
-        "Deals ((AGI x 7.5) + (Attack Damage x 1.4)) magic damage per stack",
+        "Deals ((MAIN STAT x 7.5) + (Attack Damage x 1.4)) magic damage per stack",
         "Deals 25% bonus damage to enemies under 50% HP",
         "Stuns for 0.25 seconds",
         "Can charge up to 4 stacks"
