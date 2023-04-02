@@ -9522,8 +9522,8 @@
     "dropped_by": [
       "Gaia"
     ],
-    "rank": "[Epic]",
-    "grade": 5,
+    "rank": "none",
+    "grade": 0,
     "type": "Token",
     "color": "733CBE",
     "droprate": 0.0001
@@ -9599,6 +9599,19 @@
       "Astral Fury",
       "Soul Chaser"
     ]
+  },
+  {
+    "id": "I0GH",
+    "name": "Construct Token",
+    "koreanname": "기계 토큰",
+    "dropped_by": [
+      "Arcane Construct"
+    ],
+    "rank": "none",
+    "grade": 0,
+    "type": "Token",
+    "color": "733CBE",
+    "droprate": 0.0001
   },
   {
     "id": "I0IZ",
@@ -24240,7 +24253,6 @@
       ],
       "active": [
         "On use, activates Bloodstorm",
-        "Only usable at full stacks",
         "Becomes invisible (for Assassin, triggers Dark Shroud instead) and gains 200 movement speed for 2 seconds",
         "Next attack will will be empowered, dealing MAIN STAT X 6 X crit multiplier magic damage",
         "Cooldown: 10 seconds, cannot be dropped during cooldown"

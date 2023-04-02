@@ -1,5 +1,50 @@
 [
     {
+        "name": "62s2",
+        "notes": [
+            "Released on: April 1st, 2023",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Fixed issue where some items could get glitched upon changing item slots"
+        ],
+        "events": [
+            "Weird Event is active and will run from March 30 to April 17",
+            "Please refer to announcement for more information regarding the event"
+        ],
+        "items": [
+            {
+                "name": "Horn of Dragon series",
+                "changes": [
+                    "Charge will now accumulate automatically without moving while not in combat"
+                ]
+            },
+            {
+                "name": "Bloodstorm",
+                "changes": [
+                    "Active can now be used without requiring full stacks"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Arcane Construct",
+                "changes": [
+                    "Construct Token added to drop table"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Shadow Walk (E) - Damage AD X 1 + AGI X 7.5 → AD X 1 + AGI X 9",
+                    "Night Fury (F) - Final damage AGI X 37.5 → AGI X 45, damage bonus per D stack 9% → 10%, lag and cast time reduced"
+                ]
+            }
+        ]
+    },
+    {
         "name": "62r",
         "notes": [
             "Released on: March 20th, 2023",

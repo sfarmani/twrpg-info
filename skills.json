@@ -2859,8 +2859,8 @@
         "order": 4,
         "active": [
             "Becomes one with the shadow to avoid being seen by enemies.",
-            "Immediately becomes invisible and gains bonus movement speed",
-            "Next attack within 6 seconds inflicts attack damage X 1 + AGI X 7.5 magic damage",
+            "Becomes invisible and temporarily gains bonus movement speed",
+            "Next attack within 6 seconds inflicts Attack Damage X 1 + AGI X 9 magic damage",
             "Stuns for 1 second",
             "If struck from behind, damage increased by 50%"
         ]
@@ -2908,9 +2908,9 @@
         "order": 7,
         "active": [
             "\"Both sides of war tend to avoid fighting in the night because 'she' wanders around..\" - A Survivor of Empire War",
-            "Each wave deals AGI X 3 damage",
-            "Assassination deals AGI X 37.5 damage",
-            "Deals 9% bonus damage for each stack of Shadow Mark",
+            "Delivers 12 slashes, each dealing AGI X 4 magic damage",
+            "Final strike deals AGI X 45 magic damage",
+            "Deals 10% bonus damage for each stack of Shadow Mark",
             "Critically strikes enemies within 250 distance from the center"
         ]
     },
