@@ -676,7 +676,7 @@
         "id": "A0NN",
         "name": "Philosopher's Stone",
         "heroClass": "Alchemist",
-        "color": "ddb3f7P",
+        "color": "ddb3f7",
         "hotkey": "[T]",
         "icon": "AlchemistT",
         "cooldown": 40,
