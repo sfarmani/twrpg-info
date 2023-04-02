@@ -197,7 +197,7 @@
         "stat": "STR",
         "version": "60o",
         "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=4399"
+            "https://twrpg.com/viewtopic.php?f=4&t=4399 - outdated"
         ],
         "description": [
             "Use Crown of Extreme Anger Path until Crescendo",
@@ -1712,7 +1712,7 @@
         "type": "Early Game",
         "order": 1,
         "stat": "INT",
-        "version": "62k",
+        "version": "62s2",
         "items": {
             "Belius, the Archdevil's Staff": [],
             "Horns of Destruction": [],
@@ -1726,12 +1726,12 @@
         "type": "Mid Game",
         "order": 2,
         "stat": "INT",
-        "version": "62k",
+        "version": "62s2",
         "items": {
             "Parasitic Staff": [],
-            "Horn of Devil": [],
+            "Crown of Serenity": [],
             "Cold Ring of Death": [],
-            "Frozen Robe": [],
+            "Medea, the Robe of the Witch": [],
             "Soul Eater": []
         }
     },
@@ -1740,39 +1740,26 @@
         "type": "Late Game",
         "order": 3,
         "stat": "INT",
-        "version": "62k",
+        "version": "62s2",
         "items": {
             "The Ender": [],
-            "Horn of Lightning God": [],
-            "Cold Ring of Death": [],
-            "Robe of Storm": [],
+            "Horn of Demon God": [],
+            "Ring of Frozen Soul": [],
+            "Thanatos, the Robe of Hell": [],
             "Storm": []
         }
     },
     {
         "for": "Lightning Mage",
-        "type": "Full DPS",
+        "type": "End Game",
         "order": 4,
         "stat": "INT",
-        "version": "60v",
-        "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=6717"
-        ],
-        "description": [
-            "Jupiter and Crown of Cleansing for self sustain.",
-            "Eternity can be used for the save ability but its not much better than desolate soul"
-        ],
+        "version": "62s2",
         "items": {
             "Fulminata, the Bringer of Storms": [],
-            "Horn of Dragon": [
-                "Crown of Cleansing"
-            ],
-            "Ring of Desolate Soul": [
-                "Ring of Eternity"
-            ],
-            "Sanguis, the Robe of Sacrifice": [
-                "Jupiter, the Robe of Heavens"
-            ],
+            "Horn of Dragon": [],
+            "Ring of Malevolence": [],
+            "Call of Gehenna": [],
             "Bloodstorm": []
         }
     },
@@ -2014,7 +2001,7 @@
         "type": "Early Game",
         "order": 1,
         "stat": "INT",
-        "version": "62l2",
+        "version": "62s2",
         "items": {
             "Staff of Contagion": [],
             "Prophetia, the Source of Mana": [],
@@ -2028,12 +2015,12 @@
         "type": "Mid Game",
         "order": 2,
         "stat": "INT",
-        "version": "62l2",
+        "version": "62s2",
         "items": {
             "Parasitic Staff": [],
             "Prophetia, the Greater Source of Mana": [],
             "Grimoire of Darkness": [],
-            "Frozen Robe": [],
+            "Medea, the Robe of the Witch": [],
             "Soul Eater": []
         }
     },
@@ -2042,13 +2029,13 @@
         "type": "Late Game",
         "order": 3,
         "stat": "INT",
-        "version": "62l2",
+        "version": "62s2",
         "items": {
             "Staff of Plague": [],
-            "Prophetia, the Greater Source of Mana": [],
-            "Mark of Sin": [],
-            "Robe of Storm": [],
-            "Soul Eater": []
+            "Prophetia, the Origin of Knowledge": [],
+            "Seed of Malice": [],
+            "Thanatos, the Robe of Hell": [],
+            "Soul Devourer": []
         }
     },
     {
@@ -2056,18 +2043,13 @@
         "type": "End Game",
         "order": 4,
         "stat": "INT",
-        "version": "62l2",
-        "description": [
-            "Use Curse of Greed if you can survive."
-        ],
+        "version": "62s2",
         "items": {
             "Heartrender": [],
             "Crescendo of Madness": [],
             "Seed of Malice": [],
-            "Sanguis, the Robe of Sacrifice": [],
-            "Soul Devourer": [
-                "Curse of Greed"
-            ]
+            "Call of Gehenna": [],
+            "Blood Devourer": []
         }
     },
     {
