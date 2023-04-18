@@ -11,7 +11,10 @@
       "Prelude to Demise",
       "Aeon Sphere",
       "Living Flame",
-      "Shadow Waltz"
+      "Shadow Waltz",
+      "Harvester's Mask",
+      "Ring of Genesis",
+      "Soul Breath"
     ]
   },
   {
@@ -19459,6 +19462,7 @@
       "passive": [
         "On skill cast, activates Calamity",
         "Increases attack damage by 3750 and INT by 225 for 4 seconds",
+        "Increases enemy magic damage taken by 3% [Type-A] for 4 seconds",
         "Cooldown: 12 seconds"
       ],
       "active": [
@@ -22980,7 +22984,8 @@
       "affinitydarkpercent": 0.06,
       "passive": [
         "On skill cast, activates Nightmare",
-        "Increases ATK DMG by 4444, base attack speed by 44% and MP regen by 444 for 4 seconds",
+        "Increases ATK DMG by 4444 and MP regen by 444 for 4 seconds",
+        "Increases enemy magic damage taken by 4% [Type-A] for 4 seconds",
         "Cooldown: 12 seconds"
       ],
       "active": [
@@ -23380,7 +23385,7 @@
       "passive": [
         "On skill cast, builds Dread",
         "Upon reaching 4 stacks, gains 400 STR and 3% HP regen for 5 seconds",
-        "Damaging an enemy will summon a tentacle that deals 50000 magic damage in line (cooldown: 3s)",
+        "Damaging an enemy will summon a tentacle that deals 50000 magic damage in line (cooldown: 5s)",
         "Once it expires, has 5 second cooldown until it can start stacking again"
       ],
       "active": [
@@ -23746,6 +23751,35 @@
         "On use, activates Will of Protector",
         "Grants 40% dr in 1000 radius around you for 10 seconds",
         "Cooldown: 90 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I01U",
+    "name": "Harvester's Mask",
+    "koreanname": "수확자의 가면",
+    "description": "Mask imbued with dread",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "armor": 140,
+      "agi": 400,
+      "hp": 2000,
+      "skilldamagepercent": 0.15,
+      "critchancepercent": 0.125,
+      "passive": [
+        "On attack, activates Harvester's Eye",
+        "Increases ATK DMG by 20%, crit multplier by 0.30x, AGI by 400 for 7.5 seconds",
+        "While active, critical hits grant 1% bonus in skill damage (up to 10%)",
+        "Cooldown: 15 seconds"
       ]
     }
   },
@@ -24158,6 +24192,66 @@
     }
   },
   {
+    "id": "I01M",
+    "name": "Ring of Genesis",
+    "koreanname": "창세의 반지",
+    "description": "Ring imbued with the origin of all living beings",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "allstat": 525,
+      "skilldamagepercent": 0.175,
+      "passive": [
+        "On dealing damage, chance to deal 30% additional damage",
+        "On skill cast, 15% chance to increase damage dealt by 7.5% for 5 seconds",
+        "On ultimate cast, increases damage dealt by skills by 7.5% for 10 seconds",
+        "On being damaged, 10% chance to activate Absolute Protection"
+      ]
+    }
+  },
+  {
+    "id": "I0A6",
+    "name": "Chains of Torment",
+    "koreanname": "고통의 사슬",
+    "description": "Deep hatred runs within this ring",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "allstat": 480,
+      "mp": 6000,
+      "skilldamagepercent": 0.12,
+      "passive": [
+        "Activates Torment on skill hit",
+        "Deals 40000 magic damage",
+        "If MP is below 50%, restores 12% of max MP",
+        "If MP is above 50%, consumes 8% of max MP and adds (10 X consumed MP) damage",
+        "Cooldown: 5 seconds"
+      ],
+      "active": [
+        "On use, activates Howling Soul",
+        "For next 5 seconds, gains 15% skill damage, 50% pure attack speed",
+        "Activates Torment without MP consumption on every 3rd skill hit (up to 5 times)",
+        "Cooldown: 15 seconds"
+      ]
+    }
+  },
+  {
     "id": "I00W",
     "name": "Cape of Insatiable Hunger",
     "koreanname": "끝없는 갈망의 망토",
@@ -24447,7 +24541,8 @@
       "affinityiwpercent": 0.075,
       "affinitywlpercent": 0.075,
       "passive": [
-        "Skills have 7% chance to reset CD"
+        "Skills have 5% chance to reset cooldown",
+        "Increases nearby allies' healing received by 15%"
       ],
       "active": [
         "On use, revives a fallen ally with full HP and MP",
@@ -24537,6 +24632,38 @@
         "Deals ((ATK DMG X 2.25) + (MAIN STAT X 20)) magic damage in selected area",
         "Stuns for 1.5 seconds",
         "Cooldown: 30 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I01N",
+    "name": "Soul Breath",
+    "koreanname": "영혼의 숨결",
+    "description": "Wings of free spirit",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "int": 490,
+      "hp": 2000,
+      "mp": 5000,
+      "skilldamagepercent": 0.2,
+      "affinityiwpercent": 0.1,
+      "passive": [
+        "Summons Soul Fragment on skill cast",
+        "Deals (water affinity X (INT X 4)) magic damage per soul (can stack up to 5 souls)"
+      ],
+      "active": [
+        "On ultimate cast, activates Soul Tide",
+        "For 8 seconds, your skills will deal 10% more damage",
+        "Soul Fragment will spawn every second"
       ]
     }
   },

@@ -1,5 +1,98 @@
 [
     {
+        "name": "62t",
+        "notes": [
+            "Released on: April 17th, 2023",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Blood Devourer - Fixed bug with stacks",
+            "Assassin - Fixed bug where F initial slashes could not crit"
+        ],
+        "events": [
+            "Weird Event is over"
+        ],
+        "items": [
+            {
+                "name": "Armageddon",
+                "changes": [
+                    "Passive now applies debuff that increases 3% magic damage taken [Type-A]"
+                ]
+            },
+            {
+                "name": "Prelude to Demise",
+                "changes": [
+                    "Passive no longer increases attack speed, now applies debuff that increases 4% magic damage taken [Type-A]"
+                ]
+            },
+            {
+                "name": "Dread Incarnate",
+                "changes": [
+                    "Stack duration 3s → 5s"
+                ]
+            },
+            {
+                "name": "Thread of Life",
+                "changes": [
+                    "Cooldown reset chance 7% → 5%",
+                    "Effect added: Increases nearby allies' healing received by 15%"
+                ]
+            },
+            {
+                "name": "New items added",
+                "changes": [
+                    "Harvester's Mask",
+                    "Ring of Genesis",
+                    "Chains of Torment",
+                    "Soul Breath"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Skill damage slightly reduced on mid-tier bosses (Gnosis tier)"
+                ]
+            },
+            {
+                "name": "Agareth",
+                "changes": [
+                    "Infection - Sound FX for affected player changed (to distinguish it from Hunt sound)"
+                ]
+            },
+            {
+                "name": "Ancient Construct",
+                "changes": [
+                    "Exit portal will now remain usable until boss fully respawns",
+                    "Slightly reduced issue where summons could die instantly when summoned around edges of the map",
+                    "Fixed issue where you could avoid beam damage by standing directly under boss during Purge phase"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Hero notes",
+                "changes": [
+                    "Lancer, Warlock, Paladin will now start with full resources when loaded into game"
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Character has received a rework to be more focused on DPS than support aspects"
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Dimension Collapse (W) - Orb damage will now refer to the live max MP value instead of the max MP value at the time of casting skill",
+                    "Demonic Fury (T) - Increases skill damage by 1.5% per second → total damage by 1% per second, capped at 25%"
+                ]
+            }
+        ]
+    },
+    {
         "name": "62s2",
         "notes": [
             "Released on: April 1st, 2023",

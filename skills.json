@@ -819,7 +819,7 @@
             "Restores all MP and souls",
             "Armor increased by 100 & max HP and magic defense increased by 25%",
             "Changes skills partially",
-            "After 5 seconds, consumed MP increases by 50% and skill damage increases by 1.5% every second"
+            "After 5 seconds, consumed MP increases by 50% and total damage increases by 1% every second (up to 25%)"
         ]
     },
     {
@@ -4166,19 +4166,23 @@
         ]
     },
     {
-        "id": "A016",
-        "name": "Water Blast",
+        "id": "A0WB",
+        "name": "Frozen Emotion",
         "heroClass": "Water Mage",
         "color": "87cefa",
         "hotkey": "[D]",
         "icon": "WaterMageD",
-        "cooldown": 6,
         "order": 1,
+        "passive": [
+            "Imbues skills with cold energy.",
+            "Landing two normal skills consecutively empowers next skill, increasing its damage by 200%"
+        ],
         "active": [
-            "Creates a watery explosion to drench enemies in water.",
-            "INT X 6 magic damage",
-            "Drenches enemies in wetness for 6 seconds, slowing their speed",
-            "If target is affected by Frozen Emotion, fully recharges its barrier"
+            "Embraces target with cold spirit.",
+            "Deals INT X 2 bonus magic damage on attack",
+            "Increases skill damage by (5 + INT / 500)%",
+            "Absorbs up to INT X 0.5 damage (recharges by 10% per second)",
+            "Can be applied on to 3 allies (always active on self)"
         ]
     },
     {
@@ -4188,34 +4192,28 @@
         "color": "87cefa",
         "hotkey": "[Q]",
         "icon": "WaterMageQ",
-        "cooldown": 4,
+        "cooldown": 3,
         "order": 2,
         "active": [
-            "Reconstruct water into a frozen shard of a suitable size and fire it at the target.",
-            "INT X 6 magic damage",
+            "Forms an ice crystal and launches it at the target.",
+            "INT X 6 + Max MP X 0.5 magic damage",
             "Freezes for 0.5 seconds",
-            "If frozen, consumes it to increase damage by 200%",
-            "If slowed, consumes it to increase freeze duration by 200%"
+            "Cooldown is reset upon casting another skill"
         ]
     },
     {
-        "id": "A0WB",
-        "name": "Frozen Emotion",
+        "id": "A016",
+        "name": "Frozen Burst",
         "heroClass": "Water Mage",
         "color": "87cefa",
         "hotkey": "[W]",
         "icon": "WaterMageW",
+        "cooldown": 3,
         "order": 3,
-        "passive": [
-            "Summons ice fairies to protect yourself.",
-            "Creates a barrier that absorbs up to INT X 1 damage (recharges by 10% per second)",
-            "Increases skill damage by (10 + INT / 700)%",
-            "Frost Armament: Every attack deals attacker's Main Stat X 0.2 magic damage, and 20th proc deals Main Stat X 3 magic damage instead but puts this effect on 3 second cooldown"
-        ],
         "active": [
-            "Sends an ice fairy to protect an ally.",
-            "Provides the passive effect to up to 3 allies",
-            "Recharges target's barrier"
+            "Pulls up cold energy beneath the ground.",
+            "Consumes Max MP X 15%",
+            "Max MP X 2 magic damage"
         ]
     },
     {
@@ -4228,10 +4226,10 @@
         "cooldown": 8,
         "order": 4,
         "active": [
-            "Lightly ride on tidal waves.",
-            "INT X 7.5 bonus damage",
-            "Activates Water Blast and leaves water pools for 5 seconds",
-            "Water pool deals INT X 5 magic damage per second and slows nearby enemies"
+            "Rides gently on the waves.",
+            "INT X 8 magic damage",
+            "Refills barrier on allies hit",
+            "Empowered: Refills caster's MP"
         ]
     },
     {
@@ -4244,12 +4242,9 @@
         "cooldown": 12,
         "order": 5,
         "active": [
-            "Freezes nearby enemies by converting the mana in the atmosphere into ice.",
-            "INT X 15 magic damage",
-            "Freezes for 2 seconds",
-            "If slowed, consumes it and increases damage by 200%",
-            "If frozen, increases freeze duration by 100%",
-            "Range: 575"
+            "Releases a burst of cold energy, freezing everything nearby.",
+            "INT X 40 magic damage",
+            "Freezes for 2 seconds"
         ]
     },
     {
@@ -4259,14 +4254,13 @@
         "color": "87cefa",
         "hotkey": "[T]",
         "icon": "WaterMageT",
-        "cooldown": 20,
+        "cooldown": 30,
         "order": 6,
         "active": [
-            "Summons a magical orb surrounded by cold energy.",
-            "Periodically freezes nearby enemies for 1 second",
-            "Periodically summons ice shards that deal INT X 1.5 magic damage each",
-            "Lasts 8 seconds",
-            "Chain: If collided into Ice Shard, increases its damage by 300%"
+            "Summons a magical orb that releases frosty aura.",
+            "For 8 seconds, deals INT X 5 magic damage per second",
+            "Periodically freezes for 1 second",
+            "Chain: Increases Ice Shard's damage by 300%"
         ]
     },
     {
@@ -4276,13 +4270,12 @@
         "color": "4682b4",
         "hotkey": "[F]",
         "icon": "WaterMageF",
-        "cooldown": 100,
+        "cooldown": 60,
         "order": 7,
         "active": [
             "\"Looking at you all reminds me of ice sculptures. Well, not that one captures my attention.\" - Mage",
-            "Freezes nearby enemies for 5 seconds",
-            "Upon expiration, deals (INT X 125 + damage taken while frozen X 5%) pure damage",
-            "Reduces damage dealt by targets for 50% while active"
+            "Pauses nearby enemies for 3 seconds",
+            "Upon expiration, deals INT X 125 + Max MP X 20 pure damage"
         ]
     },
     {
