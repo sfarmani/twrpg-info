@@ -2227,10 +2227,10 @@
         "icon": "LightningMageW_W_W",
         "order": 5,
         "active": [
-            "Release collected energy with an explosive burst.",
+            "Releases collected energy with an explosive burst.",
             "INT X 12.5 magic damage",
             "Short stun effect",
-            "If used to activate Short Circuit, explodes all nearby lightning orbs"
+            "If used to activate Short Circuit, consumes all spawned Lightning Orbs and deals 100% additional damage (up to 5 times)"
         ]
     },
     {

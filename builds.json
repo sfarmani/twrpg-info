@@ -1929,7 +1929,7 @@
         "type": "Arcana",
         "order": 4,
         "stat": "INT",
-        "version": "62r",
+        "version": "62s2",
         "description": [
             "Duke+",
             "You can use Armageddon if your team is already using Gate of Abyss.",
@@ -1959,40 +1959,6 @@
                 "Protection of the Fairies",
                 "Soul Devourer",
                 "Wings of Immortal"
-            ]
-        }
-    },
-    {
-        "for": "Soul Weaver",
-        "type": "Damage amplification",
-        "order": 5,
-        "stat": "INT",
-        "version": "60v",
-        "items": {
-            "Armageddon": [],
-            "Hood of Apocalypse": [],
-            "Ring of Despair": [],
-            "Cage of Twisted Souls": [],
-            "Soul Devourer": []
-        }
-    },
-    {
-        "for": "Soul Weaver",
-        "type": "Team Buff",
-        "order": 6,
-        "stat": "INT",
-        "version": "60v",
-        "items": {
-            "Gate of Abyss": [],
-            "Eye of the Flame Lord": [],
-            "Heirloom of Lazarus": [
-                "Nebula Rose"
-            ],
-            "Jupiter, the Robe of Heavens": [
-                "Cage of Twisted Souls"
-            ],
-            "Guardian Angel": [
-                "Protection of the Fairies"
             ]
         }
     },
