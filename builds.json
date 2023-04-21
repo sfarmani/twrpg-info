@@ -326,6 +326,24 @@
         }
     },
     {
+        "for": "Knight",
+        "type": "Burst",
+        "order": 3,
+        "stat": "STR",
+        "version": "62t2",
+        "description": [
+            "This build is not the best build available for knight since INT Builds are dominating atm, but does a great burst and does decent dps.",
+            "Takes a while to get used with caedis mechanics and double E procs 3 (4 if lucky) marks at once."
+        ],
+        "items": {
+            "Caedis, the Sword of Slaughter": [],
+            "Crown of Transcendance": [],
+            "Crimson Curse": [],
+            "Astral Fury": [],
+            "Cape of Deep Abyss": []
+        }
+    },
+    {
         "for": "Lancer",
         "type": "DPS/Burst",
         "order": 1,
@@ -1366,7 +1384,7 @@
             "Horn of Dragon": [
                 "Eye of the Reaper"
             ],
-            "Ring of Desolate Soul": [
+            "Ring of Malevolence": [
                 "Ring of the One"
             ],
             "Exitium, the Armor of Ruin": [],
