@@ -742,9 +742,9 @@
         "cooldown": 0.5,
         "order": 2,
         "active": [
-            "Call an evil spirit to rip apart dimension in the form of a cross.",
+            "Calls an evil spirit to rip apart dimension in the form of a cross.",
             "Consumes Max MP X 30%",
-            "MAX MP X 0.45 + INT X 9 magic damage",
+            "INT X 10 + Max MP X 0.5 magic damage",
             "Deals 100% bonus damage to enemies in center and decreases their movement speed by 90% for 2 seconds"
         ]
     },
@@ -760,7 +760,7 @@
         "active": [
             "Creates an opening in dimension that spews corrupt energy to attack nearby enemies.",
             "Consumes Max MP X 30%",
-            "Attacks every 2.5 seconds, dealing Max MP X 0.75 magic damage",
+            "Attacks every 2.5 seconds, dealing Max MP X 0.8 magic damage",
             "Gate's attack speed is increased by 1% for each 1% of pure attack speed bonus",
             "Can maintain up to a maximum of 2 gates"
         ]
@@ -904,7 +904,7 @@
         "order": 12,
         "active": [
             "\"Seems like the time to unleash my evil left hand has come..\" - Haran",
-            "INT X 65 magic damage per second",
+            "INT X 50 + Max MP X 7.5 magic damage per second",
             "Roots nearby enemies",
             "Lasts 3 seconds"
         ]
@@ -1548,11 +1548,12 @@
         "order": 6,
         "active": [
             "Discards used up revolvers instead of reloading them.",
-            "Increases attack speed by 150% and breaks limit",
+            "Increases attack speed by 150% and reduces base attack cooldown by 50%",
             "Increases movement speed by 250",
             "Increases reload speed by 300%",
             "Reduces related skills' cooldown by 66% and resets their cooldowns",
-            "Duration: 12 seconds"
+            "Outlaw and Fanning no longer consumes bullets, and allows casting while moving",
+            "Lasts 8 seconds"
         ]
     },
     {
@@ -2844,7 +2845,7 @@
             "Melds into the darkness to strike the enemy from behind.",
             "Attack damage X 1.25 + AGI X 7.5 magic damage",
             "Stuns for 1.5 seconds",
-            "After cast, increases attack damage by 20% for 6 seconds",
+            "After cast, increases attack damage by 25% for 6 seconds",
             "Critical strike is guaranteed if used while invisible"
         ]
     },
@@ -2860,7 +2861,7 @@
         "active": [
             "Becomes one with the shadow to avoid being seen by enemies.",
             "Becomes invisible and temporarily gains bonus movement speed",
-            "Next attack within 6 seconds inflicts Attack Damage X 1 + AGI X 9 magic damage",
+            "Next attack within 6 seconds inflicts Attack Damage X 1.5 + AGI X 9 magic damage",
             "Stuns for 1 second",
             "If struck from behind, damage increased by 50%"
         ]
@@ -3605,13 +3606,12 @@
         "passive": [
             "Summons a faithful guardian that follows Bow Master around.",
             "Increases nearby hero's attack damage and main stat by 8%",
-            "Supports every attack with Attack Damage X 0.075 + AGI X 0.375 bonus damage",
+            "Supports every attack with Attack Damage X 0.075 + AGI X 0.375bonus damage",
             "Can critically strike"
         ],
         "active": [
             "Sends out the guardian to support your allies.",
-            "Increases nearby allies' HP regen by (Target's Max HP X 10%)",
-            "Lasts up to a maximum of 4 seconds"
+            "Increases nearby allies' HP regen by (Target's Max HP X 10%) for 3 seconds"
         ]
     },
     {
@@ -3625,12 +3625,9 @@
         "order": 5,
         "active": [
             "Fires a mana-infused arrow to repeatedly strike down lightnings upon target.",
-            "Every 0.5 seconds, deal Agility X 2.5 magic damage",
+            "Every 0.5 seconds, deals AGI X 3 magic damage",
             "Lasts 8 seconds",
-            "Can activate Lightning Strike 3 times while active",
-            "Deals (AGI X 10) magic damage",
-            "Lightning Strike increases Guardian Scout's damage on the marked target by 300% for 1.25 second",
-            "Each strike refreshes duration (up to 3.75 seconds)"
+            "Can activate Lightning Strike 3 times while active"
         ]
     },
     {
@@ -3677,7 +3674,7 @@
         "active": [
             "\"Without a warning, our enemies were swept across like dust by a magical arrow she shot.\" - A soldier of battlefield",
             "Summons 6 small arrows that deals AGI X 15 magic damage each",
-            "Afterwards, fires a large arrow that deals AGI X 100 magic damage",
+            "Afterwards, fires a large arrow that deals AGI X 125 magic damage",
             "On cast, resets cooldown of Flame Shot and Freezing Shot",
             "Gains 1 charge of Elven Arrow each time small arrow is fired"
         ]
@@ -4175,7 +4172,8 @@
         "order": 1,
         "passive": [
             "Imbues skills with cold energy.",
-            "Landing two normal skills consecutively empowers next skill, increasing its damage by 200%"
+            "Landing two normal skills consecutively makes target vulnerable",
+            "Next skill against a vulnerable unit will be empowered, dealing 150% bonus damage"
         ],
         "active": [
             "Embraces target with cold spirit.",
@@ -4274,8 +4272,8 @@
         "order": 7,
         "active": [
             "\"Looking at you all reminds me of ice sculptures. Well, not that one captures my attention.\" - Mage",
-            "Pauses nearby enemies for 3 seconds",
-            "Upon expiration, deals INT X 125 + Max MP X 20 pure damage"
+            "Pauses nearby enemies for 2 seconds",
+            "Upon expiration, deals INT X 125 + Max MP X 15 pure damage"
         ]
     },
     {
@@ -4835,10 +4833,8 @@
         "cooldown": 10,
         "order": 6,
         "active": [
-            "Activates on damage received within next 1 second",
-            "Reduces damage taken by 70% and removes all debuffs",
-            "Restores 8 souls",
-            "Resets cooldowns of Crescent and Daze"
+            "Dodges next attack",
+            "On successful dodge, restores 8 souls and resets cooldowns of Crescent and Daze"
         ]
     },
     {
@@ -4853,7 +4849,7 @@
         "active": [
             "Removes all soul consumption for 8 seconds and reduces some skills' cooldowns",
             "Enables dash while active",
-            "Increases damage of Alacrity by 75% while active"
+            "Increases damage of Alacrity by 85% while active"
         ]
     },
     {
@@ -4866,9 +4862,9 @@
         "cooldown": 120,
         "order": 8,
         "active": [
-            "Pauses enemies for 1.8 seconds",
-            "Delivers Attack Damage X 40 magic damage at the end",
-            "Stuns for 2.5 seconds",
+            "Pauses enemies for a short time",
+            "Delivers Attack Damage X 17.5 magic damage at the end",
+            "Lands as critical strike",
             "Deals up to 40% bonus damage based on target's missing HP"
         ]
     },

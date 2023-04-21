@@ -1,5 +1,77 @@
 [
     {
+        "name": "62t2",
+        "notes": [
+            "Released on: April 19th, 2023",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Fixed issue with Rainbow Cat Token having Ifrit Token skill"
+        ],
+        "monsters": [
+            {
+                "name": "Ancient Construct",
+                "changes": [
+                    "HP 45M → 47.5M / Orb HP 14M → 15M",
+                    "Purge - Fixed issue where middle area was dealt damage too frequently"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Ambush (W) - AD increase 20% → 25%",
+                    "Shadow Walk (E) - Damage AD X 1 + AGI X 9 → AD X 1.5 + AGI X 9"
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Swords automatically refill outside of combat now"
+                ]
+            },
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "Guardian Scout (E) - Using the active effect no longer cancels Guardian's attacks. Duration 4s → 3s",
+                    "Purestorm Shot (R) - Received slight rework; now empowers next attack with bonus damage and stun, then subsequent attacks for 1.2s. Recharges every 5 seconds, up to 3 charges.",
+                    "Magic Ballista (F) - Big arrow damage AGI X 100 → AGI X 125"
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Bullet Time (T) - Duration 12s → 8s, cooldown 40s → 30s"
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Harmony (R) - Reduces next damage taken by 70% → Avoids the attack (similar to Knight E, Martial Artist D)",
+                    "Release (T) - Q damage bonus 75% → 85%",
+                    "Obliterate (F) - Damage AD X 40 → AD X 17.5, now crits"
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Crucifixion (Q) - Damage INT X 9 + Max MP X 0.45 → INT X 10 + Max MP X 0.5",
+                    "Dimension Collapse (W) - Damage Max MP X 0.75 → Max MP X 0.8",
+                    "Demonic Fury (T) - Cooldown 90s → 75s",
+                    "Apocalypse (F) - Damage per second INT X 65 → INT X 50 + Max MP X 7.5"
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Frozen Emotion (D) - Empowered skill bonus damage 200% → 150%",
+                    "Ice Age (F) - Damage INT X 125 + Max MP X 20 → INT X 125 + Max MP X 15, pause duration 3s → 2s"
+                ]
+            }
+        ]
+    },
+    {
         "name": "62t",
         "notes": [
             "Released on: April 17th, 2023",
