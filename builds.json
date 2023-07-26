@@ -348,17 +348,20 @@
         "type": "DPS/Burst",
         "order": 1,
         "stat": "STR",
-        "version": "60u",
+        "version": "62w",
         "guidelink": [
             "https://twrpg.com/viewtopic.php?f=4&t=3341"
+        ],
+        "description": [
+            "Use alternate ring and its downgrades until you can build Ring of Malevolence"
         ],
         "items": {
             "Spear of Judgment": [
                 "Heartrender"
             ],
             "Horn of Dragon": [],
-            "Ring of Desolate Soul": [
-                "Ring of the One"
+            "Ring of Malevolence": [
+                "Ring of Desolate Soul"
             ],
             "Titan's Plates": [
                 "Plates of Sanguine Fury"
@@ -835,9 +838,12 @@
                 "Spirit of Protector"
             ],
             "Ring of Hope": [],
-            "Harmony of Sky and Earth": [],
+            "Harmony of Sky and Earth": [
+                "Cage of Twisted Souls"
+            ],
             "Protection of the Fairies": [
-                "Cape of Deep Abyss"
+                "Cape of Deep Abyss",
+                "Guardian Angel"
             ]
         }
     },
@@ -862,7 +868,8 @@
                 "Harmonia, the Sparkle of Life"
             ],
             "Crown of Cleansing": [
-                "Hood of Apocalypse"
+                "Hood of Apocalypse",
+                "Eye of the Flame Lord"
             ],
             "Ring of Hope": [
                 "Heirloom of Lazarus"
@@ -870,7 +877,9 @@
             "Jupiter, the Robe of Heavens": [
                 "Frost Herald's Garment"
             ],
-            "Protection of the Fairies": []
+            "Protection of the Fairies": [
+                "Guardian Angel"
+            ]
         }
     },
     {
@@ -888,12 +897,8 @@
             "Eye of the Reaper": [
                 "Visage of Vengeance"
             ],
-            "Ring of Insanity": [
-                "Demonic Fist"
-            ],
-            "Vest of Divine Winds": [
-                "Cage of Twisted Souls"
-            ],
+            "Ring of Insanity": [],
+            "Vest of Divine Winds": [],
             "Ruler of the Skies": []
         }
     },
@@ -2408,35 +2413,112 @@
     },
     {
         "for": "Blaster",
-        "type": "Fire Burst",
+        "type": "Burst",
         "order": 1,
         "stat": "STR",
-        "version": "62r",
+        "version": "62w",
+        "description": [
+            "Recommended build"
+        ],
         "items": {
-            "Final Omen": [],
+            "Soul Chaser": [],
             "Crown of Cataclysm": [],
             "Ring of Malevolence": [
                 "Ring of Desolate Soul"
             ],
             "Dread Incarnate": [],
-            "Wings of Sacred Provenance": []
+            "Wings of Sacred Provenance": [
+                "Bloodstorm"
+            ]
         }
     },
     {
         "for": "Blaster",
-        "type": "Physical/Pure Dealer",
+        "type": "AGA",
         "order": 2,
         "stat": "STR",
-        "version": "62r",
+        "version": "62w",
+        "description": [
+            "Main options provide burst, while alt options provide survival",
+            "Use Voidshard Armor for Survival ability before getting Dread Incarnate",
+            "Last Word is AA build",
+            "Storm for crit"
+        ],
+        "items": {
+            "Chrono chaser": [
+                "Last word"
+            ],
+            "Crown of Extreme Anger": [],
+            "Ring of Frozen Soul": [
+                "Ring of Insanity"
+            ],
+            "Fepsike Armor": [
+                "Voidshard Armor"
+            ],
+            "Storm": [
+                "Wings of Deep Abyss",
+                "Wings of Flame Lord"
+            ]
+        }
+    },
+    {
+        "for": "Blaster",
+        "type": "Periodic DMG and skill dmg",
+        "order": 3,
+        "stat": "STR",
+        "version": "62w",
+        "description": [
+            "Cheap build good dmg"
+        ],
+        "items": {
+            "Soul Chaser": [],
+            "Crown of Cataclysm": [],
+            "Crimson Curse": [],
+            "Dread Incarnate": [],
+            "Wings of the Void": []
+        }
+    },
+    {
+        "for": "Blaster",
+        "type": "Physical/Pure Dealer AA",
+        "order": 4,
+        "stat": "STR",
+        "version": "62w",
+        "description": [
+            "Chill but it doesn't have attack speed only use for towner troll"
+        ],
         "items": {
             "Final Omen": [],
-            "Visage of Vengeance": [],
-            "Ring of Divine Winds": [
-                "Crimson Curse"
+            "Crown of Cataclysm": [
+                "Visage of Vengeance"
+            ],
+            "Ring of Malevolence": [
+                "Ring of Divine Winds",
+                "Crimson Curse",
+                "Ring of Desolate Soul"
             ],
             "Dread Incarnate": [],
-            "Bloodstorm": [
-                "Wings of Sacred Provenance"
+            "Wings of Sacred Provenance": [
+                "Bloodstorm"
+            ]
+        }
+    },
+    {
+        "for": "Blaster",
+        "type": "SP GOD BLASTER BY GOMA - Troll",
+        "order": 5,
+        "stat": "STR",
+        "version": "62w",
+        "description": [
+            "Troll build"
+        ],
+        "items": {
+            "Abyss Fall": [],
+            "Crown of Cataclysm": [],
+            "Heirloom of Lazarus": [],
+            "Dread Incarnate": [],
+            "Thread of Life": [
+                "Guardian Angel"
             ]
         }
     }

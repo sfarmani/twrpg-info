@@ -1459,13 +1459,13 @@
         "color": "dfbe9f",
         "hotkey": "[D]",
         "icon": "GunnerD",
-        "cooldown": 1.2,
+        "cooldown": 1,
         "order": 1,
         "passive": [
             "He insists on using a revolver even though countless firearms now surpass it in terms of power or convenience.",
             "Attacks never miss and ignore 100% of target's armor",
             "Can reload up to 6 bullets",
-            "Requires 1 second of reloading when depleted",
+            "Requires 0.7 seconds of reloading when depleted",
             "Attacks deal only 40% damage to boss units"
         ],
         "active": [
@@ -2277,8 +2277,8 @@
         "cooldown": 40,
         "order": 8,
         "active": [
-            "Absorb mana dispersed in the atmosphere to charge yourself.",
-            "After 0.5 seconds, deals INT X 50 magic damage over 1 second",
+            "Absorbs mana dispersed in the atmosphere to charge yourself.",
+            "After 0.5 seconds, deals INT X 45 magic damage over 1 second",
             "Short stun effect",
             "Invulnerable while active",
             "If fully channeled, refills all Energy and refreshes basic skill cooldowns"
@@ -2295,7 +2295,7 @@
         "order": 9,
         "active": [
             "\"Disappear with the Lightning!\" - Mage",
-            "Pauses target for 1 second and deals INT X 100 magic damage",
+            "Pauses target for 1 second and deals INT X 90 magic damage",
             "Breaks any shield effects and critically strikes if target is affected by Short Circuit",
             "Damage dealt is increased up to 100% based on dash distance",
             "While casting, duration of Shock and Short Circuit will be refreshed on target",
@@ -2334,7 +2334,7 @@
         "order": 2,
         "active": [
             "Fires mana stored within your sword to target point.",
-            "MAX HP X 1.1 magic damage",
+            "STR X 7.5 magic damage",
             "Stuns and pulls enemies toward center",
             "Reduces movement speed of targets hit by 60%, as well as increasing the damage they take by 10% for 3 seconds",
             "Restore 1 charge every 5 seconds (Up to 4 charges)"
@@ -2440,9 +2440,8 @@
         "order": 8,
         "active": [
             "\"Light that can be bestowed upon the weak - that is the true light.\" - Astarte",
-            "Each slash deals STR X 45 magic damage",
-            "Final slash deals STR X 125 magic damage",
-            "Stuns for 3 seconds"
+            "Strikes twice dealing STR X 50 magic damage on each strike",
+            "If cast again, delivers a final strike dealing STR X 80 magic damage but incurring longer cooldown"
         ]
     },
     {
@@ -2460,9 +2459,8 @@
             "Movement speed increased by 125"
         ],
         "active": [
-            "A stance that reacts faster than the mind.",
-            "Evades next attack, dashing back and enabling Inner Meditation",
-            "On recast, launches a counter strike"
+            "Evades next attack received within 1 second",
+            "On issuing attack order, launches a counter attack dealing (Received Damage + 7.5 X Attack Damage) pure damage"
         ]
     },
     {
@@ -2546,9 +2544,9 @@
             "\"None can match the skills of the martial artists of Eloren. Having obtained the knowledge of all advanced martial arts, each one of their techniques is deadly.\" - A Continent Traveller",
             "Enables Inner Meditation",
             "Increases damage dealt by counter by 60%, all other skills by 100% and reduces attack cooldown by 50%",
-            "Gains immunity to unit collision, debuffs and CC effects",
-            "If cast once, lasts 4 seconds and has 40 seconds cooldown",
-            "If cast twice, lasts 8 seconds and has 120 seconds cooldown"
+            "Gains immunity to debuffs and CC effects",
+            "If cast once, lasts 4 seconds and has 30 seconds cooldown",
+            "If cast twice, lasts 6 seconds and has 60 seconds cooldown"
         ]
     },
     {
@@ -2893,9 +2891,8 @@
         "order": 6,
         "active": [
             "Summons shadows from all directions and rush toward the target point.",
-            "AGI X 6 magic damage",
-            "Summons 4 additional shadows that imitates the skill",
-            "Shadows will also imitate next Shadow Slash or Ambush, dealing 50% damage"
+            "Deals AGI X 6 damage 6 times",
+            "Summons 5 additional shadows that imitate next Shadow Slash or Ambush, each dealing 50% of original damage"
         ]
     },
     {
@@ -2942,7 +2939,7 @@
         "order": 2,
         "passive": [
             "Warm spirits that heal the master's allies.",
-            "Summons a spirit with 30% chance on attack (critical strikes guarantee a spirit), and with every 300 distance traveled",
+            "Summons a spirit with (33 + Pure Attack Speed / 3)% chance on attack(critical strikes guarantee a spirit), and with every 300 distance traveled",
             "When 3 spirits are summoned, your next attack heals an ally for 150 + INT X 0.75 health"
         ],
         "toggle": [
@@ -3031,9 +3028,9 @@
         "cooldown": 45,
         "order": 7,
         "active": [
-            "Blow a horn gifted with divine powers.",
+            "Blows a horn gifted with divine powers.",
             "Each pulse deals INT X 7.5 magic damage and slows enemies hit",
-            "Each pulse restores INT X 2 health and removes debuffs from allies",
+            "Each pulse restores INT X 2 health and grants debuff immunity for 3 seconds",
             "Creates up to 6 pulses"
         ]
     },
@@ -3125,7 +3122,7 @@
         "active": [
             "Brings down judgment on enemies.",
             "Each attack deals 1(AGI + INT) X 20 magic damage",
-            "Attacks up to (5 + Pure Attack Speed / 25)% times",
+            "Attacks up to (5 + Pure Attack Speed / 15)% times",
             "Disappears after cast"
         ]
     },
@@ -3261,8 +3258,7 @@
             "Revives a nearby ally",
             "Heals Max HP/MP X 100%",
             "Revived ally cannot die for 5 seconds",
-            "If killed while not on cooldown, it is used for yourself",
-            "Range: 600"
+            "If killed while not on cooldown, it is used for yourself"
         ]
     },
     {
@@ -3375,7 +3371,7 @@
             "Dashes with the speed of lightning.",
             "(STR + AGI) X 15 magic damage",
             "Stuns enemies hit for 1 second",
-            "Recharges Magnetic Field up to 25% based on distance travelled]"
+            "Recharges Magnetic Field up to 25% based on distance travelled"
         ]
     },
     {
@@ -3504,8 +3500,8 @@
         "active": [
             "Rushes forward with a spinning blade of death.",
             "Consumes HP X 20%",
-            "Spins for 1.5 seconds, dealing Attack Damage X 1 + STR X 10 magic damage per second",
-            "Deals 100% bonus damage to bleeding targets and reapplies bleeding",
+            "Spins for 1.5 seconds, dealing Attack Damage X 1.5 + STR X 15 magic damage per second",
+            "Deals 33% bonus damage to bleeding targets and reapplies bleeding",
             "Become immune to CC effects while active"
         ]
     },
@@ -3521,12 +3517,12 @@
         "passive": [
             "Shrouds your sword with madness.",
             "On attack, you have up to 25% chance based on missing HP to deal Attack Damage X 30% + STR X 3 bonus magic damage",
-            "Casting Brandish empowers next 3 attacks with bonus damage"
+            "Casting Brandish empowers next attack with bonus damage"
         ],
         "active": [
             "Driven by madness, Berserker becomes a killing machine whose sole purpose is to battle.",
             "Consumes HP X 80%",
-            "Increases attack speed by 100% and guarantees activation of Bloodbath for 12 seconds",
+            "Increases attack speed by 100% and guarantees activation of Bloodbath for 8 seconds",
             "Evades death for the duration"
         ]
     },
@@ -3705,7 +3701,7 @@
         "color": "00bfff",
         "hotkey": "[Q]",
         "icon": "KnightQ",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "cooldown": 0.5,
         "order": 2,
         "active": [
@@ -3722,7 +3718,7 @@
         "color": "afaff5",
         "hotkey": "[W]",
         "icon": "KnightW",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 3,
         "active": [
             "Quickly dash across the battlefield.",
@@ -4788,10 +4784,11 @@
         "icon": "PBQ",
         "order": 3,
         "passive": [
-            "When performing a slash, has 40% chance to consume a soul to deal AGI X 10 bonus magic damage"
+            "When performing a slash, has 40% chance to consume a soul to deal AGI X 6 bonus magic damage",
+            "Can critically strike"
         ],
         "toggle": [
-            "Toggles Alacrity"
+            "Disables the skill."
         ]
     },
     {
@@ -4849,7 +4846,7 @@
         "active": [
             "Removes all soul consumption for 8 seconds and reduces some skills' cooldowns",
             "Enables dash while active",
-            "Increases damage of Alacrity by 85% while active"
+            "Alacrity: Damage is increased by 25% and critical strike is guaranteed"
         ]
     },
     {

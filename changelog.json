@@ -1,5 +1,371 @@
 [
     {
+        "name": "62y",
+        "notes": [
+            "Released on: June 27th, 2023",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Ancient Construct - Fixed issue where some heroes could dodge wipe mech that happens after orb absorption"
+        ],
+        "events": [
+            "Summer Event is active from June 28 to July 23"
+        ],
+        "monsters": [
+            {
+                "name": "Shadow Dragon Irbert",
+                "changes": [
+                    "Silence rune AoE reduced and now spawns less frequently",
+                    "Field/periodic damage reduced slightly",
+                    "Breath healing reduction 100% → 75%"
+                ]
+            },
+            {
+                "name": "Valtora / Nereid / Ifrit",
+                "changes": [
+                    "Essence/Aegis drop rate 1% → 1.1%"
+                ]
+            },
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Material drop rate 0.75% → 0.85%"
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Crimson Rose drop rate 0.6% → 0.7%",
+                    "Material drop rate 0.75% → 0.85%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Blade Rush (R) - Base damage per second AD X 1 + STR X 10 → AD X 1.5 + STR X 15, bonus damage to bleeding targets 100% → 33%",
+                    "Berserk (T) - Duration 12s → 8s, cooldown 60s → 45s"
+                ]
+            },
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Holy Water of Resurrection (T) - Passive revival will have priority over item revival effects"
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Aura (D) - Aura of Protection (W) - Made shield visual indicator more visible"
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Pierce (Q) - Buff duration text position adjusted"
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Lightning Rush (W) - Can no longer target units directly (as this could prevent casting the skill in some situations)"
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Feather of Aeolus (D) / Guardian of Wind (F) - Gift (Q) - Improved visual indicators for showing whether the skill is toggled on or not"
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Hypercharge (T) - Damage per second INT X 50 → INT X 45",
+                    "Lightning Blade (F) - Base damage INT X 100 → INT X 90, Fixed issue with skill sometimes moving you out of boundary"
+                ]
+            }
+        ],
+        "misc": [
+            "-convert command no longer works in non-Reforged version (regardless of # in your name) "
+        ]
+    },
+    {
+        "name": "62w",
+        "notes": [
+            "Released on: May 30th, 2023",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Fixed some effects not working properly on new items",
+            "Heavens Door - Fixed bug where the active effect could heal/reset cooldowns immediately upon application",
+            "Mad Clown - Fixed bug where boss restores all MP if using skill that makes you temporarily disappear"
+        ],
+        "items": [
+            {
+                "name": "Visage of Vengeance",
+                "changes": [
+                    "After reaching 6 stacks of Vengeances, grants 450 main stat bonus that fades over 5s → flat 200 main stat bonus while Vengeance lasts"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Original Sin (F)",
+                    [
+                        "Damage STR X (2 X 65 + 100) → STR X (2 X 50 + 80)",
+                        "(had incorrect damage compared to what was written on v0.62v)",
+                        "Now grants invulnerability during cast like original version; slight backswing added to extend the invulnerability time"
+                    ]
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Soul (D)",
+                    [
+                        "Ability to change angle via right-click removed and rolled back to using D"
+                    ],
+                    "Alacrity (Q)",
+                    [
+                        "Damage AGI X 10 → AGI X 6",
+                        "(damage was not reduced in v0.62v, which resulted in Q damage being unintentionally buffed by approximately 70~110% depending on gear used)"
+                    ]
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "Comet Storm (F)",
+                    [
+                        "No longer affected by periodic damage"
+                    ]
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Beyond the Horizon (D)",
+                    [
+                        "Reload time 1s → 0.7s"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Nameless Arts (F)",
+                    [
+                        "Duration/cooldown applied on second activation changed from 8s/90s to 6s/60s"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Multiplayer bonus now scales from 1~10 to 2~6 players",
+            "Minor~Mid boss resummon count bonus will now apply from 2 players, 2 for each player (up to 10)",
+            "High boss resummon count bonus will now apply from 2 players, 1 for each player (up to 5)"
+        ]
+    },
+    {
+        "name": "62v",
+        "notes": [
+            "Released on: May 26th, 2023",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Shooter - Fixed issue where T was not being treated as periodic damage",
+            "Cape of Deep Abyss series - Fixed issue where all instances of Corrosion damage would be dealt by the first person that applied the debuff",
+            "Fixed issue where some cooldown reset effects showed incorrect hotkey when resetting Thunderer's skills"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "'Anti Magic Shield' effect shared by various items (ex. Halo of Judgment) now provides immunity to CC effects"
+                ]
+            },
+            {
+                "name": "Atricia, the Sword of Dreams",
+                "changes": [
+                    "Passive - Now has 25% chance to crit"
+                ]
+            },
+            {
+                "name": "Astra, the Sword of Moonlight series",
+                "changes": [
+                    "Crusader Specialty - Damage reduction bonus on W changed from 10~20% to fixed 10%"
+                ]
+            },
+            {
+                "name": "Punisher / Last Word / Final Omen",
+                "changes": [
+                    "HP 1200/1500/2000 added"
+                ]
+            },
+            {
+                "name": "Hell Riser / Armageddon / Prelude to Demise",
+                "changes": [
+                    "Passive - No longer temporarily increases enemy's magic damage taken",
+                    "Active - Debuff percentage 6/9/12% → 10/10/13%, duration 10s → 8s, cooldown 80/60/60s → 60/30/30s, no longer pauses/invuls hero during cast"
+                ]
+            },
+            {
+                "name": "Spiritus / Spirit Dagger / Ethereal Dagger / Chaos Dagger",
+                "changes": [
+                    "Wind Mage/Elementalist specialty removed",
+                    "Passive",
+                    [
+                        "Now deals (Main Stat X 6/6/8/10) magic damage",
+                        "increases target's damage taken by 0%/4%/4%/5% for 4 seconds",
+                        "no longer crits or slows",
+                        "cooldown changed to 6/6/4/4s"
+                    ]
+                ]
+            },
+            {
+                "name": "Destruction Bag series",
+                "changes": [
+                    "Merchant Specialty - Q Damage taken increase 6~10% → 4~5%, no longer belongs to Type-A category and can now stack with all other debuffs"
+                ]
+            },
+            {
+                "name": "Wings of Flame Lord",
+                "changes": [
+                    "Damage reduction / HP regen stats removed",
+                    "Skill damage 5% added"
+                ]
+            },
+            {
+                "name": "Guardian of the Skies / Ruler of the Skies",
+                "changes": [
+                    "Active reworked - Deals Main Stat X 40/60 magic damage, stuns for 2 seconds. Rulers of the Skies will also increases your skill damage dealt to target by 8% for 10 seconds"
+                ]
+            },
+            {
+                "name": "New items have been implemented",
+                "changes": [
+                    "Lightbringer",
+                    "Blazing Sun",
+                    "Duskblade",
+                    "Soul Torch",
+                    "Wings of the Void"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Arcane Construct",
+                "changes": [
+                    "Entrance stone HP reduced further"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Hero notes",
+                "changes": [
+                    "Some skills have been updated to allow pre-inputing commands while paused"
+                ]
+            },
+            {
+                "name": "Knight",
+                "changes": [
+                    "Grand Sword (Q) - Proc coefficient 0.7 → 0.5",
+                    "Blitz (W) - Proc coefficient 0.7 → 0.5"
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Remains of Rage (Q) - Damage Max HP X 1.1 → STR X 7.5",
+                    "Original Sin (F) - Now strikes 2 times with STR X 60 damage on each strike, has 45s cooldown",
+                    "If cast consecutively, delivers a final strike dealing STR X 90 damage, cooldown increased to 75s"
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Restoration (W) - Effect radius 325 → 375"
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Shadow Rush (T) - Minimum dash distance removed"
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "Attacks and skills will now be cast toward last clicked direction, even if hero didn't finish turning yet",
+                    "Soul (D) - Active has been removed. Instead, right clicks will now simulate the old active effect; it will no longer be affected by silence and will also activate attack if it is not on cooldown.",
+                    "Alacrity (Q) - Damage AGI X 10 → 5, can now strike based on critical chance, heavily reduced lag caused by the skill",
+                    "Release (T) - Increases Q damage by 85% → Increases Q damage by 25% and guarantees critical hit"
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "P - Typing '-p 1/2/3' command will select first/second/third probe respectively",
+                    "(can be used to simplify keybind setup at the start of game)"
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Skill lag reduced",
+                    "Blessing of Zephyrus (Q) - Fairy summon chance 30% → (33 + attack speed / 3)%, fixed issue where crit could summon additional fairy with chance",
+                    "Horn of Notus (T) - Now grants debuff immunity for 3s per pulse",
+                    "Guardian of Wind (F) - Judgment of Vayu (R) - Attack count (5 + attack speed / 25) → (5 + attack speed / 15)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "62u",
+        "notes": [
+            "Released on: May 3rd, 2023",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Ring of Malevolence - Fixed issue with proc damage bypassing immunity effects on bosses",
+            "Blood Devourer - Fixed issue where passive stacks don't reset outside of combat",
+            "Crusader - RQ combo's AoE will now properly match the display indicator",
+            "Crusader - F's final hit will now be properly affected by skill damage increase",
+            "Bow Master - T skill no longer freezes hero for few seconds on first cast",
+            "Fixed issue with some items' active effects granting abnormal stats when used in training room",
+            "Fixed issue with map being detected as event version / being unable to activate practice mode on bosses"
+        ],
+        "items": [
+            {
+                "name": "Seed of Malice",
+                "changes": [
+                    "Stacks will now be displayed on item charges"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Arcane Construct",
+                "changes": [
+                    "Entrance stone HP reduced slightly",
+                    "Exit portal moved to bottom of the map"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Martial Movement (D) - Counter will now be activated by right-clicking an enemy instead of pressing D. Counter target can now be set manually."
+                ]
+            }
+        ]
+    },
+    {
         "name": "62t2",
         "notes": [
             "Released on: April 19th, 2023",

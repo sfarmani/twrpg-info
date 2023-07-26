@@ -41,9 +41,8 @@
         "names": [
             "Staff of Souls (Active)",
             "Hell Riser (Active)",
-            "Armageddon (Passive)",
             "Armageddon (Active)",
-            "Prelude to Demise (Passive)",
+            "Prelude to Demise (Active)",
             "Eyes of the Watcher (Active)"
         ]
     },
@@ -104,8 +103,16 @@
         "suffix": "None",
         "debufftype": "Increased Damage Taken",
         "names": [
-            "Soul Weaver - Unholy Blast [Q]",
-            "Shooter - Distortion [R]"
+            "Shooter - Distortion [R]",
+            "Paladin - Divine Cross [R]"
+        ]
+    },
+    {
+        "type": "Type-D",
+        "suffix": "None",
+        "debufftype": "Increased Damage Taken",
+        "names": [
+            "Soul Weaver - Unholy Blast [Q]"
         ]
     },
     {
