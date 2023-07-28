@@ -1,5 +1,121 @@
 [
     {
+        "name": "62z",
+        "notes": [
+            "Released on: July 27th, 2023",
+            "Compatible Version: v0.60c ~"
+        ],
+        "bugs": [
+            "Ancient Construct - Fixed issue where damage from lightning pulses could be dodged by standing underneath boss",
+            "Ancient Construct - Fixed issue where you could be hit multiple times by explosions caused from a single tile explosion",
+            "Assassin - Fixed issue where casting TQ too fast would cause clone Qs to not hit proper angle",
+            "Wings of Corrupt Flame - Fixed issue with item causing system related glitches",
+            "Seaside - Fixed glitch where some parts of the terrain were not walkable on"
+        ],
+        "events": [
+            "Summer Event activities are disabled from this version"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Added slight icon differences on materials that had same icons",
+                    "Some low tier recipes/materials have been simplified",
+                    [
+                        "Mana Heart/Mana Heart Large has been merged into single item 'Mana Heart'",
+                        "Horn of Demon Lord/Horns of Destruction has been merged into single item 'Horns of Destruction'",
+                        "'Fragment of Angel's Feather' renamed into 'Angel's Feather'",
+                        "'Fragment of Corrupt Angel's Feather' renamed into 'Corrupt Angel's Feather'",
+                        "'True' Holy / Dark weapon series - No longer uses Page of Holy Bible or Page of Unholy Bible ",
+                        "Archdevil weapon series - No longer uses Ancient Writings",
+                        "Flame Soul - No longer uses Mithril",
+                        "Bahanar, the Sword of Illusion - No longer uses Fragment of Angel's Feather",
+                        "Earthen Pillar Benziena - No longer uses Orichalcum",
+                        "Bahanar, the True Sword of Illusion - No longer uses Horns of Demon Lord",
+                        "Earthen Soul Benziena - No longer uses Spirit Orb",
+                        "True Blood Ring - No longer uses Dark Wings",
+                        "Heart of Ifrit - No longer uses Ancient Writings",
+                        "Frozen Heart - No longer uses Frozen Cobweb"
+                    ]
+                ]
+            },
+            {
+                "name": "Exitium, the Armor of Ruin",
+                "changes": [
+                    "Soul Blossom can now replace Blood Essence"
+                ]
+            },
+            {
+                "name": "Wings of Sacred Provenance",
+                "changes": [
+                    "Emblem of Sacrifice can now replace Blood Essence"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Gnosis-Tier Bosses (SK ~ SD)",
+                "changes": [
+                    "Prius Gold Coin drop rate adjusted from 0.5% to 0.5~0.75% based on boss difficulty"
+                ]
+            },
+            {
+                "name": "Magical Loot Bosses (Walrus ~ ELS)",
+                "changes": [
+                    "Summon item drop cooldown reduced from 240 seconds to 180 seconds"
+                ]
+            },
+            {
+                "name": "Mad Clown",
+                "changes": [
+                    "Wheel of Despair will no longer activate if the boss is killed by the damage that triggered the skill"
+                ]
+            },
+            {
+                "name": "Demon Lord Beriel",
+                "changes": [
+                    "Summon location has been relocated to be closer to the entrance of Wallachia Lands"
+                ]
+            },
+            {
+                "name": "Ancient Ent",
+                "changes": [
+                    "No longer requires green magic stone to enter the boss zone for the first time"
+                ]
+            },
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "Loot chest will now appear at the middle of the map instead of the bottom of the map"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Berserk (T) - Now grants 10% bonus damage dealt for the duration"
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Pierce (Q) - Buff duration text position readjusted"
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Magnetic Field (W) - Max charge per second 8% → 10%, will no longer reset to 0 on revival",
+                    "Heart Break (T) - Damage AD X 4.5 + (STR + AGI) X 30 → AD X 5 + (STR + AGI) X 40"
+                ]
+            }
+        ],
+        "misc": [
+            "Save/load process has been sped up"
+        ]
+    },
+    {
         "name": "62y",
         "notes": [
             "Released on: June 27th, 2023",

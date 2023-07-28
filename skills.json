@@ -3352,7 +3352,7 @@
         "order": 3,
         "passive": [
             "Surrounds yourself with a magnetic field to become less affected by air resistance.",
-            "Builds magnetic field upon dealing damage or receiving damage (up to 8% per second)",
+            "Builds magnetic field upon dealing damage or receiving damage (up to 10% per second)",
             "Max attack damage bonus: STR X 2.5 + AGI X 2",
             "Max attack speed bonus: 75%",
             "Max reduction bonus: 20%"
@@ -3400,8 +3400,8 @@
         "cooldown": 30,
         "order": 6,
         "active": [
-            "Deliver a fatal blow by striking target's heart.",
-            "Attack damage X 4.5 + (STR + AGI) X 30 magic damage",
+            "Delivers a fatal blow by striking target's heart.",
+            "Attack Damage X 5 + (STR + AGI) X 40 magic damage",
             "Consumes Magnetic Field to deal up to a maximum of 150% bonus damage",
             "Breaks barriers and stuns for 1.5 second if max gauge is consumed"
         ]
@@ -3522,7 +3522,7 @@
         "active": [
             "Driven by madness, Berserker becomes a killing machine whose sole purpose is to battle.",
             "Consumes HP X 80%",
-            "Increases attack speed by 100% and guarantees activation of Bloodbath for 8 seconds",
+            "Increases total damage by 10%, attack speed by 100% and guarantees activation of Bloodbath for 8 seconds",
             "Evades death for the duration"
         ]
     },

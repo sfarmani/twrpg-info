@@ -2681,7 +2681,7 @@
         "limit": "4",
         "respawn": "4",
         "location": "East Prius Gate.",
-        "conditions": "Level 90, Red Magic Stone x6 in Area 7 at the pile of skulls south of the fort, and Waves defeated without killing the gate",
+        "conditions": "Level 90, Red Magic Stone x6 in Area 7 at the pile of skulls close to the portal entrance, and Waves defeated without killing the gate",
         "stats": {
             "health": "1200000",
             "healthRegen": "150",
@@ -3660,7 +3660,7 @@
         "limit": "None",
         "respawn": "5",
         "location": "In Fairy Forest where a statue resides",
-        "conditions": "Level 100, 1 Green Magic Stone on person to enter, and a Seal Breaking Gemstone to unseal Ancient Ent",
+        "conditions": "Level 100, Seal Breaking Gemstone to unseal Ancient Ent",
         "notes": [
             "Wish droprate: 100%",
             "Without wish droprate: 75%"

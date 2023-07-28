@@ -3746,7 +3746,6 @@
       "Bahanar, the Sword of Illusion",
       "True Dragonstaff Irave",
       "Klenetia, the True Holy Staff",
-      "Benziena, the Earthen Pillar",
       "True Dragonbow Aience",
       "Alkate, the True Unholy Bow",
       "True Dragon Cannon Belenus",
@@ -4048,7 +4047,6 @@
     "color": "FFFFFF",
     "droprate": 0.125,
     "required_by": [
-      "Flame Soul",
       "Tepethia, the Crimson Sword of Requiem",
       "Dragon Blaster",
       "Bag of Mighty Strength +1",
@@ -4090,14 +4088,9 @@
       "Ring of the Sage",
       "Ring of Holy Light",
       "Anger",
-      "Asmodeus, the Archdevil's Greatsword",
       "Laksha, the Ancient Sword of Poison",
-      "Belius, the Archdevil's Staff",
       "Staff of Madness",
-      "Yggrect, the Archdevil's Bow",
-      "Alchatratz, the Archdevil's Cannon",
       "Mana Heart Frost",
-      "Heart of Ifrit",
       "Cape of Corrupt Flame",
       "Wanderer's Cape",
       "Red Cross"
@@ -4346,7 +4339,6 @@
       "Leoreus, the Greatsword of Explosion",
       "Ring of the Sage",
       "Mana Heart",
-      "Mana Heart Large",
       "Dragon Wings",
       "Heart of Ifrit",
       "Living Dragon Heart",
@@ -4573,7 +4565,7 @@
   },
   {
     "id": "I06R",
-    "name": "Fragment of Angel's Feather",
+    "name": "Angel's Feather",
     "koreanname": "천사의 깃털 결정",
     "dropped_by": [
       "The 3rd Army's Guardian Angel"
@@ -4584,7 +4576,6 @@
     "color": "FFFFFF",
     "droprate": 0.125,
     "required_by": [
-      "Bahanar, the Sword of Illusion",
       "Staff of Void",
       "Ring of Light",
       "Bahanar, the True Sword of Illusion",
@@ -4608,9 +4599,6 @@
     "color": "FFFFFF",
     "droprate": 0.125,
     "required_by": [
-      "Karonphniamm, the True Holy Sword",
-      "Klenetia, the True Holy Staff",
-      "Eana, the True Holy Cannon",
       "Ring of Light",
       "Asmodeus, the Archdevil's Greatsword",
       "Belius, the Archdevil's Staff",
@@ -4743,7 +4731,7 @@
   },
   {
     "id": "I06S",
-    "name": "Fragment of Corrupt Angel's Feather",
+    "name": "Corrupt Angel's Feather",
     "koreanname": "타락한 천사의 깃털 결정",
     "dropped_by": [
       "The Devil's Right Arm Corrupt Angel"
@@ -4778,8 +4766,6 @@
     "color": "FFFFFF",
     "droprate": 0.125,
     "required_by": [
-      "Eximelia, the True Unholy Sword",
-      "Alkate, the True Unholy Bow",
       "Ring of Darkness",
       "Asmodeus, the Archdevil's Greatsword",
       "Belius, the Archdevil's Staff",
@@ -5075,7 +5061,6 @@
       "Prophetia, the Source of Mana",
       "Everfrost Gauntlet",
       "Fairy Wings",
-      "Frozen Heart",
       "Soulstalker",
       "Spider Lord Icon"
     ]
@@ -5354,37 +5339,6 @@
     }
   },
   {
-    "id": "ktrm",
-    "name": "Horn of Demon Lord",
-    "koreanname": "마왕의 뿔",
-    "description": "Devil's horn that gathers evil mana onto a single point",
-    "dropped_by": [
-      "Demon Lord Beriel"
-    ],
-    "rank": "[Epic]",
-    "grade": 2,
-    "type": "Headwear",
-    "color": "9BE1E1",
-    "level": 90,
-    "droprate": 0.075,
-    "required_by": [
-      "Horns of Destruction",
-      "Bahanar, the True Sword of Illusion"
-    ],
-    "stats": {
-      "armor": 55,
-      "str": 85,
-      "agi": 65,
-      "dtpercent": -0.075,
-      "active": [
-        "Steals target's soul on use",
-        "Heal self for (max HP / 7.5) and deals (MAIN STAT X 1.25 + max HP / 7.5) magic damage to target",
-        "If target dies while draining, increases AGI by 100 for 300 seconds",
-        "Cooldown: 150 seconds"
-      ]
-    }
-  },
-  {
     "id": "ches",
     "name": "Eye of the Abyss",
     "koreanname": "심연의 눈",
@@ -5498,7 +5452,6 @@
       "True Guardian Ring",
       "Demonis, the Devil Lord's Ring",
       "Ring of Intrusion",
-      "Trueblood Ring",
       "Cape of Corrupt Flame",
       "Wings of Fury",
       "Wanderer's Cape",
@@ -5668,7 +5621,6 @@
     ],
     "required_by": [
       "Blazing Soul",
-      "Benziena, the Earthen Soul",
       "Earthen Plates",
       "Guardian Vest",
       "Fairy Garment",
@@ -6723,7 +6675,14 @@
     "grade": 3,
     "type": "Coin",
     "color": "C0C0C0",
-    "droprate": 0.005,
+    "droprate": [
+      0.005,
+      0.005,
+      0.006,
+      0.006,
+      0.007,
+      0.0075
+    ],
     "required_by": [
       "Ragnaar Icon",
       "Tentacle Lord Icon",
@@ -9361,7 +9320,8 @@
       "Wings of Cosmos",
       "Crown of Transcendance",
       "Ring of Malevolence",
-      "Astral Fury"
+      "Astral Fury",
+      "Wings of Sacred Provenance"
     ]
   },
   {
@@ -9392,7 +9352,8 @@
       "Horn of Dragon",
       "Bell of Divinity",
       "Living Flame",
-      "Soul Chaser"
+      "Soul Chaser",
+      "Exitium, the Armor of Ruin"
     ]
   },
   {
@@ -10374,9 +10335,6 @@
         "Karonphniamm, the Holy Sword": 1
       },
       {
-        "A Page of the Bible": 1
-      },
-      {
         "Ancient Writings": 1
       },
       {
@@ -10413,9 +10371,6 @@
       },
       {
         "Ancient Writings": 1
-      },
-      {
-        "A Page of the Unholy Book": 1
       },
       {
         "Orichalcum": 1
@@ -10455,10 +10410,7 @@
         "Flame Cloak": 1
       },
       {
-        "Mithril": 1
-      },
-      {
-        "Fragment of Corrupt Angel's Feather": 1
+        "Corrupt Angel's Feather": 1
       }
     ],
     "stats": {
@@ -10491,9 +10443,6 @@
       },
       {
         "True Dragonsword Lainhart": 1
-      },
-      {
-        "Fragment of Angel's Feather": 1
       },
       {
         "Orichalcum": 1
@@ -10647,9 +10596,6 @@
         "Klenetia, the Holy Staff": 1
       },
       {
-        "A Page of the Bible": 1
-      },
-      {
         "Ancient Writings": 1
       },
       {
@@ -10689,10 +10635,10 @@
         "Crimson Stone": 1
       },
       {
-        "Fragment of Angel's Feather": 1
+        "Angel's Feather": 1
       },
       {
-        "Fragment of Corrupt Angel's Feather": 1
+        "Corrupt Angel's Feather": 1
       }
     ],
     "stats": {
@@ -10728,9 +10674,6 @@
       },
       {
         "Dragon Bone": 1
-      },
-      {
-        "Orichalcum": 1
       },
       {
         "Ancient Writings": 1
@@ -10802,9 +10745,6 @@
     "recipe": [
       {
         "Alkate, the Unholy Bow": 1
-      },
-      {
-        "A Page of the Unholy Book": 1
       },
       {
         "Ancient Writings": 1
@@ -10978,9 +10918,6 @@
     "recipe": [
       {
         "Eana, the Holy Cannon": 1
-      },
-      {
-        "A Page of the Bible": 1
       },
       {
         "Ancient Writings": 1
@@ -11542,38 +11479,10 @@
     }
   },
   {
-    "id": "I07V",
+    "id": "I07Z",
     "name": "Mana Heart",
     "koreanname": "마나 하트",
     "description": "A mystical gem that continuously emits mana.",
-    "rank": "[Epic]",
-    "grade": 1,
-    "type": "Accessory",
-    "color": "C39BE1",
-    "level": 70,
-    "required_by": [
-      "Mana Heart Large"
-    ],
-    "recipe": [
-      {
-        "Dragon Heart": 1
-      },
-      {
-        "Hydra Scale": 1
-      }
-    ],
-    "stats": {
-      "int": 120,
-      "hp": 1500,
-      "mp": 3000,
-      "mpregen": 20
-    }
-  },
-  {
-    "id": "I07Z",
-    "name": "Mana Heart Large",
-    "koreanname": "마나 하트 대",
-    "description": "0A mystical gem that continuously emits mana.",
     "rank": "[Epic]",
     "grade": 1,
     "type": "Accessory",
@@ -11584,10 +11493,10 @@
     ],
     "recipe": [
       {
-        "Mana Heart": 1
+        "Dragon Heart": 1
       },
       {
-        "Dragon Heart": 1
+        "Hydra Scale": 1
       }
     ],
     "stats": {
@@ -11650,7 +11559,7 @@
     ],
     "recipe": [
       {
-        "Fragment of Angel's Feather": 1
+        "Angel's Feather": 1
       },
       {
         "A Page of the Bible": 1
@@ -11685,7 +11594,7 @@
     ],
     "recipe": [
       {
-        "Fragment of Corrupt Angel's Feather": 1
+        "Corrupt Angel's Feather": 1
       },
       {
         "A Page of the Unholy Book": 1
@@ -11838,7 +11747,7 @@
         "Corrupt Crystal Fragment": 1
       },
       {
-        "Fragment of Corrupt Angel's Feather": 1
+        "Corrupt Angel's Feather": 1
       },
       {
         "Corrupt Creations": 1
@@ -12044,16 +11953,13 @@
         "Bahanar, the Sword of Illusion": 1
       },
       {
-        "Horn of Demon Lord": 1
-      },
-      {
         "Spirit of Nightmare": 1
       },
       {
         "Dark Matter": 1
       },
       {
-        "Fragment of Angel's Feather": 1
+        "Angel's Feather": 1
       }
     ],
     "stats": {
@@ -12100,9 +12006,6 @@
       },
       {
         "Adamantium": 1
-      },
-      {
-        "Ancient Writings": 1
       }
     ],
     "stats": {
@@ -12266,9 +12169,6 @@
       },
       {
         "Adamantium": 1
-      },
-      {
-        "Ancient Writings": 1
       }
     ],
     "stats": {
@@ -12442,9 +12342,6 @@
         "Spirit of Forest": 1
       },
       {
-        "Spirit Orb": 1
-      },
-      {
         "Mana Orb": 1
       },
       {
@@ -12497,9 +12394,6 @@
       },
       {
         "Adamantium": 1
-      },
-      {
-        "Ancient Writings": 1
       }
     ],
     "stats": {
@@ -12602,7 +12496,7 @@
         "Adamantium": 1
       },
       {
-        "Fragment of Corrupt Angel's Feather": 1
+        "Corrupt Angel's Feather": 1
       }
     ],
     "stats": {
@@ -12732,9 +12626,6 @@
       },
       {
         "Adamantium": 1
-      },
-      {
-        "Ancient Writings": 1
       }
     ],
     "stats": {
@@ -12772,10 +12663,10 @@
         "Corrupt Crystal Fragment": 1
       },
       {
-        "Fragment of Angel's Feather": 1
+        "Angel's Feather": 1
       },
       {
-        "Fragment of Corrupt Angel's Feather": 1
+        "Corrupt Angel's Feather": 1
       }
     ],
     "stats": {
@@ -12813,7 +12704,7 @@
         "Adamantium": 1
       },
       {
-        "Fragment of Corrupt Angel's Feather": 1
+        "Corrupt Angel's Feather": 1
       }
     ],
     "stats": {
@@ -12852,7 +12743,7 @@
         "Adamantium": 1
       },
       {
-        "Fragment of Angel's Feather": 1
+        "Angel's Feather": 1
       }
     ],
     "stats": {
@@ -13349,28 +13240,18 @@
     "name": "Horns of Destruction",
     "koreanname": "파괴의 뿔",
     "description": "The wrath of the Great Demon Lord shall destroy all!",
+    "dropped_by": [
+      "Demon Lord Beriel"
+    ],
     "rank": "[Epic]",
     "grade": 2,
     "type": "Headwear",
     "color": "9BE1E1",
     "level": 100,
+    "droprate": 0.075,
     "required_by": [
       "Horn of Devil",
       "Crown of Rage"
-    ],
-    "recipe": [
-      {
-        "Horn of Demon Lord": 1
-      },
-      {
-        "Dark Matter": 1
-      },
-      {
-        "Bloodstone": 1
-      },
-      {
-        "Dragon Scale": 1
-      }
     ],
     "stats": {
       "armor": 75,
@@ -13449,7 +13330,7 @@
         "Adamantium": 1
       },
       {
-        "Fragment of Angel's Feather": 1
+        "Angel's Feather": 1
       }
     ],
     "stats": {
@@ -13785,7 +13666,7 @@
     ],
     "recipe": [
       {
-        "Mana Heart Large": 1
+        "Mana Heart": 1
       },
       {
         "Ancient Writings": 1
@@ -13978,9 +13859,6 @@
         "Essence of Anger": 1
       },
       {
-        "Dark Wings": 1
-      },
-      {
         "Adamantium": 1
       }
     ],
@@ -14045,9 +13923,6 @@
     "recipe": [
       {
         "Frost Web Brooch": 1
-      },
-      {
-        "Ancient Writings": 1
       },
       {
         "Adamantium": 1
@@ -14134,7 +14009,7 @@
         "Dark Matter": 1
       },
       {
-        "Fragment of Angel's Feather": 1
+        "Angel's Feather": 1
       }
     ],
     "stats": {
@@ -14214,7 +14089,7 @@
         "Ancient Writings": 1
       },
       {
-        "Fragment of Corrupt Angel's Feather": 1
+        "Corrupt Angel's Feather": 1
       },
       {
         "Dark Wings": 1
@@ -14407,13 +14282,10 @@
     ],
     "recipe": [
       {
-        "Frozen Cobweb": 1
+        "Angel's Feather": 1
       },
       {
-        "Fragment of Angel's Feather": 1
-      },
-      {
-        "Fragment of Corrupt Angel's Feather": 1
+        "Corrupt Angel's Feather": 1
       },
       {
         "Adamantium": 1
@@ -23330,7 +23202,8 @@
         "Curse of Greed": 1
       },
       {
-        "Blood Essence": 1
+        "Blood Essence": 1,
+        "Soul Blossom": 1
       },
       {
         "Twisted Fragment of Ruins": 1
@@ -24584,7 +24457,8 @@
         "Heart of Volcano": 1
       },
       {
-        "Blood Essence": 1
+        "Blood Essence": 1,
+        "Emblem of Sacrifice": 1
       },
       {
         "Fragment of Soul": 1
