@@ -21770,7 +21770,7 @@
         "On direct hit, activates Drowning Abyss",
         "Single-target spells deal 15% bonus damage per skill cast over 3 seconds",
         "(Bonus damage type is same as the spell used)",
-        "Increases enemy magic damage taken by 5% (based on seconds elapsed, up to 15 seconds)"
+        "Increases enemy magic damage taken by 5%"
       ],
       "active": [
         "On use, manually activate explosion on targets with max magic damage taken stacks"
