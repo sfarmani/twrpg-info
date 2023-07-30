@@ -19560,7 +19560,7 @@
       ],
       "spec": [
         "Merchant Specialty - Very Heavy Bag",
-        "Merchant - Bag Slam: Damage is increased by 500%, and it increases target's damage taken by 10% for 8 seconds",
+        "Merchant - Bag Slam: Damage is increased by 500%, and it increases target's damage taken by 5% for 8 seconds",
         "Merchant - Throwing Healing Potion: Duration increased by 5s, increases target's skill damage by 12.5%",
         "Merchant - Throw Money: Changed into Devour"
       ]
