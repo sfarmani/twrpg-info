@@ -4946,8 +4946,9 @@
             "Restores HP 5% / 10 ki per second while walking"
         ],
         "active": [
-            "Increases movement speed and ignores collision for 1 seconds",
-            "Increases passive's restoration by 200%"
+            "Increases movement speed for 1 second",
+            "Increases passive's restoration by 200%",
+            "Harmony: Resets cooldown on Flowing Fist"
         ]
     },
     {
