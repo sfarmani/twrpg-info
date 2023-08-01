@@ -2043,14 +2043,19 @@
         "type": "Early Game",
         "order": 1,
         "stat": "INT",
-        "version": "60u",
+        "version": "62z",
         "description": [
             "Minor."
         ],
         "items": {
             "Ripple Snow": [],
-            "Hood of Grim Reaper": [],
-            "Winter Rose": [],
+            "Prophetia, the Source of Mana": [
+                "Hood of Everfrost"
+            ],
+            "Demonis, the Devil Lord's Ring": [
+                "Winter Rose",
+                "Ring of Deep Darkness"
+            ],
             "Frozen Robe": [],
             "Fairy Wings": []
         }
@@ -2060,19 +2065,21 @@
         "type": "Mid Game",
         "order": 2,
         "stat": "INT",
-        "version": "60u",
+        "version": "62z",
         "description": [
             "Coin Gears."    
         ],
         "items": {
             "Twin Snow": [],
             "Crown of Fervor": [
-                "Hood of Grim Reaper"
+                "Prophetia, the Source of Mana"
             ],
             "Latea, the Ring of Chaos": [
-                "Winter Rose"
+                "Ring of the Reaper"
             ],
-            "Frozen Robe": [],
+            "Frozen Robe": [
+                "Robe of the Sage"
+            ],
             "Fairy Wings": []
         }
     },
@@ -2081,27 +2088,25 @@
         "type": "Late Game",
         "order": 3,
         "stat": "INT",
-        "version": "60u",
+        "version": "62z",
         "description": [
-            "SK -> SD",
-            "Optional gears will be used later on and useful in some situations, you can consider gather them or not."
+            "SK -> SD"
         ],
         "items": {
             "Triple Snow": [
                 "Ethenos, the Staff of Space"
             ],
             "Crown of Composure": [
-                "Hood of Apocrypha"
+                "Prophetia, the Greater Source of Mana"
             ],
-            "Eternal Rose": [
-                "Ring of Composure"
+            "Cold Ring of Death": [
+                "Grimoire of Darkness"
             ],
-            "Winter Robe": [
+            "Medea, the Robe of the Witch": [
+                "Winter Robe",
                 "Robe of the Necromancer"
             ],
-            "Frost Fairy Wings": [
-                "Soul of the Dead"
-            ]
+            "Frost Fairy Wings": []
         }
     },
     {
@@ -2109,33 +2114,26 @@
         "type": "End Game",
         "order": 4,
         "stat": "INT",
-        "version": "60u",
+        "version": "62z",
         "description": [
             "DF -> Agareth",
-            "Keep using Triple Snow if you can leech Duke, otherwise make Ethenos.",
-            "Harmonia is not really worth to make but some public runs will lack of healer and it would be useful.",
-            "Nebula Rose will be your main ring because water affinity is good civilization.",
-            "Use Ring of Despair if your team lack of debuff, Horn of God if your team lack of cleanse.",
-            "Thanatos is a big boost for your damage, Archlich and Winter Robe if you want to play safe.",
-            "Protection of the Fairies swapable when it's out of revive."
+            "Winter Robe is still a viable option while learning new bosses or when there aren't enough supports due to its 12% damage reduction specialty and shield active.",
+            "Use any ring you like; they're all effective at adding damage, but Ring of Frozen Soul offers a useful defensive active."
         ],
         "items": {
             "Ethenos, the Staff of Chaos": [
-                "Harmonia, the Sparkle of Life",
                 "Triple Snow"
             ],
             "Crown of Absolute Zero": [],
-            "Nebula Rose": [
-                "Ring of Despair",
-                "Horn of God"
+            "Ring of Frozen Soul": [
+                "Ring of the One",
+                "Seed of Malice"
             ],
             "Thanatos, the Robe of Hell": [
                 "Robe of Archlich",
                 "Winter Robe"
             ],
-            "Wings of Frost Lord": [
-                "Protection of the Fairies"
-            ]
+            "Wings of Frost Lord": []
         }
     },
     {
@@ -2146,18 +2144,18 @@
         "version": "60u",
         "description": [
             "Duke -> TBD",
-            "Just gitgud mates."
+            "Ring of Desolate Soul provides higher consistent damage with a good defensive active, whereas Star provides a tremendous burst in stats for 10 seconds and an end explosion inflicting massive damage but has less overall stats when not active and a 90 second cooldown."
         ],
         "items": {
             "Endless Snow": [],
             "Crown of Transcendance": [],
-            "Nebula Rose": [
-                "Ring of Despair"
+            "Ring of Desolate Soul": [
+                "Star of Apotheosis"
             ],
-            "Frost Herald's Garment": [],
-            "Wing of Frost Lord": [
-                "Protection of the Fairies"
-            ]
+            "Call of Gehenna": [
+                "Frost Herald's Garment"
+            ],
+            "Wing of Frost Lord": []
         }
     },
     {

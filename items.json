@@ -24526,7 +24526,7 @@
       "affinitywlpercent": 0.075,
       "passive": [
         "Skills have 5% chance to reset cooldown",
-        "Increases nearby allies' healing received by 15%"
+        "Increases nearby allies' healing received by 15% [Type-A]"
       ],
       "active": [
         "On use, revives a fallen ally with full HP and MP",
