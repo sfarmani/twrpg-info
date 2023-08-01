@@ -446,21 +446,18 @@
         "stat": "INT",
         "version": "62r",
         "items": {
-            "Heaven's Door": [
-                "Gate of Abyss"
-            ],
-            "Crown of Cleansing": [
+            "Heaven's Door": [],
+            "Keeper of the Grove": [
+                "Crown of Cleansing",
                 "Eye of the Flame Lord"
             ],
             "Bell of Divinity": [
-                "Heart of Life",
                 "Heirloom of Lazarus"
             ],
             "Cage of Twisted Souls": [
                 "Jupiter the Robe of Heavens"
             ],
             "Thread of Life": [
-                "Protection of the Fairies",
                 "Guardian Angel",
                 "Cape of Deep Abyss"
             ]
