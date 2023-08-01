@@ -24520,7 +24520,7 @@
       }
     ],
     "stats": {
-      "mainstat": 420,
+      "allstat": 420,
       "affinityflamepercent": 0.075,
       "affinityiwpercent": 0.075,
       "affinitywlpercent": 0.075,
