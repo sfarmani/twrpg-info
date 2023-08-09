@@ -2204,8 +2204,7 @@
     "level": 60,
     "droprate": 0.20,
     "required_by": [
-      "Helm of Battle",
-      "Crown of Rage"
+      "Helm of Battle"
     ],
     "stats": {
       "armor": 50,
@@ -6207,6 +6206,7 @@
     "droprate": 0.02,
     "required_by": [
       "Crown of Composure",
+      "Crown of Rage",
       "Flame Nightmare Icon"
     ],
     "worth": 2,
@@ -16996,10 +16996,10 @@
     ],
     "recipe": [
       {
-        "Horns of Destruction": 1
+        "Crown of Fervor": 1
       },
       {
-        "Helm of Passion": 1
+        "Horns of Destruction": 1
       },
       {
         "Purified Water of Nature": 1,

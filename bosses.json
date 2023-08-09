@@ -4147,7 +4147,7 @@
         "category": "Late",
         "type": "Mob",
         "limit": "1",
-        "location": "Spawns near the exit of the Secluded Forest",
+        "location": "Teleporter: second page, option [2]. Middle bottom portal.",
         "conditions": "Level 100. Spawns begin a little bit after the first person to enter the area.",
         "stats": {
             "health": "1589000",
@@ -4181,7 +4181,7 @@
         "type": "Boss",
         "limit": "None",
         "respawn": "5",
-        "location": "The Left-most portal in the tower located east of the Secluded Forest",
+        "location": "Teleporter: second page, option [2]. Bottom left corner portal.",
         "conditions": "Level 100 and Key of Storm crafted",
         "notes": [
             "Wish droprate: 100%",
@@ -4265,7 +4265,7 @@
         "type": "Boss",
         "limit": "None",
         "respawn": "5",
-        "location": "The top-most portal in the tower located east of the Secluded Forest",
+        "location": "Teleporter: second page, option [2]. Bottom right corner portal.",
         "conditions": "Level 100 and Key of Flame crafted",
         "notes": [
             "Wish droprate: 100%",
@@ -4398,7 +4398,7 @@
         "type": "Boss",
         "limit": "None",
         "respawn": "5",
-        "location": "The right-most portal in the tower located east of the Secluded Forest",
+        "location": "Teleporter: second page, option [2]. Top left corner portal.",
         "conditions": "Level 100 and Key of Sea crafted",
         "notes": [
             "Wish droprate: 100%",
@@ -4914,7 +4914,7 @@
         "type": "Boss",
         "limit": "None",
         "respawn": "3",
-        "location": "Top right portal in the elemental tower",
+        "location": "Teleporter: second page, option [2]. Top right corner portal.",
         "conditions": "Level 100",
         "stats": {
             
