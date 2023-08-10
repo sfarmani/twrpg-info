@@ -1192,24 +1192,63 @@
     },
     {
         "for": "Shrine Priestess",
-        "type": "Burst/DPS",
+        "type": "Early Game",
         "order": 1,
         "stat": "INT",
-        "version": "52d",
-        "description": [
-            "Use Crown for DPS, prophetia for burst",
-            "Prophetia may also be good for DPS if it provides good rng resets on T"
-        ],
+        "version": "62z",
+        "items": {
+            "Hatred": [],
+            "Crown of Fervor": [],
+            "Ring of the Reaper": [],
+            "Frozen Robe": [],
+            "Fairy Wings": []
+        }
+    },
+    {
+        "for": "Shrine Priestess",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "INT",
+        "version": "62z",
+        "items": {
+            "Bloody Hatred": [],
+            "Crown of Rage": [],
+            "Cold Ring of Death": [],
+            "Medea, the Robe of the Witch": [],
+            "Frost Fairy Wings": []
+        }
+    },
+    {
+        "for": "Shrine Priestess",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "INT",
+        "version": "62z",
         "items": {
             "Crimson Hatred": [],
-            "Prophetia, the Origin of Knowledge": [
-                "Crown of Extreme Anger"
-            ],
-            "Ring of the One": [
-                "Ring of Frozen Soul"
-            ],
+            "Crown of Extreme Anger": [],
+            "Ring of Frozen Soul": [],
             "Thanatos, the Robe of Hell": [],
-            "Wings of Frost Lord": []
+            "Wing of Frost Lord": []
+        }
+    },
+    {
+        "for": "Shrine Priestess",
+        "type": "End Game",
+        "order": 4,
+        "stat": "INT",
+        "version": "62z",
+        "description": [
+            "Use Ring of Eternity if you want to have double T combo"
+        ],
+        "items": {
+            "Akhelius, the Staff of Duality": [],
+            "Crown of Cataclysm": [],
+            "Star of Apotheosis": [
+                "Ring of Eternity"
+            ],
+            "Call of Gehenna": [],
+            "Wings of Sacred Provenance": []
         }
     },
     {
