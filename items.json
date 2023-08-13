@@ -12409,29 +12409,6 @@
     }
   },
   {
-    "id": "skrt",
-    "name": "Icicle Storm",
-    "koreanname": "아이시클 스톰",
-    "description": "Magical bow that brews a storm of icicles",
-    "rank": "[Epic]",
-    "grade": 2,
-    "type": "Weapon (Bow)",
-    "color": "9BE1E1",
-    "level": 100,
-    "stats": {
-      "damage": 4950,
-      "agi": 490,
-      "skilldamagepercent": 0.05,
-      "affinityiwpercent": 0.075,
-      "passive": [
-        "Applies bonus magic damage and a slow effect on attack",
-        "Deals (water affinity X (AGI X 0.1 ~ 0.2)) bonus magic damage",
-        "8% chance to send out icicles on attack (5 icicles)",
-        "Each icicle deals (water affinity X (AGI X 0.6 ~ 0.9)) magic damage"
-      ]
-    }
-  },
-  {
     "id": "I0CU",
     "name": "Flame Explosion",
     "koreanname": "플레임 익스플로전",
