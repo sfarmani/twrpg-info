@@ -2536,24 +2536,5 @@
                 "Bloodstorm"
             ]
         }
-    },
-    {
-        "for": "Blaster",
-        "type": "SP GOD BLASTER BY GOMA - Troll",
-        "order": 5,
-        "stat": "STR",
-        "version": "62w",
-        "description": [
-            "Troll build"
-        ],
-        "items": {
-            "Abyss Fall": [],
-            "Crown of Cataclysm": [],
-            "Heirloom of Lazarus": [],
-            "Dread Incarnate": [],
-            "Thread of Life": [
-                "Guardian Angel"
-            ]
-        }
     }
 ]
