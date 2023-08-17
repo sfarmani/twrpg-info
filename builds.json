@@ -1325,38 +1325,122 @@
     },
     {
         "for": "Swordsman",
-        "type": "DPS",
+        "type": "Early Game",
         "order": 1,
         "stat": "AGI",
-        "version": "38b",
+        "version": "62z3",
         "description": [
-            "Vest of Storm is good until Athanasia"
+            "Minor"
+        ],
+        "items": {
+            "Asmodeus, the Archdevil's Greatsword": [
+                "Laksha, the Reigning Sword of Poison"
+            ],
+            "Grim Visage": [
+                "Helm of Battle"
+            ],
+            "Demonis, the Devil Lord's Ring": [],
+            "Cruoris, the Armor of Blood": [
+                "Vest of Protection"
+            ],
+            "Cape of the Count": [
+                "Corrupt Crystal Wings"
+            ]
+        }
+    },
+    {
+        "for": "Swordsman",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "AGI",
+        "version": "62z3",
+        "description": [
+            "Coin Gear"
+        ],
+        "items": {
+            "Laksha, the Ancient Sword of Poison": [
+                "Avenger"
+            ],
+            "Grim Visage": [
+                "Helm of Battle",
+                "Horn of Devil"
+            ],
+            "Latea, the Ring of Chaos": [
+                "Ring of the Reaper"
+            ],
+            "Cruoris, the Armor of Blood": [
+                "Vest of Cyclone"
+            ],
+            "Wings of Fury": [
+                "Corrupt Crystal Wings"
+            ]
+        }
+    },
+    {
+        "for": "Swordsman",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "AGI",
+        "version": "62z3",
+        "description": [
+            "SK->SD",
+            "Grandine is a great defensive armor to help you learn the boss patterns if you're having trouble surviving."
+        ],
+        "items": {
+            "Oceanus, the Sword of Light": [
+                "Laktrisha, the Illusional Sword of Poison"
+            ],
+            "Dragon Mask": [],
+            "Cold Ring of Death": [],
+            "Benedict, the Crimson Armor of Blood": [
+                "Vest of Storm",
+                "Grandine, the Plates of Wraith"
+            ],
+            "Wings of Slayer": []
+        }
+    },
+    {
+        "for": "Swordsman",
+        "type": "End Game",
+        "order": 4,
+        "stat": "AGI",
+        "version": "62z3",
+        "description": [
+            "DF->Agareth",
+            "Because Swordsman requires 4 Mark of Lords, I'd recommend focusing on building Mask of Demigod and Wings of Night Lord first, as they work perfectly with Swordsman."
         ],
         "items": {
             "Atricia, the Sword of Dreams": [],
-            "Eye of the Reaper": [],
-            "Ring of Frozen Soul": [],
-            "Athanasia, the Armor of the Reaper": [
-                "Vest of Storm"
+            "Mask of Demigod": [
+                "Horn of Demon God"
+            ],
+            "Ring of Frozen Soul": [
+                "Ring of the One"
+            ],
+            "Nevedium, the Armor of Demonblood": [
+                "Vest of Divine Winds",
+                "Athanasia, the Armor of the Reaper"
             ],
             "Wings of Night Lord": []
         }
     },
     {
         "for": "Swordsman",
-        "type": "Burst",
-        "order": 2,
+        "type": "Arcana",
+        "order": 5,
         "stat": "AGI",
-        "version": "38b",
+        "version": "62z3",
         "description": [
-            "Vest of Storm is good until Nevedium"
+            "Duke->AC"
         ],
         "items": {
-            "Atricia, the Sword of Dreams": [],
-            "Mask of Demigod": [],
-            "Ring of Frozen Soul": [],
-            "Nevedium, the Armor of Demonblood": [
-                "Vest of Storm"
+            "Atricia, the Sword of Nightmares": [],
+            "Horn of Dragon": [],
+            "Ring of Malevolence": [
+                "Ring of Desolate Soul"
+            ],
+            "Astral Fury": [
+                "Exitium, the Armor of Ruin"
             ],
             "Wings of Night Lord": []
         }
