@@ -2330,7 +2330,6 @@
         "hotkey": "[Q]",
         "icon": "CrusaderQ",
         "proc_rate": 0.5,
-        "cooldown": 6,
         "order": 2,
         "active": [
             "Fires mana stored within your sword to target point.",
@@ -2355,7 +2354,7 @@
             "Damage received reduced by 20% if HP is below 50%"
         ],
         "active": [
-            "The blessing of god gifts crusader with a divine protection.",
+            "The blessing of god bestows crusader with a divine protection.",
             "Reduces damage taken by 40%",
             "Lasts 5 seconds"
         ]
@@ -2370,7 +2369,7 @@
         "cooldown": 6,
         "order": 4,
         "active": [
-            "Leap quickly into air and slam down, shattering the ground.",
+            "Leaps into air and slam down, shattering the ground.",
             "Attack Damage X 2.25 magic damage",
             "STR X 7.5 magic damage",
             "Stuns for 1 second"
@@ -2386,7 +2385,7 @@
         "cooldown": 15,
         "order": 5,
         "active": [
-            "Dash forward with lightning speed, striking all enemies.",
+            "Dashes forward with lightning speed, striking all enemies.",
             "Attack Damage X 5 magic damage",
             "Increases damage taken by target by 10% for 8 seconds",
             "Enhance next Remains of Rage cast within 3 seconds, increasing its damage by 250% and dashing to target location to inflict stun for 1 second",
@@ -2402,10 +2401,10 @@
         "icon": "CrusaderR_R",
         "order": 6,
         "active": [
-            "Release mana stored within the Execution Sword to attack all nearby enemies.",
+            "Releases mana stored within the Execution Sword to attack all nearby enemies.",
             "STR X 35 magic damage",
             "Slows affected enemies by 50% for 4 seconds",
-            "Empowers next Strike of Honor cast within 3 seconds, increasing its damage and stun duration by 200% and increasing damage taken by targets hit by 10% for 8 seconds",
+            "Empowers next Strike of Honor cast within 3 seconds, increasing its damage and stun duration by 100%",
             "Increases HP regen by (Crusader's Max HP X 10%) for 5 seconds"
         ]
     },
@@ -2426,7 +2425,7 @@
             "Summons an angel using your own body as a vessel to break the limits on the Execution Sword.",
             "For 12 seconds, gains max attack speed and CC immunity",
             "Heals for Max HP X 15% every second",
-            "Improves Execution Sword into Heaven's Sword, increasing the damage dealt by 150% and the activation rate by 25%"
+            "Improves Execution Sword into Heavenly Sword, increasing its damage by 150% and activation chance by 25%"
         ]
     },
     {

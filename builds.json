@@ -564,15 +564,17 @@
         "type": "Omega Endgame",
         "order": 5,
         "stat": "AGI",
-        "version": "60o",
+        "version": "62z3",
         "items": {
             "Divine Slayer": [],
             "Eye of the Reaper": [
                 "Mask of Demigod"
             ],
-            "Ring of Desolate Soul": [],
-            "Exitium, the Armor of Ruin": [
-                "Nevedium, the Armor of Demonblood"
+            "Ring of Malevolence": [
+                "Ring of Desolate Soul"
+            ],
+            "Astral Fury": [
+                "Exitium, the Armor of Ruin"
             ],
             "Bloodstorm": []
         }
