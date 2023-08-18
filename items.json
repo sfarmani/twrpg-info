@@ -22722,7 +22722,7 @@
         "Attacking the same target 4 times applies Mark of Storm",
         "The next PROC will consume the mark to activate Eye of the Storm",
         "While Eye of the Storm is active, you accumulate 20% charge for each 200 distance moved (up to 400%)",
-        "If you attack again with more than 100% charge or after 10 seconds, consumes Eye of the Storm to release a burst of lightning",
+        "If you attack again with more than 100% charge, consumes Eye of the Storm to release a burst of lightning",
         "Lightning deals magic damage to nearby enemies (can critically strike)",
         "Damage: INT X 7.5 X (100 + charge%), crit is guaranteed",
         "Cooldown: 15 seconds"

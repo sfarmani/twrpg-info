@@ -1,9 +1,85 @@
 [
     {
+        "name": "62z3",
+        "notes": [
+            "Released on: August 16th, 2023",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Fixed issue with being unable to activate practice mode",
+            "Fixed issue with creeps fighting each other"
+        ],
+        "items": [
+            {
+                "name": "Fulminata, the Bringer of Storms",
+                "changes": [
+                    "Passive - Charge lasts 10 seconds → lasts until out of combat"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Blood Fury (E) - Active periodic HP consumption will only drain HP to 20% instead of 1"
+                ]
+            },
+            {
+                "name": "Lightseeker",
+                "changes": [
+                    "Scatter Light (E) - Resonance of Light (E)",
+                    [
+                        "Skill has been removed. ",
+                        "Empowering light is now granted whenever an orb is created by Lightseeker."
+                    ],
+                    "Enlightenment (T)",
+                    [
+                        "When casted unempowered, now enters a 2 second cooldown. ",
+                        "Maximum motes of light is now 40 instead of 50. "
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Extreme Focus (T) - Cooldown 20s → 15s"
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "Ice Age (F) - Cooldown 60s → 75s"
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Soul Grimoire (R) - Passive total damage bonus 15% → 10%",
+                    "Demonic Fury (T) - Maximum total damage bonus 25% → 20%"
+                ]
+            },
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Spirit Fusion (T) - Spirit Shift (D)",
+                    [
+                        "Damage INT X 8 → INT X 10",
+                        "Changed from consuming mana to cast to 2.5 second cooldown. "
+                    ],
+                    "Spirit Fusion (T) - Fire Pillar (E)",
+                    [
+                        "Each fire spell cast while T is active now increases the damage of next E cast by 25%.",
+                        "Stacks up to 20 times. "
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "62z",
         "notes": [
             "Released on: July 27th, 2023",
-            "Compatible Version: v0.60c ~"
+            "Compatible Version: v0.62a ~"
         ],
         "bugs": [
             "Ancient Construct - Fixed issue where damage from lightning pulses could be dodged by standing underneath boss",
@@ -119,7 +195,7 @@
         "name": "62y",
         "notes": [
             "Released on: June 27th, 2023",
-            "Compatible Version: v0.60c ~"
+            "Compatible Version: v0.62a ~"
         ],
         "bugs": [
             "Ancient Construct - Fixed issue where some heroes could dodge wipe mech that happens after orb absorption"
@@ -210,7 +286,7 @@
         "name": "62w",
         "notes": [
             "Released on: May 30th, 2023",
-            "Compatible Version: v0.60c ~"
+            "Compatible Version: v0.62a ~"
         ],
         "bugs": [
             "Fixed some effects not working properly on new items",
@@ -289,7 +365,7 @@
         "name": "62v",
         "notes": [
             "Released on: May 26th, 2023",
-            "Compatible Version: v0.60c ~"
+            "Compatible Version: v0.62a ~"
         ],
         "bugs": [
             "Shooter - Fixed issue where T was not being treated as periodic damage",
@@ -444,7 +520,7 @@
         "name": "62u",
         "notes": [
             "Released on: May 3rd, 2023",
-            "Compatible Version: v0.60c ~"
+            "Compatible Version: v0.62a ~"
         ],
         "bugs": [
             "Ring of Malevolence - Fixed issue with proc damage bypassing immunity effects on bosses",
@@ -485,7 +561,7 @@
         "name": "62t2",
         "notes": [
             "Released on: April 19th, 2023",
-            "Compatible Version: v0.60c ~"
+            "Compatible Version: v0.62a ~"
         ],
         "bugs": [
             "Fixed issue with Rainbow Cat Token having Ifrit Token skill"
@@ -557,7 +633,7 @@
         "name": "62t",
         "notes": [
             "Released on: April 17th, 2023",
-            "Compatible Version: v0.60c ~"
+            "Compatible Version: v0.62a ~"
         ],
         "bugs": [
             "Blood Devourer - Fixed bug with stacks",
@@ -650,7 +726,7 @@
         "name": "62s2",
         "notes": [
             "Released on: April 1st, 2023",
-            "Compatible Version: v0.60c ~"
+            "Compatible Version: v0.62a ~"
         ],
         "bugs": [
             "Fixed issue where some items could get glitched upon changing item slots"

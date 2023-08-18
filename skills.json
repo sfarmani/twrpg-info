@@ -792,8 +792,8 @@
         "cooldown": 30,
         "order": 5,
         "passive": [
-            "Amplify your magic with grimoire that is inscribed with ancient demons' powers.",
-            "Total damage increased by 15%, max HP increased by 25%",
+            "Amplifies your magic with grimoire that is inscribed with ancient demons' powers.",
+            "Total damage increased by 10%, max HP increased by 25%",
             "MP regen increased by 75 + 100%"
         ],
         "active": [
@@ -819,7 +819,7 @@
             "Restores all MP and souls",
             "Armor increased by 100 & max HP and magic defense increased by 25%",
             "Changes skills partially",
-            "After 5 seconds, consumed MP increases by 50% and total damage increases by 1% every second (up to 25%)"
+            "After 5 seconds, consumed MP increases by 50% and total damage increases by 1% every second (up to 20%)"
         ]
     },
     {
@@ -2765,12 +2765,12 @@
         "color": "ff9999",
         "hotkey": "[T]",
         "icon": "ReaperT",
-        "cooldown": 30,
+        "cooldown": 15,
         "order": 6,
         "passive": [
             "Clears your mind to focus on taking the life of the target.",
             "Enters a focused state for 4 seconds on 5% chance on attack or when casting Death's Slash",
-            "Reduces damage received by 30% and dodges attacks",
+            "Reduces damage received by 30%",
             "Death's Dash can be instantly cast once"
         ],
         "active": [
@@ -3484,7 +3484,7 @@
         ],
         "toggle": [
             "Drowns in blood to bring out full combat abilities.",
-            "Consumes HP X 30% per second",
+            "Consumes HP X 30% per second (down to Max HP X 20%)",
             "Becomes unable to regenerate or restore HP"
         ]
     },
@@ -4264,7 +4264,7 @@
         "color": "4682b4",
         "hotkey": "[F]",
         "icon": "WaterMageF",
-        "cooldown": 60,
+        "cooldown": 75,
         "order": 7,
         "active": [
             "\"Looking at you all reminds me of ice sculptures. Well, not that one captures my attention.\" - Mage",
@@ -5683,12 +5683,12 @@
         "hotkey": "[T] → [D]",
         "icon": "ShrinePriestessT_D",
         "proc_rate": 0.5,
+        "cooldown": 2.5,
         "order": 12,
         "active": [
             "Turns into a spirit to quickly move to target location.",
-            "Deals INT X 8 magic damage to nearby enemies",
-            "While fully shifted, becomes invulnerable to harmful effects",
-            "Can be cast 1 additional time for each fire skill casted"
+            "Deals INT X 10 magic damage to nearby enemies",
+            "Temporarily becomes invulnerable"
         ]
     },
     {
@@ -5732,7 +5732,7 @@
         "order": 15,
         "active": [
             "Gathers element of fire to create pillars of fire in a line.",
-            "Each pillar deals INT X 25 magic damage",
+            "Each pillar delas INT X 15 magic damage",
             "Stuns targets hit for 1.5 seconds"
         ]
     },
@@ -5821,25 +5821,13 @@
         "icon": "LightseekerE",
         "cooldown": 15,
         "order": 3,
+        "passive": [
+            "Resonates with Orb of Light.",
+            "During combat, gains Empowering Light when creating Orb of Light (up to 20 stacks)"
+        ],
         "active": [
             "Infuses your light into the ground, causing the ground to erupt with Orbs of Light.",
-            "Spawns 3 orbs, then pushes them outward",
-            "Chain - Resonance of Light"
-        ]
-    },
-    {
-        "id": "A1AK",
-        "name": "Resonance of Light",
-        "heroClass": "Lightseeker",
-        "color": "f2f7b9",
-        "hotkey": "[E] → [E]",
-        "icon": "LightseekerE_2",
-        "cooldown": 0,
-        "order": 4,
-        "active": [
-            "Creates a pulse of light that resonates with Orbs of Light nearby.",
-            "Gains Empowering Light for each orb resonated (up to 20 stacks)",
-            "Empowering Light lasts 15 seconds and is removed upon exiting combat"
+            "Spawns 3 orbs, then pushes them outward"
         ]
     },
     {
@@ -5850,7 +5838,7 @@
         "hotkey": "[R]",
         "icon": "LightseekerR",
         "cooldown": 10,
-        "order": 5,
+        "order": 4,
         "active": [
             "Gathers light into your knee and kick outward.",
             "STR X 6.5 magic damage",
@@ -5866,9 +5854,9 @@
         "hotkey": "[T]",
         "icon": "LightseekerT",
         "cooldown": 0,
-        "order": 6,
+        "order": 5,
         "passive": [
-            "Absorbing an Orb of Light generates a Mote of Light (stacks up to 50)",
+            "Absorbing an Orb of Light generates a Mote of Light (stacks up to 40)",
             "Upon generating 4 motes, active is enabled"
         ],
         "active": [
@@ -5886,7 +5874,7 @@
         "hotkey": "[F]",
         "icon": "LightseekerF",
         "cooldown": 120,
-        "order": 7,
+        "order": 6,
         "active": [
             "\"No one can escape the Light of Judgment.\" - Lightseeker",
             "STR X 80 magic damage",
