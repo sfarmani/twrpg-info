@@ -1,0 +1,201 @@
+[
+    {
+        "command": "/avatar",
+        "usages": [
+            "/avatar",
+            "/avatar `mentioned_user`",
+            "/avatar `user_id`"
+        ],
+        "desc": "Get the avatar URL of the selected user, or your own avatar.",
+        "category": "Utility"
+    },
+    {
+        "command": "/ban",
+        "usages": [
+            "/ban `mentioned_user` `reason`",
+            "/ban `user_id` `reason`"
+        ],
+        "desc": "Bans a member from the guild. REQUIRES ADMIN",
+        "category": "Moderation"
+    },
+    {
+        "command": "/boss",
+        "usages": [
+            "/boss list",
+            "/boss search `boss_name`"
+        ],
+        "desc": "Finds the searched boss, and gives you a list of items it drops and their droprate",
+        "category": "Info"
+    },
+    {
+        "command": "/build",
+        "usages": [
+            "/build `hero_name`"
+        ],
+        "desc": "Displays the recommended build for a given class.\nNOTE: builds are not absolute",
+        "category": "Info"
+    },
+    {
+        "command": "/changelog",
+        "usages": [
+            "/changelog",
+            "/changelog `version`"
+        ],
+        "desc": "Displays a link to the changelogs",
+        "category": "Info"
+    },
+    {
+        "command": "/channel",
+        "usages": [
+            "/channel list",
+            "/channel set `type` `channel`",
+            "/channel delete `type`"
+        ],
+        "desc": "Set the channel for the different channel types. REQUIRES ADMIN",
+        "category": "Moderation"
+    },
+    {
+        "command": "/choose",
+        "usages": [
+            "/choose `list`"
+        ],
+        "desc": "Lets the bot choose for you! List is separated by `|`",
+        "category": "Fun"
+    },
+    {
+        "command": "/help",
+        "usages": [
+            "/help",
+            "/help `command_name`"
+        ],
+        "desc": "List all commands or info about a specific command.",
+        "category": "Utility"
+    },
+    {
+        "command": "/hero",
+        "usages": [
+            "/hero list",
+            "/hero search `hero_name`"
+        ],
+        "desc": "Details of a hero",
+        "category": "Utility"
+    },
+    {
+        "command": "/invite",
+        "usages": [
+            "/invite"
+        ],
+        "desc": "Gives you the invite link to TWRPG-BOT",
+        "category": "Utility"
+    },
+    {
+        "command": "/item",
+        "usages": [
+            "/item `item_name`"
+        ],
+        "desc": "Details about an item, such as recipe, stats, droprate, etc.",
+        "category": "Info"
+    },
+    {
+        "command": "/kick",
+        "usages": [
+            "/kick `mentioned_user` `reason`",
+            "/kick `user_id` `reason`"
+        ],
+        "desc": "Kicks a member from the guild. REQUIRES ADMIN",
+        "category": "Moderation"
+    },
+    {
+        "command": "/list",
+        "usages": [
+            "/list item `type` `grade` `stats1` `stats2` `stats3` `stats4` `stats5`",
+            "/list buff",
+            "/list debuff"
+        ],
+        "desc": "List of various things (items, buffs, and debuffs). When searching for items, you can add up to 5 stats to filter by (not all required)",
+        "category": "Info"
+    },
+    {
+        "command": "/mute",
+        "usages": [
+            "/mute `mentioned_user` `time`",
+            "/mute `user_id` `time`"
+        ],
+        "desc": "Mutes a member in the guild. REQUIRES ADMIN",
+        "category": "Moderation"
+    },
+    {
+        "command": "/post",
+        "usages": [
+            "/post"
+        ],
+        "desc": "(ONLY USEABLE BY OWNER)",
+        "category": "Utility"
+    },
+    {
+        "command": "/prune",
+        "usages": [
+            "/prune `count`"
+        ],
+        "desc": "Removes messages",
+        "category": "Moderation"
+    },
+    {
+        "command": "/roll",
+        "usages": [
+            "/roll",
+            "/roll `number`"
+        ],
+        "desc": "Random number generator!",
+        "category": "Fun"
+    },
+    {
+        "command": "/say",
+        "usages": [
+            "/say `message`"
+        ],
+        "desc": "Enter a message that the bot will repeat",
+        "category": "Fun"
+    },
+    {
+        "command": "/size",
+        "usages": [
+            "/size"
+        ],
+        "desc": "Detailed report of how many items, characters, and bosses are recorded on this bot",
+        "category": "Info"
+    },
+    {
+        "command": "/spawn",
+        "usages": [
+            "/spawn `mentioned_user`"
+        ],
+        "desc": "Ping your friends if they are AFK ^_^",
+        "category": "Fun"
+    },
+    {
+        "command": "/spec",
+        "usages": [
+            "/spec `hero_name`"
+        ],
+        "desc": "Item Specs for a specific hero",
+        "category": "Info"
+    },
+    {
+        "command": "/toggle",
+        "usages": [
+            "/toggle `command_name`"
+        ],
+        "desc": "Toggle commands in the FUN category. REQUIRES ADMIN",
+        "category": "Moderation"
+    },
+    {
+        "command": "/unmute",
+        "usages": [
+            "/unmute `mentioned_user`",
+            "/unmute `user_id`"
+        ],
+        "desc": "Unmutes a muted member in the guild. REQUIRES ADMIN",
+        "category": "Moderation"
+    }
+]
