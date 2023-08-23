@@ -1,5 +1,26 @@
 [
     {
+        "name": "62z4",
+        "notes": [
+            "Released on: August 22nd, 2023",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Fixed issue with some items being duplicated",
+            "Fixed issue with ZL acolytes having shroud on respawn",
+            "Fixed issue with incorrect coin text being displayed after purchasing item from coin NPC"
+        ],
+        "heroes": [
+            {
+                "name": "Lightseeker",
+                "changes": [
+                    "Scatter Light (E) - Resonance of Light (E) - Skill re-added (rolled back)",
+                    "Enlightenment (T) -  Max stacks 40 → 35"
+                ]
+            }
+        ]
+    },
+    {
         "name": "62z3",
         "notes": [
             "Released on: August 16th, 2023",

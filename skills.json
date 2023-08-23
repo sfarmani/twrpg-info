@@ -5820,13 +5820,25 @@
         "icon": "LightseekerE",
         "cooldown": 15,
         "order": 3,
-        "passive": [
-            "Resonates with Orb of Light.",
-            "During combat, gains Empowering Light when creating Orb of Light (up to 20 stacks)"
-        ],
         "active": [
             "Infuses your light into the ground, causing the ground to erupt with Orbs of Light.",
-            "Spawns 3 orbs, then pushes them outward"
+            "Spawns 3 orbs, then pushes them outward",
+            "Chain - Resonance of Light"
+        ]
+    },
+    {
+        "id": "A1AK",
+        "name": "Resonance of Light",
+        "heroClass": "Lightseeker",
+        "color": "f2f7b9",
+        "hotkey": "[E] → [E]",
+        "icon": "LightseekerE_2",
+        "cooldown": 0,
+        "order": 4,
+        "active": [
+            "Creates a pulse of light that resonates with Orbs of Light nearby.",
+            "Gains Empowering Light for each orb resonated (up to 20 stacks)",
+            "Empowering Light is removed upon exiting combat"
         ]
     },
     {
@@ -5837,7 +5849,7 @@
         "hotkey": "[R]",
         "icon": "LightseekerR",
         "cooldown": 10,
-        "order": 4,
+        "order": 5,
         "active": [
             "Gathers light into your knee and kick outward.",
             "STR X 6.5 magic damage",
@@ -5852,10 +5864,10 @@
         "color": "f2f7b9",
         "hotkey": "[T]",
         "icon": "LightseekerT",
-        "cooldown": 0,
-        "order": 5,
+        "cooldown": 2,
+        "order": 6,
         "passive": [
-            "Absorbing an Orb of Light generates a Mote of Light (stacks up to 40)",
+            "Absorbing an Orb of Light generates a Mote of Light (stacks up to 35)",
             "Upon generating 4 motes, active is enabled"
         ],
         "active": [
@@ -5873,7 +5885,7 @@
         "hotkey": "[F]",
         "icon": "LightseekerF",
         "cooldown": 120,
-        "order": 6,
+        "order": 7,
         "active": [
             "\"No one can escape the Light of Judgment.\" - Lightseeker",
             "STR X 80 magic damage",
