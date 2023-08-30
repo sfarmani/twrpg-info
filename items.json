@@ -11654,8 +11654,6 @@
       ],
       "spec": [
         "Specialties - Transmission of Light",
-        "Paladin - Holy Aura: Effect radius increased by 50%",
-        "Paladin - Holy Grace: Effect radius increased by 50%",
         "Priest - Divine Orb: Duration increased by 25%",
         "Wind Mage - Mirror of Aeolus gains 20% bonus radius."
       ]
@@ -17386,9 +17384,6 @@
       ],
       "spec": [
         "Specialties - Transmission of Light",
-        "Paladin - Holy Aura: Effect radius increased by 50%",
-        "Paladin - Holy Grace: Effect radius increased by 50%",
-        "Paladin - Divine Shield: Nearby allies are also affected by received damage reduction",
         "Priest - Duration of Divine Orb and Heaven Field are increased by 15%.",
         "Wind Mage - Mirror of Aeolus gains 15% bonus damage reduction and 30% bonus radius."
       ]
