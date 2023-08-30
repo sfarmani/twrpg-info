@@ -7556,8 +7556,8 @@
       "healreceivedpercent": 0.15,
       "active": [
         "On use, temporarily increases nearby allies' max HP for 45 seconds",
-        "If self or summon: increases HP by 600 and skill damage by 5%",
-        "If ally: increases HP by 300",
+        "If self or summon: increases HP by 1800 and skill damage by 5%",
+        "If ally: increases HP by 900",
         "Cooldown: 60 seconds"
       ]
     }
