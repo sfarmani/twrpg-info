@@ -395,27 +395,47 @@
         "type": "Support",
         "order": 1,
         "stat": "STR",
-        "version": "38b",
+        "version": "62z4",
         "description": [
-            "Both Universe and Demise have their uses so make sure to get both. But first focus on Universe as it is essentially more useful",
-            "Use Despair only if you want off-hand damage (have too much supports or something like that)",
-            "Grim Heart can be used as a temp craft"
+            "If your team lacks cleanse you can use Bag of Universe"
         ],
         "items": {
-            "Bag of Universe": [
-                "Bag of Demise",
-                "Bag of Despair"
+            "Bag of All Evils": [
+                "Bag of Universe"
             ],
-            "Spirit of Protector": [
-                "Halo of Judgment"
+            "Keeper of the Grove": [
+                "Eye of the Flame Lord"
             ],
-            "Ring of Fate": [],
-            "Harmony of Sky and Earth": [
-                "Cage of Twisted Souls"
+            "Heirloom of Lazarus": [
+                "Ring Of Eternity"
             ],
-            "Guardian Angel": [
-                "Protection of the Fairies"
+            "Cage of Twisted Souls": [
+                "Harmony of Sky and Earth"
+            ],
+            "Thread of Life": [
+                "Guardian Angel",
+                "Cape of Deep Abyss"
             ]
+        }
+    },
+    {
+        "for": "Merchant",
+        "type": "Damage",
+        "order": 2,
+        "stat": "STR",
+        "version": "62z4",
+        "items": {
+            "Bag of Despair": [
+                "Bag of Universe"
+            ],
+            "Crown of Cataclysm": [],
+            "Star of Apotheosis": [
+                "Ring of Eternity"
+            ],
+            "Dread Incarnate": [
+                "Plates of Sanguine Fury"
+            ],
+            "Wings of Sacred Provenance ": []
         }
     },
     {
