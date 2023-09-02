@@ -1,5 +1,27 @@
 [
     {
+        "name": "62z5",
+        "notes": [
+            "Released on: September 1st, 2023",
+            "Compatible Version: v0.62a ~"
+        ],
+        "heroes": [
+            {
+                "name": "Lightseeker",
+                "changes": [
+                    "Model changed"
+                ]
+            }
+        ],
+        "misc": [
+            "Summer Event costume",
+            [
+                "Thunderer / Warlock / Lancer costumes have been removed/merged with other characters.",
+                "Any player with existing costumes on those heroes can exchange their costume to the merged costume through Weird Mage NPC."
+            ]
+        ]
+    },
+    {
         "name": "62z4",
         "notes": [
             "Released on: August 22nd, 2023",
