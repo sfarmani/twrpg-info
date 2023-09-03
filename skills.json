@@ -728,7 +728,7 @@
         "order": 1,
         "passive": [
             "A twisted magic that allows you to steal target's flows of life and mana.",
-            "Deals INT X 0.5 damage on every attack",
+            "Deals INT X 0.5 magic damage on every attack",
             "Every 4th attack deals 6x damage and restores 6% HP, 50 + 10% MP"
         ]
     },
@@ -775,7 +775,7 @@
         "cooldown": 24,
         "order": 4,
         "active": [
-            "Summon a vengeful spirit that absorbs damage and reflects them back at the attackers.",
+            "Summons a vengeful spirit that absorbs damage and reflects them back at the attackers.",
             "Deals INT X 7.5 magic damage per second for 2.5 seconds",
             "Increases movement speed by 150",
             "Absorbs own damage taken by 70% and allies' damage taken by 35%",
@@ -789,7 +789,6 @@
         "color": "9465e2",
         "hotkey": "[R]",
         "icon": "WarlockR",
-        "cooldown": 30,
         "order": 5,
         "passive": [
             "Amplifies your magic with grimoire that is inscribed with ancient demons' powers.",
@@ -811,7 +810,7 @@
         "color": "9465e2",
         "hotkey": "[T]",
         "icon": "WarlockT",
-        "cooldown": 90,
+        "cooldown": 75,
         "order": 6,
         "active": [
             "Obtains a demon's body at the cost of one's own soul.",
@@ -846,8 +845,9 @@
         "order": 8,
         "passive": [
             "What can you do in the face of destruction?",
-            "Dimension Collapse deals 40% increased damage",
-            "Prevents Dimension Collapse or Soul Grimoire from being interrupted"
+            "Dimension Collapse obtains 40% increased damage and 100% increased range",
+            "Dimension Collapse lasts permanently",
+            "Becomes immune to CC effects while casting Soul Grimoire"
         ]
     },
     {
@@ -874,7 +874,7 @@
         "cooldown": 9,
         "order": 10,
         "active": [
-            "Surge forward to execute enemies.",
+            "Leaps forward to execute enemies.",
             "INT X 25 magic damage",
             "Deal up to 150% bonus damage based on target's lost health",
             "Stuns for 1 second"
@@ -890,7 +890,8 @@
         "order": 11,
         "active": [
             "Offers everything to the devil.",
-            "Reduces empower interval from 1 second to 0.25 seconds"
+            "Reduces empower interval from 1 second to 0.25 seconds",
+            "Increases Hunger stack speed by 3x"
         ]
     },
     {
