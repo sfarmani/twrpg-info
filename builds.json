@@ -1770,23 +1770,58 @@
     },
     {
         "for": "Blood Weaver",
-        "type": "Full DPS",
+        "type": "Early game",
         "order": 1,
         "stat": "INT",
-        "version": "61w2",
-        "description": [
-            "Secondary items for Ultimate burst build."
-        ],
+        "version": "62z6",
+        "items": {
+            "Staff of Contagion": [],
+            "Crown of Fervor": [],
+            "Ring of Nightmare": [],
+            "Frozen Robe": [],
+            "Cape of Corrupt Flame": []
+        }
+    },
+    {
+        "for": "Blood Weaver",
+        "type": "Mid game",
+        "order": 2,
+        "stat": "INT",
+        "version": "62z6",
+        "items": {
+            "The Ender": [],
+            "Crown of Composure": [],
+            "Ring of strike": [],
+            "Medea, the Robe of the Witch": [],
+            "Cloak of the Fallen Shadows": []
+        }
+    },
+    {
+        "for": "Blood Weaver",
+        "type": "Late game",
+        "order": 3,
+        "stat": "INT",
+        "version": "62z6",
+        "items": {
+            "The Ender": [],
+            "Crown of Absolute Zero": [],
+            "Ring of Insanity": [],
+            "Thanatos, the Robe of Hell": [],
+            "Cape of Deep Abyss": []
+        }
+    },
+    {
+        "for": "Blood Weaver",
+        "type": "End game",
+        "order": 4,
+        "stat": "INT",
+        "version": "62z6",
         "items": {
             "Heartrender": [],
             "Crown of Transcendance": [],
             "Crimson Curse": [],
-            "Sanguis, the Robe of Sacrifice": [
-                "Titan's Plates"
-            ],
-            "Wings of Sacred Provenance": [
-                "Cape of Deep Abyss"
-            ]
+            "Call of Gehenna": [],
+            "Wings of Sacred Provenance": []
         }
     },
     {
