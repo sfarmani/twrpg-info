@@ -1,5 +1,41 @@
 [
     {
+        "name": "63e",
+        "notes": [
+            "Released on: September 19th, 2023",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Fixed various bugs with Bone Dragon",
+            "Fixed issue where screen flickers heavily in some boss locations when using OpenGL mode",
+            "Lag/Stability improvements"
+        ],
+        "events": [
+            "A small ingame event for newcomers will be held until 10/03 update",
+            "Event 1. EXP gain is increased by 25% for players below LV 100",
+            "Event 2. When a boss is summoned via summoning circle or memory stone, it will have 10% chance to appear with Festive Spirit and have 100% increased drop rate"
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Bosses at Arcana tier or above will drop loots in a separate chest (this is NOT personal loot) instead of directly dropping items on the ground.",
+                    "This chest is lootable by players who participated in the fight."
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Execution Sword (D) - Proc damage AD X 0.45 + STR X 2.25 → AD X 0.5 + STR X 2.5",
+                    "Strike of Honor (E) - Damage AD X 2.25 + STR X 7.5 → AD X 2.5 + STR X 10",
+                    "Original Sin (F) - Damage STR X 50/80 → STR X 60/90"
+                ]
+            }
+        ]
+    },
+    {
         "name": "62z6",
         "notes": [
             "Released on: September 2nd, 2023",

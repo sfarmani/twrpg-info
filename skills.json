@@ -2315,7 +2315,7 @@
         "passive": [
             "Holy sword that brings down judgment upon the evil. Mana concentrates around the blade to give the sword a vibrant form.",
             "20% chance to activate Flash Sword on attack",
-            "Attack damage X 0.45 + STR X 2.25 magic damage"
+            "Attack damage X 0.5 + STR X 2.5 magic damage"
         ],
         "active": [
             "Sends down a flow of mana into the sword, awakening its true potential.",
@@ -2371,8 +2371,8 @@
         "order": 4,
         "active": [
             "Leaps into air and slam down, shattering the ground.",
-            "Attack Damage X 2.25 magic damage",
-            "STR X 7.5 magic damage",
+            "Attack Damage X 2.5 magic damage",
+            "STR X 10 magic damage",
             "Stuns for 1 second"
         ]
     },
@@ -2440,8 +2440,8 @@
         "order": 8,
         "active": [
             "\"Light that can be bestowed upon the weak - that is the true light.\" - Astarte",
-            "Strikes twice dealing STR X 50 magic damage on each strike",
-            "If cast again, delivers a final strike dealing STR X 80 magic damage but incurring longer cooldown"
+            "Strikes twice dealing STR X 60 magic damage on each strike",
+            "If cast again, delivers a final strike dealing STR X 90 magic damage but incurring longer cooldown"
         ]
     },
     {
