@@ -1,5 +1,34 @@
 [
     {
+        "name": "63f",
+        "notes": [
+            "Released on: September 22nd, 2023",
+            "Compatible Version: v0.62a ~"
+        ],
+        "events": [
+            "Fixed issue where festive spirit buff disappears on dying",
+            "Festive Spirit trigger chance 10% → 15%"
+        ],
+        "items": [
+            {
+                "name": "Item notes",
+                "changes": [
+                    "10 time trade limit added on holy water"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Confirmation window added to arcana boss loot",
+                    "Minor field boss ~ ELS drop rate increased by 25~% ish",
+                    "Cursed mask drop rate increased"
+                ]
+            }
+        ]
+    },
+    {
         "name": "63e",
         "notes": [
             "Released on: September 19th, 2023",
