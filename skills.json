@@ -121,7 +121,7 @@
         "order": 7,
         "active": [
             "\"Ruthless? Evil beings need no mercy..\" - Sniper",
-            "Deals AGI X 125 magic damage",
+            "Deals AGI X 175 magic damage",
             "Deals up to 40% bonus damage, based on target's missing health",
             "If cast from melee range, leaps before firing"
         ]
@@ -1569,7 +1569,7 @@
         "active": [
             "\"Draw\" - Gunner",
             "Consumes all bullets",
-            "Attack damage X 15 + AGI X 100 magic damage",
+            "Attack Damage X 20 + AGI X 100 magic damage",
             "Stuns for 1 second",
             "Deals up to 40% bonus damage based on target's missing HP"
         ]
@@ -1727,8 +1727,9 @@
         "order": 10,
         "active": [
             "\"I couldn't see anything. Only the corpses of my comrades were left at where he slashed through.\" - A Survivor of Empire War",
-            "Each slash deals AGI X 5 magic damage",
-            "Final slash deals AGI X 100 magic damage"
+            "Each slash deals AGI X 7.5 magic damage",
+            "Final slash deals AGI X 125 magic damage",
+            "Summons 8 Swords of Illusion"
         ]
     },
     {
@@ -2424,9 +2425,9 @@
         ],
         "active": [
             "Summons an angel using your own body as a vessel to break the limits on the Execution Sword.",
-            "For 12 seconds, gains max attack speed and CC immunity",
+            "For 9 seconds, gains max attack speed and CC immunity",
             "Heals for Max HP X 15% every second",
-            "Improves Execution Sword into Heavenly Sword, increasing its damage by 150% and activation chance by 25%"
+            "Improves Execution Sword, resetting its cooldown, increasing its damage by 150% and reducing its cooldown by 50%"
         ]
     },
     {
@@ -2440,8 +2441,8 @@
         "order": 8,
         "active": [
             "\"Light that can be bestowed upon the weak - that is the true light.\" - Astarte",
-            "Strikes twice dealing STR X 60 magic damage on each strike",
-            "If cast again, delivers a final strike dealing STR X 90 magic damage but incurring longer cooldown"
+            "Slashes twice, each dealing STR X 70 magic damage",
+            "If cast again, incurs a longer cooldown but delivers an additional slash dealing STR X 100 magic damage"
         ]
     },
     {
@@ -2528,7 +2529,8 @@
         "order": 6,
         "passive": [
             "An improved version of Emperor's strikes that boasts fearsome power.",
-            "8% chance to deal Attack Damage X 60% + AGI x 9 magic damage on attack"
+            "8% chance to deal Attack Damage X 0.5 + AGI X 15 magic damage on attack",
+            "Activates at least once when attacking 10 consecutive times"
         ]
     },
     {
@@ -2738,7 +2740,7 @@
         "order": 4,
         "active": [
             "Pierces through target, delivering a deadly strike.",
-            "After one second, inflict attack damage X 1.1 + AGI X 11 magic damage",
+            "After one second, inflict Attack Damage X 1 + AGI X 15 magic damage",
             "While active, Whirl of Death (Q) will deal an additional 200% damage and Death's Dash's damage is increased by 50%"
         ]
     },
@@ -2789,9 +2791,8 @@
         "order": 7,
         "active": [
             "\"You are already dead. You just haven't caught up to it yet.\" - Reaper",
-            "For 12 seconds, increases damage you deal to the target by 15~35% based on target's missing HP",
-            "Upon expiration, deals AGI X 80 magic damage to the target",
-            "Re-use skill to manually finish"
+            "For 10 seconds, increases damage you deal to the target by 20~40% based on target's missing HP",
+            "Upon expiration, deals AGI X 125 magic damage to the target"
         ]
     },
     {
@@ -3146,6 +3147,24 @@
         ]
     },
     {
+        "id": "A0GJ",
+        "name": "This Bag is Kinda Dangerous!",
+        "heroClass": "Merchant",
+        "color": "ddddbb",
+        "hotkey": "[D]",
+        "icon": "MerchantD_2",
+        "cooldown": 10,
+        "order": 2,
+        "passive": [
+            "A bag filled with dangerous goodies.",
+            "Charges 1 bomb every second (up to 5)"
+        ],
+        "active": [
+            "Takes out a lot of bombs at once.",
+            "Charges all bombs"
+        ]
+    },
+    {
         "id": "A0D9",
         "name": "Bag Slam",
         "heroClass": "Merchant",
@@ -3153,7 +3172,7 @@
         "hotkey": "[Q]",
         "icon": "MerchantQ",
         "cooldown": 8,
-        "order": 2,
+        "order": 3,
         "active": [
             "Pummels enemy down with a bag filled with many things.",
             "Attack damage X 1 + STR X 5 magic damage",
@@ -3169,7 +3188,7 @@
         "hotkey": "[W]",
         "icon": "MerchantW",
         "proc_rate": 0.33,
-        "order": 3,
+        "order": 4,
         "active": [
             "Throws a potion made with your own blood, which is thick as troll's blood.",
             "Heals target for STR X 2.5 HP",
@@ -3179,21 +3198,20 @@
         ]
     },
     {
-        "id": "A129-2",
+        "id": "A129",
         "name": "Throw Bomb",
         "heroClass": "Merchant",
         "color": "ddddbb",
         "hotkey": "[W]",
         "icon": "MerchantW2",
-        "order": 4,
+        "order": 5,
         "active": [
             "Throws a bomb.",
-            "STR X 7.5 magic damage",
-            "Causes chain explosion on nearby bombs, adding 0.5 seconds stun and 100% damage (stacks up to 4 times)",
+            "STR X 7 magic damage",
+            "Causes chain explosion on nearby bombs, adding 0.5 seconds stun and 75% damage (stacks up to 4 times)",
             "Explodes after 30 seconds or if thrown into another bomb",
             "Up to 10 bombs can be planted at once",
-            "Recharges 1 per second (up to 5)",
-            "Throw range: 1200"
+            "STR X 7.5 magic damage"
         ]
     },
     {
@@ -3204,7 +3222,7 @@
         "hotkey": "[E]",
         "icon": "MerchantE",
         "cooldown": 25,
-        "order": 5,
+        "order": 6,
         "active": [
             "Provides regenerating barriers to nearby allies by sacrificing your own health.",
             "Consumes HP X 30%",
@@ -3221,7 +3239,7 @@
         "hotkey": "[R]",
         "icon": "MerchantR",
         "cooldown": 15,
-        "order": 6,
+        "order": 7,
         "active": [
             "Throws money with great force, inflicting tetanus on enemies hit.",
             "Each coin inflicts STR X 1.5 magic damage",
@@ -3237,7 +3255,7 @@
         "hotkey": "[R]",
         "icon": "MerchantR_2",
         "cooldown": 20,
-        "order": 7,
+        "order": 8,
         "description": [
             "Opens up the devouring bag.",
             "Channeled for maximum for 3 seconds, pulling in nearby enemies and dealing STR X 20 magic damage per second",
@@ -3252,7 +3270,7 @@
         "hotkey": "[T]",
         "icon": "MerchantT",
         "cooldown": 90,
-        "order": 8,
+        "order": 9,
         "active": [
             "Revives an ally by using a bottle of holy water, which is very rare.",
             "Revives a nearby ally",
@@ -3269,11 +3287,11 @@
         "hotkey": "[T]",
         "icon": "MerchantT2",
         "cooldown": 60,
-        "order": 9,
+        "order": 10,
         "active": [
             "Plants a very dangerous explosive.",
             "Plants an explosive that can be damaged",
-            "After 12 seconds, explodes dealing STR X 50 + damage taken X 4% pure damage and stunning for 3 seconds",
+            "After 10 seconds, explodes dealing STR X 40 + damage taken X 5% pure damage and stunning for 3 seconds",
             "Damage accumulated from Merchant is tripled"
         ]
     },
@@ -3285,11 +3303,11 @@
         "hotkey": "[T]",
         "icon": "MerchantT3",
         "cooldown": 60,
-        "order": 10,
+        "order": 11,
         "active": [
             "Plants a cursed doll.",
             "Plants a doll that can be damaged",
-            "After 15 seconds, explodes dealing STR X 100 + damage taken X 4% pure damage and stunning for 3 seconds",
+            "After 10 seconds, explodes dealing STR X 60 + damage taken X 5% pure damage and stunning for 3 seconds",
             "Damage accumulated from Merchant is tripled"
         ]
     },
@@ -3301,12 +3319,12 @@
         "hotkey": "[F]",
         "icon": "MerchantF",
         "cooldown": 60,
-        "order": 11,
+        "order": 12,
         "active": [
             "\"Damn it.. there goes my rarest scroll! If I wasn't a merchant dealing with customer relationships, I'd never have used it for him.. \" - Merchant",
             "Empowers target with Indomitable Strength for 12 seconds",
             "Grants immunity to slow effects",
-            "Increases damage dealt by target by 35%",
+            "Increases damage dealt by target by 30%",
             "Decreases damage taken by target by 60%",
             "Heals for Max HP X 30% per second",
             "Except for self, the target cannot be affected by Indomitable Strength again for 120 seconds"
@@ -3353,7 +3371,7 @@
         "passive": [
             "Surrounds yourself with a magnetic field to become less affected by air resistance.",
             "Builds magnetic field upon dealing damage or receiving damage (up to 10% per second)",
-            "Max attack damage bonus: STR X 2.5 + AGI X 2",
+            "Max attack damage bonus: (STR + AGI) X 2.5",
             "Max attack speed bonus: 75%",
             "Max reduction bonus: 20%"
         ]
@@ -3384,8 +3402,8 @@
         "cooldown": 20,
         "order": 5,
         "active": [
-            "Activate the shield of thunder to protect yourself and damage nearby enemies.",
-            "Deals (STR + AGI) X 2 magic damage per second",
+            "Activates a shield of thunder to protect yourself and damage nearby enemies.",
+            "Deals (STR + AGI) X 6 magic damage per second",
             "Reduces damage taken by 40%",
             "After 3 seconds, consumes 15% of Magnetic Field per second"
         ]
@@ -3417,9 +3435,8 @@
         "order": 7,
         "active": [
             "\"Disappear with the thunder!\" - Thunderer",
-            "Strike down 16 lightnings per second, each dealing Main Stat X 4 magic damage and stunning for 1 second",
-            "Restores 25% of Magnetic Field every second while inside the area",
-            "Lasts 4 seconds"
+            "Calls down 25 lightning strikes over 4 seconds, each dealing Main Stat X 10 magic damage and stunning for 1 second",
+            "Restores 25% of Magnetic Field every second while inside the area"
         ]
     },
     {
@@ -3433,7 +3450,7 @@
         "passive": [
             "Drowns in enemies' blood to become immersed in battle.",
             "Heals for Max HP X 6% on each attack",
-            "19% chance to inflict bleeding for 5 seconds on attack",
+            "20% chance to inflict Bleeding for 5 seconds on attack",
             "Deals Attack Damage X 30% magic damage per second"
         ]
     },
@@ -3449,7 +3466,7 @@
         "active": [
             "Dashes forward slashing through enemies. ",
             "Consumes HP X 5%",
-            "Attack Damage X 0.75 pure damage",
+            "Attack DamageX 0.75 pure damage",
             "Can be cast 3 times in a row, with last cast dealing 200% damage"
         ]
     },
@@ -3485,7 +3502,7 @@
         "toggle": [
             "Drowns in blood to bring out full combat abilities.",
             "Consumes HP X 30% per second (down to Max HP X 20%)",
-            "Becomes unable to regenerate or restore HP"
+            "HP regeneration and healing are reduced by 90% and cannot bring Berserker's HP above 20%"
         ]
     },
     {
@@ -3516,14 +3533,15 @@
         "order": 6,
         "passive": [
             "Shrouds your sword with madness.",
-            "On attack, you have up to 25% chance based on missing HP to deal Attack Damage X 30% + STR X 3 bonus magic damage",
+            "On attack, you have up to 10~25% chance based on missing HP to activate Madness, dealing Attack Damage X 30% + STR X 3 bonus magic damage",
             "Casting Brandish empowers next attack with bonus damage"
         ],
         "active": [
             "Driven by madness, Berserker becomes a killing machine whose sole purpose is to battle.",
             "Consumes HP X 80%",
-            "Increases total damage by 10%, attack speed by 100% and guarantees activation of Bloodbath for 8 seconds",
-            "Evades death for the duration"
+            "For 6 seconds, increases total damage by 15% and attack speed by 100%",
+            "Every attack activates Bleeding and has 35% chance to trigger Madness",
+            "HP will not drop below 1 and becomes immune to instant death effects"
         ]
     },
     {
@@ -4564,6 +4582,7 @@
             "Holy power allows you to emit a powerful aura.",
             "Every 7th attack empowers next attack with Judgment",
             "Attack Damage X 1 magic damage",
+            "If STR is main stat, total damage is increased by 7.5%",
             "If INT is main stat, total damage is decreased by 40% but aura radius is increased by 50% and Devotion Effect is activated"
         ]
     },
@@ -4578,7 +4597,7 @@
         "passive": [
             "An aspect of crusader who calls down retribution on his foes.",
             "Increase nearby allies' attack damage by 10%",
-            "Judgment - deals 150% bonus damage",
+            "Judgment - Deals 150% bonus damage",
             "Sigil - Increases skill damage by 12% for 20 seconds",
             "Devotion: Increases skill damage by additional (INT / 750)%"
         ]
@@ -4706,7 +4725,7 @@
             "Attack Damage X 8 magic damage",
             "Stuns target for 1.5 seconds",
             "Deals up to 75% bonus damage based on target's missing HP (max damage to immobile targets)",
-            "Devotion: Breaks shield effects and increases damage taken by target by (6 + INT/900)% for 6 seconds"
+            "Devotion: Breaks shield effects and increases damage taken by target by (5 + INT / 1000)% for 6 seconds"
         ]
     },
     {
@@ -4915,24 +4934,6 @@
         ]
     },
     {
-        "id": "A129-1",
-        "name": "Throw Bomb",
-        "heroClass": "Hermit",
-        "color": "ddddbb",
-        "hotkey": "[W]",
-        "icon": "MerchantW2",
-        "order": 4,
-        "active": [
-            "Throws a bomb.",
-            "STR X 6 magic damage",
-            "Causes chain explosion on nearby bombs, adding 0.5 seconds stun and 100% damage (stacks up to 4 times)",
-            "Explodes after 30 seconds or if thrown into another bomb",
-            "Up to 10 bombs can be planted at once",
-            "Cooldown: 2 seconds",
-            "Throw range: 1200"
-        ]
-    },
-    {
         "id": "A0QB",
         "name": "Wind Walk",
         "heroClass": "Hermit",
@@ -4940,7 +4941,7 @@
         "hotkey": "[E]",
         "icon": "HermitE",
         "cooldown": 4.5,
-        "order": 5,
+        "order": 4,
         "passive": [
             "Calms your mind and body by walking.",
             "Restores HP 5% / 10 ki per second while walking"
@@ -4958,7 +4959,7 @@
         "color": "b9f9e6",
         "hotkey": "[R]",
         "icon": "HermitR",
-        "order": 6,
+        "order": 5,
         "active": [
             "Summons an orb that heals allies.",
             "Regenerates HP by Main Stat X 0.25 per second",
@@ -4976,7 +4977,7 @@
         "hotkey": "[T]",
         "icon": "HermitT",
         "cooldown": 15,
-        "order": 7,
+        "order": 6,
         "active": [
             "Purges inner evil within the soul.",
             "Deals Main Stat X 40 magic damage to nearby enemies and stuns for 1.5 seconds",
@@ -4993,7 +4994,7 @@
         "color": "bee7fc",
         "hotkey": "[T] → [T]",
         "icon": "HermitT_2",
-        "order": 8,
+        "order": 7,
         "active": [
             "Releases all of your power.",
             "Knocks back nearby enemies and stuns them for 1.5 seconds",
@@ -5671,7 +5672,7 @@
         "order": 11,
         "active": [
             "Obtains a strong power by combining with Meeko.",
-            "For 12 seconds, your skill damage is increased by 0.5% X (Water Affinity + Fire Affinity)",
+            "For 8 seconds, your skill damage is increased by 0.5% X (Water Affinity + Fire Affinity)",
             "Your skills are converted to fire skills while Spirit Fusion is active"
         ]
     },

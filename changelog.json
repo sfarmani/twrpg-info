@@ -1,4 +1,219 @@
-[
+[{
+        "name": "63g",
+        "notes": [
+            "Released on: October 3rd, 2023",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "True Staff of Space - Fixed issue where item is not bound during active effect's cooldown",
+            "Fixed issue where some units or bosses could move while casting skill",
+            "Fixed issues where field harvests in starting village could be picked up without cooldown",
+            "Fixed issue where some token skill could jump over terrains"
+        ],
+        "events": [
+            "Festive Event will be extended until October 8"
+        ],
+        "items": [
+            {
+                "name": "Dread Incarnate",
+                "changes": [
+                    "Visual FX adjusted (to reduce lag)"
+                ]
+            },
+            {
+                "name": "Destruction Bag series",
+                "changes": [
+                    "Active - Total damage bonus from Eitr adjusted 7.5%/9% → 6%"
+                ]
+            },
+            {
+                "name": "Bomb Bag series",
+                "changes": [
+                    "Throw Bomb skill is added immediately upon equipping now. No longer works for hermit.",
+                    "Merchant Specialty",
+                    [
+                        "This Bag is Kinda Dangerous (D) - A new skill is added for Merchant. Immediately charges 5 bombs. ",
+                        "Throw Bomb (W) - Base damage STR X 6/7.5 → STR X 7/7.5, chain explosion damage bonus 100% → 75%, an enemy can not be damaged by more than 15 explosions in a row",
+                        "Dangerous Explosive / Cursed Doll (T) - Base damage STR X 50/100 → STR X 40/60, damage stored 4% → 5%, duration 12s/15s → 10s, cooldown 60s → 30s"
+                    ]
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Corruptor Rectus",
+                "changes": [
+                    "Stalker's explosion damage and slow duration reduced",
+                    "Avenger's periodic damage reduced"
+                ]
+            },
+            {
+                "name": "Gaia",
+                "changes": [
+                    "HP 35M → 37M"
+                ]
+            },
+            {
+                "name": "Arcane Construct",
+                "changes": [
+                    "HP 47.5M → 51M"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Aura (D)",
+                    [
+                        "Now adds 7.5% total damage if STR is main stat"
+                    ],
+                    "Divine Cross (R)",
+                    [
+                        "Devotion Effect: Damage taken increase (6 + INT / 900)% → (5 + INT / 1000)%"
+                    ]
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Bloodbath (D) ",
+                    [
+                        "Bleed chance 19% → 20%"
+                    ],
+                    "Blood Fury (E)",
+                    [
+                        "Reduces healing and regen by 100% → 90% but it can not bring HP above 20%"
+                    ],
+                    "Berserk (T)",
+                    [
+                        "Passive",
+                        [
+                            "Madness activation chance 0~25% → 10~25%, fixed to 33% during active usage",
+                            "Total damage bonus 10% → 15%",
+                            "Duration 8s → 6s",
+                            "Cooldown 45s → 30s"
+                        ],
+                        "Active",
+                        [
+                            "Madness activation chance 0~25% → 10~25%, fixed to 33% during active usage",
+                            "Total damage bonus 10% → 15%",
+                            "Duration 8s → 6s",
+                            "Cooldown 45s → 30s"
+                        ]
+                    ]
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Base attack cooldown 1.4s → 1.3s",
+                    "Max Amp: Execution Sword (T)",
+                    [
+                        "No longer increases D proc chance by 25%, but instead resets its cooldown and reduces its cooldown by 50% for the duration of active",
+                        "Duration 12s → 9s",
+                        "Cooldown 45s → 30s"
+                    ],
+                    "Original Sin (F)",
+                    [
+                        "Damage STR X 60/90 → STR X 70/100"
+                    ]
+                ]
+            },
+            {
+                "name": "Merchant",
+                "changes": [
+                    "God's Blessing Scroll (F)",
+                    [
+                        "Total damage bonus 35% → 30%"
+                    ]
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Magnetic Field",
+                    [
+                        "Max attack damage bonus STR X 2.5 + AGI X 2 → (STR + AGI) X 2.5"
+                    ],
+                    "Thunder Shield (E)",
+                    [
+                        "Periodic damage (STR + AGI) X 2 → (STR + AGI) X 6"
+                    ],
+                    "Thunderfury (F)",
+                    [
+                        "Lightning strike count 64 → 25",
+                        "Damage of each lightning Main Stat X 4 → Main Stat X 10",
+                        "No longer has RNG factor (constantly damages the AoE evenly over the duration)"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Heavenly Emperor's Strike (T)",
+                    [
+                        "Damage changed from AD X 0.6 + AGI X 9 → AD X 0.5 + AGI X 15",
+                        "Now procs at least once during 10 consecutive attacks"
+                    ]
+                ]
+            },
+            {
+                "name": "Sniper",
+                "changes": [
+                    "Demolition (F)",
+                    [
+                        "Damage AGI X 125 → AGI X 175"
+                    ]
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Genocide Storm (F)",
+                    [
+                        "Damage AGI X 5/100 → AGI X 7.5/125"
+                    ]
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Deadeye (F)",
+                    [
+                        "Damage AD X 15 + AGI X 100 → AD X 20 + AGI X 100"
+                    ]
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Death's Dash (E)",
+                    [
+                        "Damage AD X 1.1 + AGI X 11 → AD X 1 + AGI X 15"
+                    ],
+                    "Death Mark (F)",
+                    [
+                        "Fixed description error (damage taken by target increased by 15~35% → 20~40%)",
+                        "Final damage AGI X 80 → AGI X 125",
+                        "Duration 12s → 10s",
+                        "Cooldown 120s → 90s"
+                    ]
+                ]
+            },
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Spirit Fusion (T)",
+                    [
+                        "No longer has E stacking damage mechanism",
+                        "Duration 12s → 8s",
+                        "Cooldown 60s → 30s"
+                    ]
+                ]
+            }
+        ]
+    },
     {
         "name": "63f",
         "notes": [

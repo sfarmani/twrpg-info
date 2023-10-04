@@ -15982,14 +15982,9 @@
       "str": 675,
       "skilldamagepercent": 0.16,
       "dtpercent": 0.08,
-      "active": [
-        "On use, obtains Throw Bomb",
-        "Replaces Throwing Healing Potion with Throw Bomb. Use again to revert back",
-        "Cooldown: 2 second"
-      ],
       "spec": [
         "Merchant Specialty - Dangerous Bag",
-        "Merchant - Throw Bomb: Becomes charge-based (recharge 1 per second, up to 5)",
+        "Merchant - Throwing Healing Potion: Changed to Throw Bomb",
         "Merchant - Holy Water of Resurrection: Changed to Dangerous Explosive"
       ]
     }
@@ -19481,7 +19476,7 @@
       "dtpercent": -0.24,
       "active": [
         "On use, throws Eitr",
-        "Increases target's damage output by 7.5% for 15 seconds",
+        "Increases target's damage output by 6% for 15 seconds",
         "Lasts 30 seconds on ground",
         "Cooldown: 15 seconds"
       ],
@@ -19527,7 +19522,7 @@
       "dtpercent": -0.24,
       "active": [
         "On use, throws Eitr",
-        "Increases target's damage output by 9% for 15 seconds",
+        "Increases target's damage output by 6% for 15 seconds",
         "Lasts 30 seconds on ground",
         "Cooldown: 15 seconds"
       ],
@@ -19627,14 +19622,9 @@
       "str": 765,
       "skilldamagepercent": 0.2,
       "dtpercent": 0.1,
-      "active": [
-        "On use, obtains Throw Bomb",
-        "Replaces Throwing Healing Potion with Throw Bomb. Use again to revert back",
-        "Cooldown: 2 second"
-      ],
       "spec": [
         "Merchant Specialty - Dangerous Bag",
-        "Merchant - Throw Bomb: Becomes charge-based (recharge 1 per second, up to 5)",
+        "Merchant - Throwing Healing Potion: Changed to Throw Bomb",
         "Merchant - Holy Water of Resurrection: Changed to Cursed Doll"
       ]
     }

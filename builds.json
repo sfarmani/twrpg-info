@@ -1275,49 +1275,58 @@
     },
     {
         "for": "Sniper",
-        "type": "Full DPS",
+        "type": "Early Game",
         "order": 1,
         "stat": "AGI",
-        "version": "62h",
-        "description": [
-            "Use alternate build for more safety (much more expensive. Less damage, but it's much easier to play)"
-        ],
+        "version": "63g",
         "items": {
-            "Spirit Flame": [],
-            "Horn of Dragon": [
-                "Visage of Vengeance"
-            ],
-            "Crimson Curse": [
-                "Ring of the One"
-            ],
-            "Vest of Divine Winds": [
-                "Athanasia, the Armor of the Reaper"
-            ],
-            "Wings of Sacred Provenance": [
-                "Wings of Night Lord"
-            ]
+            "Flame Explosion": [],
+            "Grim Visage": [],
+            "Ring of Nightmare": [],
+            "Vest of Cyclone": [],
+            "Wings of Fury": []
         }
     },
     {
         "for": "Sniper",
-        "type": "Hybrid DPS",
+        "type": "Mid Game",
         "order": 2,
         "stat": "AGI",
-        "version": "38d",
+        "version": "63g",
         "items": {
-            "Soulbane": [],
-            "Eye of the Reaper": [
-                "Horn of Demon God"
-            ],
-            "Ring of Fate": [
-                "Ring of Insanity"
-            ],
-            "Vest of Storm": [
-                "Nevedium, the Armor of Demonblood"
-            ],
-            "Wings of Night Lord": [
-                "Archangel Wings"
-            ]
+            "Hellflame": [],
+            "Crown of Rage": [],
+            "Ring of Strike": [],
+            "Vest of Storm": [],
+            "Wings of Slayer": []
+        }
+    },
+    {
+        "for": "Sniper",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "AGI",
+        "version": "63g",
+        "items": {
+            "Eternal Flame": [],
+            "Crown of Extreme Anger": [],
+            "Ring of Insanity": [],
+            "Vest of Divine Winds": [],
+            "Wings of Night Lord": []
+        }
+    },
+    {
+        "for": "Sniper",
+        "type": "End Game",
+        "order": 3,
+        "stat": "AGI",
+        "version": "63g",
+        "items": {
+            "Spirit Flame": [],
+            "Crown of Cataclysm": [],
+            "Crimson Curse": [],
+            "Astral Fury": [],
+            "Wings of Sacred Provenance": []
         }
     },
     {
