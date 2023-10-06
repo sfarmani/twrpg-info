@@ -22764,7 +22764,7 @@
         "After 4 seconds, ice will shatter",
         "Deals (15% damage dealt to target + INT X 2.5 X # of damage instances to target) magic damage (up to 20 damage instances)",
         "Stuns for 3 seconds",
-        "Cooldown: 90 seconds"
+        "Cooldown: 75 seconds"
       ],
       "spec": [
         "Specialty - Water Mastery",

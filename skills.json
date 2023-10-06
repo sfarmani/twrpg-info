@@ -2417,7 +2417,7 @@
         "color": "f9feb8",
         "hotkey": "[T]",
         "icon": "CrusaderT",
-        "cooldown": 45,
+        "cooldown": 30,
         "order": 7,
         "passive": [
             "Increases the power of the Execution Sword.",
@@ -3529,7 +3529,7 @@
         "color": "8b0000",
         "hotkey": "[T]",
         "icon": "BerserkerT",
-        "cooldown": 60,
+        "cooldown": 30,
         "order": 6,
         "passive": [
             "Shrouds your sword with madness.",
