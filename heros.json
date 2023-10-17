@@ -440,9 +440,7 @@
             "Fairy Garment - Fairy Blessing",
             "Diana, the Robe of Holy Maiden - Maiden's Blessing",
             "Crown of Serenity - Protector of Wind",
-            "Crown of Cleansing - Protector of Wind",
-            "Ring of Holy Light - Transmission of Light",
-            "Bell of Light - Transmission of Light"
+            "Crown of Cleansing - Protector of Wind"
         ]
     },
     {
@@ -666,8 +664,6 @@
             "Supporter. Focused on healing skills. Excels in large parties."
         ],
         "spec": [
-            "Ring of Holy Light - Transmission of Light",
-            "Bell of Light - Transmission of Light",
             "Ring of Deep Darkness - Transmission of Darkness",
             "Grimoire of Darkness - Transmission of Darkness",
             "Seed of Malice - Transmission of Darkness"

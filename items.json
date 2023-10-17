@@ -17376,11 +17376,6 @@
         "On use, releases Holy Light",
         "Heals (0.30 X stacks X (STR + AGI + INT)) HP",
         "Cooldown: 10 seconds"
-      ],
-      "spec": [
-        "Specialties - Transmission of Light",
-        "Priest - Duration of Divine Orb and Heaven Field are increased by 15%.",
-        "Wind Mage - Mirror of Aeolus gains 15% bonus damage reduction and 30% bonus radius."
       ]
     }
   },
