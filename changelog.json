@@ -1,4 +1,72 @@
-[{
+[
+    {
+        "name": "63h",
+        "notes": [
+            "Released on: October 17th, 2023",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Fixed issue with some bosses displaying class name instead of user name"
+        ],
+        "events": [
+            "Festive Spirit event is over"
+        ],
+        "items": [
+            {
+                "name": "Slayer Boots",
+                "changes": [
+                    "Skill damage 4% → Crit chance 6%"
+                ]
+            },
+            {
+                "name": "Bomb Bag series",
+                "changes": [
+                    "This Bag is Kinda Dangerous! (D) - Now provides on-attack bonus damage like base D skill",
+                    "Throw Bomb (W) - Damage STR X 7/7.5 → STR X 7.5/8",
+                    "Dangerous Explosive (T) - Duration 10s → 12s, damage stored from Merchant's damage 3x → 4x"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "Obsidian Golem",
+                    "Damage reduction per armor stack 10% → 7%/10% (normal/hard)",
+                    "Charge cooldown 25s/15s (first wheel/second wheel) → 20s/15s (normal/hard)",
+                    "Wheel duration 30s/30s (first wheel/second wheel) → 20s/30s"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Life Shield Scroll (E) - Will no longer show shield amount for summons"
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Pierce (Q) - Debuff duration 40s → 15s, debuff is now applied without requiring empowerment",
+                    "Nerve Strike (E) - Empowered bonus damage based on missing HP 0~100% → 40~100%",
+                    "Dragon Slam (F) - Cast time slightly reduced, bonus damage radius 250 → 325"
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Hypercharge (T) - Damage INT X 50 → INT X 45 (now matches description; actual value was not properly adjusted in v0.62y)"
+                ]
+            }
+        ],
+        "misc": [
+            "Practice mode will be usable in future event versions (but it will not drop event-related items, even on respawns)",
+            "Removed 'this item requires replay' in descriptions of various vanity items",
+            "Players will receive more detailed instructions regarding items that requires replays when saving"
+        ]
+    },
+    {
         "name": "63g",
         "notes": [
             "Released on: October 3rd, 2023",

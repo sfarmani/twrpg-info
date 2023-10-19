@@ -2584,7 +2584,8 @@
         "active": [
             "Pierces through enemies.",
             "Attack damage X 1 + STR X 7.5 pure damage",
-            "Empowered: Increases target's damage taken by 5%, and increases the critical chance of your spear attacks by 50% for 40 seconds"
+            "Increases damage taken by target by 5% for 15 seconds",
+            "Empowered: Increases the critical chance of your spear attacks by 50% for 40 seconds"
         ]
     },
     {
@@ -2617,7 +2618,7 @@
             "Strikes target's vital point.",
             "Attack damage X 1.2 + STR X 6 magic damage",
             "If target has barriers, breaks them and lands as a critical strike",
-            "Empowered: Deals up to 100% bonus damage based on target's missing HP"
+            "Empowered: Deals up to 40~100% bonus damage based on target's missing HP"
         ]
     },
     {
@@ -2669,7 +2670,7 @@
         "active": [
             "\"She disappeared the moment I saw her on the battlefield.. and then suddenly appeared at the center of the enemies' base, which formed a mountain of corpses.\" - Empire War Veteran",
             "STR X 140 magic damage",
-            "Deals 50% bonus damage to enemies within 250 radius from target point",
+            "Deals 50% bonus damage to enemies within 325 radius from target point",
             "Restores 100 ki"
         ]
     },
@@ -3157,6 +3158,7 @@
         "order": 2,
         "passive": [
             "A bag filled with dangerous goodies.",
+            "Basic attacks inflict attack damage X 0.08 + STR X 0.38 magic damage",
             "Charges 1 bomb every second (up to 5)"
         ],
         "active": [
@@ -3207,11 +3209,11 @@
         "order": 5,
         "active": [
             "Throws a bomb.",
-            "STR X 7 magic damage",
+            "STR X 7.5 magic damage",
             "Causes chain explosion on nearby bombs, adding 0.5 seconds stun and 75% damage (stacks up to 4 times)",
             "Explodes after 30 seconds or if thrown into another bomb",
             "Up to 10 bombs can be planted at once",
-            "STR X 7.5 magic damage"
+            "STR X 8 magic damage"
         ]
     },
     {
@@ -3292,7 +3294,7 @@
             "Plants a very dangerous explosive.",
             "Plants an explosive that can be damaged",
             "After 10 seconds, explodes dealing STR X 40 + damage taken X 5% pure damage and stunning for 3 seconds",
-            "Damage accumulated from Merchant is tripled"
+            "Damage accumulated from Merchant is multiplied 4x"
         ]
     },
     {

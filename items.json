@@ -21626,7 +21626,7 @@
       "allstat": 150,
       "critmultiplier": 0.2,
       "passive": [
-        "On skill cast, increases skill damage and critical chance by 4% for 6 seconds (stacks up to 3 times)"
+        "On skill cast, increases critical chance by 6% for 6 seconds (stacks up to 3 times)"
       ]
     }
   },
