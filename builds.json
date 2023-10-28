@@ -1318,7 +1318,7 @@
     {
         "for": "Sniper",
         "type": "End Game",
-        "order": 3,
+        "order": 4,
         "stat": "AGI",
         "version": "63g",
         "items": {
