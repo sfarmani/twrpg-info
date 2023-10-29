@@ -8974,7 +8974,7 @@
       "Bloodstorm",
       "Guardian Angel",
       "Abyss Fall",
-      "Atricia, the Sword of Nightmares",
+      "Atricia, the True Sword of Dreams",
       "Wings of Cosmos",
       "Akhelius, the Staff of Duality"
     ]
@@ -9101,7 +9101,7 @@
       "Caedis, the Sword of Slaughter",
       "Fulminata, the Bringer of Storms",
       "Star of Apotheosis",
-      "Atricia, the Sword of Nightmares",
+      "Atricia, the True Sword of Dreams",
       "Wings of Sacred Provenance",
       "Crescendo of Madness",
       "Bloodstorm",
@@ -18586,7 +18586,7 @@
     "color": "99FF99",
     "level": 100,
     "required_by": [
-      "Atricia, the Sword of Nightmares"
+      "Atricia, the True Sword of Dreams"
     ],
     "recipe": [
       {
@@ -18620,6 +18620,51 @@
       "passive": [
         "On skill cast, empowers next attack (up to 6 stacks)",
         "Deals (MAIN STAT X 6) pure damage with a 25% chance to crit",
+        "Heals (MAIN STAT X 0.15) HP"
+      ],
+      "active": [
+        "On use, activates Illusional Dream",
+        "Consumes all stacks",
+        "Deals (7.5 X MAIN STAT X stacks) magic damage in an AoE",
+        "Stuns for 2 seconds",
+        "Reduces damage taken by 100% and CC immunity for (stacks X 0.5) seconds",
+        "Cooldown: 90 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I01R",
+    "name": "Atricia, the True Sword of Dreams",
+    "koreanname": "진 몽환의 검 아트리샤",
+    "description": "I will lead you to the eternal slumber.",
+    "rank": "[Epic]",
+    "grade": 4,
+    "type": "Weapon (Melee)",
+    "color": "99FF99",
+    "level": 100,
+    "required_by": [
+      "Atricia, the Sword of Nightmares"
+    ],
+    "recipe": [
+      {
+        "Atricia, the Sword of Dreams": 1
+      },
+      {
+        "Essence of Sea": 1
+      },
+      {
+        "Fragment of Soul": 1
+      }
+    ],
+    "stats": {
+      "damage": 10400,
+      "str": 610,
+      "agi": 700,
+      "skilldamagepercent": 0.09,
+      "critchancepercent": 0.09,
+      "passive": [
+        "On skill cast, empowers next attack (up to 6 stacks)",
+        "Deals (3000 + MAIN STAT X 6) pure damage with a 33% chance to crit",
         "Heals (MAIN STAT X 0.15) HP"
       ],
       "active": [
@@ -21294,9 +21339,8 @@
       "drpercent": 0.09,
       "passive": [
         "Empowers next attack with Demon's Grasp every 5 seconds (melee only)",
-        "Deals 5 additional attacks with (150% ATK DMG) physical damage",
-        "Reduces armor by 20% [Type-A] for 3 seconds",
-        "Heals (7.5% max HP)"
+        "Deals 5 additional attacks with (20% ATK DMG) pure damage",
+        "Heals (5% max HP)"
       ],
       "active": [
         "On use empowers next attack with Demon's Grasp",
@@ -22237,13 +22281,7 @@
     "level": 100,
     "recipe": [
       {
-        "Atricia, the Sword of Dreams": 1
-      },
-      {
-        "Essence of Sea": 1
-      },
-      {
-        "Fragment of Soul": 1
+        "Atricia, the True Sword of Dreams": 1
       },
       {
         "Blood Essence": 1
@@ -23331,7 +23369,7 @@
         "On use, activates Mayhem",
         "Sets ablaze a large area for 10 seconds, dealing 25000 damage per second",
         "While the user is standing in the area, Dread will be set to max stacks and your skills will deal 10% bonus damage",
-        "Cooldown: 90 seconds"
+        "Cooldown: 75 seconds"
       ]
     }
   },

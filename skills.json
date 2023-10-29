@@ -1046,7 +1046,7 @@
         "order": 1,
         "passive": [
             "Her expertise in magic allows her to bend flames to her will.",
-            "Attacks and skills burn target",
+            "Landing attacks or skills inflict Burn, dealing 40% additional damage (minimum INT X 2.5) over 3 seconds",
             "After casting skill, envelops feet in a trail of flame to increase movement speed by 250 for 1.5 seconds",
             "Burning unit will explode on death"
         ]
@@ -1115,7 +1115,7 @@
         "active": [
             "Concentrate flames into a single point, creating a massive combustion of mana.",
             "INT X 10 magic damage",
-            "Amplifies burn damage inflicted by Fire Mage by 50% for 5 seconds"
+            "Amplifies Burn damage by 50% for 5 seconds"
         ]
     },
     {
@@ -1147,8 +1147,7 @@
         ],
         "active": [
             "\"Imagine a huge rock falling through the atmosphere onto the ground. Don't worry, the Earth won't be destroyed. It's not that big, and only you will be engulfed in the explosion..  \" - Mage",
-            "INT X 60 magic damage",
-            "Summons 10 little meteor fragments each dealing INT X 5 magic damage"
+            "INT X 175 magic damage"
         ]
     },
     {
@@ -3139,7 +3138,7 @@
         "order": 1,
         "passive": [
             "Slaps enemy hard with a bag filled with many things.",
-            "Basic attacks inflict attack damage X 0.08 + STR X 0.38 magic damage"
+            "Basic attacks inflict Attack Damage X 0.15 + STR X 1 magic damage"
         ],
         "active": [
             "Takes a random thing out of the bag to use it.",
@@ -3177,9 +3176,8 @@
         "order": 3,
         "active": [
             "Pummels enemy down with a bag filled with many things.",
-            "Attack damage X 1 + STR X 5 magic damage",
-            "Stuns for 1 second",
-            "Range: 800"
+            "Attack Damage X 1.5 + STR X 7.5 magic damage",
+            "Stuns for 1 second"
         ]
     },
     {
@@ -4584,7 +4582,7 @@
             "Holy power allows you to emit a powerful aura.",
             "Every 7th attack empowers next attack with Judgment",
             "Attack Damage X 1 magic damage",
-            "If STR is main stat, total damage is increased by 7.5%",
+            "If STR is main stat, total damage is increased by 10%",
             "If INT is main stat, total damage is decreased by 40% but aura radius is increased by 50% and Devotion Effect is activated"
         ]
     },
@@ -4664,8 +4662,8 @@
         "active": [
             "Sends out a holy wave that only damages evil.",
             "Attack Damage X 1 magic damage",
-            "Heals allies hit for INT X 2",
-            "Leaves Mark of Light for 3 seconds that allows your next attack from range to dash to the target and attack while ignoring the target's armor",
+            "Heals you for INT X 2 HP",
+            "Leaves Mark of Light for 3 seconds that allows your next attack from range to dash to the target and deal pure damage instead",
             "Cooldown reset on casting other skills",
             "Devotion: Heals any allies hit as well"
         ]
@@ -4760,7 +4758,7 @@
             "Releases a pulse every second to deal AD X 2.5 + STR X 40 magic damage",
             "Calls down rays of light on two allies every 0.25 seconds, healing them for INT X 5",
             "Lasts 4 seconds",
-            "Devotion: Each pulse provides allies with buff for 4 seconds, increasing their total damage by 8% and preventing their HP from dropping below 1"
+            "Devotion: Each pulse provides allies with buff for 4 seconds, increasing their total damage by 5% and preventing their HP from dropping below 1"
         ]
     },
     {
@@ -5908,7 +5906,7 @@
         "order": 1,
         "passive": [
             "Equipped with heavy but high-tech armaments..",
-            "Your attacks deal 25% bonus damage, ignore all armor and splashes for 50% damage",
+            "Basic attacks are converted into Flame Type , deal 25% bonus damage, ignore all armor and splash for 50% damage",
             "Every second, gains a shield that absorbs up to Max HP X 1% damage (stacks up to Max HP X 25%)",
             "If using a gun without STR stat, converts 125% of AGI to STR",
             "You do not gain attack speed from AGI increase, and only half from other sources"
@@ -5940,8 +5938,7 @@
         "active": [
             "Blasts fiery steam toward target direction.",
             "STR X 3 magic damage",
-            "Burns target for 25 seconds",
-            "Basic attacks against target has 30% chance to deal 30% bonus damage and apply as pure damage"
+            "Burns target for 25 seconds, allowing basic attacks against target to have 30% chance to deal 30% bonus damage and apply as pure damage"
         ]
     },
     {
@@ -5977,8 +5974,7 @@
         "order": 5,
         "active": [
             "Calls down assist from the sky.",
-            "Summons 4 drones for 15 seconds that assist your basic attacks, dealing (STR + INT) X 5 magic damage (cooldown: 1s)",
-            "Blast damage: STR X 10 → STR X 7.5",
+            "Summons 4 drones for 15 seconds that assist your attacks, dealing (STR + INT) X 5 magic damage (cooldown: 1s)",
             "Fully recharges barrier and basic skill cooldowns",
             "Chain Cast - Mecha Blast"
         ]
@@ -5995,7 +5991,7 @@
         "order": 6,
         "active": [
             "Sends your drone to causes an explosion.",
-            "STR X 10 magic damage",
+            "STR X 7.5 magic damage",
             "Converts Armor Break into Critical Break",
             "Consumes Critical Break to land as critical strike"
         ]
@@ -6012,7 +6008,7 @@
         "order": 7,
         "passive": [
             "Loads missiles periodically.",
-            "1 missile is loaded every 3 seconds and on every 5th basic attack",
+            "1 missile is loaded every 3 seconds and on every 5th attack",
             "3 missiles are loaded on casting Buster Shot",
             "10 missiles are loaded on casting Mecha Call",
             "You can store up to 25 missiles, and at max capacity your next attack will release an excess missile (cooldown: 2s)"

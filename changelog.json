@@ -1,5 +1,140 @@
 [
     {
+        "name": "64b",
+        "notes": [
+            "Released on: October 28th, 2023",
+            "Compatible Version: v0.62a ~"
+        ],
+        "events": [
+            "Halloween event will be active from 10/28 to 11/22"
+        ],
+        "items": [
+            {
+                "name": "Atricia, the True Sword of Dreams",
+                "changes": [
+                    "Bridging item added for Sword of Dreams → Sword of Nightmares path",
+                    "Recipe: Sword of Dreams + Essence of Sea + Soul Fragment"
+                ]
+            },
+            {
+                "name": "Atricia, the Sword of Nightmares",
+                "changes": [
+                    "Recipe changed to: True Sword of Dreams + Blood Essence + Emblem of Sacrifice + Twisted Fragment of Ruins"
+                ]
+            },
+            {
+                "name": "Dread Incarnate",
+                "changes": [
+                    "Active cooldown 90s → 75s"
+                ]
+            },
+            {
+                "name": "Demonic Fist series",
+                "changes": [
+                    "Bonus attacks deal (AD X 150%) physical damage → (AD X 20%) pure damage",
+                    "Heal amount 7.5% → 5%",
+                    "No longer applies armor reduction"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Ifrit",
+                "changes": [
+                    "Obsidian Golem",
+                    [
+                        "Damage reduction per armor stack 7%/10% → 5%/10% (normal/hard)"
+                    ],
+                    "Wheel",
+                    [
+                        "Duration 20s/30s → 30s/20s (first wheel / second wheel)"
+                    ]
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Ritual of Sacrifice",
+                    [
+                        "At 8~10 player difficulty, servant HP and HP drained by standing on rune will be reduced by 25%"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Aura (D)",
+                    [
+                        "STR total damage bonus 7.5% → 10%"
+                    ],
+                    "Holy Divide (Q)",
+                    [
+                        "Empowered attack ignores 100% armor → is converted into pure damage"
+                    ],
+                    "Genesis (F)",
+                    [
+                        "INT total damage bonus 8% → 5%"
+                    ]
+                ]
+            },
+            {
+                "name": "Merchant",
+                "changes": [
+                    "This Bag isn't a Decoration! (D)",
+                    [
+                        "Base damage AD X 0.08 + STR X 0.38 → AD X 0.15 + STR X 1"
+                    ],
+                    "Bag Slam (Q)",
+                    [
+                        "Radius 275 → 325",
+                        "Base damage AD X 1 + STR X 5 → AD X 1.5 + STR X 7.5",
+                        "No longer detonates bombs",
+                        "Damage increase from destruction bag series 100~500% → 100~300%",
+                        "(These changes aren't meant to focus on buffing merchant's DPS aspects.",
+                        "It is to make leveling and early content solo-ing a bit easier)"
+                    ]
+                ]
+            },
+            {
+                "name": "Blaster",
+                "changes": [
+                    "Cleared up some skill description"
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Flame Mastery (D)",
+                    [
+                        "Burn damage 50% → 40%, fixed issue where last tick of burn damage (1/6) was not being dealt correctly"
+                    ],
+                    "Flame Combustion (R)",
+                    [
+                        "Burn damage bonus is no longer affected by flame affinity"
+                    ],
+                    "Meteor Fragment (T)",
+                    [
+                        "Increased fall speed and removed random factor (enemies in target area will be struck evenly)",
+                        "Each meteor now applies slow for 90%",
+                        "Cooldown 40s → 30s"
+                    ],
+                    "Meteor Strike (F)",
+                    [
+                        "No longer creates small shards that deals damage + stuns",
+                        "Now drops a single large meteor, dealing INT X 175 magic damage and stunning for 2.5s",
+                        "Cast time reduced",
+                        "Cooldown 100s → 90s"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Reduced lag caused from multi-hit effects (ex. Vest of Storm series)"
+        ]
+    },
+    {
         "name": "63h",
         "notes": [
             "Released on: October 17th, 2023",
