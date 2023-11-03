@@ -1,5 +1,17 @@
 [
     {
+        "name": "64d",
+        "notes": [
+            "Released on: November 2nd, 2023",
+            "Compatible Version: v0.62a ~"
+        ],
+        "events": [
+            "Slight bit of optimization for Mini Ghost minigame (for less fatal error chance)",
+            "Halloween Candy - All item drop rate increased by 33%",
+            "Pumpkin Land Invitation - Reduced candy count by 25%"
+        ]
+    },
+    {
         "name": "64b",
         "notes": [
             "Released on: October 28th, 2023",
