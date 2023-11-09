@@ -1824,11 +1824,11 @@
         "type": "End game",
         "order": 4,
         "stat": "INT",
-        "version": "62z6",
+        "version": "64d",
         "items": {
             "Heartrender": [],
             "Crown of Transcendance": [],
-            "Crimson Curse": [],
+            "Ring of the One": [],
             "Call of Gehenna": [],
             "Wings of Sacred Provenance": []
         }
