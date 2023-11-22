@@ -20857,9 +20857,7 @@
       ],
       "spec": [
         "Specialties - Summary Judgement, Holy Arts",
-        "Crusader - Original Sin: Only activates the final slash. Stun duration reduced by 50% and cooldown reduced by 66%.",
-        "Paladin - Divine Cross' damage is increased by 15%",
-        "Martial Artist - Increases attack damage amplifier on Inner Meditation by 20%"
+        "Paladin - Divine Cross' damage is increased by 15%"
       ]
     }
   },
@@ -21349,8 +21347,7 @@
       ],
       "spec": [
         "Specialties - Demon's Grasp",
-        "Paladin - Divine Cross' damage is increased by 20%",
-        "Crusader - Original Sin: Only activates the final slash. Stun duration reduced by 50% and cooldown reduced by 66%."
+        "Paladin - Divine Cross' damage is increased by 20%"
       ]
     }
   },
