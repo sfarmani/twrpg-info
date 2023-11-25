@@ -1,5 +1,15 @@
 [
     {
+        "name": "64e",
+        "notes": [
+            "Released on: November 22nd, 2023",
+            "Compatible Version: v0.62a ~"
+        ],
+        "events": [
+            "Halloween Event is disabled from this version."
+        ]
+    },
+    {
         "name": "64d",
         "notes": [
             "Released on: November 2nd, 2023",
