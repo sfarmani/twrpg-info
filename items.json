@@ -21337,7 +21337,7 @@
       "skilldamagepercent": 0.09,
       "drpercent": 0.09,
       "passive": [
-        "Empowers next attack with Demon's Grasp every 5 seconds (melee only)",
+        "Empowers next attack with Demon's Grasp every 5 seconds",
         "Deals 5 additional attacks with (20% ATK DMG) pure damage",
         "Heals (5% max HP)"
       ],
