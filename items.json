@@ -9246,7 +9246,8 @@
       "Seal of Corruption",
       "Akhelius, the Staff of Duality",
       "Crown of Cataclysm",
-      "Thread of Life"
+      "Thread of Life",
+      "Bag of All Evils"
     ],
     "stats": {
       "mainstat": 420,
@@ -9429,7 +9430,8 @@
       "Shadow Waltz",
       "Keeper of the Grove",
       "Call of Gehenna",
-      "Soul Chaser"
+      "Soul Chaser",
+      "Bag of All Evils"
     ]
   },
   {
@@ -9542,7 +9544,8 @@
       "Ring of Malevolence",
       "Blood Devourer",
       "Shadow Waltz",
-      "Astral Fury"
+      "Astral Fury",
+      "Bag of All Evils"
     ]
   },
   {
@@ -9565,7 +9568,8 @@
       "Living Flame",
       "Call of Gehenna",
       "Astral Fury",
-      "Soul Chaser"
+      "Soul Chaser",
+      "Bag of All Evils"
     ]
   },
   {
@@ -19487,6 +19491,9 @@
     "type": "Weapon (Bag)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Bag of All Evils"
+    ],
     "recipe": [
       {
         "Bag of Destruction": 1
