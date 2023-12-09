@@ -119,26 +119,13 @@
         "type": "Tower Gear",
         "order": 4,
         "stat": "STR",
-        "version": "60v",
-        "description": [
-            "Winter's Heart for guard break in Valtora.",
-            "Creation is very good in ifrit."
-        ],
+        "version": "64f2",
         "items": {
-            "Splitting of the Sky and Earth": [
-                "The Ender"
-            ],
-            "Horn of Lightning God": [
-                "Halo of Judgment"
-            ],
+            "Splitting of the Sky and Earth": [],
+            "Horn of Lightning God": [],
             "Heaven's fist": [],
-            "Hades, the Armor of Despair": [
-                "Frostshard Armor",
-                "Creation of the Sky and Earth"
-            ],
-            "Cloak of the Fallen Shadows": [
-	    	"Pure Crystal Wings"
-	    ]
+            "Felspike Armor": [],
+            "Archangel Wings": []
         }
     },
     {
@@ -146,7 +133,7 @@
         "type": "Agareth Gear",
         "order": 5,
         "stat": "STR",
-        "version": "60v",
+        "version": "64f2",
         "description": [
             "Just don't die - Lch#3181",
             "Why would you use defensive gear in endgame, get supports.",
@@ -156,7 +143,9 @@
         "items": {
             "Astra, the Sword of Moonlight": [],
             "Horn of Demon God": [],
-            "Demonic Fist": [],
+            "Demonic Fist": [
+                "Ring of Frozen Soul"
+            ],
             "Felspike Armor": [
                 "Voidshard Armor"
             ],
@@ -168,7 +157,7 @@
         "type": "Arcana Gear",
         "order": 6,
         "stat": "STR",
-        "version": "60v",
+        "version": "64f2",
         "guidelink": [
             "https://i.imgflip.com/5sgfje.jpg"
         ],
@@ -182,12 +171,17 @@
             "Heartrender": [
                 "Spear of Judgment"
             ],
-            "Crescendo of Madness": [],
-            "Demonic Fist": [],
-            "Titan's Plates": [
-                "Cage of Twisted Souls"
+            "Horn of Dragon": [],
+            "Demonic Fist": [
+                "Heirloom of Lazarus",
+                "Ring of Desolate Soul"
             ],
-            "Wings of Sacred Provenance": []
+            "Titan's Plates": [
+                "Dread Incarnate"
+            ],
+            "Wings of Sacred Provenance": [
+                "Wings of Cosmos"
+            ]
         }
     },
     {
