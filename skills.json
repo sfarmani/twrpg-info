@@ -429,7 +429,7 @@
         "proc_rate": 0.7,
         "order": 12,
         "active": [
-            "Transmutate a cloud that brings down rain to nearby area.",
+            "Transmute a cloud that brings down rain to nearby area.",
             "Heals for INT X 0.07 per second",
             "Nullifies HP lost from Gate of Truth while active",
             "Chain: Eye of the Storm"
@@ -464,8 +464,8 @@
         "proc_rate": 0.7,
         "order": 14,
         "active": [
-            "Enchant target's hands with fire and wind.",
-            "Increase target's attack damage by 15% and pure attack speed by 25%",
+            "Enchants your hands with fire and wind.",
+            "Increase pure attack speed by 25% for 120 seconds",
             "Grants 15% chance to activate Ignite on skill cast",
             "Chain: Blaze"
         ]
@@ -818,7 +818,7 @@
             "Restores all MP and souls",
             "Armor increased by 100 & max HP and magic defense increased by 25%",
             "Changes skills partially",
-            "After 5 seconds, consumed MP increases by 50% and total damage increases by 1% every second (up to 20%)"
+            "After 5 seconds, consumed MP increases by 50% and total damage increases by 1% every second (up to 15%)"
         ]
     },
     {
@@ -1046,7 +1046,7 @@
         "order": 1,
         "passive": [
             "Her expertise in magic allows her to bend flames to her will.",
-            "Landing attacks or skills inflict Burn, dealing 40% additional damage (minimum INT X 2.5) over 3 seconds",
+            "Landing attacks or skills inflict Burn, dealing 40% additional damage (minimum INT X 2.5) over 2.5 seconds",
             "After casting skill, envelops feet in a trail of flame to increase movement speed by 250 for 1.5 seconds",
             "Burning unit will explode on death"
         ]
@@ -1113,8 +1113,8 @@
         "cooldown": 10,
         "order": 5,
         "active": [
-            "Concentrate flames into a single point, creating a massive combustion of mana.",
-            "INT X 10 magic damage",
+            "Concentrates flames into a single point, creating a massive combustion of mana.",
+            "INT X 20 magic damage",
             "Amplifies Burn damage by 50% for 5 seconds"
         ]
     },
@@ -2513,9 +2513,10 @@
         "icon": "MartialArtistPass",
         "order": 5,
         "passive": [
-            "Calm your mind and body to maintain control over yourself.",
+            "Calms your mind and body to maintain control over yourself.",
             "Attack speed increased by 60%",
-            "Basic attacks have a 10% chance to increase attack damage by 120%, damage reduction by 20% for and regenerate HP equal to 2% + 90 every second for 5 seconds"
+            "On attack, has 10% chance to temporarily increase attack damage by 100%, damage reduction by 20% for and regenerates 2% + 90 HP every second for 5 seconds",
+            "Forcefully triggered when using Martial Movement or Nameless Arts"
         ]
     },
     {
@@ -2528,7 +2529,7 @@
         "order": 6,
         "passive": [
             "An improved version of Emperor's strikes that boasts fearsome power.",
-            "8% chance to deal Attack Damage X 0.5 + AGI X 15 magic damage on attack",
+            "8% chance to deal Attack Damage X 0.4 + AGI X 12 magic damage on attack",
             "Activates at least once when attacking 10 consecutive times"
         ]
     },
@@ -2739,8 +2740,9 @@
         "cooldown": 8,
         "order": 4,
         "active": [
-            "Pierces through target, delivering a deadly strike.",
-            "After one second, inflict Attack Damage X 1 + AGI X 15 magic damage",
+            "Pierces through the target, delivering a deadly strike.",
+            "AGI X 12 magic damage",
+            "Critically strikes",
             "While active, Whirl of Death (Q) will deal an additional 200% damage and Death's Dash's damage is increased by 50%"
         ]
     },
@@ -2755,7 +2757,7 @@
         "order": 5,
         "active": [
             "Relentlessly slashes the target.",
-            "Attacks with Attack Damage X 10% every 0.05 seconds",
+            "Attacks with Attack Damage X 12% every 0.05 seconds",
             "While active, reduces damage taken by 80% and becomes immune to CC effects",
             "Can be maintained up to 1 second"
         ]
@@ -3501,8 +3503,8 @@
         ],
         "toggle": [
             "Drowns in blood to bring out full combat abilities.",
-            "Consumes HP X 30% per second (down to Max HP X 20%)",
-            "HP regeneration and healing are reduced by 90% and cannot bring Berserker's HP above 20%"
+            "Consumes HP X 30% per second (down to Max HP X 30%)",
+            "HP regeneration and healing are reduced by 85% and cannot bring Berserker's HP above 30%"
         ]
     },
     {
@@ -3538,7 +3540,7 @@
         ],
         "active": [
             "Driven by madness, Berserker becomes a killing machine whose sole purpose is to battle.",
-            "Consumes HP X 80%",
+            "Consumes HP X 70%",
             "For 6 seconds, increases total damage by 15% and attack speed by 100%",
             "Every attack activates Bleeding and has 35% chance to trigger Madness",
             "HP will not drop below 1 and becomes immune to instant death effects"
@@ -4613,7 +4615,7 @@
         "passive": [
             "An aspect of protector who defends his allies.",
             "Increases nearby allies' magic defense by 15%",
-            "Judgment - Reduces damage dealt by target by 40% for 2 seconds",
+            "Judgment - Reduces damage dealt by target by 25% for 2 seconds",
             "Sigil - Grants a shield that absorbs (STR + INT X 2) damage for 4 seconds",
             "Devotion: When chained with Holy Grace, shield amount and duration is increased by 100%"
         ]
@@ -5029,7 +5031,7 @@
         "order": 1,
         "passive": [
             "A broom filled with uncontrollable mana.",
-            "Every attack deals INT X 1.7 magic damage",
+            "Every attack deals INT X 2 magic damage",
             "On skill cast, gains explosive attack speed for 1.5 seconds"
         ],
         "active": [
@@ -5049,12 +5051,10 @@
         "order": 2,
         "active": [
             "Explosion... is an art!",
-            "INT X 9 magic damage",
+            "INT X 10 magic damage",
             "Stuns for 1 second",
-            "Can be channeled up to 2 second, increasing damage by 200% and range/stun duration by 100% every second",
-            "(Max stun duration: 2 seconds)",
-            "Star Shower can be cast during channeling",
-            "Channeling speed can be increased by attack speed (4% per 1% attack speed)"
+            "Can be channeled up to 1.5 seconds, increasing damage by 200% and range/stun duration by 50% every 0.75 seconds",
+            "Channeling speed can be increased by attack speed"
         ]
     },
     {
@@ -5143,7 +5143,7 @@
         "order": 8,
         "passive": [
             "A fallen angel cannot receive the blessings of the God.",
-            "Each attack deals INT X 1.1 magic damage",
+            "Each attack deals INT X 2 magic damage",
             "Magic defense increased by 40%"
         ]
     },
@@ -5157,7 +5157,7 @@
         "cooldown": 30,
         "order": 9,
         "active": [
-            "INT X 30 magic damage",
+            "INT X 40 magic damage",
             "Breaks barriers"
         ]
     },
@@ -5192,11 +5192,11 @@
         "icon": "WitchT_E",
         "order": 11,
         "active": [
-            "Every 4th attack deals INT X 6 magic damage",
+            "Every 4th attack deals INT X 10 magic damage",
             "Increases attack speed by 250%",
             "Increases movement speed by 300",
             "Becomes immune to all harmful effects",
-            "Vanishes after 12 seconds"
+            "Vanishes after 8 seconds"
         ]
     },
     {
@@ -5688,7 +5688,7 @@
         "order": 12,
         "active": [
             "Turns into a spirit to quickly move to target location.",
-            "Deals INT X 10 magic damage to nearby enemies",
+            "Deals INT X 7.5 magic damage to nearby enemies",
             "Temporarily becomes invulnerable"
         ]
     },
@@ -5866,10 +5866,10 @@
         "color": "f2f7b9",
         "hotkey": "[T]",
         "icon": "LightseekerT",
-        "cooldown": 2,
+        "cooldown": 0,
         "order": 6,
         "passive": [
-            "Absorbing an Orb of Light generates a Mote of Light (stacks up to 35)",
+            "Absorbing an Orb of Light generates a Mote of Light (stacks up to 50)",
             "Upon generating 4 motes, active is enabled"
         ],
         "active": [

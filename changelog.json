@@ -1,5 +1,166 @@
 [
     {
+        "name": "64f2",
+        "notes": [
+            "Released on: December 6th, 2023",
+            "Compatible Version: v0.62a ~"
+        ],
+        "heroes": [
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Death's Dash (E) - Damage AGI X 15 → AGI X 12",
+                    "Death's Slash (R) - Damage per hit AD X 15% → AD X 12%"
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Inner Meditation (R) - Fixed issue where change from previous patch (Attack Damage bonus 120% → 100%) wasn't applied",
+                    "Heavenly Emperor's Strikes (T) - Damage AD X 0.5 + AGI X 15 → AD X 0.4 + AGI X 12"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "64f",
+        "notes": [
+            "Released on: December 5th, 2023",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Blaster - Fixed issue with some wing effects not displaying properly on base skin",
+            "Fairy Robe - Fixed issue where summons could deal unintended damage"
+        ],
+        "items": [
+            {
+                "name": "King Kong's Claws",
+                "changes": [
+                    "Auto-attack damage +10% → Skill damage +5%"
+                ]
+            },
+            {
+                "name": "Frost Web Brooch",
+                "changes": [
+                    "Auto-attack damage +10% → Skill damage +5%"
+                ]
+            },
+            {
+                "name": "Archangel Halo series",
+                "changes": [
+                    "Auto-attack damage +12.5~20% → Proc damage +7.5~15%",
+                    "(Proc damage increases damage dealt from attacks and any proc effects resulting from attacks, such as 'activate X on attack' effects on hero skills and item effects)",
+                    "Visage of Vengeance - Judgment damage increase on max stacks 25% → 15%"
+                ]
+            },
+            {
+                "name": "Last Word series",
+                "changes": [
+                    "Gunner specialty",
+                    [
+                        "Charges passive stack on Outlaw (W) cast → Tumble (Q) cast"
+                    ]
+                ]
+            },
+            {
+                "name": "Heirloom of Lazarus",
+                "changes": [
+                    "Damage reduction for linked allies 20% → 15%"
+                ]
+            },
+            {
+                "name": "New items have been added into the game",
+                "changes": [
+                    "Divine Aegis",
+                    "Diabolic Mask",
+                    "Prophetia, the Forbidden Truth",
+                    "Echoes of the Void",
+                    "Soul Fist",
+                    "Soulstorm"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Aura (D) - Aura of Protection (W) - Damage reduction on target 40% → 25%"
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Blood Fury (E) - Minimum HP for max stat bonus 20% → 30%, heal reduction 90% → 85%",
+                    "Berserk (T) - HP consumption 80% → 70%"
+                ]
+            },
+            {
+                "name": "Lightseeker",
+                "changes": [
+                    "Enlightenment (T) - Cooldown 2s → 0s, stacks needed for activation 35 → 50"
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Death's Dash (E) - Damage AD X 1 + AGI X 15 → AGI X 15, now critically strikes with 100% chance",
+                    "Death's Slash (R) - Damage per hit AD X 0.1 → AD X 0.15, multi-attack caused by W will now be properly considered as 'skill damage' now"
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Inner Meditation (R) - Attack damage bonus 120% → 100%"
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Flame Mastery (D) - Burn duration 3s → 2.5s (total damage is same)",
+                    "Flame Combustion (R) - Damage INT X 10 → INT X 20"
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Guardian of Wind (F) - Judgment of Vayu (R) - Slash count will not drop below base amount (ex. from having negative attack speed)"
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Conjure Water (W) - Healing Rain (R) - Cloud FX will be toned down on other players' screen to not block vision too much",
+                    "Conjure Air (E) - Burning Hand (Q) - Changed to self-buff skill; no longer increases attack damage"
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Demonic Fury (T) - Max total damage increase 20% → 15%"
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Magical Broom (D) - Base damage INT X 1.7 → INT X 2",
+                    "Death Bomb (Q) - Base damage INT X 9 → INT X 10",
+                    "Hell Gate (T) - Attack bonus damage INT X 1.1 → INT X 2",
+                    "Hell Gate (T) - Arrow of Destruction (Q) - Base damage INT X 30 → INT X 40, removed cast time",
+                    "Hell Gate (T) - Unleash (E) - Duration 12 seconds → 8 seconds, attack bonus damage INT X 6 → INT X 10"
+                ]
+            },
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Spirit Fusion (T) - Spirit Shift (D) - Damage INT X 10 → INT X 7.5, now can be cast up to 5 times within T duration, cooldown 2.5s → 0s"
+                ]
+            }
+        ],
+        "misc": [
+            "Halloween Event titles have been awarded"
+        ]
+    },
+    {
         "name": "64e",
         "notes": [
             "Released on: November 22nd, 2023",

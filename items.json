@@ -21,7 +21,11 @@
       "Blazing Sun",
       "Duskblade",
       "Soul Torch",
-      "Wings of the Void"
+      "Wings of the Void",
+      "Diabolic Mask",
+      "Echoes of the Void",
+      "Soul Fist",
+      "Soulstorm"
     ]
   },
   {
@@ -1236,7 +1240,7 @@
       "damage": 550,
       "str": 55,
       "agi": 30,
-      "aadamagepercent": 0.1,
+      "skilldamagepercent": 0.05,
       "passive": [
         "On consecutively attacking the same target, deals 400 bonus magic damage"
       ]
@@ -5000,7 +5004,7 @@
     "stats": {
       "agi": 210,
       "hp": 750,
-      "aadamagepercent": 0.1,
+      "skilldamagepercent": 0.05,
       "passive": [
         "On attack, 9% chance to reduce target's armor by 12% [Type-A] for 5 seconds"
       ]
@@ -9290,7 +9294,8 @@
       "Akhelius, the Staff of Duality",
       "Spirit Flame",
       "Blood Devourer",
-      "Call of Gehenna"
+      "Call of Gehenna",
+      "Duskblade"
     ]
   },
   {
@@ -9431,7 +9436,8 @@
       "Keeper of the Grove",
       "Call of Gehenna",
       "Soul Chaser",
-      "Bag of All Evils"
+      "Bag of All Evils",
+      "Duskblade"
     ]
   },
   {
@@ -9481,7 +9487,8 @@
       "Dread Incarnate",
       "Blood Devourer",
       "Aeon Sphere",
-      "Soul Chaser"
+      "Soul Chaser",
+      "Duskblade"
     ]
   },
   {
@@ -9569,7 +9576,8 @@
       "Call of Gehenna",
       "Astral Fury",
       "Soul Chaser",
-      "Bag of All Evils"
+      "Bag of All Evils",
+      "Duskblade"
     ]
   },
   {
@@ -13280,7 +13288,7 @@
       "armor": 110,
       "str": 135,
       "agi": 90,
-      "aadamagepercent": 0.125,
+      "procdamagepercent": 0.075,
       "active": [
         "Block magic every 3 minutes"
       ]
@@ -15769,7 +15777,7 @@
       "spec": [
         "Specialties - Abandon All Hope",
         "Shooter - Casting Break Shot loads one Bullet of Destruction",
-        "Gunner - Casting Outlaw loads one Bullet of Destruction"
+        "Gunner - Casting Tumble loads one Bullet of Destruction"
       ]
     }
   },
@@ -15816,7 +15824,7 @@
       "spec": [
         "Specialties - Abandon All Hope",
         "Shooter - Casting Break Shot loads one Bullet of Punishment",
-        "Gunner - Casting Outlaw loads one Bullet of Punishment"
+        "Gunner - Casting Tumble loads one Bullet of Punishment"
       ]
     }
   },
@@ -16776,7 +16784,7 @@
       "armor": 125,
       "str": 160,
       "agi": 130,
-      "aadamagepercent": 0.15,
+      "procdamagepercent": 0.075,
       "passive": [
         "On attack, activates Judgment per 0.75 seconds (up to 3 stacks)",
         "Deals (MAIN STAT X 3.75) pure damage per stack"
@@ -19026,7 +19034,7 @@
       "spec": [
         "Specialties - Abandon All Hope",
         "Shooter - Casting Break Shot loads one Bullet of Penance",
-        "Gunner - Casting Outlaw loads one Bullet of Penance"
+        "Gunner - Casting Tumble loads one Bullet of Penance"
       ]
     }
   },
@@ -20498,7 +20506,7 @@
       "armor": 140,
       "str": 240,
       "agi": 210,
-      "aadamagepercent": 0.18,
+      "procdamagepercent": 0.1,
       "passive": [
         "On attack, activates Power per 0.75 seconds (up to 3 stacks)",
         "Deals (MAIN STAT X 5) pure damage per stack"
@@ -22238,6 +22246,9 @@
     "type": "Weapon (Melee)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Duskblade"
+    ],
     "recipe": [
       {
         "Cosmic Reaper": 1
@@ -22418,8 +22429,8 @@
       "affinityflamepercent": 0.075,
       "passive": [
         "Empowers next attack with Brilliance of the Sun every 3 seconds",
-        "Next attack deals (AD X 0.3 + STR X 6) magic damage in AoE",
-        "Grants Rising Sun, increasing AD by 200 and STR by 25 (stacks up to 20 times)",
+        "Next attack deals (ATK DMG X 0.3 + STR X 6) magic damage in AoE",
+        "Grants Rising Sun, increasing ATK DMG by 200 and STR by 25 (stacks up to 20 times)",
         "Trigger interval is reduced down to 2 seconds based on lost HP"
       ],
       "active": [
@@ -22441,18 +22452,33 @@
     "level": 100,
     "recipe": [
       {
+        "Divine Slayer": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
         "Mystical Materials": 1
       }
     ],
     "stats": {
-      "damage": 10000,
-      "agi": 1050,
+      "damage": 10500,
+      "agi": 1100,
       "critmultiplier": 0.6,
       "skilldamagepercent": 0.08,
       "passive": [
         "On basic attack, activates Twilight",
-        "Deals AGI X 30 magic damage to target and takes 10% bonus skill damage for 4 seconds",
-        "Cooldown: 12 seconds, reduced by 1 second on each skill crit on boss unit"
+        "Deals (90000 + AGI X 30) magic damage to target and takes 10% bonus skill damage for 4 seconds",
+        "Cooldown: 12 seconds, reduced by 1 second on each skill crit"
       ]
     }
   },
@@ -22650,7 +22676,7 @@
       "spec": [
         "Specialty - Abandon All Hope",
         "Shooter - Casting Break Shot loads one Bullet of Omen",
-        "Gunner - Casting Outlaw loads one Bullet of Omen"
+        "Gunner - Casting Tumble loads one Bullet of Omen"
       ]
     }
   },
@@ -23546,13 +23572,13 @@
       "armor": 160,
       "str": 280,
       "agi": 265,
-      "aadamagepercent": 0.2,
+      "procdamagepercent": 0.1,
       "passive": [
         "On attack, activates Judgment",
         "Deals (Main Stat X 5) pure damage",
         "Gains 1 stack of Vengeance for 5 seconds",
         "At 6 stacks of Vengeance:",
-        "→ Judgment deals 25% more damage",
+        "→ Judgment deals 15% more damage",
         "→ Increases MAIN STAT by 200 while Vengenace lasts",
         "Cooldown: 0.75 seconds (with precharge mechanism, up to 3 charges)"
       ],
@@ -23768,6 +23794,75 @@
     }
   },
   {
+    "id": "I01V",
+    "name": "Diabolic Mask",
+    "koreanname": "디아볼릭 마스크",
+    "description": "Countless battles with demons, only to become a demon yourself.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "armor": 170,
+      "str": 350,
+      "agi": 325,
+      "procdamagepercent": 0.15,
+      "passive": [
+        "On attack, activates Diabolic Flame",
+        "Deals (Main Stat X 6.5) pure damage to target",
+        "Charges one per 0.75s (up to 3 charges)"
+      ],
+      "active": [
+        "On use, activates Diabolic Form",
+        "For 6 seconds, becomes immune to magic damage and CC effects",
+        "While active, Diabolic Flame's cooldown is reduced to 0.4 seconds",
+        "Cooldown: 60s"
+      ]
+    }
+  },
+  {
+    "id": "I07C",
+    "name": "Echoes of the Void",
+    "koreanname": "공허의 메아리",
+    "description": "When you stare into the abyss, the abyss stares back at you",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "armor": 140,
+      "agi": 240,
+      "int": 280,
+      "affinitydarkpercent": 0.075,
+      "passive": [
+        "Activates Malefic Vision on skill hit",
+        "Activates when landing 3 consecutive skill hits on an enemy",
+        "(periodic damage does not count)",
+        "Deals 100000 magic damage over 5 seconds and increases damage taken by 6% [Type-B]",
+        "Cooldown: 10s"
+      ],
+      "active": [
+        "On use, activates Nether Storm",
+        "Deals INT X 50 magic damage to nearby enemies and inflicts them with Malefic Vision",
+        "Heals nearby allies for 25%.",
+        "Creates a field for 3 seconds, periodically silencing enemies and regenerating allies for 10% HP",
+        "Cooldown: 45s"
+      ]
+    }
+  },
+  {
     "id": "I00J",
     "name": "Star of Apotheosis",
     "koreanname": "숭배의 별",
@@ -23851,7 +23946,7 @@
         "Choose up to 2 allied heroes to link to yourself",
         "Linked allies (and self) receive the following:",
         "(5 + link count X 5)% skill damage",
-        "+20% damage reduction [Type-A]",
+        "+15% damage reduction [Type-A]",
         "+1% HP regen",
         "Links can be reset by dropping item",
         "On second use (with linked allies), activates Blood Rune",
@@ -24236,6 +24331,40 @@
     }
   },
   {
+    "id": "I09C",
+    "name": "Soul Fist",
+    "koreanname": "고통의 사슬",
+    "description": "Deep hatred runs within this ring",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "damage": 3600,
+      "mainstat": 120,
+      "allstat": 360,
+      "skilldamagepercent": 0.12,
+      "dtpercent": -0.09,
+      "passive": [
+        "Empowers next attack with Demon's Grasp every 5 seconds",
+        "Deals 5 additional attacks with (ATK DMG X 25%) pure damage",
+        "Heals you for Max HP X 5%"
+      ],
+      "active": [
+        "On use, activates Soul Resonance",
+        "Increases on-hit related damage by 10% for 4 seconds",
+        "Soul Grasp will be enabled every 2 seconds",
+        "Cooldown: 10 seconds"
+      ]
+    }
+  },
+  {
     "id": "I00W",
     "name": "Cape of Insatiable Hunger",
     "koreanname": "끝없는 갈망의 망토",
@@ -24608,7 +24737,7 @@
       "movespeed": 75,
       "passive": [
         "On attack, activates Burning Soul",
-        "Deals (AD X 1.5 + Main Stat X 10) magic damage to nearby enemies and gains 10% AD for 5 seconds",
+        "Deals (ATK DMG X 1.5 + Main Stat X 10) magic damage to nearby enemies and gains 10% ATK DMG for 5 seconds",
         "Cooldown: 10 seconds"
       ],
       "active": [
@@ -24678,6 +24807,38 @@
         "On use, activates Void Explosion",
         "Detonates any active Void Corrosion, dealing (1.15 X remaining damage) magic damage instantly",
         "Cooldown: 30 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I0EE",
+    "name": "Soulstorm",
+    "koreanname": "소울스톰",
+    "description": "Death is our only respite.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "damage": 2000,
+      "mainstat": 225,
+      "allstat": 175,
+      "critmultiplier": 0.4,
+      "passive": [
+        "On skill cast, increases skill damage and crit chance by 6% for 3 seconds",
+        "Stacks up to 3 times"
+      ],
+      "active": [
+        "On use, activates Soulstorm",
+        "Grants invisibility and 200 movement speed for 2 seconds",
+        "Empowers next attack, dealing 40000 + Main Stat X 6 magic damage (lands as critical strike)",
+        "Cooldown: 10 seconds"
       ]
     }
   },
