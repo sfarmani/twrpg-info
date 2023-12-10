@@ -25,7 +25,9 @@
       "Diabolic Mask",
       "Echoes of the Void",
       "Soul Fist",
-      "Soulstorm"
+      "Soulstorm",
+      "Divine Aegis",
+      "Prophetia, the Forbidden Truth"
     ]
   },
   {
@@ -23446,6 +23448,35 @@
     }
   },
   {
+    "id": "I01S",
+    "name": "Divine Aegis",
+    "koreanname": "천상의 가호",
+    "description": "Robe blessed with divinity",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "armor": 230,
+      "int": 500,
+      "hp": 2500,
+      "passive": [
+        "Increases nearby allies skill damage by 12% & magic defense by 10%",
+        "Heals nearby allies to full",
+        "Afterwards heals (INT X 2.5) HP per 0.5 seconds to 3 allies with lowest HP for 6 seconds",
+        "Deals (INT X 7.5) pure damage and stuns for 1 second per second for 6 seconds",
+        "Prevents HP from dropping below 1",
+        "Cooldown: 75 seconds"
+      ]
+    }
+  },
+  {
     "id": "I00H",
     "name": "Crescendo of Madness",
     "koreanname": "핏빛 분노의 갑주",
@@ -23859,6 +23890,40 @@
         "Heals nearby allies for 25%.",
         "Creates a field for 3 seconds, periodically silencing enemies and regenerating allies for 10% HP",
         "Cooldown: 45s"
+      ]
+    }
+  },
+  {
+    "id": "I01Q",
+    "name": "Prophetia, the Forbidden Truth",
+    "koreanname": "금단의 진리 프로피티아",
+    "description": "Do you have courage to face the Truth?",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Mystical Materials": 1
+      }
+    ],
+    "stats": {
+      "armor": 130,
+      "int": 400,
+      "mp": 2500,
+      "skilldamagepercent": 0.15,
+      "passive": [
+        "Periodically activates Forbidden Knowledge",
+        "1 stack is gained every 3 seconds and on skill cast with (25 X proc coefficient)% chance",
+        "Each stack increases INT by 10 (up to 20 stacks)",
+        "Random skill is refreshed at 10/20 stacks"
+      ],
+      "active": [
+        "On use, activates Forbidden Truth",
+        "Gains 250 INT and 5% SKD for 6 seconds",
+        "Consumes all stacks of Forbidden Truth, increasing stat gain by 10% per stack",
+        "Cooldown: 15 seconds"
       ]
     }
   },
