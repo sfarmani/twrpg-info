@@ -1,5 +1,15 @@
 [
     {
+        "name": "64g",
+        "notes": [
+            "Released on: December 21st, 2023",
+            "Compatible Version: v0.62a ~"
+        ],
+        "events": [
+            "Winter Event is active until 2024/01/14"
+        ]
+    },
+    {
         "name": "64f2",
         "notes": [
             "Released on: December 6th, 2023",
