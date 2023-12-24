@@ -1,5 +1,19 @@
 [
     {
+        "name": "64g3",
+        "notes": [
+            "Released on: December 21st, 2023",
+            "Compatible Version: v0.62a ~"
+        ],
+        "events": [
+            "Snow effect removed from capital area (may have been causing memory leak)",
+            "Attack of Snowmen / Penguin Dance minigames",
+            [
+                "now gives reward based on the survival time of last standing player, not yourself"
+            ]
+        ]
+    },
+    {
         "name": "64g",
         "notes": [
             "Released on: December 21st, 2023",
