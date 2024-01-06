@@ -437,20 +437,17 @@
         "type": "DPS",
         "order": 1,
         "stat": "STR",
-        "version": "60v",
-        "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=6814"
-        ],
+        "version": "64g3",
         "description": [
-            "The first items are for DPS purposes. In most of the cases below, the second item is used until you get to the first one.",
-            "In other cases they are for supporting when needed"
+            "Use The Ender/Calamity till Caedis",
+            "Bloodstorm is main wing for now, may replace in the future"
         ],
         "items": {
-            "Heartrender": [],
+            "Caedis, the Sword of Slaughter": [],
             "Horn of Dragon": [],
             "Demonic Fist": [],
             "Titan's Plates": [],
-            "Cape of Insatiable Hunger": []
+            "Bloodstorm": []
         }
     },
     {
