@@ -21788,9 +21788,6 @@
         "Single-target spells deal 15% bonus damage per skill cast over 3 seconds",
         "(Bonus damage type is same as the spell used)",
         "Increases enemy magic damage taken by 5%"
-      ],
-      "active": [
-        "On use, manually activate explosion on targets with max magic damage taken stacks"
       ]
     }
   },
