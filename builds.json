@@ -2416,28 +2416,23 @@
         "type": "DPS",
         "order": 4,
         "stat": "INT",
-        "version": "62k",
+        "version": "64g3",
         "description": [
-			"With the attack speed from Heartrender you can swap rings to fit the team's needs (Recommend Heart of LIfe)",
-			"I would recommend using survival wings more than dps as you are made of paper ~ Zany"
-		],
+            "DPS build is currently not worth the shot and requires high skill compared to support build",
+            "Only worthwhile if there are too many supports in the lobby"
+        ],
         "items": {
-            "Heartrender": [
-				"Ethenos, the Staff of Chaos"
-			],
+            "Heartrender": [],
             "Crescendo of Madness": [],
-            "Ring of Desolate Soul": [
-                "Ring of Divine Winds",
-				"Heart of Life"
+            "Seal of Corruption": [
+                "Ring of Desolate Soul"
             ],
-            "Sanguis, the Robe of Sacrifice": [
-				"Thanatos, the Robe of Hell", 
-				"Frost Herald's Garment"
-			],
-            "Wings of Frost Lord": [
-			    "Wings of Immortal",
-                "Brave Heart"
-			]
+            "Call of Gehenna": [
+                "Sanguis, the Robe of Sacrifice"
+            ],
+            "Wings of Sacred Provenance": [
+                "Cape of Deep Abyss"
+            ]
         }
     },
     {
@@ -2445,31 +2440,40 @@
         "type": "Support",
         "order": 5,
         "stat": "INT",
-        "version": "60o",
+        "version": "64g3",
         "description": [
-			"Use Sanguis if there is someone else using Frost Herald and Jupiter",
-			"Once Fruit of Origin is released use that as the main ring (If it ever comes copium) ~ Zany"
+			"Just use whatever the team needs/lacks",
+			"Heaven's Door for low man, Harmonia, Hood of Apocalypse, Guardian Angel and Brave Heart for the lack of healers",
+            "Eye of the Flame Lord if nobody else uses it on high man",
+            "Cage if there is nothing else to use, just take turns with its active ability",
+            "Guardian Angel if nobody else uses it"
 		],
         "items": {
-            "Harmonia , the Sparkle of Life": [
-                "Armageddon",
-                "Staff of Plague"
+            "Armageddon": [
+                "Harmonia, the Sparkle of Life",
+                "Heaven's Door",
+                "Chaos Dagger"
             ],
-            "Hood of Apocalypse": [
+            "Keeper of the Grove": [
                 "Eye of the Flame Lord",
+                "Hood of Apocalypse",
                 "Crescendo of Madness"
             ],
             "Heart of Life": [
-                "Ring of Divine Winds",
-				"Ring of Eternity"
+                "Ring of Despair",
+                "Heirloom of Lazarus",
+				"Ring of Eternity",
+				"Seal of Corruption"
             ],
-            "Frost Herald's Garment": [
-                "Jupiter, the Robe of Heavens",
-				"Sanguis, the Robe of Sacrifice"
+            "Jupiter, the Robe of Heavens": [
+                "Cage of Twisted Souls",
+				"Frost Herald's Garment"
             ],
-            "Protection of the Fairies": [
+            "Thread of Life": [
+                "Guardian Angel",
                 "Wings of Immortal",
-                "Brave Heart"
+                "Brave Heart",
+                "Blood Devourer"
             ]
         }
     },

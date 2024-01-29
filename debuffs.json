@@ -68,15 +68,6 @@
         ]
     },
     {
-        "type": "Type-D",
-        "suffix": "None",
-        "debufftype": "Increased Magic Damage taken",
-        "names": [
-            "Dark Knight - Defile (Active)",
-            "Witch - Death Field (Active)"
-        ]
-    },
-    {
         "type": "Type-A",
         "suffix": "None",
         "debufftype": "Increased Damage Taken",
