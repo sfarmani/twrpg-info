@@ -1391,11 +1391,11 @@
             "moveSpeed": "400"
         },
         "drops": [
-            "dsum",
             "I05U",
             "I05W",
             "I09E",
             "I0F4",
+            "dsum",
             "I0G5",
             "nspi"
         ],

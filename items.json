@@ -1979,7 +1979,7 @@
     "type": "Wings",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.25,
     "required_by": [
       "Flame Soul",
       "Cape of Corrupt Flame"
@@ -2092,7 +2092,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.006,
+    "droprate": 0.0075,
     "required_by": [
       "Wings of Death Icon"
     ],
@@ -2345,7 +2345,7 @@
     "type": "Accessory",
     "color": "C39BE1",
     "level": 70,
-    "droprate": 0.075,
+    "droprate": 0.125,
     "required_by": [
       "Tentacle Horn"
     ],
@@ -2458,7 +2458,7 @@
     "grade": 0,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.15,
+    "droprate": 0.125,
     "required_by": [
       "Parasitic Sword",
       "Staff of Tentacles",
@@ -2481,7 +2481,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.006,
+    "droprate": 0.0075,
     "required_by": [
       "Spider Lord Icon"
     ],
@@ -2698,7 +2698,7 @@
     "type": "Accessory",
     "color": "C39BE1",
     "level": 80,
-    "droprate": 0.075,
+    "droprate": 0.125,
     "required_by": [
       "Maw of Monster",
       "Corrupt Crystal Wings",
@@ -2816,7 +2816,7 @@
     "type": "Material",
     "color": "FFFFFF",
     "droprate": [
-      0.075,
+      0.125,
       0.05,
       0.125
     ],
@@ -2843,7 +2843,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.006,
+    "droprate": 0.0075,
     "required_by": [
       "Corrupt Angel Icon"
     ],
@@ -3024,7 +3024,7 @@
     "type": "Armor",
     "color": "C39BE1",
     "level": 80,
-    "droprate": 0.075,
+    "droprate": 0.1,
     "required_by": [
       "Earthen Plates"
     ],
@@ -3051,7 +3051,7 @@
     "type": "Armor",
     "color": "C39BE1",
     "level": 80,
-    "droprate": 0.075,
+    "droprate": 0.1,
     "required_by": [
       "Guardian Vest"
     ],
@@ -3077,7 +3077,7 @@
     "type": "Armor",
     "color": "C39BE1",
     "level": 80,
-    "droprate": 0.075,
+    "droprate": 0.1,
     "required_by": [
       "Fairy Garment",
       "Fairy Wings"
@@ -3107,7 +3107,7 @@
     "type": "Accessory",
     "color": "C39BE1",
     "level": 80,
-    "droprate": 0.075,
+    "droprate": 0.1,
     "required_by": [
       "Benziena, the Earthen Pillar",
       "Purelight Armor",
@@ -3138,7 +3138,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.006,
+    "droprate": 0.075,
     "required_by": [
       "Everfrost Icon"
     ],
