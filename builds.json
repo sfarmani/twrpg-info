@@ -1,36 +1,57 @@
 [
     {
         "for": "Berserker",
-        "type": "Early Endgame",
+        "type": "Early Game",
         "order": 1,
         "stat": "STR",
-        "version": "60z",
+        "version": "65b",
         "items": {
-            "Chaos": [],
+            "Anger": [],
+            "Archangel Halo": [],
+            "Ring of Nightmare": [],
+            "Reactive Armor": [],
+            "Cape of Corrupt Flame": []
+        }
+    },
+    {
+        "for": "Berserker",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "STR",
+        "version": "65b",
+        "items": {
+            "Oblivion": [],
+            "Halo of Judgment": [],
+            "Ring of Strike": [],
+            "Hellspike Armor": [],
+            "Cloak of the Fallen Shadows": []
+        }
+    },
+    {
+        "for": "Berserker",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "STR",
+        "version": "65b",
+        "items": {
+            "The ender": [],
             "Radiance of the One": [],
-            "Ring of Insanity": [
-                "Ring of Fate"
-            ],
-            "VoidShard Armor": [
-                "Bloodseeker Plates",
-                "Felspike Armor"
-            ],
+            "Ring of Insanity": [],
+            "Felspike Armor": [],
             "Cape of Deep Abyss": []
         }
     },
     {
         "for": "Berserker",
-        "type": "Endgame",
-        "order": 2,
+        "type": "Late Game",
+        "order": 4,
         "stat": "STR",
-        "version": "60z",
+        "version": "65b",
         "items": {
             "Heartrender": [],
             "Visage of Vengeance": [],
             "Crimson Curse": [],
-            "Titan's Plates": [
-                "Plates of Sanguine Fury"
-            ],
+            "Titan's Plates": [],
             "Wings of Sacred Provenance": []
         }
     },
@@ -1110,16 +1131,17 @@
         "type": "DPS",
         "order": 1,
         "stat": "AGI",
-        "version": "62k",
-        "description": [
-            "\"this might not be the very optimal build but its way better and up to date than the current one\" - Takashiro"
-        ],
+        "version": "65b",
         "items": {
             "Divine Slayer": [],
-            "Horn of Dragon": [],
-            "Crimson Curse": [],
-            "Vest of Divine Winds": [],
-            "Ruler of the Skies": []
+            "Horn of Dragon": [
+                "Eye of the Reaper"
+            ],
+            "Ring of Malevolence": [
+                "Crimson Curse"
+            ],
+            "Astral Fury": [],
+            "Bloodstorm ": []
         }
     },
     {
@@ -1889,22 +1911,58 @@
     },
     {
         "for": "Fire Mage",
-        "type": "Burst",
+        "type": "Early Game",
         "order": 1,
         "stat": "INT",
-        "version": "61w2",
+        "version": "65b",
+        "items": {
+            "Hatred": [],
+            "Crown of Fervor": [],
+            "Latea, the Ring of Chaos": [],
+            "Frozen Robe": [],
+            "Corrupt Crystal Wings": []
+        }
+    },
+    {
+        "for": "Fire Mage",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "INT",
+        "version": "65b",
+        "items": {
+            "Bloody Hatred": [],
+            "Crown of Rage": [],
+            "Latea, the Ring of Overlord": [],
+            "Medea, the Robe of the Witch": [],
+            "Pure Crystal Wings": []
+        }
+    },
+    {
+        "for": "Fire Mage",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "INT",
+        "version": "65b",
+        "items": {
+            "Crimson Hatred": [],
+            "Crown of Extreme Anger": [],
+            "Ring of the One": [],
+            "Thanatos, the Robe of Hell": [],
+            "Archangel Wings": []
+        }
+    },
+    {
+        "for": "Fire Mage",
+        "type": "End Game",
+        "order": 4,
+        "stat": "INT",
+        "version": "65b",
         "items": {
             "Akhelius, the Staff of Duality": [],
             "Crown of Cataclysm": [],
-            "Star of Apotheosis": [
-                "Seal of Corruption"
-            ],
-            "Sanguis robe of sacrifice": [
-                "Thanatos, robe of hell"
-            ],
-            "Wings of Sacred Provenance": [
-                "Wings of Cosmos"
-            ]
+            "Star of Apotheosis": [],
+            "Call of Gehenna": [],
+            "Wings of Sacred Provenance": []
         }
     },
     {

@@ -3138,7 +3138,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.075,
+    "droprate": 0.0075,
     "required_by": [
       "Everfrost Icon"
     ],
