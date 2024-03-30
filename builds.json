@@ -43,7 +43,7 @@
     },
     {
         "for": "Berserker",
-        "type": "Late Game",
+        "type": "End Game",
         "order": 4,
         "stat": "STR",
         "version": "65b",
