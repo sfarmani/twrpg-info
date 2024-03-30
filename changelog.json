@@ -1,5 +1,110 @@
 [
     {
+        "name": "65b",
+        "notes": [
+            "Released on: March 29th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Dark Knight - Fixed issue where E skill is not affected by silence",
+            "Dark Knight - Fixed issue where E skill doesn't get updated between STR <→ INT until starting a new game",
+            "Dark Knight - Fixed issue where hero was unable to be affected by CC immunity effects in some situations"
+        ],
+        "monsters": [
+            {
+                "name": "Agareth",
+                "changes": [
+                    "2nd minigame can no longer trigger while 1st minigame occurs (this also fixes issue where such situation leaves the boss in an unkillable state)",
+                    "DR during minigame 50% → 66%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Phantom Rush (E) - Soul Break (E) - Damage AD X 0.6 + (STR + INT / 3) X 9 → AD X 0.75 + (STR + INT / 3) X 10, now triggers single-target effect on nearest enemy hit",
+                    "Requiem (T) - (STR) Damage increase per 3 souls consumed 20% → 30%"
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Shadow Walk (E) - Cooldown 12.5s → 10s (matches W cooldown)",
+                    "Smoke Bomb (R) - Attacks within smoke bomb will now always count as back attacks"
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Mystical Cauldron (E) - Cast range 500 → 650, detonation via Q will now instantly create 3 potions.",
+                    "Hell Gate (T) - Mark of Power (W) - Buff expiration time when Armaros is dead 10s → 15s"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "65a",
+        "notes": [
+            "Released on: March 28th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Nereid - Fixed issue where missiles spawned by boss could hang in air and be stuck",
+            "Bloodstorm - Fixed issue where proc damage was not affected by proc damage bonus"
+        ],
+        "events": [
+            "Weird Event will last until 4/21"
+        ],
+        "items": [
+            {
+                "name": "Seal of Corruption",
+                "changes": [
+                    "Dark Knight specialty changed",
+                    [
+                        "Absorbing a soul grants a stack of Corruption"
+                    ]
+                ]
+            },
+            {
+                "name": "Wings of Sacred Provenance",
+                "changes": [
+                    "Now shoots a single missile dealing 33000 damage instead of 3 missiles doing 11000 damage each"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Reworked"
+                ]
+            },
+            {
+                "name": "Soul Weaver",
+                "changes": [
+                    "Soul Materia (W) - Now affected by dark affinity"
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Apocalypse (F) - Can now be cancelled mid-cast"
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Skill cast delay reduced",
+                    "Magical Broom (D)/Recall (TD) - Bonus damage on attack INT X 2 → INT X 2.5",
+                    "Star Shower (W) - Damage INT X 4.5 → INT X 7.5, recharge cooldown is now affected by darkness affinity",
+                    "Mystical Cauldron (E) - Cooldown 18s → 15s, hitting cauldron with Q detonates the cauldron but enhances the Q explosion, increasing its damage by (50 + level)% and increasing enemies magic damage taken by 5% for 4s (does not stack with F)",
+                    "Death Field (F) - Damage per second INT X 15 → INT X 20"
+                ]
+            }
+        ]
+    },
+    {
         "name": "64g3",
         "notes": [
             "Released on: December 21st, 2023",

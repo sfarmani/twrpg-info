@@ -182,8 +182,8 @@
         "order": 4,
         "active": [
             "Surrounds self and nearby allies with spiritual barriers.",
-            "Increases skill damage by (4 + INT / 375)% for 20 seconds",
-            "Regenerates INT X 0.1 HP per second"
+            "Increases skill damage by (4 + INT / 375)% for 30 seconds",
+            "Regenerates (INT X 0.1) HP per second"
         ]
     },
     {
@@ -2857,7 +2857,7 @@
         "color": "7f7f7f",
         "hotkey": "[E]",
         "icon": "AssassinE",
-        "cooldown": 12.5,
+        "cooldown": 10,
         "order": 4,
         "active": [
             "Becomes one with the shadow to avoid being seen by enemies.",
@@ -2877,10 +2877,10 @@
         "cooldown": 15,
         "order": 5,
         "active": [
-            "Throw down a poisonous smoke bomb that confuses enemies.",
-            "AGI x 1 magic damage each second for 6 seconds",
-            "Reduces damage taken by allies by 40%",
-            "While staying within the smoke, invisibility transition speed increased by 300% and not interrupted by your attacks"
+            "Throws down a poisonous smoke bomb that confuses enemies.",
+            "AGI x 1 magic damage per second for 6 seconds",
+            "While inside smoke bomb, enters invisibility 300% faster and your attacks always count as back attacks and do not stop you from going invisible",
+            "Allies inside smoke bomb take 40% reduced damage"
         ]
     },
     {
@@ -3866,183 +3866,161 @@
         ]
     },
     {
-        "id": "A131",
-        "name": "Deathblade",
+        "id": "A0CR",
+        "name": "Dark Arts",
         "heroClass": "Dark Knight",
-        "color": "8080ff",
+        "color": "baabd4",
         "hotkey": "[D]",
         "icon": "DarkKnightD",
         "order": 1,
         "passive": [
-            "A cursed blade that feeds upon life to give powerful abilities in return.",
-            "Every 7 seconds, empowers next attack, dealing Main Stat X 7.5 magic damage and ripping a soul out of it",
-            "Resets cooldown of Soul Break"
+            "Power to control souls.",
+            "Charges a soul every 3 seconds (scales with INT)",
+            "Absorbing a soul heals you for Max HP X 3%",
+            "Can store up to 10 souls"
         ],
         "active": [
-            "Harvests souls.",
-            "Absorbs souls in a straight line, healing for Max HP X 6% + INT X 2 per absorbed soul"
+            "Strikes target area with dark lightning.",
+            "Main Stat X 7.5 magic damage",
+            "Deals Main Stat X 5 magic damage every 3 seconds for 12 seconds",
+            "STR: Heals yourself for (Max HP X 15%). Damage/duration increased by 50% and increases your skill damage dealt to target by 10%.",
+            "INT: Heals allies for INT X 2. Increases magic damage taken by (4 + INT / 1200)%."
         ]
     },
     {
-        "id": "A0BI",
-        "name": "Soul Break",
+        "id": "A131",
+        "name": "Dark Advent",
         "heroClass": "Dark Knight",
-        "color": "8080ff",
+        "color": "baabd4",
         "hotkey": "[Q]",
         "icon": "DarkKnightQ",
-        "cooldown": 6,
+        "cooldown": 4,
         "order": 2,
         "active": [
-            "Delivers a fierce strike that breaks the target's soul apart.",
-            "Attack damage X 0.75 + STR X 5.5 magic damage",
-            "Damage is increased by 100% for each 0.2 second channeled, and rips out target's soul if channeled to max",
-            "If cast twice consecutively, next cast has no cast time and has 50% increased damage"
+            "Dashes rapidly.",
+            "Attack Damage X 0.6 + Main Stat X 7.5 magic damage",
+            "Summons 1 soul on first enemy hit",
+            "Cooldown is reset when casting W/E",
+            "INT: Max travel distance increased by 50%"
         ]
     },
     {
         "id": "A0BK",
         "name": "Abyssal Slam",
         "heroClass": "Dark Knight",
-        "color": "8080ff",
+        "color": "baabd4",
         "hotkey": "[W]",
         "icon": "DarkKnightW",
-        "cooldown": 10,
+        "cooldown": 8,
         "order": 3,
         "active": [
-            "Slams down with strength powerful enough to awaken dormant souls lying beneath the grounds.",
-            "Attack damage X 1 + (STR X INT) X 10 magic damage",
-            "Activates Deathblade and summons 3 souls",
-            "STR Main Stat: Increases damage of Abyssal Slam by (Hero Level X 2)%"
+            "Slams and awakens dormant souls resting within ground.",
+            "(STR + INT) X 12 magic damage",
+            "Summons 3 souls",
+            "STR: Deals 50% bonus damage",
+            "INT: Grants barrier absorbing (Caster's Max HP X 40%) damage to nearby allies for 3 seconds"
         ]
     },
     {
-        "id": "A0CR",
-        "name": "Unholy Light",
+        "id": "A1C3",
+        "name": "Phantom Rush",
         "heroClass": "Dark Knight",
-        "color": "8080ff",
+        "color": "baabd4",
         "hotkey": "[E]",
         "icon": "DarkKnightE",
-        "cooldown": 15,
+        "cooldown": 0,
         "order": 4,
         "active": [
-            "Offers an unholy prayer.",
-            "Consumes Max HP X 25% per second",
-            "On finish, deals Max HP X 3 magic damage to nearby enemies",
-            "On finish, receives shield that absorbs Consumed HP X 100% damage for 8 seconds",
-            "While casting, becomes immune to CC effects and reduces damage taken by 80%",
-            "INT Main Stat: Nearby allies also receive shield and damage reduction"
+            "Summons illusions to strike your target.",
+            "Strikes nearby enemies 4 times with Attack Damage X 0.6 pure damage",
+            "While casting, caster takes 25% reduced damage and moves faster",
+            "Duration is reset when casting Q/W/EE/R",
+            "Chain - Soul Break",
+            "INT: Changed into Unholy Light"
         ]
     },
     {
-        "id": "A12M",
-        "name": "Dark Arts",
+        "id": "A1AY",
+        "name": "Soul Break",
         "heroClass": "Dark Knight",
-        "color": "8080ff",
-        "hotkey": "[R]",
-        "icon": "DarkKnightR",
+        "color": "baabd4",
+        "hotkey": "[E] -> [E]",
+        "icon": "DarkKnightE_E",
+        "cooldown": 0,
         "order": 5,
         "active": [
-            "Practices dark arts.",
-            "Upon killing an enemy or absorbing a soul, restores 1 SP (max 5)",
-            "SP can be used to cast skills"
+            "Unleashes a piercing strike that breaks souls.",
+            "Attack Damage X 0.75 + (STR + INT / 3) X 10 magic damage",
+            "Consecutive casts increases damage by 50% (up to 100%)"
         ]
     },
     {
-        "id": "A12N",
-        "name": "Death Coil",
+        "id": "A060",
+        "name": "Unholy Light",
         "heroClass": "Dark Knight",
-        "color": "8080ff",
-        "hotkey": "[R] → [Q]",
-        "icon": "DarkKnightR_Q",
-        "proc_rate": 0.5,
+        "color": "baabd4",
+        "hotkey": "[E]",
+        "icon": "DarkKnightE2",
+        "cooldown": 8,
         "order": 6,
         "active": [
-            "Shoots a coil infused with dark magic.",
-            "Deals Main Stat X 7.5 magic damage to enemy",
-            "Heals allies for INT X 3"
-        ]
-    },
-    {
-        "id": "A12O",
-        "name": "Death's Grasp",
-        "heroClass": "Dark Knight",
-        "color": "8080ff",
-        "hotkey": "[R] → [W]",
-        "icon": "DarkKnightR_W",
-        "proc_rate": 0.5,
-        "order": 7,
-        "active": [
-            "Grasps target's soul.",
-            "Stuns target for 2 seconds",
-            "INT Main Stat: Pulls target toward you"
-        ]
-    },
-    {
-        "id": "A12P",
-        "name": "Defile",
-        "heroClass": "Dark Knight",
-        "color": "8080ff",
-        "hotkey": "[R] → [E]",
-        "icon": "DarkKnightR_E",
-        "proc_rate": 0.5,
-        "order": 8,
-        "active": [
-            "Defiles nearby ground.",
-            "For 15 seconds, deals Main Stat X 2.25 magic damage per second",
-            "Reduces target's speed by 25%",
-            "INT Main Stat: Increases magic damage taken by target by (4 + INT / 375)%"
+            "Surrounds yourself with unholy light.",
+            "Periodically consumes souls",
+            "Deals INT X 5 magic damage per second",
+            "Increases damage taken by target up to (6 + INT / 800)%",
+            "Upon deactivation, deals up to INT X 50 magic damage based on uptime",
+            "STR: Changed to Phantom Rush"
         ]
     },
     {
         "id": "A12Q",
-        "name": "Eyes of Terror",
+        "name": "Hollow Impact",
         "heroClass": "Dark Knight",
-        "color": "8080ff",
-        "hotkey": "[R] → [R]",
-        "icon": "DarkKnightR_R",
-        "proc_rate": 0.5,
-        "cooldown": 25,
-        "order": 9,
+        "color": "baabd4",
+        "hotkey": "[R]",
+        "icon": "DarkKnightR",
+        "cooldown": 15,
+        "order": 7,
         "active": [
-            "Gathers souls into a ball and blasts it away.",
-            "Main Stat X 15 magic damage",
-            "Upon arrival, deals damage again and summons 4 souls",
-            "STR Main Stat: Deals 200% bonus damage",
-            "INT Main Stat: Breaks barrier effects"
+            "Gathers souls into a singularity and launches it forward.",
+            "Main Stat X 25 magic damage",
+            "Upon arrival, explodes to deal damage again and summons 5 souls",
+            "STR: Explosion damage increased by 100%",
+            "INT: Break effect added. Pushes enemies when cast from far range."
         ]
     },
     {
         "id": "A0CY",
         "name": "Requiem",
         "heroClass": "Dark Knight",
-        "color": "8080ff",
+        "color": "baabd4",
         "hotkey": "[T]",
         "icon": "DarkKnightT",
         "cooldown": 30,
-        "order": 10,
+        "order": 8,
         "active": [
-            "Bestows eternal rest to the souls of the dead.",
-            "Main Stat X 25 magic damage",
-            "Seals target's abilities for 2 seconds",
-            "STR Main Stat: Consumes summoned souls to deal Main Stat X 12.5 bonus damage per soul",
-            "INT Main Stat: Increases nearby allies HP regen by INT X 1 and magic defense by 60% for 6 seconds",
-            "Summons 4 additional souls afterwards"
+            "Bestows rest upon fallen souls.",
+            "Main Stat X 75 magic damage",
+            "Silences for 2 seconds",
+            "STR: Deals 30% bonus damage per 3 souls consumed recently (up to 150%)",
+            "INT: Summons 7 souls and allies will take 60% reduced damage and become immune to debuffs for 4 seconds"
         ]
     },
     {
         "id": "A0D7",
-        "name": "Unholy Tempest",
+        "name": "Hymn of Death",
         "heroClass": "Dark Knight",
-        "color": "8080c0",
+        "color": "baabd4",
         "hotkey": "[F]",
         "icon": "DarkKnightF",
         "cooldown": 120,
-        "order": 11,
+        "order": 9,
         "active": [
             "\"Cry !\" - Dark Knight",
-            "Deals Main Stat X 115 magic damage over 2 seconds",
-            "Periodically stuns target and deals up to 50% bonus damage based on target's missing HP",
-            "On finish, resets cooldowns on other skills"
+            "Main Stat X 125 magic damage",
+            "Creates a field for 4s that boosts soul regen of Dark Knight",
+            "STR: Deals up to 40% additional damage based on enemy's missing HP and deals STR X 15 magic damage per second",
+            "INT: Duration increased by 50% and allies on field will regenerate 25% of max HP per second and not fall below 1 HP."
         ]
     },
     {
@@ -5031,7 +5009,7 @@
         "order": 1,
         "passive": [
             "A broom filled with uncontrollable mana.",
-            "Every attack deals INT X 2 magic damage",
+            "Every attack deals INT X 2.5 magic damage",
             "On skill cast, gains explosive attack speed for 1.5 seconds"
         ],
         "active": [
@@ -5068,11 +5046,9 @@
         "order": 3,
         "active": [
             "Shoots stars out of your broom.",
-            "INT X 4.5 magic damage",
+            "INT X 7.5 magic damage",
             "Heals for INT X 1.5 (50% effectiveness for self)",
-            "Refills 1 charge every 6 seconds",
-            "Can hold up to 4 charges",
-            "Can pierce enemies"
+            "Refills 1 charge every 6 seconds (up to 4 charges)"
         ]
     },
     {
@@ -5088,7 +5064,8 @@
             "Summons a cauldron filled with magical items.",
             "Creates a potion every 1.5 seconds for 18 seconds",
             "Potion lasts for 30 seconds and heals for INT X 3",
-            "Increases target's main stat by (4 + INT / 1000)% for 60 seconds"
+            "Increases target's main stat by (4 + INT / 1000)% for 60 seconds",
+            "Chaining with Death Bomb creates 3 potions, increases Q's damage by (50 + Hero Level)% and increases enemies' magic damage taken by 5% for 4 seconds"
         ]
     },
     {
@@ -5171,16 +5148,14 @@
         "cooldown": 1,
         "order": 10,
         "passive": [
-            "Armaros's Power",
             "Increases damage dealt by 5%",
             "Reduces damage taken by 20%",
             "Increases attack speed by 25%"
         ],
         "active": [
-            "Brands the target with power.",
+            "Brands target with power.",
             "Can be applied on 3 targets",
-            "Will dissipate after 15 seconds if Armaros is unsummoned",
-            "Lasts 45 seconds"
+            "Will dissipate after 15 seconds if Armaros is unsummoned"
         ]
     },
     {
@@ -5209,9 +5184,10 @@
         "cooldown": 120,
         "order": 12,
         "active": [
-            "\"Get away from here. I will be using this zone as my lab..\" - Witch",
-            "Deals INT X 15 magic damage per second",
-            "Increases target's magic damage taken (Type-D) by 10%",
+            "\"Get away from there! It will shall soon become a zone for my experiments..\"",
+            "- Witch",
+            "Deals INT X 20 magic damage per second",
+            "Increases target's magic damage taken by 10%",
             "Lasts 8 seconds"
         ]
     },

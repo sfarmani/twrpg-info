@@ -24156,8 +24156,8 @@
         "Cooldown: 30 seconds"
       ],
       "spec": [
-        "Specialty - Power of Inversion",
-        "Dark Knight - Unholy Tempest's damage is increased by 15%, and it always deals its maximum damage regardless of target's HP."
+        "Specialty - Harvest",
+        "Dark Knight - Gains 1 stack of Corruption per soul absorbed."
       ]
     }
   },
@@ -24669,7 +24669,7 @@
       "affinityflamepercent": 0.05,
       "passive": [
         "Activate Sacred Flame on dealing magic damage",
-        "Deals 11000 per arrow (3 arrows) magic damage to and around target (450 AoE)",
+        "Shoots 1 arrow that deals 33000 magic damage to and around target (450 AoE)",
         "Gain a stack of Sacred Dawn",
         "Each stack increases skill damage by 1.5% and fire affinity by 0.5% for 6 seconds (up to 5 stacks)",
         "Upon max stacks, the user can no longer refresh stacks",
