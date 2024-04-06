@@ -207,65 +207,140 @@
     },
     {
         "for": "Dark Knight",
-        "type": "Burst damage",
+        "type": "Early Game",
         "order": 1,
         "stat": "STR",
-        "version": "60o",
-        "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=4399"
-        ],
+        "version": "65b",
         "description": [
-            "Use Crown of Extreme Anger Path until Crescendo",
-            "Wings of Sacred Provenance give stable damage, while Wings of Cosmos passive is pure random",
-            "If Cage isn't needed in run, use Titan's Plates for higher damage"
+            "Use alternative items if aura stackable"
         ],
         "items": {
-            "Spear of Judgment": [],
-            "Crescendo of Madness": [
-                "Crown of Extreme Anger"
+            "Deathbringer": [],
+            "Horn of Devil": [],
+            "Latea, the Ring of Chaos": [],
+            "Flameshard Armor": [
+                "Purelight Armor"
             ],
-            "Seal of Corruption": [],
+            "Cape of Corrupt Flame": []
+        }
+    },
+    {
+        "for": "Dark Knight",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "STR",
+        "version": "65b",
+        "description": [
+            "Use alternative items when main ones are already used"
+        ],
+        "items": {
+            "Ruinbringer": [],
+            "Horn of Devil": [],
+            "Latea, the Ring of Chaos": [],
+            "Requiem, the Armor of Lamentation": [
+                "Frostshard Armor"
+            ],
+            "Cloak of the Fallen Shadows": [
+                "Pure Crystal Wings"
+            ]
+        }
+    },
+    {
+        "for": "Dark Knight",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "STR",
+        "version": "65b",
+        "description": [
+            "Use alternative items when main ones are already used"
+        ],
+        "items": {
+            "Calamity": [],
+            "Horn of Demon God": [],
+            "Ring of the One": [],
+            "Hades, the Armor of Despair": [
+                "Voidshard Armor"
+            ],
+            "Cape of Deep Abyss": [
+                "Archangel Wings"
+            ]
+        }
+    },
+    {
+        "for": "Dark Knight",
+        "type": "End Game",
+        "order": 4,
+        "stat": "STR",
+        "version": "65b",
+        "description": [
+            "Use alternative items when main ones are already used"
+        ],
+        "items": {
+            "Calamity": [],
+            "Horn of Dragon": [],
+            "Crimson Curse": [],
             "Cage of Twisted Souls": [
-                "Titan's Plates"
+                "Dread Incarnate"
             ],
-            "Wings of Sacred Provenance": [
+            "Cape of Deep Abyss": [
                 "Wings of Cosmos"
             ]
         }
     },
     {
         "for": "Dark Knight",
-        "type": "Debuff-Support",
-        "order": 2,
+        "type": "Early Game",
+        "order": 5,
         "stat": "INT",
-        "version": "60o",
-        "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=4399"
-        ],
-        "description": [
-            "Main items for getting the most out of R - E while maintaining a good presence.",
-            "Use Harmonia when your team really need healers or if you want to use Heart of Life",
-            "Swap Helmets and Rings for situanionary, dont overlap items with teammates",
-            "Heartrender, Heirloom, Soul devourer so much valuable for teams. Just use them."
-        ],
+        "version": "65b",
         "items": {
-            "Armageddon": [
-                "Heartrender",
-                "Harmonia, the Sparkle of Life"
-            ],
-            "Prophetia, the Origin of Knowledge": [
-                "Hood of Apocalypse",
-                "Eye of the Flame Lord"
-            ],
-            "Ring of Despair": [
-                "Heirloom of Lazarus",
-                "Nebula Rose"
-            ],
+            "Staff of Madness": [],
+            "Void Eye": [],
+            "Azathos, the Pipe of Chaos": [],
+            "Fairy Garment": [],
+            "Cape of Corrupt Flame": []
+        }
+    },
+    {
+        "for": "Dark Knight",
+        "type": "Mid Game",
+        "order": 6,
+        "stat": "INT",
+        "version": "65b",
+        "items": {
+            "Staff of Abyss": [],
+            "Void Eye": [],
+            "Azathos, the Pipe of Chaos": [],
+            "Diana, the Robe of Holy Maiden": [],
+            "Cloak of the Fallen Shadows": []
+        }
+    },
+    {
+        "for": "Dark Knight",
+        "type": "Late Game",
+        "order": 7,
+        "stat": "INT",
+        "version": "65b",
+        "items": {
+            "Soul of abyss": [],
+            "Eye of the Flame Lord": [],
+            "Horn of God": [],
+            "Jupiter, the Robe of Heavens": [],
+            "Cape of Deep Abyss": []
+        }
+    },
+    {
+        "for": "Dark Knight",
+        "type": "End Game",
+        "order": 8,
+        "stat": "INT",
+        "version": "65b",
+        "items": {
+            "Gate of Abyss": [],
+            "Keeper of the grove": [],
+            "Heart of Life": [],
             "Cage of Twisted Souls": [],
-            "Wings of Immortal": [
-                "Soul Devourer",
-                "Brave Heart"
-            ]
+            "Guardian Angel": []
         }
     },
     {
@@ -275,7 +350,7 @@
         "stat": "STR",
         "version": "61z2",
         "guidelink": [
-            "https://www.twrpg.com/viewtopic.php?f=4&t=6999&p=34467#p34467"
+            "https://docs.google.com/document/d/1RGOLMpkWPa6WPdBRywTI40FOjvycOdILxqpG9lTDtZQ/edit?usp=sharing"
         ],
         "items": {
             "Spear of Judgment": [
@@ -463,6 +538,9 @@
             "Use The Ender/Calamity till Caedis",
             "Bloodstorm is main wing for now, may replace in the future"
         ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1EnuHRDRr8yJAlMbap_kxu0kshbEWgrJjzcO0u8_lvG0/edit?usp=sharing"
+        ],
         "items": {
             "Caedis, the Sword of Slaughter": [],
             "Horn of Dragon": [],
@@ -477,6 +555,9 @@
         "order": 2,
         "stat": "INT",
         "version": "62r",
+        "guidelink": [
+            "https://docs.google.com/document/d/1EnuHRDRr8yJAlMbap_kxu0kshbEWgrJjzcO0u8_lvG0/edit?usp=sharing"
+        ],
         "items": {
             "Heaven's Door": [],
             "Keeper of the Grove": [
@@ -616,16 +697,24 @@
         "type": "Early Game",
         "order": 1,
         "stat": "AGI",
-        "version": "60z",
-        "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=6892"
+        "version": "65b",
+        "description": [
+            "Bow Master has multiple cohesive builds. Please check the end game builds if you're confused by any of these paths."
         ],
         "items": {
-            "Frostbane": [],
+            "Stalker": [
+                "Frostbane",
+                "Flame Explosion"
+            ],
             "Grim Visage": [],
-            "Demonis, the Devil Lord's Ring": [],
-            "Vest of Protection": [],
-            "Slayer Boots": []
+            "Heart of Ifrit": [
+                "Ring of the Reaper",
+                "Ring of Nightmare"
+            ],
+            "Vest of Cyclone": [],
+            "Slayer Boots": [
+                "Wings of Fury"
+            ]
         }
     },
     {
@@ -633,16 +722,22 @@
         "type": "Mid Game",
         "order": 2,
         "stat": "AGI",
-        "version": "60z",
-        "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=6892"
+        "version": "65b",
+        "description": [
+            "If you're planning on going Agnitus and want to skip the Crimson Curse line, you can keep Heart of Ifrit until Heaven's Fist.",
+            "If you're planning on going Agnitus, you can sit on Slayer Boots until Storm."
         ],
         "items": {
-            "Flame Explosion": [],
-            "Grim Visage": [],
-            "Latea, the Ring of Chaos": [],
-            "Vest of Cyclone": [],
-            "Wings of Fury": []
+            "Pheles, the Bow of Skies": [
+                "Everfrostbane",
+                "Hellflame"
+            ],
+            "Eye of Wallachia": [],
+            "Ring of Strike": [
+                "Cold Ring of Death"
+            ],
+            "Vest of Storm": [],
+            "Wings of Slayer": []
         }
     },
     {
@@ -650,18 +745,24 @@
         "type": "Late Game",
         "order": 3,
         "stat": "AGI",
-        "version": "60z",
-        "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=6892"
+        "version": "65b",
+        "description": [
+            "Agnitus - While Demonic Fist at this point is better than Ring of Insanity, Crimson Curse will outpace it in the end game."
         ],
         "items": {
-            "Everfrostbane": [
-                "Hellflame"
+            "Pheles, the Bow of God": [
+                "Soulbane",
+                "Eternal Flame"
             ],
-            "Eye of Wallachia": [],
-            "Cold Ring of Death": [],
-            "Vest of Storm": [],
-            "Wings of Slayer": []
+            "Eye of the Reaper": [],
+            "Demonic Fist": [
+                "Ring of Insanity",
+                "Ring of Frozen Soul"
+            ],
+            "Vest of Divine Winds": [],
+            "Storm": [
+                "Wings of Night Lord"
+            ]
         }
     },
     {
@@ -669,63 +770,57 @@
         "type": "End Game - Agnitus",
         "order": 4,
         "stat": "AGI",
-        "version": "60z",
+        "version": "65b",
         "description": [
-            "Current BIS build. Focused heavily around DPS and is really good at it.",
-            "Must follow Ring of Insanity path for ring and Storm Path for wings."
-        ],
-        "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=6892"
+            "This is currently the BiS build that focuses heavily on DPS and is very consistent in such."
         ],
         "items": {
             "Agnitus, the Bow of Divine Fury": [],
             "Eye of the Reaper": [],
-            "Crimson Curse": [],
-            "Vest of Divine Winds": [],
+            "Demonic Fist": [
+                "Crimson Curse"
+            ],
+            "Astral Fury": [],
             "Bloodstorm": []
         }
     },
     {
         "for": "Bow Master",
-        "type": "End Game - Soulbane",
+        "type": "End Game - Spirit Flame",
         "order": 5,
         "stat": "AGI",
-        "version": "60z",
+        "version": "65b",
         "description": [
-            "Good for short and fast fights, good for burst but mediocre for dps"
-        ],
-        "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=6892"
+            "While this build is worse than Agnitus, it can perform competitively and does well on long fights, such as Gaia.",
+            "Technically, Crown of Cataclysm & Wings of Sacred Provenance are better for this build",
+            "However, they are generally far more expensive and due to some new items that are on the way, it's advised against these unless you have nothing else to farm."
         ],
         "items": {
-            "Soulbane": [],
-            "Eye of the Reaper": [],
-            "Ring of Frozen Soul": [
-                "Ring of the One"
+            "Spirit Flame": [],
+            "Eye of the Reaper": [
+                "Crown of Cataclysm"
             ],
-            "Vest of Divine Winds": [],
-            "Wings of Night Lord": []
+            "Ring of Desolate Soul": [],
+            "Astral Fury": [],
+            "Wings of Night Lord": [
+                "Wings of Sacred Provenance"
+            ]
         }
     },
     {
         "for": "Bow Master",
-        "type": "End Game - Eternal Flame",
+        "type": "End Game - Soulbane",
         "order": 6,
         "stat": "AGI",
-        "version": "60z",
+        "version": "65b",
         "description": [
-            "In longer fights like Gaia, Duke or very slow Agareth Runs it is better than Soulbane build and should be preferred over Soulbane build"
-        ],
-        "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=6892"
+            "Currently, this build is far behind the other two once you hit end game. While it is the strongest with Agareth drops, it simply doesn't have the upgrades past that to compete."
         ],
         "items": {
-            "Eternal Flame": [],
+            "Soulbane": [],
             "Eye of the Reaper": [],
-            "Ring of Frozen Soul": [
-                "Ring of the One"
-            ],
-            "Vest of Divine Winds": [],
+            "Ring of Desolate Soul": [],
+            "Astral Fury": [],
             "Wings of Night Lord": []
         }
     },
@@ -1010,6 +1105,9 @@
             "Minor Bosses",
             "Item in brackets are fillers."
         ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1SizS_Kmm1SEw8vFKBNAzcZoXBs5tX2n9ytVCv6my4Qc/edit?usp=sharing"
+        ],
         "items": {
             "Tepethia, the Crimson Sword of Requiem": [],
             "Grim Visage": [
@@ -1031,6 +1129,9 @@
             "Coin Bosses",
             "Item in brackets are fillers.",
             "Ring of Resonance/Time/Fate for double T or Ring of Nightmare/Strike/Insanity for stronger hitting attack/spells but at the cost of RNG."
+        ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1SizS_Kmm1SEw8vFKBNAzcZoXBs5tX2n9ytVCv6my4Qc/edit?usp=sharing"
         ],
         "items": {
             "Storm Reaver": [],
@@ -1056,6 +1157,9 @@
             "Farm the items in the bracket first as they are easier to get.",
             "Swap your armor based on what you need. Vest of Storm for damage and Grandine for survivability.",
             "Ring of Resonance/Time/Fate for double T or Ring of Nightmare/Strike/Insanity for stronger hitting attack/spells but at the cost of RNG."
+        ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1SizS_Kmm1SEw8vFKBNAzcZoXBs5tX2n9ytVCv6my4Qc/edit?usp=sharing"
         ],
         "items": {
             "Crimson Reaper": [
@@ -1084,6 +1188,9 @@
             "Ring of Resonance/Time/Fate for double T or Ring of Nightmare/Strike/Insanity for stronger hitting attack/spells but at the cost of RNG.",
             "Radiance of the One should only be crafted if you have finished your main items and have spare Mark of Lords."
         ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1SizS_Kmm1SEw8vFKBNAzcZoXBs5tX2n9ytVCv6my4Qc/edit?usp=sharing"
+        ],
         "items": {
             "Cosmic Reaper": [
                 "The Ender"
@@ -1111,6 +1218,9 @@
             "The real exercise for fingering -3Years",
             "9/10 would break my keyboard and fingers again -Ches",
             "Ring of Resonance/Time/Fate/Eternity for double T or Ring of Nightmare/Strike/Insanity/Crimson Curse for stronger hitting attack/spells but at the cost of RNG."
+        ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1SizS_Kmm1SEw8vFKBNAzcZoXBs5tX2n9ytVCv6my4Qc/edit?usp=sharing"
         ],
         "items": {
             "Heartrender": [
@@ -1344,16 +1454,82 @@
     },
     {
         "for": "Sword Enchanter",
-        "type": "DPS / buffer",
+        "type": "Early Game",
         "order": 1,
         "stat": "AGI",
-        "version": "60v",
-        "guidelink": [
-            "https://www.twrpg.com/viewtopic.php?f=4&t=6886"
+        "version": "65b",
+        "description": [
+            "Use alternative wings if debuff stackable"
         ],
+        "guidelink": [
+            "https://docs.google.com/document/d/13bLpSo2DdbubW67Z1t9PVtJqsRWmQ9ZGDgZpjW_Cny0/edit?usp=sharing"
+        ],
+        "items": {
+            "Asmodeus, the Archdevil's Greatsword": [],
+            "Horn of Devil": [],
+            "Purefrost Gauntlet": [],
+            "Vest of Cyclone": [],
+            "Wanderer's Cape": [
+                "Cape of Corrupt Flame"
+            ]
+        }
+    },
+    {
+        "for": "Sword Enchanter",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "AGI",
+        "version": "65b",
+        "description": [
+            "Use alternative wings if debuff stackable"
+        ],
+        "guidelink": [
+            "https://docs.google.com/document/d/13bLpSo2DdbubW67Z1t9PVtJqsRWmQ9ZGDgZpjW_Cny0/edit?usp=sharing"
+        ],
+        "items": {
+            "Espishu, the Sword of Eternity": [],
+            "Horn of Devil": [],
+            "Ring of Strike": [],
+            "Vest of Storm": [],
+            "Wings of Phoenix": [
+                "Cloak of the Fallen shadows"
+            ]
+        }
+    },
+    {
+        "for": "Sword Enchanter",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "AGI",
+        "version": "65b",
+        "description": [
+            "Use alternative wings if debuff stackable"
+        ],
+        "guidelink": [
+            "https://docs.google.com/document/d/13bLpSo2DdbubW67Z1t9PVtJqsRWmQ9ZGDgZpjW_Cny0/edit?usp=sharing"
+        ],
+        "items": {
+            "The Ender": [],
+            "Horn of Demon God": [],
+            "Demonic Fist": [],
+            "Vest of Divine Winds": [],
+            "Wings of Flame Lord": [
+                "Cape of Deep Abyss"
+            ]
+        }
+    },
+    {
+        "for": "Sword Enchanter",
+        "type": "End Game",
+        "order": 4,
+        "stat": "AGI",
+        "version": "65b",
         "description": [
             "Crimson Curse is abit more damage but much less survivability, not worth the mats.",
-            "Use Cape of Deep Abyss if debuff stackable."
+            "Use alternative wings if debuff stackable"
+        ],
+        "guidelink": [
+            "https://docs.google.com/document/d/13bLpSo2DdbubW67Z1t9PVtJqsRWmQ9ZGDgZpjW_Cny0/edit?usp=sharing"
         ],
         "items": {
             "Heartrender": [],
@@ -1361,8 +1537,8 @@
             "Demonic Fist": [
                 "Crimson Curse"
             ],
-            "Vest of Divine Winds": [],
-            "Cape of Insatiable Hunger": [
+            "Astral Fury": [],
+            "Wings of Flame Lord": [
                 "Cape of Deep Abyss"
             ]
         }
@@ -1593,6 +1769,9 @@
         "description": [
             "Just equip anything you found the best and start gathering whatever is necessary for future crafts, part of it is below."
         ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1CSvIrxIjKEaCpjYpalQn316rB7uYawj9nMtmVMY5Ako/edit?usp=sharing"
+        ],
         "items": {
             "Pumpkin Rod": [
                 "Benziena, the Rod of Earth",
@@ -1618,6 +1797,9 @@
             "Coin Gear",
             "Optional gears will be used later on but not worth to use them now, gather them first.",
             "There are two Benziena, one for Staff of Domination and one for the spec. (Rush Earthen Pillar mainly)"
+        ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1CSvIrxIjKEaCpjYpalQn316rB7uYawj9nMtmVMY5Ako/edit?usp=sharing"
         ],
         "items": {
             "Staff of Contagion": [
@@ -1650,6 +1832,9 @@
         "description": [
             "Optional gears will be used later on but not worth to use them now, gather them first."
         ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1CSvIrxIjKEaCpjYpalQn316rB7uYawj9nMtmVMY5Ako/edit?usp=sharing"
+        ],
         "items": {
             "Staff of Domination": [
                 "Benziena, the Earthen Heart"
@@ -1680,6 +1865,9 @@
             "Robe of Storm is only to prepare for its upgrade, keep using Medea. Do not use Ring of Time as an active ring, it will only be used for Ring of Divine Winds although you can skip it if you will go only for Ring of Frozen Soul",
             "Although I like Crown of Great Rage and its other upgrades, you can keep using Prophetia if you'd like.",
             "You do not have many upgrades until Agareth, persevere through my friend."
+        ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1CSvIrxIjKEaCpjYpalQn316rB7uYawj9nMtmVMY5Ako/edit?usp=sharing"
         ],
         "items": {
             "Staff of Plague": [
@@ -1717,6 +1905,9 @@
             "Helm - Preference, but Prophetia is likely better right here, Crown of Absolute Zero for CC immunity, Crown of Extreme Anger will be used for Attack speed buff with item swap (not mandatory craft)",
             "Wings - Curse of Greed if you have good supports and can afford the extra damage taken. Soul Devourer otherwise which will give you a cleanse, defensive stats etc. I do not like Wings of Frost Lord anymore."
         ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1CSvIrxIjKEaCpjYpalQn316rB7uYawj9nMtmVMY5Ako/edit?usp=sharing"
+        ],
         "items": {
             "Ethenos, the Staff of Chaos": [
                 "The Ender",
@@ -1745,7 +1936,7 @@
         "stat": "INT",
         "version": "61w2",
         "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=6452"
+            "https://docs.google.com/document/d/1CSvIrxIjKEaCpjYpalQn316rB7uYawj9nMtmVMY5Ako/edit?usp=sharing"
         ],
         "description": [
             "Why are you even reading this?",
@@ -1971,6 +2162,9 @@
         "order": 1,
         "stat": "INT",
         "version": "62s2",
+        "guidelink": [
+            "https://docs.google.com/document/d/1Ij2vhaAGys2bi6iOHP2rLmszsR2qQ6mqlaM1rapCEPY/edit?usp=sharing"
+        ],
         "items": {
             "Belius, the Archdevil's Staff": [],
             "Horns of Destruction": [],
@@ -1985,6 +2179,9 @@
         "order": 2,
         "stat": "INT",
         "version": "62s2",
+        "guidelink": [
+            "https://docs.google.com/document/d/1Ij2vhaAGys2bi6iOHP2rLmszsR2qQ6mqlaM1rapCEPY/edit?usp=sharing"
+        ],
         "items": {
             "Parasitic Staff": [],
             "Crown of Serenity": [],
@@ -1999,6 +2196,9 @@
         "order": 3,
         "stat": "INT",
         "version": "62s2",
+        "guidelink": [
+            "https://docs.google.com/document/d/1Ij2vhaAGys2bi6iOHP2rLmszsR2qQ6mqlaM1rapCEPY/edit?usp=sharing"
+        ],
         "items": {
             "The Ender": [],
             "Horn of Demon God": [],
@@ -2013,6 +2213,9 @@
         "order": 4,
         "stat": "INT",
         "version": "62s2",
+        "guidelink": [
+            "https://docs.google.com/document/d/1Ij2vhaAGys2bi6iOHP2rLmszsR2qQ6mqlaM1rapCEPY/edit?usp=sharing"
+        ],
         "items": {
             "Fulminata, the Bringer of Storms": [],
             "Horn of Dragon": [],
@@ -2226,6 +2429,9 @@
         "order": 1,
         "stat": "INT",
         "version": "62s2",
+        "guidelink": [
+            "https://docs.google.com/document/d/15W3w2BzMXtERvf4xE8Q7Ji15IZ49GEmaNcbJuN_xL5A/edit?usp=sharing"
+        ],
         "items": {
             "Staff of Contagion": [],
             "Prophetia, the Source of Mana": [],
@@ -2240,6 +2446,9 @@
         "order": 2,
         "stat": "INT",
         "version": "62s2",
+        "guidelink": [
+            "https://docs.google.com/document/d/15W3w2BzMXtERvf4xE8Q7Ji15IZ49GEmaNcbJuN_xL5A/edit?usp=sharing"
+        ],
         "items": {
             "Parasitic Staff": [],
             "Prophetia, the Greater Source of Mana": [],
@@ -2254,6 +2463,9 @@
         "order": 3,
         "stat": "INT",
         "version": "62s2",
+        "guidelink": [
+            "https://docs.google.com/document/d/15W3w2BzMXtERvf4xE8Q7Ji15IZ49GEmaNcbJuN_xL5A/edit?usp=sharing"
+        ],
         "items": {
             "Staff of Plague": [],
             "Prophetia, the Origin of Knowledge": [],
@@ -2268,6 +2480,9 @@
         "order": 4,
         "stat": "INT",
         "version": "62s2",
+        "guidelink": [
+            "https://docs.google.com/document/d/15W3w2BzMXtERvf4xE8Q7Ji15IZ49GEmaNcbJuN_xL5A/edit?usp=sharing"
+        ],
         "items": {
             "Heartrender": [],
             "Crescendo of Madness": [],
