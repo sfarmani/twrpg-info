@@ -240,8 +240,8 @@
             "Requiem, the Armor of Lamentation": [
                 "Frostshard Armor"
             ],
-            "Cloak of the Fallen Shadows": [
-                "Pure Crystal Wings"
+            "Pure Crystal Wings": [
+                "Cloak of the Fallen Shadows"
             ]
         }
     },
@@ -258,11 +258,11 @@
             "Calamity": [],
             "Horn of Demon God": [],
             "Ring of the One": [],
-            "Hades, the Armor of Despair": [
-                "Voidshard Armor"
+            "Voidshard Armor": [
+                "Hades, the Armor of Despair"
             ],
-            "Cape of Deep Abyss": [
-                "Archangel Wings"
+            "Archangel Wings": [
+                "Cape of Deep Abyss"
             ]
         }
     },
@@ -278,12 +278,12 @@
         "items": {
             "Calamity": [],
             "Horn of Dragon": [],
-            "Crimson Curse": [],
-            "Cage of Twisted Souls": [
-                "Dread Incarnate"
+            "Seal of Corruption": [],
+            "Dread Incarnate": [
+                "Cage of Twisted Souls"
             ],
-            "Cape of Deep Abyss": [
-                "Wings of Cosmos"
+            "Wings of Cosmos": [
+                "Cape of Deep Abyss"
             ]
         }
     },
@@ -1256,82 +1256,153 @@
     },
     {
         "for": "Shooter",
-        "type": "Damage",
+        "type": "Early Game",
         "order": 1,
         "stat": "AGI",
-        "version": "61y",
-        "description": [
-            "if you want an int variant of damage @phony; and i'll tell you why you're wrong."
-        ],
+        "version": "65b",
+        "items": {
+            "Devil Blaster": [],
+            "Grim Visage": [
+            ],
+            "Ring of the Reaper": [],
+            "Vest of Cyclone": [],
+            "Corrupt Crystal Wings": []
+        }
+    },
+    {
+        "for": "Shooter",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "AGI",
+        "version": "65b",
+        "items": {
+            "Fiend Chaser": [],
+            "Crown of Composure": [],
+            "Cold Ring of Death": [],
+            "Vest of Storm": [],
+            "Pure Crystal Wings": []
+        }
+    },
+    {
+        "for": "Shooter",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "AGI",
+        "version": "65b",
         "items": {
             "Chrono Chaser": [],
-            "Crown of Transcendence": [
-            ],
+            "Crown of Absolute Zero": [],
+            "Ring of Frozen Soul": [],
+            "Vest of Divine Winds": [],
+            "Archangel Wings": []
+        }
+    },
+    {
+        "for": "Shooter",
+        "type": "Late Game",
+        "order": 4,
+        "stat": "AGI",
+        "version": "65b",
+        "items": {
+            "Soul Chaser": [],
+            "Crown of Transcendance": [],
             "Ring of Desolate Soul": [],
-            "Nevedium, the Armor of Demonblood": [],
+            "Astral Fury": [],
             "Wings of Cosmos": []
         }
     },
     {
         "for": "Shooter",
-        "type": "Healing focused support",
-        "order": 2,
+        "type": "Early Game",
+        "order": 5,
         "stat": "INT",
-        "version": "61y",
+        "version": "65b",
         "description": [
-            "Items can vary depending on team comp, swap to Protection of the Fairies to revive allies."
+            "Alternative weapon offers less team damage but more survivability"
         ],
         "items": {
-            "Rainmaker": [],
-            "Crown of Cleansing": [
-                "Eye of the Flame Lord",
-                "Hood of Apocalypse"
+            "Crimson Cross": [
+                "Water Cannon"
             ],
-            "Ring of Hope": [
-                "Heirloom of Lazarus",
-                "Nebula Rose",
-                "Horn of God"
-            ],
-            "Jupiter, the Robe of Heavens": [
-                "Frost Herald's Garment",
-                "Harmony of Sky and Earth"
-            ],
-            "Guardian Angel": [
-                "Wings of Immortal",
-                "Protection of the Fairies"
-            ]
+            "void eye": [],
+            "Azathos, the Pipe of Chaos": [],
+            "Frozen Robe": [],
+            "Frozen Heart": []
         }
     },
     {
         "for": "Shooter",
-        "type": "TOP ECHELON AUXILIARY",
-        "order": 3,
+        "type": "Mid Game",
+        "order": 6,
         "stat": "INT",
-        "version": "61y",
+        "version": "65b",
         "description": [
-            "Swap items according to team composition.",
-            "Revive non-chad gamers with Protection of The Fairies.",
-            "Can use damage items to attribute to greater bursts."
+            "Alternative weapon offers less team damage but more survivability",
+            "Alternative items are when main items are used"
         ],
         "items": {
-            "Abyss Fall": [],
+            "Crimson Star": [
+                "Hydro Buster"
+            ],
+            "Crown of Serenity": [],
+            "Azathos, the Pipe of Chaos": [
+                "Ring of Composure"
+            ],
+            "Diana, the Robe of Holy Maiden": [
+                "Winter Robe"
+            ],
+            "Soul of the Dead": []
+        }
+    },
+    {
+        "for": "Shooter",
+        "type": "Late Game",
+        "order": 7,
+        "stat": "INT",
+        "version": "65b",
+        "description": [
+            "Alternative weapon offers less team damage but more survivability",
+            "Alternative items are when main items are used"
+        ],
+        "items": {
+            "Cosmic Star": [
+                "Rainmaker"
+            ],
+            "Eye of the Flame lord": [],
+            "Horn of God": [
+                "Ring of Despair"
+            ],
+            "Jupiter, the Robe of Heavens": [],
+            "Protection of the Fairies": []
+        }
+    },
+    {
+        "for": "Shooter",
+        "type": "End Game",
+        "order": 8,
+        "stat": "INT",
+        "version": "65b",
+        "description": [
+            "Alternative weapon offers less team damage but more survivability",
+            "Alternative items are when main items are used",
+            "Heirloom of Lazarus if more survivability is needed"
+        ],
+        "items": {
+            "Abyss Fall": [
+                "Rainmaker"
+            ],
             "Crown of Cleansing": [
-                "Eye of the Flame Lord",
-                "Prophetia, the Origin of Knowledge"
+                "Eye of the Flame Lord"
             ],
-            "Ring of Despair": [
-                "Heirloom of Lazarus",
-                "Nebula Rose",
-                "Horn of God"
+            "Heart of Life": [
+                "Ring of Despair",
+                "Heirloom of Lazarus"
             ],
-            "Frost Herald's Garment": [
-                "Jupiter, the Robe of Heavens",
-                "Thanatos, the Robe of Hell"
+            "Jupiter, the Robe of Heavens": [
+                "Frost Herald's Garment"
             ],
             "Guardian Angel": [
-                "Wings of Immortal",
-                "Protection of the Fairies",
-                "Wings of Cosmos"
+                "Thread of Life"
             ]
         }
     },

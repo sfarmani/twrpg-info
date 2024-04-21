@@ -22961,7 +22961,7 @@
       "affinitydarkpercent": 0.06,
       "passive": [
         "On skill cast, activates Nightmare",
-        "Increases ATK DMG by 4444 and MP regen by 444 for 4 seconds",
+        "Increases ATK DMG by 4444 and INT by 444 for 4 seconds",
         "Cooldown: 12 seconds"
       ],
       "active": [
