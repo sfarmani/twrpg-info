@@ -1299,7 +1299,7 @@
     },
     {
         "for": "Shooter",
-        "type": "Late Game",
+        "type": "End Game",
         "order": 4,
         "stat": "AGI",
         "version": "65b",
