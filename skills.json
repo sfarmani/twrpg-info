@@ -2927,7 +2927,7 @@
         "active": [
             "Swiftly move by riding on the wind.",
             "Moves at least 400 units",
-            "Increases movement speed and reduces damage taken by 40% for 2 seconds after casting",
+            "Increases movement speed and reduces damage taken by 40% for 1.5 seconds after casting",
             "Leaves behind a feather that you can recall back to"
         ]
     },
@@ -2977,11 +2977,11 @@
         "cooldown": 6,
         "order": 4,
         "active": [
-            "Send out gentle winds infused with mana.",
+            "Sends out gentle winds infused with mana.",
             "INT X 10 magic damage",
             "Upon reaching allies, heal INT X 2.5 HP",
             "Cooldown reset upon casting Feather of Aeolus",
-            "When combined, forms a tornado for 5 seconds, dealing Attack Damage X 2 magic damage per second and activating Grace of Zephyrus (scales with attack speed)"
+            "When combined, forms a tornado for 5 seconds, dealing Attack Damage X 2 magic damage per second and activating Grace of Zephyrus (scales with attack speed))"
         ]
     },
     {
@@ -3012,13 +3012,13 @@
         "color": "aef4c7",
         "hotkey": "[R]",
         "icon": "WindMageR",
-        "cooldown": 5,
+        "cooldown": 3,
         "order": 6,
         "active": [
-            "Call down a light breeze on target area.",
-            "Creates a field that lasts for 40 seconds",
-            "Heals allies for 25 + INT X 0.25 per second",
-            "Increase target's HP by 10%, skill damage by (5 + INT / 600)% for 5 seconds"
+            "Calls down a light breeze on target area.",
+            "Creates a field that lasts for 30 seconds",
+            "Heals allies for INT X 0.3 HP per second",
+            "Increase target's HP by 10%, skill damage by (6 + INT / 500)% for 5 seconds"
         ]
     },
     {
@@ -3028,7 +3028,7 @@
         "color": "aef4c7",
         "hotkey": "[T]",
         "icon": "WindMageT",
-        "cooldown": 45,
+        "cooldown": 40,
         "order": 7,
         "active": [
             "Blows a horn gifted with divine powers.",
@@ -3062,10 +3062,10 @@
         "order": 9,
         "passive": [
             "The use of mana allows this deity to temporarily stay in the middle realm.",
-            "Increased magic defense",
+            "Magic defense increased by 80%",
             "Immunity to instant death, debuff and knockback",
             "Disappears when HP or MP runs out",
-            "Applies barrier to allies within 750 radius before disappearing"
+            "Applies barrier absorbing INT X 5 damage for 4 seconds to nearby allies before disappearing"
         ]
     },
     {
@@ -3078,9 +3078,9 @@
         "order": 10,
         "active": [
             "Vayu's blessing that heals wounds and bestows revitalization.",
-            "Heals for INT X 0.5 per second",
-            "Increases healed allies' magic defense by 25%",
-            "Consumes 3 MP per second"
+            "Consumes 3 MP per second",
+            "Heals nearby allies for INT X 0.5 HP per second",
+            "Increases affected allies' magic defense by 25%"
         ]
     },
     {
@@ -3094,8 +3094,9 @@
         "order": 11,
         "active": [
             "The anger of Vayu sweeps across, obliterating any foes in its path.",
-            "Deals (AGI + INT) X 7.5 magic damage to enemies hit",
-            "Drags enemies along"
+            "(AGI + INT) X 20 magic damage",
+            "Drags enemies along",
+            "Consecutive casts within 6 seconds cost 20 MP"
         ]
     },
     {
@@ -3105,7 +3106,7 @@
         "color": "aef4c7",
         "hotkey": "[F] → [E]",
         "icon": "WindMageF_E",
-        "cooldown": 20,
+        "cooldown": 15,
         "order": 12,
         "active": [
             "Bestows the blessing of life.",
@@ -3328,8 +3329,7 @@
             "Grants immunity to slow effects",
             "Increases damage dealt by target by 30%",
             "Decreases damage taken by target by 60%",
-            "Heals for Max HP X 30% per second",
-            "Except for self, the target cannot be affected by Indomitable Strength again for 120 seconds"
+            "Heals for Max HP X 30% per second"
         ]
     },
     {
@@ -4592,9 +4592,9 @@
         "order": 3,
         "passive": [
             "An aspect of protector who defends his allies.",
-            "Increases nearby allies' magic defense by 15%",
-            "Judgment - Reduces damage dealt by target by 25% for 2 seconds",
-            "Sigil - Grants a shield that absorbs (STR + INT X 2) damage for 4 seconds",
+            "Increases nearby allies' magic defense by 10%",
+            "Judgment - Reduces damage dealt by target by 20% for 2 seconds",
+            "Sigil - Grants a shield that absorbs (STR + INT X 2) damage for 3 seconds",
             "Devotion: When chained with Holy Grace, shield amount and duration is increased by 100%"
         ]
     },
@@ -4721,7 +4721,7 @@
             "Summons a holy shield to protect yourself from harm.",
             "For 5 seconds, regenerates 15% HP per second and decreases damage taken by 80%",
             "On recast, deals (STR X 25 X elapsed seconds) magic damage to nearby enemies and stuns for 2.5 seconds",
-            "Devotion: Applies to nearby allies"
+            "Devotion: Cooldown is increased by 10 seconds but affects nearby allies as well"
         ]
     },
     {
@@ -5047,7 +5047,7 @@
         "active": [
             "Shoots stars out of your broom.",
             "INT X 7.5 magic damage",
-            "Heals for INT X 1.5 (50% effectiveness for self)",
+            "Heals for INT X 1.5",
             "Refills 1 charge every 6 seconds (up to 4 charges)"
         ]
     },

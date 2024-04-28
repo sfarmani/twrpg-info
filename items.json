@@ -8,27 +8,7 @@
     "grade": 0,
     "type": "Material",
     "color": "A52A2A",
-    "required_by": [
-      "Prelude to Demise",
-      "Aeon Sphere",
-      "Living Flame",
-      "Shadow Waltz",
-      "Harvester's Mask",
-      "Ring of Genesis",
-      "Soul Breath",
-      "Chains of Torment",
-      "Lightbringer",
-      "Blazing Sun",
-      "Duskblade",
-      "Soul Torch",
-      "Wings of the Void",
-      "Diabolic Mask",
-      "Echoes of the Void",
-      "Soul Fist",
-      "Soulstorm",
-      "Divine Aegis",
-      "Prophetia, the Forbidden Truth"
-    ]
+    "required_by": []
   },
   {
     "id": "I0B9",
@@ -1514,7 +1494,7 @@
       "damage": 650,
       "agi": 85,
       "passive": [
-        "10% Chance to amplify attack damage by 2x for 5 seconds on attack"
+        "10% Chance to amplify ATK DMG by 2x for 5 seconds on attack"
       ]
     }
   },
@@ -1535,7 +1515,7 @@
       "damage": 650,
       "agi": 85,
       "passive": [
-        "10% Chance to amplify attack damage by 2x for 5 seconds on attack"
+        "10% Chance to amplify ATK DMG by 2x for 5 seconds on attack"
       ]
     }
   },
@@ -2011,7 +1991,7 @@
       "mainstat": 85,
       "active": [
         "On attack, 8% chance to activate Blessing of Flame",
-        "Increases damage by 500 and main stat by 50 for 5 seconds"
+        "Increases damage by 500 and MAIN STAT by 50 for 5 seconds"
       ]
     }
   },
@@ -5182,7 +5162,7 @@
       "attackspeedpercent": -0.5,
       "critchancepercent": 0.1,
       "active": [
-        "On use, increases attack damage by 4500 and STR by 300 for 8 seconds",
+        "On use, increases ATK DMG by 4500 and STR by 300 for 8 seconds",
         "Cooldown: 25 seconds"
       ]
     }
@@ -6155,7 +6135,7 @@
       "healreceivedpercent": -0.20,
       "passive": [
         "On attack, 5% chance to activate Nightmare",
-        "Increases attack damage by 4500, main stat by 270, and HP regen by 300 for 6 seconds"
+        "Increases ATK DMG by 4500, MAIN STAT by 270, and HP regen by 300 for 6 seconds"
       ]
     }
   },
@@ -6500,7 +6480,7 @@
       "active": [
         "On use, consumes HP to activate Blessing",
         "Creates a shield for all nearby allies for 8 seconds",
-        "(0.6 X 10% max HP) + (main stat X 1.5) shield",
+        "(0.6 X 10% max HP) + (MAIN STAT X 1.5) shield",
         "Cooldown: 60 seconds"
       ]
     }
@@ -6897,7 +6877,8 @@
     "dropped_by": [
       "Duke Lazarus",
       "Gaia",
-      "Arcane Construct"
+      "Arcane Construct",
+      "Styrix, the Harvester of Souls"
     ],
     "required_by": [
       "Storage Expansion Coupon",
@@ -6911,15 +6892,7 @@
     "grade": 0,
     "type": "Coin",
     "color": "C0C0C0",
-    "droprate": [
-      0.001,
-      0.001,
-      0.001,
-      0.0015,
-      0.0015,
-      0.001,
-      0.0015
-    ],
+    "droprate": 0.0015,
     "recipe": [
       {
         "Prius Gold Coin": 5
@@ -7400,7 +7373,7 @@
       "dtpercent": -0.12,
       "passive": [
         "On attack, 8% chance to activate Perseverance",
-        "Heals 40% HP, increases attack speed by 50%, and main stat by 30 per second for 10 seconds",
+        "Heals 40% HP, increases ATK SPD by 50%, and MAIN STAT by 30 per second for 10 seconds",
         "Cooldown: 30 seconds"
       ]
     }
@@ -7640,7 +7613,7 @@
     "stats": {
       "allstat": 280,
       "passive": [
-        "On skill cast, increases attack speed by 15% and skill damage by 3% for 6 seconds (stacks up to 4 times)"
+        "On skill cast, increases ATK SPD by 15% and skill damage by 3% for 6 seconds (stacks up to 4 times)"
       ],
       "active": [
         "On use, summons a storm",
@@ -7772,7 +7745,7 @@
       "passive": [
         "On attack after skill cast (within 2 seconds), activates Power of Skies",
         "Every 4th attack deals (MAIN STAT X 2) pure damage",
-        "Increases main stat by 50 for 4 seconds",
+        "Increases MAIN STAT by 50 for 4 seconds",
         "Cooldown: 16 seconds"
       ],
       "active": [
@@ -7940,7 +7913,7 @@
       "skilldamagepercent": 0.05,
       "passive": [
         "Resonates with nearby allies to become stronger",
-        "For each nearby ally, increases attack damage by 525 and skill damage by 1%",
+        "For each nearby ally, increases ATK DMG by 525 and skill damage by 1%",
         "12% chance to deal (MAIN STAT X 5) magic damage"
       ]
     }
@@ -8232,7 +8205,7 @@
       "passive": [
         "Releases Grudge every 6 seconds",
         "Deals (ATK DMG X 1.25) magic damage around user",
-        "Increases attack damage by 6000 for 1.5 seconds"
+        "Increases ATK DMG by 6000 for 1.5 seconds"
       ]
     }
   },
@@ -8649,7 +8622,8 @@
       "Crimson Curse",
       "Ring of Eternity",
       "Wings of Sacred Provenance",
-      "Spirit Flame"
+      "Spirit Flame",
+      "Lightbringer"
     ]
   },
   {
@@ -8678,7 +8652,7 @@
       "passive": [
         "~5% Chance to activate Elemental Fury on attack and skill cast",
         "Requires 1 second cooldown interval for checking the proc",
-        "Increases main stat by 2% for 30 seconds"
+        "Increases MAIN STAT by 2% for 30 seconds"
       ]
     }
   },
@@ -8842,7 +8816,7 @@
       "passive": [
         "~5% Chance to activate Elemental Fury on attack and skill cast",
         "Requires 1 second cooldown interval for checking the proc",
-        "Increases main stat by 2% for 30 seconds"
+        "Increases MAIN STAT by 2% for 30 seconds"
       ]
     }
   },
@@ -8885,7 +8859,9 @@
       "Ring of Frozen Soul",
       "Endless Snow",
       "Heirloom of Lazarus",
-      "Crimson Curse"
+      "Crimson Curse",
+      "Soul Torch",
+      "Wings of the Void"
     ],
     "stats": {
       "allstat": 360,
@@ -9011,7 +8987,7 @@
       "passive": [
         "~5% Chance to activate Elemental Fury on attack and skill cast",
         "Requires 1 second cooldown interval for checking the proc",
-        "Increases main stat by 2% for 30 seconds"
+        "Increases MAIN STAT by 2% for 30 seconds"
       ]
     }
   },
@@ -9057,7 +9033,9 @@
       "Exitium, the Armor of Ruin",
       "Ring of Eternity",
       "Wings of Cosmos",
-      "Crown of Cataclysm"
+      "Crown of Cataclysm",
+      "Diabolic Mask",
+      "Prophetia, the Forbidden Truth"
     ],
     "stats": {
       "mainstat": 405,
@@ -9066,7 +9044,7 @@
       "healreceivedpercent": -0.25,
       "passive": [
         "On dealing damage, activates Greed",
-        "When in combat for 5 seconds, increases attack speed and damage output by 1%",
+        "When in combat for 5 seconds, increases ATK SPD and damage output by 1%",
         "Also increases damage taken by 2%",
         "Can be stacked up to 25 times",
         "Cooldown: 1 second"
@@ -9186,7 +9164,8 @@
       "Seal of Corruption",
       "Gate of Abyss",
       "Crown of Transcendance",
-      "Bloodstorm"
+      "Bloodstorm",
+      "Wings of the Void"
     ]
   },
   {
@@ -9253,7 +9232,8 @@
       "Akhelius, the Staff of Duality",
       "Crown of Cataclysm",
       "Thread of Life",
-      "Bag of All Evils"
+      "Bag of All Evils",
+      "Soulstorm"
     ],
     "stats": {
       "mainstat": 420,
@@ -9297,7 +9277,9 @@
       "Spirit Flame",
       "Blood Devourer",
       "Call of Gehenna",
-      "Duskblade"
+      "Duskblade",
+      "Prelude to Demise",
+      "Harvester's Mask"
     ]
   },
   {
@@ -9330,7 +9312,11 @@
       "Crown of Transcendance",
       "Ring of Malevolence",
       "Astral Fury",
-      "Wings of Sacred Provenance"
+      "Wings of Sacred Provenance",
+      "Lightbringer",
+      "Blazing Sun",
+      "Soul Torch",
+      "Divine Aegis"
     ]
   },
   {
@@ -9362,7 +9348,9 @@
       "Bell of Divinity",
       "Living Flame",
       "Soul Chaser",
-      "Exitium, the Armor of Ruin"
+      "Exitium, the Armor of Ruin",
+      "Arch Druid Robe",
+      "Soul Breath"
     ]
   },
   {
@@ -9399,7 +9387,9 @@
       "Crown of Cataclysm",
       "Thread of Life",
       "Keeper of the Grove",
-      "Astral Fury"
+      "Astral Fury",
+      "Living Flame",
+      "Soul Breath"
     ],
     "stats": {
       "armor": 260,
@@ -9439,7 +9429,12 @@
       "Call of Gehenna",
       "Soul Chaser",
       "Bag of All Evils",
-      "Duskblade"
+      "Duskblade",
+      "Blazing Sun",
+      "Soul Torch",
+      "Ring of Genesis",
+      "Soulstorm",
+      "Living Flame"
     ]
   },
   {
@@ -9463,7 +9458,13 @@
       "Crown of Transcendance",
       "Call of Gehenna",
       "Ring of Malevolence",
-      "Keeper of the Grove"
+      "Keeper of the Grove",
+      "Diabolic Mask",
+      "Prophetia, the Forbidden Truth",
+      "Lightbringer",
+      "Divine Aegis",
+      "Wings of the Void",
+      "Arch Druid Robe"
     ]
   },
   {
@@ -9490,7 +9491,11 @@
       "Blood Devourer",
       "Aeon Sphere",
       "Soul Chaser",
-      "Duskblade"
+      "Duskblade",
+      "World Sunderer",
+      "Harvester's Mask",
+      "Echoes of the Void",
+      "Soul Breath"
     ]
   },
   {
@@ -9524,7 +9529,9 @@
       "Call of Gehenna",
       "Keeper of the Grove",
       "Thread of Life",
-      "Dread Incarnate"
+      "Dread Incarnate",
+      "Lightbringer",
+      "Harvester's Mask"
     ],
     "stats": {
       "armor": 150,
@@ -9554,7 +9561,16 @@
       "Blood Devourer",
       "Shadow Waltz",
       "Astral Fury",
-      "Bag of All Evils"
+      "Bag of All Evils",
+      "Diabolic Mask",
+      "Chains of Torment",
+      "World Sunderer",
+      "Prelude to Demise",
+      "Blazing Sun",
+      "Divine Aegis",
+      "Ring of Genesis",
+      "Soulstorm",
+      "Soul Breath"
     ]
   },
   {
@@ -9579,7 +9595,13 @@
       "Astral Fury",
       "Soul Chaser",
       "Bag of All Evils",
-      "Duskblade"
+      "Duskblade",
+      "Prophetia, the Forbidden Truth",
+      "Soul Torch",
+      "Soulstorm",
+      "Wings of the Void",
+      "Arch Druid Robe",
+      "Echoes of the Void"
     ]
   },
   {
@@ -9588,6 +9610,120 @@
     "koreanname": "기계 토큰",
     "dropped_by": [
       "Arcane Construct"
+    ],
+    "rank": "none",
+    "grade": 0,
+    "type": "Token",
+    "color": "733CBE",
+    "droprate": 0.0001
+  },
+  {
+    "id": "rlif",
+    "name": "Grim Scythe",
+    "koreanname": "그림 사이드",
+    "description": "A peculiar weapon that severs souls from mortals",
+    "dropped_by": [
+      "Styrix, the Harvester of Souls"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Melee)",
+    "color": "733CBE",
+    "level": 100,
+    "droprate": 0.004,
+    "required_by": [
+      "Lightbringer",
+      "World Sunderer",
+      "Duskblade",
+      "Prelude to Demise"
+    ],
+    "stats": {
+      "damage": 9400,
+      "mainstat": 960,
+      "skilldamagepercent": 0.15,
+      "affinitydarkpercent": 0.05,
+      "passive": [
+        "On skill cast, activates Grim Reaper",
+        "Deals (MAIN STAT X 7.5) magic damage to nearby enemies",
+        "Cooldown: 1.5s"
+      ],
+      "active": [
+        "On use, activates Culling",
+        "Applies Mark of Death to nearby enemies",
+        "On re-use or after 5 seconds, consumes Mark of Death on all targets and deals (MAIN STAT X 50 + 15% of damage dealt to target by your skills) magic damage",
+        "Cooldown: 60s"
+      ]
+    }
+  },
+  {
+    "id": "I02V",
+    "name": "Sinister Skull",
+    "koreanname": "불길한 해골",
+    "dropped_by": [
+      "Styrix, the Harvester of Souls"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.006,
+    "required_by": [
+      "Shadow Waltz",
+      "Diabolic Mask",
+      "Prophetia, the Forbidden Truth",
+      "Soul Fist",
+      "Chains of Torment"
+    ]
+  },
+  {
+    "id": "I05K",
+    "name": "Lantern of Souls",
+    "koreanname": "영혼의 종",
+    "dropped_by": [
+      "Styrix, the Harvester of Souls"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.006,
+    "required_by": [
+      "Blazing Sun",
+      "Soul Torch",
+      "Divine Aegis",
+      "Ring of Genesis",
+      "Soulstorm",
+      "Wings of the Void"
+    ]
+  },
+  {
+    "id": "I05H",
+    "name": "Spirit of Damnation",
+    "koreanname": "저주받은 혼",
+    "dropped_by": [
+      "Styrix, the Harvester of Souls"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.006,
+    "required_by": [
+      "Aeon Sphere",
+      "Shadow Waltz",
+      "Arch Druid Robe",
+      "Harvester's Mask",
+      "Echoes of the Void",
+      "Living Flame",
+      "Soul Breath"
+    ]
+  },
+  {
+    "id": "I0QE",
+    "name": "Soul Token",
+    "koreanname": "영혼의 토큰",
+    "dropped_by": [
+      "Styrix, the Harvester of Souls"
     ],
     "rank": "none",
     "grade": 0,
@@ -10555,7 +10691,7 @@
         "Activates Blood Release on every 14th attack",
         "Heals user for (250 + MAIN STAT X 0.6) HP and activating a random Wrath effect",
         "Red Wrath: deals (MAIN STAT X 4.25) magic splash damage",
-        "Green Wrath: reduces enemy movement and attack speed by 66% for 3 seconds, deals (MAIN STAT X 2.25) magic damage in an AoE, and stuns non-boss units for 0.25 seconds"
+        "Green Wrath: reduces enemy movement and ATK SPD by 66% for 3 seconds, deals (MAIN STAT X 2.25) magic damage in an AoE, and stuns non-boss units for 0.25 seconds"
       ]
     }
   },
@@ -10663,7 +10799,7 @@
       "hp": 1000,
       "passive": [
         "On skill cast, empower nearby allies for 4 seconds",
-        "Increases attack speed by 12%, skill damage by 6% [Type-B], and HP regen by 45"
+        "Increases ATK SPD by 12%, skill damage by 6% [Type-B], and HP regen by 45"
       ]
     }
   },
@@ -11810,7 +11946,7 @@
         "Activates Blood Release on every 14th attack",
         "Heals user for (250 + MAIN STAT X 0.6) HP and activates a random Wrath effect",
         "Red Wrath: deals (MAIN STAT X 4.25) magic damage in an AoE",
-        "Green Wrath: reduces target movement and attack speed by 66% for 3 seconds, deals (MAIN STAT X 2.25) magic damage in an AoE, and stuns non-boss units for 0.25 seconds"
+        "Green Wrath: reduces target movement and ATK SPD by 66% for 3 seconds, deals (MAIN STAT X 2.25) magic damage in an AoE, and stuns non-boss units for 0.25 seconds"
       ]
     }
   },
@@ -11859,7 +11995,7 @@
       ],
       "active": [
         "On use, activates Anger",
-        "Increases attack speed by 50%, STR by 30, and skill damage by 1% per 0.5 ~ 1 seconds while draining user's HP",
+        "Increases ATK SPD by 50%, STR by 30, and skill damage by 1% per 0.5 ~ 1 seconds while draining user's HP",
         "Stacks up to 10 times and drains (240 + seconds elapsed X 120) HP per second",
         "Cooldown: 45 seconds"
       ]
@@ -11944,7 +12080,7 @@
       "active": [
         "On use, activates Hand of Death",
         "Deals ((1% max HP) + (STR X 3.75) + (INT X 7.5)) magic splash damage and stuns for 1 second",
-        "Increases STR and INT by 200 and attack damage by 4500 for 15 seconds",
+        "Increases STR and INT by 200 and ATK DMG by 4500 for 15 seconds",
         "Cooldown: 75 seconds"
       ]
     }
@@ -12068,7 +12204,7 @@
       "skilldamagepercent": 0.075,
       "passive": [
         "20% chance to activate Fervor on casting skill",
-        "Increases attack damage by 750 per stack (up to 5 stacks)",
+        "Increases ATK DMG by 750 per stack (up to 5 stacks)",
         "Deals flame affinity X (ATK DMG X (0.15 + 3% stacks) + (STR X 1.5)) magic damage"
       ],
       "spec": [
@@ -12151,7 +12287,7 @@
         "~11% chance to deal (2000 + AGI X 1.5) magic damage",
         "~33% chance to deal (3000 + AGI X 2.25) magic damage",
         "On skill cast, chance to activate Awakening",
-        "~11% chance to increase movement and attack speed by 50% for 6 seconds"
+        "~11% chance to increase movement and ATK SPD by 50% for 6 seconds"
       ]
     }
   },
@@ -13221,7 +13357,7 @@
       "active": [
         "On use, activates Bloodstone Form",
         "Applies a shield of (800 + 15% max HP)",
-        "Increases main stat by 7.5%, HP and MP regen by (400 + 7.5% max HP and MP respectively)",
+        "Increases MAIN STAT by 7.5%, HP and MP regen by (400 + 7.5% max HP and MP respectively)",
         "Cooldown: 40 seconds"
       ]
     }
@@ -13373,8 +13509,8 @@
       "critchancepercent": 0.06,
       "active": [
         "On use, activates Grim Vengeance for 8 seconds",
-        "if HP is above 40%, increases main stat by 135",
-        "If HP is below 40%, deals (MAIN STAT X 12.5) magic damage, increases main stat by 180, heals 70% max HP, and stuns nearby enemies for 1.5 seconds",
+        "if HP is above 40%, increases MAIN STAT by 135",
+        "If HP is below 40%, deals (MAIN STAT X 12.5) magic damage, increases MAIN STAT by 180, heals 70% max HP, and stuns nearby enemies for 1.5 seconds",
         "Regardless of HP percentage, increases critical damage by 0.20",
         "Cooldown: 90 seconds"
       ]
@@ -13743,7 +13879,7 @@
       "skilldamagepercent": 0.04,
       "active": [
         "On use, activates Forbidden Magic",
-        "Consunes 50% of max MP and increases main stat by (MP consumed / 80) and attack speed by 30%",
+        "Consunes 50% of max MP and increases MAIN STAT by (MP consumed / 80) and ATK SPD by 30%",
         "Cooldown: 30 seconds"
       ],
       "spec": [
@@ -14050,7 +14186,7 @@
       "passive": [
         "Increases nearby allies' stats",
         "ATK SPD by 10%",
-        "attack damage by 1200",
+        "ATK DMG by 1200",
         "HP regen by 60"
       ]
     }
@@ -14289,7 +14425,7 @@
       "allstat": 225,
       "mdpercent": 0.15,
       "passive": [
-        "Reduces nearby enemy movement and attack speed by 15%"
+        "Reduces nearby enemy movement and ATK SPD by 15%"
       ]
     }
   },
@@ -14505,6 +14641,9 @@
     "type": "Weapon (Melee)",
     "color": "DC143C",
     "level": 100,
+    "required_by": [
+      "Blazing Sun"
+    ],
     "recipe": [
       {
         "Blazing Soul": 1
@@ -14526,7 +14665,7 @@
       "skilldamagepercent": 0.09,
       "passive": [
         "On skill cast, activates Burning Fervor",
-        "Increases attack speed by 100%, STR by 30, attack damage by 450 per stack for 9 seconds",
+        "Increases ATK SPD by 100%, STR by 30, ATK DMG by 450 per stack for 9 seconds",
         "On attack, 20% chance to deal (flame affinity X (0.225 + stacks X 0.045) X ATK DMG + (STR X 2.25)) magic damage",
         "Attack cooldown: 15 seconds"
       ],
@@ -14620,7 +14759,7 @@
       "attackspeedpercent": -0.5,
       "passive": [
         "On skill cast, activates Ruin",
-        "Increases attack damage by 450, STR and INT by 24, and skill damage by 1% per stack (up to 10 stacks)",
+        "Increases ATK DMG by 450, STR and INT by 24, and skill damage by 1% per stack (up to 10 stacks)",
         "Lasts for 5 seconds"
       ],
       "active": [
@@ -14933,7 +15072,7 @@
         "Deals (MAIN STAT X 6) magic damage in an AoE",
         "Heals user for (300 + (MAIN STAT X 0.6)) HP",
         "On skill cast, 30% chance to activate Blood Awakening",
-        "Increases AGI by 240, attack speed by 30% and empowers Wrath of Blood for 7.5 seconds",
+        "Increases AGI by 240, ATK SPD by 30% and empowers Wrath of Blood for 7.5 seconds",
         "Every 5th empowered attack, deals (1.25 X MAIN STAT X 6) magic damage in an AoE",
         "Heals user for (450 + (MAIN STAT X 0.9)) HP",
         "Heals nearby allies (225 + (MAIN STAT X 0.45)) HP",
@@ -15217,7 +15356,7 @@
       "skilldamagepercent": 0.08,
       "passive": [
         "On skill cast, activates Origin of Death",
-        "Increases INT by 120 and attack damage by 3000 for 4 seconds",
+        "Increases INT by 120 and ATK DMG by 3000 for 4 seconds",
         "Cooldown: 12 seconds"
       ],
       "active": [
@@ -16044,7 +16183,7 @@
         "Deals (water affinity X (STR X 6)) magic damage in an AoE",
         "Increases STR by 10%, damage reduction by 7.5% for 12 seconds",
         "Heals (17.5% max HP) HP",
-        "Reduces enemy movement and attack speed by 75% for 2 seconds",
+        "Reduces enemy movement and ATK SPD by 75% for 2 seconds",
         "Cooldown: 8 seconds"
       ]
     }
@@ -16627,6 +16766,9 @@
     "type": "Armor",
     "color": "DC143C",
     "level": 100,
+    "required_by": [
+      "Arch Druid Robe"
+    ],
     "recipe": [
       {
         "Fairy Garment": 1
@@ -16833,7 +16975,7 @@
       "critchancepercent": 0.075,
       "passive": [
         "25% chance to activate Eye of Death on attack",
-        "Increases crit multiplier by 0.20, attack damage by 15%, and AGI by 225 for 6 seconds",
+        "Increases crit multiplier by 0.20, ATK DMG by 15%, and AGI by 225 for 6 seconds",
         "Cooldown: 15 seconds"
       ]
     }
@@ -16875,7 +17017,7 @@
       "skilldamagepercent": 0.075,
       "active": [
         "On use, activates Madness of Dragon for 15 seconds",
-        "Initially increases main stat by 180, critical damage by 0.20, and HP regen by 600",
+        "Initially increases MAIN STAT by 180, critical damage by 0.20, and HP regen by 600",
         "Every skill cast increases the above by 10% (up to 10 stacks)",
         "Cooldown: 50 seconds"
       ]
@@ -17236,7 +17378,7 @@
       "passive": [
         "7.5% chance to activate Absolute Strike on attack",
         "Next 3 hits will deal bonus (ATK DMG X 1) pure damage",
-        "Increases attack damage by 6000, main stat and HP regen by 300 for 7.5 seconds",
+        "Increases ATK DMG by 6000, MAIN STAT and HP regen by 300 for 7.5 seconds",
         "Absolute Strike cooldown: 15 seconds"
       ]
     }
@@ -17289,7 +17431,7 @@
         "Deals ((stored HP X 1.8) + (stored MP x 3)) magic damage per second",
         "On last second, deals ((stored HP X 9) + (stored MP X 15)) magic damage",
         "Stuns for 1 second",
-        "Reduces movement speed and attack damage by 50%, and silences for 1.5 seconds",
+        "Reduces movement speed and ATK DMG by 50%, and silences for 1.5 seconds",
         "Cooldown: 120 seconds"
       ],
       "spec": [
@@ -17484,7 +17626,7 @@
       "hpregen": 120,
       "passive": [
         "On direct hit, applies Fervor (single-target spells on allies)",
-        "Increases skill damage by 6% and main stat by 90 for 12 seconds"
+        "Increases skill damage by 6% and MAIN STAT by 90 for 12 seconds"
       ],
       "active": [
         "On use, activates Joy",
@@ -17535,7 +17677,7 @@
       ],
       "active": [
         "On use, activates Statis",
-        "Deals (water affinity X (0.75% max HP)) pure damage to enemies with Composure",
+        "Deals (water affinity X (MAIN STAT X 50)) pure damage to enemies with Composure",
         "Freezes for 2 seconds",
         "Cooldown: 30 seconds"
       ]
@@ -17582,7 +17724,7 @@
       "active": [
         "On use, activates Forbidden Magic",
         "Consumes 50% max MP",
-        "Increases main stat by (consumed MP / 75) and attack speed by 40% for 10 seconds",
+        "Increases MAIN STAT by (consumed MP / 75) and ATK SPD by 40% for 10 seconds",
         "Cooldown: 30 seconds"
       ],
       "spec": [
@@ -17632,7 +17774,7 @@
         "Upon moving 400 distance, activates Bloody Bite on next attack",
         "Deals (50% ATK DMG) pure damage",
         "Heals 8% max HP",
-        "Increases attack damage by 450, movement speed by 15, and HP regen by 75 for 4 seconds (up to 5 stacks)",
+        "Increases ATK DMG by 450, movement speed by 15, and HP regen by 75 for 4 seconds (up to 5 stacks)",
         "cooldown: 0.125 seconds"
       ]
     }
@@ -17901,7 +18043,7 @@
       "passive": [
         "Revival Time -40%",
         "Activates Call of the Dead upon death",
-        "Deals (main stat X 40) magic damage in an AoE",
+        "Deals (MAIN STAT X 40) magic damage in an AoE",
         "Stuns for 1 second",
         "Revives hero with 40% HP and 100% MP",
         "Cooldown: 180 seconds"
@@ -17944,13 +18086,13 @@
       "allstat": 375,
       "mdpercent": 0.18,
       "passive": [
-        "Reduces nearby enemy movement and attack speed by 20%"
+        "Reduces nearby enemy movement and ATK SPD by 20%"
       ],
       "active": [
         "On use, activates Grim Howl",
         "Heals 33% max HP",
         "Stuns nearby enemies for 1 second",
-        "Reduces enemy attack damage by 25% for 8 seconds",
+        "Reduces enemy ATK DMG by 25% for 8 seconds",
         "Cooldown: 40 seconds"
       ]
     }
@@ -18050,7 +18192,7 @@
       "affinitylightpercent": 0.1,
       "passive": [
         "Healing allies infuses them with Heaven's Light",
-        "Increases main stat by 60 + 3% [Type-A] for 6 seconds"
+        "Increases MAIN STAT by 60 + 3% [Type-A] for 6 seconds"
       ],
       "active": [
         "On use, activates Heaven's Door",
@@ -18315,6 +18457,9 @@
     "type": "Weapon (Melee)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Blazing Sun"
+    ],
     "recipe": [
       {
         "Desolation": 1
@@ -18487,6 +18632,9 @@
     "type": "Weapon (Melee)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Lightbringer"
+    ],
     "recipe": [
       {
         "Meacronacer, the Sword of Thousand Illusions": 1
@@ -18544,6 +18692,9 @@
     "type": "Weapon (Melee)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "World Sunderer"
+    ],
     "recipe": [
       {
         "Ruinbringer": 1
@@ -18574,14 +18725,14 @@
       "attackspeedpercent": -0.75,
       "passive": [
         "On skill cast, activates Ruin",
-        "Increases attack damage by 450, STR and INT by 30, and skill damage by 1.5% per stack for 5 seconds (up to 10 stacks)"
+        "Increases ATK DMG by 450, STR and INT by 30, and skill damage by 1.5% per stack for 5 seconds (up to 10 stacks)"
       ],
       "active": [
         "On use, activates Sword of Calamity",
         "Sets stacks to max for 15 seconds",
         "Deals (MAIN STAT X 60) magic damage in selected area",
         "Deals up to 100% more damage based on target's missing HP",
-        "Reduces movement speed and attack damage by 50%, and silences for 2 seconds",
+        "Reduces movement speed and ATK DMG by 50%, and silences for 2 seconds",
         "Cooldown: 60 seconds"
       ],
       "spec": [
@@ -18741,6 +18892,9 @@
     "type": "Weapon (Melee)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Shadow Waltz"
+    ],
     "recipe": [
       {
         "Maw of Beriel": 1
@@ -19208,6 +19362,9 @@
     "type": "Weapon (Staff)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Soul Torch"
+    ],
     "recipe": [
       {
         "Staff of Contagion": 1
@@ -19343,7 +19500,7 @@
       "skilldamagepercent": 0.1,
       "passive": [
         "On skill cast, activates Calamity",
-        "Increases attack damage by 3750 and INT by 225 for 4 seconds",
+        "Increases ATK DMG by 3750 and INT by 225 for 4 seconds",
         "Cooldown: 12 seconds"
       ],
       "active": [
@@ -19782,7 +19939,7 @@
         "Deals (max HP X 3) magic damage in an AoE",
         "Empowered Hellspike deals (max HP X 7.5) magic damage in an AoE",
         "Stuns for 2 seconds",
-        "Increases attack damage by 1500 for 2.5 seconds",
+        "Increases ATK DMG by 1500 for 2.5 seconds",
         "Cooldown: 7.5 seconds"
       ]
     }
@@ -20057,7 +20214,8 @@
     "color": "99FF99",
     "level": 100,
     "required_by": [
-      "Frost Herald's Garment"
+      "Frost Herald's Garment",
+      "Arch Druid Robe"
     ],
     "recipe": [
       {
@@ -20105,6 +20263,9 @@
     "type": "Armor",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Divine Aegis"
+    ],
     "recipe": [
       {
         "Diana, the Robe of Holy Maiden": 1
@@ -20393,6 +20554,9 @@
     "type": "Headwear",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Harvester's Mask"
+    ],
     "recipe": [
       {
         "Eye of Wallachia": 1
@@ -20421,7 +20585,7 @@
       "critchancepercent": 0.1,
       "passive": [
         "On attack, activates Eye of the Reaper",
-        "Increases attack damage by 17.5%, critical damage by 0.25 and AGI by 300 for 7.5 seconds",
+        "Increases ATK DMG by 17.5%, critical damage by 0.25 and AGI by 300 for 7.5 seconds",
         "Cooldown: 15 seconds"
       ]
     }
@@ -20655,6 +20819,9 @@
     "type": "Headwear",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Echoes of the Void"
+    ],
     "recipe": [
       {
         "Hood of Apocrypha": 1
@@ -20687,7 +20854,7 @@
         "Heals (25% max HP) of nearby allies",
         "Increases HP regen by 10% for 3 seconds",
         "Stuns for 1.5 seconds",
-        "Silences and reduces enemy movement speed and attack damage by 50% every 0.25 seconds (lasts 3 seconds)",
+        "Silences and reduces enemy movement speed and ATK DMG by 50% every 0.25 seconds (lasts 3 seconds)",
         "Cooldown: 45 seconds"
       ]
     }
@@ -20774,7 +20941,7 @@
       "int": 297,
       "mdpercent": 0.1,
       "passive": [
-        "Increases nearby allies attack damage and skill damage by 5%"
+        "Increases nearby allies ATK DMG and skill damage by 5%"
       ],
       "active": [
         "On use, summons 2 Flame Giants"
@@ -20791,6 +20958,9 @@
     "type": "Headwear",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Prophetia, the Forbidden Truth"
+    ],
     "recipe": [
       {
         "Prophetia, the Greater Source of Mana": 1
@@ -20959,7 +21129,7 @@
       "affinitylightpercent": 0.05,
       "passive": [
         "On direct hit, applies Fervor (single-taget spells on allies)",
-        "Increases skill damage by 8% and main stat by 120 for 12 seconds"
+        "Increases skill damage by 8% and MAIN STAT by 120 for 12 seconds"
       ],
       "active": [
         "On use, activates Hope",
@@ -21004,7 +21174,7 @@
       ],
       "active": [
         "On use, activates Despair",
-        "Deals (water affinity X (1% max HP)) pure damage to enemies with Composure",
+        "Deals (water affinity X (MAIN STAT X 60)) pure damage to enemies with Composure",
         "Freezes for 3 seconds",
         "Increases enemy damage taken by 5% for 2 seconds",
         "Cooldown: 30 seconds"
@@ -21096,7 +21266,7 @@
       "passive": [
         "On attack, 15% chance to activate Madness",
         "Next 3 hits will deal bonus (ATK DMG X 1) pure damage",
-        "Increases attack damage by 7500, main stat and HP regen by 375 for 7.5 seconds",
+        "Increases ATK DMG by 7500, MAIN STAT and HP regen by 375 for 7.5 seconds",
         "Cooldown: 15 seconds"
       ]
     }
@@ -21140,7 +21310,7 @@
       "skilldamagepercent": 0.06,
       "passive": [
         "Empowers nearby allies",
-        "Increases attack damage by (INT X 0.6) (up to 1800), attack speed by 15%, and HP regen by 120"
+        "Increases ATK DMG by (INT X 0.6) (up to 1800), ATK SPD by 15%, and HP regen by 120"
       ],
       "active": [
         "On use, activates Purification",
@@ -21250,6 +21420,9 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Ring of Genesis"
+    ],
     "recipe": [
       {
         "Latea, the Ring of Overlord": 1
@@ -21399,7 +21572,7 @@
       "active": [
         "On use, activates Forbidden Magic",
         "Consumes (50% max MP)",
-        "Increases main stat by (consumed MP / 60) and attack speed by 50% for 10 seconds",
+        "Increases MAIN STAT by (consumed MP / 60) and ATK SPD by 50% for 10 seconds",
         "Deals (INT X 3.75) magic damage per stack in an AoE",
         "Cooldown: 30 seconds"
       ],
@@ -21419,6 +21592,9 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Chains of Torment"
+    ],
     "recipe": [
       {
         "Mark of Sin": 1
@@ -21444,7 +21620,7 @@
       "active": [
         "On use, activates Forbidden Magic",
         "Consumes (50% current MP)",
-        "Increases main stat by (MP consumed / 60) and attack speed by 60% for 10 seconds",
+        "Increases MAIN STAT by (MP consumed / 60) and ATK SPD by 60% for 10 seconds",
         "Deals (INT X 3.75) magic damage per stack in an AoE",
         "Cooldown: 30 seconds"
       ],
@@ -21560,6 +21736,9 @@
     "type": "Wings",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Soul Breath"
+    ],
     "recipe": [
       {
         "Frost Fairy Wings": 1
@@ -21756,6 +21935,9 @@
     "type": "Wings",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Wings of the Void"
+    ],
     "recipe": [
       {
         "Cloak of the Fallen Shadows": 1
@@ -21925,7 +22107,7 @@
       "mdpercent": 0.2,
       "passive": [
         "Slows nearby enemies",
-        "Reduces movement and attack speed by 25%"
+        "Reduces movement and ATK SPD by 25%"
       ],
       "active": [
         "On use, activates Bravery",
@@ -21974,7 +22156,7 @@
       "dtpercent": -0.1,
       "passive": [
         "During combat, stat gradually increases",
-        "Increases main stat by 9 per 3 seconds (up to 50 stacks)",
+        "Increases MAIN STAT by 9 per 3 seconds (up to 50 stacks)",
         "Revives upon dying",
         "Cooldown: 180 seconds"
       ]
@@ -22104,13 +22286,23 @@
         "Heaven's Door": 1
       },
       {
+        "Curse of Greed": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
         "Twisted Fragment of Ruins": 1
       },
       {
+        "Arcane Core": 1,
         "Ancient Tome": 1
       },
       {
-        "Mystical Materials": 1
+        "Spirit of Damnation": 1
       }
     ],
     "stats": {
@@ -22120,7 +22312,7 @@
       "affinitylightpercent": 0.12,
       "passive": [
         "Healing allies infuses them with Eternal Blessing",
-        "Increases main stat by 150 + 3% [Type-A] for 6 seconds"
+        "Increases MAIN STAT by 150 + 3% [Type-A] for 6 seconds"
       ],
       "active": [
         "On use, activates Aeon Sphere",
@@ -22142,6 +22334,9 @@
     "type": "Weapon (Melee)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "World Sunderer"
+    ],
     "recipe": [
       {
         "Splitting of the Sky and Earth": 1
@@ -22344,13 +22539,19 @@
         "Espishu, the Sword of Chaos": 1
       },
       {
+        "Power of Beriel": 1
+      },
+      {
         "Essence of Earth": 1
       },
       {
         "Arcane Core": 1
       },
       {
-        "Mystical Materials": 1
+        "Sinister Skull": 1
+      },
+      {
+        "Spirit of Damnation": 1
       }
     ],
     "stats": {
@@ -22384,7 +22585,22 @@
     "level": 100,
     "recipe": [
       {
-        "Mystical Materials": 1
+        "Astra, the Sword of Moonlight": 1
+      },
+      {
+        "Grim Scythe": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Shining Fragment of Ruins": 1
       }
     ],
     "stats": {
@@ -22417,7 +22633,22 @@
     "level": 100,
     "recipe": [
       {
-        "Mystical Materials": 1
+        "Chaos": 1
+      },
+      {
+        "Blazing Heart": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Lantern of Souls": 1
       }
     ],
     "stats": {
@@ -22454,6 +22685,9 @@
         "Divine Slayer": 1
       },
       {
+        "Grim Scythe": 1
+      },
+      {
         "Blood Essence": 1
       },
       {
@@ -22464,9 +22698,6 @@
       },
       {
         "Ancient Tome": 1
-      },
-      {
-        "Mystical Materials": 1
       }
     ],
     "stats": {
@@ -22478,6 +22709,55 @@
         "On basic attack, activates Twilight",
         "Deals (90000 + AGI X 30) magic damage to target and takes 10% bonus skill damage for 4 seconds",
         "Cooldown: 12 seconds, reduced by 1 second on each skill crit"
+      ]
+    }
+  },
+  {
+    "id": "I0A5",
+    "name": "World Sunderer",
+    "koreanname": "세계의 파괴자",
+    "description": "Embrace the end.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Melee)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Calamity": 1
+      },
+      {
+        "Spear of Judgment": 1
+      },
+      {
+        "Grim Scythe": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Arcane Core": 1
+      }
+    ],
+    "stats": {
+      "damage": 10500,
+      "str": 850,
+      "int": 500,
+      "attackspeedpercent": -0.75,
+      "passive": [
+        "On skill cast, accumulates Ruin",
+        "Each stack increases AD by 600, STR/INT by 40, skill damage by 2.5%"
+      ],
+      "active": [
+        "On use, activates World Sunderer",
+        "Deals (MAIN STAT X 10) magic damage to nearby enemies 4 times",
+        "Then deals up to (MAIN STAT X 60 ~ 120) magic damage based on their missing HP and silences them for 2 seconds",
+        "Gains max stacks of Ruin for 10 seconds",
+        "Cooldown: 60s"
+      ],
+      "spec": [
+        "Specialty - Darkened Light",
+        "Paladin - Holy Divide deals 50% more damage."
       ]
     }
   },
@@ -22945,13 +23225,19 @@
         "Armageddon": 1
       },
       {
+        "Grim Scythe": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
         "Essence of Earth": 1
       },
       {
-        "Ancient Tome": 1
+        "Arcane Core": 1
       },
       {
-        "Mystical Materials": 1
+        "Ancient Tome": 1
       }
     ],
     "stats": {
@@ -22985,7 +23271,22 @@
     "level": 100,
     "recipe": [
       {
-        "Mystical Materials": 1
+        "Staff of Plague": 1
+      },
+      {
+        "Grail of Eternity": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Lantern of Souls": 1
       }
     ],
     "stats": {
@@ -23456,7 +23757,19 @@
     "level": 100,
     "recipe": [
       {
-        "Mystical Materials": 1
+        "Jupiter, the Robe of Heavens": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Lantern of Souls": 1
       }
     ],
     "stats": {
@@ -23474,6 +23787,46 @@
     }
   },
   {
+    "id": "I017",
+    "name": "Arch Druid Robe",
+    "koreanname": "아크 드루이드 로브",
+    "description": "Robe infused by ancient wooden spirits",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Druid's Mantle": 1
+      },
+      {
+        "Robe of Archlich": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Spirit of Damnation": 1
+      }
+    ],
+    "stats": {
+      "armor": 250,
+      "mainstat": 450,
+      "affinityiwpercent": 0.05,
+      "affinitywlpercent": 0.05,
+      "passive": [
+        "On healing allies, activates Nature's Touch"
+      ]
+    }
+  },
+  {
     "id": "I00H",
     "name": "Crescendo of Madness",
     "koreanname": "핏빛 분노의 갑주",
@@ -23483,6 +23836,9 @@
     "type": "Headwear",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Echoes of the Void"
+    ],
     "recipe": [
       {
         "Eyes of the Watcher": 1
@@ -23582,6 +23938,9 @@
     "type": "Headwear",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Diabolic Mask"
+    ],
     "recipe": [
       {
         "Radiance of the One": 1
@@ -23780,7 +24139,7 @@
         "Seed will bloom after 5 seconds into a colored fruit which lasts for 30 seconds",
         "Hero can pick it up by getting close to it, gaining different effect based on type of fruit:",
         "Fire: 15% Skill Damage and 7% ATK DMG",
-        "Lightning: 15% pure attack speed, 75 movement speed and 0.1x Crit Damage",
+        "Lightning: 15% pure ATK SPD, 75 movement speed and 0.1x Crit Damage",
         "Earth: Regenerates (Max HP X 4%) per second, grants 20% reduction [Type-A]",
         "Golden: Grants all 3 effects",
         "Spawn Cooldown: 10 seconds"
@@ -23804,7 +24163,19 @@
     "level": 100,
     "recipe": [
       {
-        "Mystical Materials": 1
+        "Eye of the Reaper": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Spirit of Damnation": 1
       }
     ],
     "stats": {
@@ -23833,7 +24204,19 @@
     "level": 100,
     "recipe": [
       {
-        "Mystical Materials": 1
+        "Visage of Vengeance": 1
+      },
+      {
+        "Curse of Greed": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Sinister Skull": 1
       }
     ],
     "stats": {
@@ -23866,7 +24249,19 @@
     "level": 100,
     "recipe": [
       {
-        "Mystical Materials": 1
+        "Hood of Apocalypse": 1
+      },
+      {
+        "Crescendo of Madness": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Spirit of Damnation": 1
       }
     ],
     "stats": {
@@ -23902,7 +24297,19 @@
     "level": 100,
     "recipe": [
       {
-        "Mystical Materials": 1
+        "Prophetia, the Origin of Knowledge": 1
+      },
+      {
+        "Curse of Greed": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Sinister Skull": 1
       }
     ],
     "stats": {
@@ -23934,6 +24341,9 @@
     "type": "Accessory",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Ring of Genesis"
+    ],
     "recipe": [
       {
         "Heart of Volcano": 1
@@ -24116,6 +24526,9 @@
     "type": "Accessory",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Chains of Torment"
+    ],
     "recipe": [
       {
         "Seal of Deceiver": 1
@@ -24282,7 +24695,7 @@
       "affinitylightpercent": 0.075,
       "passive": [
         "On direct hit, applies Hope for 12 seconds",
-        "Increases skill damage by 10% and main stat by 180"
+        "Increases skill damage by 10% and MAIN STAT by 180"
       ],
       "active": [
         "On use, activates Salvation",
@@ -24344,7 +24757,19 @@
     "level": 100,
     "recipe": [
       {
-        "Mystical Materials": 1
+        "Ring of the One": 1
+      },
+      {
+        "Star of Apotheosis": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Lantern of Souls": 1
       }
     ],
     "stats": {
@@ -24370,7 +24795,16 @@
     "level": 100,
     "recipe": [
       {
-        "Mystical Materials": 1
+        "Seed of Malice": 1
+      },
+      {
+        "Seal of Corruption": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Sinister Skull": 1
       }
     ],
     "stats": {
@@ -24386,7 +24820,7 @@
       ],
       "active": [
         "On use, activates Howling Soul",
-        "For next 5 seconds, gains 15% skill damage, 50% pure attack speed",
+        "For next 5 seconds, gains 15% skill damage, 50% pure ATK SPD",
         "Activates Torment without MP consumption on every 3rd skill hit (up to 5 times)",
         "Cooldown: 15 seconds"
       ]
@@ -24404,7 +24838,19 @@
     "level": 100,
     "recipe": [
       {
-        "Mystical Materials": 1
+        "Demonic Fist": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Sinister Skull": 1
       }
     ],
     "stats": {
@@ -24467,7 +24913,7 @@
       "passive": [
         "Upon moving 400 distance, empowers next attack with Bloody Bite",
         "Deals (3000 + Attack Damage X 50%) pure damage and heals you for max HP X 8%",
-        "Increases attack damage by 500, HP regen by 75 for 6 seconds",
+        "Increases ATK DMG by 500, HP regen by 75 for 6 seconds",
         "Can stack infinitely, but each stack beyond first 5 has only 5% effectiveness"
       ],
       "active": [
@@ -24488,6 +24934,9 @@
     "type": "Wings",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Soulstorm"
+    ],
     "recipe": [
       {
         "Storm": 1
@@ -24567,7 +25016,7 @@
       "mdpercent": 0.12,
       "passive": [
         "On equip, activates Guardian Aura",
-        "Increases nearby allies' main stat by 80 + 4% [Type-A]",
+        "Increases nearby allies' MAIN STAT by 80 + 4% [Type-A]",
         "Heals nearby allies within 500 radius (excluding yourself) by 2000 HP every 3 seconds",
         "(Any affected ally cannot be healed by this effect again within 3 seconds)"
       ],
@@ -24626,7 +25075,7 @@
       ],
       "active": [
         "On use, activates Gift of Life",
-        "Increases main stat by 150, skill damage by 5%, and damage reduction by 25% for 6 seconds",
+        "Increases MAIN STAT by 150, skill damage by 5%, and damage reduction by 25% for 6 seconds",
         "Cooldown: 45 seconds"
       ]
     }
@@ -24759,7 +25208,7 @@
       "mdpercent": 0.09,
       "passive": [
         "During combat, activates Flowing Blood",
-        "Every 5s, heals you for 10% HP & MP, increases main stat by 15, and base attack speed by 1% (15 stacks max)"
+        "Every 5s, heals you for 10% HP & MP, increases MAIN STAT by 15, and base ATK SPD by 1% (15 stacks max)"
       ],
       "active": [
         "On use, activates Soul Devour",
@@ -24783,13 +25232,19 @@
         "Wings of Flame Lord": 1
       },
       {
+        "Gown of Life": 1
+      },
+      {
         "Soul Blossom": 1
+      },
+      {
+        "Essence of Earth": 1
       },
       {
         "Ancient Tome": 1
       },
       {
-        "Mystical Materials": 1
+        "Spirit of Damnation": 1
       }
     ],
     "stats": {
@@ -24821,7 +25276,22 @@
     "level": 100,
     "recipe": [
       {
-        "Mystical Materials": 1
+        "Wings of Frost Lord": 1
+      },
+      {
+        "Gown of Life": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Spirit of Damnation": 1
       }
     ],
     "stats": {
@@ -24853,7 +25323,22 @@
     "level": 100,
     "recipe": [
       {
-        "Mystical Materials": 1
+        "Cape of Deep Abyss": 1
+      },
+      {
+        "Grail of Eternity": 1
+      },
+      {
+        "Mark of Lord": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Lantern of Souls": 1
       }
     ],
     "stats": {
@@ -24884,7 +25369,20 @@
     "level": 100,
     "recipe": [
       {
-        "Mystical Materials": 1
+        "Bloodstorm": 1
+      },
+      {
+        "Crimson Rose": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Arcane Core": 1,
+        "Ancient Tome": 1
+      },
+      {
+        "Lantern of Souls": 1
       }
     ],
     "stats": {
@@ -25715,7 +26213,7 @@
         "Deltirama ~ Alteia personal loot drop rate increased by 50%",
         "~5% Chance to activate Elemental Fury on attack and skill cast",
         "Requires 1 second cooldown interval for checking the proc",
-        "Increases main stat by 2% for 30 seconds"
+        "Increases MAIN STAT by 2% for 30 seconds"
       ]
     }
   },

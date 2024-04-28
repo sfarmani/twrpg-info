@@ -1,5 +1,347 @@
 [
     {
+        "name": "66f",
+        "notes": [
+            "Released on: April 27th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "monsters": [
+            {
+                "name": "Styrix, the Harvester of Souls",
+                "changes": [
+                    "Hope",
+                    [
+                        "Fixed issue where buff could persist till next boss fight"
+                    ],
+                    "Soul Lantern",
+                    [
+                        "Fixed bug where HP/heal required didn't scale with players beyond 6",
+                        "At 10 players, amount of players guarded by a single lantern will increase from 3 to 4"
+                    ],
+                    "Soul Projectiles",
+                    [
+                        "Hit cooldown increased by 50%"
+                    ],
+                    "Devour/Cone Pattern",
+                    [
+                        "Hope loss on being hit 3 → 4"
+                    ],
+                    "Beam pattern",
+                    [
+                        "Main target can no longer be hit by missiles spawning from self",
+                        "Reverted to deal damage to enemies touching laser too (same damage as main target)"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "66e",
+        "notes": [
+            "Released on: April 27th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Minor bug fix - Fixed issue with invisible effects on boss effects"
+        ]
+    },
+    {
+        "name": "66d",
+        "notes": [
+            "Released on: April 27th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "monsters": [
+            {
+                "name": "Styrix, the Harvester of Souls",
+                "changes": [
+                    "P1",
+                    [
+                        "HP increase per player beyond 6 players 35% → 30%",
+                        "Base MP regen reduced by ~15%",
+                        "Stat increase/heal amount on hero kill 5~3% → 5~2.5%",
+                        "Fixed bug where boss could be pulled by some ability"
+                    ],
+                    "Broken Soul (Debuff)",
+                    [
+                        "Now counts as 'damage taken' increase instead of 'damage reduction' decrease"
+                    ],
+                    "Jump Attack",
+                    [
+                        "Adjsted visual indicator not matching actual damage area",
+                        "Evil Soul HP 3.5M → 3M",
+                        "Slightly reduced MP lost by Evil Souls during Die pattern, fixed issue where they try to return to their positions early"
+                    ],
+                    "Enrage",
+                    [
+                        "Heal amount is no longer multiplied by number of enemies hit",
+                        "Now applies as magic damage instead of pure damage"
+                    ],
+                    "P2",
+                    [
+                        "Damage reduction bonus 50% → 25% (75% → 62.5% if including base reduction)",
+                        "Slightly reduced click hitbox",
+                        "Reduced stun durations and improved visibility on some skills",
+                        "When entering last phase, any active sickles/Death Mark/Evil Soul will be removed",
+                        "Hope stack interval 2s → 1.5s"
+                    ],
+                    "Soul Lantern",
+                    [
+                        "HP 15~30M → 10~20M",
+                        "Heal needed for activation 30000~60000 → 30000~50000",
+                        "Fixed allowed guard count per lantern to 3 players each",
+                        "Reduced damage of lanterns during phase startup",
+                        "Changed color of lanterns on cooldown"
+                    ],
+                    "Soul Projectiles",
+                    [
+                        "Empty gaps of spaces for projectiles will last longer"
+                    ],
+                    "Ground Slam",
+                    [
+                        "VFX made more visible"
+                    ],
+                    "Missiles + Cone pattern",
+                    [
+                        "Targetted players will gain bonus move speed while active",
+                        "Increased cast time of skill"
+                    ],
+                    "Devour pattern",
+                    [
+                        "Reduced collision hitbox on missiles"
+                    ],
+                    "Beam pattern",
+                    [
+                        "Now prefers ranged targets",
+                        "Flat damage removed / now scales only with target's HP",
+                        "No longer deals increased damage to secondary targets, now only deals damage to enemies around endpoint",
+                        "Reduced projectile speed"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "66c",
+        "notes": [
+            "Released on: April 26th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Fixed issue with shield break texts not displaying properly"
+        ],
+        "monsters": [
+            {
+                "name": "Styrix",
+                "changes": [
+                    "Soul Drain (Debuff)",
+                    [
+                        "No longer reduces self-healing",
+                        "Only applied to heroes now"
+                    ],
+                    "Broken Soul (Debuff)",
+                    [
+                        "Damage dealt reduction per stack 20% → 10%",
+                        "Damage taken increase per stack 20% → 15%",
+                        "Only applied to heroes now",
+                        "No longer applied if damage is negated using counters (MA D, Knight E, PB R)"
+                    ],
+                    "Slash",
+                    [
+                        "Reduced boss dash distance",
+                        "Reduced collisions on clones spawned on sides",
+                        "Increased delay before charging on teleport variant"
+                    ],
+                    "Whirlwind",
+                    [
+                        "Now dashes toward closest enemy instead of random enemy",
+                        "Reduced boss dash distance and now less likely to dash out of map"
+                    ],
+                    "Leap - Evil Souls",
+                    [
+                        "No longer chases boss; instead drains from nearest enemy hero and gains MP over time",
+                        "Once at full MP, explodes and deals damage to all heroes in zone, as well as healing boss",
+                        "During 'Die!' pattern, adds will be stopped and lose MP over time",
+                        "HP reduced by 30%",
+                        "Boss heal amount 5% → 3%"
+                    ],
+                    "Scythe",
+                    [
+                        "Visual indicator added for summon spot",
+                        "Reduced damage taken when standing on summon spot",
+                        "Scythe no longer intercepts left/right clicks",
+                        "Reduced chase duration slightly"
+                    ],
+                    "Death Mark",
+                    [
+                        "Countdown indicator added",
+                        "Countdown duration 4s → 5s",
+                        "AoE 600 → 500"
+                    ],
+                    "Last Phase",
+                    [
+                        "Hope stack interval 2.5s → 2s",
+                        "Lantern HP reduced and cooldown on re-healing 7.5s → 5s"
+                    ],
+                    "Others",
+                    [
+                        "Slightly improved visual indicators",
+                        "Lowered flat scaling and increased % scalings on some skills",
+                        "Delay between skill casts increased by 0.5s"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Feather of Aeolus (D)",
+                    [
+                        "Buff duration 2s → 1.5s",
+                        "Cooldown 10s → 8s"
+                    ],
+                    "Gentle Winds (E)",
+                    [
+                        "Shield duration 9s → 7.5s",
+                        "Cooldown 25s → 20s"
+                    ],
+                    "Light Breeze (R)",
+                    [
+                        "Activation speed increased, no longer 'refreshes' existing field if overlapping",
+                        "Skill damage bonus (5 + INT / 600)% → (6 + INT / 500)%",
+                        "Cooldown 5s → 3s"
+                    ],
+                    "Horn of Notus (T)",
+                    [
+                        "Cooldown 45s → 40s"
+                    ],
+                    "Guardian of Wind (F)",
+                    [
+                        "Base move speed bonus removed (rollback)",
+                        "Gift (Q) - MP cost 5/s → 3/s, heal per second INT X 0.7 → INT X 0.5, no longer grants damage dealt bonus (rollback)",
+                        "Anger (W) - MP cost 15 → 0, consecutive casts within 6s cost 20 MP now"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "66b",
+        "notes": [
+            "Released on: April 23rd, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Styrix - Fixed issue where boss could heal from heroes dying outside boss zone"
+        ],
+        "monsters": [
+            {
+                "name": "Styrix",
+                "changes": [
+                    "Phase 2",
+                    [
+                        "Reduction bonus 60% → 50%, magic defense 20% added",
+                        "Hope bonus adjusted; getting hit by boss skills now removes X stacks (varies per skill) instead of completely removing Hope",
+                        "Added 0.75s internal cooldown for getting hit by projectiles",
+                        "Updated many more skills/effects to be able to heal/regen Soul Lanterns"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Merchant",
+                "changes": [
+                    "Scroll of God's Blessing (F)",
+                    [
+                        "No longer has 120s cooldown per target"
+                    ]
+                ]
+            },
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Phantom Rush (E) (STR version)",
+                    [
+                        "Fixed issue where skill was not triggering some 'on attack' effects"
+                    ],
+                    "Unholy Light (E) (INT version) ",
+                    [
+                        "Fixed issue where skill was not triggering 'on skill cast' effects",
+                        "Debuff effectiveness now scales based on how long skill was kept up, not how long the unit was damaged for"
+                    ]
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Star Shower (W)",
+                    [
+                        "Self heal 50% penalty removed"
+                    ]
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "Guardian of Wind (F)",
+                    [
+                        "Base move speed increased",
+                        "Gift (Q) - MP cost 3/s → 5/s, heal per second INT X 0.5 → INT X 0.7, now grants 5% total damage bonus [Type-A] while active",
+                        "Anger (W) - MP cost 0 → 15, damage (AGI + INT) X 7.5 → (AGI + INT) X 20, range 1200 → 1800, cooldown removed",
+                        "Blessing of Vayu (E) - Cooldown 20s → 15s"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "66a",
+        "notes": [
+            "Released on: April 22nd, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Seal of Corruption - Fixed issue where item's active effect could be used without 40 stacks"
+        ],
+        "events": [
+            "Event is now deactivated"
+        ],
+        "items": [
+            {
+                "name": "Ring of Composure / Ring of Despair",
+                "changes": [
+                    "Active damage changed from target's Max HP X 0.75%/1% → Main Stat X 50/60"
+                ]
+            },
+            {
+                "name": "Recipe added for following item:",
+                "changes": [
+                    "World Sunderer"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Styrix, the Harvester of Souls",
+                "changes": [
+                    "New boss is available to challenge"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Aura (D) - Fixed issue where spellbook isn't closed when pressing currently active aura",
+                    "Holy Aura (D) - Aura of Protection (W) - Magic defense granted 15% → 10%, debuff damage reduction 25% → 20%, shield duration 4s → 3s",
+                    "Divine Shield (T) - Devotion effect now increases T cooldown by 10 seconds"
+                ]
+            }
+        ]
+    },
+    {
         "name": "65b",
         "notes": [
             "Released on: March 29th, 2024",

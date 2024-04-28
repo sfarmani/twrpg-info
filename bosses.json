@@ -4916,12 +4916,8 @@
         "respawn": "3",
         "location": "Teleporter: second page, option [2]. Top right corner portal.",
         "conditions": "Level 100",
-        "stats": {
-            
-        },
-        "empoweredStats": {
-            
-        },
+        "stats": {},
+        "empoweredStats": {},
         "drops": [
             "I01Z",
             "I05Q",
@@ -4953,5 +4949,28 @@
             "I0OZ",
             "I0GH"
         ]
+    },
+    {
+        "id": "h0A1",
+        "name": "Styrix, the Harvester of Souls",
+        "color": "9b9b9b",
+        "level": "130",
+        "category": "Endgame",
+        "type": "Boss",
+        "limit": "None",
+        "respawn": "3",
+        "location": "The altar can be reached by talking to 'Suspicious Man' located around shore area down from cave",
+        "conditions": "Level 100",
+        "stats": {},
+        "drops": [
+            "rlif",
+            "I02V",
+            "I05K",
+            "I05H",
+            "I0OZ",
+            "I0QE"
+        ],
+        "spells": [],
+        "minions": []
     }
 ]
