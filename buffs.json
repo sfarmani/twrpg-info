@@ -129,7 +129,8 @@
             "Jupiter, the Robe of Heavens (Aura) - 10%",
             "Oath of Courage (Aura) - 8%",
             "Eternal Rose (Aura) - 8%",
-            "Nebula Rose (Aura) - 10%"
+            "Nebula Rose (Aura) - 10%",
+            "Arch Druid Robe (Aura) - 10%"
         ]
     },
     {
@@ -190,7 +191,8 @@
         "names": [
             "Heaven's Door - (60 + 3%)",
             "Guardian Angel (Aura) - (80 + 4%)",
-            "Aeon Sphere - (150 + 3%)"
+            "Aeon Sphere - (150 + 3%)",
+            "Arch Druid Robe (Aura) - (10%)"
         ]
     }
 ]

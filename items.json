@@ -23819,10 +23819,19 @@
     "stats": {
       "armor": 250,
       "mainstat": 450,
+      "mdpercent": 0.15,
       "affinityiwpercent": 0.05,
       "affinitywlpercent": 0.05,
       "passive": [
-        "On healing allies, activates Nature's Touch"
+        "On healing allies, activates Nature's Touch",
+        "Increases target's main stat by 10% [Type-A], magic defense by 10% [Type-A]",
+        "Does not apply to self"
+      ],
+      "active": [
+        "On use, launches Ancient Spirit",
+        "If target is an enemy, deals 100000 magic damage and increases damage taken by target by 4% for 5 seconds",
+        "If target is an ally, heals target for Main Stat X 2.5 and additionally heals for Main Stat X 0.3 every 2 seconds for 10 seconds",
+        "1 Spirit is spawned every 5 seconds (up to 4)"
       ]
     }
   },
