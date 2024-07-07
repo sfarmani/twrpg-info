@@ -1647,7 +1647,7 @@
         "On attack, drains target's HP"
       ],
       "active": [
-        "On use, increases your skill damage by 10% and life steal by 6% for 9 seconds"
+        "On use, heals 2000 HP and increases SKD by 8% for 8 seconds"
       ]
     }
   },
@@ -9044,7 +9044,7 @@
       "healreceivedpercent": -0.25,
       "passive": [
         "On dealing damage, activates Greed",
-        "When in combat for 5 seconds, increases ATK SPD and damage output by 1%",
+        "When in combat for 5 seconds, increases ATK SPD and SKD by 1%",
         "Also increases damage taken by 2%",
         "Can be stacked up to 25 times",
         "Cooldown: 1 second"
@@ -9233,7 +9233,8 @@
       "Crown of Cataclysm",
       "Thread of Life",
       "Bag of All Evils",
-      "Soulstorm"
+      "Soulstorm",
+      "Divine Rose"
     ],
     "stats": {
       "mainstat": 420,
@@ -9279,7 +9280,9 @@
       "Call of Gehenna",
       "Duskblade",
       "Prelude to Demise",
-      "Harvester's Mask"
+      "Harvester's Mask",
+      "Espishu, the True Sword of Chaos",
+      "Eye of the Blood God"
     ]
   },
   {
@@ -9316,7 +9319,8 @@
       "Lightbringer",
       "Blazing Sun",
       "Soul Torch",
-      "Divine Aegis"
+      "Divine Aegis",
+      "Divine Vein"
     ]
   },
   {
@@ -9350,7 +9354,8 @@
       "Soul Chaser",
       "Exitium, the Armor of Ruin",
       "Arch Druid Robe",
-      "Soul Breath"
+      "Soul Breath",
+      "Divine Rose"
     ]
   },
   {
@@ -9389,7 +9394,9 @@
       "Keeper of the Grove",
       "Astral Fury",
       "Living Flame",
-      "Soul Breath"
+      "Soul Breath",
+      "Ring of Noble Soul",
+      "Divine Rose"
     ],
     "stats": {
       "armor": 260,
@@ -9424,7 +9431,6 @@
       "Akhelius, the Staff of Duality",
       "Spirit Flame",
       "Prelude to Demise",
-      "Shadow Waltz",
       "Keeper of the Grove",
       "Call of Gehenna",
       "Soul Chaser",
@@ -9434,7 +9440,9 @@
       "Soul Torch",
       "Ring of Genesis",
       "Soulstorm",
-      "Living Flame"
+      "Living Flame",
+      "Espishu, the True Sword of Chaos",
+      "Embrace of Death"
     ]
   },
   {
@@ -9464,7 +9472,10 @@
       "Lightbringer",
       "Divine Aegis",
       "Wings of the Void",
-      "Arch Druid Robe"
+      "Arch Druid Robe",
+      "Ring of Genesis",
+      "Ring of Noble Soul",
+      "Divine Vein"
     ]
   },
   {
@@ -9495,7 +9506,9 @@
       "World Sunderer",
       "Harvester's Mask",
       "Echoes of the Void",
-      "Soul Breath"
+      "Soul Breath",
+      "Eye of Annihilation",
+      "Eye of the Blood God"
     ]
   },
   {
@@ -9531,7 +9544,11 @@
       "Thread of Life",
       "Dread Incarnate",
       "Lightbringer",
-      "Harvester's Mask"
+      "Harvester's Mask",
+      "Eye of Annihilation",
+      "Ring of Noble Soul",
+      "Divine Vein",
+      "Eye of the Blood God"
     ],
     "stats": {
       "armor": 150,
@@ -9570,7 +9587,8 @@
       "Divine Aegis",
       "Ring of Genesis",
       "Soulstorm",
-      "Soul Breath"
+      "Soul Breath",
+      "Divine Rose"
     ]
   },
   {
@@ -9601,7 +9619,8 @@
       "Soulstorm",
       "Wings of the Void",
       "Arch Druid Robe",
-      "Echoes of the Void"
+      "Echoes of the Void",
+      "Embrace of Death"
     ]
   },
   {
@@ -9672,7 +9691,11 @@
       "Diabolic Mask",
       "Prophetia, the Forbidden Truth",
       "Soul Fist",
-      "Chains of Torment"
+      "Chains of Torment",
+      "Eye of Annihilation",
+      "Ring of Noble Soul",
+      "Eye of the Blood God",
+      "Embrace of Death"
     ]
   },
   {
@@ -9693,7 +9716,9 @@
       "Divine Aegis",
       "Ring of Genesis",
       "Soulstorm",
-      "Wings of the Void"
+      "Wings of the Void",
+      "Divine Vein",
+      "Divine Rose"
     ]
   },
   {
@@ -9715,7 +9740,10 @@
       "Harvester's Mask",
       "Echoes of the Void",
       "Living Flame",
-      "Soul Breath"
+      "Soul Breath",
+      "Ring of Noble Soul",
+      "Divine Vein",
+      "Embrace of Death"
     ]
   },
   {
@@ -11478,7 +11506,7 @@
         "If HP is below 40%, increases MAIN STAT by 135, heals 40% max HP and stuns nearby enemies for 1 second",
         "If HP is above 40%, increases MAIN STAT by 105",
         "Regardless of HP percentage, increases critical damage by 0.1",
-        "Cooldown: 90 seconds"
+        "Cooldown: 60 seconds"
       ]
     }
   },
@@ -13512,7 +13540,7 @@
         "if HP is above 40%, increases MAIN STAT by 135",
         "If HP is below 40%, deals (MAIN STAT X 12.5) magic damage, increases MAIN STAT by 180, heals 70% max HP, and stuns nearby enemies for 1.5 seconds",
         "Regardless of HP percentage, increases critical damage by 0.20",
-        "Cooldown: 90 seconds"
+        "Cooldown: 60 seconds"
       ]
     }
   },
@@ -14107,7 +14135,7 @@
       "skilldamagepercent": 0.08,
       "mdpercent": 0.08,
       "active": [
-        "On use, drains portion of damage dealt as HP for 6 seconds",
+        "On use, heals 3000 HP",
         "Cooldown: 15 seconds"
       ]
     }
@@ -15024,7 +15052,7 @@
         "Blocks any damage that deal more than 10% max HP",
         "On block, reflects damage and deals (2 X (min(1, DMG DEALT / (max HP + 10%))) X max HP) magic damage",
         "Stuns for 2 seconds",
-        "Cooldown: 105 seconds"
+        "Cooldown: 90 seconds"
       ]
     }
   },
@@ -16652,6 +16680,7 @@
         "Deals (INT X 1.5) magic damage per wave",
         "Last wave heals (INT X 7.5) HP",
         "Applies a shield of (5000 + (INT X 5)) for 4.2 seconds",
+        "User gains 15% HP regen, but is excluded from healing rays",
         "Cooldown: 90 seconds"
       ],
       "spec": [
@@ -17485,10 +17514,6 @@
         "Blocks all damage for 3 seconds and reflects it around user",
         "Deals (DMG TAKEN *before reductions* X 5) pure damage (up to (max HP X 5))",
         "Cooldown: 75 seconds"
-      ],
-      "spec": [
-        "Specialties - Cold Ring of Death",
-        "Assassin - Shadow Slash: Damage increased by 50%."
       ]
     }
   },
@@ -18594,7 +18619,7 @@
     "color": "99FF99",
     "level": 100,
     "required_by": [
-      "Shadow Waltz"
+      "Espishu, the True Sword of Chaos"
     ],
     "recipe": [
       {
@@ -18893,7 +18918,7 @@
     "color": "99FF99",
     "level": 100,
     "required_by": [
-      "Shadow Waltz"
+      "Espishu, the True Sword of Chaos"
     ],
     "recipe": [
       {
@@ -18989,6 +19014,9 @@
     "type": "Weapon (Bow)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Divine Vein"
+    ],
     "recipe": [
       {
         "Soulstalker": 1
@@ -20302,6 +20330,7 @@
         "Afterwards heals (INT X 2.5) HP per 0.5 seconds to 3 allies with lowest HP for 6 seconds",
         "Deals (INT X 7.5) pure damage and stuns for 1 second per second for 6 seconds",
         "Prevents HP from dropping below 1",
+        "User gains 15% HP regen, but is excluded from healing rays",
         "Cooldown: 90 seconds"
       ],
       "spec": [
@@ -20918,6 +20947,9 @@
     "type": "Headwear",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Eye of the Blood God"
+    ],
     "recipe": [
       {
         "Void Eye": 1
@@ -21364,10 +21396,6 @@
         "Gives immunity to damage and debuffs for 3 seconds",
         "Upon expiration, deals (damage received X 10) pure damage in an AoE (up to (max HP X 10))",
         "Cooldown: 60 seconds"
-      ],
-      "spec": [
-        "Specialties - Ring of Frozen Soul",
-        "Assassin - Shadow Slash: Damage increased by 50%."
       ]
     }
   },
@@ -21460,6 +21488,9 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Divine Rose"
+    ],
     "recipe": [
       {
         "Eternal Rose": 1
@@ -21613,7 +21644,7 @@
       "passive": [
         "On landing a skill hit, creates Seed of Malice",
         "Heals 1200 HP and 3000 MP",
-        "Increases damage output by 2% per stack (up to 5 stacks)",
+        "Increases damage output by 1% per stack (up to 5 stacks)",
         "Seeds will gravitate towards the user if they move towards one",
         "Cooldown: 4 seconds"
       ],
@@ -21784,6 +21815,9 @@
     "type": "Wings",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Embrace of Death"
+    ],
     "recipe": [
       {
         "Wings of Slayer": 1
@@ -22536,13 +22570,7 @@
     "level": 100,
     "recipe": [
       {
-        "Espishu, the Sword of Chaos": 1
-      },
-      {
-        "Power of Beriel": 1
-      },
-      {
-        "Essence of Earth": 1
+        "Espishu, the True Sword of Chaos": 1
       },
       {
         "Arcane Core": 1
@@ -22555,7 +22583,7 @@
       }
     ],
     "stats": {
-      "damage": 11500,
+      "damage": 12000,
       "str": 610,
       "agi": 610,
       "mainstat": 340,
@@ -22665,7 +22693,7 @@
       ],
       "active": [
         "On use, activates Supernova",
-        "Consumes all stacks of Rising Sun and deals STR X (40 + 4 X stack) magic damage in 800 radius",
+        "Consumes 50% of stacks of Rising Sun and deals STR X (40 + 4 X stack) magic damage in 800 radius",
         "Cooldown: 60 seconds"
       ]
     }
@@ -22750,7 +22778,7 @@
       ],
       "active": [
         "On use, activates World Sunderer",
-        "Deals (MAIN STAT X 10) magic damage to nearby enemies 4 times",
+        "Deals (MAIN STAT X 15) magic damage to nearby enemies 3 times",
         "Then deals up to (MAIN STAT X 60 ~ 120) magic damage based on their missing HP and silences them for 2 seconds",
         "Gains max stacks of Ruin for 10 seconds",
         "Cooldown: 60s"
@@ -22758,6 +22786,46 @@
       "spec": [
         "Specialty - Darkened Light",
         "Paladin - Holy Divide deals 50% more damage."
+      ]
+    }
+  },
+  {
+    "id": "I01K",
+    "name": "Espishu, the True Sword of Chaos",
+    "koreanname": "진 혼돈의 검 에스피슈",
+    "description": "Do you wish for endless power? If so, step into the primordial chaos ..",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Melee)",
+    "color": "733CBE",
+    "level": 100,
+    "required_by": [
+      "Shadow Waltz"
+    ],
+    "recipe": [
+      {
+        "Espishu, the Sword of Chaos": 1
+      },
+      {
+        "Power of Beriel": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Essence of Earth": 1
+      }
+    ],
+    "stats": {
+      "damage": 10800,
+      "str": 600,
+      "agi": 600,
+      "mainstat": 320,
+      "skilldamagepercent": 0.15,
+      "passive": [
+        "Chance to activate True Chaos Strike on attack",
+        "10% chance to deal (STR + AGI) X 7.5 magic damage",
+        "every 4th proc lands as critical strike"
       ]
     }
   },
@@ -22853,6 +22921,53 @@
         "When Heat stacks are above 10, becomes Spirit Flame, dealing 20% additional damage and increasing your damage dealt to target by 2.5% (becomes different color)",
         "Accumulates Heat while in combat",
         "Every 4 seconds, increases skill damage and flame affinity by 1% (up to 15 stacks)"
+      ]
+    }
+  },
+  {
+    "id": "I01L",
+    "name": "Divine Vein",
+    "koreanname": "신성한 줄기",
+    "description": "Primal power flows through this bow.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Bow)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Soulbane": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Spirit of Damnation": 1
+      },
+      {
+        "Lantern of Souls": 1
+      }
+    ],
+    "stats": {
+      "damage": 11500,
+      "agi": 900,
+      "hp": 2000,
+      "skilldamagepercent": 0.2,
+      "passive": [
+        "Activates Weaponized Light every 7.5 seconds",
+        "Empowers next 5 attacks with (AD X 0.5 + AGI X 5) additional magic damage and increasing your skill damage dealt to target by 5% for 3 seconds"
+      ],
+      "active": [
+        "On use, activates Light Bombardment",
+        "Summons 5 rays of light, each dealing AGI X 15 magic damage",
+        "Activates Weaponized Light",
+        "Cooldown: 45s"
       ]
     }
   },
@@ -23406,7 +23521,7 @@
       ],
       "active": [
         "On use, activates Sanguine Fury",
-        "For 8 seconds, gains 8% damage dealt but loses 12% magic defense",
+        "For 8 seconds, gains 8% damage dealt",
         "Blood Nova will be active for the duration with 100% increased potency",
         "Cooldown: 60 seconds"
       ]
@@ -23995,6 +24110,9 @@
     "type": "Headwear",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Eye of Annihilation"
+    ],
     "recipe": [
       {
         "Horn of Demon God": 1
@@ -24230,12 +24348,13 @@
     ],
     "stats": {
       "armor": 170,
-      "str": 350,
-      "agi": 325,
+      "str": 375,
+      "agi": 350,
+      "skilldamagepercent": 0.05,
       "procdamagepercent": 0.15,
       "passive": [
         "On attack, activates Diabolic Flame",
-        "Deals (Main Stat X 6.5) pure damage to target",
+        "Deals (Main Stat X 6) pure damage to target",
         "Charges one per 0.75s (up to 3 charges)"
       ],
       "active": [
@@ -24328,15 +24447,99 @@
       "skilldamagepercent": 0.15,
       "passive": [
         "Periodically activates Forbidden Knowledge",
-        "1 stack is gained every 3 seconds and on skill cast with (25 X proc coefficient)% chance",
-        "Each stack increases INT by 10 (up to 20 stacks)",
-        "Random skill is refreshed at 10/20 stacks"
+        "1 stack is gained every 15 seconds and on skill cast with 3% chance",
+        "Each stack increases INT by 75 (up to 3 stacks)",
+        "7.5% chance on skill cast to reset a random skill"
       ],
       "active": [
         "On use, activates Forbidden Truth",
-        "Gains 250 INT and 5% SKD for 6 seconds",
-        "Consumes all stacks of Forbidden Truth, increasing stat gain by 10% per stack",
-        "Cooldown: 15 seconds"
+        "Increases INT by 250 and SKD by 5% per stack for 6 seconds",
+        "Consumes all stacks of Forbidden Truth, increasing stat gain by 10% per stack"
+      ]
+    }
+  },
+  {
+    "id": "I01T",
+    "name": "Eye of Annihilation",
+    "koreanname": "사멸의 눈",
+    "description": "Everything will return to nothingness.",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Horn of Dragon": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Sinister Skull": 1
+      }
+    ],
+    "stats": {
+      "armor": 140,
+      "allstat": 225,
+      "mainstat": 150,
+      "critchancepercent": 0.2,
+      "dtpercent": 0.15,
+      "passive": [
+        "Upon moving 3000 distance, activates Annihilation on next attack",
+        "Deals (MAIN STAT X 40) pure damage to target and enemies around it",
+        "Increases your damage dealt to target by 10% for 4 seconds",
+        "Can activate up to 2 more times within 5 seconds, dealing 25% of original damage and extending debuff by 1 second",
+        "Cooldown: 5 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I0B8",
+    "name": "Eye of the Blood God",
+    "koreanname": "혈신의 눈",
+    "description": "Eye filled with desire",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Eye of the Flame Lord": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Sinister Skull": 1
+      }
+    ],
+    "stats": {
+      "armor": 135,
+      "int": 375,
+      "mdpercent": 0.1,
+      "active": [
+        "On use, summons Crimson Eye",
+        "Can be recast to give commands to the summon.",
+        "When used on ally, the summon will attach to the target.",
+        "Cooldown: 90 seconds",
+        "Crimson Eye:",
+        "Passive - Crimson Pact",
+        "Normal State: Deals INT X 5 bonus magic damage on attack and reduces damage taken by 40%.",
+        "Attached State: Becomes invulnerable and increases the skill damage of the attached target by 5%, and movement speed by 75.",
+        "Passive - Blood Nova",
+        "Accumulates your healing done to the summon or the attached ally (Max Amount: Max HP x 125%).",
+        "Upon max accumulation, deals (Accumulated Amount X 6) magic damage to nearby enemies (reactivation cooldown: 3 seconds)"
       ]
     }
   },
@@ -24450,6 +24653,9 @@
     "type": "Accessory",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Ring of Noble Soul"
+    ],
     "recipe": [
       {
         "Ring of Frozen Soul": 1
@@ -24473,10 +24679,6 @@
         "Grants immunity to damage, debuffs and CC effects for 3 seconds",
         "Upon expiration, deals (damage received X 15) pure damage in an aoe (up to (max HP x 15))",
         "Cooldown: 60 seconds"
-      ],
-      "spec": [
-        "Specialties - Ring of Frozen Soul",
-        "Assassin - Shadow Slash: Damage increased by 50%."
       ]
     }
   },
@@ -24772,7 +24974,8 @@
         "Star of Apotheosis": 1
       },
       {
-        "Essence of Earth": 1
+        "Essence of Earth": 1,
+        "Aegis of Earth": 1
       },
       {
         "Arcane Core": 1
@@ -24882,6 +25085,100 @@
     }
   },
   {
+    "id": "I01X",
+    "name": "Ring of Noble Soul",
+    "koreanname": "고결한 영혼의 반지",
+    "description": "Ring infused with noble spirit",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Ring of Desolate Soul": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Gown of Life": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Sinister Skull": 1,
+        "Spirit of Damnation": 1
+      }
+    ],
+    "stats": {
+      "mainstat": 700,
+      "attackspeedpercent": 0.4,
+      "skilldamagepercent": 0.23,
+      "hpregen": 120,
+      "mpregen": 60,
+      "passive": [
+        "On skill cast, activates Radiance",
+        "Your skills inflict (Main Stat X 1.5) bonus damage (up to 30 times)"
+      ],
+      "active": [
+        "On use, activates Noble Soul",
+        "Becomes immune to damage, debuff and CC effects for 3 seconds",
+        "On expiration, deals (Damage Taken X 15) pure damage to nearby enemies (max damage: Max HP X 15)",
+        "Cooldown: 60 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I05G",
+    "name": "Divine Rose",
+    "koreanname": "디바인 로즈",
+    "description": "Rose infused with divinity",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Nebula Rose": 1
+      },
+      {
+        "Crimson Rose": 1
+      },
+      {
+        "Gown of Life": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Lantern of Souls": 1
+      }
+    ],
+    "stats": {
+      "int": 550,
+      "hp": 2000,
+      "skilldamagepercent": 0.075,
+      "affinityiwpercent": 0.075,
+      "affinitywlpercent": 0.075,
+      "passive": [
+        "On healing or shielding allies, activates Aegis of Light",
+        "Increases skill damage by 10%, reduces damage taken by 10% [Type-A], and increases movement speed by 30 for 4 seconds"
+      ],
+      "active": [
+        "On use, activates Cradle of Light",
+        "Grants a shield to allies within the target area that absorbs up to INT X 5 damage for 4 seconds",
+        "If the shield successfully blocks damage, increases main stat by 200 for 20 seconds",
+        "Cooldown: 40 seconds"
+      ]
+    }
+  },
+  {
     "id": "I00W",
     "name": "Cape of Insatiable Hunger",
     "koreanname": "끝없는 갈망의 망토",
@@ -24891,6 +25188,9 @@
     "type": "Wings",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Embrace of Death"
+    ],
     "recipe": [
       {
         "Wings of Blood Lord": 1
@@ -25408,6 +25708,47 @@
         "Grants invisibility and 200 movement speed for 2 seconds",
         "Empowers next attack, dealing 40000 + Main Stat X 6 magic damage (lands as critical strike)",
         "Cooldown: 10 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I0EV",
+    "name": "Embrace of Death",
+    "koreanname": "죽음의 포옹",
+    "description": "Wings of the harvester",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Wings of Night Lord": 1
+      },
+      {
+        "Cape of Insatiable Hunger": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Sinister Skull": 1,
+        "Spirit of Damnation": 1
+      }
+    ],
+    "stats": {
+      "mainstat": 450,
+      "hp": 2000,
+      "movespeed": 75,
+      "skilldamagepercent": 0.15,
+      "passive": [
+        "On skill cast, activates Soul Rend on next attack",
+        "Deals Main Stat X 4.5 pure damage (can crit)",
+        "Increases main stat by 50 for 8 seconds (can stack up to 8 times)",
+        "Upon reaching max stacks, the duration is no longer refreshed, but increases total damage by 10% for the duration of the buff"
       ]
     }
   },

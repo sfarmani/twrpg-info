@@ -27,7 +27,7 @@
         "order": 2,
         "passive": [
             "Infuses the spirit of lightning into your arrows.",
-            "On every 4th attack, deals AGI X 5 magic damage and stores a charge of lightning",
+            "On every 4th attack, deals AGI X 7 magic damage and stores a charge of lightning",
             "Increases AGI by 5% and attack speed by 15% for 10 seconds",
             "Stacks up to 4 times"
         ],
@@ -35,11 +35,11 @@
             "Fires an arrow that pierces the wind.",
             "Attack Damage X 1.5 damage",
             "Reduces target's movement speed by 50% for 2 seconds",
-            "Consumes lightning charges to deal 75% bonus damage per consumed charge"
+            "Consumes lightning charges to deal 100% bonus damage per consumed charge"
         ]
     },
     {
-        "id": "A0GJ",
+        "id": "A1B6",
         "name": "Glide",
         "heroClass": "Sniper",
         "color": "dbfda8",
@@ -49,9 +49,8 @@
         "order": 3,
         "active": [
             "Swiftly disengages while attacking at the same time.",
-            "Each arrow deals Attack Damage X 0.5 + AGI X 2 magic damage",
-            "First 4 arrows are fired at last attacked target",
-            "Fires up to 20 arrows based on moved distance"
+            "Each arrow deals Attack Damage X 0.5 + AGI X 2.5 magic damage",
+            "First 4 arrows are fired at last attacked target"
         ]
     },
     {
@@ -920,9 +919,9 @@
         "order": 1,
         "passive": [
             "Manipulates blood through black magic.",
-            "Increases max HP by INT X 4",
-            "Periodically charges blood gauge every (6 - 0.04 X Hero Level)",
-            "On next attack, consumes blood gauge to deal Max HP X 25% pure damage and heal for Max HP X 8%"
+            "Increases max HP by INT X 3",
+            "Empowers next attack every (4 - 0.03 X Level) seconds (up to 5 charges can be stored)",
+            "Empowered attack deals Attack Damage X 0.4 + Max HP X 0.3 pure damage"
         ]
     },
     {
@@ -932,19 +931,17 @@
         "color": "ff1a1a",
         "hotkey": "[Q]",
         "icon": "BloodWeaverQ",
-        "cooldown": 0.4,
+        "cooldown": 0,
         "order": 2,
         "passive": [
-            "Unleash blades made from the spilled blood of your enemies.",
-            "Activates on every 4th attack",
-            "Attack Damage X 0.5 magic damage"
+            "Gathers blood.",
+            "Charges 3 blood gauge every secon and on every attack",
+            "Charges 1 blood gauge for each 1% HP healed by skills, 2% HP healed by item effects, 20% HP healed by allies"
         ],
         "active": [
-            "Focus blood into the tips of your nails.",
-            "Consumes Max HP X 12%",
-            "Deals Attack Damage X 0.8 magic damage",
-            "Can be cast up to 4 additional times, each cast increasing damage by 125% and HP cost by 100%",
-            "After 5th cast, enters cooldown for 1.5 seconds"
+            "Forms blades using gathered blood and launch them.",
+            "Attack Damage X 1 + Max HP X 0.3 magic damage",
+            "Can be cast up to 5 consecutive times, each cast increasing damage by 100%"
         ]
     },
     {
@@ -954,13 +951,12 @@
         "color": "ff4d94",
         "hotkey": "[W]",
         "icon": "BloodWeaverW",
-        "cooldown": 8,
+        "cooldown": 6,
         "order": 3,
         "active": [
-            "Swiftly move by transforming into bats.",
-            "Consumes Max HP X 15%",
+            "Swiftly moves by transforming into bats.",
             "Max HP X 2.5 magic damage",
-            "Invulnerable while travelling"
+            "Charges 3 empowered attacks"
         ]
     },
     {
@@ -970,19 +966,17 @@
         "color": "ff4d4d",
         "hotkey": "[E]",
         "icon": "BloodWeaverE",
-        "cooldown": 12,
+        "cooldown": 10,
         "order": 4,
         "passive": [
             "Blood spilled by enemies become Blood Weaver's flesh.",
-            "Stores 2% of damage dealt as shield",
-            "Can store up to maximum of INT X 2"
+            "Converts 50% of excess healing done by Blood Weaver into shield",
+            "Can store up to Max HP X 20%"
         ],
         "active": [
-            "Pull target toward yourself to drain life out of it.",
-            "Every 0.125 seconds, inflict MAX HP x 0.3 magic damage",
-            "INT X 3.75 magic damage",
-            "Each damage instance restores 10% MAX HP",
-            "Lasts up to 2 seconds, or until the Blood Weaver is full health"
+            "Pulls target and drains life out of it.",
+            "Deals up to Max HP X 6 damage over 1 second",
+            "Heal up to Max HP X 40%"
         ]
     },
     {
@@ -994,15 +988,11 @@
         "icon": "BloodWeaverR",
         "cooldown": 15,
         "order": 5,
-        "passive": [
-            "Incites yourself through stimulation of blood.",
-            "Casting a skill refills 1 blood gauge"
-        ],
         "active": [
-            "Rallies allies by stimulating their blood.",
-            "Increases attack damage and HP by 20% for (6 + STR / 750) seconds",
-            "Increases your attack speed by 50%, healing received by 20% and each attack will restore 1 blood gauge on attack",
-            "Rose Dance's cast time and cooldown are removed and can be cast up to 3 times without incurring HP consumption"
+            "Incites yourself by stimulating your blood.",
+            "For 5 seconds, maximizes attack speed and reduces damage taken by 30%",
+            "Activates Enhanced attack with 60% increased damage on every basic attack",
+            "Rose Dance's coolown is reset and can be cast up to 3 times without incurring cast time or cooldown"
         ]
     },
     {
@@ -1015,8 +1005,8 @@
         "cooldown": 30,
         "order": 6,
         "active": [
-            "Purify enemies with a ritual of blood.",
-            "Max HP X 15 magic damage",
+            "Purifies enemies with a ritual of blood.",
+            "Max HP X 20 magic damage",
             "Pulls in enemes that are far away"
         ]
     },
@@ -1031,9 +1021,9 @@
         "order": 7,
         "active": [
             "\"I shall beautify you even further !\"",
-            "Creates 20 spears over 2 seconds, inflicting Attack Damage X 1 + MAX HP X 70% magic damage per spear",
+            "Creates 15 spears over 1.5 seconds, inflicting Attack Damage X 0.7 + Max HP X 1.5 magic damage per spear",
             "Deals up to 40% bonus damage based on target's missing HP (max damage reached at 40% HP)",
-            "Becomes immune to CC effects while casting"
+            "Gains invulnerability while casting"
         ]
     },
     {
@@ -1613,7 +1603,7 @@
         "icon": "SwordsmanQ_W",
         "order": 3,
         "active": [
-            "Dashes forward, quickly slashing enemies on your path.",
+            "Dashes forward, slashing everything on the path.",
             "AGI X (5 + Hero Level /5) pure damage"
         ]
     },
@@ -1709,8 +1699,8 @@
         "cooldown": 40,
         "order": 9,
         "active": [
-            "Brutally slash everything in range with rapid movements.",
-            "Deals Attack Damage x 5 + AGI x 25 magic damage every second for 2.5 seconds",
+            "Brutally slashes everything in range with rapid movements.",
+            "Attack Damage X 8 + AGI X 40 magic damage every second for 1.5 seconds",
             "Increases target's damage taken by 10% for 8 seconds",
             "Summons 4 Swords of Illusion"
         ]
@@ -1726,8 +1716,9 @@
         "order": 10,
         "active": [
             "\"I couldn't see anything. Only the corpses of my comrades were left at where he slashed through.\" - A Survivor of Empire War",
-            "Each slash deals AGI X 7.5 magic damage",
-            "Final slash deals AGI X 125 magic damage",
+            "Perform 10 slashes each dealing AGI X 12 magic damage",
+            "Performs final slash dealing AGI X 60 magic damage",
+            "Final slash lands as critical strike",
             "Summons 8 Swords of Illusion"
         ]
     },
@@ -2246,7 +2237,7 @@
         "order": 6,
         "toggle": [
             "Discharges body to quickly release mana, gaining immense speed in return.",
-            "For 1 second, deals INT X 10 magic damage to collided enemies",
+            "For 1 second, deals INT X 8.5 magic damage to collided enemies",
             "Reduces damage taken by 70% and ignores CC effects while active",
             "Can absorb Lightning Orbs, healing you for 8% HP and 20 energy and granting you Charged status, which refreshes the duration of skill and allows you to deal damage once more",
             "While Charged, Discharge and Hypercharge deals 100% increased damage"
@@ -2334,9 +2325,9 @@
         "order": 2,
         "active": [
             "Fires mana stored within your sword to target point.",
-            "STR X 7.5 magic damage",
+            "STR X 10 magic damage",
             "Stuns and pulls enemies toward center",
-            "Reduces movement speed of targets hit by 60%, as well as increasing the damage they take by 10% for 3 seconds",
+            "Reduces movement speed of targets hit by 60%, as well as increasing the damage they take by 12% for 3 seconds",
             "Restore 1 charge every 5 seconds (Up to 4 charges)"
         ]
     },
@@ -2441,7 +2432,7 @@
         "active": [
             "\"Light that can be bestowed upon the weak - that is the true light.\" - Astarte",
             "Slashes twice, each dealing STR X 70 magic damage",
-            "If cast again, incurs a longer cooldown but delivers an additional slash dealing STR X 100 magic damage"
+            "If cast again, incurs a longer cooldown but delivers an additional slash dealing STR X 120 magic damage"
         ]
     },
     {
@@ -2499,9 +2490,9 @@
         "icon": "MartialArtistPass",
         "order": 4,
         "passive": [
-            "Apply sudden pressure to weak points, slowing down the target's movement.",
-            "Basic attacks have a 15% chance to slow the target",
-            "Temporarily decrease target's armor by 30% [Type-C] if debuff is stacked"
+            "Applies sudden pressure to the target's weak points, slowing down its movement.",
+            "Basic attacks have a 15% chance to slow the target for 6 seconds",
+            "Decreases target's armor by 40% and increases proc damage taken by 5% for 6 seconds if debuff is stacked"
         ]
     },
     {
@@ -2529,7 +2520,7 @@
         "order": 6,
         "passive": [
             "An improved version of Emperor's strikes that boasts fearsome power.",
-            "8% chance to deal Attack Damage X 0.4 + AGI X 12 magic damage on attack",
+            "8% chance to deal Attack Damage X 0.5 + AGI X 15 magic damage on attack",
             "Activates at least once when attacking 10 consecutive times"
         ]
     },
@@ -2562,12 +2553,12 @@
         "order": 1,
         "passive": [
             "Spear techniques passed down from the orients that boasts destructive power.",
-            "Spear attacks can critically strike",
+            "D/Q/W/E can critically strike",
             "Attack speed bonus granted by AGI is halved"
         ],
         "active": [
-            "Temporarily augment the destructive power of spear techniques.",
-            "For 4 seconds, every attack deals STR X 1.25 bonus magic damage",
+            "Temporarily augments the destructive power of spear techniques.",
+            "For 4 seconds, every attack deals STR X 1.5 bonus magic damage",
             "Attack speed maximized",
             "Boosts next skill cast within duration"
         ]
@@ -2585,7 +2576,7 @@
             "Pierces through enemies.",
             "Attack damage X 1 + STR X 7.5 pure damage",
             "Increases damage taken by target by 5% for 15 seconds",
-            "Empowered: Increases the critical chance of your spear attacks by 50% for 40 seconds"
+            "Empowered: Increases chance to critically strike with skills by 50% for 40 seconds"
         ]
     },
     {
@@ -2598,11 +2589,11 @@
         "cooldown": 8,
         "order": 3,
         "active": [
-            "Attack nearby enemies with a swift spear strike.",
+            "Attacks nearby enemies with a swift spear strike.",
             "Attack damage X 0.9 + STR X 4.5 magic damage",
             "Enemies hit are slowed by 90% for 2 seconds",
             "Resets duration of Oriental Spear Mastery",
-            "Empowered: Increases the damage you deal to target with spear attacks by 100% for 5 seconds"
+            "Empowered: Increases damage dealt by D/Q/W/E on target by 100% for 5 seconds"
         ]
     },
     {
@@ -2617,8 +2608,8 @@
         "active": [
             "Strikes target's vital point.",
             "Attack damage X 1.2 + STR X 6 magic damage",
-            "If target has barriers, breaks them and lands as a critical strike",
-            "Empowered: Deals up to 40~100% bonus damage based on target's missing HP"
+            "Breaks barriers",
+            "Empowered: Critically strikes and deals up to 40~100% bonus damage based on target's missing HP"
         ]
     },
     {
@@ -2652,9 +2643,9 @@
         "cooldown": 30,
         "order": 6,
         "active": [
-            "Focus ki into spear and launch it forward.",
-            "STR X 70 magic damage",
-            "Increases all stats by 10% for self and allies within 1000 range from explosion",
+            "Focuses ki into spear and launch it forward.",
+            "STR X 80 magic damage",
+            "Increases all stats by 8% for self and allies within 1000 range from explosion for 40 seconds",
             "Resets cooldown of Oriental Spear Mastery"
         ]
     },
@@ -2669,7 +2660,7 @@
         "order": 7,
         "active": [
             "\"She disappeared the moment I saw her on the battlefield.. and then suddenly appeared at the center of the enemies' base, which formed a mountain of corpses.\" - Empire War Veteran",
-            "STR X 140 magic damage",
+            "STR X 160 magic damage",
             "Deals 50% bonus damage to enemies within 325 radius from target point",
             "Restores 100 ki"
         ]
@@ -2722,8 +2713,7 @@
             "Pursuits the target relentlessly.",
             "Landing same type of attack increases its damage by 2.5%",
             "Landing skill will stack it 10 times",
-            "Can stack up to 40 times",
-            "Combo stacks lasts for 4 seconds"
+            "Can stack up to 40 times"
         ],
         "active": [
             "For 1.5 seconds, attack twice on every attack",
@@ -2741,7 +2731,7 @@
         "order": 4,
         "active": [
             "Pierces through the target, delivering a deadly strike.",
-            "AGI X 12 magic damage",
+            "AGI X 10 magic damage",
             "Critically strikes",
             "While active, Whirl of Death (Q) will deal an additional 200% damage and Death's Dash's damage is increased by 50%"
         ]
@@ -2793,12 +2783,12 @@
         "order": 7,
         "active": [
             "\"You are already dead. You just haven't caught up to it yet.\" - Reaper",
-            "For 10 seconds, increases damage you deal to the target by 20~40% based on target's missing HP",
+            "For 10 seconds, increases damage you deal to the target by 15~35% based on target's missing HP",
             "Upon expiration, deals AGI X 125 magic damage to the target"
         ]
     },
     {
-        "id": "A05M",
+        "id": "A16L",
         "name": "Dark Shroud",
         "heroClass": "Assassin",
         "color": "606aca",
@@ -2809,8 +2799,7 @@
             "Ability to meld into darkness and assassinate effortlessly.",
             "Allows all skills to critically strike",
             "Enters stealth if out of combat for 2.5 seconds",
-            "Backstabbing enemies while stealthed deals AGI X 5 bonus damage",
-            "Reduces damage taken by 30% while stealthed"
+            "While stealthed, movement speed is increased by 75 and damage taken is reduced by 30%"
         ],
         "toggle": [
             "TOGGLE OFF: Enable invisibility",
@@ -2827,10 +2816,10 @@
         "cooldown": 3,
         "order": 2,
         "active": [
-            "Performs a frontal slash aimed toward weak spots.",
-            "Attack damage X 0.5 + AGI X 5 magic damage",
-            "If an enemy is hit, obtains Shadow Mark for 10 seconds, increasing critical chance by 6% (up to 5 stacks)",
-            "At max stacks, the duration no longer refreshes but resets cooldown on Shadow Slash and Shadow Rush"
+            "Slashes enemey's weak point.",
+            "Attack damage X 0.4 + AGI X 4 magic damage",
+            "If hit, obtains Shadow Mark for 5 seconds, increasing critical chance by 6% (stacks up to 5 times)",
+            "Upon reaching max stacks, duration no longer refreshes but cooldown of Ambush is reset"
         ]
     },
     {
@@ -2840,14 +2829,13 @@
         "color": "8080c0",
         "hotkey": "[W]",
         "icon": "AssassinW",
-        "cooldown": 10,
+        "cooldown": 6,
         "order": 3,
         "active": [
             "Melds into the darkness to strike the enemy from behind.",
-            "Attack damage X 1.25 + AGI X 7.5 magic damage",
-            "Stuns for 1.5 seconds",
-            "After cast, increases attack damage by 25% for 6 seconds",
-            "Critical strike is guaranteed if used while invisible"
+            "Attack Damage X 0.6 + AGI X 6 magic damage",
+            "Increases attack damage by 25% for 3 seconds",
+            "Resets cooldown of Shadow Slash"
         ]
     },
     {
@@ -2862,8 +2850,7 @@
         "active": [
             "Becomes one with the shadow to avoid being seen by enemies.",
             "Becomes invisible and temporarily gains bonus movement speed",
-            "Next attack within 6 seconds inflicts Attack Damage X 1.5 + AGI X 9 magic damage",
-            "Stuns for 1 second",
+            "Next attack within 6 seconds inflicts Attack Damage X 1 + AGI X 8 magic damage",
             "If struck from behind, damage increased by 50%"
         ]
     },
@@ -2877,10 +2864,10 @@
         "cooldown": 15,
         "order": 5,
         "active": [
-            "Throws down a poisonous smoke bomb that confuses enemies.",
-            "AGI x 1 magic damage per second for 6 seconds",
-            "While inside smoke bomb, enters invisibility 300% faster and your attacks always count as back attacks and do not stop you from going invisible",
-            "Allies inside smoke bomb take 40% reduced damage"
+            "Detonates a smoke bomb that confuses nearby enemies.",
+            "Slows nearby enemies for 4 seconds",
+            "While inside smoke, invisibility will not be broken",
+            "While inside smoke, Shadow Slash can be activated up to 4 times regardless of cooldown"
         ]
     },
     {
@@ -2890,12 +2877,13 @@
         "color": "6e6eaa",
         "hotkey": "[T]",
         "icon": "AssassinT",
-        "cooldown": 20,
+        "cooldown": 15,
         "order": 6,
         "active": [
             "Summons shadows from all directions and rush toward the target point.",
-            "Deals AGI X 6 damage 6 times",
-            "Summons 5 additional shadows that imitate next Shadow Slash or Ambush, each dealing 50% of original damage"
+            "AGI X 20 magic damage",
+            "Summons 5 additional shadows that copy next Shadow Slash or Ambush, each dealing 50% of original damage",
+            "When max stacks of Shadow Mark is obtained, can be activated immediately regardless of cooldown"
         ]
     },
     {
@@ -2910,8 +2898,8 @@
         "active": [
             "\"Both sides of war tend to avoid fighting in the night because 'she' wanders around..\" - A Survivor of Empire War",
             "Delivers 12 slashes, each dealing AGI X 4 magic damage",
-            "Final strike deals AGI X 45 magic damage",
-            "Deals 10% bonus damage for each stack of Shadow Mark",
+            "Final strike deals AGI X 40 magic damage",
+            "Deals 6% bonus damage for each stack of Shadow Mark",
             "Critically strikes enemies within 250 distance from the center"
         ]
     },
@@ -3342,7 +3330,7 @@
         "order": 1,
         "passive": [
             "Continuously attack like flowing water.",
-            "Basic attacks ignore 70% of target's armor",
+            "Basic attacks ignore 80% of target's armor",
             "Every 4th basic attack will strike twice"
         ]
     },
@@ -3353,7 +3341,7 @@
         "color": "fe2101",
         "hotkey": "[Q]",
         "icon": "ThundererQ",
-        "cooldown": 6,
+        "cooldown": 5,
         "order": 2,
         "active": [
             "Focuses strength onto the tip of the spear to deliver powerful strikes.",
@@ -3388,10 +3376,10 @@
         "cooldown": 8,
         "order": 4,
         "active": [
-            "Dashes with the speed of lightning.",
-            "(STR + AGI) X 15 magic damage",
-            "Stuns enemies hit for 1 second",
-            "Recharges Magnetic Field up to 25% based on distance travelled"
+            "Summons shadows from all directions and rush toward the target point.",
+            "AGI X 20 magic damage",
+            "Summons 5 additional shadows that copy next Shadow Slash or Ambush, each dealing 50% of original damage",
+            "When max stacks of Shadow Mark is obtained, can be activated immediately regardless of cooldown"
         ]
     },
     {
@@ -3401,13 +3389,13 @@
         "color": "fe2101",
         "hotkey": "[E]",
         "icon": "ThundererE",
-        "cooldown": 20,
+        "cooldown": 15,
         "order": 5,
         "active": [
-            "Activates a shield of thunder to protect yourself and damage nearby enemies.",
-            "Deals (STR + AGI) X 6 magic damage per second",
-            "Reduces damage taken by 40%",
-            "After 3 seconds, consumes 15% of Magnetic Field per second"
+            "Activates a shield of thunder to protect yourself.",
+            "Deals (STR + AGI) X 5 magic damage every 0.5 second",
+            "Reduces damage taken by 30% and increases movement speed by 150",
+            "Starts consuming Magnetic Field after 2.5 seconds"
         ]
     },
     {
@@ -3422,8 +3410,8 @@
         "active": [
             "Delivers a fatal blow by striking target's heart.",
             "Attack Damage X 5 + (STR + AGI) X 40 magic damage",
-            "Consumes Magnetic Field to deal up to a maximum of 150% bonus damage",
-            "Breaks barriers and stuns for 1.5 second if max gauge is consumed"
+            "Breaks shield effects and stuns for 1.5 second",
+            "Consumes Magnetic Field to deal up to a maximum of 150% bonus damage"
         ]
     },
     {
@@ -3433,12 +3421,12 @@
         "color": "fe2101",
         "hotkey": "[F]",
         "icon": "ThundererF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 7,
         "active": [
             "\"Disappear with the thunder!\" - Thunderer",
-            "Calls down 25 lightning strikes over 4 seconds, each dealing Main Stat X 10 magic damage and stunning for 1 second",
-            "Restores 25% of Magnetic Field every second while inside the area"
+            "Calls down 12 lightning strikes over 2.5 seconds, each dealing Main Stat X 20 magic damage and stunning for 1 second",
+            "Restores 50% of Magnetic Field every second while inside the area"
         ]
     },
     {
@@ -3498,7 +3486,7 @@
         "order": 4,
         "passive": [
             "As the hunger for blood increases, so do berserker's combat abilities.",
-            "Increases attack damage up to (STR X 6), total damage up to 20%, move speed up to 125, and damage reduction up to 40% based on missing HP",
+            "Increases attack damage up to (STR X 6), total damage up to 20%, move speed up to 125, and damage reduction up to 50% based on missing HP",
             "Each attack increases STR by 10%, attack speed by 25% for 6 seconds (stacks up to 3 times)"
         ],
         "toggle": [
@@ -3541,8 +3529,8 @@
         "active": [
             "Driven by madness, Berserker becomes a killing machine whose sole purpose is to battle.",
             "Consumes HP X 70%",
-            "For 6 seconds, increases total damage by 15% and attack speed by 100%",
-            "Every attack activates Bleeding and has 35% chance to trigger Madness",
+            "For 8 seconds, increases total damage by 15% and attack speed by 100%",
+            "Every attack activates Bleeding and has 33% chance to trigger Madness",
             "HP will not drop below 1 and becomes immune to instant death effects"
         ]
     },
@@ -3558,7 +3546,7 @@
         "active": [
             "\"It is not a human but rather a monster! A monster crazed by battle! How could she move like that.. It sends shivers down my spines just to think about running into her as enemies in a war.\" - Survivor of Empire War",
             "Each slash deals STR X 5 magic damage",
-            "Final slam deals STR X 100 magic damage",
+            "Final slam deals STR X 125 magic damage",
             "Fully restores HP after cast"
         ]
     },
@@ -3741,11 +3729,11 @@
         "proc_rate": 0.5,
         "order": 3,
         "active": [
-            "Quickly dash across the battlefield.",
+            "Quickly dashes across the battlefield.",
             "Consumes Max MP X 40%",
             "STR X 10 magic damage",
             "Knockbacks enemies toward charge direction",
-            "Colliding from far distance breaks barriers and deals up to (8 X damage reduction + 4 X magic defense)% bonus damage",
+            "Colliding from far distance breaks barriers and deals up to (6 X damage reduction + 4 X magic defense)% bonus damage",
             "Breaking a barrier increases this skill's damage by 50%",
             "Release Mana ON: Pierces through enemies and grants shield for 3 seconds that absorbs up to (Knight's Reduction X Knight's Max MP) to collided allies"
         ]
@@ -3836,13 +3824,14 @@
         "cooldown": 15,
         "order": 8,
         "passive": [
-            "Inscribe seal of mana onto enemies to amplify magic taken.",
+            "Inscribes seal of mana onto enemies to amplify magic taken.",
             "On landing hit with a skill, applies Seal of Mana (up to 6 stacks)",
             "On landing hit with another skill of Knight, consumes all stacks of Seal of Mana",
             "For each stack consumed, deals 20% bonus damage and restores max MP X 2% (max MP X 4% for boss)"
         ],
         "active": [
             "Inscribes seal of mana onto the ground to protect allies from damage.",
+            "Increases damage dealt by skills by 4%",
             "Shares Knight's reduction and healing with allies",
             "Restores Knight's MP by 10% per second",
             "Lasts 6 seconds"
@@ -3859,9 +3848,9 @@
         "order": 9,
         "active": [
             "\"Corrupt evils that must not exist in this world! The end is nigh. O Holy sword, grant me victory over my foes!\" - Knight during the God-Devil War",
-            "STR X 75 magic damage",
+            "Max MP X 5 + Main Stat X 50 magic damage",
             "For each second channeled, size increased & damage increased by 50%",
-            "Can be channeled up to a maximum of 2 seconds",
+            "Can be channeled up to a maximum of 1.5 seconds",
             "Grants 100% damage reduction and immunity to debuffs/CC effects to allies hit for 5 seconds"
         ]
     },
@@ -3915,7 +3904,7 @@
         "order": 3,
         "active": [
             "Slams and awakens dormant souls resting within ground.",
-            "(STR + INT) X 12 magic damage",
+            "(STR + INT) X 10 magic damage",
             "Summons 3 souls",
             "STR: Deals 50% bonus damage",
             "INT: Grants barrier absorbing (Caster's Max HP X 40%) damage to nearby allies for 3 seconds"
@@ -3950,7 +3939,7 @@
         "order": 5,
         "active": [
             "Unleashes a piercing strike that breaks souls.",
-            "Attack Damage X 0.75 + (STR + INT / 3) X 10 magic damage",
+            "Attack Damage X 0.6 + (STR + INT / 3) X 8 magic damage",
             "Consecutive casts increases damage by 50% (up to 100%)"
         ]
     },
@@ -4000,7 +3989,7 @@
         "order": 8,
         "active": [
             "Bestows rest upon fallen souls.",
-            "Main Stat X 75 magic damage",
+            "Main Stat X 60 magic damage",
             "Silences for 2 seconds",
             "STR: Deals 30% bonus damage per 3 souls consumed recently (up to 150%)",
             "INT: Summons 7 souls and allies will take 60% reduced damage and become immune to debuffs for 4 seconds"
@@ -4069,7 +4058,7 @@
             "Pulls down mana in the atmosphere as a shattering strike.",
             "Max MP X 2.5 magic damage",
             "Stuns for 0.5 seconds",
-            "Increases magic damage taken from Mage by 4% for 30 seconds (Stacks up to 3 times)"
+            "Increases magic damage taken from Mage by 6% for 30 seconds (stacks up to 2 times)"
         ]
     },
     {
@@ -4083,9 +4072,8 @@
         "cooldown": 10,
         "order": 4,
         "active": [
-            "Damage and slow enemies by amplifying the gravity.",
-            "Pulls in enemies",
-            "Deals INT X 2.5 magic damage per second",
+            "Damages and slows enemies by amplifying the gravity.",
+            "Pulls in enemies and deals Max MP X 0.7 magic damage per second",
             "Lasts 5 seconds"
         ]
     },
@@ -4101,7 +4089,7 @@
         "order": 5,
         "active": [
             "Dashes forward leaving a magical illusion behind.",
-            "Illusion explodes after 3 seconds, dealing INT X 6 magic damage",
+            "Illusion explodes after 3 seconds, dealing INT X 10 magic damage",
             "Becomes invisible and takes 40% reduced damage",
             "Can be cast twice in a row",
             "Chain: Magic Star"
@@ -4593,8 +4581,8 @@
         "passive": [
             "An aspect of protector who defends his allies.",
             "Increases nearby allies' magic defense by 10%",
-            "Judgment - Reduces damage dealt by target by 20% for 2 seconds",
-            "Sigil - Grants a shield that absorbs (STR + INT X 2) damage for 3 seconds",
+            "Judgment - Creates a shield absorbing (STR + INT X 2) damage for 2 seconds",
+            "Sigil - Grants a shield absorbing (STR + INT X 2) damage for 3 seconds",
             "Devotion: When chained with Holy Grace, shield amount and duration is increased by 100%"
         ]
     },
@@ -4609,9 +4597,9 @@
         "passive": [
             "Aspect of priest that cures the inner wounds of allies.",
             "Increases nearby allies' HP regen by target's max HP X 1% + INT X 0.2",
-            "Judgment - Restores max HP X 30%",
-            "Sigil - Heals for target's max HP X 20% + INT X 2",
-            "Devotion: Additionally heals for INT X 1 every 4 seconds for 20 seconds"
+            "Judgment - Heals yourself for Max HP X 30%",
+            "Sigil - Heals target for (STR + INT X 2) HP",
+            "Devotion: Additionally heals for INT X 1 HP every 4 seconds for 20 seconds"
         ]
     },
     {
@@ -4642,7 +4630,7 @@
         "active": [
             "Sends out a holy wave that only damages evil.",
             "Attack Damage X 1 magic damage",
-            "Heals you for INT X 2 HP",
+            "Heals you for INT X 1.5 HP",
             "Leaves Mark of Light for 3 seconds that allows your next attack from range to dash to the target and deal pure damage instead",
             "Cooldown reset on casting other skills",
             "Devotion: Heals any allies hit as well"
@@ -4688,7 +4676,7 @@
             "Applies Judgment to nearby enemies",
             "Applies Sigil to nearby allies",
             "Summons 2 holy spirits",
-            "Devotion: Effect radius increased by 50%"
+            "Devotion: Cooldown is increased by 5 seconds and effect radius increased by 50%"
         ]
     },
     {
@@ -4721,7 +4709,7 @@
             "Summons a holy shield to protect yourself from harm.",
             "For 5 seconds, regenerates 15% HP per second and decreases damage taken by 80%",
             "On recast, deals (STR X 25 X elapsed seconds) magic damage to nearby enemies and stuns for 2.5 seconds",
-            "Devotion: Cooldown is increased by 10 seconds but affects nearby allies as well"
+            "Devotion: Cooldown is increased by 15 seconds but affects nearby allies as well"
         ]
     },
     {
@@ -4738,7 +4726,7 @@
             "Releases a pulse every second to deal AD X 2.5 + STR X 40 magic damage",
             "Calls down rays of light on two allies every 0.25 seconds, healing them for INT X 5",
             "Lasts 4 seconds",
-            "Devotion: Each pulse provides allies with buff for 4 seconds, increasing their total damage by 5% and preventing their HP from dropping below 1"
+            "Devotion: Each pulse provides allies with buff for 4 seconds, increasing their total damage by 7.5% and preventing their HP from dropping below 1"
         ]
     },
     {
@@ -4875,7 +4863,7 @@
         "passive": [
             "Forms a harmonious balance between attacking and healing.",
             "Every 4th attack heals you and 2 nearby allies for 25 + INT X 0.5 + Target's MAX HP X 2%",
-            "If AGI is highest, your skills deal 75% more damage",
+            "If AGI is highest, your skills deal 85% more damage",
             "If STR or INT is highest, your skills heal and regenerate for 100% more and activates Harmony"
         ]
     },
@@ -4943,7 +4931,7 @@
         "active": [
             "Summons an orb that heals allies.",
             "Regenerates HP by Main Stat X 0.25 per second",
-            "Regenerates resource point by 5% per second",
+            "Regenerates resource by 5% per second",
             "Increases skill damage by 10%",
             "Lasts 5~10 seconds based on duration traveled",
             "Harmony: Skill damage bonus is further increased by (Main Stat / 500)%"
@@ -5770,7 +5758,7 @@
         "order": 2,
         "active": [
             "In a flash of light, dashes towards target location immediately.",
-            "STR X 8 magic damage",
+            "STR X 8 magic damage (treated as basic attack)",
             "Leaves an Orb of Light at your original location",
             "Can be cast twice in a row"
         ]
@@ -5932,11 +5920,10 @@
         ],
         "active": [
             "Charges to fires a destructive missile.",
-            "Attack Damage X 1 + STR X 10 magic damage and slow",
+            "Attack Damage X 1 + STR X 12.5 magic damage and slows",
             "Converts Armor Break into Critical Break for 2 seconds, which also increases damage dealt by your skills",
             "Cooldown is reset if target is boss with max stacks",
-            "Consumes Critical Break to land as critical strike",
-            "Charging speed is affected by attack speed"
+            "Consumes Critical Break to land as critical strike"
         ]
     },
     {
@@ -5985,9 +5972,9 @@
         "passive": [
             "Loads missiles periodically.",
             "1 missile is loaded every 3 seconds and on every 5th attack",
-            "3 missiles are loaded on casting Buster Shot",
-            "10 missiles are loaded on casting Mecha Call",
-            "You can store up to 25 missiles, and at max capacity your next attack will release an excess missile (cooldown: 2s)"
+            "2 missiles are loaded on casting Buster Shot",
+            "8 missiles are loaded on casting Mecha Call",
+            "You can store up to 20 missiles, and at max capacity your next attack will release an excess missile (cooldown: 2s)"
         ],
         "active": [
             "Bombards target area with all your homing missiles.",
@@ -6007,7 +5994,7 @@
         "order": 8,
         "active": [
             "\"Blast away!\" - Blaster",
-            "For 2.5 seconds, deals STR X 7 magic damage and short stun every 0.25 seconds",
+            "For 2 seconds, deals STR X 10 magic damage and short stun every 0.25 seconds",
             "Applies Critical Break to boss",
             "Afterwards, drops a big bomb dealing STR X 50 magic damage",
             "Lands as critical strike"

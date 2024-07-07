@@ -1,5 +1,956 @@
 [
     {
+        "name": "67b",
+        "notes": [
+            "Released on: June 30th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Fixed issue with DF ticket drop",
+            "Fixed issue with Trickster illusion cancel button being on F instead of D",
+            "Fixed issue with Valtora tornado color not appearing correctly",
+            "Fixed issue with some wing effects not displaying on new summer event skins"
+        ]
+    },
+    {
+        "name": "67a",
+        "notes": [
+            "Released on: June 29th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Embrace of Death - Fixed issue with damage not being adjusted from previous patch (Main Stat X 4 → Main Stat X 4.5)",
+            "Styrix - Fixed issue with boss attack bypassing 'prevent HP from dropping below 1' effect during last phase",
+            "Fixed issue with various items glitching in training room",
+            "Fixed issue with various items being droppable after active usage"
+        ],
+        "events": [
+            "Summer Event will run from 06/30 to 07/28",
+            "Refer to announcement channel for more information"
+        ],
+        "items": [
+            {
+                "name": "Eye of the Blood God",
+                "changes": [
+                    "Unsummon button moved from D to F"
+                ]
+            },
+            {
+                "name": "Curse of Greed",
+                "changes": [
+                    "Increases total damage by 1% per stack → skill damage by 1% per stack"
+                ]
+            },
+            {
+                "name": "Item notes",
+                "changes": [
+                    "Cooldown Adjustments",
+                    [
+                        "Death Visage / Grim Visage - 90s → 60s",
+                        "Laktrisha, the Illusional Sword of Poison - 105s → 90s"
+                    ],
+                    "Wing frames added for Arcane Construct~Styrix tier wing crafts"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Spirit Fusion (T) - Max cast range 1500 → 2500"
+                ]
+            }
+        ],
+        "misc": [
+            "Memory optimizations",
+            "Colorblind mode added for testing; can be toggled on/off with -colorblind command",
+            "(changes colors for some skills)"
+        ]
+    },
+    {
+        "name": "66w",
+        "notes": [
+            "Released on: June 22nd, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Grim Scythe/Lightbringer - Fixed issue with items being droppable after use",
+            "Eye of Flame Lord - Fixed issue where active effect could be stacked onto same person",
+            "Eye of Flame Lord - Fixed issue where summon could jump over boundaries",
+            "Death Fiend - Fixed bug where some adds could remain even after boss reset",
+            "Styrix - Fixed issue where empowered auto-attacks could kill heroes with 'HP does not drop below 1' effect (ex. Berserker E)",
+            "Fixed issue where players could not select Mage and its variants during hero selection"
+        ],
+        "items": [
+            {
+                "name": "Blood Orb",
+                "changes": [
+                    "Active reworked - Now heals you for 2000 HP on use and grants 8% skill damage for 8s."
+                ]
+            },
+            {
+                "name": "Soul Drinker",
+                "changes": [
+                    "Active reworked - Now heals you for 3000 HP on use."
+                ]
+            },
+            {
+                "name": "Embrace of Death",
+                "changes": [
+                    "Passive - Proc damage (Main Stat X 4) → (Main Stat X 4.5)"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Styrix",
+                "changes": [
+                    "Player count is now displayed at boat area"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "E - Attack Damage and Main Stat bonus from aura 8% → 5%"
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "F - Small slash damage AGI X 5 → AGI X 12, only the final slash will critically strike now."
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "F - Damage per spike AGI X 5 → AGI X 7"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "66u4",
+        "notes": [
+            "Released on: June 17th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "items": [
+            {
+                "name": "Divine Vein",
+                "changes": [
+                    "Passive - Activation cooldown 10s → 7.5s, damage per arrow AD X 0.4 + AGI X 4 → AD X 0.5 + AGI X 5",
+                    "Bow Master Specialty - W damage AD X 0.8 + AGI X 24 → AD X 1.6 + AGI X 24"
+                ]
+            },
+            {
+                "name": "Ring of Noble Soul",
+                "changes": [
+                    "Passive - Max activation count 25 → 30, damage bonus per activation Main Stat X 2 → Main Stat X 1.5"
+                ]
+            },
+            {
+                "name": "Embrace of Death",
+                "changes": [
+                    "Passive - No longer resets cooldown of Q/W/E"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "66u3",
+        "notes": [
+            "Released on: June 17th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Death Fiend - Fixed issue with buffs on boss not getting removed properly on reset",
+            "Death Fiend - Fixed issue with boss not gaining DR buff on add summon",
+            "Agareth - Fixed issue where Infest could be prevented by debuff immunity in hard mode",
+            "Styrix - Fixed issue where pull could not be prevent if boss is blinded by Priest R",
+            "Diabolic Mask - Fixed description error",
+            "Eye of Annihilation - Fixed issue with passive effect doing magic damage instead of pure damage",
+            "Eye of the Blood God - Fixed bug where healing would accumulate from both summon and attached target at once"
+        ],
+        "items": [
+            {
+                "name": "Eye of the Blood God",
+                "changes": [
+                    "Summon - Attack cooldown 0.8s → 1s",
+                    "Summon Skill 1 - Heals target every 1.5s → Increases target's skill damage by 5%",
+                    "Summon Skill 2 - Only heals from summoner affects the passive skill now, max accumulation HP 200% → 125%, damage multiplier x4 → x6"
+                ]
+            },
+            {
+                "name": "Embrace of Death",
+                "changes": [
+                    "Passive - Proc damage Main Stat X 4.5 → Main Stat X 4, total damage bonus 12% → 10%, (paladin only) W reset will restore 1 stack instead of 3 stacks"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "66u",
+        "notes": [
+            "Released on: June 16th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Fixed issue where some items could be picked up by others",
+            "Assassin - Fixed issue with F doing slightly more damage than written value"
+        ],
+        "items": [
+            {
+                "name": "Blazing Sun",
+                "changes": [
+                    "Active - Consumes 100% of stacks on use → 50% of stacks on use"
+                ]
+            },
+            {
+                "name": "Ring of Noble Soul",
+                "changes": [
+                    "Passive - Activate on skill hit → skill cast, bonus damage Main Stat X 1.5 → Main Stat X 2, max activation count 30 → 25"
+                ]
+            },
+            {
+                "name": "New items/recipes added",
+                "changes": [
+                    "Divine Vein",
+                    "Eye of the Blood God",
+                    "Divine Rose",
+                    "Embrace of Death"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "No longer consumes boss attempt when failed"
+                ]
+            },
+            {
+                "name": "Nereid",
+                "changes": [
+                    "HP 11.25M → 16M / Damage reduction 50% → 25% (Effective HP is nearly same as before)",
+                    "Hard mode added"
+                ]
+            },
+            {
+                "name": "Agareth",
+                "changes": [
+                    "HP 12.5M → 18.5M / Damage reduction 50% → 25% (Effective HP is nearly same as before)",
+                    "Hard mode added"
+                ]
+            },
+            {
+                "name": "Gaia",
+                "changes": [
+                    "HP 37M → 50M / Damage reduction 50% → 33% (Effective HP is nearly same as before)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Berserk (T) - Duration 6s → 8s"
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Perfect Harmony (D) - Skill damage bonus for AGI main stat 75% → 85%"
+                ]
+            },
+            {
+                "name": "Sniper",
+                "changes": [
+                    "Storm Shaft (Q) - Passive proc damage AGI X 5 → AGI X 7, active damage bonus per stack 75% → 100%",
+                    "Glide (W) - Damage per arrow AD X 0.5 + AGI X 2 → AD X 0.5 + AGI X 2.5"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "66o",
+        "notes": [
+            "Released on: May 24th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Styrix - Fixed issue where boss pushes back CC targets on jump"
+        ],
+        "items": [
+            {
+                "name": "Ring of Noble Soul",
+                "changes": [
+                    "Skill damage 25 → 23%",
+                    "Passive - Now activates on skill cast → skill hit, bonus damage Main Stat X 2 → Main Stat X 1.5, max activation count 25 → 30"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Blaster",
+                "changes": [
+                    "Homing Missile (T) - Cooldown 8s → 5s"
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Pierce (Q) - Empowered effect rolled back",
+                    "Flash Strike (W) - Empowered effect rolled back"
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Thunder Shield (E) - Now grants bonus movement speed while active"
+                ]
+            },
+            {
+                "name": "Reaper",
+                "changes": [
+                    "Consecutive Strikes (W) - % Damage increase is now applied before flat damage addition",
+                    "Death's Dash (E) - Damage AGI X 12 → AGI X 10",
+                    "Death Mark (F) - Damage increase based on target's missing HP 20~40% → 15~35%"
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Ambush (W) - Damage Attack Damage X 0.8 + AGI X 6 → Attack Damage X 0.6 + AGI X 6",
+                    "Shadow Walk (E) - Damage Attack Damage X 1.2 + AGI X 10 → Attack Damage X 1 + AGI X 8",
+                    "Night Fury (F) - Final slash damage AGI X 45 → AGI X 40, bonus damage per Q stack 10% → 6%"
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Mastery (D) - HP increase per INT 4 → 3",
+                    "Sacrifice (F) - Each spear damage AD X 1 1 + Max HP X 1.5 → AD X 0.7 + Max HP X 1.5"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "66m",
+        "notes": [
+            "Released on: May 23rd, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Assassin - Fixed issue where casting T would get rid of clones summoned by other Assassin players"
+        ],
+        "items": [
+            {
+                "name": "World Sunderer",
+                "changes": [
+                    "Initial slash damage Main Stat X 10 → Main Stat X 15, initial slash count 4 → 3",
+                    "Damage will be calculated after applying stacks now",
+                    "Silence will now be applied on small slashes as well"
+                ]
+            },
+            {
+                "name": "Diabolic Mask",
+                "changes": [
+                    "STR 350 → 375",
+                    "AGI 325 → 350",
+                    "Skill damage 5% added",
+                    "Passive - Proc damage Main Stat X 6.5 → Main Stat X 6"
+                ]
+            },
+            {
+                "name": "Prophetia, the Forbidden Truth",
+                "changes": [
+                    "Passive - Max stack 20 → 3, INT bonus per stack 10 → 75, now gains 1 stack every 15 seconds and on 3% chance every skill cast. Skill reset chance is now separate from stacks and has 7.5% chance to trigger.",
+                    "Active - Now increases INT by 250 and Skill Damage by 5% per stack. Cooldown removed."
+                ]
+            },
+            {
+                "name": "Seed of Malice",
+                "changes": [
+                    "Passive - Total damage bonus per stack 2% → 1%"
+                ]
+            },
+            {
+                "name": "New items added",
+                "changes": [
+                    "Eye of Annihilation = Horn of Dragon + Mask of Truth + Twisted Fragment of Ruins + Sinister Skull",
+                    "Ring of Noble Soul = Ring of Desolate Soul + Mask of Truth + Gown of Life + Aegis of Earth + Sinister Skull OR Spirit of Damnation"
+                ]
+            },
+            {
+                "name": "Recipes changed",
+                "changes": [
+                    "Ring of Genesis - Essence of Earth can now be replaced with Aegis of Earth"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Styrix",
+                "changes": [
+                    "Enrage - Fixed issue where pull could not be prevented if boss is blinded by Priest R",
+                    "Leap Attack - Initial knockback will no longer stun you if you're pushed into wall",
+                    "Charge - Can no longer be cancelled by getting close to boss during startup then running away"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Blitz (W) - Damage bonus on ranged hit (Damage reduction X 8)% → (Damage Reduction X 6)%",
+                    "Seal of Mana (T) - Now increases skill damage dealt by 4% for self/allies while active"
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "Oriental Spear Mastery (D) - Bonus damage on attack STR X 1.25 → STR X 1.5",
+                    "Pierce (Q) - Empowered effect swapped with W",
+                    "Flash Strike (W) - Empowered effect swapped with Q",
+                    "Nerve Strike (E) - Shield break no longer guarantees crit. Empowered effect now guarantees crit.",
+                    "Meteor Spear (T) - Damage STR X 70 → STR X 80, all stat bonus 10% → 8%, buff duration 30s → 40s",
+                    "Dragon Slam (F) - Damage STR X 140 → STR X 160"
+                ]
+            },
+            {
+                "name": "Blaster",
+                "changes": [
+                    "Buster Shot (E) - Damage AD X 1 + STR X 10 → AD X 1 + STR X 12.5, cast time is now instant regardless of attack speed, T refill count 3 → 2",
+                    "Mecha Call (R) - Chain damage STR X 7.5 → STR X 10, T refill count 10 → 8",
+                    "Homing Missile (T) - Damage now counts as proc damage, max charge count 25 → 20",
+                    "Orbital Bombardment (F) - AoE increased slightly, activation delay reduced, duration 2.5s → 2s, damage STR X 7/50 → STR X 10/50"
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Shadow Slash (Q) - Slightly increased AoE of Q cast by clones"
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "Skill cast delay reduced",
+                    "Rising Dragon Strike (Q2) - Skill cast time removed",
+                    "Illusal Dance (T) - Duration 2.5s → 1.5s, damage per second AD X 5 + AGI X 25 → AD X 8 + AGI X 40",
+                    "Genocide Storm (F) - Small slash count 20 → 10, slash damage AGI X 7.5/125 → AGI X 5/60, now lands as critical strikes."
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "Skill cast delay reduced",
+                    "R/T/F - Skill cast time reduced"
+                ]
+            },
+            {
+                "name": "Arcane Mage",
+                "changes": [
+                    "Magic Star (Q) - Explosion AoE increased",
+                    "Flash Storm (W) - Magic damage amp per stack 4% → 6%, max stack 3 → 2",
+                    "Gravity Field (E) - Damage per second INT X 2.5 → Max MP X 0.7",
+                    "Illusion (R) - Damage INT X 6 → INT X 10",
+                    "Barrage (T) - Travel speed increased"
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "Demonic Fury (T) - Leap of Execution (W) damage increase 40% → 30%"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "66k",
+        "notes": [
+            "Released on: May 6th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Assassin - Fixed bug with Q proccing on skill cast event twice",
+            "Plates of Sanguine Fury - Fixed issue with passive/active HP regen effect not working"
+        ],
+        "monsters": [
+            {
+                "name": "Styrix, the Harvester of Souls",
+                "changes": [
+                    "Phase 2",
+                    [
+                        "Damage reduction bonus 20% → 10%",
+                        "Lantern HP 10000000~20000000 (from 6~10 players) → 10000000~17500000 (from 7~10 players)",
+                        "Devour - Hitbox on missiles slightly reduced, stun duration 1s → 0.5s",
+                        "Natural hope recovery duration on being hit 2.5s → 3s",
+                        "Skill cast times/cooldown partially rolled back to v0.66f (red circle slam cast time will be unchanged)"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Blood Fury (E) - Max damage reduction 40% → 50%",
+                    "Rabid Storm (F) - Final hit damage STR X 100 → STR X 125"
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Aura (D) - Aura of Awakening (R) - Debuff immunity duration 2s → 3s (rollback)"
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Perfect Harmony (D) - Bounce range 750 → 1100",
+                    "Orb of Harmony (R) - Now regenerates resource instead of MP (rollback)"
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Shadow Slash (Q) - Damage AD X 0.5 + AGI X 5 → AD X 0.4 + AGI X 4",
+                    "Ambush (W) - Damage AD X 1 + AGI X 7.5 → AD X 0.8 + AGI X 6",
+                    "Shadow Walk (E) - Damage AD X 1.5 + AGI X 10 → AD X 1.2 + AGI X 10"
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Claw (Q) - Damage per claw AD X 1 + HP X 0.5 → AD X 1 + HP X 0.3",
+                    "Life Drain (E) - Shield can only be gained from self-healing now",
+                    "Blood Boil (R) - Damage increase on empowered attack 100% → 60%"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "66h",
+        "notes": [
+            "Released on: May 5th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Valtora Token - Fixed glitch where skill cast be casted without cooldown",
+            "Fixed issue where some boss could be killed at 1 HP without triggering next phase"
+        ],
+        "items": [
+            {
+                "name": "Shadow Waltz",
+                "changes": [
+                    "Damage 11500 → 12000",
+                    "Recipe changed",
+                    [
+                        "Before: Espishu, the Sword of Chaos + Power of Beriel + Essence of Earth + Arcane Core + Sinister Skull + Spirit of Damnation",
+                        "After: Espishu, the True Sword of Chaos + Arcane Core + Sinister Skull + Spirit of Damnation"
+                    ]
+                ]
+            },
+            {
+                "name": "Plates of Sanguine Fury",
+                "changes": [
+                    "Active - Magic defense penalty removed"
+                ]
+            },
+            {
+                "name": "Robe of Holy Maiden series",
+                "changes": [
+                    "Caster will now regen 15% HP per second but be excluded from healing rays"
+                ]
+            },
+            {
+                "name": "Ring of Desolate Soul series",
+                "changes": [
+                    "Assassin specialty removed"
+                ]
+            },
+            {
+                "name": "New items added",
+                "changes": [
+                    "Espishu, the True Sword of Chaos = Espishu, the Sword of Chaos + Power of Beriel + Blood Essence + Essence of Earth"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Styrix, the Harvester of Souls",
+                "changes": [
+                    "Phase 2",
+                    [
+                        "Hitbox size adjusted to be same as P1",
+                        "Restrictions added to prevent item drops if boss is killed before Phase 1 (please make a report if similar bugs are observed)",
+                        "Skill global cooldown increased",
+                        "Boss damage reduction bonus 25% → 20%",
+                        "Hope",
+                        [
+                            "Hope stacks lost on death 100% → 50%",
+                            "Using 'dodge' skills like Knight E / Martial Artist D / Phantom Blade R will properly cancel Hope reduction from boss skills now",
+                            "Hope damage gain per stack 5% → 3%, main stat gain per stack 1.5% → 1%",
+                            "You will no longer lose Hope stacks when getting hit by Soul missiles",
+                            "Natural stack regen halt on getting hit by boss skills 1.5s → 2.5s",
+                            "Any heroes that are dead while the boss casts its wipe mech will be rendered unrevivable via items/skills",
+                            "After first wipe mech, unkilled lanterns will no longer release shockwaves",
+                            "Circle display duration / line explosion delay increased",
+                            "Knockback distance fixed to 750 distance",
+                            "Cast time / cooldown increased",
+                            "You can no longer dodge skill by standing directly under the boss",
+                            "Missile starting angles are now randomized",
+                            "Fixed issue where you could get hit multiple times from a single missile"
+                        ],
+                        "Wipe Mech",
+                        [
+                            "Hope stacks lost on death 100% → 50%",
+                            "Using 'dodge' skills like Knight E / Martial Artist D / Phantom Blade R will properly cancel Hope reduction from boss skills now",
+                            "Hope damage gain per stack 5% → 3%, main stat gain per stack 1.5% → 1%",
+                            "You will no longer lose Hope stacks when getting hit by Soul missiles",
+                            "Natural stack regen halt on getting hit by boss skills 1.5s → 2.5s",
+                            "Any heroes that are dead while the boss casts its wipe mech will be rendered unrevivable via items/skills",
+                            "After first wipe mech, unkilled lanterns will no longer release shockwaves",
+                            "Circle display duration / line explosion delay increased",
+                            "Knockback distance fixed to 750 distance",
+                            "Cast time / cooldown increased",
+                            "You can no longer dodge skill by standing directly under the boss",
+                            "Missile starting angles are now randomized",
+                            "Fixed issue where you could get hit multiple times from a single missile"
+                        ],
+                        "Slam",
+                        [
+                            "Hope stacks lost on death 100% → 50%",
+                            "Using 'dodge' skills like Knight E / Martial Artist D / Phantom Blade R will properly cancel Hope reduction from boss skills now",
+                            "Hope damage gain per stack 5% → 3%, main stat gain per stack 1.5% → 1%",
+                            "You will no longer lose Hope stacks when getting hit by Soul missiles",
+                            "Natural stack regen halt on getting hit by boss skills 1.5s → 2.5s",
+                            "Any heroes that are dead while the boss casts its wipe mech will be rendered unrevivable via items/skills",
+                            "After first wipe mech, unkilled lanterns will no longer release shockwaves",
+                            "Circle display duration / line explosion delay increased",
+                            "Knockback distance fixed to 750 distance",
+                            "Cast time / cooldown increased",
+                            "You can no longer dodge skill by standing directly under the boss",
+                            "Missile starting angles are now randomized",
+                            "Fixed issue where you could get hit multiple times from a single missile"
+                        ],
+                        "Swing",
+                        [
+                            "Hope stacks lost on death 100% → 50%",
+                            "Using 'dodge' skills like Knight E / Martial Artist D / Phantom Blade R will properly cancel Hope reduction from boss skills now",
+                            "Hope damage gain per stack 5% → 3%, main stat gain per stack 1.5% → 1%",
+                            "You will no longer lose Hope stacks when getting hit by Soul missiles",
+                            "Natural stack regen halt on getting hit by boss skills 1.5s → 2.5s",
+                            "Any heroes that are dead while the boss casts its wipe mech will be rendered unrevivable via items/skills",
+                            "After first wipe mech, unkilled lanterns will no longer release shockwaves",
+                            "Circle display duration / line explosion delay increased",
+                            "Knockback distance fixed to 750 distance",
+                            "Cast time / cooldown increased",
+                            "You can no longer dodge skill by standing directly under the boss",
+                            "Missile starting angles are now randomized",
+                            "Fixed issue where you could get hit multiple times from a single missile"
+                        ],
+                        "Devour",
+                        [
+                            "Hope stacks lost on death 100% → 50%",
+                            "Using 'dodge' skills like Knight E / Martial Artist D / Phantom Blade R will properly cancel Hope reduction from boss skills now",
+                            "Hope damage gain per stack 5% → 3%, main stat gain per stack 1.5% → 1%",
+                            "You will no longer lose Hope stacks when getting hit by Soul missiles",
+                            "Natural stack regen halt on getting hit by boss skills 1.5s → 2.5s",
+                            "Any heroes that are dead while the boss casts its wipe mech will be rendered unrevivable via items/skills",
+                            "After first wipe mech, unkilled lanterns will no longer release shockwaves",
+                            "Circle display duration / line explosion delay increased",
+                            "Knockback distance fixed to 750 distance",
+                            "Cast time / cooldown increased",
+                            "You can no longer dodge skill by standing directly under the boss",
+                            "Missile starting angles are now randomized",
+                            "Fixed issue where you could get hit multiple times from a single missile"
+                        ],
+                        "Laser",
+                        [
+                            "Hope stacks lost on death 100% → 50%",
+                            "Using 'dodge' skills like Knight E / Martial Artist D / Phantom Blade R will properly cancel Hope reduction from boss skills now",
+                            "Hope damage gain per stack 5% → 3%, main stat gain per stack 1.5% → 1%",
+                            "You will no longer lose Hope stacks when getting hit by Soul missiles",
+                            "Natural stack regen halt on getting hit by boss skills 1.5s → 2.5s",
+                            "Any heroes that are dead while the boss casts its wipe mech will be rendered unrevivable via items/skills",
+                            "After first wipe mech, unkilled lanterns will no longer release shockwaves",
+                            "Circle display duration / line explosion delay increased",
+                            "Knockback distance fixed to 750 distance",
+                            "Cast time / cooldown increased",
+                            "You can no longer dodge skill by standing directly under the boss",
+                            "Missile starting angles are now randomized",
+                            "Fixed issue where you could get hit multiple times from a single missile"
+                        ]
+                    ],
+                    "These changes are not final; various changes will be tried out over the next few versions to reduce the gap between melee vs ranged / burst vs periodic classes."
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "Excalibur - (F)",
+                    [
+                        "Damage STR X 75 → Max MP X 5 + Main Stat X 50",
+                        "Max channel time 2s → 1.5s"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightseeker",
+                "changes": [
+                    "Light Dash (Q)",
+                    [
+                        "Now triggers 'on attack' effect"
+                    ]
+                ]
+            },
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "Abyssal Slam (W)",
+                    [
+                        "Damage (STR + INT) X 12 → (STR + INT) X 10"
+                    ],
+                    "Phantom Rush (E) - Soul Break (E)",
+                    [
+                        "Damage AD X 0.75 + (STR + INT / 3) X 10 → AD X 0.6 + (STR + INT / 2) X 8"
+                    ],
+                    "Requiem (T)",
+                    [
+                        "Base damage Main Stat X 75 → Main Stat X 60"
+                    ]
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "Remains of Rage (Q)",
+                    [
+                        "Damage STR X 7.5 → STR X 10",
+                        "Self damage amp 10% → 12%"
+                    ],
+                    "Original Sin (F)",
+                    [
+                        "Final strike damage STR X 100 → STR X 120"
+                    ]
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "Holy Aura (D)",
+                    [
+                        "Aura of Protection - Judgment - Reduces target's damage done by 20% for 2 seconds → Creates a barrier absorbing Max HP X 25% damage for 2 seconds",
+                        "Aura of Restoration - Sigil - Heal amount (Max HP X 20% + INT X 2) → (STR + INT X 2)",
+                        "Aura of Awakening - Devotion - Debuff immunity duration 3s → 2s"
+                    ],
+                    "Holy Divide (Q)",
+                    [
+                        "Heal amount INT X 2 → INT X 1.5"
+                    ],
+                    "Holy Grace (E)",
+                    [
+                        "Devotion: Cooldown is increased by 5s"
+                    ],
+                    "Divine Shield (T)",
+                    [
+                        "Devotion: Cooldown is increased by 10s → 15s"
+                    ],
+                    "Genesis (F)",
+                    [
+                        "Devotion: Damage amp 5% → 7.5%"
+                    ]
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "Fierce Strikes (D)",
+                    [
+                        "Armor ignore percentage 70% → 80%"
+                    ],
+                    "Three Talon Strike (Q)",
+                    [
+                        "Cooldown 6s → 5s"
+                    ],
+                    "Lightning Rush (W)",
+                    [
+                        "Damage (STR + AGI) X 15 → (STR + AGI) X 10",
+                        "For 3 seconds, basic attacks deal (STR + AGI) X 1 increased damage (this damage is affected by skill/proc damage bonus) (does not trigger off item effects)",
+                        "Cooldown 8s → 7.5s"
+                    ],
+                    "Thunder Shield (E)",
+                    [
+                        "Damage (STR + AGI) X 6 → (STR + AGI) X 5, tick interval 1s → 0.5s",
+                        "Reduction percentage 40% → 30%",
+                        "Gauge consumption gradually increases after 2.5 seconds now",
+                        "Cooldown 20s → 15s"
+                    ],
+                    "Heart Break (R)",
+                    [
+                        "No longer requires full gauge to trigger shield break"
+                    ],
+                    "Thunderfury (F)",
+                    [
+                        "Lightning count 25 → 12, lightning damage Main Stat X 10 → Main Stat X 20, duration 4s → 2.5s, regen per second 25% → 50%, effect radius reduced",
+                        "Cooldown 120s → 90s"
+                    ]
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "Orb of Harmony (R)",
+                    [
+                        "Bonus resource regen is now restricted to classes using MP"
+                    ]
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "Skill cast times reduced",
+                    "Dark Shroud (D)",
+                    [
+                        "No longer deals AGI X 5 bonus damage on next attack",
+                        "Now grants 75 movement speed while active"
+                    ],
+                    "Shadow Slash (Q)",
+                    [
+                        "Proc coefficient 1 → 0.5",
+                        "Buff duration 10s → 5s",
+                        "Upon reaching max stack, resets cooldown on Q/T → resets cooldown on W and grants a free cast of T (has separate cooldown)",
+                        "Now strikes all enemies in radius"
+                    ],
+                    "Ambush (W)",
+                    [
+                        "Buff duration 6s → 3s",
+                        "Damage AD X 1.25 + AGI X 7.5 → AD X 1 + AGI X 7.5",
+                        "Cooldown 10s → 6s",
+                        "Now resets Q cooldown",
+                        "No longer guaranteed to crit when cast while invisible"
+                    ],
+                    "Shadow Walk (E)",
+                    [
+                        "Damage AD X 1.5 + AGI X 9 → AD X 1.5 + AGI X 10"
+                    ],
+                    "Smoke Bomb (R)",
+                    [
+                        "Skill reworked - creates smoke for 4 seconds that heavily slows enemies. While inside, gains unbreaking invisibility and allows 4 casts of Q with reduced cooldown",
+                        "No longer deals periodic damage or grants allies DR"
+                    ],
+                    "Shadow Rush (T)",
+                    [
+                        "Now deals single AGI X 20 damage instead of AGI X 6 damage 6 times",
+                        "Cooldown 20s → 15s"
+                    ]
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "Vacuum Palm (E)",
+                    [
+                        "Proc reduces armor by 30% → reduces armor by 40% and increases all proc damage received by 5%"
+                    ],
+                    "Heavenly Emperor's Strikes (T)",
+                    [
+                        "Proc damage (AD X 0.4 + AGI X 12) → (AD X 0.5 + AGI X 15)"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Discharge (E)",
+                    [
+                        "Hit damage INT X 10 → INT X 8.5"
+                    ]
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "Blood Mastery (D)",
+                    [
+                        "Enhanced attack damage HP X 0.25 → AD X 0.4 + HP X 0.3",
+                        "Charge interval 2s → 1s, max charge 3 → 5, no longer charges on skill cast"
+                    ],
+                    "Blood Claw (Q)",
+                    [
+                        "Passive",
+                        [
+                            "No longer fires claws on every 4th attack",
+                            "Now provides a new resource called Blood Gauge",
+                            "3 gauge is gained every second and on every enhanced attack",
+                            "For every 1% HP healed by self and 20% HP healed by allies (raw value before reductions), gains 1 gauge",
+                            "No longer consumes HP; instead consumes 15 blood gauge",
+                            "Damage AD X 0.8 → AD X 1 + HP X 0.5",
+                            "Damage increase per stack 125% → 100%",
+                            "Proc coefficient 1 → 0.33",
+                            "Cooldown removed"
+                        ],
+                        "Active",
+                        [
+                            "No longer fires claws on every 4th attack",
+                            "Now provides a new resource called Blood Gauge",
+                            "3 gauge is gained every second and on every enhanced attack",
+                            "For every 1% HP healed by self and 20% HP healed by allies (raw value before reductions), gains 1 gauge",
+                            "No longer consumes HP; instead consumes 15 blood gauge",
+                            "Damage AD X 0.8 → AD X 1 + HP X 0.5",
+                            "Damage increase per stack 125% → 100%",
+                            "Proc coefficient 1 → 0.33",
+                            "Cooldown removed"
+                        ]
+                    ],
+                    "Rose Dance (W)",
+                    [
+                        "No longer consumes HP",
+                        "Cast time slightly reduced",
+                        "Charges 3 additional enhanced attacks on cast",
+                        "Cooldown 8s → 6s"
+                    ],
+                    "Life Drain (E)",
+                    [
+                        "Passive now converts 50% of excess healing instead of damage dealt into shield, up to Max HP X 20%",
+                        "Active deals damage and heals up to Max HP X 40% over 1 second",
+                        "Cooldown 12s → 10s"
+                    ],
+                    "Blood Boil (R)",
+                    [
+                        "No longer increases AD/HP by 20%",
+                        "No longer applies to allies",
+                        "Now grants max attack speed and reduces damage taken by 30% for 5 seconds; every basic attack (excluding item attack effects) will also trigger enhanced attack with 200% damage",
+                        "W Instant cast now only applies to first 3 casts"
+                    ],
+                    "Crimson Pillar (T)",
+                    [
+                        "Damage Max HP X 15 → Max HP X 20"
+                    ],
+                    "Sacrifice (F)",
+                    [
+                        "Cast time 2s → 1.5s, spear count 20 → 15, damage per spear AD X 1 + HP X 0.7 → AD X 1 + HP X 1.5",
+                        "Now grants invulnerability while casting"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "Heroes can no longer be revived via items/skills if killed via following ways",
+            [
+                "Typing -recall",
+                "Arcane Construct - Failing final mech"
+            ],
+            "Damage recorder will separate different phases of boss fights now"
+        ]
+    },
+    {
         "name": "66f",
         "notes": [
             "Released on: April 27th, 2024",

@@ -214,6 +214,9 @@
         "description": [
             "Use alternative items if aura stackable"
         ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1dFI5VdKnDe_QkPCxHLJYioTHci1eM35m7gjLhAwLwfo/edit?usp=sharing"
+        ],
         "items": {
             "Deathbringer": [],
             "Horn of Devil": [],
@@ -232,6 +235,9 @@
         "version": "65b",
         "description": [
             "Use alternative items when main ones are already used"
+        ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1dFI5VdKnDe_QkPCxHLJYioTHci1eM35m7gjLhAwLwfo/edit?usp=sharing"
         ],
         "items": {
             "Ruinbringer": [],
@@ -254,6 +260,9 @@
         "description": [
             "Use alternative items when main ones are already used"
         ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1dFI5VdKnDe_QkPCxHLJYioTHci1eM35m7gjLhAwLwfo/edit?usp=sharing"
+        ],
         "items": {
             "Calamity": [],
             "Horn of Demon God": [],
@@ -274,6 +283,9 @@
         "version": "65b",
         "description": [
             "Use alternative items when main ones are already used"
+        ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1dFI5VdKnDe_QkPCxHLJYioTHci1eM35m7gjLhAwLwfo/edit?usp=sharing"
         ],
         "items": {
             "Calamity": [],
@@ -392,45 +404,49 @@
         "type": "DPS",
         "order": 2,
         "stat": "INT",
-        "version": "61t",
+        "version": "67b",
         "description": [
-            "Very squishy, only recommended with prior boss knowledge",
-            "Main items are used for max DPS, alt items trade DPS for either burst/survivability/utility"
+            "Use alternate item below and it downgrade until reaching main styrix items",
+            "Use Soul Fist path until getting Chain of Torment"
         ],
         "items": {
-            "Heartrender": [
-                "The Ender"
+            "Lightbringer": [
+                "Heartrender"
             ],
-            "Horn of Dragon": [
-                "Crown of Transcendance",
-                "Crescendo of Madness"
+            "Prophetia, the Forbidden Truth": [
+                "Horn of Dragon"
             ],
-            "Demonic Fist": [
-                "Star of Apotheosis"
+            "Chain of Torment": [
+                "Soul Fist",
+                "Ring of Genesis"
             ],
-            "Vest of Divine Winds": [],
-            "Wings of Frost Lord": [
-                "Soul Devourer",
-                "Cape of Deep Abyss"
+            "Astral Fury": [],
+            "Soul Breath": [
+                "Wings of the Void"
             ]
         }
     },
     {
         "for": "Knight",
-        "type": "Burst",
+        "type": "DPS",
         "order": 3,
         "stat": "STR",
         "version": "62t2",
         "description": [
-            "This build is not the best build available for knight since INT Builds are dominating atm, but does a great burst and does decent dps.",
-            "Takes a while to get used with caedis mechanics and double E procs 3 (4 if lucky) marks at once."
+            "Use alternate item below and it downgrade until reaching main styrix items"
         ],
         "items": {
-            "Caedis, the Sword of Slaughter": [],
+            "Lightbringer": [
+                "Spear of Judgement"
+            ],
             "Crown of Transcendance": [],
-            "Crimson Curse": [],
+            "Soul Fist": [
+                "Ring of Genesis"
+            ],
             "Astral Fury": [],
-            "Cape of Deep Abyss": []
+            "Blood Devourer": [
+                "Wings of the Void"
+            ]
         }
     },
     {
@@ -438,46 +454,24 @@
         "type": "DPS/Burst",
         "order": 1,
         "stat": "STR",
-        "version": "62w",
-        "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=3341"
-        ],
+        "version": "67b",
         "description": [
-            "Use alternate ring and its downgrades until you can build Ring of Malevolence"
+            "Use alternate ring and its downgrades until you can build Ring of Malevolence",
+            "Can build Lightbringer instead WS if you prefer more aa and not having to keep stacks on WS"
         ],
         "items": {
-            "Spear of Judgment": [
-                "Heartrender"
+            "World Sunderer": [
+                "Lightbringer",
+                "Spear of Judgment"
             ],
-            "Horn of Dragon": [],
+            "Eye of Annihilation": [],
             "Ring of Malevolence": [
                 "Ring of Desolate Soul"
             ],
             "Titan's Plates": [
                 "Plates of Sanguine Fury"
             ],
-            "Bloodstorm": []
-        }
-    },
-    {
-        "for": "Lancer",
-        "type": "DPS/Burst (more AA oriented)",
-        "order": 2,
-        "stat": "STR",
-        "version": "57b",
-        "guidelink": [
-            "https://twrpg.com/viewtopic.php?f=4&t=3341"
-        ],
-        "items": {
-            "Astra, The Sword of Moonlight": [],
-            "Horn of Demon God": [],
-            "Demonic Fist": [],
-            "Plates of Sanguine Fury": [
-                "Felspike Armor"
-            ],
-            "Bloodstorm": [
-                "Cape of Deep Abyss"
-            ]
+            "Soulstorm": []
         }
     },
     {
@@ -533,20 +527,24 @@
         "type": "DPS",
         "order": 1,
         "stat": "STR",
-        "version": "64g3",
+        "version": "67b",
         "description": [
-            "Use The Ender/Calamity till Caedis",
-            "Bloodstorm is main wing for now, may replace in the future"
+            "Use Caedis, the Sword of Slaughter/Heartrender till Lightbringer/World Sunderer",
+            "World Sunderer + Soulstorm if you prefer not to more autoattack between combo"
         ],
         "guidelink": [
             "https://docs.google.com/document/d/1EnuHRDRr8yJAlMbap_kxu0kshbEWgrJjzcO0u8_lvG0/edit?usp=sharing"
         ],
         "items": {
-            "Caedis, the Sword of Slaughter": [],
-            "Horn of Dragon": [],
-            "Demonic Fist": [],
+            "Lightbringer": [
+                "World Sunderer"
+            ],
+            "Eye of Annihilation": [],
+            "Soul Fist": [],
             "Titan's Plates": [],
-            "Bloodstorm": []
+            "Embrace of Death": [
+                "Soulstorm"
+            ]
         }
     },
     {
@@ -554,25 +552,34 @@
         "type": "Support",
         "order": 2,
         "stat": "INT",
-        "version": "62r",
+        "version": "67b",
+        "description": [
+            "Swap to Gate of Abyss if there is a priest, or tell priest to swap instead",
+            "Crown of Cleansing is optional, as Paladin is not good at proccing the helmet passive",
+            "Divine Rose is optional, a more defensive option but Bell of Divinity should take priority",
+            "Swap to Cage of Twisted Souls if there is a Priest, before craft Divine Aegis, Cage should be take as priority equipment",
+            "Guardian Angel and Wings of the Void are filter items, equip only if there is no user for those two wings"
+        ],
         "guidelink": [
             "https://docs.google.com/document/d/1EnuHRDRr8yJAlMbap_kxu0kshbEWgrJjzcO0u8_lvG0/edit?usp=sharing"
         ],
         "items": {
-            "Heaven's Door": [],
+            "Aeon Sphere": [
+                "Gate of Abyss"
+            ],
             "Keeper of the Grove": [
                 "Crown of Cleansing",
                 "Eye of the Flame Lord"
             ],
             "Bell of Divinity": [
-                "Heirloom of Lazarus"
+                "Divine Rose"
             ],
-            "Cage of Twisted Souls": [
-                "Jupiter the Robe of Heavens"
+            "Divine Aegis": [
+                "Cage of Twisted Souls"
             ],
             "Thread of Life": [
                 "Guardian Angel",
-                "Cape of Deep Abyss"
+                "Wings of the Void"
             ]
         }
     },
@@ -2687,30 +2694,33 @@
         "type": "Support",
         "order": 1,
         "stat": "INT",
-        "version": "61e",
+        "version": "67b",
         "description": [
-            "Try to get Eye of the Flame Lord before crown or if it is taken by hermit already",
-            "Use Heart of Life if Hope is taken",
-            "All other rings listed is usable if both heart and hope is taken",
-            "Use Immortal wings if guardian is taken",
-            "Use Protection of the fairies for pre-agareth and swap wings"
+            "Swap to Gate of Abyss > Chaos Dagger if there is a INT Paladin/Priest",
+            "Swap to Bell of Divinity > Heirloom of Lazarus > Heart of Life > Ring of Divine Wind if Divine Rose was taken by INT Hermit, swap Bell of Divinity to other ring if there is INT Paladin",
+            "Swap to Divine Aegis > Frost Herald's Garment if Arch Druid Robe was taken by INT Hermit or tell them to swap instead",
+            "Before Divine Rose, Bell of Divinity should be take priority",
+            "Before Arch Druid Robe, Jupiter should be take priority"
         ],
         "items": {
-            "Chaos Dagger": [],
-            "Crown of Cleansing": [
-                "Eye of the Flame"
+            "Aeon Sphere": [
+                "Gate of Abyss",
+                "Chaos Dagger"
             ],
-            "Ring of Hope": [
-                "Heart of Life",
+            "Crown of Cleansing": [
+                "Eye of the Blood God"
+            ],
+            "Divine Rose": [
+                "Bell of Divinity",
                 "Heirloom of Lazarus",
-                "Ring of Eternity",
+                "Heart of Life",
                 "Ring of Divine Winds"
             ],
-            "Jupiter, the Robe of Heavens": [],
-            "Guardian Angel": [
-                "Wings of Immortal",
-                "Protection of the Fairies"
-            ]
+            "Arch Druid Robe": [
+                "Divine Aegis",
+                "Frost Herald's Garment"
+            ],
+            "Thread of Life": []
         }
     },
     {
@@ -2939,20 +2949,16 @@
         "type": "Burst",
         "order": 1,
         "stat": "STR",
-        "version": "62w",
+        "version": "67b",
         "description": [
             "Recommended build"
         ],
         "items": {
             "Soul Chaser": [],
             "Crown of Cataclysm": [],
-            "Ring of Malevolence": [
-                "Ring of Desolate Soul"
-            ],
+            "Ring of Noble Soul": [],
             "Dread Incarnate": [],
-            "Wings of Sacred Provenance": [
-                "Bloodstorm"
-            ]
+            "Wings of Sacred Provenance": []
         }
     },
     {
@@ -2960,7 +2966,7 @@
         "type": "AGA",
         "order": 2,
         "stat": "STR",
-        "version": "62w",
+        "version": "67b",
         "description": [
             "Main options provide burst, while alt options provide survival",
             "Use Voidshard Armor for Survival ability before getting Dread Incarnate",
@@ -2978,7 +2984,8 @@
             "Fepsike Armor": [
                 "Voidshard Armor"
             ],
-            "Storm": [
+            "Curse of Greed": [
+                "Storm",
                 "Wings of Deep Abyss",
                 "Wings of Flame Lord"
             ]
@@ -3013,16 +3020,18 @@
         "items": {
             "Final Omen": [],
             "Crown of Cataclysm": [
-                "Visage of Vengeance"
+                "Diabolic Mask"
             ],
             "Ring of Malevolence": [
                 "Ring of Divine Winds",
                 "Crimson Curse",
-                "Ring of Desolate Soul"
+                "Ring of Noble Soul",
+                "Soul Fist"
             ],
             "Dread Incarnate": [],
             "Wings of Sacred Provenance": [
-                "Bloodstorm"
+                "Soulstorm",
+                "Living Flame"
             ]
         }
     }
