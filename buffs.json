@@ -162,7 +162,8 @@
             "Purelight Armor (Aura) - 4%",
             "Requiem, the Armor of Lamentation (Aura) - 5%",
             "Hades, the Armor of Despair (Aura) - 6%",
-            "Cage of Twisted Souls (Aura) - 7%"
+            "Cage of Twisted Souls (Aura) - 7%",
+            "Arch Druid Robe (Aura) - (10%)"
         ]
     },
     {
@@ -191,8 +192,7 @@
         "names": [
             "Heaven's Door - (60 + 3%)",
             "Guardian Angel (Aura) - (80 + 4%)",
-            "Aeon Sphere - (150 + 3%)",
-            "Arch Druid Robe (Aura) - (10%)"
+            "Aeon Sphere - (150 + 3%)"
         ]
     }
 ]

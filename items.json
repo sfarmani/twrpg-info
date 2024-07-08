@@ -23939,7 +23939,7 @@
       "affinitywlpercent": 0.05,
       "passive": [
         "On healing allies, activates Nature's Touch",
-        "Increases target's main stat by 10% [Type-A], magic defense by 10% [Type-A]",
+        "Increases target's all stats by 10% [Type-A], magic defense by 10% [Type-A]",
         "Does not apply to self"
       ],
       "active": [
