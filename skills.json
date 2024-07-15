@@ -3367,7 +3367,7 @@
         ]
     },
     {
-        "id": "A0N4",
+        "id": "A15A",
         "name": "Lightning Rush",
         "heroClass": "Thunderer",
         "color": "fe2101",
@@ -3376,10 +3376,10 @@
         "cooldown": 8,
         "order": 4,
         "active": [
-            "Summons shadows from all directions and rush toward the target point.",
-            "AGI X 20 magic damage",
-            "Summons 5 additional shadows that copy next Shadow Slash or Ambush, each dealing 50% of original damage",
-            "When max stacks of Shadow Mark is obtained, can be activated immediately regardless of cooldown"
+            "Dashes with the speed of lightning.",
+            "(STR + AGI) X 10 magic damage",
+            "For 3 seconds, adds (STR + AGI) X 1 damage to basic attacks",
+            "Recharges Magnetic Field up to 25% based on distance travelled"
         ]
     },
     {

@@ -22633,8 +22633,9 @@
     ],
     "stats": {
       "damage": 12500,
-      "mainstat": 950,
-      "skilldamagepercent": 0.2,
+      "allstat": 450,
+      "mainstat": 500,
+      "skilldamagepercent": 0.175,
       "affinitylightpercent": 0.05,
       "passive": [
         "Chance to activate Divine Strike on attack",
@@ -24442,7 +24443,7 @@
     ],
     "stats": {
       "armor": 130,
-      "int": 400,
+      "int": 450,
       "mp": 2500,
       "skilldamagepercent": 0.15,
       "passive": [
@@ -24989,8 +24990,8 @@
       "skilldamagepercent": 0.175,
       "passive": [
         "On dealing damage, chance to deal 30% additional damage",
-        "On skill cast, 15% chance to increase damage dealt by 7.5% for 5 seconds",
-        "On ultimate cast, increases damage dealt by skills by 7.5% for 10 seconds",
+        "On skill cast, 15% chance to increase damage dealt by 5% for 5 seconds",
+        "On ultimate cast, increases damage dealt by skills by 5% for 10 seconds",
         "On being damaged, 10% chance to activate Absolute Protection"
       ]
     }
@@ -25615,7 +25616,7 @@
       ],
       "active": [
         "On ultimate cast, activates Soul Tide",
-        "For 8 seconds, your skills will deal 10% more damage",
+        "For 8 seconds, your skills will deal 7.5% more damage",
         "Soul Fragment will spawn every second"
       ]
     }
