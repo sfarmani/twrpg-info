@@ -24990,7 +24990,7 @@
       "skilldamagepercent": 0.175,
       "passive": [
         "On dealing damage, chance to deal 30% additional damage",
-        "On skill cast, 15% chance to increase damage dealt by 5% for 5 seconds",
+        "On skill cast, 15% chance to increase damage dealt by 7.5% for 5 seconds",
         "On ultimate cast, increases damage dealt by skills by 5% for 10 seconds",
         "On being damaged, 10% chance to activate Absolute Protection"
       ]
