@@ -8365,7 +8365,7 @@
       "Valtora",
       "Ifrit",
       "Nereid",
-      "Agareth"
+      "Underlord Agareth"
     ],
     "rank": "[Epic]",
     "grade": 4,
@@ -9062,7 +9062,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0085,
+    "droprate": 0.011,
     "required_by": [
       "Ring of Hope",
       "Ring of Despair",
@@ -9103,7 +9103,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0085,
+    "droprate": 0.011,
     "required_by": [
       "Hood of Apocalypse",
       "Power of Beriel",
@@ -9142,7 +9142,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0085,
+    "droprate": 0.011,
     "required_by": [
       "Radiance of the One",
       "Crown of Absolute Zero",
@@ -22584,9 +22584,9 @@
     ],
     "stats": {
       "damage": 12000,
-      "str": 610,
-      "agi": 610,
-      "mainstat": 340,
+      "str": 700,
+      "agi": 700,
+      "mainstat": 350,
       "skilldamagepercent": 0.15,
       "passive": [
         "Chance to activate Umbral Edge on attack",
@@ -22681,8 +22681,8 @@
       }
     ],
     "stats": {
-      "damage": 11500,
-      "str": 900,
+      "damage": 12000,
+      "str": 950,
       "skilldamagepercent": 0.15,
       "periodicdamagepercent": 0.1,
       "affinityflamepercent": 0.075,
@@ -22969,6 +22969,11 @@
         "Summons 5 rays of light, each dealing AGI X 15 magic damage",
         "Activates Weaponized Light",
         "Cooldown: 45s"
+      ],
+      "spec": [
+        "Specialties",
+        "Bow Master - Improved Freezing Shot: Fires an enhanced version.",
+        "Sniper - Divine Arrow: Snipe's damage is increased by 30% and cooldown is reduced by 50%."
       ]
     }
   },
@@ -23410,8 +23415,8 @@
       "int": 1000,
       "attackspeedpercent": 0.35,
       "skilldamagepercent": 0.15,
-      "affinityflamepercent": 0.12,
-      "affinitydarkpercent": 0.06,
+      "affinityflamepercent": 0.15,
+      "affinitydarkpercent": 0.075,
       "passive": [
         "Summons Spirit Flame every 12 seconds",
         "Upon dealing skill periodic damage, deals (INT X 3~5) bonus magic damage (cooldown: 0.75s)",
@@ -23889,9 +23894,10 @@
       }
     ],
     "stats": {
-      "armor": 230,
+      "armor": 250,
       "int": 500,
       "hp": 2500,
+      "affinitylightpercent": 0.05,
       "passive": [
         "Increases nearby allies skill damage by 12% & magic defense by 10%",
         "Heals nearby allies to full",
@@ -24310,8 +24316,8 @@
       "armor": 140,
       "agi": 400,
       "hp": 2000,
-      "skilldamagepercent": 0.15,
-      "critchancepercent": 0.125,
+      "skilldamagepercent": 0.14,
+      "critchancepercent": 0.12,
       "passive": [
         "On attack, activates Harvester's Eye",
         "Increases ATK DMG by 20%, crit multplier by 0.30x, AGI by 400 for 7.5 seconds",
@@ -24396,7 +24402,8 @@
     "stats": {
       "armor": 140,
       "agi": 240,
-      "int": 280,
+      "str": 240,
+      "int": 340,
       "affinitydarkpercent": 0.075,
       "passive": [
         "Activates Malefic Vision on skill hit",
@@ -24487,6 +24494,7 @@
       "armor": 140,
       "allstat": 225,
       "mainstat": 150,
+      "skilldamagepercent": 0.2,
       "critchancepercent": 0.2,
       "dtpercent": 0.15,
       "passive": [
@@ -25021,8 +25029,9 @@
       }
     ],
     "stats": {
-      "allstat": 480,
-      "mp": 6000,
+      "agi": 240,
+      "int": 480,
+      "mp": 5000,
       "skilldamagepercent": 0.12,
       "passive": [
         "Activates Torment on skill hit",
@@ -25561,11 +25570,11 @@
       "damage": 4800,
       "str": 360,
       "agi": 360,
-      "movespeed": 75,
+      "skilldamagepercent": 0.075,
       "passive": [
         "On attack, activates Burning Soul",
         "Deals (ATK DMG X 1.5 + Main Stat X 10) magic damage to nearby enemies and gains 10% ATK DMG for 5 seconds",
-        "Cooldown: 10 seconds"
+        "Cooldown: 15 seconds"
       ],
       "active": [
         "On use, activates Flame Descent",
