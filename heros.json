@@ -870,5 +870,26 @@
         "spec": [
             "No Specs!"
         ]
+    },
+    {
+        "id": "H019",
+        "name": "Celeste",
+        "heroClass": "Sword Saint",
+        "mainstat": "STR",
+        "color": "e1c4ed",
+        "icon": "SwordSaintIcon",
+        "wearable": [
+            "Weapon (Shared)",
+            "Weapon (Melee)"
+        ],
+        "role": [
+            "DPS"
+        ],
+        "description": [
+            "Melee damage dealer. Unleashes fast combos using her sword and arcane magic."
+        ],
+        "spec": [
+            "No Specs!"
+        ]
     }
 ]

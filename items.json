@@ -119,7 +119,7 @@
     "grade": 0,
     "type": "Misc",
     "color": "D8C1BA",
-    "droprate": 0.1,
+    "droprate": 0.12,
     "required_by": [
       "Key of Storm",
       "Key of Flame",
@@ -1904,7 +1904,7 @@
     "type": "Armor",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.01,
+    "droprate": 0.2,
     "stats": {
       "armor": 60,
       "str": 40,
@@ -1923,7 +1923,7 @@
     "type": "Armor",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.01,
+    "droprate": 0.2,
     "stats": {
       "armor": 45,
       "int": 50
@@ -1941,7 +1941,7 @@
     "type": "Headwear",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.01,
+    "droprate": 0.2,
     "stats": {
       "armor": 35,
       "mainstat": 25
@@ -2138,7 +2138,7 @@
     "type": "Weapon (Melee)",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.25,
     "required_by": [
       "Leoreus, the Greatsword of Explosion"
     ],
@@ -2162,7 +2162,7 @@
     "type": "Weapon (Gun)",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.25,
     "required_by": [
       "Monster Blaster"
     ],
@@ -2188,7 +2188,7 @@
     "type": "Headwear",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.25,
     "required_by": [
       "Helm of Battle"
     ],
@@ -2213,7 +2213,7 @@
     "type": "Accessory",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.25,
     "required_by": [
       "Staff of Void",
       "Crimson Pumpkin Rod",
@@ -2239,7 +2239,7 @@
     "type": "Accessory",
     "color": "EBD787",
     "level": 60,
-    "droprate": 0.20,
+    "droprate": 0.25,
     "required_by": [
       "Crimson Reaper",
       "Hellflame",
@@ -2526,7 +2526,7 @@
     "type": "Weapon (Shared)",
     "color": "C39BE1",
     "level": 70,
-    "droprate": 0.20,
+    "droprate": 0.25,
     "stats": {
       "damage": 2750,
       "mainstat": 200,
@@ -2548,7 +2548,7 @@
     "type": "Armor",
     "color": "C39BE1",
     "level": 70,
-    "droprate": 0.20,
+    "droprate": 0.25,
     "stats": {
       "armor": 110,
       "int": 140,
@@ -2570,7 +2570,7 @@
     "type": "Accessory",
     "color": "C39BE1",
     "level": 70,
-    "droprate": 0.20,
+    "droprate": 0.25,
     "stats": {
       "allstat": 100,
       "hpregen": 20,
@@ -2595,7 +2595,7 @@
     "type": "Wings",
     "color": "C39BE1",
     "level": 70,
-    "droprate": 0.20,
+    "droprate": 0.25,
     "required_by": [
       "Guardian Angel"
     ],
@@ -2797,7 +2797,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.125,
-      0.05,
+      0.0005,
       0.125
     ],
     "required_by": [
@@ -2857,6 +2857,11 @@
       "Scarab",
       "Wallachia Mad Clown"
     ],
+    "recipe": [
+      {
+        "Prius Silver Coin": 9
+      }
+    ],
     "rank": "[Epic]",
     "grade": 1,
     "type": "Material",
@@ -2882,6 +2887,11 @@
       "Wallachia Wraith",
       "Wallachia Mad Clown"
     ],
+    "recipe": [
+      {
+        "Prius Silver Coin": 9
+      }
+    ],
     "rank": "[Epic]",
     "grade": 1,
     "type": "Material",
@@ -2905,6 +2915,11 @@
     "dropped_by": [
       "Wallachia Mad Clown"
     ],
+    "recipe": [
+      {
+        "Prius Silver Coin": 9
+      }
+    ],
     "rank": "[Epic]",
     "grade": 2,
     "type": "Material",
@@ -2919,7 +2934,6 @@
       "Soulstalker",
       "Devil Chaser",
       "Benedict, the Crimson Armor of Blood",
-      "Grandine, the Plates of Wraith",
       "Robe of the Necromancer",
       "Crown of Composure",
       "Seal of Deceiver",
@@ -2935,6 +2949,11 @@
     "koreanname": "매드 심볼",
     "dropped_by": [
       "Wallachia Mad Clown"
+    ],
+    "recipe": [
+      {
+        "Prius Silver Coin": 9
+      }
     ],
     "rank": "[Epic]",
     "grade": 2,
@@ -2965,7 +2984,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.0025,
+    "droprate": 0.0033,
     "required_by": [
       "Flame Nightmare Icon"
     ],
@@ -3118,7 +3137,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.0075,
+    "droprate": 0.01,
     "required_by": [
       "Everfrost Icon"
     ],
@@ -3338,7 +3357,7 @@
     "grade": 0,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.20,
+    "droprate": 0.2,
     "required_by": [
       "Laksha, the Reigning Sword of Poison",
       "Monster Hunter",
@@ -3359,7 +3378,7 @@
     "grade": 0,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.20,
+    "droprate": 0.2,
     "required_by": [
       "Monster Blaster",
       "Bag of Mighty Strength",
@@ -3368,7 +3387,6 @@
       "Jack Pumpkin Hood +1",
       "Fruit Candy Pouch",
       "Mana Heart",
-      "Robe of the Necromancer",
       "Hydra Icon"
     ]
   },
@@ -4385,7 +4403,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.0025,
+    "droprate": 0.0033,
     "required_by": [
       "Guardian Angel Icon"
     ],
@@ -5487,7 +5505,7 @@
     "type": "Weapon (Shared)",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Spirit Dagger"
     ],
@@ -5525,7 +5543,7 @@
     "type": "Headwear",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Aglaia, the Spear of Heavenly Flows",
       "Horn of Devil",
@@ -5562,7 +5580,7 @@
     "type": "Weapon (Melee)",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Blazing Soul"
     ],
@@ -5602,7 +5620,7 @@
     "color": "FFFFFF",
     "droprate": [
       0.0005,
-      0.04
+      0.05
     ],
     "required_by": [
       "Blazing Soul",
@@ -5634,7 +5652,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Benziena, the Earthen Soul",
       "Vest of Cyclone",
@@ -5659,7 +5677,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.0025,
+    "droprate": 0.0033,
     "required_by": [
       "Corruptor Icon"
     ],
@@ -5698,7 +5716,7 @@
     "type": "Weapon (Melee)",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.03,
+    "droprate": 0.0375,
     "required_by": [
       "Anger",
       "Corruptor Icon"
@@ -5733,7 +5751,7 @@
     "type": "Weapon (Bow)",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.03,
+    "droprate": 0.0375,
     "required_by": [
       "Heartseeker",
       "Soulstalker",
@@ -5773,7 +5791,7 @@
     "type": "Weapon (Melee)",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.03,
+    "droprate": 0.0375,
     "required_by": [
       "Laktrisha, the Illusional Sword of Poison",
       "Corruptor Icon"
@@ -5810,7 +5828,7 @@
     "type": "Weapon (Gun)",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.03,
+    "droprate": 0.0375,
     "required_by": [
       "Devil Chaser",
       "Corruptor Icon"
@@ -5847,7 +5865,7 @@
     "type": "Accessory",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.03,
+    "droprate": 0.0375,
     "required_by": [
       "Hood of Grim Reaper",
       "Ring of the Reaper",
@@ -5883,7 +5901,7 @@
     "type": "Accessory",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.03,
+    "droprate": 0.0375,
     "required_by": [
       "Corruptor Icon",
       "Soul Drinker",
@@ -5928,7 +5946,7 @@
     "type": "Weapon (Staff)",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.02,
+    "droprate": 0.025,
     "required_by": [
       "Staff of Plague",
       "Corruptor Icon"
@@ -5962,7 +5980,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Bag of Corruption",
       "Ring of the Reaper",
@@ -5995,11 +6013,10 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Hydro Buster",
       "Plates of Lightning",
-      "Ring of Composure",
       "Ring of Fervor",
       "Ring of Intrusion",
       "Wings of Blood Lord",
@@ -6038,7 +6055,7 @@
     "type": "Weapon (Staff)",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Bloody Hatred",
       "Flame Nightmare Icon"
@@ -6077,7 +6094,7 @@
     "type": "Armor",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Bloodsoul Plates",
       "Frostshard Armor",
@@ -6116,7 +6133,7 @@
     "type": "Accessory",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Blazing Soul",
       "Ring of Strike",
@@ -6131,8 +6148,8 @@
     "stats": {
       "str": 275,
       "agi": 255,
-      "periodicdamagepercent": 0.20,
-      "healreceivedpercent": -0.20,
+      "periodicdamagepercent": 0.2,
+      "healreceivedpercent": -0.2,
       "passive": [
         "On attack, 5% chance to activate Nightmare",
         "Increases ATK DMG by 4500, MAIN STAT by 270, and HP regen by 300 for 6 seconds"
@@ -6152,7 +6169,7 @@
     "type": "Weapon (Gun)",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Dante's Inferno",
       "Flame Nightmare Icon"
@@ -6189,7 +6206,7 @@
     "type": "Headwear",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.02,
+    "droprate": 0.025,
     "required_by": [
       "Crown of Composure",
       "Crown of Rage",
@@ -6222,7 +6239,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Laksha, the Ancient Sword of Poison",
       "Bahanar, the True Sword of Illusion",
@@ -6255,7 +6272,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Anger",
       "Flame Explosion",
@@ -6307,7 +6324,7 @@
     "type": "Weapon (Gun)",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Hydro Buster",
       "Turtle Lord Icon"
@@ -6346,7 +6363,7 @@
     "type": "Armor",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Tunic of the Wraith",
       "Turtle Lord Icon"
@@ -6379,7 +6396,7 @@
     "type": "Accessory",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Staff of Madness",
       "Eternal Rose",
@@ -6418,7 +6435,7 @@
     "type": "Headwear",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Protector's Will",
       "Turtle Lord Icon"
@@ -6456,7 +6473,7 @@
     "type": "Accessory",
     "color": "9BE1E1",
     "level": 100,
-    "droprate": 0.02,
+    "droprate": 0.025,
     "required_by": [
       "Blazing Heart",
       "Eternal Rose",
@@ -6496,7 +6513,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Deathbringer",
       "Oceanus, the Sword of Light",
@@ -6529,7 +6546,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Storm Reaver",
       "Aglaia, the Spear of Heavenly Flows",
@@ -6560,7 +6577,7 @@
     "grade": 2,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.04,
+    "droprate": 0.05,
     "required_by": [
       "Spirit Dagger",
       "Twin Snow",
@@ -6610,6 +6627,10 @@
     "type": "Coin",
     "color": "C0C0C0",
     "required_by": [
+      "Scarab Bone",
+      "Ghostly Thread",
+      "Soul Stone",
+      "Mad Symbol",
       "Corruptor",
       "Stalker",
       "Avenger",
@@ -6662,12 +6683,12 @@
     "type": "Coin",
     "color": "C0C0C0",
     "droprate": [
-      0.005,
-      0.005,
-      0.006,
-      0.006,
-      0.007,
-      0.0075
+      0.008,
+      0.008,
+      0.009,
+      0.009,
+      0.01,
+      0.012
     ],
     "required_by": [
       "Ragnaar Icon",
@@ -6688,7 +6709,6 @@
       "Robe of the Reaper",
       "Brooch of Darkness",
       "Bone Necklace",
-      "Fragment of Oblivion",
       "Skeleton Bone",
       "Orb of Oblivion",
       "Spirit of Abyss",
@@ -6728,7 +6748,7 @@
     "type": "Accessory",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.016,
+    "droprate": 0.0175,
     "required_by": [
       "Espishu, the Sword of Eternity",
       "Ring of Time",
@@ -6763,7 +6783,7 @@
     "type": "Weapon (Shared)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.016,
+    "droprate": 0.0175,
     "required_by": [
       "Ethenos, the Staff of Space",
       "Triple Snow",
@@ -6810,7 +6830,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0225,
+    "droprate": 0.025,
     "required_by": [
       "Griveddon, the Bow of Certain Destruction",
       "Ruinbringer",
@@ -6837,7 +6857,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0225,
+    "droprate": 0.025,
     "required_by": [
       "Claws of Beriel",
       "Chronos, the Cannon of Time",
@@ -6874,12 +6894,6 @@
       "In addtion to being dropped by bosses, it can also be exchanged for 5 Prius Gold Coin",
       "See Collector NPC to exchange (all item recipes that include Coin of Effort will be here too)"
     ],
-    "dropped_by": [
-      "Duke Lazarus",
-      "Gaia",
-      "Arcane Construct",
-      "Styrix, the Harvester of Souls"
-    ],
     "required_by": [
       "Storage Expansion Coupon",
       "Death Fiend Icon",
@@ -6910,7 +6924,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.0033,
+    "droprate": 0.0025,
     "required_by": [
       "Shadow Dragon Icon"
     ],
@@ -6949,7 +6963,7 @@
     "type": "Weapon (Melee)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.015,
+    "droprate": 0.0125,
     "required_by": [
       "Claws of Beriel",
       "Skeletal King Icon"
@@ -6989,7 +7003,7 @@
     "type": "Weapon (Staff)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.015,
+    "droprate": 0.0125,
     "required_by": [
       "Hell Riser",
       "Crimson Hatred",
@@ -7052,19 +7066,11 @@
     "name": "Brooch of Darkness",
     "koreanname": "암흑의 브로치",
     "description": "The brooch of the Skeletal King that contains a pecular blessing",
-    "dropped_by": [
-      "Skeletal King Desperia"
-    ],
     "rank": "[Epic]",
     "grade": 3,
     "type": "Accessory",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.0175,
-    "required_by": [
-      "Cold Ring of Death",
-      "Skeletal King Icon"
-    ],
     "recipe": [
       {
         "Prius Gold Coin": 3
@@ -7090,6 +7096,7 @@
     "level": 100,
     "droprate": 0.0175,
     "required_by": [
+      "Ring of Cold Death",
       "Requiem, the Armor of Lamentation",
       "Skeletal King Icon"
     ],
@@ -7114,39 +7121,6 @@
     }
   },
   {
-    "id": "I0EK",
-    "name": "Fragment of Oblivion",
-    "koreanname": "망각의 파편",
-    "dropped_by": [
-      "Skeletal King Desperia"
-    ],
-    "recipe": [
-      {
-        "Prius Gold Coin": 3
-      }
-    ],
-    "rank": "[Epic]",
-    "grade": 3,
-    "type": "Material",
-    "color": "FFFFFF",
-    "droprate": 0.025,
-    "required_by": [
-      "Espishu, the Sword of Eternity",
-      "Ethenos, the Staff of Space",
-      "Hellflame",
-      "Everfrostbane",
-      "Hood of Apocrypha",
-      "Bell of Light",
-      "Ispion, the Runed Ring",
-      "Frost Fairy Wings",
-      "Pure Crystal Wings",
-      "Wings of Slayer",
-      "Oblivion",
-      "Bag of Explosion",
-      "Skeletal King Icon"
-    ]
-  },
-  {
     "id": "I0EL",
     "name": "Skeleton Bone",
     "koreanname": "스켈레톤 본",
@@ -7164,6 +7138,9 @@
     "color": "FFFFFF",
     "droprate": 0.025,
     "required_by": [
+      "Bell of Light",
+      "Pure Crystal Wings",
+      "Wings of Slayer",
       "Griveddon, the Bow of Certain Destruction",
       "Chronos, the Cannon of Time",
       "Devil Chaser",
@@ -7192,6 +7169,8 @@
     "color": "FFFFFF",
     "droprate": 0.025,
     "required_by": [
+      "Oblivion",
+      "Bag of Explosion",
       "Espishu, the Sword of Eternity",
       "Ethenos, the Staff of Space",
       "Griveddon, the Bow of Certain Destruction",
@@ -7205,7 +7184,6 @@
       "Benedict, the Crimson Armor of Blood",
       "Bloodsoul Plates",
       "Frost Fairy Wings",
-      "Pure Crystal Wings",
       "Ring of Composure",
       "Ring of Time",
       "Skeletal King Icon"
@@ -7229,6 +7207,7 @@
     "color": "FFFFFF",
     "droprate": 0.025,
     "required_by": [
+      "Hellflame",
       "Claws of Beriel",
       "Crimson Reaper",
       "Staff of Abyss",
@@ -7240,7 +7219,6 @@
       "Seal of Deceiver",
       "Soul of the Dead",
       "Bag of Mother Nature",
-      "Grimoire of Darkness",
       "Eye of the Reaper",
       "Skeletal King Icon"
     ],
@@ -7276,7 +7254,7 @@
     "type": "Weapon (Staff)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Staff of Plague",
       "Zombie Lord Icon"
@@ -7313,7 +7291,7 @@
     "type": "Headwear",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Hood of Apocrypha",
       "Soul of the Dead",
@@ -7350,7 +7328,7 @@
     "type": "Wings",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.015,
+    "droprate": 0.0125,
     "required_by": [
       "Blazing Heart",
       "Ring of Revival",
@@ -7401,7 +7379,6 @@
       "Medea, the Robe of the Witch",
       "Protection of the Fairies",
       "Grimoire of Darkness",
-      "Ring of Fervor",
       "Hydro Buster",
       "Bag of Explosion",
       "Spirit of Protector",
@@ -7464,6 +7441,7 @@
     "color": "FFFFFF",
     "droprate": 0.025,
     "required_by": [
+      "Crown of Composure",
       "Bloody Hatred",
       "Staff of Abyss",
       "Hell Riser",
@@ -7478,7 +7456,6 @@
       "Wings of Blood Lord",
       "Oblivion",
       "Fiend Chaser",
-      "Crown of Absolute Zero",
       "Zombie Lord Icon"
     ],
     "recipe": [
@@ -7513,7 +7490,7 @@
     "type": "Wings",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.015,
+    "droprate": 0.0125,
     "required_by": [
       "Protection of the Fairies",
       "Bag of Mother Nature",
@@ -7554,7 +7531,7 @@
     "type": "Weapon (Melee)",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Oceanus, the Sword of Light",
       "Winter's Heart",
@@ -7591,7 +7568,7 @@
     "type": "Accessory",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.02,
+    "droprate": 0.0175,
     "required_by": [
       "Latea, the Ring of Overlord",
       "Hydro Buster",
@@ -7724,7 +7701,7 @@
     "type": "Wings",
     "color": "DC143C",
     "level": 100,
-    "droprate": 0.015,
+    "droprate": 0.0125,
     "required_by": [
       "Archangel Wings",
       "Brave Heart",
@@ -7813,7 +7790,6 @@
       "Hell Riser",
       "Staff of Plague",
       "Crimson Hatred",
-      "Hood of Apocrypha",
       "Grandine, the Plates of Wraith",
       "Cold Ring of Death",
       "Grimoire of Darkness",
@@ -7850,7 +7826,6 @@
       "Halo of Judgment",
       "Bell of Light",
       "Seal of Deceiver",
-      "Plates of Lightning",
       "Cosmic Star",
       "Nebula Rose",
       "Vest of Storm",
@@ -7975,7 +7950,6 @@
     "required_by": [
       "Ring of Time",
       "Ispion, the Runed Ring",
-      "Seal of Deceiver",
       "Crown of Absolute Zero",
       "Wings of Flame Lord",
       "Ring of Malevolence",
@@ -8009,14 +7983,13 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.02,
     "required_by": [
       "Crimson Reaper",
       "Ruinbringer",
       "Soulstalker",
       "Atricia, the Sword of Dreams",
       "Crimson Hatred",
-      "Crown of Composure",
       "Latea, the Ring of Overlord",
       "Cloak of the Fallen Shadows",
       "Grim Heart",
@@ -8049,7 +8022,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0175,
+    "droprate": 0.02,
     "required_by": [
       "Staff of Plague",
       "Pheles, the Bow of God",
@@ -8086,17 +8059,13 @@
     "name": "Frozen Debris",
     "koreanname": "한기의 조각",
     "dropped_by": [
-      "Death Fiend",
       "Shadow Dragon Irbert"
     ],
     "rank": "[Epic]",
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": [
-      0.012,
-      0.01
-    ],
+    "droprate": 0.0125,
     "required_by": [
       "Winter's Heart",
       "Meacronacer, the Sword of Thousand Illusions",
@@ -8111,7 +8080,6 @@
       "Hades, the Armor of Despair",
       "Cold Ring of Death",
       "Ruler of the Skies",
-      "Hood of Apocalypse",
       "Wings of Frost Lord",
       "Maw of Beriel",
       "Calamity",
@@ -8152,7 +8120,7 @@
     "type": "Weapon (Shared)",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.008,
+    "droprate": 0.005,
     "required_by": [
       "Calamity",
       "Astra, the Sword of Moonlight",
@@ -8188,7 +8156,7 @@
     "type": "Armor",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.013,
+    "droprate": 0.0075,
     "required_by": [
       "Hades, the Armor of Despair",
       "Athanasia, the Armor of the Reaper",
@@ -8222,7 +8190,7 @@
     "type": "Headwear",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.013,
+    "droprate": 0.0075,
     "required_by": [
       "Cosmic Star",
       "Bag of Despair",
@@ -8261,7 +8229,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.013,
+    "droprate": 0.0075,
     "required_by": [
       "Latea, the Ring of Overlord",
       "Ring of Insanity",
@@ -8289,7 +8257,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.009,
+    "droprate": 0.0075,
     "required_by": [
       "Staff of Plague",
       "Crimson Hatred",
@@ -8329,7 +8297,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.009,
+    "droprate": 0.0075,
     "required_by": [
       "Protection of the Fairies",
       "Archangel Wings",
@@ -8372,8 +8340,8 @@
     "type": "Coin",
     "color": "C0C0C0",
     "droprate": [
-      0.002,
-      0.002,
+      0.004,
+      0.004,
       0.002,
       0.0025,
       0.003
@@ -8415,7 +8383,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.0033,
+    "droprate": 0.0015,
     "required_by": [
       "Legend Icon"
     ],
@@ -8454,7 +8422,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.01,
+    "droprate": 0.006,
     "required_by": [
       "Staff of Plague",
       "Heaven's Fist",
@@ -8495,7 +8463,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.011,
+    "droprate": 0.008,
     "required_by": [
       "Horn of Lightning God",
       "Protection of the Fairies",
@@ -8530,7 +8498,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.011,
+    "droprate": 0.008,
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Pheles, the Bow of God",
@@ -8573,9 +8541,9 @@
     "type": "Material",
     "color": "FFFFFF",
     "droprate": [
-      0.0075,
-      0.01,
-      0.0125
+      0.004,
+      0.005,
+      0.006
     ],
     "required_by": [
       "Pheles, the Bow of God",
@@ -8638,7 +8606,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.0033,
+    "droprate": 0.0015,
     "required_by": [
       "Legend Icon"
     ],
@@ -8682,7 +8650,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.01,
+    "droprate": 0.006,
     "required_by": [
       "Ring of Revival",
       "Robe of Archlich",
@@ -8727,7 +8695,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.011,
+    "droprate": 0.008,
     "required_by": [
       "Eye of the Flame Lord",
       "Protection of the Fairies",
@@ -8760,7 +8728,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.011,
+    "droprate": 0.008,
     "required_by": [
       "Atricia, the Sword of Dreams",
       "Staff of Plague",
@@ -8802,7 +8770,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.0033,
+    "droprate": 0.0015,
     "required_by": [
       "Legend Icon"
     ],
@@ -8846,7 +8814,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.01,
+    "droprate": 0.006,
     "required_by": [
       "Ring of Fate",
       "Eternal Flame",
@@ -8884,7 +8852,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.011,
+    "droprate": 0.008,
     "required_by": [
       "Robe of Archlich",
       "Brave Heart",
@@ -8926,7 +8894,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.011,
+    "droprate": 0.008,
     "required_by": [
       "Ring of Fate",
       "Bag of Universe",
@@ -8973,7 +8941,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.0033,
+    "droprate": 0.0015,
     "required_by": [
       "Legend Icon"
     ],
@@ -9017,7 +8985,7 @@
     "type": "Wings",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.01,
+    "droprate": 0.004,
     "required_by": [
       "Bag of Despair",
       "Nevedium, the Armor of Demonblood",
@@ -9062,7 +9030,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.011,
+    "droprate": 0.006,
     "required_by": [
       "Ring of Hope",
       "Ring of Despair",
@@ -9103,7 +9071,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.011,
+    "droprate": 0.006,
     "required_by": [
       "Hood of Apocalypse",
       "Power of Beriel",
@@ -9142,7 +9110,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.011,
+    "droprate": 0.006,
     "required_by": [
       "Radiance of the One",
       "Crown of Absolute Zero",
@@ -9180,7 +9148,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
-    "droprate": 0.0033,
+    "droprate": 0.0015,
     "required_by": [
       "Legend Icon"
     ],
@@ -9236,6 +9204,11 @@
       "Soulstorm",
       "Divine Rose"
     ],
+    "recipe": [
+      {
+        "Duke's Soulstone": 2
+      }
+    ],
     "stats": {
       "mainstat": 420,
       "skilldamagepercent": 0.08,
@@ -9259,7 +9232,7 @@
     "grade": 5,
     "type": "Material",
     "color": "733CBE",
-    "droprate": 0.0085,
+    "droprate": 0.01,
     "required_by": [
       "Caedis, the Sword of Slaughter",
       "Endless Snow",
@@ -9283,6 +9256,11 @@
       "Harvester's Mask",
       "Espishu, the True Sword of Chaos",
       "Eye of the Blood God"
+    ],
+    "recipe": [
+      {
+        "Duke's Soulstone": 2
+      }
     ]
   },
   {
@@ -9296,7 +9274,7 @@
     "grade": 5,
     "type": "Material",
     "color": "733CBE",
-    "droprate": 0.0085,
+    "droprate": 0.01,
     "required_by": [
       "Spear of Judgment",
       "Agnitus, the Bow of Divine Fury",
@@ -9321,6 +9299,11 @@
       "Soul Torch",
       "Divine Aegis",
       "Divine Vein"
+    ],
+    "recipe": [
+      {
+        "Duke's Soulstone": 2
+      }
     ]
   },
   {
@@ -9334,7 +9317,7 @@
     "grade": 5,
     "type": "Material",
     "color": "733CBE",
-    "droprate": 0.0085,
+    "droprate": 0.01,
     "required_by": [
       "Heartrender",
       "Cage of Twisted Souls",
@@ -9356,6 +9339,30 @@
       "Arch Druid Robe",
       "Soul Breath",
       "Divine Rose"
+    ],
+    "recipe": [
+      {
+        "Duke's Soulstone": 2
+      }
+    ]
+  },
+  {
+    "id": "I0O2",
+    "name": "Duke's Soulstone",
+    "koreanname": "공작의 영혼석",
+    "dropped_by": [
+      "Duke Lazarus"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.0015,
+    "required_by": [
+      "Crimson Rose",
+      "Blood Essence",
+      "Emblem of Sacrifice",
+      "Soul Blossom"
     ]
   },
   {
@@ -9398,6 +9405,11 @@
       "Ring of Noble Soul",
       "Divine Rose"
     ],
+    "recipe": [
+      {
+        "Gaia's Soulstone": 2
+      }
+    ],
     "stats": {
       "armor": 260,
       "mainstat": 370,
@@ -9420,7 +9432,7 @@
     "grade": 5,
     "type": "Material",
     "color": "733CBE",
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Final Omen",
       "Ring of Eternity",
@@ -9443,6 +9455,11 @@
       "Living Flame",
       "Espishu, the True Sword of Chaos",
       "Embrace of Death"
+    ],
+    "recipe": [
+      {
+        "Gaia's Soulstone": 2
+      }
     ]
   },
   {
@@ -9456,7 +9473,7 @@
     "grade": 5,
     "type": "Material",
     "color": "733CBE",
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Titan's Plates",
       "Heart of Life",
@@ -9476,6 +9493,11 @@
       "Ring of Genesis",
       "Ring of Noble Soul",
       "Divine Vein"
+    ],
+    "recipe": [
+      {
+        "Gaia's Soulstone": 2
+      }
     ]
   },
   {
@@ -9489,7 +9511,7 @@
     "grade": 5,
     "type": "Material",
     "color": "733CBE",
-    "droprate": 0.0075,
+    "droprate": 0.008,
     "required_by": [
       "Atricia, the Sword of Nightmares",
       "Final Omen",
@@ -9509,6 +9531,30 @@
       "Soul Breath",
       "Eye of Annihilation",
       "Eye of the Blood God"
+    ],
+    "recipe": [
+      {
+        "Gaia's Soulstone": 2
+      }
+    ]
+  },
+  {
+    "id": "I0LY",
+    "name": "Gaia's Soulstone",
+    "koreanname": "지신의 영혼석",
+    "dropped_by": [
+      "Gaia"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.0015,
+    "required_by": [
+      "Gown of Life",
+      "Essence of Earth",
+      "Aegis of Earth",
+      "Twisted Fragment of Ruins"
     ]
   },
   {
@@ -9550,6 +9596,11 @@
       "Divine Vein",
       "Eye of the Blood God"
     ],
+    "recipe": [
+      {
+        "Construct's Soulstone": 2
+      }
+    ],
     "stats": {
       "armor": 150,
       "mainstat": 300,
@@ -9589,6 +9640,11 @@
       "Soulstorm",
       "Soul Breath",
       "Divine Rose"
+    ],
+    "recipe": [
+      {
+        "Construct's Soulstone": 2
+      }
     ]
   },
   {
@@ -9621,6 +9677,29 @@
       "Arch Druid Robe",
       "Echoes of the Void",
       "Embrace of Death"
+    ],
+    "recipe": [
+      {
+        "Construct's Soulstone": 2
+      }
+    ]
+  },
+  {
+    "id": "I02W",
+    "name": "Construct's Soulstone",
+    "koreanname": "기계의 영혼석",
+    "dropped_by": [
+      "Arcane Construct"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.0015,
+    "required_by": [
+      "Mask of Truth",
+      "Arcane Core",
+      "Ancient Tome"
     ]
   },
   {
@@ -9655,6 +9734,11 @@
       "World Sunderer",
       "Duskblade",
       "Prelude to Demise"
+    ],
+    "recipe": [
+      {
+        "Harvester's Soulstone": 2
+      }
     ],
     "stats": {
       "damage": 9400,
@@ -9696,6 +9780,11 @@
       "Ring of Noble Soul",
       "Eye of the Blood God",
       "Embrace of Death"
+    ],
+    "recipe": [
+      {
+        "Harvester's Soulstone": 2
+      }
     ]
   },
   {
@@ -9719,6 +9808,11 @@
       "Wings of the Void",
       "Divine Vein",
       "Divine Rose"
+    ],
+    "recipe": [
+      {
+        "Harvester's Soulstone": 2
+      }
     ]
   },
   {
@@ -9744,6 +9838,30 @@
       "Ring of Noble Soul",
       "Divine Vein",
       "Embrace of Death"
+    ],
+    "recipe": [
+      {
+        "Harvester's Soulstone": 2
+      }
+    ]
+  },
+  {
+    "id": "I0M0",
+    "name": "Harvester's Soulstone",
+    "koreanname": "수확자의 영혼석",
+    "dropped_by": [
+      "Styrix, the Harvester of Souls"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.0015,
+    "required_by": [
+      "Grim Scythe",
+      "Sinister Skull",
+      "Lantern of Souls",
+      "Spirit of Damnation"
     ]
   },
   {
@@ -12408,8 +12526,7 @@
       ],
       "spec": [
         "Specialty - Water Mastery",
-        "Elementalist - Seal of Water: HP increased by 20%, duration increased by 10 seconds",
-        "Elementalist - Water Beam: Range increased by 150, can heal 1 additional ally"
+        "Elementalist - Water Release: Cooldown reduced by 4 seconds"
       ]
     }
   },
@@ -12539,7 +12656,7 @@
       "spec": [
         "Specialties - Earth Mastery",
         "Alchemist - Enhanced Conjure Golem: Golem's HP increased by 40% and armor is increased by 40. Also periodically heals nearby allies.",
-        "Elementalist - Seal of Earth: Duration increased by 10 seconds",
+        "Elementalist - Seal of Earth: Duration increased by 15 seconds",
         "Elementalist - Pulse of Protection: Cooldown reduced by 3 seconds"
       ]
     }
@@ -13163,7 +13280,6 @@
     "level": 100,
     "required_by": [
       "Vest of Cyclone",
-      "Plates of Lightning",
       "Grandine, the Plates of Wraith"
     ],
     "recipe": [
@@ -14213,7 +14329,7 @@
       "skilldamagepercent": 0.04,
       "passive": [
         "Increases nearby allies' stats",
-        "ATK SPD by 10%",
+        "ATK SPD by 15%",
         "ATK DMG by 1200",
         "HP regen by 60"
       ]
@@ -14583,7 +14699,7 @@
         "Dark Crystal": 1
       },
       {
-        "Fragment of Oblivion": 1
+        "Orb of Oblivion": 1
       }
     ],
     "stats": {
@@ -14728,7 +14844,6 @@
         "Fragment of the Wind": 1
       },
       {
-        "Fragment of Oblivion": 1,
         "Orb of Oblivion": 1
       },
       {
@@ -15200,9 +15315,8 @@
       ],
       "spec": [
         "Specialty - Water Mastery",
-        "Elementalist - Seal of Water: HP increased by 40%, duration increased by 10 seconds",
-        "Elementalist - Water Beam: Range increased by 150, can heal 1 additional ally",
-        "Elementalist - Refreshing Well: Radius increased by 200"
+        "Elementalist - Water Release: Cooldown reduced by 4 seconds",
+        "Elementalist - Water Bolt: Max target count increased by 1"
       ]
     }
   },
@@ -15253,8 +15367,7 @@
       "spec": [
         "Specialties - Earth Mastery",
         "Elementalist - Seal of Earth: Duration increased by 10 seconds",
-        "Elementalist - Pulse of Protection: Cooldown reduced by 3 seconds",
-        "Elementalist - Earthen Protection: Radius increased by 200",
+        "Elementalist - Earth Release: Cooldown reduced by 5 seconds",
         "Alchemist - Enhanced Conjure Golem: Golem's HP increased by 40% and armor is increased by 40. Also periodically heals nearby allies."
       ]
     }
@@ -15420,7 +15533,6 @@
         "Purified Water of Nature": 1
       },
       {
-        "Fragment of Oblivion": 1,
         "Orb of Oblivion": 1
       },
       {
@@ -15508,7 +15620,7 @@
         "Purified Water of Nature": 1
       },
       {
-        "Fragment of Oblivion": 1
+        "Spirit of Abyss": 1
       }
     ],
     "stats": {
@@ -15596,7 +15708,6 @@
         "Frozen Debris": 1
       },
       {
-        "Fragment of Oblivion": 1,
         "Orb of Oblivion": 1
       }
     ],
@@ -16153,7 +16264,7 @@
         "Proof of Purification": 1
       },
       {
-        "Fragment of Oblivion": 1
+        "Orb of Oblivion": 1
       },
       {
         "Purified Water of Nature": 1
@@ -16293,9 +16404,7 @@
         "Mana Orb": 1
       },
       {
-        "Fragment of the Wind": 1
-      },
-      {
+        "Fragment of the Wind": 1,
         "Purified Water of Nature": 1
       }
     ],
@@ -16373,16 +16482,10 @@
         "Earthen Plates": 1
       },
       {
-        "Guardian Vest": 1
-      },
-      {
         "Ring of the Storm": 1
       },
       {
         "Mark of Storm": 1
-      },
-      {
-        "Essence of Light": 1
       },
       {
         "Ancient Fragment of Ruins": 1
@@ -16564,9 +16667,6 @@
       },
       {
         "Spirit of Abyss": 1
-      },
-      {
-        "Soul Stone": 1
       },
       {
         "Dark Wings": 1
@@ -16761,9 +16861,6 @@
       },
       {
         "Scarab Bone": 1
-      },
-      {
-        "Hydra Scale": 1
       },
       {
         "Dark Crystal": 1
@@ -17111,10 +17208,6 @@
         "Hood of the Fallen": 1
       },
       {
-        "God's Page": 1
-      },
-      {
-        "Fragment of Oblivion": 1,
         "Spirit of Abyss": 1
       },
       {
@@ -17202,7 +17295,7 @@
         "Helm of Everfrost": 1
       },
       {
-        "Essence of Darkness": 1
+        "Dark Crystal": 1
       },
       {
         "Frozen Debris": 1
@@ -17343,7 +17436,6 @@
         "Heart of Fire": 1
       },
       {
-        "Fragment of Oblivion": 1,
         "Spirit of Abyss": 1
       }
     ],
@@ -17432,9 +17524,6 @@
         "Skull Seal": 1
       },
       {
-        "Nephthys, the Engraved Ring": 1
-      },
-      {
         "Antimatter": 1
       },
       {
@@ -17485,7 +17574,8 @@
     ],
     "recipe": [
       {
-        "Brooch of Darkness": 1
+        "Brooch of Darkness": 1,
+        "Bone Necklace": 1
       },
       {
         "Ring of the Reaper": 1
@@ -17541,7 +17631,7 @@
         "Essence of Light": 1
       },
       {
-        "Fragment of Oblivion": 1
+        "Skeleton Bone": 1
       },
       {
         "Proof of Purification": 1
@@ -17637,9 +17727,6 @@
         "Essence of Anger": 1
       },
       {
-        "Proof of Purification": 1
-      },
-      {
         "Dragon's Eye": 1
       },
       {
@@ -17688,9 +17775,6 @@
       },
       {
         "Purified Water of Nature": 1
-      },
-      {
-        "Ancient Fragment of Ruins": 1
       }
     ],
     "stats": {
@@ -17731,9 +17815,6 @@
       },
       {
         "God's Page": 1
-      },
-      {
-        "Spirit of Abyss": 1
       },
       {
         "Proof of Purification": 1
@@ -17822,8 +17903,7 @@
         "Corrupt Crystal Wings": 1
       },
       {
-        "Fragment of Oblivion": 1,
-        "Orb of Oblivion": 1
+        "Skeleton Bone": 1
       },
       {
         "Spirit Orb": 1
@@ -17868,7 +17948,6 @@
         "Frozen Heart": 1
       },
       {
-        "Fragment of Oblivion": 1,
         "Orb of Oblivion": 1
       },
       {
@@ -18011,7 +18090,7 @@
         "Dark Crystal": 1
       },
       {
-        "Fragment of Oblivion": 1
+        "Skeleton Bone": 1
       }
     ],
     "stats": {
@@ -19669,9 +19748,9 @@
       ],
       "spec": [
         "Specialties - Earth Mastery",
-        "Elementalist - Seal of Earth: Duration increased by 10 seconds",
-        "Elementalist - Pulse of Protection: Cooldown reduced by 3 seconds",
-        "Elementalist - Earthen Protection: Radius increased by 500",
+        "Elementalist - Seal of Earth: Duration increased by 15 seconds",
+        "Elementalist - Earth Release: Cooldown reduced by 5 seconds",
+        "Elementalist - Earthen Link: Cooldown reduced by 10 seconds",
         "Alchemist - Golem's HP increased by 50%, armor is increased by 50, and is permanently affected by Sparkle of Life. Also periodically heals nearby allies."
       ]
     }
@@ -20812,9 +20891,6 @@
         "Nephthys, the Engraved Ring": 1
       },
       {
-        "Dark Crystal": 1
-      },
-      {
         "Essence of Sea": 1
       },
       {
@@ -20866,9 +20942,6 @@
       },
       {
         "Burning Bone Fragments": 1
-      },
-      {
-        "Frozen Debris": 1
       }
     ],
     "stats": {
@@ -21293,8 +21366,8 @@
     "stats": {
       "str": 405,
       "agi": 375,
-      "periodicdamagepercent": 0.30,
-      "healreceivedpercent": -0.30,
+      "periodicdamagepercent": 0.3,
+      "healreceivedpercent": -0.3,
       "passive": [
         "On attack, 15% chance to activate Madness",
         "Next 3 hits will deal bonus (ATK DMG X 1) pure damage",
@@ -21342,7 +21415,7 @@
       "skilldamagepercent": 0.06,
       "passive": [
         "Empowers nearby allies",
-        "Increases ATK DMG by (INT X 0.6) (up to 1800), ATK SPD by 15%, and HP regen by 120"
+        "Increases ATK DMG by (INT X 0.6) (up to 1800), ATK SPD by 20%, and HP regen by 120"
       ],
       "active": [
         "On use, activates Purification",
@@ -21742,8 +21815,8 @@
     ],
     "stats": {
       "damage": 3900,
-      "str": 285,
-      "agi": 285,
+      "str": 310,
+      "agi": 310,
       "skilldamagepercent": 0.05,
       "active": [
         "On use, activates Flame Descent (up to 1500 distance)",
@@ -22689,12 +22762,12 @@
       "passive": [
         "Empowers next attack with Brilliance of the Sun every 3 seconds",
         "Next attack deals (ATK DMG X 0.3 + STR X 6) magic damage in AoE",
-        "Grants Rising Sun, increasing ATK DMG by 200 and STR by 25 (stacks up to 20 times)",
+        "Grants Rising Sun, increasing ATK DMG by 250 and STR by 30 (stacks up to 15 times)",
         "Trigger interval is reduced down to 2 seconds based on lost HP"
       ],
       "active": [
         "On use, activates Supernova",
-        "Consumes 50% of stacks of Rising Sun and deals STR X (40 + 4 X stack) magic damage in 800 radius",
+        "Deals STR X (40 + 4 X stack) magic damage in 800 radius",
         "Cooldown: 60 seconds"
       ]
     }
@@ -23165,7 +23238,7 @@
       "int": 840,
       "hp": 2000,
       "skilldamagepercent": 0.05,
-      "critmultiplier": 0.30,
+      "critmultiplier": 0.3,
       "passive": [
         "On attack, activates Mark of Storm",
         "Attacking the same target 4 times applies Mark of Storm",
@@ -23225,16 +23298,16 @@
       "active": [
         "On use, activates Dawn of Ice",
         "Deals (INT X 25) magic damage and freezes nearby enemies for 3 seconds",
-        "After 4 seconds, ice will shatter",
-        "Deals (15% damage dealt to target + INT X 2.5 X # of damage instances to target) magic damage (up to 20 damage instances)",
+        "After 5 seconds, ice will shatter",
+        "Deals (12.5% damage dealt to target + INT X 2.5 X # of damage instances to target) magic damage (up to 20 damage instances)",
         "Stuns for 3 seconds",
         "Cooldown: 75 seconds"
       ],
       "spec": [
         "Specialty - Water Mastery",
-        "Elementalist - Seal of Water: HP increased by 40%, duration increased by 10 seconds",
-        "Elementalist - Water Beam: Range increased by 150, can heal 2 additional allies",
-        "Elementalist - Refreshing Well: Radius increased by 250"
+        "Elementalist - Water Release: Cooldown reduced by 4 seconds",
+        "Elementalist - Water Bolt: Max target count increased by 1",
+        "Elementalist - Purify: Cast cost reduced by 10"
       ]
     }
   },
@@ -24032,7 +24105,7 @@
         "Soul Blossom": 1
       },
       {
-        "Shining Fragment of Ruins":  2
+        "Shining Fragment of Ruins": 2
       }
     ],
     "stats": {
@@ -24179,7 +24252,7 @@
     "stats": {
       "armor": 145,
       "allstat": 300,
-      "skilldamagepercent": 0.10,
+      "skilldamagepercent": 0.1,
       "affinityflamepercent": 0.075,
       "affinityearthpercent": 0.05,
       "active": [
@@ -24680,7 +24753,7 @@
     "stats": {
       "mainstat": 625,
       "attackspeedpercent": 0.35,
-      "skilldamagepercent": 0.20,
+      "skilldamagepercent": 0.2,
       "hpregen": 100,
       "mpregen": 50,
       "active": [
@@ -24872,7 +24945,7 @@
       "skilldamagepercent": 0.1,
       "passive": [
         "Increases ATK DMG by (INT X 0.7) (up to 2400)",
-        "Increases ATK SPD by 20% and HP regen by 120",
+        "Increases ATK SPD by 25% and HP regen by 120",
         "Upon healing allies, amplifies the passive stat bonus given by 50% for 6 seconds (this effect has 12s cd per target)"
       ],
       "active": [
@@ -25284,7 +25357,7 @@
       "damage": 1500,
       "mainstat": 180,
       "allstat": 150,
-      "critmultiplier": 0.30,
+      "critmultiplier": 0.3,
       "passive": [
         "On skill cast, increases skill damage and crit chance by 5% for 6 seconds. Stacks up to 3 times."
       ],
@@ -25568,12 +25641,12 @@
     ],
     "stats": {
       "damage": 4800,
-      "str": 360,
-      "agi": 360,
-      "skilldamagepercent": 0.075,
+      "str": 400,
+      "agi": 400,
+      "skilldamagepercent": 0.1,
       "passive": [
         "On attack, activates Burning Soul",
-        "Deals (ATK DMG X 1.5 + Main Stat X 10) magic damage to nearby enemies and gains 10% ATK DMG for 5 seconds",
+        "Deals (ATK DMG X 1.5 + Main Stat X 10) magic damage to nearby enemies and gains 10% ATK DMG for 7.5 seconds",
         "Cooldown: 15 seconds"
       ],
       "active": [
@@ -26268,9 +26341,6 @@
         "Robe of the Reaper": 1
       },
       {
-        "Brooch of Darkness": 1
-      },
-      {
         "Bone Necklace": 1
       },
       {
@@ -26278,9 +26348,6 @@
       },
       {
         "Orb of Oblivion": 1
-      },
-      {
-        "Fragment of Oblivion": 1
       },
       {
         "Skeleton Bone": 1
@@ -26524,6 +26591,7 @@
       "mp": 250,
       "hpregen": 7.5,
       "mpregen": 7.5,
+      "expgainpercent": 0.5,
       "passive": [
         "Deltirama ~ Gnosis personal loot drop rate increased by 50%"
       ]
@@ -26569,6 +26637,7 @@
       "mp": 300,
       "hpregen": 10,
       "mpregen": 10,
+      "expgainpercent": 0.5,
       "passive": [
         "Deltirama ~ Alteia personal loot drop rate increased by 50%",
         "~5% Chance to activate Elemental Fury on attack and skill cast",

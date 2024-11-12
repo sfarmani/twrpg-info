@@ -1,5 +1,966 @@
 [
     {
+        "name": "68p",
+        "notes": [
+            "Released on: October 26th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Fixed some issue with logging system (JN)"
+        ],
+        "heroes": [
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Can no longer cast Q while in E (rolled back)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "68o2",
+        "notes": [
+            "Released on: October 25th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Sword Enchanter - Fixed bug where attacks did not accrue stack effect if any D stacks were present",
+            "Alchemist - Fixed an issue where a 50% damage increase remained after casting T and performing five transmutations.",
+            "Gate of Abyss / Heart of Life - Active now applies single target effects",
+            "Sword Saint - Fixed issue with hero having lower base HP compared to other characters"
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "E (INT): Slightly increased debuff duration",
+                    "F (INT): Field duration increase 50% → 100%"
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "D - Damage AD X 0.6 + STR X 3 → AD X 0.6 + STR X 4",
+                    "R1 - Q damage increase 250% → 300%"
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "Increased combo text size and improved visibility",
+                    "Reduced skill cast delay",
+                    "W - Combo window 3 seconds → 5 seconds",
+                    "E - Damage INT X 8.5 → INT X 9; no longer blocks Q cast during E",
+                    "T - Slightly reduced casting time"
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "T - Duration: 8 seconds → 10 seconds.",
+                    "F - Fixed issue where F could be accidentally reactivated during cast"
+                ]
+            }
+        ],
+        "misc": [
+            "System Optimization",
+            "Commands -itemclean and -equipmentclean, have been removed",
+            "Items above the character's level can now be saved",
+            "Reduced lag on certain skills"
+        ]
+    },
+    {
+        "name": "68n",
+        "notes": [
+            "Released on: October 15th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Fixed issue where Priest/Witch summon hotkey sometimes gets reset upon dying"
+        ],
+        "items": [
+            {
+                "name": "Recipe Changes",
+                "changes": [
+                    "Creation of Heaven and Earth: Fragment of Wind AND Purified Water of Nature → Fragment of Wind OR Purified Water of Nature",
+                    "Plates of Lightning: Removed Guardian Vest and Essence of Light",
+                    "Grandine, the Plates of Wraith: Removed Soul Stone",
+                    "Robe of Necromancer: Removed Hydra Scale",
+                    "Hood of Apocrypha: Removed God's Page",
+                    "Hood of Apocalypse: Removed Frozen Debris",
+                    "Crown of Composure: Essence of Darkness → Dark Crystal",
+                    "Crown of Absolute Zero: Removed Dark Crystal",
+                    "Seal of Deceiver: Removed Nephthys",
+                    "Ring of Composure: Removed Ancient Fragment of Ruins",
+                    "Grimoire of Darkness: Removed Spirit of Abyss",
+                    "Ring of Fervor: Removed Proof of Purification"
+                ]
+            },
+            {
+                "name": "Wings of Flame Lord",
+                "changes": [
+                    "STR/AGI: 285 → 310"
+                ]
+            },
+            {
+                "name": "Living STR",
+                "changes": [
+                    "STR/AGI 360 → 400",
+                    "Skill damage 7.5% → 10%",
+                    "Buff Duration 5 seconds → 7.5 seconds"
+                ]
+            },
+            {
+                "name": "Costume Changes",
+                "changes": [
+                    "Blaster, Sword Saint - Halloween costume added",
+                    "Thunderer, Lightning Mage - Special costume added",
+                    "Martial Artist, Fire Mage, Alchemist - Summer costume changed",
+                    "(if it doesn't work anymore, it can be exchanged with the Weird Mage NPC located under the fountain)"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Monster notes",
+                "changes": [
+                    "Increased EXP gained from defeating regular monsters in level 30-80 areas."
+                ]
+            },
+            {
+                "name": "Valtora/Ifrit/Nereid/Gaia",
+                "changes": [
+                    "Equipment drop rate 0.5% → 0.6%",
+                    "Aegis/Essence/TFoR drop rate: 0.75% → 0.8%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Knight",
+                "changes": [
+                    "F - Buff will now also apply to summons"
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "T - Duration: 7 seconds → 6 seconds."
+                ]
+            },
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "E2 - Damage increase per cast: 50% → 35% (Maximum: 100% → 70%)."
+                ]
+            },
+            {
+                "name": "Sword Saint",
+                "changes": [
+                    "R - Damage per star: (STR + INT) X 10 → (STR + INT) X 7.5",
+                    "T - Base damage AD X 5 + (STR + INT) X 60 → AD X 4 + (STR + INT) X 50",
+                    "F - Damage per small slash (STR + INT) X 5 → (STR + INT) X 4"
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "T - Damage STR X 80 → STR X 100"
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "R - Damage per shot AD X 175% → AD X 190%"
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "D - Skill damage increase for AGI main stat 85% → 90%",
+                    "Q - Empowered for duration of Wind Walk → 1st cast within 2 seconds of casting Wind Walk will be empowered",
+                    "T - Base damage: Main stat X 40 → Main stat X 60",
+                    "F - Damage per second: Main stat X 50 → Main stat X 70, Maximum duration: 3 seconds → 2 seconds (3 seconds if INT is main stat)"
+                ]
+            },
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "F - Slight reduction in cast time, Cooldown: 120 seconds → 90 seconds"
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "T - Slight reduction in cast time"
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "T - Total damage increase: 15% → 10%, Duration: 10 seconds → 8 seconds, Cooldown: 40 seconds → 30 seconds",
+                    "F - Slight reduction in cast time, INT increase per stack: 1.5% → 1%, max increase: 30% → 25%"
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Q - Attack speed increase per hit: 10% → 20%, Maximum stacks: 10 → 5",
+                    "R - Fixed issue where recast was temporarily disabled upon elemental dying",
+                    "F - Reduced summon delay and E cast time"
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "Q - Reverted to use Q2 as fire button; no longer triggers cooldown if cancelled",
+                    "E - Increased cast range slightly, damage increase when chained with Q: 120% → 140%"
+                ]
+            },
+            {
+                "name": "Blood Weaver",
+                "changes": [
+                    "D - Base damage AD X 0.4 + Max HP X 0.3 → AD X 0.35 + Max HP X 0.3",
+                    "Q - Base damage AD X 1 + Max HP X 0.3 → AD X 0.85 + Max HP X 0.3"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "68m",
+        "notes": [
+            "Released on: September 22nd, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Fixed an issue where unit colors were displayed incorrectly.",
+            "Fixed a bug where some icons and cosmetic item recipes weren't visible in the \"Currently Craftable\" list even when materials were sufficient."
+        ],
+        "events": [
+            "Event is over"
+        ],
+        "items": [
+            {
+                "name": "Fragment of Oblivion",
+                "changes": [
+                    "Will no longer drop, and the crafting recipes that used it will now be craftable with other materials from the Skeleton King.",
+                    [
+                        "Orb of Oblivion: Fragment of Oblivion → Orb of Oblivion",
+                        "Espichu, the Sword of Chaos: Fragment/Orb of Oblivion → Orb of Oblivion",
+                        "Ethenos, the Staff of Chaos: Fragment/Orb of Oblivion → Orb of Oblivion",
+                        "Hellflame: Fragment of Oblivion → Spirit of Abyss",
+                        "Ever Frostbane: Fragment/Orb of Oblivion → Orb of Oblivion",
+                        "Bag of Explosion: Fragment of Oblivion → Orb of Oblivion",
+                        "Hood of Apocalypse: Fragment of Oblivion/Spirit of Abyss → Spirit of Abyss",
+                        "Ispion, the Runed Ring: Fragment of Oblivion/Spirit of Abyss → Spirit of Abyss",
+                        "Bell of Light: Fragment of Oblivion → Spark of Bone",
+                        "Pure Crystal Wings: Fragment of Oblivion → Spark of Bone",
+                        "Frost Fairy Wing: Fragment/Orb of Oblivion → Orb of Oblivion",
+                        "Wings of Slayer: Fragment of Oblivion → Spark of Bone"
+                    ],
+                    "Players who own the Fragment of Oblivion can click on it to exchange it for other materials dropped by the Skeleton King."
+                ]
+            },
+            {
+                "name": "Brooch of Darkness",
+                "changes": [
+                    "Will no longer drop, and its crafting recipes will now use other materials from the Skeleton King.",
+                    [
+                        "Ring of Cold Death: Brooch of Darkness → Brooch of Darkness OR Bone Necklace"
+                    ]
+                ]
+            },
+            {
+                "name": "Heaven's Door series",
+                "changes": [
+                    "Will not immediately turn off when out of range; instead, it will take 10 seconds to release."
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Corruptor Rectus",
+                "changes": [
+                    "Slightly reduced damage dealt by the boss and summoned creatures."
+                ]
+            },
+            {
+                "name": "Flame Nightmare",
+                "changes": [
+                    "Removed the minor stun effect that occasionally occurred when attacking in Rage mode."
+                ]
+            },
+            {
+                "name": "Wish System",
+                "changes": [
+                    "When using the Wish system, no other items will drop, but the drop rate of the wished item will increase by 100% for",
+                    "Gnosis-tier bosses and 150% for Alteia-tier bosses."
+                ]
+            },
+            {
+                "name": "Drop Rate Changes",
+                "changes": [
+                    "Bone Dragon/Skeleton King/Zombie Lord/Ancient Ent/Samael (without wish)",
+                    [
+                        "Equipment: 1.125-1.5% → 1.25-1.75%",
+                        "Materials: 2.25% → 2.5%"
+                    ],
+                    "Shadow Dragon (without wish)",
+                    [
+                        "Sword: 0.9% → 1%",
+                        "Rusalka/Nepthtys: 1.3% → 1.5%",
+                        "Dark Crystal/Antimatter: 1.7% → 2%",
+                        "Frozen Debris: 1.1% → 1.25%"
+                    ],
+                    "Death Fiend/Valtora/Ifrit/Nereid (without wish)",
+                    [
+                        "Equipment: 0.4-0.6% → 0.5-0.75%",
+                        "Materials: 0.4-0.6% → 0.5-0.75%",
+                        "Icon: 0.13% → 0.15%"
+                    ],
+                    "Agareth (without wish)",
+                    [
+                        "Curse of Greed: 0.3% → 0.4%",
+                        "Materials: 0.45% → 0.6%",
+                        "Icon: 0.1% → 0.15%"
+                    ]
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Blaster",
+                "changes": [
+                    "E - Debuff application rate increased from 15% to 17%"
+                ]
+            },
+            {
+                "name": "Bow Master",
+                "changes": [
+                    "Q - Knockback effect removed",
+                    "T - Base damage: AD X 0.6 + Agility X 4 → AD X 0.6 + Agility X 5",
+                    "Removed Flame Shot/Freezing Shot combo effect (added 20% increased damage/2.5-second freeze effect)"
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "F - Cooldown reduced from 120 seconds to 90 seconds"
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "F - Cooldown reduced from 120 seconds to 90 seconds"
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "D - Removed physical auto-attack damage",
+                    "Q - Range: 750-1500 → 1000, Stun duration: 1-2 seconds → 1 second",
+                    [
+                        "Knockback distance slightly reduced, firing method changed to Q + left click → right click"
+                    ],
+                    "E - Explosion damage increase when linked with Q: 250% → 220%",
+                    [
+                        "Generates 1 potion every 1.5 seconds for 18 seconds → Generates 1 potion every 2 seconds for 20 seconds",
+                        "Potion's duration when dropped on the ground: 30 seconds → 20 seconds"
+                    ],
+                    "T - Hotkey designation will now be maintained after resummoning",
+                    [
+                        "HP: 20,000 → 15,000 + INT X 4",
+                        "Time it takes for W to disappear: 15 seconds → 25 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "T - Hotkey designation will now be maintained after resummoning",
+                    [
+                        "Summon time reduced",
+                        "Bonus damage on attack INT X 1.125 → INT X 1.5",
+                        "Duration: 120 seconds → Unlimited",
+                        "Removed delays in Raguel's skills"
+                    ]
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "T - Total damage increase removed",
+                    [
+                        "TE debuff duration: 10 seconds → 8 seconds"
+                    ]
+                ]
+            },
+            {
+                "name": "Soul Weaver",
+                "changes": [
+                    "A - Changed to trigger single-skill hit detection",
+                    "E - Minimum duration when targeting an enemy: 1 second → 2 seconds",
+                    [
+                        "HP recovery from soul absorption increased by 100%"
+                    ],
+                    "F - Damage: INT X 110 → INT X 200",
+                    [
+                        "Added duration display"
+                    ]
+                ]
+            },
+            {
+                "name": "Shaman",
+                "changes": [
+                    "F - Number of Fire Talismans summoned: 5 → 3",
+                    [
+                        "Explosion damage: INT X 75 → INT X 100",
+                        "Fire Talismans summoned by F will last an additional 10 seconds."
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "The \"Guard Break\" text will be unified to \"Break\", with increased text size and duration."
+        ]
+    },
+    {
+        "name": "68h",
+        "notes": [
+            "Released on: September 11th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Fixed bug where some cosmetic items' options were not working peroply",
+            "Fixed bug where Sword Saint displays two lines of text upon death"
+        ],
+        "events": [
+            "Field boss (ragnaar/tenta lord/giant golem) and Hydra/Lich/Spider with Festive Spirit can now drop 1 Lucky Pouch when defeated.",
+            "Increased drop rate of special loot from Lucky Pouch by 60%.",
+            "Increased chance of obtaining costume from special loot"
+        ],
+        "items": [
+            {
+                "name": "Song of Demise",
+                "changes": [
+                    "Active - Cast time slightly decreased"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "D - Heal amount INT X 2 → INT X 2.5 (only for INT main stat)",
+                    "W - Radius increased slightly (only for INT main stat)"
+                ]
+            },
+            {
+                "name": "Crusader",
+                "changes": [
+                    "D - Damage AD X 0.5 + STR X 2.5 → AD X 0.6 + STR X 3",
+                    "Q - Damage STR X 10 → STR X 12",
+                    "R - Damage AD X 5 → AD X 6",
+                    "R2 - Damage STR X 35 → STR X 45)"
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "TW - Cooldown 1s → 0s"
+                ]
+            },
+            {
+                "name": "Soul Weaver",
+                "changes": [
+                    "T - Cast time 1s → 0.5s"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "68g",
+        "notes": [
+            "Released on: September 10th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Fixed issue where EXP gain isn't working properly"
+        ],
+        "events": [
+            "Festive Event - Active"
+        ],
+        "monsters": [
+            {
+                "name": "Ragnaar / Tentacle Lord / Giant Golem / Mana Ancient",
+                "changes": [
+                    "Icon drop rate increased from 0.75% to 1%"
+                ]
+            },
+            {
+                "name": "Spirit Beast / Mad Clown / Gatekeeper",
+                "changes": [
+                    "Icon drop rate increased from 0.25% to 0.33%"
+                ]
+            },
+            {
+                "name": "Corruptor Rectus",
+                "changes": [
+                    "Infection duration reduced from 12 seconds to 10 seconds",
+                    "Removed Soul Link skill (the skill that connects two heroes and swaps their positions)"
+                ]
+            },
+            {
+                "name": "Boss respawn time reduced",
+                "changes": [
+                    "Gnosis-tier bosses from 60 seconds to 45 seconds",
+                    "Field bosses (Ragnaar / Tentacle Ruler / Giant Golem / Mana Ancient) from 90 seconds to 60 seconds"
+                ]
+            }
+        ],
+        "misc": [
+            "Removed the 'itemize' option for cosmetic items in the wardrobe",
+            "Changed so that when obtaining a cosmetic item from a loot chest, it is automatically added to the closet if it's not already owned",
+            "You can now use icons directly as crafting materials without needing to 'itemize' them"
+        ]
+    },
+    {
+        "name": "68e",
+        "notes": [
+            "Released on: September 4th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "heroes": [
+            {
+                "name": "Sword Saint",
+                "changes": [
+                    "Skilset rolled back to v0.68b"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "68d",
+        "notes": [
+            "Released on: September 2nd, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Berserker - Fixed bug where the hero would gain unit collision after casting Q",
+            "Berserker - Fixed bug where Q skill doesn't activate properly during R",
+            "Sword Saint - Fixed bug where the T damage was applied as (STR + INT) X 50 instead of (STR + INT) X 60",
+            "Elementalist - Fixed bug where certain boss areas could not be entered correctly while using T",
+            "Eye of Blood God - Fixed bug where summon could be teleported to unintended locations",
+            "Horn of God series - Fixed bug where item provided 100% more attack speed than what's written on display menu"
+        ],
+        "items": [
+            {
+                "name": "Twin Snow Series",
+                "changes": [
+                    "Elementalist Specialty - Now additionally reduces Water Release skill cooldown by 4 seconds"
+                ]
+            },
+            {
+                "name": "Harmonia Series",
+                "changes": [
+                    "Elementalist Specialty - Earthen Protection reduction bonus 5% → Earth Elemental duration increased by 15 seconds"
+                ]
+            },
+            {
+                "name": "Eye of the Blood God",
+                "changes": [
+                    "Changed the healing accumulation effect to accumulate based on the pre-reduction value of the healing"
+                ]
+            },
+            {
+                "name": "Pipe of Chaos Azathos/Horn of God/Heart of Life",
+                "changes": [
+                    "Attack speed bonus 10%/15%/20% (glitched as 20%/30%/40%) → 15%/20%/25%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Sword Saint",
+                "changes": [
+                    "D - Damage (STR + INT) X 2~6 → (STR + INT) X 2.5~7.5, empower count 6 times → 8 times, max duration 3 seconds → 6 seconds, max dash distance 600 → 800, removed additional cast",
+                    "W - Increased casting speed",
+                    "R - Charge period 5 seconds → 6 seconds, attack speed efficiency 70% → 100%",
+                    "T - Changed BREAK text to be visible to others",
+                    "F - Base duration 1 second → 1.5 seconds, slash damage (STR + INT) X 5 → (STR + INT) X 6, removed D related effects",
+                    "(combo shortened)"
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "Q/W/E/R - If cooldown reset is triggered while an elemental is summoned, the corresponding Elemental Release skill CD will also be reset",
+                    "Q - Flame Release skill CD 15 seconds → 10 seconds",
+                    "W - Water Release skill CD 15 seconds → 12 seconds, Water Bolt's heal effect is now separated from damage effect and fires automatically every 2 seconds (affected by attack speed)",
+                    "R - Damage reduction rate now affected by Earth Affinity, slightly increased the range of Q skill and it now provides CC immunity to Earth Elemental itself as well"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "68b",
+        "notes": [
+            "Released on: September 1st, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "bugs": [
+            "Fixed a bug where the name/description of Soulstones dropped from Arcana-tier bosses was not displaying correctly",
+            "Fixed a bug where proc damage bonus was not properly applied to Knight's Q skill damage"
+        ],
+        "items": [
+            {
+                "name": "Blazing Sun",
+                "changes": [
+                    "Maximum stack 20 → 15",
+                    "bonus per stack AD 200 / STR 25 → AD 250 / STR 30",
+                    "Active - Damage STR X (40 + 2.5 X Stack) → STR X (40 + 4 X Stack), no longer consumes stacks"
+                ]
+            },
+            {
+                "name": "Grand Master Icon / Legend Icon",
+                "changes": [
+                    "Now grants 50% bonus in EXP gain"
+                ]
+            },
+            {
+                "name": "Heaven's Door series",
+                "changes": [
+                    "Maintain range 4000 → 5000, now persists through Hero death"
+                ]
+            },
+            {
+                "name": "Endless Snow",
+                "changes": [
+                    "Active - Damage amp 15% → 12.5%",
+                    "Debuff duration 4s → 5s"
+                ]
+            },
+            {
+                "name": "Harvester Token",
+                "changes": [
+                    "Skill properly works now"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Soul Harvester Styrix",
+                "changes": [
+                    "Phase 1 - Changed the color of some skill indicators when colorblind mode is activated",
+                    "Phase 2 - Slightly reduced the boss size",
+                    "Self-resurrection skills no longer trigger when dying during Fog (manual revives still work)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Sword saint",
+                "changes": [
+                    "New character added"
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "Q - Deals AD X 75% pure damage → Deals an attack ignoring armor. No longer interrupts attacks when cast.",
+                    "E - Max AD bonus (STR X 6) → (STR X 5), buff duration is now reset on skill cast",
+                    "T - Proc no longer splashes. Active duration 8 sec → 7 sec, during duration, ",
+                    "Berserker is no longer affected by CC effects and secondary effects such as Life Gauge reduction / secondary debuffs applied when getting hit.",
+                    "Casting R during T no longer pauses T duration, but also no longer interrupts Berserker's attacks and movement",
+                    "F - Cooldown 120s → 90s, hitting an enemy will now refresh W debuff on it"
+                ]
+            },
+            {
+                "name": "Merchant",
+                "changes": [
+                    "W/Eitr - Potions will now be guided towards the target when clicking on a designated portrait.",
+                    "F - Now displays duration over target's head"
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "T - When INT is primary stat, faint AoE indicator will be displayed"
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "F - Cooldown 120s → 90s"
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "D - Max maintain range of probes 2500 → 5000"
+                ]
+            },
+            {
+                "name": "Sword Enchanter",
+                "changes": [
+                    "Q - Cooldown 6s → 4s"
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "When casting single-target skills, aggro will be automatically locked onto target"
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "changes": [
+                    "F - Damage increase for passive skills chaned from 100% → 75%"
+                ]
+            },
+            {
+                "name": "Bowmaster",
+                "changes": [
+                    "E - Scout damage changed from AD X 0.075 + AGI X 0.375 → AD X 0.07 + AGI X 0.35."
+                ]
+            },
+            {
+                "name": "Thunderer",
+                "changes": [
+                    "W - Bonus damage for basic attacks (STR + AGI) X 1 → (STR + AGI) X 2."
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "T - No longer increases Q damage"
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "General",
+                    [
+                        "Q/W/E elementals now have unlimited duration, and they can be re-summoned 5 seconds after death.",
+                        "Hotkeys for Q/W/E/R elementals will now persist through re-summons",
+                        "Various scaling adjustments; please refer to the in-game details for exact numbers.",
+                        "Specialties Changed",
+                        [
+                            "Twin Snow Series - Increases the number of targets for Water Bolt by 1 / Reduces cost for Purify",
+                            "Sparkle of Life Series - Reduces cooldown of Earth Release / Increases reduction value on Earth Protection / Reduces cooldown of Earthen Link",
+                            "Total damage increased by 15%.",
+                            "Damage taken by summons reduced by 30%.",
+                            "Skills usable by the Spirit Summoner and summoned spirits are activated.",
+                            "Q - Sends Fire Elemental to the target location, dealing damage and stunning enemies hit.",
+                            "W - Sends Water Elemental to the target location, healing allies hit.",
+                            "E - Sends Lightning Elemental to the target location, dealing damage and increasing magic damage taken by enemies hit for 10 seconds.",
+                            "R - Sends Earth Elemental to the target location, granting shield to allies hit.",
+                            "Recalls all summoned elementals (Q/W/E/R), turning them invincible while healing them for 15% HP per second.",
+                            "Can re-summon using Q/W/E/R or T again.",
+                            "5s CD."
+                        ]
+                    ],
+                    "D",
+                    [
+                        "No longer summons an elemental has been changed to a survival skill that can be used anytime",
+                        "Charges once every 10 seconds, with a maximum of 2 charges.",
+                        "Charging speed is affected by Wind Affinity"
+                    ],
+                    "Q",
+                    [
+                        "Passive 1 - Attacks cause explosions that deal damage to nearby enemies.",
+                        "Passive 2 - Attacking increases attack speed for 5 seconds, stacking up to 10 times.",
+                        "Q - Detonates on use, breaking shield effects + dealing damage. 30s CD."
+                    ],
+                    "W",
+                    [
+                        "Passive 1 - Attacks splash water onto the target and up to 2 additional allied heroes or enemies (prioritizing allies).",
+                        "Deals minor damage/slows to enemies, heals allies.",
+                        "Passive 2 - Aura radius 400 → 500, aura radius now scales with Water Affinity",
+                        "regen is now only applied to allies within the aura range,",
+                        "buff is now applied to any allies that Water Elemental has healed",
+                        "Q - On use, removes debuffs from allies in target area and heals them over 3 seconds. 30s CD."
+                    ],
+                    "E",
+                    [
+                        "Passive 2 - Restores 5 MP per attack. Increases damage dealt by Passive by 1% per MP (up to 100%).",
+                        "Removed debuff that increases magic damage taken (moved to TE).",
+                        "Q - Consumes 100 MP. Casting time reduced from 2.5 sec → 1.25 sec, cast direction is now fixed while casting."
+                    ],
+                    "R",
+                    [
+                        "Duration changed to 30 sec / Cooldown changed to 60 sec.",
+                        "Passive 1 - Skill effect/attack frequency changed",
+                        "Passive 2 - Aura is slightly visible now",
+                        "Q - Channels for up to 3 seconds, granting 30% damage reduction and CC immunity to allies within range. 30s CD"
+                    ],
+                    "T (Skill Changed)",
+                    [
+                        "Passive",
+                        [
+                            "Twin Snow Series - Increases the number of targets for Water Bolt by 1 / Reduces cost for Purify",
+                            "Sparkle of Life Series - Reduces cooldown of Earth Release / Increases reduction value on Earth Protection / Reduces cooldown of Earthen Link",
+                            "Total damage increased by 15%.",
+                            "Damage taken by summons reduced by 30%.",
+                            "Skills usable by the Spirit Summoner and summoned spirits are activated.",
+                            "Q - Sends Fire Elemental to the target location, dealing damage and stunning enemies hit.",
+                            "W - Sends Water Elemental to the target location, healing allies hit.",
+                            "E - Sends Lightning Elemental to the target location, dealing damage and increasing magic damage taken by enemies hit for 10 seconds.",
+                            "R - Sends Earth Elemental to the target location, granting shield to allies hit.",
+                            "Recalls all summoned elementals (Q/W/E/R), turning them invincible while healing them for 15% HP per second.",
+                            "Can re-summon using Q/W/E/R or T again.",
+                            "5s CD."
+                        ],
+                        "Active",
+                        [
+                            "Twin Snow Series - Increases the number of targets for Water Bolt by 1 / Reduces cost for Purify",
+                            "Sparkle of Life Series - Reduces cooldown of Earth Release / Increases reduction value on Earth Protection / Reduces cooldown of Earthen Link",
+                            "Total damage increased by 15%.",
+                            "Damage taken by summons reduced by 30%.",
+                            "Skills usable by the Spirit Summoner and summoned spirits are activated.",
+                            "Q - Sends Fire Elemental to the target location, dealing damage and stunning enemies hit.",
+                            "W - Sends Water Elemental to the target location, healing allies hit.",
+                            "E - Sends Lightning Elemental to the target location, dealing damage and increasing magic damage taken by enemies hit for 10 seconds.",
+                            "R - Sends Earth Elemental to the target location, granting shield to allies hit.",
+                            "Recalls all summoned elementals (Q/W/E/R), turning them invincible while healing them for 15% HP per second.",
+                            "Can re-summon using Q/W/E/R or T again.",
+                            "5s CD."
+                        ]
+                    ],
+                    "F",
+                    [
+                        "Q - W/E can now be queued while using Q.",
+                        "W - AoE increased from 550 to 1000.",
+                        "E - Simplified. Drops a large eye, dealing magic damage to enemies in range and temporarily increasing damage taken."
+                    ]
+                ]
+            },
+            {
+                "name": "Fire Mage",
+                "changes": [
+                    "D - Movement speed buff duration increased from 1.5 sec → 2 sec.",
+                    "Q - Cooldown reduced from 5 sec → 4 sec."
+                ]
+            },
+            {
+                "name": "Water Mage",
+                "changes": [
+                    "D - Simplified shield text"
+                ]
+            },
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "Meeko A - Moved to Q skill; damage per attack INT X 20 → INT X 5~15, cooldown 6 sec → 2.5 sec, Removed charge system, now automatically attacks enemies attacked by hero.",
+                    "Meeko Q - Removed.",
+                    "Meeko W - Heal amount increased from INT X 0.75 → INT X 1.",
+                    "Meeko E - Now applies shield to all allies within 325 AoE from Meeko.",
+                    "D - Damage now applies immediately upon reaching the point.",
+                    "W (Flame) - Base damage increased from INT X 15 → INT X 25, Meeko no longer attacks together, bonus damage on D 50% → 100%",
+                    "E (Flame) - Reduced explosion delay",
+                    "R - Removed the effect that increased the damage of the opposite attribute skill when consuming a talisman.",
+                    "T - Removed activation time, now increases damage dealt by skills (separate stat) instead of skill damage. Bonus changed to 5 + (Fire Affinity + Water Affinity) X 0.3%.",
+                    "Spirit Shift damage changed from INT X 7.5 → INT X 10.",
+                    "F - Reduced activation time, base damage changed from INT X 20/60 → INT X 25/75, now instantly summons 5 Fire Talismans when cast."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "67c",
+        "notes": [
+            "Released on: July 18th, 2024",
+            "Compatible Version: v0.62a ~"
+        ],
+        "items": [
+            {
+                "name": "Prius Silver Coin",
+                "changes": [
+                    "Can now be exchanged for Mad Clown's materials"
+                ]
+            },
+            {
+                "name": "Prius Gold Coin",
+                "changes": [
+                    "Exchange rate for Gold Coins to Coin of Effort changed from 5:1 to 10:1"
+                ]
+            },
+            {
+                "name": "Prius Platinum Coin",
+                "changes": [
+                    "Exchange rate for Platinum Coin to Coin of Effort changed from 3:1 to 5:1"
+                ]
+            },
+            {
+                "name": "Soulstone System Added",
+                "changes": [
+                    "Arcana-level bosses will drop Soulstone specific to that boss instead of Coin of Effort",
+                    "Items and materials dropped by Arcana-level bosses can be exchanged for 1 Soulstone of that boss",
+                    "Items and materials can be bought using 2 Soulstones of that boss",
+                    "(Soulstones may have additional uses in the future)"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Bone Dragon / Skeletal King / Zombie Lord / Ancient Ent / Samael",
+                "changes": [
+                    "Increased equipment drop rate",
+                    "Material drop rate increased from 2.5% to 3%",
+                    "Gold Coin drop rate increased from 0.5%-0.7% to 0.8%-1%"
+                ]
+            },
+            {
+                "name": "Shadow Dragon",
+                "changes": [
+                    "Increased equipment drop rate",
+                    "Material drop rate increased from 1.75%/1% (Frozen Debris) to 2.25%/1.5% (Frozen Debris)",
+                    "Gold Coin drop rate increased from 0.75% to 1.2%"
+                ]
+            },
+            {
+                "name": "Death Fiend",
+                "changes": [
+                    "Increased equipment drop rate",
+                    "Material drop rate increased from 0.9% to 1.5%",
+                    "No longer drops Frozen Debris",
+                    "Platinum Coin drop rate increased from 0.2% to 0.4%"
+                ]
+            },
+            {
+                "name": "Valtora / Ifrit / Nereid / Agareth",
+                "changes": [
+                    "Material drop rate increased from 1.1% to 1.5% (sfor: 1%/1.25%/1.5%)",
+                    "Platinum Coin drop rate increased from 0.2%-0.3% to 0.4%-0.6%"
+                ]
+            },
+            {
+                "name": "Agareth",
+                "changes": [
+                    "Hunt damage adjusted for hard mode"
+                ]
+            },
+            {
+                "name": "Duke Lazarus",
+                "changes": [
+                    "Material drop rate increased from 0.85% to 1%",
+                    "Sacrifice pattern minion/summon count will now scale 1-4/5-8/9-10 instead of from 1-4/5-7/8-10"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "T",
+                    [
+                        "Cooldown reduced from 40 seconds to 30 seconds"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "name": "67b",
         "notes": [
             "Released on: June 30th, 2024",

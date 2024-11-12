@@ -150,7 +150,7 @@
         "order": 2,
         "active": [
             "Sends out a spinning scythe that harvests the souls of enemies.",
-            "Attack Damage X 150% pure damage per second (ignores target's defense)",
+            "Attack Damage X 150% pure damage per second (considered single-target effect)",
             "Absorbs 4 souls (10 souls for boss) per second",
             "Reduces target's healing received by 15% and movement speed by 60%",
             "Damage period reduced based on attack speed bonus"
@@ -246,9 +246,8 @@
         "active": [
             "\"It's nightmare that you can't escape from !\" - Soul Weaver",
             "Pulls enemies in and silences them for 5 seconds",
-            "On expiration, deals INT X 110 damage",
-            "Stuns for 2.5 seconds",
-            "Activation delay: 0.5 seconds"
+            "On expiration, deals INT X 200 magic damage",
+            "Stuns for 2.5 seconds"
         ]
     },
     {
@@ -683,8 +682,8 @@
         "active": [
             "Uses a mystical reagent known as Philosopher's Stone to amplify your transmutations.",
             "Resets cooldowns on all transmutations",
-            "Increases damage dealt by 15% for 10 seconds",
-            "Next 5 transmutations do not incur cooldown and deals 50% more damage if it hasn't been activated previously"
+            "Increases damage dealt by 10% for 10 seconds",
+            "Next 5 transmutations do not incur cooldown and deals 50% more damage if it hasn't been previously activated"
         ]
     },
     {
@@ -699,7 +698,7 @@
         "active": [
             "\"I don't know what is the 'truth' of this world. However, as I look at his efforts and sacrifices in attempts to reach it, I believe something truly fascinating is awaiting him at the end of his road.\" - A Scholar of Prius",
             "Consumes Max HP X (5 + 0.50 X elapsed seconds)% per second",
-            "Increases INT by 1.5% on every second and on every skill cast (up to 30%)",
+            "Increases INT by 1% on every second and on every skill cast (up to 25%)",
             "Reduces damage taken by 25%",
             "On expiration, deals INT X 100 magic damage to nearby enemies and stuns for 2.5 seconds"
         ]
@@ -921,7 +920,7 @@
             "Manipulates blood through black magic.",
             "Increases max HP by INT X 3",
             "Empowers next attack every (4 - 0.03 X Level) seconds (up to 5 charges can be stored)",
-            "Empowered attack deals Attack Damage X 0.4 + Max HP X 0.3 pure damage"
+            "Empowered attack deals Attack Damage X 0.35 + Max HP X 0.3 pure damage"
         ]
     },
     {
@@ -940,7 +939,7 @@
         ],
         "active": [
             "Forms blades using gathered blood and launch them.",
-            "Attack Damage X 1 + Max HP X 0.3 magic damage",
+            "Attack Damage X 0.85 + Max HP X 0.3 magic damage",
             "Can be cast up to 5 consecutive times, each cast increasing damage by 100%"
         ]
     },
@@ -1037,7 +1036,7 @@
         "passive": [
             "Her expertise in magic allows her to bend flames to her will.",
             "Landing attacks or skills inflict Burn, dealing 40% additional damage (minimum INT X 2.5) over 2.5 seconds",
-            "After casting skill, envelops feet in a trail of flame to increase movement speed by 250 for 1.5 seconds",
+            "After casting skill, envelops feet in a trail of flame to increase movement speed by 250 for 2 seconds",
             "Burning unit will explode on death"
         ]
     },
@@ -1048,13 +1047,12 @@
         "color": "b22222",
         "hotkey": "[Q]",
         "icon": "FireMageQ",
-        "cooldown": 5,
+        "cooldown": 4,
         "order": 2,
         "active": [
-            "Gather the element of fire into a single orb, and shoot it at the target.",
+            "Gathers the element of fire into a single orb, and shoot it at the target.",
             "INT X 8 magic damage",
-            "Deals additional damage equal to 25% of the burn damage the target is currently taking",
-            "Stuns for 1 second"
+            "Deals additional damage equal to 25% of the burn damage the target is currently taking"
         ]
     },
     {
@@ -1273,7 +1271,7 @@
         "color": "b3ffe6",
         "hotkey": "[F]",
         "icon": "ShooterF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 8,
         "active": [
             "\"Justice rains from the sky!\" - Shooter",
@@ -1309,10 +1307,9 @@
         "color": "dfdfdf",
         "hotkey": "[Q]",
         "icon": "SwordEnchanterQ",
-        "cooldown": 6,
         "order": 2,
         "active": [
-            "Takes some swords out from the treasury.",
+            "Takes some swords out of your treasury.",
             "Projects 2 Enchanted Swords"
         ]
     },
@@ -1523,8 +1520,7 @@
         "active": [
             "Fires all bullets in a quick succession.",
             "Consumes all bullets",
-            "Each attack deals Attack Damage X 1.75 pure damage",
-            "Instantly reloads all bullets when used during Bullet Time"
+            "Each attack deals Attack Damage X 1.9 pure damage"
         ]
     },
     {
@@ -1723,59 +1719,17 @@
         ]
     },
     {
-        "id": "A00T",
-        "name": "Seal of Wind",
+        "id": "A02K",
+        "name": "Wind Blessing",
         "heroClass": "Elementalist",
-        "color": "66ffe0",
+        "color": "b3fff0",
         "hotkey": "[D]",
         "icon": "ElementalistD",
-        "cooldown": 15,
         "order": 1,
         "active": [
-            "Forms a contract with the elemental of wind, which specializes in helping allies with the power of wind.",
-            "HP = Elementalist's Max HP X 50%",
-            "Lasts 15 seconds"
-        ]
-    },
-    {
-        "id": "A16N",
-        "name": "Jump",
-        "heroClass": "Elementalist",
-        "color": "b3fff0",
-        "hotkey": "[D] → [D]",
-        "icon": "ElementalistD_D",
-        "order": 2,
-        "active": [
-            "Jumps up high using the power of Elemental of Wind.",
-            "Can only be used while nearby the Elemtental of Wind",
-            "Jumps high and upon landing, deals INT X (5 + Elementalist's LV / 4) pure damage",
-            "Can be used up to 5 times"
-        ]
-    },
-    {
-        "id": "A053",
-        "name": "Wind Booster",
-        "heroClass": "Elementalist",
-        "color": "b3fff0",
-        "hotkey": "[D] → [Passive]",
-        "icon": "ElementalistD_Pass1",
-        "order": 3,
-        "passive": [
-            "Allows nearby beings to move lightly as wind.",
-            "Increases nearby summons' attack speed by 15%"
-        ]
-    },
-    {
-        "id": "A05F",
-        "name": "Protection of Wind",
-        "heroClass": "Elementalist",
-        "color": "b3fff0",
-        "hotkey": "[D] → [Passive]",
-        "icon": "ElementalistD_Pass2",
-        "order": 4,
-        "passive": [
-            "Becomes one with the wind.",
-            "Immune to all skills and harmful effects"
+            "Jumps high borrowing the power of wind spirits.",
+            "INT X 10~25 (based on hero level) pure damage",
+            "Charges once every 10 seconds (up to 2 charges)"
         ]
     },
     {
@@ -1785,40 +1739,27 @@
         "color": "ff8080",
         "hotkey": "[Q]",
         "icon": "ElementalistQ",
-        "cooldown": 20,
-        "order": 5,
+        "cooldown": 5,
+        "order": 2,
         "active": [
-            "Forms a contract with the spirit of flame, which specializes in powerful splashing melee attacks.",
-            "HP = Elementalist's Max HP X 100%",
-            "Lasts 15 seconds"
+            "Jumps up high using the power of Elemental of Wind.",
+            "Can only be used while nearby the Elemtental of Wind",
+            "Jumps high and upon landing, deals INT X (5 + Elementalist's LV / 4) pure damage",
+            "Can be used up to 5 times"
         ]
     },
     {
-        "id": "Assk",
-        "name": "Burning Reach",
+        "id": "A00T",
+        "name": "Flame Release",
         "heroClass": "Elementalist",
         "color": "ff8080",
-        "hotkey": "[Q] → [Passive]",
-        "icon": "ElementalistQ_Pass1",
-        "order": 6,
-        "passive": [
-            "Attacks multiple enemies with volatile reach of the flame.",
-            "Deals summoner's INT X 1.5 magic damage to nearby enemies on attack"
-        ]
-    },
-    {
-        "id": "Ansk",
-        "name": "Fervor",
-        "heroClass": "Elementalist",
-        "color": "ff8080",
-        "hotkey": "[Q] → [Passive]",
-        "icon": "ElementalistQ_Pass2",
-        "order": 7,
-        "passive": [
-            "Flame elementals never burn out.",
-            "Reduces heal received by 100%",
-            "Increases skill damage and attack speed up to 100% based on missing HP",
-            "HP does not drop below 1"
+        "hotkey": "[Q] -> [Q]",
+        "icon": "ElementalistQ2",
+        "cooldown": 10,
+        "order": 3,
+        "active": [
+            "Unleashes the power of flame.",
+            "Deals INT X 25 magic damage to enemies hit and stuns for 2 seconds"
         ]
     },
     {
@@ -1828,15 +1769,38 @@
         "color": "ff8080",
         "hotkey": "[Q] → [Q]",
         "icon": "ElementalistQ_Q",
-        "cooldown": 60,
-        "order": 8,
-        "passive": [
-            "Creates a massive explosion upon death.",
-            "Summoner's INT X 22.5 magic damage",
-            "Stuns for 2 seconds"
-        ],
+        "cooldown": 5,
+        "order": 4,
         "active": [
-            "Detonates manually"
+            "Sacrifices self to create a powerful explosion.",
+            "INT X 75 magic damage",
+            "Breaks shields and stuns for 2 seconds"
+        ]
+    },
+    {
+        "id": "Assk",
+        "name": "Burning Reach",
+        "heroClass": "Elementalist",
+        "color": "ff8080",
+        "hotkey": "[Q] → [T]",
+        "icon": "ElementalistQ_T",
+        "order": 5,
+        "passive": [
+            "Creates an explosion on attack.",
+            "Each attack deals INT X 5 magic damage to nearby enemies"
+        ]
+    },
+    {
+        "id": "A038",
+        "name": "Fervor",
+        "heroClass": "Elementalist",
+        "color": "ff8080",
+        "hotkey": "[Q] -> [F]",
+        "icon": "ElementalistQ_F",
+        "order": 6,
+        "passive": [
+            "Burns up and becomes stronger.",
+            "Every attack increases attack speed by 20% for 5 seconds (up to 100%)"
         ]
     },
     {
@@ -1846,71 +1810,66 @@
         "color": "b9cdfa",
         "hotkey": "[W]",
         "icon": "ElementalistW",
-        "cooldown": 20,
-        "order": 9,
+        "cooldown": 5,
+        "order": 7,
         "active": [
-            "Forms a contract with the elemental of water, which is specialized in healing and empowering allies.",
-            "HP = Elementalist's Max HP X 150%",
-            "Armor = Elementalist's Armor X 100%",
-            "Lasts 20 seconds"
-        ]
-    },
-    {
-        "id": "A13P",
-        "name": "Water Bolt",
-        "heroClass": "Elementalist",
-        "color": "adbffc",
-        "hotkey": "[W] → [Passive]",
-        "icon": "ElementalistW_Pass1",
-        "order": 10,
-        "passive": [
-            "Sprinkle cold water on the enemy.",
-            "Hits up to 3 enemies on each attack",
-            "INT X 0.4 magic damage",
-            "Reduces movement speed by 50% for 1 second"
-        ]
-    },
-    {
-        "id": "A075",
-        "name": "Refreshing Well",
-        "heroClass": "Elementalist",
-        "color": "b3e0ff",
-        "hotkey": "[W] → [Passive]",
-        "icon": "ElementalistW_Pass2",
-        "order": 11,
-        "passive": [
-            "Quenches nearby allies' thirst.",
-            "Regenerates nearby allies HP and MP by 4% every second",
-            "Increases all stats by 10% for 15 seconds"
-        ]
-    },
-    {
-        "id": "Ahea",
-        "name": "Water Beam",
-        "heroClass": "Elementalist",
-        "color": "b9cdfa",
-        "hotkey": "[W] → [Q]",
-        "icon": "ElementalistW_Q",
-        "cooldown": 0.75,
-        "order": 12,
-        "active": [
-            "Fires a beam of water that heals allies' wounds.",
-            "Heals for (Target's Missing HP X 5% + Summoner's INT X 0.3)",
-            "Heals up to 4 allies"
+            "Forms a contract with the elemental of water, which is specialized in healing and empowering allies."
         ]
     },
     {
         "id": "A01F",
-        "name": "Surfing",
+        "name": "Water Release",
+        "heroClass": "Elementalist",
+        "color": "b9cdfa",
+        "hotkey": "[W] -> [W]",
+        "icon": "ElementalistW2",
+        "cooldown": 8,
+        "order": 8,
+        "active": [
+            "Unleashes the power of water.",
+            "Heals allies for (INT X 2 + Target's Max HP X 20%)"
+        ]
+    },
+    {
+        "id": "A089",
+        "name": "Purify",
+        "heroClass": "Elementalist",
+        "color": "b9cdfa",
+        "hotkey": "[W] → [Q]",
+        "icon": "ElementalistW_Q",
+        "order": 9,
+        "active": [
+            "Cleanses all targets in area.",
+            "Clears all debuffs from targets",
+            "For 3 seconds, heals (Target's Max HP X 10%) every second"
+        ]
+    },
+    {
+        "id": "A053",
+        "name": "Water Bolt",
+        "heroClass": "Elementalist",
+        "color": "adbffc",
+        "hotkey": "[W] -> [T]",
+        "icon": "ElementalistW_T",
+        "order": 10,
+        "passive": [
+            "Sprinkles fresh water.",
+            "Every attack deals INT X 3 magic damage and slows target and enemies near it",
+            "Every 2 seconds, heals 2 allies with lowest HP by (Target's Max HP X 5% + INT X 0.3) HP (affected by attack speed)"
+        ]
+    },
+    {
+        "id": "A075",
+        "name": "Refreshing Water",
         "heroClass": "Elementalist",
         "color": "b3e0ff",
-        "hotkey": "[W] → [W]",
-        "icon": "WaterMageE",
-        "cooldown": 6,
-        "order": 13,
-        "active": [
-            "Liquidifies the elemental to allow it to travel rapidly to target location.",
-            "Heals allies hit for (INT X 2 + target's max HP X 20%)"
+        "hotkey": "[W] -> [F]",
+        "icon": "ElementalistW_F",
+        "order": 11,
+        "passive": [
+            "Quenches nearby allies' thirst.",
+            "Regenerates nearby allies HP and MP by 4% every second",
+            "Increases healed ally's stats by 10% for 15 seconds"
         ]
     },
     {
@@ -1920,13 +1879,39 @@
         "color": "c39beb",
         "hotkey": "[E]",
         "icon": "ElementalistE",
-        "cooldown": 30,
+        "cooldown": 5,
+        "order": 12,
+        "active": [
+            "Forms a contract with the elemental of lightning, which is specialized in ranged attacks."
+        ]
+    },
+    {
+        "id": "A07H",
+        "name": "Lightning Release",
+        "heroClass": "Elementalist",
+        "color": "b3ccff",
+        "hotkey": "[E] -> [E]",
+        "icon": "ElementalistE2",
+        "cooldown": 15,
+        "order": 13,
+        "active": [
+            "Unleashes the power of lightning.",
+            "Deals INT X 25 magic damage to enemies hit",
+            "Increases target's magic damage taken by (4 + INT / 1200)% for 8 seconds"
+        ]
+    },
+    {
+        "id": "A04S",
+        "name": "Lightning Beam",
+        "heroClass": "Elementalist",
+        "color": "c39beb",
+        "hotkey": "[E] → [Q]",
+        "icon": "ElementalistE_Q",
+        "cooldown": 1.25,
         "order": 14,
         "active": [
-            "Forms a contract with the elemental of lightning, which is specialized in ranged attacks.",
-            "HP = Elementalist's Max HP X 200%",
-            "Armor = Elementalist's Armor X 100%",
-            "Lasts 30 seconds"
+            "Releases built up energy.",
+            "Deals INT X 75 magic damage over 1.25 seconds"
         ]
     },
     {
@@ -1934,55 +1919,27 @@
         "name": "Shock",
         "heroClass": "Elementalist",
         "color": "c39beb",
-        "hotkey": "[E] → [Passive]",
-        "icon": "ElementalistE_Pass1",
+        "hotkey": "[E] -> [T]",
+        "icon": "ElementalistE_T",
         "order": 15,
         "passive": [
-            "Slowly charges electricity on each attack, and releases all of them at once.",
-            "Every attack deals summoner's INT X 1.25 bonus damage",
-            "Every 4th attack deals summoner's INT X 6.75 magic damage and chains to 2 additional enemies"
+            "Unleashes a burst of lightning on each attack.",
+            "Every attack deals INT X 2 magic damage",
+            "Every 4th attack is enhanced, dealing INT X 10 magic damage and being chained to 2 additional targets"
         ]
     },
     {
         "id": "Afbt",
-        "name": "Charge",
+        "name": "Electric Charge",
         "heroClass": "Elementalist",
         "color": "c39beb",
-        "hotkey": "[E] → [Passive]",
-        "icon": "ElementalistE_Pass2",
+        "hotkey": "[E] -> [F]",
+        "icon": "ElementalistE_F",
         "order": 16,
         "passive": [
-            "Charges lightning from each attack to become empowered.",
-            "Restores 3 MP on every attack",
-            "Every 2 points of MP increases skill damage by 1% and attack speed by 1%",
-            "If MP is above 50, increases target's magic damage taken by 8% for 2 seconds"
-        ]
-    },
-    {
-        "id": "A07D",
-        "name": "Lightning Beam",
-        "heroClass": "Elementalist",
-        "color": "c39beb",
-        "hotkey": "[E] → [Q]",
-        "icon": "ElementalistE_Q",
-        "order": 17,
-        "active": [
-            "Releases contained lightning to fry enemies with high voltage.",
-            "Consumes Max MP X 40% per second",
-            "Deals INT X 18.5 magic damage per second"
-        ]
-    },
-    {
-        "id": "A07H",
-        "name": "Blink",
-        "heroClass": "Elementalist",
-        "color": "b3ccff",
-        "hotkey": "[E] → [E]",
-        "icon": "ElementalistE_E",
-        "cooldown": 6,
-        "order": 18,
-        "active": [
-            "Moves to target point quickly."
+            "Charges electricity on each attack.",
+            "Restores 5 MP on each attack",
+            "Each point of MP increases damage dealt by Shock by 1% (max 100%)"
         ]
     },
     {
@@ -1993,25 +1950,51 @@
         "hotkey": "[R]",
         "icon": "ElementalistR",
         "cooldown": 60,
-        "order": 19,
+        "order": 17,
         "active": [
             "Forms a contract with the elemental of earth, which is specialized in powerful attacks and protecting allies.",
-            "HP = Max HP of Elementalist X 400%",
-            "Armor = Armor of Elementalist X 100%",
-            "Lasts 40 seconds"
+            "Lasts 30 seconds"
+        ]
+    },
+    {
+        "id": "A18K",
+        "name": "Earth Release",
+        "heroClass": "Elementalist",
+        "color": "afeb8c",
+        "hotkey": "[R] -> [R]",
+        "icon": "ElementalistR2",
+        "cooldown": 10,
+        "order": 18,
+        "active": [
+            "Unleashes power of earth.",
+            "Grants shield absorbing (INT X 2 + Target's Max HP X 20%) damage to allies hit"
+        ]
+    },
+    {
+        "id": "A01Z",
+        "name": "Earthen Link",
+        "heroClass": "Elementalist",
+        "color": "dfbf9f",
+        "hotkey": "[R] -> [Q]",
+        "icon": "ElementalistR_Q",
+        "cooldown": 20,
+        "order": 19,
+        "active": [
+            "Forms a link to protect nearby allies.",
+            "Reduces damage taken by nearby allies by 30% and grants CC immunity up to 3 seconds"
         ]
     },
     {
         "id": "A04F",
-        "name": "Pillar of Earth",
+        "name": "Earthen Pulse",
         "heroClass": "Elementalist",
         "color": "dfbf9f",
-        "hotkey": "[R] → [Passive]",
-        "icon": "ElementalistR_Pass1",
+        "hotkey": "[R] -> [T]",
+        "icon": "ElementalistR_T",
         "order": 20,
         "passive": [
-            "Raises the ground below to attack enemies.",
-            "Each attack deals INT X 7.5 magic damage in a line"
+            "Attacks enemies with massive shockwaves.",
+            "Every attack sends a shockwave dealing INT X 15 magic damage"
         ]
     },
     {
@@ -2019,137 +2002,131 @@
         "name": "Earthen Protection",
         "heroClass": "Elementalist",
         "color": "dfbf9f",
-        "hotkey": "[R] → [Passive]",
-        "icon": "ElementalistR_Pass2",
+        "hotkey": "[R] -> [F]",
+        "icon": "ElementalistR_F",
         "order": 21,
         "passive": [
             "Blessed with the endurance of the earth.",
-            "Ignores debuffs and instant kill effects",
-            "Reduces damage taken by you and nearby allies by 15%",
+            "Reduces damage taken by allies within 1000 radius by 15%",
             "Upon reaching 1 HP, becomes invincible"
         ]
     },
     {
-        "id": "A07L",
-        "name": "Pulse of Protection",
+        "id": "A16N",
+        "name": "Elemental Link",
         "heroClass": "Elementalist",
         "color": "ff8080",
-        "hotkey": "[R] → [Q]",
-        "icon": "ElementalistR_Q",
-        "cooldown": 9,
+        "hotkey": "[T]",
+        "icon": "ElementalistT",
+        "cooldown": 5,
         "order": 22,
+        "passive": [
+            "Affinity with summons allows you to bring out their potentials.",
+            "Decreases your summons' damage taken by 30%",
+            "Enables new skills for Elementalist and Elementals"
+        ],
         "active": [
-            "Slams down the ground to call forth protective earth spirits hiding underneath.",
-            "Grants shields to nearby allies that absorb (Target's Max HP X 20% + Summoner's INT X 2) damage",
-            "Lasts 3 seconds"
+            "Forms a spiritual link with elementals.",
+            "Recalls all elementals into invulnerable state and heals them for Max HP X 15% every second",
+            "Resummons them on recast"
         ]
     },
     {
-        "id": "A089",
-        "name": "Elemental Link",
+        "id": "A039",
+        "name": "Elemental Link - Disable",
         "heroClass": "Elementalist",
-        "color": "ffff80",
-        "hotkey": "[T]",
-        "icon": "ElementalistT",
-        "cooldown": 3,
+        "color": "ff8080",
+        "hotkey": "[T] -> [T]",
+        "icon": "ElementalistT2",
         "order": 23,
-        "passive": [
-            "Affinity with summons allows you to bring out their potentials.",
-            "Total damage increased by 12%",
-            "Decreases your summons' damage taken by 40%"
-        ],
         "active": [
-            "Forms a spiritual link with summon, granting it various stat bonuses. The link breaks if the summon strays too far from the summoner.",
-            "Provides 40% skill damage",
-            "Heals for (Target's Max HP X 5%) per second",
-            "Provides immunity to instant death spells",
-            "Forming links with some summons may provide an additional ability to Elementalist"
+            "Cancels your links with elementals."
         ]
     },
     {
         "id": "A08N",
         "name": "Seal of Chaos",
         "heroClass": "Elementalist",
-        "color": "#ce2b7d",
+        "color": "800040",
         "hotkey": "[F]",
         "icon": "ElementalistF",
         "cooldown": 100,
         "order": 24,
         "active": [
             "\"It is a dangerous gamble, but controlling a twisted elemental boasts destructive power that matches the Demon Lord.\" - Elementalist",
-            "Summons Chaos Elemental",
             "Lasts 12 seconds"
-        ]
-    },
-    {
-        "id": "A12R",
-        "name": "Dark Reach",
-        "heroClass": "Elementalist",
-        "color": "#ce2b7d",
-        "hotkey": "[F] → [Passive]",
-        "icon": "ElementalistF_Pass1",
-        "order": 25,
-        "passive": [
-            "Empowers attacks with corrupt power.",
-            "Every attack deals INT X 2.25 magic damage",
-            "Every 5th attack deals INT X 11.5 bonus damage to nearby enemies"
-        ]
-    },
-    {
-        "id": "A08P",
-        "name": "Power of Chaos",
-        "heroClass": "Elementalist",
-        "color": "#ce2b7d",
-        "hotkey": "[F] → [Passive]",
-        "icon": "ElementalistF_Pass2",
-        "order": 26,
-        "passive": [
-            "The power of chaos bends to none.",
-            "Immune to all harmful abilities"
         ]
     },
     {
         "id": "A08S",
         "name": "Abyss Walk",
         "heroClass": "Elementalist",
-        "color": "#ce2b7d",
+        "color": "800040",
         "hotkey": "[F] → [Q]",
         "icon": "ElementalistF_Q",
         "cooldown": 4,
-        "order": 27,
+        "order": 25,
         "active": [
             "Submerges into the abyss to quickly travel to target location.",
-            "INT X 11.5 magic damage"
+            "INT X 20 magic damage"
         ]
     },
     {
-        "id": "A12S",
+        "id": "A08Q",
         "name": "Collapse Dimension",
         "heroClass": "Elementalist",
-        "color": "#ce2b7d",
+        "color": "800040",
         "hotkey": "[F] → [W]",
         "icon": "ElementalistF_W",
-        "cooldown": 10,
-        "order": 28,
+        "cooldown": 5,
+        "order": 26,
         "active": [
-            "Collapses the dimension around yourself.",
-            "Deals INT X 7.5 magic damage per second",
-            "Pulls nearby enemies inward",
-            "Lasts 1.5 seconds"
+            "An eerie crack can be heard as the surrounding area begins to distort.",
+            "INT X 15 magic damage per second",
+            "Attracts nearby enemies",
+            "Lasts 2 seconds"
         ]
     },
     {
         "id": "A08R",
         "name": "Eye of Chaos",
         "heroClass": "Elementalist",
-        "color": "#ce2b7d",
+        "color": "800040",
         "hotkey": "[F] → [E]",
         "icon": "ElementalistF_E",
-        "cooldown": 30,
-        "order": 29,
+        "cooldown": 120,
+        "order": 27,
         "active": [
-            "Summon the eye of Hell that emanates a powerful beam of destruction.",
-            "Decimates nearby grounds"
+            "Summons a fragment of great chaos and drops it at target location.",
+            "INT X 150 magic damage",
+            "Increases damage taken by 6% for 6 seconds"
+        ]
+    },
+    {
+        "id": "ACes",
+        "name": "Dark Reach",
+        "heroClass": "Elementalist",
+        "color": "800040",
+        "hotkey": "[F] → [T]",
+        "icon": "ElementalistF_T",
+        "order": 28,
+        "passive": [
+            "Empowers attacks with corrupt power.",
+            "Every attack deals INT X 5 magic damage",
+            "Every 5th attack deals INT X 25 magic damage to nearby enemies"
+        ]
+    },
+    {
+        "id": "A08P",
+        "name": "Power of Chaos",
+        "heroClass": "Elementalist",
+        "color": "800040",
+        "hotkey": "[F] → [F]",
+        "icon": "ElementalistF_F",
+        "order": 29,
+        "passive": [
+            "The power of chaos bends to none.",
+            "Immune to all harmful abilities"
         ]
     },
     {
@@ -2237,7 +2214,7 @@
         "order": 6,
         "toggle": [
             "Discharges body to quickly release mana, gaining immense speed in return.",
-            "For 1 second, deals INT X 8.5 magic damage to collided enemies",
+            "For 1 second, deals INT X 9 magic damage to collided enemies",
             "Reduces damage taken by 70% and ignores CC effects while active",
             "Can absorb Lightning Orbs, healing you for 8% HP and 20 energy and granting you Charged status, which refreshes the duration of skill and allows you to deal damage once more",
             "While Charged, Discharge and Hypercharge deals 100% increased damage"
@@ -2306,7 +2283,7 @@
         "passive": [
             "Holy sword that brings down judgment upon the evil. Mana concentrates around the blade to give the sword a vibrant form.",
             "20% chance to activate Flash Sword on attack",
-            "Attack damage X 0.5 + STR X 2.5 magic damage"
+            "Attack Damage X 0.6 + STR X 4 magic damage"
         ],
         "active": [
             "Sends down a flow of mana into the sword, awakening its true potential.",
@@ -2325,7 +2302,7 @@
         "order": 2,
         "active": [
             "Fires mana stored within your sword to target point.",
-            "STR X 10 magic damage",
+            "STR X 12 magic damage",
             "Stuns and pulls enemies toward center",
             "Reduces movement speed of targets hit by 60%, as well as increasing the damage they take by 12% for 3 seconds",
             "Restore 1 charge every 5 seconds (Up to 4 charges)"
@@ -2378,9 +2355,9 @@
         "order": 5,
         "active": [
             "Dashes forward with lightning speed, striking all enemies.",
-            "Attack Damage X 5 magic damage",
+            "Attack Damage X 6 magic damage",
             "Increases damage taken by target by 10% for 8 seconds",
-            "Enhance next Remains of Rage cast within 3 seconds, increasing its damage by 250% and dashing to target location to inflict stun for 1 second",
+            "Enhance next Remains of Rage cast within 3 seconds, increasing its damage by 300% and dashing to target location to inflict stun for 1 second",
             "Chain - 2nd Sword Dance: Sword"
         ]
     },
@@ -2394,10 +2371,10 @@
         "order": 6,
         "active": [
             "Releases mana stored within the Execution Sword to attack all nearby enemies.",
-            "STR X 35 magic damage",
+            "STR X 45 magic damage",
             "Slows affected enemies by 50% for 4 seconds",
-            "Empowers next Strike of Honor cast within 3 seconds, increasing its damage and stun duration by 100%",
-            "Increases HP regen by (Crusader's Max HP X 10%) for 5 seconds"
+            "Empowers next Strike of Honor cast within 3 seconds, increasing its damage by 200%, stun duration by 100%",
+            "Increases Crusader's HP regen by (Max HP X 10%) for 5 seconds"
         ]
     },
     {
@@ -2531,12 +2508,11 @@
         "color": "80ffff",
         "hotkey": "[F]",
         "icon": "MartialArtistF",
-        "cooldown": 90,
+        "cooldown": 30,
         "order": 7,
         "active": [
             "\"None can match the skills of the martial artists of Eloren. Having obtained the knowledge of all advanced martial arts, each one of their techniques is deadly.\" - A Continent Traveller",
-            "Enables Inner Meditation",
-            "Increases damage dealt by counter by 60%, all other skills by 100% and reduces attack cooldown by 50%",
+            "Increases damage dealt by counter by 60%, all other skills by 75% and reduces attack cooldown by 50%",
             "Gains immunity to debuffs and CC effects",
             "If cast once, lasts 4 seconds and has 30 seconds cooldown",
             "If cast twice, lasts 6 seconds and has 60 seconds cooldown"
@@ -2644,7 +2620,7 @@
         "order": 6,
         "active": [
             "Focuses ki into spear and launch it forward.",
-            "STR X 80 magic damage",
+            "STR X 100 magic damage",
             "Increases all stats by 8% for self and allies within 1000 range from explosion for 40 seconds",
             "Resets cooldown of Oriental Spear Mastery"
         ]
@@ -2656,7 +2632,7 @@
         "color": "df4040",
         "hotkey": "[F]",
         "icon": "LancerF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 7,
         "active": [
             "\"She disappeared the moment I saw her on the battlefield.. and then suddenly appeared at the center of the enemies' base, which formed a mountain of corpses.\" - Empire War Veteran",
@@ -3148,7 +3124,7 @@
         "order": 2,
         "passive": [
             "A bag filled with dangerous goodies.",
-            "Basic attacks inflict attack damage X 0.08 + STR X 0.38 magic damage",
+            "Basic attacks inflict Attack Damage X 0.15 + STR X 1 magic damage",
             "Charges 1 bomb every second (up to 5)"
         ],
         "active": [
@@ -3260,7 +3236,7 @@
         "color": "ddddbb",
         "hotkey": "[T]",
         "icon": "MerchantT",
-        "cooldown": 90,
+        "cooldown": 89,
         "order": 9,
         "active": [
             "Revives an ally by using a bottle of holy water, which is very rare.",
@@ -3277,7 +3253,7 @@
         "color": "ddddbb",
         "hotkey": "[T]",
         "icon": "MerchantT2",
-        "cooldown": 60,
+        "cooldown": 30,
         "order": 10,
         "active": [
             "Plants a very dangerous explosive.",
@@ -3293,13 +3269,13 @@
         "color": "bfa3d5",
         "hotkey": "[T]",
         "icon": "MerchantT3",
-        "cooldown": 60,
+        "cooldown": 30,
         "order": 11,
         "active": [
             "Plants a cursed doll.",
             "Plants a doll that can be damaged",
             "After 10 seconds, explodes dealing STR X 60 + damage taken X 5% pure damage and stunning for 3 seconds",
-            "Damage accumulated from Merchant is tripled"
+            "Damage accumulated from Merchant is multiplied 4x"
         ]
     },
     {
@@ -3373,12 +3349,12 @@
         "color": "fe2101",
         "hotkey": "[W]",
         "icon": "ThundererW",
-        "cooldown": 8,
+        "cooldown": 7.5,
         "order": 4,
         "active": [
             "Dashes with the speed of lightning.",
             "(STR + AGI) X 10 magic damage",
-            "For 3 seconds, adds (STR + AGI) X 1 damage to basic attacks",
+            "For 3 seconds, adds (STR + AGI) X 2 damage to basic attacks",
             "Recharges Magnetic Field up to 25% based on distance travelled"
         ]
     },
@@ -3439,13 +3415,13 @@
         "order": 1,
         "passive": [
             "Drowns in enemies' blood to become immersed in battle.",
-            "Heals for Max HP X 6% on each attack",
+            "Heals for Max HP X 6% on basic attack",
             "20% chance to inflict Bleeding for 5 seconds on attack",
             "Deals Attack Damage X 30% magic damage per second"
         ]
     },
     {
-        "id": "A04S",
+        "id": "A035",
         "name": "Brandish",
         "heroClass": "Berserker",
         "color": "8b0000",
@@ -3454,10 +3430,10 @@
         "cooldown": 6,
         "order": 2,
         "active": [
-            "Dashes forward slashing through enemies. ",
+            "Dashes forward slashing through enemies.",
             "Consumes HP X 5%",
-            "Attack DamageX 0.75 pure damage",
-            "Can be cast 3 times in a row, with last cast dealing 200% damage"
+            "Delivers an attack that ignores armor",
+            "Can be cast 3 times in a row, with last slash landing as critical strike"
         ]
     },
     {
@@ -3486,8 +3462,8 @@
         "order": 4,
         "passive": [
             "As the hunger for blood increases, so do berserker's combat abilities.",
-            "Increases attack damage up to (STR X 6), total damage up to 20%, move speed up to 125, and damage reduction up to 50% based on missing HP",
-            "Each attack increases STR by 10%, attack speed by 25% for 6 seconds (stacks up to 3 times)"
+            "Increases attack damage up to (STR X 5), total damage up to 20%, move speed up to 125, and damage reduction up to 50% based on missing HP",
+            "Each attack increases STR by 10%, attack speed by 25% for 6 seconds (stacks up to 3 times; duration is refreshed on skill casts)"
         ],
         "toggle": [
             "Drowns in blood to bring out full combat abilities.",
@@ -3524,14 +3500,15 @@
         "passive": [
             "Shrouds your sword with madness.",
             "On attack, you have up to 10~25% chance based on missing HP to activate Madness, dealing Attack Damage X 30% + STR X 3 bonus magic damage",
-            "Casting Brandish empowers next attack with bonus damage"
+            "Guaranteed to proc on Brandish"
         ],
         "active": [
             "Driven by madness, Berserker becomes a killing machine whose sole purpose is to battle.",
             "Consumes HP X 70%",
-            "For 8 seconds, increases total damage by 15% and attack speed by 100%",
+            "For 6 seconds, increases total damage by 15% and attack speed by 100%",
             "Every attack activates Bleeding and has 33% chance to trigger Madness",
-            "HP will not drop below 1 and becomes immune to instant death effects"
+            "Blade Rush no longer interrupts you",
+            "HP will not drop below 1 and becomes immune to instant death and various other effects"
         ]
     },
     {
@@ -3541,13 +3518,14 @@
         "color": "FF0000",
         "hotkey": "[F]",
         "icon": "BerserkerF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 7,
         "active": [
             "\"It is not a human but rather a monster! A monster crazed by battle! How could she move like that.. It sends shivers down my spines just to think about running into her as enemies in a war.\" - Survivor of Empire War",
             "Each slash deals STR X 5 magic damage",
             "Final slam deals STR X 125 magic damage",
-            "Fully restores HP after cast"
+            "Fully restores HP after cast",
+            "Duration of Howling and Berserk is refreshed while being cast"
         ]
     },
     {
@@ -3576,10 +3554,10 @@
         "cooldown": 6,
         "order": 2,
         "active": [
-            "Dash back and shoot a powerful arrow of fire at the same time.",
+            "Dashes back and shoots a powerful arrow of fire at the same time.",
             "Attack Damage X 0.6 + AGI X 5 magic damage",
             "Stuns for 1 second",
-            "Deals 100% bonus damage to already stunned targets"
+            "Deals 150% bonus damage to already stunned or CC-immune targets"
         ]
     },
     {
@@ -3599,7 +3577,7 @@
         ]
     },
     {
-        "id": "A060",
+        "id": "A1BZ",
         "name": "Guardian Scout",
         "heroClass": "Bow Master",
         "color": "bf81d3",
@@ -3609,8 +3587,8 @@
         "order": 4,
         "passive": [
             "Summons a faithful guardian that follows Bow Master around.",
-            "Increases nearby hero's attack damage and main stat by 8%",
-            "Supports every attack with Attack Damage X 0.075 + AGI X 0.375bonus damage",
+            "Increases nearby hero's attack damage and main stat by 5%",
+            "Supports every attack with Attack Damage X 0.07 + AGI X 0.35 bonus magic damage",
             "Can critically strike"
         ],
         "active": [
@@ -3646,9 +3624,7 @@
         "active": [
             "Summons countless magical arrows to bombard target area.",
             "Summons 24 arrows",
-            "Each arrow deals attack damage X 0.5 + AGI X 4 magic damage",
-            "If chained with Flame Shot, damage increased by 20%",
-            "If chained with Freezing Shot, freezes enemies hit for 2.5 seconds"
+            "Each arrow deals Attack Damage X 0.6 + AGI X 5 magic damage and short stun"
         ]
     },
     {
@@ -3662,8 +3638,8 @@
         "order": 7,
         "active": [
             "Bombards target area with heart-seeking arrows.",
-            "Fires 5 arrows that each deal attack damage X 1.2 + AGI X 12 magic damage",
-            "Stuns targets hit for 2.5 seconds and reduces their armor by 175 for 6 seconds"
+            "Fires 4 arrows that each deal attack damage X 1.2 + AGI X 12 magic damage",
+            "Stuns targets hit for 5 seconds and reduces their armor"
         ]
     },
     {
@@ -3673,7 +3649,7 @@
         "color": "88f0e6",
         "hotkey": "[F]",
         "icon": "BowMasterF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 8,
         "active": [
             "\"Without a warning, our enemies were swept across like dust by a magical arrow she shot.\" - A soldier of battlefield",
@@ -3873,7 +3849,7 @@
             "Main Stat X 7.5 magic damage",
             "Deals Main Stat X 5 magic damage every 3 seconds for 12 seconds",
             "STR: Heals yourself for (Max HP X 15%). Damage/duration increased by 50% and increases your skill damage dealt to target by 10%.",
-            "INT: Heals allies for INT X 2. Increases magic damage taken by (4 + INT / 1200)%."
+            "INT: Heals allies for INT X 2.5. Increases magic damage taken by (4 + INT / 1200)%."
         ]
     },
     {
@@ -3907,7 +3883,7 @@
             "(STR + INT) X 10 magic damage",
             "Summons 3 souls",
             "STR: Deals 50% bonus damage",
-            "INT: Grants barrier absorbing (Caster's Max HP X 40%) damage to nearby allies for 3 seconds"
+            "INT: AoE increased and grants barrier absorbing (Caster's Max HP X 40%) damage to nearby allies for 3 seconds"
         ]
     },
     {
@@ -3940,7 +3916,7 @@
         "active": [
             "Unleashes a piercing strike that breaks souls.",
             "Attack Damage X 0.6 + (STR + INT / 3) X 8 magic damage",
-            "Consecutive casts increases damage by 50% (up to 100%)"
+            "Consecutive casts increases damage by 35% (up to 70%)"
         ]
     },
     {
@@ -4009,7 +3985,7 @@
             "Main Stat X 125 magic damage",
             "Creates a field for 4s that boosts soul regen of Dark Knight",
             "STR: Deals up to 40% additional damage based on enemy's missing HP and deals STR X 15 magic damage per second",
-            "INT: Duration increased by 50% and allies on field will regenerate 25% of max HP per second and not fall below 1 HP."
+            "INT: Duration increased by 100% and allies on field will regenerate 25% of max HP per second and not fall below 1 HP"
         ]
     },
     {
@@ -4445,8 +4421,7 @@
         "order": 10,
         "active": [
             "Temporarily opens the gate of heaven to summon an angel bound to the Priest by an old contract",
-            "Summons Angel 'Raguel'",
-            "Lasts for 120 seconds"
+            "Summons Angel 'Raguel'"
         ]
     },
     {
@@ -4459,8 +4434,8 @@
         "order": 11,
         "passive": [
             "Cleanses multiple enemies using power bestowed by the god.",
-            "Attacks all nearby targets at once",
-            "Magic defense increased by 30%",
+            "On each attack, strike all nearby enemies and deal INT X 1.5 additional magic damage on hit",
+            "Magic defense increased by 30% and movement speed increased by 75",
             "Immune to CC effects"
         ]
     },
@@ -4703,7 +4678,7 @@
         "color": "fafac8",
         "hotkey": "[T]",
         "icon": "PaladinT",
-        "cooldown": 30,
+        "cooldown": 45,
         "order": 10,
         "active": [
             "Summons a holy shield to protect yourself from harm.",
@@ -4863,7 +4838,7 @@
         "passive": [
             "Forms a harmonious balance between attacking and healing.",
             "Every 4th attack heals you and 2 nearby allies for 25 + INT X 0.5 + Target's MAX HP X 2%",
-            "If AGI is highest, your skills deal 85% more damage",
+            "If AGI is highest, your skills deal 90% more damage",
             "If STR or INT is highest, your skills heal and regenerate for 100% more and activates Harmony"
         ]
     },
@@ -4880,7 +4855,7 @@
             "Attack Damage X 1.5 + Main Stat X 5 pure damage",
             "Grants increased attack speed for 1.5 seconds",
             "Deals Main Stat X 1 pure damage on each attack",
-            "If cast from melee range or while Wind Walk is active, deals 100% bonus damage and stuns for 0.5 seconds",
+            "If cast from melee range or after casting Wind Walk, deals 100% bonus damage and stuns for 0.5 seconds",
             "Harmony: Ki cost is removed and can be cast on allies"
         ]
     },
@@ -4948,7 +4923,7 @@
         "order": 6,
         "active": [
             "Purges inner evil within the soul.",
-            "Deals Main Stat X 40 magic damage to nearby enemies and stuns for 1.5 seconds",
+            "Deals Main Stat X 60 magic damage to nearby enemies and stuns for 1.5 seconds",
             "Clears debuffs of allies",
             "Also activates from any summoned Orb of Harmony",
             "Harmony: Grants shield absorbing Main Stat X 5 damage for 5 seconds",
@@ -4980,10 +4955,9 @@
         "order": 9,
         "active": [
             "\"This water shall cleanse your body and soul.\" - Hermit",
-            "Deals Main Stat X 50 magic damage per second and breaks shield",
+            "Deals Main Stat X 70 magic damage per second and breaks shield over 2 seconds",
             "Your HP will not drop below 1 while casting this",
-            "Harmony: Clears debuffs of allies, heals them for Target's Max HP X 15% per second and prevents their HP from going below 1",
-            "Lasts 3 seconds"
+            "Harmony: Duration increased by 1 second, heals allies Target's Max HP X 15% per second, cleanses them and prevents their HP from going below 1"
         ]
     },
     {
@@ -4997,13 +4971,13 @@
         "order": 1,
         "passive": [
             "A broom filled with uncontrollable mana.",
-            "Every attack deals INT X 2.5 magic damage",
-            "On skill cast, gains explosive attack speed for 1.5 seconds"
+            "Attack is converted to magic type and deals INT X 2.5 damage",
+            "On skill cast, gains bonus attack speed for 1.5 seconds"
         ],
         "active": [
             "Hops onto your broom.",
             "Increases movement speed by 500 for 1.5 seconds",
-            "Ignores unit collision and slowing effects"
+            "Cancels slow effects"
         ]
     },
     {
@@ -5019,7 +4993,7 @@
             "Explosion... is an art!",
             "INT X 10 magic damage",
             "Stuns for 1 second",
-            "Can be channeled up to 1.5 seconds, increasing damage by 200% and range/stun duration by 50% every 0.75 seconds",
+            "Can be channeled up to 1.5 seconds, increasing damage up to 500% and effect radius up to 200%",
             "Channeling speed can be increased by attack speed"
         ]
     },
@@ -5050,10 +5024,10 @@
         "order": 4,
         "active": [
             "Summons a cauldron filled with magical items.",
-            "Creates a potion every 1.5 seconds for 18 seconds",
-            "Potion lasts for 30 seconds and heals for INT X 3",
+            "Creates a potion every 2 seconds for 20 seconds",
+            "Potion lasts for 20 seconds and heals for INT X 3",
             "Increases target's main stat by (4 + INT / 1000)% for 60 seconds",
-            "Chaining with Death Bomb creates 3 potions, increases Q's damage by (50 + Hero Level)% and increases enemies' magic damage taken by 5% for 4 seconds"
+            "Chaining with Death Bomb creates 3 potions, increases Q's damage by 70~140% (based on hero LV) and increases enemies' magic damage taken by 5% for 4 seconds"
         ]
     },
     {
@@ -5107,8 +5081,8 @@
         "icon": "WitchT_Passive",
         "order": 8,
         "passive": [
-            "A fallen angel cannot receive the blessings of the God.",
-            "Each attack deals INT X 2 magic damage",
+            "A fallen angel from the Heavens.",
+            "Each attack deals INT X 2.5 magic damage",
             "Magic defense increased by 40%"
         ]
     },
@@ -5133,7 +5107,6 @@
         "color": "6045c9",
         "hotkey": "[T] → [W]",
         "icon": "WitchT_W",
-        "cooldown": 1,
         "order": 10,
         "passive": [
             "Increases damage dealt by 5%",
@@ -5143,7 +5116,7 @@
         "active": [
             "Brands target with power.",
             "Can be applied on 3 targets",
-            "Will dissipate after 15 seconds if Armaros is unsummoned"
+            "Will dissipate after 25 seconds if Armaros is unsummoned"
         ]
     },
     {
@@ -5290,7 +5263,7 @@
         "color": "ff7e6a",
         "hotkey": "[T]",
         "icon": "FighterT",
-        "cooldown": 40,
+        "cooldown": 30,
         "order": 7,
         "active": [
             "Gathers energy into your fist to release a powerful strike.",
@@ -5477,9 +5450,8 @@
         ],
         "active": [
             "Orders Meeko to attack.",
-            "Meeko will rush to target location and leave a Rune of Flame",
-            "The rune will explode after 0.75 seconds, dealing INT X 15 magic damage",
-            "If a Flame Talisman is consumed, this skill can be casted once without incurring cooldown"
+            "INT X 15 magic damage",
+            "If a Flame Talisman is consumed, this skill can be cast once without incurring cooldown"
         ]
     },
     {
@@ -5492,11 +5464,10 @@
         "order": 2,
         "passive": [
             "Sends forth fire.",
-            "Recharges 1 bullet per 6 seconds (up to 4)",
-            "If you have any bullets, automatically fires the bullet to deal INT X 20 magic damage"
+            "Every attack deals INT X 5~15 (based on hero level) bonus magic damage"
         ],
         "toggle": [
-            "On use, toggles auto-cast"
+            "Disables auto attacks."
         ]
     },
     {
@@ -5509,9 +5480,11 @@
         "cooldown": 2,
         "order": 3,
         "active": [
-            "Becomes a spirit of fire to attach yourself to Shrine Priestess.",
-            "Increases Shrine Priestess' skill damage by 5%",
-            "Becomes invulnerable while active"
+            "Every 4th attack deals INT X 10 magic damage",
+            "Increases attack speed by 250%",
+            "Increases movement speed by 300",
+            "Becomes immune to all harmful effects",
+            "Vanishes after 8 seconds"
         ]
     },
     {
@@ -5524,8 +5497,8 @@
         "cooldown": 5,
         "order": 4,
         "active": [
-            "Approaches target to heal it",
-            "Heals target's HP by INT X 0.75",
+            "Approaches target to heal it.",
+            "Heals target's HP by INT X 1",
             "This skill's cooldown is reset if Go Forth! Meeko is cast"
         ]
     },
@@ -5540,8 +5513,7 @@
         "order": 5,
         "active": [
             "Creates a barrier to absorb damage.",
-            "Creates a barrier absorbing INT X 2 damage for 4 seconds",
-            "If attached to Shrine Priestess, also grants her a barrier"
+            "Grants shield absorbing INT X 2 magic damage to nearby allies for 4 seconds"
         ]
     },
     {
@@ -5572,7 +5544,7 @@
         "active": [
             "Gathers element of water and fires it.",
             "INT X 10 magic damage",
-            "Meeko will also send out a small fire, dealing INT X 5 magic damage",
+            "Meeko will also fire an attack toward target point",
             "If enhanced by Water Talisman, encapsulates enemies hit in water bubbles for 2.5 seconds, which will cause next skill of Shrine Priestess to deal 15% + INT X 5 bonus damage to target"
         ]
     },
@@ -5588,7 +5560,7 @@
         "active": [
             "Gathers element of water and causes an explosion.",
             "For 2 seconds, pulls targets center and deal INT X 7.5 magic damage per second",
-            "Creates an explosion afterwards, dealing INT X 30 magic damage",
+            "Creates an explosion afterwards, dealing INT X 20 magic damage",
             "If enhanced with Water Talisman, creates a water pillar for 6 seconds that deals INT X 5 magic damage per second and knocks you up"
         ]
     },
@@ -5604,8 +5576,8 @@
         "active": [
             "Forms talismans that can be used to enhance skills.",
             "Forms 2 Water Talismans and 1 Fire Talisman",
-            "If you have a Water Talisman when casting skill, it is consumed automatically to enhance the skill which deals (1 X Fire Affinity)% bonus damage",
-            "If you have a Fire Talisman when casting skill, you can additionally cast a fire version of the skill within 4 seconds which deals (1 X Water Affinity)% bonus damage",
+            "If you have a Water Talisman when casting skill, it is consumed automatically to enhance the skill",
+            "If you have a Fire Talisman when casting skill, you can additionally cast a fire version of the skill within 4 seconds",
             "After casting Form Talismans, you can activate Water Dome once"
         ]
     },
@@ -5635,9 +5607,9 @@
         "cooldown": 60,
         "order": 11,
         "active": [
-            "Obtains a strong power by combining with Meeko.",
-            "For 8 seconds, your skill damage is increased by 0.5% X (Water Affinity + Fire Affinity)",
-            "Your skills are converted to fire skills while Spirit Fusion is active"
+            "Merges with Meeko to gain immense power.",
+            "For 8 seconds, increases damage dealt by skills by 5% + 0.3% X (Flame Affinity + Water Affinity)",
+            "All skills are converted into Fire skills"
         ]
     },
     {
@@ -5652,7 +5624,7 @@
         "order": 12,
         "active": [
             "Turns into a spirit to quickly move to target location.",
-            "Deals INT X 7.5 magic damage to nearby enemies",
+            "Deals INT X 10 magic damage to nearby enemies",
             "Temporarily becomes invulnerable"
         ]
     },
@@ -5667,7 +5639,7 @@
         "order": 13,
         "active": [
             "Gathers element of fire and detonates it.",
-            "Deals INT X 40 magic damage to nearby enemies"
+            "INT X 40 magic damage"
         ]
     },
     {
@@ -5680,10 +5652,9 @@
         "cooldown": 3,
         "order": 14,
         "active": [
-            "Gathers element of water and fires it.",
-            "INT X 15 magic damage",
-            "Meeko will also send out a small fire, dealing INT X 5 magic damage",
-            "Applies Mark of Flame on targets hit for 4 seconds, making next Go Forth Meeko! or Spirit Shift consume the mark and deal 50% more damage"
+            "Gathers element of fire and fires it.",
+            "INT X 25 magic damage",
+            "Applies Mark of Flame on targets hit for 4 seconds, making next Go Forth Meeko! or Spirit Shift consume the mark and deal 100% more damage"
         ]
     },
     {
@@ -5728,9 +5699,9 @@
         "order": 17,
         "active": [
             "\"Feel the wrath of Fox God.\" - Shrine Priestess",
-            "Summons the Fox God to cause 4 fire explosions and create 5 Fire Talismans",
-            "Each explosion deals INT X 20 magic damage and heals allies for INT X 2",
-            "On expiration, deals INT X 50 magic damage"
+            "Summons 3 Fire Talismans",
+            "Each explosion deals INT X 25 magic damage and heals allies for INT X 2",
+            "Final explosion, deals INT X 100 magic damage"
         ]
     },
     {
@@ -5915,11 +5886,11 @@
         "cooldown": 10,
         "order": 4,
         "passive": [
-            "Basic attacks and Homing Missiles against bosses have 15% chance to critically strike and apply Armor Break",
+            "Basic attacks and Homing Missiles against bosses have 17% chance to critically strike and apply Armor Break",
             "Increases damage dealt by your attacks to target by 15% for 4 seconds (stacks up to 2 times)"
         ],
         "active": [
-            "Charges to fires a destructive missile.",
+            "Fires a destructive missile.",
             "Attack Damage X 1 + STR X 12.5 magic damage and slows",
             "Converts Armor Break into Critical Break for 2 seconds, which also increases damage dealt by your skills",
             "Cooldown is reset if target is boss with max stacks",
@@ -5998,6 +5969,115 @@
             "Applies Critical Break to boss",
             "Afterwards, drops a big bomb dealing STR X 50 magic damage",
             "Lands as critical strike"
+        ]
+    },
+    {
+        "id": "A01C",
+        "name": "Comet Trail",
+        "heroClass": "Sword Saint",
+        "color": "e6d2eb",
+        "hotkey": "[D]",
+        "icon": "SwordSaintD",
+        "cooldown": 7.5,
+        "order": 1,
+        "active": [
+            "Dashes with extreme speed.",
+            "Next 6 basic attacks deal (STR + INT) X 2~6 (based on hero level) bonus damage (up to 3 seconds)",
+            "Can be cast twice in a row"
+        ]
+    },
+    {
+        "id": "A01S",
+        "name": "Aura Blade",
+        "heroClass": "Sword Saint",
+        "color": "e6d2eb",
+        "hotkey": "[Q]",
+        "icon": "SwordSaintQ",
+        "cooldown": 4,
+        "order": 2,
+        "active": [
+            "Infuses your blade with magic.",
+            "Next basic attack deals (STR + INT) X 10 bonus magic damage",
+            "If Lunar Mark is consumed, lands as critical strike and cooldown is reset"
+        ]
+    },
+    {
+        "id": "A01W",
+        "name": "Flash Slash",
+        "heroClass": "Sword Saint",
+        "color": "e6d2eb",
+        "hotkey": "[W]",
+        "icon": "SwordSaintW",
+        "cooldown": 7.5,
+        "order": 3,
+        "active": [
+            "Slashes with the speed of light.",
+            "Slashes 3 times, each dealing Attack Damage X 0.7 + Main Stat X 5 magic damage",
+            "Last slash deals double damage and applies Lunar Mark",
+            "Resets cooldown of Aura Blade on cast"
+        ]
+    },
+    {
+        "id": "A01X",
+        "name": "Reflection",
+        "heroClass": "Sword Saint",
+        "color": "e6d2eb",
+        "hotkey": "[E]",
+        "icon": "SwordSaintE",
+        "cooldown": 10,
+        "order": 4,
+        "active": [
+            "Surrounds your body with mana to retaliate.",
+            "Reduces damage taken by 80% and cancels harmful effects up to 1 second",
+            "On cancel, retalitates with (STR + INT) X 25 magic damage",
+            "If a skill is successfully blocked, duration is refreshed and deals 200% bonus damage"
+        ]
+    },
+    {
+        "id": "A02J",
+        "name": "Starfall",
+        "heroClass": "Sword Saint",
+        "color": "e6d2eb",
+        "hotkey": "[R]",
+        "icon": "SwordSaintR",
+        "order": 5,
+        "active": [
+            "Drops down fragments of star.",
+            "Deals (STR + INT) X 7.5 magic damage 3 times",
+            "Heals allies for (Target's Max HP X 2% + INT X 0.5) HP each time",
+            "Applies Lunar Mark",
+            "Charges once every 5 seconds (up to 3 charges; affected by base attack speed)"
+        ]
+    },
+    {
+        "id": "A01Y",
+        "name": "Lunar Divide",
+        "heroClass": "Sword Saint",
+        "color": "e6d2eb",
+        "hotkey": "[T]",
+        "icon": "SwordSaintT",
+        "cooldown": 30,
+        "order": 6,
+        "active": [
+            "Fires a slash infused with moonlight.",
+            "Attack Damage X 4 + (STR + INT) X 50 magic damage",
+            "If Lunar Mark is consumed, deals 100% bonus damage and breaks shield effects"
+        ]
+    },
+    {
+        "id": "A02I",
+        "name": "Twilight Reverie",
+        "heroClass": "Sword Saint",
+        "color": "e6d2eb",
+        "hotkey": "[F]",
+        "icon": "SwordSaintF",
+        "cooldown": 90,
+        "order": 7,
+        "active": [
+            "\"Let's dance in the boundary of life and death.\" - Sword Saint",
+            "Pulls nearby non-boss units for 1 second, dealing (STR + INT) X 4 magic damage every 0.125 seconds",
+            "Afterwards, delivers a final slash dealing Attack Damage X 7.5 + Main Stat X 100 magic damage",
+            "Resets cooldown on Comet Trail and casting it refreshes the skill's duration"
         ]
     }
 ]
