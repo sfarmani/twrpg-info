@@ -135,7 +135,7 @@
         "order": 1,
         "passive": [
             "Expertise in black magic allows Soul Weaver to subjugate souls to her will.",
-            "Regenerates (12 + MP regen / 30) souls per second",
+            "Regenerates (12 + MP regen / 25) souls per second",
             "Restores Max HP X 0.5% for each soul absorbed"
         ]
     },
@@ -295,7 +295,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [Q]",
         "icon": "AlchemistQ_Q",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 3,
         "active": [
             "Fires a flame bullet.",
@@ -309,7 +309,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [W]",
         "icon": "AlchemistQ_W",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 4,
         "active": [
             "Draw forth magma from the grounds.",
@@ -323,7 +323,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [E]",
         "icon": "AlchemistQ_E",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 5,
         "active": [
             "Vent powerful heat forward.",
@@ -340,7 +340,7 @@
         "color": "ff8080",
         "hotkey": "[Q] → [R]",
         "icon": "AlchemistQ_R",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 6,
         "active": [
             "Drops down a flaming boulder.",
@@ -374,7 +374,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [Q]",
         "icon": "AlchemistW_Q",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 8,
         "active": [
             "Transmutes a water bomb.",
@@ -393,7 +393,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [W]",
         "icon": "AlchemistW_W",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 9,
         "active": [
             "Fire streams of water frontward.",
@@ -409,7 +409,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [E]",
         "icon": "AlchemistW_E",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 10,
         "active": [
             "Transmutes an icicle.",
@@ -424,7 +424,7 @@
         "color": "adbffc",
         "hotkey": "[W] → [R]",
         "icon": "AlchemistW_R",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 12,
         "active": [
             "Transmute a cloud that brings down rain to nearby area.",
@@ -459,7 +459,7 @@
         "color": "ff8080",
         "hotkey": "[E] → [Q]",
         "icon": "AlchemistE_Q",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 14,
         "active": [
             "Enchants your hands with fire and wind.",
@@ -475,7 +475,7 @@
         "color": "d0dab1",
         "hotkey": "[E] → [W]",
         "icon": "AlchemistE_W",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 15,
         "active": [
             "Summon an eye of the storm at the target location.",
@@ -491,7 +491,7 @@
         "color": "d0dab1",
         "hotkey": "[E] → [E]",
         "icon": "AlchemistE_E",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 16,
         "active": [
             "Send forth a strong gust of wind.",
@@ -506,7 +506,7 @@
         "color": "d0dab1",
         "hotkey": "[E] → [R]",
         "icon": "AlchemistE_R",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 17,
         "active": [
             "Creates a fierce storm of rocks.",
@@ -541,7 +541,7 @@
         "color": "c5aa83",
         "hotkey": "[R] → [Q]",
         "icon": "AlchemistR_Q",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 19,
         "active": [
             "Transmutes a cannon to fire a powerful cannonball.",
@@ -558,7 +558,7 @@
         "color": "ff8080",
         "hotkey": "[R] → [W]",
         "icon": "AlchemistR_W",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 20,
         "active": [
             "Conjures a useful potion.",
@@ -574,7 +574,7 @@
         "color": "c5aa83",
         "hotkey": "[R] → [E]",
         "icon": "AlchemistR_E",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 21,
         "active": [
             "Collapses the ground with strong pulses.",
@@ -590,7 +590,7 @@
         "color": "c5aa83",
         "hotkey": "[R] → [R]",
         "icon": "AlchemistR_R",
-        "proc_rate": 0.7,
+        "proc_rate": 0.5,
         "order": 22,
         "active": [
             "Summon a golem.",
@@ -1487,7 +1487,7 @@
         "active": [
             "Barrages nearby area with bullets.",
             "Consumes 3 bullets",
-            "Each bullet inflicts attack damage X 0.25 + AGI X 2.5 magic damage",
+            "Each bullet inflicts attack damage X 0.3 + AGI X 3 magic damage",
             "Has (33% + crit chance) to critically strike",
             "If cast after Tumble, consumes 100% additional bullets"
         ]
@@ -2959,12 +2959,11 @@
         "order": 5,
         "passive": [
             "Heals grant resistance to allies.",
-            "Creates barrier that absorbs damage equal to 20% X healed amount",
-            "Stacks up to a maximum of INT X 1"
+            "Upon healing allies, reduces their damage taken by 10% for 5 seconds"
         ],
         "active": [
             "Summon a mirror of eon to redirect harm back to attackers.",
-            "For 9 seconds, absorbs 45% of damage taken by nearby allies",
+            "For 7.5 seconds, absorbs 45% of damage taken by nearby allies",
             "Upon expiration or casting again, deals INT X 20 + absorbed damage X 10 (max: INT X 200) magic damage to nearby enemies",
             "Knocks back non-boss units"
         ]
@@ -3171,6 +3170,7 @@
         "color": "ddddbb",
         "hotkey": "[W]",
         "icon": "MerchantW2",
+        "proc_rate": 0.2,
         "order": 5,
         "active": [
             "Throws a bomb.",
@@ -3624,7 +3624,7 @@
         "active": [
             "Summons countless magical arrows to bombard target area.",
             "Summons 24 arrows",
-            "Each arrow deals Attack Damage X 0.6 + AGI X 5 magic damage and short stun"
+            "Each arrow deals Attack Damage X 0.4 + AGI X 5 magic damage and short stun"
         ]
     },
     {
@@ -3840,7 +3840,7 @@
         "order": 1,
         "passive": [
             "Power to control souls.",
-            "Charges a soul every 3 seconds (scales with INT)",
+            "Charges a soul every 2.5 seconds (speeds up by 10% per 15 MP regen)",
             "Absorbing a soul heals you for Max HP X 3%",
             "Can store up to 10 souls"
         ],
@@ -3849,7 +3849,7 @@
             "Main Stat X 7.5 magic damage",
             "Deals Main Stat X 5 magic damage every 3 seconds for 12 seconds",
             "STR: Heals yourself for (Max HP X 15%). Damage/duration increased by 50% and increases your skill damage dealt to target by 10%.",
-            "INT: Heals allies for INT X 2.5. Increases magic damage taken by (4 + INT / 1200)%."
+            "INT: Heals allies for INT X 2.5. Increases magic damage taken by (4 + INT / 1200)%"
         ]
     },
     {
@@ -3866,7 +3866,7 @@
             "Attack Damage X 0.6 + Main Stat X 7.5 magic damage",
             "Summons 1 soul on first enemy hit",
             "Cooldown is reset when casting W/E",
-            "INT: Max travel distance increased by 50%"
+            "INT: Applies single-hit effect and Max travel distance increased by 50%"
         ]
     },
     {
@@ -4838,7 +4838,7 @@
         "passive": [
             "Forms a harmonious balance between attacking and healing.",
             "Every 4th attack heals you and 2 nearby allies for 25 + INT X 0.5 + Target's MAX HP X 2%",
-            "If AGI is highest, your skills deal 90% more damage",
+            "If AGI is highest, your skills deal 100% more damage",
             "If STR or INT is highest, your skills heal and regenerate for 100% more and activates Harmony"
         ]
     },
@@ -4852,7 +4852,7 @@
         "order": 2,
         "active": [
             "Strikes target's weak points.",
-            "Attack Damage X 1.5 + Main Stat X 5 pure damage",
+            "Attack Damage X 1.2 + Main Stat X 5 pure damage",
             "Grants increased attack speed for 1.5 seconds",
             "Deals Main Stat X 1 pure damage on each attack",
             "If cast from melee range or after casting Wind Walk, deals 100% bonus damage and stuns for 0.5 seconds",
@@ -4923,7 +4923,7 @@
         "order": 6,
         "active": [
             "Purges inner evil within the soul.",
-            "Deals Main Stat X 60 magic damage to nearby enemies and stuns for 1.5 seconds",
+            "Deals Main Stat X 70 magic damage to nearby enemies and stuns for 1.5 seconds",
             "Clears debuffs of allies",
             "Also activates from any summoned Orb of Harmony",
             "Harmony: Grants shield absorbing Main Stat X 5 damage for 5 seconds",

@@ -1,9 +1,168 @@
 [
     {
+        "name": "68u2",
+        "notes": [
+            "Released on: November 12th, 2024",
+            "Compatible Version: v0.62s ~"
+        ],
+        "bugs": [
+            "Arcane Construct - Fixed issue where boss could cast skills without any delay",
+            "Arcane Construct - Fixed issue where shock stacks could bypass some immunity effect",
+            "Thunderer - Fixed overlapping W hotkey display for Magnetic Field/Lightning Rush (Magnetic Field will now display as 'T' instead of 'W')",
+            "Elementalist - Fixed a bug where the passive effect of the Arch Druid Robe was applied to Elementalist"
+        ],
+        "items": [
+            {
+                "name": "Bag of Universe Series",
+                "changes": [
+                    "Throwing Recovery Potion: Damage reduction → magic defense bonus, recharge interval: 2.5s → 2s, max placement count increase 6 → 5.",
+                    "Life Shield Scroll: Magic defense → damage reduction bonus."
+                ]
+            },
+            {
+                "name": "Echo of the Void",
+                "changes": [
+                    "Passive magic damage taken increase 6% → 4%; now unique (stacks with all other effects), cooldown is now item-based and displays on the item."
+                ]
+            },
+            {
+                "name": "Medea, the Robe of Witch / Thanatos, the Robe of Hell",
+                "changes": [
+                    "MP regen 45/60 → MP 1000/1500"
+                ]
+            },
+            {
+                "name": "Dread Incarnate",
+                "changes": [
+                    "Reduced VFX for active usage"
+                ]
+            },
+            {
+                "name": "Sanguis, the Robe of Sacrifice",
+                "changes": [
+                    "Each stack increases skill damage by 0.25% → increases damage dealt by skills by 0.1% (multiplicatively stacks with skill damage)",
+                    "Explosion radius 1000 → 900, explosion damage INT X 15 → INT X 20"
+                ]
+            },
+            {
+                "name": "Corrupt Crystal Wing series:",
+                "changes": [
+                    "Removed HP regen",
+                    "MP regen 18/40/45/60 → 15/15/20/20"
+                ]
+            },
+            {
+                "name": "Ring of the Reaper / Ring of Cold Death / Ring of Frozen Soul / Ring of Desolate Soul / Ring of Noble Soul",
+                "changes": [
+                    "HP regen removed",
+                    "MP regen 30/30/45/50/60 → 15/15/20/20/25",
+                    "Ring of the Reaoer - AGI 260 / INT 295 → Main Stat 290",
+                    "Ring of Desolate Soul / Ring of Noble Soul - Now heals Max HP X 50% upon expiration"
+                ]
+            },
+            {
+                "name": "Ring of Composure / Ring of Despair",
+                "changes": [
+                    "MP regen bonus 60/120 → 25/30",
+                    "Added +5% darkness affinity to the Ring of Despair."
+                ]
+            },
+            {
+                "name": "Ring of Fate Series",
+                "changes": [
+                    "Active MP regen bonus 300~1000 → 100~200"
+                ]
+            },
+            {
+                "name": "New Items Added",
+                "changes": [
+                    "Cage of Shadow Fiend",
+                    "Herald of the Void",
+                    "Animus, the Robe of Souls",
+                    "Sunstone",
+                    "Primordial Heart",
+                    "Wings of the Descender"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Practice Mode",
+                "changes": [
+                    "Bosses now take an additional 10% of max HP damage upon hit (3-second cooldown)"
+                ]
+            },
+            {
+                "name": "Nereid (Practice Mode only)",
+                "changes": [
+                    "Reduced bubble duration on the ground, can now be cancelled with ESC"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "D - Basic regen interval 3s → 2.5s. Soul regen is increased by 10% for each 250 INT → for each 15 MP regen",
+                    "Q - Single-hit effect now only triggers for INT main stat build",
+                    "W - Improved shield visibility for INT main stat build"
+                ]
+            },
+            {
+                "name": "Merchant",
+                "changes": [
+                    "W (Bomb Throw) - Cast coefficient 0.5 → 0.2, now triggers on 'on skill cast' effects"
+                ]
+            },
+            {
+                "name": "Hermit",
+                "changes": [
+                    "D - (AGI main stat) Skill damage bonus 90% → 100%",
+                    "Q - Damage AD X 1.5 + AGI X 5 → AD X 1.2 + AGI X 5",
+                    "T - Damage Main Stat X 60 → Main Stat X 70"
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "W - Damage per bullet AD X 0.25 + AGI X 2.5 → AD X 0.3 + AGI X 3"
+                ]
+            },
+            {
+                "name": "Bowmaster",
+                "changes": [
+                    "T - Arrow damage changed from AD X 0.6 + AGI X 5 → AD X 0.4 + AGI X 5, arrow will now be guaranteed hit on enemies within AoE without RNG"
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "E - Generates 20% of healed amount as shield for allies (max: INT X 1) → reduces damage taken by 10% for 5 seconds upon healing allies"
+                ]
+            },
+            {
+                "name": "Alchemist",
+                "changes": [
+                    "Transmutation cast coefficient 0.7 → 0.5"
+                ]
+            },
+            {
+                "name": "Soul Weaver",
+                "changes": [
+                    "D - Soul regen per second (12 + MP regen rate / 30) → (12 + MP regen rate / 25)."
+                ]
+            }
+        ],
+        "misc": [
+            "Skill damage dealt by summons is now affected by summoner's 'increase damage dealt by skills' effects.",
+            "Removed cooldown for 'Drop Item Check' from fairy/chest"
+        ]
+    },
+    {
         "name": "68p",
         "notes": [
             "Released on: October 26th, 2024",
-            "Compatible Version: v0.62a ~"
+            "Compatible Version: v0.62s ~"
         ],
         "bugs": [
             "Fixed some issue with logging system (JN)"
@@ -21,7 +180,7 @@
         "name": "68o2",
         "notes": [
             "Released on: October 25th, 2024",
-            "Compatible Version: v0.62a ~"
+            "Compatible Version: v0.62s ~"
         ],
         "bugs": [
             "Sword Enchanter - Fixed bug where attacks did not accrue stack effect if any D stacks were present",
@@ -73,7 +232,7 @@
         "name": "68n",
         "notes": [
             "Released on: October 15th, 2024",
-            "Compatible Version: v0.62a ~"
+            "Compatible Version: v0.62s ~"
         ],
         "bugs": [
             "Fixed issue where Priest/Witch summon hotkey sometimes gets reset upon dying"

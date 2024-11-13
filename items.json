@@ -7096,7 +7096,7 @@
     "level": 100,
     "droprate": 0.0175,
     "required_by": [
-      "Ring of Cold Death",
+      "Cold Ring of Death",
       "Requiem, the Armor of Lamentation",
       "Skeletal King Icon"
     ],
@@ -10387,7 +10387,7 @@
       "mdpercent": 0.1,
       "spec": [
         "Merchant Specialty - Light Bag",
-        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once"
+        "Merchant - Throwing Healing Potion: Refill period is reduced to 2 seconds."
       ]
     }
   },
@@ -11345,7 +11345,7 @@
       "mdpercent": 0.1,
       "spec": [
         "Merchant Specialty - Light Bag",
-        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%."
+        "Merchant - Throwing Healing Potion: Refill period is reduced to 2 seconds, and increases target's magic defense by 10%."
       ]
     }
   },
@@ -11421,7 +11421,7 @@
       "mdpercent": 0.1,
       "spec": [
         "Merchant Specialty - Light Bag",
-        "Merchant - Throwing Healing Potion: You can throw up to 2 Throwing Healing Potions at once, and it reduces target's damage taken by 8%"
+        "Merchant - Throwing Healing Potion: Refill period is reduced to 2 seconds, and increases target's magic defense by 10%."
       ]
     }
   },
@@ -12051,8 +12051,7 @@
     ],
     "stats": {
       "allstat": 145,
-      "hpregen": 45,
-      "mpregen": 18,
+      "mpregen": 15,
       "skilldamagepercent": 0.09
     }
   },
@@ -13025,7 +13024,7 @@
       "mdpercent": 0.12,
       "spec": [
         "Merchant Specialty - Very Light Bag",
-        "Merchant - Throwing Healing Potion: Refill period is reduced to 2.5 seconds, and it reduces target's damage taken by 8%.",
+        "Merchant - Throwing Healing Potion: Refill period is reduced to 2 seconds, and increases target's magic defense by 12%.",
         "Merchant - Life Shield Scroll: Duration increased by 5 seconds"
       ]
     }
@@ -13110,7 +13109,7 @@
       "mdpercent": 0.12,
       "spec": [
         "Merchant Specialty - Very Light Bag",
-        "Merchant - Throwing Healing Potion: Refill period is reduced to 2.5 seconds, and it reduces target's damage taken by 12%.",
+        "Merchant - Throwing Healing Potion: Refill period is reduced to 2 seconds, and increases target's magic defense by 12%.",
         "Merchant - Life Shield Scroll: Duration increased by 5 seconds"
       ]
     }
@@ -14060,9 +14059,7 @@
       }
     ],
     "stats": {
-      "agi": 260,
-      "int": 295,
-      "hpregen": 60,
+      "mainstat": 290,
       "mpregen": 30,
       "attackspeedpercent": 0.2,
       "skilldamagepercent": 0.1,
@@ -16235,8 +16232,8 @@
       "spec": [
         "Merchant Specialty - Very Light Bag",
         "Merchant - This Bag isn't a Decoration!: You can drink up to 2 potions at once.",
-        "Merchant - Throwing Healing Potion: Refill period is reduced to 2.5 seconds, number of placeable potions increased by 3, and reduces target's damage taken by 12%.",
-        "Merchant - Life Shield Scroll: Duration increased by 5 seconds and increases target's magic defense by 15%."
+        "Merchant - Throwing Healing Potion: Refill period is reduced to 2 seconds, max placeable count increased by 3, and increases target",
+        "Merchant - Life Shield Scroll: Duration increased by 5 seconds and reduces damage taken by target by 15%."
       ]
     }
   },
@@ -16822,7 +16819,7 @@
     "stats": {
       "armor": 185,
       "int": 340,
-      "mpregen": 45,
+      "mp": 1000,
       "skilldamagepercent": 0.08,
       "passive": [
         "On skill cast, spawns an orb around user (max of 4 orbs)",
@@ -17595,8 +17592,7 @@
     ],
     "stats": {
       "mainstat": 430,
-      "hpregen": 60,
-      "mpregen": 30,
+      "mpregen": 15,
       "attackspeedpercent": 0.2,
       "skilldamagepercent": 0.145,
       "active": [
@@ -17779,7 +17775,7 @@
     ],
     "stats": {
       "allstat": 315,
-      "mpregen": 60,
+      "mpregen": 25,
       "passive": [
         "On landing a direct hit on enemies, applies Composure",
         "Increases enemy magic damage taken by 6% [Type-B] for 12 seconds"
@@ -17915,8 +17911,7 @@
     "stats": {
       "allstat": 190,
       "mainstat": 45,
-      "hpregen": 75,
-      "mpregen": 40,
+      "mpregen": 15,
       "skilldamagepercent": 0.12,
       "passive": [
         "5% chance to reset non-ultimate skill cooldowns on skill cast",
@@ -19904,8 +19899,8 @@
       "spec": [
         "Merchant Specialty - Very Light Bag",
         "Merchant - This Bag isn't a Decoration!: You can drink up to 2 potions at once.",
-        "Merchant - Throwing Healing Potion: Refill period is reduced to 2.5 seconds, number of placeable potions increased by 6, and reduces target's damage taken by 15%.",
-        "Merchant - Life Shield Scroll: Duration increased by 5 seconds and increases target's magic defense by 15%."
+        "Merchant - Throwing Healing Potion: Refill period is reduced to 2 seconds, max placeable count increased by 5, and increases target's magic defense by 15%.",
+        "Merchant - Life Shield Scroll: Duration increased by 5 seconds and reduces damage taken by target by 15%."
       ]
     }
   },
@@ -20457,7 +20452,7 @@
     "stats": {
       "armor": 200,
       "int": 525,
-      "mpregen": 60,
+      "mp": 1500,
       "skilldamagepercent": 0.15,
       "active": [
         "On use, activates Devastation",
@@ -21272,7 +21267,8 @@
     ],
     "stats": {
       "allstat": 375,
-      "mpregen": 120,
+      "mpregen": 30,
+      "affinitydarkpercent": 0.05,
       "passive": [
         "On direct hit, applies Composure (single-taget spells on enemies)",
         "Increases magic damage taken by 7.5% [Type-B] for 12 seconds"
@@ -21328,7 +21324,7 @@
         "On use, activates Time Distortion",
         "Refreshes the cooldown of the last used non-ultimate skill",
         "Gives immunity to stuns, silence, and knockbacks for 10 seconds",
-        "Increases MP regen by 750 for 10 seconds",
+        "Increases MP regen by 100 for 10 seconds",
         "Cooldown: 75 seconds"
       ]
     }
@@ -21462,8 +21458,7 @@
       "mainstat": 555,
       "attackspeedpercent": 0.3,
       "skilldamagepercent": 0.175,
-      "hpregen": 90,
-      "mpregen": 45,
+      "mpregen": 20,
       "active": [
         "On use, activates Frozen Aegis",
         "Gives immunity to damage and debuffs for 3 seconds",
@@ -22117,8 +22112,7 @@
     "stats": {
       "allstat": 225,
       "mainstat": 75,
-      "hpregen": 90,
-      "mpregen": 45,
+      "mpregen": 20,
       "skilldamagepercent": 0.15,
       "passive": [
         "On skill cast, 5% chance to activate Archangel's Blessing",
@@ -23648,8 +23642,8 @@
         "During combat, activates Ring of Blood",
         "Summons 5 orbs of blood that circle around user",
         "Each collision with enemy deals (5000 + INT X 2) magic damage",
-        "If target is a boss unit, increases INT by 10 and skill damage by 0.25% per hit (up to 25 stacks)",
-        "Upon reaching max stacks, explodes and deals (INT X 15) magic damage to nearby enemies (1000 range)",
+        "If target is a boss unit, increases INT by 10 and damage dealt by skills by 0.1% per hit (up to 25 stacks)",
+        "Upon reaching max stacks, explodes and deals (INT X 20) magic damage to nearby enemies (900 range)",
         "Stacks last 6 seconds"
       ],
       "active": [
@@ -24482,7 +24476,7 @@
         "Activates Malefic Vision on skill hit",
         "Activates when landing 3 consecutive skill hits on an enemy",
         "(periodic damage does not count)",
-        "Deals 100000 magic damage over 5 seconds and increases damage taken by 6% [Type-B]",
+        "Deals 100000 magic damage over 5 seconds and increases damage taken by 4%",
         "Cooldown: 10s"
       ],
       "active": [
@@ -24754,12 +24748,11 @@
       "mainstat": 625,
       "attackspeedpercent": 0.35,
       "skilldamagepercent": 0.2,
-      "hpregen": 100,
-      "mpregen": 50,
+      "mpregen": 20,
       "active": [
         "On use, activates Desolate Array",
         "Grants immunity to damage, debuffs and CC effects for 3 seconds",
-        "Upon expiration, deals (damage received X 15) pure damage in an aoe (up to (max HP x 15))",
+        "Upon expiration, deals (damage received X 15) pure damage in an aoe (up to (max HP x 15)) and heals for (Max HP X 50%)",
         "Cooldown: 60 seconds"
       ]
     }
@@ -24908,7 +24901,7 @@
         "On use, activates Time Distortion",
         "Reduce stacks by 1 per second on 50% skill cast (cooldown: 70 seconds)",
         "Refreshes the cooldown of the last used non-ultimate skill",
-        "Grants 7% skill damage, 1000 HP/MP regen, and CC immunity for 10 seconds"
+        "Grants 7% skill damage, 1000 HP and 200 MP regen, and CC immunity for 10 seconds"
       ]
     }
   },
@@ -25199,8 +25192,7 @@
       "mainstat": 700,
       "attackspeedpercent": 0.4,
       "skilldamagepercent": 0.23,
-      "hpregen": 120,
-      "mpregen": 60,
+      "mpregen": 25,
       "passive": [
         "On skill cast, activates Radiance",
         "Your skills inflict (Main Stat X 1.5) bonus damage (up to 30 times)"
@@ -25208,7 +25200,7 @@
       "active": [
         "On use, activates Noble Soul",
         "Becomes immune to damage, debuff and CC effects for 3 seconds",
-        "On expiration, deals (Damage Taken X 15) pure damage to nearby enemies (max damage: Max HP X 15)",
+        "On expiration, deals (Damage Taken X 15) pure damage to nearby enemies (max damage: Max HP X 15) and heals for (Max HP X 50%)",
         "Cooldown: 60 seconds"
       ]
     }
@@ -25454,8 +25446,7 @@
     "stats": {
       "allstat": 300,
       "mainstat": 100,
-      "hpregen": 120,
-      "mpregen": 60,
+      "mpregen": 20,
       "skilldamagepercent": 0.175,
       "movespeed": 50,
       "passive": [
