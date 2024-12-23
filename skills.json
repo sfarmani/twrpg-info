@@ -116,7 +116,7 @@
         "color": "b22222",
         "hotkey": "[F]",
         "icon": "SniperF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 7,
         "active": [
             "\"Ruthless? Evil beings need no mercy..\" - Sniper",
@@ -241,7 +241,7 @@
         "color": "487913",
         "hotkey": "[F]",
         "icon": "SoulWeaverF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 8,
         "active": [
             "\"It's nightmare that you can't escape from !\" - Soul Weaver",
@@ -899,7 +899,7 @@
         "color": "9465e2",
         "hotkey": "[F]",
         "icon": "WarlockF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 12,
         "active": [
             "\"Seems like the time to unleash my evil left hand has come..\" - Haran",
@@ -1016,11 +1016,11 @@
         "color": "990000",
         "hotkey": "[F]",
         "icon": "BloodWeaverF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 7,
         "active": [
             "\"I shall beautify you even further !\"",
-            "Creates 15 spears over 1.5 seconds, inflicting Attack Damage X 0.7 + Max HP X 1.5 magic damage per spear",
+            "Creates 15 spears over 1.5 seconds, inflicting Attack Damage X 0.6 + Max HP X 1.3 magic damage per spear",
             "Deals up to 40% bonus damage based on target's missing HP (max damage reached at 40% HP)",
             "Gains invulnerability while casting"
         ]
@@ -1223,9 +1223,10 @@
         "cooldown": 10,
         "order": 5,
         "active": [
-            "Fire a charged magic bullet, and disengage using the recoil.",
+            "Fires a charged magic bullet, and disengage using the recoil.",
             "Attack damage X 1.5 + AGI X 7.5 magic damage",
-            "Deals up to 300% bonus damage based on knockback distance"
+            "Deals up to 300% bonus damage based on knockback distance",
+            "INT Main Stat: Breaks barrier effects"
         ]
     },
     {
@@ -1261,7 +1262,8 @@
         "active": [
             "Relentlessly fire magic bullets together with the probes.",
             "Fires 24 missiles per second up to 2.5 seconds",
-            "Each 1% bonus in pure attack speed increases fire count by 0.5%"
+            "Each 1% bonus in pure attack speed increases fire count by 0.5%",
+            "INT Main Stat: Pierces enemies and heals allies for INT X 0.75 per hit"
         ]
     },
     {
@@ -1708,7 +1710,7 @@
         "color": "c71585",
         "hotkey": "[F]",
         "icon": "SwordsmanF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 10,
         "active": [
             "\"I couldn't see anything. Only the corpses of my comrades were left at where he slashed through.\" - A Survivor of Empire War",
@@ -2018,7 +2020,7 @@
         "color": "ff8080",
         "hotkey": "[T]",
         "icon": "ElementalistT",
-        "cooldown": 5,
+        "cooldown": 4,
         "order": 22,
         "passive": [
             "Affinity with summons allows you to bring out their potentials.",
@@ -2050,7 +2052,7 @@
         "color": "800040",
         "hotkey": "[F]",
         "icon": "ElementalistF",
-        "cooldown": 100,
+        "cooldown": 90,
         "order": 24,
         "active": [
             "\"It is a dangerous gamble, but controlling a twisted elemental boasts destructive power that matches the Demon Lord.\" - Elementalist",
@@ -2569,7 +2571,7 @@
             "Attack damage X 0.9 + STR X 4.5 magic damage",
             "Enemies hit are slowed by 90% for 2 seconds",
             "Resets duration of Oriental Spear Mastery",
-            "Empowered: Increases damage dealt by D/Q/W/E on target by 100% for 5 seconds"
+            "Empowered: AoE increased and increases damage dealt by D/Q/W/E on target by 100% for 5 seconds"
         ]
     },
     {
@@ -2869,7 +2871,7 @@
         "color": "8080ff",
         "hotkey": "[F]",
         "icon": "AssassinF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 7,
         "active": [
             "\"Both sides of war tend to avoid fighting in the night because 'she' wanders around..\" - A Survivor of Empire War",
@@ -3007,12 +3009,12 @@
         "color": "aef4c7",
         "hotkey": "[F]",
         "icon": "WindMageF",
-        "cooldown": 100,
+        "cooldown": 90,
         "order": 8,
         "active": [
             "(Aisha) \"Dear divine beings! I thank you for bestowing all these blessings upon me !\"\n(Guardian) Grrrgrgrgr (it's because you're too cute)",
             "Summons a Guardian",
-            "Lasts 50 seconds"
+            "Lasts 45 seconds"
         ]
     },
     {
@@ -3978,12 +3980,12 @@
         "color": "baabd4",
         "hotkey": "[F]",
         "icon": "DarkKnightF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 9,
         "active": [
             "\"Cry !\" - Dark Knight",
             "Main Stat X 125 magic damage",
-            "Creates a field for 4s that boosts soul regen of Dark Knight",
+            "Creates a field for 3s that boosts soul regen of Dark Knight",
             "STR: Deals up to 40% additional damage based on enemy's missing HP and deals STR X 15 magic damage per second",
             "INT: Duration increased by 100% and allies on field will regenerate 25% of max HP per second and not fall below 1 HP"
         ]
@@ -4504,11 +4506,11 @@
         "color": "ffff00",
         "hotkey": "[F]",
         "icon": "PriestF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 16,
         "active": [
             "\"As my body suddenly start bursting out light, I've felt like I could keep on fighting without ever growing tired. It was only later that I realized the Priest had arrived.\" - Soldier of Empire Army",
-            "Summons Heaven Field for 30 seconds",
+            "Summons Heaven Field for 20 seconds",
             "For allies on the field, increases their damage dealt by 5%, reduces their damage taken by 15% and regenerates their HP by 10% per second",
             "For your summons on the field, increases their attack speed by 50%"
         ]
@@ -4694,14 +4696,13 @@
         "color": "ffd700",
         "hotkey": "[F]",
         "icon": "PaladinF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 11,
         "active": [
             "\"Embrace the lights of heaven.\" - Paladin",
-            "Releases a pulse every second to deal AD X 2.5 + STR X 40 magic damage",
-            "Calls down rays of light on two allies every 0.25 seconds, healing them for INT X 5",
-            "Lasts 4 seconds",
-            "Devotion: Each pulse provides allies with buff for 4 seconds, increasing their total damage by 7.5% and preventing their HP from dropping below 1"
+            "Releases a pulse every second to deal Attack Damage X 4 + STR X 50 magic damage",
+            "Lasts 3 seconds",
+            "Devotion: Calls down rays of light on two allies every 0.25 seconds, healing them for INT X 5 and each pulse provides allies with buff for 4 seconds, increasing their total damage by 7.5% and preventing their HP from dropping below 1"
         ]
     },
     {
@@ -4818,7 +4819,7 @@
         "color": "c8f9dd",
         "hotkey": "[F]",
         "icon": "PBF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 8,
         "active": [
             "Pauses enemies for a short time",
@@ -5142,14 +5143,14 @@
         "color": "a498e9",
         "hotkey": "[F]",
         "icon": "WitchF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 12,
         "active": [
             "\"Get away from there! It will shall soon become a zone for my experiments..\"",
             "- Witch",
             "Deals INT X 20 magic damage per second",
             "Increases target's magic damage taken by 10%",
-            "Lasts 8 seconds"
+            "Lasts 7 seconds"
         ]
     },
     {
@@ -5214,8 +5215,7 @@
             "Quickly steps back.",
             "Next attack allows you to dash to target and ignore 100% of its armor",
             "Reduce target's movement speed by 75% for 2 seconds",
-            "Does not activate 'on skill cast' effects",
-            "Empowered: Deals 300% damage and has 20% chance to leave target CRACKED for 6 seconds. If Combo Mastery is at max stacks, this will be guaranteed (can only occur if CRACKED hasn't been procced in last 15 seconds)"
+            "Empowered: Deals 300% damage and has 20% chance to leave target CRACKED for 6 seconds. If Combo Mastery is at max stacks, this will be guaranteed (can only occur if CRACKED hasn't been procced in last 15 seconds))"
         ]
     },
     {
@@ -5278,7 +5278,7 @@
         "color": "d15e2c",
         "hotkey": "[F]",
         "icon": "FighterF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 8,
         "active": [
             "\"Let's wrestle!\" -Fighter",
@@ -5297,7 +5297,7 @@
         "order": 1,
         "active": [
             "Creates an illusion that can mimic you.",
-            "Illusion only deals 50% damage",
+            "Illusion deals 50% reduced damage and takes 40% reduced damage",
             "Has 5 second recast cooldown if killed"
         ]
     },
@@ -5385,7 +5385,8 @@
         "active": [
             "Sends out all your cards.",
             "Deals AGI X 4 magic damage per second for 15 seconds",
-            "By right-clicking a card, you can teleport to it and reset cooldown on Hidden Fang"
+            "By right-clicking a card, you can teleport to it",
+            "Resets cooldown of Hidden Fang and takes 40% reduced damage for 1.5 seconds"
         ]
     },
     {
@@ -5426,7 +5427,7 @@
         "color": "89ddb5",
         "hotkey": "[F]",
         "icon": "TricksterF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 9,
         "active": [
             "\"Ladies and gentlemen... here's a magic trick. I shall make this one disappear from the world.\" - Trickster",
@@ -5695,7 +5696,7 @@
         "color": "eebfb0",
         "hotkey": "[F]",
         "icon": "ShrinePriestessF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 17,
         "active": [
             "\"Feel the wrath of Fox God.\" - Shrine Priestess",
@@ -5821,7 +5822,7 @@
         "color": "f2f7b9",
         "hotkey": "[F]",
         "icon": "LightseekerF",
-        "cooldown": 120,
+        "cooldown": 90,
         "order": 7,
         "active": [
             "\"No one can escape the Light of Judgment.\" - Lightseeker",

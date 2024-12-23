@@ -142,7 +142,7 @@
     "stats": {
       "active": [
         "Expands your storage by 1 slot",
-        "Can only be used up to 6 times"
+        "Can only be used up to 12 times"
       ]
     }
   },
@@ -8065,7 +8065,7 @@
     "grade": 3,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.0125,
+    "droprate": 0.016,
     "required_by": [
       "Winter's Heart",
       "Meacronacer, the Sword of Thousand Illusions",
@@ -8985,7 +8985,7 @@
     "type": "Wings",
     "color": "99FF99",
     "level": 100,
-    "droprate": 0.004,
+    "droprate": 0.005,
     "required_by": [
       "Bag of Despair",
       "Nevedium, the Armor of Demonblood",
@@ -9030,7 +9030,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.006,
+    "droprate": 0.0066,
     "required_by": [
       "Ring of Hope",
       "Ring of Despair",
@@ -9071,7 +9071,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.006,
+    "droprate": 0.0066,
     "required_by": [
       "Hood of Apocalypse",
       "Power of Beriel",
@@ -9110,7 +9110,7 @@
     "grade": 4,
     "type": "Material",
     "color": "FFFFFF",
-    "droprate": 0.006,
+    "droprate": 0.0066,
     "required_by": [
       "Radiance of the One",
       "Crown of Absolute Zero",
@@ -22159,7 +22159,7 @@
     "stats": {
       "allstat": 345,
       "affinityiwpercent": 0.05,
-      "affinityflamepercent": 0.05,
+      "affinityearthpercent": 0.05,
       "affinitywlpercent": 0.05,
       "passive": [
         "Increases nearby allies' healing received by 15%"
@@ -22311,7 +22311,7 @@
         "On use, activates Soul Devour",
         "Cleanses debuffs from user",
         "Heals (40% max HP)",
-        "Cooldown: 28 seconds"
+        "Cooldown: 30 seconds"
       ],
       "spec": [
         "Specialty - Soul Devour",
@@ -22519,8 +22519,8 @@
       "passive": [
         "On attack, leaves a Mark",
         "Mark spawns from a random direction",
-        "Striking the Mark from the same direction will proc and deal (ATK DMG X 3.5) magic damage",
-        "Proccing the mark will increase damage gained from this weapon and the proc damage by 10%",
+        "Striking the Mark from the same direction will proc and deal (ATK DMG X 4) magic damage",
+        "Proccing the mark will increase damage gained from this weapon and the proc damage by 1250",
         "You can only assign mark to a single target at a time, and proccing the mark places this effect on 10 second cooldown"
       ],
       "active": [
@@ -23029,7 +23029,7 @@
       "skilldamagepercent": 0.2,
       "passive": [
         "Activates Weaponized Light every 7.5 seconds",
-        "Empowers next 5 attacks with (AD X 0.5 + AGI X 5) additional magic damage and increasing your skill damage dealt to target by 5% for 3 seconds"
+        "Empowers next 5 attacks with (AD X 0.5 + AGI X 5) additional magic damage and increasing your skill damage dealt to target by 6% for 3 seconds"
       ],
       "active": [
         "On use, activates Light Bombardment",
@@ -25545,7 +25545,7 @@
     ],
     "stats": {
       "allstat": 420,
-      "affinityflamepercent": 0.075,
+      "affinityearthpercent": 0.075,
       "affinityiwpercent": 0.075,
       "affinitywlpercent": 0.075,
       "passive": [
@@ -25596,7 +25596,7 @@
       "active": [
         "On use, activates Soul Devour",
         "Clears all debuffs and heals you for 40% of max HP",
-        "Cooldown: 28 seconds"
+        "Cooldown: 30 seconds"
       ]
     }
   },

@@ -1,5 +1,379 @@
 [
     {
+        "name": "69e",
+        "notes": [
+            "Released on: December 22nd, 2024",
+            "Compatible Version: v0.62s ~"
+        ],
+        "bugs": [
+            "Fixed issue with glitch in event drop rate",
+            "Cosmetic items can now be destroyed once again. Please destroy any direct event drops (excluding Snow Crystals) from v0.69c if you have obtained them, as they will be invalidated. Refer to announcements for more information."
+        ]
+    },
+    {
+        "name": "69c",
+        "notes": [
+            "Released on: December 21st, 2024",
+            "Compatible Version: v0.62s ~"
+        ],
+        "bugs": [
+            "Fixed issue with some skills not working properly on Reforged",
+            "Fixed issue with logs for some event items not being displayed properly when saving"
+        ],
+        "events": [
+            "Christmas Giant - Skill hotkey changed from A to M (so that heroes without attack ability can use it)"
+        ],
+        "misc": [
+            "Removed option to delete closet items (to prevent accidental deletions of items)"
+        ]
+    },
+    {
+        "name": "69b",
+        "notes": [
+            "Released on: December 20th, 2024",
+            "Compatible Version: v0.62s ~"
+        ],
+        "bugs": [
+            "Fixed issue with some event items not dropping properly.",
+            "Also increased chance of non-token rewards dropping."
+        ]
+    },
+    {
+        "name": "69a",
+        "notes": [
+            "Released on: December 20th, 2024",
+            "Compatible Version: v0.62s ~"
+        ],
+        "bugs": [
+            "Alchemist - Fixed issue with causing inconsistent creep aggro when using skills",
+            "Arch Druid Robe - Fixed issue with item showing incorrect stacks after usage",
+            "Priest / Witch - Fixed issue where summon would still die under effect of 'Prevent HP from dropping below 1'",
+            "Fixed description error on some skills"
+        ],
+        "events": [
+            "Winter Event is active from 2024/12/20 ~ 2025/01/26"
+        ],
+        "items": [
+            {
+                "name": "Storage Expansion Coupon",
+                "changes": [
+                    "Max usage limit per character 6 → 12"
+                ]
+            },
+            {
+                "name": "New Items added",
+                "changes": [
+                    "Godslayer Signet",
+                    "Celestial Wind",
+                    "(and adjustments of previously added ones)"
+                ]
+            }
+        ],
+        "monsters": [
+            {
+                "name": "Shadow Dragon",
+                "changes": [
+                    "Frozen Debris drop rate 1.25% → 1.60%"
+                ]
+            },
+            {
+                "name": "Underlord Agareth",
+                "changes": [
+                    "Green drop rate 0.4% → 0.5%",
+                    "White drop rate 0.6% → 0.66%"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Lightseeker",
+                "changes": [
+                    "W - Fire delay slightly reduced",
+                    "F - Cooldown 120s → 90s"
+                ]
+            },
+            {
+                "name": "Dark Knight",
+                "changes": [
+                    "F - Cooldown 120s → 90s, duration 4s → 3s"
+                ]
+            },
+            {
+                "name": "Paladin",
+                "changes": [
+                    "F - Cooldown 120s → 90s, damage per second AD X 2.5 + STR X 40 → AD X 4 + STR X 50,",
+                    "duration/buff duration 4s → 3s, healing is now only applied in INT main stat"
+                ]
+            },
+            {
+                "name": "Berserker",
+                "changes": [
+                    "T - Duration is now displayed on mana bar instead of text"
+                ]
+            },
+            {
+                "name": "Fighter",
+                "changes": [
+                    "F - Cooldown 120s → 90s"
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "W - Empowerment will now increase AoE a bit as well"
+                ]
+            },
+            {
+                "name": "Swordsman",
+                "changes": [
+                    "R - Will now load with full stacks on load",
+                    "F - Cooldown 120s → 90s"
+                ]
+            },
+            {
+                "name": "Phantom Blade",
+                "changes": [
+                    "F - Cooldown 120s → 90s"
+                ]
+            },
+            {
+                "name": "Sniper",
+                "changes": [
+                    "R - Will now load with full stacks on load",
+                    "F - Cooldown 120s → 90s"
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "F - Cooldown 120s → 90s"
+                ]
+            },
+            {
+                "name": "Gunner",
+                "changes": [
+                    "Q - Removed knockback on enhanced attack"
+                ]
+            },
+            {
+                "name": "Assassin",
+                "changes": [
+                    "F - Cooldown 120s → 90s"
+                ]
+            },
+            {
+                "name": "Shooter",
+                "changes": [
+                    "E - INT main stat: Shield break effect added",
+                    "T - INT main stat: Active missiles will pierce enemies and heal allies for INT X 0.75"
+                ]
+            },
+            {
+                "name": "Priest",
+                "changes": [
+                    "F - Cooldown 120s → 90s, duration 30s → 20s"
+                ]
+            },
+            {
+                "name": "Wind Mage",
+                "changes": [
+                    "F - Cooldown 100s → 90s, duration 50s → 45s"
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "F - Cooldown 100s → 90s"
+                ]
+            },
+            {
+                "name": "Soulweaver",
+                "changes": [
+                    "F - Cooldown 120s → 90s"
+                ]
+            },
+            {
+                "name": "Bloodweaver",
+                "changes": [
+                    "F - Cooldown 120s → 90s, damage per spear AD X 0.7 + Max HP X 1.5 → AD X 0.6 + Max HP X 1.3"
+                ]
+            },
+            {
+                "name": "Shrine Priestess",
+                "changes": [
+                    "F - Cooldown 120s → 90s"
+                ]
+            },
+            {
+                "name": "Witch",
+                "changes": [
+                    "F - Cooldown 120s → 90s, duration 8s → 7s"
+                ]
+            },
+            {
+                "name": "Warlock",
+                "changes": [
+                    "F - Cooldown 120s → 90s"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "68v2",
+        "notes": [
+            "Released on: November 26th, 2024",
+            "Compatible Version: v0.62s ~"
+        ],
+        "bugs": [
+            "Caedis, the Sword of Slaughter - Fixed issue where mark doesn't proc under certain circumstances",
+            "Fixed issue where some chars would lose color/transparency upon casting some skills",
+            "Fixed issue with title distribution",
+            "Fixed issue with HP bar size on some skins",
+            "Fixed issue with new items"
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "W - No longer procs 'on skill cast' effects (rollback of previous patch)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "68v",
+        "notes": [
+            "Released on: November 24th, 2024",
+            "Compatible Version: v0.62s ~"
+        ],
+        "bugs": [
+            "Sword Saint - E - Fixed issue where skill was still failing to negate some debuffs",
+            "Elementalist - Fixed bug where summons would be resummoned with debuffs applied before unsummoning",
+            "Soul Torch - Fixed issue with item active having unlimited range",
+            "Protection of the Fairies - Fixed issue with cooldown glitching out (now works similarly like Thread of Life)"
+        ],
+        "events": [
+            "Halloween event is deactivated from this version"
+        ],
+        "items": [
+            {
+                "name": "Caedis, the Sword of Slaughter",
+                "changes": [
+                    "Passive",
+                    [
+                        "Damage changed from AD X 3.5 → AD X 4",
+                        "Stack increases AD/proc damage by 10% → AD by 1250"
+                    ]
+                ]
+            },
+            {
+                "name": "Divine Vein",
+                "changes": [
+                    "Passive",
+                    [
+                        "Skill damage increase - 5% → 6%"
+                    ],
+                    "Active",
+                    [
+                        "Increased casting range"
+                    ]
+                ]
+            },
+            {
+                "name": "Protection of the Fairies / Thread of Life",
+                "changes": [
+                    "Fire attribute efficiency → Earth attribute efficiency"
+                ]
+            },
+            {
+                "name": "Soul Devourer / Blood Devourer",
+                "changes": [
+                    "Cooldown - 28s → 30s"
+                ]
+            },
+            {
+                "name": "New Items added",
+                "changes": [
+                    "Ordius, the Divine Lance",
+                    "Heart of Lion",
+                    "Illumination",
+                    "Apocalypse Prime",
+                    "Dawn Plates",
+                    "Plates of Divine Blood",
+                    "Primal Flame",
+                    "Coil of Ouroboros",
+                    "(these items, along with prior additions, will undergo continuous adjustments and testing before release)"
+                ]
+            }
+        ],
+        "heroes": [
+            {
+                "name": "Fighter",
+                "changes": [
+                    "W",
+                    [
+                        "Now triggers 'on skill cast' effects"
+                    ]
+                ]
+            },
+            {
+                "name": "Lancer",
+                "changes": [
+                    "F",
+                    [
+                        "Slightly reduced casting time"
+                    ]
+                ]
+            },
+            {
+                "name": "Trickster",
+                "changes": [
+                    "D",
+                    [
+                        "Illusion now takes 40% reduced damage"
+                    ],
+                    "R",
+                    [
+                        "Now grants 40% reduction for 1.5 seconds upon teleporting to a card"
+                    ]
+                ]
+            },
+            {
+                "name": "Lightning Mage",
+                "changes": [
+                    "E",
+                    [
+                        "Now immediately absorbs any orbs directly underneath on cast",
+                        "(this fixes issue where quickly casting ET resulted in unenhanced T)"
+                    ]
+                ]
+            },
+            {
+                "name": "Bloodweaver",
+                "changes": [
+                    "D",
+                    [
+                        "Now loads into game with full blood gauge"
+                    ]
+                ]
+            },
+            {
+                "name": "Elementalist",
+                "changes": [
+                    "T",
+                    [
+                        "Cooldown 5s → 4s",
+                        "No longer triggers 'on skill cast' effects"
+                    ]
+                ]
+            }
+        ],
+        "misc": [
+            "'On skill cast' effects will now trigger before actual skill activates",
+            "(This means that any stat bonus gained from passive effects of items will properly apply to actual skill casts)"
+        ]
+    },
+    {
         "name": "68u2",
         "notes": [
             "Released on: November 12th, 2024",
