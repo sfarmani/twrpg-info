@@ -22658,12 +22658,13 @@
       "passive": [
         "Chance to activate Umbral Edge on attack",
         "12% chance to deal (STR + AGI) X 6 magic damage to target",
-        "Every 4th attack crits and builds a stack of Shadow Waltz (up to 5 stacks)"
+        "Every 4th attack crits"
       ],
       "active": [
         "On use, activates Shadow Waltz",
-        "Consumes all stacks and for (1 X consumed stack) seconds, gains surge in movement speed",
-        "Attacks will deal 7500 bonus magic damage and attacks/resulting proc effects deal 12% bonus damage",
+        "Consumes all stacks and increases movement speed for (1 X stack) seconds",
+        "While active, your basic attacks deal 7500 increased damage, and proc damage is increased by 10%",
+        "While not on cooldown, gains 1 stack every 5 seconds (up to 4 stacks)",
         "Cooldown: 5 seconds"
       ]
     }
@@ -22754,7 +22755,7 @@
       "periodicdamagepercent": 0.1,
       "affinityflamepercent": 0.075,
       "passive": [
-        "Empowers next attack with Brilliance of the Sun every 3 seconds",
+        "Empowers next attack with Brilliance of the Sun every 2 seconds",
         "Next attack deals (ATK DMG X 0.3 + STR X 6) magic damage in AoE",
         "Grants Rising Sun, increasing ATK DMG by 250 and STR by 30 (stacks up to 15 times)",
         "Trigger interval is reduced down to 2 seconds based on lost HP"
@@ -25096,6 +25097,7 @@
     ],
     "stats": {
       "agi": 240,
+      "str": 240,
       "int": 480,
       "mp": 5000,
       "skilldamagepercent": 0.12,

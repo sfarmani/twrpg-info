@@ -4,12 +4,12 @@
         "type": "Early Game",
         "order": 1,
         "stat": "STR",
-        "version": "65b",
+        "version": "69u2",
         "items": {
             "Anger": [],
             "Archangel Halo": [],
-            "Ring of Nightmare": [],
-            "Reactive Armor": [],
+            "Purefrost Gauntlet": [],
+            "Flameshard Armor": [],
             "Cape of Corrupt Flame": []
         }
     },
@@ -18,12 +18,12 @@
         "type": "Mid Game",
         "order": 2,
         "stat": "STR",
-        "version": "65b",
+        "version": "69u2",
         "items": {
             "Oblivion": [],
             "Halo of Judgment": [],
-            "Ring of Strike": [],
-            "Hellspike Armor": [],
+            "Purefrost Gauntlet": [],
+            "Frostshard Armor": [],
             "Cloak of the Fallen Shadows": []
         }
     },
@@ -32,12 +32,12 @@
         "type": "Late Game",
         "order": 3,
         "stat": "STR",
-        "version": "65b",
+        "version": "69u2",
         "items": {
             "The Ender": [],
             "Radiance of the One": [],
-            "Ring of Insanity": [],
-            "Felspike Armor": [],
+            "Demonic Fist": [],
+            "Voidshard Armor": [],
             "Cape of Deep Abyss": []
         }
     },
@@ -46,13 +46,30 @@
         "type": "End Game",
         "order": 4,
         "stat": "STR",
-        "version": "65b",
+        "version": "69u2",
+        "description": [
+            "Can skip the wings and ring"
+        ],
         "items": {
             "Heartrender": [],
             "Visage of Vengeance": [],
             "Crimson Curse": [],
-            "Titan's Plates": [],
+            "Dread's Incarnate": [],
             "Wings of Sacred Provenance": []
+        }
+    },
+    {
+        "for": "Berserker",
+        "type": "Styrix",
+        "order": 4,
+        "stat": "STR",
+        "version": "69u2",
+        "items": {
+            "Blazing Sun": [],
+            "Diabolic Mask": [],
+            "Soul Fist": [],
+            "Dread's Incarnate": [],
+            "Wings of the Void": []
         }
     },
     {
@@ -524,33 +541,74 @@
     },
     {
         "for": "Paladin",
-        "type": "DPS",
+        "type": "DPS - Early",
         "order": 1,
         "stat": "STR",
-        "version": "67b",
+        "version": "69u2",
         "description": [
-            "Use Caedis, the Sword of Slaughter/Heartrender till Lightbringer/World Sunderer",
-            "World Sunderer + Soulstorm if you prefer not to more autoattack between combo"
+            "Aglaia as placeholder till The Ender --> Calamity"
         ],
         "guidelink": [
             "https://docs.google.com/document/d/1EnuHRDRr8yJAlMbap_kxu0kshbEWgrJjzcO0u8_lvG0/edit?usp=sharing"
         ],
         "items": {
-            "Lightbringer": [
-                "World Sunderer"
+            "Calamity": [
+                "Aglaia, the Spear of Heavenly Flows"
             ],
-            "Eye of Annihilation": [],
-            "Soul Fist": [],
+            "Horn of Demon God": [],
+            "Demonic Fist": [],
+            "Felspike Armor": [],
+            "Wings of Flame Lord": []
+        }
+    },
+    {
+        "for": "Paladin",
+        "type": "DPS - Gaia",
+        "order": 2,
+        "stat": "STR",
+        "version": "69u2",
+        "description": [
+            "It is highly recommend to check the guide for detail and follow this list until Styrix",
+            "You can use Wings of Flame Lord instead"
+        ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1EnuHRDRr8yJAlMbap_kxu0kshbEWgrJjzcO0u8_lvG0/edit?usp=sharing"
+        ],
+        "items": {
+            "Caedis, the Sword of Slaughter": [],
+            "Horn of Dragon": [],
+            "Demonic Fist": [],
             "Titan's Plates": [],
-            "Embrace of Death": [
-                "Soulstorm"
+            "Cape of Insatiable Hunger": [
+                "Wings of Flame Lord"
             ]
         }
     },
     {
         "for": "Paladin",
+        "type": "DPS - Gaia",
+        "order": 3,
+        "stat": "STR",
+        "version": "69u2",
+        "description": [
+            "Paladin Final Build only if you complete Gaia tier",
+            "If you try to look for gearing Paladin from zero, please consider skipping this and look for build that up to arcane construct instead or check the guide below"
+        ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1EnuHRDRr8yJAlMbap_kxu0kshbEWgrJjzcO0u8_lvG0/edit?usp=sharing"
+        ],
+        "items": {
+            "World Sunderer": [],
+            "Eye of Annihilation": [],
+            "Soul Fist": [],
+            "Titan's Plates": [],
+            "Living Flame": []
+        }
+    },
+    {
+        "for": "Paladin",
         "type": "Support",
-        "order": 2,
+        "order": 4,
         "stat": "INT",
         "version": "67b",
         "description": [
@@ -701,134 +759,50 @@
     },
     {
         "for": "Bow Master",
-        "type": "Early Game",
+        "type": "End Game (Divine Vein)",
         "order": 1,
         "stat": "AGI",
-        "version": "65b",
+        "version": "69u2",
         "description": [
-            "Bow Master has multiple cohesive builds. Please check the end game builds if you're confused by any of these paths."
+            "Advantages: good burst",
+            "Disadvantages: bad dps",
+            "For gear progression just follow the predecessor items of the build you want to make. My recommended progression is :",
+            "Weapon: Frostbane -> Everfrostbane -> Pheles bow of god -> Soulbane -> agnitus -> Dvein",
+            "Armor: Just follow astral fury path ditectly",
+            "Ring: Use Demonic fist path for pheles and agnitus build and use Ring of the One Path for soulbane build",
+            "Wings: Follow the bstorm path for agnitus and wings of night lord path for soulbane",
+            "Helmet: Follow the Eye of the reaper path for both builds"
         ],
         "items": {
-            "Stalker": [
-                "Frostbane",
-                "Flame Explosion"
-            ],
-            "Grim Visage": [],
-            "Heart of Ifrit": [
-                "Ring of the Reaper",
-                "Ring of Nightmare"
-            ],
-            "Vest of Cyclone": [],
-            "Slayer Boots": [
-                "Wings of Fury"
-            ]
+            "Divine Vein": [],
+            "Harvester's Mask": [],
+            "Ring of Genesis": [],
+            "Astral Fury": [],
+            "Embrace of Death": []
         }
     },
     {
         "for": "Bow Master",
-        "type": "Mid Game",
+        "type": "End Game (Agnitus)",
         "order": 2,
         "stat": "AGI",
-        "version": "65b",
+        "version": "69u2",
         "description": [
-            "If you're planning on going Agnitus and want to skip the Crimson Curse line, you can keep Heart of Ifrit until Heaven's Fist.",
-            "If you're planning on going Agnitus, you can sit on Slayer Boots until Storm."
-        ],
-        "items": {
-            "Pheles, the Bow of Skies": [
-                "Everfrostbane",
-                "Hellflame"
-            ],
-            "Eye of Wallachia": [],
-            "Ring of Strike": [
-                "Cold Ring of Death"
-            ],
-            "Vest of Storm": [],
-            "Wings of Slayer": []
-        }
-    },
-    {
-        "for": "Bow Master",
-        "type": "Late Game",
-        "order": 3,
-        "stat": "AGI",
-        "version": "65b",
-        "description": [
-            "Agnitus - While Demonic Fist at this point is better than Ring of Insanity, Crimson Curse will outpace it in the end game."
-        ],
-        "items": {
-            "Pheles, the Bow of God": [
-                "Soulbane",
-                "Eternal Flame"
-            ],
-            "Eye of the Reaper": [],
-            "Demonic Fist": [
-                "Ring of Insanity",
-                "Ring of Frozen Soul"
-            ],
-            "Vest of Divine Winds": [],
-            "Storm": [
-                "Wings of Night Lord"
-            ]
-        }
-    },
-    {
-        "for": "Bow Master",
-        "type": "End Game - Agnitus",
-        "order": 4,
-        "stat": "AGI",
-        "version": "65b",
-        "description": [
-            "This is currently the BiS build that focuses heavily on DPS and is very consistent in such."
+            "Advantages: higher dps",
+            "Disadvantages: Very bad burst",
+            "For gear progression just follow the predecessor items of the build you want to make. My recommended progression is :",
+            "Weapon: Frostbane -> Everfrostbane -> Pheles bow of god -> Soulbane -> agnitus -> Dvein",
+            "Armor: Just follow astral fury path ditectly",
+            "Ring: Use Demonic fist path for pheles and agnitus build and use Ring of the One Path for soulbane build",
+            "Wings: Follow the bstorm path for agnitus and wings of night lord path for soulbane",
+            "Helmet: Follow the Eye of the reaper path for both builds"
         ],
         "items": {
             "Agnitus, the Bow of Divine Fury": [],
-            "Eye of the Reaper": [],
-            "Demonic Fist": [
-                "Crimson Curse"
-            ],
+            "Harvester's Mask": [],
+            "Soul Fist": [],
             "Astral Fury": [],
-            "Bloodstorm": []
-        }
-    },
-    {
-        "for": "Bow Master",
-        "type": "End Game - Spirit Flame",
-        "order": 5,
-        "stat": "AGI",
-        "version": "65b",
-        "description": [
-            "While this build is worse than Agnitus, it can perform competitively and does well on long fights, such as Gaia.",
-            "Technically, Crown of Cataclysm & Wings of Sacred Provenance are better for this build",
-            "However, they are generally far more expensive and due to some new items that are on the way, it's advised against these unless you have nothing else to farm."
-        ],
-        "items": {
-            "Spirit Flame": [],
-            "Eye of the Reaper": [
-                "Crown of Cataclysm"
-            ],
-            "Ring of Desolate Soul": [],
-            "Astral Fury": [],
-            "Wings of Night Lord": [
-                "Wings of Sacred Provenance"
-            ]
-        }
-    },
-    {
-        "for": "Bow Master",
-        "type": "End Game - Soulbane",
-        "order": 6,
-        "stat": "AGI",
-        "version": "65b",
-        "description": [
-            "Currently, this build is far behind the other two once you hit end game. While it is the strongest with Agareth drops, it simply doesn't have the upgrades past that to compete."
-        ],
-        "items": {
-            "Soulbane": [],
-            "Eye of the Reaper": [],
-            "Ring of Desolate Soul": [],
-            "Astral Fury": [],
-            "Wings of Night Lord": []
+            "Soulstorm": []
         }
     },
     {
@@ -951,88 +925,102 @@
     },
     {
         "for": "Hermit",
-        "type": "STR Full Support",
+        "type": "Support - Mid (SK - SDI Gear)",
         "order": 1,
-        "stat": "STR",
-        "version": "59z",
-        "guidelink": [
-            "https://docs.google.com/document/d/1xJGcGKLWDBu8iDUAcjknk1QRK34MYfPMnFRphjuLo3g/edit?usp=sharing"
-        ],
-        "description": [
-            "For more heals, look at the INT Full Support build",
-            "If your team uses serenity, then you can switch to another helm",
-            "Use deep abyss as a fill in"
-        ],
+        "stat": "INT",
+        "version": "69e",
         "items": {
-            "Eternal Winter": [
-                "Heaven's Door"
+            "Staff of Abyss": [
+                "Winter's Heart"
             ],
-            "Crown of Cleansing": [
-                "Spirit of Protector"
+            "Crown of Serenity": [
+                "Protector's Will",
+                "Void Eye"
             ],
-            "Ring of Hope": [],
-            "Harmony of Sky and Earth": [
-                "Cage of Twisted Souls"
+            "Ring of Fervor": [
+                "Eternal Rose",
+                "Ispion, the Runed Ring"
             ],
-            "Protection of the Fairies": [
-                "Cape of Deep Abyss",
-                "Guardian Angel"
+            "Diana, Robe of the Holy Maiden": [
+                "Creation of the Sky and Earth"
+            ],
+            "Embrace of Nature": [
+                "Cloak of the Fallen Shadows"
             ]
         }
     },
     {
         "for": "Hermit",
-        "type": "INT Full Support",
+        "type": "Support - Late (Tower - Agareth Gear)",
         "order": 2,
         "stat": "INT",
-        "version": "60o",
-        "guidelink": [
-            "https://docs.google.com/document/d/1xJGcGKLWDBu8iDUAcjknk1QRK34MYfPMnFRphjuLo3g/edit?usp=sharing"
-        ],
-        "description": [
-            "For more protection, look at the STR Full Support build",
-            "If your team uses serenity/RoH/Jupiter, then you can switch to an alt helm for more buff/debuff variants",
-            "Use Heaven's Door for lowman",
-            "Use Harmonia for healing if no healer present (such as priest)"
-        ],
+        "version": "69e",
         "items": {
             "Soul of Abyss": [
                 "Heaven's Door",
-                "Harmonia, the Sparkle of Life"
+                "Eternal Winter"
             ],
-            "Crown of Cleansing": [
-                "Hood of Apocalypse",
+            "Crown of Serenity": [
+                "Spirit of Protector",
                 "Eye of the Flame Lord"
             ],
             "Ring of Hope": [
-                "Heirloom of Lazarus"
+                "Nebula Rose",
+                "Ispion, the Runed Ring"
             ],
-            "Jupiter, the Robe of Heavens": [
-                "Frost Herald's Garment"
+            "Jupiter, Robe of the Heavens": [
+                "Harmony of Sky and Earth"
             ],
             "Protection of the Fairies": [
-                "Guardian Angel"
+                "Cape of Deep Abyss"
+            ]
+        }
+    },
+    {
+        "for": "Hermit",
+        "type": "End - Late (Duke - Styrix Gear)",
+        "order": 3,
+        "stat": "INT",
+        "version": "69e",
+        "description": [
+            "Main Options items are the Best in Slot for him, while the Alternative Option is to min-max the buff/debuff for your team",
+            "Eternal Winter (or its downgrade version) is an situational weapon that is only good for mech that needs break such as Valtora Armor Break, Ifrit Golems Armor Break, Nereid Bubble Break, Agareth Crystal Break, Gaia Bomb Break, Styrix Flying Disks break",
+            "Harmony of Sky and Earth and Keeper of the Grove (or its downgrade version) is an situational items that is only good for mech that could potentially wipe out your team or mech that deals big dmg such as DF 20%, Valtora Orbs, Ifrit Bomb/s, Agareth Boom, Duke Boom, Gaia Boom, Arcane Construct Threat Suppression, Styrix Die"
+        ],
+        "items": {
+            "Gate of Abyss": [
+                "Aeon Sphere",
+                "Eternal Winter"
+            ],
+            "Crown of Cleansing": [
+                "Eye of the Blood God",
+                "Keeper of the Grove"
+            ],
+            "Bell of Divinity": [
+                "Divine Rose",
+                "Heirloom of Lazarus"
+            ],
+            "Archdruid Robe": [
+                "Frost Herald's Garment",
+                "Divine Aegis"
+            ],
+            "Thread of Life": [
+                "Wings of the Void"
             ]
         }
     },
     {
         "for": "Hermit",
         "type": "AGI Full DPS",
-        "order": 3,
+        "order": 4,
         "stat": "AGI",
-        "version": "59z",
-        "description": [
-            "For full support builds, check out the first two builds",
-            "Use Cage as a fill in for your team"
-        ],
+        "version": "69u2",
         "items": {
-            "Divine Slayer": [],
-            "Eye of the Reaper": [
-                "Visage of Vengeance"
-            ],
-            "Ring of Insanity": [],
-            "Vest of Divine Winds": [],
-            "Ruler of the Skies": []
+            "Shadow Waltz": [],
+            "Eye of Annihilation": [],
+            "Crimson Curse": [],
+            "Astral Fury": [],
+            "Wings of the Void": []
         }
     },
     {
@@ -1040,11 +1028,11 @@
         "type": "DPS - Early",
         "order": 1,
         "stat": "AGI",
-        "version": "61x",
+        "version": "69e",
         "items": {
             "Claws of Destruction": [],
-            "Grim Visage": [],
-            "Ring of Nightmare": [],
+            "Helm of Battle": [],
+            "Heart of Ifrit": [],
             "Guardian Vest": [],
             "Cape of Corrupt Flame": []
         }
@@ -1054,11 +1042,13 @@
         "type": "DPS - Mid",
         "order": 2,
         "stat": "AGI",
-        "version": "61x",
+        "version": "69e",
         "items": {
-            "Claws of Beriel": [],
-            "Eye of Wallachia": [],
-            "Ring of Strike": [],
+            "Claws of Beriel": [
+                "Espishu, the Sword of Eternity"
+            ],
+            "Halo of Judgment": [],
+            "Heart of Ifrit": [],
             "Grandine, the Plates of Wraith": [],
             "Cloak of the Fallen Shadows": []
         }
@@ -1068,13 +1058,15 @@
         "type": "DPS - Late",
         "order": 3,
         "stat": "AGI",
-        "version": "61x",
+        "version": "69e",
         "items": {
-            "Maw of Beriel": [],
-            "Eye of Wallachia": [],
-            "Ring of Insanity": [],
+            "Power of Beriel": [
+                "Espishu, the Sword of Chaos"
+            ],
+            "Radiance of the One": [],
+            "Demonic Fist": [],
             "Athanasia, the Armor of the Reaper": [],
-            "Cloak of the Fallen Shadows": []
+            "Cape of Deep Abyss": []
         }
     },
     {
@@ -1084,21 +1076,18 @@
         "stat": "AGI",
         "version": "60u",
         "description": [
-            "The use of Nevedium is for a more advanced build. It can increase your overall dps, but it may not be useful for beginners"
+            "Harvester for Burst",
+            "Swap to Living Flame if Wings of the Void was taken"
         ],
         "items": {
-            "Caedis, the Sword of Slaughter": [
-                "Power of Beriel"
+            "Shadow Waltz": [],
+            "Diabolic Mask": [
+                "Harvester's Mask"
             ],
-            "Eye of the Reaper": [],
-            "Crimson Curse": [
-                "Demonic Fist"
-            ],
-            "Exitium, the Armor of Ruin": [
-                "Nevedium, the Armor of Demonblood"
-            ],
-            "Cape of Deep Abyss": [
-                "Wings of Flame Lord"
+            "Soul Fist": [],
+            "Exitium, the Armor of Ruin": [],
+            "Wings of the Void": [
+                "Living Flame"
             ]
         }
     },
@@ -1107,7 +1096,7 @@
         "type": "Early Game",
         "order": 1,
         "stat": "AGI",
-        "version": "59a",
+        "version": "69u2",
         "description": [
             "Minor Bosses",
             "Item in brackets are fillers."
@@ -1131,39 +1120,11 @@
         "type": "Mid Game",
         "order": 2,
         "stat": "AGI",
-        "version": "59a",
+        "version": "69u2",
         "description": [
             "Coin Bosses",
             "Item in brackets are fillers.",
-            "Ring of Resonance/Time/Fate for double T or Ring of Nightmare/Strike/Insanity for stronger hitting attack/spells but at the cost of RNG."
-        ],
-        "guidelink": [
-            "https://docs.google.com/document/d/1SizS_Kmm1SEw8vFKBNAzcZoXBs5tX2n9ytVCv6my4Qc/edit?usp=sharing"
-        ],
-        "items": {
-            "Storm Reaver": [],
-            "Grim Visage": [
-                "Archangel Halo",
-                "Helm of Battle"
-            ],
-            "Ring of Intrusion": [
-                "Ring of Nightmare"
-            ],
-            "Vest of Cyclone": [],
-            "Wings of Fury": []
-        }
-    },
-    {
-        "for": "Phantom Blade",
-        "type": "Late Game",
-        "order": 3,
-        "stat": "AGI",
-        "version": "59a",
-        "description": [
-            "SK ~ SD",
-            "Farm the items in the bracket first as they are easier to get.",
-            "Swap your armor based on what you need. Vest of Storm for damage and Grandine for survivability.",
-            "Ring of Resonance/Time/Fate for double T or Ring of Nightmare/Strike/Insanity for stronger hitting attack/spells but at the cost of RNG."
+            "Ring of Resonance/Time/Fate for double T"
         ],
         "guidelink": [
             "https://docs.google.com/document/d/1SizS_Kmm1SEw8vFKBNAzcZoXBs5tX2n9ytVCv6my4Qc/edit?usp=sharing"
@@ -1172,28 +1133,26 @@
             "Crimson Reaper": [
                 "Death Scythe"
             ],
-            "Eye of Wallachia": [
-                "Halo of Judgment"
-            ],
-            "Ring of Time": [
-                "Ring of Strike"
+            "Eye of Wallachia": [],
+            "Ring of Strike": [
+                "Ring of Time"
             ],
             "Vest of Storm": [
                 "Grandine, the Plates of Wraith"
             ],
-            "Wings of Slayer": []
+            "Storm": []
         }
     },
     {
         "for": "Phantom Blade",
-        "type": "Endgame",
-        "order": 4,
+        "type": "Late Game",
+        "order": 3,
         "stat": "AGI",
-        "version": "59a",
+        "version": "69u2",
         "description": [
-            "DF ~ Aga",
-            "Ring of Resonance/Time/Fate for double T or Ring of Nightmare/Strike/Insanity for stronger hitting attack/spells but at the cost of RNG.",
-            "Radiance of the One should only be crafted if you have finished your main items and have spare Mark of Lords."
+            "SK ~ SD",
+            "Farm the items in the bracket first as they are easier to get.",
+            "Ring of Resonance/Time/Fate for double T"
         ],
         "guidelink": [
             "https://docs.google.com/document/d/1SizS_Kmm1SEw8vFKBNAzcZoXBs5tX2n9ytVCv6my4Qc/edit?usp=sharing"
@@ -1202,45 +1161,69 @@
             "Cosmic Reaper": [
                 "The Ender"
             ],
-            "Eye of the Reaper": [
-                "Radiance of the One"
-            ],
-            "Ring of Fate": [
-                "Ring of Insanity"
+            "Eye of the Reaper": [],
+            "Ring of Insanity": [
+                "Ring of Fate",
+                "Ring of the One"
             ],
             "Vest of Divine Winds": [],
-            "Wings of Night Lord": [
-                "Storm"
-            ]
+            "Storm": []
         }
     },
     {
         "for": "Phantom Blade",
-        "type": "Omega Endgame",
-        "order": 5,
+        "type": "Endgame",
+        "order": 4,
         "stat": "AGI",
-        "version": "60v",
+        "version": "69u2",
         "description": [
-            "Duke+",
-            "The real exercise for fingering -3Years",
-            "9/10 would break my keyboard and fingers again -Ches",
-            "Ring of Resonance/Time/Fate/Eternity for double T or Ring of Nightmare/Strike/Insanity/Crimson Curse for stronger hitting attack/spells but at the cost of RNG."
+            "DF ~ Aga",
+            "Ring of Resonance/Time/Fate for double T",
+            "Radiance of the One should only be crafted if you have finished your main items and have spare Mark of Lords."
         ],
         "guidelink": [
             "https://docs.google.com/document/d/1SizS_Kmm1SEw8vFKBNAzcZoXBs5tX2n9ytVCv6my4Qc/edit?usp=sharing"
         ],
         "items": {
-            "Heartrender": [
-                "Divine Slayer"
+            "Divine Slayer": [
+                "Heartrender"
             ],
             "Eye of the Reaper": [],
-            "Crimson Curse": [
-                "Ring of Eternity"
+            "Ring of Malevolance": [
+                "Ring of Eternity",
+                "Crimson Curse"
             ],
             "Vest of Divine Winds": [],
-            "Bloodstorm": [
-                "Wings of Flame Lord"
-            ]
+            "Bloodstorm": []
+        }
+    },
+    {
+        "for": "Phantom Blade",
+        "type": "AC ~ Styrix",
+        "order": 5,
+        "stat": "AGI",
+        "version": "69u2",
+        "description": [
+            "Duke+",
+            "The real exercise for fingering -3Years",
+            "9/10 would break my keyboard and fingers again -Ches",
+            "Ring of Resonance/Time/Fate/Eternity for double T"
+        ],
+        "guidelink": [
+            "https://docs.google.com/document/d/1SizS_Kmm1SEw8vFKBNAzcZoXBs5tX2n9ytVCv6my4Qc/edit?usp=sharing"
+        ],
+        "items": {
+            "Duskblade": [
+                "Heartrender"
+            ],
+            "Harvester's Mask": [],
+            "Ring of Malevolance": [
+                "Ring of Eternity",
+                "Crimson Curse",
+                "Ring of Genesis"
+            ],
+            "Astral Fury": [],
+            "Soulstorm": []
         }
     },
     {
@@ -1535,21 +1518,16 @@
         "type": "Early Game",
         "order": 1,
         "stat": "AGI",
-        "version": "65b",
-        "description": [
-            "Use alternative wings if debuff stackable"
-        ],
+        "version": "69u2",
         "guidelink": [
             "https://docs.google.com/document/d/13bLpSo2DdbubW67Z1t9PVtJqsRWmQ9ZGDgZpjW_Cny0/edit?usp=sharing"
         ],
         "items": {
             "Asmodeus, the Archdevil's Greatsword": [],
-            "Horn of Devil": [],
+            "Archangel Halo": [],
             "Purefrost Gauntlet": [],
             "Vest of Cyclone": [],
-            "Wanderer's Cape": [
-                "Cape of Corrupt Flame"
-            ]
+            "Wanderer's Cape": []
         }
     },
     {
@@ -1557,21 +1535,19 @@
         "type": "Mid Game",
         "order": 2,
         "stat": "AGI",
-        "version": "65b",
+        "version": "69u2",
         "description": [
-            "Use alternative wings if debuff stackable"
+            "Alt helm is abit less damage but higher survivability and more secure burst"
         ],
         "guidelink": [
             "https://docs.google.com/document/d/13bLpSo2DdbubW67Z1t9PVtJqsRWmQ9ZGDgZpjW_Cny0/edit?usp=sharing"
         ],
         "items": {
             "Espishu, the Sword of Eternity": [],
-            "Horn of Devil": [],
-            "Ring of Strike": [],
+            "Halo of Judgment": [],
+            "Purefrost Gauntlet": [],
             "Vest of Storm": [],
-            "Wings of Phoenix": [
-                "Cloak of the Fallen shadows"
-            ]
+            "Wings of Phoenix": []
         }
     },
     {
@@ -1579,21 +1555,22 @@
         "type": "Late Game",
         "order": 3,
         "stat": "AGI",
-        "version": "65b",
+        "version": "69u2",
         "description": [
-            "Use alternative wings if debuff stackable"
+            "Alt helm is abit less damage but higher survivability and more secure burst"
         ],
         "guidelink": [
             "https://docs.google.com/document/d/13bLpSo2DdbubW67Z1t9PVtJqsRWmQ9ZGDgZpjW_Cny0/edit?usp=sharing"
         ],
         "items": {
-            "The Ender": [],
-            "Horn of Demon God": [],
+            "Espishu, the Sword of Chaos": [],
+            "Eye of the Reaper": [
+                "Horn of Devil",
+                "Radiance of the One"
+            ],
             "Demonic Fist": [],
             "Vest of Divine Winds": [],
-            "Wings of Flame Lord": [
-                "Cape of Deep Abyss"
-            ]
+            "Wings of Flame Lord": []
         }
     },
     {
@@ -1601,24 +1578,43 @@
         "type": "End Game",
         "order": 4,
         "stat": "AGI",
-        "version": "65b",
+        "version": "69u2",
         "description": [
-            "Crimson Curse is abit more damage but much less survivability, not worth the mats.",
-            "Use alternative wings if debuff stackable"
+            "Alt helm is abit less damage but higher survivability and more secure burst"
         ],
         "guidelink": [
             "https://docs.google.com/document/d/13bLpSo2DdbubW67Z1t9PVtJqsRWmQ9ZGDgZpjW_Cny0/edit?usp=sharing"
         ],
         "items": {
-            "Heartrender": [],
-            "Horn of Dragon": [],
-            "Demonic Fist": [
-                "Crimson Curse"
+            "Espishu, the True Sword of Chaos": [],
+            "Eye of the Reaper": [
+                "Visage of Vengeance"
             ],
+            "Demonic Fist": [],
             "Astral Fury": [],
-            "Wings of Flame Lord": [
-                "Cape of Deep Abyss"
-            ]
+            "Wings of Flame Lord": []
+        }
+    },
+    {
+        "for": "Sword Enchanter",
+        "type": "Styrix",
+        "order": 5,
+        "stat": "AGI",
+        "version": "69u2",
+        "description": [
+            "Alt helm is abit less damage but higher survivability and more secure burst"
+        ],
+        "guidelink": [
+            "https://docs.google.com/document/d/13bLpSo2DdbubW67Z1t9PVtJqsRWmQ9ZGDgZpjW_Cny0/edit?usp=sharing"
+        ],
+        "items": {
+            "Shadow Waltz": [],
+            "Harvester's Mask": [
+                "Diabolic Mask"
+            ],
+            "Soul Fist": [],
+            "Astral Fury": [],
+            "Living Flame": []
         }
     },
     {
@@ -1792,50 +1788,72 @@
     },
     {
         "for": "Trickster",
-        "type": "End Game DPS",
+        "type": "Early Game",
         "order": 1,
         "stat": "AGI",
-        "version": "62l2",
-        "description": [
-            "Using ring of the one if there is a lot of support/cleanses in group.",
-            "Using clone for items only work if clone stays alive; Otherwise the effects does not work.",
-            "Clone will not have the option for Heaven's Door. So your main will only have the Weapon.",
-            "Protection of the fairies good for end game runs where your team doesn't have enough revives."
-        ],
+        "version": "69u2",
         "items": {
-            "Divine Slayer": [],
-            "Horn of Dragon": [
-                "Eye of the Reaper"
-            ],
-            "Ring of Malevolence": [
-                "Ring of the One"
-            ],
-            "Exitium, the Armor of Ruin": [],
-            "Bloodstorm": [
-                "Protection of the fairies"
-            ]
+            "Tepethia, the Crimson Sword of Requiem": [],
+            "Horn of Devil": [],
+            "Ring of the Reaper": [],
+            "Vest of Cyclone": [],
+            "Slayer Boots": []
         }
     },
     {
         "for": "Trickster",
-        "type": "Optional Support",
+        "type": "Mid Game",
         "order": 2,
         "stat": "AGI",
-        "version": "62l2",
+        "version": "69u2",
         "items": {
-            "Eternal Winter": [
-                "Heaven's Door"
-            ],
-            "Crown of Cleansing": [
-                "Spirit of Protector"
-            ],
-            "Heart of Life": [
-                "Heirloom of Lazarus"
-            ],
-            "Harmony of Sky and Earth": [
-                "Jupiter, the Robe of Heavens"
-            ],
-            "Protection of the fairies": []
+            "Crimson Reaper": [],
+            "Horn of Devil": [],
+            "Cold Ring of Death": [],
+            "Vest of Storm": [],
+            "Slayer Boots": []
+        }
+    },
+    {
+        "for": "Trickster",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "AGI",
+        "version": "69u2",
+        "items": {
+            "Cosmic Reaper": [],
+            "Horn of Demon God": [],
+            "Ring of Frozen Soul": [],
+            "Vest of Divine Winds": [],
+            "Storm": []
+        }
+    },
+    {
+        "for": "Trickster",
+        "type": "End Game",
+        "order": 4,
+        "stat": "AGI",
+        "version": "69u2",
+        "items": {
+            "Divine Slayer": [],
+            "Horn of Dragon": [],
+            "Ring of Malevolence": [],
+            "Astral Fury": [],
+            "Bloodstorm": []
+        }
+    },
+    {
+        "for": "Trickster",
+        "type": "Styrix",
+        "order": 5,
+        "stat": "AGI",
+        "version": "69u2",
+        "items": {
+            "Duskblade": [],
+            "Eye of Annihilation": [],
+            "Ring of Malevolence": [],
+            "Astral Fury": [],
+            "Soulstorm": []
         }
     },
     {
@@ -2034,29 +2052,72 @@
     },
     {
         "for": "Arcane Mage",
-        "type": "DPS with support",
+        "type": "Early Game",
         "order": 1,
         "stat": "INT",
-        "version": "51b",
-        "guidelink": [
-            "https://docs.google.com/document/d/1xU6mbtDapoO8pdKIPZU6KkZrOExuD7sLMGWxLXVn5EA"
-        ],
-        "description": [
-            "Archangel wings and Crimson Hatred are \"bridge\" items before reach agareth and should not be main items",
-            "Accessory progression: Mana Heart Frost → Seal of Deceiver → Latea, the Ring of Overlord → Ring of the One"
-        ],
+        "version": "69u2",
         "items": {
-            "Ethenos, the Staff of Chaos": [
-                "Crimson Hatred"
-            ],
+            "Belius, the Archdevil's Staff": [],
+            "Prophetia, the Source of Mana": [],
+            "Latea, the Ring of Chaos": [],
+            "Frozen Robe": [],
+            "Fairy Wings": []
+        }
+    },
+    {
+        "for": "Arcane Mage",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "INT",
+        "version": "69u2",
+        "items": {
+            "Ethenos, the Staff of Space": [],
+            "Prophetia, the Greater Source of Mana": [],
+            "Latea, the Ring of Chaos": [],
+            "Medea, the Robe of the Witch": [],
+            "Frost Fairy Wings": []
+        }
+    },
+    {
+        "for": "Arcane Mage",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "INT",
+        "version": "69u2",
+        "items": {
+            "Ethenos, the Staff of Chaos": [],
             "Prophetia, the Origin of Knowledge": [],
-            "Ring of the One": [
-                "Ring of Fate"
-            ],
+            "Ring of the One": [],
             "Thanatos, the Robe of Hell": [],
-            "Wings of Frost Lord": [
-                "Archangel Wings"
-            ]
+            "Wings of Frost Lord": []
+        }
+    },
+    {
+        "for": "Arcane Mage",
+        "type": "End Game",
+        "order": 4,
+        "stat": "INT",
+        "version": "69u2",
+        "items": {
+            "Heartrender": [],
+            "Prophetia, the Origin of Knowledge": [],
+            "Ring of the One": [],
+            "Call of Gehenna": [],
+            "Wings of Frost Lord": []
+        }
+    },
+    {
+        "for": "Arcane Mage",
+        "type": "Styrix",
+        "order": 5,
+        "stat": "INT",
+        "version": "69u2",
+        "items": {
+            "Soul Torch": [],
+            "Prophetia, the Forbidden Truth": [],
+            "Chains of Torment": [],
+            "Call of Gehenna": [],
+            "Soul Breath": []
         }
     },
     {
@@ -2120,31 +2181,21 @@
         "type": "DPS",
         "order": 1,
         "stat": "INT",
-        "version": "38b",
+        "version": "69u2",
         "description": [
-            "Use Apocalypse for survival if needed, it comes with some support as well",
-            "Use Cold Ring of Death is someone else on your team has Horn of God for DPS",
-            "Use Winter Robe for survival if needed",
-            "Brave Heart is a defensive option if needed"
+            "Mixed with Support Items if needed",
+            "Soul Breath for more burst relevant",
+            "Wonder what item to craft? Just craft everything and use depend on needed"
         ],
         "items": {
-            "Chaos Dagger": [
-                "Staff of Plague"
+            "Soul Torch": [],
+            "Prophetia, the Forbidden Truth": [],
+            "Ring of Noble Souls": [],
+            "Call of Gehenna": [
+                "Sanguis, the Robe of Sacrifice"
             ],
-            "Eye of the Flame Lord": [
-                "Prophetia, the Greater Source of Mana",
-                "Hood of Apocalypse"
-            ],
-            "Ring of Divine Winds": [
-                "Horn of God",
-                "Cold Ring of Death"
-            ],
-            "Jupiter, the Robe of Heavens": [
-                "Winter Robe",
-                "Thanatos, the Robe of Hell"
-            ],
-            "Archangel Wings": [
-                "Brave Heart"
+            "Blood Devourer": [
+                "Soul Breath"
             ]
         }
     },
@@ -2153,29 +2204,31 @@
         "type": "Support",
         "order": 2,
         "stat": "INT",
-        "version": "38b",
+        "version": "69u2",
         "description": [
-            "Use Apocalypse for survival if needed, it comes with some support as well",
-            "Use Winter Robe for survival if needed",
-            "Brave Heart is a defensive option if needed"
+            "Follow Divine Aegis's path until the reaching main item at it final upgrade",
+            "Wonder what item to craft? Just craft everything and use depend on needed"
         ],
         "items": {
-            "Triple Snow": [
-                "Benziena, the Earthen Soul"
+            "Gate of Abyss": [
+                "Harmonia, the Sparkle of Life",
+                "Prelude to Demise",
+                "Chaos Dagger"
             ],
-            "Eye of the Flame Lord": [
-                "Prophetia, the Greater Source of Mana",
-                "Hood of Apocalypse"
+            "Crown of Cleansing": [
+                "Eye of the Blood God"
             ],
-            "Nebula Rose": [
-                "Horn of God"
+            "Heart of Life": [
+                "Divine Rose",
+                "Bell of Divinity",
+                "Ring of Despair",
+                "Ring of Divine Wind"
             ],
-            "Jupiter, the Robe of Heavens": [
-                "Winter Robe"
+            "Arch Druid Robe": [
+                "Frost Herald's Garment",
+                "Divine Aegis"
             ],
-            "Protection of the Fairies": [
-                "Brave Heart"
-            ]
+            "Thread of Life": []
         }
     },
     {
@@ -2672,55 +2725,130 @@
         "type": "Arcana",
         "order": 5,
         "stat": "INT",
-        "version": "60u",
-        "description": [
-            "Duke -> TBD",
-            "Ring of Desolate Soul provides higher consistent damage with a good defensive active, whereas Star provides a tremendous burst in stats for 10 seconds and an end explosion inflicting massive damage but has less overall stats when not active and a 90 second cooldown."
-        ],
+        "version": "69e",
         "items": {
             "Endless Snow": [],
-            "Crown of Transcendance": [],
-            "Ring of Desolate Soul": [
-                "Star of Apotheosis"
+            "Prophetia, the Forbidden Truth": [
+                "Crown of Transcendance"
+            ],
+            "Ring of Genesis": [
+                "Chains of Torment",
+                "Ring of Noble Soul"
             ],
             "Call of Gehenna": [
                 "Frost Herald's Garment"
             ],
-            "Wing of Frost Lord": []
+            "Soul Breath": []
         }
     },
     {
         "for": "Wind Mage",
-        "type": "Support",
+        "type": "Early Game",
         "order": 1,
         "stat": "INT",
-        "version": "67b",
+        "version": "69u2",
+        "items": {
+            "Staff of Madness": [],
+            "Void Eye": [],
+            "Oath of Courage": [],
+            "Fairy Robe": [],
+            "Frozen Heart": []
+        }
+    },
+    {
+        "for": "Wind Mage",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "INT",
+        "version": "69u2",
         "description": [
-            "Swap to Gate of Abyss > Chaos Dagger if there is a INT Paladin/Priest",
-            "Swap to Bell of Divinity > Heirloom of Lazarus > Heart of Life > Ring of Divine Wind if Divine Rose was taken by INT Hermit, swap Bell of Divinity to other ring if there is INT Paladin",
-            "Swap to Divine Aegis > Frost Herald's Garment if Arch Druid Robe was taken by INT Hermit or tell them to swap instead",
-            "Before Divine Rose, Bell of Divinity should be take priority",
-            "Before Arch Druid Robe, Jupiter should be take priority"
+            "Alternative items in case main item is used by another support"
+        ],
+        "items": {
+            "Staff of Abyss": [],
+            "Crown of Serenity": [],
+            "Ring of Fervor": [
+                "Eternal Rose"
+            ],
+            "Diana, the Robe of the Maiden": [],
+            "Soul of the Dead": []
+        }
+    },
+    {
+        "for": "Wind Mage",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "INT",
+        "version": "69u2",
+        "description": [
+            "Alternative items in case main item is used by another support"
+        ],
+        "items": {
+            "Heaven's Door": [
+                "Soul of Abyss",
+                "Chaos Dagger"
+            ],
+            "Crown of Serenity": [],
+            "Ring of hope": [
+                "Nebula Rose"
+            ],
+            "Jupiter, the Robe of Heavens": [
+                "Robe of Archlich"
+            ],
+            "Protection of the Fairies": []
+        }
+    },
+    {
+        "for": "Wind Mage",
+        "type": "End Game",
+        "order": 4,
+        "stat": "INT",
+        "version": "69u2",
+        "description": [
+            "Alternative items in case main item is used by another support"
+        ],
+        "items": {
+            "Heaven's Door": [
+                "Gate of Abyss"
+            ],
+            "Crown of Cleansing": [],
+            "Bell of Light": [
+                "Heart of Life",
+                "Heirloom of Lazarus"
+            ],
+            "Jupiter, the Robe of Heavens": [
+                "Robe of Archlich"
+            ],
+            "Thread of Life": [
+                "Guardian Angel"
+            ]
+        }
+    },
+    {
+        "for": "Wind Mage",
+        "type": "Styrix",
+        "order": 5,
+        "stat": "INT",
+        "version": "69u2",
+        "description": [
+            "Alternative items in case main item is used by another support"
         ],
         "items": {
             "Aeon Sphere": [
-                "Gate of Abyss",
-                "Chaos Dagger"
+                "Gate of Abyss"
             ],
             "Crown of Cleansing": [
                 "Eye of the Blood God"
             ],
             "Divine Rose": [
-                "Bell of Divinity",
-                "Heirloom of Lazarus",
-                "Heart of Life",
-                "Ring of Divine Winds"
+                "Bell of Divinity"
             ],
             "Arch Druid Robe": [
-                "Divine Aegis",
-                "Frost Herald's Garment"
+                "Divine Aegis"
             ],
-            "Thread of Life": []
+            "Thread of Life": [
+                "Guardian Angel"
+            ]
         }
     },
     {
@@ -2791,44 +2919,22 @@
     },
     {
         "for": "Witch",
-        "type": "Support",
+        "type": "End Game",
         "order": 5,
         "stat": "INT",
-        "version": "64g3",
+        "version": "69u2",
         "description": [
-			"Just use whatever the team needs/lacks",
-			"Heaven's Door for low man, Harmonia, Hood of Apocalypse, Guardian Angel and Brave Heart for the lack of healers",
-            "Eye of the Flame Lord if nobody else uses it on high man",
-            "Cage if there is nothing else to use, just take turns with its active ability",
-            "Guardian Angel if nobody else uses it"
+			"Any offensive Support items that come to mind works except for those that require healing/direct hit procs",
+            "Replace Main Items with some dr whenever you needed to swap as you are made of paper"
 		],
         "items": {
-            "Armageddon": [
-                "Harmonia, the Sparkle of Life",
-                "Heaven's Door",
-                "Chaos Dagger"
+            "Prelude to Demise": [],
+            "Echoes of the Void": [],
+            "Ring of Despair": [
+				"Ring of Eternity"
             ],
-            "Keeper of the Grove": [
-                "Eye of the Flame Lord",
-                "Hood of Apocalypse",
-                "Crescendo of Madness"
-            ],
-            "Heart of Life": [
-                "Ring of Despair",
-                "Heirloom of Lazarus",
-				"Ring of Eternity",
-				"Seal of Corruption"
-            ],
-            "Jupiter, the Robe of Heavens": [
-                "Cage of Twisted Souls",
-				"Frost Herald's Garment"
-            ],
-            "Thread of Life": [
-                "Guardian Angel",
-                "Wings of Immortal",
-                "Brave Heart",
-                "Blood Devourer"
-            ]
+            "Cage of Twisted Souls": [],
+            "Blood Devourer": []
         }
     },
     {
@@ -3033,6 +3139,68 @@
                 "Soulstorm",
                 "Living Flame"
             ]
+        }
+    },
+    {
+        "for": "Sword Saint",
+        "type": "Early Game",
+        "order": 1,
+        "stat": "STR",
+        "version": "69u2",
+        "items": {
+            "Deathbringer": [],
+            "Horn of Devil": [],
+            "Latea, the Ring of Chaos": [],
+            "Reactive Armor": [],
+            "Cape of Corrupt Flame": []
+        }
+    },
+    {
+        "for": "Sword Saint",
+        "type": "Mid Game",
+        "order": 2,
+        "stat": "STR",
+        "version": "69u2",
+        "items": {
+            "Ruinbringer": [],
+            "Horn of Devil": [],
+            "Latea, the Ring of Chaos": [],
+            "Hellspike Armor": [],
+            "Cloak of the Fallen Shadows": [
+                "Pure Crystal Wings"
+            ]
+        }
+    },
+    {
+        "for": "Sword Saint",
+        "type": "Late Game",
+        "order": 3,
+        "stat": "STR",
+        "version": "69u2",
+        "items": {
+            "Calamity": [],
+            "Horn of Demon God": [],
+            "Ring of the One": [],
+            "Felspike Armor": [],
+            "Cape of Deep Abyss": [
+                "Archangel Wings"
+            ]
+        }
+    },
+    {
+        "for": "Sword Saint",
+        "type": "End Game",
+        "order": 4,
+        "stat": "STR",
+        "version": "69u2",
+        "items": {
+            "World Sunderer": [],
+            "Eye of Annihilation": [],
+            "Ring of Genesis": [],
+            "Titan's Plates": [
+                "Dread Incarnate"
+            ],
+            "Embrace of Death": []
         }
     }
 ]
