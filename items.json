@@ -37,6 +37,7 @@
     "grade": 0,
     "type": "Food",
     "color": "A52A2A",
+    "required_by": [],
     "stats": {
       "active": [
         "Restores HP & MP by 30%"
@@ -102,7 +103,8 @@
     "rank": "none",
     "grade": 0,
     "type": "Misc",
-    "color": "D8C1BA"
+    "color": "D8C1BA",
+    "required_by": []
   },
   {
     "id": "I0IO",
@@ -134,6 +136,7 @@
     "grade": 0,
     "type": "Misc",
     "color": "D8C1BA",
+    "required_by": [],
     "recipe": [
       {
         "Coin of Effort": 2
@@ -240,9 +243,7 @@
     "color": "AFC3FF",
     "level": 5,
     "droprate": 1,
-    "required_by": [
-      "Bloody Fang"
-    ],
+    "required_by": [],
     "stats": {
       "armor": 18,
       "mainstat": 10,
@@ -284,9 +285,7 @@
     "color": "AFAFAF",
     "level": 10,
     "droprate": 0.03,
-    "required_by": [
-      "Berserker Axe"
-    ],
+    "required_by": [],
     "stats": {
       "armor": 20,
       "mainstat": 8,
@@ -306,6 +305,7 @@
     "color": "AFAFAF",
     "level": 10,
     "droprate": 0.03,
+    "required_by": [],
     "stats": {
       "armor": 10,
       "mainstat": 5,
@@ -347,6 +347,7 @@
     "color": "AFC3FF",
     "level": 20,
     "droprate": 0.5,
+    "required_by": [],
     "stats": {
       "mainstat": 10,
       "movespeed": 50
@@ -382,6 +383,7 @@
     "color": "AFAFAF",
     "level": 20,
     "droprate": 0.03,
+    "required_by": [],
     "stats": {
       "armor": 25,
       "str": 12,
@@ -426,6 +428,7 @@
     "color": "AFAFAF",
     "level": 20,
     "droprate": 0.03,
+    "required_by": [],
     "stats": {
       "armor": 12,
       "allstat": 8
@@ -444,6 +447,7 @@
     "color": "AFAFAF",
     "level": 20,
     "droprate": 0.09,
+    "required_by": [],
     "stats": {
       "armor": 18,
       "int": 18,
@@ -503,6 +507,7 @@
     "color": "AFC3FF",
     "level": 20,
     "droprate": 0.33,
+    "required_by": [],
     "stats": {
       "damage": 200,
       "mainstat": 30,
@@ -525,6 +530,7 @@
     "color": "AFC3FF",
     "level": 20,
     "droprate": 0.33,
+    "required_by": [],
     "stats": {
       "damage": 140,
       "int": 40,
@@ -548,6 +554,7 @@
     "color": "AFC3FF",
     "level": 20,
     "droprate": 0.33,
+    "required_by": [],
     "stats": {
       "damage": 170,
       "agi": 35,
@@ -570,6 +577,7 @@
     "color": "AFC3FF",
     "level": 20,
     "droprate": 0.33,
+    "required_by": [],
     "stats": {
       "damage": 170,
       "agi": 35,
@@ -609,6 +617,7 @@
     "color": "AFAFAF",
     "level": 30,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 150,
       "mainstat": 20
@@ -628,6 +637,7 @@
     "color": "AFAFAF",
     "level": 30,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 90,
       "int": 30
@@ -647,6 +657,7 @@
     "color": "AFAFAF",
     "level": 30,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 120,
       "agi": 25
@@ -666,6 +677,7 @@
     "color": "AFAFAF",
     "level": 30,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 120,
       "agi": 25
@@ -685,6 +697,7 @@
     "color": "AFAFAF",
     "level": 30,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "armor": 32,
       "str": 17,
@@ -705,6 +718,7 @@
     "color": "AFAFAF",
     "level": 30,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "armor": 22,
       "int": 22,
@@ -725,6 +739,7 @@
     "color": "AFAFAF",
     "level": 30,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "armor": 15,
       "mainstat": 10
@@ -789,6 +804,7 @@
     "notes": [
       "Droprate increases every 5 minutes that it does not drop"
     ],
+    "required_by": [],
     "stats": {
       "active": [
         "Summons a field boss"
@@ -886,6 +902,7 @@
     "color": "AFC3FF",
     "level": 30,
     "droprate": 1,
+    "required_by": [],
     "stats": {
       "damage": 280,
       "int": 60,
@@ -952,6 +969,7 @@
     "color": "AFAFAF",
     "level": 40,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 250,
       "mainstat": 30
@@ -970,6 +988,7 @@
     "color": "AFAFAF",
     "level": 40,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 150,
       "int": 45
@@ -988,6 +1007,7 @@
     "color": "AFAFAF",
     "level": 40,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 200,
       "agi": 38
@@ -1006,6 +1026,7 @@
     "color": "AFAFAF",
     "level": 40,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 200,
       "agi": 38
@@ -1024,6 +1045,7 @@
     "color": "AFAFAF",
     "level": 40,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "armor": 40,
       "str": 24,
@@ -1043,6 +1065,7 @@
     "color": "AFAFAF",
     "level": 40,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "armor": 30,
       "int": 30,
@@ -1062,6 +1085,7 @@
     "color": "AFAFAF",
     "level": 40,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "armor": 22,
       "mainstat": 15
@@ -1116,7 +1140,10 @@
       "Polar Bear Giant",
       "Polar Bear",
       "Ice Troll Priest",
-      "Ice Troll"
+      "Ice Troll",
+      "Frost Spider",
+      "Frost Skirmisher",
+      "Frostvemon Spider"
     ],
     "rank": "none",
     "grade": 0,
@@ -1125,6 +1152,7 @@
     "notes": [
       "Droprate increases every 5 minutes that it does not drop"
     ],
+    "required_by": [],
     "stats": {
       "active": [
         "Summons a field boss"
@@ -1144,6 +1172,7 @@
     "color": "AFC3FF",
     "level": 40,
     "droprate": 1,
+    "required_by": [],
     "stats": {
       "damage": 500,
       "agi": 75,
@@ -1167,6 +1196,7 @@
     "color": "AFC3FF",
     "level": 40,
     "droprate": 1,
+    "required_by": [],
     "stats": {
       "armor": 30,
       "str": 30,
@@ -1181,7 +1211,8 @@
     "name": "Snowman Pendant",
     "koreanname": "스노우맨 펜던트",
     "dropped_by": [
-      "Mammoth"
+      "Mammoth",
+      "Snowman"
     ],
     "rank": "[Magic]",
     "grade": 0,
@@ -1189,6 +1220,7 @@
     "color": "AFC3FF",
     "level": 40,
     "droprate": 1,
+    "required_by": [],
     "stats": {
       "int": 30,
       "hp": 500,
@@ -1296,6 +1328,7 @@
     "color": "AFAFAF",
     "level": 50,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 400,
       "mainstat": 45
@@ -1315,6 +1348,7 @@
     "color": "AFAFAF",
     "level": 50,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 320,
       "agi": 60
@@ -1334,6 +1368,7 @@
     "color": "AFAFAF",
     "level": 50,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 240,
       "int": 70
@@ -1353,6 +1388,7 @@
     "color": "AFAFAF",
     "level": 50,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 320,
       "agi": 60
@@ -1371,6 +1407,7 @@
     "color": "AFAFAF",
     "level": 50,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "armor": 50,
       "str": 32,
@@ -1390,6 +1427,7 @@
     "color": "AFAFAF",
     "level": 50,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "armor": 38,
       "int": 40
@@ -1408,6 +1446,7 @@
     "color": "AFAFAF",
     "level": 50,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "armor": 30,
       "mainstat": 20
@@ -1448,6 +1487,7 @@
     "color": "AFC3FF",
     "level": 50,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 800,
       "mainstat": 65,
@@ -1469,6 +1509,7 @@
     "color": "AFC3FF",
     "level": 50,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 500,
       "int": 100,
@@ -1490,6 +1531,7 @@
     "color": "AFC3FF",
     "level": 50,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 650,
       "agi": 85,
@@ -1511,6 +1553,7 @@
     "color": "AFC3FF",
     "level": 50,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 650,
       "agi": 85,
@@ -1530,7 +1573,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.0001,
+    "required_by": []
   },
   {
     "id": "mnst",
@@ -1552,6 +1596,7 @@
       "Droprate increases every 5 minutes that it does not drop",
       "Drop cooldown: 4 minutes"
     ],
+    "required_by": [],
     "stats": {
       "active": [
         "Summons a field boss"
@@ -1792,7 +1837,8 @@
     "name": "Bat Wings",
     "koreanname": "박쥐 날개",
     "dropped_by": [
-      "Wallachia Monstrosity"
+      "Wallachia Monstrosity",
+      "Bat Statue"
     ],
     "rank": "[Rare]",
     "grade": 0,
@@ -1830,6 +1876,7 @@
     "color": "EBD787",
     "level": 60,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 600,
       "mainstat": 60
@@ -1849,6 +1896,7 @@
     "color": "EBD787",
     "level": 60,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 400,
       "int": 95
@@ -1868,6 +1916,7 @@
     "color": "EBD787",
     "level": 60,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 500,
       "agi": 80
@@ -1887,6 +1936,7 @@
     "color": "EBD787",
     "level": 60,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "damage": 500,
       "agi": 80
@@ -1905,6 +1955,7 @@
     "color": "EBD787",
     "level": 60,
     "droprate": 0.2,
+    "required_by": [],
     "stats": {
       "armor": 60,
       "str": 40,
@@ -1924,6 +1975,7 @@
     "color": "EBD787",
     "level": 60,
     "droprate": 0.2,
+    "required_by": [],
     "stats": {
       "armor": 45,
       "int": 50
@@ -1942,6 +1994,7 @@
     "color": "EBD787",
     "level": 60,
     "droprate": 0.2,
+    "required_by": [],
     "stats": {
       "armor": 35,
       "mainstat": 25
@@ -1986,6 +2039,7 @@
     "color": "EBD787",
     "level": 60,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 1050,
       "mainstat": 85,
@@ -2008,6 +2062,7 @@
     "color": "EBD787",
     "level": 60,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 650,
       "int": 130,
@@ -2030,6 +2085,7 @@
     "color": "EBD787",
     "level": 60,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 850,
       "agi": 105,
@@ -2052,6 +2108,7 @@
     "color": "EBD787",
     "level": 60,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 850,
       "agi": 105,
@@ -2096,7 +2153,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.0001,
+    "required_by": []
   },
   {
     "id": "I0CF",
@@ -2118,6 +2176,7 @@
       "Droprate increases every 5 minutes that it does not drop",
       "Drop cooldown: 4 minutes"
     ],
+    "required_by": [],
     "stats": {
       "active": [
         "Summons a field boss",
@@ -2269,6 +2328,7 @@
     "color": "AFAFAF",
     "level": 70,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "armor": 70,
       "str": 50,
@@ -2289,6 +2349,7 @@
     "color": "AFAFAF",
     "level": 70,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "armor": 50,
       "int": 75
@@ -2307,6 +2368,7 @@
     "color": "AFAFAF",
     "level": 70,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "armor": 40,
       "mainstat": 40
@@ -2349,6 +2411,7 @@
     "color": "AFC3FF",
     "level": 70,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 1250,
       "mainstat": 100,
@@ -2396,6 +2459,7 @@
     "color": "AFC3FF",
     "level": 70,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 1000,
       "agi": 130,
@@ -2418,6 +2482,7 @@
     "color": "AFC3FF",
     "level": 70,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 1000,
       "agi": 130,
@@ -2485,7 +2550,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.0001,
+    "required_by": []
   },
   {
     "id": "pnvu",
@@ -2506,6 +2572,7 @@
       "Droprate increases each 5 minutes that it does not drop, 100% from Tentacle Lord",
       "Drop cooldown: 4 minutes"
     ],
+    "required_by": [],
     "stats": {
       "active": [
         "Summons a field boss",
@@ -2527,6 +2594,7 @@
     "color": "C39BE1",
     "level": 70,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 2750,
       "mainstat": 200,
@@ -2549,6 +2617,7 @@
     "color": "C39BE1",
     "level": 70,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "armor": 110,
       "int": 140,
@@ -2571,6 +2640,7 @@
     "color": "C39BE1",
     "level": 70,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "allstat": 100,
       "hpregen": 20,
@@ -2621,6 +2691,7 @@
     "color": "AFAFAF",
     "level": 80,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "armor": 80,
       "str": 65,
@@ -2641,6 +2712,7 @@
     "color": "AFAFAF",
     "level": 80,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "armor": 50,
       "int": 90
@@ -2660,6 +2732,7 @@
     "color": "AFAFAF",
     "level": 80,
     "droprate": 0.01,
+    "required_by": [],
     "stats": {
       "armor": 48,
       "mainstat": 45
@@ -2671,7 +2744,8 @@
     "koreanname": "타락한 크리스탈 조각",
     "description": "A shard that emanates a powerful evil aura",
     "dropped_by": [
-      "Giant Golem"
+      "Giant Golem",
+      "Golem Monster"
     ],
     "rank": "[Epic]",
     "grade": 1,
@@ -2707,6 +2781,7 @@
     "color": "AFC3FF",
     "level": 80,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 1500,
       "mainstat": 120,
@@ -2729,6 +2804,7 @@
     "color": "AFC3FF",
     "level": 80,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 1000,
       "int": 180,
@@ -2751,6 +2827,7 @@
     "color": "AFC3FF",
     "level": 80,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 1250,
       "agi": 150,
@@ -2773,6 +2850,7 @@
     "color": "AFC3FF",
     "level": 80,
     "droprate": 0.25,
+    "required_by": [],
     "stats": {
       "damage": 1250,
       "agi": 150,
@@ -2847,7 +2925,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.0001,
+    "required_by": []
   },
   {
     "id": "sor2",
@@ -3008,7 +3087,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "I08X",
@@ -3069,7 +3149,8 @@
     "koreanname": "요정의 로브",
     "description": "\"I shall offer you the protection worthy of the heroism you've shown me.\"",
     "dropped_by": [
-      "Mana Ancient"
+      "Mana Ancient",
+      "Fairy"
     ],
     "rank": "[Epic]",
     "grade": 1,
@@ -3161,7 +3242,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.0001,
+    "required_by": []
   },
   {
     "id": "woms",
@@ -3180,7 +3262,8 @@
       "Droprate increases every 5 minutes that it does not drop from mobs",
       "However, it is 100% drop rate from Mana Ancient",
       "Bring this to Ancient Ent to break its seal"
-    ]
+    ],
+    "required_by": []
   },
   {
     "id": "I077",
@@ -3219,6 +3302,7 @@
     "color": "EBD787",
     "level": 50,
     "droprate": 0.125,
+    "required_by": [],
     "stats": {
       "damage": 800,
       "int": 200,
@@ -3240,6 +3324,7 @@
     "color": "EBD787",
     "level": 50,
     "droprate": 0.125,
+    "required_by": [],
     "stats": {
       "damage": 1000,
       "agi": 170,
@@ -3261,6 +3346,7 @@
     "color": "EBD787",
     "level": 50,
     "droprate": 0.125,
+    "required_by": [],
     "stats": {
       "damage": 1000,
       "agi": 170,
@@ -3282,6 +3368,7 @@
     "color": "EBD787",
     "level": 50,
     "droprate": 0.125,
+    "required_by": [],
     "stats": {
       "armor": 80,
       "str": 70,
@@ -3301,6 +3388,7 @@
     "color": "EBD787",
     "level": 50,
     "droprate": 0.125,
+    "required_by": [],
     "stats": {
       "armor": 60,
       "int": 110
@@ -3319,6 +3407,7 @@
     "color": "EBD787",
     "level": 50,
     "droprate": 0.125,
+    "required_by": [],
     "stats": {
       "armor": 48,
       "mainstat": 45
@@ -3401,7 +3490,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "ajen",
@@ -3537,6 +3627,7 @@
     "color": "EBD787",
     "level": 60,
     "droprate": 0.075,
+    "required_by": [],
     "stats": {
       "armor": 60,
       "mainstat": 55
@@ -3581,8 +3672,7 @@
       "Tepethia, the Bloodsword of Domination",
       "Bag of Mighty Strength",
       "Crimson Pumpkin Rod",
-      "Cruoris, the Armor of Blood",
-      "Horns of Destruction"
+      "Cruoris, the Armor of Blood"
     ]
   },
   {
@@ -3618,7 +3708,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "I07O",
@@ -3794,7 +3885,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "I06F",
@@ -3813,6 +3905,7 @@
     "notes": [
       "The order below is the order of the menu to select when in game"
     ],
+    "required_by": [],
     "drops": [
       "Leoreus, the Greatsword of Flame",
       "Irbeth, the Sword of Lightning",
@@ -4126,7 +4219,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "I07R",
@@ -4321,7 +4415,6 @@
       "True Dragon Armor Magron",
       "True Dragon Helm Agron",
       "Dragon Wings",
-      "Horns of Destruction",
       "Spirit Dagger",
       "Tunic of the Wraith"
     ]
@@ -4360,7 +4453,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "I0BJ",
@@ -4427,7 +4521,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "I085",
@@ -4623,7 +4718,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "I0C4",
@@ -4793,7 +4889,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "rhth",
@@ -4810,6 +4907,7 @@
     "color": "9BE1E1",
     "level": 90,
     "droprate": 0.075,
+    "required_by": [],
     "stats": {
       "damage": 4050,
       "str": 375,
@@ -4835,6 +4933,7 @@
     "color": "9BE1E1",
     "level": 90,
     "droprate": 0.075,
+    "required_by": [],
     "stats": {
       "damage": 3750,
       "agi": 415,
@@ -4860,6 +4959,7 @@
     "color": "9BE1E1",
     "level": 90,
     "droprate": 0.075,
+    "required_by": [],
     "stats": {
       "damage": 6000,
       "agi": 425,
@@ -4939,10 +5039,7 @@
     "color": "9BE1E1",
     "level": 90,
     "droprate": 0.075,
-    "required_by": [
-      "Crown of Composure",
-      "Everfrost Icon"
-    ],
+    "required_by": [],
     "stats": {
       "armor": 75,
       "int": 95,
@@ -5079,7 +5176,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.0001,
+    "required_by": []
   },
   {
     "id": "olig",
@@ -5092,7 +5190,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "I067",
@@ -5280,7 +5379,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "kysn",
@@ -5422,7 +5522,6 @@
       "Bag of Hell",
       "Bag of Heaven",
       "Purelight Armor",
-      "Horns of Destruction",
       "Archangel Halo",
       "Prophetia, the Source of Mana",
       "Demonis, the Devil Lord's Ring",
@@ -5490,7 +5589,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "odef",
@@ -5701,7 +5801,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.0001,
+    "required_by": []
   },
   {
     "id": "phlt",
@@ -6040,7 +6141,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.0001,
+    "required_by": []
   },
   {
     "id": "I0CA",
@@ -6309,7 +6411,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.0001,
+    "required_by": []
   },
   {
     "id": "skul",
@@ -6611,7 +6714,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.0001,
+    "required_by": []
   },
   {
     "id": "I0LN",
@@ -6948,7 +7052,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "ratc",
@@ -7071,6 +7176,9 @@
     "type": "Accessory",
     "color": "DC143C",
     "level": 100,
+    "required_by": [
+      "Cold Ring of Death"
+    ],
     "recipe": [
       {
         "Prius Gold Coin": 3
@@ -7239,7 +7347,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "belv",
@@ -7475,7 +7584,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "I0D2",
@@ -7644,7 +7754,9 @@
     "name": "Fragment of the Wind",
     "koreanname": "바람의 조각",
     "dropped_by": [
-      "Ancient Ent"
+      "Ancient Ent",
+      "Elder Ent",
+      "Giant Ent"
     ],
     "rank": "[Epic]",
     "grade": 3,
@@ -7686,7 +7798,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "I0EG",
@@ -7856,7 +7969,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "kymn",
@@ -8105,7 +8219,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "srbd",
@@ -8330,7 +8445,7 @@
     ],
     "dropped_by": [
       "Death Fiend",
-      "Valtora",
+      "Lightning God Valtora",
       "Ifrit",
       "Nereid",
       "Underlord Agareth"
@@ -8346,30 +8461,7 @@
       0.0025,
       0.003
     ],
-    "required_by": [
-      "Prius Gold Coin",
-      "Coin of Effort",
-      "The Ender",
-      "Armor of Grudge",
-      "Eyes of the Watcher",
-      "Ring of Destruction",
-      "Spearhead of Death",
-      "Fragment of Chaos",
-      "Shining Fragment of Ruins",
-      "Shackles of Heaven",
-      "Aegis of Storm",
-      "Essence of Storm",
-      "Heart of Volcano",
-      "Aegis of Flame",
-      "Essence of Flame",
-      "Grail of Eternity",
-      "Aegis of Sea",
-      "Essence of Sea",
-      "Curse of Greed",
-      "Fragment of Soul",
-      "Fragment of Hell",
-      "Mark of Lord"
-    ]
+    "required_by": []
   },
   {
     "id": "I0QH",
@@ -8407,7 +8499,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "ocor",
@@ -8415,7 +8508,7 @@
     "koreanname": "하늘의 족쇄",
     "description": "Shackles used by the Lightning God to tie his cows",
     "dropped_by": [
-      "Valtora"
+      "Lightning God Valtora"
     ],
     "rank": "[Epic]",
     "grade": 4,
@@ -8457,7 +8550,7 @@
     "name": "Aegis of Storm",
     "koreanname": "폭풍의 가호",
     "dropped_by": [
-      "Valtora"
+      "Lightning God Valtora"
     ],
     "rank": "[Epic]",
     "grade": 4,
@@ -8492,7 +8585,7 @@
     "name": "Essence of Storm",
     "koreanname": "폭풍의 결정",
     "dropped_by": [
-      "Valtora"
+      "Lightning God Valtora"
     ],
     "rank": "[Epic]",
     "grade": 4,
@@ -8532,7 +8625,7 @@
     "name": "Shining Fragment of Ruins",
     "koreanname": "빛나는 유적의 조각",
     "dropped_by": [
-      "Valtora",
+      "Lightning God Valtora",
       "Ifrit",
       "Nereid"
     ],
@@ -8600,7 +8693,7 @@
     "koreanname": "발토라 아이콘",
     "description": "!Warning! Please save a replay of this game.",
     "dropped_by": [
-      "Valtora"
+      "Lightning God Valtora"
     ],
     "rank": "none",
     "grade": 0,
@@ -8629,13 +8722,14 @@
     "name": "Lightning God Token",
     "koreanname": "뇌신의 토큰",
     "dropped_by": [
-      "Valtora"
+      "Lightning God Valtora"
     ],
     "rank": "none",
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "I0JS",
@@ -8799,7 +8893,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "I0LX",
@@ -8970,7 +9065,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "I0O3",
@@ -9003,7 +9099,8 @@
       "Wings of Cosmos",
       "Crown of Cataclysm",
       "Diabolic Mask",
-      "Prophetia, the Forbidden Truth"
+      "Prophetia, the Forbidden Truth",
+      "Aeon Sphere"
     ],
     "stats": {
       "mainstat": 405,
@@ -9172,7 +9269,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.00005
+    "droprate": 0.00005,
+    "required_by": []
   },
   {
     "id": "I014",
@@ -9202,7 +9300,8 @@
       "Thread of Life",
       "Bag of All Evils",
       "Soulstorm",
-      "Divine Rose"
+      "Divine Rose",
+      "Soul Rift"
     ],
     "recipe": [
       {
@@ -9255,7 +9354,10 @@
       "Prelude to Demise",
       "Harvester's Mask",
       "Espishu, the True Sword of Chaos",
-      "Eye of the Blood God"
+      "Eye of the Blood God",
+      "Bag of Sentience",
+      "Herald of the Void",
+      "Frostmoon Crown"
     ],
     "recipe": [
       {
@@ -9298,7 +9400,10 @@
       "Blazing Sun",
       "Soul Torch",
       "Divine Aegis",
-      "Divine Vein"
+      "Divine Vein",
+      "Plates of Dawn",
+      "Righteous Flame",
+      "Aegis of Avalon"
     ],
     "recipe": [
       {
@@ -9338,7 +9443,14 @@
       "Exitium, the Armor of Ruin",
       "Arch Druid Robe",
       "Soul Breath",
-      "Divine Rose"
+      "Divine Rose",
+      "Aeon Sphere",
+      "Dread Incarnate",
+      "Soul Fist",
+      "Guardian of Sky and Earth",
+      "Eye of Truth",
+      "Madness of Old Gods",
+      "Wings of Descender"
     ],
     "recipe": [
       {
@@ -9376,7 +9488,8 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
-    "droprate": 0.0001
+    "droprate": 0.0001,
+    "required_by": []
   },
   {
     "id": "I01Z",
@@ -9384,7 +9497,7 @@
     "koreanname": "생명의 가운",
     "description": "The mother nature embraces all.",
     "dropped_by": [
-      "Gaia"
+      "Gaia, the Earth Goddess"
     ],
     "rank": "[Epic]",
     "grade": 5,
@@ -9403,7 +9516,12 @@
       "Living Flame",
       "Soul Breath",
       "Ring of Noble Soul",
-      "Divine Rose"
+      "Divine Rose",
+      "Bag of Sentience",
+      "Soul Rift",
+      "Animus, the Robe of Souls",
+      "Herald of the Void",
+      "Eye of Truth"
     ],
     "recipe": [
       {
@@ -9426,7 +9544,7 @@
     "name": "Essence of Earth",
     "koreanname": "대지의 결정",
     "dropped_by": [
-      "Gaia"
+      "Gaia, the Earth Goddess"
     ],
     "rank": "[Epic]",
     "grade": 5,
@@ -9454,7 +9572,16 @@
       "Soulstorm",
       "Living Flame",
       "Espishu, the True Sword of Chaos",
-      "Embrace of Death"
+      "Embrace of Death",
+      "Aeon Sphere",
+      "Crimson Whisper",
+      "Heaven's Fall",
+      "Illumination",
+      "Exsolus, the Armor of the Absolute",
+      "Cape of the Saint",
+      "Wings of Descender",
+      "Primal Flame",
+      "Primordial Heart"
     ],
     "recipe": [
       {
@@ -9467,7 +9594,7 @@
     "name": "Aegis of Earth",
     "koreanname": "대지의 가호",
     "dropped_by": [
-      "Gaia"
+      "Gaia, the Earth Goddess"
     ],
     "rank": "[Epic]",
     "grade": 5,
@@ -9492,7 +9619,15 @@
       "Arch Druid Robe",
       "Ring of Genesis",
       "Ring of Noble Soul",
-      "Divine Vein"
+      "Divine Vein",
+      "Heart of Lion",
+      "Ordius, the Divine Lance",
+      "Primal Shard",
+      "Guardian of Sky and Earth",
+      "Plates of Divine Blood",
+      "Codex of Light",
+      "Aegis of Avalon",
+      "Godslayer Signet"
     ],
     "recipe": [
       {
@@ -9505,7 +9640,7 @@
     "name": "Twisted Fragment of Ruins",
     "koreanname": "뒤틀린 유적의 조각",
     "dropped_by": [
-      "Gaia"
+      "Gaia, the Earth Goddess"
     ],
     "rank": "[Epic]",
     "grade": 5,
@@ -9530,7 +9665,13 @@
       "Echoes of the Void",
       "Soul Breath",
       "Eye of Annihilation",
-      "Eye of the Blood God"
+      "Eye of the Blood God",
+      "Soul Fist",
+      "Soulrender",
+      "Cage of Shadow Fiend",
+      "Celestial Crown",
+      "Madness of Old Gods",
+      "Celestial Wind"
     ],
     "recipe": [
       {
@@ -9543,7 +9684,7 @@
     "name": "Gaia's Soulstone",
     "koreanname": "지신의 영혼석",
     "dropped_by": [
-      "Gaia"
+      "Gaia, the Earth Goddess"
     ],
     "rank": "[Epic]",
     "grade": 5,
@@ -9562,13 +9703,14 @@
     "name": "Gaia Token",
     "koreanname": "지신의 토큰",
     "dropped_by": [
-      "Gaia"
+      "Gaia, the Earth Goddess"
     ],
     "rank": "none",
     "grade": 0,
     "type": "Token",
     "color": "733CBE",
-    "droprate": 0.0001
+    "droprate": 0.0001,
+    "required_by": []
   },
   {
     "id": "I095",
@@ -9594,7 +9736,17 @@
       "Eye of Annihilation",
       "Ring of Noble Soul",
       "Divine Vein",
-      "Eye of the Blood God"
+      "Eye of the Blood God",
+      "Apocalypse Prime",
+      "Bag of Sentience",
+      "Illumination",
+      "Soul Rift",
+      "Plates of Divine Blood",
+      "Eye of Truth",
+      "Frostmoon Crown",
+      "Codex of Light",
+      "Coil of Ouroboros",
+      "Primal Flame"
     ],
     "recipe": [
       {
@@ -9639,7 +9791,17 @@
       "Ring of Genesis",
       "Soulstorm",
       "Soul Breath",
-      "Divine Rose"
+      "Divine Rose",
+      "Aeon Sphere",
+      "Heart of Lion",
+      "Primal Shard",
+      "Animus, the Robe of Souls",
+      "Exsolus, the Armor of the Absolute",
+      "Plates of Dawn",
+      "Celestial Crown",
+      "Madness of Old Gods",
+      "Godslayer Signet",
+      "Primordial Heart"
     ],
     "recipe": [
       {
@@ -9676,7 +9838,18 @@
       "Wings of the Void",
       "Arch Druid Robe",
       "Echoes of the Void",
-      "Embrace of Death"
+      "Embrace of Death",
+      "Soul Fist",
+      "Crimson Whisper",
+      "Heaven's Fall",
+      "Soulrender",
+      "Cage of Shadow Fiend",
+      "Herald of the Void",
+      "Eye of Truth",
+      "Righteous Flame",
+      "Aegis of Avalon",
+      "Cape of the Saint",
+      "Dark Lotus"
     ],
     "recipe": [
       {
@@ -9713,7 +9886,8 @@
     "grade": 0,
     "type": "Token",
     "color": "733CBE",
-    "droprate": 0.0001
+    "droprate": 0.0001,
+    "required_by": []
   },
   {
     "id": "rlif",
@@ -9733,7 +9907,16 @@
       "Lightbringer",
       "World Sunderer",
       "Duskblade",
-      "Prelude to Demise"
+      "Prelude to Demise",
+      "Apocalypse Prime",
+      "Crimson Whisper",
+      "Heart of Lion",
+      "Heaven's Fall",
+      "Ordius, the Divine Lance",
+      "Primal Shard",
+      "Soul Rift",
+      "Soulrender",
+      "Madness of Old Gods"
     ],
     "recipe": [
       {
@@ -9779,7 +9962,17 @@
       "Eye of Annihilation",
       "Ring of Noble Soul",
       "Eye of the Blood God",
-      "Embrace of Death"
+      "Embrace of Death",
+      "Apocalypse Prime",
+      "Crimson Whisper",
+      "Herald of the Void",
+      "Celestial Crown",
+      "Frostmoon Crown",
+      "Aegis of Avalon",
+      "Coil of Ouroboros",
+      "Void Seraph",
+      "Dark Lotus",
+      "Celestial Wind"
     ],
     "recipe": [
       {
@@ -9807,7 +10000,17 @@
       "Soulstorm",
       "Wings of the Void",
       "Divine Vein",
-      "Divine Rose"
+      "Divine Rose",
+      "Primal Shard",
+      "Soulrender",
+      "Animus, the Robe of Souls",
+      "Cage of Shadow Fiend",
+      "Exsolus, the Armor of the Absolute",
+      "Celestial Crown",
+      "Righteous Flame",
+      "Wings of Descender",
+      "Godslayer Signet",
+      "Primordial Heart"
     ],
     "recipe": [
       {
@@ -9837,7 +10040,19 @@
       "Soul Breath",
       "Ring of Noble Soul",
       "Divine Vein",
-      "Embrace of Death"
+      "Embrace of Death",
+      "Bag of Sentience",
+      "Heart of Lion",
+      "Illumination",
+      "Guardian of Sky and Earth",
+      "Plates of Dawn",
+      "Plates of Divine Blood",
+      "Eye of Truth",
+      "Celestial Wind",
+      "Codex of Light",
+      "Cape of the Saint",
+      "Primal Flame",
+      "Celestial Crown"
     ],
     "recipe": [
       {
@@ -9866,10 +10081,41 @@
   },
   {
     "id": "I0QE",
-    "name": "Soul Token",
-    "koreanname": "영혼의 토큰",
+    "name": "Harvester's Token",
+    "koreanname": "수확자의 토큰",
     "dropped_by": [
       "Styrix, the Harvester of Souls"
+    ],
+    "rank": "none",
+    "grade": 0,
+    "type": "Token",
+    "color": "733CBE",
+    "droprate": 0.0001,
+    "required_by": []
+  },
+  {
+    "id": "I02U",
+    "name": "Kamael's Soulstone",
+    "dropped_by": [
+      "Lightbringer Kamael"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "droprate": 0.0015,
+    "required_by": [
+      "Sunstone",
+      "Dew of Paradise",
+      "Divine Lotus",
+      "Holy Thread"
+    ]
+  },
+  {
+    "id": "I0R8",
+    "name": "Lightbringer's Token",
+    "dropped_by": [
+      "Lightbringer Kamael"
     ],
     "rank": "none",
     "grade": 0,
@@ -9886,6 +10132,7 @@
     "grade": 0,
     "type": "Misc",
     "color": "D8C1BA",
+    "required_by": [],
     "recipe": [
       {
         "White Magic Stone": 3
@@ -9904,6 +10151,7 @@
     "grade": 0,
     "type": "Misc",
     "color": "D8C1BA",
+    "required_by": [],
     "recipe": [
       {
         "Red Magic Stone": 3
@@ -9922,6 +10170,7 @@
     "grade": 0,
     "type": "Misc",
     "color": "D8C1BA",
+    "required_by": [],
     "recipe": [
       {
         "Blue Magic Stone": 3
@@ -9939,6 +10188,7 @@
     "grade": 0,
     "type": "Token",
     "color": "DAA520",
+    "required_by": [],
     "recipe": [
       {
         "Red Crystal Golem Token": 1
@@ -9966,6 +10216,7 @@
     "type": "Accessory",
     "color": "AFC3FF",
     "level": 5,
+    "required_by": [],
     "recipe": [
       {
         "Lucky Acorn": 1
@@ -9994,6 +10245,7 @@
     "type": "Weapon (Shared)",
     "color": "AFC3FF",
     "level": 10,
+    "required_by": [],
     "recipe": [
       {
         "Silver Fang": 1
@@ -10020,6 +10272,7 @@
     "type": "Weapon (Melee)",
     "color": "AFC3FF",
     "level": 10,
+    "required_by": [],
     "recipe": [
       {
         "Troll Axe": 1
@@ -10043,6 +10296,7 @@
     "type": "Headwear",
     "color": "AFC3FF",
     "level": 20,
+    "required_by": [],
     "recipe": [
       {
         "Ancient Leaf": 1
@@ -10120,6 +10374,7 @@
     "type": "Wings",
     "color": "EBD787",
     "level": 30,
+    "required_by": [],
     "recipe": [
       {
         "Wings of Nature": 1
@@ -12483,6 +12738,9 @@
     "name": "Twin Snow",
     "koreanname": "트윈 스노우",
     "description": "A beautiful yet deadly creation of ice.",
+    "dropped_by": [
+      "Frozen Soul"
+    ],
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Staff)",
@@ -12956,6 +13214,10 @@
     "name": "Bag of Hell",
     "koreanname": "지옥의 배낭",
     "description": "So.. heavy...",
+    "dropped_by": [
+      "Hell Portal",
+      "Gatekeeper of Hell"
+    ],
     "rank": "[Epic]",
     "grade": 2,
     "type": "Weapon (Bag)",
@@ -13390,6 +13652,9 @@
     "name": "Fairy Garment",
     "koreanname": "요정의 예복",
     "description": "You've shown me heroism and will worthy of my blessings.",
+    "dropped_by": [
+      "Forest Spirit"
+    ],
     "rank": "[Epic]",
     "grade": 2,
     "type": "Armor",
@@ -14504,6 +14769,10 @@
     "name": "Fairy Wings",
     "koreanname": "요정의 날개",
     "description": "You shall be blessed with the dexterity and intellect of a fairy!",
+    "dropped_by": [
+      "Fairy",
+      "Fairy Spirit"
+    ],
     "rank": "[Epic]",
     "grade": 2,
     "type": "Wings",
@@ -15272,6 +15541,9 @@
     "name": "Triple Snow",
     "koreanname": "트리플 스노우",
     "description": "Cold, beautiful yet deadly creation of ice",
+    "dropped_by": [
+      "Frozen Soul"
+    ],
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Staff)",
@@ -15463,6 +15735,10 @@
     "name": "Hell Riser",
     "koreanname": "헬 라이서",
     "description": "Is it hope that flickers in front of those eyes? Or is it despair?",
+    "dropped_by": [
+      "Hell Golem",
+      "Hellspawn"
+    ],
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Staff)",
@@ -15592,6 +15868,10 @@
     "name": "Hellflame",
     "koreanname": "헬플레임",
     "description": "I shall burn even your soul away !!",
+    "dropped_by": [
+      "Hell Golem",
+      "Hellspawn"
+    ],
     "rank": "[Epic]",
     "grade": 3,
     "type": "Weapon (Bow)",
@@ -16329,6 +16609,9 @@
     "name": "Hellspike Armor",
     "koreanname": "헬스파이크 아머",
     "description": "Spiked armor of Hell that harms even the wearer",
+    "dropped_by": [
+      "Gatekeeper of Hell"
+    ],
     "rank": "[Epic]",
     "grade": 3,
     "type": "Armor",
@@ -17924,6 +18207,9 @@
     "name": "Frost Fairy Wings",
     "koreanname": "서리 요정의 날개",
     "description": "You shall be blessed with the dexterity and intellect of a fairy!",
+    "dropped_by": [
+      "Fairy Spirit"
+    ],
     "rank": "[Epic]",
     "grade": 3,
     "type": "Wings",
@@ -18259,7 +18545,8 @@
     "color": "99FF99",
     "level": 100,
     "required_by": [
-      "Aeon Sphere"
+      "Aeon Sphere",
+      "Heaven's Fall"
     ],
     "recipe": [
       {
@@ -18352,6 +18639,7 @@
     "type": "Weapon (Shared)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Ethereal Dagger": 1
@@ -18392,6 +18680,7 @@
     "type": "Weapon (Melee)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Winter's Heart": 1
@@ -19362,6 +19651,7 @@
     "type": "Weapon (Gun)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Hydro Buster": 1
@@ -19664,6 +19954,7 @@
     "type": "Weapon (Staff)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Ethenos, the True Staff of Space": 1
@@ -19701,6 +19992,9 @@
     "type": "Weapon (Staff)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Illumination"
+    ],
     "recipe": [
       {
         "Benziena, the Earthen Heart": 1
@@ -19815,6 +20109,7 @@
     "type": "Weapon (Bag)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Bag of Demise": 1
@@ -19861,6 +20156,9 @@
     "type": "Weapon (Bag)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Bag of Sentience"
+    ],
     "recipe": [
       {
         "Bag of Mother Nature": 1
@@ -19914,6 +20212,9 @@
     "type": "Weapon (Bag)",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Soul Rift"
+    ],
     "recipe": [
       {
         "Bag of Explosion": 1
@@ -19956,6 +20257,9 @@
     "type": "Armor",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Guardian of Sky and Earth"
+    ],
     "recipe": [
       {
         "Creation of the Sky and Earth": 1
@@ -20114,6 +20418,9 @@
     "type": "Armor",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Herald of the Void"
+    ],
     "recipe": [
       {
         "Benedict, the Crimson Armor of Blood": 1
@@ -20474,6 +20781,9 @@
     "type": "Armor",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Plates of Divine Blood"
+    ],
     "recipe": [
       {
         "Bloodsoul Plates": 1
@@ -20703,6 +21013,9 @@
     "type": "Headwear",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Madness of Old Gods"
+    ],
     "recipe": [
       {
         "Dragon Mask": 1
@@ -21158,6 +21471,9 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Celestial Wind"
+    ],
     "recipe": [
       {
         "Ring of the Storm": 1
@@ -21248,6 +21564,9 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Dark Lotus"
+    ],
     "recipe": [
       {
         "Ring of Composure": 1
@@ -21602,6 +21921,9 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Soul Fist"
+    ],
     "recipe": [
       {
         "Heaven's Fist": 1
@@ -21739,6 +22061,7 @@
     "type": "Accessory",
     "color": "99FF99",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Trueblood Ring": 1
@@ -21980,6 +22303,9 @@
     "type": "Wings",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Wings of Descender"
+    ],
     "recipe": [
       {
         "Guardian of the Skies": 1
@@ -22180,6 +22506,7 @@
     "type": "Wings",
     "color": "99FF99",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Grim Heart": 1
@@ -22228,6 +22555,9 @@
     "type": "Wings",
     "color": "99FF99",
     "level": 100,
+    "required_by": [
+      "Cape of the Saint"
+    ],
     "recipe": [
       {
         "Shroud of Perseverance": 1
@@ -22329,6 +22659,9 @@
     "type": "Weapon (Shared)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Soulrender"
+    ],
     "recipe": [
       {
         "The Ender": 1
@@ -22382,6 +22715,7 @@
     "type": "Weapon (Shared)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Heaven's Door": 1
@@ -22436,7 +22770,8 @@
     "color": "733CBE",
     "level": 100,
     "required_by": [
-      "World Sunderer"
+      "World Sunderer",
+      "Ordius, the Divine Lance"
     ],
     "recipe": [
       {
@@ -22488,6 +22823,9 @@
     "type": "Weapon (Melee)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Heart of Lion"
+    ],
     "recipe": [
       {
         "Crimson Reaper": 1
@@ -22590,6 +22928,7 @@
     "type": "Weapon (Melee)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Atricia, the True Sword of Dreams": 1
@@ -22635,6 +22974,7 @@
     "type": "Weapon (Melee)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Espishu, the True Sword of Chaos": 1
@@ -22679,6 +23019,7 @@
     "type": "Weapon (Melee)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Astra, the Sword of Moonlight": 1
@@ -22728,6 +23069,7 @@
     "type": "Weapon (Melee)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Chaos": 1
@@ -22777,6 +23119,7 @@
     "type": "Weapon (Melee)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Divine Slayer": 1
@@ -22819,6 +23162,7 @@
     "type": "Weapon (Melee)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Calamity": 1
@@ -22908,6 +23252,9 @@
     "type": "Weapon (Bow)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Crimson Whisper"
+    ],
     "recipe": [
       {
         "Pheles, the Bow of God": 1
@@ -22958,6 +23305,7 @@
     "type": "Weapon (Bow)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Eternal Flame": 1
@@ -23003,6 +23351,7 @@
     "type": "Weapon (Bow)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Soulbane": 1
@@ -23055,6 +23404,9 @@
     "type": "Weapon (Gun)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Heaven's Fall"
+    ],
     "recipe": [
       {
         "Cosmic Star": 1
@@ -23112,6 +23464,9 @@
     "type": "Weapon (Gun)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Apocalypse Prime"
+    ],
     "recipe": [
       {
         "Last Word": 1
@@ -23158,6 +23513,7 @@
     "type": "Weapon (Gun)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Chrono Chaser": 1
@@ -23205,6 +23561,9 @@
     "type": "Weapon (Staff)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Ordius, the Divine Lance"
+    ],
     "recipe": [
       {
         "The Ender": 1
@@ -23256,6 +23615,9 @@
     "type": "Weapon (Staff)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Primal Shard"
+    ],
     "recipe": [
       {
         "Triple Snow": 1
@@ -23316,6 +23678,9 @@
     "type": "Weapon (Staff)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Illumination"
+    ],
     "recipe": [
       {
         "Soul of Abyss": 1
@@ -23360,6 +23725,7 @@
     "type": "Weapon (Staff)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Crimson Hatred": 1
@@ -23409,6 +23775,7 @@
     "type": "Weapon (Staff)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Armageddon": 1
@@ -23458,6 +23825,7 @@
     "type": "Weapon (Staff)",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Staff of Plague": 1
@@ -23503,6 +23871,9 @@
     "type": "Armor",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Cage of Shadow Fiend"
+    ],
     "recipe": [
       {
         "Hades, the Armor of Despair": 1
@@ -23555,6 +23926,9 @@
     "type": "Armor",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Plates of Divine Blood"
+    ],
     "recipe": [
       {
         "Plates of Lightning": 1
@@ -23611,6 +23985,9 @@
     "type": "Armor",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Animus, the Robe of Souls"
+    ],
     "recipe": [
       {
         "Robe of Storm": 1
@@ -23663,6 +24040,9 @@
     "type": "Armor",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Plates of Dawn"
+    ],
     "recipe": [
       {
         "Felspike Armor": 1
@@ -23710,6 +24090,9 @@
     "type": "Armor",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Exsolus, the Armor of the Absolute"
+    ],
     "recipe": [
       {
         "Athanasia, the Armor of the Reaper": 1
@@ -23758,6 +24141,7 @@
     "type": "Armor",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Winter Robe": 1
@@ -23811,6 +24195,7 @@
     "type": "Armor",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Thanatos, the Robe of Hell": 1
@@ -23857,6 +24242,7 @@
     "type": "Armor",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Voidshard Armor": 1
@@ -23903,6 +24289,7 @@
     "type": "Armor",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Vest of Divine Winds": 1
@@ -23944,6 +24331,7 @@
     "type": "Armor",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Jupiter, the Robe of Heavens": 1
@@ -23986,6 +24374,7 @@
     "type": "Armor",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Druid's Mantle": 1
@@ -24083,6 +24472,9 @@
     "type": "Headwear",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Celestial Crown"
+    ],
     "recipe": [
       {
         "Crown of Serenity": 1
@@ -24230,6 +24622,9 @@
     "type": "Headwear",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Righteous Flame"
+    ],
     "recipe": [
       {
         "Crown of Extreme Anger": 1
@@ -24270,6 +24665,9 @@
     "type": "Headwear",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Frostmoon Crown"
+    ],
     "recipe": [
       {
         "Crown of Absolute Zero": 1
@@ -24315,6 +24713,7 @@
     "type": "Headwear",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Spirit of Protector": 1
@@ -24363,6 +24762,7 @@
     "type": "Headwear",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Eye of the Reaper": 1
@@ -24404,6 +24804,7 @@
     "type": "Headwear",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Visage of Vengeance": 1
@@ -24450,6 +24851,7 @@
     "type": "Headwear",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Hood of Apocalypse": 1
@@ -24499,6 +24901,7 @@
     "type": "Headwear",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Prophetia, the Origin of Knowledge": 1
@@ -24544,6 +24947,7 @@
     "type": "Headwear",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Horn of Dragon": 1
@@ -24584,6 +24988,7 @@
     "type": "Headwear",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Eye of the Flame Lord": 1
@@ -24631,7 +25036,8 @@
     "color": "733CBE",
     "level": 100,
     "required_by": [
-      "Ring of Genesis"
+      "Ring of Genesis",
+      "Primal Flame"
     ],
     "recipe": [
       {
@@ -24678,6 +25084,9 @@
     "type": "Accessory",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Cape of the Saint"
+    ],
     "recipe": [
       {
         "Ispion, the Runed Ring": 1
@@ -24768,6 +25177,9 @@
     "type": "Accessory",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Godslayer Signet"
+    ],
     "recipe": [
       {
         "Ring of Insanity": 1
@@ -24814,7 +25226,8 @@
     "color": "733CBE",
     "level": 100,
     "required_by": [
-      "Chains of Torment"
+      "Chains of Torment",
+      "Dark Lotus"
     ],
     "recipe": [
       {
@@ -24871,6 +25284,9 @@
     "type": "Accessory",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Coil of Ouroboros"
+    ],
     "recipe": [
       {
         "Ring of Fate": 1
@@ -24916,6 +25332,9 @@
     "type": "Accessory",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Primordial Heart"
+    ],
     "recipe": [
       {
         "Horn of God": 1
@@ -24962,6 +25381,9 @@
     "type": "Accessory",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Codex of Light"
+    ],
     "recipe": [
       {
         "Ring of Hope": 1
@@ -25002,6 +25424,9 @@
     "type": "Accessory",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Celestial Wind"
+    ],
     "recipe": [
       {
         "Nephthys, the Engraved Ring": 1
@@ -25042,6 +25467,7 @@
     "type": "Accessory",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Ring of the One": 1
@@ -25081,6 +25507,7 @@
     "type": "Accessory",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Seed of Malice": 1
@@ -25126,6 +25553,7 @@
     "type": "Accessory",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Demonic Fist": 1
@@ -25172,6 +25600,7 @@
     "type": "Accessory",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Ring of Desolate Soul": 1
@@ -25217,6 +25646,7 @@
     "type": "Accessory",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Nebula Rose": 1
@@ -25266,7 +25696,8 @@
     "color": "733CBE",
     "level": 100,
     "required_by": [
-      "Embrace of Death"
+      "Embrace of Death",
+      "Wings of Descender"
     ],
     "recipe": [
       {
@@ -25373,6 +25804,9 @@
     "type": "Wings",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Aegis of Avalon"
+    ],
     "recipe": [
       {
         "Wings of Purification": 1
@@ -25425,6 +25859,9 @@
     "type": "Wings",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Coil of Ouroboros"
+    ],
     "recipe": [
       {
         "Archangel Wings": 1
@@ -25475,6 +25912,9 @@
     "type": "Wings",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Void Seraph"
+    ],
     "recipe": [
       {
         "Gown of Life": 1
@@ -25528,6 +25968,7 @@
     "type": "Wings",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Protection of the Fairies": 1
@@ -25572,6 +26013,9 @@
     "type": "Wings",
     "color": "733CBE",
     "level": 100,
+    "required_by": [
+      "Void Seraph"
+    ],
     "recipe": [
       {
         "Soul Devourer": 1
@@ -25612,6 +26056,7 @@
     "type": "Wings",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Wings of Flame Lord": 1
@@ -25659,6 +26104,7 @@
     "type": "Wings",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Wings of Frost Lord": 1
@@ -25706,6 +26152,7 @@
     "type": "Wings",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Cape of Deep Abyss": 1
@@ -25752,6 +26199,7 @@
     "type": "Wings",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Bloodstorm": 1
@@ -25797,6 +26245,7 @@
     "type": "Wings",
     "color": "733CBE",
     "level": 100,
+    "required_by": [],
     "recipe": [
       {
         "Wings of Night Lord": 1
@@ -26599,6 +27048,7 @@
     "grade": 0,
     "type": "Icon",
     "color": "008000",
+    "required_by": [],
     "recipe": [
       {
         "Grandmaster Icon": 1
@@ -26647,6 +27097,7 @@
     "grade": 0,
     "type": "Misc",
     "color": "D8C1BA",
+    "required_by": [],
     "recipe": [
       {
         "Orichalcum": 1
@@ -26723,6 +27174,7 @@
     "grade": 4,
     "type": "Pickaxe",
     "color": "99FF99",
+    "required_by": [],
     "recipe": [
       {
         "Abyssal Pickaxe": 1
@@ -26751,6 +27203,1700 @@
     "color": "FFFFFF",
     "notes": [
       "General Recipe: Wing + Wing Frame"
+    ],
+    "required_by": []
+  },
+  {
+    "id": "I0Z1",
+    "name": "Welcome Cloak",
+    "dropped_by": [
+      "Arcane Lord"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "droprate": 0.0033
+  },
+  {
+    "id": "I0Z2",
+    "name": "Arcane Power Crystal",
+    "dropped_by": [
+      "Arcane Lord"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "droprate": 0.005
+  },
+  {
+    "id": "I0Z3",
+    "name": "Forbidden Tablet",
+    "dropped_by": [
+      "Arcane Lord"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "droprate": 0.005
+  },
+  {
+    "id": "I0Z4",
+    "name": "Monarch's Soulstone",
+    "dropped_by": [
+      "Arcane Lord"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Token",
+    "color": "733CBE",
+    "droprate": 0.0015
+  },
+  {
+    "id": "I0Z5",
+    "name": "Sorcerer Lord's Token",
+    "dropped_by": [
+      "Arcane Lord"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Token",
+    "color": "733CBE",
+    "droprate": 0.0001
+  },
+  {
+    "id": "I0LG",
+    "name": "Apocalypse Prime",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Gun)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Final Omen": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Grim Scythe": 1
+      },
+      {
+        "Sinister Skull": 1
+      },
+      {
+        "Dew of Paradise": 1
+      }
+    ],
+    "stats": {
+      "damage": 14500,
+      "agi": 1050,
+      "hp": 2500,
+      "critmultiplier": 0.5,
+      "passive": [
+        "Reloading a bullet of despair every 3 seconds",
+        "On the next attack, deals (Attack Power X 1.6 + Primary Stat X 9) magic damage and stuns for 0.25 seconds.",
+        "Deals 25% additional damage to enemies with 50% or less HP.",
+        "Up to 4 charges possible"
+      ],
+      "active": [
+        "Apocalypse is activated when casting T skill",
+        "Final damage increased by 10% [Type-B] for 8 seconds, and pure attack speed increased by 50%."
+      ],
+      "spec": [
+        "Exclusive effect",
+        "Gunner - When casting Roll, reload 1 Bullet of Despair",
+        "Shooter - Break Shot damage increased by 60%, knockback distance reduced by 50%, and consecutive hits of Distortion reset the cooldown of Break Shot instead of causing knockback."
+      ]
+    }
+  },
+  {
+    "id": "I02R",
+    "name": "Bag of Sentience",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Bag)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Bag of Universe": 1
+      },
+      {
+        "Gown of Life": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Spirit of Damnation": 1
+      },
+      {
+        "Divine Lotus": 1
+      }
+    ],
+    "stats": {
+      "damage": 8000,
+      "allstat": 750,
+      "healingpercent": 0.15,
+      "mdpercent": 0.15,
+      "active": [
+        "Throws forbidden elixir when used",
+        "Removes all debuffs from the target, restores 100% HP, and grants debuff immunity for 3 seconds.",
+        "Duration: 15 seconds",
+        "Charging time: 15 seconds (up to 2 charges)"
+      ],
+      "spec": [
+        "Exclusive effect",
+        "Merchant - Very light bag",
+        "This isn't a bag decoration!: Take out 2 of these when casting.",
+        "Throwable Healing Potion: Charge cycle reduced to 2 seconds, maximum number of installations increased by 3.",
+        "Life Shield Scroll: Increases duration by 5 seconds, reduces damage taken by the target by 15%.",
+        "Money Splash: Changed to Pandora's Box",
+        "[Passive] Every 2 seconds, there is a low probability that the cooldown of a random skill of an ally affected by your skill will be reset (except for ultimate skills). (Once reset, the cooldown of an ally cannot be reset again for 30 seconds.)",
+        "[Active] Channels for up to 2.5 seconds, reducing damage taken by allies within a 650 range by 70% and granting immunity to damage, debuffs, and CC.",
+        "[Active] Grants Pandora's Blessing to affected allies, increasing all stats by (350 + 2.5 X sum of the 3 highest Affinities) for 7.5 seconds.",
+        "[Active] Cooldown: 30 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I05E",
+    "name": "Crimson Whisper",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Bow)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Agnitus, the Bow of Divine Fury": 1
+      },
+      {
+        "Grim Scythe": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Sinister Skull": 1
+      },
+      {
+        "Holy Thread": 1
+      }
+    ],
+    "stats": {
+      "damage": 13000,
+      "str": 500,
+      "agi": 1050,
+      "attackspeedpercent": 0.4,
+      "skilldamagepercent": 0.05,
+      "passive": [
+        "Activates when attacking",
+        "Fires 1-2 additional arrows that deal 20% of Attack Power as pure damage (average of 1.8 arrows)",
+        "These arrows trigger the 'Trigger on Attack' effect and can hit with a critical strike.",
+        "Activates bloody mark when attacking",
+        "Leaves a mark on the target, increasing skill damage inflicted on the target by 5% for 5 seconds and accumulating blood energy on the target when attacking (maximum 50)",
+        "When the effect expires or the maximum stack is reached, the stacked blood explodes, dealing (Attack Power X 0.1 + Agility X 1) X stack magic damage.",
+        "Cooldown: 15 seconds"
+      ],
+      "spec": [
+        "Exclusive effect",
+        "Sniper - Storm Shaft: Increases maximum stacks by 1, reduces cooldown by 33%"
+      ]
+    }
+  },
+  {
+    "id": "I0LJ",
+    "name": "Heart of Lion",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Melee)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Caedis, the Sword of Slaughter": 1
+      },
+      {
+        "Grim Scythe": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Spirit of Damnation": 1
+      },
+      {
+        "Holy Thread": 1
+      }
+    ],
+    "stats": {
+      "damage": 15500,
+      "mainstat": 700,
+      "skilldamagepercent": 0.125,
+      "movespeed": 75,
+      "passive": [
+        "Heart Splitter activates upon attack",
+        "Deals Attack Power x 1.5 Magic Damage and increases Attack Power by 1250 for 5 seconds (Max. 4 stacks)",
+        "Activates after casting a skill 2 times or attacking 14 times"
+      ],
+      "active": [
+        "Retribution triggered upon use",
+        "Engraving marks in the four directions of the designated target",
+        "When attacking from the direction of the mark, consume the mark and deal Attack Power x 4.5 Magic Damage.",
+        "Consuming all marks deals an additional 350,000 magic damage and stuns the target for 2 seconds.",
+        "Cooldown: 30 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I02I",
+    "name": "Heaven's Fall",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Gun)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Abyss Fall": 1
+      },
+      {
+        "Heaven's Door": 1
+      },
+      {
+        "Grim Scythe": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Dew of Paradise": 1
+      }
+    ],
+    "stats": {
+      "damage": 9500,
+      "agi": 450,
+      "int": 950,
+      "attackspeedpercent": 0.35,
+      "passive": [
+        "Blessing activates when an ally recovers",
+        "Increases target's skill damage and recovery amount by 12% for 6 seconds.",
+        "When healing others 20 times, grants an awakening effect, increasing skill damage by an additional 8% for 6 seconds."
+      ],
+      "active": [
+        "Heaven's Fall activates when used",
+        "Drops a cross on the target area, dealing 20x Intelligence magic damage and stunning for 1 second.",
+        "Leave a sanctuary for 6 seconds, recovering 1 x Intelligence per second for allies above, dealing 3 x Intelligence magic damage per second to enemies, and increasing damage taken by 5%.",
+        "Recharge once every 10 seconds (maximum 3 recharges)"
+      ],
+      "spec": [
+        "Exclusive effect",
+        "Shooter - Twin Star: Restores HP of allies hit by Intelligence x 0.75",
+        "Shooter - Nanomachine Injection: Increases duration by 100% and grants debuff immunity."
+      ]
+    }
+  },
+  {
+    "id": "I0LM",
+    "name": "Illumination",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Staff)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Gate of Abyss": 1
+      },
+      {
+        "Harmonia, the Sparkle of Life": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Spirit of Damnation": 1
+      },
+      {
+        "Divine Lotus": 1
+      }
+    ],
+    "stats": {
+      "damage": 9000,
+      "int": 1000,
+      "hp": 3000,
+      "allaffinitypercent": 0.05,
+      "passive": [
+        "Activate revelation upon equipping",
+        "When casting the skill, reduce damage taken by allies within a 500 radius by 5% for 6 seconds and restore (Intelligence x 0.2) HP every 2 seconds.",
+        "When healing an ally, increase the target's skill damage by 17.5% for 8 seconds [Type-B]"
+      ],
+      "active": [
+        "Grants power upon use",
+        "Consumes 50 stacks upon use to increase the target's final damage by 10% and regenerate HP by 15% per second for 8 seconds.",
+        "Stacks recover by 1 every 1-0.7 seconds in proportion to the number of nearby friendly units (max 100)"
+      ]
+    }
+  },
+  {
+    "id": "I022",
+    "name": "Ordius, the Divine Lance",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Melee)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Spear of Judgment": 1
+      },
+      {
+        "Fulminata, the Bringer of Storms": 1
+      },
+      {
+        "Grim Scythe": 1
+      },
+      {
+        "Sunstone": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Divine Lotus": 1
+      }
+    ],
+    "stats": {
+      "damage": 13500,
+      "str": 1250,
+      "agi": 350,
+      "int": 1000,
+      "skilldamagepercent": 0.2,
+      "critmultiplier": 0.2,
+      "passive": [
+        "Charge Divine Power while moving",
+        "Charges when moving 5000 distance, and imprints Mark of Light for 6 seconds upon hitting a target while charged (Activation cooldown: 15 seconds)",
+        "Mark of Light: Amplifies skill damage dealt to the target by 14%, and upon 6 amplifications, strikes with lightning, dealing critical magic damage equal to Main Stat x 20."
+      ],
+      "active": [
+        "Activates Judgment of Light upon use",
+        "Drop the Spear of Judgment to deal critical magic damage equal to Main Stat x 30 and imprint the Mark of Light (Lightning strikes from an already imprinted Mark activate immediately)",
+        "Cooldown: 60 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I0LK",
+    "name": "Primal Shard",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Staff)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Endless Snow": 1
+      },
+      {
+        "Grim Scythe": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Lantern of Souls": 1
+      },
+      {
+        "Holy Thread": 1
+      }
+    ],
+    "stats": {
+      "damage": 10000,
+      "int": 1100,
+      "hp": 2000,
+      "skilldamagepercent": 0.15,
+      "affinityiwpercent": 0.15,
+      "affinitydarkpercent": 0.1,
+      "passive": [
+        "Eternal Frost activates upon 5 consecutive skill hits",
+        "Increases the damage of the next 5 skills dealt to the target by (Intelligence x 9) for 3 seconds.",
+        "Cooldown: 6 seconds"
+      ],
+      "active": [
+        "Activates Nightmare Shard when used",
+        "Slam down a Corrupted Shard, dealing Intelligence x 75 Magic Damage and amplifying skill damage dealt to the target by 15% for 8 seconds.",
+        "Cooldown: 60 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I026",
+    "name": "Soul Rift",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Bag)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Bag of Despair": 1
+      },
+      {
+        "Crimson Rose": 1
+      },
+      {
+        "Gown of Life": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Grim Scythe": 1
+      },
+      {
+        "Sunstone": 1
+      }
+    ],
+    "stats": {
+      "damage": 10500,
+      "str": 1000,
+      "skilldamagepercent": 0.2,
+      "drpercent": 0.1,
+      "affinityflamepercent": 0.05,
+      "passive": [],
+      "spec": [
+        "Exclusive effect",
+        "Merchant - Very Dangerous Backpack",
+        "It's not a bag decoration! (D) -> This bag is a bit dangerous! (D)",
+        "Throwable Healing Potion (W) -> Throw Bomb (W)",
+        "Throws a bomb that explodes after 30 seconds or upon colliding with an enemy or another bomb (maximum 10 can be placed).",
+        "Deals Strength x 7.5 magic damage on explosion and leaves a mark that deals Strength x 4 magic damage every 0.6 seconds for 3 seconds. Triggers chain explosions of nearby bombs, adding a 0.5 second stun and increasing damage by 75% (max 300%).",
+        "Life Shield Scroll (E) -> Soul Bomb (E)",
+        "Holy Water of Resurrection (T) -> Cursed Doll (T)"
+      ]
+    }
+  },
+  {
+    "id": "I0QI",
+    "name": "Soulrender",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Weapon (Shared)",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Heartrender": 1
+      },
+      {
+        "Grim Scythe": 1
+      },
+      {
+        "Sunstone": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Lantern of Souls": 1
+      }
+    ],
+    "stats": {
+      "damage": 13000,
+      "mainstat": 1150,
+      "attackspeedpercent": 0.35,
+      "skilldamagepercent": 0.125,
+      "passive": [
+        "When dealing damage to an enemy with less than 50% HP, Abyssal Threshold is activated.",
+        "Final damage increases by 17.5% for 5 seconds [Type-B]"
+      ],
+      "active": [
+        "Soul Render activates when used",
+        "Throws a spear at a target, marking them for 20 seconds and dealing 250,000 magic damage and stunning them for 1 second.",
+        "When a skill hits a marked target 5 times, it deals 30,000 magic damage and activates Soul Steal, increasing primary stat by 15 (can be activated up to 5 times per cast; stacks up to 30 times)",
+        "Deals 50% additional damage to elite and regular units.",
+        "If the marked target dies, the cooldown is reset and 10 stacks of Soul Steal are applied.",
+        "Cooldown: 20 seconds (minimum recast time: 10 seconds)"
+      ]
+    }
+  },
+  {
+    "id": "I02X",
+    "name": "Animus, the Robe of Souls",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Sanguis, the Robe of Sacrifice": 1
+      },
+      {
+        "Gown of Life": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Lantern of Souls": 1
+      },
+      {
+        "Holy Thread": 1
+      }
+    ],
+    "stats": {
+      "armor": 240,
+      "int": 650,
+      "movespeed": 50,
+      "skilldamagepercent": 0.2,
+      "passive": [
+        "Create a soul ring during battle",
+        "Creates 5 orbiting soul spheres to deal 7500 + Intelligence x 2 magic damage to enemies hit, and gains stacks if the target is a boss unit (maximum 20 stacks).",
+        "Intelligence 30 per stack, skill damage is amplified by 0.3%, and when reaching maximum stack, deals 40x Intelligence magic damage to nearby enemies, skill damage is amplified by an additional 6%, and the damage of the sphere is increased by 50% (stacks disappear after 6 seconds)"
+      ],
+      "active": [
+        "Adjust Soul Ring radius when used"
+      ]
+    }
+  },
+  {
+    "id": "I01Y",
+    "name": "Cage of Shadow Fiend",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Cage of Twisted Souls": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Lantern of Souls": 1
+      },
+      {
+        "Dew of Paradise": 1
+      }
+    ],
+    "stats": {
+      "armor": 300,
+      "allstat": 400,
+      "mdpercent": 0.1,
+      "affinitydarkpercent": 0.05,
+      "passive": [
+        "Activates Shadow Lord's Power upon equipping",
+        "Increases the stats of surrounding allies by 8% [Type-A] and increases damage received by surrounding enemies by 4% [Type-B]",
+        "Absorbs the energy of surrounding enemies every 3 seconds, dealing 40,000 magic damage and absorbing (3 + 1 X absorbed enemies) stacks (maximum 60 stacks)",
+        "Absorbs 6 stacks (normal enemy) / 15 stacks (ally hero or boss) when a unit dies nearby."
+      ],
+      "active": [
+        "Shadow Sweep activates when used",
+        "Consumes 60 stacks to inflict 300,000 magic damage to enemies in the target area and increase damage taken by 8% for 6 seconds [Type-B]"
+      ]
+    }
+  },
+  {
+    "id": "I02J",
+    "name": "Exsolus, the Armor of the Absolute",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Exitium, the Armor of Ruin": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Lantern of Souls": 1
+      },
+      {
+        "Holy Thread": 1
+      }
+    ],
+    "stats": {
+      "armor": 275,
+      "str": 200,
+      "agi": 575,
+      "skilldamagepercent": 0.18,
+      "critchancepercent": 0.15,
+      "passive": [
+        "Apply the Mark of the Absolute when attacking",
+        "Final damage inflicted on the target for 4 seconds increases by up to 10% in proportion to the target's lost HP.",
+        "Every 20th attack triggers a devastating blow, dealing 40,000 pure damage (attack hit)"
+      ],
+      "active": [
+        "Sanctuary is activated when HP falls below 20%",
+        "Ignore incoming damage and CC effects for 6 seconds",
+        "Upon expiration, deal pure damage equal to Agility x 60–120 proportional to the target's missing HP to enemies within a 1000 radius, and restore 100% of your HP.",
+        "Cooldown: 60 seconds"
+      ],
+      "spec": [
+        "Exclusive effect",
+        "Martial Artist - During the duration of Nameless Fist, damage taken is reduced by 20%, and you become immune to instant death attacks."
+      ]
+    }
+  },
+  {
+    "id": "I02F",
+    "name": "Guardian of Sky and Earth",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Harmony of Sky and Earth": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Spirit of Damnation": 1
+      },
+      {
+        "Dew of Paradise": 1
+      }
+    ],
+    "stats": {
+      "armor": 350,
+      "str": 550,
+      "agi": 250,
+      "int": 250,
+      "dtpercent": -0.12,
+      "passive": [
+        "Activates Heaven and Earth Protection when equipped",
+        "Regenerates 1% of HP per second for allies within an 800 radius, reduces damage taken by 4%, and increases final damage by (your magic defense + damage reduction rate) X 2%."
+      ],
+      "active": [
+        "Cosmos activates when used",
+        "For 5 seconds, restores 8% of HP per second to allies within an 800 radius, increases Magic Defense by 100%, and grants debuff immunity.",
+        "Cooldown: 75 seconds"
+      ],
+      "affinityearthpercent": 0.05
+    }
+  },
+  {
+    "id": "I02Y",
+    "name": "Herald of the Void",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Nevedium, the Armor of Demonblood": 1
+      },
+      {
+        "Gown of Life": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Sinister Skull": 1
+      },
+      {
+        "Divine Lotus": 1
+      }
+    ],
+    "stats": {
+      "armor": 240,
+      "agi": 550,
+      "movespeed": 50,
+      "skilldamagepercent": 0.18,
+      "passive": [
+        "Stacking Void Aura during battle",
+        "Stackable up to 100, gain 4 per second during combat, 1 per skill hit (Cooldown: 0.3 seconds)",
+        "Increases agility by 3 and HP by 40 per stack.",
+        "When stacked more than 50 times, skill damage is increased by 6% and HP regenerates by 2% per second."
+      ],
+      "active": [
+        "Abyss Break activates when used",
+        "Available when at least 50 stacks are available; lasts for (stacks / 10) seconds.",
+        "When activated, deals magic damage equal to 40–60 x Agility to enemies within the surrounding range in proportion to the stack and stuns them for 2 seconds.",
+        "Final damage increases by 8-12% for the duration in proportion to the number of stacks consumed.",
+        "Unable to acquire Void Energy for 5 seconds after expiration"
+      ]
+    }
+  },
+  {
+    "id": "I01W",
+    "name": "Plates of Dawn",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Titan's Plates": 1
+      },
+      {
+        "Sunstone": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Spirit of Damnation": 1
+      }
+    ],
+    "stats": {
+      "armor": 300,
+      "str": 600,
+      "skilldamagepercent": 0.2,
+      "passive": [
+        "Summon Moon Rune every 3 seconds",
+        "Reduces damage taken by 3% per summoned rune (maximum 5)",
+        "When an attack or skill hits, consumes 1 rune to activate Moonlight Fall.",
+        "Deals (12000 + Max HP X 1.5) magic damage to the target.",
+        "Increases strength by 70 and attack power by 500 for 10 seconds (maximum 5 stacks)",
+        "Activation Cooldown: 0.5 seconds"
+      ],
+      "active": [
+        "Activates Dawn's Resolve upon use",
+        "The Moon Rune is fixed at maximum for 5 seconds and skill damage is increased by 8%.",
+        "Become immune to CC effects while active",
+        "Cooldown: 30 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I01P",
+    "name": "Plates of Divine Blood",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Armor",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Plates of Sanguine Fury": 1
+      },
+      {
+        "Bloodseeker Plates": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Spirit of Damnation": 1
+      },
+      {
+        "Dew of Paradise": 1
+      }
+    ],
+    "stats": {
+      "armor": 300,
+      "allstat": 500,
+      "movespeed": 50,
+      "skilldamagepercent": 0.15,
+      "dtpercent": -0.1,
+      "passive": [
+        "Holy Blood activates upon skill casting",
+        "Deals magic damage equal to all stats x 4 per second to surrounding enemies for 3 seconds and regenerates 4% of HP and resources.",
+        "Cooldown: 5 seconds"
+      ],
+      "active": [
+        "Activates Holy Wrath upon use",
+        "Final damage increases by 10% for 6 seconds and Holy Blood is activated with 100% amplification.",
+        "Cooldown: 45 seconds"
+      ],
+      "allaffinitypercent": 0.05
+    }
+  },
+  {
+    "id": "I02G",
+    "name": "Celestial Crown",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Crown of Cleansing": 1
+      },
+      {
+        "Sunstone": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Lantern of Souls": 1
+      },
+      {
+        "Sinister Skull": 1,
+        "Spirit of Damnation": 1
+      }
+    ],
+    "stats": {
+      "armor": 150,
+      "allstat": 375,
+      "critchancepercent": 0.1,
+      "passive": [
+        "Grants beneficial effects when assisting allies",
+        "15% chance to grant Clear Mind upon healing - Recovers (HP x 2% + Intelligence x 0.15) and 1.4% MP per second for 5 seconds, increases skill damage by 10%",
+        "Grant Divine Power upon Debuff Removal - Increases Final Damage by 2% & Movement Speed by 30 for 5 seconds"
+      ],
+      "active": [
+        "When used, activates the Heavenly Voice",
+        "Removes debuffs from allies within a 900 range and grants Clearness for 10 seconds.",
+        "Cooldown: 75 seconds"
+      ],
+      "affinitywindpercent": 0.12,
+      "affinitywaterpercent": 0.08,
+      "affinitylightpercent": 0.08
+    }
+  },
+  {
+    "id": "I0ET",
+    "name": "Eye of Truth",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Gown of Life": 1
+      },
+      {
+        "Sunstone": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Spirit of Damnation": 1
+      }
+    ],
+    "stats": {
+      "armor": 175,
+      "allstat": 250,
+      "mainstat": 250,
+      "skilldamagepercent": 0.125,
+      "dtpercent": -0.05,
+      "passive": [
+        "Insight triggers when attacking",
+        "Increases Attack Power by 750 and Proc Damage by 5% for 3 seconds (Stacks up to 3 times; Activation Cooldown: 1 second)",
+        "Deals 3,000 additional damage when attacking at maximum stacks"
+      ],
+      "active": [
+        "Activates Mind's Eye when casting ultimate skill",
+        "Stack Insight to maximum for 6 seconds and increase Final Damage by 7.5% [Type-B]"
+      ]
+    }
+  },
+  {
+    "id": "I02L",
+    "name": "Frostmoon Crown",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Crown of Transcendance": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Blood Essence": 1
+      },
+      {
+        "Sinister Skull": 1
+      },
+      {
+        "Dew of Paradise": 1
+      }
+    ],
+    "stats": {
+      "armor": 165,
+      "allstat": 400,
+      "skilldamagepercent": 0.2,
+      "hp": 1500,
+      "mp": 1500,
+      "passive": [
+        "When a skill hits, there is a chance that Dark Frost will be activated.",
+        "Deals 45,000 magic damage to the target and nearby enemies, and restores 4% of your resources.",
+        "Cooldown: 2.5 seconds"
+      ],
+      "active": [
+        "Dark Eclipse activates when used",
+        "Increases all stats by 400 and skill damage by 15% for 10 seconds.",
+        "While active, become immune to CC effects, double the chance of Dark Frost activating, and reduce its cooldown by 50%.",
+        "Cooldown: 60 seconds / Cooldown decreases by 3 seconds each time Dark Frost is activated"
+      ],
+      "affinitydarkpercent": 0.05,
+      "affinitywaterpercent": 0.125
+    }
+  },
+  {
+    "id": "I030",
+    "name": "Madness of Old Gods",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Mask of Demigod": 1
+      },
+      {
+        "Grim Scythe": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Dew of Paradise": 1
+      }
+    ],
+    "stats": {
+      "armor": 150,
+      "agi": 550,
+      "hp": 2000,
+      "skilldamagepercent": 0.15,
+      "critmultiplier": 0.15,
+      "passive": [
+        "Destruction triggers when a skill critically hits",
+        "Deals 70,000 additional damage and recovers 3% HP.",
+        "1 charge every 3 seconds (maximum 3 charges)"
+      ],
+      "active": [
+        "Activates Oath of Destruction when used",
+        "For 10 seconds, primary stats increase by 300, critical multiplier by 0.25x, and movement speed by 150.",
+        "When casting a skill, stat gain increases by 10% and Ruin gains 1 charge (maximum 10 charges)",
+        "Cooldown: 30 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I02K",
+    "name": "Righteous Flame",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Headwear",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Crown of Cataclysm": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Lantern of Souls": 1
+      },
+      {
+        "Divine Lotus": 1
+      }
+    ],
+    "stats": {
+      "armor": 180,
+      "allstat": 450,
+      "skilldamagepercent": 0.15,
+      "attackspeedpercent": 0.1,
+      "active": [
+        "Activates Holy Fire upon use",
+        "Consumes 50% of current HP.",
+        "For 15 seconds, all stats increase by 1.5% of consumed HP (Main Stat by 2%) and Fire Affinity increases by 10%.",
+        "When dealing magic damage while active, envelops the target in flames, dealing 15,000 additional magic damage and stacking Holy Fire (Cooldown: 0.75 sec).",
+        "Holy Fire: Skill damage increases by 1%, Fire/Light Affinity increases by 0.3% (stacks up to 10 times).",
+        "Upon reuse, deals Main Stat x 40-60 magic damage to the target area (proportional to the number of Holy Fire stacks). Can only be activated once during duration.",
+        "Cooldown: 30 seconds"
+      ],
+      "affinityflamepercent": 0.1,
+      "affinitylightpercent": 0.05
+    }
+  },
+  {
+    "id": "I02C",
+    "name": "Celestial Wind",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Ring of Divine Winds": 1
+      },
+      {
+        "Ring of Malevolence": 1
+      },
+      {
+        "Twisted Fragment of Ruins": 1
+      },
+      {
+        "Sinister Skull": 1,
+        "Spirit of Damnation": 1
+      },
+      {
+        "Holy Thread": 1
+      }
+    ],
+    "stats": {
+      "mainstat": 700,
+      "attackspeedpercent": 0.4,
+      "skilldamagepercent": 0.15,
+      "critmultiplier": 0.25,
+      "passive": [
+        "Heavenly Wind activates upon skill casting",
+        "For 1.5 seconds, primary stat increases by 200, movement speed increases slightly, and when a skill hits, there is a 25% chance to inflict 20% additional damage.",
+        "(7.5 X skill coefficient)% chance to reset the cooldown of the skill"
+      ],
+      "active": [
+        "Activates Wind Blessing when used",
+        "Teleport to the target location and remove debuffs on yourself.",
+        "Cooldown: 30 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I031",
+    "name": "Codex of Light",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Bell of Divinity": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Spirit of Damnation": 1
+      },
+      {
+        "Divine Lotus": 1
+      }
+    ],
+    "stats": {
+      "allstat": 525,
+      "movespeed": 50,
+      "passive": [
+        "Hope is activated when a skill hits an ally",
+        "Lasts 12 seconds on a single effect hit, 1.5 seconds on a recovery effect hit",
+        "Increases target's skill damage by 12% and primary stat by 210.",
+        "Increases all your Affinities by 0.6% for each ally affected by Hope (excluding yourself) (maximum 5 stacks)"
+      ],
+      "active": [
+        "Activates Salvation upon use",
+        "Removes debuffs from allies affected by hope and recovers HP by 50%",
+        "Reduces damage taken by 20% for 5 seconds and temporarily increases movement speed.",
+        "Cooldown: 30 seconds"
+      ],
+      "affinitylightpercent": 0.1,
+      "affinitywindpercent": 0.05
+    }
+  },
+  {
+    "id": "I037",
+    "name": "Dark Lotus",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Ring of Despair": 1
+      },
+      {
+        "Seal of Corruption": 1
+      },
+      {
+        "Divine Lotus": 1
+      },
+      {
+        "Sinister Skull": 1
+      },
+      {
+        "Ancient Tome": 1
+      }
+    ],
+    "stats": {
+      "allstat": 500,
+      "mpregen": 35,
+      "affinitydarkpercent": 0.05,
+      "passive": [
+        "Activates Seed of Darkness upon hitting with a single skill",
+        "Increases magic damage received by 5% for 10 seconds [Type-B] Deals 2.5x primary stat magic damage per second."
+      ],
+      "active": [
+        "Activates Night's Full Bloom upon use",
+        "Deals Main Stat x 30 pure damage to enemies afflicted with Seed of Darkness and stuns them for 2 seconds.",
+        "For 5 seconds, the Seed of Darkness is strengthened, increasing the target's magic damage taken by 11% and doubling the damage and damage cycle.",
+        "Cooldown: 30 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I024",
+    "name": "Godslayer Signet",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Crimson Curse": 1
+      },
+      {
+        "Dew of Paradise": 1
+      },
+      {
+        "Lantern of Souls": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Aegis of Earth": 1
+      }
+    ],
+    "stats": {
+      "str": 575,
+      "agi": 550,
+      "periodicdamagepercent": 0.4,
+      "healreceivedpercent": -0.4,
+      "passive": [
+        "Activates the End of the Gods with a chance on attack",
+        "Activates with a 20% chance",
+        "Attack power increases by 11000 for 7.5 seconds, and primary stat and HP regeneration rate increase by 600.",
+        "The next 3 attacks, and every 6th attack thereafter, inflicts additional pure damage equal to 125% of the attack power and applies the Mark of the Godslayer for 5 seconds (maximum 7 activations/stacks)",
+        "The next hit that deals more than 300,000 base damage consumes a mark and increases damage by 3% per stack (when activated, the mark does not stack further for the duration of the passive)",
+        "Cooldown: 15 seconds"
+      ],
+      "active": [
+        "Activates Blasphemed Hymn upon use",
+        "Consumes 75% of current HP to instantly activate the End of the Gods.",
+        "Cooldown: 60 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I01A",
+    "name": "Primal Flame",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Star of Apotheosis": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Divine Lotus": 1
+      },
+      {
+        "Spirit of Damnation": 1
+      },
+      {
+        "Essence of Earth": 1
+      }
+    ],
+    "stats": {
+      "allstat": 550,
+      "attackspeedpercent": 0.25,
+      "skilldamagepercent": 0.15,
+      "affinityflamepercent": 0.05,
+      "passive": [
+        "Acquire Primordial Flame upon casting skill",
+        "Increases skill damage by 2.5% and continuous damage by 2.5% for 6 seconds (stacks up to 4 times)"
+      ],
+      "active": [
+        "Release the Primordial Flame upon use",
+        "All stats increase by an additional (200 + 50 X stack) for 6 seconds, and when the skill hits 5 times, it deals 12.5 magic damage X the main stat (can be activated as many times as the number of stacks)",
+        "Stack is initialized upon expiration",
+        "Cooldown: 15 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I03A",
+    "name": "Primordial Heart",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Heart of Life": 1
+      },
+      {
+        "Sunstone": 1
+      },
+      {
+        "Lantern of Souls": 1
+      },
+      {
+        "Arcane Core": 1
+      },
+      {
+        "Essence of Earth": 1
+      }
+    ],
+    "stats": {
+      "mainstat": 600,
+      "hp": 2500,
+      "attackspeedpercent": 0.15,
+      "affinitywaterpercent": 0.05,
+      "affinityearthpercent": 0.1,
+      "passive": [
+        "Enhance nearby allies with primordial energy",
+        "Increases attack power by 0.7 (maximum 3000) and attack speed by 25%",
+        "When an ally recovers, increases the target's skill damage by 1.5% and All Affinity by 0.3% for 3 seconds (stacks up to 5 times)"
+      ],
+      "active": [
+        "Activates Healing Pulse upon use",
+        "Restores 6% of the target's HP and removes debuffs every 0.5 seconds for 3 seconds.",
+        "The target's HP will not drop below 1 during the duration.",
+        "Cooldown: 15 seconds (Maximum 2 charges)"
+      ]
+    }
+  },
+  {
+    "id": "I023",
+    "name": "Sunstone",
+    "dropped_by": [
+      "Lightbringer Kamael"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Accessory",
+    "color": "733CBE",
+    "level": 100,
+    "required_by": [
+      "Ordius, the Divine Lance",
+      "Soul Rift",
+      "Soulrender",
+      "Plates of Dawn",
+      "Celestial Crown",
+      "Eye of Truth",
+      "Cape of the Saint",
+      "Primordial Heart"
+    ],
+    "recipe": [
+      {
+        "Kamael's Soulstone": 2
+      }
+    ],
+    "stats": {
+      "allstat": 450,
+      "skilldamagepercent": 0.1,
+      "attackspeedpercent": 0.2,
+      "passive": [
+        "Sun's Blessing activates upon death",
+        "Resurrect after 3 seconds",
+        "Cooldown: 180 seconds"
+      ],
+      "active": [
+        "Sun's Blessing activates upon use",
+        "Increases main stats by 150-450 for 15 seconds in proportion to lost HP, and recovers 60% of lost HP.",
+        "Cooldown: 30 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I00Z",
+    "name": "Aegis of Avalon",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Guardian Angel": 1
+      },
+      {
+        "Emblem of Sacrifice": 1
+      },
+      {
+        "Aegis of Earth": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Sinister Skull": 1
+      },
+      {
+        "Holy Thread": 1
+      }
+    ],
+    "stats": {
+      "allstat": 425,
+      "mdpercent": 0.1,
+      "affinityearthpercent": 0.05,
+      "affinitylightpercent": 0.05,
+      "passive": [
+        "Light Reverberation activates when equipped",
+        "Nearby allies' stats increase by 160 + 4% [Type-A]",
+        "When an ally recovers, the target's skill damage increases by 4% for 5 seconds."
+      ],
+      "active": [
+        "Activates Guardian Angel when used",
+        "Transform into a spirit of light for 4 seconds, allowing you to fly quickly and reducing damage taken by 75%.",
+        "Heals nearby allies for 4,000 HP and grants a shield that absorbs 4,000 damage for 5 seconds, and heals an additional 1,000 HP every 2 seconds for 6 seconds.",
+        "Transformation is canceled when casting other skills.",
+        "Cooldown: 30 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I032",
+    "name": "Cape of the Saint",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Wings of Immortal": 1
+      },
+      {
+        "Heirloom of Lazarus": 1
+      },
+      {
+        "Sunstone": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Ancient Tome": 1
+      },
+      {
+        "Spirit of Damnation": 1
+      }
+    ],
+    "stats": {
+      "mainstat": 500,
+      "hp": 2000,
+      "allaffinitypercent": 0.05,
+      "passive": [
+        "Activates the power of the saint when equipped",
+        "Skill damage increases by 10%, damage taken decreases by 15% [Type-A], movement speed increases by 75",
+        "When HP drops below 1, Saint's Blessing is activated, regenerating 40% HP per second for 5 seconds and blocking harmful effects except instant death (Cooldown: 180 seconds)"
+      ],
+      "active": [
+        "Devotion activates upon use",
+        "Grants the target the Saint's Power effect",
+        "The cooldown of Saint's Blessing is shared, and the effect is removed if reused on yourself or if the target moves more than 3000 distance away.",
+        "Cooldown: 15 seconds (cannot be changed while Saint's Blessing is on cooldown)"
+      ]
+    }
+  },
+  {
+    "id": "I02Z",
+    "name": "Coil of Ouroboros",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Wings of Cosmos": 1
+      },
+      {
+        "Ring of Eternity": 1
+      },
+      {
+        "Mask of Truth": 1
+      },
+      {
+        "Sinister Skull": 1
+      },
+      {
+        "Dew of Paradise": 1
+      }
+    ],
+    "stats": {
+      "allstat": 450,
+      "attackspeedpercent": 0.15,
+      "skilldamagepercent": 0.2,
+      "movespeed": 50,
+      "passive": [
+        "Chance to trigger regression when casting a skill",
+        "Activates with a 6% chance, resets all skill cooldowns except for the ultimate after 2 seconds, and restores 100% of HP and resources.",
+        "Cooldown: 90 seconds"
+      ],
+      "active": [
+        "Activates Infinite Ring when used",
+        "Increases primary stat by 250 for 10 seconds, increases skill damage by 5%",
+        "When casting a skill while in effect, the effect is amplified by (15 X skill coefficient)% up to 100%, and when the maximum is reached, resources are recovered by 33%.",
+        "Cooldown: 30 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I02H",
+    "name": "Void Seraph",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Wings of Sacred Provenance": 1
+      },
+      {
+        "Blood Devourer": 1
+      },
+      {
+        "Sinister Skull": 1
+      },
+      {
+        "Holy Thread": 1
+      }
+    ],
+    "stats": {
+      "mainstat": 550,
+      "hp": 2000,
+      "attackspeedpercent": 0.15,
+      "skilldamagepercent": 0.15,
+      "affinityflamepercent": 0.1,
+      "affinitydarkpercent": 0.05,
+      "passive": [
+        "Dark Flame activates when skill hits",
+        "Deals 15,000 additional damage, increases fire Affinity by 1%, debuff skill effectiveness by 3%, and MP regeneration rate by 5 for 3 seconds (stacks up to 5 times)",
+        "Cooldown: 0.4 seconds"
+      ],
+      "active": [
+        "Activates Empty Prayer when used",
+        "Removes debuffs on yourself",
+        "Damage taken is reduced by 75% for 1.5 seconds, CC effects are ignored, and movement speed increases.",
+        "Cooldown: 30 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I010",
+    "name": "Wings of Descender",
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Wings",
+    "color": "733CBE",
+    "level": 100,
+    "recipe": [
+      {
+        "Cape of Insatiable Hunger": 1
+      },
+      {
+        "Ruler of the Skies": 1
+      },
+      {
+        "Soul Blossom": 1
+      },
+      {
+        "Essence of Earth": 1
+      },
+      {
+        "Lantern of Souls": 1
+      },
+      {
+        "Divine Lotus": 1
+      }
+    ],
+    "stats": {
+      "damage": 4000,
+      "allstat": 350,
+      "movespeed": 50,
+      "skilldamagepercent": 0.15,
+      "mdpercent": 0.075,
+      "passive": [
+        "Activate the power of the descendant when moving 500 distances",
+        "Increases proc damage by 5% and deals (Attack Power X 0.4 + Primary Stat X 5) pure damage on the next attack (Minimum cooldown: 0.1 sec)",
+        "The buff deactivates 4 seconds after the attack."
+      ],
+      "active": [
+        "Transcendence activated when used",
+        "Increases final damage by 10% and movement speed for 8 seconds.",
+        "The power of the descendant is activated and the gauge continues to fill up, and the next 3 strengthened attacks become area attacks and inflict 300% additional damage.",
+        "Cooldown: 60 seconds"
+      ]
+    }
+  },
+  {
+    "id": "I02P",
+    "name": "Dew of Paradise",
+    "dropped_by": [
+      "Lightbringer Kamael"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "level": 100,
+    "droprate": 0.006,
+    "required_by": [
+      "Apocalypse Prime",
+      "Heaven's Fall",
+      "Cage of Shadow Fiend",
+      "Guardian of Sky and Earth",
+      "Plates of Divine Blood",
+      "Frostmoon Crown",
+      "Madness of Old Gods",
+      "Coil of Ouroboros",
+      "Godslayer Signet"
+    ],
+    "recipe": [
+      {
+        "Kamael's Soulstone": 2
+      }
+    ]
+  },
+  {
+    "id": "I02O",
+    "name": "Divine Lotus",
+    "dropped_by": [
+      "Lightbringer Kamael"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "level": 100,
+    "droprate": 0.006,
+    "required_by": [
+      "Bag of Sentience",
+      "Illumination",
+      "Ordius, the Divine Lance",
+      "Herald of the Void",
+      "Righteous Flame",
+      "Codex of Light",
+      "Wings of Descender",
+      "Dark Lotus",
+      "Primal Flame"
+    ],
+    "recipe": [
+      {
+        "Kamael's Soulstone": 2
+      }
+    ]
+  },
+  {
+    "id": "I02N",
+    "name": "Holy Thread",
+    "dropped_by": [
+      "Lightbringer Kamael"
+    ],
+    "rank": "[Epic]",
+    "grade": 5,
+    "type": "Material",
+    "color": "733CBE",
+    "level": 100,
+    "droprate": 0.006,
+    "required_by": [
+      "Crimson Whisper",
+      "Heart of Lion",
+      "Primal Shard",
+      "Animus, the Robe of Souls",
+      "Exsolus, the Armor of the Absolute",
+      "Celestial Wind",
+      "Aegis of Avalon",
+      "Void Seraph"
+    ],
+    "recipe": [
+      {
+        "Kamael's Soulstone": 2
+      }
     ]
   }
 ]
